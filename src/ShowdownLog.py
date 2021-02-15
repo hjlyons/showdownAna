@@ -12,9 +12,12 @@ class ShowdownLog:
         
         # To avoid usernames overlapping with string comparisons, set them to default $PLAYER1$ and $PLAYER2$
         username_list = [line.split("☆")[-1] for line in raw_lines if "|j|☆" in line]
-        assert len(username_list) == 2        
-        raw_lines = [l.replace(username_list[0], "$PLAYER1$") for l in raw_lines]
-        raw_lines = [l.replace(username_list[1], "$PLAYER2$") for l in raw_lines]
+        username1 = [line.split("|player|p1|")[-1].split("|")[0] for line in raw_lines if "|player|p1|" in line][0]
+        username2 = [line.split("|player|p2|")[-1].split("|")[0] for line in raw_lines if "|player|p2|" in line][0]
+        assert (username1 and username2)
+
+        raw_lines = [l.replace(username1, "$PLAYER1$") for l in raw_lines]
+        raw_lines = [l.replace(username2, "$PLAYER2$") for l in raw_lines]
         self.log_lines = raw_lines
 
         # Useful line_index within the logfile
