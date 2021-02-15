@@ -1,25 +1,20 @@
 #!/usr/bin/env python3
 
 from src.Trainer import Trainer
+from src.ShowdownLog import ShowdownLog
 
 def main():
-    michael = Trainer("Michael", ["Bulba", "Squirt", "Char"])
-    harry   = Trainer("Harry", ["Pika", "Jiggly", "Mankey"])
+    team1 = [] 
+    team2 = []
+    dummy_log = ShowdownLog("example_logs/1038904108.txt")
+    team1, team2 = dummy_log.get_initialteams()
 
-    # move 1
-    michael.attack("Bulba", harry, "Pika")
-    
-    # test fainting feature
-    print("~"*5, "Team before turn")
-    for pokemon in michael.team:
-        print(pokemon)
-
-    michael.team["Bulba"].take_damage(120)
-    michael.check_faints()
-
-    print("~"*5, "Team after turn")
-    for pokemon in michael.team:
-        print(pokemon)
+    player1 = Trainer("Player1", team1)
+    player2 = Trainer("Player2", team2)
+   
+    # fake turn 1
+    player1.attack("Corsola-Galar", player2, "Dragapult", 120)
+    player1.check_faints()
 
 
 if __name__ == "__main__":
