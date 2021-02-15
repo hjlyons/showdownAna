@@ -72,12 +72,7 @@ class ShowdownLog:
 
     def get_turnlines(self,turn_number=1):
         """ 
-        Returns Starting Pokemon for Player1 and Player2 
-        |start
-        |switch|p1a: Ferrothorn|Ferrothorn, M|100/100
-        |switch|p2a: Shuckle|Shuckle, M|100/100
-        |turn|1
-        Should be the 2 lines between start_index and turn_indexlist[0]
+        Returns all logfile lines for a given turn, in their original formatting
         """
 
         if turn_number < 1:
