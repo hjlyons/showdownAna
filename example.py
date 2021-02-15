@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
-from src.Trainer import Trainer
 from src.ShowdownLog import ShowdownLog
+from src.Trainer import Trainer
+from src.Battle import Battle
 
 def main():
     # read in the intial team lists for players 1 and 2
@@ -11,18 +12,14 @@ def main():
     # initialise each player with their respective teams
     player1 = Trainer("Player1", team1)
     player2 = Trainer("Player2", team2)
-   
-    # fake turn 1
-    player2.team["Dragapult"].take_damage(120)
-    player1.team["Ditto"].take_damage(120)
-    player2.team["Tyranitar"].take_damage(120)
-    
-    # check if any poke's died
-    player1.check_faints()
-    player2.check_faints()
+
+    battle = Battle(player1, player2)
+    battle.process_turn(["attack", player2, "Dragapult", 50], ["heal", player2, "Dragapult", 50])
+    battle.end_turn()
 
     print("", repr(player1), "\n", repr(player2))
-    
+    return
+   
 
 if __name__ == "__main__":
     main()
