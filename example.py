@@ -14,12 +14,14 @@ def main():
    
     # fake turn 1
     player2.team["Dragapult"].take_damage(120)
+    player1.team["Ditto"].take_damage(120)
+    player2.team["Tyranitar"].take_damage(120)
     
     # check if any poke's died
     player1.check_faints()
     player2.check_faints()
 
-    print(repr(player1), "\n", repr(player2))
+    print("", repr(player1), "\n", repr(player2))
     
 
 if __name__ == "__main__":
