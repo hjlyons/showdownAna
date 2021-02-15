@@ -2,6 +2,40 @@
 """
 TODO: If Increased performance needed, may convert string checks into regex
 """
+def parse_turnline(in_line):
+    print(in_line)
+    if "fail" in in_line:
+        return None
+    if "Substitute" in in_line:
+        return None
+
+    if (("damage" not in in_line) and ("heal" not in in_line)):
+        return None
+
+
+    # Remove additional information from items etc..
+    if "|[from]" in in_line:
+        in_line = in_line.split("|[from]")[0]
+    if "|[silent]" in in_line:
+        in_line = in_line.split("|[silent]")[0]
+
+    if "p1a" in in_line:
+        player="Player1"
+    else:
+        player="Player2"
+
+    pokemon = in_line.split(": ")[-1].split("|")[0]
+
+    hp_string = in_line.split("|")[-1]
+    if "fnt" in hp_string:
+        hp = 0
+    elif "/" in hp_string:
+        hp = int(hp_string.split("/")[0])
+    else:
+        hp = int(hp_string)
+
+    return[player, pokemon, hp]
+
 
 class ShowdownLog:
     def __init__(self, infile):
@@ -18,13 +52,25 @@ class ShowdownLog:
         raw_lines = [l.replace(username2, "$PLAYER2$") for l in raw_lines]
         self.log_lines = raw_lines
 
-        # Defining useful line_index within the logfile
-        self.start_index = [i for i, line in enumerate(self.log_lines) if "|start" in line][0]
-        self.win_index = [i for i, line in enumerate(self.log_lines) if "|win|" in line][0]
-        self.turn_indexlist = [i for i, line in enumerate(self.log_lines) if "|turn|" in line]
-        assert len(self.turn_indexlist) > 0
-
+        # Initial setting of variables, need to check for emptiness after initialising
         self.teampreview_indexlist = [i for i, line in enumerate(self.log_lines) if "|poke|p" in line]
+        self.start_index = None
+        self.win_index = None
+        self.turn_indexlist = None
+        self.nturns = 0
+
+        start_indexlist = [i for i, line in enumerate(self.log_lines) if "|start" in line]
+        win_indexlist = [i for i, line in enumerate(self.log_lines) if "|win|" in line]
+        turn_indexlist = [i for i, line in enumerate(self.log_lines) if "|turn|" in line]
+
+        if start_indexlist:
+            self.start_index = [i for i, line in enumerate(self.log_lines) if "|start" in line][0]
+        if win_indexlist:
+            self.win_index = [i for i, line in enumerate(self.log_lines) if "|win|" in line][0]
+        if turn_indexlist:
+            self.turn_indexlist = [i for i, line in enumerate(self.log_lines) if "|turn|" in line]
+            self.nturns = len(self.turn_indexlist)
+
 
     def print_indexvals(self):
         """ 
@@ -83,3 +129,25 @@ class ShowdownLog:
         turn_lines = [self.log_lines[i] for i in range(self.turn_indexlist[turn_number-1], self.turn_indexlist[turn_number])]
         
         return turn_lines
+
+    def get_turn_actions(self,turn_number=1):
+        """ 
+        Returns all logfile lines for a given turn, in their original formatting
+        """
+
+        if turn_number < 1:
+            return []
+        if turn_number > self.nturns:
+            return []
+        
+        if turn_number < self.nturns:
+            turn_lines = [self.log_lines[i] for i in range(self.turn_indexlist[turn_number-1], self.turn_indexlist[turn_number])]
+        else:
+            turn_lines = [self.log_lines[i] for i in range(self.turn_indexlist[turn_number-1], self.win_index)]
+
+        actions = []
+        for t in turn_lines:
+            actions.append(parse_turnline(t))
+        actions = [a for a in actions if a != None]
+        
+        return actions
