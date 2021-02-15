@@ -9,22 +9,10 @@ class Pokemon:
         self.name = name
         self.health = 100
 
-    def take_damage(self, lost): 
+    def change_health(self, new_health): 
         """
-        When a pokemon is attacked, subtract that
-        much health. If health < 0 then the Pokemon
-        has fainted, so set health to zero. Can then
-        check if health == 0 in Trainer class.
+        Change the health of a pokemon
+        to whatever it was at the end of the turn.
+        This applies to both heals and damage.
         """
-        self.health = self.health - lost
-        if self.health < 0: 
-            self.health = 0
-    
-    def apply_heal(self, healed): 
-        """
-        A pokemon used a healing move.
-        Max health is 100.
-        """
-        self.health = self.health + healed
-        if self.health > 100: 
-            self.health = 100
+        self.health = new_health

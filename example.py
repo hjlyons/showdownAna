@@ -17,10 +17,11 @@ def main():
     battle = Battle(player1, player2)
 
     turnlines = []
-    turnlines.append([["damage", player2, "Dragapult", 50], ["heal", player2, "Dragapult", 50]])
+    turnlines.append([[player2, "Dragapult", 50], [player2, "Dragapult", 100]])
     for line in turnlines: 
         battle.process_turn(line[0], line[1])
 
+    print(player2.team["Dragapult"].health)
     print("", repr(player1), "\n", repr(player2))
    
 
