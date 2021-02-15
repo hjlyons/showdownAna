@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from src.LogParse import ShowdownLog
+from src.ShowdownLog import ShowdownLog
 import glob
 
 def main():
