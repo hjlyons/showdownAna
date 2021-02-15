@@ -11,9 +11,14 @@ class Trainer:
 
     def __repr__(self):
         team = ",".join([x for x in self.team])
-        return "Player %s team: %s" % (self.name, team)
+        return "Player: %s Team: %s (%i)" % (self.name, team, len(self.team))
 
     def check_faints(self): 
+        """
+        At the end of each turn, check if any pokemon 
+        have zero health. If they do remove them from 
+        the (self.) team.
+        """
         dead = []
         for pokemon in self.team:
             if self.team[pokemon].health == 0: 
