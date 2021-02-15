@@ -13,9 +13,14 @@ def main():
     player2 = Trainer("Player2", team2)
    
     # fake turn 1
-    player1.attack("Corsola-Galar", player2, "Dragapult", 120)
+    player2.team["Dragapult"].take_damage(120)
+    
+    # check if any poke's died
     player1.check_faints()
+    player2.check_faints()
 
+    print(repr(player1), "\n", repr(player2))
+    
 
 if __name__ == "__main__":
     main()
