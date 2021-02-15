@@ -16,11 +16,10 @@ def main():
     # initialise the battle
     battle = Battle(player1, player2)
 
-    # process the turn, each list is the list of actions
-    battle.process_turn(["attack", player2, "Dragapult", 50], ["heal", player2, "Dragapult", 50])
-    
-    # end turn and see if anyone fainted
-    battle.end_turn()
+    turnlines = []
+    turnlines.append([["damage", player2, "Dragapult", 50], ["heal", player2, "Dragapult", 50]])
+    for line in turnlines: 
+        battle.process_turn(line[0], line[1])
 
     print("", repr(player1), "\n", repr(player2))
    

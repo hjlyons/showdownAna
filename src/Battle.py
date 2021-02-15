@@ -23,6 +23,9 @@ class Battle:
         elif action2[0] == "heal": 
             self.heal(action2[1], action2[2], action2[3])
 
+        # check if anyone fainted
+        self.trainer1.check_faints()
+        self.trainer2.check_faints()
 
     def damage(self, trainer, pokemon, damage):
         """
@@ -36,11 +39,3 @@ class Battle:
         If a pokemon used a healing move, increase health.
         """
         trainer.team[pokemon].apply_heal(health)
-
-
-    def end_turn(self): 
-        """
-        Check if anyone fainted.
-        """
-        self.trainer1.check_faints()
-        self.trainer2.check_faints()
