@@ -48,10 +48,7 @@ class ShowdownLog:
         poke_lines = [self.log_lines[i] for i in self.teampreview_indexlist]
         team_player1 = [p.split("|p1|")[-1].split("|")[0].split(",")[0] for p in poke_lines if "p1" in p]
         team_player2 = [p.split("|p2|")[-1].split("|")[0].split(",")[0] for p in poke_lines if "p2" in p]
-
-        print("Player1: ", team_player1)
-        print("Player2: ", team_player2)
-
+        
         return team_player1, team_player2
 
 
@@ -69,5 +66,24 @@ class ShowdownLog:
 
         pokemon_player1 = [p.split("|")[3].split("|")[0].split(",")[0] for p in poke_lines if "|switch|p1a" in p][0]
         pokemon_player2 = [p.split("|")[3].split("|")[0].split(",")[0] for p in poke_lines if "|switch|p2a" in p][0]
+
+        return pokemon_player1, pokemon_player2
+
+
+    def get_turnlogs(self,turn_number=1):
+        """ 
+        Returns Starting Pokemon for Player1 and Player2 
+        |start
+        |switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+        |switch|p2a: Shuckle|Shuckle, M|100/100
+        |turn|1
+        Should be the 2 lines between start_index and turn_indexlist[0]
+        """
+
+        turn_lines = [self.log_lines[i] for i in range(self.turn_indexlist[turn_number-1], self.turn_indexlist[turn_number])]
+        print(turn_number)
+        for t in turn_lines:
+            print(t)
+
 
         return pokemon_player1, pokemon_player2
