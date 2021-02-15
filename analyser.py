@@ -21,7 +21,6 @@ def main():
     for line in turnlines: 
         battle.process_turn(line[0], line[1])
 
-    print(player2.team["Dragapult"].health)
     print("", repr(player1), "\n", repr(player2))
    
 
