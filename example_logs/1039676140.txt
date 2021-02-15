@@ -1,0 +1,372 @@
+|ScrapeTime|2020-01-02-14:56:34
+|j|☆cukitest
+|j|☆ItzVassilon
+|player|p1|cukitest|2|1509
+|player|p2|ItzVassilon|barry|1511
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Snorlax, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Jellicent, M|
+|poke|p1|Crawdaunt, M|
+|poke|p1|Kommo-o, F|
+|poke|p1|Hatterene, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Weavile, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Chandelure, F|
+|poke|p2|Hippowdon, F|
+|poke|p2|Milotic, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ItzVassilon)
+|j| Balandrick
+|
+|start
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|switch|p2a: Mandibuzz|Mandibuzz, F, shiny|100/100
+|turn|1
+|
+|move|p2a: Mandibuzz|Knock Off|p1a: Crawdaunt
+|-resisted|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|85/100
+|-enditem|p1a: Crawdaunt|Life Orb|[from] move: Knock Off|[of] p2a: Mandibuzz
+|move|p1a: Crawdaunt|Knock Off|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|78/100
+|-enditem|p2a: Mandibuzz|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Crawdaunt
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Mandibuzz|U-turn|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|56/100
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F, shiny|100/100|[from]move: U-turn
+|move|p1a: Crawdaunt|Liquidation|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|79/100
+|-damage|p1a: Crawdaunt|43/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|85/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|76/100
+|
+|-heal|p1a: Hatterene|82/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|j| jeffplaypokemon
+|l| jeffplaypokemon
+|
+|switch|p2a: Chandelure|Chandelure, F, shiny|100/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Chandelure
+|-start|p2a: Chandelure|ability: Flash Fire
+|
+|-heal|p1a: Hatterene|88/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Snorlax 2.4.7|Snorlax, F|100/100
+|move|p2a: Chandelure|Fire Blast|p1a: Snorlax 2.4.7
+|-damage|p1a: Snorlax 2.4.7|71/100
+|
+|-heal|p1a: Snorlax 2.4.7|77/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|j| jeffplaypokemon
+|
+|-end|p2a: Chandelure|ability: Flash Fire|[silent]
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Snorlax 2.4.7|Darkest Lariat|p2a: Hippowdon
+|-damage|p2a: Hippowdon|86/100
+|-damage|p1a: Snorlax 2.4.7|60/100|[from] item: Rocky Helmet|[of] p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Snorlax 2.4.7|54/100|[from] Sandstorm
+|-heal|p1a: Snorlax 2.4.7|60/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Excadrill 2.4.7|Excadrill, F|100/100
+|-ability|p1a: Excadrill 2.4.7|Mold Breaker
+|-item|p1a: Excadrill 2.4.7|Air Balloon
+|move|p2a: Hippowdon|Stealth Rock|p1a: Excadrill 2.4.7
+|-sidestart|p1: cukitest|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: Excadrill 2.4.7|Stealth Rock|p2a: Hippowdon
+|-sidestart|p2: ItzVassilon|move: Stealth Rock
+|move|p2a: Hippowdon|Whirlwind|p1a: Excadrill 2.4.7
+|drag|p1a: Jellicent|Jellicent, M|100/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|82/100|[from] Sandstorm
+|upkeep
+|turn|9
+|l| Balandrick
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F, shiny|78/100
+|-damage|p2a: Mandibuzz|53/100|[from] Stealth Rock
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|76/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Mandibuzz
+|-status|p2a: Mandibuzz|brn
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100 brn
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-weather|none
+|-damage|p2a: Mandibuzz|94/100 brn|[from] brn
+|upkeep
+|turn|11
+|inactive|cukitest has 120 seconds left.
+|
+|move|p1a: Jellicent|Strength Sap|p2a: Mandibuzz
+|-unboost|p2a: Mandibuzz|atk|1
+|-heal|p1a: Jellicent|100/100
+|move|p2a: Mandibuzz|Knock Off|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|89/100
+|-enditem|p1a: Jellicent|Zoom Lens|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|-damage|p2a: Mandibuzz|88/100 brn|[from] brn
+|upkeep
+|turn|12
+|inactive|cukitest has 90 seconds left.
+|
+|move|p1a: Jellicent|Hex|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|75/100 brn
+|move|p2a: Mandibuzz|Defog|p1a: Jellicent
+|-unboost|p1a: Jellicent|evasion|1
+|-sideend|p1: cukitest|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|-sideend|p2: ItzVassilon|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|
+|-damage|p2a: Mandibuzz|69/100 brn|[from] brn
+|upkeep
+|turn|13
+|inactive|cukitest has 90 seconds left.
+|inactive|cukitest has 60 seconds left.
+|
+|move|p1a: Jellicent|Strength Sap|p2a: Mandibuzz
+|-unboost|p2a: Mandibuzz|atk|1
+|-heal|p1a: Jellicent|100/100
+|move|p2a: Mandibuzz|U-turn|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|99/100
+|inactive|ItzVassilon has 120 seconds left.
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F, shiny|91/100|[from]move: U-turn
+|
+|-heal|p2a: Ferrothorn|98/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|14
+|inactive|cukitest has 60 seconds left.
+|
+|switch|p1a: Kommo-o 2.4.7|Kommo-o, F|100/100
+|move|p2a: Ferrothorn|Toxic|p1a: Kommo-o 2.4.7
+|-status|p1a: Kommo-o 2.4.7|tox
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p1a: Kommo-o 2.4.7|94/100 tox|[from] psn
+|upkeep
+|turn|15
+|inactive|ItzVassilon has 120 seconds left.
+|
+|switch|p2a: Milotic|Milotic, F, shiny|100/100
+|move|p1a: Kommo-o 2.4.7|Clangorous Soul|p1a: Kommo-o 2.4.7
+|-boost|p1a: Kommo-o 2.4.7|atk|1
+|-boost|p1a: Kommo-o 2.4.7|def|1
+|-boost|p1a: Kommo-o 2.4.7|spa|1
+|-boost|p1a: Kommo-o 2.4.7|spd|1
+|-boost|p1a: Kommo-o 2.4.7|spe|1
+|-damage|p1a: Kommo-o 2.4.7|61/100 tox
+|-enditem|p1a: Kommo-o 2.4.7|Throat Spray
+|-boost|p1a: Kommo-o 2.4.7|spa|1
+|
+|-damage|p1a: Kommo-o 2.4.7|49/100 tox|[from] psn
+|upkeep
+|turn|16
+|inactive|ItzVassilon has 120 seconds left.
+|
+|move|p1a: Kommo-o 2.4.7|Clanging Scales|p2a: Milotic
+|-damage|p2a: Milotic|28/100
+|-unboost|p1a: Kommo-o 2.4.7|def|1
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|78/100
+|
+|-heal|p2a: Milotic|84/100|[from] item: Leftovers
+|-damage|p1a: Kommo-o 2.4.7|31/100 tox|[from] psn
+|upkeep
+|turn|17
+|inactive|ItzVassilon has 120 seconds left.
+|
+|move|p1a: Kommo-o 2.4.7|Clanging Scales|p2a: Milotic
+|-damage|p2a: Milotic|21/100
+|-unboost|p1a: Kommo-o 2.4.7|def|1
+|move|p2a: Milotic|Ice Beam|p1a: Kommo-o 2.4.7
+|-supereffective|p1a: Kommo-o 2.4.7
+|-damage|p1a: Kommo-o 2.4.7|0 fnt
+|faint|p1a: Kommo-o 2.4.7
+|
+|-heal|p2a: Milotic|27/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|43/100
+|turn|18
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F, shiny|100/100
+|move|p1a: Crawdaunt|Swords Dance|p1a: Crawdaunt
+|-boost|p1a: Crawdaunt|atk|2
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Crawdaunt|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Crawdaunt|31/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Crawdaunt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|inactive|ItzVassilon has 120 seconds left.
+|
+|switch|p2a: Milotic|Milotic, F, shiny|27/100
+|turn|20
+|inactive|cukitest has 60 seconds left.
+|
+|move|p2a: Milotic|Scald|p1a: Crawdaunt
+|-resisted|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|9/100
+|move|p1a: Crawdaunt|Knock Off|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|-enditem|p2a: Milotic|Leftovers|[from] move: Knock Off|[of] p1a: Crawdaunt
+|faint|p2a: Milotic
+|
+|upkeep
+|
+|switch|p2a: Weavile|Weavile, M|100/100
+|turn|21
+|inactive|cukitest has 60 seconds left.
+|inactive|cukitest has 30 seconds left.
+|
+|switch|p1a: Jellicent|Jellicent, M|99/100
+|move|p2a: Weavile|Ice Shard|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|87/100
+|
+|upkeep
+|turn|22
+|inactive|cukitest has 30 seconds left.
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F, shiny|69/100 brn
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|-damage|p2a: Mandibuzz|63/100 brn|[from] brn
+|upkeep
+|turn|23
+|inactive|cukitest has 30 seconds left.
+|
+|switch|p1a: Hatterene|Hatterene, F|88/100
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100 brn
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Hatterene|94/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|94/100 brn|[from] brn
+|upkeep
+|turn|24
+|inactive|cukitest has 30 seconds left.
+|
+|move|p1a: Hatterene|Future Sight|p2a: Mandibuzz
+|-start|p1a: Hatterene|move: Future Sight
+|move|p2a: Mandibuzz|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|81/100
+|-enditem|p1a: Hatterene|Leftovers|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|-damage|p2a: Mandibuzz|88/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Hatterene|Draining Kiss|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|47/100 brn
+|-heal|p1a: Hatterene|100/100|[from] drain|[of] p2a: Mandibuzz
+|move|p2a: Mandibuzz|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|92/100
+|
+|-damage|p2a: Mandibuzz|41/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p1a: Hatterene|Draining Kiss|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|4/100 brn
+|-heal|p1a: Hatterene|100/100|[from] drain|[of] p2a: Mandibuzz
+|move|p2a: Mandibuzz|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|95/100
+|
+|switch|p2a: Weavile|Weavile, M|100/100|[from]move: U-turn
+|
+|-end|p2a: Weavile|move: Future Sight
+|-immune|p2a: Weavile
+|-fieldend|move: Trick Room
+|upkeep
+|turn|27
+|
+|move|p2a: Weavile|Throat Chop|p1a: Hatterene
+|-damage|p1a: Hatterene|34/100
+|-start|p1a: Hatterene|Throat Chop|[silent]
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Hatterene|Draining Kiss|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|27/100
+|-heal|p1a: Hatterene|83/100|[from] drain|[of] p2a: Weavile
+|move|p2a: Weavile|Throat Chop|p1a: Hatterene
+|-damage|p1a: Hatterene|17/100
+|
+|-end|p1a: Hatterene|Throat Chop|[silent]
+|upkeep
+|turn|29
+|-message|ItzVassilon forfeited.
+|
+|win|cukitest
+|l|☆ItzVassilon
+|raw|cukitest's rating: 1509 → 1529(+20 for winning)
+|raw|ItzVassilon's rating: 1496 → 1477(-19 for losing)

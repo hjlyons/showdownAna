@@ -1,0 +1,310 @@
+|ScrapeTime|2020-01-01-16:05:29
+|j|☆PtakarzPL
+|j|☆BigChurizo
+|player|p1|PtakarzPL|richboy-gen4|1140
+|player|p2|BigChurizo|101|1192
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Mimikyu, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Barraskewda, F|
+|poke|p1|Dubwool, M|
+|poke|p1|Duraludon, M|
+|poke|p2|Cinccino, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Clefable, M|
+|poke|p2|Appletun, F|
+|poke|p2|Dracovish|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Cinccino|Cinccino, F|100/100
+|turn|1
+|
+|move|p2a: Cinccino|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|84/100
+|-damage|p2a: Cinccino|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Cinccino|72/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Rocky Helmet|[from] move: Knock Off|[of] p2a: Cinccino
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Cinccino
+|-sidestart|p2: BigChurizo|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Ferrothorn|Spikes|p2a: Cinderace
+|-sidestart|p2: BigChurizo|Spikes
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: BigChurizo|Spikes|[silent]
+|-sidestart|p1: PtakarzPL|Spikes|[silent]
+|-sideend|p2: BigChurizo|Stealth Rock|[silent]
+|-sidestart|p1: PtakarzPL|Stealth Rock|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Cinderace|Taunt|p1a: Cinderace
+|-start|p1a: Cinderace|move: Taunt
+|cant|p1a: Cinderace|move: Taunt|Court Change
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|move|p1a: Cinderace|High Jump Kick|p2a: Dracovish
+|-damage|p2a: Dracovish|53/100
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Cinderace|U-turn|p2a: Dracovish
+|-damage|p2a: Dracovish|28/100
+|
+|switch|p1a: Duraludon|Duraludon, M|100/100|[from]move: U-turn
+|-damage|p1a: Duraludon|88/100|[from] Spikes
+|-damage|p1a: Duraludon|82/100|[from] Stealth Rock
+|move|p2a: Dracovish|Dragon Rush|p1a: Duraludon
+|-damage|p1a: Duraludon|39/100
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Duraludon|Draco Meteor|p2a: Dracovish
+|-supereffective|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|-unboost|p1a: Duraludon|spa|2
+|faint|p2a: Dracovish
+|
+|upkeep
+|
+|switch|p2a: Mandibuz|Mandibuzz, F, shiny|100/100
+|turn|8
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Mandibuz|Knock Off|p1a: Cinderace
+|-damage|p1a: Cinderace|69/100
+|-enditem|p1a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Mandibuz
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p1: PtakarzPL|Spikes|[silent]
+|-sidestart|p2: BigChurizo|Spikes|[silent]
+|-sideend|p1: PtakarzPL|Stealth Rock|[silent]
+|-sidestart|p2: BigChurizo|Stealth Rock|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Mandibuz|Defog|p1a: Cinderace
+|-unboost|p1a: Cinderace|evasion|1
+|-sideend|p2: BigChurizo|Spikes|[from] move: Defog|[of] p2a: Mandibuz
+|-sideend|p2: BigChurizo|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuz
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Clefable
+|-damage|p2a: Clefable|40/100
+|
+|-status|p2a: Clefable|brn|[from] item: Flame Orb
+|upkeep
+|turn|11
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Cinderace|[miss]
+|-miss|p1a: Cinderace|p2a: Cinderace
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Cinderace|U-turn|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|87/100
+|
+|switch|p1a: Barraskewda|Barraskewda, F|100/100|[from]move: U-turn
+|move|p2a: Cinderace|Pyro Ball|p1a: Barraskewda
+|-resisted|p1a: Barraskewda
+|-damage|p1a: Barraskewda|51/100
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Appletun|Appletun, F|100/100
+|move|p1a: Barraskewda|Liquidation|p2a: Appletun
+|-resisted|p2a: Appletun
+|-damage|p2a: Appletun|88/100
+|-unboost|p2a: Appletun|def|1
+|
+|-heal|p2a: Appletun|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Mimikyu|Mimikyu, M|100/100
+|move|p2a: Appletun|Leech Seed|p1a: Mimikyu
+|-start|p1a: Mimikyu|move: Leech Seed
+|
+|-heal|p2a: Appletun|99/100|[from] item: Leftovers
+|-damage|p1a: Mimikyu|88/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|100/100|[silent]
+|upkeep
+|turn|15
+|
+|switch|p2a: Mandibuz|Mandibuzz, F, shiny|100/100
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|
+|-damage|p1a: Mimikyu|76/100|[from] Leech Seed|[of] p2a: Mandibuz
+|upkeep
+|turn|16
+|
+|move|p1a: Mimikyu|Play Rough|p2a: Mandibuz
+|-supereffective|p2a: Mandibuz
+|-damage|p2a: Mandibuz|0 fnt
+|-damage|p1a: Mimikyu|66/100|[from] item: Life Orb
+|faint|p2a: Mandibuz
+|
+|upkeep
+|
+|switch|p2a: Appletun|Appletun, F|100/100
+|turn|17
+|
+|move|p2a: Appletun|Sucker Punch|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|66/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M
+|-damage|p1a: Mimikyu|53/100|[from] ability: Disguise|[of] p1a: Mimikyu
+|move|p1a: Mimikyu|Play Rough|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-crit|p2a: Appletun
+|-damage|p2a: Appletun|0 fnt
+|-damage|p1a: Mimikyu|44/100|[from] item: Life Orb
+|faint|p2a: Appletun
+|
+|upkeep
+|
+|switch|p2a: Cinccino|Cinccino, F|72/100
+|turn|18
+|
+|move|p2a: Cinccino|Bullet Seed|p1a: Mimikyu
+|-damage|p1a: Mimikyu|32/100
+|-damage|p1a: Mimikyu|20/100
+|-damage|p1a: Mimikyu|9/100
+|-damage|p1a: Mimikyu|0 fnt
+|-hitcount|p1a: Mimikyu|4
+|faint|p1a: Mimikyu
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|69/100
+|turn|19
+|
+|switch|p2a: Cinderace|Cinderace, F|87/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|52/100
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Cinderace|High Jump Kick|p2a: Cinderace|[miss]
+|-miss|p1a: Cinderace|p2a: Cinderace
+|-damage|p1a: Cinderace|19/100|[from] highjumpkick
+|move|p2a: Cinderace|U-turn|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|7/100
+|
+|switch|p2a: Clefable|Clefable, M|40/100 brn|[from]move: U-turn
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Cinderace|Cinderace, F|52/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|2/100
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Barraskewda|Barraskewda, F|51/100
+|move|p2a: Cinderace|U-turn|p1a: Barraskewda
+|-damage|p1a: Barraskewda|15/100
+|
+|switch|p2a: Cinccino|Cinccino, F|72/100|[from]move: U-turn
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Barraskewda|Close Combat|p2a: Cinccino
+|-supereffective|p2a: Cinccino
+|-damage|p2a: Cinccino|0 fnt
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|faint|p2a: Cinccino
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|40/100 brn
+|turn|24
+|
+|switch|p1a: Duraludon|Duraludon, M|39/100
+|move|p2a: Clefable|Trick|p1a: Duraludon
+|-activate|p2a: Clefable|move: Trick|[of] p1a: Duraludon
+|-item|p1a: Duraludon|Flame Orb|[from] move: Trick
+|-item|p2a: Clefable|Choice Scarf|[from] move: Trick
+|
+|-status|p1a: Duraludon|brn|[from] item: Flame Orb
+|upkeep
+|turn|25
+|
+|move|p1a: Duraludon|Flash Cannon|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|-damage|p1a: Duraludon|33/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|2/100
+|turn|26
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Duraludon
+|-damage|p1a: Duraludon|0 fnt
+|faint|p1a: Duraludon
+|
+|upkeep
+|
+|switch|p1a: Barraskewda|Barraskewda, F|15/100
+|turn|27
+|
+|move|p1a: Barraskewda|Aqua Jet|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|win|PtakarzPL
+|l|☆BigChurizo
+|raw|PtakarzPL's rating: 1116 → 1146(+30 for winning)
+|raw|BigChurizo's rating: 1192 → 1161(-31 for losing)

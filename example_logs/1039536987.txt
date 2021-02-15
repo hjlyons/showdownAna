@@ -1,0 +1,331 @@
+|ScrapeTime|2020-01-02-06:25:39
+|j|☆OUTM Quaternion
+|j|☆seanisghey
+|player|p1|OUTM Quaternion|241|1549
+|player|p2|seanisghey|gardenia|1474
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cramorant, M|
+|poke|p1|Togekiss, F|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Aegislash, F|
+|poke|p1|Dugtrio, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Ribombee, F|
+|poke|p2|Dracozolt|
+|poke|p2|Bisharp, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Vaporeon, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by seanisghey)
+|
+|start
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|turn|1
+|
+|move|p1a: Conkeldurr|Drain Punch|p2a: Vaporeon
+|-damage|p2a: Vaporeon|74/100
+|move|p2a: Vaporeon|Scald|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|67/100
+|
+|-heal|p2a: Vaporeon|80/100|[from] item: Leftovers
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Conkeldurr|Drain Punch|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p2a: Vaporeon|86/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|61/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Ribombee
+|-resisted|p2a: Ribombee
+|-damage|p2a: Ribombee|73/100
+|-heal|p1a: Conkeldurr|70/100 brn|[from] drain|[of] p2a: Ribombee
+|
+|-damage|p1a: Conkeldurr|64/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|move|p2a: Ribombee|Sticky Web|p1a: Togekiss
+|-sidestart|p1: OUTM Quaternion|move: Sticky Web
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Togekiss|Air Slash|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|turn|6
+|
+|move|p1a: Togekiss|Air Slash|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|67/100
+|cant|p2a: Bisharp|flinch
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Togekiss|Air Slash|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|35/100
+|move|p2a: Bisharp|Iron Head|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|upkeep
+|
+|switch|p1a: Cramorant|Cramorant, M|100/100
+|turn|8
+|
+|switch|p2a: Vaporeon|Vaporeon, M|86/100
+|move|p1a: Cramorant|Hurricane|p2a: Vaporeon
+|-damage|p2a: Vaporeon|34/100
+|-start|p2a: Vaporeon|confusion
+|
+|-heal|p2a: Vaporeon|40/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|64/100 brn
+|-activate|p1a: Conkeldurr|move: Sticky Web
+|-unboost|p1a: Conkeldurr|spe|1
+|-activate|p2a: Vaporeon|confusion
+|move|p2a: Vaporeon|Protect||[still]
+|-fail|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|46/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|58/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|-activate|p2a: Vaporeon|confusion
+|-damage|p2a: Vaporeon|43/100|[from] confusion
+|move|p1a: Conkeldurr|Defog|p2a: Vaporeon
+|-unboost|p2a: Vaporeon|evasion|1
+|-sideend|p1: OUTM Quaternion|Sticky Web|[from] move: Defog|[of] p1a: Conkeldurr
+|
+|-heal|p2a: Vaporeon|49/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|52/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|-end|p2a: Vaporeon|confusion
+|move|p2a: Vaporeon|Scald|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|16/100 brn
+|move|p1a: Conkeldurr|Drain Punch|p2a: Vaporeon
+|-damage|p2a: Vaporeon|2/100
+|-heal|p1a: Conkeldurr|42/100 brn|[from] drain|[of] p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|9/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|36/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Conkeldurr|Mach Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|61/100
+|-damage|p1a: Conkeldurr|24/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Conkeldurr|7/100 brn|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|
+|-damage|p1a: Conkeldurr|1/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p2a: Vaporeon|Vaporeon, M|9/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|-heal|p1a: Conkeldurr|6/100 brn|[from] drain|[of] p2a: Vaporeon
+|faint|p2a: Vaporeon
+|
+|-damage|p1a: Conkeldurr|0 fnt|[from] brn
+|faint|p1a: Conkeldurr
+|upkeep
+|
+|switch|p1a: Cramorant|Cramorant, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|61/100
+|turn|14
+|
+|move|p1a: Cramorant|Hurricane|p2a: Ferrothorn|[miss]
+|-miss|p1a: Cramorant|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Knock Off|p1a: Cramorant
+|-damage|p1a: Cramorant|59/100
+|-enditem|p1a: Cramorant|Choice Specs|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Cramorant|Hurricane|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Cramorant|Hurricane|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|25/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Cramorant
+|-sidestart|p1: OUTM Quaternion|move: Stealth Rock
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Cramorant|Hurricane|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Cramorant|Hurricane|p2a: Ferrothorn|[miss]
+|-miss|p1a: Cramorant|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Spikes|p1a: Cramorant
+|-sidestart|p1: OUTM Quaternion|Spikes
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Cramorant|Hurricane|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Cramorant|Hurricane|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|turn|21
+|
+|move|p1a: Cramorant|Hyper Beam|p2a: Dracozolt
+|-crit|p2a: Dracozolt
+|-damage|p2a: Dracozolt|23/100
+|-mustrecharge|p1a: Cramorant
+|move|p2a: Dracozolt|Substitute|p2a: Dracozolt
+|-fail|p2a: Dracozolt|move: Substitute|[weak]
+|
+|-heal|p2a: Dracozolt|29/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|cant|p1a: Cramorant|recharge
+|move|p2a: Dracozolt|Bolt Beak|p1a: Cramorant
+|-supereffective|p1a: Cramorant
+|-damage|p1a: Cramorant|0 fnt
+|faint|p1a: Cramorant
+|
+|-heal|p2a: Dracozolt|36/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|-damage|p1a: Dugtrio|88/100|[from] Spikes
+|-damage|p1a: Dugtrio|82/100|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Dracozolt
+|-supereffective|p2a: Dracozolt
+|-damage|p2a: Dracozolt|0 fnt
+|faint|p2a: Dracozolt
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|-item|p2a: Excadrill|Air Balloon
+|turn|24
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|-damage|p1a: Aegislash|94/100|[from] Stealth Rock
+|-damage|p1a: Aegislash|82/100|[from] Spikes
+|move|p2a: Excadrill|Earthquake|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p1a: Grimmsnarl|88/100|[from] Stealth Rock
+|-damage|p1a: Grimmsnarl|76/100|[from] Spikes
+|turn|25
+|
+|move|p1a: Grimmsnarl|Sucker Punch|p2a: Excadrill
+|-damage|p2a: Excadrill|42/100
+|-enditem|p2a: Excadrill|Air Balloon
+|move|p2a: Excadrill|Iron Head|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Dugtrio|Dugtrio, M|82/100
+|-damage|p1a: Dugtrio|70/100|[from] Spikes
+|-damage|p1a: Dugtrio|64/100|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|35/100
+|turn|27
+|
+|move|p1a: Dugtrio|Sucker Punch|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|22/100
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Dugtrio|Sucker Punch|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|10/100
+|move|p2a: Bisharp|Throat Chop|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|win|seanisghey
+|raw|OUTM Quaternion's rating: 1549 → 1524(-25 for losing)
+|raw|seanisghey's rating: 1474 → 1498(+24 for winning)
+|l|☆OUTM Quaternion

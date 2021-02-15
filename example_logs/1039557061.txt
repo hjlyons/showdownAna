@@ -1,0 +1,201 @@
+|ScrapeTime|2020-01-02-07:46:04
+|j|☆HoshiNoKibo
+|j|☆Best stall player
+|player|p1|HoshiNoKibo|selene|1108
+|player|p2|Best stall player|plumeria|1084
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Seismitoad, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Dracozolt|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Jellicent, M|
+|poke|p2|Sylveon, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Dugtrio, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Zappī|Dracozolt|100/100
+|switch|p2a: Free hugs|Ferrothorn, M|100/100
+|turn|1
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|move|p1a: Zappī|Fire Fang|p2a: Jellicent|[miss]
+|-miss|p1a: Zappī|p2a: Jellicent
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Miucca|Hatterene, F|100/100
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Miucca
+|-crit|p1a: Miucca
+|-damage|p1a: Miucca|29/100
+|move|p1a: Miucca|Giga Drain|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-enditem|p2a: Dugtrio|Focus Sash
+|-damage|p2a: Dugtrio|1/100
+|-heal|p1a: Miucca|62/100|[from] drain|[of] p2a: Dugtrio
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Miucca
+|-damage|p1a: Miucca|12/100
+|-enditem|p1a: Miucca|Wiki Berry|[eat]
+|-heal|p1a: Miucca|44/100|[from] item: Wiki Berry
+|move|p1a: Miucca|Giga Drain|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|-heal|p1a: Miucca|45/100|[from] drain|[of] p2a: Dugtrio
+|faint|p2a: Dugtrio
+|
+|upkeep
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|turn|5
+|
+|switch|p1a: Neffy|Corviknight, F|100/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Neffy
+|-resisted|p1a: Neffy
+|-damage|p1a: Neffy|88/100
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Free hugs|Ferrothorn, M|100/100
+|move|p1a: Neffy|Brave Bird|p2a: Free hugs
+|-damage|p2a: Free hugs|78/100
+|-damage|p1a: Neffy|75/100|[from] ability: Iron Barbs|[of] p2a: Free hugs
+|-damage|p1a: Neffy|59/100|[from] item: Rocky Helmet|[of] p2a: Free hugs
+|-damage|p1a: Neffy|52/100|[from] Recoil
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Miucca|Hatterene, F|45/100
+|move|p2a: Free hugs|Stealth Rock|p1a: Miucca
+|move|p1a: Miucca|Stealth Rock|p2a: Free hugs|[from]Magic Bounce
+|-sidestart|p2: Best stall player|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Spectra|Dragapult, F|100/100
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|-damage|p2a: Jellicent|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Jellicent|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Spectra|Shadow Ball|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|34/100
+|move|p2a: Jellicent|Hex|p1a: Spectra
+|-supereffective|p1a: Spectra
+|-damage|p1a: Spectra|49/100
+|
+|-heal|p2a: Jellicent|41/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|-damage|p2a: Sylveon|88/100|[from] Stealth Rock
+|move|p1a: Spectra|Shadow Ball|p2a: Sylveon
+|-damage|p2a: Sylveon|58/100
+|-unboost|p2a: Sylveon|spd|1
+|
+|-heal|p2a: Sylveon|64/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Spectra|Shadow Ball|p2a: Sylveon
+|-crit|p2a: Sylveon
+|-damage|p2a: Sylveon|9/100
+|move|p2a: Sylveon|Mystical Fire|p1a: Spectra
+|-resisted|p1a: Spectra
+|-damage|p1a: Spectra|37/100
+|-unboost|p1a: Spectra|spa|1
+|
+|-heal|p2a: Sylveon|15/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Spectra|Shadow Ball|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p2a: Sylveon|21/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Best offensive mon|Toxapex, F|100/100
+|-damage|p2a: Best offensive mon|88/100|[from] Stealth Rock
+|move|p1a: Spectra|Shadow Ball|p2a: Best offensive mon
+|-damage|p2a: Best offensive mon|61/100
+|-unboost|p2a: Best offensive mon|spd|1
+|
+|-heal|p2a: Best offensive mon|68/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p1a: Spectra|Shadow Ball|p2a: Best offensive mon
+|-damage|p2a: Best offensive mon|22/100
+|-unboost|p2a: Best offensive mon|spd|1
+|move|p2a: Best offensive mon|Recover|p2a: Best offensive mon
+|-heal|p2a: Best offensive mon|72/100
+|
+|-heal|p2a: Best offensive mon|78/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|switch|p2a: Sylveon|Sylveon, M|21/100
+|-damage|p2a: Sylveon|8/100|[from] Stealth Rock
+|move|p1a: Spectra|Shadow Ball|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|faint|p2a: Sylveon
+|
+|upkeep
+|
+|switch|p2a: Jellicent|Jellicent, M|41/100
+|-damage|p2a: Jellicent|28/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Spectra|Shadow Ball|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|faint|p2a: Jellicent
+|
+|upkeep
+|-message|Best stall player forfeited.
+|
+|win|HoshiNoKibo
+|l|☆Best stall player
+|raw|HoshiNoKibo's rating: 1109 → 1132(+23 for winning)
+|raw|Best stall player's rating: 1084 → 1063(-21 for losing)
+|l|☆HoshiNoKibo
+|j|☆HoshiNoKibo
+|player|p1|HoshiNoKibo|selene

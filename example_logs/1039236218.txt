@@ -1,0 +1,88 @@
+|ScrapeTime|2020-01-01-18:26:57
+|j|☆Light(Healer)
+|j|☆Thanatonaut
+|player|p1|Light(Healer)|177|1107
+|player|p2|Thanatonaut|giovanni|1151
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dusclops, M|
+|poke|p1|Greedent, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Appletun, M|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Cinderace, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Sirfetch'd, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Polteageist|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|turn|1
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|100/100
+|move|p1a: Cinderace|U-turn|p2a: Sirfetch'd
+|-resisted|p2a: Sirfetch'd
+|-damage|p2a: Sirfetch'd|90/100
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Thanatonaut)
+|
+|move|p2a: Sirfetch'd|First Impression|p1a: Hatterene
+|-damage|p1a: Hatterene|53/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-heal|p1a: Hatterene|59/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|65/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|71/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|-message|Light(Healer) forfeited.
+|
+|win|Thanatonaut
+|l|☆Light(Healer)
+|raw|Light(Healer)'s rating: 1107 → 1085(-22 for losing)
+|raw|Thanatonaut's rating: 1151 → 1173(+22 for winning)

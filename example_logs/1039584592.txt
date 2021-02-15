@@ -1,0 +1,351 @@
+|ScrapeTime|2020-01-02-09:45:24
+|j|☆SuckUGoodra
+|j|☆ztug
+|player|p1|SuckUGoodra|iris|1372
+|player|p2|ztug|giovanni|1323
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Aegislash, M|
+|poke|p1|Dugtrio, F|
+|poke|p1|Quagsire, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Clefable, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Ferrothorn, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SuckUGoodra)
+|
+|start
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-enditem|p1a: Dugtrio|Focus Sash
+|-damage|p1a: Dugtrio|1/100
+|move|p1a: Dugtrio|Stealth Rock|p2a: Rotom
+|-sidestart|p2: ztug|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|switch|p1a: Quagsire|Quagsire, F|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Mandibuzz|U-turn|p1a: Quagsire
+|-damage|p1a: Quagsire|92/100
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Quagsire|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-heal|p1a: Quagsire|98/100|[from] item: Leftovers
+|-damage|p2a: Rotom|82/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p2a: Rotom|Trick|p1a: Quagsire
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Quagsire
+|-item|p1a: Quagsire|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|move|p1a: Quagsire|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|69/100 tox
+|
+|-heal|p2a: Rotom|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|63/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Quagsire|Scald|p2a: Clefable
+|-damage|p2a: Clefable|89/100
+|
+|-heal|p2a: Clefable|95/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Dugtrio|Dugtrio, F|1/100
+|move|p2a: Clefable|Aromatherapy|p2a: Clefable
+|-activate|p2a: Clefable|move: Aromatherapy
+|-curestatus|p2: Rotom|tox|[msg]
+|
+|-heal|p2a: Clefable|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|52/100
+|move|p2a: Clefable|Moonblast|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|-heal|p2a: Clefable|58/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|turn|8
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Aegislash|Metal Sound|p2a: Mandibuzz
+|-unboost|p2a: Mandibuzz|spd|2
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Flash Cannon|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|73/100
+|
+|-heal|p2a: Ferrothorn|79/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Aegislash|Metal Sound|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|spd|2
+|move|p2a: Ferrothorn|Leech Seed|p1a: Aegislash
+|-start|p1a: Aegislash|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|86/100|[from] item: Leftovers
+|-damage|p1a: Aegislash|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|96/100|[silent]
+|upkeep
+|turn|11
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Aegislash|Metal Sound|p2a: Mandibuzz
+|-unboost|p2a: Mandibuzz|spd|2
+|
+|-heal|p1a: Aegislash|94/100|[from] item: Leftovers
+|-damage|p1a: Aegislash|82/100|[from] Leech Seed|[of] p2a: Mandibuzz
+|upkeep
+|turn|12
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|96/100
+|-damage|p2a: Ferrothorn|89/100|[from] Stealth Rock
+|move|p1a: Aegislash|Flash Cannon|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|70/100
+|
+|-heal|p1a: Aegislash|88/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|76/100|[from] item: Leftovers
+|-damage|p1a: Aegislash|75/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|86/100|[silent]
+|upkeep
+|turn|13
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|92/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|14
+|
+|move|p1a: Mandibuzz|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|88/100
+|-damage|p1a: Mandibuzz|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Mandibuzz
+|move|p2a: Ferrothorn|Knock Off|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|68/100
+|-enditem|p1a: Mandibuzz|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-damage|p1a: Mandibuzz|55/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|15
+|
+|switch|p1a: Aegislash|Aegislash, M|75/100
+|move|p2a: Ferrothorn|Spikes|p1a: Aegislash
+|-sidestart|p1: SuckUGoodra|Spikes
+|
+|-heal|p1a: Aegislash|81/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Ferrothorn|Leech Seed|p1a: Aegislash
+|-start|p1a: Aegislash|move: Leech Seed
+|
+|-heal|p1a: Aegislash|87/100|[from] item: Leftovers
+|-damage|p1a: Aegislash|75/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|17
+|
+|move|p1a: Aegislash|Metal Sound|p2a: Ferrothorn|[miss]
+|-miss|p1a: Aegislash|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Knock Off|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|38/100
+|-enditem|p1a: Aegislash|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-damage|p1a: Aegislash|25/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|18
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|61/100
+|-unboost|p2a: Ferrothorn|spd|1
+|move|p2a: Ferrothorn|Leech Seed||[still]
+|-fail|p2a: Ferrothorn
+|
+|-damage|p1a: Aegislash|13/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|71/100|[silent]
+|upkeep
+|turn|19
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|55/100
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Mandibuzz|Knock Off|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|94/100
+|-enditem|p2a: Mandibuzz|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Mandibuzz
+|move|p2a: Mandibuzz|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|47/100
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|71/100|[from]move: U-turn
+|-damage|p2a: Ferrothorn|65/100|[from] Stealth Rock
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Mandibuzz|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p2: ztug|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|-sideend|p1: SuckUGoodra|Spikes|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Ferrothorn|Leech Seed|p1a: Mandibuzz|[miss]
+|-miss|p2a: Ferrothorn|p1a: Mandibuzz
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Aegislash|Aegislash, M|13/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Aegislash
+|-start|p1a: Aegislash|move: Leech Seed
+|
+|-damage|p1a: Aegislash|0 fnt|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|75/100|[silent]
+|faint|p1a: Aegislash
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|23
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Ferrothorn|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|88/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|63/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|69/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Knock Off|p1a: Dragapult|[miss]
+|-miss|p2a: Ferrothorn|p1a: Dragapult
+|
+|-heal|p1a: Dragapult|75/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|c|☆ztug|?
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Ferrothorn|[from]lockedmove
+|-damage|p2a: Ferrothorn|35/100
+|-damage|p1a: Dragapult|62/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Dragapult
+|-start|p1a: Dragapult|move: Leech Seed
+|
+|-heal|p1a: Dragapult|68/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|56/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|47/100|[silent]
+|upkeep
+|turn|28
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Spikes|p1a: Dragapult
+|-sidestart|p1: SuckUGoodra|Spikes
+|
+|-heal|p1a: Dragapult|62/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|50/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|58/100|[silent]
+|upkeep
+|turn|29
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Ferrothorn|[from]lockedmove
+|-damage|p2a: Ferrothorn|18/100
+|-damage|p1a: Dragapult|37/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-enditem|p1a: Dragapult|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|faint|p1a: Dragapult
+|
+|upkeep
+|c|☆ztug|gg
+|inactive|SuckUGoodra has 120 seconds left.
+|c|☆SuckUGoodra|Gg
+|-message|SuckUGoodra forfeited.
+|
+|win|ztug
+|l|☆SuckUGoodra
+|raw|SuckUGoodra's rating: 1372 → 1349(-23 for losing)
+|raw|ztug's rating: 1323 → 1346(+23 for winning)

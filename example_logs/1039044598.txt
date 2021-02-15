@@ -1,0 +1,434 @@
+|ScrapeTime|2020-01-01-07:04:48
+|j|☆xsdfcghvbjnkm
+|j|☆Yffhhtff
+|player|p1|xsdfcghvbjnkm|ghetsis-gen5bw|1000
+|player|p2|Yffhhtff|102|1045
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pincurchin, M|
+|poke|p1|Drifblim, F|
+|poke|p1|Seismitoad, M|
+|poke|p1|Hawlucha, F|
+|poke|p1|Bisharp, M|
+|poke|p1|Cinderace, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Aegislash, F|
+|poke|p2|Clefable, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Rotom-Heat|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|turn|1
+|
+|move|p2a: Seismitoad|Toxic|p1a: Seismitoad|[miss]
+|-miss|p2a: Seismitoad|p1a: Seismitoad
+|move|p1a: Seismitoad|Power Whip|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-crit|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|2
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|76/100
+|
+|-heal|p2a: Hydreigon|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Cinderace|U-turn|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100|[from]move: U-turn
+|move|p2a: Hydreigon|Dark Pulse|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|66/100
+|
+|-heal|p2a: Hydreigon|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|63/100
+|move|p1a: Bisharp|Iron Head|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|-damage|p1a: Bisharp|56/100|[from] item: Life Orb
+|
+|-heal|p2a: Hydreigon|69/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|25/100
+|cant|p1a: Bisharp|flinch
+|
+|-heal|p2a: Hydreigon|75/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|50/100
+|move|p1a: Bisharp|Iron Head|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|-damage|p1a: Bisharp|15/100|[from] item: Life Orb
+|
+|-heal|p2a: Hydreigon|57/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|32/100
+|move|p1a: Bisharp|Iron Head|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|-damage|p1a: Bisharp|5/100|[from] item: Life Orb
+|
+|-heal|p2a: Hydreigon|38/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|-heal|p2a: Hydreigon|44/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|9
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|move|p1a: Cinderace|U-turn|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|95/100
+|
+|switch|p1a: Pincurchin|Pincurchin, M|100/100|[from]move: U-turn
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Hydreigon|Hydreigon, M|44/100
+|move|p1a: Pincurchin|Spikes|p2a: Hydreigon
+|-sidestart|p2: Yffhhtff|Spikes
+|
+|-heal|p2a: Hydreigon|50/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Cinderace
+|-damage|p1a: Cinderace|41/100
+|
+|-heal|p2a: Hydreigon|56/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Cinderace|U-turn|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|4/100
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100|[from]move: U-turn
+|move|p2a: Hydreigon|Dark Pulse|p1a: Seismitoad
+|-damage|p1a: Seismitoad|58/100
+|
+|-heal|p2a: Hydreigon|10/100|[from] item: Leftovers
+|-heal|p1a: Seismitoad|64/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Seismitoad
+|-damage|p1a: Seismitoad|18/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Hydreigon
+|-sidestart|p2: Yffhhtff|move: Stealth Rock
+|
+|-heal|p2a: Hydreigon|16/100|[from] item: Leftovers
+|-heal|p1a: Seismitoad|24/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|14
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-heal|p2a: Hydreigon|22/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|41/100
+|turn|15
+|
+|move|p1a: Cinderace|U-turn|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|switch|p1a: Pincurchin|Pincurchin, M|100/100|[from]move: U-turn
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|16
+|
+|move|p2a: Clefable|Wish|p2a: Clefable
+|move|p1a: Pincurchin|Memento|p2a: Clefable
+|-unboost|p2a: Clefable|atk|2
+|-unboost|p2a: Clefable|spa|2
+|faint|p1a: Pincurchin
+|
+|upkeep
+|
+|switch|p1a: Drifblim|Drifblim, F|100/100
+|-enditem|p1a: Drifblim|Electric Seed
+|-boost|p1a: Drifblim|def|1
+|turn|17
+|
+|move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+|-boost|p1a: Drifblim|spa|1
+|-boost|p1a: Drifblim|spd|1
+|move|p2a: Clefable|Thunder Wave|p1a: Drifblim
+|-status|p1a: Drifblim|par
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+|-boost|p1a: Drifblim|spa|1
+|-boost|p1a: Drifblim|spd|1
+|move|p2a: Clefable|Moonblast|p1a: Drifblim
+|-damage|p1a: Drifblim|91/100 par
+|-unboost|p1a: Drifblim|spa|1
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+|-boost|p1a: Drifblim|spa|1
+|-boost|p1a: Drifblim|spd|1
+|move|p2a: Clefable|Moonblast|p1a: Drifblim
+|-damage|p1a: Drifblim|83/100 par
+|-unboost|p1a: Drifblim|spa|1
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|20
+|
+|move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+|-boost|p1a: Drifblim|spa|1
+|-boost|p1a: Drifblim|spd|1
+|move|p2a: Clefable|Moonblast|p1a: Drifblim
+|-damage|p1a: Drifblim|77/100 par
+|-unboost|p1a: Drifblim|spa|1
+|
+|upkeep
+|turn|21
+|
+|cant|p1a: Drifblim|par
+|move|p2a: Clefable|Moonblast|p1a: Drifblim
+|-damage|p1a: Drifblim|70/100 par
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+|-boost|p1a: Drifblim|spa|1
+|-boost|p1a: Drifblim|spd|1
+|move|p2a: Clefable|Moonblast|p1a: Drifblim
+|-damage|p1a: Drifblim|65/100 par
+|-unboost|p1a: Drifblim|spa|1
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+|-boost|p1a: Drifblim|spa|1
+|-boost|p1a: Drifblim|spd|1
+|move|p2a: Clefable|Moonblast|p1a: Drifblim
+|-damage|p1a: Drifblim|59/100 par
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+|-boost|p1a: Drifblim|spa|1
+|-boost|p1a: Drifblim|spd|0
+|move|p2a: Clefable|Moonblast|p1a: Drifblim
+|-damage|p1a: Drifblim|54/100 par
+|-unboost|p1a: Drifblim|spa|1
+|
+|upkeep
+|turn|25
+|
+|cant|p1a: Drifblim|par
+|move|p2a: Clefable|Moonblast|p1a: Drifblim
+|-damage|p1a: Drifblim|48/100 par
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Drifblim|Strength Sap|p2a: Clefable
+|-unboost|p2a: Clefable|atk|1
+|-heal|p1a: Drifblim|63/100 par
+|move|p2a: Clefable|Moonblast|p1a: Drifblim
+|-damage|p1a: Drifblim|58/100 par
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+|-boost|p1a: Drifblim|spa|1
+|-boost|p1a: Drifblim|spd|0
+|move|p2a: Clefable|Moonblast|p1a: Drifblim
+|-damage|p1a: Drifblim|53/100 par
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Drifblim|Shadow Ball|p2a: Clefable
+|-damage|p2a: Clefable|56/100
+|move|p2a: Clefable|Moonblast|p1a: Drifblim
+|-damage|p1a: Drifblim|48/100 par
+|
+|-heal|p2a: Clefable|62/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+|-boost|p1a: Drifblim|spa|1
+|-boost|p1a: Drifblim|spd|0
+|move|p2a: Clefable|Moonblast|p1a: Drifblim
+|-damage|p1a: Drifblim|43/100 par
+|-unboost|p1a: Drifblim|spa|1
+|
+|-heal|p2a: Clefable|69/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+|-boost|p1a: Drifblim|spa|1
+|-boost|p1a: Drifblim|spd|0
+|move|p2a: Clefable|Moonblast|p1a: Drifblim
+|-damage|p1a: Drifblim|37/100 par
+|
+|-heal|p2a: Clefable|75/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|cant|p1a: Drifblim|par
+|move|p2a: Clefable|Moonblast|p1a: Drifblim
+|-damage|p1a: Drifblim|33/100 par
+|
+|-heal|p2a: Clefable|81/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Drifblim|Strength Sap|p2a: Clefable
+|-unboost|p2a: Clefable|atk|1
+|-heal|p1a: Drifblim|44/100 par
+|move|p2a: Clefable|Moonblast|p1a: Drifblim
+|-damage|p1a: Drifblim|39/100 par
+|
+|-heal|p2a: Clefable|87/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+|-boost|p1a: Drifblim|spa|1
+|-boost|p1a: Drifblim|spd|0
+|move|p2a: Clefable|Moonblast|p1a: Drifblim
+|-damage|p1a: Drifblim|34/100 par
+|
+|-heal|p2a: Clefable|93/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|cant|p1a: Drifblim|par
+|move|p2a: Clefable|Moonblast|p1a: Drifblim
+|-damage|p1a: Drifblim|29/100 par
+|
+|-heal|p2a: Clefable|99/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|cant|p1a: Drifblim|par
+|move|p2a: Clefable|Moonblast|p1a: Drifblim
+|-damage|p1a: Drifblim|23/100 par
+|-unboost|p1a: Drifblim|spa|1
+|
+|-heal|p2a: Clefable|100/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|cant|p1a: Drifblim|par
+|move|p2a: Clefable|Moonblast|p1a: Drifblim
+|-damage|p1a: Drifblim|18/100 par
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Drifblim|Strength Sap|p2a: Clefable
+|-unboost|p2a: Clefable|atk|1
+|-heal|p1a: Drifblim|28/100 par
+|move|p2a: Clefable|Moonblast|p1a: Drifblim
+|-damage|p1a: Drifblim|22/100 par
+|
+|upkeep
+|turn|38
+|
+|move|p1a: Drifblim|Strength Sap|p2a: Clefable
+|-unboost|p2a: Clefable|atk|1
+|-heal|p1a: Drifblim|31/100 par
+|move|p2a: Clefable|Moonblast|p1a: Drifblim
+|-damage|p1a: Drifblim|25/100 par
+|
+|upkeep
+|turn|39
+|
+|move|p1a: Drifblim|Strength Sap||[still]
+|-fail|p1a: Drifblim
+|move|p2a: Clefable|Moonblast|p1a: Drifblim
+|-damage|p1a: Drifblim|20/100 par
+|
+|upkeep
+|turn|40
+|
+|cant|p1a: Drifblim|par
+|move|p2a: Clefable|Moonblast|p1a: Drifblim
+|-damage|p1a: Drifblim|15/100 par
+|
+|upkeep
+|turn|41
+|-message|xsdfcghvbjnkm forfeited.
+|
+|win|Yffhhtff
+|l|☆xsdfcghvbjnkm
+|raw|xsdfcghvbjnkm's rating: 1000 → 1000(+0 for losing)
+|raw|Yffhhtff's rating: 1045 → 1074(+29 for winning)

@@ -1,0 +1,485 @@
+|ScrapeTime|2020-01-01-05:35:28
+|j|☆AsumaTest
+|j|☆profafr
+|player|p1|AsumaTest|1|1258
+|player|p2|profafr|dragontamer|1315
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Jellicent, F|
+|poke|p1|Sylveon, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Conkeldurr, F|
+|poke|p2|Gengar, M|
+|poke|p2|Dracovish|
+|poke|p2|Clefable, M|
+|poke|p2|Bisharp, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Dragapult, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| C1K
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by profafr)
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|switch|p2a: Gengar|Gengar, M|100/100
+|turn|1
+|j| Pr0fNJ
+|inactive|profafr has 120 seconds left.
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Hydreigon|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|92/100
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100|[from]move: U-turn
+|-ability|p1a: Excadrill|Mold Breaker
+|
+|upkeep
+|turn|2
+|inactive|profafr has 120 seconds left.
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Excadrill|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: profafr|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Conkeldurr
+|-sidestart|p1: AsumaTest|move: Stealth Rock
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Conkeldurr|Facade|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-damage|p1a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|inactive|AsumaTest has 120 seconds left.
+|inactive|profafr has 90 seconds left.
+|
+|move|p1a: Conkeldurr|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|68/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Conkeldurr
+|-start|p1a: Conkeldurr|move: Leech Seed
+|
+|-damage|p1a: Conkeldurr|82/100 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|82/100|[silent]
+|-damage|p1a: Conkeldurr|76/100 brn|[from] brn
+|upkeep
+|turn|6
+|inactive|profafr has 90 seconds left.
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|-damage|p1a: Jellicent|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Power Whip|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|18/100
+|
+|-heal|p1a: Jellicent|24/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|AsumaTest has 90 seconds left.
+|
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|74/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|7/100
+|
+|-heal|p1a: Jellicent|14/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|76/100 brn
+|-damage|p1a: Conkeldurr|70/100 brn|[from] Stealth Rock
+|move|p2a: Ferrothorn|Power Whip|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|36/100 brn
+|
+|-damage|p1a: Conkeldurr|30/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Conkeldurr|Drain Punch|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-damage|p1a: Conkeldurr|24/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Conkeldurr|Drain Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|5/100
+|-heal|p1a: Conkeldurr|57/100 brn|[from] drain|[of] p2a: Ferrothorn
+|-damage|p1a: Conkeldurr|44/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Conkeldurr|28/100 brn|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Conkeldurr
+|-start|p1a: Conkeldurr|move: Leech Seed
+|
+|-damage|p1a: Conkeldurr|15/100 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|20/100|[silent]
+|-damage|p1a: Conkeldurr|9/100 brn|[from] brn
+|upkeep
+|turn|11
+|inactive|AsumaTest has 60 seconds left.
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|-damage|p1a: Sylveon|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Protect||[still]
+|-fail|p2a: Ferrothorn
+|
+|-heal|p1a: Sylveon|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|move|p2a: Ferrothorn|Leech Seed|p1a: Sylveon
+|-start|p1a: Sylveon|move: Leech Seed
+|
+|-heal|p1a: Sylveon|99/100|[from] item: Leftovers
+|-damage|p1a: Sylveon|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|34/100|[silent]
+|upkeep
+|turn|13
+|
+|move|p1a: Sylveon|Mystical Fire|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Sylveon|100/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|inactive|profafr has 60 seconds left.
+|inactive|profafr has 30 seconds left.
+|inactive|profafr has 20 seconds left.
+|inactive|profafr has 15 seconds left.
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|-damage|p2a: Gengar|88/100|[from] Stealth Rock
+|turn|14
+|inactive|profafr has 25 seconds left this turn.
+|inactive|AsumaTest has 60 seconds left.
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Gengar|Hypnosis|p1a: Excadrill
+|-status|p1a: Excadrill|slp|[from] move: Hypnosis
+|
+|-heal|p1a: Excadrill|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|profafr has 30 seconds left.
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|move|p2a: Gengar|Nasty Plot|p2a: Gengar
+|-boost|p2a: Gengar|spa|2
+|
+|upkeep
+|turn|16
+|inactive|profafr has 30 seconds left.
+|inactive|profafr has 20 seconds left.
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|inactive|profafr has 25 seconds left this turn.
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|17
+|inactive|profafr has 30 seconds left.
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+|inactive|profafr has 30 seconds left this turn.
+|inactive|profafr has 20 seconds left.
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|turn|18
+|inactive|profafr has 30 seconds left this turn.
+|inactive|AsumaTest has 60 seconds left.
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|9/100 brn
+|-damage|p1a: Conkeldurr|3/100 brn|[from] Stealth Rock
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|-damage|p1a: Conkeldurr|0 fnt|[from] brn
+|faint|p1a: Conkeldurr
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|88/100
+|-damage|p1a: Hydreigon|76/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|move|p1a: Hydreigon|Fire Blast|p2a: Dracovish
+|-resisted|p2a: Dracovish
+|-damage|p2a: Dracovish|76/100
+|
+|upkeep
+|turn|20
+|inactive|AsumaTest has 30 seconds left.
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|-damage|p1a: Sylveon|88/100|[from] Stealth Rock
+|move|p2a: Dracovish|Crunch|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|59/100
+|
+|-heal|p1a: Sylveon|65/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Clefable|Clefable, M|92/100
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|71/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|AsumaTest has 30 seconds left.
+|
+|move|p1a: Sylveon|Hyper Voice|p2a: Clefable
+|-damage|p2a: Clefable|58/100
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-heal|p1a: Sylveon|100/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|23
+|inactive|AsumaTest has 30 seconds left.
+|
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|move|p2a: Clefable|Moonblast|p1a: Sylveon
+|-damage|p1a: Sylveon|56/100
+|
+|-heal|p1a: Sylveon|62/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Sylveon|Mystical Fire|p2a: Clefable
+|-damage|p2a: Clefable|47/100
+|-unboost|p2a: Clefable|spa|1
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-heal|p1a: Sylveon|100/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|25
+|
+|move|p1a: Sylveon|Mystical Fire|p2a: Clefable
+|-damage|p2a: Clefable|38/100
+|-unboost|p2a: Clefable|spa|1
+|move|p2a: Clefable|Moonblast|p1a: Sylveon
+|-damage|p1a: Sylveon|69/100
+|-unboost|p1a: Sylveon|spa|1
+|
+|-heal|p1a: Sylveon|75/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Sylveon|Mystical Fire|p2a: Clefable
+|-damage|p2a: Clefable|32/100
+|-unboost|p2a: Clefable|spa|1
+|move|p2a: Clefable|Moonblast|p1a: Sylveon
+|-damage|p1a: Sylveon|56/100
+|-unboost|p1a: Sylveon|spa|1
+|
+|-heal|p1a: Sylveon|62/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Sylveon|Mystical Fire|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|82/100
+|-unboost|p2a: Dragapult|spa|1
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|-heal|p1a: Sylveon|68/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|AsumaTest has 30 seconds left.
+|
+|switch|p2a: Bisharp|Bisharp, M|95/100
+|-damage|p2a: Bisharp|89/100|[from] Stealth Rock
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|74/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|AsumaTest has 30 seconds left.
+|inactive|AsumaTest has 20 seconds left.
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100 slp
+|-damage|p1a: Excadrill|97/100 slp|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Bisharp|Iron Head|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|64/100 slp
+|
+|-heal|p1a: Excadrill|100/100 slp|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|30
+|inactive|AsumaTest has 30 seconds left this turn.
+|inactive|AsumaTest has 20 seconds left.
+|
+|switch|p1a: Hydreigon|Hydreigon, M|76/100
+|-damage|p1a: Hydreigon|64/100|[from] Stealth Rock
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|upkeep
+|turn|31
+|inactive|AsumaTest has 30 seconds left this turn.
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|17/100
+|move|p1a: Hydreigon|Fire Blast|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+|inactive|AsumaTest has 30 seconds left this turn.
+|
+|switch|p2a: Clefable|Clefable, M|32/100
+|turn|32
+|inactive|AsumaTest has 30 seconds left.
+|inactive|profafr has 30 seconds left.
+|
+|switch|p1a: Sylveon|Sylveon, F|74/100
+|-damage|p1a: Sylveon|62/100|[from] Stealth Rock
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-heal|p1a: Sylveon|68/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|profafr has 30 seconds left.
+|inactive|AsumaTest has 30 seconds left.
+|
+|move|p1a: Sylveon|Mystical Fire|p2a: Clefable
+|-damage|p2a: Clefable|20/100
+|-unboost|p2a: Clefable|spa|1
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-heal|p1a: Sylveon|74/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|profafr has 30 seconds left.
+|
+|move|p1a: Sylveon|Mystical Fire|p2a: Clefable
+|-damage|p2a: Clefable|11/100
+|-unboost|p2a: Clefable|spa|1
+|move|p2a: Clefable|Moonblast|p1a: Sylveon
+|-damage|p1a: Sylveon|41/100
+|-unboost|p1a: Sylveon|spa|1
+|
+|-heal|p1a: Sylveon|47/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Sylveon|Hyper Voice|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|-heal|p1a: Sylveon|53/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|76/100
+|-damage|p2a: Dracovish|64/100|[from] Stealth Rock
+|turn|36
+|
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Dracovish|Fishious Rend|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|-heal|p1a: Sylveon|59/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|switch|p2a: Dragapult|Dragapult, M|88/100
+|-damage|p2a: Dragapult|76/100|[from] Stealth Rock
+|switch|p1a: Jellicent|Jellicent, F|14/100
+|-damage|p1a: Jellicent|1/100|[from] Stealth Rock
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|-heal|p1a: Jellicent|7/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|inactive|AsumaTest has 60 seconds left.
+|
+|move|p2a: Dragapult|Hex|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|17/100
+|-damage|p1a: Hydreigon|5/100|[from] Stealth Rock
+|turn|39
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|64/100
+|-damage|p2a: Dracovish|51/100|[from] Stealth Rock
+|turn|40
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Dracovish
+|-crit|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|win|AsumaTest
+|raw|AsumaTest's rating: 1258 → 1287(+29 for winning)
+|raw|profafr's rating: 1315 → 1292(-23 for losing)
+|l|☆profafr
+|l| C1K

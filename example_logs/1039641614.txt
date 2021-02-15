@@ -1,0 +1,330 @@
+|ScrapeTime|2020-01-02-13:24:48
+|j|☆gfmgh
+|j|☆Seradykio
+|player|p1|gfmgh|101|1000
+|player|p2|Seradykio|misty|1067
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Seismitoad, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Toxtricity-Low-Key, F|
+|poke|p1|Hatterene, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Gyarados, F|
+|poke|p2|Silvally-*|
+|poke|p2|Rotom-Mow|
+|poke|p2|Gengar, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|turn|1
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|move|p2a: Rotom|Trick|p1a: Corviknight
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Corviknight
+|-item|p1a: Corviknight|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Rotom|Volt Switch|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|47/100
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100|[from]move: Volt Switch
+|move|p1a: Corviknight|U-turn|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|91/100
+|
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|move|p1a: Toxtricity|Thunder|p2a: Rotom
+|-resisted|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|63/100
+|
+|-heal|p2a: Rotom|69/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Rotom|Rotom-Mow|69/100
+|move|p1a: Seismitoad|Earthquake|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|-heal|p2a: Rotom|76/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Rotom|Leaf Storm|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|59/100
+|-unboost|p2a: Rotom|spa|2
+|
+|-heal|p2a: Rotom|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Cinderace|Pyro Ball|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cinderace|53/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|move|p1a: Cinderace|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|41/100
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from]move: U-turn
+|move|p2a: Tyranitar|Rock Slide|p1a: Dragapult
+|-damage|p1a: Dragapult|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|30/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|switch|p2a: Silvally|Silvally-Fairy, shiny|100/100
+|move|p1a: Dragapult|Outrage|p2a: Silvally
+|-immune|p2a: Silvally
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|24/100|[from] Sandstorm
+|-damage|p2a: Silvally|94/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|switch|p1a: Corviknight|Corviknight, F|47/100
+|move|p2a: Silvally|Multi-Attack|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Silvally|88/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|move|p2a: Silvally|Fire Fang|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|12
+|
+|switch|p2a: Gyarados|Gyarados, F|91/100
+|move|p1a: Hatterene|Psychic|p2a: Gyarados
+|-damage|p2a: Gyarados|48/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Gyarados|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|45/100
+|move|p1a: Hatterene|Giga Drain|p2a: Gyarados
+|-damage|p2a: Gyarados|26/100
+|-heal|p1a: Hatterene|56/100|[from] drain|[of] p2a: Gyarados
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Silvally|Silvally-Fairy, shiny|88/100
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, F|100/100
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Silvally|Multi-Attack|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|62/100
+|move|p1a: Toxtricity|Poison Jab|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|32/100
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Toxtricity|Poison Jab|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|87/100
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Gengar|Psychic|p1a: Seismitoad
+|-damage|p1a: Seismitoad|41/100
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Gyarados|Gyarados, F|26/100
+|move|p1a: Seismitoad|Earthquake|p2a: Gyarados
+|-immune|p2a: Gyarados
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, F|62/100
+|move|p2a: Gyarados|Waterfall|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|24/100
+|turn|20
+|
+|switch|p2a: Rotom|Rotom-Mow|82/100
+|move|p1a: Dragapult|U-turn|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|switch|p1a: Hatterene|Hatterene, F|56/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, F|26/100
+|turn|21
+|
+|move|p2a: Gyarados|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|5/100
+|move|p1a: Hatterene|Giga Drain|p2a: Gyarados
+|-damage|p2a: Gyarados|3/100
+|-heal|p1a: Hatterene|17/100|[from] drain|[of] p2a: Gyarados
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Gyarados|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|24/100
+|turn|23
+|
+|switch|p2a: Gengar|Gengar, M|87/100
+|move|p1a: Dragapult|U-turn|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|71/100
+|
+|switch|p1a: Seismitoad|Seismitoad, M|41/100|[from]move: U-turn
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Seismitoad|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, F|3/100
+|turn|25
+|
+|move|p1a: Seismitoad|Earthquake|p2a: Gyarados
+|-immune|p2a: Gyarados
+|move|p2a: Gyarados|Waterfall|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|24/100
+|turn|26
+|
+|switch|p2a: Tyranitar|Tyranitar, F|41/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Dragapult|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|switch|p1a: Cinderace|Cinderace, F|53/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cinderace|47/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Silvally|Silvally-Fairy, shiny|32/100
+|turn|27
+|
+|move|p1a: Cinderace|Mega Kick|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cinderace|41/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, F|3/100
+|turn|28
+|
+|move|p1a: Cinderace|U-turn|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|switch|p1a: Dragapult|Dragapult, F|24/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|18/100|[from] Sandstorm
+|upkeep
+|-message|Seradykio forfeited.
+|
+|win|gfmgh
+|l|☆Seradykio
+|raw|gfmgh's rating: 1000 → 1048(+48 for winning)
+|raw|Seradykio's rating: 1067 → 1043(-24 for losing)
+|j|☆Seradykio
+|player|p2|Seradykio|misty

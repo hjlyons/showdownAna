@@ -1,0 +1,718 @@
+|ScrapeTime|2020-01-01-16:05:02
+|j|☆mouu'd
+|j|☆look81
+|player|p1|mouu'd|7|1130
+|player|p2|look81|elesa|1147
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mimikyu, F|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Aromatisse, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Jellicent, M|
+|poke|p2|Clefable, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Dragapult, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Conkeldurr, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|move|p2a: Rotom|Hydro Pump|p1a: Jellicent
+|-immune|p1a: Jellicent|[from] ability: Water Absorb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|95/100|[from] Sandstorm
+|-damage|p1a: Jellicent|94/100|[from] Sandstorm
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mimikyu|94/100|[from] Sandstorm
+|-heal|p1a: Mimikyu|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Seismitoad|Stealth Rock|p1a: Mimikyu
+|-sidestart|p1: mouu'd|move: Stealth Rock
+|move|p1a: Mimikyu|Trick Room|p1a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p1a: Mimikyu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mimikyu|94/100|[from] Sandstorm
+|-heal|p1a: Mimikyu|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|-damage|p1a: Conkeldurr|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|94/100|[from] Sandstorm
+|-damage|p1a: Conkeldurr|88/100|[from] Sandstorm
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mouu'd)
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-weather|none
+|-damage|p1a: Conkeldurr|82/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p2a: Toxapex|Scald|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|63/100 brn
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|42/100
+|
+|-heal|p2a: Toxapex|48/100|[from] item: Black Sludge
+|-damage|p1a: Conkeldurr|57/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|54/100|[from] item: Black Sludge
+|-damage|p1a: Conkeldurr|50/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Seismitoad
+|-damage|p2a: Seismitoad|53/100
+|-heal|p1a: Conkeldurr|74/100 brn|[from] drain|[of] p2a: Seismitoad
+|
+|-heal|p2a: Seismitoad|59/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|68/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p2a: Toxapex|Toxapex, F|88/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|67/100
+|-heal|p1a: Conkeldurr|76/100 brn|[from] drain|[of] p2a: Toxapex
+|
+|-heal|p2a: Toxapex|73/100|[from] item: Black Sludge
+|-damage|p1a: Conkeldurr|70/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|79/100|[from] item: Black Sludge
+|-damage|p1a: Conkeldurr|64/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|26/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|76/100
+|
+|-heal|p2a: Toxapex|82/100|[from] item: Black Sludge
+|-damage|p1a: Conkeldurr|58/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|25/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|75/100
+|
+|-heal|p2a: Toxapex|81/100|[from] item: Black Sludge
+|-damage|p1a: Conkeldurr|52/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|move|p2a: Toxapex|Baneful Bunker||[still]
+|-fail|p2a: Toxapex
+|
+|-heal|p1a: Corviknight|94/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|87/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p1a: Corviknight|Defog|p2a: Toxapex
+|-unboost|p2a: Toxapex|evasion|1
+|-sideend|p1: mouu'd|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|move|p2a: Toxapex|Scald|p1a: Corviknight
+|-damage|p1a: Corviknight|78/100
+|-status|p1a: Corviknight|brn
+|
+|-heal|p1a: Corviknight|84/100 brn|[from] item: Leftovers
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|-damage|p1a: Corviknight|78/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Toxapex|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|87/100|[from] Sandstorm
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Tyranitar|Earthquake|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|87/100|[from] Sandstorm
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|move|p1a: Tyranitar|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|50/100
+|move|p2a: Toxapex|Toxic|p1a: Tyranitar
+|-status|p1a: Tyranitar|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|43/100|[from] Sandstorm
+|-heal|p2a: Toxapex|50/100|[from] item: Black Sludge
+|-damage|p1a: Tyranitar|76/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|move|p1a: Tyranitar|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: look81|move: Stealth Rock
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|99/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|93/100|[from] Sandstorm
+|-heal|p2a: Toxapex|99/100|[from] item: Black Sludge
+|-damage|p1a: Tyranitar|64/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|switch|p1a: Aromatisse|Aromatisse, F|100/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-weather|none
+|upkeep
+|turn|20
+|
+|move|p2a: Toxapex|Toxic|p1a: Aromatisse
+|-status|p1a: Aromatisse|tox
+|move|p1a: Aromatisse|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|55/100
+|
+|-heal|p2a: Toxapex|61/100|[from] item: Black Sludge
+|-damage|p1a: Aromatisse|94/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Aromatisse|Nasty Plot|p1a: Aromatisse
+|-boost|p1a: Aromatisse|spa|2
+|
+|-heal|p2a: Toxapex|68/100|[from] item: Black Sludge
+|-heal|p1a: Aromatisse|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Aromatisse|88/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|switch|p2a: Seismitoad|Seismitoad, F|59/100
+|-damage|p2a: Seismitoad|53/100|[from] Stealth Rock
+|move|p1a: Aromatisse|Thunderbolt|p2a: Seismitoad
+|-immune|p2a: Seismitoad
+|
+|-heal|p2a: Seismitoad|59/100|[from] item: Leftovers
+|-heal|p1a: Aromatisse|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Aromatisse|76/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|move|p2a: Seismitoad|Poison Jab|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|94/100
+|
+|-heal|p2a: Seismitoad|65/100|[from] item: Leftovers
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Seismitoad|Stealth Rock|p1a: Jellicent
+|-sidestart|p1: mouu'd|move: Stealth Rock
+|move|p1a: Jellicent|Energy Ball|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|63/100
+|move|p1a: Jellicent|Hex|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Dragapult|U-turn|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|87/100
+|-damage|p2a: Dragapult|53/100|[from] item: Life Orb
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100|[from]move: U-turn
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Jellicent|Hex|p2a: Toxapex
+|-damage|p2a: Toxapex|73/100
+|
+|-heal|p1a: Jellicent|94/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|79/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|move|p1a: Jellicent|Energy Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|63/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-heal|p1a: Jellicent|99/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Jellicent|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|91/100
+|move|p2a: Toxapex|Scald|p1a: Jellicent
+|-heal|p1a: Jellicent|100/100|[from] ability: Water Absorb|[of] p2a: Toxapex
+|
+|-heal|p2a: Toxapex|97/100|[from] item: Black Sludge
+|upkeep
+|turn|29
+|
+|move|p1a: Jellicent|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|87/100
+|move|p2a: Toxapex|Toxic|p1a: Jellicent
+|-status|p1a: Jellicent|tox
+|
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|-damage|p1a: Jellicent|94/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Jellicent|Scald|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p1a: Jellicent|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|99/100|[from] item: Black Sludge
+|-damage|p1a: Jellicent|88/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Jellicent|Scald|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|65/100
+|
+|-heal|p1a: Jellicent|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|76/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|move|p2a: Clefable|Thunderbolt|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|13/100 tox
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|-heal|p1a: Jellicent|20/100 tox|[from] item: Leftovers
+|-damage|p1a: Jellicent|0 fnt|[from] psn
+|faint|p1a: Jellicent
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|52/100 brn
+|-damage|p1a: Conkeldurr|46/100 brn|[from] Stealth Rock
+|turn|33
+|inactive|look81 has 120 seconds left.
+|
+|switch|p2a: Rotom|Rotom-Wash|95/100
+|-damage|p2a: Rotom|82/100|[from] Stealth Rock
+|move|p1a: Conkeldurr|Poison Jab|p2a: Rotom
+|-damage|p2a: Rotom|30/100
+|-status|p2a: Rotom|psn
+|
+|-damage|p1a: Conkeldurr|40/100 brn|[from] brn
+|-damage|p2a: Rotom|18/100 psn|[from] psn
+|upkeep
+|turn|34
+|inactive|look81 has 120 seconds left.
+|
+|move|p1a: Conkeldurr|Drain Punch|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-heal|p1a: Conkeldurr|46/100 brn|[from] drain|[of] p2a: Rotom
+|faint|p2a: Rotom
+|
+|-damage|p1a: Conkeldurr|40/100 brn|[from] brn
+|upkeep
+|inactive|look81 has 120 seconds left.
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|turn|35
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|-damage|p1a: Conkeldurr|34/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|move|p2a: Toxapex|Scald|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|13/100 brn
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|36/100
+|
+|-heal|p2a: Toxapex|43/100|[from] item: Black Sludge
+|-damage|p1a: Conkeldurr|7/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|37
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|49/100|[from] item: Black Sludge
+|-damage|p1a: Conkeldurr|1/100 brn|[from] brn
+|upkeep
+|turn|38
+|inactive|look81 has 120 seconds left.
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|-damage|p2a: Conkeldurr|94/100|[from] Stealth Rock
+|move|p1a: Conkeldurr|Drain Punch|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|38/100
+|-heal|p1a: Conkeldurr|29/100 brn|[from] drain|[of] p2a: Conkeldurr
+|
+|-damage|p1a: Conkeldurr|23/100 brn|[from] brn
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|39
+|inactive|look81 has 120 seconds left.
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|-damage|p2a: Conkeldurr|32/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|-damage|p1a: Mimikyu|88/100|[from] Stealth Rock
+|turn|40
+|
+|move|p1a: Mimikyu|Play Rough|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|-heal|p1a: Mimikyu|94/100|[from] item: Leftovers
+|upkeep
+|inactive|look81 has 120 seconds left.
+|
+|switch|p2a: Toxapex|Toxapex, F|82/100
+|-damage|p2a: Toxapex|70/100|[from] Stealth Rock
+|turn|41
+|inactive|look81 has 120 seconds left.
+|inactive|mouu'd has 120 seconds left.
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|-status|p1a: Mimikyu|psn
+|
+|-heal|p1a: Mimikyu|99/100 psn|[from] item: Leftovers
+|-heal|p2a: Toxapex|76/100|[from] item: Black Sludge
+|-damage|p1a: Mimikyu|88/100 psn|[from] psn
+|upkeep
+|turn|42
+|inactive|look81 has 120 seconds left.
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Toxapex
+|-damage|p2a: Toxapex|65/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-heal|p1a: Mimikyu|94/100 psn|[from] item: Leftovers
+|-damage|p1a: Mimikyu|81/100 psn|[from] psn
+|upkeep
+|turn|43
+|
+|switch|p1a: Corviknight|Corviknight, M|78/100 brn
+|-damage|p1a: Corviknight|66/100 brn|[from] Stealth Rock
+|move|p2a: Toxapex|Scald|p1a: Corviknight
+|-damage|p1a: Corviknight|50/100 brn
+|
+|-heal|p1a: Corviknight|57/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|50/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|move|p1a: Corviknight|Defog|p2a: Toxapex
+|-unboost|p2a: Toxapex|evasion|1
+|-sideend|p2: look81|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: mouu'd|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|move|p2a: Toxapex|Scald|p1a: Corviknight
+|-damage|p1a: Corviknight|35/100 brn
+|
+|-heal|p1a: Corviknight|41/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|35/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Toxapex
+|-damage|p2a: Toxapex|86/100
+|-damage|p1a: Corviknight|31/100 brn|[from] Recoil
+|move|p2a: Toxapex|Scald|p1a: Corviknight
+|-damage|p1a: Corviknight|15/100 brn
+|
+|-heal|p1a: Corviknight|21/100 brn|[from] item: Leftovers
+|-heal|p2a: Toxapex|92/100|[from] item: Black Sludge
+|-damage|p1a: Corviknight|15/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Toxapex
+|-damage|p2a: Toxapex|76/100
+|-damage|p1a: Corviknight|11/100 brn|[from] Recoil
+|move|p2a: Toxapex|Scald|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-heal|p2a: Toxapex|82/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|64/100 tox
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|47
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Tyranitar|Earthquake|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|76/100|[from] Sandstorm
+|-heal|p2a: Toxapex|82/100|[from] item: Black Sludge
+|-damage|p1a: Tyranitar|58/100 tox|[from] psn
+|upkeep
+|turn|48
+|
+|move|p1a: Tyranitar|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|39/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|82/100|[from] Sandstorm
+|-heal|p2a: Toxapex|89/100|[from] item: Black Sludge
+|-damage|p1a: Tyranitar|46/100 tox|[from] psn
+|upkeep
+|turn|49
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Tyranitar|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: look81|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|82/100|[from] Sandstorm
+|-heal|p2a: Toxapex|89/100|[from] item: Black Sludge
+|-damage|p1a: Tyranitar|27/100 tox|[from] psn
+|upkeep
+|turn|50
+|
+|move|p1a: Tyranitar|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|43/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|86/100|[from] Sandstorm
+|-heal|p2a: Toxapex|93/100|[from] item: Black Sludge
+|-damage|p1a: Tyranitar|2/100 tox|[from] psn
+|upkeep
+|turn|51
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Tyranitar|Earthquake|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-weather|none
+|-heal|p2a: Toxapex|99/100|[from] item: Black Sludge
+|-damage|p1a: Tyranitar|0 fnt|[from] psn
+|faint|p1a: Tyranitar
+|upkeep
+|
+|switch|p1a: Aromatisse|Aromatisse, F|76/100 tox
+|turn|52
+|
+|move|p2a: Toxapex|Scald|p1a: Aromatisse
+|-crit|p1a: Aromatisse
+|-damage|p1a: Aromatisse|53/100 tox
+|move|p1a: Aromatisse|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|51/100
+|
+|-heal|p2a: Toxapex|58/100|[from] item: Black Sludge
+|-heal|p1a: Aromatisse|59/100 tox|[from] item: Leftovers
+|-damage|p1a: Aromatisse|53/100 tox|[from] psn
+|upkeep
+|turn|53
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Aromatisse|Trick Room|p1a: Aromatisse
+|-fieldstart|move: Trick Room|[of] p1a: Aromatisse
+|
+|-heal|p1a: Aromatisse|59/100 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|64/100|[from] item: Black Sludge
+|-damage|p1a: Aromatisse|47/100 tox|[from] psn
+|upkeep
+|turn|54
+|
+|move|p1a: Aromatisse|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|15/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|65/100
+|
+|-heal|p1a: Aromatisse|53/100 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|72/100|[from] item: Black Sludge
+|-damage|p1a: Aromatisse|34/100 tox|[from] psn
+|upkeep
+|turn|55
+|
+|move|p1a: Aromatisse|Nasty Plot|p1a: Aromatisse
+|-boost|p1a: Aromatisse|spa|2
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-heal|p1a: Aromatisse|40/100 tox|[from] item: Leftovers
+|-damage|p1a: Aromatisse|16/100 tox|[from] psn
+|upkeep
+|turn|56
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Aromatisse|Thunderbolt|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p1a: Aromatisse|22/100 tox|[from] item: Leftovers
+|-damage|p1a: Aromatisse|0 fnt|[from] psn
+|faint|p1a: Aromatisse
+|upkeep
+|
+|switch|p1a: Mimikyu|Mimikyu, F|81/100 psn
+|turn|57
+|
+|move|p2a: Toxapex|Scald|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|81/100 psn
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|-damage|p1a: Mimikyu|69/100 psn|[from] ability: Disguise|[of] p1a: Mimikyu
+|move|p1a: Mimikyu|Pain Split|p2a: Toxapex
+|-sethp|p2a: Toxapex|86/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Mimikyu|83/100 psn|[from] move: Pain Split
+|
+|-heal|p2a: Toxapex|92/100|[from] item: Black Sludge
+|-heal|p1a: Mimikyu|89/100 psn|[from] item: Leftovers
+|-damage|p1a: Mimikyu|77/100 psn|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|58
+|c|☆look81|lmaoo
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Toxapex
+|-damage|p2a: Toxapex|81/100
+|move|p2a: Toxapex|Scald|p1a: Mimikyu
+|-damage|p1a: Mimikyu|59/100 psn
+|
+|-heal|p1a: Mimikyu|65/100 psn|[from] item: Leftovers
+|-heal|p2a: Toxapex|87/100|[from] item: Black Sludge
+|-damage|p1a: Mimikyu|53/100 psn|[from] psn
+|upkeep
+|turn|59
+|-message|mouu'd forfeited.
+|
+|win|look81
+|l|☆mouu'd
+|raw|mouu'd's rating: 1130 → 1107(-23 for losing)
+|raw|look81's rating: 1147 → 1170(+23 for winning)

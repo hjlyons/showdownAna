@@ -1,0 +1,745 @@
+|ScrapeTime|2020-01-02-04:04:38
+|j|☆IConsumeRocks
+|j|☆Paradissio
+|player|p1|IConsumeRocks|167|1102
+|player|p2|Paradissio|102|1056
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Grapploct, F|
+|poke|p1|Espeon, M|
+|poke|p1|Eldegoss, F|
+|poke|p1|Clefable, M|
+|poke|p1|Runerigus, F|
+|poke|p2|Togekiss, F|
+|poke|p2|Polteageist|
+|poke|p2|Accelgor, M|
+|poke|p2|Dhelmise|
+|poke|p2|Hatterene, F|
+|poke|p2|Roserade, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by IConsumeRocks)
+|
+|start
+|switch|p1a: Clefable|Clefable, M|100/100
+|switch|p2a: Accelgor|Accelgor, M|100/100
+|turn|1
+|
+|move|p2a: Accelgor|Yawn|p1a: Clefable
+|-start|p1a: Clefable|move: Yawn|[of] p2a: Accelgor
+|move|p1a: Clefable|Stealth Rock|p2a: Accelgor
+|-sidestart|p2: Paradissio|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Runerigus|Runerigus, F|100/100
+|move|p2a: Accelgor|Spikes|p1a: Runerigus
+|-sidestart|p1: IConsumeRocks|Spikes
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Accelgor|Yawn|p1a: Runerigus
+|-start|p1a: Runerigus|move: Yawn|[of] p2a: Accelgor
+|move|p1a: Runerigus|Body Press|p2a: Accelgor
+|-resisted|p2a: Accelgor
+|-damage|p2a: Accelgor|62/100
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Accelgor|Spikes|p1a: Clefable
+|-sidestart|p1: IConsumeRocks|Spikes
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Accelgor|Yawn|p1a: Clefable
+|-start|p1a: Clefable|move: Yawn|[of] p2a: Accelgor
+|move|p1a: Clefable|Moonblast|p2a: Accelgor
+|-damage|p2a: Accelgor|6/100
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Accelgor|Spikes|p1a: Clefable
+|-sidestart|p1: IConsumeRocks|Spikes
+|move|p1a: Clefable|Moonblast|p2a: Accelgor
+|-damage|p2a: Accelgor|0 fnt
+|faint|p2a: Accelgor
+|
+|-end|p1a: Clefable|move: Yawn|[silent]
+|-status|p1a: Clefable|slp
+|upkeep
+|
+|switch|p2a: Roserade|Roserade, M|100/100
+|-damage|p2a: Roserade|88/100|[from] Stealth Rock
+|turn|7
+|
+|switch|p1a: Espeon|Espeon, M|100/100
+|-damage|p1a: Espeon|75/100|[from] Spikes
+|move|p2a: Roserade|Venoshock|p1a: Espeon
+|-damage|p1a: Espeon|33/100
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Dhelmise|Dhelmise|100/100
+|-damage|p2a: Dhelmise|88/100|[from] Stealth Rock
+|move|p1a: Espeon|Psychic|p2a: Dhelmise
+|-damage|p2a: Dhelmise|27/100
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|move|p1a: Espeon|Psychic|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|58/100
+|
+|-heal|p2a: Hatterene|64/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Espeon|Wish|p1a: Espeon
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-heal|p2a: Hatterene|70/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Espeon|Protect|p1a: Espeon
+|-singleturn|p1a: Espeon|Protect
+|move|p2a: Hatterene|Mystical Fire|p1a: Espeon
+|-activate|p1a: Espeon|move: Protect
+|
+|-heal|p1a: Espeon|83/100|[from] move: Wish|[wisher] Espeon
+|-heal|p2a: Hatterene|76/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Hatterene|Mystical Fire|p1a: Espeon
+|-damage|p1a: Espeon|42/100
+|-unboost|p1a: Espeon|spa|1
+|move|p1a: Espeon|Wish|p1a: Espeon
+|
+|-heal|p2a: Hatterene|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Togekiss|Togekiss, F|100/100
+|-damage|p2a: Togekiss|76/100|[from] Stealth Rock
+|move|p1a: Espeon|Protect||[still]
+|-fail|p1a: Espeon
+|
+|-heal|p1a: Espeon|92/100|[from] move: Wish|[wisher] Espeon
+|-heal|p2a: Togekiss|82/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Togekiss|Air Slash|p1a: Espeon
+|-damage|p1a: Espeon|52/100
+|cant|p1a: Espeon|flinch
+|
+|-heal|p2a: Togekiss|88/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|15
+|
+|move|p1a: Espeon|Wish|p1a: Espeon
+|move|p2a: Togekiss|Wish|p2a: Togekiss
+|
+|-heal|p2a: Togekiss|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Dhelmise|Dhelmise|27/100
+|-damage|p2a: Dhelmise|14/100|[from] Stealth Rock
+|move|p1a: Espeon|Psychic|p2a: Dhelmise
+|-damage|p2a: Dhelmise|0 fnt
+|faint|p2a: Dhelmise
+|
+|-heal|p1a: Espeon|100/100|[from] move: Wish|[wisher] Espeon
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, F|94/100
+|-damage|p2a: Togekiss|70/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Espeon|Wish|p1a: Espeon
+|move|p2a: Togekiss|Wish|p2a: Togekiss
+|
+|-heal|p2a: Togekiss|76/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Eldegoss|Eldegoss, F|100/100
+|-damage|p1a: Eldegoss|76/100|[from] Spikes
+|move|p2a: Togekiss|Air Slash|p1a: Eldegoss
+|-supereffective|p1a: Eldegoss
+|-damage|p1a: Eldegoss|34/100
+|-ability|p1a: Eldegoss|Cotton Down
+|-unboost|p2a: Togekiss|spe|1
+|
+|-heal|p2a: Togekiss|100/100|[from] move: Wish|[wisher] Togekiss
+|-heal|p1a: Eldegoss|76/100|[from] move: Wish|[wisher] Espeon
+|-heal|p1a: Eldegoss|83/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Eldegoss|Rapid Spin|p2a: Togekiss
+|-damage|p2a: Togekiss|96/100
+|-sideend|p1: IConsumeRocks|Spikes|[from] move: Rapid Spin|[of] p1a: Eldegoss
+|-boost|p1a: Eldegoss|spe|1
+|move|p2a: Togekiss|Air Slash|p1a: Eldegoss
+|-supereffective|p1a: Eldegoss
+|-damage|p1a: Eldegoss|37/100
+|-ability|p1a: Eldegoss|Cotton Down
+|-unboost|p2a: Togekiss|spe|1
+|
+|-heal|p1a: Eldegoss|44/100|[from] item: Leftovers
+|-heal|p2a: Togekiss|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Clefable|Clefable, M|100/100 slp
+|move|p2a: Togekiss|Air Slash|p1a: Clefable|[miss]
+|-miss|p2a: Togekiss|p1a: Clefable
+|
+|upkeep
+|turn|21
+|
+|cant|p1a: Clefable|slp
+|move|p2a: Togekiss|Wish|p2a: Togekiss
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Roserade|Roserade, M|88/100
+|-damage|p2a: Roserade|76/100|[from] Stealth Rock
+|-curestatus|p1a: Clefable|slp|[msg]
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|-heal|p2a: Roserade|100/100|[from] move: Wish|[wisher] Togekiss
+|upkeep
+|turn|23
+|
+|move|p2a: Roserade|Venoshock|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|60/100
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Roserade|Venoshock|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|27/100
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|77/100
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Roserade|Toxic|p1a: Clefable
+|-status|p1a: Clefable|tox
+|move|p1a: Clefable|Moonblast|p2a: Roserade
+|-resisted|p2a: Roserade
+|-damage|p2a: Roserade|53/100
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Espeon|Espeon, M|100/100
+|move|p2a: Roserade|Venoshock|p1a: Espeon
+|-damage|p1a: Espeon|60/100
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: Togekiss|Togekiss, F|100/100
+|-damage|p2a: Togekiss|76/100|[from] Stealth Rock
+|move|p1a: Espeon|Psychic|p2a: Togekiss
+|-damage|p2a: Togekiss|41/100
+|
+|-heal|p2a: Togekiss|47/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Espeon|Psychic|p2a: Togekiss
+|-damage|p2a: Togekiss|13/100
+|move|p2a: Togekiss|Wish|p2a: Togekiss
+|
+|-heal|p2a: Togekiss|20/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Togekiss|Protect|p2a: Togekiss
+|-singleturn|p2a: Togekiss|Protect
+|move|p1a: Espeon|Psychic|p2a: Togekiss
+|-activate|p2a: Togekiss|move: Protect
+|
+|-heal|p2a: Togekiss|70/100|[from] move: Wish|[wisher] Togekiss
+|-heal|p2a: Togekiss|76/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Espeon|Wish|p1a: Espeon
+|move|p2a: Togekiss|Wish|p2a: Togekiss
+|
+|-heal|p2a: Togekiss|82/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Espeon|Psychic|p2a: Togekiss
+|-damage|p2a: Togekiss|46/100
+|move|p2a: Togekiss|Air Slash|p1a: Espeon
+|-damage|p1a: Espeon|17/100
+|
+|-heal|p2a: Togekiss|96/100|[from] move: Wish|[wisher] Togekiss
+|-heal|p1a: Espeon|67/100|[from] move: Wish|[wisher] Espeon
+|-heal|p2a: Togekiss|100/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Espeon|Wish|p1a: Espeon
+|move|p2a: Togekiss|Air Slash|p1a: Espeon
+|-damage|p1a: Espeon|21/100
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Espeon|Protect|p1a: Espeon
+|-singleturn|p1a: Espeon|Protect
+|move|p2a: Togekiss|Air Slash|p1a: Espeon
+|-activate|p1a: Espeon|move: Protect
+|
+|-heal|p1a: Espeon|71/100|[from] move: Wish|[wisher] Espeon
+|upkeep
+|turn|34
+|
+|move|p1a: Espeon|Wish|p1a: Espeon
+|move|p2a: Togekiss|Air Slash|p1a: Espeon
+|-damage|p1a: Espeon|25/100
+|
+|upkeep
+|turn|35
+|
+|switch|p1a: Clefable|Clefable, M|77/100 tox
+|move|p2a: Togekiss|Air Slash|p1a: Clefable
+|-damage|p1a: Clefable|46/100 tox
+|
+|-heal|p1a: Clefable|81/100 tox|[from] move: Wish|[wisher] Espeon
+|upkeep
+|turn|36
+|
+|move|p2a: Togekiss|Air Slash|p1a: Clefable
+|-damage|p1a: Clefable|48/100 tox
+|move|p1a: Clefable|Moonblast|p2a: Togekiss
+|-damage|p2a: Togekiss|73/100
+|-unboost|p2a: Togekiss|spa|1
+|
+|-heal|p2a: Togekiss|79/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p2a: Togekiss|Air Slash|p1a: Clefable
+|-damage|p1a: Clefable|27/100 tox
+|cant|p1a: Clefable|flinch
+|
+|-heal|p2a: Togekiss|86/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p2a: Togekiss|Air Slash|p1a: Clefable
+|-damage|p1a: Clefable|6/100 tox
+|cant|p1a: Clefable|flinch
+|
+|-heal|p2a: Togekiss|92/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|switch|p1a: Runerigus|Runerigus, F|100/100
+|move|p2a: Togekiss|Air Slash|p1a: Runerigus
+|-damage|p1a: Runerigus|80/100
+|
+|-heal|p2a: Togekiss|98/100|[from] item: Leftovers
+|-heal|p1a: Runerigus|86/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p2a: Togekiss|Air Slash|p1a: Runerigus
+|-damage|p1a: Runerigus|65/100
+|cant|p1a: Runerigus|flinch
+|
+|-heal|p2a: Togekiss|100/100|[from] item: Leftovers
+|-heal|p1a: Runerigus|71/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p2a: Togekiss|Air Slash|p1a: Runerigus
+|-damage|p1a: Runerigus|49/100
+|cant|p1a: Runerigus|flinch
+|
+|-heal|p1a: Runerigus|55/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p2a: Togekiss|Air Slash|p1a: Runerigus
+|-damage|p1a: Runerigus|33/100
+|cant|p1a: Runerigus|flinch
+|
+|-heal|p1a: Runerigus|39/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p2a: Togekiss|Air Slash|p1a: Runerigus
+|-damage|p1a: Runerigus|16/100
+|cant|p1a: Runerigus|flinch
+|
+|-heal|p1a: Runerigus|22/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p2a: Togekiss|Air Slash|p1a: Runerigus
+|-damage|p1a: Runerigus|2/100
+|cant|p1a: Runerigus|flinch
+|
+|-heal|p1a: Runerigus|8/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p2a: Togekiss|Air Slash|p1a: Runerigus
+|-damage|p1a: Runerigus|0 fnt
+|faint|p1a: Runerigus
+|
+|upkeep
+|
+|switch|p1a: Espeon|Espeon, M|25/100
+|turn|46
+|
+|move|p1a: Espeon|Wish|p1a: Espeon
+|move|p2a: Togekiss|Air Slash|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|upkeep
+|
+|switch|p1a: Eldegoss|Eldegoss, F|44/100
+|turn|47
+|
+|move|p2a: Togekiss|Thunder Wave|p1a: Eldegoss
+|-status|p1a: Eldegoss|par
+|move|p1a: Eldegoss|Leech Seed|p2a: Togekiss
+|-start|p2a: Togekiss|move: Leech Seed
+|
+|-heal|p1a: Eldegoss|86/100 par|[from] move: Wish|[wisher] Espeon
+|-heal|p1a: Eldegoss|92/100 par|[from] item: Leftovers
+|-damage|p2a: Togekiss|88/100|[from] Leech Seed|[of] p1a: Eldegoss
+|-heal|p1a: Eldegoss|100/100 par|[silent]
+|upkeep
+|turn|48
+|
+|move|p2a: Togekiss|Wish|p2a: Togekiss
+|move|p1a: Eldegoss|Substitute|p1a: Eldegoss
+|-start|p1a: Eldegoss|Substitute
+|-damage|p1a: Eldegoss|76/100 par
+|
+|-heal|p2a: Togekiss|94/100|[from] item: Leftovers
+|-heal|p1a: Eldegoss|82/100 par|[from] item: Leftovers
+|-damage|p2a: Togekiss|82/100|[from] Leech Seed|[of] p1a: Eldegoss
+|-heal|p1a: Eldegoss|96/100 par|[silent]
+|upkeep
+|turn|49
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|-damage|p2a: Polteageist|88/100|[from] Stealth Rock
+|move|p1a: Eldegoss|Energy Ball|p2a: Polteageist
+|-damage|p2a: Polteageist|66/100
+|
+|-heal|p2a: Polteageist|100/100|[from] move: Wish|[wisher] Togekiss
+|-heal|p1a: Eldegoss|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|cant|p1a: Eldegoss|par
+|
+|upkeep
+|turn|51
+|
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|cant|p1a: Eldegoss|par
+|
+|upkeep
+|turn|52
+|
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|cant|p1a: Eldegoss|par
+|
+|upkeep
+|turn|53
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Eldegoss
+|-end|p1a: Eldegoss|Substitute
+|move|p1a: Eldegoss|Leech Seed|p2a: Polteageist
+|-start|p2a: Polteageist|move: Leech Seed
+|
+|-damage|p2a: Polteageist|88/100|[from] Leech Seed|[of] p1a: Eldegoss
+|upkeep
+|turn|54
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Eldegoss
+|-damage|p1a: Eldegoss|0 fnt
+|-ability|p1a: Eldegoss|Cotton Down
+|-unboost|p2a: Polteageist|spe|1
+|faint|p1a: Eldegoss
+|
+|upkeep
+|
+|switch|p1a: Grapploct|Grapploct, F|100/100
+|turn|55
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Grapploct
+|-enditem|p1a: Grapploct|Focus Sash
+|-damage|p1a: Grapploct|1/100
+|move|p1a: Grapploct|Topsy-Turvy|p2a: Polteageist
+|-invertboost|p2a: Polteageist|[from] move: Topsy-Turvy
+|
+|-damage|p2a: Polteageist|76/100|[from] Leech Seed|[of] p1a: Grapploct
+|-heal|p1a: Grapploct|14/100|[silent]
+|upkeep
+|turn|56
+|
+|move|p1a: Grapploct|Waterfall|p2a: Polteageist
+|-damage|p2a: Polteageist|58/100
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|cant|p2a: Polteageist|flinch
+|
+|-damage|p2a: Polteageist|46/100|[from] Leech Seed|[of] p1a: Grapploct
+|-heal|p1a: Grapploct|27/100|[silent]
+|upkeep
+|turn|57
+|
+|move|p1a: Grapploct|Waterfall|p2a: Polteageist
+|-damage|p2a: Polteageist|26/100
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|move|p2a: Polteageist|Giga Drain|p1a: Grapploct
+|-damage|p1a: Grapploct|17/100
+|-heal|p2a: Polteageist|30/100|[from] drain|[of] p1a: Grapploct
+|
+|-damage|p2a: Polteageist|18/100|[from] Leech Seed|[of] p1a: Grapploct
+|-heal|p1a: Grapploct|31/100|[silent]
+|upkeep
+|turn|58
+|
+|switch|p2a: Togekiss|Togekiss, F|82/100
+|-damage|p2a: Togekiss|57/100|[from] Stealth Rock
+|move|p1a: Grapploct|Waterfall|p2a: Togekiss
+|-damage|p2a: Togekiss|30/100
+|
+|-heal|p2a: Togekiss|37/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|move|p2a: Togekiss|Wish|p2a: Togekiss
+|move|p1a: Grapploct|Waterfall|p2a: Togekiss
+|-damage|p2a: Togekiss|8/100
+|
+|-heal|p2a: Togekiss|14/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|switch|p1a: Clefable|Clefable, M|6/100 tox
+|move|p2a: Togekiss|Protect||[still]
+|-fail|p2a: Togekiss
+|
+|-heal|p2a: Togekiss|64/100|[from] move: Wish|[wisher] Togekiss
+|-heal|p2a: Togekiss|70/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|move|p2a: Togekiss|Air Slash|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-heal|p2a: Togekiss|76/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|62
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Togekiss
+|-damage|p2a: Togekiss|53/100
+|move|p2a: Togekiss|Thunder Wave|p1a: Dragapult
+|-status|p1a: Dragapult|par
+|
+|-heal|p2a: Togekiss|59/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Togekiss
+|-damage|p2a: Togekiss|39/100
+|move|p2a: Togekiss|Wish|p2a: Togekiss
+|
+|-heal|p2a: Togekiss|45/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|switch|p2a: Hatterene|Hatterene, F|82/100
+|-damage|p2a: Hatterene|70/100|[from] Stealth Rock
+|move|p1a: Dragapult|Shadow Ball|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|switch|p2a: Polteageist|Polteageist|18/100
+|-damage|p2a: Polteageist|6/100|[from] Stealth Rock
+|turn|65
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|
+|upkeep
+|
+|switch|p2a: Roserade|Roserade, M|53/100
+|-damage|p2a: Roserade|41/100|[from] Stealth Rock
+|turn|66
+|
+|move|p2a: Roserade|Venoshock|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|77/100 par
+|cant|p1a: Dragapult|par
+|
+|upkeep
+|turn|67
+|
+|move|p2a: Roserade|Energy Ball|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|45/100 par
+|cant|p1a: Dragapult|par
+|
+|upkeep
+|turn|68
+|
+|move|p2a: Roserade|Energy Ball|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|15/100 par
+|move|p1a: Dragapult|Flamethrower|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, F|45/100
+|-damage|p2a: Togekiss|20/100|[from] Stealth Rock
+|turn|69
+|
+|move|p2a: Togekiss|Protect|p2a: Togekiss
+|-singleturn|p2a: Togekiss|Protect
+|move|p1a: Dragapult|Shadow Ball|p2a: Togekiss
+|-activate|p2a: Togekiss|move: Protect
+|
+|-heal|p2a: Togekiss|26/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Togekiss
+|-damage|p2a: Togekiss|5/100
+|move|p2a: Togekiss|Wish|p2a: Togekiss
+|
+|-heal|p2a: Togekiss|11/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|move|p2a: Togekiss|Protect|p2a: Togekiss
+|-singleturn|p2a: Togekiss|Protect
+|move|p1a: Dragapult|Shadow Ball|p2a: Togekiss
+|-activate|p2a: Togekiss|move: Protect
+|
+|-heal|p2a: Togekiss|61/100|[from] move: Wish|[wisher] Togekiss
+|-heal|p2a: Togekiss|67/100|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Togekiss
+|-damage|p2a: Togekiss|44/100
+|move|p2a: Togekiss|Wish|p2a: Togekiss
+|
+|-heal|p2a: Togekiss|50/100|[from] item: Leftovers
+|upkeep
+|turn|73
+|
+|move|p2a: Togekiss|Protect|p2a: Togekiss
+|-singleturn|p2a: Togekiss|Protect
+|cant|p1a: Dragapult|par
+|
+|-heal|p2a: Togekiss|99/100|[from] move: Wish|[wisher] Togekiss
+|-heal|p2a: Togekiss|100/100|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|cant|p1a: Dragapult|par
+|move|p2a: Togekiss|Air Slash|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Grapploct|Grapploct, F|31/100
+|turn|75
+|
+|move|p2a: Togekiss|Air Slash|p1a: Grapploct
+|-supereffective|p1a: Grapploct
+|-damage|p1a: Grapploct|0 fnt
+|faint|p1a: Grapploct
+|
+|win|Paradissio
+|l|☆IConsumeRocks
+|raw|IConsumeRocks's rating: 1103 → 1074(-29 for losing)
+|raw|Paradissio's rating: 1056 → 1092(+36 for winning)
+|c|☆Paradissio|gg

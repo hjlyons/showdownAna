@@ -1,0 +1,424 @@
+|ScrapeTime|2020-01-02-03:56:24
+|j|☆Clear1sh
+|j|☆biebaigeile
+|player|p1|Clear1sh|2|1083
+|player|p2|biebaigeile|102|1102
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Gyarados, F|
+|poke|p1|Arcanine, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Sylveon, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Clefable, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Ditto|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by biebaigeile)
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Ferrothorn|[from] ability: Imposter
+|turn|1
+|
+|move|p2a: Ditto|Spikes|p1a: Ferrothorn
+|-sidestart|p1: Clear1sh|Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Ditto
+|-sidestart|p2: biebaigeile|Spikes
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|move|p1a: Ferrothorn|Spikes|p2a: Corviknight
+|-sidestart|p2: biebaigeile|Spikes
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Corviknight|Taunt|p1a: Ferrothorn
+|-start|p1a: Ferrothorn|move: Taunt
+|move|p1a: Ferrothorn|Thunderbolt|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|83/100
+|
+|-heal|p2a: Corviknight|89/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|77/100
+|
+|-heal|p2a: Corviknight|83/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Ferrothorn|Thunderbolt|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|64/100
+|
+|-heal|p2a: Corviknight|70/100|[from] item: Leftovers
+|-end|p1a: Ferrothorn|move: Taunt
+|upkeep
+|turn|6
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Ferrothorn|Thunderbolt|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|51/100
+|
+|-heal|p2a: Corviknight|57/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Ferrothorn|Thunderbolt|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|38/100
+|
+|-heal|p2a: Corviknight|44/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|94/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Ferrothorn|Thunderbolt|p2a: Corviknight
+|-damage|p2a: Corviknight|84/100
+|
+|-heal|p2a: Corviknight|90/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|37/100
+|-damage|p2a: Corviknight|78/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Corviknight|59/100|[from] Recoil
+|move|p1a: Ferrothorn|Thunderbolt|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|40/100
+|
+|-heal|p2a: Corviknight|46/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|44/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Corviknight|34/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Corviknight|21/100|[from] Recoil
+|faint|p1a: Ferrothorn
+|
+|-heal|p2a: Corviknight|27/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|-damage|p1a: Arcanine|88/100|[from] Spikes
+|-ability|p1a: Arcanine|Intimidate|boost
+|-ability|p2a: Corviknight|Mirror Armor
+|-unboost|p1a: Arcanine|atk|1
+|turn|11
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|-damage|p2a: Seismitoad|84/100|[from] Spikes
+|move|p1a: Arcanine|Flamethrower|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|70/100
+|
+|-heal|p2a: Seismitoad|76/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Gyarados|Gyarados, F, shiny|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Seismitoad|atk|1
+|move|p2a: Seismitoad|Stealth Rock|p1a: Gyarados
+|-sidestart|p1: Clear1sh|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|83/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|84/100|[from] Spikes
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Gyarados
+|-damage|p1a: Gyarados|11/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Gyarados|Bounce||[still]
+|-prepare|p1a: Gyarados|Bounce|p2a: Dragapult
+|
+|-heal|p1a: Gyarados|17/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Gyarados|[miss]
+|-miss|p2a: Dragapult|p1a: Gyarados
+|move|p1a: Gyarados|Bounce|p2a: Dragapult|[from]lockedmove
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Gyarados|23/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|16
+|
+|move|p1a: Gyarados|Bounce||[still]
+|-prepare|p1a: Gyarados|Bounce|p2a: Clefable
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p1a: Gyarados|29/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Gyarados|Bounce|p2a: Clefable|[from]lockedmove
+|-damage|p2a: Clefable|22/100
+|move|p2a: Clefable|Moonblast|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-heal|p2a: Clefable|72/100|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Clefable|78/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Arcanine|Arcanine, M|88/100
+|-damage|p1a: Arcanine|76/100|[from] Spikes
+|-damage|p1a: Arcanine|51/100|[from] Stealth Rock
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Clefable|atk|1
+|turn|18
+|
+|move|p1a: Arcanine|Flamethrower|p2a: Clefable
+|-damage|p2a: Clefable|59/100
+|move|p2a: Clefable|Moonblast|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|31/100
+|
+|-heal|p2a: Clefable|65/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Arcanine|Flamethrower|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|71/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Arcanine|Flamethrower|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|42/100
+|move|p2a: Clefable|Moonblast|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|10/100
+|
+|-heal|p2a: Clefable|48/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|84/100|[from] Spikes
+|move|p1a: Arcanine|Flamethrower|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|73/100
+|
+|-heal|p2a: Toxapex|79/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|move|p1a: Arcanine|Flamethrower|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|67/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Arcanine
+|-sidestart|p1: Clear1sh|move: Toxic Spikes
+|
+|-heal|p2a: Toxapex|74/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|move|p1a: Arcanine|Flamethrower|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|63/100
+|move|p2a: Toxapex|Scald|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|-heal|p2a: Toxapex|69/100|[from] item: Black Sludge
+|upkeep
+|inactive|Clear1sh has 120 seconds left.
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|-damage|p1a: Dragapult|76/100|[from] Spikes
+|-status|p1a: Dragapult|psn
+|turn|24
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Dragapult|Dragon Darts|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|75/100|[from] item: Black Sludge
+|-damage|p1a: Dragapult|64/100 psn|[from] psn
+|upkeep
+|turn|25
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Toxapex
+|-damage|p2a: Toxapex|53/100
+|-damage|p2a: Toxapex|34/100
+|-hitcount|p2a: Toxapex|2
+|-damage|p1a: Dragapult|54/100 psn|[from] item: Life Orb
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|84/100
+|
+|-heal|p2a: Toxapex|90/100|[from] item: Black Sludge
+|-damage|p1a: Dragapult|42/100 psn|[from] psn
+|upkeep
+|turn|26
+|inactive|Clear1sh has 120 seconds left.
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Toxapex
+|-damage|p2a: Toxapex|72/100
+|-damage|p2a: Toxapex|51/100
+|-hitcount|p2a: Toxapex|2
+|-damage|p1a: Dragapult|32/100 psn|[from] item: Life Orb
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-damage|p1a: Dragapult|19/100 psn|[from] psn
+|upkeep
+|turn|27
+|inactive|Clear1sh has 120 seconds left.
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Toxapex
+|-damage|p2a: Toxapex|79/100
+|-damage|p2a: Toxapex|61/100
+|-hitcount|p2a: Toxapex|2
+|-damage|p1a: Dragapult|10/100 psn|[from] item: Life Orb
+|move|p2a: Toxapex|Scald|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Toxapex|67/100|[from] item: Black Sludge
+|upkeep
+|inactive|Clear1sh has 120 seconds left.
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|-status|p1a: Corsola|psn
+|-damage|p1a: Corsola|88/100 psn|[from] Stealth Rock
+|-damage|p1a: Corsola|76/100 psn|[from] Spikes
+|turn|28
+|inactive|Clear1sh has 120 seconds left.
+|
+|move|p2a: Toxapex|Scald|p1a: Corsola
+|-damage|p1a: Corsola|67/100 psn
+|move|p1a: Corsola|Will-O-Wisp|p2a: Toxapex
+|-status|p2a: Toxapex|brn
+|
+|-heal|p2a: Toxapex|74/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|67/100 brn|[from] brn
+|-damage|p1a: Corsola|54/100 psn|[from] psn
+|upkeep
+|turn|29
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-damage|p2a: Ditto|84/100|[from] Spikes
+|-transform|p2a: Ditto|p1a: Corsola|[from] ability: Imposter
+|move|p1a: Corsola|Hex|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|51/100
+|-start|p1a: Corsola|Disable|Hex|[from] ability: Cursed Body|[of] p2a: Ditto
+|
+|-damage|p1a: Corsola|42/100 psn|[from] psn
+|upkeep
+|turn|30
+|
+|move|p2a: Ditto|Hex|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|3/100 psn
+|-start|p2a: Ditto|Disable|Hex|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Night Shade|p2a: Ditto
+|-damage|p2a: Ditto|18/100
+|
+|-damage|p1a: Corsola|0 fnt|[from] psn
+|faint|p1a: Corsola
+|upkeep
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|-damage|p1a: Sylveon|88/100|[from] Stealth Rock
+|-status|p1a: Sylveon|psn
+|-damage|p1a: Sylveon|76/100 psn|[from] Spikes
+|turn|31
+|c|☆Clear1sh|gg
+|
+|move|p1a: Sylveon|Moonblast|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|-heal|p1a: Sylveon|82/100 psn|[from] item: Leftovers
+|-damage|p1a: Sylveon|69/100 psn|[from] psn
+|upkeep
+|c|☆biebaigeile|gg
+|
+|switch|p2a: Seismitoad|Seismitoad, F|83/100
+|-damage|p2a: Seismitoad|66/100|[from] Spikes
+|turn|32
+|
+|move|p2a: Seismitoad|Earthquake|p1a: Sylveon
+|-damage|p1a: Sylveon|30/100 psn
+|move|p1a: Sylveon|Moonblast|p2a: Seismitoad
+|-damage|p2a: Seismitoad|15/100
+|
+|-heal|p2a: Seismitoad|21/100|[from] item: Leftovers
+|-heal|p1a: Sylveon|37/100 psn|[from] item: Leftovers
+|-damage|p1a: Sylveon|24/100 psn|[from] psn
+|upkeep
+|turn|33
+|
+|move|p2a: Seismitoad|Earthquake|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|faint|p1a: Sylveon
+|
+|win|biebaigeile
+|l|☆Clear1sh
+|raw|Clear1sh's rating: 1083 → 1062(-21 for losing)
+|raw|biebaigeile's rating: 1102 → 1126(+24 for winning)

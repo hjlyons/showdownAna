@@ -1,0 +1,249 @@
+|ScrapeTime|2020-01-03-01:47:02
+|j|☆Zikuar
+|j|☆Patakuri1
+|player|p1|Zikuar|102|1000
+|player|p2|Patakuri1|170|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dracovish|
+|poke|p1|Bisharp, F|
+|poke|p1|Sirfetch'd, M|
+|poke|p1|Ditto|
+|poke|p1|Tyranitar, M|
+|poke|p1|Cinderace, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Dugtrio, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Toxtricity, M|
+|poke|p2|Hatterene, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dracovish|Dracovish|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Patakuri1|Reflect
+|move|p1a: Dracovish|Fishious Rend|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|67/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Dracovish
+|-status|p1a: Dracovish|par
+|move|p1a: Dracovish|Fishious Rend|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|35/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Patakuri1|move: Light Screen
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Bisharp
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Bisharp
+|move|p1a: Bisharp|Iron Head|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|turn|5
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|17/100
+|move|p1a: Bisharp|Air Slash|p2a: Dugtrio
+|-damage|p2a: Dugtrio|89/100
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Dugtrio|[from] ability: Imposter
+|turn|7
+|
+|move|p1a: Ditto|Sucker Punch|p2a: Dugtrio
+|-damage|p2a: Dugtrio|60/100
+|move|p2a: Dugtrio|Reversal|p1a: Ditto
+|-damage|p1a: Ditto|74/100
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Ditto|Sucker Punch|p2a: Dugtrio
+|-damage|p2a: Dugtrio|30/100
+|move|p2a: Dugtrio|Earthquake|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|-sideend|p2: Patakuri1|Reflect
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100 par
+|turn|9
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Dracovish
+|-damage|p1a: Dracovish|60/100 par
+|move|p1a: Dracovish|Fishious Rend|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|upkeep
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|10
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hatterene|95/100|[from] Sandstorm
+|-sideend|p2: Patakuri1|move: Light Screen
+|upkeep
+|turn|11
+|
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|52/100
+|-damage|p2a: Hatterene|85/100|[from] item: Life Orb
+|move|p1a: Tyranitar|Crunch|p2a: Hatterene
+|-damage|p2a: Hatterene|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hatterene|34/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|1/100
+|-damage|p2a: Hatterene|24/100|[from] item: Life Orb
+|move|p1a: Tyranitar|Crunch|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|13
+|
+|move|p1a: Tyranitar|Earthquake|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|9/100
+|move|p2a: Cinderace|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxtricity|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|14
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Cinderace
+|-damage|p1a: Cinderace|2/100
+|move|p1a: Cinderace|Blaze Kick|p2a: Toxtricity
+|-damage|p2a: Toxtricity|13/100
+|
+|-weather|none
+|-heal|p1a: Cinderace|8/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|15
+|
+|move|p1a: Cinderace|Blaze Kick|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|-heal|p1a: Cinderace|14/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|16
+|
+|move|p1a: Cinderace|Sucker Punch|p2a: Excadrill
+|-damage|p2a: Excadrill|70/100
+|move|p2a: Excadrill|Rapid Spin|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-boost|p2a: Excadrill|spe|1
+|-damage|p2a: Excadrill|60/100|[from] item: Life Orb
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Sirfetch'd|Sirfetch'd, M|100/100
+|turn|17
+|
+|move|p2a: Excadrill|Earthquake|p1a: Sirfetch'd
+|-damage|p1a: Sirfetch'd|37/100
+|-damage|p2a: Excadrill|50/100|[from] item: Life Orb
+|move|p1a: Sirfetch'd|Close Combat|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-unboost|p1a: Sirfetch'd|def|1
+|-unboost|p1a: Sirfetch'd|spd|1
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|9/100
+|turn|18
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Sirfetch'd
+|-damage|p1a: Sirfetch'd|0 fnt
+|faint|p1a: Sirfetch'd
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|60/100 par
+|turn|19
+|
+|move|p2a: Cinderace|U-turn|p1a: Dracovish
+|-damage|p1a: Dracovish|39/100 par
+|move|p1a: Dracovish|Fishious Rend|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|win|Zikuar
+|raw|Zikuar's rating: 1000 → 1040(+40 for winning)
+|raw|Patakuri1's rating: 1000 → 1000(+0 for losing)

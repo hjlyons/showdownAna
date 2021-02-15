@@ -1,0 +1,320 @@
+|ScrapeTime|2020-01-02-01:27:00
+|j|☆hiiroG
+|j|☆AnIncineroarMain
+|player|p1|hiiroG|alder|1332
+|player|p2|AnIncineroarMain|256|1305
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ninetales, F|
+|poke|p1|Shiftry, F|
+|poke|p1|Seismitoad, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Salazzle, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Clefable, F|
+|poke|p2|Excadrill, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hiiroG)
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|switch|p2a: Toothless|Dragapult, M|100/100
+|turn|1
+|
+|move|p2a: Toothless|Substitute|p2a: Toothless
+|-start|p2a: Toothless|Substitute
+|-damage|p2a: Toothless|76/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Toothless
+|-sidestart|p2: AnIncineroarMain|move: Stealth Rock
+|
+|-heal|p2a: Toothless|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Toothless|Will-O-Wisp|p1a: Seismitoad
+|-status|p1a: Seismitoad|brn
+|move|p1a: Seismitoad|Earth Power|p2a: Toothless
+|-end|p2a: Toothless|Substitute
+|
+|-heal|p2a: Toothless|88/100|[from] item: Leftovers
+|-damage|p1a: Seismitoad|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Toothless|Disable||[still]
+|-fail|p2a: Toothless
+|
+|-heal|p2a: Toothless|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Nevermore|Corviknight, M|100/100
+|-damage|p2a: Nevermore|88/100|[from] Stealth Rock
+|-ability|p2a: Nevermore|Pressure
+|move|p1a: Mandibuzz|Foul Play|p2a: Nevermore
+|-damage|p2a: Nevermore|66/100
+|
+|-heal|p2a: Nevermore|72/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|move|p2a: Nevermore|Defog|p1a: Salazzle
+|-unboost|p1a: Salazzle|evasion|1
+|-sideend|p2: AnIncineroarMain|Stealth Rock|[from] move: Defog|[of] p2a: Nevermore
+|
+|-heal|p2a: Nevermore|78/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Grimm|Toxapex, M, shiny|100/100
+|move|p1a: Salazzle|Toxic|p2a: Grimm
+|-status|p2a: Grimm|tox
+|
+|-damage|p2a: Grimm|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p2a: Nevermore|Corviknight, M|78/100
+|-ability|p2a: Nevermore|Pressure
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|76/100
+|
+|-heal|p1a: Salazzle|82/100|[from] item: Black Sludge
+|-heal|p2a: Nevermore|85/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Salazzle|Toxic|p2a: Nevermore
+|-status|p2a: Nevermore|tox
+|move|p2a: Nevermore|U-turn|p1a: Salazzle
+|-resisted|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Substitute|[damage]
+|
+|switch|p2a: Toothless|Dragapult, M|94/100|[from]move: U-turn
+|
+|-heal|p2a: Toothless|99/100|[from] item: Leftovers
+|-heal|p1a: Salazzle|88/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Toothless|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|93/100
+|
+|-heal|p2a: Toothless|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Reimu|Clefable, F|100/100
+|move|p1a: Mandibuzz|U-turn|p2a: Reimu
+|-resisted|p2a: Reimu
+|-damage|p2a: Reimu|93/100
+|
+|switch|p1a: Ninetales|Ninetales, F|100/100|[from]move: U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p2a: Grimm|Toxapex, M, shiny|100/100 tox
+|move|p1a: Ninetales|Fire Blast|p2a: Grimm|[miss]
+|-miss|p1a: Ninetales|p2a: Grimm
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Grimm|94/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p2a: Toothless|Dragapult, M|100/100
+|move|p1a: Ninetales|Nasty Plot|p1a: Ninetales
+|-boost|p1a: Ninetales|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p2a: Toothless|Substitute|p2a: Toothless
+|-start|p2a: Toothless|Substitute
+|-damage|p2a: Toothless|76/100
+|move|p1a: Ninetales|Dark Pulse|p2a: Toothless
+|-supereffective|p2a: Toothless
+|-end|p2a: Toothless|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Toothless|82/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Toothless|Disable|p1a: Ninetales
+|-start|p1a: Ninetales|Disable|Dark Pulse
+|cant|p1a: Ninetales|Disable|Dark Pulse
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Toothless|88/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Toothless|Substitute|p2a: Toothless
+|-start|p2a: Toothless|Substitute
+|-damage|p2a: Toothless|63/100
+|move|p1a: Ninetales|Fire Blast|p2a: Toothless|[miss]
+|-miss|p1a: Ninetales|p2a: Toothless
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Toothless|69/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Toothless|Hex|p1a: Ninetales
+|-damage|p1a: Ninetales|69/100
+|move|p1a: Ninetales|Fire Blast|p2a: Toothless
+|-resisted|p2a: Toothless
+|-end|p2a: Toothless|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Toothless|75/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Grimm|Toxapex, M, shiny|100/100 tox
+|switch|p1a: Mandibuzz|Mandibuzz, F|93/100
+|
+|-weather|none
+|-damage|p2a: Grimm|94/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p2a: Reimu|Clefable, F|93/100
+|move|p1a: Mandibuzz|U-turn|p2a: Reimu
+|-resisted|p2a: Reimu
+|-damage|p2a: Reimu|87/100
+|
+|switch|p1a: Ninetales|Ninetales, F|69/100|[from]move: U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|move|p1a: Ninetales|Dark Pulse|p2a: Reimu
+|-resisted|p2a: Reimu
+|-crit|p2a: Reimu
+|-damage|p2a: Reimu|72/100
+|move|p2a: Reimu|Thunderbolt|p1a: Ninetales
+|-damage|p1a: Ninetales|28/100
+|-status|p1a: Ninetales|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p2a: Reimu|Moonblast|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Shiftry|Shiftry, F|100/100
+|turn|21
+|
+|move|p1a: Shiftry|Solar Blade||[still]
+|-prepare|p1a: Shiftry|Solar Blade|p2a: Reimu
+|-anim|p1a: Shiftry|Solar Blade|p2a: Reimu
+|-crit|p2a: Reimu
+|-damage|p2a: Reimu|0 fnt
+|-damage|p1a: Shiftry|91/100|[from] item: Life Orb
+|faint|p2a: Reimu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: MMMMMMMM|Rotom-Heat|100/100
+|turn|22
+|
+|switch|p1a: Seismitoad|Seismitoad, F|94/100 brn
+|move|p2a: MMMMMMMM|Nasty Plot|p2a: MMMMMMMM
+|-boost|p2a: MMMMMMMM|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Seismitoad|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Seismitoad|94/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|switch|p2a: Toothless|Dragapult, M|75/100
+|move|p1a: Seismitoad|Toxic|p2a: Toothless
+|-status|p2a: Toothless|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Toothless|81/100 tox|[from] item: Leftovers
+|-heal|p1a: Seismitoad|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toothless|75/100 tox|[from] psn
+|-damage|p1a: Seismitoad|94/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p2a: Toothless|Substitute|p2a: Toothless
+|-start|p2a: Toothless|Substitute
+|-damage|p2a: Toothless|50/100 tox
+|move|p1a: Seismitoad|Stealth Rock|p2a: Toothless
+|-sidestart|p2: AnIncineroarMain|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Toothless|57/100 tox|[from] item: Leftovers
+|-heal|p1a: Seismitoad|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toothless|44/100 tox|[from] psn
+|-damage|p1a: Seismitoad|94/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p2a: Toothless|Hex|p1a: Seismitoad
+|-damage|p1a: Seismitoad|40/100 brn
+|move|p1a: Seismitoad|Earth Power|p2a: Toothless
+|-end|p2a: Toothless|Substitute
+|
+|-weather|none
+|-heal|p2a: Toothless|50/100 tox|[from] item: Leftovers
+|-heal|p1a: Seismitoad|46/100 brn|[from] item: Leftovers
+|-damage|p2a: Toothless|32/100 tox|[from] psn
+|-damage|p1a: Seismitoad|40/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|93/100
+|move|p2a: Toothless|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|85/100
+|
+|-heal|p2a: Toothless|38/100 tox|[from] item: Leftovers
+|-damage|p2a: Toothless|13/100 tox|[from] psn
+|upkeep
+|turn|27
+|-message|AnIncineroarMain forfeited.
+|
+|win|hiiroG
+|l|☆AnIncineroarMain
+|raw|hiiroG's rating: 1332 → 1350(+18 for winning)
+|raw|AnIncineroarMain's rating: 1305 → 1287(-18 for losing)

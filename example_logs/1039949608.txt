@@ -1,0 +1,362 @@
+|ScrapeTime|2020-01-03-00:12:24
+|j|☆ShaynTheStorm
+|j|☆Theo216
+|player|p1|ShaynTheStorm|iris-gen5bw2|1023
+|player|p2|Theo216|101|1072
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Golisopod, M|
+|poke|p1|Chandelure, M|
+|poke|p1|Galvantula, M|
+|poke|p1|Lapras, F|
+|poke|p1|Weavile, M|
+|poke|p1|Braviary, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Grimmsnarl, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ShaynTheStorm)
+|
+|start
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|1
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p1a: Chandelure|Flamethrower|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|24/100
+|
+|-heal|p2a: Grimmsnarl|30/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Grimmsnarl|Rest|p2a: Grimmsnarl
+|-status|p2a: Grimmsnarl|slp|[from] move: Rest
+|-heal|p2a: Grimmsnarl|100/100 slp|[silent]
+|move|p1a: Chandelure|Flamethrower|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|23/100 slp
+|
+|-heal|p2a: Grimmsnarl|29/100 slp|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|cant|p2a: Grimmsnarl|slp
+|move|p2a: Grimmsnarl|Sleep Talk|p2a: Grimmsnarl
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Chandelure|[from]Sleep Talk
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|76/100
+|-unboost|p1a: Chandelure|spa|1
+|move|p1a: Chandelure|Flamethrower|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|4
+|
+|switch|p1a: Galvantula|Galvantula, M, shiny|100/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Galvantula|[miss]
+|-miss|p2a: Dragapult|p1a: Galvantula
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Galvantula
+|-enditem|p1a: Galvantula|Focus Sash
+|-damage|p1a: Galvantula|1/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Galvantula|Sticky Web|p2a: Dragapult
+|-sidestart|p2: Theo216|move: Sticky Web
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Galvantula
+|
+|upkeep
+|
+|switch|p1a: Chandelure|Chandelure, M|76/100
+|turn|7
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-activate|p2a: Toxapex|move: Sticky Web
+|-unboost|p2a: Toxapex|spe|1
+|move|p1a: Chandelure|Shadow Ball|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|39/100
+|
+|-heal|p2a: Toxapex|46/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|switch|p1a: Braviary|Braviary, M|100/100
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|-activate|p2a: Conkeldurr|move: Sticky Web
+|-unboost|p2a: Conkeldurr|spe|1
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-activate|p2a: Ferrothorn|move: Sticky Web
+|-unboost|p2a: Ferrothorn|spe|1
+|move|p1a: Braviary|Sky Attack||[still]
+|-prepare|p1a: Braviary|Sky Attack|p2a: Ferrothorn
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Braviary|Sky Attack|p2a: Ferrothorn|[from]lockedmove
+|-damage|p2a: Ferrothorn|29/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Braviary
+|-sidestart|p1: ShaynTheStorm|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|35/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Braviary|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p2: Theo216|Sticky Web|[from] move: Defog|[of] p1a: Braviary
+|-sideend|p1: ShaynTheStorm|Stealth Rock|[from] move: Defog|[of] p1a: Braviary
+|move|p2a: Ferrothorn|Toxic|p1a: Braviary
+|-status|p1a: Braviary|tox
+|
+|-heal|p2a: Ferrothorn|42/100|[from] item: Leftovers
+|-damage|p1a: Braviary|94/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|move|p1a: Braviary|Sky Attack||[still]
+|-prepare|p1a: Braviary|Sky Attack|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Braviary
+|-sidestart|p1: ShaynTheStorm|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|48/100|[from] item: Leftovers
+|-damage|p1a: Braviary|82/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p1a: Braviary|Sky Attack|p2a: Ferrothorn|[from]lockedmove
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-damage|p1a: Braviary|64/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|14
+|inactive|ShaynTheStorm has 120 seconds left.
+|
+|move|p2a: Excadrill|Iron Head|p1a: Braviary
+|-damage|p1a: Braviary|16/100 tox
+|move|p1a: Braviary|Sky Attack||[still]
+|-prepare|p1a: Braviary|Sky Attack|p2a: Excadrill
+|
+|-damage|p1a: Braviary|0 fnt|[from] psn
+|faint|p1a: Braviary
+|upkeep
+|
+|switch|p1a: Chandelure|Chandelure, M|76/100
+|-damage|p1a: Chandelure|51/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|move|p1a: Chandelure|Flamethrower|p2a: Conkeldurr
+|-crit|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|13/100
+|
+|upkeep
+|turn|16
+|inactive|ShaynTheStorm has 120 seconds left.
+|
+|move|p1a: Chandelure|Flamethrower|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|17
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Chandelure
+|
+|upkeep
+|
+|switch|p1a: Lapras|Lapras, F|100/100
+|-damage|p1a: Lapras|75/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p2a: Toxapex|Toxapex, M|79/100
+|move|p1a: Lapras|Freeze-Dry|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|37/100
+|
+|-heal|p1a: Lapras|82/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|44/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p1a: Lapras|Freeze-Dry|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|5/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|55/100
+|
+|-heal|p1a: Lapras|88/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|62/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|move|p1a: Lapras|Freeze-Dry|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|20/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|70/100
+|
+|-heal|p1a: Lapras|94/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|76/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|move|p1a: Lapras|Psychic|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|46/100
+|move|p2a: Toxapex|Toxic|p1a: Lapras
+|-status|p1a: Lapras|tox
+|
+|-heal|p1a: Lapras|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|52/100|[from] item: Black Sludge
+|-damage|p1a: Lapras|94/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|move|p1a: Lapras|Freeze-Dry|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|16/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|66/100
+|
+|-heal|p1a: Lapras|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|73/100|[from] item: Black Sludge
+|-damage|p1a: Lapras|88/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|move|p1a: Lapras|Freeze-Dry|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|31/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|81/100
+|
+|-heal|p1a: Lapras|94/100 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|87/100|[from] item: Black Sludge
+|-damage|p1a: Lapras|75/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|move|p1a: Lapras|Freeze-Dry|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|49/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|99/100
+|
+|-heal|p1a: Lapras|82/100 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p1a: Lapras|57/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|move|p1a: Lapras|Freeze-Dry|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|60/100
+|move|p2a: Toxapex|Scald|p1a: Lapras
+|-heal|p1a: Lapras|82/100 tox|[from] ability: Water Absorb|[of] p2a: Toxapex
+|
+|-heal|p1a: Lapras|88/100 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|67/100|[from] item: Black Sludge
+|-damage|p1a: Lapras|57/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Lapras|Freeze-Dry|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p1a: Lapras|63/100 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|73/100|[from] item: Black Sludge
+|-damage|p1a: Lapras|25/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|move|p1a: Lapras|Freeze-Dry|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|35/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|85/100
+|
+|-heal|p1a: Lapras|32/100 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|91/100|[from] item: Black Sludge
+|-damage|p1a: Lapras|0 fnt|[from] psn
+|faint|p1a: Lapras
+|upkeep
+|
+|switch|p1a: Weavile|Weavile, M|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|28
+|
+|move|p1a: Weavile|Throat Chop|p2a: Toxapex
+|-damage|p2a: Toxapex|50/100
+|-start|p2a: Toxapex|Throat Chop|[silent]
+|-damage|p1a: Weavile|66/100|[from] item: Life Orb
+|move|p2a: Toxapex|Scald|p1a: Weavile
+|-damage|p1a: Weavile|43/100
+|-status|p1a: Weavile|brn
+|
+|-heal|p2a: Toxapex|56/100|[from] item: Black Sludge
+|-damage|p1a: Weavile|37/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|move|p1a: Weavile|Throat Chop|p2a: Toxapex
+|-damage|p2a: Toxapex|32/100
+|-damage|p1a: Weavile|27/100 brn|[from] item: Life Orb
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|82/100
+|
+|-heal|p2a: Toxapex|88/100|[from] item: Black Sludge
+|-damage|p1a: Weavile|21/100 brn|[from] brn
+|-end|p2a: Toxapex|Throat Chop|[silent]
+|upkeep
+|turn|30
+|-message|ShaynTheStorm forfeited.
+|
+|win|Theo216
+|l|☆ShaynTheStorm
+|raw|ShaynTheStorm's rating: 1001 → 1000(-1 for losing)
+|raw|Theo216's rating: 1072 → 1096(+24 for winning)

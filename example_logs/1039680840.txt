@@ -1,0 +1,81 @@
+|ScrapeTime|2020-01-02-15:05:10
+|j|☆le faux fifou
+|j|☆ser dex
+|player|p1|le faux fifou|tuber|1000
+|player|p2|ser dex|acetrainer-gen4dp|1002
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, M|
+|poke|p1|Rhydon, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Cursola, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Corsola-Galar, M|
+|poke|p2|Frosmoth, F|
+|poke|p2|Milotic, M|
+|poke|p2|Durant, M|
+|poke|p2|Morpeko, F|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Claydol|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ser dex)
+|
+|start
+|switch|p1a: Hatterene|Hatterene, F, shiny|100/100
+|switch|p2a: Claydol|Claydol|100/100
+|turn|1
+|
+|move|p2a: Claydol|Stealth Rock|p1a: Hatterene
+|move|p1a: Hatterene|Stealth Rock|p2a: Claydol|[from]Magic Bounce
+|-sidestart|p2: ser dex|move: Stealth Rock
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M, shiny|100/100
+|move|p2a: Claydol|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|98/100
+|-damage|p2a: Claydol|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-sideend|p2: ser dex|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Claydol
+|-boost|p2a: Claydol|spe|1
+|
+|upkeep
+|turn|3
+|inactive|ser dex has 120 seconds left.
+|
+|move|p1a: Ferrothorn|Knock Off|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|0 fnt
+|-enditem|p2a: Claydol|Aguav Berry|[from] move: Knock Off|[of] p1a: Ferrothorn
+|faint|p2a: Claydol
+|
+|upkeep
+|inactive|ser dex has 120 seconds left.
+|l|☆ser dex
+|inactive|ser dex disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|ser dex has 30 seconds to reconnect!
+|inactive|ser dex has 20 seconds to reconnect!
+|inactive|ser dex has 15 seconds to reconnect!
+|inactive|ser dex has 10 seconds to reconnect!
+|inactive|ser dex has 5 seconds to reconnect!
+|-message|ser dex lost due to inactivity.
+|
+|win|le faux fifou
+|raw|le faux fifou's rating: 1000 → 1040(+40 for winning)
+|raw|ser dex's rating: 1002 → 1000(-2 for losing)

@@ -1,0 +1,320 @@
+|ScrapeTime|2020-01-02-12:24:36
+|j|☆ZephyrSaix
+|j|☆caagle
+|player|p1|ZephyrSaix|riley|1349
+|player|p2|caagle|169|1436
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Dracovish|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Barraskewda, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Seismitoad, M|
+|poke|p2|Pincurchin, M|
+|poke|p2|Togekiss, M|
+|poke|p2|Hawlucha, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Dracozolt|
+|poke|p2|Seismitoad, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by caagle)
+|
+|start
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|turn|1
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Togekiss|Air Slash|p1a: Seismitoad
+|-damage|p1a: Seismitoad|60/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|66/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Seismitoad
+|-damage|p1a: Seismitoad|25/100
+|move|p1a: Seismitoad|Toxic|p2a: Togekiss
+|-status|p2a: Togekiss|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|31/100|[from] item: Leftovers
+|-damage|p2a: Togekiss|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p1a: Seismitoad|Protect|p1a: Seismitoad
+|-singleturn|p1a: Seismitoad|Protect
+|move|p2a: Togekiss|Air Slash|p1a: Seismitoad
+|-activate|p1a: Seismitoad|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Togekiss|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Seismitoad|37/100|[from] item: Leftovers
+|-damage|p2a: Togekiss|88/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p2a: Togekiss|Air Slash|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Togekiss|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Togekiss|76/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|turn|6
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Barraskewda|Close Combat|p2a: Seismitoad
+|-damage|p2a: Seismitoad|45/100
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|51/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Barraskewda|Close Combat|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|57/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|move|p2a: Seismitoad|Earthquake|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|68/100
+|
+|-weather|none
+|-heal|p2a: Seismitoad|63/100|[from] item: Leftovers
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|
+|move|p2a: Seismitoad|Stealth Rock|p1a: Conkeldurr
+|-sidestart|p1: ZephyrSaix|move: Stealth Rock
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Seismitoad
+|-immune|p2a: Seismitoad
+|
+|-heal|p2a: Seismitoad|69/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|62/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Conkeldurr|Drain Punch|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-heal|p2a: Seismitoad|75/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|56/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p2a: Togekiss|Togekiss, M|76/100 tox
+|move|p1a: Conkeldurr|Drain Punch|p2a: Togekiss
+|-resisted|p2a: Togekiss
+|-damage|p2a: Togekiss|57/100 tox
+|-heal|p1a: Conkeldurr|63/100 brn|[from] drain|[of] p2a: Togekiss
+|
+|-heal|p2a: Togekiss|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Togekiss|57/100 tox|[from] psn
+|-damage|p1a: Conkeldurr|57/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Togekiss|Air Slash|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|70/100
+|
+|-heal|p2a: Togekiss|64/100 tox|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|76/100|[from] item: Leftovers
+|-damage|p2a: Togekiss|51/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p2a: Togekiss|Flamethrower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|4/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Togekiss
+|-resisted|p2a: Togekiss
+|-damage|p2a: Togekiss|40/100 tox
+|-enditem|p2a: Togekiss|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|10/100|[from] item: Leftovers
+|-damage|p2a: Togekiss|22/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Togekiss|Air Slash|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Ferrothorn|16/100|[from] item: Leftovers
+|-damage|p2a: Togekiss|0 fnt|[from] psn
+|faint|p2a: Togekiss
+|upkeep
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|turn|15
+|
+|move|p2a: Dracozolt|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-damage|p1a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|16
+|
+|switch|p2a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|move|p1a: Pelipper|U-turn|p2a: Pincurchin
+|-damage|p2a: Pincurchin|90/100
+|
+|switch|p1a: Barraskewda|Barraskewda, M|100/100|[from]move: U-turn
+|-damage|p1a: Barraskewda|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Pincurchin|96/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Barraskewda|Close Combat|p2a: Pincurchin
+|-damage|p2a: Pincurchin|13/100
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|move|p2a: Pincurchin|Discharge|p1a: Barraskewda
+|-supereffective|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Pincurchin|19/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Pelipper|Pelipper, F|76/100
+|-damage|p1a: Pelipper|51/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|move|p1a: Pelipper|Hurricane|p2a: Dracozolt
+|-resisted|p2a: Dracozolt
+|-damage|p2a: Dracozolt|73/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|move|p2a: Dracozolt|Bolt Beak|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|-damage|p1a: Dracovish|88/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Dracozolt|Bolt Beak|p1a: Dracovish|[miss]
+|-miss|p2a: Dracozolt|p1a: Dracovish
+|move|p1a: Dracovish|Outrage|p2a: Dracozolt
+|-supereffective|p2a: Dracozolt
+|-damage|p2a: Dracozolt|0 fnt
+|faint|p2a: Dracozolt
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|-item|p2a: Excadrill|Air Balloon
+|turn|21
+|
+|move|p1a: Dracovish|Outrage|p2a: Excadrill|[from]lockedmove
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|65/100
+|-enditem|p2a: Excadrill|Air Balloon
+|move|p2a: Excadrill|Earthquake|p1a: Dracovish
+|-damage|p1a: Dracovish|29/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|
+|move|p1a: Dracovish|Outrage|p2a: Excadrill|[from]lockedmove
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|33/100
+|-start|p1a: Dracovish|confusion|[fatigue]
+|move|p2a: Excadrill|Earthquake|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|57/100 brn
+|-damage|p1a: Conkeldurr|51/100 brn|[from] Stealth Rock
+|turn|23
+|
+|switch|p2a: Pincurchin|Pincurchin, M|19/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|move|p1a: Conkeldurr|Mach Punch|p2a: Pincurchin
+|-damage|p2a: Pincurchin|0 fnt
+|faint|p2a: Pincurchin
+|
+|-weather|none
+|-damage|p1a: Conkeldurr|45/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p2a: Hawlucha|Electric Seed
+|-boost|p2a: Hawlucha|def|1
+|turn|24
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|win|caagle
+|c|☆caagle|gg
+|raw|ZephyrSaix's rating: 1350 → 1335(-15 for losing)
+|raw|caagle's rating: 1436 → 1451(+15 for winning)
+|c|☆ZephyrSaix|gg

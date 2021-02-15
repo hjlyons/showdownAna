@@ -1,0 +1,230 @@
+|ScrapeTime|2020-01-02-02:05:14
+|j|☆T.B Qc
+|j|☆Spl4sh
+|player|p1|T.B Qc|52|1840
+|player|p2|Spl4sh|137|1639
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ribombee, M|
+|poke|p1|Bisharp, M|
+|poke|p1|Malamar, M|
+|poke|p1|Chandelure, M|
+|poke|p1|Togekiss, F|
+|poke|p1|Dracozolt|
+|poke|p2|Corviknight, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Sylveon, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Gastrodon, M|
+|poke|p2|Dugtrio, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|turn|1
+|
+|move|p1a: Ribombee|Sticky Web|p2a: Sylveon
+|-sidestart|p2: Spl4sh|move: Sticky Web
+|move|p2a: Sylveon|Calm Mind|p2a: Sylveon
+|-boost|p2a: Sylveon|spa|1
+|-boost|p2a: Sylveon|spd|1
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Spl4sh)
+|
+|move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+|-boost|p1a: Ribombee|spa|1
+|-boost|p1a: Ribombee|spd|1
+|-boost|p1a: Ribombee|spe|1
+|move|p2a: Sylveon|Hyper Voice|p1a: Ribombee
+|-damage|p1a: Ribombee|35/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Ribombee|Moonblast|p2a: Sylveon
+|-damage|p2a: Sylveon|78/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|-heal|p2a: Sylveon|85/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|turn|4
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Corviknight
+|-damage|p2a: Corviknight|34/100
+|-start|p2a: Corviknight|Throat Chop|[silent]
+|-damage|p1a: Bisharp|91/100|[from] item: Life Orb
+|move|p2a: Corviknight|Body Press|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|-heal|p2a: Corviknight|40/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|turn|6
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-activate|p2a: Toxapex|move: Sticky Web
+|-unboost|p2a: Toxapex|spe|1
+|move|p1a: Chandelure|Flamethrower|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|81/100
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Malamar|Malamar, M|100/100
+|move|p2a: Toxapex|Toxic|p1a: Malamar
+|-status|p1a: Malamar|tox
+|
+|-damage|p1a: Malamar|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p2a: Sylveon|Sylveon, M|85/100
+|-activate|p2a: Sylveon|move: Sticky Web
+|-unboost|p2a: Sylveon|spe|1
+|move|p1a: Malamar|Superpower|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|63/100
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|
+|-heal|p1a: Malamar|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Sylveon|69/100|[from] item: Leftovers
+|-damage|p1a: Malamar|88/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|move|p1a: Malamar|Psycho Cut|p2a: Sylveon
+|-damage|p2a: Sylveon|19/100
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p1a: Malamar|94/100 tox|[from] item: Leftovers
+|-heal|p2a: Sylveon|25/100|[from] item: Leftovers
+|-damage|p1a: Malamar|76/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|move|p2a: Sylveon|Protect||[still]
+|-fail|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|75/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p2a: Sylveon|81/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Chandelure|Calm Mind|p1a: Chandelure
+|-boost|p1a: Chandelure|spa|1
+|-boost|p1a: Chandelure|spd|1
+|
+|-heal|p2a: Sylveon|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Chandelure|Substitute|p1a: Chandelure
+|-start|p1a: Chandelure|Substitute
+|-damage|p1a: Chandelure|76/100
+|
+|-heal|p1a: Chandelure|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Chandelure|Calm Mind|p1a: Chandelure
+|-boost|p1a: Chandelure|spa|1
+|-boost|p1a: Chandelure|spd|1
+|move|p2a: Rotom|Thunderbolt|p1a: Chandelure
+|-activate|p1a: Chandelure|move: Substitute|[damage]
+|
+|-heal|p1a: Chandelure|88/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Chandelure|Calm Mind|p1a: Chandelure
+|-boost|p1a: Chandelure|spa|1
+|-boost|p1a: Chandelure|spd|1
+|move|p2a: Rotom|Thunderbolt|p1a: Chandelure
+|-end|p1a: Chandelure|Substitute
+|
+|-heal|p1a: Chandelure|94/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Chandelure|Substitute|p1a: Chandelure
+|-start|p1a: Chandelure|Substitute
+|-damage|p1a: Chandelure|69/100
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|
+|-heal|p1a: Chandelure|75/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-heal|p1a: Chandelure|81/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|-activate|p2a: Dugtrio|move: Sticky Web
+|-unboost|p2a: Dugtrio|spe|1
+|turn|17
+|
+|move|p1a: Chandelure|Flamethrower|p2a: Dugtrio
+|-enditem|p2a: Dugtrio|Focus Sash
+|-damage|p2a: Dugtrio|1/100
+|move|p2a: Dugtrio|Earthquake|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-end|p1a: Chandelure|Substitute
+|
+|-heal|p1a: Chandelure|87/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Dugtrio|Sucker Punch||[still]
+|-fail|p2a: Dugtrio
+|move|p1a: Chandelure|Substitute|p1a: Chandelure
+|-start|p1a: Chandelure|Substitute
+|-damage|p1a: Chandelure|63/100
+|
+|-heal|p1a: Chandelure|69/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|-message|Spl4sh forfeited.
+|
+|win|T.B Qc
+|l|☆Spl4sh

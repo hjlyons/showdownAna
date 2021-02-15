@@ -1,0 +1,348 @@
+|ScrapeTime|2020-01-02-14:42:24
+|j|☆magno cum gusto
+|j|☆Monofuego
+|player|p1|magno cum gusto|dragontamer|1424
+|player|p2|Monofuego|265|1328
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, M|
+|poke|p1|Steelix, M|
+|poke|p1|Seismitoad, F|
+|poke|p1|Rotom-Mow|
+|poke|p1|Sylveon, F|
+|poke|p1|Cinderace, F|
+|poke|p2|Dracovish|
+|poke|p2|Pelipper, M|
+|poke|p2|Barraskewda, M|
+|poke|p2|Drednaw, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Ferrothorn, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Rotom|Trick|p2a: Ferrothorn
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Ferrothorn
+|-item|p2a: Ferrothorn|Choice Specs|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Rotom|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|87/100
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100|[from]move: Volt Switch
+|move|p2a: Ferrothorn|Spikes|p1a: Cinderace
+|-sidestart|p1: magno cum gusto|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|83/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Rotom
+|-sidestart|p1: magno cum gusto|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|87/100
+|move|p1a: Rotom|Leaf Storm|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|74/100
+|-unboost|p1a: Rotom|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Dracovish
+|-damage|p2a: Dracovish|79/100
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Dracovish
+|-damage|p2a: Dracovish|26/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|43/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|74/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|39/100
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Cinderace
+|-start|p1a: Cinderace|move: Leech Seed
+|
+|-damage|p1a: Cinderace|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|50/100|[silent]
+|upkeep
+|turn|10
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p1: magno cum gusto|Spikes|[silent]
+|-sidestart|p2: Monofuego|Spikes|[silent]
+|-sideend|p1: magno cum gusto|Stealth Rock|[silent]
+|-sidestart|p2: Monofuego|Stealth Rock|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Cinderace|76/100|[from] Leech Seed|[of] p2a: Pelipper
+|upkeep
+|turn|11
+|
+|move|p1a: Cinderace|U-turn|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|92/100
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100|[from]move: U-turn
+|move|p2a: Pelipper|U-turn|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|96/100
+|
+|switch|p2a: Drednaw|Drednaw, M|100/100|[from]move: U-turn
+|-damage|p2a: Drednaw|88/100|[from] Spikes
+|-damage|p2a: Drednaw|76/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Sylveon|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Drednaw|Swords Dance|p2a: Drednaw
+|-boost|p2a: Drednaw|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p2a: Drednaw|Stone Edge|p1a: Sylveon|[miss]
+|-miss|p2a: Drednaw|p1a: Sylveon
+|move|p1a: Sylveon|Hyper Voice|p2a: Drednaw
+|-damage|p2a: Drednaw|15/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Drednaw|Waterfall|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|c|☆magno cum gusto|sorry for the miss
+|
+|move|p2a: Drednaw|Stone Edge|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|-damage|p2a: Drednaw|5/100|[from] item: Life Orb
+|faint|p1a: Sylveon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|turn|16
+|
+|switch|p1a: Steelix|Steelix, M|100/100
+|move|p2a: Drednaw|Earthquake|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|10/100
+|-damage|p2a: Drednaw|0 fnt|[from] item: Life Orb
+|faint|p2a: Drednaw
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Steelix|17/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, M|100/100
+|-damage|p2a: Barraskewda|88/100|[from] Spikes
+|-damage|p2a: Barraskewda|76/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Barraskewda|Close Combat|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|0 fnt
+|-unboost|p2a: Barraskewda|def|1
+|-unboost|p2a: Barraskewda|spd|1
+|faint|p1a: Steelix
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|43/100
+|turn|18
+|
+|switch|p2a: Pelipper|Pelipper, M|92/100
+|-damage|p2a: Pelipper|67/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Hydreigon|Dark Pulse|p2a: Pelipper
+|-damage|p2a: Pelipper|13/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, M|83/100
+|-damage|p2a: Seismitoad|71/100|[from] Spikes
+|-damage|p2a: Seismitoad|65/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p1a: Cinderace|Cinderace, F|76/100
+|move|p2a: Seismitoad|Focus Blast|p1a: Cinderace
+|-damage|p1a: Cinderace|10/100
+|-damage|p2a: Seismitoad|55/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|move|p2a: Seismitoad|Earth Power|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-damage|p2a: Seismitoad|45/100|[from] item: Life Orb
+|faint|p1a: Cinderace
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|turn|22
+|
+|move|p2a: Seismitoad|Focus Blast|p1a: Rotom
+|-damage|p1a: Rotom|42/100
+|-damage|p2a: Seismitoad|35/100|[from] item: Life Orb
+|move|p1a: Rotom|Leaf Storm|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Seismitoad
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|49/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, M|76/100
+|-damage|p2a: Barraskewda|64/100|[from] Spikes
+|-damage|p2a: Barraskewda|52/100|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: Barraskewda|Close Combat|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-unboost|p2a: Barraskewda|def|1
+|-unboost|p2a: Barraskewda|spd|1
+|faint|p1a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|turn|24
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|50/100
+|-damage|p2a: Ferrothorn|37/100|[from] Spikes
+|-damage|p2a: Ferrothorn|31/100|[from] Stealth Rock
+|move|p1a: Seismitoad|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|12/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|move|p1a: Seismitoad|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|26/100
+|-damage|p2a: Dracovish|14/100|[from] Spikes
+|-damage|p2a: Dracovish|1/100|[from] Stealth Rock
+|turn|26
+|
+|move|p2a: Dracovish|Crunch|p1a: Seismitoad
+|-damage|p1a: Seismitoad|75/100
+|move|p1a: Seismitoad|Earthquake|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|-heal|p1a: Seismitoad|81/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, M|52/100
+|-damage|p2a: Barraskewda|40/100|[from] Spikes
+|-damage|p2a: Barraskewda|27/100|[from] Stealth Rock
+|turn|27
+|
+|move|p2a: Barraskewda|Close Combat|p1a: Seismitoad
+|-damage|p1a: Seismitoad|35/100
+|-unboost|p2a: Barraskewda|def|1
+|-unboost|p2a: Barraskewda|spd|1
+|move|p1a: Seismitoad|Earthquake|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|faint|p2a: Barraskewda
+|
+|win|magno cum gusto
+|c|☆magno cum gusto|gg
+|raw|magno cum gusto's rating: 1424 → 1440(+16 for winning)
+|raw|Monofuego's rating: 1350 → 1334(-16 for losing)
+|l|☆Monofuego

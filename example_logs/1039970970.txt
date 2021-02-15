@@ -1,0 +1,256 @@
+|ScrapeTime|2020-01-03-00:59:02
+|j|☆Bubuca0938
+|j|☆SleepyThomasssss
+|player|p1|Bubuca0938|red|1034
+|player|p2|SleepyThomasssss|170|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Togekiss, M|
+|poke|p1|Toxtricity, M|
+|poke|p1|Chandelure, F|
+|poke|p1|Lucario, M|
+|poke|p1|Haxorus, M|
+|poke|p2|Dracovish|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Sylveon, M|
+|poke|p2|Mimikyu, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Corviknight, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|1
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|turn|2
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|3
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|42/100
+|-start|p2a: Dracovish|Disable|Fishious Rend|[from] ability: Cursed Body|[of] p1a: Dragapult
+|move|p1a: Dragapult|Draco Meteor|p2a: Dracovish
+|-supereffective|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Dracovish
+|
+|-heal|p1a: Dragapult|48/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|turn|4
+|
+|move|p1a: Dragapult|Psychic Fangs|p2a: Corsola
+|-damage|p2a: Corsola|83/100
+|move|p2a: Corsola|Will-O-Wisp|p1a: Dragapult
+|-status|p1a: Dragapult|brn
+|
+|-heal|p1a: Dragapult|54/100 brn|[from] item: Leftovers
+|-damage|p1a: Dragapult|48/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Corsola
+|-damage|p2a: Corsola|68/100
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: Corsola|Night Shade|p1a: Dragapult
+|-damage|p1a: Dragapult|19/100 brn
+|
+|-heal|p1a: Dragapult|25/100 brn|[from] item: Leftovers
+|-damage|p1a: Dragapult|19/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Dragapult|Fire Blast|p2a: Corsola
+|-damage|p2a: Corsola|61/100
+|move|p2a: Corsola|Strength Sap|p1a: Dragapult
+|-unboost|p1a: Dragapult|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-heal|p1a: Dragapult|25/100 brn|[from] item: Leftovers
+|-damage|p1a: Dragapult|19/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Dragapult|Hydro Pump|p2a: Corsola
+|-damage|p2a: Corsola|94/100
+|move|p2a: Corsola|Night Shade|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-start|p2a: Corsola|Disable|Night Shade|[from] ability: Cursed Body|[of] p1a: Dragapult
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|8
+|
+|move|p1a: Haxorus|Close Combat|p2a: Corsola
+|-immune|p2a: Corsola
+|move|p2a: Corsola|Will-O-Wisp|p1a: Haxorus
+|-status|p1a: Haxorus|brn
+|
+|-damage|p1a: Haxorus|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Haxorus|Outrage|p2a: Corsola
+|-damage|p2a: Corsola|71/100
+|move|p2a: Corsola|Haze|p2a: Corsola
+|-clearallboost
+|
+|-heal|p1a: Haxorus|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Haxorus|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Haxorus|Outrage|p2a: Ferrothorn|[from]lockedmove
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|91/100
+|-damage|p1a: Haxorus|82/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Haxorus|66/100 brn|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|-start|p1a: Haxorus|confusion|[fatigue]
+|
+|-heal|p1a: Haxorus|72/100 brn|[from] item: Leftovers
+|-damage|p1a: Haxorus|66/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|-activate|p1a: Haxorus|confusion
+|move|p1a: Haxorus|Close Combat|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|66/100
+|-damage|p1a: Haxorus|53/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Haxorus|37/100 brn|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|-unboost|p1a: Haxorus|def|1
+|-unboost|p1a: Haxorus|spd|1
+|move|p2a: Ferrothorn|Leech Seed|p1a: Haxorus
+|-start|p1a: Haxorus|move: Leech Seed
+|
+|-heal|p1a: Haxorus|43/100 brn|[from] item: Leftovers
+|-damage|p1a: Haxorus|31/100 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|77/100|[silent]
+|-damage|p1a: Haxorus|25/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|-end|p1a: Haxorus|confusion
+|move|p1a: Haxorus|Superpower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|52/100
+|-damage|p1a: Haxorus|12/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Haxorus|0 fnt|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|faint|p1a: Haxorus
+|move|p2a: Ferrothorn|Curse|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|spe|1
+|-boost|p2a: Ferrothorn|atk|1
+|-boost|p2a: Ferrothorn|def|1
+|
+|upkeep
+|
+|switch|p1a: Chandelure|Chandelure, F|100/100
+|turn|13
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|move|p1a: Chandelure|Fire Blast|p2a: Sylveon
+|-damage|p2a: Sylveon|62/100
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Chandelure|Overheat|p2a: Sylveon
+|-damage|p2a: Sylveon|15/100
+|-unboost|p1a: Chandelure|spa|2
+|move|p2a: Sylveon|Hyper Voice|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|62/100
+|
+|-heal|p1a: Chandelure|68/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Chandelure|Overheat|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|-unboost|p1a: Chandelure|spa|2
+|faint|p2a: Sylveon
+|
+|-heal|p1a: Chandelure|74/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|turn|16
+|
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|move|p1a: Chandelure|Overheat|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|-unboost|p1a: Chandelure|spa|2
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M
+|-damage|p2a: Mimikyu|88/100|[from] ability: Disguise|[of] p2a: Mimikyu
+|
+|-heal|p1a: Chandelure|80/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|-damage|p2a: Mimikyu|78/100|[from] item: Life Orb
+|faint|p1a: Chandelure
+|
+|upkeep
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|turn|18
+|
+|move|p2a: Mimikyu|Play Rough|p1a: Togekiss
+|-damage|p1a: Togekiss|4/100
+|-damage|p2a: Mimikyu|68/100|[from] item: Life Orb
+|move|p1a: Togekiss|Air Slash|p2a: Mimikyu
+|-damage|p2a: Mimikyu|25/100
+|
+|-heal|p1a: Togekiss|10/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|-damage|p2a: Mimikyu|16/100|[from] item: Life Orb
+|faint|p1a: Togekiss
+|
+|win|SleepyThomasssss
+|l|☆Bubuca0938
+|raw|Bubuca0938's rating: 1034 → 1018(-16 for losing)
+|raw|SleepyThomasssss's rating: 1000 → 1044(+44 for winning)

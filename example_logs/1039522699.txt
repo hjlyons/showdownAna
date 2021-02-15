@@ -1,0 +1,128 @@
+|ScrapeTime|2020-01-02-05:24:24
+|j|☆Golly Gosh Darn It
+|j|☆Hddcfr
+|player|p1|Golly Gosh Darn It|pokemaniac|1243
+|player|p2|Hddcfr|2|1228
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Clefable, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Corviknight, F|
+|poke|p2|Centiskorch, M|
+|poke|p2|Sylveon, M|
+|poke|p2|Eiscue, M|
+|poke|p2|Abomasnow, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Ribombee, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hddcfr)
+|
+|start
+|switch|p1a: Excadrill|Excadrill, F, shiny|100/100
+|switch|p2a: Ribombee|Ribombee, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p2a: Ribombee|Sticky Web|p1a: Excadrill
+|-sidestart|p1: Golly Gosh Darn It|move: Sticky Web
+|move|p1a: Excadrill|Rapid Spin|p2a: Ribombee
+|-damage|p2a: Ribombee|63/100
+|-sideend|p1: Golly Gosh Darn It|Sticky Web|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Ribombee|Bug Buzz|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|76/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Excadrill|Rock Tomb|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|4
+|
+|move|p1a: Excadrill|Earthquake|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|turn|5
+|
+|move|p1a: Excadrill|Earthquake|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|faint|p2a: Sylveon
+|
+|upkeep
+|
+|switch|p2a: Abomasnow|Abomasnow, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|6
+|
+|move|p1a: Excadrill|Rock Tomb|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Excadrill|70/100|[from] Hail
+|upkeep
+|
+|switch|p2a: Eiscue|Eiscue, M|100/100
+|turn|7
+|
+|move|p1a: Excadrill|Rock Tomb|p2a: Eiscue
+|-supereffective|p2a: Eiscue
+|-damage|p2a: Eiscue|6/100
+|-unboost|p2a: Eiscue|spe|1
+|-enditem|p2a: Eiscue|Sitrus Berry|[eat]
+|-heal|p2a: Eiscue|31/100|[from] item: Sitrus Berry
+|move|p2a: Eiscue|Belly Drum||[still]
+|-fail|p2a: Eiscue
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Excadrill|64/100|[from] Hail
+|upkeep
+|turn|8
+|
+|move|p1a: Excadrill|Earthquake|p2a: Eiscue
+|-damage|p2a: Eiscue|0 fnt
+|faint|p2a: Eiscue
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Excadrill|58/100|[from] Hail
+|upkeep
+|-message|Hddcfr forfeited.
+|
+|win|Golly Gosh Darn It
+|l|☆Hddcfr
+|raw|Golly Gosh Darn It's rating: 1243 → 1267(+24 for winning)
+|raw|Hddcfr's rating: 1228 → 1204(-24 for losing)

@@ -1,0 +1,493 @@
+|ScrapeTime|2020-01-01-06:35:38
+|j|☆Burigo
+|j|☆PKS Itchy Eyes
+|player|p1|Burigo|grimsley-gen7|1337
+|player|p2|PKS Itchy Eyes|2|1326
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Seismitoad, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Gengar, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Toxapex, M|
+|poke|p2|Bisharp, M|
+|poke|p2|Toxtricity, F|
+|poke|p2|Flygon, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Burigo)
+|inactive|PKS Itchy Eyes has 120 seconds left.
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|1
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Seismitoad|Protect||[still]
+|-fail|p1a: Seismitoad
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Seismitoad|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: PKS Itchy Eyes|move: Stealth Rock
+|move|p2a: Toxapex|Toxic|p1a: Seismitoad
+|-status|p1a: Seismitoad|tox
+|
+|-damage|p1a: Seismitoad|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Toxapex|Scald|p1a: Gengar
+|-damage|p1a: Gengar|71/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Gengar|Trick|p2a: Toxapex
+|-activate|p1a: Gengar|move: Trick|[of] p2a: Toxapex
+|-item|p2a: Toxapex|Choice Scarf|[from] move: Trick
+|-item|p1a: Gengar|Black Sludge|[from] move: Trick
+|move|p2a: Toxapex|Scald|p1a: Gengar
+|-crit|p1a: Gengar
+|-damage|p1a: Gengar|33/100
+|
+|-heal|p1a: Gengar|39/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|move|p1a: Gengar|Will-O-Wisp|p2a: Toxapex
+|-status|p2a: Toxapex|brn
+|move|p2a: Toxapex|Scald|p1a: Gengar
+|-damage|p1a: Gengar|9/100
+|-status|p1a: Gengar|brn
+|
+|-heal|p1a: Gengar|15/100 brn|[from] item: Black Sludge
+|-damage|p1a: Gengar|9/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Seismitoad|Seismitoad, F|94/100 tox
+|move|p2a: Toxapex|Scald|p1a: Seismitoad
+|-heal|p1a: Seismitoad|100/100 tox|[from] ability: Water Absorb|[of] p2a: Toxapex
+|
+|-damage|p1a: Seismitoad|94/100 tox|[from] psn
+|-damage|p2a: Toxapex|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Seismitoad|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|70/100
+|-status|p2a: Corviknight|brn
+|
+|-heal|p2a: Corviknight|76/100 brn|[from] item: Leftovers
+|-heal|p1a: Seismitoad|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Corviknight|70/100 brn|[from] brn
+|-damage|p1a: Seismitoad|88/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|45/100 brn
+|
+|-heal|p2a: Corviknight|51/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|45/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Ferrothorn|Knock Off|p2a: Corviknight
+|-activate|p2a: Corviknight|move: Substitute|[damage]
+|
+|-heal|p2a: Corviknight|51/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|45/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|51/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|45/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Dragapult|Fire Blast|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Bisharp|Iron Head|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|36/100
+|-damage|p2a: Bisharp|85/100|[from] item: Life Orb
+|cant|p1a: Mandibuzz|flinch
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Bisharp|Iron Head|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|-damage|p2a: Bisharp|75/100|[from] item: Life Orb
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, M|9/100 brn
+|turn|15
+|
+|move|p1a: Gengar|Will-O-Wisp|p2a: Bisharp
+|-status|p2a: Bisharp|brn
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|-heal|p1a: Gengar|15/100 brn|[from] item: Black Sludge
+|-damage|p1a: Gengar|9/100 brn|[from] brn
+|-damage|p2a: Bisharp|69/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Gengar|Hex|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|9/100 brn
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|-heal|p1a: Gengar|15/100 brn|[from] item: Black Sludge
+|-damage|p1a: Gengar|9/100 brn|[from] brn
+|-damage|p2a: Bisharp|3/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|move|p1a: Gengar|Will-O-Wisp|p2a: Bisharp
+|-fail|p2a: Bisharp|brn
+|
+|-heal|p1a: Gengar|15/100 brn|[from] item: Black Sludge
+|-damage|p1a: Gengar|9/100 brn|[from] brn
+|-damage|p2a: Bisharp|0 fnt|[from] brn
+|faint|p2a: Bisharp
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|-damage|p2a: Toxtricity|88/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Gengar|Will-O-Wisp|p2a: Toxtricity
+|-status|p2a: Toxtricity|brn
+|move|p2a: Toxtricity|Shift Gear|p2a: Toxtricity
+|-boost|p2a: Toxtricity|spe|2
+|-boost|p2a: Toxtricity|atk|1
+|
+|-heal|p1a: Gengar|15/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxtricity|82/100 brn|[from] brn
+|-damage|p1a: Gengar|9/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p2a: Toxtricity|Overdrive|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-start|p2a: Toxtricity|Disable|Overdrive|[from] ability: Cursed Body|[of] p1a: Gengar
+|-enditem|p2a: Toxtricity|Throat Spray
+|-boost|p2a: Toxtricity|spa|1
+|faint|p1a: Gengar
+|
+|-damage|p2a: Toxtricity|76/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|turn|20
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|70/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Toxtricity
+|-damage|p2a: Toxtricity|54/100 brn
+|
+|-heal|p1a: Ferrothorn|76/100|[from] item: Leftovers
+|-damage|p2a: Toxtricity|48/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|26/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Toxtricity
+|-damage|p2a: Toxtricity|27/100 brn
+|
+|-heal|p1a: Ferrothorn|32/100|[from] item: Leftovers
+|-damage|p2a: Toxtricity|20/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p1a: Seismitoad|Seismitoad, F|88/100 tox
+|move|p2a: Toxtricity|Boomburst|p1a: Seismitoad
+|-damage|p1a: Seismitoad|5/100 tox
+|
+|-heal|p1a: Seismitoad|11/100 tox|[from] item: Leftovers
+|-damage|p2a: Toxtricity|14/100 brn|[from] brn
+|-damage|p1a: Seismitoad|5/100 tox|[from] psn
+|-end|p2a: Toxtricity|Disable
+|upkeep
+|turn|23
+|
+|move|p1a: Seismitoad|Protect|p1a: Seismitoad
+|-singleturn|p1a: Seismitoad|Protect
+|move|p2a: Toxtricity|Sludge Wave|p1a: Seismitoad
+|-activate|p1a: Seismitoad|move: Protect
+|
+|-heal|p1a: Seismitoad|11/100 tox|[from] item: Leftovers
+|-damage|p2a: Toxtricity|8/100 brn|[from] brn
+|-damage|p1a: Seismitoad|0 fnt|[from] psn
+|faint|p1a: Seismitoad
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|24
+|
+|move|p1a: Grimmsnarl|Sucker Punch|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100 brn
+|-damage|p2a: Toxapex|88/100 brn|[from] Stealth Rock
+|turn|25
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|switch|p1a: Ferrothorn|Ferrothorn, F|32/100
+|
+|-heal|p1a: Ferrothorn|38/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Rotom|Shadow Ball|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|20/100
+|-unboost|p1a: Ferrothorn|spd|1
+|move|p1a: Ferrothorn|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|46/100
+|-enditem|p2a: Rotom|Choice Scarf|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|26/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Rotom|Overheat|p1a: Ferrothorn|[miss]
+|-miss|p2a: Rotom|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Rotom
+|-immune|p2a: Rotom
+|
+|-heal|p1a: Ferrothorn|32/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Rotom|Overheat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|29
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100 brn
+|-damage|p2a: Toxapex|88/100 brn|[from] Stealth Rock
+|turn|30
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Toxapex|Toxic|p1a: Grimmsnarl
+|-status|p1a: Grimmsnarl|tox
+|
+|-damage|p2a: Toxapex|82/100 brn|[from] brn
+|-damage|p1a: Grimmsnarl|94/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|move|p2a: Toxapex|Toxic|p1a: Grimmsnarl
+|-fail|p1a: Grimmsnarl|tox
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|72/100 brn
+|-unboost|p2a: Toxapex|spa|1
+|
+|-heal|p1a: Grimmsnarl|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Toxapex|66/100 brn|[from] brn
+|-damage|p1a: Grimmsnarl|88/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|move|p2a: Toxapex|Toxic|p1a: Grimmsnarl
+|-fail|p1a: Grimmsnarl|tox
+|
+|-heal|p1a: Grimmsnarl|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Toxapex|59/100 brn|[from] brn
+|-damage|p1a: Grimmsnarl|76/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|move|p2a: Toxapex|Toxic|p1a: Grimmsnarl
+|-fail|p1a: Grimmsnarl|tox
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|47/100 brn
+|-unboost|p2a: Toxapex|spa|1
+|
+|-heal|p1a: Grimmsnarl|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Toxapex|40/100 brn|[from] brn
+|-damage|p1a: Grimmsnarl|58/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|move|p2a: Toxapex|Toxic|p1a: Grimmsnarl
+|-fail|p1a: Grimmsnarl|tox
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|27/100 brn
+|-unboost|p2a: Toxapex|spa|1
+|
+|-heal|p1a: Grimmsnarl|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Toxapex|21/100 brn|[from] brn
+|-damage|p1a: Grimmsnarl|33/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Toxapex|Toxic|p1a: Dragapult
+|-status|p1a: Dragapult|tox
+|
+|-damage|p1a: Dragapult|95/100 tox|[from] psn
+|-damage|p2a: Toxapex|15/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|switch|p2a: Flygon|Flygon, M|100/100
+|-damage|p2a: Flygon|95/100|[from] Stealth Rock
+|move|p1a: Dragapult|Draco Meteor|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Flygon
+|
+|-damage|p1a: Dragapult|83/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|48/100 brn
+|-damage|p2a: Toxapex|36/100 brn|[from] Stealth Rock
+|turn|37
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|33/100 tox
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|86/100 brn
+|
+|-heal|p1a: Grimmsnarl|39/100 tox|[from] item: Leftovers
+|-damage|p2a: Toxapex|79/100 brn|[from] brn
+|-damage|p1a: Grimmsnarl|33/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100 brn
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|92/100 brn
+|-unboost|p2a: Toxapex|spa|1
+|
+|-heal|p1a: Grimmsnarl|39/100 tox|[from] item: Leftovers
+|-damage|p2a: Toxapex|86/100 brn|[from] brn
+|-damage|p1a: Grimmsnarl|27/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100 brn
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|91/100 brn
+|-unboost|p2a: Toxapex|spa|1
+|
+|-heal|p1a: Grimmsnarl|33/100 tox|[from] item: Leftovers
+|-damage|p2a: Toxapex|85/100 brn|[from] brn
+|-damage|p1a: Grimmsnarl|15/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100 brn
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|91/100 brn
+|-unboost|p2a: Toxapex|spa|1
+|
+|-heal|p1a: Grimmsnarl|21/100 tox|[from] item: Leftovers
+|-damage|p2a: Toxapex|84/100 brn|[from] brn
+|-damage|p1a: Grimmsnarl|0 fnt|[from] psn
+|faint|p1a: Grimmsnarl
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|83/100 tox
+|turn|41
+|
+|move|p1a: Dragapult|Hex|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|win|Burigo
+|raw|Burigo's rating: 1337 → 1356(+19 for winning)
+|raw|PKS Itchy Eyes's rating: 1326 → 1307(-19 for losing)
+|c|☆Burigo|gg

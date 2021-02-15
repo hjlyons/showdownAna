@@ -1,0 +1,507 @@
+|ScrapeTime|2020-01-01-15:14:37
+|j|☆Nighon
+|j|☆malfaro714
+|player|p1|Nighon|cress|1275
+|player|p2|malfaro714|hilbert|1286
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corviknight, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Gallade, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Hydreigon, F|
+|poke|p2|Trevenant, M|
+|poke|p2|Ninetales, F|
+|poke|p2|Centiskorch, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Hydreigon, F|
+|poke|p2|Quagsire, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|1
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Hydreigon|Draco Meteor|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|78/100
+|-unboost|p2a: Hydreigon|spa|2
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Centiskorch|Centiskorch, F|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Centiskorch
+|-sidestart|p2: malfaro714|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Centiskorch|Fire Lash|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|79/100
+|-unboost|p1a: Rotom|def|1
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Rotom|Thunder Wave|p2a: Centiskorch
+|-status|p2a: Centiskorch|par
+|move|p2a: Centiskorch|Fire Lash|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|46/100
+|-unboost|p1a: Rotom|def|1
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|cant|p2a: Centiskorch|par
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Centiskorch
+|-damage|p2a: Centiskorch|30/100 par
+|-unboost|p1a: Hydreigon|spa|2
+|move|p2a: Centiskorch|Leech Life|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|4/100
+|-heal|p2a: Centiskorch|76/100 par|[from] drain|[of] p1a: Hydreigon
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Centiskorch|Leech Life|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|76/100
+|-heal|p2a: Centiskorch|88/100 par|[from] drain|[of] p1a: Dragapult
+|
+|-heal|p1a: Dragapult|83/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|58/100
+|move|p2a: Centiskorch|Fire Lash|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|64/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Dragapult|Hex|p2a: Centiskorch
+|-damage|p2a: Centiskorch|30/100 par
+|move|p2a: Centiskorch|Fire Lash|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|38/100
+|-unboost|p1a: Dragapult|def|1
+|
+|-heal|p1a: Dragapult|44/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-damage|p2a: Ninetales|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Dragapult|Hex|p2a: Ninetales
+|-crit|p2a: Ninetales
+|-damage|p2a: Ninetales|29/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Dragapult|50/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|move|p1a: Dragapult|Hex|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|73/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Dragapult|56/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|78/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|52/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|26/100
+|cant|p1a: Ferrothorn|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Gallade|Gallade, M|100/100
+|turn|15
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|move|p1a: Gallade|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|38/100
+|-damage|p1a: Gallade|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-unboost|p1a: Gallade|def|1
+|-unboost|p1a: Gallade|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p1a: Gallade|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Gallade|67/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-unboost|p1a: Gallade|def|1
+|-unboost|p1a: Gallade|spd|1
+|faint|p2a: Corviknight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Trevenant|Trevenant, M|100/100
+|-damage|p2a: Trevenant|88/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Trevenant|Horn Leech|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|95/100
+|-heal|p2a: Trevenant|91/100|[from] drain|[of] p1a: Corviknight
+|
+|-weather|none
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Corviknight|U-turn|p2a: Trevenant
+|-damage|p2a: Trevenant|76/100
+|
+|switch|p1a: Rotom|Rotom-Heat|46/100|[from]move: U-turn
+|move|p2a: Trevenant|Will-O-Wisp|p1a: Rotom
+|-immune|p1a: Rotom
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Centiskorch|Centiskorch, F|30/100 par
+|-damage|p2a: Centiskorch|0 fnt|[from] Stealth Rock
+|faint|p2a: Centiskorch
+|move|p1a: Rotom|Thunder Wave|p2: Centiskorch|[notarget]
+|-fail|p1a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|73/100
+|-damage|p2a: Hydreigon|61/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Hydreigon|Dark Pulse|p1a: Corviknight
+|-damage|p1a: Corviknight|66/100
+|
+|-heal|p1a: Corviknight|72/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Corviknight
+|-damage|p1a: Corviknight|39/100
+|move|p1a: Corviknight|U-turn|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|28/100
+|
+|switch|p1a: Gallade|Gallade, M|67/100|[from]move: U-turn
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Trevenant|Trevenant, M|76/100
+|-damage|p2a: Trevenant|64/100|[from] Stealth Rock
+|move|p1a: Gallade|Close Combat|p2a: Trevenant
+|-immune|p2a: Trevenant
+|
+|upkeep
+|turn|23
+|
+|switch|p1a: Rotom|Rotom-Heat|46/100
+|move|p2a: Trevenant|Leech Seed|p1a: Rotom
+|-start|p1a: Rotom|move: Leech Seed
+|
+|-damage|p1a: Rotom|34/100|[from] Leech Seed|[of] p2a: Trevenant
+|-heal|p2a: Trevenant|73/100|[silent]
+|upkeep
+|turn|24
+|
+|move|p2a: Trevenant|Protect|p2a: Trevenant
+|-singleturn|p2a: Trevenant|Protect
+|move|p1a: Rotom|Volt Switch|p2a: Trevenant
+|-activate|p2a: Trevenant|move: Protect
+|
+|-damage|p1a: Rotom|22/100|[from] Leech Seed|[of] p2a: Trevenant
+|-heal|p2a: Trevenant|83/100|[silent]
+|upkeep
+|turn|25
+|
+|switch|p1a: Dragapult|Dragapult, M|56/100
+|move|p2a: Trevenant|Leech Seed|p1a: Dragapult
+|-start|p1a: Dragapult|move: Leech Seed
+|
+|-heal|p1a: Dragapult|62/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|50/100|[from] Leech Seed|[of] p2a: Trevenant
+|-heal|p2a: Trevenant|95/100|[silent]
+|upkeep
+|turn|26
+|
+|switch|p1a: Corviknight|Corviknight, F|39/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Trevenant|Horn Leech|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|34/100
+|-heal|p2a: Trevenant|97/100|[from] drain|[of] p1a: Corviknight
+|
+|-heal|p1a: Corviknight|41/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|91/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Trevenant|Leech Seed|p1a: Corviknight
+|-start|p1a: Corviknight|move: Leech Seed
+|
+|-heal|p1a: Corviknight|97/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|84/100|[from] Leech Seed|[of] p2a: Trevenant
+|-heal|p2a: Trevenant|100/100|[silent]
+|upkeep
+|turn|28
+|
+|move|p2a: Trevenant|Protect|p2a: Trevenant
+|-singleturn|p2a: Trevenant|Protect
+|move|p1a: Corviknight|Brave Bird|p2a: Trevenant
+|-activate|p2a: Trevenant|move: Protect
+|
+|-heal|p1a: Corviknight|91/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|78/100|[from] Leech Seed|[of] p2a: Trevenant
+|upkeep
+|turn|29
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Trevenant
+|-supereffective|p2a: Trevenant
+|-damage|p2a: Trevenant|21/100
+|-enditem|p2a: Trevenant|Sitrus Berry|[eat]
+|-heal|p2a: Trevenant|46/100|[from] item: Sitrus Berry
+|-damage|p1a: Corviknight|54/100|[from] Recoil
+|move|p2a: Trevenant|Will-O-Wisp|p1a: Corviknight
+|-status|p1a: Corviknight|brn
+|
+|-heal|p1a: Corviknight|60/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|47/100 brn|[from] Leech Seed|[of] p2a: Trevenant
+|-heal|p2a: Trevenant|60/100|[silent]
+|-damage|p1a: Corviknight|41/100 brn|[from] brn
+|-item|p2a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|30
+|
+|move|p2a: Trevenant|Protect|p2a: Trevenant
+|-singleturn|p2a: Trevenant|Protect
+|move|p1a: Corviknight|Brave Bird|p2a: Trevenant
+|-activate|p2a: Trevenant|move: Protect
+|
+|-heal|p1a: Corviknight|47/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|35/100 brn|[from] Leech Seed|[of] p2a: Trevenant
+|-heal|p2a: Trevenant|73/100|[silent]
+|-damage|p1a: Corviknight|29/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|switch|p2a: Ninetales|Ninetales, F|29/100
+|-damage|p2a: Ninetales|5/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Corviknight|Brave Bird|p2a: Ninetales
+|-crit|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|-damage|p1a: Corviknight|28/100 brn|[from] Recoil
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Corviknight|34/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|28/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|28/100
+|-damage|p2a: Hydreigon|16/100|[from] Stealth Rock
+|turn|32
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Gallade|Gallade, M|67/100
+|turn|33
+|
+|move|p1a: Gallade|Shadow Sneak|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|4/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Gallade
+|-damage|p1a: Gallade|24/100
+|-ability|p1a: Gallade|Justified|boost
+|-boost|p1a: Gallade|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|34
+|
+|move|p1a: Gallade|Shadow Sneak|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|-damage|p2a: Quagsire|94/100|[from] Stealth Rock
+|turn|35
+|
+|switch|p1a: Dragapult|Dragapult, M|50/100
+|move|p2a: Quagsire|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|15/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Dragapult|21/100|[from] item: Leftovers
+|-heal|p2a: Quagsire|100/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p1a: Dragapult|Disable|p2a: Quagsire
+|-start|p2a: Quagsire|Disable|Earthquake
+|move|p2a: Quagsire|Ice Punch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Gallade|Gallade, M|24/100
+|turn|37
+|
+|move|p1a: Gallade|Leaf Blade|p2a: Quagsire
+|-supereffective|p2a: Quagsire
+|-crit|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|faint|p2a: Quagsire
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Trevenant|Trevenant, M|73/100
+|-damage|p2a: Trevenant|61/100|[from] Stealth Rock
+|turn|38
+|
+|switch|p1a: Rotom|Rotom-Heat|22/100
+|move|p2a: Trevenant|Leech Seed|p1a: Rotom
+|-start|p1a: Rotom|move: Leech Seed
+|
+|-weather|none
+|-damage|p1a: Rotom|9/100|[from] Leech Seed|[of] p2a: Trevenant
+|-heal|p2a: Trevenant|71/100|[silent]
+|upkeep
+|turn|39
+|
+|move|p2a: Trevenant|Protect|p2a: Trevenant
+|-singleturn|p2a: Trevenant|Protect
+|move|p1a: Rotom|Overheat|p2a: Trevenant
+|-activate|p2a: Trevenant|move: Protect
+|
+|-damage|p1a: Rotom|0 fnt|[from] Leech Seed|[of] p2a: Trevenant
+|-heal|p2a: Trevenant|78/100|[silent]
+|faint|p1a: Rotom
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|4/100
+|turn|40
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Trevenant
+|-supereffective|p2a: Trevenant
+|-damage|p2a: Trevenant|12/100
+|-enditem|p2a: Trevenant|Sitrus Berry|[eat]
+|-heal|p2a: Trevenant|37/100|[from] item: Sitrus Berry
+|move|p2a: Trevenant|Horn Leech|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|-heal|p2a: Trevenant|39/100|[from] drain|[of] p1a: Hydreigon
+|faint|p1a: Hydreigon
+|
+|-item|p2a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p2a: Trevenant|Sitrus Berry|[eat]
+|-heal|p2a: Trevenant|64/100|[from] item: Sitrus Berry
+|
+|switch|p1a: Gallade|Gallade, M|24/100
+|turn|41
+|
+|move|p1a: Gallade|Shadow Sneak|p2a: Trevenant
+|-supereffective|p2a: Trevenant
+|-damage|p2a: Trevenant|20/100
+|move|p2a: Trevenant|Will-O-Wisp|p1a: Gallade
+|-status|p1a: Gallade|brn
+|
+|-damage|p1a: Gallade|18/100 brn|[from] brn
+|-item|p2a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p2a: Trevenant|Sitrus Berry|[eat]
+|-heal|p2a: Trevenant|45/100|[from] item: Sitrus Berry
+|turn|42
+|
+|move|p2a: Trevenant|Protect|p2a: Trevenant
+|-singleturn|p2a: Trevenant|Protect
+|move|p1a: Gallade|Shadow Sneak|p2a: Trevenant
+|-activate|p2a: Trevenant|move: Protect
+|
+|-damage|p1a: Gallade|12/100 brn|[from] brn
+|upkeep
+|turn|43
+|-message|Nighon forfeited.
+|
+|win|malfaro714
+|l|☆Nighon
+|raw|Nighon's rating: 1275 → 1251(-24 for losing)
+|raw|malfaro714's rating: 1286 → 1310(+24 for winning)

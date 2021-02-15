@@ -1,0 +1,157 @@
+|ScrapeTime|2020-01-02-02:44:50
+|j|‽ImmaSurburbanDude
+|j|☆LikeableLuigi
+|player|p1|ImmaSurburbanDude|1|1138
+|player|p2|LikeableLuigi|101|1123
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tyranitar, F|
+|poke|p1|Mew|
+|poke|p1|Aegislash, F|
+|poke|p1|Hippowdon, F|
+|poke|p1|Rotom-Mow|
+|poke|p1|Cloyster, M|
+|poke|p2|Dracovish|
+|poke|p2|Drednaw, F|
+|poke|p2|Eldegoss, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Frosmoth, M|
+|poke|p2|Araquanid, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|switch|p2a: Shiver Star|Frosmoth, M|100/100
+|turn|1
+|
+|move|p1a: Rotom|Volt Switch|p2a: Shiver Star
+|-damage|p2a: Shiver Star|88/100
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100|[from]move: Volt Switch
+|move|p2a: Shiver Star|Reflect|p2a: Shiver Star
+|-sidestart|p2: LikeableLuigi|Reflect
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: PollenStalin|Eldegoss, F|100/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Claw|p2a: PollenStalin
+|-damage|p2a: PollenStalin|66/100
+|-enditem|p2a: PollenStalin|Eject Button
+|
+|switch|p2a: Skeet Skeet|Araquanid, F|100/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|move|p2a: Skeet Skeet|Sticky Web|p1a: Cloyster
+|-sidestart|p1: ImmaSurburbanDude|move: Sticky Web
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Cloyster|Spikes|p2a: Skeet Skeet
+|-sidestart|p2: LikeableLuigi|Spikes
+|move|p2a: Skeet Skeet|Giga Drain|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-crit|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|turn|5
+|
+|move|p1a: Rotom|Thunderbolt|p2a: Skeet Skeet
+|-supereffective|p2a: Skeet Skeet
+|-damage|p2a: Skeet Skeet|40/100
+|move|p2a: Skeet Skeet|Bug Buzz|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-enditem|p2a: Skeet Skeet|Throat Spray
+|-boost|p2a: Skeet Skeet|spa|1
+|faint|p1a: Rotom
+|
+|-sideend|p2: LikeableLuigi|Reflect
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-activate|p1a: Tyranitar|move: Sticky Web
+|-unboost|p1a: Tyranitar|spe|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|6
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|-activate|p1a: Aegislash|move: Sticky Web
+|-unboost|p1a: Aegislash|spe|1
+|move|p2a: Skeet Skeet|Hydro Pump|p1a: Aegislash
+|-damage|p1a: Aegislash|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Skeet Skeet|34/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Sneak|p2a: Skeet Skeet
+|-damage|p2a: Skeet Skeet|0 fnt
+|faint|p2a: Skeet Skeet
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Gulliver|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Gulliver
+|turn|8
+|
+|move|p1a: Aegislash|Shadow Sneak|p2a: Gulliver
+|-damage|p2a: Gulliver|74/100
+|move|p2a: Gulliver|Tailwind|p2a: Gulliver
+|-sidestart|p2: LikeableLuigi|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|switch|p2a: Weird Al|Dracovish|100/100
+|-damage|p2a: Weird Al|88/100|[from] Spikes
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-activate|p1a: Hippowdon|move: Sticky Web
+|-unboost|p1a: Hippowdon|spe|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weird Al|82/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|move|p2a: Weird Al|Fishious Rend|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weird Al|76/100|[from] Sandstorm
+|upkeep
+|-message|ImmaSurburbanDude forfeited.
+|
+|win|LikeableLuigi
+|l|‽ImmaSurburbanDude
+|raw|ImmaSurburbanDude's rating: 1138 → 1112(-26 for losing)
+|raw|LikeableLuigi's rating: 1123 → 1149(+26 for winning)

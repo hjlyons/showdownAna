@@ -1,0 +1,318 @@
+|ScrapeTime|2020-01-01-16:45:41
+|j|☆caagle
+|j|☆JonnyWin
+|player|p1|caagle|102|1079
+|player|p2|JonnyWin|102|1094
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pincurchin, F|
+|poke|p1|Togekiss, F|
+|poke|p1|Hawlucha, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Dracozolt|
+|poke|p1|Seismitoad, F|
+|poke|p2|Dracovish|
+|poke|p2|Pelipper, M|
+|poke|p2|Barraskewda, M|
+|poke|p2|Drednaw, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Ferrothorn, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by caagle)
+|
+|start
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Dracozolt|Dragon Claw|p2a: Seismitoad
+|-damage|p2a: Seismitoad|35/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Seismitoad|Earth Power|p1a: Dracozolt
+|-supereffective|p1a: Dracozolt
+|-damage|p1a: Dracozolt|0 fnt
+|-damage|p2a: Seismitoad|25/100|[from] item: Life Orb
+|faint|p1a: Dracozolt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|turn|3
+|
+|move|p2a: Seismitoad|Stealth Rock|p1a: Seismitoad
+|-sidestart|p1: caagle|move: Stealth Rock
+|move|p1a: Seismitoad|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: JonnyWin|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p2a: Seismitoad|Earth Power|p1a: Seismitoad
+|-damage|p1a: Seismitoad|44/100
+|-damage|p2a: Seismitoad|15/100|[from] item: Life Orb
+|move|p1a: Seismitoad|Earthquake|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|50/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, M|100/100
+|-damage|p2a: Barraskewda|88/100|[from] Stealth Rock
+|turn|5
+|
+|move|p1a: Seismitoad|Protect|p1a: Seismitoad
+|-singleturn|p1a: Seismitoad|Protect
+|move|p2a: Barraskewda|Crunch|p1a: Seismitoad
+|-activate|p1a: Seismitoad|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|56/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|-damage|p1a: Togekiss|76/100|[from] Stealth Rock
+|move|p2a: Barraskewda|Crunch|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|48/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Togekiss|55/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Togekiss|Air Slash|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|64/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Togekiss|61/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|71/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Togekiss|Flamethrower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|21/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Togekiss|[miss]
+|-miss|p2a: Ferrothorn|p1a: Togekiss
+|
+|-weather|none
+|-heal|p1a: Togekiss|67/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|27/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Togekiss|Air Slash|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Togekiss|73/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-damage|p2a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|10
+|
+|move|p1a: Togekiss|Dazzling Gleam|p2a: Pelipper
+|-crit|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Togekiss|79/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Drednaw|Drednaw, M|100/100
+|-damage|p2a: Drednaw|88/100|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Drednaw|Stone Edge|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|-damage|p2a: Drednaw|78/100|[from] item: Life Orb
+|faint|p1a: Togekiss
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, F|56/100
+|-damage|p1a: Seismitoad|50/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Seismitoad|Protect|p1a: Seismitoad
+|-singleturn|p1a: Seismitoad|Protect
+|move|p2a: Drednaw|Stone Edge|p1a: Seismitoad
+|-activate|p1a: Seismitoad|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|56/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Drednaw|Stone Edge|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|30/100
+|-damage|p2a: Drednaw|68/100|[from] item: Life Orb
+|move|p1a: Seismitoad|Earthquake|p2a: Drednaw
+|-supereffective|p2a: Drednaw
+|-damage|p2a: Drednaw|0 fnt
+|faint|p2a: Drednaw
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|36/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, M|88/100
+|-damage|p2a: Barraskewda|76/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Seismitoad|Protect|p1a: Seismitoad
+|-singleturn|p1a: Seismitoad|Protect
+|move|p2a: Barraskewda|Psychic Fangs|p1a: Seismitoad
+|-activate|p1a: Seismitoad|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|43/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Pincurchin|Pincurchin, F|100/100
+|-damage|p1a: Pincurchin|88/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|move|p2a: Barraskewda|Psychic Fangs|p1a: Pincurchin
+|-damage|p1a: Pincurchin|28/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Pincurchin|34/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Barraskewda|Psychic Fangs|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|faint|p1a: Pincurchin
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, F|43/100
+|-damage|p1a: Seismitoad|36/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Seismitoad|Protect|p1a: Seismitoad
+|-singleturn|p1a: Seismitoad|Protect
+|move|p2a: Barraskewda|Psychic Fangs|p1a: Seismitoad
+|-activate|p1a: Seismitoad|move: Protect
+|
+|-weather|none
+|-heal|p1a: Seismitoad|43/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|-item|p1a: Excadrill|Air Balloon
+|move|p2a: Barraskewda|Psychic Fangs|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|64/100
+|-enditem|p1a: Excadrill|Air Balloon
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|move|p1a: Excadrill|Rapid Spin|p2a: Dracovish
+|-damage|p2a: Dracovish|68/100
+|-sideend|p1: caagle|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|20
+|
+|move|p1a: Excadrill|Earthquake|p2a: Dracovish
+|-damage|p2a: Dracovish|11/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|turn|21
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, F|43/100
+|turn|22
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Seismitoad
+|-heal|p1a: Seismitoad|67/100|[from] ability: Water Absorb|[of] p2a: Dracovish
+|move|p1a: Seismitoad|Earthquake|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|-heal|p1a: Seismitoad|73/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, M|76/100
+|-damage|p2a: Barraskewda|64/100|[from] Stealth Rock
+|turn|23
+|inactive|JonnyWin has 120 seconds left.
+|inactive|JonnyWin has 90 seconds left.
+|inactive|JonnyWin has 60 seconds left.
+|
+|move|p1a: Seismitoad|Protect|p1a: Seismitoad
+|-singleturn|p1a: Seismitoad|Protect
+|move|p2a: Barraskewda|Crunch|p1a: Seismitoad
+|-activate|p1a: Seismitoad|move: Protect
+|
+|-heal|p1a: Seismitoad|79/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|JonnyWin has 60 seconds left.
+|
+|move|p2a: Barraskewda|Crunch|p1a: Seismitoad
+|-damage|p1a: Seismitoad|47/100
+|move|p1a: Seismitoad|Earthquake|p2a: Barraskewda
+|-crit|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|faint|p2a: Barraskewda
+|
+|win|caagle
+|raw|caagle's rating: 1079 → 1107(+28 for winning)
+|raw|JonnyWin's rating: 1072 → 1052(-20 for losing)
+|c|☆JonnyWin|gg
+|c|☆caagle|gg
+|l|☆JonnyWin

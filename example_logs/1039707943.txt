@@ -1,0 +1,147 @@
+|ScrapeTime|2020-01-02-16:04:45
+|j|☆Goofin'
+|j|☆Paperboatsnbuckets
+|player|p1|Goofin'|226|1091
+|player|p2|Paperboatsnbuckets|pokemonranger-gen4|1137
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Braviary, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Toxtricity, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Ditto|
+|poke|p2|Frosmoth, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Polteageist|
+|poke|p2|Dubwool, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Centiskorch, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Braviary|Braviary, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Paperboatsnbuckets|Reflect
+|move|p1a: Braviary|Brave Bird|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|32/100
+|-damage|p1a: Braviary|77/100|[from] Recoil
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Paperboatsnbuckets|move: Light Screen
+|move|p1a: Braviary|Brave Bird|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-damage|p1a: Braviary|66/100|[from] Recoil
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Dubwool|Dubwool, M|100/100
+|turn|3
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Dubwool|Cotton Guard|p2a: Dubwool
+|-boost|p2a: Dubwool|def|3
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p2: Paperboatsnbuckets|Light Screen|[silent]
+|-sidestart|p1: Goofin'|Light Screen|[silent]
+|-sideend|p2: Paperboatsnbuckets|Reflect|[silent]
+|-sidestart|p1: Goofin'|Reflect|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Dubwool|Body Press|p1a: Cinderace
+|-damage|p1a: Cinderace|60/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Cinderace|U-turn|p2a: Dubwool
+|-damage|p2a: Dubwool|97/100
+|
+|switch|p1a: Toxtricity|Toxtricity, F|100/100|[from]move: U-turn
+|move|p2a: Dubwool|Cotton Guard|p2a: Dubwool
+|-boost|p2a: Dubwool|def|3
+|
+|-heal|p2a: Dubwool|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Dubwool
+|-damage|p2a: Dubwool|24/100
+|move|p2a: Dubwool|Swagger|p1a: Toxtricity
+|-boost|p1a: Toxtricity|atk|2
+|-start|p1a: Toxtricity|confusion
+|
+|-heal|p2a: Dubwool|30/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|-activate|p1a: Toxtricity|confusion
+|move|p1a: Toxtricity|Overdrive|p2a: Dubwool
+|-damage|p2a: Dubwool|0 fnt
+|faint|p2a: Dubwool
+|
+|upkeep
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|turn|8
+|
+|-activate|p1a: Toxtricity|confusion
+|move|p1a: Toxtricity|Overdrive|p2a: Polteageist
+|-damage|p2a: Polteageist|10/100
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|-sideend|p1: Goofin'|Reflect
+|upkeep
+|turn|9
+|
+|switch|p1a: Cinderace|Cinderace, M|60/100
+|move|p2a: Polteageist|Stored Power|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-sideend|p1: Goofin'|move: Light Screen
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Polteageist|[from] ability: Imposter
+|turn|10
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Ditto|Shadow Ball|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|-message|Paperboatsnbuckets forfeited.
+|
+|win|Goofin'
+|l|☆Paperboatsnbuckets

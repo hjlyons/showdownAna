@@ -1,0 +1,325 @@
+|ScrapeTime|2020-01-01-21:16:32
+|j|☆Pulsived
+|j|☆sdnfhdigv
+|player|p1|Pulsived|silver|1022
+|player|p2|sdnfhdigv|169|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Lucario, M|
+|poke|p1|Gengar, M|
+|poke|p1|Wailord, F|
+|poke|p1|Tyranitar, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Sigilyph, F|
+|poke|p2|Toxtricity, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Centiskorch, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Hatterene, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sdnfhdigv)
+|inactive|Pulsived has 120 seconds left.
+|inactive|Pulsived has 90 seconds left.
+|
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-ability|p2a: Hatterene|Anticipation
+|turn|1
+|
+|move|p1a: Cinderace|U-turn|p2a: Hatterene
+|-damage|p2a: Hatterene|78/100
+|
+|switch|p1a: Sigilyph|Sigilyph, F|100/100|[from]move: U-turn
+|move|p2a: Hatterene|Thunder Wave|p1a: Sigilyph
+|-status|p1a: Sigilyph|par
+|
+|-heal|p2a: Hatterene|84/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Sigilyph|Psychic|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|64/100
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Sigilyph
+|-damage|p1a: Sigilyph|56/100 par
+|
+|-heal|p2a: Hatterene|70/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Sigilyph|Thief|p2a: Hatterene
+|-damage|p2a: Hatterene|60/100
+|move|p2a: Hatterene|Dark Pulse|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|0 fnt
+|faint|p1a: Sigilyph
+|
+|-heal|p2a: Hatterene|66/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|turn|4
+|
+|move|p1a: Gengar|Hypnosis|p2a: Hatterene|[miss]
+|-miss|p1a: Gengar|p2a: Hatterene
+|move|p2a: Hatterene|Thunder Wave|p1a: Gengar
+|-status|p1a: Gengar|par
+|
+|-heal|p2a: Hatterene|72/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Gengar|Hypnosis|p2a: Hatterene
+|-status|p2a: Hatterene|slp|[from] move: Hypnosis
+|cant|p2a: Hatterene|slp
+|
+|-heal|p2a: Hatterene|78/100 slp|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|cant|p1a: Gengar|par
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Gengar|Sludge Wave|p2a: Corviknight
+|-immune|p2a: Corviknight
+|move|p2a: Corviknight|Brave Bird|p1a: Gengar
+|-damage|p1a: Gengar|25/100 par
+|-damage|p2a: Corviknight|84/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|90/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Gengar|Phantom Force||[still]
+|-prepare|p1a: Gengar|Phantom Force|p2a: Corviknight
+|move|p2a: Corviknight|U-turn|p1a: Gengar|[miss]
+|-miss|p2a: Corviknight|p1a: Gengar
+|
+|-heal|p2a: Corviknight|97/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Gengar|Phantom Force|p2a: Corviknight|[from]lockedmove
+|-damage|p2a: Corviknight|84/100
+|move|p2a: Corviknight|U-turn|p1a: Gengar
+|-resisted|p1a: Gengar
+|-damage|p1a: Gengar|19/100 par
+|
+|switch|p2a: Hatterene|Hatterene, F|78/100 slp|[from]move: U-turn
+|-ability|p2a: Hatterene|Anticipation
+|
+|-heal|p2a: Hatterene|84/100 slp|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Corviknight|Corviknight, M|84/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Gengar|Dream Eater|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-heal|p2a: Corviknight|91/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Gengar|Hypnosis|p2a: Corviknight|[miss]
+|-miss|p1a: Gengar|p2a: Corviknight
+|move|p2a: Corviknight|Brave Bird|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-damage|p2a: Corviknight|87/100|[from] Recoil
+|faint|p1a: Gengar
+|
+|-heal|p2a: Corviknight|93/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|12
+|
+|move|p1a: Tyranitar|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|move|p2a: Corviknight|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|74/100
+|
+|switch|p2a: Hatterene|Hatterene, F|84/100 slp|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hatterene|78/100 slp|[from] Sandstorm
+|-heal|p2a: Hatterene|84/100 slp|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Tyranitar|Stone Edge|p2a: Hatterene|[miss]
+|-miss|p1a: Tyranitar|p2a: Hatterene
+|-curestatus|p2a: Hatterene|slp|[msg]
+|move|p2a: Hatterene|Thunder Wave|p1a: Tyranitar|[miss]
+|-miss|p2a: Hatterene|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hatterene|78/100|[from] Sandstorm
+|-heal|p2a: Hatterene|84/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Tyranitar|Stone Edge|p2a: Hatterene
+|-damage|p2a: Hatterene|21/100
+|-heal|p1a: Tyranitar|81/100|[from] item: Shell Bell|[of] p2a: Hatterene
+|move|p2a: Hatterene|Thunder Wave|p1a: Tyranitar
+|-status|p1a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hatterene|15/100|[from] Sandstorm
+|-heal|p2a: Hatterene|21/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Hatterene|Giga Drain|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|41/100 par
+|-heal|p2a: Hatterene|42/100|[from] drain|[of] p1a: Tyranitar
+|move|p1a: Tyranitar|Surf|p2a: Hatterene
+|-damage|p2a: Hatterene|17/100
+|-heal|p1a: Tyranitar|44/100 par|[from] item: Shell Bell|[of] p2a: Hatterene
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hatterene|12/100|[from] Sandstorm
+|-heal|p2a: Hatterene|17/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Hatterene|Giga Drain|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|4/100 par
+|-heal|p2a: Hatterene|39/100|[from] drain|[of] p1a: Tyranitar
+|move|p1a: Tyranitar|Surf|p2a: Hatterene
+|-damage|p2a: Hatterene|14/100
+|-heal|p1a: Tyranitar|7/100 par|[from] item: Shell Bell|[of] p2a: Hatterene
+|
+|-weather|none
+|-heal|p2a: Hatterene|20/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Hatterene|Giga Drain|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-heal|p2a: Hatterene|23/100|[from] drain|[of] p1a: Tyranitar
+|faint|p1a: Tyranitar
+|
+|-heal|p2a: Hatterene|29/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Wailord|Wailord, F|100/100
+|turn|18
+|
+|move|p1a: Wailord|Water Spout|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M|93/100
+|-ability|p2a: Corviknight|Pressure
+|turn|19
+|
+|move|p1a: Wailord|Water Spout|p2a: Corviknight
+|-damage|p2a: Corviknight|49/100
+|move|p2a: Corviknight|U-turn|p1a: Wailord
+|-damage|p1a: Wailord|89/100
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Wailord|83/100|[from] Sandstorm
+|-heal|p1a: Wailord|89/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Tyranitar|Ice Punch|p1a: Wailord
+|-resisted|p1a: Wailord
+|-damage|p1a: Wailord|74/100
+|-status|p1a: Wailord|frz
+|-damage|p2a: Tyranitar|91/100|[from] item: Life Orb
+|cant|p1a: Wailord|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Wailord|68/100 frz|[from] Sandstorm
+|-heal|p1a: Wailord|74/100 frz|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|cant|p1a: Wailord|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Wailord|68/100 frz|[from] Sandstorm
+|-heal|p1a: Wailord|74/100 frz|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|cant|p1a: Wailord|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Wailord|68/100 frz|[from] Sandstorm
+|-heal|p1a: Wailord|74/100 frz|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|sdnfhdigv has 120 seconds left.
+|
+|move|p2a: Tyranitar|Outrage|p1a: Wailord
+|-damage|p1a: Wailord|0 fnt
+|-damage|p2a: Tyranitar|81/100|[from] item: Life Orb
+|faint|p1a: Wailord
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|turn|24
+|
+|move|p2a: Tyranitar|Outrage|p1a: Lucario|[from]lockedmove
+|-resisted|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|-damage|p2a: Tyranitar|71/100|[from] item: Life Orb
+|faint|p1a: Lucario
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|25
+|
+|move|p2a: Tyranitar|Outrage|p1a: Cinderace|[from]lockedmove
+|-damage|p1a: Cinderace|0 fnt
+|-damage|p2a: Tyranitar|61/100|[from] item: Life Orb
+|-start|p2a: Tyranitar|confusion|[fatigue]
+|faint|p1a: Cinderace
+|
+|win|sdnfhdigv
+|l|☆Pulsived
+|raw|Pulsived's rating: 1011 → 1000(-11 for losing)
+|raw|sdnfhdigv's rating: 1000 → 1041(+41 for winning)

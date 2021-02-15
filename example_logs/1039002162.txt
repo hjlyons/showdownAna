@@ -1,0 +1,566 @@
+|ScrapeTime|2020-01-01-04:35:23
+|j|☆huesoszs
+|j|☆uptochansey
+|player|p1|huesoszs|219|1357
+|player|p2|uptochansey|brock|1402
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxtricity-Low-Key, F|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Seismitoad, F|
+|poke|p1|Gyarados, F|
+|poke|p1|Dracozolt|
+|poke|p2|Dracovish|
+|poke|p2|Dragapult, M|
+|poke|p2|Heliolisk, M|
+|poke|p2|Hitmontop, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Tyranitar, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by uptochansey)
+|inactive|huesoszs has 120 seconds left.
+|
+|start
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, F|100/100
+|switch|p2a: Heliolisk|Heliolisk, M|100/100
+|turn|1
+|
+|move|p2a: Heliolisk|Volt Switch|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|76/100
+|
+|switch|p2a: BanSmogon|Tyranitar, M|100/100|[from]move: Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: BanSmogon
+|move|p1a: Toxtricity|Boomburst|p2a: BanSmogon
+|-resisted|p2a: BanSmogon
+|-damage|p2a: BanSmogon|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxtricity|70/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F, shiny|100/100
+|move|p2a: BanSmogon|Earthquake|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Conkeldurr|70/100|[from] Sandstorm
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Conkeldurr|atk|1
+|move|p1a: Conkeldurr|Earthquake|p2a: Hitmontop
+|-damage|p2a: Hitmontop|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hitmontop|58/100|[from] Sandstorm
+|-damage|p1a: Conkeldurr|64/100 brn|[from] Sandstorm
+|-heal|p2a: Hitmontop|64/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|58/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Hitmontop|Close Combat|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|51/100
+|-unboost|p2a: Hitmontop|def|1
+|-unboost|p2a: Hitmontop|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hitmontop|58/100|[from] Sandstorm
+|-damage|p1a: Grimmsnarl|45/100|[from] Sandstorm
+|-heal|p2a: Hitmontop|64/100|[from] item: Leftovers
+|-heal|p1a: Grimmsnarl|51/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|par
+|
+|-weather|none
+|-heal|p1a: Grimmsnarl|57/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|cant|p2a: Ferrothorn|move: Taunt|Thunder Wave
+|
+|-heal|p1a: Grimmsnarl|63/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Seismitoad|Seismitoad, F, shiny|100/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|82/100
+|
+|-heal|p1a: Seismitoad|88/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Dracovish
+|-sidestart|p2: uptochansey|move: Stealth Rock
+|
+|-heal|p1a: Seismitoad|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100 par
+|-damage|p2a: Ferrothorn|94/100 par|[from] Stealth Rock
+|move|p1a: Seismitoad|Toxic||[still]
+|-fail|p1a: Seismitoad
+|
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F, shiny|58/100 brn
+|move|p2a: Ferrothorn|Thunder Wave||[still]
+|-fail|p2a: Ferrothorn
+|
+|-damage|p1a: Conkeldurr|52/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Conkeldurr|Drain Punch|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-damage|p1a: Conkeldurr|46/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Conkeldurr|Drain Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|16/100 par
+|-heal|p1a: Conkeldurr|82/100 brn|[from] drain|[of] p2a: Ferrothorn
+|-damage|p1a: Conkeldurr|69/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Conkeldurr|[miss]
+|-miss|p2a: Ferrothorn|p1a: Conkeldurr
+|
+|-heal|p2a: Ferrothorn|23/100 par|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|63/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Conkeldurr|Mach Punch|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|29/100 par|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|57/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Conkeldurr|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|6/100
+|
+|-damage|p1a: Conkeldurr|51/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|63/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|48/100
+|
+|-heal|p1a: Grimmsnarl|54/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Dragapult|Hydro Pump|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|25/100
+|move|p1a: Grimmsnarl|Darkest Lariat|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Grimmsnarl|31/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hitmontop|Hitmontop, M|64/100
+|-damage|p2a: Hitmontop|58/100|[from] Stealth Rock
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Grimmsnarl|atk|1
+|turn|17
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Hitmontop|[miss]
+|-miss|p1a: Grimmsnarl|p2a: Hitmontop
+|move|p2a: Hitmontop|Rapid Spin|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|19/100
+|-sideend|p2: uptochansey|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Hitmontop
+|-boost|p2a: Hitmontop|spe|1
+|
+|-heal|p2a: Hitmontop|64/100|[from] item: Leftovers
+|-heal|p1a: Grimmsnarl|25/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Hitmontop
+|-status|p2a: Hitmontop|par
+|cant|p2a: Hitmontop|par
+|
+|-heal|p1a: Grimmsnarl|31/100|[from] item: Leftovers
+|-heal|p2a: Hitmontop|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Hitmontop
+|-supereffective|p2a: Hitmontop
+|-damage|p2a: Hitmontop|31/100 par
+|-unboost|p2a: Hitmontop|spa|1
+|move|p2a: Hitmontop|Close Combat|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|-unboost|p2a: Hitmontop|def|1
+|-unboost|p2a: Hitmontop|spd|1
+|faint|p1a: Grimmsnarl
+|
+|-heal|p2a: Hitmontop|37/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, F, shiny|100/100
+|turn|20
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|29/100 par
+|move|p1a: Seismitoad|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: uptochansey|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|35/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F, shiny|51/100 brn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Conkeldurr
+|-start|p1a: Conkeldurr|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|41/100 par|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|39/100 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|56/100 par|[silent]
+|-damage|p1a: Conkeldurr|32/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p1a: Seismitoad|Seismitoad, F, shiny|100/100
+|move|p2a: Ferrothorn|Protect||[still]
+|-fail|p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|62/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F, shiny|32/100 brn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Conkeldurr
+|-start|p1a: Conkeldurr|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|68/100 par|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|20/100 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|83/100 par|[silent]
+|-damage|p1a: Conkeldurr|14/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Conkeldurr|Drain Punch|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|89/100 par|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|1/100 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100 par|[silent]
+|-damage|p1a: Conkeldurr|0 fnt|[from] brn
+|faint|p1a: Conkeldurr
+|upkeep
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|turn|25
+|
+|move|p1a: Dracozolt|Low Kick|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|47/100 par
+|-damage|p1a: Dracozolt|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Dracozolt|[miss]
+|-miss|p2a: Ferrothorn|p1a: Dracozolt
+|
+|-heal|p2a: Ferrothorn|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|cant|p2a: Ferrothorn|par
+|move|p1a: Dracozolt|Low Kick|p2a: Ferrothorn|[miss]
+|-miss|p1a: Dracozolt|p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Dracozolt|Low Kick|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|6/100 par
+|-damage|p1a: Dracozolt|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Dracozolt
+|-start|p1a: Dracozolt|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|12/100 par|[from] item: Leftovers
+|-damage|p1a: Dracozolt|63/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|23/100 par|[silent]
+|upkeep
+|turn|28
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Dracozolt|Low Kick|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|29/100 par|[from] item: Leftovers
+|-damage|p1a: Dracozolt|51/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|41/100 par|[silent]
+|upkeep
+|turn|29
+|
+|switch|p2a: Hitmontop|Hitmontop, M|37/100 par
+|-damage|p2a: Hitmontop|31/100 par|[from] Stealth Rock
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Dracozolt|atk|1
+|move|p1a: Dracozolt|Low Kick|p2a: Hitmontop
+|-damage|p2a: Hitmontop|15/100 par
+|
+|-heal|p2a: Hitmontop|22/100 par|[from] item: Leftovers
+|-damage|p1a: Dracozolt|38/100|[from] Leech Seed|[of] p2a: Hitmontop
+|-heal|p2a: Hitmontop|35/100 par|[silent]
+|upkeep
+|turn|30
+|
+|move|p1a: Dracozolt|Low Kick|p2a: Hitmontop
+|-damage|p2a: Hitmontop|21/100 par
+|cant|p2a: Hitmontop|par
+|
+|-heal|p2a: Hitmontop|27/100 par|[from] item: Leftovers
+|-damage|p1a: Dracozolt|26/100|[from] Leech Seed|[of] p2a: Hitmontop
+|-heal|p2a: Hitmontop|40/100 par|[silent]
+|upkeep
+|turn|31
+|
+|move|p1a: Dracozolt|Low Kick|p2a: Hitmontop|[miss]
+|-miss|p1a: Dracozolt|p2a: Hitmontop
+|move|p2a: Hitmontop|Rapid Spin|p1a: Dracozolt
+|-damage|p1a: Dracozolt|12/100
+|-sideend|p2: uptochansey|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Hitmontop
+|-boost|p2a: Hitmontop|spe|1
+|
+|-heal|p2a: Hitmontop|46/100 par|[from] item: Leftovers
+|-damage|p1a: Dracozolt|0 fnt|[from] Leech Seed|[of] p2a: Hitmontop
+|-heal|p2a: Hitmontop|58/100 par|[silent]
+|faint|p1a: Dracozolt
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, F, shiny|100/100
+|turn|32
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|41/100 par
+|move|p1a: Seismitoad|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|31/100 par
+|
+|-heal|p2a: Ferrothorn|37/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|c|☆huesoszs|lucky fuck
+|
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, F|70/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Toxtricity
+|-start|p1a: Toxtricity|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|44/100 par|[from] item: Leftovers
+|-damage|p1a: Toxtricity|57/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|54/100 par|[silent]
+|upkeep
+|turn|34
+|c|☆uptochansey|LMAO
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Toxtricity|Overdrive|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|60/100 par|[from] item: Leftovers
+|-damage|p1a: Toxtricity|45/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|70/100 par|[silent]
+|upkeep
+|turn|35
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|25/100 par
+|cant|p2a: Ferrothorn|par
+|
+|-heal|p2a: Ferrothorn|31/100 par|[from] item: Leftovers
+|-damage|p1a: Toxtricity|32/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|41/100 par|[silent]
+|upkeep
+|turn|36
+|c|☆huesoszs|just facts
+|c|☆uptochansey|low kicks that wouldnt have done anything keeek
+|c|☆uptochansey|Ican taste the salt
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Toxtricity|Overdrive|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|48/100 par|[from] item: Leftovers
+|-damage|p1a: Toxtricity|20/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|58/100 par|[silent]
+|upkeep
+|turn|37
+|inactive|huesoszs has 120 seconds left.
+|c|☆huesoszs|It did 54% to ferrathorn
+|c|☆huesoszs|Stfup
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|27/100 par
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|-heal|p2a: Ferrothorn|33/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|turn|38
+|c|☆uptochansey|i love it lmaooo
+|
+|move|p1a: Gyarados|Substitute|p1a: Gyarados
+|-start|p1a: Gyarados|Substitute
+|-damage|p1a: Gyarados|76/100
+|move|p2a: Ferrothorn|Thunder Wave||[still]
+|-fail|p2a: Ferrothorn
+|
+|-heal|p1a: Gyarados|82/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|39/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-end|p1a: Gyarados|Substitute
+|
+|-heal|p1a: Gyarados|88/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|46/100 par|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: Gyarados|Substitute|p1a: Gyarados
+|-start|p1a: Gyarados|Substitute
+|-damage|p1a: Gyarados|63/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-end|p1a: Gyarados|Substitute
+|
+|-heal|p1a: Gyarados|69/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|52/100 par|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p1a: Gyarados|Substitute|p1a: Gyarados
+|-start|p1a: Gyarados|Substitute
+|-damage|p1a: Gyarados|44/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-end|p1a: Gyarados|Substitute
+|
+|-heal|p1a: Gyarados|50/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|58/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p1a: Gyarados|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|29/100 par
+|cant|p2a: Ferrothorn|par
+|
+|-heal|p1a: Gyarados|56/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|35/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p1a: Gyarados|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|3/100 par
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|23/100
+|
+|-heal|p1a: Gyarados|30/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|10/100 par|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p1a: Gyarados|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-heal|p1a: Gyarados|36/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Heliolisk|Heliolisk, M|100/100
+|turn|45
+|
+|switch|p1a: Seismitoad|Seismitoad, F, shiny|100/100
+|move|p2a: Heliolisk|Volt Switch|p1a: Seismitoad
+|-immune|p1a: Seismitoad
+|
+|upkeep
+|turn|46
+|
+|move|p2a: Heliolisk|Grass Knot|p1a: Seismitoad
+|-supereffective|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|c|☆uptochansey|epic
+|c|☆huesoszs|lol
+|c|☆uptochansey|shieeeet gg no re
+|n|!huesoszs|huesoszs
+|inactive|huesoszs has 120 seconds left.
+|
+|switch|p1a: Gyarados|Gyarados, F|36/100
+|turn|47
+|-message|huesoszs forfeited.
+|
+|win|uptochansey
+|l|!huesoszs
+|raw|huesoszs's rating: 1357 → 1340(-17 for losing)
+|raw|uptochansey's rating: 1402 → 1420(+18 for winning)

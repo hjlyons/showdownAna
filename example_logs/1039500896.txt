@@ -1,0 +1,224 @@
+|ScrapeTime|2020-01-02-04:24:29
+|j|☆Zero Animosity
+|j|☆Timsensation
+|player|p1|Zero Animosity|hilbert|
+|player|p2|Timsensation|skyla|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Umbreon, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Togekiss, M|
+|poke|p1|Barraskewda, M|
+|poke|p1|Pelipper, F|
+|poke|p2|Toxtricity, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Grimmsnarl, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Timsensation|move: Light Screen
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Timsensation|Reflect
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Grimmsnarl|Foul Play|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-enditem|p1a: Dragapult|Focus Sash
+|-damage|p1a: Dragapult|1/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Grimmsnarl
+|-immune|p2a: Grimmsnarl
+|move|p2a: Grimmsnarl|Foul Play|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|5
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|move|p1a: Pelipper|Tailwind|p1a: Pelipper
+|-sidestart|p1: Zero Animosity|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Umbreon|Umbreon, M, shiny|100/100
+|move|p2a: Toxtricity|Overdrive|p1a: Umbreon
+|-damage|p1a: Umbreon|51/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Umbreon|57/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Umbreon|Yawn|p2a: Toxtricity
+|-start|p2a: Toxtricity|move: Yawn|[of] p1a: Umbreon
+|move|p2a: Toxtricity|Overdrive|p1a: Umbreon
+|-damage|p1a: Umbreon|11/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Umbreon|17/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: Timsensation|move: Light Screen
+|-sideend|p1: Zero Animosity|move: Tailwind
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|
+|move|p1a: Barraskewda|Psychic Fangs|p2a: Conkeldurr
+|-sideend|p2: Timsensation|Reflect
+|-supereffective|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|18/100 brn
+|-damage|p1a: Barraskewda|91/100|[from] item: Life Orb
+|move|p2a: Conkeldurr|Thunder Punch|p1a: Barraskewda
+|-supereffective|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Conkeldurr|12/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|10
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|11
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Timsensation|Reflect
+|move|p1a: Cinderace|Gunk Shot|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|59/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Timsensation|move: Light Screen
+|move|p1a: Cinderace|Gunk Shot|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|19/100
+|-status|p2a: Grimmsnarl|psn
+|
+|-weather|none
+|-damage|p2a: Grimmsnarl|6/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Cinderace
+|-status|p1a: Cinderace|par
+|move|p1a: Cinderace|U-turn|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|turn|14
+|
+|move|p1a: Togekiss|Air Slash|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|87/100
+|cant|p2a: Toxtricity|flinch
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Togekiss|Dazzling Gleam|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|73/100
+|move|p2a: Toxtricity|Overdrive|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|upkeep
+|
+|switch|p1a: Umbreon|Umbreon, M, shiny|17/100
+|turn|16
+|
+|move|p2a: Toxtricity|Overdrive|p1a: Umbreon
+|-damage|p1a: Umbreon|0 fnt
+|faint|p1a: Umbreon
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100 par
+|turn|17
+|
+|move|p2a: Toxtricity|Overdrive|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|18
+|
+|move|p2a: Toxtricity|Overdrive|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|win|Timsensation

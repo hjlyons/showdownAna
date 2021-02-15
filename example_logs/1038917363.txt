@@ -1,0 +1,186 @@
+|ScrapeTime|2020-01-01-00:28:41
+|j|☆Player 4691
+|j|☆FoodieO_o
+|player|p1|Player 4691|2|1087
+|player|p2|FoodieO_o|2|1080
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Seismitoad, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Cinderace, F|
+|poke|p2|Eiscue, F|
+|poke|p2|Orbeetle, F|
+|poke|p2|Whimsicott, F|
+|poke|p2|Eldegoss, F|
+|poke|p2|Steelix, F|
+|poke|p2|Dragapult, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|l|☆FoodieO_o
+|player|p2|
+|j|☆FoodieO_o
+|player|p2|FoodieO_o|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FoodieO_o)
+|
+|start
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|switch|p2a: Orbeetle|Orbeetle, F|100/100
+|turn|1
+|
+|switch|p2a: Steelix|Steelix, F, shiny|100/100
+|move|p1a: Rotom|Overheat|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|19/100
+|-unboost|p1a: Rotom|spa|2
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Rotom|Overheat|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|84/100
+|-unboost|p1a: Rotom|spa|2
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Dragapult|Psychic Fangs|p1a: Seismitoad
+|-damage|p1a: Seismitoad|75/100
+|-damage|p2a: Dragapult|74/100|[from] item: Life Orb
+|
+|-heal|p1a: Seismitoad|81/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Eldegoss|Eldegoss, F|100/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Eldegoss
+|-sidestart|p2: FoodieO_o|move: Stealth Rock
+|
+|-heal|p1a: Seismitoad|87/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Eldegoss|Leech Seed|p1a: Cinderace
+|-start|p1a: Cinderace|move: Leech Seed
+|
+|-damage|p1a: Cinderace|88/100|[from] Leech Seed|[of] p2a: Eldegoss
+|upkeep
+|turn|6
+|
+|switch|p2a: Steelix|Steelix, F, shiny|19/100
+|-damage|p2a: Steelix|15/100|[from] Stealth Rock
+|move|p1a: Cinderace|U-turn|p2a: Steelix
+|-resisted|p2a: Steelix
+|-damage|p2a: Steelix|9/100
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Steelix
+|-damage|p2a: Steelix|0 fnt
+|-damage|p1a: Hydreigon|91/100|[from] item: Life Orb
+|faint|p2a: Steelix
+|
+|upkeep
+|
+|switch|p2a: Orbeetle|Orbeetle, F|100/100
+|-damage|p2a: Orbeetle|76/100|[from] Stealth Rock
+|turn|8
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Orbeetle
+|-supereffective|p2a: Orbeetle
+|-crit|p2a: Orbeetle
+|-damage|p2a: Orbeetle|0 fnt
+|-damage|p1a: Hydreigon|81/100|[from] item: Life Orb
+|faint|p2a: Orbeetle
+|
+|upkeep
+|
+|switch|p2a: Whimsicott|Whimsicott, F, shiny|100/100
+|-damage|p2a: Whimsicott|88/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Whimsicott|Leech Seed|p1a: Rotom
+|-start|p1a: Rotom|move: Leech Seed
+|
+|-damage|p1a: Rotom|88/100|[from] Leech Seed|[of] p2a: Whimsicott
+|-heal|p2a: Whimsicott|99/100|[silent]
+|upkeep
+|turn|10
+|
+|move|p2a: Whimsicott|Substitute|p2a: Whimsicott
+|-start|p2a: Whimsicott|Substitute
+|-damage|p2a: Whimsicott|75/100
+|move|p1a: Rotom|Volt Switch|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-activate|p2a: Whimsicott|move: Substitute|[damage]
+|
+|switch|p1a: Cinderace|Cinderace, F|88/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Whimsicott|Leech Seed|p1a: Cinderace
+|-start|p1a: Cinderace|move: Leech Seed
+|move|p1a: Cinderace|Pyro Ball|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-end|p2a: Whimsicott|Substitute
+|
+|-damage|p1a: Cinderace|76/100|[from] Leech Seed|[of] p2a: Whimsicott
+|-heal|p2a: Whimsicott|86/100|[silent]
+|upkeep
+|turn|12
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Whimsicott|Substitute|p2a: Whimsicott
+|-start|p2a: Whimsicott|Substitute
+|-damage|p2a: Whimsicott|61/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Whimsicott|Stun Spore|p1a: Dragapult
+|-status|p1a: Dragapult|par
+|move|p1a: Dragapult|Fire Blast|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|upkeep
+|
+|switch|p2a: Eldegoss|Eldegoss, F|100/100
+|-damage|p2a: Eldegoss|88/100|[from] Stealth Rock
+|turn|14
+|-message|FoodieO_o forfeited.
+|
+|win|Player 4691
+|l|☆FoodieO_o
+|raw|Player 4691's rating: 1087 → 1113(+26 for winning)
+|raw|FoodieO_o's rating: 1081 → 1059(-22 for losing)
+|l|☆Player 4691
+|j|☆Player 4691
+|player|p1|Player 4691|2
+|l|☆Player 4691
+|player|p1|
+|j|☆Player 4691
+|player|p1|Player 4691|2

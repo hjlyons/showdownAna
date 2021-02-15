@@ -1,0 +1,234 @@
+|ScrapeTime|2020-01-01-11:36:02
+|j|☆vykaar
+|j|☆MarchOfTheMallows
+|player|p1|vykaar|43|1136
+|player|p2|MarchOfTheMallows|97|1168
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Kommo-o, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Polteageist|
+|poke|p1|Bisharp, F|
+|poke|p1|Cinderace, M|
+|poke|p2|Cloyster, F|
+|poke|p2|Araquanid, M|
+|poke|p2|Cursola, F|
+|poke|p2|Pyukumuku, M|
+|poke|p2|Hitmonlee, M|
+|poke|p2|Greedent, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by vykaar)
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Becky|Greedent, F, shiny|100/100
+|turn|1
+|
+|move|p1a: Rotom|Trick|p2a: Becky
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Becky
+|-item|p2a: Becky|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Sitrus Berry|[from] move: Trick
+|move|p2a: Becky|Belly Drum|p2a: Becky
+|-damage|p2a: Becky|50/100
+|-setboost|p2a: Becky|atk|6|[from] move: Belly Drum
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Becky
+|-status|p2a: Becky|brn
+|move|p2a: Becky|Belly Drum||[still]
+|-fail|p2a: Becky
+|
+|-damage|p2a: Becky|44/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Becky|[miss]
+|-miss|p1a: Rotom|p2a: Becky
+|move|p2a: Becky|Belly Drum||[still]
+|-fail|p2a: Becky
+|
+|-damage|p2a: Becky|38/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Rotom|Volt Switch|p2a: Becky
+|-damage|p2a: Becky|6/100 brn
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100|[from]move: Volt Switch
+|move|p2a: Becky|Belly Drum||[still]
+|-fail|p2a: Becky
+|
+|-damage|p2a: Becky|0 fnt|[from] brn
+|faint|p2a: Becky
+|upkeep
+|
+|switch|p2a: Steven|Araquanid, M, shiny|100/100
+|turn|5
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Steven
+|-start|p2a: Steven|move: Taunt
+|move|p2a: Steven|Lunge|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|73/100
+|-unboost|p1a: Grimmsnarl|atk|1
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: vykaar|Reflect
+|move|p2a: Steven|Liquidation|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|41/100
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: vykaar|move: Light Screen
+|move|p2a: Steven|Liquidation|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|8/100
+|
+|-end|p2a: Steven|move: Taunt
+|upkeep
+|turn|8
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Steven
+|-damage|p2a: Steven|78/100
+|-unboost|p2a: Steven|spa|1
+|move|p2a: Steven|Liquidation|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|turn|9
+|
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|67/100
+|-enditem|p1a: Kommo-o|Throat Spray
+|-boost|p1a: Kommo-o|spa|1
+|move|p2a: Steven|Sticky Web|p1a: Kommo-o
+|-sidestart|p1: vykaar|move: Sticky Web
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Kommo-o|Clanging Scales|p2a: Steven
+|-damage|p2a: Steven|8/100
+|-unboost|p1a: Kommo-o|def|1
+|move|p2a: Steven|Liquidation|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|52/100
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Kommo-o|Flamethrower|p2a: Steven
+|-damage|p2a: Steven|0 fnt
+|faint|p2a: Steven
+|
+|upkeep
+|
+|switch|p2a: Chernoman|Hitmonlee, M, shiny|100/100
+|turn|12
+|
+|move|p2a: Chernoman|Endure|p2a: Chernoman
+|-singleturn|p2a: Chernoman|move: Endure
+|move|p1a: Kommo-o|Clanging Scales|p2a: Chernoman
+|-activate|p2a: Chernoman|move: Endure
+|-damage|p2a: Chernoman|1/100
+|-enditem|p2a: Chernoman|Liechi Berry|[eat]
+|-boost|p2a: Chernoman|atk|1
+|-unboost|p1a: Kommo-o|def|1
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Chernoman|Reversal|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|-sideend|p1: vykaar|Reflect
+|upkeep
+|
+|switch|p1a: Polteageist|Polteageist|100/100
+|-activate|p1a: Polteageist|move: Sticky Web
+|-unboost|p1a: Polteageist|spe|1
+|-enditem|p1a: Polteageist|White Herb
+|-clearnegativeboost|p1a: Polteageist|[silent]
+|turn|14
+|
+|move|p2a: Chernoman|Throat Chop|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|-sideend|p1: vykaar|move: Light Screen
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|-activate|p1a: Bisharp|move: Sticky Web
+|-unboost|p1a: Bisharp|spe|1
+|-ability|p1a: Bisharp|Defiant
+|-boost|p1a: Bisharp|atk|2
+|turn|15
+|
+|move|p2a: Chernoman|Endure|p2a: Chernoman
+|-singleturn|p2a: Chernoman|move: Endure
+|move|p1a: Bisharp|Sucker Punch||[still]
+|-fail|p1a: Bisharp
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Chernoman|Bullet Punch|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|87/100
+|move|p1a: Bisharp|Sucker Punch||[still]
+|-fail|p1a: Bisharp
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Chernoman|Reversal|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|c|☆MarchOfTheMallows|Get fked
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|18
+|
+|move|p2a: Chernoman|Reversal|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|-message|vykaar forfeited.
+|
+|win|MarchOfTheMallows
+|l|☆vykaar
+|raw|vykaar's rating: 1136 → 1113(-23 for losing)
+|raw|MarchOfTheMallows's rating: 1169 → 1192(+23 for winning)

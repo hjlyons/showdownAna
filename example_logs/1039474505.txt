@@ -1,0 +1,356 @@
+|ScrapeTime|2020-01-02-03:14:33
+|j|☆TL2005
+|j|☆watch movie
+|player|p1|TL2005|265|1288
+|player|p2|watch movie|2|1338
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aegislash, M|
+|poke|p1|Dracozolt|
+|poke|p1|Shuckle, F|
+|poke|p1|Bisharp, M|
+|poke|p1|Ditto|
+|poke|p1|Hatterene, F|
+|poke|p2|Mew|
+|poke|p2|Crawdaunt, F|
+|poke|p2|Bisharp, M|
+|poke|p2|Aegislash, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Lucario, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TL2005)
+|
+|start
+|switch|p1a: Shuckle|Shuckle, F|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|
+|move|p2a: Mew|Stealth Rock|p1a: Shuckle
+|-sidestart|p1: TL2005|move: Stealth Rock
+|move|p1a: Shuckle|Sticky Web|p2a: Mew
+|-sidestart|p2: watch movie|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Mew|Rock Tomb|p1a: Shuckle
+|-supereffective|p1a: Shuckle
+|-damage|p1a: Shuckle|82/100
+|-unboost|p1a: Shuckle|spe|1
+|move|p1a: Shuckle|Infestation|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|97/100
+|-activate|p2a: Mew|move: Infestation|[of] p1a: Shuckle
+|
+|-damage|p2a: Mew|85/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|move|p2a: Mew|Spikes|p1a: Shuckle
+|-sidestart|p1: TL2005|Spikes
+|move|p1a: Shuckle|Encore|p2a: Mew
+|-start|p2a: Mew|Encore
+|
+|-damage|p2a: Mew|72/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|move|p2a: Mew|Spikes|p1a: Shuckle
+|-sidestart|p1: TL2005|Spikes
+|move|p1a: Shuckle|Toxic|p2a: Mew|[miss]
+|-miss|p1a: Shuckle|p2a: Mew
+|
+|-damage|p2a: Mew|60/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|move|p2a: Mew|Spikes|p1a: Shuckle
+|-sidestart|p1: TL2005|Spikes
+|move|p1a: Shuckle|Toxic|p2a: Mew
+|-status|p2a: Mew|tox
+|-activate|p2a: Mew|ability: Synchronize
+|-status|p1a: Shuckle|tox
+|
+|-damage|p2a: Mew|54/100 tox|[from] psn
+|-damage|p1a: Shuckle|75/100 tox|[from] psn
+|-damage|p2a: Mew|41/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|move|p2a: Mew|Spikes||[still]
+|-fail|p2a: Mew
+|move|p1a: Shuckle|Infestation|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|38/100 tox
+|
+|-damage|p2a: Mew|25/100 tox|[from] psn
+|-damage|p1a: Shuckle|63/100 tox|[from] psn
+|-damage|p2a: Mew|13/100 tox|[from] move: Infestation|[partiallytrapped]
+|-end|p2a: Mew|Encore
+|upkeep
+|turn|7
+|
+|move|p2a: Mew|Rock Tomb|p1a: Shuckle
+|-supereffective|p1a: Shuckle
+|-damage|p1a: Shuckle|42/100 tox
+|-unboost|p1a: Shuckle|spe|1
+|move|p1a: Shuckle|Infestation|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|10/100 tox
+|
+|-damage|p2a: Mew|0 fnt|[from] psn
+|faint|p2a: Mew
+|-damage|p1a: Shuckle|24/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-activate|p2a: Dragapult|move: Sticky Web
+|-unboost|p2a: Dragapult|spe|1
+|turn|8
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|move|p1a: Shuckle|Encore|p2a: Dragapult
+|-start|p2a: Dragapult|Encore
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|-damage|p1a: Shuckle|0 fnt|[from] psn
+|faint|p1a: Shuckle
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|-damage|p1a: Bisharp|95/100|[from] Stealth Rock
+|-damage|p1a: Bisharp|70/100|[from] Spikes
+|turn|9
+|
+|switch|p2a: Lucario|Lucario, F|100/100
+|-activate|p2a: Lucario|move: Sticky Web
+|-unboost|p2a: Lucario|spe|1
+|move|p1a: Bisharp|Throat Chop|p2a: Lucario
+|-resisted|p2a: Lucario
+|-damage|p2a: Lucario|59/100
+|-start|p2a: Lucario|Throat Chop|[silent]
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|76/100|[from] Spikes
+|-damage|p1a: Hatterene|63/100|[from] Stealth Rock
+|move|p2a: Lucario|Vacuum Wave|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|58/100
+|-damage|p2a: Lucario|49/100|[from] item: Life Orb
+|
+|-heal|p1a: Hatterene|64/100|[from] item: Leftovers
+|-end|p2a: Lucario|Throat Chop|[silent]
+|upkeep
+|turn|11
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|-item|p2a: Aegislash|Air Balloon
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|-damage|p1a: Aegislash|94/100|[from] Stealth Rock
+|-damage|p1a: Aegislash|69/100|[from] Spikes
+|
+|-heal|p1a: Aegislash|75/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|20/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|-enditem|p2a: Aegislash|Air Balloon
+|faint|p2a: Aegislash
+|
+|-heal|p1a: Aegislash|26/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-activate|p2a: Bisharp|move: Sticky Web
+|-unboost|p2a: Bisharp|spe|1
+|-ability|p2a: Bisharp|Defiant
+|-boost|p2a: Bisharp|atk|2
+|turn|13
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Bisharp|Throat Chop|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|-unboost|p2a: Bisharp|atk|1
+|-ability|p2a: Bisharp|Defiant
+|-boost|p2a: Bisharp|atk|2
+|
+|-heal|p1a: Aegislash|32/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|watch movie has 120 seconds left.
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|-damage|p2a: Bisharp|91/100|[from] item: Life Orb
+|faint|p1a: Aegislash
+|
+|upkeep
+|inactive|TL2005 has 120 seconds left.
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-damage|p1a: Ditto|63/100|[from] Spikes
+|-transform|p1a: Ditto|p2a: Bisharp|[from] ability: Imposter
+|turn|15
+|
+|move|p1a: Ditto|Sucker Punch|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|32/100
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Bisharp|Bisharp, M|70/100
+|-damage|p1a: Bisharp|45/100|[from] Spikes
+|-damage|p1a: Bisharp|39/100|[from] Stealth Rock
+|switch|p2a: Dragapult|Dragapult, F|82/100
+|-activate|p2a: Dragapult|move: Sticky Web
+|-unboost|p2a: Dragapult|spe|1
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|TL2005 has 120 seconds left.
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|63/100
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|
+|-heal|p2a: Dragapult|69/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|TL2005 has 120 seconds left.
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|24/100
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|8/100
+|-hitcount|p1a: Bisharp|2
+|move|p1a: Bisharp|Throat Chop|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|75/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|TL2005 has 120 seconds left.
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|-hitcount|p1a: Bisharp|1
+|faint|p1a: Bisharp
+|
+|-heal|p2a: Dragapult|81/100|[from] item: Leftovers
+|upkeep
+|inactive|TL2005 has 120 seconds left.
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|-damage|p1a: Dracozolt|88/100|[from] Stealth Rock
+|-damage|p1a: Dracozolt|63/100|[from] Spikes
+|turn|20
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Dracozolt
+|-supereffective|p1a: Dracozolt
+|-damage|p1a: Dracozolt|11/100
+|-supereffective|p1a: Dracozolt
+|-damage|p1a: Dracozolt|0 fnt
+|-hitcount|p1a: Dracozolt|2
+|faint|p1a: Dracozolt
+|
+|-heal|p2a: Dragapult|87/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|63/100
+|-damage|p1a: Ditto|39/100|[from] Spikes
+|-damage|p1a: Ditto|26/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Dragapult|[from] ability: Imposter
+|turn|21
+|inactive|TL2005 has 120 seconds left.
+|
+|switch|p2a: Lucario|Lucario, F|49/100
+|-activate|p2a: Lucario|move: Sticky Web
+|-unboost|p2a: Lucario|spe|1
+|move|p1a: Ditto|Dragon Darts|p2a: Lucario
+|-resisted|p2a: Lucario
+|-damage|p2a: Lucario|29/100
+|-resisted|p2a: Lucario
+|-damage|p2a: Lucario|10/100
+|-hitcount|p2a: Lucario|2
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Ditto|Dragon Darts|p2a: Lucario
+|-resisted|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|-hitcount|p2a: Lucario|1
+|faint|p2a: Lucario
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|32/100
+|-activate|p2a: Bisharp|move: Sticky Web
+|-unboost|p2a: Bisharp|spe|1
+|-ability|p2a: Bisharp|Defiant
+|-boost|p2a: Bisharp|atk|2
+|turn|23
+|
+|switch|p1a: Hatterene|Hatterene, F|64/100
+|-damage|p1a: Hatterene|39/100|[from] Spikes
+|-damage|p1a: Hatterene|27/100|[from] Stealth Rock
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|
+|-heal|p1a: Hatterene|33/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|-damage|p2a: Bisharp|22/100|[from] item: Life Orb
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|26/100
+|-damage|p1a: Ditto|2/100|[from] Spikes
+|-damage|p1a: Ditto|0 fnt|[from] Stealth Rock
+|faint|p1a: Ditto
+|
+|win|watch movie
+|raw|TL2005's rating: 1315 → 1297(-18 for losing)
+|raw|watch movie's rating: 1338 → 1357(+19 for winning)
+|l|☆TL2005

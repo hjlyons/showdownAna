@@ -1,0 +1,596 @@
+|ScrapeTime|2020-01-01-06:24:41
+|j|☆nmb46
+|j|☆Eternljubilee777
+|player|p1|nmb46|pokekid|1231
+|player|p2|Eternljubilee777|288|1236
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Clefable, M|
+|poke|p1|Kommo-o, F|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Chandelure, M|
+|poke|p1|Bisharp, F|
+|poke|p1|Gyarados, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Clefable, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Rotom-Heat|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| macrosecosmos
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nmb46)
+|
+|start
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|1
+|
+|move|p2a: Rotom|Trick|p1a: Kommo-o
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Kommo-o
+|-item|p1a: Kommo-o|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Life Orb|[from] move: Trick
+|move|p1a: Kommo-o|Clanging Scales|p2a: Rotom
+|-damage|p2a: Rotom|39/100
+|-unboost|p1a: Kommo-o|def|1
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Kommo-o|Clanging Scales|p2a: Clefable
+|-immune|p2a: Clefable
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|56/100
+|-unboost|p1a: Clefable|spa|1
+|
+|-heal|p1a: Clefable|62/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|17/100
+|-unboost|p1a: Clefable|spa|1
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-heal|p1a: Clefable|23/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|move|p1a: Clefable|Protect||[still]
+|-fail|p1a: Clefable
+|
+|-heal|p1a: Clefable|73/100|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Clefable|79/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Rotom|Rotom-Heat|39/100
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Rotom|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|62/100
+|-damage|p2a: Rotom|29/100|[from] item: Life Orb
+|move|p1a: Corsola|Strength Sap|p2a: Rotom
+|-unboost|p2a: Rotom|atk|1
+|-heal|p1a: Corsola|99/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|move|p2a: Rotom|Trick|p1a: Kommo-o
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Kommo-o
+|-item|p1a: Kommo-o|Life Orb|[from] move: Trick
+|-item|p2a: Rotom|Choice Scarf|[from] move: Trick
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Rotom|Volt Switch|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|84/100
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100|[from]move: Volt Switch
+|move|p1a: Kommo-o|Clanging Scales|p2a: Toxapex
+|-damage|p2a: Toxapex|46/100
+|-unboost|p1a: Kommo-o|def|1
+|-damage|p1a: Kommo-o|74/100|[from] item: Life Orb
+|
+|-heal|p2a: Toxapex|52/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|move|p1a: Kommo-o|Clanging Scales|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|-unboost|p1a: Kommo-o|def|1
+|-damage|p1a: Kommo-o|64/100|[from] item: Life Orb
+|faint|p2a: Toxapex
+|
+|upkeep
+|c| macrosecosmos|i thought clanging scales lowered Sp Def too?
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|11
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|move|p2a: Clefable|Moonblast|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|58/100
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Chandelure|Fire Blast|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chandelure|52/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|switch|p2a: Clefable|Clefable, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|94/100|[from] Sandstorm
+|-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Clefable|Clefable, M|79/100
+|move|p2a: Clefable|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Clefable|58/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|11/100
+|-unboost|p1a: Clefable|spa|1
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Clefable|17/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Clefable|67/100|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Clefable|73/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|28/100
+|-unboost|p1a: Clefable|spa|1
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Clefable|34/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|move|p1a: Clefable|Protect||[still]
+|-fail|p1a: Clefable
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Clefable|84/100|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Clefable|90/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Corsola|Corsola-Galar, M|99/100
+|move|p2a: Excadrill|Iron Head|p1a: Corsola
+|-damage|p1a: Corsola|76/100
+|-start|p2a: Excadrill|Disable|Iron Head|[from] ability: Cursed Body|[of] p1a: Corsola
+|
+|-weather|none
+|upkeep
+|turn|20
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Corsola|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Eternljubilee777|move: Stealth Rock
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Corsola|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Corsola
+|-status|p1a: Corsola|par
+|
+|-damage|p2a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Corsola
+|-sidestart|p1: nmb46|move: Stealth Rock
+|move|p1a: Corsola|Strength Sap|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|atk|1
+|-heal|p1a: Corsola|100/100 par
+|
+|-heal|p2a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|23
+|c| macrosecosmos|ppl love stalling
+|
+|move|p2a: Ferrothorn|Leech Seed|p1a: Corsola
+|-start|p1a: Corsola|move: Leech Seed
+|move|p1a: Corsola|Strength Sap|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|atk|1
+|
+|-heal|p2a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Corsola|88/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p1a: Clefable|Clefable, M|90/100
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Clefable
+|-status|p1a: Clefable|par
+|
+|-heal|p1a: Clefable|96/100 par|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-heal|p1a: Clefable|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: Corsola|Corsola-Galar, M|88/100 par
+|-damage|p1a: Corsola|76/100 par|[from] Stealth Rock
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|
+|-heal|p1a: Corsola|100/100 par|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|27
+|
+|move|p2a: Excadrill|Iron Head|p1a: Corsola
+|-damage|p1a: Corsola|54/100 par
+|move|p1a: Corsola|Will-O-Wisp|p2a: Excadrill|[miss]
+|-miss|p1a: Corsola|p2a: Excadrill
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Excadrill|Iron Head|p1a: Corsola
+|-damage|p1a: Corsola|8/100 par
+|-start|p2a: Excadrill|Disable|Iron Head|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Will-O-Wisp|p2a: Excadrill
+|-status|p2a: Excadrill|brn
+|
+|-damage|p2a: Excadrill|91/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|move|p2a: Excadrill|Earthquake|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|-damage|p2a: Excadrill|85/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Chandelure|Chandelure, M|52/100
+|-damage|p1a: Chandelure|27/100|[from] Stealth Rock
+|turn|30
+|
+|switch|p2a: Tyranitar|Tyranitar, F|85/100
+|-damage|p2a: Tyranitar|73/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Chandelure|Flamethrower|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chandelure|21/100|[from] Sandstorm
+|upkeep
+|turn|31
+|inactive|nmb46 has 120 seconds left.
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Chandelure|Flamethrower|p2a: Clefable
+|-damage|p2a: Clefable|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chandelure|15/100|[from] Sandstorm
+|upkeep
+|turn|32
+|
+|switch|p2a: Tyranitar|Tyranitar, F|60/100
+|-damage|p2a: Tyranitar|48/100|[from] Stealth Rock
+|move|p1a: Chandelure|Flamethrower|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chandelure|9/100|[from] Sandstorm
+|upkeep
+|turn|33
+|inactive|Eternljubilee777 has 120 seconds left.
+|
+|move|p1a: Chandelure|Flamethrower|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|25/100
+|move|p2a: Tyranitar|Rock Slide|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|nmb46 has 120 seconds left.
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|-damage|p1a: Bisharp|95/100|[from] Stealth Rock
+|turn|34
+|
+|move|p1a: Bisharp|Iron Head|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p1a: Bisharp|85/100|[from] item: Life Orb
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|85/100 brn
+|-damage|p2a: Excadrill|82/100 brn|[from] Stealth Rock
+|turn|35
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-damage|p1a: Gyarados|76/100|[from] Stealth Rock
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|move|p2a: Excadrill|Earthquake|p1a: Gyarados
+|-immune|p1a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|70/100|[from] Sandstorm
+|-heal|p1a: Gyarados|76/100|[from] item: Leftovers
+|-damage|p2a: Excadrill|76/100 brn|[from] brn
+|upkeep
+|turn|36
+|inactive|nmb46 has 120 seconds left.
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|94/100 brn
+|-damage|p2a: Ferrothorn|88/100 brn|[from] Stealth Rock
+|move|p1a: Gyarados|Waterfall|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|75/100 brn
+|-damage|p1a: Gyarados|63/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|57/100|[from] Sandstorm
+|-heal|p1a: Gyarados|63/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|75/100 brn|[from] brn
+|upkeep
+|turn|37
+|inactive|nmb46 has 120 seconds left.
+|inactive|Eternljubilee777 has 120 seconds left.
+|
+|switch|p1a: Clefable|Clefable, M|100/100 par
+|move|p2a: Ferrothorn|Leech Seed|p1a: Clefable
+|-start|p1a: Clefable|move: Leech Seed
+|
+|-weather|none
+|-heal|p2a: Ferrothorn|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|75/100 brn|[from] brn
+|upkeep
+|turn|38
+|inactive|Eternljubilee777 has 120 seconds left.
+|
+|switch|p2a: Excadrill|Excadrill, F|76/100 brn
+|-damage|p2a: Excadrill|73/100 brn|[from] Stealth Rock
+|move|p1a: Clefable|Moonblast|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|51/100 brn
+|
+|-damage|p2a: Excadrill|45/100 brn|[from] brn
+|upkeep
+|turn|39
+|inactive|Eternljubilee777 has 120 seconds left.
+|
+|switch|p1a: Gyarados|Gyarados, F|63/100
+|-damage|p1a: Gyarados|38/100|[from] Stealth Rock
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|move|p2a: Excadrill|Rapid Spin|p1a: Gyarados
+|-damage|p1a: Gyarados|33/100
+|-sideend|p2: Eternljubilee777|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-boost|p2a: Excadrill|spe|1
+|
+|-heal|p1a: Gyarados|39/100|[from] item: Leftovers
+|-damage|p2a: Excadrill|39/100 brn|[from] brn
+|upkeep
+|turn|40
+|inactive|Eternljubilee777 has 120 seconds left.
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|75/100 brn
+|move|p1a: Gyarados|Rest|p1a: Gyarados
+|-status|p1a: Gyarados|slp|[from] move: Rest
+|-heal|p1a: Gyarados|100/100 slp|[silent]
+|
+|-heal|p2a: Ferrothorn|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|75/100 brn|[from] brn
+|upkeep
+|turn|41
+|inactive|Eternljubilee777 has 120 seconds left.
+|
+|cant|p1a: Gyarados|slp
+|move|p1a: Gyarados|Sleep Talk|p1a: Gyarados
+|move|p1a: Gyarados|Waterfall|p2a: Ferrothorn|[from]Sleep Talk
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|63/100 brn
+|-damage|p1a: Gyarados|88/100 slp|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|cant|p2a: Ferrothorn|flinch
+|
+|-heal|p1a: Gyarados|94/100 slp|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|70/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|63/100 brn|[from] brn
+|upkeep
+|turn|42
+|inactive|Eternljubilee777 has 120 seconds left.
+|
+|switch|p1a: Clefable|Clefable, M|100/100 par
+|switch|p2a: Excadrill|Excadrill, F|39/100 brn
+|
+|-damage|p2a: Excadrill|33/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|switch|p1a: Gyarados|Gyarados, F|94/100 slp
+|-damage|p1a: Gyarados|69/100 slp|[from] Stealth Rock
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|move|p2a: Excadrill|Iron Head|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|63/100 slp
+|
+|-heal|p1a: Gyarados|69/100 slp|[from] item: Leftovers
+|-damage|p2a: Excadrill|26/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|switch|p2a: Rotom|Rotom-Heat|29/100
+|cant|p1a: Gyarados|slp
+|move|p1a: Gyarados|Sleep Talk|p1a: Gyarados
+|move|p1a: Gyarados|Rest|p1a: Gyarados|[from]Sleep Talk
+|-fail|p1a: Gyarados
+|
+|-heal|p1a: Gyarados|75/100 slp|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|switch|p1a: Kommo-o|Kommo-o, F|64/100
+|-damage|p1a: Kommo-o|58/100|[from] Stealth Rock
+|move|p2a: Rotom|Trick|p1a: Kommo-o
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Kommo-o
+|-item|p1a: Kommo-o|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Life Orb|[from] move: Trick
+|
+|upkeep
+|turn|46
+|
+|switch|p2a: Clefable|Clefable, F|50/100
+|move|p1a: Kommo-o|Flash Cannon|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|4/100
+|
+|upkeep
+|turn|47
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|63/100 brn
+|move|p1a: Kommo-o|Flash Cannon|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|53/100 brn
+|
+|-heal|p2a: Ferrothorn|59/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|53/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|switch|p1a: Clefable|Clefable, M|100/100 par
+|switch|p2a: Excadrill|Excadrill, F|26/100 brn
+|
+|-damage|p2a: Excadrill|20/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|switch|p2a: Rotom|Rotom-Heat|29/100
+|switch|p1a: Gyarados|Gyarados, F|75/100 slp
+|-damage|p1a: Gyarados|50/100 slp|[from] Stealth Rock
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Rotom|atk|1
+|
+|-heal|p1a: Gyarados|56/100 slp|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|switch|p1a: Kommo-o|Kommo-o, F|58/100
+|-damage|p1a: Kommo-o|52/100|[from] Stealth Rock
+|move|p2a: Rotom|Volt Switch|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|31/100
+|-damage|p2a: Rotom|19/100|[from] item: Life Orb
+|inactive|Eternljubilee777 has 90 seconds left.
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|53/100 brn|[from]move: Volt Switch
+|
+|-heal|p2a: Ferrothorn|59/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|53/100 brn|[from] brn
+|upkeep
+|turn|51
+|inactive|nmb46 has 120 seconds left.
+|inactive|Eternljubilee777 has 90 seconds left.
+|
+|move|p1a: Kommo-o|Flamethrower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|4/100
+|turn|52
+|
+|switch|p2a: Rotom|Rotom-Heat|19/100
+|move|p1a: Kommo-o|Flamethrower|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|1/100
+|
+|upkeep
+|turn|53
+|-message|Eternljubilee777 forfeited.
+|
+|win|nmb46
+|l|☆Eternljubilee777
+|raw|nmb46's rating: 1231 → 1256(+25 for winning)
+|raw|Eternljubilee777's rating: 1236 → 1211(-25 for losing)
+|l| macrosecosmos

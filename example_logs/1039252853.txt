@@ -1,0 +1,280 @@
+|ScrapeTime|2020-01-01-19:04:43
+|j|☆awin-bell
+|j|☆Lil Soybean
+|player|p1|awin-bell|101|1101
+|player|p2|Lil Soybean|162|1128
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Vileplume, M|
+|poke|p1|Bisharp, F|
+|poke|p1|Flygon, F|
+|poke|p1|Galvantula, F|
+|poke|p1|Mr. Mime-Galar, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Toxapex, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mr. Mime|Mr. Mime-Galar, F|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|move|p1a: Mr. Mime|Freeze-Dry|p2a: Corsola
+|-damage|p2a: Corsola|81/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|move|p2a: Corsola|Stealth Rock|p1a: Vileplume
+|-sidestart|p1: awin-bell|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Vileplume|Toxic|p2a: Corsola
+|-status|p2a: Corsola|tox
+|move|p2a: Corsola|Will-O-Wisp|p1a: Vileplume|[miss]
+|-miss|p2a: Corsola|p1a: Vileplume
+|
+|-damage|p2a: Corsola|75/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p1a: Vileplume|Leech Seed|p2a: Corsola
+|-start|p2a: Corsola|move: Leech Seed
+|move|p2a: Corsola|Will-O-Wisp|p1a: Vileplume
+|-status|p1a: Vileplume|brn
+|
+|-damage|p2a: Corsola|62/100 tox|[from] Leech Seed|[of] p1a: Vileplume
+|-damage|p1a: Vileplume|94/100 brn|[from] brn
+|-damage|p2a: Corsola|50/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p1a: Vileplume|Leech Seed||[still]
+|-fail|p1a: Vileplume
+|move|p2a: Corsola|Night Shade|p1a: Vileplume
+|-damage|p1a: Vileplume|66/100 brn
+|
+|-heal|p1a: Vileplume|72/100 brn|[from] item: Black Sludge
+|-damage|p2a: Corsola|38/100 tox|[from] Leech Seed|[of] p1a: Vileplume
+|-heal|p1a: Vileplume|84/100 brn|[silent]
+|-damage|p1a: Vileplume|77/100 brn|[from] brn
+|-damage|p2a: Corsola|19/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Vileplume|Protect||[still]
+|-fail|p1a: Vileplume
+|
+|-heal|p1a: Vileplume|84/100 brn|[from] item: Black Sludge
+|-damage|p1a: Vileplume|77/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p2a: Rotom|Overheat|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|-damage|p2a: Rotom|91/100|[from] item: Life Orb
+|faint|p1a: Vileplume
+|
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p1a: Grimmsnarl|88/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p2a: Corsola|Corsola-Galar, F|19/100 tox
+|move|p1a: Grimmsnarl|Nasty Plot|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|spa|2
+|
+|-damage|p2a: Corsola|13/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|move|p1a: Grimmsnarl|Dark Pulse|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|turn|10
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Toxapex
+|-status|p2a: Toxapex|par
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Grimmsnarl|Nasty Plot|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|spa|2
+|cant|p2a: Toxapex|par
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Grimmsnarl|Dark Pulse|p2a: Toxapex
+|-damage|p2a: Toxapex|37/100 par
+|move|p2a: Toxapex|Toxic|p1a: Grimmsnarl
+|-status|p1a: Grimmsnarl|tox
+|
+|-heal|p2a: Toxapex|43/100 par|[from] item: Black Sludge
+|-damage|p1a: Grimmsnarl|82/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Grimmsnarl|Dark Pulse|p2a: Corviknight
+|-damage|p2a: Corviknight|27/100
+|
+|-heal|p2a: Corviknight|33/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|70/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p2a: Corviknight|Taunt|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|move: Taunt
+|move|p1a: Grimmsnarl|Dark Pulse|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-damage|p1a: Grimmsnarl|52/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|76/100 par
+|turn|15
+|
+|move|p1a: Grimmsnarl|Dark Pulse|p2a: Toxapex
+|-damage|p2a: Toxapex|10/100 par
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|17/100 par|[from] item: Black Sludge
+|-damage|p1a: Grimmsnarl|27/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Grimmsnarl|Dark Pulse|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|71/100
+|
+|-heal|p2a: Ferrothorn|77/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|0 fnt|[from] psn
+|faint|p1a: Grimmsnarl
+|upkeep
+|
+|switch|p1a: Flygon|Flygon, F|100/100
+|-damage|p1a: Flygon|95/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Flygon|Flamethrower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|50/100 par
+|turn|18
+|
+|move|p1a: Flygon|Earth Power|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|91/100
+|turn|19
+|
+|move|p1a: Flygon|Draco Meteor|p2a: Rotom
+|-damage|p2a: Rotom|28/100
+|-unboost|p1a: Flygon|spa|2
+|move|p2a: Rotom|Overheat|p1a: Flygon
+|-resisted|p1a: Flygon
+|-damage|p1a: Flygon|41/100
+|-unboost|p2a: Rotom|spa|2
+|-damage|p2a: Rotom|18/100|[from] item: Life Orb
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Flygon|Draco Meteor|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Flygon|spa|2
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|21
+|
+|move|p2a: Excadrill|Earthquake|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|
+|upkeep
+|
+|switch|p1a: Galvantula|Galvantula, F|100/100
+|-damage|p1a: Galvantula|76/100|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: Excadrill|Earthquake|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|-damage|p1a: Bisharp|95/100|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Excadrill
+|-damage|p2a: Excadrill|32/100
+|move|p2a: Excadrill|Earthquake|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|switch|p1a: Mr. Mime|Mr. Mime-Galar, F|100/100
+|-damage|p1a: Mr. Mime|76/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Excadrill|Earthquake|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|
+|win|Lil Soybean
+|l|☆awin-bell
+|raw|awin-bell's rating: 1101 → 1080(-21 for losing)
+|raw|Lil Soybean's rating: 1153 → 1174(+21 for winning)

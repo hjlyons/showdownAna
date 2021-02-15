@@ -1,0 +1,257 @@
+|ScrapeTime|2020-01-03-00:16:59
+|j|☆ogTFlame
+|j|☆Wyralith
+|player|p1|ogTFlame|lucas|1470
+|player|p2|Wyralith|ariana|1495
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Aegislash, M|
+|poke|p1|Gyarados, F|
+|poke|p1|Conkeldurr, F|
+|poke|p2|Mew|
+|poke|p2|Crawdaunt, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Bisharp, M|
+|poke|p2|Hydreigon, F|
+|poke|p2|Excadrill, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ogTFlame)
+|
+|start
+|switch|p1a: CLEEEAN|Rotom-Wash|100/100
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|turn|1
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: CLEEEAN|Will-O-Wisp|p2a: Hydreigon
+|-status|p2a: Hydreigon|brn
+|
+|-damage|p2a: Hydreigon|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: CLEEEAN
+|-crit|p1a: CLEEEAN
+|-damage|p1a: CLEEEAN|35/100
+|move|p1a: CLEEEAN|Volt Switch|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|80/100 brn
+|
+|switch|p1a: Brody|Conkeldurr, F|100/100|[from]move: Volt Switch
+|
+|-damage|p2a: Hydreigon|74/100 brn|[from] brn
+|-status|p1a: Brody|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Brody|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|23/100
+|
+|-damage|p1a: Brody|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: SLICE EM UP|Aegislash, M|100/100
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: SLICE EM UP
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: CLEEEAN|Rotom-Wash|35/100
+|move|p2a: Dragapult|Phantom Force|p1a: CLEEEAN|[from]lockedmove
+|-damage|p1a: CLEEEAN|0 fnt
+|-damage|p2a: Dragapult|13/100|[from] item: Life Orb
+|faint|p1a: CLEEEAN
+|
+|upkeep
+|
+|switch|p1a: SLICE EM UP|Aegislash, M|100/100
+|turn|6
+|
+|-formechange|p1a: SLICE EM UP|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: SLICE EM UP|Shadow Sneak|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|turn|7
+|
+|switch|p1a: Nesquik|Cinderace, M|100/100
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Nesquik
+|-damage|p1a: Nesquik|0 fnt
+|-damage|p2a: Bisharp|91/100|[from] item: Life Orb
+|faint|p1a: Nesquik
+|
+|upkeep
+|
+|switch|p1a: Brody|Conkeldurr, F|94/100 brn
+|turn|9
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Brody
+|-resisted|p1a: Brody
+|-damage|p1a: Brody|58/100 brn
+|-damage|p2a: Bisharp|81/100|[from] item: Life Orb
+|move|p1a: Brody|Drain Punch|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-crit|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|-heal|p1a: Brody|84/100 brn|[from] drain|[of] p2a: Bisharp
+|faint|p2a: Bisharp
+|
+|-damage|p1a: Brody|78/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Mew|Mew|100/100
+|turn|10
+|
+|switch|p1a: SLICE EM UP|Aegislash, M|100/100
+|move|p2a: Mew|Stealth Rock|p1a: SLICE EM UP
+|-sidestart|p1: ogTFlame|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Mew|Spikes|p1a: SLICE EM UP
+|-sidestart|p1: ogTFlame|Spikes
+|-formechange|p1a: SLICE EM UP|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: SLICE EM UP|Iron Head|p2a: Mew
+|-damage|p2a: Mew|50/100
+|
+|upkeep
+|turn|12
+|
+|move|p1a: SLICE EM UP|Shadow Sneak|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|4/100
+|move|p2a: Mew|Spikes|p1a: SLICE EM UP
+|-sidestart|p1: ogTFlame|Spikes
+|
+|upkeep
+|turn|13
+|
+|move|p1a: SLICE EM UP|Shadow Sneak|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+|
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|turn|14
+|
+|move|p2a: Crawdaunt|Knock Off|p1a: SLICE EM UP
+|-supereffective|p1a: SLICE EM UP
+|-damage|p1a: SLICE EM UP|0 fnt
+|-enditem|p1a: SLICE EM UP|Leftovers|[from] move: Knock Off|[of] p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|91/100|[from] item: Life Orb
+|faint|p1a: SLICE EM UP
+|
+|upkeep
+|
+|switch|p1a: Rampage|Gyarados, F|100/100
+|turn|15
+|
+|move|p1a: Rampage|Power Whip|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|-ability|p1a: Rampage|Moxie|boost
+|-boost|p1a: Rampage|atk|1
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|74/100 brn
+|turn|16
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Rampage
+|-damage|p1a: Rampage|61/100
+|cant|p1a: Rampage|flinch
+|
+|-damage|p2a: Hydreigon|68/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Rampage
+|-damage|p1a: Rampage|21/100
+|move|p1a: Rampage|Waterfall|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|33/100 brn
+|
+|-damage|p2a: Hydreigon|27/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Rampage
+|-damage|p1a: Rampage|0 fnt
+|faint|p1a: Rampage
+|
+|-damage|p2a: Hydreigon|21/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: SHOOTINGSTAR|Excadrill, F|100/100
+|-damage|p1a: SHOOTINGSTAR|84/100|[from] Spikes
+|-damage|p1a: SHOOTINGSTAR|81/100|[from] Stealth Rock
+|-ability|p1a: SHOOTINGSTAR|Mold Breaker
+|turn|19
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: SHOOTINGSTAR
+|-damage|p1a: SHOOTINGSTAR|24/100
+|move|p1a: SHOOTINGSTAR|Rapid Spin|p2a: Hydreigon
+|-damage|p2a: Hydreigon|1/100 brn
+|-sideend|p1: ogTFlame|Spikes|[from] move: Rapid Spin|[of] p1a: SHOOTINGSTAR
+|-sideend|p1: ogTFlame|Stealth Rock|[from] move: Rapid Spin|[of] p1a: SHOOTINGSTAR
+|-boost|p1a: SHOOTINGSTAR|spe|1
+|
+|-damage|p2a: Hydreigon|0 fnt|[from] brn
+|faint|p2a: Hydreigon
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|20
+|
+|move|p2a: Excadrill|Earthquake|p1a: SHOOTINGSTAR
+|-supereffective|p1a: SHOOTINGSTAR
+|-damage|p1a: SHOOTINGSTAR|0 fnt
+|faint|p1a: SHOOTINGSTAR
+|
+|upkeep
+|
+|switch|p1a: Brody|Conkeldurr, F|78/100 brn
+|turn|21
+|
+|move|p1a: Brody|Mach Punch|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|win|ogTFlame
+|l|☆Wyralith
+|raw|ogTFlame's rating: 1489 → 1509(+20 for winning)
+|raw|Wyralith's rating: 1478 → 1459(-19 for losing)

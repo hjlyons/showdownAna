@@ -1,0 +1,400 @@
+|ScrapeTime|2020-01-02-09:45:43
+|j|☆Jimjamspajamas
+|j|☆Sudzer
+|player|p1|Jimjamspajamas|2|1088
+|player|p2|Sudzer|266|1088
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Rillaboom, F|
+|poke|p1|Rhyperior, M|
+|poke|p1|Falinks|
+|poke|p1|Toxapex, F|
+|poke|p1|Barraskewda, M|
+|poke|p1|Dragapult, F|
+|poke|p2|Frosmoth, F|
+|poke|p2|Coalossal, M|
+|poke|p2|Bisharp, M|
+|poke|p2|Centiskorch, F|
+|poke|p2|Appletun, M|
+|poke|p2|Pyukumuku, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Sudzer)
+|
+|start
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|switch|p2a: Centiskorch|Centiskorch, F|100/100
+|turn|1
+|
+|move|p2a: Centiskorch|Coil|p2a: Centiskorch
+|-boost|p2a: Centiskorch|atk|1
+|-boost|p2a: Centiskorch|def|1
+|-boost|p2a: Centiskorch|accuracy|1
+|move|p1a: Toxapex|Toxic Spikes|p2a: Centiskorch
+|-sidestart|p2: Sudzer|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Centiskorch|Coil|p2a: Centiskorch
+|-boost|p2a: Centiskorch|atk|1
+|-boost|p2a: Centiskorch|def|1
+|-boost|p2a: Centiskorch|accuracy|1
+|move|p1a: Toxapex|Substitute|p1a: Toxapex
+|-start|p1a: Toxapex|Substitute
+|-damage|p1a: Toxapex|76/100
+|
+|-heal|p1a: Toxapex|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Centiskorch|Power Whip|p1a: Toxapex
+|-end|p1a: Toxapex|Substitute
+|move|p1a: Toxapex|Toxic Spikes|p2a: Centiskorch
+|-sidestart|p2: Sudzer|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Centiskorch|Power Whip|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|-status|p2a: Centiskorch|psn
+|
+|-heal|p1a: Toxapex|94/100|[from] item: Leftovers
+|-damage|p2a: Centiskorch|88/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|move|p2a: Centiskorch|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|54/100
+|-enditem|p1a: Toxapex|Leftovers|[from] move: Knock Off|[of] p2a: Centiskorch
+|move|p1a: Toxapex|Substitute|p1a: Toxapex
+|-start|p1a: Toxapex|Substitute
+|-damage|p1a: Toxapex|29/100
+|
+|-damage|p2a: Centiskorch|76/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|move|p2a: Centiskorch|Coil|p2a: Centiskorch
+|-boost|p2a: Centiskorch|atk|1
+|-boost|p2a: Centiskorch|def|1
+|-boost|p2a: Centiskorch|accuracy|1
+|move|p1a: Toxapex|Hex|p2a: Centiskorch
+|-damage|p2a: Centiskorch|58/100 psn
+|-enditem|p2a: Centiskorch|Red Card|[of] p1a: Toxapex
+|drag|p1a: Barraskewda|Barraskewda, M|100/100
+|
+|-damage|p2a: Centiskorch|45/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|move|p1a: Barraskewda|Aqua Jet|p2a: Centiskorch
+|-supereffective|p2a: Centiskorch
+|-damage|p2a: Centiskorch|16/100 psn
+|-damage|p1a: Barraskewda|91/100|[from] item: Life Orb
+|move|p2a: Centiskorch|Power Whip|p1a: Barraskewda
+|-supereffective|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|-damage|p2a: Centiskorch|4/100 psn|[from] psn
+|upkeep
+|
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|turn|8
+|
+|move|p1a: Rhyperior|Protect|p1a: Rhyperior
+|-singleturn|p1a: Rhyperior|Protect
+|move|p2a: Centiskorch|Power Whip|p1a: Rhyperior
+|-activate|p1a: Rhyperior|move: Protect
+|
+|-damage|p2a: Centiskorch|0 fnt|[from] psn
+|faint|p2a: Centiskorch
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|turn|9
+|
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|move|p1a: Rhyperior|Stealth Rock|p2a: Bisharp
+|-sidestart|p2: Sudzer|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|move|p2a: Bisharp|Night Slash|p1a: Rillaboom
+|-damage|p1a: Rillaboom|47/100
+|
+|-heal|p1a: Rillaboom|53/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Rillaboom|Protect|p1a: Rillaboom
+|-singleturn|p1a: Rillaboom|Protect
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|
+|-heal|p1a: Rillaboom|59/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Rillaboom|Leech Seed|p2a: Bisharp
+|-start|p2a: Bisharp|move: Leech Seed
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|-heal|p1a: Rillaboom|65/100|[from] item: Leftovers
+|-damage|p2a: Bisharp|88/100|[from] Leech Seed|[of] p1a: Rillaboom
+|-heal|p1a: Rillaboom|75/100|[silent]
+|upkeep
+|turn|13
+|
+|move|p1a: Rillaboom|Protect|p1a: Rillaboom
+|-singleturn|p1a: Rillaboom|Protect
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|-heal|p1a: Rillaboom|82/100|[from] item: Leftovers
+|-damage|p2a: Bisharp|76/100|[from] Leech Seed|[of] p1a: Rillaboom
+|-heal|p1a: Rillaboom|92/100|[silent]
+|upkeep
+|turn|14
+|
+|move|p1a: Rillaboom|Giga Drain|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|64/100
+|-heal|p1a: Rillaboom|97/100|[from] drain|[of] p2a: Bisharp
+|-enditem|p2a: Bisharp|Red Card|[of] p1a: Rillaboom
+|drag|p1a: Falinks|Falinks|100/100
+|move|p2a: Bisharp|Night Slash|p1a: Falinks
+|-resisted|p1a: Falinks
+|-damage|p1a: Falinks|15/100
+|
+|-heal|p1a: Falinks|21/100|[from] item: Leftovers
+|-damage|p2a: Bisharp|51/100|[from] Leech Seed|[of] p1a: Falinks
+|-heal|p1a: Falinks|33/100|[silent]
+|upkeep
+|turn|15
+|inactive|Jimjamspajamas has 120 seconds left.
+|
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|move|p2a: Bisharp|Night Slash|p1a: Rhyperior
+|-damage|p1a: Rhyperior|7/100
+|
+|-heal|p1a: Rhyperior|14/100|[from] item: Leftovers
+|-damage|p2a: Bisharp|39/100|[from] Leech Seed|[of] p1a: Rhyperior
+|-heal|p1a: Rhyperior|25/100|[silent]
+|upkeep
+|turn|16
+|inactive|Jimjamspajamas has 120 seconds left.
+|
+|move|p1a: Rhyperior|Protect|p1a: Rhyperior
+|-singleturn|p1a: Rhyperior|Protect
+|move|p2a: Bisharp|Night Slash|p1a: Rhyperior
+|-activate|p1a: Rhyperior|move: Protect
+|
+|-heal|p1a: Rhyperior|31/100|[from] item: Leftovers
+|-damage|p2a: Bisharp|27/100|[from] Leech Seed|[of] p1a: Rhyperior
+|-heal|p1a: Rhyperior|42/100|[silent]
+|upkeep
+|turn|17
+|inactive|Jimjamspajamas has 120 seconds left.
+|
+|move|p2a: Bisharp|Night Slash|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|upkeep
+|
+|switch|p1a: Rillaboom|Rillaboom, F|97/100
+|turn|18
+|inactive|Jimjamspajamas has 120 seconds left.
+|
+|move|p1a: Rillaboom|Protect|p1a: Rillaboom
+|-singleturn|p1a: Rillaboom|Protect
+|move|p2a: Bisharp|Night Slash|p1a: Rillaboom
+|-activate|p1a: Rillaboom|move: Protect
+|
+|-heal|p1a: Rillaboom|100/100|[from] item: Leftovers
+|-damage|p2a: Bisharp|15/100|[from] Leech Seed|[of] p1a: Rillaboom
+|upkeep
+|turn|19
+|
+|move|p1a: Rillaboom|Drum Beating|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|switch|p2a: Coalossal|Coalossal, M|100/100
+|-status|p2a: Coalossal|tox
+|-damage|p2a: Coalossal|75/100 tox|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Rillaboom|Leech Seed|p2a: Coalossal
+|-start|p2a: Coalossal|move: Leech Seed
+|move|p2a: Coalossal|Rapid Spin|p1a: Rillaboom
+|-damage|p1a: Rillaboom|95/100
+|-end|p2a: Coalossal|Leech Seed|[from] move: Rapid Spin|[of] p2a: Coalossal
+|-sideend|p2: Sudzer|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Coalossal
+|-sideend|p2: Sudzer|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Coalossal
+|-boost|p2a: Coalossal|spe|1
+|
+|-heal|p1a: Rillaboom|100/100|[from] item: Leftovers
+|-heal|p2a: Coalossal|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Coalossal|75/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|move|p1a: Rillaboom|Leech Seed|p2a: Coalossal
+|-start|p2a: Coalossal|move: Leech Seed
+|move|p2a: Coalossal|Flamethrower|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|22/100
+|
+|-heal|p1a: Rillaboom|28/100|[from] item: Leftovers
+|-heal|p2a: Coalossal|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Coalossal|69/100 tox|[from] Leech Seed|[of] p1a: Rillaboom
+|-heal|p1a: Rillaboom|41/100|[silent]
+|-damage|p2a: Coalossal|57/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|move|p1a: Rillaboom|Protect|p1a: Rillaboom
+|-singleturn|p1a: Rillaboom|Protect
+|move|p2a: Coalossal|Stealth Rock|p1a: Rillaboom
+|-sidestart|p1: Jimjamspajamas|move: Stealth Rock
+|
+|-heal|p1a: Rillaboom|47/100|[from] item: Leftovers
+|-heal|p2a: Coalossal|63/100 tox|[from] item: Leftovers
+|-damage|p2a: Coalossal|50/100 tox|[from] Leech Seed|[of] p1a: Rillaboom
+|-heal|p1a: Rillaboom|60/100|[silent]
+|-damage|p2a: Coalossal|32/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|move|p1a: Rillaboom|Giga Drain|p2a: Coalossal
+|-damage|p2a: Coalossal|18/100 tox
+|-heal|p1a: Rillaboom|68/100|[from] drain|[of] p2a: Coalossal
+|move|p2a: Coalossal|Flamethrower|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Coalossal|24/100 tox|[from] item: Leftovers
+|-damage|p2a: Coalossal|0 fnt|[from] psn
+|faint|p2a: Coalossal
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Frosmoth|Frosmoth, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Dragapult|U-turn|p2a: Frosmoth
+|-damage|p2a: Frosmoth|40/100
+|-enditem|p2a: Frosmoth|Red Card|[of] p1a: Dragapult
+|-damage|p1a: Dragapult|78/100|[from] item: Life Orb
+|drag|p1a: Falinks|Falinks|33/100
+|-damage|p1a: Falinks|27/100|[from] Stealth Rock
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|
+|-heal|p1a: Falinks|33/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Frosmoth|Air Slash|p1a: Falinks
+|-supereffective|p1a: Falinks
+|-crit|p1a: Falinks
+|-damage|p1a: Falinks|0 fnt
+|faint|p1a: Falinks
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|78/100
+|-damage|p1a: Dragapult|66/100|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Dragapult|U-turn|p2a: Frosmoth
+|-damage|p2a: Frosmoth|0 fnt
+|-damage|p1a: Dragapult|56/100|[from] item: Life Orb
+|faint|p2a: Frosmoth
+|
+|switch|p1a: Toxapex|Toxapex, F|62/100|[from]move: U-turn
+|-damage|p1a: Toxapex|50/100|[from] Stealth Rock
+|
+|upkeep
+|
+|switch|p2a: Appletun|Appletun, M|100/100
+|turn|27
+|
+|move|p1a: Toxapex|Substitute|p1a: Toxapex
+|-start|p1a: Toxapex|Substitute
+|-damage|p1a: Toxapex|25/100
+|move|p2a: Appletun|Apple Acid|p1a: Toxapex
+|-end|p1a: Toxapex|Substitute
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Appletun|Apple Acid|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Toxapex|Hex|p2a: Appletun
+|-damage|p2a: Appletun|92/100
+|move|p2a: Appletun|Draco Meteor|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|-unboost|p2a: Appletun|spa|2
+|faint|p1a: Toxapex
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|56/100
+|-damage|p1a: Dragapult|44/100|[from] Stealth Rock
+|turn|30
+|
+|switch|p2a: Pyukumuku|Pyukumuku, M|100/100
+|move|p1a: Dragapult|Outrage|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|43/100
+|-damage|p1a: Dragapult|34/100|[from] item: Life Orb
+|
+|-heal|p2a: Pyukumuku|50/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Dragapult|Outrage|p2a: Pyukumuku|[from]lockedmove
+|-damage|p2a: Pyukumuku|0 fnt
+|-damage|p1a: Dragapult|0 fnt|[from] ability: Innards Out|[of] p2a: Pyukumuku
+|faint|p2a: Pyukumuku
+|faint|p1a: Dragapult
+|
+|win|Sudzer
+|raw|Jimjamspajamas's rating: 1089 → 1065(-24 for losing)
+|raw|Sudzer's rating: 1088 → 1115(+27 for winning)
+|l|☆Jimjamspajamas

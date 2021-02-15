@@ -1,0 +1,249 @@
+|ScrapeTime|2020-01-02-10:15:29
+|j|☆rossopowa
+|j|☆Montezumaa
+|player|p1|rossopowa|102|1330
+|player|p2|Montezumaa|1|1313
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gengar, M|
+|poke|p1|Tsareena, F|
+|poke|p1|Dracovish|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Pelipper, F|
+|poke|p1|Barraskewda, M|
+|poke|p2|Torkoal, F|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Goodra, F|
+|poke|p2|Charizard, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Jolteon, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by rossopowa)
+|
+|move|p2a: Jolteon|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|78/100
+|
+|switch|p2a: Torkoal|Torkoal, F|100/100|[from]move: Volt Switch
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Torkoal
+|-sidestart|p2: Montezumaa|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ferrothorn|84/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Torkoal|Rapid Spin|p1a: Pelipper
+|-damage|p1a: Pelipper|95/100
+|-sideend|p2: Montezumaa|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Torkoal
+|-boost|p2a: Torkoal|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Pelipper|Scald|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|turn|4
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|84/100
+|move|p2a: Jolteon|Shadow Ball|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|51/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|57/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Jolteon|Shadow Ball|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|4/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Jolteon
+|-sidestart|p2: Montezumaa|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|10/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Tsareena|Tsareena, F|100/100
+|move|p2a: Jolteon|Shadow Ball|p1a: Tsareena
+|-damage|p1a: Tsareena|75/100
+|-unboost|p1a: Tsareena|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p2a: Jolteon|Shadow Ball|p1a: Tsareena
+|-damage|p1a: Tsareena|30/100
+|move|p1a: Tsareena|High Jump Kick|p2a: Jolteon
+|-damage|p2a: Jolteon|7/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p2a: Jolteon|Shadow Ball|p1a: Tsareena
+|-damage|p1a: Tsareena|0 fnt
+|faint|p1a: Tsareena
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|turn|9
+|
+|move|p1a: Barraskewda|Throat Chop|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|-damage|p2a: Corsola|88/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|10/100
+|move|p2a: Corsola|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: rossopowa|move: Stealth Rock
+|
+|-heal|p1a: Ferrothorn|16/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Corsola|Night Shade|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p2a: Goodra|Goodra, F|100/100
+|-damage|p2a: Goodra|88/100|[from] Stealth Rock
+|move|p1a: Gengar|Nasty Plot|p1a: Gengar
+|-boost|p1a: Gengar|spa|2
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Gengar|Sludge Wave|p2a: Goodra
+|-crit|p2a: Goodra
+|-damage|p2a: Goodra|25/100
+|move|p2a: Goodra|Draco Meteor|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-unboost|p2a: Goodra|spa|2
+|faint|p1a: Gengar
+|
+|upkeep
+|
+|switch|p1a: Pelipper|Pelipper, F|95/100
+|-damage|p1a: Pelipper|70/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|14
+|
+|move|p2a: Goodra|Sludge Bomb|p1a: Pelipper
+|-damage|p1a: Pelipper|46/100
+|move|p1a: Pelipper|Hurricane|p2a: Goodra
+|-damage|p2a: Goodra|9/100
+|-start|p2a: Goodra|confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|-activate|p2a: Goodra|confusion
+|-damage|p2a: Goodra|1/100|[from] confusion
+|move|p1a: Pelipper|U-turn|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|switch|p1a: Dracovish|Dracovish|100/100|[from]move: U-turn
+|-damage|p1a: Dracovish|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, M|88/100
+|-damage|p2a: Corsola|76/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-start|p1a: Dracovish|Disable|Fishious Rend|[from] ability: Cursed Body|[of] p2a: Corsola
+|faint|p2a: Corsola
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|17
+|
+|switch|p1a: Pelipper|Pelipper, F|46/100
+|-damage|p1a: Pelipper|21/100|[from] Stealth Rock
+|move|p2a: Excadrill|Rapid Spin|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|-sideend|p2: Montezumaa|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-boost|p2a: Excadrill|spe|1
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|-damage|p1a: Barraskewda|88/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Barraskewda|Liquidation|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Charizard|Charizard, F|100/100
+|turn|19
+|
+|move|p1a: Barraskewda|Liquidation|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|win|rossopowa
+|l|☆Montezumaa
+|raw|rossopowa's rating: 1330 → 1349(+19 for winning)
+|raw|Montezumaa's rating: 1313 → 1294(-19 for losing)

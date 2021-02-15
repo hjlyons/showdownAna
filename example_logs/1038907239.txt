@@ -1,0 +1,274 @@
+|ScrapeTime|2020-01-01-00:05:09
+|j|☆HUE*Kimbo
+|j|☆Zorro
+|player|p1|HUE*Kimbo|hilbert|1354
+|player|p2|Zorro|266|1325
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mimikyu, M|
+|poke|p1|Gastrodon, F|
+|poke|p1|Lucario, M|
+|poke|p1|Toxtricity, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Sirfetch'd, M|
+|poke|p2|Aegislash, F|
+|poke|p2|Hippowdon, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Sigilyph, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Gummienten LP|Sirfetch'd, M|100/100
+|switch|p2a: Hydra|Hydreigon, M, shiny|100/100
+|turn|1
+|
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Gummienten LP|First Impression|p2a: Hippowdon
+|-damage|p2a: Hippowdon|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gummienten LP|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|switch|p1a: Gary|Gastrodon, F|100/100
+|move|p2a: Hippowdon|Stealth Rock|p1a: Gary
+|-sidestart|p1: HUE*Kimbo|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Toad|Seismitoad, M, shiny|100/100
+|move|p1a: Gary|Scald|p2a: Toad
+|-immune|p2a: Toad|[from] ability: Water Absorb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p2a: Toad|Toxic|p1a: Gary
+|-status|p1a: Gary|tox
+|move|p1a: Gary|Ice Beam|p2a: Toad
+|-damage|p2a: Toad|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Toad|79/100|[from] item: Leftovers
+|-damage|p1a: Gary|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|move|p1a: Gary|Ice Beam|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Aegislash|95/100|[from] item: Leftovers
+|-damage|p1a: Gary|82/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Gary|Earth Power|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Aegislash|100/100|[from] item: Leftovers
+|-damage|p1a: Gary|64/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p2a: Hydra|Hydreigon, M, shiny|100/100
+|move|p1a: Gary|Earth Power|p2a: Hydra
+|-immune|p2a: Hydra|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydra|94/100|[from] Sandstorm
+|-damage|p1a: Gary|39/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|move|p2a: Hydra|U-turn|p1a: Gary
+|-damage|p1a: Gary|22/100 tox
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100|[from]move: U-turn
+|move|p1a: Gary|Ice Beam|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|90/100
+|
+|-weather|none
+|-heal|p2a: Aegislash|96/100|[from] item: Leftovers
+|-damage|p1a: Gary|0 fnt|[from] psn
+|faint|p1a: Gary
+|upkeep
+|
+|switch|p1a: Bugs Bunny|Cinderace, F|100/100
+|turn|9
+|
+|switch|p2a: Toad|Seismitoad, M, shiny|79/100
+|move|p1a: Bugs Bunny|Pyro Ball|p2a: Toad
+|-resisted|p2a: Toad
+|-damage|p2a: Toad|57/100
+|
+|-heal|p2a: Toad|63/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Bugs Bunny|High Jump Kick|p2a: Toad|[miss]
+|-miss|p1a: Bugs Bunny|p2a: Toad
+|-damage|p1a: Bugs Bunny|50/100|[from] highjumpkick
+|move|p2a: Toad|Scald|p1a: Bugs Bunny
+|-supereffective|p1a: Bugs Bunny
+|-damage|p1a: Bugs Bunny|0 fnt
+|faint|p1a: Bugs Bunny
+|
+|-heal|p2a: Toad|69/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Gummienten LP|Sirfetch'd, M|94/100
+|-damage|p1a: Gummienten LP|88/100|[from] Stealth Rock
+|turn|11
+|
+|switch|p2a: Aegislash|Aegislash, F|96/100
+|move|p1a: Gummienten LP|Close Combat|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|-unboost|p1a: Gummienten LP|def|1
+|-unboost|p1a: Gummienten LP|spd|1
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Sigilyph|Sigilyph, M|100/100
+|turn|12
+|
+|switch|p1a: Wolffle|Lucario, M|100/100
+|-damage|p1a: Wolffle|98/100|[from] Stealth Rock
+|move|p2a: Sigilyph|Psychic|p1a: Wolffle
+|-damage|p1a: Wolffle|17/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Sigilyph|Psychic|p1a: Wolffle
+|-damage|p1a: Wolffle|0 fnt
+|faint|p1a: Wolffle
+|
+|upkeep
+|
+|switch|p1a: Gummienten LP|Sirfetch'd, M|88/100
+|-damage|p1a: Gummienten LP|82/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p2a: Hippowdon|Hippowdon, M|67/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Gummienten LP|First Impression|p2a: Hippowdon
+|-damage|p2a: Hippowdon|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gummienten LP|76/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|switch|p1a: Fake Pikachu|Mimikyu, M, shiny|100/100
+|-damage|p1a: Fake Pikachu|88/100|[from] Stealth Rock
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Fake Pikachu|82/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|move|p1a: Fake Pikachu|Swords Dance|p1a: Fake Pikachu
+|-boost|p1a: Fake Pikachu|atk|2
+|move|p2a: Hippowdon|Earthquake|p1a: Fake Pikachu
+|-activate|p1a: Fake Pikachu|ability: Disguise
+|-damage|p1a: Fake Pikachu|82/100
+|detailschange|p1a: Fake Pikachu|Mimikyu-Busted, M, shiny
+|-damage|p1a: Fake Pikachu|70/100|[from] ability: Disguise|[of] p1a: Fake Pikachu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Fake Pikachu|64/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|switch|p2a: Toad|Seismitoad, M, shiny|69/100
+|move|p1a: Fake Pikachu|Play Rough|p2a: Toad
+|-damage|p2a: Toad|4/100
+|-damage|p1a: Fake Pikachu|54/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Fake Pikachu|48/100|[from] Sandstorm
+|-heal|p2a: Toad|10/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Fake Pikachu|Play Rough|p2a: Toad
+|-damage|p2a: Toad|0 fnt
+|-damage|p1a: Fake Pikachu|38/100|[from] item: Life Orb
+|faint|p2a: Toad
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Fake Pikachu|32/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Cuachicqueh|Excadrill, M|100/100
+|turn|19
+|
+|move|p1a: Fake Pikachu|Shadow Sneak|p2a: Cuachicqueh
+|-damage|p2a: Cuachicqueh|37/100
+|-damage|p1a: Fake Pikachu|22/100|[from] item: Life Orb
+|move|p2a: Cuachicqueh|Iron Head|p1a: Fake Pikachu
+|-supereffective|p1a: Fake Pikachu
+|-damage|p1a: Fake Pikachu|0 fnt
+|faint|p1a: Fake Pikachu
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Cuachicqueh|43/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Gummienten LP|Sirfetch'd, M|76/100
+|-damage|p1a: Gummienten LP|70/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Cuachicqueh|Earthquake|p1a: Gummienten LP
+|-damage|p1a: Gummienten LP|0 fnt
+|faint|p1a: Gummienten LP
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Cuachicqueh|49/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Venum|Toxtricity, M, shiny|100/100
+|-damage|p1a: Venum|88/100|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Cuachicqueh|Earthquake|p1a: Venum
+|-supereffective|p1a: Venum
+|-damage|p1a: Venum|0 fnt
+|faint|p1a: Venum
+|
+|win|Zorro
+|l|☆HUE*Kimbo
+|c|☆Zorro|gg
+|raw|HUE*Kimbo's rating: 1354 → 1332(-22 for losing)
+|raw|Zorro's rating: 1325 → 1347(+22 for winning)
+|n| Cuachicqueh|zorro

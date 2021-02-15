@@ -1,0 +1,245 @@
+|ScrapeTime|2020-01-02-15:16:36
+|j|☆rotap
+|j|☆xdark lord masterx
+|player|p1|rotap|266|1271
+|player|p2|xdark lord masterx|lucas-gen4pt|1315
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Rotom-Mow|
+|poke|p1|Dracovish|
+|poke|p1|Cinderace, F|
+|poke|p1|Seismitoad, M|
+|poke|p1|Clefable, F|
+|poke|p1|Hydreigon, M|
+|poke|p2|Durant, M|
+|poke|p2|Cloyster, M|
+|poke|p2|Rotom-Mow|
+|poke|p2|Hippowdon, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Jellicent, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|switch|p2a: Rotom|Rotom-Mow, shiny|100/100
+|turn|1
+|
+|move|p2a: Rotom|Leaf Storm|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|45/100
+|-unboost|p2a: Rotom|spa|2
+|move|p1a: Rotom|Volt Switch|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|91/100
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Jellicent|Jellicent, M, shiny|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|74/100
+|
+|-heal|p2a: Jellicent|81/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Cinderace|U-turn|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|70/100
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100|[from]move: U-turn
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Hydreigon
+|-status|p1a: Hydreigon|brn
+|
+|-heal|p2a: Jellicent|76/100|[from] item: Leftovers
+|-damage|p1a: Hydreigon|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Hippowdon|Hippowdon, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|88/100 brn|[from] Sandstorm
+|-damage|p1a: Hydreigon|82/100 brn|[from] brn
+|upkeep
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by xdark lord masterx)
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F, shiny|100/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|55/100
+|-damage|p1a: Hydreigon|72/100 brn|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|66/100 brn|[from] Sandstorm
+|-damage|p1a: Hydreigon|60/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|-damage|p1a: Hydreigon|50/100 brn|[from] item: Life Orb
+|faint|p2a: Mandibuzz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|44/100 brn|[from] Sandstorm
+|-damage|p1a: Hydreigon|38/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Durant|Durant, M, shiny|100/100
+|turn|7
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Durant|Superpower|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-unboost|p2a: Durant|atk|1
+|-unboost|p2a: Durant|def|1
+|-damage|p2a: Durant|91/100|[from] item: Life Orb
+|faint|p1a: Cinderace
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|turn|8
+|
+|switch|p2a: Jellicent|Jellicent, M, shiny|76/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Jellicent
+|-sidestart|p2: xdark lord masterx|move: Stealth Rock
+|
+|-weather|none
+|-heal|p2a: Jellicent|83/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Jellicent|Taunt|p1a: Seismitoad
+|-start|p1a: Seismitoad|move: Taunt
+|cant|p1a: Seismitoad|move: Taunt|Toxic
+|
+|-heal|p2a: Jellicent|89/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Durant|Durant, M, shiny|91/100
+|-damage|p2a: Durant|78/100|[from] Stealth Rock
+|switch|p1a: Rotom|Rotom-Mow|45/100
+|
+|-heal|p1a: Rotom|50/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Durant|First Impression|p1a: Seismitoad
+|-damage|p1a: Seismitoad|46/100
+|-damage|p2a: Durant|69/100|[from] item: Life Orb
+|
+|-heal|p1a: Seismitoad|52/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Durant|Superpower|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|-unboost|p2a: Durant|atk|1
+|-unboost|p2a: Durant|def|1
+|-damage|p2a: Durant|59/100|[from] item: Life Orb
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|13
+|
+|switch|p2a: Jellicent|Jellicent, M, shiny|89/100
+|-damage|p2a: Jellicent|76/100|[from] Stealth Rock
+|move|p1a: Dracovish|Outrage|p2a: Jellicent
+|-damage|p2a: Jellicent|35/100
+|
+|-heal|p2a: Jellicent|41/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Dracovish|Outrage|p2a: Jellicent|[from]lockedmove
+|-damage|p2a: Jellicent|0 fnt
+|faint|p2a: Jellicent
+|
+|upkeep
+|
+|switch|p2a: magic cunt|Cloyster, M, shiny|100/100
+|-damage|p2a: magic cunt|76/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Dracovish|Outrage|p2a: magic cunt|[from]lockedmove
+|-damage|p2a: magic cunt|31/100
+|-start|p1a: Dracovish|confusion|[fatigue]
+|move|p2a: magic cunt|Shell Smash|p2a: magic cunt
+|-unboost|p2a: magic cunt|def|1
+|-unboost|p2a: magic cunt|spd|1
+|-boost|p2a: magic cunt|atk|2
+|-boost|p2a: magic cunt|spa|2
+|-boost|p2a: magic cunt|spe|2
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Rotom|Rotom-Mow|50/100
+|move|p2a: magic cunt|Icicle Spear|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-hitcount|p1a: Rotom|1
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|turn|17
+|
+|move|p2a: magic cunt|Icicle Spear|p1a: Clefable
+|-damage|p1a: Clefable|79/100
+|-damage|p1a: Clefable|54/100
+|-damage|p1a: Clefable|31/100
+|-damage|p1a: Clefable|8/100
+|-damage|p1a: Clefable|0 fnt
+|-hitcount|p1a: Clefable|5
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|18
+|c|☆xdark lord masterx|yay! ^.^
+|
+|move|p2a: magic cunt|Icicle Spear|p1a: Dracovish
+|-damage|p1a: Dracovish|77/100
+|-damage|p1a: Dracovish|53/100
+|-damage|p1a: Dracovish|30/100
+|-damage|p1a: Dracovish|7/100
+|-damage|p1a: Dracovish|0 fnt
+|-hitcount|p1a: Dracovish|5
+|faint|p1a: Dracovish
+|
+|upkeep
+|c|☆rotap|gg
+|-message|rotap forfeited.
+|
+|win|xdark lord masterx
+|l|☆rotap

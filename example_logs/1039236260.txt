@@ -1,0 +1,304 @@
+|ScrapeTime|2020-01-01-18:35:04
+|j|☆Char11
+|j|☆Gurguit-San
+|player|p1|Char11|265|1231
+|player|p2|Gurguit-San|ghetsis|1186
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Kommo-o, M|
+|poke|p1|Polteageist|
+|poke|p1|Mew|
+|poke|p1|Bisharp, M|
+|poke|p1|Conkeldurr, M|
+|poke|p2|Flapple, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Excadrill, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|1
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|move|p2a: Cinderace|U-turn|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|88/100
+|-damage|p2a: Cinderace|91/100|[from] item: Life Orb
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from]move: U-turn
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|80/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|79/100
+|-unboost|p2a: Excadrill|spa|1
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Char11|Reflect
+|move|p2a: Excadrill|Iron Head|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|29/100
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|88/100 brn
+|move|p2a: Excadrill|Iron Head|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|68/100 brn
+|
+|-damage|p1a: Conkeldurr|61/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|move|p1a: Conkeldurr|Earthquake|p2a: Corsola
+|-damage|p2a: Corsola|55/100
+|
+|-damage|p1a: Conkeldurr|55/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|move|p2a: Corsola|Strength Sap|p1a: Bisharp
+|-unboost|p1a: Bisharp|atk|1
+|-ability|p1a: Bisharp|Defiant
+|-boost|p1a: Bisharp|atk|2
+|-heal|p2a: Corsola|100/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Polteageist|Polteageist|100/100
+|move|p2a: Corsola|Will-O-Wisp|p1a: Polteageist
+|-status|p1a: Polteageist|brn
+|
+|-damage|p1a: Polteageist|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|move|p2a: Corsola|Night Shade|p1a: Polteageist
+|-damage|p1a: Polteageist|56/100 brn
+|
+|-damage|p1a: Polteageist|50/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Polteageist|Shadow Ball|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|2/100
+|-start|p1a: Polteageist|Disable|Shadow Ball|[from] ability: Cursed Body|[of] p2a: Corsola
+|move|p2a: Corsola|Night Shade|p1a: Polteageist
+|-damage|p1a: Polteageist|12/100 brn
+|
+|-damage|p1a: Polteageist|5/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Polteageist|Giga Drain|p2a: Corsola
+|-crit|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-heal|p1a: Polteageist|7/100 brn|[from] drain|[of] p2a: Corsola
+|faint|p2a: Corsola
+|
+|-damage|p1a: Polteageist|0 fnt|[from] brn
+|faint|p1a: Polteageist
+|-sideend|p1: Char11|Reflect
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|29/100
+|switch|p2a: Flapple|Flapple, F|100/100
+|turn|12
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Char11|Reflect
+|move|p2a: Flapple|Grav Apple|p1a: Grimmsnarl
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|-damage|p2a: Flapple|91/100|[from] item: Life Orb
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|55/100 brn
+|turn|13
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Char11)
+|inactive|Char11 has 120 seconds left.
+|
+|move|p2a: Flapple|Grav Apple|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|20/100 brn
+|-unboost|p1a: Conkeldurr|def|1
+|-damage|p2a: Flapple|81/100|[from] item: Life Orb
+|move|p1a: Conkeldurr|Earthquake|p2a: Flapple
+|-resisted|p2a: Flapple
+|-damage|p2a: Flapple|33/100
+|
+|-damage|p1a: Conkeldurr|14/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Flapple|Sucker Punch|p1a: Conkeldurr|[miss]
+|-miss|p2a: Flapple|p1a: Conkeldurr
+|move|p1a: Conkeldurr|Mach Punch|p2a: Flapple
+|-damage|p2a: Flapple|0 fnt
+|faint|p2a: Flapple
+|
+|-damage|p1a: Conkeldurr|8/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|79/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|15
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-damage|p1a: Conkeldurr|1/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|91/100
+|turn|16
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Cinderace
+|-crit|p2a: Cinderace
+|-damage|p2a: Cinderace|11/100
+|move|p2a: Cinderace|U-turn|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|-damage|p2a: Cinderace|1/100|[from] item: Life Orb
+|faint|p1a: Conkeldurr
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|turn|17
+|
+|move|p2a: Dragapult|Fire Blast|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|inactive|Char11 has 120 seconds left.
+|
+|switch|p1a: Mew|Mew|100/100
+|turn|18
+|
+|switch|p2a: Cinderace|Cinderace, F|1/100
+|move|p1a: Mew|Psychic Fangs|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|19
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|19/100
+|move|p1a: Mew|Psychic Fangs|p2a: Dragapult
+|-damage|p2a: Dragapult|60/100
+|
+|-sideend|p1: Char11|Reflect
+|upkeep
+|turn|20
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|turn|21
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|67/100
+|-enditem|p1a: Kommo-o|Throat Spray
+|-boost|p1a: Kommo-o|spa|1
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Kommo-o|Clanging Scales|p2a: Toxapex
+|-damage|p2a: Toxapex|18/100
+|-unboost|p1a: Kommo-o|def|1
+|move|p2a: Toxapex|Toxic|p1a: Kommo-o
+|-status|p1a: Kommo-o|tox
+|
+|-heal|p2a: Toxapex|25/100|[from] item: Black Sludge
+|-damage|p1a: Kommo-o|61/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|move|p1a: Kommo-o|Clanging Scales|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|-unboost|p1a: Kommo-o|def|1
+|faint|p2a: Toxapex
+|
+|-damage|p1a: Kommo-o|49/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|60/100
+|turn|24
+|
+|move|p1a: Kommo-o|Clanging Scales|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-unboost|p1a: Kommo-o|def|1
+|faint|p2a: Dragapult
+|
+|win|Char11
+|l|☆Gurguit-San
+|raw|Char11's rating: 1231 → 1252(+21 for winning)
+|raw|Gurguit-San's rating: 1186 → 1164(-22 for losing)

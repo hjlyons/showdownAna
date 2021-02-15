@@ -1,0 +1,129 @@
+|ScrapeTime|2020-01-03-01:06:48
+|j|☆marekraasd
+|j|☆lrav1567
+|player|p1|marekraasd|101|1000
+|player|p2|lrav1567|volkner|1037
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Vanilluxe, F|
+|poke|p1|Dracovish|
+|poke|p1|Hatterene, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Polteageist|
+|poke|p1|Seismitoad, F|
+|poke|p2|Perrserker, F|
+|poke|p2|Shiftry, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Sigilyph, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Crustle, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Vanilluxe|Vanilluxe, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|1
+|
+|move|p1a: Vanilluxe|Taunt|p2a: Grimmsnarl
+|-start|p2a: Grimmsnarl|move: Taunt
+|move|p2a: Grimmsnarl|Darkest Lariat|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|51/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Grimmsnarl|94/100|[from] Hail
+|-heal|p2a: Grimmsnarl|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Vanilluxe|Aurora Veil|p1a: Vanilluxe
+|-sidestart|p1: marekraasd|move: Aurora Veil
+|move|p2a: Grimmsnarl|Drain Punch|p1a: Vanilluxe
+|-supereffective|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|23/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Grimmsnarl|94/100|[from] Hail
+|-heal|p2a: Grimmsnarl|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Polteageist|Polteageist|100/100
+|move|p2a: Grimmsnarl|Sucker Punch||[still]
+|-fail|p2a: Grimmsnarl
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Polteageist|94/100|[from] Hail
+|-damage|p2a: Grimmsnarl|94/100|[from] Hail
+|-heal|p2a: Grimmsnarl|100/100|[from] item: Leftovers
+|-end|p2a: Grimmsnarl|move: Taunt
+|upkeep
+|turn|4
+|
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|-enditem|p1a: Polteageist|White Herb
+|-clearnegativeboost|p1a: Polteageist|[silent]
+|move|p2a: Grimmsnarl|Darkest Lariat|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-damage|p1a: Polteageist|16/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Polteageist|10/100|[from] Hail
+|-damage|p2a: Grimmsnarl|94/100|[from] Hail
+|-heal|p2a: Grimmsnarl|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Grimmsnarl|Sucker Punch|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|-start|p2a: Grimmsnarl|Disable|Sucker Punch|[from] ability: Cursed Body|[of] p1a: Polteageist
+|faint|p1a: Polteageist
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|6
+|
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Hatterene
+|-damage|p1a: Hatterene|85/100
+|-unboost|p1a: Hatterene|spa|1
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|91/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Hatterene
+|-damage|p1a: Hatterene|76/100
+|-unboost|p1a: Hatterene|spa|1
+|move|p1a: Hatterene|Psychic|p2a: Grimmsnarl
+|-immune|p2a: Grimmsnarl
+|
+|-heal|p1a: Hatterene|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|-message|marekraasd forfeited.
+|
+|win|lrav1567
+|l|☆marekraasd

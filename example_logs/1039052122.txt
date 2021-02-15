@@ -1,0 +1,243 @@
+|ScrapeTime|2020-01-01-07:35:24
+|j|☆yedalao
+|j|‽cellgenesis
+|player|p1|yedalao|102|1311
+|player|p2|cellgenesis|169|1287
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Togekiss, F|
+|poke|p1|Dracozolt|
+|poke|p1|Dragapult, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Hydreigon, M|
+|poke|p2|Mew|
+|poke|p2|Aromatisse, M|
+|poke|p2|Glaceon, M|
+|poke|p2|Runerigus, M|
+|poke|p2|Arctovish|
+|poke|p2|Reuniclus, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|
+|move|p2a: Mew|Light Screen|p2a: Mew
+|-sidestart|p2: cellgenesis|move: Light Screen
+|move|p1a: Togekiss|Air Slash|p2a: Mew
+|-damage|p2a: Mew|84/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Mew|Reflect|p2a: Mew
+|-sidestart|p2: cellgenesis|Reflect
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|45/100
+|move|p2a: Mew|U-turn|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|61/100
+|
+|switch|p2a: Aromatisse|Aromatisse, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Aromatisse|Trick Room|p2a: Aromatisse
+|-fieldstart|move: Trick Room|[of] p2a: Aromatisse
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Aromatisse|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|23/100
+|move|p1a: Corviknight|Iron Head|p2a: Aromatisse
+|-supereffective|p2a: Aromatisse
+|-damage|p2a: Aromatisse|75/100
+|
+|-heal|p2a: Aromatisse|81/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|29/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|move|p2a: Aromatisse|Thunderbolt|p1a: Dracozolt
+|-immune|p1a: Dracozolt|[from] ability: Volt Absorb
+|
+|-heal|p2a: Aromatisse|87/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Aromatisse|Moonblast|p1a: Dracozolt
+|-supereffective|p1a: Dracozolt
+|-damage|p1a: Dracozolt|0 fnt
+|faint|p1a: Dracozolt
+|
+|-heal|p2a: Aromatisse|93/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|turn|8
+|
+|move|p2a: Aromatisse|Thunderbolt|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|41/100
+|move|p1a: Togekiss|Air Slash|p2a: Aromatisse
+|-damage|p2a: Aromatisse|77/100
+|
+|-heal|p2a: Aromatisse|84/100|[from] item: Leftovers
+|-sideend|p2: cellgenesis|move: Light Screen
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+|
+|move|p1a: Togekiss|Air Slash|p2a: Aromatisse|[miss]
+|-miss|p1a: Togekiss|p2a: Aromatisse
+|move|p2a: Aromatisse|Trick Room|p2a: Aromatisse
+|-fieldstart|move: Trick Room|[of] p2a: Aromatisse
+|
+|-heal|p2a: Aromatisse|90/100|[from] item: Leftovers
+|-sideend|p2: cellgenesis|Reflect
+|upkeep
+|turn|10
+|
+|move|p2a: Aromatisse|Thunderbolt|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|-heal|p2a: Aromatisse|96/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|11
+|
+|switch|p2a: Arctovish|Arctovish|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Arctovish
+|-damage|p2a: Arctovish|31/100
+|-damage|p1a: Cinderace|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Arctovish|Fishious Rend|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|13
+|
+|move|p1a: Dragapult|Sucker Punch|p2a: Arctovish
+|-damage|p2a: Arctovish|11/100
+|move|p2a: Arctovish|Fishious Rend|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|65/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|14
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Arctovish
+|-damage|p2a: Arctovish|0 fnt
+|-hitcount|p2a: Arctovish|1
+|faint|p2a: Arctovish
+|
+|upkeep
+|
+|switch|p2a: Aromatisse|Aromatisse, M|96/100
+|turn|15
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cellgenesis)
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Aromatisse
+|move|p2a: Aromatisse|Trick Room|p2a: Aromatisse
+|-fieldstart|move: Trick Room|[of] p2a: Aromatisse
+|
+|-heal|p2a: Aromatisse|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Aromatisse|Wish|p2a: Aromatisse
+|move|p1a: Dragapult|Phantom Force|p2a: Aromatisse|[from]lockedmove
+|-damage|p2a: Aromatisse|47/100
+|
+|-heal|p2a: Aromatisse|53/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Corviknight|Corviknight, M|29/100
+|move|p2a: Aromatisse|Moonblast|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|8/100
+|-ability|p1a: Corviknight|Mirror Armor
+|-unboost|p2a: Aromatisse|spa|1
+|
+|-heal|p2a: Aromatisse|100/100|[from] move: Wish|[wisher] Aromatisse
+|-heal|p1a: Corviknight|14/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Aromatisse|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|65/100
+|turn|19
+|
+|move|p2a: Aromatisse|Moonblast|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|61/100
+|turn|20
+|
+|move|p1a: Hydreigon|Fire Blast|p2a: Aromatisse
+|-damage|p2a: Aromatisse|66/100
+|move|p2a: Aromatisse|Trick Room|p2a: Aromatisse
+|-fieldstart|move: Trick Room|[of] p2a: Aromatisse
+|
+|-heal|p2a: Aromatisse|72/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Aromatisse|Moonblast|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|win|cellgenesis
+|raw|yedalao's rating: 1311 → 1290(-21 for losing)
+|raw|cellgenesis's rating: 1287 → 1314(+27 for winning)

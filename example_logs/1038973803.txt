@@ -1,0 +1,295 @@
+|ScrapeTime|2020-01-01-03:05:24
+|j|☆billthebeast
+|j|☆Pixeldudeplays
+|player|p1|billthebeast|red|1322
+|player|p2|Pixeldudeplays|elesa|1271
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Excadrill, M|
+|poke|p1|Clefable, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Mimikyu, M|
+|poke|p1|Dracovish|
+|poke|p2|Mamoswine, M|
+|poke|p2|Dugtrio, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Arcanine, M|
+|poke|p2|Clefable, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by billthebeast)
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|turn|1
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Conkeldurr
+|-start|p2a: Conkeldurr|move: Leech Seed
+|
+|-damage|p2a: Conkeldurr|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|switch|p1a: Mimikyu|Mimikyu, M|100/100
+|move|p2a: Conkeldurr|Earthquake|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M
+|-damage|p1a: Mimikyu|88/100|[from] ability: Disguise|[of] p1a: Mimikyu
+|
+|-damage|p2a: Conkeldurr|75/100 brn|[from] Leech Seed|[of] p1a: Mimikyu
+|-heal|p1a: Mimikyu|100/100|[silent]
+|-damage|p2a: Conkeldurr|69/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Arcanine|Arcanine, M|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Mimikyu|atk|1
+|move|p1a: Mimikyu|Play Rough|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|88/100
+|-damage|p1a: Mimikyu|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Arcanine|95/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Arcanine|Will-O-Wisp|p1a: Toxapex
+|-status|p1a: Toxapex|brn
+|
+|-heal|p2a: Arcanine|100/100|[from] item: Leftovers
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|move|p1a: Toxapex|Toxic|p2a: Dugtrio
+|-status|p2a: Dugtrio|tox
+|
+|-heal|p1a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Dugtrio|94/100 tox|[from] psn
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|15/100 brn
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|65/100 brn
+|
+|-heal|p1a: Toxapex|72/100 brn|[from] item: Black Sludge
+|-damage|p2a: Dugtrio|82/100 tox|[from] psn
+|-damage|p1a: Toxapex|65/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-damage|p2a: Dugtrio|64/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|turn|8
+|
+|switch|p2a: Arcanine|Arcanine, M|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Ferrothorn|atk|1
+|move|p1a: Ferrothorn|Leech Seed|p2a: Arcanine|[miss]
+|-miss|p1a: Ferrothorn|p2a: Arcanine
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Arcanine|Overheat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-unboost|p2a: Arcanine|spa|2
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|10
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|11
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Dracovish
+|-damage|p1a: Dracovish|38/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|43/100
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Clefable
+|-damage|p1a: Clefable|50/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|14
+|
+|switch|p2a: Dugtrio|Dugtrio, M|64/100 tox
+|move|p1a: Excadrill|Earthquake|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|-damage|p1a: Excadrill|91/100|[from] item: Life Orb
+|faint|p2a: Dugtrio
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|69/100 brn
+|turn|15
+|
+|switch|p1a: Mimikyu|Mimikyu-Busted, M|91/100
+|move|p2a: Conkeldurr|Mach Punch|p1a: Mimikyu
+|-immune|p1a: Mimikyu
+|
+|-damage|p2a: Conkeldurr|63/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Mimikyu|Play Rough|p2a: Clefable|[miss]
+|-miss|p1a: Mimikyu|p2a: Clefable
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Mimikyu|Shadow Claw|p2a: Clefable
+|-damage|p2a: Clefable|59/100
+|-damage|p1a: Mimikyu|81/100|[from] item: Life Orb
+|move|p2a: Clefable|Moonblast|p1a: Mimikyu
+|-damage|p1a: Mimikyu|24/100
+|
+|-heal|p2a: Clefable|65/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Excadrill|Excadrill, M|91/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Clefable|Moonblast|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|59/100
+|-unboost|p1a: Excadrill|spa|1
+|
+|-heal|p2a: Clefable|71/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|move|p1a: Excadrill|Earthquake|p2a: Mamoswine
+|-damage|p2a: Mamoswine|11/100
+|-damage|p1a: Excadrill|49/100|[from] item: Life Orb
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Mamoswine|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Mimikyu|Mimikyu-Busted, M|24/100
+|turn|21
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|-damage|p1a: Mimikyu|14/100|[from] item: Life Orb
+|faint|p2a: Mamoswine
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|71/100
+|turn|22
+|
+|move|p1a: Mimikyu|Shadow Claw|p2a: Clefable
+|-damage|p2a: Clefable|28/100
+|-damage|p1a: Mimikyu|4/100|[from] item: Life Orb
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|34/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Mimikyu|Shadow Claw|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|84/100|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Clefable|90/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Clefable|Moonblast|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|-heal|p2a: Clefable|96/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|38/100
+|turn|25
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|43/100
+|turn|26
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|win|Pixeldudeplays
+|c|☆Pixeldudeplays|gg
+|l|☆billthebeast
+|raw|billthebeast's rating: 1322 → 1299(-23 for losing)
+|raw|Pixeldudeplays's rating: 1271 → 1300(+29 for winning)

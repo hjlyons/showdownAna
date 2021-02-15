@@ -1,0 +1,268 @@
+|ScrapeTime|2020-01-01-21:25:19
+|j|☆Calf22
+|j|☆NasPena2
+|player|p1|Calf22|102|1528
+|player|p2|NasPena2|blaine|1539
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Conkeldurr, M|
+|poke|p1|Pincurchin, M|
+|poke|p1|Hawlucha, M|
+|poke|p1|Torkoal, M|
+|poke|p1|Drifblim, F|
+|poke|p1|Maractus, M|
+|poke|p2|Togekiss, M|
+|poke|p2|Silvally-*|
+|poke|p2|Excadrill, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Corviknight, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Calf22)
+|
+|start
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: Happy|Togekiss, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|move|p2a: Happy|Air Slash|p1a: Torkoal
+|-damage|p1a: Torkoal|65/100
+|cant|p1a: Torkoal|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|move|p2a: Happy|Air Slash|p1a: Pincurchin
+|-resisted|p1a: Pincurchin
+|-damage|p1a: Pincurchin|77/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Drifblim|Drifblim, F|100/100
+|-enditem|p1a: Drifblim|Electric Seed
+|-boost|p1a: Drifblim|def|1
+|move|p2a: Happy|Substitute|p2a: Happy
+|-start|p2a: Happy|Substitute
+|-damage|p2a: Happy|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Happy|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Drifblim|Thunderbolt|p2a: Happy
+|-supereffective|p2a: Happy
+|-end|p2a: Happy|Substitute
+|move|p2a: Happy|Flamethrower|p1a: Drifblim
+|-damage|p1a: Drifblim|48/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Happy|88/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: The Don|Tyranitar, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: The Don
+|move|p1a: Drifblim|Thunderbolt|p2a: The Don
+|-damage|p2a: The Don|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drifblim|42/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|move|p1a: Drifblim|Strength Sap|p2a: The Don
+|-unboost|p2a: The Don|atk|1
+|-heal|p1a: Drifblim|100/100
+|move|p2a: The Don|Stone Edge|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drifblim|21/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|switch|p2a: Washi Washi|Rotom-Wash, shiny|100/100
+|move|p1a: Drifblim|Strength Sap|p2a: Washi Washi
+|-unboost|p2a: Washi Washi|atk|1
+|-heal|p1a: Drifblim|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drifblim|42/100|[from] Sandstorm
+|-damage|p2a: Washi Washi|95/100|[from] Sandstorm
+|-heal|p2a: Washi Washi|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Drifblim|Shadow Ball|p2a: Washi Washi
+|-damage|p2a: Washi Washi|60/100
+|-unboost|p2a: Washi Washi|spd|1
+|move|p2a: Washi Washi|Volt Switch|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|0 fnt
+|faint|p1a: Drifblim
+|
+|switch|p2a: Happy|Togekiss, M|88/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Happy|82/100|[from] Sandstorm
+|-heal|p2a: Happy|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Torkoal|Torkoal, M|65/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|9
+|
+|move|p2a: Happy|Substitute|p2a: Happy
+|-start|p2a: Happy|Substitute
+|-damage|p2a: Happy|63/100
+|move|p1a: Torkoal|Lava Plume|p2a: Happy
+|-end|p2a: Happy|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Happy|69/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|10
+|
+|switch|p2a: The Don|Tyranitar, M, shiny|83/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: The Don
+|move|p1a: Torkoal|Lava Plume|p2a: The Don
+|-resisted|p2a: The Don
+|-damage|p2a: The Don|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Torkoal|59/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|switch|p1a: Pincurchin|Pincurchin, M|77/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|move|p2a: The Don|Stone Edge|p1a: Pincurchin
+|-damage|p1a: Pincurchin|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pincurchin|17/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|move|p2a: The Don|Stealth Rock|p1a: Pincurchin
+|-sidestart|p1: Calf22|move: Stealth Rock
+|move|p1a: Pincurchin|Memento|p2a: The Don
+|-unboost|p2a: The Don|atk|2
+|-unboost|p2a: The Don|spa|2
+|faint|p1a: Pincurchin
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|-damage|p1a: Hawlucha|88/100|[from] Stealth Rock
+|-enditem|p1a: Hawlucha|Electric Seed
+|-boost|p1a: Hawlucha|def|1
+|turn|13
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: The Don|Stone Edge|p1a: Hawlucha
+|-damage|p1a: Hawlucha|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hawlucha|56/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: The Don|Stone Edge|p1a: Hawlucha
+|-crit|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|-weather|none
+|upkeep
+|c|☆NasPena2|lol greedy ass
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p1a: Conkeldurr|94/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p2a: Happy|Togekiss, M|69/100
+|move|p1a: Conkeldurr|Mach Punch|p2a: Happy
+|-resisted|p2a: Happy
+|-crit|p2a: Happy
+|-damage|p2a: Happy|59/100
+|
+|-heal|p2a: Happy|65/100|[from] item: Leftovers
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|16
+|
+|move|p2a: Happy|Air Slash|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|4/100 brn
+|cant|p1a: Conkeldurr|flinch
+|
+|-heal|p2a: Happy|71/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|0 fnt|[from] brn
+|faint|p1a: Conkeldurr
+|upkeep
+|
+|switch|p1a: Torkoal|Torkoal, M|59/100
+|-damage|p1a: Torkoal|34/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|17
+|
+|move|p2a: Happy|Air Slash|p1a: Torkoal
+|-damage|p1a: Torkoal|3/100
+|cant|p1a: Torkoal|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Happy|77/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Happy|Air Slash|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Happy|83/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|switch|p1a: Maractus|Maractus, M|100/100
+|-damage|p1a: Maractus|88/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Maractus|Weather Ball|p2a: Happy
+|-damage|p2a: Happy|23/100
+|-damage|p1a: Maractus|78/100|[from] item: Life Orb
+|move|p2a: Happy|Air Slash|p1a: Maractus
+|-supereffective|p1a: Maractus
+|-damage|p1a: Maractus|0 fnt
+|faint|p1a: Maractus
+|
+|win|NasPena2
+|l|☆Calf22
+|raw|Calf22's rating: 1550 → 1529(-21 for losing)
+|raw|NasPena2's rating: 1524 → 1546(+22 for winning)

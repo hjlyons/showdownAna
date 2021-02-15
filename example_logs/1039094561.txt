@@ -1,0 +1,346 @@
+|ScrapeTime|2020-01-01-11:05:58
+|j|☆Piplz
+|j|☆artusark
+|player|p1|Piplz|79|1448
+|player|p2|artusark|266|1454
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Salazzle, F|
+|poke|p1|Sigilyph, F|
+|poke|p1|Frosmoth, F|
+|poke|p1|Vaporeon, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Hydreigon, F|
+|poke|p2|Mew|
+|poke|p2|Kommo-o, F|
+|poke|p2|Crawdaunt, M|
+|poke|p2|Bisharp, F|
+|poke|p2|Clefable, M|
+|poke|p2|Aegislash, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Frosmoth|Frosmoth, F|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|
+|move|p2a: Mew|Taunt|p1a: Frosmoth
+|-start|p1a: Frosmoth|move: Taunt
+|move|p1a: Frosmoth|U-turn|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|75/100
+|
+|switch|p1a: Sigilyph|Sigilyph, F|100/100|[from]move: U-turn
+|
+|-status|p1a: Sigilyph|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|switch|p1a: Frosmoth|Frosmoth, F|100/100
+|move|p2a: Mew|Stealth Rock|p1a: Frosmoth
+|-sidestart|p1: Piplz|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Mew|Rock Tomb|p1a: Frosmoth
+|-supereffective|p1a: Frosmoth
+|-damage|p1a: Frosmoth|0 fnt
+|faint|p1a: Frosmoth
+|
+|upkeep
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|turn|4
+|
+|move|p2a: Mew|Taunt|p1a: Vaporeon
+|-start|p1a: Vaporeon|move: Taunt
+|move|p1a: Vaporeon|Whirlpool|p2a: Mew|[miss]
+|-miss|p1a: Vaporeon|p2a: Mew
+|
+|-heal|p1a: Vaporeon|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Mew|Spikes|p1a: Vaporeon
+|-sidestart|p1: Piplz|Spikes
+|move|p1a: Vaporeon|Whirlpool|p2a: Mew
+|-damage|p2a: Mew|65/100
+|-activate|p2a: Mew|move: Whirlpool|[of] p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|100/100|[from] item: Leftovers
+|-damage|p2a: Mew|52/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|move|p2a: Mew|Spikes|p1a: Vaporeon
+|-sidestart|p1: Piplz|Spikes
+|move|p1a: Vaporeon|Whirlpool|p2a: Mew|[miss]
+|-miss|p1a: Vaporeon|p2a: Mew
+|
+|-damage|p2a: Mew|40/100|[from] move: Whirlpool|[partiallytrapped]
+|-end|p1a: Vaporeon|move: Taunt
+|upkeep
+|turn|7
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|84/100|[from] Spikes
+|-damage|p1a: Excadrill|81/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Mew|Taunt|p1a: Excadrill
+|-start|p1a: Excadrill|move: Taunt
+|
+|-end|p2a: Mew|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|turn|8
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|-item|p2a: Aegislash|Air Balloon
+|move|p1a: Excadrill|Rapid Spin|p2a: Aegislash
+|-immune|p2a: Aegislash
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|-damage|p1a: Vaporeon|84/100|[from] Spikes
+|-damage|p1a: Vaporeon|72/100|[from] Stealth Rock
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Close Combat|p1a: Vaporeon
+|-damage|p1a: Vaporeon|31/100
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|
+|-heal|p1a: Vaporeon|38/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Mew|Mew|40/100
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|44/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Mew|Taunt|p1a: Vaporeon
+|-start|p1a: Vaporeon|move: Taunt
+|move|p1a: Vaporeon|Whirlpool|p2a: Mew
+|-damage|p2a: Mew|30/100
+|-activate|p2a: Mew|move: Whirlpool|[of] p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|94/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Vaporeon|99/100|[from] item: Leftovers
+|-damage|p2a: Mew|17/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|12
+|
+|move|p2a: Mew|Spikes|p1a: Vaporeon
+|-sidestart|p1: Piplz|Spikes
+|move|p1a: Vaporeon|Whirlpool|p2a: Mew
+|-damage|p2a: Mew|7/100
+|
+|-heal|p1a: Vaporeon|100/100|[from] item: Leftovers
+|-damage|p2a: Mew|0 fnt|[from] move: Whirlpool|[partiallytrapped]
+|faint|p2a: Mew
+|upkeep
+|
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|turn|13
+|
+|move|p2a: Crawdaunt|Swords Dance|p2a: Crawdaunt
+|-boost|p2a: Crawdaunt|atk|2
+|move|p1a: Vaporeon|Whirlpool|p2a: Crawdaunt
+|-resisted|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|87/100
+|-activate|p2a: Crawdaunt|move: Whirlpool|[of] p1a: Vaporeon
+|
+|-damage|p2a: Crawdaunt|75/100|[from] move: Whirlpool|[partiallytrapped]
+|-end|p1a: Vaporeon|move: Taunt
+|upkeep
+|turn|14
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Crawdaunt|Knock Off|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-damage|p2a: Crawdaunt|63/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|15
+|
+|move|p2a: Crawdaunt|Knock Off|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|-enditem|p1a: Vaporeon|Leftovers|[from] move: Knock Off|[of] p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|53/100|[from] item: Life Orb
+|faint|p1a: Vaporeon
+|
+|-end|p2a: Crawdaunt|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|49/100
+|-damage|p2a: Crawdaunt|43/100|[from] item: Life Orb
+|move|p1a: Hydreigon|Draco Meteor|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|-damage|p1a: Hydreigon|39/100|[from] item: Life Orb
+|faint|p2a: Crawdaunt
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|17
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|66/100
+|-damage|p1a: Hydreigon|29/100|[from] item: Life Orb
+|move|p2a: Clefable|Moonblast|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|upkeep
+|
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|-damage|p1a: Salazzle|75/100|[from] Spikes
+|-damage|p1a: Salazzle|50/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|25/100
+|move|p2a: Clefable|Thunderbolt|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|
+|-heal|p1a: Salazzle|32/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p1a: Salazzle|Sludge Wave|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|-heal|p1a: Salazzle|38/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|-item|p2a: Aegislash|Air Balloon
+|turn|20
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|faint|p1a: Salazzle
+|
+|upkeep
+|
+|switch|p1a: Sigilyph|Sigilyph, F|100/100 brn
+|turn|21
+|
+|move|p2a: Aegislash|Shadow Sneak|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|59/100 brn
+|move|p1a: Sigilyph|Psycho Shift|p2a: Aegislash
+|-status|p2a: Aegislash|brn
+|-curestatus|p1a: Sigilyph|brn|[msg]
+|
+|-damage|p2a: Aegislash|94/100 brn|[from] brn
+|-status|p1a: Sigilyph|brn|[from] item: Flame Orb
+|upkeep
+|turn|22
+|
+|move|p2a: Aegislash|Shadow Sneak|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|39/100 brn
+|move|p1a: Sigilyph|Psycho Shift|p2a: Aegislash
+|-fail|p2a: Aegislash|brn
+|
+|-damage|p2a: Aegislash|88/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p2a: Aegislash|Shadow Sneak|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|18/100 brn
+|move|p1a: Sigilyph|Roost|p1a: Sigilyph
+|-heal|p1a: Sigilyph|68/100 brn
+|-singleturn|p1a: Sigilyph|move: Roost
+|
+|-damage|p2a: Aegislash|82/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p1a: Sigilyph|Roost|p1a: Sigilyph
+|-heal|p1a: Sigilyph|100/100 brn
+|-singleturn|p1a: Sigilyph|move: Roost
+|move|p2a: Aegislash|Iron Head|p1a: Sigilyph
+|-damage|p1a: Sigilyph|80/100 brn
+|
+|-damage|p2a: Aegislash|76/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|move|p1a: Sigilyph|Calm Mind|p1a: Sigilyph
+|-boost|p1a: Sigilyph|spa|1
+|-boost|p1a: Sigilyph|spd|1
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|move|p1a: Sigilyph|Psycho Shift|p2a: Bisharp
+|-status|p2a: Bisharp|brn
+|-curestatus|p1a: Sigilyph|brn|[msg]
+|
+|-damage|p2a: Bisharp|95/100 brn|[from] brn
+|-status|p1a: Sigilyph|brn|[from] item: Flame Orb
+|upkeep
+|turn|27
+|
+|switch|p1a: Excadrill|Excadrill, F|81/100
+|-damage|p1a: Excadrill|78/100|[from] Stealth Rock
+|-damage|p1a: Excadrill|53/100|[from] Spikes
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Bisharp|Throat Chop|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-damage|p2a: Bisharp|85/100 brn|[from] item: Life Orb
+|faint|p1a: Excadrill
+|
+|-damage|p2a: Bisharp|79/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Sigilyph|Sigilyph, F|80/100 brn
+|turn|28
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Sigilyph
+|-supereffective|p1a: Sigilyph
+|-damage|p1a: Sigilyph|0 fnt
+|-damage|p2a: Bisharp|69/100 brn|[from] item: Life Orb
+|faint|p1a: Sigilyph
+|
+|win|artusark
+|l|☆Piplz
+|raw|Piplz's rating: 1448 → 1429(-19 for losing)
+|raw|artusark's rating: 1454 → 1474(+20 for winning)

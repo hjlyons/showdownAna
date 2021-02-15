@@ -1,0 +1,262 @@
+|ScrapeTime|2020-01-01-11:35:23
+|j|☆MyLordDIO
+|j|☆SMD AND BEG 4 WIN
+|player|p1|MyLordDIO|92|1119
+|player|p2|SMD AND BEG 4 WIN|234|1130
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Seismitoad, M|
+|poke|p1|Aegislash, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Hitmontop, M|
+|poke|p1|Roserade, F|
+|poke|p1|Crawdaunt, M|
+|poke|p2|Aegislash, F|
+|poke|p2|Crawdaunt, M|
+|poke|p2|Mew|
+|poke|p2|Lucario, F|
+|poke|p2|Bisharp, M|
+|poke|p2|Dragapult, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MyLordDIO)
+|
+|start
+|switch|p1a: Mandibuzz|Mandibuzz, F, shiny|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|
+|move|p2a: Mew|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: MyLordDIO|move: Stealth Rock
+|move|p1a: Mandibuzz|Knock Off|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|59/100
+|-enditem|p2a: Mew|Red Card|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Mew|Taunt|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|move: Taunt
+|cant|p1a: Mandibuzz|move: Taunt|Defog
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M, shiny|100/100
+|-damage|p1a: Crawdaunt|88/100|[from] Stealth Rock
+|move|p2a: Mew|Spikes|p1a: Crawdaunt
+|-sidestart|p1: MyLordDIO|Spikes
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Mew|Taunt|p1a: Crawdaunt
+|-start|p1a: Crawdaunt|move: Taunt
+|move|p1a: Crawdaunt|Knock Off|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+|
+|switch|p2a: Lucario|Lucario, F|100/100
+|turn|5
+|
+|switch|p1a: Hitmontop|Hitmontop, M, shiny|100/100
+|-damage|p1a: Hitmontop|94/100|[from] Stealth Rock
+|-damage|p1a: Hitmontop|82/100|[from] Spikes
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Lucario|atk|1
+|move|p2a: Lucario|Swords Dance|p2a: Lucario
+|-boost|p2a: Lucario|atk|2
+|
+|-heal|p1a: Hitmontop|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Lucario|Close Combat|p1a: Hitmontop
+|-damage|p1a: Hitmontop|0 fnt
+|-unboost|p2a: Lucario|def|1
+|-unboost|p2a: Lucario|spd|1
+|-damage|p2a: Lucario|91/100|[from] item: Life Orb
+|faint|p1a: Hitmontop
+|
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, M, shiny|100/100
+|-damage|p1a: Aegislash|94/100|[from] Stealth Rock
+|-damage|p1a: Aegislash|82/100|[from] Spikes
+|turn|7
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Lucario|Earthquake|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F, shiny|100/100
+|-damage|p1a: Mandibuzz|75/100|[from] Stealth Rock
+|move|p2a: Lucario|Earthquake|p1a: Mandibuzz
+|-immune|p1a: Mandibuzz
+|
+|-heal|p1a: Mandibuzz|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Lucario|Swords Dance|p2a: Lucario
+|-boost|p2a: Lucario|atk|2
+|move|p1a: Mandibuzz|Defog|p2a: Lucario
+|-unboost|p2a: Lucario|evasion|1
+|-sideend|p1: MyLordDIO|Spikes|[from] move: Defog|[of] p1a: Mandibuzz
+|-sideend|p1: MyLordDIO|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|-heal|p1a: Mandibuzz|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Lucario|Close Combat|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|-unboost|p2a: Lucario|def|1
+|-unboost|p2a: Lucario|spd|1
+|-damage|p2a: Lucario|81/100|[from] item: Life Orb
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|turn|11
+|
+|move|p2a: Lucario|Close Combat|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|-unboost|p2a: Lucario|def|1
+|-unboost|p2a: Lucario|spd|1
+|-damage|p2a: Lucario|71/100|[from] item: Life Orb
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M, shiny|88/100
+|turn|12
+|
+|move|p2a: Lucario|Bullet Punch|p1a: Crawdaunt
+|-resisted|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|41/100
+|-damage|p2a: Lucario|61/100|[from] item: Life Orb
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|13
+|
+|switch|p1a: Roserade|Roserade, F, shiny|100/100
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|move|p1a: Roserade|Leaf Storm|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|-unboost|p1a: Roserade|spa|2
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Aegislash|Aegislash, M, shiny|82/100
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|57/100
+|
+|-heal|p2a: Dragapult|63/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|
+|-heal|p2a: Dragapult|69/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Sneak|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|-damage|p1a: Aegislash|72/100|[from] item: Life Orb
+|move|p2a: Dragapult|Dragon Darts|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|27/100
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|-hitcount|p1a: Aegislash|2
+|faint|p1a: Aegislash
+|
+|-heal|p2a: Dragapult|75/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M, shiny|41/100
+|turn|18
+|
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|49/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|-hitcount|p1a: Crawdaunt|1
+|faint|p1a: Crawdaunt
+|
+|-heal|p2a: Dragapult|55/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Roserade|Roserade, F, shiny|100/100
+|turn|19
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Roserade
+|-damage|p1a: Roserade|53/100
+|-damage|p1a: Roserade|3/100
+|-hitcount|p1a: Roserade|2
+|move|p1a: Roserade|Leaf Storm|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|17/100
+|-unboost|p1a: Roserade|spa|2
+|
+|-heal|p2a: Dragapult|23/100|[from] item: Leftovers
+|-heal|p1a: Roserade|9/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|-hitcount|p1a: Roserade|1
+|faint|p1a: Roserade
+|
+|win|SMD AND BEG 4 WIN
+|raw|MyLordDIO's rating: 1119 → 1095(-24 for losing)
+|raw|SMD AND BEG 4 WIN's rating: 1130 → 1154(+24 for winning)
+|l|☆MyLordDIO

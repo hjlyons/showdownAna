@@ -1,0 +1,244 @@
+|ScrapeTime|2020-01-01-02:15:42
+|j|☆Ctrl G-Max
+|j|☆Byleth-M
+|player|p1|Ctrl G-Max|188|1226
+|player|p2|Byleth-M|lance|1221
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Drapion, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Dracovish|
+|poke|p1|Lapras, F|
+|poke|p1|Polteageist|
+|poke|p1|Togekiss, M|
+|poke|p2|Aegislash, F|
+|poke|p2|Crawdaunt, M|
+|poke|p2|Mew|
+|poke|p2|Lucario, M|
+|poke|p2|Bisharp, M|
+|poke|p2|Dragapult, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ctrl G-Max)
+|
+|start
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|turn|1
+|
+|switch|p2a: Mew|Mew|100/100
+|move|p1a: Togekiss|Air Slash|p2a: Mew
+|-damage|p2a: Mew|71/100
+|-enditem|p2a: Mew|Red Card|[of] p1a: Togekiss
+|drag|p1a: Dracovish|Dracovish|100/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Lapras|Lapras, F|100/100
+|move|p2a: Mew|Stealth Rock|p1a: Lapras
+|-sidestart|p1: Ctrl G-Max|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Mew|Taunt|p1a: Lapras
+|-start|p1a: Lapras|move: Taunt
+|move|p1a: Lapras|Whirlpool|p2a: Mew|[miss]
+|-miss|p1a: Lapras|p2a: Mew
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Mew|Spikes|p1a: Lapras
+|-sidestart|p1: Ctrl G-Max|Spikes
+|move|p1a: Lapras|Whirlpool|p2a: Mew
+|-damage|p2a: Mew|62/100
+|-activate|p2a: Mew|move: Whirlpool|[of] p1a: Lapras
+|
+|-damage|p2a: Mew|50/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|move|p2a: Mew|Spikes|p1a: Lapras
+|-sidestart|p1: Ctrl G-Max|Spikes
+|move|p1a: Lapras|Freeze-Dry|p2a: Mew
+|-damage|p2a: Mew|31/100
+|
+|-damage|p2a: Mew|19/100|[from] move: Whirlpool|[partiallytrapped]
+|-end|p1a: Lapras|move: Taunt
+|upkeep
+|turn|6
+|
+|move|p2a: Mew|Self-Destruct|p1a: Lapras
+|-damage|p1a: Lapras|70/100
+|faint|p2a: Mew
+|move|p1a: Lapras|Freeze-Dry|p2: Mew|[notarget]
+|-fail|p1a: Lapras
+|
+|-heal|p1a: Lapras|77/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|7
+|
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: Lapras|Freeze-Dry|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|48/100
+|
+|-heal|p2a: Dragapult|53/100|[from] item: Leftovers
+|-heal|p1a: Lapras|83/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Lapras
+|-damage|p1a: Lapras|58/100
+|-damage|p1a: Lapras|33/100
+|-hitcount|p1a: Lapras|2
+|move|p1a: Lapras|Freeze-Dry|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Lapras|39/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Lucario|Lucario, M|100/100
+|turn|9
+|
+|move|p2a: Lucario|Swords Dance|p2a: Lucario
+|-boost|p2a: Lucario|atk|2
+|move|p1a: Lapras|Whirlpool|p2a: Lucario
+|-damage|p2a: Lucario|83/100
+|-activate|p2a: Lucario|move: Whirlpool|[of] p1a: Lapras
+|
+|-heal|p1a: Lapras|45/100|[from] item: Leftovers
+|-damage|p2a: Lucario|71/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|10
+|
+|move|p1a: Lapras|Protect|p1a: Lapras
+|-singleturn|p1a: Lapras|Protect
+|move|p2a: Lucario|Swords Dance|p2a: Lucario
+|-boost|p2a: Lucario|atk|2
+|
+|-heal|p1a: Lapras|51/100|[from] item: Leftovers
+|-damage|p2a: Lucario|58/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|11
+|
+|move|p2a: Lucario|Earthquake|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|-damage|p2a: Lucario|48/100|[from] item: Life Orb
+|faint|p1a: Lapras
+|
+|-end|p2a: Lucario|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|-damage|p1a: Dracovish|84/100|[from] Spikes
+|-damage|p1a: Dracovish|72/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|-item|p2a: Aegislash|Air Balloon
+|turn|13
+|
+|switch|p1a: Drapion|Drapion, F|100/100
+|-damage|p1a: Drapion|88/100|[from] Stealth Rock
+|-damage|p1a: Drapion|71/100|[from] Spikes
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Close Combat|p1a: Drapion
+|-damage|p1a: Drapion|27/100
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|
+|-heal|p1a: Drapion|33/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p1a: Drapion|Taunt|p2a: Aegislash
+|-start|p2a: Aegislash|move: Taunt
+|move|p2a: Aegislash|Iron Head|p1a: Drapion
+|-damage|p1a: Drapion|0 fnt
+|faint|p1a: Drapion
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|15
+|
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p1: Ctrl G-Max|Spikes|[silent]
+|-sidestart|p2: Byleth-M|Spikes|[silent]
+|-sidestart|p2: Byleth-M|Spikes|[silent]
+|-sideend|p1: Ctrl G-Max|Stealth Rock|[silent]
+|-sidestart|p2: Byleth-M|Stealth Rock|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Aegislash|Close Combat|p1a: Cinderace
+|-damage|p1a: Cinderace|34/100
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Aegislash|Shadow Sneak|p1a: Cinderace
+|-damage|p1a: Cinderace|1/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|-enditem|p2a: Aegislash|Air Balloon
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|-damage|p2a: Bisharp|78/100|[from] Spikes
+|turn|17
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-damage|p2a: Bisharp|68/100|[from] item: Life Orb
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|72/100
+|turn|18
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Dracovish
+|-damage|p1a: Dracovish|24/100
+|-damage|p2a: Bisharp|58/100|[from] item: Life Orb
+|move|p1a: Dracovish|Fishious Rend|p2a: Bisharp
+|-crit|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+|-message|Byleth-M forfeited.
+|
+|win|Ctrl G-Max
+|raw|Ctrl G-Max's rating: 1255 → 1277(+22 for winning)
+|raw|Byleth-M's rating: 1221 → 1198(-23 for losing)

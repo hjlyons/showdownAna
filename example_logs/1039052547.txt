@@ -1,0 +1,96 @@
+|ScrapeTime|2020-01-01-07:35:36
+|j|☆kgytugh'
+|j|☆Stami
+|player|p1|kgytugh'|170|1110
+|player|p2|Stami|whitney|1100
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, M|
+|poke|p1|Mimikyu, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Mew|
+|poke|p1|Cinderace, M|
+|poke|p1|Toxtricity, M|
+|poke|p2|Bisharp, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Cinderace, M|
+|poke|p2|Togekiss, M|
+|poke|p2|Dracovish|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Dracovish|Dracovish, shiny|100/100
+|turn|1
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Mew
+|-damage|p1a: Mew|12/100
+|-enditem|p1a: Mew|Red Card|[of] p2a: Dracovish
+|drag|p2a: Bisharp|Bisharp, F|100/100
+|move|p1a: Mew|Stealth Rock|p2a: Bisharp
+|-sidestart|p2: Stami|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Cinderace|Cinderace, M, shiny|100/100
+|move|p1a: Mew|Spikes|p2a: Cinderace
+|-sidestart|p2: Stami|Spikes
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: Stami|Spikes|[silent]
+|-sidestart|p1: kgytugh'|Spikes|[silent]
+|-sideend|p2: Stami|Stealth Rock|[silent]
+|-sidestart|p1: kgytugh'|Stealth Rock|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Mew|Taunt|p2a: Cinderace
+|-start|p2a: Cinderace|move: Taunt
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Cinderace|U-turn|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Stami)
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|5
+|
+|move|p2a: Rotom|Trick|p1a: Hydreigon
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Hydreigon
+|-item|p1a: Hydreigon|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Life Orb|[from] move: Trick
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|
+|upkeep
+|turn|6
+|-message|kgytugh' forfeited.
+|
+|win|Stami
+|l|☆kgytugh'
+|raw|kgytugh''s rating: 1110 → 1084(-26 for losing)
+|raw|Stami's rating: 1100 → 1126(+26 for winning)

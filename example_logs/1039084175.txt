@@ -1,0 +1,162 @@
+|ScrapeTime|2020-01-01-10:05:20
+|j|☆ShivamBangia
+|j|☆Greaser Seth
+|player|p1|ShivamBangia|290|1418
+|player|p2|Greaser Seth|238|1367
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dracozolt|
+|poke|p1|Dragapult, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Seismitoad, F|
+|poke|p1|Avalugg, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Shiftry, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Charizard, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ShivamBangia)
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|1
+|
+|move|p2a: Cinderace|U-turn|p1a: Seismitoad
+|-damage|p1a: Seismitoad|78/100
+|
+|switch|p2a: Torkoal|Torkoal, M|100/100|[from]move: U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Seismitoad|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|64/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Seismitoad|84/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Shiftry|Shiftry, M|100/100
+|move|p1a: Seismitoad|Toxic|p2a: Shiftry
+|-status|p2a: Shiftry|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Seismitoad|90/100|[from] item: Leftovers
+|-damage|p2a: Shiftry|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p1a: Avalugg|Avalugg, M|100/100
+|move|p2a: Shiftry|Swords Dance|p2a: Shiftry
+|-boost|p2a: Shiftry|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Shiftry|82/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Avalugg|Avalanche|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|83/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Cinderace|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|85/100
+|
+|switch|p2a: Shiftry|Shiftry, M|82/100 tox|[from]move: U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Shiftry|76/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p1a: Avalugg|Avalugg, M|100/100
+|move|p2a: Shiftry|Throat Chop|p1a: Avalugg
+|-damage|p1a: Avalugg|81/100
+|-start|p1a: Avalugg|Throat Chop|[silent]
+|-damage|p2a: Shiftry|66/100 tox|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Shiftry|53/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p2a: Toxapex|Toxapex, F, shiny|100/100
+|move|p1a: Avalugg|Body Press|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|89/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Toxapex|95/100|[from] item: Black Sludge
+|-end|p1a: Avalugg|Throat Chop|[silent]
+|upkeep
+|turn|8
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|move|p2a: Toxapex|Toxic|p1a: Dracozolt
+|-status|p1a: Dracozolt|tox
+|
+|-weather|none
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p1a: Dracozolt|94/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p2a: Cinderace|Cinderace, F|83/100
+|move|p1a: Dracozolt|Bolt Beak|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-damage|p1a: Dracozolt|82/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Torkoal|Torkoal, M|64/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|10
+|
+|move|p1a: Dracozolt|Bolt Beak|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Dracozolt|63/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|11
+|
+|move|p1a: Dracozolt|Bolt Beak|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Dracozolt|38/100 tox|[from] psn
+|upkeep
+|-message|Greaser Seth forfeited.
+|
+|win|ShivamBangia
+|l|☆Greaser Seth
+|raw|ShivamBangia's rating: 1399 → 1417(+18 for winning)
+|raw|Greaser Seth's rating: 1367 → 1350(-17 for losing)

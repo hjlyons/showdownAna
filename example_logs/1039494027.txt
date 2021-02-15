@@ -1,0 +1,280 @@
+|ScrapeTime|2020-01-02-04:04:52
+|j|☆GindarasonPillows
+|j|☆prawnwizard
+|player|p1|GindarasonPillows|lady-gen4|1407
+|player|p2|prawnwizard|197|1434
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aegislash, M|
+|poke|p1|Clefable, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Excadrill, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Gyarados, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Aegislash, F|
+|poke|p2|Dugtrio, M|
+|poke|p2|Quagsire, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Mandibuzz, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GindarasonPillows)
+|
+|start
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|switch|p2a: Quagsire|Quagsire, F|100/100
+|turn|1
+|
+|move|p1a: Gyarados|Power Whip|p2a: Quagsire|[miss]
+|-miss|p1a: Gyarados|p2a: Quagsire
+|move|p2a: Quagsire|Scald|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|92/100
+|
+|-heal|p1a: Gyarados|98/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Gyarados|Waterfall|p2a: Corviknight
+|-damage|p2a: Corviknight|49/100
+|move|p2a: Corviknight|Brave Bird|p1a: Gyarados
+|-damage|p1a: Gyarados|56/100
+|-damage|p2a: Corviknight|36/100|[from] Recoil
+|
+|-heal|p1a: Gyarados|62/100|[from] item: Leftovers
+|-heal|p2a: Corviknight|43/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Corviknight|Brave Bird|p1a: Gyarados
+|-damage|p1a: Gyarados|19/100
+|-damage|p2a: Corviknight|31/100|[from] Recoil
+|
+|-heal|p1a: Gyarados|25/100|[from] item: Leftovers
+|-heal|p2a: Corviknight|37/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Gyarados|Waterfall|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-heal|p1a: Gyarados|31/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|turn|6
+|
+|move|p1a: Gyarados|Waterfall|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-enditem|p2a: Dugtrio|Focus Sash
+|-damage|p2a: Dugtrio|1/100
+|move|p2a: Dugtrio|Stone Edge|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|7
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-enditem|p1a: Excadrill|Focus Sash
+|-damage|p1a: Excadrill|1/100
+|move|p1a: Excadrill|Rapid Spin|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|-boost|p1a: Excadrill|spe|1
+|faint|p2a: Dugtrio
+|
+|upkeep
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|turn|8
+|
+|move|p1a: Excadrill|Iron Head|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|70/100
+|cant|p2a: Mandibuzz|flinch
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Quagsire|Quagsire, F|100/100
+|move|p1a: Rotom|Trick|p2a: Quagsire
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Quagsire
+|-item|p2a: Quagsire|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Flash Cannon|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Aegislash|Flash Cannon|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|30/100
+|move|p1a: Clefable|Flamethrower|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Quagsire|Quagsire, F|100/100
+|turn|14
+|
+|move|p2a: Quagsire|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|15
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: GindarasonPillows|Reflect
+|move|p2a: Quagsire|Earthquake|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|86/100
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|44/100
+|-unboost|p2a: Mandibuzz|spa|1
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Excadrill|Excadrill, M|1/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Mandibuzz|U-turn|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-crit|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|switch|p2a: Quagsire|Quagsire, F|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|turn|18
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Quagsire
+|-damage|p2a: Quagsire|13/100
+|-unboost|p2a: Quagsire|spd|1
+|move|p2a: Quagsire|Scald|p1a: Aegislash
+|-damage|p1a: Aegislash|67/100
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|44/100
+|move|p1a: Aegislash|Shadow Ball|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|22/100
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|86/100
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|72/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Mandibuzz|U-turn|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|80/100
+|
+|switch|p2a: Quagsire|Quagsire, F|13/100|[from]move: U-turn
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|faint|p2a: Quagsire
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|22
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Grimmsnarl
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Dragapult|[miss]
+|-miss|p1a: Grimmsnarl|p2a: Dragapult
+|
+|-sideend|p1: GindarasonPillows|Reflect
+|upkeep
+|turn|23
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Grimmsnarl|[from]lockedmove
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|57/100
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|2/100
+|-unboost|p2a: Dragapult|spa|1
+|
+|-heal|p2a: Dragapult|8/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|-message|prawnwizard forfeited.
+|
+|win|GindarasonPillows
+|l|☆prawnwizard
+|raw|GindarasonPillows's rating: 1407 → 1429(+22 for winning)
+|raw|prawnwizard's rating: 1434 → 1413(-21 for losing)

@@ -1,0 +1,602 @@
+|ScrapeTime|2020-01-01-23:01:13
+|j|☆damflame
+|j|☆nassimmoule
+|player|p1|damflame|#fcpl4raichicheurs|
+|player|p2|nassimmoule|rocket-gen1rb|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dracozolt|
+|poke|p1|Aegislash, F|
+|poke|p1|Eldegoss, M|
+|poke|p1|Bisharp, F|
+|poke|p1|Hawlucha, M|
+|poke|p1|Toxapex, F|
+|poke|p2|Aegislash, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Rotom-Mow|
+|poke|p2|Dugtrio, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j|+Kabilapok
+|c|☆nassimmoule|hf
+|j| lukee2008
+|c|☆damflame|u2
+|
+|start
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|j| Eccalliti ✿
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|move|p1a: Toxapex|Toxic|p2a: Aegislash
+|-immune|p2a: Aegislash
+|
+|upkeep
+|turn|2
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|41/100
+|move|p1a: Toxapex|Scald|p2a: Aegislash
+|-damage|p2a: Aegislash|65/100
+|
+|-heal|p1a: Toxapex|48/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p1a: Eldegoss|Eldegoss, M|100/100
+|move|p2a: Aegislash|Shadow Ball|p1a: Eldegoss
+|-damage|p1a: Eldegoss|49/100
+|
+|-heal|p1a: Eldegoss|55/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Eldegoss|Sleep Powder|p2a: Corviknight
+|-status|p2a: Corviknight|slp|[from] move: Sleep Powder
+|
+|-heal|p1a: Eldegoss|61/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|j|@iKiQ
+|l| Eccalliti ✿
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|cant|p2a: Corviknight|slp
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|move|p1a: Dracozolt|Low Kick|p2a: Dugtrio
+|-damage|p2a: Dugtrio|27/100
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Dracozolt|Low Kick|p2a: Dugtrio|[miss]
+|-miss|p1a: Dracozolt|p2a: Dugtrio
+|move|p2a: Dugtrio|Earthquake|p1a: Dracozolt
+|-supereffective|p1a: Dracozolt
+|-damage|p1a: Dracozolt|0 fnt
+|faint|p1a: Dracozolt
+|
+|upkeep
+|
+|switch|p1a: Eldegoss|Eldegoss, M|94/100
+|turn|8
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100 slp
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Eldegoss|Giga Drain|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|97/100 slp
+|-heal|p1a: Eldegoss|97/100|[from] drain|[of] p2a: Corviknight
+|
+|-heal|p2a: Corviknight|100/100 slp|[from] item: Leftovers
+|-heal|p1a: Eldegoss|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|cant|p2a: Corviknight|slp
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|cant|p2a: Corviknight|slp
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Corviknight
+|-damage|p2a: Corviknight|20/100 slp
+|-start|p2a: Corviknight|Throat Chop|[silent]
+|-curestatus|p2a: Corviknight|slp|[msg]
+|move|p2a: Corviknight|U-turn|p1a: Bisharp
+|-damage|p1a: Bisharp|82/100
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Rotom|Trick|p1a: Bisharp
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Bisharp
+|-item|p1a: Bisharp|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Black Glasses|[from] move: Trick
+|move|p1a: Bisharp|Throat Chop|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Dugtrio|Dugtrio, F|27/100
+|turn|13
+|j|%Pujolly
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|switch|p1a: Eldegoss|Eldegoss, M|100/100
+|turn|14
+|
+|move|p2a: Dugtrio|Screech|p1a: Eldegoss
+|-unboost|p1a: Eldegoss|def|2
+|move|p1a: Eldegoss|Leech Seed|p2a: Dugtrio
+|-start|p2a: Dugtrio|move: Leech Seed
+|
+|-damage|p2a: Dugtrio|14/100|[from] Leech Seed|[of] p1a: Eldegoss
+|upkeep
+|turn|15
+|
+|switch|p2a: Corviknight|Corviknight, F|20/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Eldegoss|Rapid Spin|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|18/100
+|-boost|p1a: Eldegoss|spe|1
+|
+|-heal|p2a: Corviknight|24/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|move|p2a: Corviknight|U-turn|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-crit|p1a: Aegislash
+|-damage|p1a: Aegislash|96/100
+|
+|switch|p2a: Aegislash|Aegislash, F|65/100|[from]move: U-turn
+|
+|-heal|p1a: Aegislash|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|21/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|-heal|p1a: Aegislash|27/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|18
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|-ability|p1a: Hawlucha|Mold Breaker
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|76/100
+|
+|-heal|p2a: Hydreigon|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Hawlucha|Close Combat|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|move|p2a: Hydreigon|Flash Cannon|p1a: Hawlucha
+|-damage|p1a: Hawlucha|40/100
+|
+|-heal|p1a: Hawlucha|47/100|[from] item: Leftovers
+|-heal|p2a: Hydreigon|88/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Hawlucha|Close Combat|p2a: Seismitoad
+|-damage|p2a: Seismitoad|74/100
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|
+|-heal|p1a: Hawlucha|53/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|80/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Hawlucha|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|70/100
+|
+|switch|p1a: Eldegoss|Eldegoss, M|100/100|[from]move: U-turn
+|move|p2a: Seismitoad|Scald|p1a: Eldegoss
+|-resisted|p1a: Eldegoss
+|-damage|p1a: Eldegoss|93/100
+|
+|-heal|p2a: Seismitoad|76/100|[from] item: Leftovers
+|-heal|p1a: Eldegoss|99/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Corviknight|Corviknight, F|24/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Eldegoss|Sleep Powder|p2a: Corviknight
+|-status|p2a: Corviknight|slp|[from] move: Sleep Powder
+|
+|-heal|p2a: Corviknight|30/100 slp|[from] item: Leftovers
+|-heal|p1a: Eldegoss|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Dugtrio|Dugtrio, F|14/100
+|switch|p1a: Aegislash|Aegislash, F|27/100
+|
+|-heal|p1a: Aegislash|33/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Dugtrio|Sucker Punch||[still]
+|-fail|p2a: Dugtrio
+|
+|-heal|p1a: Aegislash|39/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p1a: Eldegoss|Eldegoss, M|100/100
+|move|p2a: Dugtrio|Sucker Punch||[still]
+|-fail|p2a: Dugtrio
+|
+|upkeep
+|turn|26
+|j| TheAleph16
+|
+|move|p2a: Dugtrio|Screech|p1a: Eldegoss
+|-unboost|p1a: Eldegoss|def|2
+|move|p1a: Eldegoss|Giga Drain|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|88/100
+|turn|27
+|j| Table Bleue
+|
+|switch|p1a: Hawlucha|Hawlucha, M|53/100
+|-ability|p1a: Hawlucha|Mold Breaker
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|63/100
+|
+|-heal|p1a: Hawlucha|59/100|[from] item: Leftovers
+|-heal|p2a: Hydreigon|69/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Hawlucha|Roost|p1a: Hawlucha
+|-heal|p1a: Hawlucha|100/100
+|-singleturn|p1a: Hawlucha|move: Roost
+|move|p2a: Hydreigon|Flash Cannon|p1a: Hawlucha
+|-damage|p1a: Hawlucha|63/100
+|
+|-heal|p1a: Hawlucha|69/100|[from] item: Leftovers
+|-heal|p2a: Hydreigon|75/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Hawlucha|Close Combat|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|move|p2a: Hydreigon|Flash Cannon|p1a: Hawlucha
+|-damage|p1a: Hawlucha|14/100
+|-unboost|p1a: Hawlucha|spd|1
+|
+|-heal|p1a: Hawlucha|20/100|[from] item: Leftovers
+|-heal|p2a: Hydreigon|81/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p2a: Seismitoad|Seismitoad, M|76/100
+|move|p1a: Hawlucha|Close Combat|p2a: Seismitoad
+|-damage|p2a: Seismitoad|50/100
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|
+|-heal|p1a: Hawlucha|26/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|56/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Hawlucha|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|45/100
+|
+|switch|p1a: Eldegoss|Eldegoss, M|100/100|[from]move: U-turn
+|move|p2a: Seismitoad|Toxic|p1a: Eldegoss
+|-status|p1a: Eldegoss|tox
+|
+|-heal|p2a: Seismitoad|51/100|[from] item: Leftovers
+|-damage|p1a: Eldegoss|94/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|switch|p1a: Hawlucha|Hawlucha, M|26/100
+|-ability|p1a: Hawlucha|Mold Breaker
+|move|p2a: Seismitoad|Stealth Rock|p1a: Hawlucha
+|-sidestart|p1: damflame|move: Stealth Rock
+|
+|-heal|p1a: Hawlucha|32/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|57/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Hawlucha|Roost|p1a: Hawlucha
+|-heal|p1a: Hawlucha|82/100
+|-singleturn|p1a: Hawlucha|move: Roost
+|move|p2a: Seismitoad|Scald|p1a: Hawlucha
+|-damage|p1a: Hawlucha|50/100
+|
+|-heal|p1a: Hawlucha|56/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|63/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Hawlucha|Defog|p2a: Seismitoad
+|-unboost|p2a: Seismitoad|evasion|1
+|-sideend|p1: damflame|Stealth Rock|[from] move: Defog|[of] p1a: Hawlucha
+|move|p2a: Seismitoad|Scald|p1a: Hawlucha
+|-damage|p1a: Hawlucha|23/100
+|
+|-heal|p1a: Hawlucha|29/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|69/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Hawlucha|Roost|p1a: Hawlucha
+|-heal|p1a: Hawlucha|79/100
+|-singleturn|p1a: Hawlucha|move: Roost
+|move|p2a: Seismitoad|Scald|p1a: Hawlucha
+|-damage|p1a: Hawlucha|48/100
+|-status|p1a: Hawlucha|brn
+|
+|-heal|p1a: Hawlucha|54/100 brn|[from] item: Leftovers
+|-heal|p2a: Seismitoad|75/100|[from] item: Leftovers
+|-damage|p1a: Hawlucha|48/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|move|p1a: Hawlucha|Roost|p1a: Hawlucha
+|-heal|p1a: Hawlucha|98/100 brn
+|-singleturn|p1a: Hawlucha|move: Roost
+|move|p2a: Seismitoad|Stealth Rock|p1a: Hawlucha
+|-sidestart|p1: damflame|move: Stealth Rock
+|
+|-heal|p1a: Hawlucha|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Seismitoad|81/100|[from] item: Leftovers
+|-damage|p1a: Hawlucha|94/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p1a: Hawlucha|Defog|p2a: Seismitoad
+|-unboost|p2a: Seismitoad|evasion|1
+|-sideend|p1: damflame|Stealth Rock|[from] move: Defog|[of] p1a: Hawlucha
+|move|p2a: Seismitoad|Scald|p1a: Hawlucha
+|-damage|p1a: Hawlucha|62/100 brn
+|
+|-heal|p1a: Hawlucha|68/100 brn|[from] item: Leftovers
+|-heal|p2a: Seismitoad|87/100|[from] item: Leftovers
+|-damage|p1a: Hawlucha|62/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p1a: Hawlucha|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|82/100
+|l| Table Bleue
+|
+|switch|p1a: Eldegoss|Eldegoss, M|100/100 tox|[from]move: U-turn
+|move|p2a: Seismitoad|Scald|p1a: Eldegoss
+|-resisted|p1a: Eldegoss
+|-damage|p1a: Eldegoss|93/100 tox
+|
+|-heal|p2a: Seismitoad|88/100|[from] item: Leftovers
+|-heal|p1a: Eldegoss|99/100 tox|[from] item: Leftovers
+|-damage|p1a: Eldegoss|93/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|switch|p2a: Corviknight|Corviknight, F|30/100 slp
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Eldegoss|Leech Seed|p2a: Corviknight
+|-start|p2a: Corviknight|move: Leech Seed
+|
+|-heal|p2a: Corviknight|37/100 slp|[from] item: Leftovers
+|-heal|p1a: Eldegoss|99/100 tox|[from] item: Leftovers
+|-damage|p2a: Corviknight|24/100 slp|[from] Leech Seed|[of] p1a: Eldegoss
+|-heal|p1a: Eldegoss|100/100 tox|[silent]
+|-damage|p1a: Eldegoss|88/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|switch|p1a: Hawlucha|Hawlucha, M|62/100 brn
+|-ability|p1a: Hawlucha|Mold Breaker
+|cant|p2a: Corviknight|slp
+|
+|-heal|p1a: Hawlucha|68/100 brn|[from] item: Leftovers
+|-heal|p2a: Corviknight|30/100 slp|[from] item: Leftovers
+|-damage|p2a: Corviknight|18/100 slp|[from] Leech Seed|[of] p1a: Hawlucha
+|-heal|p1a: Hawlucha|81/100 brn|[silent]
+|-damage|p1a: Hawlucha|75/100 brn|[from] brn
+|upkeep
+|turn|41
+|n|+Kabilapok|kabilapok
+|
+|switch|p2a: Seismitoad|Seismitoad, M|88/100
+|move|p1a: Hawlucha|Close Combat|p2a: Seismitoad
+|-damage|p2a: Seismitoad|74/100
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|
+|-heal|p1a: Hawlucha|81/100 brn|[from] item: Leftovers
+|-heal|p2a: Seismitoad|80/100|[from] item: Leftovers
+|-damage|p1a: Hawlucha|75/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|move|p1a: Hawlucha|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|74/100
+|
+|switch|p1a: Eldegoss|Eldegoss, M|100/100 tox|[from]move: U-turn
+|move|p2a: Seismitoad|Scald|p1a: Eldegoss
+|-resisted|p1a: Eldegoss
+|-damage|p1a: Eldegoss|92/100 tox
+|
+|-heal|p2a: Seismitoad|80/100|[from] item: Leftovers
+|-heal|p1a: Eldegoss|98/100 tox|[from] item: Leftovers
+|-damage|p1a: Eldegoss|92/100 tox|[from] psn
+|upkeep
+|turn|43
+|
+|move|p2a: Seismitoad|Stealth Rock|p1a: Eldegoss
+|-sidestart|p1: damflame|move: Stealth Rock
+|move|p1a: Eldegoss|Giga Drain|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-heal|p1a: Eldegoss|100/100 tox|[from] drain|[of] p2a: Seismitoad
+|faint|p2a: Seismitoad
+|
+|-damage|p1a: Eldegoss|88/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|81/100
+|turn|44
+|
+|switch|p1a: Hawlucha|Hawlucha, M|75/100 brn
+|-damage|p1a: Hawlucha|63/100 brn|[from] Stealth Rock
+|-ability|p1a: Hawlucha|Mold Breaker
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|-heal|p1a: Hawlucha|69/100 brn|[from] item: Leftovers
+|-heal|p2a: Hydreigon|88/100|[from] item: Leftovers
+|-damage|p1a: Hawlucha|63/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|move|p1a: Hawlucha|Close Combat|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|42/100
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|move|p2a: Hydreigon|Flash Cannon|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|-heal|p2a: Hydreigon|48/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, F|39/100
+|-damage|p1a: Aegislash|33/100|[from] Stealth Rock
+|turn|46
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Sneak|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|38/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|-heal|p2a: Hydreigon|44/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, F|81/100
+|-damage|p1a: Toxapex|68/100|[from] Stealth Rock
+|turn|47
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Toxapex
+|-damage|p1a: Toxapex|6/100
+|move|p1a: Toxapex|Scald|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|35/100
+|
+|-heal|p2a: Hydreigon|41/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|12/100|[from] item: Black Sludge
+|upkeep
+|turn|48
+|c|☆damflame|gg
+|c|☆nassimmoule|gg
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-heal|p2a: Hydreigon|47/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Eldegoss|Eldegoss, M|100/100 tox
+|-damage|p1a: Eldegoss|88/100 tox|[from] Stealth Rock
+|turn|49
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Eldegoss
+|-damage|p1a: Eldegoss|30/100 tox
+|move|p1a: Eldegoss|Rapid Spin|p2a: Hydreigon
+|-damage|p2a: Hydreigon|41/100
+|-sideend|p1: damflame|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Eldegoss
+|-boost|p1a: Eldegoss|spe|1
+|
+|-heal|p2a: Hydreigon|47/100|[from] item: Leftovers
+|-heal|p1a: Eldegoss|37/100 tox|[from] item: Leftovers
+|-damage|p1a: Eldegoss|30/100 tox|[from] psn
+|upkeep
+|turn|50
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Eldegoss
+|-damage|p1a: Eldegoss|0 fnt
+|faint|p1a: Eldegoss
+|
+|win|nassimmoule

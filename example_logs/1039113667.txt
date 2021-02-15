@@ -1,0 +1,412 @@
+|ScrapeTime|2020-01-01-12:35:19
+|j|☆hjlgjfgkj
+|j|☆Le s3l
+|player|p1|hjlgjfgkj|190|1075
+|player|p2|Le s3l|acetrainerf|1112
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Clefable, M|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Hydreigon, M|
+|poke|p1|Excadrill, F|
+|poke|p2|Hawlucha, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Dugtrio, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Ferrothorn, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Le s3l)
+|
+|start
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|1
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|76/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Cinderace|U-turn|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|
+|switch|p1a: Clefable|Clefable, M|100/100|[from]move: U-turn
+|move|p2a: Hydreigon|Dark Pulse|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|74/100
+|-damage|p2a: Hydreigon|66/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|3/100
+|-damage|p2a: Hydreigon|56/100|[from] item: Life Orb
+|move|p1a: Clefable|Moonblast|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|turn|4
+|
+|move|p2a: Hawlucha|U-turn|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|5
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|83/100
+|-status|p2a: Toxapex|brn
+|
+|-heal|p2a: Toxapex|89/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|83/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Cinderace|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|76/100 brn
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100|[from]move: U-turn
+|move|p2a: Toxapex|Scald|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|91/100
+|-status|p1a: Hydreigon|brn
+|
+|-heal|p2a: Toxapex|83/100 brn|[from] item: Black Sludge
+|-damage|p1a: Hydreigon|85/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Hydreigon|Draco Meteor|p2a: Tyranitar
+|-damage|p2a: Tyranitar|73/100
+|-unboost|p1a: Hydreigon|spa|2
+|-damage|p1a: Hydreigon|75/100 brn|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|69/100 brn|[from] Sandstorm
+|-damage|p1a: Hydreigon|63/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Tyranitar|Fire Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|29/100
+|-damage|p2a: Tyranitar|60/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Tyranitar|44/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|move|p2a: Tyranitar|Fire Punch|p1a: Corsola
+|-damage|p1a: Corsola|80/100
+|-start|p2a: Tyranitar|Disable|Fire Punch|[from] ability: Cursed Body|[of] p1a: Corsola
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|74/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Corsola|Strength Sap|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|94/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|move|p1a: Corsola|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Knock Off|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|84/100
+|-start|p2a: Ferrothorn|Disable|Knock Off|[from] ability: Cursed Body|[of] p1a: Corsola
+|-enditem|p1a: Corsola|Eviolite|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-weather|none
+|-damage|p2a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Corsola|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Le s3l|move: Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Corsola
+|-start|p1a: Corsola|move: Leech Seed
+|
+|-damage|p1a: Corsola|71/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100 brn|[silent]
+|-damage|p2a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|29/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: hjlgjfgkj|move: Stealth Rock
+|
+|-damage|p2a: Ferrothorn|88/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Le s3l|Spikes
+|
+|-damage|p2a: Ferrothorn|82/100 brn|[from] brn
+|-end|p2a: Ferrothorn|Disable
+|upkeep
+|turn|15
+|
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Le s3l|Spikes
+|move|p2a: Ferrothorn|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|24/100
+|-damage|p2a: Ferrothorn|69/100 brn|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Ferrothorn|53/100 brn|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Rocky Helmet|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-damage|p2a: Ferrothorn|47/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p2a: Tyranitar|Tyranitar, M|44/100
+|-damage|p2a: Tyranitar|31/100|[from] Stealth Rock
+|-damage|p2a: Tyranitar|15/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Ferrothorn|Spikes|p2a: Tyranitar
+|-sidestart|p2: Le s3l|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p2a: Tyranitar|Fire Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Tyranitar|3/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|18
+|
+|move|p1a: Cinderace|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|switch|p1a: Corsola|Corsola-Galar, M|71/100|[from]move: U-turn
+|-damage|p1a: Corsola|59/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|53/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100 brn
+|-damage|p2a: Toxapex|88/100 brn|[from] Stealth Rock
+|-damage|p2a: Toxapex|63/100 brn|[from] Spikes
+|turn|19
+|
+|move|p1a: Corsola|Strength Sap|p2a: Toxapex
+|-unboost|p2a: Toxapex|atk|1
+|-heal|p1a: Corsola|93/100
+|move|p2a: Toxapex|Toxic|p1a: Corsola
+|-status|p1a: Corsola|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|87/100 tox|[from] Sandstorm
+|-damage|p2a: Toxapex|57/100 brn|[from] Sandstorm
+|-heal|p2a: Toxapex|63/100 brn|[from] item: Black Sludge
+|-damage|p1a: Corsola|81/100 tox|[from] psn
+|-damage|p2a: Toxapex|57/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p1a: Hydreigon|Hydreigon, M|63/100 brn
+|-damage|p1a: Hydreigon|50/100 brn|[from] Stealth Rock
+|move|p2a: Toxapex|Scald|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|41/100 brn
+|
+|-weather|none
+|-heal|p2a: Toxapex|63/100 brn|[from] item: Black Sludge
+|-damage|p1a: Hydreigon|35/100 brn|[from] brn
+|-damage|p2a: Toxapex|57/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|47/100 brn
+|-damage|p2a: Ferrothorn|40/100 brn|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|15/100 brn|[from] Spikes
+|move|p1a: Hydreigon|Dark Pulse|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Hydreigon|25/100 brn|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|-damage|p1a: Hydreigon|19/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|-damage|p2a: Hawlucha|88/100|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: Hawlucha|U-turn|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|switch|p2a: Toxapex|Toxapex, M|90/100 brn|[from]move: U-turn
+|-damage|p2a: Toxapex|65/100 brn|[from] Spikes
+|-damage|p2a: Toxapex|52/100 brn|[from] Stealth Rock
+|
+|-heal|p2a: Toxapex|59/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|52/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|23
+|
+|move|p1a: Cinderace|Zen Headbutt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|24/100 brn
+|move|p2a: Toxapex|Toxic|p1a: Cinderace
+|-status|p1a: Cinderace|tox
+|
+|-heal|p2a: Toxapex|30/100 brn|[from] item: Black Sludge
+|-damage|p1a: Cinderace|95/100 tox|[from] psn
+|-damage|p2a: Toxapex|24/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p1a: Cinderace|Zen Headbutt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-damage|p1a: Cinderace|83/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|-damage|p2a: Dugtrio|75/100|[from] Spikes
+|-damage|p2a: Dugtrio|69/100|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, M|81/100 tox
+|-damage|p1a: Corsola|69/100 tox|[from] Stealth Rock
+|turn|26
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Corsola
+|-damage|p1a: Corsola|19/100 tox
+|-start|p2a: Dugtrio|Disable|Earthquake|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Strength Sap|p2a: Dugtrio
+|-unboost|p2a: Dugtrio|atk|1
+|-heal|p1a: Corsola|100/100 tox
+|
+|-damage|p1a: Corsola|94/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|switch|p2a: Hawlucha|Hawlucha, F|88/100
+|-damage|p2a: Hawlucha|76/100|[from] Stealth Rock
+|move|p1a: Corsola|Will-O-Wisp|p2a: Hawlucha
+|-status|p2a: Hawlucha|brn
+|
+|-damage|p2a: Hawlucha|70/100 brn|[from] brn
+|-damage|p1a: Corsola|82/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Corsola|Strength Sap|p2a: Hawlucha
+|-unboost|p2a: Hawlucha|atk|1
+|-heal|p1a: Corsola|100/100 tox
+|
+|-damage|p2a: Hawlucha|63/100 brn|[from] brn
+|-damage|p1a: Corsola|82/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Corsola|Night Shade|p2a: Hawlucha
+|-damage|p2a: Hawlucha|30/100 brn
+|-enditem|p2a: Hawlucha|Sitrus Berry|[eat]
+|-heal|p2a: Hawlucha|55/100 brn|[from] item: Sitrus Berry
+|
+|-damage|p2a: Hawlucha|49/100 brn|[from] brn
+|-damage|p1a: Corsola|57/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|-damage|p2a: Hawlucha|43/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|31
+|
+|move|p2a: Hawlucha|Close Combat|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|faint|p1a: Excadrill
+|
+|win|Le s3l
+|raw|hjlgjfgkj's rating: 1105 → 1081(-24 for losing)
+|raw|Le s3l's rating: 1113 → 1137(+24 for winning)

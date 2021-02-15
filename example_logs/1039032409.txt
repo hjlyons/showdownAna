@@ -1,0 +1,270 @@
+|ScrapeTime|2020-01-01-06:15:06
+|j|☆AceTrainerGabriel
+|j|☆SandGetsEverywhere
+|player|p1|AceTrainerGabriel|acetrainer-gen3|1234
+|player|p2|SandGetsEverywhere|riley|1261
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Excadrill, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Togekiss, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Dragapult, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Dracovish|
+|poke|p2|Barraskewda, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Mantine, F|
+|poke|p2|Ferrothorn, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|1
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Togekiss|Dazzling Gleam|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|89/100
+|
+|-heal|p2a: Ferrothorn|95/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Dragapult
+|-damage|p1a: Dragapult|33/100
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Dragapult|U-turn|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|94/100
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pelipper|88/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|94/100|[from] Sandstorm
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|89/100
+|-enditem|p1a: Togekiss|Choice Scarf|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Togekiss|82/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|move|p1a: Togekiss|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|6/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|12/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|33/100
+|turn|7
+|
+|move|p1a: Dragapult|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Dragapult|21/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|switch|p1a: Excadrill|Excadrill, M, shiny|100/100|[from]move: U-turn
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, M|100/100
+|turn|8
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|move|p2a: Barraskewda|Liquidation|p1a: Corsola
+|-damage|p1a: Corsola|62/100
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Pelipper|Pelipper, M|88/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Corsola|Strength Sap|p2a: Pelipper
+|-unboost|p2a: Pelipper|atk|1
+|-heal|p1a: Corsola|99/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Pelipper|Hurricane|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pelipper|81/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|99/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Pelipper|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|80/100
+|move|p1a: Tyranitar|Thunder Wave|p2a: Pelipper
+|-status|p2a: Pelipper|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pelipper|75/100 par|[from] Sandstorm
+|-heal|p1a: Tyranitar|86/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Excadrill|Excadrill, M, shiny|100/100
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p1a: Excadrill|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-enditem|p2a: Excadrill|Focus Sash
+|-damage|p2a: Excadrill|1/100
+|-damage|p1a: Excadrill|91/100|[from] item: Life Orb
+|move|p2a: Excadrill|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|21/100
+|turn|14
+|
+|switch|p2a: Pelipper|Pelipper, M|75/100 par
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Dragapult|U-turn|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|69/100 par
+|
+|switch|p1a: Tyranitar|Tyranitar, M|86/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pelipper|63/100 par|[from] Sandstorm
+|-heal|p1a: Tyranitar|93/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Tyranitar|Crunch|p2a: Pelipper
+|-damage|p2a: Pelipper|36/100 par
+|cant|p2a: Pelipper|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pelipper|30/100 par|[from] Sandstorm
+|-heal|p1a: Tyranitar|99/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Tyranitar|Crunch|p2a: Pelipper
+|-damage|p2a: Pelipper|1/100 par
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|51/100 par
+|-singleturn|p2a: Pelipper|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pelipper|45/100 par|[from] Sandstorm
+|-heal|p1a: Tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Tyranitar|Crunch|p2a: Pelipper
+|-crit|p2a: Pelipper
+|-damage|p2a: Pelipper|4/100 par
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|54/100 par
+|-singleturn|p2a: Pelipper|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pelipper|47/100 par|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|move|p1a: Tyranitar|Crunch|p2a: Pelipper
+|-damage|p2a: Pelipper|20/100 par
+|cant|p2a: Pelipper|par
+|
+|-weather|none
+|upkeep
+|turn|19
+|
+|switch|p2a: Excadrill|Excadrill, M|1/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Tyranitar|Crunch|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Pelipper|Pelipper, M|20/100 par
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|20
+|
+|switch|p1a: Corsola|Corsola-Galar, M|99/100
+|switch|p2a: Dracovish|Dracovish|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|AceTrainerGabriel forfeited.
+|
+|win|SandGetsEverywhere
+|l|☆AceTrainerGabriel
+|raw|AceTrainerGabriel's rating: 1234 → 1211(-23 for losing)
+|raw|SandGetsEverywhere's rating: 1261 → 1284(+23 for winning)

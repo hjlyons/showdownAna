@@ -1,0 +1,342 @@
+|ScrapeTime|2020-01-01-17:54:42
+|j|☆Airorah
+|j|☆Spyros007
+|player|p1|Airorah|whitney|1308
+|player|p2|Spyros007|2|1307
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Bisharp, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Dragapult, F|
+|poke|p2|Sirfetch'd, M|
+|poke|p2|Dracovish|
+|poke|p2|Rotom-Heat|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Obstagoon, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|1
+|
+|move|p1a: Cinderace|U-turn|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|78/100
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100|[from]move: U-turn
+|move|p2a: Rotom|Thunderbolt|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|53/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|91/100
+|-heal|p1a: Conkeldurr|57/100|[from] drain|[of] p2a: Weezing
+|
+|-heal|p2a: Weezing|97/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Weezing|Strange Steam|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|87/100
+|-start|p1a: Corviknight|confusion
+|
+|-heal|p2a: Weezing|100/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|switch|p2a: Rotom|Rotom-Heat|78/100
+|-activate|p1a: Corviknight|confusion
+|move|p1a: Corviknight|Light Screen|p1a: Corviknight
+|-sidestart|p1: Airorah|move: Light Screen
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Rotom|Volt Switch|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|44/100
+|
+|switch|p2a: Weezing|Weezing-Galar, F|100/100|[from]move: Volt Switch
+|-activate|p1a: Corviknight|confusion
+|move|p1a: Corviknight|Reflect|p1a: Corviknight
+|-sidestart|p1: Airorah|Reflect
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Weezing|Defog|p1a: Cinderace
+|-unboost|p1a: Cinderace|evasion|1
+|-sideend|p1: Airorah|Reflect
+|-sideend|p1: Airorah|move: Light Screen
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Weezing
+|-damage|p2a: Weezing|39/100
+|move|p2a: Weezing|Strange Steam|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|81/100
+|
+|-heal|p2a: Weezing|45/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|switch|p2a: Rotom|Rotom-Heat|78/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|18/100
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|10
+|
+|switch|p1a: Corviknight|Corviknight, M|44/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|57/100
+|turn|11
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Dracovish
+|-damage|p2a: Dracovish|67/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|6/100
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Weezing|Weezing-Galar, F|45/100
+|move|p1a: Conkeldurr|Mach Punch|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|40/100
+|
+|-heal|p2a: Weezing|46/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Weezing|Strange Steam|p1a: Hatterene
+|-damage|p1a: Hatterene|70/100
+|
+|-heal|p2a: Weezing|52/100|[from] item: Black Sludge
+|-heal|p1a: Hatterene|76/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-heal|p1a: Hatterene|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|46/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|52/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Ferrothorn|Power Whip|p1a: Hatterene|[miss]
+|-miss|p2a: Ferrothorn|p1a: Hatterene
+|move|p1a: Hatterene|Psychic|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|73/100
+|
+|-heal|p2a: Ferrothorn|79/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|58/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Ferrothorn|Power Whip|p1a: Hatterene
+|-damage|p1a: Hatterene|17/100
+|move|p1a: Hatterene|Psychic|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|53/100
+|
+|-heal|p2a: Ferrothorn|59/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|23/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Cinderace|Cinderace, M|81/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-crit|p1a: Cinderace
+|-damage|p1a: Cinderace|28/100
+|
+|-heal|p2a: Ferrothorn|66/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|19
+|
+|switch|p2a: Weezing|Weezing-Galar, F|52/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|67/100
+|turn|20
+|
+|switch|p1a: Hatterene|Hatterene, F|23/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Hatterene
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|turn|21
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Dracovish
+|-damage|p2a: Dracovish|19/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Bisharp
+|-damage|p1a: Bisharp|47/100
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|66/100
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|
+|-heal|p2a: Ferrothorn|72/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Bisharp|34/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Obstagoon|Obstagoon, F|100/100
+|turn|24
+|
+|move|p2a: Obstagoon|Obstruct|p2a: Obstagoon
+|-singleturn|p2a: Obstagoon|Protect
+|move|p1a: Bisharp|Sucker Punch||[still]
+|-fail|p1a: Bisharp
+|
+|-status|p2a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|25
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Obstagoon
+|-resisted|p2a: Obstagoon
+|-damage|p2a: Obstagoon|56/100 brn
+|move|p2a: Obstagoon|Fire Punch|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|-damage|p2a: Obstagoon|49/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|26
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Obstagoon
+|-damage|p2a: Obstagoon|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Obstagoon
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|19/100
+|turn|27
+|
+|switch|p1a: Cinderace|Cinderace, M|28/100
+|move|p2a: Dracovish|Dragon Rush|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|6/100
+|turn|28
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Dracovish
+|-crit|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|upkeep
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, M|100/100
+|turn|29
+|
+|move|p2a: Sirfetch'd|Poison Jab|p1a: Conkeldurr
+|-crit|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|30
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Sirfetch'd
+|-damage|p2a: Sirfetch'd|2/100
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: Sirfetch'd|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|3/100
+|-enditem|p1a: Dragapult|Choice Specs|[from] move: Knock Off|[of] p2a: Sirfetch'd
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Sirfetch'd
+|-damage|p2a: Sirfetch'd|0 fnt
+|faint|p2a: Sirfetch'd
+|
+|win|Airorah
+|raw|Airorah's rating: 1308 → 1328(+20 for winning)
+|raw|Spyros007's rating: 1308 → 1288(-20 for losing)

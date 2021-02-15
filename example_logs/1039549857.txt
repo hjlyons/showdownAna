@@ -1,0 +1,417 @@
+|ScrapeTime|2020-01-02-07:15:11
+|j|☆snooPINGASusalisee
+|j|☆samakins123
+|player|p1|snooPINGASusalisee|lance-gen1rb|1084
+|player|p2|samakins123|50|1122
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gothitelle, M|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Durant, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Garbodor, F|
+|poke|p1|Sigilyph, M|
+|poke|p2|Snorlax, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Hawlucha, F|
+|poke|p2|Ditto|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by samakins123)
+|
+|start
+|switch|p1a: Fortnite|Conkeldurr, F|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Fortnite
+|move|p1a: Fortnite|Ice Punch|p2a: Dragapult|[miss]
+|-miss|p1a: Fortnite|p2a: Dragapult
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Fortnite|[from]lockedmove
+|-damage|p1a: Fortnite|43/100
+|move|p1a: Fortnite|Ice Punch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Fortnite|49/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|turn|3
+|
+|move|p2a: Hawlucha|Brave Bird|p1a: Fortnite
+|-supereffective|p1a: Fortnite
+|-damage|p1a: Fortnite|0 fnt
+|-damage|p2a: Hawlucha|80/100|[from] Recoil
+|faint|p1a: Fortnite
+|
+|upkeep
+|
+|switch|p1a: Mlg|Durant, M|100/100
+|turn|4
+|
+|move|p1a: Mlg|Stone Edge|p2a: Hawlucha|[miss]
+|-miss|p1a: Mlg|p2a: Hawlucha
+|move|p2a: Hawlucha|Brave Bird|p1a: Mlg
+|-damage|p1a: Mlg|35/100
+|-damage|p2a: Hawlucha|64/100|[from] Recoil
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Mlg|Stone Edge|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|6
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Excadrill|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: snooPINGASusalisee|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|move|p1a: Mandibuzz|Substitute|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|Substitute
+|-damage|p1a: Mandibuzz|76/100
+|
+|-heal|p1a: Mandibuzz|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Snorlax
+|-damage|p2a: Snorlax|68/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p1a: Mandibuzz|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Snorlax
+|-damage|p2a: Snorlax|38/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p1a: Mandibuzz|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Snorlax
+|-damage|p2a: Snorlax|8/100
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|100/100 slp|[silent]
+|-enditem|p2a: Snorlax|Chesto Berry|[eat]
+|-curestatus|p2a: Snorlax|slp|[msg]
+|
+|-heal|p1a: Mandibuzz|99/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Snorlax
+|-damage|p2a: Snorlax|68/100
+|move|p2a: Snorlax|Body Slam|p1a: Mandibuzz
+|-end|p1a: Mandibuzz|Substitute
+|
+|-heal|p1a: Mandibuzz|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Snorlax
+|-damage|p2a: Snorlax|37/100
+|move|p2a: Snorlax|Body Slam|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|51/100
+|-ability|p1a: Mandibuzz|Weak Armor|boost
+|-unboost|p1a: Mandibuzz|def|1
+|-boost|p1a: Mandibuzz|spe|2
+|
+|-heal|p1a: Mandibuzz|57/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Snorlax
+|-damage|p2a: Snorlax|4/100
+|move|p2a: Snorlax|Body Slam|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|switch|p1a: Irish Guacamole|Garbodor, F|100/100
+|-damage|p1a: Irish Guacamole|88/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Irish Guacamole|Drain Punch|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|-heal|p1a: Irish Guacamole|91/100|[from] drain|[of] p2a: Snorlax
+|faint|p2a: Snorlax
+|
+|-heal|p1a: Irish Guacamole|97/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|15
+|
+|move|p2a: Excadrill|Iron Head|p1a: Irish Guacamole
+|-damage|p1a: Irish Guacamole|55/100
+|cant|p1a: Irish Guacamole|flinch
+|
+|-heal|p1a: Irish Guacamole|62/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p2a: Excadrill|Earthquake|p1a: Irish Guacamole
+|-supereffective|p1a: Irish Guacamole
+|-damage|p1a: Irish Guacamole|0 fnt
+|faint|p1a: Irish Guacamole
+|
+|upkeep
+|
+|switch|p1a: Ok|Gothitelle, M|100/100
+|-damage|p1a: Ok|88/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Excadrill|Earthquake|p1a: Ok
+|-damage|p1a: Ok|41/100
+|move|p1a: Ok|Psyshock|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|67/100
+|-damage|p1a: Ok|31/100|[from] item: Life Orb
+|
+|-heal|p2a: Excadrill|74/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Excadrill|Earthquake|p1a: Ok
+|-damage|p1a: Ok|0 fnt
+|faint|p1a: Ok
+|
+|-heal|p2a: Excadrill|80/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: E|Sigilyph, M|100/100
+|turn|19
+|
+|move|p1a: E|Cosmic Power|p1a: E
+|-boost|p1a: E|def|1
+|-boost|p1a: E|spd|1
+|move|p2a: Excadrill|Iron Head|p1a: E
+|-damage|p1a: E|66/100
+|
+|-heal|p1a: E|72/100|[from] item: Leftovers
+|-heal|p2a: Excadrill|86/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: E|Cosmic Power|p1a: E
+|-boost|p1a: E|def|1
+|-boost|p1a: E|spd|1
+|move|p2a: Excadrill|Iron Head|p1a: E
+|-damage|p1a: E|49/100
+|
+|-heal|p1a: E|55/100|[from] item: Leftovers
+|-heal|p2a: Excadrill|92/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: E|Roost|p1a: E
+|-heal|p1a: E|100/100
+|-singleturn|p1a: E|move: Roost
+|move|p2a: Excadrill|Iron Head|p1a: E
+|-crit|p1a: E
+|-damage|p1a: E|23/100
+|
+|-heal|p1a: E|29/100|[from] item: Leftovers
+|-heal|p2a: Excadrill|98/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: E|Roost|p1a: E
+|-heal|p1a: E|79/100
+|-singleturn|p1a: E|move: Roost
+|move|p2a: Excadrill|Iron Head|p1a: E
+|-damage|p1a: E|54/100
+|
+|-heal|p1a: E|60/100|[from] item: Leftovers
+|-heal|p2a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: E|[from] ability: Imposter
+|move|p1a: E|Stored Power|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|88/100
+|
+|-heal|p1a: E|66/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Ditto|Stored Power|p1a: E
+|-resisted|p1a: E
+|-damage|p1a: E|56/100
+|move|p1a: E|Roost|p1a: E
+|-heal|p1a: E|100/100
+|-singleturn|p1a: E|move: Roost
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Ditto|Stored Power|p1a: E
+|-resisted|p1a: E
+|-damage|p1a: E|90/100
+|move|p1a: E|Cosmic Power|p1a: E
+|-boost|p1a: E|def|1
+|-boost|p1a: E|spd|1
+|
+|-heal|p1a: E|96/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: E|Air Slash|p2a: Toxapex
+|-damage|p2a: Toxapex|77/100
+|
+|-heal|p1a: E|100/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: E|Stored Power|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|28
+|
+|move|p1a: E|Stored Power|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|67/100
+|move|p2a: Excadrill|Iron Head|p1a: E
+|-damage|p1a: E|80/100
+|
+|-heal|p1a: E|86/100|[from] item: Leftovers
+|-heal|p2a: Excadrill|73/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: E|Air Slash|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|57/100
+|move|p2a: Excadrill|Iron Head|p1a: E
+|-damage|p1a: E|67/100
+|
+|-heal|p1a: E|73/100|[from] item: Leftovers
+|-heal|p2a: Excadrill|63/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: E|Stored Power|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|32/100
+|move|p2a: Excadrill|Iron Head|p1a: E
+|-damage|p1a: E|55/100
+|
+|-heal|p1a: E|61/100|[from] item: Leftovers
+|-heal|p2a: Excadrill|38/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: E|Stored Power|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|4/100
+|move|p2a: Excadrill|Iron Head|p1a: E
+|-damage|p1a: E|40/100
+|
+|-heal|p1a: E|46/100|[from] item: Leftovers
+|-heal|p2a: Excadrill|11/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: E|Roost|p1a: E
+|-heal|p1a: E|96/100
+|-singleturn|p1a: E|move: Roost
+|move|p2a: Excadrill|Iron Head|p1a: E
+|-damage|p1a: E|76/100
+|
+|-heal|p1a: E|82/100|[from] item: Leftovers
+|-heal|p2a: Excadrill|17/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|snooPINGASusalisee has 120 seconds left.
+|
+|move|p1a: E|Stored Power|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-heal|p1a: E|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|88/100
+|-transform|p2a: Ditto|p1a: E|[from] ability: Imposter
+|turn|34
+|
+|move|p2a: Ditto|Stored Power|p1a: E
+|-resisted|p1a: E
+|-damage|p1a: E|76/100
+|move|p1a: E|Cosmic Power|p1a: E
+|-boost|p1a: E|def|1
+|-boost|p1a: E|spd|1
+|
+|-heal|p1a: E|82/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Ditto|Stored Power|p1a: E
+|-resisted|p1a: E
+|-damage|p1a: E|72/100
+|move|p1a: E|Stored Power|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|72/100
+|
+|-heal|p1a: E|78/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|-message|samakins123 forfeited.
+|
+|win|snooPINGASusalisee
+|l|☆samakins123
+|raw|snooPINGASusalisee's rating: 1084 → 1115(+31 for winning)
+|raw|samakins123's rating: 1122 → 1094(-28 for losing)

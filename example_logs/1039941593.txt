@@ -1,0 +1,389 @@
+|ScrapeTime|2020-01-03-00:05:41
+|j|☆yupiyuuuu 3
+|j|☆Oyasuminasan-zura
+|player|p1|yupiyuuuu 3|266|
+|player|p2|Oyasuminasan-zura|caitlin|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aegislash, M|
+|poke|p1|Hydreigon, M|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Barraskewda, F|
+|poke|p1|Cursola, M|
+|poke|p1|Corviknight, F|
+|poke|p2|Dubwool, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Stunfisk-Galar, M|
+|poke|p2|Gyarados, M|
+|poke|p2|Toxtricity, F|
+|poke|p2|Gardevoir, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|switch|p2a: Gardevoir|Gardevoir, F|100/100
+|-ability|p2a: Gardevoir|Levitate|[from] ability: Trace|[of] p1a: Hydreigon
+|turn|1
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Hydreigon|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|66/100
+|
+|switch|p1a: conkelburro|Conkeldurr, M|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: conkelburro|94/100|[from] Sandstorm
+|-status|p1a: conkelburro|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: conkelburro|atk|1
+|move|p1a: conkelburro|Drain Punch|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|73/100
+|-heal|p1a: conkelburro|100/100 brn|[from] drain|[of] p2a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|67/100|[from] Sandstorm
+|-damage|p1a: conkelburro|94/100 brn|[from] Sandstorm
+|-damage|p1a: conkelburro|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|j| MatyCyndaPoke
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|move|p1a: conkelburro|Stone Edge|p2a: Toxtricity
+|-damage|p2a: Toxtricity|35/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxtricity|29/100|[from] Sandstorm
+|-damage|p1a: conkelburro|82/100 brn|[from] Sandstorm
+|-damage|p1a: conkelburro|76/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Toxtricity|Overdrive|p1a: conkelburro
+|-crit|p1a: conkelburro
+|-damage|p1a: conkelburro|0 fnt
+|-enditem|p2a: Toxtricity|Throat Spray
+|-boost|p2a: Toxtricity|spa|1
+|faint|p1a: conkelburro
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxtricity|23/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|turn|5
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Dubwool|Dubwool, M|100/100
+|turn|6
+|
+|move|p1a: Hydreigon|Fire Blast|p2a: Dubwool
+|-damage|p2a: Dubwool|45/100
+|move|p2a: Dubwool|Cotton Guard|p2a: Dubwool
+|-boost|p2a: Dubwool|def|3
+|
+|-heal|p2a: Dubwool|51/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Gyarados|Gyarados, M|67/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Hydreigon|atk|1
+|move|p1a: Hydreigon|Fire Blast|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|48/100
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Gyarados
+|-damage|p2a: Gyarados|8/100
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|move|p2a: Gyarados|Waterfall|p1a: Aegislash
+|-damage|p1a: Aegislash|49/100
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Stunfisk|Stunfisk-Galar, M|100/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Sneak|p2a: Stunfisk
+|-damage|p2a: Stunfisk|83/100
+|
+|-heal|p2a: Stunfisk|90/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|move|p2a: Stunfisk|Curse|p2a: Stunfisk
+|-unboost|p2a: Stunfisk|spe|1
+|-boost|p2a: Stunfisk|atk|1
+|-boost|p2a: Stunfisk|def|1
+|
+|-heal|p2a: Stunfisk|96/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Corviknight|Body Press|p2a: Stunfisk
+|-supereffective|p2a: Stunfisk
+|-damage|p2a: Stunfisk|74/100
+|move|p2a: Stunfisk|Curse|p2a: Stunfisk
+|-unboost|p2a: Stunfisk|spe|1
+|-boost|p2a: Stunfisk|atk|1
+|-boost|p2a: Stunfisk|def|1
+|
+|-heal|p2a: Stunfisk|81/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Corviknight|U-turn|p2a: Stunfisk
+|-resisted|p2a: Stunfisk
+|-damage|p2a: Stunfisk|79/100
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100|[from]move: U-turn
+|move|p2a: Stunfisk|Curse|p2a: Stunfisk
+|-unboost|p2a: Stunfisk|spe|1
+|-boost|p2a: Stunfisk|atk|1
+|-boost|p2a: Stunfisk|def|1
+|
+|-heal|p2a: Stunfisk|85/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Tyranitar|Tyranitar, M|66/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Hydreigon|Fire Blast|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|94/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|move|p1a: Hydreigon|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|22/100
+|-enditem|p2a: Tyranitar|Figy Berry|[eat]
+|-heal|p2a: Tyranitar|55/100|[from] item: Figy Berry
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100|[from]move: U-turn
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p2a: Tyranitar|Fire Blast|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|53/100
+|move|p1a: Corviknight|Body Press|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Corviknight|59/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gardevoir|Gardevoir, F|100/100
+|-ability|p2a: Gardevoir|Mirror Armor|[from] ability: Trace|[of] p1a: Corviknight
+|turn|17
+|
+|move|p2a: Gardevoir|Focus Blast|p1a: Corviknight
+|-damage|p1a: Corviknight|4/100
+|move|p1a: Corviknight|U-turn|p2a: Gardevoir
+|-damage|p2a: Gardevoir|74/100
+|l| MatyCyndaPoke
+|
+|switch|p1a: Barraskewda|Barraskewda, F|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Barraskewda|94/100|[from] Sandstorm
+|-damage|p2a: Gardevoir|68/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|switch|p2a: Gyarados|Gyarados, M|8/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Barraskewda|atk|1
+|move|p1a: Barraskewda|Liquidation|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Dubwool|Dubwool, M|51/100
+|turn|19
+|
+|switch|p1a: Hydreigon|Hydreigon, M|94/100
+|move|p2a: Dubwool|Thunder Wave|p1a: Hydreigon|[miss]
+|-miss|p2a: Dubwool|p1a: Hydreigon
+|
+|-heal|p2a: Dubwool|57/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Gardevoir|Gardevoir, F|68/100
+|-ability|p2a: Gardevoir|Levitate|[from] ability: Trace|[of] p1a: Hydreigon
+|move|p1a: Hydreigon|Fire Blast|p2a: Gardevoir
+|-damage|p2a: Gardevoir|30/100
+|
+|upkeep
+|turn|21
+|
+|switch|p1a: Corviknight|Corviknight, F|4/100
+|move|p2a: Gardevoir|Moonblast|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Cursola|Cursola, M|100/100
+|turn|22
+|
+|switch|p2a: Stunfisk|Stunfisk-Galar, M|85/100
+|move|p1a: Cursola|Earth Power|p2a: Stunfisk
+|-supereffective|p2a: Stunfisk
+|-damage|p2a: Stunfisk|20/100
+|
+|-heal|p2a: Stunfisk|26/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p1a: Hydreigon|Hydreigon, M|94/100
+|move|p2a: Stunfisk|Pain Split|p1a: Hydreigon
+|-sethp|p1a: Hydreigon|64/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Stunfisk|49/100|[from] move: Pain Split
+|
+|-heal|p2a: Stunfisk|55/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Hydreigon|Fire Blast|p2a: Stunfisk
+|-supereffective|p2a: Stunfisk
+|-damage|p2a: Stunfisk|0 fnt
+|faint|p2a: Stunfisk
+|
+|upkeep
+|
+|switch|p2a: Gardevoir|Gardevoir, F|30/100
+|-ability|p2a: Gardevoir|Levitate|[from] ability: Trace|[of] p1a: Hydreigon
+|turn|25
+|
+|switch|p1a: Cursola|Cursola, M|100/100
+|move|p2a: Gardevoir|Shadow Ball|p1a: Cursola
+|-supereffective|p1a: Cursola
+|-damage|p1a: Cursola|56/100
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Gardevoir|Shadow Ball|p1a: Cursola
+|-supereffective|p1a: Cursola
+|-damage|p1a: Cursola|12/100
+|-unboost|p1a: Cursola|spd|1
+|move|p1a: Cursola|Giga Drain|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|-heal|p1a: Cursola|25/100|[from] drain|[of] p2a: Gardevoir
+|faint|p2a: Gardevoir
+|
+|upkeep
+|
+|switch|p2a: Dubwool|Dubwool, M|57/100
+|turn|27
+|
+|move|p2a: Dubwool|Cotton Guard|p2a: Dubwool
+|-boost|p2a: Dubwool|def|3
+|move|p1a: Cursola|Earth Power|p2a: Dubwool
+|-damage|p2a: Dubwool|30/100
+|
+|-heal|p2a: Dubwool|36/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Dubwool|Wild Charge|p1a: Cursola
+|-damage|p1a: Cursola|0 fnt
+|-ability|p1a: Cursola|Perish Body
+|-start|p1a: Cursola|perish3
+|-start|p2a: Dubwool|perish3
+|-damage|p2a: Dubwool|30/100|[from] Recoil
+|faint|p1a: Cursola
+|
+|-heal|p2a: Dubwool|36/100|[from] item: Leftovers
+|-start|p2a: Dubwool|perish3
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, M|49/100
+|turn|29
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Dubwool|Thunder Wave|p1a: Aegislash
+|-status|p1a: Aegislash|par
+|
+|-heal|p2a: Dubwool|42/100|[from] item: Leftovers
+|-start|p2a: Dubwool|perish2
+|upkeep
+|turn|30
+|
+|move|p2a: Dubwool|Wild Charge|p1a: Aegislash
+|-damage|p1a: Aegislash|36/100 par
+|-damage|p2a: Dubwool|40/100|[from] Recoil
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|-heal|p2a: Dubwool|46/100|[from] item: Leftovers
+|-start|p2a: Dubwool|perish1
+|upkeep
+|turn|31
+|
+|move|p2a: Dubwool|Wild Charge|p1a: Aegislash
+|-damage|p1a: Aegislash|22/100 par
+|-damage|p2a: Dubwool|42/100|[from] Recoil
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|-heal|p2a: Dubwool|48/100|[from] item: Leftovers
+|-start|p2a: Dubwool|perish0
+|upkeep
+|faint|p2a: Dubwool
+|
+|win|yupiyuuuu 3
+|l|☆Oyasuminasan-zura

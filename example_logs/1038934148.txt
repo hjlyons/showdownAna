@@ -1,0 +1,164 @@
+|ScrapeTime|2020-01-01-01:09:02
+|j|☆Rumple4skinn
+|j|☆ballsmcbeaver
+|player|p1|Rumple4skinn|265|1348
+|player|p2|ballsmcbeaver|247|1339
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pincurchin, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Dracozolt|
+|poke|p1|Rotom-Heat|
+|poke|p1|Toxtricity, F|
+|poke|p1|Corviknight, F|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Clefable, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Seismitoad, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Pincurchin|Pincurchin, M|100/100
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|1
+|
+|move|p2a: Seismitoad|Stealth Rock|p1a: Pincurchin
+|-sidestart|p1: Rumple4skinn|move: Stealth Rock
+|move|p1a: Pincurchin|Spikes|p2a: Seismitoad
+|-sidestart|p2: ballsmcbeaver|Spikes
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Seismitoad|Toxic|p1a: Pincurchin
+|-status|p1a: Pincurchin|tox
+|move|p1a: Pincurchin|Toxic Spikes|p2a: Seismitoad
+|-sidestart|p2: ballsmcbeaver|move: Toxic Spikes
+|
+|-damage|p1a: Pincurchin|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Seismitoad|Toxic|p1a: Pincurchin
+|-fail|p1a: Pincurchin|tox
+|move|p1a: Pincurchin|Spikes|p2a: Seismitoad
+|-sidestart|p2: ballsmcbeaver|Spikes
+|
+|-damage|p1a: Pincurchin|82/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p2a: Seismitoad|Earthquake|p1a: Pincurchin
+|-supereffective|p1a: Pincurchin
+|-damage|p1a: Pincurchin|22/100 tox
+|move|p1a: Pincurchin|Toxic Spikes|p2a: Seismitoad
+|-sidestart|p2: ballsmcbeaver|move: Toxic Spikes
+|
+|-damage|p1a: Pincurchin|4/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p2a: Seismitoad|Earthquake|p1a: Pincurchin
+|-supereffective|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|faint|p1a: Pincurchin
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|6
+|
+|switch|p1a: Toxtricity|Toxtricity, F|100/100
+|-damage|p1a: Toxtricity|88/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Protect||[still]
+|-fail|p2a: Seismitoad
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Seismitoad
+|-damage|p2a: Seismitoad|4/100
+|move|p2a: Seismitoad|Earthquake|p1a: Toxtricity
+|-supereffective|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|-heal|p2a: Seismitoad|10/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|turn|8
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Rotom|Overheat|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-heal|p1a: Rotom|82/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|16/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|9
+|
+|move|p1a: Rotom|Overheat|p2a: Seismitoad|[miss]
+|-miss|p1a: Rotom|p2a: Seismitoad
+|move|p2a: Seismitoad|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-heal|p1a: Rotom|88/100 tox|[from] item: Leftovers
+|-heal|p2a: Seismitoad|22/100|[from] item: Leftovers
+|-damage|p1a: Rotom|82/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p1a: Dragapult|Dragapult, F|88/100
+|-damage|p1a: Dragapult|76/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Protect||[still]
+|-fail|p2a: Seismitoad
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|28/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Seismitoad|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|38/100
+|
+|-heal|p1a: Dragapult|44/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|34/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Seismitoad|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Seismitoad|40/100|[from] item: Leftovers
+|upkeep
+|-message|Rumple4skinn forfeited.
+|
+|win|ballsmcbeaver
+|l|☆Rumple4skinn

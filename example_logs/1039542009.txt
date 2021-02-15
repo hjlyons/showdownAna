@@ -1,0 +1,372 @@
+|ScrapeTime|2020-01-02-06:45:12
+|j|☆Ctrl G-Max
+|j|☆Richist
+|player|p1|Ctrl G-Max|188|1378
+|player|p2|Richist|waiter|1363
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Vanilluxe, M|
+|poke|p1|Barraskewda, F|
+|poke|p1|Rotom-Mow|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Lucario, F|
+|poke|p1|Mimikyu, F|
+|poke|p2|Bisharp, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Clefable, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Toxtricity, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ctrl G-Max)
+|
+|start
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|move|p2a: Dragapult|U-turn|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|66/100
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100|[from]move: U-turn
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|
+|-heal|p1a: Rotom|72/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Richist has 120 seconds left.
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|move|p1a: Rotom|Leaf Storm|p2a: Toxtricity|[miss]
+|-miss|p1a: Rotom|p2a: Toxtricity
+|
+|-heal|p1a: Rotom|78/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|Richist has 120 seconds left.
+|
+|move|p1a: Rotom|Volt Switch|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|64/100
+|
+|switch|p1a: Lucario|Lucario, F|100/100|[from]move: Volt Switch
+|move|p2a: Toxtricity|Boomburst|p1a: Lucario
+|-resisted|p1a: Lucario
+|-damage|p1a: Lucario|26/100
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Lucario|Psychic|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-crit|p2a: Excadrill
+|-damage|p2a: Excadrill|60/100
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Mandibuzz|Knock Off|p2a: Seismitoad
+|-damage|p2a: Seismitoad|82/100
+|-enditem|p2a: Seismitoad|Leftovers|[from] move: Knock Off|[of] p1a: Mandibuzz
+|move|p2a: Seismitoad|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: Ctrl G-Max|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|inactive|Ctrl G-Max has 120 seconds left.
+|
+|move|p1a: Mandibuzz|Defog|p2a: Seismitoad
+|-unboost|p2a: Seismitoad|evasion|1
+|-sideend|p1: Ctrl G-Max|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Seismitoad|Toxic|p1a: Mandibuzz
+|-status|p1a: Mandibuzz|tox
+|
+|-damage|p1a: Mandibuzz|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|move|p1a: Mandibuzz|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|73/100
+|
+|switch|p1a: Vanilluxe|Vanilluxe, M|100/100|[from]move: U-turn
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|move|p2a: Seismitoad|Stealth Rock|p1a: Vanilluxe
+|-sidestart|p1: Ctrl G-Max|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Seismitoad|67/100|[from] Hail
+|upkeep
+|turn|9
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|move|p1a: Vanilluxe|Freeze-Dry|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|74/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Bisharp|68/100|[from] Hail
+|-heal|p2a: Bisharp|74/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|Richist has 120 seconds left.
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|94/100 tox
+|-damage|p1a: Mandibuzz|70/100 tox|[from] Stealth Rock
+|move|p2a: Bisharp|Iron Head|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|43/100 tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Bisharp|68/100|[from] Hail
+|-heal|p2a: Bisharp|74/100|[from] item: Leftovers
+|-heal|p1a: Mandibuzz|49/100 tox|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|43/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|move|p2a: Bisharp|Substitute|p2a: Bisharp
+|-start|p2a: Bisharp|Substitute
+|-damage|p2a: Bisharp|50/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|93/100 tox
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Bisharp|44/100|[from] Hail
+|-heal|p2a: Bisharp|50/100|[from] item: Leftovers
+|-heal|p1a: Mandibuzz|99/100 tox|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|87/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|move|p1a: Mandibuzz|Defog|p2a: Bisharp
+|-sideend|p1: Ctrl G-Max|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|-weather|none
+|-heal|p2a: Bisharp|55/100|[from] item: Leftovers
+|-heal|p1a: Mandibuzz|93/100 tox|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|75/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p2a: Bisharp|Iron Head|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|27/100 tox
+|move|p1a: Mandibuzz|Knock Off|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-activate|p2a: Bisharp|move: Substitute|[damage]
+|
+|-heal|p2a: Bisharp|61/100|[from] item: Leftovers
+|-heal|p1a: Mandibuzz|33/100 tox|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|9/100 tox|[from] psn
+|upkeep
+|turn|14
+|inactive|Richist has 120 seconds left.
+|
+|move|p2a: Bisharp|Iron Head|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|-heal|p2a: Bisharp|67/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|turn|15
+|
+|move|p1a: Mimikyu|Shadow Claw|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-end|p2a: Bisharp|Substitute
+|move|p2a: Bisharp|Iron Head|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|-damage|p1a: Mimikyu|88/100|[from] ability: Disguise|[of] p1a: Mimikyu
+|-enditem|p1a: Mimikyu|Red Card|[of] p2a: Bisharp
+|drag|p2a: Clefable|Clefable, M|100/100
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Mimikyu|Play Rough|p2a: Clefable
+|-damage|p2a: Clefable|62/100
+|move|p2a: Clefable|Moonblast|p1a: Mimikyu
+|-damage|p1a: Mimikyu|19/100
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Mimikyu|Play Rough|p2a: Clefable
+|-damage|p2a: Clefable|23/100
+|move|p2a: Clefable|Moonblast|p1a: Mimikyu
+|-crit|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|upkeep
+|
+|switch|p1a: Vanilluxe|Vanilluxe, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|18
+|
+|move|p1a: Vanilluxe|Freeze-Dry|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, M|64/100
+|turn|19
+|
+|move|p1a: Vanilluxe|Freeze-Dry|p2a: Toxtricity
+|-crit|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|67/100
+|turn|20
+|
+|switch|p1a: Rotom|Rotom-Mow|78/100
+|move|p2a: Bisharp|Iron Head|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|55/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Rotom|49/100|[from] Hail
+|-damage|p2a: Bisharp|61/100|[from] Hail
+|-heal|p1a: Rotom|55/100|[from] item: Leftovers
+|-heal|p2a: Bisharp|67/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Rotom|Volt Switch|p2a: Bisharp
+|-damage|p2a: Bisharp|24/100
+|
+|switch|p1a: Barraskewda|Barraskewda, F|100/100|[from]move: Volt Switch
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Barraskewda|94/100|[from] Hail
+|-damage|p2a: Bisharp|18/100|[from] Hail
+|-heal|p2a: Bisharp|24/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Barraskewda|Aqua Jet|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|23
+|
+|move|p1a: Barraskewda|Aqua Jet|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|77/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Barraskewda|[miss]
+|-miss|p2a: Dragapult|p1a: Barraskewda
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Barraskewda|Aqua Jet|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|54/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Barraskewda
+|
+|upkeep
+|
+|switch|p1a: Vanilluxe|Vanilluxe, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|25
+|
+|switch|p2a: Seismitoad|Seismitoad, M|67/100
+|move|p1a: Vanilluxe|Freeze-Dry|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|60/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|26
+|
+|switch|p1a: Rotom|Rotom-Mow|55/100
+|move|p2a: Excadrill|Iron Head|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|34/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Excadrill|53/100|[from] Hail
+|-damage|p1a: Rotom|28/100|[from] Hail
+|-heal|p1a: Rotom|34/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Excadrill|Earthquake|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Excadrill|47/100|[from] Hail
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, F|26/100
+|turn|28
+|
+|switch|p2a: Dragapult|Dragapult, F|54/100
+|move|p1a: Lucario|Steel Beam|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p1a: Lucario|0 fnt|[from] mindblown
+|faint|p1a: Lucario
+|faint|p2a: Dragapult
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|47/100
+|switch|p1a: Vanilluxe|Vanilluxe, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|29
+|
+|move|p1a: Vanilluxe|Blizzard|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|win|Ctrl G-Max
+|c|☆Ctrl G-Max|gg
+|raw|Ctrl G-Max's rating: 1378 → 1397(+19 for winning)
+|raw|Richist's rating: 1363 → 1344(-19 for losing)

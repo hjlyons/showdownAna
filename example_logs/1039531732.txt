@@ -1,0 +1,340 @@
+|ScrapeTime|2020-01-02-06:04:53
+|j|☆zcobck
+|j|☆Serenas
+|player|p1|zcobck|shadowtriad|1124
+|player|p2|Serenas|265|1126
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Braviary, M|
+|poke|p1|Dugtrio, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Lucario, F|
+|poke|p1|Hatterene, F|
+|poke|p2|Mudsdale, M|
+|poke|p2|Dracozolt|
+|poke|p2|Araquanid, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Eldegoss, F|
+|poke|p2|Gengar, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by zcobck)
+|
+|start
+|switch|p1a: Braviary|Braviary, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Braviary
+|-status|p1a: Braviary|par
+|move|p1a: Braviary|Brave Bird|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-damage|p1a: Braviary|62/100 par|[from] Recoil
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Mudsdale|Mudsdale, M|100/100
+|turn|2
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Mudsdale|Body Press|p1a: Corviknight
+|-damage|p1a: Corviknight|84/100
+|
+|-heal|p1a: Corviknight|90/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Corviknight|U-turn|p2a: Mudsdale
+|-damage|p2a: Mudsdale|91/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100|[from]move: U-turn
+|move|p2a: Mudsdale|Body Press|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|-heal|p2a: Mudsdale|98/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Mudsdale
+|-damage|p2a: Mudsdale|60/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|move|p2a: Mudsdale|Bulldoze|p1a: Dragapult
+|-damage|p1a: Dragapult|66/100
+|-unboost|p1a: Dragapult|spe|1
+|
+|-heal|p2a: Mudsdale|66/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Mudsdale
+|-damage|p2a: Mudsdale|29/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|move|p2a: Mudsdale|Bulldoze|p1a: Dragapult
+|-damage|p1a: Dragapult|35/100
+|-unboost|p1a: Dragapult|spe|1
+|
+|-heal|p2a: Mudsdale|35/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Mudsdale
+|-damage|p2a: Mudsdale|1/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|-unboost|p2a: Mudsdale|spd|1
+|move|p2a: Mudsdale|Rest|p2a: Mudsdale
+|-status|p2a: Mudsdale|slp|[from] move: Rest
+|-heal|p2a: Mudsdale|100/100 slp|[silent]
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|cant|p2a: Mudsdale|slp
+|move|p2a: Mudsdale|Sleep Talk|p2a: Mudsdale
+|move|p2a: Mudsdale|Body Press|p1a: Hatterene|[from]Sleep Talk
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|78/100
+|
+|-heal|p1a: Hatterene|84/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|cant|p2a: Mudsdale|slp
+|move|p2a: Mudsdale|Sleep Talk|p2a: Mudsdale
+|move|p2a: Mudsdale|Bulldoze|p1a: Hatterene|[from]Sleep Talk
+|-damage|p1a: Hatterene|55/100
+|-unboost|p1a: Hatterene|spe|1
+|move|p1a: Hatterene|Psychic|p2a: Mudsdale
+|-damage|p2a: Mudsdale|26/100 slp
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|
+|-heal|p2a: Mudsdale|32/100 slp|[from] item: Leftovers
+|-heal|p1a: Hatterene|61/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|Serenas has 120 seconds left.
+|
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|move|p1a: Hatterene|Psychic|p2a: Araquanid
+|-damage|p2a: Araquanid|60/100
+|
+|-heal|p2a: Araquanid|66/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|67/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|Serenas has 120 seconds left.
+|
+|switch|p1a: Corviknight|Corviknight, M|90/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Araquanid|Scald|p1a: Corviknight
+|-damage|p1a: Corviknight|64/100
+|
+|-heal|p1a: Corviknight|70/100|[from] item: Leftovers
+|-heal|p2a: Araquanid|72/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|Serenas has 120 seconds left.
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|17/100
+|-damage|p1a: Corviknight|55/100|[from] Recoil
+|move|p2a: Araquanid|Sticky Web|p1a: Corviknight
+|-sidestart|p1: zcobck|move: Sticky Web
+|
+|-heal|p1a: Corviknight|61/100|[from] item: Leftovers
+|-heal|p2a: Araquanid|23/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|Serenas has 120 seconds left.
+|
+|switch|p2a: Mudsdale|Mudsdale, M|32/100 slp
+|move|p1a: Corviknight|Defog|p2a: Mudsdale
+|-unboost|p2a: Mudsdale|evasion|1
+|-sideend|p1: zcobck|Sticky Web|[from] move: Defog|[of] p1a: Corviknight
+|
+|-heal|p1a: Corviknight|67/100|[from] item: Leftovers
+|-heal|p2a: Mudsdale|39/100 slp|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|Serenas has 120 seconds left.
+|
+|switch|p1a: Dragapult|Dragapult, M|35/100
+|-curestatus|p2a: Mudsdale|slp|[msg]
+|move|p2a: Mudsdale|Rest|p2a: Mudsdale
+|-status|p2a: Mudsdale|slp|[from] move: Rest
+|-heal|p2a: Mudsdale|100/100 slp|[silent]
+|
+|upkeep
+|turn|14
+|inactive|Serenas has 120 seconds left.
+|
+|switch|p1a: Hatterene|Hatterene, F|67/100
+|switch|p2a: Eldegoss|Eldegoss, F|100/100
+|
+|-heal|p1a: Hatterene|73/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Serenas has 120 seconds left.
+|
+|move|p2a: Eldegoss|Aromatherapy|p2a: Eldegoss
+|-activate|p2a: Eldegoss|move: Aromatherapy
+|-curestatus|p2: Mudsdale|slp|[msg]
+|move|p1a: Hatterene|Mystical Fire|p2a: Eldegoss
+|-supereffective|p2a: Eldegoss
+|-damage|p2a: Eldegoss|59/100
+|-ability|p2a: Eldegoss|Cotton Down
+|-unboost|p1a: Hatterene|spe|1
+|-unboost|p2a: Eldegoss|spa|1
+|
+|-heal|p2a: Eldegoss|65/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|79/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Serenas has 120 seconds left.
+|inactive|zcobck has 120 seconds left.
+|
+|move|p2a: Eldegoss|Giga Drain|p1a: Hatterene
+|-damage|p1a: Hatterene|64/100
+|-heal|p2a: Eldegoss|72/100|[from] drain|[of] p1a: Hatterene
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-heal|p1a: Hatterene|70/100|[from] item: Leftovers
+|-heal|p2a: Eldegoss|79/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Serenas has 120 seconds left.
+|
+|move|p1a: Hatterene|Mystical Fire|p2a: Eldegoss
+|-supereffective|p2a: Eldegoss
+|-damage|p2a: Eldegoss|41/100
+|-ability|p2a: Eldegoss|Cotton Down
+|-unboost|p1a: Hatterene|spe|1
+|-unboost|p2a: Eldegoss|spa|1
+|move|p2a: Eldegoss|Giga Drain|p1a: Hatterene
+|-damage|p1a: Hatterene|59/100
+|-heal|p2a: Eldegoss|46/100|[from] drain|[of] p1a: Hatterene
+|
+|-heal|p1a: Hatterene|65/100|[from] item: Leftovers
+|-heal|p2a: Eldegoss|52/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|Serenas has 120 seconds left.
+|
+|switch|p2a: Araquanid|Araquanid, M|23/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Araquanid
+|-damage|p2a: Araquanid|11/100
+|-unboost|p2a: Araquanid|spa|1
+|
+|-heal|p1a: Hatterene|71/100|[from] item: Leftovers
+|-heal|p2a: Araquanid|18/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Serenas has 120 seconds left.
+|
+|move|p1a: Hatterene|Psychic|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|-heal|p1a: Hatterene|77/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Mudsdale|Mudsdale, M|100/100
+|turn|20
+|
+|move|p1a: Hatterene|Psychic|p2a: Mudsdale
+|-damage|p2a: Mudsdale|48/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|move|p2a: Mudsdale|Bulldoze|p1a: Hatterene
+|-damage|p1a: Hatterene|51/100
+|-unboost|p1a: Hatterene|spe|1
+|
+|-heal|p1a: Hatterene|57/100|[from] item: Leftovers
+|-heal|p2a: Mudsdale|54/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|21
+|
+|move|p2a: Mudsdale|Bulldoze|p1a: Hatterene
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|16/100
+|-unboost|p1a: Hatterene|spe|1
+|move|p1a: Hatterene|Psychic|p2a: Mudsdale
+|-damage|p2a: Mudsdale|4/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|
+|-heal|p2a: Mudsdale|10/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|22/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Mudsdale|Rest|p2a: Mudsdale
+|-status|p2a: Mudsdale|slp|[from] move: Rest
+|-heal|p2a: Mudsdale|100/100 slp|[silent]
+|move|p1a: Hatterene|Psychic|p2a: Mudsdale
+|-damage|p2a: Mudsdale|50/100 slp
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|
+|-heal|p2a: Mudsdale|57/100 slp|[from] item: Leftovers
+|-heal|p1a: Hatterene|28/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|Serenas has 90 seconds left.
+|
+|cant|p2a: Mudsdale|slp
+|move|p2a: Mudsdale|Sleep Talk|p2a: Mudsdale
+|move|p2a: Mudsdale|Bulldoze|p1a: Hatterene|[from]Sleep Talk
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-heal|p2a: Mudsdale|63/100 slp|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, F|100/100
+|turn|24
+|inactive|Serenas has 90 seconds left.
+|
+|move|p1a: Lucario|Nasty Plot|p1a: Lucario
+|-boost|p1a: Lucario|spa|2
+|cant|p2a: Mudsdale|slp
+|move|p2a: Mudsdale|Sleep Talk|p2a: Mudsdale
+|move|p2a: Mudsdale|Body Press|p1a: Lucario|[from]Sleep Talk
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|-heal|p2a: Mudsdale|69/100 slp|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|turn|25
+|-message|zcobck forfeited.
+|
+|win|Serenas
+|l|☆zcobck
+|raw|zcobck's rating: 1124 → 1099(-25 for losing)
+|raw|Serenas's rating: 1126 → 1151(+25 for winning)

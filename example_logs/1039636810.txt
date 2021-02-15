@@ -1,0 +1,252 @@
+|ScrapeTime|2020-01-02-13:04:59
+|j|☆Seradykio
+|j|☆Pablo_qj
+|player|p1|Seradykio|misty|1090
+|player|p2|Pablo_qj|102|1105
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Gyarados, F|
+|poke|p1|Silvally-*|
+|poke|p1|Rotom-Mow|
+|poke|p1|Gengar, F|
+|poke|p2|Eiscue, M|
+|poke|p2|Aegislash, F|
+|poke|p2|Sandaconda, M|
+|poke|p2|Ribombee, M|
+|poke|p2|Dracovish|
+|poke|p2|Morpeko, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|switch|p2a: Sandaconda|Sandaconda, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pablo_qj)
+|
+|switch|p2a: Ribombee|Ribombee, M|100/100
+|move|p1a: Rotom|Trick|p2a: Ribombee
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Ribombee
+|-item|p2a: Ribombee|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Focus Sash|[from] move: Trick
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Ribombee|Moonblast|p1a: Rotom
+|-damage|p1a: Rotom|43/100
+|-unboost|p1a: Rotom|spa|1
+|move|p1a: Rotom|Trick|p2a: Ribombee
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Ribombee
+|-item|p2a: Ribombee|Focus Sash|[from] move: Trick
+|-item|p1a: Rotom|Choice Scarf|[from] move: Trick
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Ribombee|Sticky Web|p1a: Tyranitar
+|-sidestart|p1: Seradykio|move: Sticky Web
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ribombee|94/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|move|p2a: Ribombee|Moonblast|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ribombee|88/100|[from] Sandstorm
+|-damage|p1a: Gyarados|33/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|move|p2a: Ribombee|Moonblast|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ribombee|82/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|-activate|p1a: Cinderace|move: Sticky Web
+|-unboost|p1a: Cinderace|spe|1
+|turn|6
+|
+|move|p2a: Ribombee|Stun Spore|p1a: Cinderace
+|-status|p1a: Cinderace|par
+|move|p1a: Cinderace|Blaze Kick|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|-damage|p1a: Cinderace|91/100 par|[from] item: Life Orb
+|faint|p2a: Ribombee
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cinderace|85/100 par|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|7
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Fairy, shiny|100/100
+|-activate|p1a: Silvally|move: Sticky Web
+|-unboost|p1a: Silvally|spe|1
+|turn|8
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Silvally
+|-damage|p1a: Silvally|27/100
+|move|p1a: Silvally|Multi-Attack|p2a: Dracovish
+|-supereffective|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|upkeep
+|
+|switch|p2a: Morpeko|Morpeko, F|100/100
+|turn|9
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-activate|p1a: Tyranitar|move: Sticky Web
+|-unboost|p1a: Tyranitar|spe|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Morpeko|Aura Wheel|p1a: Tyranitar
+|-damage|p1a: Tyranitar|62/100
+|-boost|p2a: Morpeko|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Morpeko|94/100|[from] Sandstorm
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|10
+|
+|move|p2a: Morpeko|Parting Shot|p1a: Tyranitar
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|spa|1
+|
+|switch|p2a: Sandaconda|Sandaconda, M|100/100|[from]move: Parting Shot
+|move|p1a: Tyranitar|Earthquake|p2a: Sandaconda
+|-damage|p2a: Sandaconda|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Sandaconda|90/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Gengar|Gengar, F|100/100
+|-activate|p1a: Gengar|move: Sticky Web
+|-unboost|p1a: Gengar|spe|1
+|move|p2a: Sandaconda|Stealth Rock|p1a: Gengar
+|-sidestart|p1: Seradykio|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|-heal|p2a: Sandaconda|96/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Sandaconda
+|-crit|p2a: Sandaconda
+|-damage|p2a: Sandaconda|0 fnt
+|faint|p2a: Sandaconda
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|88/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Morpeko|Morpeko, F|94/100
+|turn|13
+|
+|move|p2a: Morpeko|Aura Wheel|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-boost|p2a: Morpeko|spe|1
+|faint|p1a: Gengar
+|
+|-weather|none
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Mow|43/100
+|-damage|p1a: Rotom|31/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Morpeko|Aura Wheel|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-boost|p2a: Morpeko|spe|1
+|faint|p1a: Rotom
+|
+|-formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|62/100
+|-damage|p1a: Tyranitar|50/100|[from] Stealth Rock
+|-activate|p1a: Tyranitar|move: Sticky Web
+|-unboost|p1a: Tyranitar|spe|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|15
+|
+|move|p2a: Morpeko|Aura Wheel|p1a: Tyranitar
+|-damage|p1a: Tyranitar|13/100
+|-boost|p2a: Morpeko|spe|1
+|move|p1a: Tyranitar|Earthquake|p2a: Morpeko
+|-supereffective|p2a: Morpeko
+|-damage|p2a: Morpeko|0 fnt
+|faint|p2a: Morpeko
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|turn|16
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Flash Cannon|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Fairy, shiny|27/100
+|-damage|p1a: Silvally|14/100|[from] Stealth Rock
+|-activate|p1a: Silvally|move: Sticky Web
+|-unboost|p1a: Silvally|spe|1
+|turn|17
+|
+|move|p1a: Silvally|Fire Fang|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|17/100
+|move|p2a: Aegislash|Shadow Ball|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|win|Pablo_qj
+|raw|Seradykio's rating: 1090 → 1067(-23 for losing)
+|raw|Pablo_qj's rating: 1105 → 1129(+24 for winning)
+|l|☆Pablo_qj

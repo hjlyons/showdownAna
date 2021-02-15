@@ -1,0 +1,179 @@
+|ScrapeTime|2020-01-02-09:04:53
+|j|☆Obamaaa
+|j|☆Pigeon king66
+|player|p1|Obamaaa|cynthia-gen4|1106
+|player|p2|Pigeon king66|hilbert-dueldisk|1078
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Excadrill, F|
+|poke|p1|Tyranitar, M|
+|poke|p1|Hippowdon, M|
+|poke|p1|Dugtrio, M|
+|poke|p1|Seismitoad, M|
+|poke|p1|Flygon, F|
+|poke|p2|Barraskewda, M|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Mimikyu, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Barraskewda|Barraskewda, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Barraskewda|Close Combat|p1a: Seismitoad
+|-damage|p1a: Seismitoad|38/100
+|-unboost|p2a: Barraskewda|def|1
+|-unboost|p2a: Barraskewda|spd|1
+|-damage|p2a: Barraskewda|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Barraskewda|85/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|move|p2a: Barraskewda|Close Combat|p1a: Hippowdon
+|-damage|p1a: Hippowdon|65/100
+|-unboost|p2a: Barraskewda|def|1
+|-unboost|p2a: Barraskewda|spd|1
+|-damage|p2a: Barraskewda|75/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Barraskewda|69/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|move|p2a: Barraskewda|Ice Fang|p1a: Hippowdon|[miss]
+|-miss|p2a: Barraskewda|p1a: Hippowdon
+|move|p1a: Hippowdon|Heavy Slam|p2a: Barraskewda
+|-resisted|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|faint|p2a: Barraskewda
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|turn|4
+|
+|switch|p1a: Seismitoad|Seismitoad, M|38/100
+|move|p2a: Corsola|Will-O-Wisp|p1a: Seismitoad
+|-status|p1a: Seismitoad|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Corsola|94/100|[from] Sandstorm
+|-damage|p1a: Seismitoad|32/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: Seismitoad|Hydro Pump|p2a: Corsola
+|-damage|p2a: Corsola|42/100
+|move|p2a: Corsola|Night Shade|p1a: Seismitoad
+|-damage|p1a: Seismitoad|8/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Corsola|36/100|[from] Sandstorm
+|-damage|p1a: Seismitoad|2/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Seismitoad|Hydro Pump|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-start|p1a: Seismitoad|Disable|Hydro Pump|[from] ability: Cursed Body|[of] p2a: Corsola
+|faint|p2a: Corsola
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Seismitoad|0 fnt|[from] brn
+|faint|p1a: Seismitoad
+|upkeep
+|
+|switch|p1a: Flygon|Flygon, F|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|7
+|
+|move|p1a: Flygon|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|86/100
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100|[from]move: U-turn
+|move|p2a: Dragapult|Draco Meteor|p1a: Tyranitar|[miss]
+|-miss|p2a: Dragapult|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|80/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Ferrothorn|Leech Seed|p1a: Excadrill
+|-start|p1a: Excadrill|move: Leech Seed
+|
+|-damage|p1a: Excadrill|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|10
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Excadrill|Rapid Spin|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|84/100
+|-end|p1a: Excadrill|Leech Seed|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|-damage|p1a: Excadrill|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Excadrill|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-damage|p1a: Excadrill|68/100|[from] item: Life Orb
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Mimikyu|Mimikyu, F|100/100
+|turn|12
+|
+|move|p1a: Excadrill|Iron Head|p2a: Mimikyu
+|-supereffective|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|-damage|p1a: Excadrill|58/100|[from] item: Life Orb
+|faint|p2a: Mimikyu
+|
+|upkeep
+|c|☆Obamaaa|Yes
+|-message|Pigeon king66 forfeited.
+|
+|win|Obamaaa
+|l|☆Pigeon king66
+|raw|Obamaaa's rating: 1106 → 1129(+23 for winning)
+|raw|Pigeon king66's rating: 1078 → 1058(-20 for losing)

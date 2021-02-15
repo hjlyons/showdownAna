@@ -1,0 +1,376 @@
+|ScrapeTime|2020-01-01-21:17:08
+|j|☆D.F.Akainu
+|j|☆karnaaj
+|player|p1|D.F.Akainu|265|1161
+|player|p2|karnaaj|benga|1207
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Togekiss, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Whimsicott, F|
+|poke|p2|Dhelmise|
+|poke|p2|Toxapex, M|
+|poke|p2|Salazzle, F|
+|poke|p2|Drampa, M|
+|poke|p2|Mimikyu, M|
+|poke|p2|Seismitoad, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|turn|1
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: D.F.Akainu|Reflect
+|move|p2a: Salazzle|Sludge Wave|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|2
+|
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|move|p1a: Dragapult|Psychic Fangs|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M
+|-damage|p2a: Mimikyu|88/100|[from] ability: Disguise|[of] p2a: Mimikyu
+|
+|-heal|p2a: Mimikyu|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Mimikyu|Play Rough|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|93/100
+|-damage|p2a: Mimikyu|82/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p2a: Mimikyu|88/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Drampa|Drampa, M|100/100
+|move|p1a: Ferrothorn|Iron Head|p2a: Drampa
+|-damage|p2a: Drampa|59/100
+|
+|-heal|p2a: Drampa|65/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Drampa|Flamethrower|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Drampa|72/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|move|p2a: Drampa|Dragon Pulse|p1a: Togekiss
+|-immune|p1a: Togekiss
+|
+|-heal|p2a: Drampa|78/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Togekiss|Dazzling Gleam|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|89/100
+|
+|-heal|p2a: Toxapex|95/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|move|p2a: Toxapex|Scald|p1a: Togekiss
+|-damage|p1a: Togekiss|87/100
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-sideend|p1: D.F.Akainu|Reflect
+|upkeep
+|turn|9
+|
+|move|p1a: Togekiss|Yawn|p2a: Toxapex
+|-start|p2a: Toxapex|move: Yawn|[of] p1a: Togekiss
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Togekiss|Yawn|p2a: Seismitoad
+|-start|p2a: Seismitoad|move: Yawn|[of] p1a: Togekiss
+|move|p2a: Seismitoad|Toxic|p1a: Togekiss
+|-status|p1a: Togekiss|tox
+|
+|-damage|p1a: Togekiss|81/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|move|p1a: Togekiss|Air Slash|p2a: Seismitoad
+|-damage|p2a: Seismitoad|32/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Togekiss
+|-sidestart|p1: D.F.Akainu|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|38/100|[from] item: Leftovers
+|-damage|p1a: Togekiss|68/100 tox|[from] psn
+|-end|p2a: Seismitoad|move: Yawn|[silent]
+|-status|p2a: Seismitoad|slp
+|upkeep
+|turn|13
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by D.F.Akainu)
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Togekiss|Air Slash|p2a: Toxapex
+|-damage|p2a: Toxapex|62/100
+|
+|-heal|p2a: Toxapex|68/100|[from] item: Black Sludge
+|-damage|p1a: Togekiss|50/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p1a: Togekiss|Air Slash|p2a: Toxapex
+|-damage|p2a: Toxapex|27/100
+|cant|p2a: Toxapex|flinch
+|
+|-heal|p2a: Toxapex|33/100|[from] item: Black Sludge
+|-damage|p1a: Togekiss|26/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p2a: Seismitoad|Seismitoad, M|38/100 slp
+|move|p1a: Togekiss|Air Slash|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-damage|p1a: Togekiss|0 fnt|[from] psn
+|faint|p1a: Togekiss
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Salazzle|Dragon Pulse|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|21/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Salazzle
+|-damage|p2a: Salazzle|31/100
+|-damage|p2a: Salazzle|0 fnt
+|-hitcount|p2a: Salazzle|2
+|faint|p2a: Salazzle
+|
+|upkeep
+|
+|switch|p2a: Mimikyu|Mimikyu-Busted, M|88/100
+|turn|17
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|
+|-heal|p2a: Mimikyu|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Drampa|Drampa, M|78/100
+|move|p1a: Ferrothorn|Iron Head|p2a: Drampa
+|-damage|p2a: Drampa|39/100
+|
+|-heal|p2a: Drampa|45/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Drampa|Calm Mind|p2a: Drampa
+|-boost|p2a: Drampa|spa|1
+|-boost|p2a: Drampa|spd|1
+|
+|-heal|p2a: Drampa|52/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|move|p2a: Drampa|Dragon Pulse|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-heal|p2a: Drampa|58/100|[from] item: Leftovers
+|upkeep
+|inactive|D.F.Akainu has 120 seconds left.
+|
+|switch|p1a: Whimsicott|Whimsicott, F|100/100
+|-damage|p1a: Whimsicott|88/100|[from] Stealth Rock
+|turn|21
+|
+|switch|p2a: Toxapex|Toxapex, M|67/100
+|move|p1a: Whimsicott|Moonblast|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|53/100
+|
+|-heal|p2a: Toxapex|60/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|inactive|D.F.Akainu has 120 seconds left.
+|
+|move|p1a: Whimsicott|Taunt|p2a: Toxapex
+|-start|p2a: Toxapex|move: Taunt
+|cant|p2a: Toxapex|move: Taunt|Toxic Spikes
+|
+|-heal|p2a: Toxapex|66/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Toxapex|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|87/100
+|-status|p1a: Ferrothorn|brn
+|
+|-heal|p2a: Toxapex|72/100|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|87/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p2a: Toxapex|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|80/100 brn
+|move|p1a: Ferrothorn|Iron Head|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|66/100
+|
+|-heal|p2a: Toxapex|73/100|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|86/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|80/100 brn|[from] brn
+|-end|p2a: Toxapex|move: Taunt
+|upkeep
+|turn|25
+|
+|move|p2a: Toxapex|Toxic Spikes|p1a: Ferrothorn
+|-sidestart|p1: D.F.Akainu|move: Toxic Spikes
+|move|p1a: Ferrothorn|Leech Seed|p2a: Toxapex
+|-start|p2a: Toxapex|move: Leech Seed
+|
+|-heal|p2a: Toxapex|79/100|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|86/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|66/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|97/100 brn|[silent]
+|-damage|p1a: Ferrothorn|91/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|switch|p2a: Dhelmise|Dhelmise, shiny|100/100
+|switch|p1a: Whimsicott|Whimsicott, F|88/100
+|-damage|p1a: Whimsicott|76/100|[from] Stealth Rock
+|-status|p1a: Whimsicott|psn
+|
+|-damage|p1a: Whimsicott|64/100 psn|[from] psn
+|upkeep
+|turn|27
+|
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: D.F.Akainu|move: Tailwind
+|move|p2a: Dhelmise|Power Whip|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|24/100 psn
+|
+|-damage|p1a: Whimsicott|12/100 psn|[from] psn
+|upkeep
+|turn|28
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Dhelmise
+|-damage|p2a: Dhelmise|79/100
+|-unboost|p2a: Dhelmise|spa|1
+|move|p2a: Dhelmise|Earthquake|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|91/100 brn
+|-damage|p1a: Ferrothorn|85/100 brn|[from] Stealth Rock
+|turn|29
+|
+|move|p1a: Ferrothorn|Iron Head|p2a: Dhelmise
+|-damage|p2a: Dhelmise|61/100
+|move|p2a: Dhelmise|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|60/100 brn
+|
+|-heal|p1a: Ferrothorn|67/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|60/100 brn|[from] brn
+|upkeep
+|turn|30
+|inactive|D.F.Akainu has 120 seconds left.
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Dhelmise|Anchor Shot|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Ferrothorn|67/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|60/100 brn|[from] brn
+|-sideend|p1: D.F.Akainu|move: Tailwind
+|upkeep
+|turn|31
+|inactive|D.F.Akainu has 120 seconds left.
+|
+|switch|p1a: Dragapult|Dragapult, F|21/100
+|-damage|p1a: Dragapult|8/100|[from] Stealth Rock
+|-status|p1a: Dragapult|psn
+|move|p2a: Dhelmise|Anchor Shot|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|60/100 brn
+|-damage|p1a: Ferrothorn|54/100 brn|[from] Stealth Rock
+|turn|32
+|-message|D.F.Akainu forfeited.
+|
+|win|karnaaj
+|l|☆D.F.Akainu
+|raw|D.F.Akainu's rating: 1161 → 1139(-22 for losing)
+|raw|karnaaj's rating: 1207 → 1228(+21 for winning)

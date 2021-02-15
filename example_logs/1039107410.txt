@@ -1,0 +1,324 @@
+|ScrapeTime|2020-01-01-12:01:15
+|j|☆lustic
+|j|☆New gainzes
+|player|p1|lustic|swimmerf|1117
+|player|p2|New gainzes|101|1107
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Excadrill, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Whimsicott, M|
+|poke|p1|Gyarados, F|
+|poke|p1|Chandelure, M|
+|poke|p2|Aegislash, F|
+|poke|p2|Bisharp, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Mimikyu, M|
+|poke|p2|Mew|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by New gainzes)
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Mew|Mew|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|move|p2a: Mew|Stealth Rock|p1a: Tyranitar
+|-sidestart|p1: lustic|move: Stealth Rock
+|move|p1a: Tyranitar|Crunch|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|33/100
+|-unboost|p2a: Mew|def|1
+|-enditem|p2a: Mew|Red Card|[of] p1a: Tyranitar
+|drag|p1a: Gyarados|Gyarados, F|100/100
+|-damage|p1a: Gyarados|76/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|27/100|[from] Sandstorm
+|-damage|p1a: Gyarados|70/100|[from] Sandstorm
+|-heal|p1a: Gyarados|76/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|lustic has 120 seconds left.
+|
+|move|p2a: Mew|Taunt|p1a: Gyarados
+|-start|p1a: Gyarados|move: Taunt
+|cant|p1a: Gyarados|move: Taunt|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|21/100|[from] Sandstorm
+|-damage|p1a: Gyarados|70/100|[from] Sandstorm
+|-heal|p1a: Gyarados|76/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|lustic has 120 seconds left.
+|
+|move|p2a: Mew|Spikes|p1a: Gyarados
+|-sidestart|p1: lustic|Spikes
+|move|p1a: Gyarados|Waterfall|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|70/100|[from] Sandstorm
+|-heal|p1a: Gyarados|76/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|4
+|inactive|lustic has 120 seconds left.
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|-damage|p1a: Tyranitar|76/100|[from] Stealth Rock
+|move|p2a: Dragapult|Shadow Ball|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|56/100
+|-unboost|p1a: Tyranitar|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|95/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|63/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|lustic has 120 seconds left.
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|move|p1a: Tyranitar|Stealth Rock|p2a: Bisharp
+|-sidestart|p2: New gainzes|move: Stealth Rock
+|
+|-weather|none
+|-heal|p1a: Tyranitar|69/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|-damage|p1a: Chandelure|76/100|[from] Stealth Rock
+|-damage|p1a: Chandelure|63/100|[from] Spikes
+|move|p2a: Bisharp|Iron Head|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|30/100
+|
+|-heal|p1a: Chandelure|37/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|move|p1a: Chandelure|Flamethrower|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|57/100
+|
+|-heal|p2a: Hydreigon|63/100|[from] item: Leftovers
+|-heal|p1a: Chandelure|43/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Tyranitar|Tyranitar, F|69/100
+|-damage|p1a: Tyranitar|56/100|[from] Stealth Rock
+|-damage|p1a: Tyranitar|44/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|32/100|[from] Sandstorm
+|-heal|p2a: Hydreigon|38/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|50/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Whimsicott|Whimsicott, M|100/100
+|-damage|p1a: Whimsicott|88/100|[from] Spikes
+|-damage|p1a: Whimsicott|76/100|[from] Stealth Rock
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Whimsicott|70/100|[from] Sandstorm
+|-damage|p2a: Hydreigon|32/100|[from] Sandstorm
+|-heal|p2a: Hydreigon|38/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Whimsicott|64/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|95/100
+|-damage|p2a: Dragapult|82/100|[from] Stealth Rock
+|turn|11
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-damage|p1a: Excadrill|85/100|[from] Spikes
+|move|p2a: Dragapult|Shadow Ball|p1a: Excadrill
+|-damage|p1a: Excadrill|20/100
+|-unboost|p1a: Excadrill|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|76/100|[from] Sandstorm
+|-heal|p1a: Excadrill|26/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|-damage|p2a: Aegislash|94/100|[from] Stealth Rock
+|-item|p2a: Aegislash|Air Balloon
+|move|p1a: Excadrill|Iron Head|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|78/100
+|-enditem|p2a: Aegislash|Air Balloon
+|
+|-weather|none
+|-heal|p1a: Excadrill|32/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Excadrill
+|-crit|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|50/100
+|-damage|p1a: Tyranitar|38/100|[from] Stealth Rock
+|-damage|p1a: Tyranitar|25/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|14
+|
+|-formechange|p2a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Tyranitar|Flamethrower|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|32/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Tyranitar|Flamethrower|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|46/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Sacred Sword|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Chandelure|Chandelure, M|43/100
+|-damage|p1a: Chandelure|18/100|[from] Stealth Rock
+|-damage|p1a: Chandelure|5/100|[from] Spikes
+|turn|16
+|
+|move|p2a: Aegislash|Shadow Sneak|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, F|76/100
+|-damage|p1a: Gyarados|51/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Aegislash|Shadow Ball|p1a: Gyarados
+|-damage|p1a: Gyarados|2/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|0 fnt|[from] Sandstorm
+|faint|p1a: Gyarados
+|upkeep
+|
+|switch|p1a: Whimsicott|Whimsicott, M|64/100
+|-damage|p1a: Whimsicott|51/100|[from] Stealth Rock
+|-damage|p1a: Whimsicott|39/100|[from] Spikes
+|turn|18
+|
+|move|p2a: Aegislash|Shadow Sneak|p1a: Whimsicott
+|-damage|p1a: Whimsicott|9/100
+|move|p1a: Whimsicott|Psychic|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|18/100
+|
+|-weather|none
+|upkeep
+|turn|19
+|
+|move|p2a: Aegislash|Shadow Sneak|p1a: Whimsicott
+|-crit|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Aegislash|Shadow Sneak|p1a: Rotom
+|-damage|p1a: Rotom|67/100
+|move|p1a: Rotom|Hydro Pump|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|76/100
+|-damage|p2a: Dragapult|64/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Dragapult|[miss]
+|-miss|p1a: Rotom|p2a: Dragapult
+|move|p2a: Dragapult|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|9/100
+|-unboost|p1a: Rotom|spd|1
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|36/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|win|New gainzes
+|raw|lustic's rating: 1117 → 1093(-24 for losing)
+|raw|New gainzes's rating: 1130 → 1154(+24 for winning)
+|l|☆lustic

@@ -1,0 +1,410 @@
+|ScrapeTime|2020-01-01-05:15:46
+|j|☆RenegadeWinds111
+|j|☆Spray fart
+|player|p1|RenegadeWinds111|262|1461
+|player|p2|Spray fart|265|1386
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aegislash, M|
+|poke|p1|Clefable, F|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Seismitoad, M|
+|poke|p1|Hydreigon, M|
+|poke|p2|Rhyperior, F|
+|poke|p2|Snorlax, M|
+|poke|p2|Vaporeon, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Pikachu, M|
+|poke|p2|Machamp, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|switch|p2a: Machamp|Machamp, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Spray fart)
+|
+|move|p1a: Seismitoad|Stealth Rock|p2a: Machamp
+|-sidestart|p2: Spray fart|move: Stealth Rock
+|move|p2a: Machamp|Dynamic Punch|p1a: Seismitoad
+|-damage|p1a: Seismitoad|72/100
+|-start|p1a: Seismitoad|confusion
+|
+|-heal|p1a: Seismitoad|78/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|move|p2a: Machamp|Knock Off|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|60/100
+|-enditem|p1a: Aegislash|Weakness Policy
+|-boost|p1a: Aegislash|atk|2
+|-boost|p1a: Aegislash|spa|2
+|
+|upkeep
+|turn|3
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Psycho Cut|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|20/100
+|move|p2a: Machamp|Knock Off|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|turn|4
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|upkeep
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|-damage|p2a: Vaporeon|88/100|[from] Stealth Rock
+|turn|5
+|
+|move|p2a: Vaporeon|Yawn|p1a: Conkeldurr
+|-start|p1a: Conkeldurr|move: Yawn|[of] p2a: Vaporeon
+|move|p1a: Conkeldurr|Drain Punch|p2a: Vaporeon
+|-damage|p2a: Vaporeon|56/100
+|
+|-heal|p2a: Vaporeon|63/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Vaporeon|Scald|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|83/100
+|
+|-heal|p2a: Vaporeon|69/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Hydreigon|Dark Pulse|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p2a: Vaporeon|75/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|81/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Mandibuzz|Taunt|p2a: Vaporeon
+|-start|p2a: Vaporeon|move: Taunt
+|move|p2a: Vaporeon|Scald|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|75/100
+|
+|-heal|p2a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|10
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|move|p2a: Vaporeon|Scald|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|79/100
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Vaporeon|Scald|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|57/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Vaporeon
+|-damage|p2a: Vaporeon|68/100
+|-heal|p1a: Conkeldurr|76/100|[from] drain|[of] p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|74/100|[from] item: Leftovers
+|-end|p2a: Vaporeon|move: Taunt
+|upkeep
+|turn|12
+|
+|move|p2a: Vaporeon|Yawn|p1a: Conkeldurr
+|-start|p1a: Conkeldurr|move: Yawn|[of] p2a: Vaporeon
+|move|p1a: Conkeldurr|Drain Punch|p2a: Vaporeon
+|-damage|p2a: Vaporeon|38/100
+|-heal|p1a: Conkeldurr|97/100|[from] drain|[of] p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|45/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Seismitoad|Seismitoad, M|78/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p1a: Seismitoad|84/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|51/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Hydreigon|Hydreigon, M|83/100
+|move|p2a: Vaporeon|Yawn|p1a: Hydreigon
+|-start|p1a: Hydreigon|move: Yawn|[of] p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|15
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|75/100
+|move|p2a: Vaporeon|Scald|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|53/100
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Mandibuzz|Taunt|p2a: Vaporeon
+|-start|p2a: Vaporeon|move: Taunt
+|move|p2a: Vaporeon|Scald|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|27/100
+|-status|p1a: Mandibuzz|brn
+|
+|-damage|p1a: Mandibuzz|21/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|71/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Vaporeon|Scald|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|45/100 brn
+|
+|-damage|p1a: Mandibuzz|39/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|89/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Vaporeon|Scald|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|62/100 brn
+|
+|-damage|p1a: Mandibuzz|56/100 brn|[from] brn
+|-end|p2a: Vaporeon|move: Taunt
+|upkeep
+|turn|19
+|
+|switch|p2a: Pikachu|Pikachu, M|100/100
+|-damage|p2a: Pikachu|88/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Mandibuzz|94/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p2a: Pikachu|Discharge|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|15/100 brn
+|move|p1a: Mandibuzz|Foul Play|p2a: Pikachu
+|-damage|p2a: Pikachu|51/100
+|
+|-damage|p1a: Mandibuzz|9/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|switch|p1a: Seismitoad|Seismitoad, M|84/100
+|move|p2a: Pikachu|Discharge|p1a: Seismitoad
+|-immune|p1a: Seismitoad
+|
+|-heal|p1a: Seismitoad|90/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|97/100
+|move|p2a: Pikachu|Grass Knot|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|75/100
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Pikachu|Nuzzle|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|67/100
+|-status|p1a: Conkeldurr|par
+|move|p1a: Conkeldurr|Drain Punch|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|-heal|p1a: Conkeldurr|81/100 par|[from] drain|[of] p2a: Pikachu
+|faint|p2a: Pikachu
+|
+|upkeep
+|
+|switch|p2a: Rhyperior|Rhyperior, F|100/100
+|-damage|p2a: Rhyperior|94/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Rhyperior|Stealth Rock|p1a: Conkeldurr
+|-sidestart|p1: RenegadeWinds111|move: Stealth Rock
+|cant|p1a: Conkeldurr|par
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Rhyperior|Earthquake|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|37/100 par
+|cant|p1a: Conkeldurr|par
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Rhyperior|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|41/100
+|
+|-heal|p1a: Clefable|47/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Clefable|Wish|p1a: Clefable
+|move|p2a: Rhyperior|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|83/100
+|-damage|p1a: Hydreigon|71/100|[from] Stealth Rock
+|turn|28
+|
+|move|p1a: Hydreigon|Hydro Pump|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|-heal|p1a: Hydreigon|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|-damage|p2a: Snorlax|88/100|[from] Stealth Rock
+|turn|29
+|
+|switch|p1a: Seismitoad|Seismitoad, M|90/100
+|-damage|p1a: Seismitoad|84/100|[from] Stealth Rock
+|move|p2a: Snorlax|Retaliate|p1a: Seismitoad
+|-damage|p1a: Seismitoad|37/100
+|
+|-heal|p1a: Seismitoad|43/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|move|p1a: Seismitoad|Power Whip|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|74/100
+|
+|-heal|p1a: Seismitoad|49/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|move|p2a: Hydreigon|Draco Meteor|p1a: Hydreigon|[miss]
+|-miss|p2a: Hydreigon|p1a: Hydreigon
+|
+|upkeep
+|turn|32
+|
+|switch|p2a: Snorlax|Snorlax, M|88/100
+|-damage|p2a: Snorlax|76/100|[from] Stealth Rock
+|move|p1a: Hydreigon|Draco Meteor|p2a: Snorlax
+|-damage|p2a: Snorlax|45/100
+|-unboost|p1a: Hydreigon|spa|2
+|
+|upkeep
+|turn|33
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|9/100 brn
+|-damage|p1a: Mandibuzz|0 fnt|[from] Stealth Rock
+|faint|p1a: Mandibuzz
+|move|p2a: Snorlax|Self-Destruct|p1: Mandibuzz|[notarget]
+|-fail|p2a: Snorlax
+|faint|p2a: Snorlax
+|
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|37/100 par
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|-damage|p2a: Vaporeon|88/100|[from] Stealth Rock
+|-damage|p1a: Conkeldurr|31/100 par|[from] Stealth Rock
+|turn|34
+|
+|move|p2a: Vaporeon|Scald|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|8/100 par
+|move|p1a: Conkeldurr|Drain Punch|p2a: Vaporeon
+|-damage|p2a: Vaporeon|36/100
+|-heal|p1a: Conkeldurr|38/100 par|[from] drain|[of] p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|42/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Conkeldurr|Drain Punch|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p2a: Vaporeon|49/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p2a: Vaporeon|Scald|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|16/100 par
+|move|p1a: Conkeldurr|Drain Punch|p2a: Vaporeon
+|-damage|p2a: Vaporeon|3/100
+|-heal|p1a: Conkeldurr|42/100 par|[from] drain|[of] p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|9/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|cant|p1a: Conkeldurr|par
+|
+|-heal|p2a: Vaporeon|16/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|74/100
+|-damage|p2a: Hydreigon|62/100|[from] Stealth Rock
+|turn|39
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|win|RenegadeWinds111
+|raw|RenegadeWinds111's rating: 1461 → 1477(+16 for winning)
+|raw|Spray fart's rating: 1386 → 1370(-16 for losing)
+|l|☆Spray fart

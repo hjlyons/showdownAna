@@ -1,0 +1,75 @@
+|ScrapeTime|2020-01-01-04:35:32
+|j|☆Orekeeper
+|j|☆cabbage_OD
+|player|p1|Orekeeper|pokemaniac|1061
+|player|p2|cabbage_OD|169|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Appletun, M|
+|poke|p1|Quagsire, M|
+|poke|p1|Avalugg, M|
+|poke|p1|Dracozolt|
+|poke|p1|Togekiss, F|
+|poke|p1|Coalossal, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Dracovish|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Aegislash, F|
+|poke|p2|Corviknight, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Coalossal|Coalossal, M|100/100
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|turn|1
+|
+|move|p2a: Seismitoad|Stealth Rock|p1a: Coalossal
+|-sidestart|p1: Orekeeper|move: Stealth Rock
+|move|p1a: Coalossal|Tar Shot|p2a: Seismitoad
+|-unboost|p2a: Seismitoad|spe|1
+|-start|p2a: Seismitoad|Tar Shot
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Coalossal|Earth Power|p2a: Seismitoad
+|-damage|p2a: Seismitoad|76/100
+|move|p2a: Seismitoad|Scald|p1a: Coalossal
+|-supereffective|p1a: Coalossal
+|-damage|p1a: Coalossal|1/100
+|-ability|p1a: Coalossal|Steam Engine|boost
+|-boost|p1a: Coalossal|spe|6
+|-enditem|p1a: Coalossal|Weakness Policy
+|-boost|p1a: Coalossal|atk|2
+|-boost|p1a: Coalossal|spa|2
+|
+|-heal|p2a: Seismitoad|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Coalossal|Fire Blast|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|c|☆Orekeeper|Excellent
+|-message|cabbage_OD forfeited.
+|
+|win|Orekeeper
+|l|☆cabbage_OD
+|raw|Orekeeper's rating: 1061 → 1087(+26 for winning)
+|raw|cabbage_OD's rating: 1000 → 1000(+0 for losing)

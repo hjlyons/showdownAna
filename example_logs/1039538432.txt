@@ -1,0 +1,285 @@
+|ScrapeTime|2020-01-02-06:35:55
+|j|☆Ctrl G-Max
+|j|☆smokeythabear96
+|player|p1|Ctrl G-Max|188|1355
+|player|p2|smokeythabear96|265|1311
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Vanilluxe, F|
+|poke|p1|Barraskewda, M|
+|poke|p1|Rotom-Mow|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Lucario, F|
+|poke|p1|Mimikyu, F|
+|poke|p2|Mew|
+|poke|p2|Crawdaunt, M|
+|poke|p2|Copperajah, M|
+|poke|p2|Mimikyu, F|
+|poke|p2|Musharna, F|
+|poke|p2|Hatterene, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by smokeythabear96)
+|
+|start
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Mew|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: Ctrl G-Max|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Mandibuzz|Knock Off|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|69/100
+|-enditem|p2a: Mew|Leftovers|[from] move: Knock Off|[of] p1a: Mandibuzz
+|move|p2a: Mew|Trick Room|p2a: Mew
+|-fieldstart|move: Trick Room|[of] p2a: Mew
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Mandibuzz|Defog|p2a: Mew
+|-unboost|p2a: Mew|evasion|1
+|-sideend|p1: Ctrl G-Max|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Mew|U-turn|p1a: Mandibuzz
+|-crit|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|87/100
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100|[from]move: U-turn
+|
+|-heal|p1a: Mandibuzz|93/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|-damage|p2a: Hatterene|91/100|[from] item: Life Orb
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|turn|5
+|
+|switch|p2a: Copperajah|Copperajah, M|100/100
+|move|p1a: Mimikyu|Play Rough|p2a: Copperajah
+|-resisted|p2a: Copperajah
+|-damage|p2a: Copperajah|81/100
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|move|p2a: Copperajah|Iron Head|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|57/100
+|
+|-heal|p1a: Rotom|63/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|switch|p2a: Mew|Mew|69/100
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|
+|-heal|p1a: Rotom|68/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Rotom|Leaf Storm|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Mew
+|
+|-heal|p1a: Rotom|74/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Mimikyu|Mimikyu, F|100/100
+|turn|9
+|
+|move|p1a: Rotom|Volt Switch|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F
+|-damage|p2a: Mimikyu|88/100|[from] ability: Disguise|[of] p2a: Mimikyu
+|
+|switch|p1a: Barraskewda|Barraskewda, M|100/100|[from]move: Volt Switch
+|move|p2a: Mimikyu|Trick Room|p2a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p2a: Mimikyu
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Barraskewda|Aqua Jet|p2a: Mimikyu
+|-damage|p2a: Mimikyu|46/100
+|move|p2a: Mimikyu|Shadow Claw|p1a: Barraskewda
+|-damage|p1a: Barraskewda|23/100
+|-damage|p2a: Mimikyu|36/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|-damage|p2a: Mimikyu|26/100|[from] item: Life Orb
+|faint|p1a: Barraskewda
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Mow|74/100
+|turn|12
+|
+|move|p2a: Mimikyu|Play Rough|p1a: Rotom
+|-damage|p1a: Rotom|18/100
+|-unboost|p1a: Rotom|atk|1
+|-damage|p2a: Mimikyu|16/100|[from] item: Life Orb
+|move|p1a: Rotom|Shadow Ball|p2a: Mimikyu
+|-supereffective|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|-heal|p1a: Rotom|24/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|turn|13
+|
+|move|p2a: Crawdaunt|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-enditem|p1a: Rotom|Leftovers|[from] move: Knock Off|[of] p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|90/100|[from] item: Life Orb
+|faint|p1a: Rotom
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: Vanilluxe|Vanilluxe, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|14
+|
+|move|p1a: Vanilluxe|Freeze-Dry|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p2a: Musharna|Musharna, F|100/100
+|turn|15
+|
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|move|p2a: Musharna|Trick Room|p2a: Musharna
+|-fieldstart|move: Trick Room|[of] p2a: Musharna
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Musharna|94/100|[from] Hail
+|-damage|p1a: Mimikyu|95/100|[from] Hail
+|upkeep
+|turn|16
+|
+|move|p2a: Musharna|Psychic|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|95/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|-damage|p1a: Mimikyu|82/100|[from] ability: Disguise|[of] p1a: Mimikyu
+|-enditem|p1a: Mimikyu|Red Card|[of] p2a: Musharna
+|drag|p2a: Hatterene|Hatterene, F|91/100
+|move|p1a: Mimikyu|Shadow Claw|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|21/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Hatterene|15/100|[from] Hail
+|-damage|p1a: Mimikyu|76/100|[from] Hail
+|upkeep
+|turn|17
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mimikyu|70/100|[from] Hail
+|upkeep
+|
+|switch|p2a: Copperajah|Copperajah, M|81/100
+|turn|18
+|
+|switch|p1a: Vanilluxe|Vanilluxe, F|100/100
+|move|p2a: Copperajah|Iron Head|p1a: Vanilluxe
+|-supereffective|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|0 fnt
+|faint|p1a: Vanilluxe
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, F|100/100
+|turn|19
+|inactive|smokeythabear96 has 120 seconds left.
+|inactive|smokeythabear96 has 90 seconds left.
+|
+|move|p1a: Lucario|Vacuum Wave|p2a: Copperajah
+|-supereffective|p2a: Copperajah
+|-damage|p2a: Copperajah|23/100
+|move|p2a: Copperajah|Heat Crash|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|-damage|p2a: Copperajah|13/100|[from] item: Life Orb
+|faint|p1a: Lucario
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: Mimikyu|Mimikyu-Busted, F|70/100
+|turn|20
+|
+|move|p1a: Mimikyu|Shadow Claw|p2a: Copperajah
+|-damage|p2a: Copperajah|0 fnt
+|faint|p2a: Copperajah
+|
+|upkeep
+|
+|switch|p2a: Musharna|Musharna, F|94/100
+|turn|21
+|
+|move|p1a: Mimikyu|Shadow Claw|p2a: Musharna
+|-supereffective|p2a: Musharna
+|-damage|p2a: Musharna|55/100
+|move|p2a: Musharna|Psychic|p1a: Mimikyu
+|-damage|p1a: Mimikyu|24/100
+|
+|upkeep
+|turn|22
+|inactive|smokeythabear96 has 120 seconds left.
+|
+|move|p1a: Mimikyu|Shadow Claw|p2a: Musharna
+|-supereffective|p2a: Musharna
+|-crit|p2a: Musharna
+|-damage|p2a: Musharna|0 fnt
+|faint|p2a: Musharna
+|
+|win|Ctrl G-Max
+|raw|Ctrl G-Max's rating: 1355 → 1373(+18 for winning)
+|raw|smokeythabear96's rating: 1311 → 1294(-17 for losing)
+|c|☆Ctrl G-Max|gg

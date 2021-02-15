@@ -1,0 +1,181 @@
+|ScrapeTime|2020-01-02-14:25:40
+|j|☆expert fencer
+|j|☆BOURRIN VN
+|player|p1|expert fencer|n|1514
+|player|p2|BOURRIN VN|youngster-gen4|1407
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Bisharp, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Clefable, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Obstagoon, F|
+|poke|p2|Gallade, M|
+|poke|p2|Bisharp, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Clefable, M|
+|poke|p2|Ditto|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Obstagoon|Obstagoon, F|100/100
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by expert fencer)
+|
+|switch|p1a: Toxapex|Toxapex, M, shiny|100/100
+|move|p2a: Clefable|Moonblast|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|79/100
+|
+|-heal|p1a: Toxapex|85/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|move|p2a: Clefable|Thunderbolt|p1a: Bisharp
+|-damage|p1a: Bisharp|41/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Bisharp|Iron Head|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|83/100
+|
+|-heal|p2a: Seismitoad|89/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Seismitoad
+|-damage|p2a: Seismitoad|56/100
+|-start|p2a: Seismitoad|Throat Chop|[silent]
+|move|p2a: Seismitoad|Earthquake|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|-heal|p2a: Seismitoad|62/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Obstagoon|Obstagoon, F|100/100
+|turn|5
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Obstagoon|Bulk Up|p1a: Obstagoon
+|-boost|p1a: Obstagoon|atk|1
+|-boost|p1a: Obstagoon|def|1
+|
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|move|p1a: Obstagoon|Facade|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|-damage|p1a: Obstagoon|94/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|turn|7
+|
+|move|p1a: Obstagoon|Trick|p2a: Bisharp
+|-activate|p1a: Obstagoon|move: Trick|[of] p2a: Bisharp
+|-item|p2a: Bisharp|Flame Orb|[from] move: Trick
+|-item|p1a: Obstagoon|Iapapa Berry|[from] move: Trick
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|-damage|p1a: Obstagoon|88/100 brn|[from] brn
+|-status|p2a: Bisharp|brn|[from] item: Flame Orb
+|upkeep
+|turn|8
+|
+|move|p1a: Obstagoon|Knock Off|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|56/100 brn
+|-enditem|p2a: Bisharp|Flame Orb|[from] move: Knock Off|[of] p1a: Obstagoon
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|-damage|p1a: Obstagoon|82/100 brn|[from] brn
+|-damage|p2a: Bisharp|50/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Obstagoon|Facade|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|-damage|p1a: Obstagoon|76/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Obstagoon|[from] ability: Imposter
+|turn|10
+|
+|move|p2a: Ditto|Knock Off|p1a: Obstagoon
+|-resisted|p1a: Obstagoon
+|-damage|p1a: Obstagoon|55/100 brn
+|-enditem|p1a: Obstagoon|Iapapa Berry|[from] move: Knock Off|[of] p2a: Ditto
+|move|p1a: Obstagoon|Facade|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|-damage|p1a: Obstagoon|49/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|11
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Obstagoon
+|-damage|p1a: Obstagoon|33/100 brn
+|-damage|p1a: Obstagoon|19/100 brn
+|-hitcount|p1a: Obstagoon|2
+|move|p1a: Obstagoon|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-enditem|p2a: Dragapult|Expert Belt|[from] move: Knock Off|[of] p1a: Obstagoon
+|faint|p2a: Dragapult
+|
+|-damage|p1a: Obstagoon|12/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, F|62/100
+|turn|12
+|
+|move|p1a: Obstagoon|Facade|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-damage|p1a: Obstagoon|6/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Gallade|Gallade, M|100/100
+|turn|13
+|
+|move|p1a: Obstagoon|Facade|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|win|expert fencer
+|l|☆BOURRIN VN
+|raw|expert fencer's rating: 1498 → 1513(+15 for winning)
+|raw|BOURRIN VN's rating: 1407 → 1392(-15 for losing)

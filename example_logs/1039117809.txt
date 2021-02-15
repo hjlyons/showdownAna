@@ -1,0 +1,1129 @@
+|ScrapeTime|2020-01-01-13:05:56
+|j|☆jvrt
+|j|☆Globeband
+|player|p1|jvrt|266|1176
+|player|p2|Globeband|giovanni|1176
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Rapidash-Galar, F|
+|poke|p1|Toxtricity, M|
+|poke|p1|Vaporeon, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Frosmoth, F|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Umbreon, M|
+|poke|p2|Rotom-Heat|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Edgar|Corviknight, M|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|1
+|
+|move|p2a: Rotom|Trick|p1a: Edgar
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Edgar
+|-item|p1a: Edgar|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|move|p1a: Edgar|Brave Bird|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|66/100
+|-damage|p1a: Edgar|93/100|[from] Recoil
+|
+|-heal|p2a: Rotom|72/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|move|p1a: Edgar|Brave Bird|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|37/100
+|-damage|p1a: Edgar|86/100|[from] Recoil
+|
+|-heal|p2a: Rotom|43/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Rotom|Overheat|p1a: Edgar
+|-supereffective|p1a: Edgar
+|-damage|p1a: Edgar|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Edgar
+|
+|-heal|p2a: Rotom|49/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Toxie|Toxtricity, M|100/100
+|turn|4
+|
+|move|p2a: Rotom|Volt Switch|p1a: Toxie
+|-resisted|p1a: Toxie
+|-crit|p1a: Toxie
+|-damage|p1a: Toxie|66/100
+|
+|switch|p2a: Umbreon|Umbreon, M|100/100|[from]move: Volt Switch
+|move|p1a: Toxie|Boomburst|p2a: Umbreon
+|-damage|p2a: Umbreon|66/100
+|
+|-heal|p2a: Umbreon|72/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Toxie|Nuzzle|p2a: Umbreon
+|-damage|p2a: Umbreon|67/100
+|-status|p2a: Umbreon|par
+|cant|p2a: Umbreon|par
+|
+|-heal|p2a: Umbreon|73/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Sweetie Belle|Rapidash-Galar, F, shiny|100/100
+|move|p2a: Umbreon|Moonlight|p2a: Umbreon
+|-heal|p2a: Umbreon|100/100 par
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Sweetie Belle|Play Rough|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|35/100 par
+|move|p2a: Umbreon|Foul Play|p1a: Sweetie Belle
+|-damage|p1a: Sweetie Belle|34/100
+|
+|-heal|p2a: Umbreon|41/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Sweetie Belle|Play Rough|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|47/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Sweetie Belle|Play Rough|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|89/100
+|-damage|p1a: Sweetie Belle|22/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Sweetie Belle|5/100|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Harry|Cinderace, M|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Harry
+|-start|p1a: Harry|move: Leech Seed
+|
+|-damage|p1a: Harry|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|99/100|[silent]
+|upkeep
+|turn|11
+|
+|switch|p1a: Toxie|Toxtricity, M|66/100
+|move|p2a: Ferrothorn|Protect||[still]
+|-fail|p2a: Ferrothorn
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Toxie|Nuzzle|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|97/100
+|-damage|p1a: Toxie|53/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Toxie|37/100|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|-status|p2a: Ferrothorn|par
+|move|p2a: Ferrothorn|Leech Seed|p1a: Toxie
+|-start|p1a: Toxie|move: Leech Seed
+|
+|-damage|p1a: Toxie|25/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100 par|[silent]
+|upkeep
+|turn|13
+|
+|switch|p1a: Harry|Cinderace, M|88/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Harry
+|-resisted|p1a: Harry
+|-damage|p1a: Harry|53/100
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Harry|Pyro Ball|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|79/100
+|
+|-heal|p2a: Toxapex|85/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|switch|p1a: Sweetie Belle|Rapidash-Galar, F, shiny|5/100
+|move|p2a: Toxapex|Toxic|p1a: Sweetie Belle
+|-immune|p1a: Sweetie Belle|[from] ability: Pastel Veil
+|
+|-heal|p2a: Toxapex|91/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p1a: Sweetie Belle|Psycho Cut|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|42/100
+|move|p2a: Toxapex|Scald|p1a: Sweetie Belle
+|-damage|p1a: Sweetie Belle|0 fnt
+|faint|p1a: Sweetie Belle
+|
+|-heal|p2a: Toxapex|48/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Toxie|Toxtricity, M|25/100
+|turn|17
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|move|p1a: Toxie|Overdrive|p2a: Corsola
+|-damage|p2a: Corsola|74/100
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Pangan|Vaporeon, F|100/100
+|move|p2a: Corsola|Night Shade|p1a: Pangan
+|-damage|p1a: Pangan|79/100
+|
+|-heal|p1a: Pangan|85/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Rotom|Rotom-Heat|49/100
+|move|p1a: Pangan|Aqua Ring|p1a: Pangan
+|-start|p1a: Pangan|Aqua Ring
+|
+|-heal|p2a: Rotom|55/100|[from] item: Leftovers
+|-heal|p1a: Pangan|91/100|[from] item: Leftovers
+|-heal|p1a: Pangan|98/100|[from] Aqua Ring
+|upkeep
+|turn|20
+|
+|move|p2a: Rotom|Volt Switch|p1a: Pangan
+|-supereffective|p1a: Pangan
+|-damage|p1a: Pangan|49/100
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100|[from]move: Volt Switch
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Pangan|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|58/100
+|-status|p2a: Corviknight|brn
+|
+|-heal|p2a: Corviknight|65/100 brn|[from] item: Leftovers
+|-heal|p1a: Pangan|56/100|[from] item: Leftovers
+|-heal|p1a: Pangan|62/100|[from] Aqua Ring
+|-damage|p2a: Corviknight|58/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Pangan
+|-damage|p1a: Pangan|41/100
+|-damage|p2a: Corviknight|50/100 brn|[from] Recoil
+|move|p1a: Pangan|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|13/100 brn
+|
+|-heal|p2a: Corviknight|20/100 brn|[from] item: Leftovers
+|-heal|p1a: Pangan|47/100|[from] item: Leftovers
+|-heal|p1a: Pangan|53/100|[from] Aqua Ring
+|-damage|p2a: Corviknight|13/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|63/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Pangan|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|21/100 brn
+|
+|-heal|p2a: Corviknight|27/100 brn|[from] item: Leftovers
+|-heal|p1a: Pangan|59/100|[from] item: Leftovers
+|-heal|p1a: Pangan|66/100|[from] Aqua Ring
+|-damage|p2a: Corviknight|21/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|71/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Pangan|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|31/100 brn
+|
+|-heal|p2a: Corviknight|37/100 brn|[from] item: Leftovers
+|-heal|p1a: Pangan|72/100|[from] item: Leftovers
+|-heal|p1a: Pangan|78/100|[from] Aqua Ring
+|-damage|p2a: Corviknight|31/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100 par
+|move|p1a: Pangan|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|85/100 par
+|
+|-heal|p1a: Pangan|84/100|[from] item: Leftovers
+|-heal|p1a: Pangan|91/100|[from] Aqua Ring
+|upkeep
+|turn|25
+|
+|move|p1a: Pangan|Ice Beam|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|61/100 par
+|move|p2a: Ferrothorn|Leech Seed|p1a: Pangan
+|-start|p1a: Pangan|move: Leech Seed
+|
+|-heal|p1a: Pangan|97/100|[from] item: Leftovers
+|-heal|p1a: Pangan|100/100|[from] Aqua Ring
+|-damage|p1a: Pangan|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|77/100 par|[silent]
+|upkeep
+|turn|26
+|
+|switch|p1a: Harry|Cinderace, M|53/100
+|move|p2a: Ferrothorn|Spikes|p1a: Harry
+|-sidestart|p1: jvrt|Spikes
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: Rotom|Rotom-Heat|55/100
+|move|p1a: Harry|Pyro Ball|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|15/100
+|
+|-heal|p2a: Rotom|22/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Harry|Pyro Ball|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, F|74/100
+|turn|29
+|
+|switch|p1a: Pangan|Vaporeon, F|88/100
+|-damage|p1a: Pangan|75/100|[from] Spikes
+|move|p2a: Corsola|Strength Sap|p1a: Pangan
+|-unboost|p1a: Pangan|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-heal|p1a: Pangan|82/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Pangan|Scald|p2a: Corsola
+|-damage|p2a: Corsola|80/100
+|-start|p1a: Pangan|Disable|Scald|[from] ability: Cursed Body|[of] p2a: Corsola
+|-status|p2a: Corsola|brn
+|move|p2a: Corsola|Will-O-Wisp|p1a: Pangan
+|-status|p1a: Pangan|brn
+|
+|-heal|p1a: Pangan|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Pangan|82/100 brn|[from] brn
+|-damage|p2a: Corsola|74/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p1a: Pangan|Aqua Ring|p1a: Pangan
+|-start|p1a: Pangan|Aqua Ring
+|move|p2a: Corsola|Night Shade|p1a: Pangan
+|-damage|p1a: Pangan|60/100 brn
+|
+|-heal|p1a: Pangan|66/100 brn|[from] item: Leftovers
+|-heal|p1a: Pangan|73/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|66/100 brn|[from] brn
+|-damage|p2a: Corsola|67/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p1a: Pangan|Shadow Ball|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|41/100 brn
+|move|p2a: Corsola|Substitute|p2a: Corsola
+|-start|p2a: Corsola|Substitute
+|-damage|p2a: Corsola|16/100 brn
+|
+|-heal|p1a: Pangan|73/100 brn|[from] item: Leftovers
+|-heal|p1a: Pangan|79/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|73/100 brn|[from] brn
+|-damage|p2a: Corsola|10/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p1a: Pangan|Shadow Ball|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-end|p2a: Corsola|Substitute
+|move|p2a: Corsola|Strength Sap|p1a: Pangan
+|-unboost|p1a: Pangan|atk|1
+|-heal|p2a: Corsola|35/100 brn
+|
+|-heal|p1a: Pangan|79/100 brn|[from] item: Leftovers
+|-heal|p1a: Pangan|85/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|79/100 brn|[from] brn
+|-damage|p2a: Corsola|28/100 brn|[from] brn
+|-end|p1a: Pangan|Disable
+|upkeep
+|turn|34
+|
+|switch|p2a: Umbreon|Umbreon, M|47/100 par
+|move|p1a: Pangan|Shadow Ball|p2a: Umbreon
+|-resisted|p2a: Umbreon
+|-damage|p2a: Umbreon|39/100 par
+|
+|-heal|p1a: Pangan|85/100 brn|[from] item: Leftovers
+|-heal|p2a: Umbreon|45/100 par|[from] item: Leftovers
+|-heal|p1a: Pangan|91/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|85/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|switch|p1a: Seol Hee|Frosmoth, F|100/100
+|move|p2a: Umbreon|Moonlight|p2a: Umbreon
+|-heal|p2a: Umbreon|95/100 par
+|
+|-heal|p2a: Umbreon|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p1a: Seol Hee|Quiver Dance|p1a: Seol Hee
+|-boost|p1a: Seol Hee|spa|1
+|-boost|p1a: Seol Hee|spd|1
+|-boost|p1a: Seol Hee|spe|1
+|cant|p2a: Umbreon|par
+|
+|upkeep
+|turn|37
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|77/100 par
+|move|p1a: Seol Hee|Bug Buzz|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|20/100 par
+|
+|upkeep
+|turn|38
+|
+|move|p1a: Seol Hee|Ice Beam|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, F|81/100
+|turn|39
+|
+|move|p1a: Seol Hee|Giga Drain|p2a: Toxapex
+|-damage|p2a: Toxapex|58/100
+|move|p2a: Toxapex|Toxic|p1a: Seol Hee
+|-status|p1a: Seol Hee|tox
+|
+|-heal|p2a: Toxapex|65/100|[from] item: Black Sludge
+|-damage|p1a: Seol Hee|94/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|switch|p1a: Harry|Cinderace, M|53/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|upkeep
+|turn|41
+|
+|move|p1a: Harry|Court Change|p1a: Harry
+|-sideend|p1: jvrt|Spikes|[silent]
+|-sidestart|p2: Globeband|Spikes|[silent]
+|-activate|p1a: Harry|move: Court Change
+|move|p2a: Toxapex|Toxic|p1a: Harry
+|-status|p1a: Harry|tox
+|
+|-damage|p1a: Harry|47/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|move|p1a: Harry|Pyro Ball|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|77/100
+|move|p2a: Toxapex|Scald|p1a: Harry
+|-supereffective|p1a: Harry
+|-damage|p1a: Harry|0 fnt
+|faint|p1a: Harry
+|
+|-heal|p2a: Toxapex|83/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Toxie|Toxtricity, M|25/100
+|turn|43
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Toxie|Overdrive|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|89/100|[from] item: Black Sludge
+|upkeep
+|turn|44
+|
+|move|p1a: Toxie|Overdrive|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|25/100
+|move|p2a: Toxapex|Scald|p1a: Toxie
+|-damage|p1a: Toxie|1/100
+|
+|-heal|p2a: Toxapex|32/100|[from] item: Black Sludge
+|upkeep
+|turn|45
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Toxie|Overdrive|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|38/100|[from] item: Black Sludge
+|upkeep
+|turn|46
+|
+|switch|p2a: Umbreon|Umbreon, M|100/100 par
+|-damage|p2a: Umbreon|88/100 par|[from] Spikes
+|move|p1a: Toxie|Overdrive|p2a: Umbreon
+|-damage|p2a: Umbreon|58/100 par
+|
+|-heal|p2a: Umbreon|64/100 par|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|switch|p1a: Pangan|Vaporeon, F|85/100 brn
+|cant|p2a: Umbreon|par
+|
+|-heal|p1a: Pangan|91/100 brn|[from] item: Leftovers
+|-heal|p2a: Umbreon|70/100 par|[from] item: Leftovers
+|-damage|p1a: Pangan|85/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|move|p1a: Pangan|Aqua Ring|p1a: Pangan
+|-start|p1a: Pangan|Aqua Ring
+|move|p2a: Umbreon|Moonlight|p2a: Umbreon
+|-heal|p2a: Umbreon|100/100 par
+|
+|-heal|p1a: Pangan|91/100 brn|[from] item: Leftovers
+|-heal|p1a: Pangan|98/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|91/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|switch|p2a: Corviknight|Corviknight, F|31/100 brn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Pangan|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-heal|p1a: Pangan|98/100 brn|[from] item: Leftovers
+|-heal|p1a: Pangan|100/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, F|28/100 brn
+|-damage|p2a: Corsola|16/100 brn|[from] Spikes
+|turn|50
+|
+|move|p1a: Pangan|Scald|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Umbreon|Umbreon, M|100/100 par
+|-damage|p2a: Umbreon|88/100 par|[from] Spikes
+|turn|51
+|
+|move|p1a: Pangan|Scald|p2a: Umbreon
+|-damage|p2a: Umbreon|66/100 par
+|move|p2a: Umbreon|Foul Play|p1a: Pangan
+|-damage|p1a: Pangan|75/100 brn
+|
+|-heal|p1a: Pangan|82/100 brn|[from] item: Leftovers
+|-heal|p2a: Umbreon|73/100 par|[from] item: Leftovers
+|-heal|p1a: Pangan|88/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|82/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|move|p1a: Pangan|Scald|p2a: Umbreon
+|-damage|p2a: Umbreon|51/100 par
+|move|p2a: Umbreon|Foul Play|p1a: Pangan
+|-damage|p1a: Pangan|61/100 brn
+|
+|-heal|p1a: Pangan|68/100 brn|[from] item: Leftovers
+|-heal|p2a: Umbreon|57/100 par|[from] item: Leftovers
+|-heal|p1a: Pangan|74/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|68/100 brn|[from] brn
+|upkeep
+|turn|53
+|
+|move|p1a: Pangan|Scald|p2a: Umbreon
+|-damage|p2a: Umbreon|34/100 par
+|move|p2a: Umbreon|Foul Play|p1a: Pangan
+|-damage|p1a: Pangan|50/100 brn
+|
+|-heal|p1a: Pangan|56/100 brn|[from] item: Leftovers
+|-heal|p2a: Umbreon|40/100 par|[from] item: Leftovers
+|-heal|p1a: Pangan|63/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|56/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|move|p1a: Pangan|Scald|p2a: Umbreon
+|-damage|p2a: Umbreon|21/100 par
+|move|p2a: Umbreon|Moonlight|p2a: Umbreon
+|-heal|p2a: Umbreon|71/100 par
+|
+|-heal|p1a: Pangan|63/100 brn|[from] item: Leftovers
+|-heal|p2a: Umbreon|77/100 par|[from] item: Leftovers
+|-heal|p1a: Pangan|69/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|63/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|move|p1a: Pangan|Scald|p2a: Umbreon
+|-damage|p2a: Umbreon|57/100 par
+|cant|p2a: Umbreon|par
+|
+|-heal|p1a: Pangan|69/100 brn|[from] item: Leftovers
+|-heal|p2a: Umbreon|63/100 par|[from] item: Leftovers
+|-heal|p1a: Pangan|75/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|69/100 brn|[from] brn
+|upkeep
+|turn|56
+|
+|move|p1a: Pangan|Ice Beam|p2a: Umbreon
+|-damage|p2a: Umbreon|46/100 par
+|cant|p2a: Umbreon|par
+|
+|-heal|p1a: Pangan|75/100 brn|[from] item: Leftovers
+|-heal|p2a: Umbreon|52/100 par|[from] item: Leftovers
+|-heal|p1a: Pangan|81/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|75/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|move|p1a: Pangan|Ice Beam|p2a: Umbreon
+|-damage|p2a: Umbreon|36/100 par
+|cant|p2a: Umbreon|par
+|
+|-heal|p1a: Pangan|81/100 brn|[from] item: Leftovers
+|-heal|p2a: Umbreon|42/100 par|[from] item: Leftovers
+|-heal|p1a: Pangan|88/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|81/100 brn|[from] brn
+|upkeep
+|turn|58
+|
+|move|p1a: Pangan|Ice Beam|p2a: Umbreon
+|-damage|p2a: Umbreon|26/100 par
+|move|p2a: Umbreon|Moonlight|p2a: Umbreon
+|-heal|p2a: Umbreon|76/100 par
+|
+|-heal|p1a: Pangan|88/100 brn|[from] item: Leftovers
+|-heal|p2a: Umbreon|82/100 par|[from] item: Leftovers
+|-heal|p1a: Pangan|94/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|88/100 brn|[from] brn
+|upkeep
+|turn|59
+|
+|move|p1a: Pangan|Scald|p2a: Umbreon
+|-damage|p2a: Umbreon|62/100 par
+|cant|p2a: Umbreon|par
+|
+|-heal|p1a: Pangan|94/100 brn|[from] item: Leftovers
+|-heal|p2a: Umbreon|68/100 par|[from] item: Leftovers
+|-heal|p1a: Pangan|99/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|60
+|
+|move|p1a: Pangan|Ice Beam|p2a: Umbreon
+|-damage|p2a: Umbreon|51/100 par
+|move|p2a: Umbreon|Moonlight|p2a: Umbreon
+|-heal|p2a: Umbreon|100/100 par
+|
+|-heal|p1a: Pangan|99/100 brn|[from] item: Leftovers
+|-heal|p1a: Pangan|100/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|61
+|
+|move|p1a: Pangan|Ice Beam|p2a: Umbreon
+|-damage|p2a: Umbreon|83/100 par
+|cant|p2a: Umbreon|par
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Umbreon|90/100 par|[from] item: Leftovers
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|62
+|
+|move|p1a: Pangan|Ice Beam|p2a: Umbreon
+|-damage|p2a: Umbreon|73/100 par
+|move|p2a: Umbreon|Foul Play|p1a: Pangan
+|-damage|p1a: Pangan|75/100 brn
+|
+|-heal|p1a: Pangan|82/100 brn|[from] item: Leftovers
+|-heal|p2a: Umbreon|79/100 par|[from] item: Leftovers
+|-heal|p1a: Pangan|88/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|82/100 brn|[from] brn
+|upkeep
+|turn|63
+|
+|move|p1a: Pangan|Ice Beam|p2a: Umbreon
+|-crit|p2a: Umbreon
+|-damage|p2a: Umbreon|55/100 par
+|move|p2a: Umbreon|Foul Play|p1a: Pangan
+|-damage|p1a: Pangan|62/100 brn
+|
+|-heal|p1a: Pangan|68/100 brn|[from] item: Leftovers
+|-heal|p2a: Umbreon|61/100 par|[from] item: Leftovers
+|-heal|p1a: Pangan|74/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|68/100 brn|[from] brn
+|upkeep
+|turn|64
+|
+|move|p1a: Pangan|Scald|p2a: Umbreon
+|-damage|p2a: Umbreon|41/100 par
+|cant|p2a: Umbreon|par
+|
+|-heal|p1a: Pangan|74/100 brn|[from] item: Leftovers
+|-heal|p2a: Umbreon|47/100 par|[from] item: Leftovers
+|-heal|p1a: Pangan|80/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|74/100 brn|[from] brn
+|upkeep
+|turn|65
+|
+|move|p1a: Pangan|Ice Beam|p2a: Umbreon
+|-damage|p2a: Umbreon|31/100 par
+|move|p2a: Umbreon|Moonlight|p2a: Umbreon
+|-heal|p2a: Umbreon|81/100 par
+|
+|-heal|p1a: Pangan|80/100 brn|[from] item: Leftovers
+|-heal|p2a: Umbreon|87/100 par|[from] item: Leftovers
+|-heal|p1a: Pangan|87/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|80/100 brn|[from] brn
+|upkeep
+|turn|66
+|
+|move|p1a: Pangan|Ice Beam|p2a: Umbreon
+|-crit|p2a: Umbreon
+|-damage|p2a: Umbreon|61/100 par
+|move|p2a: Umbreon|Foul Play|p1a: Pangan
+|-damage|p1a: Pangan|62/100 brn
+|
+|-heal|p1a: Pangan|68/100 brn|[from] item: Leftovers
+|-heal|p2a: Umbreon|67/100 par|[from] item: Leftovers
+|-heal|p1a: Pangan|75/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|68/100 brn|[from] brn
+|upkeep
+|turn|67
+|
+|move|p1a: Pangan|Ice Beam|p2a: Umbreon
+|-damage|p2a: Umbreon|50/100 par
+|move|p2a: Umbreon|Foul Play|p1a: Pangan
+|-damage|p1a: Pangan|49/100 brn
+|
+|-heal|p1a: Pangan|56/100 brn|[from] item: Leftovers
+|-heal|p2a: Umbreon|57/100 par|[from] item: Leftovers
+|-heal|p1a: Pangan|62/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|56/100 brn|[from] brn
+|upkeep
+|turn|68
+|
+|move|p1a: Pangan|Ice Beam|p2a: Umbreon
+|-damage|p2a: Umbreon|39/100 par
+|move|p2a: Umbreon|Foul Play|p1a: Pangan
+|-damage|p1a: Pangan|36/100 brn
+|
+|-heal|p1a: Pangan|43/100 brn|[from] item: Leftovers
+|-heal|p2a: Umbreon|45/100 par|[from] item: Leftovers
+|-heal|p1a: Pangan|49/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|43/100 brn|[from] brn
+|upkeep
+|turn|69
+|
+|move|p1a: Pangan|Scald|p2a: Umbreon
+|-damage|p2a: Umbreon|24/100 par
+|move|p2a: Umbreon|Foul Play|p1a: Pangan
+|-damage|p1a: Pangan|24/100 brn
+|
+|-heal|p1a: Pangan|30/100 brn|[from] item: Leftovers
+|-heal|p2a: Umbreon|30/100 par|[from] item: Leftovers
+|-heal|p1a: Pangan|36/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|30/100 brn|[from] brn
+|upkeep
+|turn|70
+|
+|move|p1a: Pangan|Scald|p2a: Umbreon
+|-damage|p2a: Umbreon|9/100 par
+|cant|p2a: Umbreon|par
+|
+|-heal|p1a: Pangan|36/100 brn|[from] item: Leftovers
+|-heal|p2a: Umbreon|15/100 par|[from] item: Leftovers
+|-heal|p1a: Pangan|42/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|36/100 brn|[from] brn
+|upkeep
+|turn|71
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Pangan|Scald|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p1a: Pangan|42/100 brn|[from] item: Leftovers
+|-heal|p2a: Umbreon|22/100 par|[from] item: Leftovers
+|-heal|p1a: Pangan|49/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|42/100 brn|[from] brn
+|upkeep
+|turn|72
+|
+|move|p1a: Pangan|Scald|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|faint|p2a: Umbreon
+|
+|-heal|p1a: Pangan|49/100 brn|[from] item: Leftovers
+|-heal|p1a: Pangan|55/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|49/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, F|71/100
+|-damage|p2a: Toxapex|59/100|[from] Spikes
+|turn|73
+|
+|move|p1a: Pangan|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|42/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|92/100
+|
+|-heal|p1a: Pangan|55/100 brn|[from] item: Leftovers
+|-heal|p2a: Toxapex|99/100|[from] item: Black Sludge
+|-heal|p1a: Pangan|61/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|55/100 brn|[from] brn
+|upkeep
+|turn|74
+|
+|move|p1a: Pangan|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|82/100
+|move|p2a: Toxapex|Scald|p1a: Pangan
+|-heal|p1a: Pangan|80/100 brn|[from] ability: Water Absorb|[of] p2a: Toxapex
+|
+|-heal|p1a: Pangan|86/100 brn|[from] item: Leftovers
+|-heal|p2a: Toxapex|88/100|[from] item: Black Sludge
+|-heal|p1a: Pangan|92/100 brn|[from] Aqua Ring
+|-damage|p1a: Pangan|86/100 brn|[from] brn
+|upkeep
+|turn|75
+|
+|move|p1a: Pangan|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|72/100
+|move|p2a: Toxapex|Scald|p1a: Pangan
+|-heal|p1a: Pangan|100/100 brn|[from] ability: Water Absorb|[of] p2a: Toxapex
+|
+|-heal|p2a: Toxapex|78/100|[from] item: Black Sludge
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|76
+|
+|move|p1a: Pangan|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|60/100
+|move|p2a: Toxapex|Toxic||[still]
+|-fail|p2a: Toxapex
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Toxapex|67/100|[from] item: Black Sludge
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|77
+|
+|move|p1a: Pangan|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|51/100
+|-unboost|p2a: Toxapex|spd|1
+|move|p2a: Toxapex|Toxic||[still]
+|-fail|p2a: Toxapex
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Toxapex|57/100|[from] item: Black Sludge
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|78
+|
+|move|p1a: Pangan|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|32/100
+|-unboost|p2a: Toxapex|spd|1
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|82/100
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Toxapex|88/100|[from] item: Black Sludge
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|79
+|
+|move|p1a: Pangan|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|55/100
+|-unboost|p2a: Toxapex|spd|1
+|move|p2a: Toxapex|Toxic||[still]
+|-fail|p2a: Toxapex
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Toxapex|61/100|[from] item: Black Sludge
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|80
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Pangan|Shadow Ball|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Toxapex|68/100|[from] item: Black Sludge
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|81
+|
+|move|p1a: Pangan|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|26/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|76/100
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Toxapex|82/100|[from] item: Black Sludge
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|82
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Pangan|Shadow Ball|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Toxapex|89/100|[from] item: Black Sludge
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|83
+|
+|move|p1a: Pangan|Shadow Ball|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|21/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|71/100
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Toxapex|77/100|[from] item: Black Sludge
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|84
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Pangan|Ice Beam|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Toxapex|83/100|[from] item: Black Sludge
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|85
+|
+|move|p1a: Pangan|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|43/100
+|-unboost|p2a: Toxapex|spd|1
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|93/100
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Toxapex|99/100|[from] item: Black Sludge
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|86
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Pangan|Aqua Ring||[still]
+|-fail|p1a: Pangan
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|87
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Globeband)
+|
+|move|p1a: Pangan|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|50/100
+|move|p2a: Toxapex|Toxic||[still]
+|-fail|p2a: Toxapex
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Toxapex|56/100|[from] item: Black Sludge
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|88
+|
+|move|p1a: Pangan|Ice Beam|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|25/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|75/100
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Toxapex|81/100|[from] item: Black Sludge
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|89
+|
+|move|p1a: Pangan|Aqua Ring||[still]
+|-fail|p1a: Pangan
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|90
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Pangan|Ice Beam|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|91
+|
+|move|p1a: Pangan|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|49/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|99/100
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|92
+|
+|move|p1a: Pangan|Aqua Ring||[still]
+|-fail|p1a: Pangan
+|move|p2a: Toxapex|Recover||[still]
+|-fail|p2a: Toxapex|heal
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|93
+|
+|move|p1a: Pangan|Aqua Ring||[still]
+|-fail|p1a: Pangan
+|move|p2a: Toxapex|Recover||[still]
+|-fail|p2a: Toxapex|heal
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|94
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Pangan|Aqua Ring||[still]
+|-fail|p1a: Pangan
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|95
+|
+|move|p2a: Toxapex|Baneful Bunker||[still]
+|-fail|p2a: Toxapex
+|move|p1a: Pangan|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|49/100
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Toxapex|55/100|[from] item: Black Sludge
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|96
+|
+|move|p1a: Pangan|Aqua Ring||[still]
+|-fail|p1a: Pangan
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|97
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Pangan|Shadow Ball|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|98
+|
+|move|p1a: Pangan|Ice Beam|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|72/100
+|-status|p2a: Toxapex|frz
+|cant|p2a: Toxapex|frz
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Toxapex|78/100 frz|[from] item: Black Sludge
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|99
+|
+|move|p1a: Pangan|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|30/100 frz
+|-unboost|p2a: Toxapex|spd|1
+|cant|p2a: Toxapex|frz
+|
+|-heal|p1a: Pangan|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Toxapex|37/100 frz|[from] item: Black Sludge
+|-damage|p1a: Pangan|94/100 brn|[from] brn
+|upkeep
+|turn|100
+|
+|move|p1a: Pangan|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|win|jvrt
+|l|☆Globeband
+|raw|jvrt's rating: 1176 → 1201(+25 for winning)
+|raw|Globeband's rating: 1176 → 1151(-25 for losing)

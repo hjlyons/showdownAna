@@ -1,0 +1,498 @@
+|ScrapeTime|2020-01-02-01:58:38
+|j|☆Gen8=Big Trash
+|j|☆Hurfra
+|player|p1|Gen8=Big Trash|168|1554
+|player|p2|Hurfra|2|1530
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Mamoswine, M|
+|poke|p1|Ditto|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Ferrothorn, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Gengar, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gen8=Big Trash)
+|
+|start
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Mandibuzz|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|84/100
+|-damage|p1a: Mandibuzz|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Mandibuzz|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|cant|p2a: Ferrothorn|move: Taunt|Spikes
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Mandibuzz|Knock Off|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|94/100
+|-enditem|p2a: Mandibuzz|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Mandibuzz|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-damage|p1a: Rotom|95/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Seismitoad
+|-status|p2a: Seismitoad|brn
+|
+|-damage|p1a: Rotom|83/100 tox|[from] psn
+|-damage|p2a: Seismitoad|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|88/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: Gen8=Big Trash|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p1a: Mandibuzz|Taunt|p2a: Grimmsnarl
+|-start|p2a: Grimmsnarl|move: Taunt
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|86/100
+|-unboost|p1a: Ferrothorn|spa|1
+|
+|-heal|p1a: Ferrothorn|92/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Dragapult
+|-start|p2a: Dragapult|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|98/100|[from] item: Leftovers
+|-damage|p2a: Dragapult|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|10
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|84/100
+|move|p1a: Ferrothorn|Protect||[still]
+|-fail|p1a: Ferrothorn
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|88/100
+|move|p2a: Ferrothorn|Spikes|p1a: Mandibuzz
+|-sidestart|p1: Gen8=Big Trash|Spikes
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Mandibuzz|Defog|p2a: Gengar
+|-unboost|p2a: Gengar|evasion|1
+|-sideend|p1: Gen8=Big Trash|Spikes|[from] move: Defog|[of] p1a: Mandibuzz
+|-sideend|p1: Gen8=Big Trash|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Gengar|Trick|p1a: Mandibuzz
+|-activate|p2a: Gengar|move: Trick|[of] p1a: Mandibuzz
+|-item|p1a: Mandibuzz|Choice Scarf|[from] move: Trick
+|-item|p2a: Gengar|Heavy-Duty Boots|[from] move: Trick
+|move|p1a: Mandibuzz|Knock Off|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|3/100
+|-start|p1a: Mandibuzz|Disable|Knock Off|[from] ability: Cursed Body|[of] p2a: Gengar
+|-enditem|p2a: Gengar|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|84/100
+|-activate|p1a: Mandibuzz|move: Struggle
+|move|p1a: Mandibuzz|Struggle|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|79/100
+|-damage|p1a: Mandibuzz|75/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Mandibuzz|50/100|[from] recoil
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Rotom|Rotom-Heat|83/100 tox
+|move|p2a: Ferrothorn|Spikes|p1a: Rotom
+|-sidestart|p1: Gen8=Big Trash|Spikes
+|
+|-damage|p1a: Rotom|77/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|88/100|[from] Spikes
+|move|p2a: Ferrothorn|Protect||[still]
+|-fail|p2a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Dragapult|Dragapult, M|88/100
+|move|p1a: Ferrothorn|Spikes|p2a: Dragapult
+|-sidestart|p2: Hurfra|Spikes
+|
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|69/100
+|
+|-heal|p2a: Dragapult|75/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Rotom|Rotom-Heat|77/100 tox
+|move|p2a: Dragapult|Will-O-Wisp||[still]
+|-fail|p2a: Dragapult
+|
+|-heal|p2a: Dragapult|81/100|[from] item: Leftovers
+|-damage|p1a: Rotom|71/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p2a: Dragapult|Dragon Pulse|p1a: Rotom
+|-damage|p1a: Rotom|32/100 tox
+|move|p1a: Rotom|Volt Switch|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-activate|p2a: Dragapult|move: Substitute|[damage]
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|50/100|[from]move: Volt Switch
+|
+|-heal|p2a: Dragapult|87/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Mandibuzz
+|-status|p1a: Mandibuzz|brn
+|move|p1a: Mandibuzz|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|93/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|44/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|68/100
+|move|p1a: Mandibuzz|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|74/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|38/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|79/100
+|-damage|p2a: Ferrothorn|67/100|[from] Spikes
+|move|p1a: Mandibuzz|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|62/100
+|-damage|p1a: Mandibuzz|26/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-damage|p1a: Mandibuzz|20/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Dragapult
+|-sidestart|p1: Gen8=Big Trash|Spikes
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|94/100
+|move|p1a: Dragapult|Fire Blast|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|54/100
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|-damage|p1a: Mamoswine|84/100|[from] Spikes
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Mamoswine|Stealth Rock|p2a: Mandibuzz
+|-sidestart|p2: Hurfra|move: Stealth Rock
+|move|p2a: Mandibuzz|Toxic|p1a: Mamoswine
+|-status|p1a: Mamoswine|tox
+|
+|-damage|p1a: Mamoswine|78/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|switch|p2a: Seismitoad|Seismitoad, M|94/100 brn
+|-damage|p2a: Seismitoad|82/100 brn|[from] Spikes
+|-damage|p2a: Seismitoad|76/100 brn|[from] Stealth Rock
+|move|p1a: Mamoswine|Icicle Crash|p2a: Seismitoad
+|-damage|p2a: Seismitoad|31/100 brn
+|-damage|p1a: Mamoswine|68/100 tox|[from] item: Life Orb
+|
+|-heal|p2a: Seismitoad|37/100 brn|[from] item: Leftovers
+|-damage|p1a: Mamoswine|56/100 tox|[from] psn
+|-damage|p2a: Seismitoad|31/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Mamoswine|Icicle Crash|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-heal|p2a: Seismitoad|37/100 brn|[from] item: Leftovers
+|-damage|p1a: Mamoswine|38/100 tox|[from] psn
+|-damage|p2a: Seismitoad|31/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|62/100
+|-damage|p2a: Ferrothorn|56/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|44/100|[from] Spikes
+|move|p1a: Mamoswine|Icicle Crash|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Mamoswine|28/100 tox|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|-damage|p1a: Mamoswine|3/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, M|31/100 brn
+|-damage|p2a: Seismitoad|18/100 brn|[from] Spikes
+|-damage|p2a: Seismitoad|12/100 brn|[from] Stealth Rock
+|turn|31
+|
+|switch|p1a: Dragapult|Dragapult, M|88/100
+|-damage|p1a: Dragapult|72/100|[from] Spikes
+|move|p2a: Seismitoad|Protect||[still]
+|-fail|p2a: Seismitoad
+|
+|-heal|p2a: Seismitoad|18/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|12/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Dragapult|Shadow Ball|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-heal|p2a: Seismitoad|18/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|12/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|-damage|p2a: Mandibuzz|76/100|[from] Stealth Rock
+|move|p1a: Dragapult|Shadow Ball|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|54/100
+|
+|upkeep
+|turn|34
+|
+|switch|p1a: Rotom|Rotom-Heat|32/100 tox
+|move|p2a: Mandibuzz|Defog|p1a: Rotom
+|-unboost|p1a: Rotom|evasion|1
+|-sideend|p1: Gen8=Big Trash|Spikes|[from] move: Defog|[of] p2a: Mandibuzz
+|-sideend|p2: Hurfra|Spikes|[from] move: Defog|[of] p2a: Mandibuzz
+|-sideend|p2: Hurfra|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|
+|-damage|p1a: Rotom|26/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|switch|p2a: Seismitoad|Seismitoad, M|12/100 brn
+|move|p1a: Rotom|Volt Switch|p2a: Seismitoad
+|-immune|p2a: Seismitoad
+|
+|-heal|p2a: Seismitoad|18/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|14/100 tox|[from] psn
+|-damage|p2a: Seismitoad|12/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|move|p1a: Rotom|Overheat|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Seismitoad
+|
+|-damage|p1a: Rotom|0 fnt|[from] psn
+|faint|p1a: Rotom
+|upkeep
+|
+|switch|p1a: Mamoswine|Mamoswine, M|3/100 tox
+|switch|p2a: Dragapult|Dragapult, M|74/100
+|turn|37
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p1a: Mamoswine|Ice Shard|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|65/100
+|-damage|p1a: Mamoswine|0 fnt|[from] item: Life Orb
+|faint|p1a: Mamoswine
+|
+|-heal|p2a: Grimmsnarl|71/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Grimmsnarl|[from] ability: Imposter
+|turn|38
+|
+|move|p1a: Ditto|Spirit Break|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, M|3/100
+|turn|39
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|20/100 brn
+|move|p2a: Gengar|Sludge Bomb|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|72/100
+|turn|40
+|
+|move|p1a: Dragapult|U-turn|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-start|p1a: Dragapult|Disable|U-turn|[from] ability: Cursed Body|[of] p2a: Gengar
+|faint|p2a: Gengar
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|74/100
+|turn|41
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|49/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Dragapult|[miss]
+|-miss|p1a: Ferrothorn|p2a: Dragapult
+|
+|-heal|p2a: Dragapult|55/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Power Whip|p2a: Dragapult|[miss]
+|-miss|p1a: Ferrothorn|p2a: Dragapult
+|
+|-heal|p2a: Dragapult|61/100|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|move|p2a: Dragapult|Hex|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|43/100 brn
+|move|p1a: Ferrothorn|Power Whip|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-activate|p2a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p2a: Dragapult|67/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|49/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|43/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|move|p2a: Dragapult|Hex|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-heal|p2a: Dragapult|73/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|72/100
+|turn|45
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|54/100
+|move|p1a: Dragapult|Draco Meteor|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|73/100
+|turn|46
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Dragapult
+|
+|win|Gen8=Big Trash
+|l|☆Hurfra

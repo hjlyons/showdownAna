@@ -1,0 +1,249 @@
+|ScrapeTime|2020-01-03-01:35:48
+|j|☆Yeskey
+|j|☆lrav1567
+|player|p1|Yeskey|pokefan-gen4|1047
+|player|p2|lrav1567|volkner|1026
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mr. Rime, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Drednaw, F|
+|poke|p1|Hawlucha, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Clefable, F|
+|poke|p2|Perrserker, F|
+|poke|p2|Shiftry, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Heliolisk, F|
+|poke|p2|Flapple, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|switch|p2a: Flapple|Flapple, F|100/100
+|-item|p1a: Hawlucha|Air Balloon
+|turn|1
+|
+|move|p1a: Hawlucha|Brave Bird|p2a: Flapple
+|-supereffective|p2a: Flapple
+|-damage|p2a: Flapple|0 fnt
+|-damage|p1a: Hawlucha|69/100|[from] Recoil
+|faint|p2a: Flapple
+|
+|upkeep
+|
+|switch|p2a: Heliolisk|Heliolisk, F|100/100
+|turn|2
+|
+|move|p2a: Heliolisk|Sunny Day|p2a: Heliolisk
+|-weather|SunnyDay
+|move|p1a: Hawlucha|U-turn|p2a: Heliolisk
+|-damage|p2a: Heliolisk|52/100
+|
+|switch|p1a: Clefable|Clefable, F|100/100|[from]move: U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Heliolisk|40/100|[from] ability: Solar Power|[of] p2a: Heliolisk
+|upkeep
+|turn|3
+|
+|move|p2a: Heliolisk|Hyper Voice|p1a: Clefable
+|-damage|p1a: Clefable|44/100
+|move|p1a: Clefable|Dazzling Gleam|p2a: Heliolisk
+|-damage|p2a: Heliolisk|0 fnt
+|faint|p2a: Heliolisk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Shiftry|Shiftry, M|100/100
+|turn|4
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Shiftry|Growth|p2a: Shiftry
+|-boost|p2a: Shiftry|atk|2
+|-boost|p2a: Shiftry|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Shiftry|Air Slash|p1a: Dragapult
+|-damage|p1a: Dragapult|75/100
+|move|p1a: Dragapult|Flamethrower|p2a: Shiftry
+|-supereffective|p2a: Shiftry
+|-enditem|p2a: Shiftry|Focus Sash
+|-damage|p2a: Shiftry|1/100
+|-status|p2a: Shiftry|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Shiftry|0 fnt|[from] brn
+|faint|p2a: Shiftry
+|upkeep
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|6
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|15/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|18/100
+|-heal|p2a: Hatterene|84/100|[from] drain|[of] p1a: Dragapult
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|5/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-heal|p2a: Hatterene|27/100|[from] drain|[of] p1a: Dragapult
+|faint|p1a: Dragapult
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|turn|8
+|
+|move|p2a: Hatterene|Mystical Fire|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Drednaw|Drednaw, F|100/100
+|turn|9
+|
+|move|p1a: Drednaw|Stone Edge|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Perrserker|Perrserker, F|100/100
+|turn|10
+|
+|move|p1a: Drednaw|Substitute|p1a: Drednaw
+|-start|p1a: Drednaw|Substitute
+|-damage|p1a: Drednaw|76/100
+|move|p2a: Perrserker|Metal Burst||[still]
+|-fail|p2a: Perrserker
+|
+|-heal|p1a: Drednaw|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Drednaw|Stone Edge|p2a: Perrserker|[miss]
+|-miss|p1a: Drednaw|p2a: Perrserker
+|move|p2a: Perrserker|Gyro Ball|p1a: Drednaw
+|-end|p1a: Drednaw|Substitute
+|
+|-heal|p1a: Drednaw|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Hawlucha|Hawlucha, M|69/100
+|-item|p1a: Hawlucha|Air Balloon
+|move|p2a: Perrserker|Gyro Ball|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|-enditem|p1a: Hawlucha|Air Balloon
+|faint|p1a: Hawlucha
+|
+|upkeep
+|
+|switch|p1a: Drednaw|Drednaw, F|88/100
+|turn|13
+|
+|move|p1a: Drednaw|Liquidation|p2a: Perrserker
+|-damage|p2a: Perrserker|63/100
+|move|p2a: Perrserker|Gyro Ball|p1a: Drednaw
+|-damage|p1a: Drednaw|34/100
+|
+|-heal|p1a: Drednaw|40/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Drednaw|Stone Edge|p2a: Perrserker|[miss]
+|-miss|p1a: Drednaw|p2a: Perrserker
+|move|p2a: Perrserker|Metal Burst||[still]
+|-fail|p2a: Perrserker
+|
+|-heal|p1a: Drednaw|46/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Drednaw|Stone Edge|p2a: Perrserker
+|-resisted|p2a: Perrserker
+|-damage|p2a: Perrserker|42/100
+|move|p2a: Perrserker|Gyro Ball|p1a: Drednaw
+|-damage|p1a: Drednaw|0 fnt
+|faint|p1a: Drednaw
+|
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, F|44/100
+|turn|16
+|
+|move|p1a: Clefable|Thunderbolt|p2a: Perrserker
+|-damage|p2a: Perrserker|0 fnt
+|faint|p2a: Perrserker
+|
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|17
+|
+|move|p1a: Clefable|Moonblast|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|8/100
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-heal|p2a: Grimmsnarl|14/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Mr. Rime|Mr. Rime, M|100/100
+|turn|18
+|
+|move|p2a: Grimmsnarl|Sucker Punch|p1a: Mr. Rime
+|-supereffective|p1a: Mr. Rime
+|-damage|p1a: Mr. Rime|46/100
+|move|p1a: Mr. Rime|Rapid Spin|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|4/100
+|-boost|p1a: Mr. Rime|spe|1
+|
+|-heal|p2a: Grimmsnarl|10/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Grimmsnarl|Sucker Punch|p1a: Mr. Rime
+|-supereffective|p1a: Mr. Rime
+|-damage|p1a: Mr. Rime|0 fnt
+|faint|p1a: Mr. Rime
+|
+|win|lrav1567
+|raw|Yeskey's rating: 1047 → 1029(-18 for losing)
+|raw|lrav1567's rating: 1026 → 1064(+38 for winning)

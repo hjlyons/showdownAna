@@ -1,0 +1,278 @@
+|ScrapeTime|2020-01-02-02:14:38
+|j|☆agary123
+|j|☆nkE#Qsddasdasc
+|player|p1|agary123|7|1193
+|player|p2|nkE#Qsddasdasc|camper|1159
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Vikavolt, F|
+|poke|p1|Orbeetle, M|
+|poke|p1|Araquanid, F|
+|poke|p1|Butterfree, M|
+|poke|p1|Durant, F|
+|poke|p1|Frosmoth, F|
+|poke|p2|Morgrem, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Cursola, M|
+|poke|p2|Mr. Mime-Galar, F|
+|poke|p2|Inteleon, M|
+|poke|p2|Trapinch, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nkE#Qsddasdasc)
+|
+|start
+|switch|p1a: Vikavolt|Vikavolt, F|100/100
+|switch|p2a: Morgrem|Morgrem, M|100/100
+|turn|1
+|
+|move|p2a: Morgrem|Swagger|p1a: Vikavolt
+|-boost|p1a: Vikavolt|atk|2
+|-start|p1a: Vikavolt|confusion
+|-activate|p1a: Vikavolt|confusion
+|move|p1a: Vikavolt|Flash Cannon|p2a: Morgrem
+|-supereffective|p2a: Morgrem
+|-damage|p2a: Morgrem|0 fnt
+|faint|p2a: Morgrem
+|
+|upkeep
+|
+|switch|p2a: Inteleon|Inteleon, M|100/100
+|turn|2
+|
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|move|p2a: Inteleon|Hydro Pump|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|77/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Cursola|Cursola, M|100/100
+|move|p1a: Araquanid|Leech Life|p2a: Cursola
+|-resisted|p2a: Cursola
+|-damage|p2a: Cursola|83/100
+|-heal|p1a: Araquanid|85/100|[from] drain|[of] p2a: Cursola
+|-ability|p2a: Cursola|Perish Body
+|-start|p2a: Cursola|perish3
+|-start|p1a: Araquanid|perish3
+|
+|-heal|p2a: Cursola|89/100|[from] item: Leftovers
+|-start|p1a: Araquanid|perish3
+|-start|p2a: Cursola|perish3
+|upkeep
+|turn|4
+|
+|switch|p1a: Vikavolt|Vikavolt, F|100/100
+|move|p2a: Cursola|Strength Sap|p1a: Vikavolt
+|-unboost|p1a: Vikavolt|atk|1
+|-heal|p2a: Cursola|100/100
+|
+|-start|p2a: Cursola|perish2
+|upkeep
+|turn|5
+|
+|switch|p2a: Mr. Mime|Mr. Mime-Galar, F|100/100
+|move|p1a: Vikavolt|Volt Switch|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|43/100
+|
+|switch|p1a: Durant|Durant, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Cursola|Cursola, M|100/100
+|move|p1a: Durant|Iron Head|p2a: Cursola
+|-damage|p2a: Cursola|25/100
+|-ability|p2a: Cursola|Perish Body
+|-start|p2a: Cursola|perish3
+|-start|p1a: Durant|perish3
+|
+|-heal|p2a: Cursola|32/100|[from] item: Leftovers
+|-start|p1a: Durant|perish3
+|-start|p2a: Cursola|perish3
+|upkeep
+|turn|7
+|
+|switch|p2a: Trapinch|Trapinch, M, shiny|100/100
+|move|p1a: Durant|Iron Head|p2a: Trapinch|[miss]
+|-miss|p1a: Durant|p2a: Trapinch
+|
+|-start|p1a: Durant|perish2
+|upkeep
+|turn|8
+|
+|move|p2a: Trapinch|Protect|p2a: Trapinch
+|-singleturn|p2a: Trapinch|Protect
+|move|p1a: Durant|Iron Head|p2a: Trapinch
+|-activate|p2a: Trapinch|move: Protect
+|
+|-start|p1a: Durant|perish1
+|upkeep
+|turn|9
+|
+|switch|p2a: Mr. Mime|Mr. Mime-Galar, F|43/100
+|move|p1a: Durant|Iron Head|p2a: Mr. Mime|[miss]
+|-miss|p1a: Durant|p2a: Mr. Mime
+|
+|-start|p1a: Durant|perish0
+|upkeep
+|faint|p1a: Durant
+|
+|switch|p1a: Butterfree|Butterfree, M|100/100
+|turn|10
+|
+|move|p2a: Mr. Mime|Freeze-Dry|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-damage|p1a: Butterfree|17/100
+|move|p1a: Butterfree|Sleep Powder|p2a: Mr. Mime
+|-immune|p2a: Mr. Mime|[from] ability: Vital Spirit
+|
+|-heal|p1a: Butterfree|23/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Mr. Mime|Freeze-Dry|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-damage|p1a: Butterfree|0 fnt
+|faint|p1a: Butterfree
+|
+|upkeep
+|
+|switch|p1a: Araquanid|Araquanid, F|85/100
+|turn|12
+|
+|switch|p2a: Cursola|Cursola, M|32/100
+|move|p1a: Araquanid|Liquidation|p2a: Cursola
+|-damage|p2a: Cursola|0 fnt
+|-ability|p2a: Cursola|Perish Body
+|-start|p2a: Cursola|perish3
+|-start|p1a: Araquanid|perish3
+|faint|p2a: Cursola
+|
+|-start|p1a: Araquanid|perish3
+|upkeep
+|
+|switch|p2a: Trapinch|Trapinch, M, shiny|100/100
+|turn|13
+|
+|move|p2a: Trapinch|Protect|p2a: Trapinch
+|-singleturn|p2a: Trapinch|Protect
+|move|p1a: Araquanid|Liquidation|p2a: Trapinch
+|-activate|p2a: Trapinch|move: Protect
+|
+|-start|p1a: Araquanid|perish2
+|upkeep
+|turn|14
+|
+|move|p1a: Araquanid|Liquidation|p2a: Trapinch
+|-supereffective|p2a: Trapinch
+|-damage|p2a: Trapinch|0 fnt
+|faint|p2a: Trapinch
+|
+|-start|p1a: Araquanid|perish1
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|15
+|
+|switch|p1a: Vikavolt|Vikavolt, F|100/100
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|76/100
+|
+|-heal|p2a: Corviknight|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Vikavolt|Volt Switch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|
+|switch|p1a: Araquanid|Araquanid, F|85/100|[from]move: Volt Switch
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Araquanid|Hydro Pump|p2a: Corviknight
+|-damage|p2a: Corviknight|61/100
+|
+|-heal|p2a: Corviknight|67/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|43/100
+|move|p1a: Araquanid|Hydro Pump|p2a: Corviknight|[miss]
+|-miss|p1a: Araquanid|p2a: Corviknight
+|
+|-heal|p2a: Corviknight|49/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|99/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Araquanid|Hydro Pump|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Vikavolt|Vikavolt, F|100/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Vikavolt|Volt Switch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|18/100
+|
+|switch|p1a: Frosmoth|Frosmoth, F|100/100|[from]move: Volt Switch
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|68/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|74/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Frosmoth|Hurricane|p2a: Corviknight|[miss]
+|-miss|p1a: Frosmoth|p2a: Corviknight
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|49/100
+|
+|-heal|p2a: Corviknight|55/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|-message|agary123 forfeited.
+|
+|win|nkE#Qsddasdasc
+|l|☆agary123
+|raw|agary123's rating: 1193 → 1166(-27 for losing)
+|raw|nkE#Qsddasdasc's rating: 1159 → 1186(+27 for winning)

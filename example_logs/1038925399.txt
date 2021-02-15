@@ -1,0 +1,172 @@
+|ScrapeTime|2020-01-01-00:49:21
+|j|☆fuck these kids
+|j|☆Supprime
+|player|p1|fuck these kids|79|1351
+|player|p2|Supprime|roxanne|1377
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Dracovish|
+|poke|p1|Corviknight, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Tyranitar, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Rotom-Mow|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Cinderace, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| gen8isHOTgarbage
+|
+|start
+|switch|p1a: Dracovish|Dracovish|100/100
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Supprime)
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|80/100
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Dragapult|Thunderbolt|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|56/100
+|move|p2a: Mandibuzz|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|15/100
+|-enditem|p1a: Dragapult|Choice Specs|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|3
+|inactive|fuck these kids has 120 seconds left.
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|23/100
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|73/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Mandibuzz|Knock Off|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|92/100
+|-enditem|p1a: Tyranitar|Assault Vest|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Seismitoad|92/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|fuck these kids has 120 seconds left.
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|move|p2a: Seismitoad|Toxic|p1a: Corsola
+|-status|p1a: Corsola|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|94/100 tox|[from] Sandstorm
+|-heal|p2a: Seismitoad|98/100|[from] item: Leftovers
+|-damage|p1a: Corsola|88/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Corsola|Will-O-Wisp|p2a: Hatterene
+|move|p2a: Hatterene|Will-O-Wisp||[from]Magic Bounce|[still]
+|-fail|p2a: Hatterene
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|82/100 tox|[from] Sandstorm
+|-damage|p2a: Hatterene|95/100|[from] Sandstorm
+|-heal|p2a: Hatterene|100/100|[from] item: Leftovers
+|-damage|p1a: Corsola|70/100 tox|[from] psn
+|upkeep
+|turn|8
+|inactive|fuck these kids has 120 seconds left.
+|
+|move|p1a: Corsola|Night Shade|p2a: Hatterene
+|-damage|p2a: Hatterene|69/100
+|move|p2a: Hatterene|Future Sight|p1a: Corsola
+|-start|p2a: Hatterene|move: Future Sight
+|
+|-weather|none
+|-heal|p2a: Hatterene|75/100|[from] item: Leftovers
+|-damage|p1a: Corsola|51/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Corsola|Strength Sap|p2a: Dragapult
+|-unboost|p2a: Dragapult|atk|1
+|-heal|p1a: Corsola|100/100 tox
+|
+|-damage|p1a: Corsola|76/100 tox|[from] psn
+|upkeep
+|turn|10
+|inactive|fuck these kids has 120 seconds left.
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Dragapult|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|96/100
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100|[from]move: U-turn
+|
+|-end|p1a: Corviknight|move: Future Sight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|67/100
+|-heal|p1a: Corviknight|73/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Rotom|Volt Switch|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|22/100
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100|[from]move: Volt Switch
+|move|p1a: Corviknight|Brave Bird|p2a: Cinderace
+|-damage|p2a: Cinderace|46/100
+|-damage|p1a: Corviknight|9/100|[from] Recoil
+|
+|-heal|p1a: Corviknight|15/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|-message|fuck these kids forfeited.
+|
+|win|Supprime
+|raw|fuck these kids's rating: 1352 → 1333(-19 for losing)
+|raw|Supprime's rating: 1377 → 1395(+18 for winning)

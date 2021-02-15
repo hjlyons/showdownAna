@@ -1,0 +1,286 @@
+|ScrapeTime|2020-01-01-01:52:26
+|j|☆xKaz UL
+|j|☆ToxicWyvern
+|player|p1|xKaz UL|266|1111
+|player|p2|ToxicWyvern|101|1191
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Eiscue, F|
+|poke|p1|Whimsicott, M|
+|poke|p1|Morpeko, M|
+|poke|p1|Seismitoad, F|
+|poke|p1|Duraludon, F|
+|poke|p1|Weezing-Galar, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Inteleon, M|
+|poke|p2|Toxtricity, M|
+|poke|p2|Hitmontop, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|move|p2a: Dragapult|U-turn|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|96/100
+|-damage|p2a: Dragapult|91/100|[from] item: Life Orb
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100|[from]move: U-turn
+|move|p1a: Weezing|Strange Steam|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|81/100
+|
+|-heal|p1a: Weezing|100/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Toxtricity|Boomburst|p1a: Seismitoad
+|-damage|p1a: Seismitoad|38/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Duraludon|Duraludon, F|100/100
+|turn|4
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|move|p1a: Duraludon|Draco Meteor|p2a: Corsola
+|-damage|p2a: Corsola|49/100
+|-start|p1a: Duraludon|Disable|Draco Meteor|[from] ability: Cursed Body|[of] p2a: Corsola
+|-unboost|p1a: Duraludon|spa|2
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Whimsicott|Whimsicott, M|100/100
+|move|p2a: Corsola|Stealth Rock|p1a: Whimsicott
+|-sidestart|p1: xKaz UL|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Whimsicott|Leech Seed|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|-damage|p1a: Weezing|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Knock Off|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|81/100
+|-enditem|p1a: Weezing|Black Sludge|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Toxtricity|Toxtricity, M|81/100
+|move|p1a: Weezing|Flamethrower|p2a: Toxtricity
+|-damage|p2a: Toxtricity|50/100
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Duraludon|Duraludon, F|100/100
+|-damage|p1a: Duraludon|94/100|[from] Stealth Rock
+|move|p2a: Toxtricity|Volt Switch|p1a: Duraludon
+|-resisted|p1a: Duraludon
+|-damage|p1a: Duraludon|57/100
+|
+|switch|p2a: Inteleon|Inteleon, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Whimsicott|Whimsicott, M|100/100
+|-damage|p1a: Whimsicott|88/100|[from] Stealth Rock
+|move|p2a: Inteleon|Ice Beam|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|7/100
+|
+|-heal|p1a: Whimsicott|13/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Whimsicott|Stun Spore|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|-heal|p1a: Whimsicott|19/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Morpeko|Morpeko, M|100/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Morpeko
+|-resisted|p1a: Morpeko
+|-damage|p1a: Morpeko|78/100
+|-enditem|p1a: Morpeko|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|13
+|
+|move|p1a: Morpeko|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|97/100
+|-damage|p1a: Morpeko|66/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Morpeko|50/100|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|-sideend|p1: xKaz UL|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Morpeko
+|-boost|p1a: Morpeko|spe|1
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Morpeko
+|-resisted|p1a: Morpeko
+|-damage|p1a: Morpeko|0 fnt
+|faint|p1a: Morpeko
+|
+|upkeep
+|
+|switch|p1a: Eiscue|Eiscue, F|100/100
+|turn|14
+|
+|move|p1a: Eiscue|Substitute|p1a: Eiscue
+|-start|p1a: Eiscue|Substitute
+|-damage|p1a: Eiscue|75/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Eiscue
+|-activate|p1a: Eiscue|move: Substitute|[damage]
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Eiscue|Belly Drum|p1a: Eiscue
+|-damage|p1a: Eiscue|25/100
+|-setboost|p1a: Eiscue|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Eiscue|Salac Berry|[eat]
+|-boost|p1a: Eiscue|spe|1
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Eiscue
+|-supereffective|p1a: Eiscue
+|-end|p1a: Eiscue|Substitute
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Eiscue|Icicle Crash|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|24/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Eiscue
+|-activate|p1a: Eiscue|ability: Ice Face
+|-damage|p1a: Eiscue|25/100
+|detailschange|p1a: Eiscue|Eiscue-Noice, F
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Eiscue|Icicle Crash|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Eiscue|atk|1
+|turn|18
+|
+|move|p2a: Hitmontop|Fake Out|p1a: Eiscue
+|-damage|p1a: Eiscue|6/100
+|cant|p1a: Eiscue|flinch
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Corsola|Corsola-Galar, F|49/100
+|move|p1a: Eiscue|Icicle Crash|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|
+|upkeep
+|
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Eiscue|atk|1
+|turn|20
+|
+|move|p2a: Hitmontop|Fake Out|p1a: Eiscue
+|-damage|p1a: Eiscue|0 fnt
+|faint|p1a: Eiscue
+|
+|upkeep
+|
+|switch|p1a: Whimsicott|Whimsicott, M|19/100
+|turn|21
+|
+|move|p1a: Whimsicott|Leech Seed|p2a: Hitmontop
+|-start|p2a: Hitmontop|move: Leech Seed
+|move|p2a: Hitmontop|Close Combat|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|-unboost|p2a: Hitmontop|def|1
+|-unboost|p2a: Hitmontop|spd|1
+|faint|p1a: Whimsicott
+|
+|upkeep
+|
+|switch|p1a: Weezing|Weezing-Galar, F|81/100
+|turn|22
+|
+|switch|p2a: Toxtricity|Toxtricity, M|50/100
+|move|p1a: Weezing|Strange Steam|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|29/100
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Toxtricity|Overdrive|p1a: Weezing
+|-damage|p1a: Weezing|17/100
+|move|p1a: Weezing|Flamethrower|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|switch|p2a: Inteleon|Inteleon, M|100/100
+|turn|24
+|
+|move|p2a: Inteleon|Ice Beam|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|upkeep
+|
+|switch|p1a: Duraludon|Duraludon, F|57/100
+|turn|25
+|
+|move|p2a: Inteleon|Ice Beam|p1a: Duraludon
+|-damage|p1a: Duraludon|0 fnt
+|faint|p1a: Duraludon
+|
+|win|ToxicWyvern
+|c|☆ToxicWyvern|gg
+|raw|xKaz UL's rating: 1111 → 1092(-19 for losing)
+|raw|ToxicWyvern's rating: 1192 → 1211(+19 for winning)
+|l|☆xKaz UL

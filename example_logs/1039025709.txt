@@ -1,0 +1,309 @@
+|ScrapeTime|2020-01-01-05:55:23
+|j|☆Godofshinobis
+|j|☆ZZLX DatGuy
+|player|p1|Godofshinobis|ninjaboy|1068
+|player|p2|ZZLX DatGuy|2|1139
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Appletun, F|
+|poke|p1|Aegislash, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Hawlucha, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Shuckle, F|
+|poke|p2|Bisharp, M|
+|poke|p2|Togekiss, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Shuckle, M|
+|poke|p2|Dugtrio, F|
+|poke|p2|Cinderace, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|turn|1
+|
+|move|p2a: Togekiss|Substitute|p2a: Togekiss
+|-start|p2a: Togekiss|Substitute
+|-damage|p2a: Togekiss|76/100
+|move|p1a: Rotom|Volt Switch|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-end|p2a: Togekiss|Substitute
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100|[from]move: Volt Switch
+|
+|-heal|p2a: Togekiss|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Shuckle|Shuckle, M|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Shuckle
+|-damage|p2a: Shuckle|72/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Cinderace|U-turn|p2a: Shuckle
+|-damage|p2a: Shuckle|59/100
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|move|p2a: Shuckle|Sticky Web|p1a: Rotom
+|-sidestart|p1: Godofshinobis|move: Sticky Web
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Rotom|Volt Switch|p2a: Shuckle
+|-crit|p2a: Shuckle
+|-damage|p2a: Shuckle|33/100
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100|[from]move: Volt Switch
+|move|p2a: Shuckle|Toxic|p1a: Cinderace
+|-status|p1a: Cinderace|tox
+|
+|-damage|p1a: Cinderace|95/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Cinderace|[miss]
+|-miss|p1a: Cinderace|p2a: Cinderace
+|
+|-damage|p1a: Cinderace|83/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Cinderace|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|81/100
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100|[from]move: U-turn
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|-heal|p1a: Rotom|87/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Excadrill|Iron Head|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|78/100
+|cant|p1a: Rotom|flinch
+|
+|-heal|p1a: Rotom|84/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Excadrill|Earthquake|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|83/100 tox
+|turn|9
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-damage|p1a: Cinderace|77/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Shuckle|Shuckle, M|33/100
+|turn|10
+|
+|move|p1a: Cinderace|High Jump Kick|p2a: Shuckle
+|-damage|p2a: Shuckle|12/100
+|move|p2a: Shuckle|Stealth Rock|p1a: Cinderace
+|-sidestart|p1: Godofshinobis|move: Stealth Rock
+|
+|-damage|p1a: Cinderace|65/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p1: Godofshinobis|Stealth Rock|[silent]
+|-sidestart|p2: ZZLX DatGuy|Stealth Rock|[silent]
+|-sideend|p1: Godofshinobis|Sticky Web|[silent]
+|-sidestart|p2: ZZLX DatGuy|Sticky Web|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Shuckle|Toxic|p1a: Cinderace
+|-fail|p1a: Cinderace|tox
+|
+|-damage|p1a: Cinderace|47/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|faint|p2a: Shuckle
+|
+|-damage|p1a: Cinderace|23/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-activate|p2a: Bisharp|move: Sticky Web
+|-unboost|p2a: Bisharp|spe|1
+|-ability|p2a: Bisharp|Defiant
+|-boost|p2a: Bisharp|atk|2
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|turn|14
+|
+|move|p1a: Hawlucha|High Jump Kick|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|15
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: ZZLX DatGuy|Stealth Rock|[silent]
+|-sidestart|p1: Godofshinobis|Stealth Rock|[silent]
+|-sideend|p2: ZZLX DatGuy|Sticky Web|[silent]
+|-sidestart|p1: Godofshinobis|Sticky Web|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Hawlucha
+|-damage|p1a: Hawlucha|15/100
+|-enditem|p1a: Hawlucha|Sitrus Berry|[eat]
+|-heal|p1a: Hawlucha|39/100|[from] item: Sitrus Berry
+|move|p1a: Hawlucha|Acrobatics|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|turn|17
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Dugtrio
+|-enditem|p2a: Dugtrio|Focus Sash
+|-damage|p2a: Dugtrio|1/100
+|move|p2a: Dugtrio|Stone Edge|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|-activate|p1a: Aegislash|move: Sticky Web
+|-unboost|p1a: Aegislash|spe|1
+|-damage|p1a: Aegislash|94/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Dugtrio|Sucker Punch|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|64/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Sneak|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|-heal|p1a: Aegislash|70/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, M|82/100
+|turn|19
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Togekiss|Substitute|p2a: Togekiss
+|-start|p2a: Togekiss|Substitute
+|-damage|p2a: Togekiss|57/100
+|
+|-heal|p2a: Togekiss|63/100|[from] item: Leftovers
+|-heal|p1a: Aegislash|76/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Togekiss|Nasty Plot|p2a: Togekiss
+|-boost|p2a: Togekiss|spa|2
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Iron Head|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-end|p2a: Togekiss|Substitute
+|
+|-heal|p2a: Togekiss|69/100|[from] item: Leftovers
+|-heal|p1a: Aegislash|82/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Togekiss|Flamethrower|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|-heal|p2a: Togekiss|75/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Appletun|Appletun, F|100/100
+|-damage|p1a: Appletun|88/100|[from] Stealth Rock
+|-activate|p1a: Appletun|move: Sticky Web
+|-unboost|p1a: Appletun|spe|1
+|turn|22
+|
+|move|p2a: Togekiss|Air Slash|p1a: Appletun
+|-supereffective|p1a: Appletun
+|-damage|p1a: Appletun|0 fnt
+|faint|p1a: Appletun
+|
+|-heal|p2a: Togekiss|82/100|[from] item: Leftovers
+|upkeep
+|c|☆Godofshinobis|gg
+|
+|switch|p1a: Shuckle|Shuckle, F|100/100
+|-activate|p1a: Shuckle|move: Sticky Web
+|-unboost|p1a: Shuckle|spe|1
+|-damage|p1a: Shuckle|75/100|[from] Stealth Rock
+|turn|23
+|c|☆ZZLX DatGuy|Gg
+|
+|move|p2a: Togekiss|Substitute|p2a: Togekiss
+|-start|p2a: Togekiss|Substitute
+|-damage|p2a: Togekiss|57/100
+|move|p1a: Shuckle|Toxic||[still]
+|-fail|p1a: Shuckle
+|
+|-heal|p2a: Togekiss|63/100|[from] item: Leftovers
+|-heal|p1a: Shuckle|82/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|-message|Godofshinobis forfeited.
+|
+|win|ZZLX DatGuy
+|l|☆Godofshinobis
+|raw|Godofshinobis's rating: 1068 → 1052(-16 for losing)
+|raw|ZZLX DatGuy's rating: 1139 → 1159(+20 for winning)

@@ -1,0 +1,207 @@
+|ScrapeTime|2020-01-01-00:14:57
+|j|☆skeeternatus
+|j|☆nicolasgimenez
+|player|p1|skeeternatus|brycenman|1147
+|player|p2|nicolasgimenez|266|1147
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Diggersby, M|
+|poke|p1|Drednaw, M|
+|poke|p1|Coalossal, M|
+|poke|p1|Rotom-Mow|
+|poke|p1|Seismitoad, F|
+|poke|p1|Corviknight, F|
+|poke|p2|Salazzle, F|
+|poke|p2|Rillaboom, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Arctovish|
+|poke|p2|Dracozolt|
+|poke|p2|Dusclops, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by skeeternatus)
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|move|p2a: Dragapult|U-turn|p1a: Seismitoad
+|-damage|p1a: Seismitoad|76/100
+|
+|switch|p2a: Dusclops|Dusclops, M|100/100|[from]move: U-turn
+|-item|p1a: Seismitoad|Figy Berry|[from] ability: Frisk|[of] p2a: Dusclops|[identify]
+|move|p1a: Seismitoad|Toxic|p2a: Dusclops|[miss]
+|-miss|p1a: Seismitoad|p2a: Dusclops
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Seismitoad|Toxic|p2a: Dusclops
+|-status|p2a: Dusclops|tox
+|move|p2a: Dusclops|Gravity|p2a: Dusclops
+|-fieldstart|move: Gravity
+|
+|-damage|p2a: Dusclops|95/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|move|p1a: Seismitoad|Earthquake|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|4
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Seismitoad
+|-status|p1a: Seismitoad|brn
+|move|p1a: Seismitoad|Toxic|p2a: Dragapult
+|-status|p2a: Dragapult|tox
+|
+|-damage|p2a: Dragapult|95/100 tox|[from] psn
+|-damage|p1a: Seismitoad|70/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p2a: Dragapult|U-turn|p1a: Seismitoad
+|-damage|p1a: Seismitoad|46/100 brn
+|
+|switch|p2a: Rillaboom|Rillaboom, M|100/100|[from]move: U-turn
+|move|p1a: Seismitoad|Earthquake|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|92/100
+|
+|-damage|p1a: Seismitoad|40/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p2a: Rillaboom|Knock Off|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|-enditem|p1a: Seismitoad|Figy Berry|[from] move: Knock Off|[of] p2a: Rillaboom
+|faint|p1a: Seismitoad
+|
+|-fieldend|move: Gravity
+|upkeep
+|
+|switch|p1a: Coalossal|Coalossal, M|100/100
+|turn|7
+|
+|switch|p2a: Arctovish|Arctovish|100/100
+|move|p1a: Coalossal|Tar Shot|p2a: Arctovish
+|-unboost|p2a: Arctovish|spe|1
+|-start|p2a: Arctovish|Tar Shot
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Arctovish|Whirlpool|p1a: Coalossal
+|-supereffective|p1a: Coalossal
+|-damage|p1a: Coalossal|66/100
+|-ability|p1a: Coalossal|Steam Engine|boost
+|-boost|p1a: Coalossal|spe|6
+|-activate|p1a: Coalossal|move: Whirlpool|[of] p2a: Arctovish
+|-enditem|p1a: Coalossal|Weakness Policy
+|-boost|p1a: Coalossal|atk|2
+|-boost|p1a: Coalossal|spa|2
+|move|p1a: Coalossal|Flare Blitz|p2a: Arctovish
+|-supereffective|p2a: Arctovish
+|-damage|p2a: Arctovish|0 fnt
+|-damage|p1a: Coalossal|50/100|[from] item: Rocky Helmet|[of] p2a: Arctovish
+|-damage|p1a: Coalossal|20/100|[from] Recoil
+|faint|p2a: Arctovish
+|
+|-end|p1a: Coalossal|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|
+|switch|p2a: Rillaboom|Rillaboom, M|92/100
+|turn|9
+|
+|move|p2a: Rillaboom|Fake Out|p1a: Coalossal
+|-resisted|p1a: Coalossal
+|-damage|p1a: Coalossal|16/100
+|cant|p1a: Coalossal|flinch
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Coalossal|Flare Blitz|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|-damage|p1a: Coalossal|0 fnt|[from] Recoil
+|faint|p2a: Rillaboom
+|faint|p1a: Coalossal
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|95/100 tox
+|switch|p1a: Diggersby|Diggersby, M|100/100
+|turn|11
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Diggersby
+|-status|p1a: Diggersby|brn
+|move|p1a: Diggersby|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|35/100 tox
+|
+|-heal|p2a: Dragapult|41/100 tox|[from] item: Leftovers
+|-damage|p2a: Dragapult|35/100 tox|[from] psn
+|-damage|p1a: Diggersby|94/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Diggersby
+|-damage|p1a: Diggersby|65/100 brn
+|-damage|p1a: Diggersby|39/100 brn
+|-hitcount|p1a: Diggersby|2
+|move|p1a: Diggersby|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-damage|p1a: Diggersby|33/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|turn|13
+|
+|move|p2a: Dracozolt|Dragon Claw|p1a: Diggersby|[miss]
+|-miss|p2a: Dracozolt|p1a: Diggersby
+|move|p1a: Diggersby|Earthquake|p2a: Dracozolt
+|-supereffective|p2a: Dracozolt
+|-damage|p2a: Dracozolt|0 fnt
+|faint|p2a: Dracozolt
+|
+|-damage|p1a: Diggersby|27/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Dusclops|Dusclops, M|95/100 tox
+|-item|p1a: Diggersby|Choice Band|[from] ability: Frisk|[of] p2a: Dusclops|[identify]
+|turn|14
+|l|☆nicolasgimenez
+|inactive|nicolasgimenez disconnected and has a minute to reconnect!
+|player|p2|
+|c|☆skeeternatus|diggersby kinda strong
+|inactive|nicolasgimenez has 30 seconds to reconnect!
+|inactive|nicolasgimenez has 20 seconds to reconnect!
+|inactive|nicolasgimenez has 15 seconds to reconnect!
+|inactive|nicolasgimenez has 10 seconds to reconnect!
+|inactive|nicolasgimenez has 5 seconds to reconnect!
+|-message|nicolasgimenez lost due to inactivity.
+|
+|win|skeeternatus
+|raw|skeeternatus's rating: 1147 → 1172(+25 for winning)
+|raw|nicolasgimenez's rating: 1148 → 1123(-25 for losing)
+|c|☆skeeternatus|dont play fortnite

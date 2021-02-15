@@ -1,0 +1,427 @@
+|ScrapeTime|2020-01-01-21:46:34
+|j|☆NG383
+|j|☆Sdrecbhrevtr
+|player|p1|NG383|2|1130
+|player|p2|Sdrecbhrevtr|274|1077
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Galvantula, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Mr. Mime-Galar, F|
+|poke|p1|Bisharp, F|
+|poke|p1|Tyranitar, M|
+|poke|p1|Snorlax, M|
+|poke|p2|Riolu, F|
+|poke|p2|Shedinja, L20|
+|poke|p2|Morpeko, M|
+|poke|p2|Haxorus, F|
+|poke|p2|Togekiss, F|
+|poke|p2|Ferrothorn, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Shedinja|Shedinja, L20, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|move|p1a: Tyranitar|Crunch|p2a: Shedinja
+|-supereffective|p2a: Shedinja
+|-damage|p2a: Shedinja|0 fnt
+|faint|p2a: Shedinja
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Haxorus|Haxorus, F|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|2
+|
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|move|p2a: Haxorus|Dragon Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|1
+|-boost|p2a: Haxorus|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Haxorus|94/100|[from] Sandstorm
+|-damage|p1a: Snorlax|94/100|[from] Sandstorm
+|-heal|p1a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Haxorus|Close Combat|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|11/100
+|-unboost|p2a: Haxorus|def|1
+|-unboost|p2a: Haxorus|spd|1
+|move|p1a: Snorlax|Ice Punch|p2a: Haxorus
+|-supereffective|p2a: Haxorus
+|-damage|p2a: Haxorus|12/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Haxorus|6/100|[from] Sandstorm
+|-damage|p1a: Snorlax|5/100|[from] Sandstorm
+|-heal|p1a: Snorlax|11/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Haxorus|Outrage|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Haxorus|0 fnt|[from] Sandstorm
+|faint|p2a: Haxorus
+|upkeep
+|
+|switch|p2a: Riolu|Riolu, F|100/100
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|turn|5
+|
+|move|p1a: Galvantula|Sticky Web|p2a: Riolu
+|-sidestart|p2: Sdrecbhrevtr|move: Sticky Web
+|move|p2a: Riolu|Dig||[still]
+|-prepare|p2a: Riolu|Dig|p1a: Galvantula
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|move|p2a: Riolu|Dig|p1a: Bisharp|[from]lockedmove
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|52/100
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Dig||[from]Copycat|[still]
+|-prepare|p2a: Riolu|Dig|p1a: Bisharp
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Riolu|[miss]
+|-miss|p1a: Bisharp|p2a: Riolu
+|move|p2a: Riolu|Dig|p1a: Bisharp|[from]lockedmove
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|2/100
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Dig||[from]Copycat|[still]
+|-prepare|p2a: Riolu|Dig|p1a: Bisharp
+|move|p1a: Bisharp|Throat Chop|p2a: Riolu|[miss]
+|-miss|p1a: Bisharp|p2a: Riolu
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Riolu|Dig|p1a: Toxapex|[from]lockedmove
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|77/100
+|
+|-heal|p1a: Toxapex|84/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Dig||[from]Copycat|[still]
+|-prepare|p2a: Riolu|Dig|p1a: Toxapex
+|move|p1a: Toxapex|Toxic|p2a: Riolu
+|-status|p2a: Riolu|tox
+|
+|-heal|p1a: Toxapex|90/100|[from] item: Black Sludge
+|-damage|p2a: Riolu|94/100 tox|[from] psn
+|upkeep
+|turn|12
+|c|☆Sdrecbhrevtr|Wtf
+|c|☆NG383|it doesnt make sense
+|c|☆Sdrecbhrevtr|How could you Toxic me when I'm underground
+|c|☆NG383|pokemon logic
+|
+|move|p1a: Toxapex|Scald|p2a: Riolu|[miss]
+|-miss|p1a: Toxapex|p2a: Riolu
+|move|p2a: Riolu|Dig|p1a: Toxapex|[from]lockedmove
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|67/100
+|
+|-heal|p1a: Toxapex|73/100|[from] item: Black Sludge
+|-damage|p2a: Riolu|82/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Dig||[from]Copycat|[still]
+|-prepare|p2a: Riolu|Dig|p1a: Toxapex
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|-damage|p2a: Riolu|64/100 tox|[from] psn
+|upkeep
+|turn|14
+|c|☆Sdrecbhrevtr|Who knows
+|
+|move|p1a: Toxapex|Recover||[still]
+|-fail|p1a: Toxapex|heal
+|move|p2a: Riolu|Dig|p1a: Toxapex|[from]lockedmove
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|75/100
+|
+|-heal|p1a: Toxapex|81/100|[from] item: Black Sludge
+|-damage|p2a: Riolu|40/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|move|p2a: Riolu|Copycat|p2a: Riolu
+|move|p2a: Riolu|Dig||[from]Copycat|[still]
+|-prepare|p2a: Riolu|Dig|p1a: Toxapex
+|move|p1a: Toxapex|Scald|p2a: Riolu|[miss]
+|-miss|p1a: Toxapex|p2a: Riolu
+|
+|-heal|p1a: Toxapex|87/100|[from] item: Black Sludge
+|-damage|p2a: Riolu|10/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|move|p1a: Toxapex|Scald|p2a: Riolu|[miss]
+|-miss|p1a: Toxapex|p2a: Riolu
+|move|p2a: Riolu|Dig|p1a: Toxapex|[from]lockedmove
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|63/100
+|
+|-heal|p1a: Toxapex|69/100|[from] item: Black Sludge
+|-damage|p2a: Riolu|0 fnt|[from] psn
+|faint|p2a: Riolu
+|upkeep
+|
+|switch|p2a: Morpeko|Morpeko, M|100/100
+|turn|17
+|c|☆NG383|maybe toxapex threw the poison in hole
+|
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|move|p2a: Morpeko|Aura Wheel|p1a: Galvantula
+|-resisted|p1a: Galvantula
+|-damage|p1a: Galvantula|55/100
+|-boost|p2a: Morpeko|spe|1
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|18
+|
+|move|p2a: Morpeko|Aura Wheel|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|-boost|p2a: Morpeko|spe|1
+|faint|p1a: Galvantula
+|
+|-formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|c|☆Sdrecbhrevtr|Haha, sure
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|19
+|
+|move|p2a: Morpeko|Brick Break|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|22/100
+|move|p1a: Tyranitar|Earthquake|p2a: Morpeko
+|-supereffective|p2a: Morpeko
+|-damage|p2a: Morpeko|0 fnt
+|faint|p2a: Morpeko
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|28/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-activate|p2a: Ferrothorn|move: Sticky Web
+|-unboost|p2a: Ferrothorn|spe|1
+|turn|20
+|
+|move|p1a: Tyranitar|Flamethrower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|35/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|41/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, F|2/100
+|turn|21
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|9/100
+|-damage|p1a: Bisharp|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-start|p2a: Ferrothorn|Throat Chop|[silent]
+|faint|p1a: Bisharp
+|move|p2a: Ferrothorn|Leech Seed|p1: Bisharp|[notarget]
+|-fail|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|15/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Mr. Mime|Mr. Mime-Galar, F|100/100
+|turn|22
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Mr. Mime|Freeze-Dry|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mr. Mime|94/100|[from] Sandstorm
+|-heal|p2a: Ferrothorn|22/100|[from] item: Leftovers
+|-end|p2a: Ferrothorn|Throat Chop|[silent]
+|upkeep
+|turn|23
+|
+|move|p1a: Mr. Mime|Freeze-Dry|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, F|100/100
+|turn|24
+|
+|move|p1a: Mr. Mime|Freeze-Dry|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|64/100
+|move|p2a: Togekiss|Air Slash|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|44/100
+|
+|-heal|p2a: Togekiss|70/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Togekiss|Morning Sun|p2a: Togekiss
+|-heal|p2a: Togekiss|100/100
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Togekiss|Substitute|p2a: Togekiss
+|-start|p2a: Togekiss|Substitute
+|-damage|p2a: Togekiss|76/100
+|move|p1a: Toxapex|Toxic||[still]
+|-fail|p1a: Toxapex
+|
+|-heal|p2a: Togekiss|82/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p1a: Mr. Mime|Mr. Mime-Galar, F|44/100
+|move|p2a: Togekiss|Thunder Wave|p1a: Mr. Mime
+|-status|p1a: Mr. Mime|par
+|
+|-heal|p2a: Togekiss|88/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Mr. Mime|Thunderbolt|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-end|p2a: Togekiss|Substitute
+|move|p2a: Togekiss|Air Slash|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|
+|-heal|p2a: Togekiss|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|turn|29
+|
+|move|p2a: Togekiss|Substitute|p2a: Togekiss
+|-start|p2a: Togekiss|Substitute
+|-damage|p2a: Togekiss|69/100
+|move|p1a: Toxapex|Scald|p2a: Togekiss
+|-activate|p2a: Togekiss|move: Substitute|[damage]
+|
+|-heal|p2a: Togekiss|75/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Togekiss|Thunder Wave|p1a: Toxapex
+|-status|p1a: Toxapex|par
+|move|p1a: Toxapex|Scald|p2a: Togekiss
+|-activate|p2a: Togekiss|move: Substitute|[damage]
+|
+|-heal|p2a: Togekiss|82/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Togekiss|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|76/100 par
+|cant|p1a: Toxapex|flinch
+|
+|-heal|p2a: Togekiss|88/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|82/100 par|[from] item: Black Sludge
+|upkeep
+|turn|32
+|
+|move|p2a: Togekiss|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|55/100 par
+|cant|p1a: Toxapex|par
+|
+|-heal|p2a: Togekiss|94/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|61/100 par|[from] item: Black Sludge
+|upkeep
+|turn|33
+|
+|move|p2a: Togekiss|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|37/100 par
+|cant|p1a: Toxapex|flinch
+|
+|-heal|p2a: Togekiss|99/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|44/100 par|[from] item: Black Sludge
+|upkeep
+|turn|34
+|
+|move|p2a: Togekiss|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|21/100 par
+|cant|p1a: Toxapex|par
+|
+|-heal|p2a: Togekiss|100/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|27/100 par|[from] item: Black Sludge
+|upkeep
+|turn|35
+|
+|move|p2a: Togekiss|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|2/100 par
+|cant|p1a: Toxapex|flinch
+|
+|-heal|p1a: Toxapex|8/100 par|[from] item: Black Sludge
+|upkeep
+|turn|36
+|-message|NG383 forfeited.
+|
+|win|Sdrecbhrevtr
+|l|☆NG383
+|raw|NG383's rating: 1130 → 1103(-27 for losing)
+|raw|Sdrecbhrevtr's rating: 1105 → 1132(+27 for winning)

@@ -1,0 +1,276 @@
+|ScrapeTime|2020-01-01-19:24:49
+|j|☆Jamiesaur1
+|j|☆caagle
+|player|p1|Jamiesaur1|266|1412
+|player|p2|caagle|102|1365
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Seismitoad, F|
+|poke|p1|Hydreigon, F|
+|poke|p1|Aegislash, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Clefable, F|
+|poke|p2|Pincurchin, F|
+|poke|p2|Togekiss, F|
+|poke|p2|Hawlucha, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Dracozolt|
+|poke|p2|Seismitoad, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by caagle)
+|
+|start
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|switch|p2a: Pincurchin|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|1
+|
+|move|p1a: Aegislash|Substitute|p1a: Aegislash
+|-start|p1a: Aegislash|Substitute
+|-damage|p1a: Aegislash|76/100
+|move|p2a: Pincurchin|Discharge|p1a: Aegislash
+|-end|p1a: Aegislash|Substitute
+|
+|-heal|p1a: Aegislash|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Pincurchin|Discharge|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|-heal|p1a: Aegislash|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Pincurchin|Spikes|p1a: Seismitoad
+|-sidestart|p1: Jamiesaur1|Spikes
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Togekiss|Togekiss, F|100/100
+|move|p1a: Seismitoad|Toxic|p2a: Togekiss
+|-status|p2a: Togekiss|tox
+|
+|-damage|p2a: Togekiss|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p1a: Seismitoad|Protect|p1a: Seismitoad
+|-singleturn|p1a: Seismitoad|Protect
+|move|p2a: Togekiss|Nasty Plot|p2a: Togekiss
+|-boost|p2a: Togekiss|spa|2
+|
+|-heal|p2a: Togekiss|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Togekiss|88/100 tox|[from] psn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Clefable
+|-damage|p1a: Clefable|23/100
+|
+|-heal|p2a: Togekiss|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Togekiss|76/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|move|p2a: Togekiss|Air Slash|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-heal|p2a: Togekiss|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Togekiss|58/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|-damage|p1a: Cinderace|88/100|[from] Spikes
+|turn|8
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|67/100
+|
+|-heal|p2a: Seismitoad|73/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F, shiny|100/100
+|-damage|p1a: Conkeldurr|88/100|[from] Spikes
+|move|p2a: Seismitoad|Stealth Rock|p1a: Conkeldurr
+|-sidestart|p1: Jamiesaur1|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|79/100|[from] item: Leftovers
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|10
+|inactive|caagle has 120 seconds left.
+|
+|switch|p2a: Pincurchin|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|move|p1a: Conkeldurr|Drain Punch|p2a: Pincurchin
+|-damage|p2a: Pincurchin|13/100
+|-heal|p1a: Conkeldurr|100/100 brn|[from] drain|[of] p2a: Pincurchin
+|
+|-heal|p2a: Pincurchin|19/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|turn|11
+|inactive|caagle has 120 seconds left.
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Pincurchin
+|-damage|p2a: Pincurchin|0 fnt
+|faint|p2a: Pincurchin
+|
+|-damage|p1a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|inactive|caagle has 120 seconds left.
+|
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p2a: Hawlucha|Electric Seed
+|-boost|p2a: Hawlucha|def|1
+|turn|12
+|
+|switch|p1a: Aegislash|Aegislash, M|88/100
+|-damage|p1a: Aegislash|82/100|[from] Stealth Rock
+|-damage|p1a: Aegislash|70/100|[from] Spikes
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|
+|-heal|p1a: Aegislash|76/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|39/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Hawlucha
+|-damage|p2a: Hawlucha|22/100
+|
+|-heal|p1a: Aegislash|45/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-crit|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|-damage|p1a: Seismitoad|88/100|[from] Spikes
+|-damage|p1a: Seismitoad|82/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Hawlucha|Roost|p2a: Hawlucha
+|-heal|p2a: Hawlucha|72/100
+|-singleturn|p2a: Hawlucha|move: Roost
+|move|p1a: Seismitoad|Scald|p2a: Hawlucha
+|-crit|p2a: Hawlucha
+|-damage|p2a: Hawlucha|12/100
+|
+|-heal|p1a: Seismitoad|88/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Hawlucha|Close Combat|p1a: Seismitoad
+|-damage|p1a: Seismitoad|15/100
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|move|p1a: Seismitoad|Scald|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|-heal|p1a: Seismitoad|21/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|-item|p2a: Excadrill|Air Balloon
+|turn|17
+|
+|move|p2a: Excadrill|Earthquake|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|88/100
+|-damage|p1a: Cinderace|76/100|[from] Spikes
+|-damage|p1a: Cinderace|51/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Dracozolt
+|-resisted|p2a: Dracozolt
+|-damage|p2a: Dracozolt|49/100
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Dracozolt|Dragon Claw|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Dracozolt
+|-damage|p2a: Dracozolt|0 fnt
+|faint|p2a: Dracozolt
+|
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, F|58/100 tox
+|turn|21
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Togekiss
+|-resisted|p2a: Togekiss
+|-damage|p2a: Togekiss|37/100 tox
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-heal|p2a: Togekiss|43/100 tox|[from] item: Leftovers
+|-damage|p2a: Togekiss|37/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F, shiny|88/100 brn
+|-damage|p1a: Conkeldurr|82/100 brn|[from] Stealth Rock
+|-damage|p1a: Conkeldurr|70/100 brn|[from] Spikes
+|turn|22
+|
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|win|caagle
+|c|☆caagle|gg
+|l|☆Jamiesaur1

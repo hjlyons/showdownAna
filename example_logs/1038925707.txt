@@ -1,0 +1,257 @@
+|ScrapeTime|2020-01-01-00:48:48
+|j|☆Eldecrok
+|j|☆Frashhj
+|player|p1|Eldecrok|pokekid|1000
+|player|p2|Frashhj|red|1007
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Morpeko, M|
+|poke|p1|Lapras, F|
+|poke|p1|Goodra, F|
+|poke|p1|Arctozolt|
+|poke|p1|Orbeetle, M|
+|poke|p1|Salazzle, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Bisharp, M|
+|poke|p2|Dugtrio, M|
+|poke|p2|Dracovish|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Tyranitar, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Orbeetle|Orbeetle, M|100/100
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|turn|1
+|
+|move|p2a: Dugtrio|Stealth Rock|p1a: Orbeetle
+|-sidestart|p1: Eldecrok|move: Stealth Rock
+|move|p1a: Orbeetle|Leech Life|p2a: Dugtrio
+|-damage|p2a: Dugtrio|53/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Dugtrio|Rock Slide|p1a: Orbeetle
+|-supereffective|p1a: Orbeetle
+|-damage|p1a: Orbeetle|53/100
+|move|p1a: Orbeetle|Leech Life|p2a: Dugtrio
+|-damage|p2a: Dugtrio|10/100
+|-heal|p1a: Orbeetle|72/100|[from] drain|[of] p2a: Dugtrio
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Dugtrio|Memento|p1a: Orbeetle
+|-unboost|p1a: Orbeetle|atk|2
+|-unboost|p1a: Orbeetle|spa|2
+|faint|p2a: Dugtrio
+|move|p1a: Orbeetle|U-turn|p2: Dugtrio|[notarget]
+|-fail|p1a: Orbeetle
+|
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|turn|4
+|
+|move|p1a: Orbeetle|U-turn|p2a: Corsola
+|-resisted|p2a: Corsola
+|-damage|p2a: Corsola|95/100
+|-start|p1a: Orbeetle|Disable|U-turn|[from] ability: Cursed Body|[of] p2a: Corsola
+|
+|switch|p1a: Morpeko|Morpeko, M|100/100|[from]move: U-turn
+|-damage|p1a: Morpeko|88/100|[from] Stealth Rock
+|move|p2a: Corsola|Calm Mind|p2a: Corsola
+|-boost|p2a: Corsola|spa|1
+|-boost|p2a: Corsola|spd|1
+|
+|-heal|p2a: Corsola|100/100|[from] item: Leftovers
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|5
+|
+|move|p1a: Morpeko|Aura Wheel|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-boost|p1a: Morpeko|spe|1
+|-damage|p1a: Morpeko|78/100|[from] item: Life Orb
+|faint|p2a: Corsola
+|
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|6
+|
+|move|p1a: Morpeko|Bullet Seed|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|85/100
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|70/100
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|57/100
+|-hitcount|p2a: Tyranitar|3
+|-damage|p1a: Morpeko|69/100|[from] item: Life Orb
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Morpeko|62/100|[from] Sandstorm
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|7
+|
+|move|p1a: Morpeko|Bullet Seed|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|42/100
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|28/100
+|-hitcount|p2a: Tyranitar|2
+|-damage|p1a: Morpeko|53/100|[from] item: Life Orb
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Morpeko|46/100|[from] Sandstorm
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|8
+|
+|move|p1a: Morpeko|Bullet Seed|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|13/100
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-hitcount|p2a: Tyranitar|2
+|-damage|p1a: Morpeko|37/100|[from] item: Life Orb
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Morpeko|30/100|[from] Sandstorm
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|turn|9
+|
+|move|p1a: Morpeko|Aura Wheel|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|70/100
+|-boost|p1a: Morpeko|spe|1
+|-damage|p1a: Morpeko|21/100|[from] item: Life Orb
+|move|p2a: Bisharp|Thunder Wave|p1a: Morpeko
+|-immune|p1a: Morpeko
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Morpeko|15/100|[from] Sandstorm
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|10
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Morpeko
+|-resisted|p1a: Morpeko
+|-damage|p1a: Morpeko|0 fnt
+|-damage|p2a: Bisharp|60/100|[from] item: Life Orb
+|faint|p1a: Morpeko
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Orbeetle|Orbeetle, M|72/100
+|-damage|p1a: Orbeetle|47/100|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Orbeetle
+|-supereffective|p1a: Orbeetle
+|-damage|p1a: Orbeetle|0 fnt
+|-damage|p2a: Bisharp|50/100|[from] item: Life Orb
+|faint|p1a: Orbeetle
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Lapras|Lapras, F|100/100
+|-damage|p1a: Lapras|76/100|[from] Stealth Rock
+|turn|12
+|
+|move|p2a: Bisharp|Thunder Wave|p1a: Lapras
+|-status|p1a: Lapras|par
+|cant|p1a: Lapras|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lapras|70/100 par|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|move|p2a: Bisharp|Psycho Cut|p1a: Lapras
+|-damage|p1a: Lapras|47/100 par
+|-damage|p2a: Bisharp|41/100|[from] item: Life Orb
+|cant|p1a: Lapras|par
+|
+|-weather|none
+|upkeep
+|turn|14
+|
+|move|p2a: Bisharp|X-Scissor|p1a: Lapras
+|-damage|p1a: Lapras|23/100 par
+|-enditem|p1a: Lapras|Aguav Berry|[eat]
+|-heal|p1a: Lapras|56/100 par|[from] item: Aguav Berry
+|-damage|p2a: Bisharp|31/100|[from] item: Life Orb
+|cant|p1a: Lapras|par
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Bisharp|X-Scissor|p1a: Lapras
+|-damage|p1a: Lapras|30/100 par
+|-damage|p2a: Bisharp|21/100|[from] item: Life Orb
+|move|p1a: Lapras|Freeze-Dry|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|6/100
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Bisharp|X-Scissor|p1a: Lapras
+|-damage|p1a: Lapras|5/100 par
+|-damage|p2a: Bisharp|0 fnt|[from] item: Life Orb
+|faint|p2a: Bisharp
+|move|p1a: Lapras|Psychic|p2: Bisharp|[notarget]
+|-fail|p1a: Lapras
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|17
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Lapras
+|-heal|p1a: Lapras|30/100 par|[from] ability: Water Absorb|[of] p2a: Dracovish
+|move|p1a: Lapras|Freeze-Dry|p2a: Dracovish
+|-supereffective|p2a: Dracovish
+|-damage|p2a: Dracovish|20/100
+|-status|p2a: Dracovish|frz
+|
+|upkeep
+|turn|18
+|-message|Frashhj forfeited.
+|
+|win|Eldecrok
+|l|☆Frashhj
+|c|☆Eldecrok|Oof.
+|raw|Eldecrok's rating: 1045 → 1075(+30 for winning)
+|raw|Frashhj's rating: 1007 → 1000(-7 for losing)

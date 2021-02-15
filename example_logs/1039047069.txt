@@ -1,0 +1,288 @@
+|ScrapeTime|2020-01-01-07:15:46
+|j|☆lxz2323
+|j|☆Let’sgosixers
+|player|p1|lxz2323|290|1232
+|player|p2|Let’sgosixers|red-gen7|1198
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tyranitar, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Sirfetch'd, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Gyarados, M|
+|poke|p1|Reuniclus, M|
+|poke|p2|Aegislash, M|
+|poke|p2|Crawdaunt, M|
+|poke|p2|Mew|
+|poke|p2|Lucario, M|
+|poke|p2|Bisharp, M|
+|poke|p2|Dragapult, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lxz2323)
+|
+|start
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Crawdaunt|atk|1
+|turn|1
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Crawdaunt|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|66/100
+|-damage|p2a: Crawdaunt|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Mew|Mew|100/100
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Mew|atk|1
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Mew|Taunt|p1a: Gyarados
+|-start|p1a: Gyarados|move: Taunt
+|cant|p1a: Gyarados|move: Taunt|Dragon Dance
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|move|p2a: Mew|Spikes|p1a: Reuniclus
+|-sidestart|p1: lxz2323|Spikes
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Mew|Taunt|p1a: Reuniclus
+|-start|p1a: Reuniclus|move: Taunt
+|move|p1a: Reuniclus|Future Sight|p2a: Mew
+|-start|p1a: Reuniclus|move: Future Sight
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Mew|Spikes|p1a: Tyranitar
+|-sidestart|p1: lxz2323|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|94/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Mew|Spikes|p1a: Tyranitar
+|-sidestart|p1: lxz2323|Spikes
+|move|p1a: Tyranitar|Crunch|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|19/100
+|-enditem|p2a: Mew|Red Card|[of] p1a: Tyranitar
+|drag|p1a: Reuniclus|Reuniclus, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|12/100|[from] Sandstorm
+|-end|p2a: Mew|move: Future Sight
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|upkeep
+|faint|p2a: Mew
+|
+|switch|p2a: Crawdaunt|Crawdaunt, M|78/100
+|turn|8
+|
+|move|p2a: Crawdaunt|Knock Off|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|-enditem|p1a: Reuniclus|Life Orb|[from] move: Knock Off|[of] p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|69/100|[from] item: Life Orb
+|faint|p1a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Crawdaunt|63/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|66/100
+|-damage|p1a: Ferrothorn|41/100|[from] Spikes
+|turn|9
+|
+|move|p2a: Crawdaunt|Swords Dance|p2a: Crawdaunt
+|-boost|p2a: Crawdaunt|atk|2
+|move|p1a: Ferrothorn|Power Whip|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|10
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-weather|none
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Lucario|Lucario, M|100/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Lucario
+|-resisted|p2a: Lucario
+|-damage|p2a: Lucario|59/100
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Lucario|atk|1
+|move|p2a: Lucario|Aura Sphere|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|75/100
+|-damage|p2a: Lucario|49/100|[from] item: Life Orb
+|
+|-heal|p1a: Gyarados|81/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Lucario|Psychic|p1a: Gyarados
+|-damage|p1a: Gyarados|41/100
+|-damage|p2a: Lucario|39/100|[from] item: Life Orb
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-heal|p1a: Gyarados|47/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Gyarados|Earthquake|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|-heal|p1a: Gyarados|54/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|-item|p2a: Aegislash|Air Balloon
+|turn|15
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Gyarados
+|-damage|p1a: Gyarados|21/100
+|move|p1a: Gyarados|Substitute|p1a: Gyarados
+|-fail|p1a: Gyarados|move: Substitute|[weak]
+|
+|-heal|p1a: Gyarados|27/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Aegislash|Shadow Sneak|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|switch|p1a: Sirfetch'd|Sirfetch'd, M|100/100
+|-damage|p1a: Sirfetch'd|76/100|[from] Spikes
+|turn|17
+|
+|move|p2a: Aegislash|Shadow Sneak|p1a: Sirfetch'd
+|-damage|p1a: Sirfetch'd|45/100
+|move|p1a: Sirfetch'd|Close Combat|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|-enditem|p2a: Aegislash|Air Balloon
+|-unboost|p1a: Sirfetch'd|def|1
+|-unboost|p1a: Sirfetch'd|spd|1
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|turn|18
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Sirfetch'd
+|-resisted|p1a: Sirfetch'd
+|-damage|p1a: Sirfetch'd|1/100
+|-start|p1a: Sirfetch'd|Throat Chop|[silent]
+|move|p1a: Sirfetch'd|Close Combat|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-enditem|p2a: Bisharp|Focus Sash
+|-damage|p2a: Bisharp|1/100
+|-unboost|p1a: Sirfetch'd|def|1
+|-unboost|p1a: Sirfetch'd|spd|1
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Sirfetch'd
+|-resisted|p1a: Sirfetch'd
+|-crit|p1a: Sirfetch'd
+|-damage|p1a: Sirfetch'd|0 fnt
+|faint|p1a: Sirfetch'd
+|
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|41/100
+|-damage|p1a: Ferrothorn|16/100|[from] Spikes
+|turn|20
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Bisharp|0 fnt|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|82/100
+|switch|p1a: Tyranitar|Tyranitar, M|94/100
+|-damage|p1a: Tyranitar|70/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|21
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|57/100
+|move|p1a: Tyranitar|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|51/100|[from] Sandstorm
+|-heal|p2a: Dragapult|57/100|[from] item: Leftovers
+|-heal|p1a: Tyranitar|76/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|-message|Let’sgosixers forfeited.
+|
+|win|lxz2323
+|l|☆Let’sgosixers
+|raw|lxz2323's rating: 1232 → 1255(+23 for winning)
+|raw|Let’sgosixers's rating: 1198 → 1176(-22 for losing)

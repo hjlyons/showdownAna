@@ -1,0 +1,116 @@
+|ScrapeTime|2020-01-02-03:55:21
+|j|☆HolyMaple
+|j|☆Praxis2019
+|player|p1|HolyMaple|striker|1168
+|player|p2|Praxis2019|2|1182
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Araquanid, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Dracovish|
+|poke|p1|Aegislash, M|
+|poke|p2|Mamoswine, F|
+|poke|p2|Clefable, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Rotom-Wash|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Praxis2019)
+|
+|move|p1a: Rotom|Volt Switch|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|58/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100|[from]move: Volt Switch
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Mandibuzz|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|87/100
+|-damage|p2a: Mandibuzz|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p2a: Mandibuzz
+|move|p1a: Ferrothorn|Toxic|p2a: Mandibuzz
+|-status|p2a: Mandibuzz|tox
+|
+|-damage|p2a: Mandibuzz|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|move|p2a: Mandibuzz|U-turn|p1a: Araquanid
+|-damage|p1a: Araquanid|88/100
+|
+|switch|p2a: Clefable|Clefable, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Clefable|Thunderbolt|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|29/100
+|-damage|p2a: Clefable|91/100|[from] item: Life Orb
+|move|p1a: Araquanid|Sticky Web|p2a: Clefable
+|-sidestart|p2: Praxis2019|move: Sticky Web
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Clefable|Flamethrower|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-enditem|p1a: Excadrill|Focus Sash
+|-damage|p1a: Excadrill|1/100
+|-damage|p2a: Clefable|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-activate|p2a: Ferrothorn|move: Sticky Web
+|-unboost|p2a: Ferrothorn|spe|1
+|move|p1a: Excadrill|Iron Head|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|88/100
+|-damage|p1a: Excadrill|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p1a: Excadrill
+|
+|-heal|p2a: Ferrothorn|95/100|[from] item: Leftovers
+|upkeep
+|l|☆HolyMaple
+|inactive|HolyMaple disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|HolyMaple has 30 seconds to reconnect!
+|inactive|HolyMaple has 20 seconds to reconnect!
+|inactive|HolyMaple has 15 seconds to reconnect!
+|inactive|HolyMaple has 10 seconds to reconnect!
+|inactive|HolyMaple has 5 seconds to reconnect!
+|-message|HolyMaple lost due to inactivity.
+|
+|win|Praxis2019
+|raw|HolyMaple's rating: 1168 → 1144(-24 for losing)
+|raw|Praxis2019's rating: 1182 → 1206(+24 for winning)

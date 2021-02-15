@@ -1,0 +1,473 @@
+|ScrapeTime|2020-01-02-10:55:16
+|j|☆UhBoi
+|j|☆Billy'sBigWilly69
+|player|p1|UhBoi|1|1185
+|player|p2|Billy'sBigWilly69|preschooler|1171
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Hippowdon, M|
+|poke|p1|Clefable, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Excadrill, F|
+|poke|p1|Drednaw, M|
+|poke|p2|Dracovish|
+|poke|p2|Seismitoad, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Conkeldurr, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Plagegeist|Dragapult, F|100/100
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|1
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|move|p1a: Plagegeist|Draco Meteor|p2a: Corsola
+|-damage|p2a: Corsola|45/100
+|-unboost|p1a: Plagegeist|spa|2
+|-damage|p1a: Plagegeist|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Plagegeist|Shadow Ball|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|13/100
+|-unboost|p2a: Corsola|spd|1
+|-damage|p1a: Plagegeist|81/100|[from] item: Life Orb
+|move|p2a: Corsola|Strength Sap|p1a: Plagegeist
+|-unboost|p1a: Plagegeist|atk|1
+|-heal|p2a: Corsola|81/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Backofen|Rotom-Heat|100/100
+|switch|p2a: Dracovish|Dracovish|100/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Backofen|Will-O-Wisp|p2a: Dracovish
+|-status|p2a: Dracovish|brn
+|move|p2a: Dracovish|Fishious Rend|p1a: Backofen
+|-supereffective|p1a: Backofen
+|-damage|p1a: Backofen|20/100
+|
+|-damage|p2a: Dracovish|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Drednaw|Drednaw, M|100/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Drednaw
+|-damage|p1a: Drednaw|47/100
+|
+|-damage|p2a: Dracovish|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Drednaw
+|-damage|p1a: Drednaw|0 fnt
+|faint|p1a: Drednaw
+|
+|-damage|p2a: Dracovish|82/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Backofen|Rotom-Heat|20/100
+|turn|7
+|
+|move|p1a: Backofen|Volt Switch|p2a: Dracovish
+|-damage|p2a: Dracovish|38/100 brn
+|
+|switch|p1a: KleeFapple|Clefable, M|100/100|[from]move: Volt Switch
+|move|p2a: Dracovish|Fishious Rend|p1a: KleeFapple
+|-damage|p1a: KleeFapple|37/100
+|
+|-heal|p1a: KleeFapple|43/100|[from] item: Leftovers
+|-damage|p2a: Dracovish|32/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: KleeFapple|Protect||[still]
+|-fail|p1a: KleeFapple
+|
+|-heal|p1a: KleeFapple|49/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Maulwurf|Excadrill, F|100/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Maulwurf
+|-damage|p1a: Maulwurf|48/100
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Backofen|Rotom-Heat|20/100
+|switch|p2a: Corsola|Corsola-Galar, F|81/100
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: KleeFapple|Clefable, M|49/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|
+|-heal|p1a: KleeFapple|55/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Seismitoad|Toxic|p1a: KleeFapple|[miss]
+|-miss|p2a: Seismitoad|p1a: KleeFapple
+|move|p1a: KleeFapple|Wish|p1a: KleeFapple
+|
+|-heal|p1a: KleeFapple|61/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Seismitoad|Stealth Rock|p1a: KleeFapple
+|-sidestart|p1: UhBoi|move: Stealth Rock
+|move|p1a: KleeFapple|Grass Knot|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|27/100
+|
+|-heal|p1a: KleeFapple|100/100|[from] move: Wish|[wisher] KleeFapple
+|-heal|p2a: Seismitoad|33/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Corsola|Corsola-Galar, F|81/100
+|move|p1a: KleeFapple|Grass Knot|p2a: Corsola
+|-damage|p2a: Corsola|78/100
+|
+|upkeep
+|turn|15
+|
+|move|p1a: KleeFapple|Wish|p1a: KleeFapple
+|move|p2a: Corsola|Will-O-Wisp|p1a: KleeFapple
+|-status|p1a: KleeFapple|brn
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Plagegeist|Dragapult, F|81/100
+|-damage|p1a: Plagegeist|69/100|[from] Stealth Rock
+|move|p2a: Corsola|Night Shade|p1a: Plagegeist
+|-damage|p1a: Plagegeist|37/100
+|
+|-heal|p1a: Plagegeist|99/100|[from] move: Wish|[wisher] KleeFapple
+|upkeep
+|turn|17
+|
+|move|p1a: Plagegeist|Shadow Ball|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|15/100
+|-start|p1a: Plagegeist|Disable|Shadow Ball|[from] ability: Cursed Body|[of] p2a: Corsola
+|-unboost|p2a: Corsola|spd|1
+|-damage|p1a: Plagegeist|89/100|[from] item: Life Orb
+|move|p2a: Corsola|Will-O-Wisp|p1a: Plagegeist|[miss]
+|-miss|p2a: Corsola|p1a: Plagegeist
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Plagegeist|Thunderbolt|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|85/100
+|-damage|p1a: Plagegeist|80/100|[from] item: Life Orb
+|
+|-heal|p2a: Ferrothorn|91/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Plagegeist|Fire Blast|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|71/100
+|-damage|p1a: Plagegeist|70/100|[from] item: Life Orb
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: KleeFapple|Clefable, M|100/100 brn
+|move|p2a: Dragapult|Draco Meteor|p1a: KleeFapple
+|-immune|p1a: KleeFapple
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|91/100
+|move|p1a: KleeFapple|Wish|p1a: KleeFapple
+|
+|-heal|p2a: Ferrothorn|97/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Maulwurf|Excadrill, F|48/100
+|-damage|p1a: Maulwurf|45/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Maulwurf
+|-start|p1a: Maulwurf|move: Leech Seed
+|
+|-heal|p1a: Maulwurf|99/100|[from] move: Wish|[wisher] KleeFapple
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p1a: Maulwurf|87/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|23
+|
+|move|p1a: Maulwurf|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|95/100
+|-damage|p1a: Maulwurf|74/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-end|p1a: Maulwurf|Leech Seed|[from] move: Rapid Spin|[of] p1a: Maulwurf
+|-sideend|p1: UhBoi|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Maulwurf
+|-boost|p1a: Maulwurf|spe|1
+|move|p2a: Ferrothorn|Spikes|p1a: Maulwurf
+|-sidestart|p1: UhBoi|Spikes
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Maulwurf|Swords Dance|p1a: Maulwurf
+|-boost|p1a: Maulwurf|atk|2
+|move|p2a: Ferrothorn|Power Whip|p1a: Maulwurf
+|-damage|p1a: Maulwurf|19/100
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Maulwurf|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|35/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Maulwurf
+|-damage|p1a: Maulwurf|0 fnt
+|faint|p1a: Maulwurf
+|
+|-heal|p2a: Ferrothorn|42/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Plagegeist|Dragapult, F|70/100
+|-damage|p1a: Plagegeist|58/100|[from] Spikes
+|turn|26
+|
+|switch|p2a: Seismitoad|Seismitoad, M|33/100
+|move|p1a: Plagegeist|Fire Blast|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|10/100
+|-status|p2a: Seismitoad|brn
+|-damage|p1a: Plagegeist|48/100|[from] item: Life Orb
+|
+|-heal|p2a: Seismitoad|16/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|10/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p1a: Plagegeist|Shadow Ball|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-damage|p1a: Plagegeist|38/100|[from] item: Life Orb
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|71/100
+|turn|28
+|
+|switch|p1a: KleeFapple|Clefable, M|100/100 brn
+|move|p2a: Dragapult|Shadow Ball|p1a: KleeFapple
+|-damage|p1a: KleeFapple|77/100 brn
+|
+|-heal|p1a: KleeFapple|83/100 brn|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|42/100
+|switch|p1a: Backofen|Rotom-Heat|20/100
+|
+|-heal|p2a: Ferrothorn|48/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p2a: Dragapult|Dragapult, F|71/100
+|move|p1a: Backofen|Overheat|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|30/100
+|-unboost|p1a: Backofen|spa|2
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Backofen|Overheat|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|11/100
+|-unboost|p1a: Backofen|spa|2
+|move|p2a: Dragapult|Shadow Ball|p1a: Backofen
+|-damage|p1a: Backofen|0 fnt
+|faint|p1a: Backofen
+|
+|upkeep
+|
+|switch|p1a: Plagegeist|Dragapult, F|38/100
+|-damage|p1a: Plagegeist|26/100|[from] Spikes
+|turn|32
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Plagegeist
+|-supereffective|p1a: Plagegeist
+|-damage|p1a: Plagegeist|0 fnt
+|-start|p2a: Dragapult|Disable|Draco Meteor|[from] ability: Cursed Body|[of] p1a: Plagegeist
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Plagegeist
+|
+|upkeep
+|
+|switch|p1a: KleeFapple|Clefable, M|83/100 brn
+|turn|33
+|
+|switch|p2a: Dracovish|Dracovish|32/100 brn
+|move|p1a: KleeFapple|Moonblast|p2a: Dracovish
+|-supereffective|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|-heal|p1a: KleeFapple|90/100 brn|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|turn|34
+|
+|move|p1a: KleeFapple|Moonblast|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|21/100
+|-unboost|p2a: Conkeldurr|spa|1
+|move|p2a: Conkeldurr|Earthquake|p1a: KleeFapple
+|-damage|p1a: KleeFapple|47/100 brn
+|
+|-heal|p1a: KleeFapple|54/100 brn|[from] item: Leftovers
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|35
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: KleeFapple
+|-resisted|p1a: KleeFapple
+|-damage|p1a: KleeFapple|34/100 brn
+|move|p1a: KleeFapple|Moonblast|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|-heal|p1a: KleeFapple|40/100 brn|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|48/100
+|turn|36
+|
+|switch|p1a: Schwein|Hippowdon, M|100/100
+|-damage|p1a: Schwein|88/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Schwein
+|move|p2a: Ferrothorn|Leech Seed|p1a: Schwein
+|-start|p1a: Schwein|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|54/100|[from] item: Leftovers
+|-damage|p1a: Schwein|76/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|69/100|[silent]
+|upkeep
+|turn|37
+|
+|move|p1a: Schwein|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|46/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Schwein
+|-supereffective|p1a: Schwein
+|-damage|p1a: Schwein|31/100
+|-damage|p2a: Ferrothorn|29/100|[from] item: Rocky Helmet|[of] p1a: Schwein
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|35/100|[from] item: Leftovers
+|-damage|p1a: Schwein|19/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|50/100|[silent]
+|upkeep
+|turn|38
+|
+|move|p1a: Schwein|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|27/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Schwein
+|-supereffective|p1a: Schwein
+|-damage|p1a: Schwein|0 fnt
+|-damage|p2a: Ferrothorn|11/100|[from] item: Rocky Helmet|[of] p1a: Schwein
+|faint|p1a: Schwein
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|17/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: KleeFapple|Clefable, M|40/100 brn
+|turn|39
+|
+|move|p1a: KleeFapple|Moonblast|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|4/100
+|-unboost|p2a: Ferrothorn|spa|1
+|move|p2a: Ferrothorn|Leech Seed|p1a: KleeFapple
+|-start|p1a: KleeFapple|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: KleeFapple|46/100 brn|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|10/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: KleeFapple|Moonblast|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|none
+|-heal|p1a: KleeFapple|53/100 brn|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|11/100
+|turn|41
+|
+|move|p1a: KleeFapple|Protect|p1a: KleeFapple
+|-singleturn|p1a: KleeFapple|Protect
+|move|p2a: Dragapult|Flamethrower|p1a: KleeFapple
+|-activate|p1a: KleeFapple|move: Protect
+|
+|-heal|p1a: KleeFapple|59/100 brn|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p2a: Dragapult|Flamethrower|p1a: KleeFapple
+|-damage|p1a: KleeFapple|40/100 brn
+|move|p1a: KleeFapple|Moonblast|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: KleeFapple|46/100 brn|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, F|15/100
+|turn|43
+|
+|move|p1a: KleeFapple|Moonblast|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|
+|win|UhBoi
+|raw|UhBoi's rating: 1185 → 1209(+24 for winning)
+|raw|Billy'sBigWilly69's rating: 1171 → 1147(-24 for losing)
+|l|☆Billy'sBigWilly69

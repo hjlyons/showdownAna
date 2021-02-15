@@ -1,0 +1,232 @@
+|ScrapeTime|2020-01-02-00:55:00
+|j|☆crown1
+|j|☆Iwannaplayimbored
+|player|p1|crown1|169|1253
+|player|p2|Iwannaplayimbored|102|1279
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Runerigus, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Malamar, M|
+|poke|p1|Pelipper, F|
+|poke|p1|Aegislash, M|
+|poke|p1|Crawdaunt, M|
+|poke|p2|Aegislash, M|
+|poke|p2|Crawdaunt, F|
+|poke|p2|Mew|
+|poke|p2|Lucario, F|
+|poke|p2|Bisharp, F|
+|poke|p2|Dragapult, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Runerigus|Runerigus, F|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|j| Glfgno7
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Runerigus
+|move|p1a: Runerigus|Trick Room|p1a: Runerigus
+|-fieldstart|move: Trick Room|[of] p1a: Runerigus
+|
+|upkeep
+|turn|2
+|c| Glfgno7|zeis
+|
+|move|p1a: Runerigus|Stealth Rock|p2a: Dragapult
+|-sidestart|p2: Iwannaplayimbored|move: Stealth Rock
+|move|p2a: Dragapult|Phantom Force|p1a: Runerigus|[from]lockedmove
+|-supereffective|p1a: Runerigus
+|-damage|p1a: Runerigus|42/100
+|-activate|p2a: Dragapult|ability: Wandering Spirit|Wandering Spirit|Infiltrator|[of] p1a: Runerigus
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Mew|Mew|100/100
+|-damage|p2a: Mew|88/100|[from] Stealth Rock
+|move|p1a: Runerigus|Memento|p2a: Mew
+|-unboost|p2a: Mew|atk|2
+|-unboost|p2a: Mew|spa|2
+|faint|p1a: Runerigus
+|
+|upkeep
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|turn|4
+|
+|move|p1a: Crawdaunt|Crabhammer|p2a: Mew
+|-damage|p2a: Mew|2/100
+|-enditem|p2a: Mew|Red Card|[of] p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|91/100|[from] item: Life Orb
+|drag|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Mew|Self-Destruct|p1a: Pelipper
+|-damage|p1a: Pelipper|74/100
+|faint|p2a: Mew
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|5
+|c| Glfgno7|huh
+|
+|move|p1a: Pelipper|Hurricane|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|c|☆crown1|k ty
+|
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100
+|-damage|p2a: Crawdaunt|88/100|[from] Stealth Rock
+|turn|6
+|
+|move|p2a: Crawdaunt|Crabhammer|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|-damage|p2a: Crawdaunt|78/100|[from] item: Life Orb
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c| Glfgno7|dikosou
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|91/100
+|turn|7
+|
+|move|p2a: Crawdaunt|Crabhammer|p1a: Crawdaunt
+|-resisted|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|11/100
+|-damage|p2a: Crawdaunt|69/100|[from] item: Life Orb
+|move|p1a: Crawdaunt|Crabhammer|p2a: Crawdaunt
+|-resisted|p2a: Crawdaunt
+|-crit|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|-damage|p1a: Crawdaunt|1/100|[from] item: Life Orb
+|faint|p2a: Crawdaunt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|-damage|p2a: Aegislash|94/100|[from] Stealth Rock
+|-item|p2a: Aegislash|Air Balloon
+|turn|8
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Crawdaunt
+|-resisted|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Malamar|Malamar, M|100/100
+|turn|9
+|c| Glfgno7|epithesh e
+|
+|move|p2a: Aegislash|Close Combat|p1a: Malamar
+|-damage|p1a: Malamar|55/100
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|move|p1a: Malamar|Trick Room|p1a: Malamar
+|-fieldstart|move: Trick Room|[of] p1a: Malamar
+|
+|-heal|p1a: Malamar|62/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Aegislash|Shadow Sneak|p1a: Malamar
+|-damage|p1a: Malamar|36/100
+|move|p1a: Malamar|Throat Chop|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-crit|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|-enditem|p2a: Aegislash|Air Balloon
+|faint|p2a: Aegislash
+|
+|-heal|p1a: Malamar|42/100|[from] item: Leftovers
+|upkeep
+|c| Glfgno7|re an eixe kanei aspida exanes :P
+|c| Glfgno7|an kai isws oxi giati den varouse dynata
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by crown1)
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|turn|11
+|c| Glfgno7|still risky
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|-damage|p2a: Bisharp|85/100|[from] item: Life Orb
+|faint|p1a: Malamar
+|
+|upkeep
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|12
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Hatterene
+|-damage|p1a: Hatterene|49/100
+|-damage|p2a: Bisharp|75/100|[from] item: Life Orb
+|move|p1a: Hatterene|Mystical Fire|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|-damage|p1a: Hatterene|39/100|[from] item: Life Orb
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|switch|p2a: Lucario|Lucario, F|100/100
+|-damage|p2a: Lucario|98/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Lucario|Bullet Punch|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|-damage|p2a: Lucario|88/100|[from] item: Life Orb
+|faint|p1a: Hatterene
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|turn|14
+|
+|move|p2a: Lucario|Earthquake|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|32/100
+|-damage|p2a: Lucario|78/100|[from] item: Life Orb
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Close Combat|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|-unboost|p1a: Aegislash|def|1
+|-unboost|p1a: Aegislash|spd|1
+|faint|p2a: Lucario
+|
+|win|crown1
+|raw|crown1's rating: 1253 → 1281(+28 for winning)
+|raw|Iwannaplayimbored's rating: 1303 → 1280(-23 for losing)
+|l|☆Iwannaplayimbored
+|l|☆crown1

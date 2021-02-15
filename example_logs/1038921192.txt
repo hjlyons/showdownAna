@@ -1,0 +1,261 @@
+|ScrapeTime|2020-01-01-00:38:50
+|j|☆COM_Axel
+|j|☆RexTiger97
+|player|p1|COM_Axel|grimsley|
+|player|p2|RexTiger97|riley|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Bisharp, F|
+|poke|p1|Drampa, F|
+|poke|p1|Haxorus, M|
+|poke|p1|Salazzle, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Ferrothorn, F|
+|poke|p2|Inteleon, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Eldegoss, F|
+|poke|p2|Centiskorch, M|
+|poke|p2|Falinks|
+|poke|p2|Toxtricity, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| DEEAD3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RexTiger97)
+|l| DEEAD3
+|inactive|RexTiger97 has 270 seconds left.
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Endeavor|Centiskorch, M, shiny|100/100
+|turn|1
+|
+|move|p2a: Endeavor|Will-O-Wisp|p1a: Ferrothorn|[miss]
+|-miss|p2a: Endeavor|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Endeavor
+|-start|p2a: Endeavor|move: Leech Seed
+|
+|-damage|p2a: Endeavor|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|2
+|
+|move|p2a: Endeavor|Will-O-Wisp|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Endeavor
+|-sidestart|p2: RexTiger97|move: Stealth Rock
+|
+|-damage|p2a: Endeavor|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Endeavor|Fire Lash|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|2/100 brn
+|-damage|p2a: Endeavor|63/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Endeavor|47/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|def|1
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Endeavor
+|-resisted|p2a: Endeavor
+|-damage|p2a: Endeavor|35/100
+|
+|-damage|p2a: Endeavor|22/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|16/100 brn|[silent]
+|-damage|p1a: Ferrothorn|9/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Endeavor|Leech Life|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-heal|p2a: Endeavor|27/100|[from] drain|[of] p1a: Ferrothorn
+|-damage|p2a: Endeavor|14/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Endeavor|0 fnt|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|faint|p2a: Endeavor
+|
+|upkeep
+|
+|switch|p2a: Bolita|Eldegoss, F|100/100
+|switch|p1a: Haxorus|Haxorus, M, shiny|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|-damage|p2a: Bolita|88/100|[from] Stealth Rock
+|turn|5
+|
+|move|p1a: Haxorus|Outrage|p2a: Bolita
+|-damage|p2a: Bolita|5/100
+|move|p2a: Bolita|Sleep Powder|p1a: Haxorus
+|-status|p1a: Haxorus|slp|[from] move: Sleep Powder
+|
+|-heal|p2a: Bolita|11/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|cant|p1a: Haxorus|slp
+|move|p2a: Bolita|Synthesis|p2a: Bolita
+|-heal|p2a: Bolita|61/100
+|
+|-heal|p2a: Bolita|67/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|cant|p1a: Haxorus|slp
+|move|p2a: Bolita|Cotton Guard|p2a: Bolita
+|-boost|p2a: Bolita|def|3
+|
+|-heal|p2a: Bolita|73/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|cant|p1a: Haxorus|slp
+|move|p2a: Bolita|Cotton Guard|p2a: Bolita
+|-boost|p2a: Bolita|def|3
+|
+|-heal|p2a: Bolita|79/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|-curestatus|p1a: Haxorus|slp|[msg]
+|move|p1a: Haxorus|Outrage|p2a: Bolita
+|-damage|p2a: Bolita|59/100
+|move|p2a: Bolita|Giga Drain|p1a: Haxorus
+|-resisted|p1a: Haxorus
+|-damage|p1a: Haxorus|91/100
+|-heal|p2a: Bolita|64/100|[from] drain|[of] p1a: Haxorus
+|
+|-heal|p2a: Bolita|70/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Haxorus|Outrage|p2a: Bolita|[from]lockedmove
+|-damage|p2a: Bolita|50/100
+|-start|p1a: Haxorus|confusion|[fatigue]
+|move|p2a: Bolita|Sleep Powder|p1a: Haxorus
+|-status|p1a: Haxorus|slp|[from] move: Sleep Powder
+|
+|-heal|p2a: Bolita|56/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|move|p2a: Bolita|Synthesis|p2a: Bolita
+|-heal|p2a: Bolita|100/100
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Bolita|Cotton Guard|p2a: Bolita
+|-boost|p2a: Bolita|def|0
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Bolita|Giga Drain|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|84/100
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Bolita|Sleep Powder|p1a: Bisharp|[miss]
+|-miss|p2a: Bolita|p1a: Bisharp
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Bisharp|Iron Head|p2a: Bolita
+|-damage|p2a: Bolita|30/100
+|-damage|p1a: Bisharp|74/100|[from] item: Life Orb
+|move|p2a: Bolita|Sleep Powder|p1a: Bisharp|[miss]
+|-miss|p2a: Bolita|p1a: Bisharp
+|
+|-heal|p2a: Bolita|36/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Bisharp|Iron Head|p2a: Bolita
+|-damage|p2a: Bolita|0 fnt
+|-damage|p1a: Bisharp|65/100|[from] item: Life Orb
+|faint|p2a: Bolita
+|
+|upkeep
+|
+|switch|p2a: EM-0|Inteleon, M|100/100
+|-damage|p2a: EM-0|88/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: EM-0
+|-damage|p2a: EM-0|0 fnt
+|-damage|p1a: Bisharp|55/100|[from] item: Life Orb
+|faint|p2a: EM-0
+|
+|upkeep
+|
+|switch|p2a: FanSouls|Corviknight, M, shiny|100/100
+|-ability|p2a: FanSouls|Unnerve|p1: COM_Axel
+|-damage|p2a: FanSouls|88/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Bisharp|Psycho Cut|p2a: FanSouls
+|-resisted|p2a: FanSouls
+|-damage|p2a: FanSouls|44/100
+|-damage|p1a: Bisharp|45/100|[from] item: Life Orb
+|move|p2a: FanSouls|Taunt|p1a: Bisharp
+|-start|p1a: Bisharp|move: Taunt
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Bisharp|Psycho Cut|p2a: FanSouls
+|-resisted|p2a: FanSouls
+|-damage|p2a: FanSouls|0 fnt
+|-damage|p1a: Bisharp|35/100|[from] item: Life Orb
+|faint|p2a: FanSouls
+|
+|upkeep
+|
+|switch|p2a: ElectriCherry|Toxtricity, M|100/100
+|-damage|p2a: ElectriCherry|88/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p2a: Six Pistols|Falinks|100/100
+|-damage|p2a: Six Pistols|95/100|[from] Stealth Rock
+|move|p1a: Bisharp|Sucker Punch||[still]
+|-fail|p1a: Bisharp
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Six Pistols|No Retreat|p2a: Six Pistols
+|-boost|p2a: Six Pistols|atk|1
+|-boost|p2a: Six Pistols|def|1
+|-boost|p2a: Six Pistols|spa|1
+|-boost|p2a: Six Pistols|spd|1
+|-boost|p2a: Six Pistols|spe|1
+|-start|p2a: Six Pistols|move: No Retreat
+|move|p1a: Bisharp|Psycho Cut|p2a: Six Pistols
+|-supereffective|p2a: Six Pistols
+|-damage|p2a: Six Pistols|0 fnt
+|-damage|p1a: Bisharp|25/100|[from] item: Life Orb
+|faint|p2a: Six Pistols
+|
+|-end|p1a: Bisharp|move: Taunt
+|upkeep
+|-message|RexTiger97 forfeited.
+|
+|win|COM_Axel
+|l|☆RexTiger97

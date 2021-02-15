@@ -1,0 +1,228 @@
+|ScrapeTime|2020-01-01-17:24:50
+|j|☆Enter Just Enter
+|j|☆Roro42
+|player|p1|Enter Just Enter|rosa|1000
+|player|p2|Roro42|190|1040
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Runerigus, F|
+|poke|p1|Greedent, M|
+|poke|p1|Coalossal, F|
+|poke|p1|Orbeetle, M|
+|poke|p1|Dracovish|
+|poke|p1|Frosmoth, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Flapple, M|
+|poke|p2|Aegislash, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Braviary, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mr.Fish|Dracovish|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|move|p1a: Mr.Fish|Fishious Rend|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|57/100
+|move|p1a: Mr.Fish|Fishious Rend|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|63/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Flapple|Flapple, M|100/100
+|move|p1a: Mr.Fish|Fishious Rend|p2a: Flapple
+|-resisted|p2a: Flapple
+|-damage|p2a: Flapple|58/100
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Flapple|Outrage|p1a: Mr.Fish
+|-supereffective|p1a: Mr.Fish
+|-damage|p1a: Mr.Fish|0 fnt
+|faint|p1a: Mr.Fish
+|
+|upkeep
+|
+|switch|p1a: Orbeetle|Orbeetle, M|100/100
+|turn|5
+|
+|move|p2a: Flapple|Outrage|p1a: Orbeetle|[from]lockedmove
+|-damage|p1a: Orbeetle|51/100
+|move|p1a: Orbeetle|Sticky Web|p2a: Flapple
+|-sidestart|p2: Roro42|move: Sticky Web
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Flapple|Outrage|p1a: Orbeetle|[from]lockedmove
+|-damage|p1a: Orbeetle|0 fnt
+|-start|p2a: Flapple|confusion|[fatigue]
+|faint|p1a: Orbeetle
+|
+|upkeep
+|
+|switch|p1a: Coalossal|Coalossal, F|100/100
+|-item|p1a: Coalossal|Air Balloon
+|turn|7
+|
+|-activate|p2a: Flapple|confusion
+|move|p2a: Flapple|Substitute|p2a: Flapple
+|-start|p2a: Flapple|Substitute
+|-damage|p2a: Flapple|33/100
+|move|p1a: Coalossal|Stealth Rock|p2a: Flapple
+|-sidestart|p2: Roro42|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|-end|p2a: Flapple|confusion
+|move|p2a: Flapple|Grav Apple|p1a: Coalossal
+|-damage|p1a: Coalossal|83/100
+|-enditem|p1a: Coalossal|Air Balloon
+|-unboost|p1a: Coalossal|def|1
+|move|p1a: Coalossal|Spikes|p2a: Flapple
+|-sidestart|p2: Roro42|Spikes
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Flapple|Grav Apple|p1a: Coalossal
+|-damage|p1a: Coalossal|54/100
+|-unboost|p1a: Coalossal|def|1
+|move|p1a: Coalossal|Spikes|p2a: Flapple
+|-sidestart|p2: Roro42|Spikes
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Flapple|Grav Apple|p1a: Coalossal
+|-damage|p1a: Coalossal|17/100
+|-unboost|p1a: Coalossal|def|1
+|move|p1a: Coalossal|Stone Edge|p2a: Flapple
+|-end|p2a: Flapple|Substitute
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Flapple|Acrobatics|p1a: Coalossal
+|-resisted|p1a: Coalossal
+|-damage|p1a: Coalossal|6/100
+|move|p1a: Coalossal|Rapid Spin|p2a: Flapple
+|-damage|p2a: Flapple|19/100
+|-boost|p1a: Coalossal|spe|1
+|-enditem|p2a: Flapple|Salac Berry|[eat]
+|-boost|p2a: Flapple|spe|2
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Flapple|Grav Apple|p1a: Coalossal
+|-damage|p1a: Coalossal|0 fnt
+|faint|p1a: Coalossal
+|
+|upkeep
+|
+|switch|p1a: Runerigus|Runerigus, F|100/100
+|turn|13
+|
+|move|p2a: Flapple|Substitute|p2a: Flapple
+|-fail|p2a: Flapple|move: Substitute|[weak]
+|move|p1a: Runerigus|Toxic Spikes|p2a: Flapple
+|-sidestart|p2: Roro42|move: Toxic Spikes
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Flapple|Substitute|p2a: Flapple
+|-fail|p2a: Flapple|move: Substitute|[weak]
+|move|p1a: Runerigus|Toxic Spikes|p2a: Flapple
+|-sidestart|p2: Roro42|move: Toxic Spikes
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Flapple|Grav Apple|p1a: Runerigus
+|-supereffective|p1a: Runerigus
+|-damage|p1a: Runerigus|59/100
+|-unboost|p1a: Runerigus|def|1
+|move|p1a: Runerigus|Will-O-Wisp|p2a: Flapple|[miss]
+|-miss|p1a: Runerigus|p2a: Flapple
+|
+|-heal|p1a: Runerigus|65/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Flapple|Grav Apple|p1a: Runerigus
+|-supereffective|p1a: Runerigus
+|-damage|p1a: Runerigus|0 fnt
+|faint|p1a: Runerigus
+|
+|upkeep
+|
+|switch|p1a: Frosmoth|Frosmoth, M|100/100
+|turn|17
+|c|☆Roro42|You stupid
+|
+|move|p2a: Flapple|Substitute|p2a: Flapple
+|-fail|p2a: Flapple|move: Substitute|[weak]
+|move|p1a: Frosmoth|Bug Buzz|p2a: Flapple
+|-supereffective|p2a: Flapple
+|-damage|p2a: Flapple|0 fnt
+|faint|p2a: Flapple
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|18
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: Roro42|Spikes|[silent]
+|-sidestart|p1: Enter Just Enter|Spikes|[silent]
+|-sidestart|p1: Enter Just Enter|Spikes|[silent]
+|-sideend|p2: Roro42|Toxic Spikes|[silent]
+|-sidestart|p1: Enter Just Enter|Toxic Spikes|[silent]
+|-sidestart|p1: Enter Just Enter|Toxic Spikes|[silent]
+|-sideend|p2: Roro42|Stealth Rock|[silent]
+|-sidestart|p1: Enter Just Enter|Stealth Rock|[silent]
+|-sideend|p2: Roro42|Sticky Web|[silent]
+|-sidestart|p1: Enter Just Enter|Sticky Web|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Frosmoth|U-turn|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|90/100
+|-message|Enter Just Enter forfeited.
+|
+|win|Roro42
+|l|☆Enter Just Enter
+|raw|Enter Just Enter's rating: 1000 → 1000(+0 for losing)
+|raw|Roro42's rating: 1040 → 1070(+30 for winning)

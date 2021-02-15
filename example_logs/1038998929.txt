@@ -1,0 +1,477 @@
+|ScrapeTime|2020-01-01-04:22:29
+|j|☆Jeztar
+|j|☆OUTM Wraks2
+|player|p1|Jeztar|alder|1503
+|player|p2|OUTM Wraks2|170|1464
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Seismitoad, M|
+|poke|p1|Sylveon, F|
+|poke|p1|Toxtricity, M|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Clefable, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Vaporeon, M|
+|poke|p2|Hydreigon, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by OUTM Wraks2)
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Seismitoad
+|-start|p1a: Seismitoad|move: Taunt
+|cant|p1a: Seismitoad|move: Taunt|Toxic
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Seismitoad|Scald|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|87/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Sylveon
+|-supereffective|p1a: Sylveon
+|-damage|p1a: Sylveon|25/100
+|-damage|p2a: Hydreigon|77/100|[from] item: Life Orb
+|move|p1a: Sylveon|Hyper Voice|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-heal|p1a: Sylveon|31/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|5
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|75/100
+|-unboost|p1a: Toxtricity|spa|1
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Toxtricity|Volt Switch|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|77/100
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Dragapult|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|91/100
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100|[from]move: U-turn
+|move|p1a: Mandibuzz|Foul Play|p2a: Grimmsnarl
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|86/100
+|
+|-heal|p1a: Mandibuzz|97/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Mandibuzz|Taunt|p2a: Grimmsnarl
+|-start|p2a: Grimmsnarl|move: Taunt
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|55/100
+|-unboost|p1a: Mandibuzz|spa|1
+|
+|-heal|p1a: Mandibuzz|61/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Seismitoad
+|-damage|p1a: Seismitoad|72/100
+|-unboost|p1a: Seismitoad|spa|1
+|
+|-heal|p1a: Seismitoad|78/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Clefable
+|-sidestart|p2: OUTM Wraks2|move: Stealth Rock
+|
+|-heal|p1a: Seismitoad|84/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Seismitoad|Earth Power|p2a: Clefable
+|-damage|p2a: Clefable|83/100
+|move|p2a: Clefable|Moonblast|p1a: Seismitoad
+|-damage|p1a: Seismitoad|30/100
+|-unboost|p1a: Seismitoad|spa|1
+|
+|-heal|p1a: Seismitoad|36/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|Jeztar has 120 seconds left.
+|
+|move|p1a: Seismitoad|Earth Power|p2a: Clefable
+|-damage|p2a: Clefable|70/100
+|move|p2a: Clefable|Moonblast|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|inactive|Jeztar has 120 seconds left.
+|
+|switch|p1a: Toxtricity|Toxtricity, M|75/100
+|turn|13
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Toxtricity|Boomburst|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|36/100
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Excadrill|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|24/100
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|86/100
+|-damage|p2a: Grimmsnarl|74/100|[from] Stealth Rock
+|move|p1a: Dragapult|Flamethrower|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|33/100
+|
+|upkeep
+|turn|16
+|inactive|Jeztar has 120 seconds left.
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|61/100
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Mandibuzz
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Mandibuzz
+|
+|-heal|p1a: Mandibuzz|67/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Jeztar has 120 seconds left.
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Grimmsnarl
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|18/100
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|24/100
+|-unboost|p1a: Mandibuzz|spa|1
+|
+|-heal|p1a: Mandibuzz|30/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|Jeztar has 120 seconds left.
+|
+|switch|p2a: Clefable|Clefable, M|70/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|80/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Mandibuzz|87/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Jeztar has 120 seconds left.
+|
+|switch|p1a: Toxtricity|Toxtricity, M|75/100
+|move|p2a: Clefable|Moonblast|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-crit|p1a: Toxtricity
+|-damage|p1a: Toxtricity|27/100
+|-unboost|p1a: Toxtricity|spa|1
+|
+|upkeep
+|turn|20
+|
+|switch|p2a: Dragapult|Dragapult, F|77/100
+|-damage|p2a: Dragapult|65/100|[from] Stealth Rock
+|move|p1a: Toxtricity|Sludge Wave|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|32/100
+|
+|upkeep
+|turn|21
+|inactive|Jeztar has 120 seconds left.
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|87/100
+|move|p2a: Dragapult|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|77/100
+|
+|switch|p2a: Clefable|Clefable, M|70/100|[from]move: U-turn
+|
+|-heal|p1a: Mandibuzz|83/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Clefable|Moonblast|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|64/100
+|-unboost|p1a: Cinderace|spa|1
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|-damage|p2a: Vaporeon|88/100|[from] Stealth Rock
+|move|p1a: Cinderace|Pyro Ball|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|66/100
+|
+|-heal|p2a: Vaporeon|72/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Sylveon|Sylveon, F|31/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|79/100|[from] item: Leftovers
+|-heal|p1a: Sylveon|38/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Excadrill|Excadrill, M|36/100
+|-damage|p2a: Excadrill|33/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-heal|p2a: Excadrill|97/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Sylveon|44/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Excadrill|Earthquake|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|-heal|p1a: Sylveon|94/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Sylveon|99/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|83/100
+|move|p2a: Excadrill|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: Jeztar|move: Stealth Rock
+|
+|-heal|p1a: Mandibuzz|89/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|18/100
+|-damage|p2a: Grimmsnarl|6/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Foul Play|p2a: Grimmsnarl
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|-heal|p1a: Mandibuzz|96/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|70/100
+|turn|29
+|
+|switch|p1a: Sylveon|Sylveon, F|99/100
+|-damage|p1a: Sylveon|87/100|[from] Stealth Rock
+|move|p2a: Clefable|Moonblast|p1a: Sylveon
+|-damage|p1a: Sylveon|58/100
+|-unboost|p1a: Sylveon|spa|1
+|
+|-heal|p1a: Sylveon|64/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|100/100
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|70/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Clefable|Moonblast|p1a: Sylveon
+|-damage|p1a: Sylveon|42/100
+|move|p1a: Sylveon|Mystical Fire|p2a: Clefable
+|-damage|p2a: Clefable|89/100
+|-unboost|p2a: Clefable|spa|1
+|
+|-heal|p1a: Sylveon|92/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Sylveon|98/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p2a: Excadrill|Excadrill, M|97/100
+|-damage|p2a: Excadrill|94/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Sylveon|Hyper Voice|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|77/100
+|
+|-heal|p1a: Sylveon|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Excadrill|Iron Head|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|upkeep
+|turn|34
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|96/100
+|-damage|p1a: Mandibuzz|71/100|[from] Stealth Rock
+|move|p2a: Excadrill|Iron Head|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|47/100
+|
+|-heal|p1a: Mandibuzz|53/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|switch|p2a: Clefable|Clefable, M|89/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|36
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|-damage|p1a: Sylveon|88/100|[from] Stealth Rock
+|switch|p2a: Excadrill|Excadrill, M|77/100
+|-damage|p2a: Excadrill|74/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|-heal|p1a: Sylveon|94/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Excadrill|Iron Head|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|-heal|p1a: Sylveon|99/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|-damage|p1a: Mandibuzz|75/100|[from] Stealth Rock
+|move|p2a: Excadrill|Iron Head|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|53/100
+|
+|-heal|p1a: Mandibuzz|59/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p2a: Excadrill|Iron Head|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|34/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|84/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Mandibuzz|90/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p2a: Excadrill|Iron Head|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|66/100
+|move|p1a: Mandibuzz|Defog|p2a: Excadrill
+|-unboost|p2a: Excadrill|evasion|1
+|-sideend|p2: OUTM Wraks2|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|-sideend|p1: Jeztar|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|-heal|p1a: Mandibuzz|72/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p2a: Excadrill|Iron Head|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|47/100
+|move|p1a: Mandibuzz|Foul Play|p2a: Excadrill
+|-damage|p2a: Excadrill|1/100
+|
+|-heal|p1a: Mandibuzz|54/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p2a: Excadrill|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: Jeztar|move: Stealth Rock
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|43
+|
+|move|p2a: Excadrill|Iron Head|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|76/100
+|move|p1a: Mandibuzz|Defog|p2a: Excadrill
+|-unboost|p2a: Excadrill|evasion|1
+|-sideend|p1: Jeztar|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|-heal|p1a: Mandibuzz|82/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p2a: Excadrill|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: Jeztar|move: Stealth Rock
+|move|p1a: Mandibuzz|Foul Play|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-heal|p1a: Mandibuzz|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|32/100
+|turn|45
+|
+|move|p2a: Dragapult|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|79/100
+|-message|OUTM Wraks2 forfeited.
+|
+|win|Jeztar
+|l|☆OUTM Wraks2
+|raw|Jeztar's rating: 1503 → 1521(+18 for winning)
+|raw|OUTM Wraks2's rating: 1461 → 1443(-18 for losing)

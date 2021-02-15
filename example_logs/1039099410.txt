@@ -1,0 +1,205 @@
+|ScrapeTime|2020-01-01-11:25:25
+|j|☆DabiYtm
+|j|☆Hsjdjty
+|player|p1|DabiYtm|266|1040
+|player|p2|Hsjdjty|102|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Gyarados, F|
+|poke|p1|Excadrill, F|
+|poke|p2|Arctozolt|
+|poke|p2|Orbeetle, F|
+|poke|p2|Obstagoon, M|
+|poke|p2|Sirfetch'd, F|
+|poke|p2|Cursola, M|
+|poke|p2|Inteleon, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|switch|p2a: Orbeetle|Orbeetle, F, shiny|100/100
+|-item|p1a: Corsola|Eviolite|[from] ability: Frisk|[of] p2a: Orbeetle|[identify]
+|turn|1
+|
+|move|p2a: Orbeetle|Magic Coat|p2a: Orbeetle
+|-singleturn|p2a: Orbeetle|move: Magic Coat
+|move|p1a: Corsola|Stealth Rock|p2a: Orbeetle
+|move|p2a: Orbeetle|Stealth Rock|p1a: Corsola|[from]Magic Coat
+|-sidestart|p1: DabiYtm|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Orbeetle|Sticky Web|p1a: Corsola
+|-sidestart|p1: DabiYtm|move: Sticky Web
+|move|p1a: Corsola|Will-O-Wisp|p2a: Orbeetle
+|-status|p2a: Orbeetle|brn
+|
+|-damage|p2a: Orbeetle|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Orbeetle|Magic Coat|p2a: Orbeetle
+|-singleturn|p2a: Orbeetle|move: Magic Coat
+|move|p1a: Corsola|Night Shade|p2a: Orbeetle
+|-damage|p2a: Orbeetle|63/100 brn
+|
+|-heal|p2a: Orbeetle|70/100 brn|[from] item: Leftovers
+|-damage|p2a: Orbeetle|63/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Orbeetle|U-turn|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|99/100
+|
+|switch|p2a: Obstagoon|Obstagoon, M, shiny|100/100|[from]move: U-turn
+|move|p1a: Corsola|Night Shade|p2a: Obstagoon
+|-immune|p2a: Obstagoon
+|
+|-status|p2a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|move|p2a: Obstagoon|Knock Off|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|36/100
+|-enditem|p1a: Corsola|Eviolite|[from] move: Knock Off|[of] p2a: Obstagoon
+|move|p1a: Corsola|Stealth Rock|p2a: Obstagoon
+|-sidestart|p2: Hsjdjty|move: Stealth Rock
+|
+|-damage|p2a: Obstagoon|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p2a: Obstagoon|Knock Off|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|-damage|p2a: Obstagoon|88/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-activate|p1a: Excadrill|move: Sticky Web
+|-unboost|p1a: Excadrill|spe|1
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|7
+|
+|move|p2a: Obstagoon|Close Combat|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-unboost|p2a: Obstagoon|def|1
+|-unboost|p2a: Obstagoon|spd|1
+|faint|p1a: Excadrill
+|
+|-damage|p2a: Obstagoon|82/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|-activate|p1a: Dragapult|move: Sticky Web
+|-unboost|p1a: Dragapult|spe|1
+|turn|8
+|
+|move|p2a: Obstagoon|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-enditem|p1a: Dragapult|Choice Specs|[from] move: Knock Off|[of] p2a: Obstagoon
+|faint|p1a: Dragapult
+|
+|-damage|p2a: Obstagoon|76/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, F, shiny|100/100
+|-damage|p1a: Gyarados|76/100|[from] Stealth Rock
+|turn|9
+|
+|move|p2a: Obstagoon|Facade|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-damage|p2a: Obstagoon|70/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p1a: Grimmsnarl|88/100|[from] Stealth Rock
+|-activate|p1a: Grimmsnarl|move: Sticky Web
+|-unboost|p1a: Grimmsnarl|spe|1
+|turn|10
+|
+|move|p2a: Obstagoon|Obstruct|p2a: Obstagoon
+|-singleturn|p2a: Obstagoon|Protect
+|move|p1a: Grimmsnarl|Sucker Punch||[still]
+|-fail|p1a: Grimmsnarl
+|
+|-damage|p2a: Obstagoon|64/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Grimmsnarl|Sucker Punch|p2a: Obstagoon
+|-resisted|p2a: Obstagoon
+|-damage|p2a: Obstagoon|27/100 brn
+|-damage|p1a: Grimmsnarl|78/100|[from] item: Life Orb
+|move|p2a: Obstagoon|Facade|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|-damage|p2a: Obstagoon|21/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Obstagoon
+|-damage|p2a: Obstagoon|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|faint|p2a: Obstagoon
+|
+|upkeep
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F, shiny|100/100
+|-damage|p2a: Sirfetch'd|94/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Sirfetch'd|First Impression|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|12/100
+|move|p1a: Hydreigon|Draco Meteor|p2a: Sirfetch'd|[miss]
+|-miss|p1a: Hydreigon|p2a: Sirfetch'd
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Sirfetch'd
+|-damage|p2a: Sirfetch'd|70/100
+|-unboost|p1a: Hydreigon|spa|2
+|move|p2a: Sirfetch'd|Close Combat|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|-unboost|p2a: Sirfetch'd|def|1
+|-unboost|p2a: Sirfetch'd|spd|1
+|faint|p1a: Hydreigon
+|
+|win|Hsjdjty
+|raw|DabiYtm's rating: 1040 → 1022(-18 for losing)
+|raw|Hsjdjty's rating: 1000 → 1045(+45 for winning)
+|l|☆Hsjdjty

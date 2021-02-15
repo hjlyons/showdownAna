@@ -1,0 +1,469 @@
+|ScrapeTime|2020-01-02-13:14:37
+|j|☆bite Grayson
+|j|☆DemyCoeur
+|player|p1|bite Grayson|102|1040
+|player|p2|DemyCoeur|lady|1068
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aegislash, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Sylveon, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Snorlax, M|
+|poke|p2|Clefable, F|
+|poke|p2|Gastrodon, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Meta Knight|Corviknight, M|100/100
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|-ability|p1a: Meta Knight|Pressure
+|turn|1
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Meta Knight|Taunt|p2a: Toxapex
+|-start|p2a: Toxapex|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Meta Knight|Brave Bird|p2a: Clefable
+|-damage|p2a: Clefable|61/100
+|-damage|p1a: Meta Knight|87/100|[from] Recoil
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Meta Knight|Taunt|p2a: Clefable
+|-start|p2a: Clefable|move: Taunt
+|cant|p2a: Clefable|move: Taunt|Calm Mind
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Meta Knight|Taunt||[still]
+|-fail|p1a: Meta Knight
+|move|p2a: Clefable|Flamethrower|p1a: Meta Knight
+|-supereffective|p1a: Meta Knight
+|-damage|p1a: Meta Knight|35/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Meta Knight|Brave Bird|p2a: Clefable
+|-damage|p2a: Clefable|18/100
+|-damage|p1a: Meta Knight|21/100|[from] Recoil
+|move|p2a: Clefable|Flamethrower|p1a: Meta Knight
+|-supereffective|p1a: Meta Knight
+|-damage|p1a: Meta Knight|0 fnt
+|faint|p1a: Meta Knight
+|
+|-end|p2a: Clefable|move: Taunt
+|upkeep
+|
+|switch|p1a: Only Fire|Cinderace, M|100/100
+|turn|6
+|
+|move|p1a: Only Fire|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|3/100
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100|[from]move: U-turn
+|move|p2a: Clefable|Moonblast|p1a: Sylveon
+|-damage|p1a: Sylveon|61/100
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Clefable|Thunderbolt|p1a: Sylveon
+|-damage|p1a: Sylveon|37/100
+|move|p1a: Sylveon|Hyper Voice|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-enditem|p1a: Sylveon|Throat Spray
+|-boost|p1a: Sylveon|spa|1
+|faint|p2a: Clefable
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bite Grayson)
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|turn|8
+|
+|move|p1a: Sylveon|Calm Mind|p1a: Sylveon
+|-boost|p1a: Sylveon|spa|1
+|-boost|p1a: Sylveon|spd|1
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Sylveon|Hyper Voice|p2a: Snorlax
+|-damage|p2a: Snorlax|34/100
+|move|p2a: Snorlax|Earthquake|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|faint|p1a: Sylveon
+|
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|turn|10
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Conkeldurr|Close Combat|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|79/100
+|-unboost|p1a: Conkeldurr|def|1
+|-unboost|p1a: Conkeldurr|spd|1
+|
+|-heal|p2a: Toxapex|85/100|[from] item: Black Sludge
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|11
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Aegislash
+|-sidestart|p1: bite Grayson|move: Toxic Spikes
+|
+|-heal|p2a: Toxapex|91/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|switch|p2a: Gastrodon|Gastrodon, F|100/100
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Gastrodon|Earthquake|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Aegislash|King's Shield||[still]
+|-fail|p1a: Aegislash
+|move|p2a: Gastrodon|Earthquake|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|54/100
+|-enditem|p1a: Aegislash|Weakness Policy
+|-boost|p1a: Aegislash|atk|2
+|-boost|p1a: Aegislash|spa|2
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Close Combat|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|60/100
+|-unboost|p1a: Aegislash|def|1
+|-unboost|p1a: Aegislash|spd|1
+|
+|-heal|p2a: Toxapex|66/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Toxapex|Toxic Spikes|p1a: Aegislash
+|-sidestart|p1: bite Grayson|move: Toxic Spikes
+|
+|-heal|p2a: Toxapex|73/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|inactive|bite Grayson has 120 seconds left.
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Sneak|p2a: Toxapex
+|-damage|p2a: Toxapex|31/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|81/100
+|
+|-heal|p2a: Toxapex|87/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p1a: Aegislash|Shadow Sneak|p2a: Toxapex
+|-damage|p2a: Toxapex|42/100
+|move|p2a: Toxapex|Scald|p1a: Aegislash
+|-damage|p1a: Aegislash|8/100
+|
+|-heal|p2a: Toxapex|48/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p1a: Aegislash|Shadow Sneak|p2a: Toxapex
+|-damage|p2a: Toxapex|5/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|55/100
+|
+|-heal|p2a: Toxapex|62/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|switch|p2a: Snorlax|Snorlax, M|34/100
+|move|p1a: Aegislash|Shadow Sneak|p2a: Snorlax
+|-immune|p2a: Snorlax
+|
+|upkeep
+|turn|21
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Snorlax|Earthquake|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|upkeep
+|turn|22
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Close Combat|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|-unboost|p1a: Aegislash|def|1
+|-unboost|p1a: Aegislash|spd|1
+|faint|p2a: Snorlax
+|
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, F|95/100
+|turn|23
+|
+|move|p1a: Aegislash|Shadow Sneak|p2a: Toxapex
+|-damage|p2a: Toxapex|52/100
+|move|p2a: Toxapex|Scald|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|-heal|p2a: Toxapex|58/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100 brn
+|turn|24
+|
+|move|p1a: Conkeldurr|Facade|p2a: Toxapex
+|-damage|p2a: Toxapex|7/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|57/100
+|
+|-heal|p2a: Toxapex|63/100|[from] item: Black Sludge
+|-damage|p1a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Conkeldurr|Facade|p2a: Toxapex
+|-damage|p2a: Toxapex|16/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|66/100
+|
+|-heal|p2a: Toxapex|73/100|[from] item: Black Sludge
+|-damage|p1a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p1a: Conkeldurr|Close Combat|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|43/100
+|-unboost|p1a: Conkeldurr|def|1
+|-unboost|p1a: Conkeldurr|spd|1
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|93/100
+|
+|-heal|p2a: Toxapex|99/100|[from] item: Black Sludge
+|-damage|p1a: Conkeldurr|82/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p1a: Conkeldurr|Facade|p2a: Toxapex
+|-damage|p2a: Toxapex|51/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-damage|p1a: Conkeldurr|76/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p1a: Conkeldurr|Facade|p2a: Toxapex
+|-damage|p2a: Toxapex|48/100
+|move|p2a: Toxapex|Scald|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|47/100 brn
+|
+|-heal|p2a: Toxapex|54/100|[from] item: Black Sludge
+|-damage|p1a: Conkeldurr|41/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Conkeldurr|Facade|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|65/100
+|
+|-heal|p2a: Corviknight|71/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|35/100 brn|[from] brn
+|upkeep
+|turn|30
+|inactive|bite Grayson has 120 seconds left.
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Conkeldurr|Fire Punch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|23/100
+|
+|-heal|p2a: Corviknight|30/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|29/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|switch|p2a: Toxapex|Toxapex, F|87/100
+|move|p1a: Conkeldurr|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|15/100
+|
+|-heal|p2a: Toxapex|21/100|[from] item: Black Sludge
+|-damage|p1a: Conkeldurr|23/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|switch|p2a: Gastrodon|Gastrodon, F|100/100
+|move|p1a: Conkeldurr|Facade|p2a: Gastrodon
+|-damage|p2a: Gastrodon|43/100
+|
+|-heal|p2a: Gastrodon|49/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|17/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|switch|p2a: Corviknight|Corviknight, F|30/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Conkeldurr|Facade|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-damage|p1a: Conkeldurr|11/100 brn|[from] brn
+|upkeep
+|inactive|DemyCoeur has 120 seconds left.
+|
+|switch|p2a: Gastrodon|Gastrodon, F|49/100
+|turn|34
+|
+|switch|p2a: Toxapex|Toxapex, F|54/100
+|move|p1a: Conkeldurr|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-damage|p1a: Conkeldurr|5/100 brn|[from] brn
+|upkeep
+|inactive|DemyCoeur has 120 seconds left.
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|35
+|inactive|DemyCoeur has 120 seconds left.
+|
+|move|p2a: Tyranitar|Stealth Rock|p1a: Conkeldurr
+|-sidestart|p1: bite Grayson|move: Stealth Rock
+|move|p1a: Conkeldurr|Close Combat|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-unboost|p1a: Conkeldurr|def|1
+|-unboost|p1a: Conkeldurr|spd|1
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Conkeldurr|0 fnt|[from] Sandstorm
+|faint|p1a: Conkeldurr
+|upkeep
+|inactive|DemyCoeur has 120 seconds left.
+|
+|switch|p2a: Gastrodon|Gastrodon, F|49/100
+|switch|p1a: Only Fire|Cinderace, M|100/100
+|-status|p1a: Only Fire|tox
+|-damage|p1a: Only Fire|76/100 tox|[from] Stealth Rock
+|turn|36
+|
+|move|p1a: Only Fire|High Jump Kick|p2a: Gastrodon
+|-damage|p2a: Gastrodon|16/100
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Only Fire|70/100 tox|[from] Sandstorm
+|-heal|p2a: Gastrodon|72/100|[from] item: Leftovers
+|-damage|p1a: Only Fire|64/100 tox|[from] psn
+|upkeep
+|turn|37
+|inactive|bite Grayson has 120 seconds left.
+|
+|move|p1a: Only Fire|High Jump Kick|p2a: Gastrodon
+|-damage|p2a: Gastrodon|38/100
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Only Fire|58/100 tox|[from] Sandstorm
+|-heal|p2a: Gastrodon|94/100|[from] item: Leftovers
+|-damage|p1a: Only Fire|46/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|39
+|
+|move|p1a: Excadrill|Earthquake|p2a: Gastrodon
+|-damage|p2a: Gastrodon|40/100
+|move|p2a: Gastrodon|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|12/100
+|
+|-weather|none
+|-heal|p2a: Gastrodon|46/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: Excadrill|Earthquake|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|win|bite Grayson
+|raw|bite Grayson's rating: 1040 → 1077(+37 for winning)
+|raw|DemyCoeur's rating: 1068 → 1046(-22 for losing)

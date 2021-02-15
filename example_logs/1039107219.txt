@@ -1,0 +1,420 @@
+|ScrapeTime|2020-01-01-11:54:27
+|j|☆Peerless Dad
+|j|☆Rudy (Academy HTD)
+|player|p1|Peerless Dad|skierf|1522
+|player|p2|Rudy (Academy HTD)|clown|1485
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hippowdon, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Vaporeon, M|
+|poke|p1|Snorlax, F|
+|poke|p1|Reuniclus, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Clefable, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Seismitoad, M|
+|poke|p2|Ferrothorn, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|1
+|
+|move|p2a: Rotom|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|move|p1a: Snorlax|Body Slam|p2a: Rotom
+|-damage|p2a: Rotom|54/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|cant|p1a: Snorlax|par
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Ferrothorn|Knock Off|p1a: Corviknight
+|-damage|p1a: Corviknight|89/100
+|-enditem|p1a: Corviknight|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Corviknight|Body Press|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|61/100
+|-damage|p1a: Corviknight|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Spikes|p1a: Corviknight
+|-sidestart|p1: Peerless Dad|Spikes
+|
+|-heal|p2a: Ferrothorn|67/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Rotom|Rotom-Heat|54/100
+|move|p1a: Corviknight|Defog|p2a: Rotom
+|-unboost|p2a: Rotom|evasion|1
+|-sideend|p1: Peerless Dad|Spikes|[from] move: Defog|[of] p1a: Corviknight
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Snorlax|Snorlax, F|100/100 par
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Rotom|Overheat|p1a: Snorlax
+|-damage|p1a: Snorlax|73/100 par
+|-unboost|p2a: Rotom|spa|2
+|move|p1a: Snorlax|Body Slam|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-heal|p1a: Snorlax|79/100 par|[from] item: Leftovers
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rudy (Academy HTD))
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|turn|8
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|move|p2a: Conkeldurr|Earthquake|p1a: Reuniclus
+|-damage|p1a: Reuniclus|71/100
+|
+|-heal|p1a: Reuniclus|77/100|[from] item: Leftovers
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Reuniclus|Psyshock|p2a: Clefable
+|-damage|p2a: Clefable|60/100
+|
+|-heal|p1a: Reuniclus|84/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Snorlax|Snorlax, F|79/100 par
+|move|p2a: Clefable|Moonblast|p1a: Snorlax
+|-damage|p1a: Snorlax|46/100 par
+|-unboost|p1a: Snorlax|spa|1
+|
+|-heal|p1a: Snorlax|52/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100 brn
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|100/100 slp|[silent]
+|
+|-damage|p2a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p1a: Corviknight|Corviknight, F|76/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Conkeldurr|Drain Punch|p1a: Corviknight
+|-damage|p1a: Corviknight|34/100
+|-heal|p2a: Conkeldurr|100/100 brn|[from] drain|[of] p1a: Corviknight
+|
+|-damage|p2a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Corviknight|U-turn|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|89/100 brn
+|
+|switch|p1a: Reuniclus|Reuniclus, F|84/100|[from]move: U-turn
+|move|p2a: Conkeldurr|Earthquake|p1a: Reuniclus
+|-damage|p1a: Reuniclus|37/100
+|
+|-heal|p1a: Reuniclus|43/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|82/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p1a: Corviknight|Corviknight, F|34/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Conkeldurr|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|
+|-damage|p2a: Conkeldurr|76/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Corviknight|U-turn|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|70/100 brn
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100|[from]move: U-turn
+|move|p2a: Conkeldurr|Drain Punch|p1a: Vaporeon
+|-damage|p1a: Vaporeon|54/100
+|-heal|p2a: Conkeldurr|97/100 brn|[from] drain|[of] p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|61/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|90/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|move|p2a: Conkeldurr|Drain Punch|p1a: Vaporeon
+|-damage|p1a: Vaporeon|15/100
+|-heal|p2a: Conkeldurr|100/100 brn|[from] drain|[of] p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|21/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Conkeldurr|Earthquake|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p1a: Vaporeon|71/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Vaporeon|78/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|move|p2a: Conkeldurr|Drain Punch|p1a: Vaporeon
+|-damage|p1a: Vaporeon|29/100
+|-heal|p2a: Conkeldurr|100/100 brn|[from] drain|[of] p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|35/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Conkeldurr|Earthquake|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p1a: Vaporeon|85/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Vaporeon|91/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|67/100
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-heal|p1a: Vaporeon|98/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|73/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Reuniclus|Reuniclus, F|43/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|10/100
+|-enditem|p1a: Reuniclus|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p1a: Reuniclus|65/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Ferrothorn|79/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Clefable|Clefable, F|60/100
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Clefable|Moonblast|p1a: Reuniclus
+|-damage|p1a: Reuniclus|29/100
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|79/100
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|40/100
+|move|p1a: Reuniclus|Focus Blast|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|88/100 brn
+|turn|26
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Conkeldurr|Earthquake|p1a: Hippowdon
+|-damage|p1a: Hippowdon|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|82/100 brn|[from] Sandstorm
+|-damage|p2a: Conkeldurr|76/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p2a: Conkeldurr|Drain Punch|p1a: Hippowdon
+|-damage|p1a: Hippowdon|30/100
+|-heal|p2a: Conkeldurr|96/100 brn|[from] drain|[of] p1a: Hippowdon
+|move|p1a: Hippowdon|Stealth Rock|p2a: Conkeldurr
+|-sidestart|p2: Rudy (Academy HTD)|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|90/100 brn|[from] Sandstorm
+|-damage|p2a: Conkeldurr|83/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|switch|p1a: Vaporeon|Vaporeon, M|98/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Vaporeon
+|-damage|p1a: Vaporeon|47/100
+|-heal|p2a: Conkeldurr|100/100 brn|[from] drain|[of] p1a: Vaporeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|40/100|[from] Sandstorm
+|-damage|p2a: Conkeldurr|94/100 brn|[from] Sandstorm
+|-heal|p1a: Vaporeon|47/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Conkeldurr|Drain Punch|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|40/100|[from] Sandstorm
+|-damage|p2a: Conkeldurr|82/100 brn|[from] Sandstorm
+|-heal|p1a: Vaporeon|47/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|76/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|switch|p1a: Reuniclus|Reuniclus, F|40/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Reuniclus
+|-resisted|p1a: Reuniclus
+|-damage|p1a: Reuniclus|17/100
+|-heal|p2a: Conkeldurr|88/100 brn|[from] drain|[of] p1a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|82/100 brn|[from] Sandstorm
+|-damage|p2a: Conkeldurr|76/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|switch|p1a: Corviknight|Corviknight, F|34/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Conkeldurr|Drain Punch|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-heal|p2a: Conkeldurr|92/100 brn|[from] drain|[of] p1a: Corviknight
+|faint|p1a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|86/100 brn|[from] Sandstorm
+|-damage|p2a: Conkeldurr|80/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Reuniclus|Reuniclus, F|17/100
+|turn|32
+|
+|move|p2a: Conkeldurr|Earthquake|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|74/100 brn|[from] Sandstorm
+|-damage|p2a: Conkeldurr|68/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Hippowdon|Hippowdon, F|30/100
+|turn|33
+|
+|move|p2a: Conkeldurr|Drain Punch|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|-heal|p2a: Conkeldurr|83/100 brn|[from] drain|[of] p1a: Hippowdon
+|faint|p1a: Hippowdon
+|
+|-weather|none
+|-damage|p2a: Conkeldurr|77/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Vaporeon|Vaporeon, M|47/100
+|turn|34
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Conkeldurr|Drain Punch|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p1a: Vaporeon|53/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|71/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|move|p2a: Conkeldurr|Drain Punch|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|-heal|p2a: Conkeldurr|100/100 brn|[from] drain|[of] p1a: Vaporeon
+|faint|p1a: Vaporeon
+|
+|-damage|p2a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|turn|36
+|
+|move|p1a: Excadrill|Earthquake|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|29/100 brn
+|-damage|p1a: Excadrill|91/100|[from] item: Life Orb
+|move|p2a: Conkeldurr|Drain Punch|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-heal|p2a: Conkeldurr|69/100 brn|[from] drain|[of] p1a: Excadrill
+|faint|p1a: Excadrill
+|
+|-damage|p2a: Conkeldurr|62/100 brn|[from] brn
+|upkeep
+|-message|Peerless Dad forfeited.
+|
+|win|Rudy (Academy HTD)
+|l|☆Peerless Dad
+|raw|Peerless Dad's rating: 1515 → 1494(-21 for losing)
+|raw|Rudy (Academy HTD)'s rating: 1485 → 1507(+22 for winning)

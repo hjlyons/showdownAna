@@ -1,0 +1,284 @@
+|ScrapeTime|2020-01-02-12:05:41
+|j|☆Zololl
+|j|☆Team Branleur
+|player|p1|Zololl|pokemonranger-gen4|1286
+|player|p2|Team Branleur|eusine|1291
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Togekiss, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Hydreigon, M|
+|poke|p1|Quagsire, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Corviknight, F|
+|poke|p2|Clefable, M|
+|poke|p2|Seismitoad, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Team Branleur)
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|turn|1
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Seismitoad
+|-start|p2a: Seismitoad|move: Taunt
+|cant|p2a: Seismitoad|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Drache|Hydreigon, M|100/100
+|move|p2a: Seismitoad|Earthquake|p1a: Drache
+|-immune|p1a: Drache|[from] ability: Levitate
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Drache|Nasty Plot|p1a: Drache
+|-boost|p1a: Drache|spa|2
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Drache|Flash Cannon|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|5
+|
+|move|p1a: Drache|Nasty Plot|p1a: Drache
+|-boost|p1a: Drache|spa|2
+|move|p2a: Tyranitar|Stone Edge|p1a: Drache|[miss]
+|-miss|p2a: Tyranitar|p1a: Drache
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drache|94/100|[from] Sandstorm
+|-heal|p1a: Drache|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Drache|Flash Cannon|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|49/100
+|-unboost|p2a: Tyranitar|spd|1
+|move|p2a: Tyranitar|Stone Edge|p1a: Drache
+|-damage|p1a: Drache|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drache|37/100|[from] Sandstorm
+|-heal|p1a: Drache|43/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Drache|Flash Cannon|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drache|37/100|[from] Sandstorm
+|-heal|p1a: Drache|43/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|turn|8
+|
+|move|p2a: Excadrill|Iron Head|p1a: Drache
+|-damage|p1a: Drache|0 fnt
+|-damage|p2a: Excadrill|91/100|[from] item: Life Orb
+|faint|p1a: Drache
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Swish|Rotom-Wash|100/100
+|turn|9
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Swish
+|-damage|p1a: Swish|48/100
+|-damage|p2a: Excadrill|81/100|[from] item: Life Orb
+|move|p1a: Swish|Trick|p2a: Excadrill
+|-activate|p1a: Swish|move: Trick|[of] p2a: Excadrill
+|-item|p2a: Excadrill|Toxic Orb|[from] move: Trick
+|-item|p1a: Swish|Life Orb|[from] move: Trick
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|move|p1a: Swish|Hydro Pump|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-damage|p1a: Swish|38/100|[from] item: Life Orb
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|turn|11
+|
+|switch|p1a: Basse|Quagsire, F, shiny|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Basse
+|-sidestart|p1: Zololl|move: Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Seismitoad|Toxic|p1a: Basse
+|-status|p1a: Basse|tox
+|move|p1a: Basse|Toxic|p2a: Seismitoad
+|-status|p2a: Seismitoad|tox
+|
+|-damage|p2a: Seismitoad|94/100 tox|[from] psn
+|-damage|p1a: Basse|94/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Basse|Ancient Power|p2a: Corviknight
+|-damage|p2a: Corviknight|92/100
+|
+|-heal|p2a: Corviknight|99/100|[from] item: Leftovers
+|-damage|p1a: Basse|82/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|switch|p1a: Animak|Excadrill, M|100/100
+|-damage|p1a: Animak|97/100|[from] Stealth Rock
+|-ability|p1a: Animak|Mold Breaker
+|move|p2a: Corviknight|Brave Bird|p1a: Animak
+|-resisted|p1a: Animak
+|-damage|p1a: Animak|70/100
+|-damage|p2a: Corviknight|82/100|[from] item: Rocky Helmet|[of] p1a: Animak
+|-damage|p2a: Corviknight|74/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|80/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Seismitoad|Seismitoad, F|94/100 tox
+|move|p1a: Animak|Rapid Spin|p2a: Seismitoad
+|-damage|p2a: Seismitoad|83/100 tox
+|-sideend|p1: Zololl|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Animak
+|-boost|p1a: Animak|spe|1
+|
+|-heal|p2a: Seismitoad|89/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|83/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p1a: Brezzy|Togekiss, F|100/100
+|move|p2a: Seismitoad|Scald|p1a: Brezzy
+|-crit|p1a: Brezzy
+|-damage|p1a: Brezzy|64/100
+|
+|-heal|p1a: Brezzy|71/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|89/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|77/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p1a: Brezzy|Nasty Plot|p1a: Brezzy
+|-boost|p1a: Brezzy|spa|2
+|move|p2a: Seismitoad|Toxic|p1a: Brezzy
+|-status|p1a: Brezzy|tox
+|
+|-heal|p1a: Brezzy|77/100 tox|[from] item: Leftovers
+|-heal|p2a: Seismitoad|83/100 tox|[from] item: Leftovers
+|-damage|p1a: Brezzy|71/100 tox|[from] psn
+|-damage|p2a: Seismitoad|65/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p2a: Corviknight|Corviknight, F|80/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Brezzy|Air Slash|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|51/100
+|
+|-heal|p1a: Brezzy|77/100 tox|[from] item: Leftovers
+|-heal|p2a: Corviknight|57/100|[from] item: Leftovers
+|-damage|p1a: Brezzy|64/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p1a: Brezzy|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-heal|p1a: Brezzy|71/100 tox|[from] item: Leftovers
+|-damage|p1a: Brezzy|52/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|20
+|
+|move|p1a: Brezzy|Ancient Power|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|17/100
+|move|p2a: Rotom|Overheat|p1a: Brezzy
+|-damage|p1a: Brezzy|9/100 tox
+|-unboost|p2a: Rotom|spa|2
+|
+|-heal|p1a: Brezzy|15/100 tox|[from] item: Leftovers
+|-damage|p1a: Brezzy|0 fnt|[from] psn
+|faint|p1a: Brezzy
+|upkeep
+|
+|switch|p1a: Animak|Excadrill, M|70/100
+|-ability|p1a: Animak|Mold Breaker
+|turn|21
+|
+|move|p1a: Animak|Earthquake|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, F|65/100 tox
+|turn|22
+|
+|move|p1a: Animak|Earthquake|p2a: Seismitoad
+|-damage|p2a: Seismitoad|29/100 tox
+|move|p2a: Seismitoad|Scald|p1a: Animak
+|-supereffective|p1a: Animak
+|-damage|p1a: Animak|10/100
+|
+|-heal|p2a: Seismitoad|35/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|29/100 tox|[from] psn
+|upkeep
+|turn|23
+|-message|Team Branleur forfeited.
+|
+|win|Zololl
+|l|☆Team Branleur
+|raw|Zololl's rating: 1286 → 1311(+25 for winning)
+|raw|Team Branleur's rating: 1291 → 1265(-26 for losing)

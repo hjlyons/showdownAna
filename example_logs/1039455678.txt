@@ -1,0 +1,287 @@
+|ScrapeTime|2020-01-02-02:26:31
+|j|☆Theo216
+|j|☆Hxgm
+|player|p1|Theo216|170|1056
+|player|p2|Hxgm|skier|1040
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Dracovish|
+|poke|p1|Clefable, F|
+|poke|p2|Falinks|
+|poke|p2|Dragapult, F|
+|poke|p2|Boltund, F|
+|poke|p2|Silvally-*|
+|poke|p2|Milotic, M|
+|poke|p2|Noivern, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Clefable|Clefable, F|100/100
+|switch|p2a: Noivern|Noivern, M|100/100
+|-item|p1a: Clefable|Life Orb|[from] ability: Frisk|[of] p2a: Noivern|[identify]
+|turn|1
+|
+|switch|p2a: Silvally|Silvally-Fairy, shiny|100/100
+|move|p1a: Clefable|Stealth Rock|p2a: Silvally
+|-sidestart|p2: Hxgm|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Silvally|Iron Head|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|16/100
+|cant|p1a: Clefable|flinch
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Silvally|Iron Head|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|94/100
+|-damage|p2a: Silvally|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Noivern|Noivern, M|100/100
+|-damage|p2a: Noivern|75/100|[from] Stealth Rock
+|-item|p1a: Ferrothorn|Leftovers|[from] ability: Frisk|[of] p2a: Noivern|[identify]
+|move|p1a: Ferrothorn|Leech Seed|p2a: Noivern
+|-start|p2a: Noivern|move: Leech Seed
+|
+|-damage|p2a: Noivern|63/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|5
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Noivern|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|73/100
+|
+|-heal|p1a: Toxapex|79/100|[from] item: Black Sludge
+|-damage|p2a: Noivern|50/100|[from] Leech Seed|[of] p1a: Toxapex
+|-heal|p1a: Toxapex|92/100|[silent]
+|upkeep
+|turn|6
+|
+|switch|p2a: Elesa|Boltund, F|100/100
+|-damage|p2a: Elesa|88/100|[from] Stealth Rock
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Elesa|Fire Fang|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Elesa|75/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|8
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Elesa
+|-damage|p2a: Elesa|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Elesa
+|
+|upkeep
+|
+|switch|p2a: Silvally|Silvally-Fairy, shiny|88/100
+|-damage|p2a: Silvally|76/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p1a: Clefable|Clefable, F|16/100
+|move|p2a: Silvally|Multi-Attack|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|10
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|upkeep
+|
+|switch|p2a: Falinks|Falinks|100/100
+|-damage|p2a: Falinks|94/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Falinks
+|-damage|p2a: Falinks|0 fnt
+|-damage|p1a: Dracovish|84/100|[from] item: Rocky Helmet|[of] p2a: Falinks
+|faint|p2a: Falinks
+|
+|upkeep
+|
+|switch|p2a: Noivern|Noivern, M|50/100
+|-damage|p2a: Noivern|25/100|[from] Stealth Rock
+|-item|p1a: Dracovish|Choice Scarf|[from] ability: Frisk|[of] p2a: Noivern|[identify]
+|turn|12
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Noivern
+|-resisted|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|faint|p2a: Noivern
+|
+|upkeep
+|
+|switch|p2a: Lance|Dragapult, F|100/100
+|-damage|p2a: Lance|88/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Lance|Dragon Darts|p1a: Dracovish
+|-supereffective|p1a: Dracovish
+|-damage|p1a: Dracovish|26/100
+|-supereffective|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|-hitcount|p1a: Dracovish|2
+|faint|p1a: Dracovish
+|
+|-heal|p2a: Lance|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|14
+|
+|move|p2a: Lance|Phantom Force||[still]
+|-prepare|p2a: Lance|Phantom Force|p1a: Dragapult
+|move|p1a: Dragapult|Draco Meteor|p2a: Lance|[miss]
+|-miss|p1a: Dragapult|p2a: Lance
+|
+|-heal|p2a: Lance|99/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Lance|Phantom Force|p1a: Toxapex|[from]lockedmove
+|-damage|p1a: Toxapex|66/100
+|
+|-heal|p2a: Lance|100/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|72/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p2a: Lance|Dragon Darts|p1a: Toxapex
+|-damage|p1a: Toxapex|52/100
+|-damage|p1a: Toxapex|30/100
+|-hitcount|p1a: Toxapex|2
+|move|p1a: Toxapex|Toxic|p2a: Lance
+|-status|p2a: Lance|tox
+|
+|-heal|p1a: Toxapex|36/100|[from] item: Black Sludge
+|-damage|p2a: Lance|95/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Lance|Dragon Darts|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-heal|p2a: Lance|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|43/100|[from] item: Black Sludge
+|-damage|p2a: Lance|89/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|move|p2a: Lance|Dragon Darts|p1a: Toxapex
+|-damage|p1a: Toxapex|23/100
+|-damage|p1a: Toxapex|0 fnt
+|-hitcount|p1a: Toxapex|2
+|faint|p1a: Toxapex
+|
+|-heal|p2a: Lance|95/100 tox|[from] item: Leftovers
+|-damage|p2a: Lance|77/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|turn|19
+|
+|move|p2a: Lance|Psychic Fangs|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|89/100
+|move|p1a: Corviknight|U-turn|p2a: Lance
+|-resisted|p2a: Lance
+|-damage|p2a: Lance|64/100 tox
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Lance|70/100 tox|[from] item: Leftovers
+|-damage|p2a: Lance|46/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Lance
+|-supereffective|p2a: Lance
+|-damage|p2a: Lance|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Lance
+|
+|upkeep
+|
+|switch|p2a: Milotic|Milotic, M|100/100
+|-damage|p2a: Milotic|88/100|[from] Stealth Rock
+|turn|21
+|
+|switch|p1a: Corviknight|Corviknight, F|89/100
+|move|p2a: Milotic|Dragon Pulse|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|77/100
+|
+|-heal|p1a: Corviknight|84/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Milotic|Hydro Pump|p1a: Corviknight
+|-damage|p1a: Corviknight|37/100
+|move|p1a: Corviknight|Brave Bird|p2a: Milotic
+|-damage|p2a: Milotic|23/100
+|-damage|p1a: Corviknight|19/100|[from] Recoil
+|
+|-heal|p1a: Corviknight|25/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Milotic|Hydro Pump|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|24
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|win|Theo216
+|raw|Theo216's rating: 1056 → 1084(+28 for winning)
+|raw|Hxgm's rating: 1023 → 1011(-12 for losing)

@@ -1,0 +1,189 @@
+|ScrapeTime|2020-01-01-17:05:34
+|j|☆Pavijo28
+|j|☆JihJiof
+|player|p1|Pavijo28|102|1729
+|player|p2|JihJiof|burnet|1740
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Mimikyu, M|
+|poke|p1|Jellicent, M|
+|poke|p1|Indeedee, M|
+|poke|p1|Arctozolt|
+|poke|p1|Diggersby, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Quagsire, M|
+|poke|p2|Clefable, M|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Rotom-Wash|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JihJiof)
+|j| flameengo
+|
+|start
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|move|p2a: Cinderace|U-turn|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|24/100
+|
+|switch|p2a: Tyranitar|Tyranitar, M, shiny|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Indeedee|18/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|move|p1a: Indeedee|Dazzling Gleam|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|72/100
+|move|p2a: Tyranitar|Dark Pulse|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|78/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Arctozolt|Arctozolt|100/100
+|turn|3
+|l| flameengo
+|j| TheLindomar
+|
+|move|p1a: Arctozolt|Freeze-Dry|p2a: Tyranitar
+|-damage|p2a: Tyranitar|64/100
+|-damage|p1a: Arctozolt|91/100|[from] item: Life Orb
+|move|p2a: Tyranitar|Fire Blast|p1a: Arctozolt
+|-supereffective|p1a: Arctozolt
+|-damage|p1a: Arctozolt|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Arctozolt|37/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|70/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|move|p1a: Arctozolt|Freeze-Dry|p2a: Quagsire
+|-supereffective|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|-damage|p1a: Arctozolt|27/100|[from] item: Life Orb
+|faint|p2a: Quagsire
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Arctozolt|21/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F, shiny|100/100
+|turn|5
+|j| Stall is coming
+|j| watr sucks
+|
+|move|p1a: Arctozolt|Bolt Beak|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|-damage|p1a: Arctozolt|11/100|[from] item: Life Orb
+|faint|p2a: Conkeldurr
+|
+|-weather|none
+|-fieldend|move: Psychic Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|j| horadobos
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|6
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|move|p2a: Cinderace|U-turn|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|91/100
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|
+|-heal|p1a: Jellicent|98/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Jellicent
+|-status|p1a: Jellicent|brn
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|-heal|p1a: Jellicent|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|j| erikchair
+|
+|switch|p1a: Arctozolt|Arctozolt|11/100
+|move|p2a: Rotom|Volt Switch|p1a: Arctozolt
+|-heal|p1a: Arctozolt|35/100|[from] ability: Volt Absorb|[of] p2a: Rotom
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Arctozolt|Bolt Beak|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-damage|p1a: Arctozolt|26/100|[from] item: Life Orb
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|10
+|c|☆JihJiof|gg
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Arctozolt
+|-damage|p1a: Arctozolt|3/100
+|move|p1a: Arctozolt|Bolt Beak|p2a: Cinderace
+|-damage|p2a: Cinderace|21/100
+|-damage|p1a: Arctozolt|0 fnt|[from] item: Life Orb
+|faint|p1a: Arctozolt
+|
+|upkeep
+|l| TheLindomar
+|
+|switch|p1a: Diggersby|Diggersby, M|100/100
+|turn|11
+|j| amimec
+|
+|move|p2a: Cinderace|Sucker Punch||[still]
+|-fail|p2a: Cinderace
+|move|p1a: Diggersby|Swords Dance|p1a: Diggersby
+|-boost|p1a: Diggersby|atk|2
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|12
+|
+|move|p1a: Diggersby|Quick Attack|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|-message|JihJiof forfeited.
+|
+|win|Pavijo28
+|l|☆JihJiof
+|raw|Pavijo28's rating: 1729 → 1749(+20 for winning)
+|raw|JihJiof's rating: 1740 → 1719(-21 for losing)

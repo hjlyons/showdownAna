@@ -1,0 +1,461 @@
+|ScrapeTime|2020-01-01-11:45:26
+|j|☆falcor117
+|j|☆Camp Chief Ivon
+|player|p1|falcor117|162|1158
+|player|p2|Camp Chief Ivon|251|1112
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aegislash, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Vaporeon, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Dragapult, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Cherrim, F|
+|poke|p2|Bronzong|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Rotom-Heat|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|move|p2a: Rotom|Volt Switch|p1a: Tyranitar
+|-damage|p1a: Tyranitar|82/100
+|
+|switch|p2a: Bronzong|Bronzong|100/100|[from]move: Volt Switch
+|move|p1a: Tyranitar|Stealth Rock|p2a: Bronzong
+|-sidestart|p2: Camp Chief Ivon|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Tyranitar|Fire Punch|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|59/100
+|-status|p2a: Bronzong|brn
+|move|p2a: Bronzong|Gyro Ball|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Bronzong|65/100 brn|[from] item: Leftovers
+|-damage|p2a: Bronzong|59/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: Tyranitar|Fire Punch|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|22/100 brn
+|move|p2a: Bronzong|Stealth Rock|p1a: Tyranitar
+|-sidestart|p1: falcor117|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Bronzong|28/100 brn|[from] item: Leftovers
+|-damage|p2a: Bronzong|22/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Tyranitar|Fire Punch|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-damage|p2a: Torkoal|75/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|5
+|
+|move|p1a: Tyranitar|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|30/100
+|move|p2a: Torkoal|Rapid Spin|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|62/100
+|-sideend|p2: Camp Chief Ivon|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Torkoal
+|-boost|p2a: Torkoal|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|switch|p2a: Cherrim|Cherrim, F|100/100
+|-formechange|p2a: Cherrim|Cherrim-Sunshine|[msg]|[from] ability: Flower Gift
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Vaporeon|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Tyranitar|Tyranitar, M|62/100
+|-damage|p1a: Tyranitar|50/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-formechange|p2a: Cherrim|Cherrim|[msg]|[from] ability: Flower Gift
+|move|p2a: Cherrim|Solar Blade||[still]
+|-prepare|p2a: Cherrim|Solar Blade|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cherrim|94/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p2a: Cherrim|Solar Blade|p1a: Ferrothorn|[from]lockedmove
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|92/100
+|-damage|p2a: Cherrim|82/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Cherrim|66/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cherrim|60/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|switch|p2a: Torkoal|Torkoal, F|30/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Ferrothorn|Acid Spray|p2a: Torkoal
+|-damage|p2a: Torkoal|22/100
+|-unboost|p2a: Torkoal|spd|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|switch|p1a: Vaporeon|Vaporeon, F|94/100
+|-damage|p1a: Vaporeon|82/100|[from] Stealth Rock
+|move|p2a: Torkoal|Lava Plume|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|68/100
+|-status|p1a: Vaporeon|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Vaporeon|75/100 brn|[from] item: Leftovers
+|-damage|p1a: Vaporeon|68/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p2a: Cherrim|Cherrim, F|60/100
+|-formechange|p2a: Cherrim|Cherrim-Sunshine|[msg]|[from] ability: Flower Gift
+|move|p1a: Vaporeon|Ice Beam|p2a: Cherrim
+|-supereffective|p2a: Cherrim
+|-damage|p2a: Cherrim|9/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Vaporeon|75/100 brn|[from] item: Leftovers
+|-damage|p1a: Vaporeon|68/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p1a: Tyranitar|Tyranitar, M|50/100
+|-damage|p1a: Tyranitar|38/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-formechange|p2a: Cherrim|Cherrim|[msg]|[from] ability: Flower Gift
+|move|p2a: Cherrim|Solar Blade||[still]
+|-prepare|p2a: Cherrim|Solar Blade|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cherrim|3/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|92/100
+|-damage|p1a: Ferrothorn|86/100|[from] Stealth Rock
+|move|p2a: Cherrim|Solar Blade|p1a: Ferrothorn|[from]lockedmove
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|83/100
+|-damage|p2a: Cherrim|0 fnt|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p2a: Cherrim
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|14
+|
+|switch|p1a: Vaporeon|Vaporeon, F|68/100 brn
+|-damage|p1a: Vaporeon|56/100 brn|[from] Stealth Rock
+|move|p2a: Rotom|Volt Switch|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|9/100 brn
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|95/100|[from] Sandstorm
+|-damage|p1a: Vaporeon|3/100 brn|[from] Sandstorm
+|-heal|p1a: Vaporeon|9/100 brn|[from] item: Leftovers
+|-damage|p1a: Vaporeon|3/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|89/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|83/100
+|-damage|p1a: Ferrothorn|77/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Rotom
+|-start|p2a: Rotom|move: Leech Seed
+|
+|-weather|none
+|-damage|p2a: Rotom|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|85/100|[silent]
+|upkeep
+|turn|17
+|
+|switch|p1a: Tyranitar|Tyranitar, M|38/100
+|-damage|p1a: Tyranitar|25/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Rotom|Overheat|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|9/100
+|-unboost|p2a: Rotom|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|82/100|[from] Sandstorm
+|-damage|p2a: Rotom|69/100|[from] Leech Seed|[of] p1a: Tyranitar
+|-heal|p1a: Tyranitar|17/100|[silent]
+|upkeep
+|turn|18
+|
+|switch|p2a: Torkoal|Torkoal, F|22/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Tyranitar|Crunch|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|89/100
+|turn|19
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|1/100
+|-unboost|p1a: Tyranitar|spd|1
+|move|p1a: Tyranitar|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|69/100
+|turn|20
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|move|p2a: Rotom|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|74/100
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100|[from]move: Volt Switch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|85/100
+|-damage|p1a: Ferrothorn|79/100|[from] Stealth Rock
+|move|p2a: Grimmsnarl|Darkest Lariat|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|56/100
+|-damage|p2a: Grimmsnarl|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Grimmsnarl|72/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Grimmsnarl|78/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|par
+|cant|p1a: Ferrothorn|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Grimmsnarl|84/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Ferrothorn
+|-start|p1a: Ferrothorn|move: Taunt
+|cant|p1a: Ferrothorn|move: Taunt|Leech Seed
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Grimmsnarl|90/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Rotom|Rotom-Heat|69/100
+|switch|p1a: Tyranitar|Tyranitar, M|1/100
+|-damage|p1a: Tyranitar|0 fnt|[from] Stealth Rock
+|faint|p1a: Tyranitar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Rotom|Overheat|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Excadrill
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|74/100
+|-damage|p1a: Dragapult|62/100|[from] Stealth Rock
+|turn|26
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|90/100
+|move|p1a: Dragapult|Thunderbolt|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|63/100
+|
+|-heal|p2a: Grimmsnarl|69/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|56/100 par
+|-damage|p1a: Ferrothorn|50/100 par|[from] Stealth Rock
+|move|p2a: Grimmsnarl|Darkest Lariat|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|26/100 par
+|-damage|p2a: Grimmsnarl|56/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Grimmsnarl|40/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|
+|-heal|p2a: Grimmsnarl|46/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Rotom|Rotom-Heat|69/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Rotom
+|-start|p2a: Rotom|move: Leech Seed
+|
+|-damage|p2a: Rotom|57/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|34/100 par|[silent]
+|upkeep
+|turn|29
+|
+|switch|p1a: Dragapult|Dragapult, F|62/100
+|-damage|p1a: Dragapult|49/100|[from] Stealth Rock
+|move|p2a: Rotom|Overheat|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|23/100
+|-unboost|p2a: Rotom|spa|2
+|
+|-damage|p2a: Rotom|44/100|[from] Leech Seed|[of] p1a: Dragapult
+|-heal|p1a: Dragapult|32/100|[silent]
+|upkeep
+|turn|30
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|46/100
+|move|p1a: Dragapult|Thunderbolt|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|20/100
+|
+|-heal|p2a: Grimmsnarl|26/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|34/100 par
+|-damage|p1a: Ferrothorn|28/100 par|[from] Stealth Rock
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|17/100 par
+|-unboost|p1a: Ferrothorn|spa|1
+|
+|-heal|p2a: Grimmsnarl|32/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p2a: Grimmsnarl|Darkest Lariat|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Grimmsnarl|20/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Grimmsnarl|3/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-heal|p2a: Grimmsnarl|9/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|32/100
+|-damage|p1a: Dragapult|20/100|[from] Stealth Rock
+|turn|33
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Dragapult
+|-status|p1a: Dragapult|par
+|move|p1a: Dragapult|Thunderbolt|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|44/100
+|turn|34
+|
+|move|p2a: Rotom|Trick|p1a: Dragapult
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Dragapult
+|-item|p1a: Dragapult|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Assault Vest|[from] move: Trick
+|move|p1a: Dragapult|Dragon Pulse|p2a: Rotom
+|-damage|p2a: Rotom|10/100
+|
+|upkeep
+|turn|35
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-start|p2a: Rotom|Disable|Thunderbolt|[from] ability: Cursed Body|[of] p1a: Dragapult
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|-damage|p1a: Aegislash|94/100|[from] Stealth Rock
+|turn|36
+|
+|move|p2a: Rotom|Overheat|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Aegislash
+|
+|win|Camp Chief Ivon
+|raw|falcor117's rating: 1158 → 1130(-28 for losing)
+|raw|Camp Chief Ivon's rating: 1112 → 1140(+28 for winning)
+|c|☆Camp Chief Ivon|gg
+|l|☆falcor117

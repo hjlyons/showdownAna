@@ -1,0 +1,250 @@
+|ScrapeTime|2020-01-01-03:05:07
+|j|☆Suit0n
+|j|☆imonlytestingGg
+|player|p1|Suit0n|rocketexecutive-gen2|1205
+|player|p2|imonlytestingGg|167|1161
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Excadrill, F|
+|poke|p1|Hawlucha, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Cloyster, F|
+|poke|p1|Rotom-Heat|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Bisharp, M|
+|poke|p2|Dragapult, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by imonlytestingGg)
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|move|p1a: Excadrill|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Excadrill|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: imonlytestingGg|move: Stealth Rock
+|move|p2a: Corviknight|Body Press|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|35/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Rotom|Trick|p2a: Corviknight
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Corviknight
+|-item|p2a: Corviknight|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|move|p2a: Corviknight|Body Press|p1a: Rotom
+|-damage|p1a: Rotom|49/100
+|
+|-heal|p1a: Rotom|55/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Rotom|Overheat|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|8/100
+|-unboost|p1a: Rotom|spa|2
+|move|p2a: Corviknight|Body Press|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|6
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Toxapex
+|-damage|p2a: Toxapex|60/100
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|13/100
+|-hitcount|p2a: Toxapex|2
+|-damage|p1a: Dragapult|91/100|[from] item: Life Orb
+|move|p2a: Toxapex|Toxic|p1a: Dragapult
+|-status|p1a: Dragapult|tox
+|
+|-heal|p2a: Toxapex|19/100|[from] item: Black Sludge
+|-damage|p1a: Dragapult|85/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p2a: Corviknight|Corviknight, M|8/100
+|-damage|p2a: Corviknight|0 fnt|[from] Stealth Rock
+|faint|p2a: Corviknight
+|move|p1a: Dragapult|Dragon Darts|p2: Corviknight|[notarget]
+|-fail|p1a: Dragapult
+|
+|-damage|p1a: Dragapult|73/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Bisharp|Psycho Cut|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-crit|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|11
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Suit0n|Reflect
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Bisharp
+|-damage|p2a: Bisharp|55/100
+|-unboost|p2a: Bisharp|spa|1
+|-ability|p2a: Bisharp|Defiant
+|-boost|p2a: Bisharp|atk|2
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Bisharp
+|-damage|p2a: Bisharp|12/100
+|-unboost|p2a: Bisharp|spa|1
+|-ability|p2a: Bisharp|Defiant
+|-boost|p2a: Bisharp|atk|0
+|move|p2a: Bisharp|Brick Break|p1a: Grimmsnarl
+|-sideend|p1: Suit0n|Reflect
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|35/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|14
+|
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|move|p1a: Excadrill|Stealth Rock||[still]
+|-fail|p1a: Excadrill
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|move|p1a: Excadrill|Stealth Rock||[still]
+|-fail|p1a: Excadrill
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|move|p1a: Excadrill|Stealth Rock||[still]
+|-fail|p1a: Excadrill
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|move|p1a: Excadrill|Stealth Rock||[still]
+|-fail|p1a: Excadrill
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Excadrill|Stealth Rock||[still]
+|-fail|p1a: Excadrill
+|move|p2a: Bisharp|Brick Break|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Cloyster|Cloyster, F|100/100
+|turn|19
+|
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|-enditem|p1a: Cloyster|White Herb
+|-clearnegativeboost|p1a: Cloyster|[silent]
+|move|p2a: Bisharp|Brick Break|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|73/100 tox
+|turn|20
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|win|imonlytestingGg
+|l|☆Suit0n
+|raw|Suit0n's rating: 1205 → 1177(-28 for losing)
+|raw|imonlytestingGg's rating: 1161 → 1189(+28 for winning)

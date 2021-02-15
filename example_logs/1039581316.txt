@@ -1,0 +1,229 @@
+|ScrapeTime|2020-01-02-09:35:56
+|j|☆GAUB
+|j|☆Hichac
+|player|p1|GAUB|265|1401
+|player|p2|Hichac|265|1374
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Mew|
+|poke|p1|Clefable, F|
+|poke|p1|Hawlucha, F|
+|poke|p2|Gyarados, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Eiscue, F|
+|poke|p2|Kommo-o, M|
+|poke|p2|Hydreigon, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p1a: Mew|Taunt|p2a: Excadrill
+|-start|p2a: Excadrill|move: Taunt
+|move|p2a: Excadrill|Rock Tomb|p1a: Mew
+|-damage|p1a: Mew|79/100
+|-unboost|p1a: Mew|spe|1
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p1a: Mew|Will-O-Wisp|p2a: Grimmsnarl|[miss]
+|-miss|p1a: Mew|p2a: Grimmsnarl
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Mew
+|-start|p1a: Mew|move: Taunt
+|cant|p1a: Mew|move: Taunt|Will-O-Wisp
+|
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hichac)
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Excadrill|Stealth Rock|p1a: Clefable
+|-sidestart|p1: GAUB|move: Stealth Rock
+|move|p1a: Clefable|Flamethrower|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|9/100
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Excadrill|Earthquake|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|7
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-heal|p1a: Hydreigon|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|8
+|
+|switch|p1a: Mew|Mew|79/100
+|-damage|p1a: Mew|67/100|[from] Stealth Rock
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Hichac|move: Light Screen
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Mew
+|-start|p1a: Mew|move: Taunt
+|move|p1a: Mew|Self-Destruct|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|32/100
+|faint|p1a: Mew
+|
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|turn|10
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Hichac|Reflect
+|move|p1a: Clefable|Moonblast|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|turn|11
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Clefable|Thunderbolt|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|29/100
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Gyarados|Waterfall|p1a: Clefable
+|-damage|p1a: Clefable|29/100
+|move|p1a: Clefable|Thunderbolt|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|upkeep
+|
+|switch|p2a: Eiscue|Eiscue, F|100/100
+|turn|13
+|
+|move|p2a: Eiscue|Belly Drum|p2a: Eiscue
+|-damage|p2a: Eiscue|50/100
+|-setboost|p2a: Eiscue|atk|6|[from] move: Belly Drum
+|move|p1a: Clefable|Flamethrower|p2a: Eiscue
+|-supereffective|p2a: Eiscue
+|-damage|p2a: Eiscue|4/100
+|-enditem|p2a: Eiscue|Salac Berry|[eat]
+|-boost|p2a: Eiscue|spe|1
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|-damage|p1a: Hawlucha|88/100|[from] Stealth Rock
+|move|p2a: Eiscue|Zen Headbutt|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Eiscue
+|-damage|p2a: Eiscue|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Eiscue
+|
+|-sideend|p2: Hichac|move: Light Screen
+|upkeep
+|
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|turn|16
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-crit|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Kommo-o
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|17
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|39/100
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: Hydreigon|Dark Pulse|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Hydreigon|45/100|[from] item: Leftovers
+|-sideend|p2: Hichac|Reflect
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|94/100
+|-damage|p1a: Hydreigon|82/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Hydreigon
+|-crit|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|win|GAUB
+|c|☆GAUB|gg
+|l|☆Hichac
+|raw|GAUB's rating: 1401 → 1419(+18 for winning)
+|raw|Hichac's rating: 1374 → 1356(-18 for losing)

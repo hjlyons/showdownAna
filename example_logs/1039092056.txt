@@ -1,0 +1,272 @@
+|ScrapeTime|2020-01-01-10:55:38
+|j|☆Trascar
+|j|☆Andiu
+|player|p1|Trascar|volkner|1216
+|player|p2|Andiu|koga|1153
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Toxtricity, M|
+|poke|p1|Ditto|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Corsola-Galar, F|
+|poke|p2|Flapple, F|
+|poke|p2|Aegislash, M|
+|poke|p2|Clefable, M|
+|poke|p2|Ditto|
+|poke|p2|Excadrill, F|
+|poke|p2|Rotom-Heat|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F, shiny|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|1
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Cinderace|High Jump Kick|p2a: Rotom
+|-damage|p2a: Rotom|47/100
+|move|p2a: Rotom|Thunderbolt|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-heal|p2a: Rotom|53/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ditto|Ditto, shiny|100/100
+|-transform|p1a: Ditto|p2a: Rotom|[from] ability: Imposter
+|turn|3
+|
+|move|p1a: Ditto|Volt Switch|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|13/100
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100|[from]move: Volt Switch
+|move|p2a: Rotom|Thunderbolt|p1a: Corsola
+|-damage|p1a: Corsola|44/100
+|-start|p2a: Rotom|Disable|Thunderbolt|[from] ability: Cursed Body|[of] p1a: Corsola
+|-status|p1a: Corsola|par
+|
+|-heal|p2a: Rotom|20/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Rotom|Overheat|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Corsola
+|
+|-heal|p2a: Rotom|26/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ditto|Ditto, shiny|100/100
+|-transform|p1a: Ditto|p2a: Rotom|[from] ability: Imposter
+|turn|5
+|
+|move|p1a: Ditto|Thunderbolt|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|6
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F, shiny|100/100
+|move|p2a: Excadrill|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|59/100
+|
+|-heal|p1a: Ferrothorn|65/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Ferrothorn|Spikes|p2a: Clefable
+|-sidestart|p2: Andiu|Spikes
+|
+|-heal|p1a: Ferrothorn|71/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Clefable|Flamethrower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|turn|9
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|88/100|[from] Spikes
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Toxtricity|Boomburst|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|34/100
+|-damage|p1a: Toxtricity|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|move|p2a: Excadrill|Rapid Spin|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|76/100
+|-sideend|p2: Andiu|Spikes|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-boost|p2a: Excadrill|spe|1
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Grimmsnarl|Sucker Punch|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-damage|p1a: Grimmsnarl|66/100|[from] item: Life Orb
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|12
+|
+|move|p1a: Grimmsnarl|Play Rough|p2a: Clefable|[miss]
+|-miss|p1a: Grimmsnarl|p2a: Clefable
+|move|p2a: Clefable|Moonblast|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, M|91/100
+|turn|13
+|
+|move|p1a: Toxtricity|Sludge Wave|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-damage|p1a: Toxtricity|81/100|[from] item: Life Orb
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|turn|14
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Aegislash
+|-damage|p2a: Aegislash|53/100
+|-damage|p1a: Toxtricity|71/100|[from] item: Life Orb
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|-heal|p2a: Aegislash|59/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ditto|Ditto, shiny|100/100
+|-transform|p1a: Ditto|p2a: Aegislash|[from] ability: Imposter
+|turn|15
+|
+|-formechange|p2a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Ditto|Shadow Ball|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|
+|-heal|p2a: Aegislash|66/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Ditto|Shadow Ball|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Flapple|Flapple, F|100/100
+|turn|17
+|
+|move|p2a: Flapple|Sucker Punch|p1a: Ditto|[miss]
+|-miss|p2a: Flapple|p1a: Ditto
+|-enditem|p2a: Flapple|Blunder Policy
+|-boost|p2a: Flapple|spe|2
+|move|p1a: Ditto|Shadow Ball|p2a: Flapple
+|-damage|p2a: Flapple|15/100
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Flapple|Sucker Punch|p1a: Ditto|[miss]
+|-miss|p2a: Flapple|p1a: Ditto
+|move|p1a: Ditto|Shadow Ball|p2a: Flapple
+|-damage|p2a: Flapple|0 fnt
+|faint|p2a: Flapple
+|
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|turn|19
+|
+|move|p2a: Ditto|Transform||[still]
+|-fail|p2a: Ditto
+|move|p1a: Ditto|Shadow Ball|p2a: Ditto
+|-immune|p2a: Ditto
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Ditto|Transform||[still]
+|-fail|p2a: Ditto
+|-activate|p1a: Ditto|move: Struggle
+|move|p1a: Ditto|Struggle|p2a: Ditto
+|-damage|p2a: Ditto|63/100
+|-damage|p1a: Ditto|75/100|[from] recoil
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Ditto|Transform||[still]
+|-fail|p2a: Ditto
+|-activate|p1a: Ditto|move: Struggle
+|move|p1a: Ditto|Struggle|p2a: Ditto
+|-damage|p2a: Ditto|29/100
+|-damage|p1a: Ditto|50/100|[from] recoil
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Ditto|Transform||[still]
+|-fail|p2a: Ditto
+|-activate|p1a: Ditto|move: Struggle
+|move|p1a: Ditto|Struggle|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|-damage|p1a: Ditto|25/100|[from] recoil
+|faint|p2a: Ditto
+|
+|win|Trascar
+|raw|Trascar's rating: 1217 → 1237(+20 for winning)
+|raw|Andiu's rating: 1153 → 1133(-20 for losing)
+|c|☆Andiu|Gg
+|c|☆Trascar|gg
+|l|☆Trascar

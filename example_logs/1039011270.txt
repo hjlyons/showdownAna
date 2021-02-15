@@ -1,0 +1,427 @@
+|ScrapeTime|2020-01-01-05:04:54
+|j|☆OIE123
+|j|☆Erpresss
+|player|p1|OIE123|hilbert|
+|player|p2|Erpresss|101|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Alcremie, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Appletun, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Inteleon, M|
+|poke|p1|Pincurchin, M|
+|poke|p2|Toxtricity, M|
+|poke|p2|Dracovish|
+|poke|p2|Cinderace, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Morpeko, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Pablo Vittar|Inteleon, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Erpresss|move: Light Screen
+|move|p1a: Pablo Vittar|Hydro Pump|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|68/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Pincurchinmon|Pincurchin, M|100/100
+|move|p2a: Grimmsnarl|Foul Play|p1a: Pincurchinmon
+|-damage|p1a: Pincurchinmon|76/100
+|
+|-heal|p1a: Pincurchinmon|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Pincurchinmon|Spikes|p2a: Excadrill
+|-sidestart|p2: Erpresss|Spikes
+|
+|-heal|p1a: Pincurchinmon|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Excadrill|Rapid Spin|p1a: Pincurchinmon
+|-damage|p1a: Pincurchinmon|74/100
+|-sideend|p2: Erpresss|Spikes|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-boost|p2a: Excadrill|spe|1
+|move|p1a: Pincurchinmon|Scald|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|76/100
+|
+|-heal|p1a: Pincurchinmon|80/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Brotherhood|Corviknight, M|100/100
+|-ability|p1a: Brotherhood|Pressure
+|move|p2a: Excadrill|Earthquake|p1a: Brotherhood
+|-immune|p1a: Brotherhood
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Excadrill|Stealth Rock|p1a: Brotherhood
+|-sidestart|p1: OIE123|move: Stealth Rock
+|move|p1a: Brotherhood|Defog|p2a: Excadrill
+|-unboost|p2a: Excadrill|evasion|1
+|-sideend|p2: Erpresss|move: Light Screen
+|-sideend|p1: OIE123|Stealth Rock|[from] move: Defog|[of] p1a: Brotherhood
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Morpeko|Morpeko, F|100/100
+|move|p1a: Brotherhood|Brave Bird|p2a: Morpeko
+|-resisted|p2a: Morpeko
+|-damage|p2a: Morpeko|62/100
+|-damage|p1a: Brotherhood|92/100|[from] Recoil
+|
+|-heal|p1a: Brotherhood|98/100|[from] item: Leftovers
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|8
+|
+|switch|p1a: Pincurchinmon|Pincurchin, M|80/100
+|move|p2a: Morpeko|Parting Shot|p1a: Pincurchinmon
+|-unboost|p1a: Pincurchinmon|atk|1
+|-unboost|p1a: Pincurchinmon|spa|1
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100|[from]move: Parting Shot
+|
+|-heal|p1a: Pincurchinmon|86/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Toxtricity|Shift Gear|p2a: Toxtricity
+|-boost|p2a: Toxtricity|spe|2
+|-boost|p2a: Toxtricity|atk|1
+|move|p1a: Pincurchinmon|Scald|p2a: Toxtricity
+|-crit|p2a: Toxtricity
+|-damage|p2a: Toxtricity|64/100
+|
+|-heal|p1a: Pincurchinmon|92/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Docinho|Alcremie, F|100/100
+|move|p2a: Toxtricity|Boomburst|p1a: Docinho
+|-damage|p1a: Docinho|58/100
+|-enditem|p2a: Toxtricity|Throat Spray
+|-boost|p2a: Toxtricity|spa|1
+|
+|-heal|p1a: Docinho|64/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Toxtricity|Overdrive|p1a: Docinho
+|-damage|p1a: Docinho|14/100
+|move|p1a: Docinho|Draining Kiss|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|49/100
+|-heal|p1a: Docinho|24/100|[from] drain|[of] p2a: Toxtricity
+|
+|-heal|p1a: Docinho|30/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Toxtricity|Overdrive|p1a: Docinho
+|-damage|p1a: Docinho|0 fnt
+|faint|p1a: Docinho
+|
+|upkeep
+|
+|switch|p1a: Moranguinho|Appletun, M|100/100
+|turn|13
+|
+|move|p2a: Toxtricity|Sludge Bomb|p1a: Moranguinho
+|-supereffective|p1a: Moranguinho
+|-damage|p1a: Moranguinho|2/100
+|move|p1a: Moranguinho|Draco Meteor|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|-unboost|p1a: Moranguinho|spa|2
+|faint|p2a: Toxtricity
+|
+|-heal|p1a: Moranguinho|9/100|[from] item: Leftovers
+|upkeep
+|c|☆Erpresss|Ksdklflf
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|68/100
+|turn|14
+|
+|switch|p1a: Pincurchinmon|Pincurchin, M|92/100
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Erpresss|move: Light Screen
+|
+|-heal|p1a: Pincurchinmon|98/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Grimmsnarl|Swagger|p1a: Pincurchinmon
+|-boost|p1a: Pincurchinmon|atk|2
+|-start|p1a: Pincurchinmon|confusion
+|-activate|p1a: Pincurchinmon|confusion
+|move|p1a: Pincurchinmon|Spikes|p2a: Grimmsnarl
+|-sidestart|p2: Erpresss|Spikes
+|
+|-heal|p1a: Pincurchinmon|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Grimmsnarl|Foul Play|p1a: Pincurchinmon
+|-crit|p1a: Pincurchinmon
+|-damage|p1a: Pincurchinmon|32/100
+|-end|p1a: Pincurchinmon|confusion
+|move|p1a: Pincurchinmon|Scald|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|62/100
+|
+|-heal|p1a: Pincurchinmon|38/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Brotherhood|Corviknight, M|98/100
+|-ability|p1a: Brotherhood|Pressure
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Erpresss|Reflect
+|
+|-heal|p1a: Brotherhood|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Grimmsnarl|Swagger|p1a: Brotherhood|[miss]
+|-miss|p2a: Grimmsnarl|p1a: Brotherhood
+|move|p1a: Brotherhood|Defog|p2a: Grimmsnarl
+|-unboost|p2a: Grimmsnarl|evasion|1
+|-sideend|p2: Erpresss|Reflect
+|-sideend|p2: Erpresss|move: Light Screen
+|-sideend|p2: Erpresss|Spikes|[from] move: Defog|[of] p1a: Brotherhood
+|
+|upkeep
+|turn|19
+|c|☆Erpresss|Anoo
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Erpresss|Reflect
+|move|p1a: Brotherhood|U-turn|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|53/100
+|
+|switch|p1a: Pablo Vittar|Inteleon, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Grimmsnarl|Swagger|p1a: Pablo Vittar
+|-boost|p1a: Pablo Vittar|atk|2
+|-start|p1a: Pablo Vittar|confusion
+|-activate|p1a: Pablo Vittar|confusion
+|move|p1a: Pablo Vittar|Hydro Pump|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: VishVish|Dracovish|100/100
+|turn|21
+|
+|switch|p1a: Moranguinho|Appletun, M|9/100
+|move|p2a: VishVish|Fishious Rend|p1a: Moranguinho
+|-resisted|p1a: Moranguinho
+|-crit|p1a: Moranguinho
+|-damage|p1a: Moranguinho|0 fnt
+|faint|p1a: Moranguinho
+|
+|upkeep
+|
+|switch|p1a: Pablo Vittar|Inteleon, M|100/100
+|turn|22
+|
+|move|p1a: Pablo Vittar|Ice Beam|p2a: VishVish
+|-damage|p2a: VishVish|43/100
+|move|p2a: VishVish|Fishious Rend|p1a: Pablo Vittar
+|-resisted|p1a: Pablo Vittar
+|-damage|p1a: Pablo Vittar|34/100
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Morpeko|Morpeko, F|62/100
+|move|p1a: Pablo Vittar|Ice Beam|p2a: Morpeko
+|-damage|p2a: Morpeko|0 fnt
+|faint|p2a: Morpeko
+|
+|upkeep
+|
+|switch|p2a: Just|Cinderace, F|100/100
+|turn|24
+|
+|switch|p1a: Pincurchinmon|Pincurchin, M|38/100
+|move|p2a: Just|Sucker Punch||[still]
+|-fail|p2a: Just
+|
+|-heal|p1a: Pincurchinmon|44/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Just|Pyro Ball|p1a: Pincurchinmon
+|-damage|p1a: Pincurchinmon|0 fnt
+|faint|p1a: Pincurchinmon
+|
+|upkeep
+|
+|switch|p1a: Alice|Cinderace, F|100/100
+|turn|26
+|
+|move|p1a: Alice|Sucker Punch|p2a: Just
+|-damage|p2a: Just|77/100
+|move|p2a: Just|High Jump Kick|p1a: Alice|[miss]
+|-miss|p2a: Just|p1a: Alice
+|-damage|p2a: Just|27/100|[from] highjumpkick
+|
+|-sideend|p2: Erpresss|Reflect
+|upkeep
+|turn|27
+|c|☆Erpresss|BSJSJSKALSKDKKD
+|
+|move|p1a: Alice|Sucker Punch|p2a: Just
+|-damage|p2a: Just|0 fnt
+|faint|p2a: Just
+|
+|upkeep
+|
+|switch|p2a: VishVish|Dracovish|43/100
+|turn|28
+|c|☆OIE123|JUSTKKKKK
+|
+|move|p1a: Alice|Sucker Punch|p2a: VishVish
+|-damage|p2a: VishVish|7/100
+|move|p2a: VishVish|Fishious Rend|p1a: Alice
+|-supereffective|p1a: Alice
+|-damage|p1a: Alice|0 fnt
+|faint|p1a: Alice
+|
+|upkeep
+|
+|switch|p1a: Pablo Vittar|Inteleon, M|34/100
+|turn|29
+|
+|move|p1a: Pablo Vittar|U-turn|p2a: VishVish
+|-damage|p2a: VishVish|0 fnt
+|faint|p2a: VishVish
+|
+|switch|p1a: Brotherhood|Corviknight, M|100/100|[from]move: U-turn
+|-ability|p1a: Brotherhood|Pressure
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|76/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|30
+|
+|move|p2a: Excadrill|Rapid Spin|p1a: Brotherhood
+|-resisted|p1a: Brotherhood
+|-damage|p1a: Brotherhood|95/100
+|-boost|p2a: Excadrill|spe|1
+|move|p1a: Brotherhood|U-turn|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|66/100
+|
+|switch|p1a: Pablo Vittar|Inteleon, M|34/100|[from]move: U-turn
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Excadrill|Iron Head|p1a: Pablo Vittar
+|-resisted|p1a: Pablo Vittar
+|-damage|p1a: Pablo Vittar|0 fnt
+|faint|p1a: Pablo Vittar
+|
+|upkeep
+|
+|switch|p1a: Brotherhood|Corviknight, M|95/100
+|-ability|p1a: Brotherhood|Pressure
+|turn|32
+|
+|move|p2a: Excadrill|Iron Head|p1a: Brotherhood
+|-resisted|p1a: Brotherhood
+|-damage|p1a: Brotherhood|83/100
+|cant|p1a: Brotherhood|flinch
+|
+|-heal|p1a: Brotherhood|89/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p2a: Excadrill|Iron Head|p1a: Brotherhood
+|-resisted|p1a: Brotherhood
+|-damage|p1a: Brotherhood|75/100
+|cant|p1a: Brotherhood|flinch
+|
+|-heal|p1a: Brotherhood|81/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|c|☆Erpresss|Venha sorte
+|
+|move|p2a: Excadrill|Iron Head|p1a: Brotherhood
+|-resisted|p1a: Brotherhood
+|-damage|p1a: Brotherhood|69/100
+|move|p1a: Brotherhood|Brave Bird|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|40/100
+|-damage|p1a: Brotherhood|61/100|[from] Recoil
+|
+|-heal|p1a: Brotherhood|67/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Excadrill|Iron Head|p1a: Brotherhood
+|-resisted|p1a: Brotherhood
+|-damage|p1a: Brotherhood|53/100
+|cant|p1a: Brotherhood|flinch
+|
+|-heal|p1a: Brotherhood|59/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p2a: Excadrill|Iron Head|p1a: Brotherhood
+|-resisted|p1a: Brotherhood
+|-damage|p1a: Brotherhood|47/100
+|move|p1a: Brotherhood|Roost|p1a: Brotherhood
+|-heal|p1a: Brotherhood|97/100
+|-singleturn|p1a: Brotherhood|move: Roost
+|
+|-heal|p1a: Brotherhood|100/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|c|☆OIE123|Don't
+|c|☆OIE123|Haha yes
+|
+|move|p2a: Excadrill|Iron Head|p1a: Brotherhood
+|-resisted|p1a: Brotherhood
+|-damage|p1a: Brotherhood|87/100
+|move|p1a: Brotherhood|Brave Bird|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-crit|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-damage|p1a: Brotherhood|75/100|[from] Recoil
+|faint|p2a: Excadrill
+|
+|win|OIE123
+|c|☆Erpresss|Hack

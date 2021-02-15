@@ -1,0 +1,166 @@
+|ScrapeTime|2020-01-01-10:34:41
+|j|☆tempo40
+|j|☆nborges
+|player|p1|tempo40|cynthia|1368
+|player|p2|nborges|preschooler|1353
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Excadrill, F|
+|poke|p1|Hitmonlee, M|
+|poke|p1|Indeedee, M|
+|poke|p1|Hawlucha, M|
+|poke|p1|Polteageist|
+|poke|p1|Kommo-o, F|
+|poke|p2|Sylveon, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Dragapult, F|
+|poke|p2|Barraskewda, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Eiscue, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tempo40)
+|
+|start
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|switch|p2a: Eiscue|Eiscue, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Excadrill|Rock Tomb|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|92/100
+|-unboost|p2a: Seismitoad|spe|1
+|
+|-heal|p2a: Seismitoad|98/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Excadrill|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: nborges|move: Stealth Rock
+|move|p2a: Seismitoad|Stealth Rock|p1a: Excadrill
+|-sidestart|p1: tempo40|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Seismitoad
+|-damage|p2a: Seismitoad|85/100
+|-sideend|p1: tempo40|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|move|p2a: Seismitoad|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|1/100
+|
+|-heal|p2a: Seismitoad|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Polteageist|Polteageist|100/100
+|move|p2a: Seismitoad|Earthquake|p1a: Polteageist
+|-damage|p1a: Polteageist|41/100
+|-ability|p1a: Polteageist|Weak Armor|boost
+|-unboost|p1a: Polteageist|def|1
+|-boost|p1a: Polteageist|spe|2
+|
+|-heal|p2a: Seismitoad|97/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Polteageist|Giga Drain|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-heal|p1a: Polteageist|100/100|[from] drain|[of] p2a: Seismitoad
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, M|100/100
+|-damage|p2a: Barraskewda|88/100|[from] Stealth Rock
+|turn|6
+|
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|move|p2a: Barraskewda|Crunch|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-enditem|p1a: Polteageist|Focus Sash
+|-damage|p1a: Polteageist|1/100
+|-ability|p1a: Polteageist|Weak Armor|boost
+|-unboost|p1a: Polteageist|def|1
+|-boost|p1a: Polteageist|spe|2
+|-unboost|p1a: Polteageist|def|1
+|-damage|p2a: Barraskewda|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Eiscue|Eiscue, F|100/100
+|-damage|p2a: Eiscue|75/100|[from] Stealth Rock
+|move|p1a: Polteageist|Giga Drain|p2a: Eiscue
+|-damage|p2a: Eiscue|0 fnt
+|-heal|p1a: Polteageist|43/100|[from] drain|[of] p2a: Eiscue
+|faint|p2a: Eiscue
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat, shiny|100/100
+|turn|8
+|
+|move|p1a: Polteageist|Stored Power|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Sylveon|Sylveon, F|100/100
+|-damage|p2a: Sylveon|88/100|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Polteageist|Stored Power|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|faint|p2a: Sylveon
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Polteageist|Shadow Ball|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, M|78/100
+|-damage|p2a: Barraskewda|66/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Polteageist|Giga Drain|p2a: Barraskewda
+|-supereffective|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|-heal|p1a: Polteageist|76/100|[from] drain|[of] p2a: Barraskewda
+|faint|p2a: Barraskewda
+|
+|win|tempo40
+|raw|tempo40's rating: 1368 → 1387(+19 for winning)
+|raw|nborges's rating: 1353 → 1334(-19 for losing)
+|l|☆nborges

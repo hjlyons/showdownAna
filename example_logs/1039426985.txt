@@ -1,0 +1,537 @@
+|ScrapeTime|2020-01-02-01:24:50
+|j|☆Eab2711
+|j|☆taw
+|player|p1|Eab2711|266|1358
+|player|p2|taw|alder|1328
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, F|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Barraskewda, F|
+|poke|p1|Dracovish|
+|poke|p1|Pelipper, M|
+|poke|p2|Frosmoth, M|
+|poke|p2|Centiskorch, M|
+|poke|p2|Araquanid, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Gastrodon, M|
+|poke|p2|Lucario, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Frosmoth|Frosmoth, M|100/100
+|turn|1
+|
+|move|p2a: Frosmoth|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|61/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Frosmoth
+|-supereffective|p2a: Frosmoth
+|-enditem|p2a: Frosmoth|Focus Sash
+|-damage|p2a: Frosmoth|1/100
+|
+|-heal|p1a: Ferrothorn|67/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Frosmoth|Ice Beam|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Ferrothorn|74/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|move|p2a: Frosmoth|Ice Beam|p1a: Corsola
+|-damage|p1a: Corsola|79/100
+|-start|p2a: Frosmoth|Disable|Ice Beam|[from] ability: Cursed Body|[of] p1a: Corsola
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Frosmoth|Bug Buzz|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|66/100
+|move|p1a: Corsola|Stealth Rock|p2a: Frosmoth
+|-sidestart|p2: taw|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Frosmoth|Icy Wind|p1a: Corsola
+|-damage|p1a: Corsola|53/100
+|-unboost|p1a: Corsola|spe|1
+|move|p1a: Corsola|Strength Sap|p2a: Frosmoth
+|-unboost|p2a: Frosmoth|atk|1
+|-heal|p1a: Corsola|90/100
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|74/100
+|move|p2a: Frosmoth|Bug Buzz|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|12/100
+|
+|-heal|p1a: Ferrothorn|18/100|[from] item: Leftovers
+|-end|p2a: Frosmoth|Disable
+|upkeep
+|turn|7
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|
+|-heal|p1a: Ferrothorn|25/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Frosmoth|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|9
+|
+|move|p1a: Dracovish|Crunch|p2a: Frosmoth
+|-damage|p2a: Frosmoth|0 fnt
+|faint|p2a: Frosmoth
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|turn|10
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Corviknight|Defog|p1a: Toxapex
+|-unboost|p1a: Toxapex|evasion|1
+|-sideend|p2: taw|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Centiskorch|Centiskorch, M|100/100
+|move|p1a: Toxapex|Toxic Spikes|p2a: Centiskorch
+|-sidestart|p2: taw|move: Toxic Spikes
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Centiskorch|Thunder Fang|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|70/100
+|cant|p1a: Toxapex|flinch
+|
+|-heal|p1a: Toxapex|76/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|move|p2a: Centiskorch|Thunder Fang|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|42/100
+|move|p1a: Toxapex|Scald|p2a: Centiskorch
+|-supereffective|p2a: Centiskorch
+|-damage|p2a: Centiskorch|67/100
+|
+|-heal|p1a: Toxapex|49/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p2a: Centiskorch|Thunder Fang|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|17/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|67/100
+|
+|-heal|p1a: Toxapex|73/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|move|p2a: Centiskorch|Thunder Fang|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|39/100
+|move|p1a: Toxapex|Toxic Spikes|p2a: Centiskorch
+|-sidestart|p2: taw|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|45/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p2a: Centiskorch|Thunder Fang|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|13/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|63/100
+|
+|-heal|p1a: Toxapex|69/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|switch|p1a: Corsola|Corsola-Galar, F|90/100
+|move|p2a: Centiskorch|Thunder Fang|p1a: Corsola
+|-damage|p1a: Corsola|75/100
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Corviknight|Corviknight, M|94/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Corsola|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: taw|move: Stealth Rock
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Corviknight|Defog|p1a: Corsola
+|-unboost|p1a: Corsola|evasion|1
+|-sideend|p2: taw|Toxic Spikes|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: taw|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Corsola|Will-O-Wisp|p2a: Corviknight
+|-status|p2a: Corviknight|brn
+|
+|-damage|p2a: Corviknight|94/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p2a: Lucario|Lucario, F|100/100
+|move|p1a: Corsola|Stealth Rock|p2a: Lucario
+|-sidestart|p2: taw|move: Stealth Rock
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|-damage|p2a: Araquanid|76/100|[from] Stealth Rock
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Araquanid|82/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Pelipper|Knock Off|p2a: Araquanid
+|-damage|p2a: Araquanid|67/100
+|-enditem|p2a: Araquanid|Leftovers|[from] move: Knock Off|[of] p1a: Pelipper
+|move|p2a: Araquanid|Stockpile|p2a: Araquanid
+|-start|p2a: Araquanid|stockpile1
+|-boost|p2a: Araquanid|def|1
+|-boost|p2a: Araquanid|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|move|p1a: Pelipper|U-turn|p2a: Araquanid
+|-damage|p2a: Araquanid|60/100
+|
+|switch|p1a: Barraskewda|Barraskewda, F|100/100|[from]move: U-turn
+|move|p2a: Araquanid|Stockpile|p2a: Araquanid
+|-start|p2a: Araquanid|stockpile2
+|-boost|p2a: Araquanid|def|1
+|-boost|p2a: Araquanid|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|
+|move|p1a: Barraskewda|Crunch|p2a: Araquanid
+|-damage|p2a: Araquanid|40/100
+|-unboost|p2a: Araquanid|def|1
+|move|p2a: Araquanid|Liquidation|p1a: Barraskewda
+|-resisted|p1a: Barraskewda
+|-damage|p1a: Barraskewda|1/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|move|p1a: Barraskewda|Crunch|p2a: Araquanid
+|-damage|p2a: Araquanid|13/100
+|move|p2a: Araquanid|Leech Life|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|-heal|p2a: Araquanid|13/100|[from] drain|[of] p1a: Barraskewda
+|faint|p1a: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|26
+|
+|move|p1a: Dracovish|Crunch|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|-damage|p2a: Gastrodon|94/100|[from] Stealth Rock
+|turn|27
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|move|p2a: Gastrodon|Earth Power|p1a: Pelipper
+|-immune|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Pelipper|Knock Off|p2a: Gastrodon
+|-damage|p2a: Gastrodon|86/100
+|-enditem|p2a: Gastrodon|Leftovers|[from] move: Knock Off|[of] p1a: Pelipper
+|move|p2a: Gastrodon|Sludge Bomb|p1a: Pelipper
+|-damage|p1a: Pelipper|71/100
+|
+|-weather|none
+|upkeep
+|turn|29
+|
+|move|p1a: Pelipper|U-turn|p2a: Gastrodon
+|-damage|p2a: Gastrodon|77/100
+|
+|switch|p1a: Corsola|Corsola-Galar, F|75/100|[from]move: U-turn
+|move|p2a: Gastrodon|Sludge Bomb|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|70/100
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Gastrodon|Sludge Bomb|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|65/100
+|move|p1a: Corsola|Night Shade|p2a: Gastrodon
+|-damage|p2a: Gastrodon|53/100
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Gastrodon|Sludge Bomb|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|61/100
+|move|p1a: Corsola|Will-O-Wisp|p2a: Gastrodon
+|-status|p2a: Gastrodon|brn
+|
+|-damage|p2a: Gastrodon|47/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Gastrodon|Sludge Bomb|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|94/100
+|
+|-heal|p1a: Toxapex|99/100|[from] item: Black Sludge
+|-damage|p2a: Gastrodon|41/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|91/100 brn
+|move|p1a: Toxapex|Toxic Spikes|p2a: Gastrodon
+|-sidestart|p2: taw|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p2a: Gastrodon|85/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|move|p2a: Gastrodon|Earth Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|65/100
+|move|p1a: Toxapex|Scald|p2a: Gastrodon
+|-ability|p2a: Gastrodon|Storm Drain|boost
+|-boost|p2a: Gastrodon|spa|1
+|
+|-heal|p1a: Toxapex|71/100|[from] item: Black Sludge
+|-damage|p2a: Gastrodon|79/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|move|p2a: Gastrodon|Earth Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|18/100
+|-unboost|p1a: Toxapex|spd|1
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Toxapex|24/100|[from] item: Black Sludge
+|-damage|p2a: Gastrodon|73/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|switch|p1a: Pelipper|Pelipper, M|71/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Gastrodon|Sludge Bomb|p1a: Pelipper
+|-damage|p1a: Pelipper|42/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Gastrodon|66/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|92/100
+|-singleturn|p1a: Pelipper|move: Roost
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p1a: Pelipper|Knock Off|p2a: Gastrodon
+|-damage|p2a: Gastrodon|84/100 brn
+|move|p2a: Gastrodon|Sludge Bomb|p1a: Pelipper
+|-damage|p1a: Pelipper|67/100
+|-status|p1a: Pelipper|psn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|55/100 psn|[from] psn
+|-damage|p2a: Gastrodon|78/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|move|p1a: Pelipper|Knock Off|p2a: Gastrodon
+|-damage|p2a: Gastrodon|69/100 brn
+|move|p2a: Gastrodon|Scald|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|26/100 psn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|14/100 psn|[from] psn
+|-damage|p2a: Gastrodon|63/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|64/100 psn
+|-singleturn|p1a: Pelipper|move: Roost
+|move|p2a: Gastrodon|Earth Power|p1a: Pelipper
+|-damage|p1a: Pelipper|20/100 psn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|8/100 psn|[from] psn
+|-damage|p2a: Gastrodon|57/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|58/100 psn
+|-singleturn|p1a: Pelipper|move: Roost
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|45/100 psn|[from] psn
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|switch|p1a: Toxapex|Toxapex, M|57/100
+|move|p2a: Gastrodon|Earth Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|23/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|29/100|[from] item: Black Sludge
+|-damage|p2a: Gastrodon|88/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|switch|p1a: Corsola|Corsola-Galar, F|61/100
+|move|p2a: Gastrodon|Scald|p1a: Corsola
+|-damage|p1a: Corsola|39/100
+|-status|p1a: Corsola|brn
+|
+|-weather|none
+|-damage|p2a: Gastrodon|82/100 brn|[from] brn
+|-damage|p1a: Corsola|33/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|move|p2a: Gastrodon|Earth Power|p1a: Corsola
+|-damage|p1a: Corsola|18/100 brn
+|move|p1a: Corsola|Strength Sap|p2a: Gastrodon
+|-unboost|p2a: Gastrodon|atk|1
+|-heal|p1a: Corsola|65/100 brn
+|
+|-damage|p2a: Gastrodon|76/100 brn|[from] brn
+|-damage|p1a: Corsola|59/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|move|p2a: Gastrodon|Scald|p1a: Corsola
+|-damage|p1a: Corsola|45/100 brn
+|move|p1a: Corsola|Strength Sap|p2a: Gastrodon
+|-unboost|p2a: Gastrodon|atk|1
+|-heal|p1a: Corsola|76/100 brn
+|
+|-damage|p2a: Gastrodon|70/100 brn|[from] brn
+|-damage|p1a: Corsola|70/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|move|p2a: Gastrodon|Scald|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|92/100
+|
+|-damage|p2a: Gastrodon|64/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|move|p1a: Dracovish|Crunch|p2a: Gastrodon
+|-damage|p2a: Gastrodon|25/100 brn
+|-unboost|p2a: Gastrodon|def|1
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|75/100 brn
+|
+|-damage|p2a: Gastrodon|69/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|switch|p2a: Corviknight|Corviknight, M|94/100 brn
+|-damage|p2a: Corviknight|82/100 brn|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dracovish|Crunch|p2a: Corviknight
+|-damage|p2a: Corviknight|62/100 brn
+|
+|-heal|p2a: Corviknight|68/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|62/100 brn|[from] brn
+|upkeep
+|turn|49
+|-message|Eab2711 forfeited.
+|
+|win|taw
+|l|☆Eab2711
+|raw|Eab2711's rating: 1358 → 1335(-23 for losing)
+|raw|taw's rating: 1312 → 1334(+22 for winning)

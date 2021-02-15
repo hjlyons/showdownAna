@@ -1,0 +1,380 @@
+|ScrapeTime|2020-01-01-02:24:24
+|j|☆Ctrl G-Max
+|j|☆prawnwizard
+|player|p1|Ctrl G-Max|188|1321
+|player|p2|prawnwizard|197|1372
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Lucario, M|
+|poke|p1|Lapras, M|
+|poke|p1|Diggersby, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Mew|
+|poke|p2|Eiscue, F|
+|poke|p2|Bisharp, M|
+|poke|p2|Kommo-o, F|
+|poke|p2|Polteageist|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ctrl G-Max)
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|switch|p1a: Lapras|Lapras, M|100/100
+|move|p2a: Grimmsnarl|Taunt|p1a: Lapras
+|-start|p1a: Lapras|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Lapras
+|-damage|p1a: Lapras|76/100
+|-unboost|p1a: Lapras|spa|1
+|move|p1a: Lapras|Whirlpool|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|91/100
+|-activate|p2a: Grimmsnarl|move: Whirlpool|[of] p1a: Lapras
+|
+|-heal|p1a: Lapras|82/100|[from] item: Leftovers
+|-damage|p2a: Grimmsnarl|79/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: prawnwizard|move: Light Screen
+|move|p1a: Lapras|Freeze-Dry|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|70/100
+|
+|-heal|p1a: Lapras|88/100|[from] item: Leftovers
+|-damage|p2a: Grimmsnarl|58/100|[from] move: Whirlpool|[partiallytrapped]
+|-end|p1a: Lapras|move: Taunt
+|upkeep
+|turn|4
+|
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Lapras
+|-damage|p1a: Lapras|61/100
+|-unboost|p1a: Lapras|spa|1
+|move|p1a: Lapras|Perish Song|p1a: Lapras
+|-start|p1a: Lapras|perish3|[silent]
+|-start|p2a: Grimmsnarl|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-heal|p1a: Lapras|67/100|[from] item: Leftovers
+|-damage|p2a: Grimmsnarl|45/100|[from] move: Whirlpool|[partiallytrapped]
+|-start|p2a: Grimmsnarl|perish3
+|-start|p1a: Lapras|perish3
+|upkeep
+|turn|5
+|
+|move|p1a: Lapras|Protect|p1a: Lapras
+|-singleturn|p1a: Lapras|Protect
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Lapras
+|-activate|p1a: Lapras|move: Protect
+|
+|-heal|p1a: Lapras|73/100|[from] item: Leftovers
+|-damage|p2a: Grimmsnarl|33/100|[from] move: Whirlpool|[partiallytrapped]
+|-start|p2a: Grimmsnarl|perish2
+|-start|p1a: Lapras|perish2
+|upkeep
+|turn|6
+|
+|move|p1a: Lapras|Protect||[still]
+|-fail|p1a: Lapras
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: prawnwizard|Reflect
+|
+|-heal|p1a: Lapras|79/100|[from] item: Leftovers
+|-end|p2a: Grimmsnarl|Whirlpool|[partiallytrapped]
+|-start|p2a: Grimmsnarl|perish1
+|-start|p1a: Lapras|perish1
+|upkeep
+|turn|7
+|
+|switch|p2a: Mew|Mew|100/100
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p2: prawnwizard|Light Screen|[silent]
+|-sidestart|p1: Ctrl G-Max|Light Screen|[silent]
+|-sideend|p2: prawnwizard|Reflect|[silent]
+|-sidestart|p1: Ctrl G-Max|Reflect|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Mew|Stealth Rock|p1a: Cinderace
+|-sidestart|p1: Ctrl G-Max|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Cinderace|U-turn|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|65/100
+|-enditem|p2a: Mew|Red Card|[of] p1a: Cinderace
+|drag|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|move|p2a: Mew|Spikes|p1a: Dragapult
+|-sidestart|p1: Ctrl G-Max|Spikes
+|
+|-heal|p1a: Dragapult|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|69/100
+|
+|-heal|p1a: Dragapult|75/100|[from] item: Leftovers
+|-sideend|p1: Ctrl G-Max|move: Light Screen
+|upkeep
+|turn|11
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|82/100
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|66/100
+|-hitcount|p2a: Bisharp|2
+|move|p2a: Bisharp|Throat Chop|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|81/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Lapras|Lapras, M|79/100
+|-damage|p1a: Lapras|67/100|[from] Spikes
+|-damage|p1a: Lapras|42/100|[from] Stealth Rock
+|move|p2a: Bisharp|Throat Chop|p1a: Lapras
+|-damage|p1a: Lapras|25/100
+|-start|p1a: Lapras|Throat Chop|[silent]
+|
+|-heal|p1a: Lapras|31/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Lapras|Protect|p1a: Lapras
+|-singleturn|p1a: Lapras|Protect
+|move|p2a: Bisharp|Iron Head|p1a: Lapras
+|-activate|p1a: Lapras|move: Protect
+|
+|-heal|p1a: Lapras|37/100|[from] item: Leftovers
+|-sideend|p1: Ctrl G-Max|Reflect
+|-end|p1a: Lapras|Throat Chop|[silent]
+|upkeep
+|turn|14
+|
+|move|p2a: Bisharp|Iron Head|p1a: Lapras
+|-damage|p1a: Lapras|10/100
+|move|p1a: Lapras|Whirlpool|p2a: Bisharp
+|-damage|p2a: Bisharp|48/100
+|-activate|p2a: Bisharp|move: Whirlpool|[of] p1a: Lapras
+|
+|-heal|p1a: Lapras|16/100|[from] item: Leftovers
+|-damage|p2a: Bisharp|35/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|15
+|
+|move|p1a: Lapras|Protect|p1a: Lapras
+|-singleturn|p1a: Lapras|Protect
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|-heal|p1a: Lapras|22/100|[from] item: Leftovers
+|-damage|p2a: Bisharp|23/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|16
+|
+|move|p1a: Lapras|Protect||[still]
+|-fail|p1a: Lapras
+|move|p2a: Bisharp|Throat Chop|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|-end|p2a: Bisharp|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|17
+|
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p1: Ctrl G-Max|Spikes|[silent]
+|-sidestart|p2: prawnwizard|Spikes|[silent]
+|-sideend|p1: Ctrl G-Max|Stealth Rock|[silent]
+|-sidestart|p2: prawnwizard|Stealth Rock|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Bisharp|Throat Chop|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|turn|18
+|
+|move|p1a: Lucario|Vacuum Wave|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|-damage|p2a: Polteageist|88/100|[from] Spikes
+|-damage|p2a: Polteageist|76/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Grimmsnarl|Trick|p2a: Polteageist
+|-activate|p1a: Grimmsnarl|move: Trick|[of] p2a: Polteageist
+|-item|p2a: Polteageist|Lagging Tail|[from] move: Trick
+|-item|p1a: Grimmsnarl|Focus Sash|[from] move: Trick
+|move|p2a: Polteageist|Giga Drain|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|64/100
+|-heal|p2a: Polteageist|100/100|[from] drain|[of] p1a: Grimmsnarl
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Polteageist
+|-status|p2a: Polteageist|par
+|move|p2a: Polteageist|Giga Drain|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|24/100
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Polteageist
+|-damage|p2a: Polteageist|19/100 par
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|-unboost|p2a: Polteageist|spa|1
+|cant|p2a: Polteageist|par
+|
+|upkeep
+|turn|23
+|inactive|Ctrl G-Max has 120 seconds left.
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|
+|upkeep
+|
+|switch|p2a: Mew|Mew|65/100
+|-damage|p2a: Mew|52/100|[from] Stealth Rock
+|-damage|p2a: Mew|40/100|[from] Spikes
+|turn|24
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Mew
+|-start|p2a: Mew|move: Taunt
+|cant|p2a: Mew|move: Taunt|Taunt
+|
+|upkeep
+|turn|25
+|
+|-activate|p2a: Mew|move: Struggle
+|move|p2a: Mew|Struggle|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|11/100
+|-damage|p2a: Mew|15/100|[from] recoil
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|33/100
+|-damage|p2a: Grimmsnarl|21/100|[from] Spikes
+|-damage|p2a: Grimmsnarl|8/100|[from] Stealth Rock
+|turn|26
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: prawnwizard|Reflect
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-crit|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Eiscue|Eiscue, F|100/100
+|-damage|p2a: Eiscue|88/100|[from] Spikes
+|-damage|p2a: Eiscue|63/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Eiscue
+|-start|p2a: Eiscue|move: Taunt
+|cant|p2a: Eiscue|move: Taunt|Belly Drum
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Eiscue|[miss]
+|-miss|p1a: Grimmsnarl|p2a: Eiscue
+|move|p2a: Eiscue|Icicle Crash|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|turn|29
+|
+|move|p1a: Lucario|Flash Cannon|p2a: Eiscue
+|-supereffective|p2a: Eiscue
+|-damage|p2a: Eiscue|0 fnt
+|faint|p2a: Eiscue
+|
+|upkeep
+|
+|switch|p2a: Kommo-o|Kommo-o, F|100/100
+|-damage|p2a: Kommo-o|88/100|[from] Spikes
+|-damage|p2a: Kommo-o|82/100|[from] Stealth Rock
+|turn|30
+|
+|move|p1a: Lucario|Flash Cannon|p2a: Kommo-o
+|-damage|p2a: Kommo-o|13/100
+|-unboost|p2a: Kommo-o|spd|1
+|move|p2a: Kommo-o|Clangorous Soul||[still]
+|-fail|p2a: Kommo-o
+|
+|upkeep
+|turn|31
+|-message|prawnwizard forfeited.
+|
+|win|Ctrl G-Max
+|l|☆prawnwizard
+|raw|Ctrl G-Max's rating: 1321 → 1344(+23 for winning)
+|raw|prawnwizard's rating: 1372 → 1349(-23 for losing)

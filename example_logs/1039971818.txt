@@ -1,0 +1,290 @@
+|ScrapeTime|2020-01-03-01:04:24
+|j|☆FrostByte616
+|j|☆Gotrix
+|player|p1|FrostByte616|drayden|
+|player|p2|Gotrix|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mew|
+|poke|p1|Hatterene, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Rapidash-Galar, F|
+|poke|p1|Bronzong|
+|poke|p1|Xatu, M|
+|poke|p2|Frosmoth, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Avalugg, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Hatterene, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Frosmoth|Frosmoth, M|100/100
+|turn|1
+|
+|move|p1a: Mew|Stealth Rock|p2a: Frosmoth
+|-sidestart|p2: Gotrix|move: Stealth Rock
+|move|p2a: Frosmoth|Hurricane|p1a: Mew|[miss]
+|-miss|p2a: Frosmoth|p1a: Mew
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Mew|Taunt|p2a: Frosmoth
+|-start|p2a: Frosmoth|move: Taunt
+|move|p2a: Frosmoth|Ice Beam|p1a: Mew
+|-damage|p1a: Mew|58/100
+|-enditem|p1a: Mew|Red Card|[of] p2a: Frosmoth
+|drag|p2a: Avalugg|Avalugg, F|100/100
+|-damage|p2a: Avalugg|76/100|[from] Stealth Rock
+|-item|p2a: Avalugg|Air Balloon
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Mew|Spikes|p2a: Avalugg
+|-sidestart|p2: Gotrix|Spikes
+|move|p2a: Avalugg|Recover|p2a: Avalugg
+|-heal|p2a: Avalugg|100/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Mew|Spikes|p2a: Avalugg
+|-sidestart|p2: Gotrix|Spikes
+|move|p2a: Avalugg|Avalanche|p1a: Mew
+|-damage|p1a: Mew|37/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Mew|Spikes|p2a: Avalugg
+|-sidestart|p2: Gotrix|Spikes
+|move|p2a: Avalugg|Hail|p2a: Avalugg
+|-weather|Hail
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mew|31/100|[from] Hail
+|upkeep
+|turn|6
+|
+|move|p1a: Mew|Taunt|p2a: Avalugg
+|-start|p2a: Avalugg|move: Taunt
+|move|p2a: Avalugg|Avalanche|p1a: Mew
+|-damage|p1a: Mew|10/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Mew|4/100|[from] Hail
+|upkeep
+|turn|7
+|
+|move|p1a: Mew|U-turn|p2a: Avalugg
+|-damage|p2a: Avalugg|94/100
+|-enditem|p2a: Avalugg|Air Balloon
+|
+|switch|p1a: Bronzong|Bronzong, shiny|100/100|[from]move: U-turn
+|move|p2a: Avalugg|Avalanche|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-crit|p1a: Bronzong
+|-damage|p1a: Bronzong|88/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Bronzong|82/100|[from] Hail
+|upkeep
+|turn|8
+|
+|move|p2a: Avalugg|Earthquake|p1a: Bronzong
+|-immune|p1a: Bronzong|[from] ability: Levitate
+|move|p1a: Bronzong|Body Press|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-damage|p2a: Avalugg|71/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Bronzong|76/100|[from] Hail
+|-end|p2a: Avalugg|move: Taunt
+|upkeep
+|turn|9
+|
+|move|p2a: Avalugg|Recover|p2a: Avalugg
+|-heal|p2a: Avalugg|100/100
+|move|p1a: Bronzong|Body Press|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-damage|p2a: Avalugg|79/100
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|switch|p1a: Xatu|Xatu, M|100/100
+|
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Xatu|Light Screen|p1a: Xatu
+|-sidestart|p1: FrostByte616|move: Light Screen
+|move|p2a: Rotom|Thunderbolt|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|43/100
+|-status|p1a: Xatu|par
+|
+|-heal|p2a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-crit|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|
+|upkeep
+|
+|switch|p1a: Indeedee|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|13
+|
+|move|p1a: Indeedee|Psyshock|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p2a: Grimmsnarl|76/100|[from] Spikes
+|-damage|p2a: Grimmsnarl|63/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p1a: Mew|Mew|4/100
+|move|p2a: Grimmsnarl|Sucker Punch||[still]
+|-fail|p2a: Grimmsnarl
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Mew|U-turn|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|42/100
+|l|☆FrostByte616
+|player|p1|
+|j|☆FrostByte616
+|player|p1|FrostByte616|drayden
+|
+|switch|p1a: Bronzong|Bronzong, shiny|76/100|[from]move: U-turn
+|move|p2a: Grimmsnarl|Fire Punch|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|38/100
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Grimmsnarl|Fire Punch|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|3/100
+|move|p1a: Bronzong|Body Press|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|10/100
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Bronzong|Protect|p1a: Bronzong
+|-singleturn|p1a: Bronzong|Protect
+|move|p2a: Grimmsnarl|Fire Punch|p1a: Bronzong
+|-activate|p1a: Bronzong|move: Protect
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|18
+|
+|move|p2a: Grimmsnarl|Fire Punch|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|-sideend|p1: FrostByte616|move: Light Screen
+|upkeep
+|
+|switch|p1a: Indeedee|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|19
+|
+|move|p2a: Grimmsnarl|Sucker Punch|p1a: Indeedee
+|-activate|p1a: Indeedee|move: Psychic Terrain
+|move|p1a: Indeedee|Mystical Fire|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Avalugg|Avalugg, F|79/100
+|-damage|p2a: Avalugg|54/100|[from] Spikes
+|-damage|p2a: Avalugg|29/100|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Indeedee|Mystical Fire|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-damage|p2a: Avalugg|0 fnt
+|faint|p2a: Avalugg
+|
+|upkeep
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|76/100|[from] Spikes
+|-damage|p2a: Hatterene|63/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Indeedee|Mystical Fire|p2a: Hatterene
+|-damage|p2a: Hatterene|29/100
+|-unboost|p2a: Hatterene|spa|1
+|move|p2a: Hatterene|Psyshock|p1a: Indeedee
+|-resisted|p1a: Indeedee
+|-damage|p1a: Indeedee|58/100
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Indeedee|Mystical Fire|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|69/100|[from] Spikes
+|turn|23
+|
+|move|p1a: Indeedee|Mystical Fire|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|switch|p2a: Frosmoth|Frosmoth, M|100/100
+|-damage|p2a: Frosmoth|51/100|[from] Stealth Rock
+|-damage|p2a: Frosmoth|26/100|[from] Spikes
+|turn|24
+|
+|move|p1a: Indeedee|Mystical Fire|p2a: Frosmoth
+|-supereffective|p2a: Frosmoth
+|-damage|p2a: Frosmoth|0 fnt
+|faint|p2a: Frosmoth
+|
+|win|FrostByte616

@@ -1,0 +1,394 @@
+|ScrapeTime|2020-01-02-14:04:47
+|j|☆Mr.asianeggplant
+|j|☆RainbowDuGhetto
+|player|p1|Mr.asianeggplant|33|1252
+|player|p2|RainbowDuGhetto|101|1268
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, F|
+|poke|p1|Dracovish|
+|poke|p1|Dragapult, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Morpeko, F|
+|poke|p1|Conkeldurr, F|
+|poke|p2|Shuckle, M|
+|poke|p2|Dracovish|
+|poke|p2|Dracozolt|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Kommo-o, M|
+|poke|p2|Ferrothorn, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dracovish|Dracovish|100/100
+|switch|p2a: Shuckle|Shuckle, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mr.asianeggplant)
+|inactive|RainbowDuGhetto also wants the timer to be on.
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Shuckle
+|-supereffective|p2a: Shuckle
+|-ability|p2a: Shuckle|Sturdy
+|-damage|p2a: Shuckle|1/100
+|move|p2a: Shuckle|Sticky Web|p1a: Dracovish
+|-sidestart|p1: Mr.asianeggplant|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Pelipper|Hurricane|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|70/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Pelipper
+|-start|p1a: Pelipper|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|76/100|[from] item: Leftovers
+|-damage|p1a: Pelipper|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|87/100|[silent]
+|upkeep
+|turn|4
+|
+|switch|p1a: Morpeko|Morpeko, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|5
+|
+|move|p1a: Morpeko|Protect|p1a: Morpeko
+|-singleturn|p1a: Morpeko|Protect
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: RainbowDuGhetto|Reflect
+|
+|-weather|RainDance|[upkeep]
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|6
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: RainbowDuGhetto|move: Light Screen
+|move|p1a: Morpeko|Rapid Spin|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|91/100
+|-sideend|p1: Mr.asianeggplant|Sticky Web|[from] move: Rapid Spin|[of] p1a: Morpeko
+|-boost|p1a: Morpeko|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|7
+|
+|move|p1a: Morpeko|Parting Shot|p2a: Grimmsnarl
+|-unboost|p2a: Grimmsnarl|atk|1
+|-unboost|p2a: Grimmsnarl|spa|1
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100|[from]move: Parting Shot
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|90/100
+|-unboost|p1a: Ferrothorn|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|96/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|move|p2a: Grimmsnarl|Taunt|p1a: Conkeldurr
+|-start|p1a: Conkeldurr|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|96/100
+|switch|p2a: Shuckle|Shuckle, M|1/100
+|
+|-weather|none
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Morpeko|Morpeko, F|100/100
+|move|p2a: Shuckle|Stealth Rock|p1a: Morpeko
+|-sidestart|p1: Mr.asianeggplant|move: Stealth Rock
+|
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|11
+|
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|move|p1a: Morpeko|Rapid Spin|p2a: Kommo-o
+|-damage|p2a: Kommo-o|95/100
+|-sideend|p1: Mr.asianeggplant|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Morpeko
+|-boost|p1a: Morpeko|spe|1
+|
+|-heal|p2a: Kommo-o|100/100|[from] item: Leftovers
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|12
+|
+|move|p1a: Morpeko|Parting Shot|p2a: Kommo-o
+|-immune|p2a: Kommo-o|[from] ability: Soundproof
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|67/100
+|
+|-heal|p2a: Kommo-o|73/100|[from] item: Leftovers
+|-sideend|p2: RainbowDuGhetto|Reflect
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|13
+|inactive|Mr.asianeggplant has 120 seconds left.
+|
+|switch|p1a: Pelipper|Pelipper, M|88/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Kommo-o|Substitute|p2a: Kommo-o
+|-start|p2a: Kommo-o|Substitute
+|-damage|p2a: Kommo-o|49/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kommo-o|55/100|[from] item: Leftovers
+|-sideend|p2: RainbowDuGhetto|move: Light Screen
+|upkeep
+|turn|14
+|inactive|Mr.asianeggplant has 120 seconds left.
+|
+|move|p2a: Kommo-o|Poison Jab|p1a: Pelipper
+|-damage|p1a: Pelipper|67/100
+|move|p1a: Pelipper|Tailwind|p1a: Pelipper
+|-sidestart|p1: Mr.asianeggplant|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kommo-o|61/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|28/100
+|move|p1a: Pelipper|Hurricane|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-end|p2a: Kommo-o|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kommo-o|34/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Kommo-o|Substitute|p2a: Kommo-o
+|-start|p2a: Kommo-o|Substitute
+|-damage|p2a: Kommo-o|9/100
+|move|p1a: Pelipper|Hurricane|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-end|p2a: Kommo-o|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kommo-o|15/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Kommo-o|Drain Punch|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|48/100
+|-heal|p2a: Kommo-o|24/100|[from] drain|[of] p1a: Pelipper
+|move|p1a: Pelipper|Hurricane|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: Mr.asianeggplant|move: Tailwind
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|18
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|37/100
+|-damage|p2a: Dracovish|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|43/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Mr.asianeggplant has 120 seconds left.
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Dracovish|76/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Mr.asianeggplant has 120 seconds left.
+|
+|switch|p1a: Morpeko|Morpeko, F|100/100
+|turn|20
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Morpeko
+|-damage|p1a: Morpeko|0 fnt
+|faint|p1a: Morpeko
+|
+|-weather|none
+|upkeep
+|inactive|Mr.asianeggplant has 120 seconds left.
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|21
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|91/100
+|move|p1a: Dragapult|Fire Blast|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|36/100
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: RainbowDuGhetto|move: Light Screen
+|move|p1a: Dragapult|Fire Blast|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|turn|23
+|
+|switch|p1a: Pelipper|Pelipper, M|48/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Dracozolt|Dragon Claw|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|-damage|p2a: Dracozolt|91/100|[from] item: Life Orb
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100 brn
+|turn|24
+|
+|move|p2a: Dracozolt|Bolt Beak|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|-damage|p2a: Dracozolt|81/100|[from] item: Life Orb
+|faint|p1a: Conkeldurr
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|25
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Dracozolt
+|-supereffective|p2a: Dracozolt
+|-damage|p2a: Dracozolt|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Dracozolt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|76/100
+|turn|26
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Dracovish
+|-supereffective|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Dracovish
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|87/100
+|turn|27
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|77/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Shuckle|Shuckle, M|1/100
+|move|p1a: Dracovish|Low Kick|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|faint|p2a: Shuckle
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|94/100
+|turn|29
+|c|☆Mr.asianeggplant|Oof gg
+|
+|move|p1a: Dracovish|Low Kick|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|38/100
+|-damage|p1a: Dracovish|65/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Dracovish
+|-start|p1a: Dracovish|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|44/100|[from] item: Leftovers
+|-damage|p1a: Dracovish|53/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|56/100|[silent]
+|-sideend|p2: RainbowDuGhetto|move: Light Screen
+|upkeep
+|turn|30
+|c|☆RainbowDuGhetto|gg
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|76/100
+|
+|-weather|none
+|-heal|p2a: Ferrothorn|62/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Dragapult|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|win|Mr.asianeggplant
+|l|☆RainbowDuGhetto
+|raw|Mr.asianeggplant's rating: 1252 → 1279(+27 for winning)
+|raw|RainbowDuGhetto's rating: 1268 → 1242(-26 for losing)

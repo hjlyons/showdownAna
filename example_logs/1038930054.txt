@@ -1,0 +1,536 @@
+|ScrapeTime|2020-01-01-01:15:56
+|j|☆Magikarp60000
+|j|☆Swaggy exe
+|player|p1|Magikarp60000|101|
+|player|p2|Swaggy exe|dexio|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Milotic, F|
+|poke|p1|Lanturn, M|
+|poke|p1|Arcanine, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Claydol|
+|poke|p1|Hatterene, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Dugtrio, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Toxapex, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Ferrothorn, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Swaggy|Ferrothorn, M, shiny|100/100
+|switch|p2a: Owen|Rotom-Heat, shiny|100/100
+|turn|1
+|
+|switch|p1a: Karps relative|Lanturn, M, shiny|100/100
+|move|p2a: Owen|Volt Switch|p1a: Karps relative
+|-immune|p1a: Karps relative|[from] ability: Volt Absorb
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Owen|Will-O-Wisp|p1a: Karps relative
+|-status|p1a: Karps relative|brn
+|move|p1a: Karps relative|Hydro Pump|p2a: Owen
+|-supereffective|p2a: Owen
+|-damage|p2a: Owen|13/100
+|
+|-damage|p1a: Karps relative|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Seedmen Donor|Ferrothorn, F|100/100
+|move|p1a: Karps relative|Thunderbolt|p2a: Seedmen Donor
+|-resisted|p2a: Seedmen Donor
+|-damage|p2a: Seedmen Donor|88/100
+|-status|p2a: Seedmen Donor|par
+|
+|-heal|p2a: Seedmen Donor|95/100 par|[from] item: Leftovers
+|-damage|p1a: Karps relative|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: Doge|Arcanine, M, shiny|100/100
+|-ability|p1a: Doge|Intimidate|boost
+|-unboost|p2a: Seedmen Donor|atk|1
+|move|p2a: Seedmen Donor|Stealth Rock|p1a: Doge
+|-sidestart|p1: Magikarp60000|move: Stealth Rock
+|
+|-heal|p2a: Seedmen Donor|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Seedmen Donor|Protect|p2a: Seedmen Donor
+|-singleturn|p2a: Seedmen Donor|Protect
+|move|p1a: Doge|Flare Blitz|p2a: Seedmen Donor
+|-activate|p2a: Seedmen Donor|move: Protect
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Swaggy|Ferrothorn, M, shiny|100/100
+|-damage|p1a: Swaggy|94/100|[from] Stealth Rock
+|move|p2a: Seedmen Donor|Leech Seed|p1a: Swaggy
+|-immune|p1a: Swaggy
+|
+|-heal|p1a: Swaggy|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Owen|Rotom-Heat, shiny|13/100
+|move|p1a: Swaggy|Stealth Rock|p2a: Owen
+|-sidestart|p2: Swaggy exe|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Karps relative|Lanturn, M, shiny|88/100 brn
+|-damage|p1a: Karps relative|76/100 brn|[from] Stealth Rock
+|move|p2a: Owen|Overheat|p1a: Karps relative
+|-resisted|p1a: Karps relative
+|-damage|p1a: Karps relative|55/100 brn
+|-unboost|p2a: Owen|spa|2
+|
+|-damage|p1a: Karps relative|49/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p2a: Toothless|Dragapult, M|100/100
+|-damage|p2a: Toothless|88/100|[from] Stealth Rock
+|move|p1a: Karps relative|Thunderbolt|p2a: Toothless
+|-resisted|p2a: Toothless
+|-damage|p2a: Toothless|65/100
+|
+|-damage|p1a: Karps relative|43/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Toothless|Shadow Ball|p1a: Karps relative
+|-damage|p1a: Karps relative|0 fnt
+|faint|p1a: Karps relative
+|
+|upkeep
+|
+|switch|p1a: Noelle|Milotic, F, shiny|100/100
+|-damage|p1a: Noelle|88/100|[from] Stealth Rock
+|turn|11
+|
+|switch|p2a: Owen|Rotom-Heat, shiny|13/100
+|move|p1a: Noelle|Ice Beam|p2a: Owen
+|-resisted|p2a: Owen
+|-damage|p2a: Owen|0 fnt
+|faint|p2a: Owen
+|
+|-status|p1a: Noelle|brn|[from] item: Flame Orb
+|upkeep
+|
+|switch|p2a: Seedmen Donor|Ferrothorn, F|100/100 par
+|-damage|p2a: Seedmen Donor|94/100 par|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: Swaggy|Ferrothorn, M, shiny|100/100
+|-damage|p1a: Swaggy|94/100|[from] Stealth Rock
+|cant|p2a: Seedmen Donor|par
+|
+|-heal|p1a: Swaggy|100/100|[from] item: Leftovers
+|-heal|p2a: Seedmen Donor|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|j| Psi Warrior075
+|
+|switch|p2a: Walk the Dinosaur|Mandibuzz, F|100/100
+|move|p1a: Swaggy|Toxic|p2a: Walk the Dinosaur
+|-status|p2a: Walk the Dinosaur|tox
+|
+|-damage|p2a: Walk the Dinosaur|94/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p2a: Walk the Dinosaur|Defog|p1a: Swaggy
+|-unboost|p1a: Swaggy|evasion|1
+|-sideend|p1: Magikarp60000|Stealth Rock|[from] move: Defog|[of] p2a: Walk the Dinosaur
+|-sideend|p2: Swaggy exe|Stealth Rock|[from] move: Defog|[of] p2a: Walk the Dinosaur
+|move|p1a: Swaggy|Leech Seed|p2a: Walk the Dinosaur
+|-start|p2a: Walk the Dinosaur|move: Leech Seed
+|
+|-damage|p2a: Walk the Dinosaur|82/100 tox|[from] Leech Seed|[of] p1a: Swaggy
+|-damage|p2a: Walk the Dinosaur|70/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p2a: Seedmen Donor|Ferrothorn, F|100/100 par
+|move|p1a: Swaggy|Stealth Rock|p2a: Seedmen Donor
+|-sidestart|p2: Swaggy exe|move: Stealth Rock
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Doge|Arcanine, M, shiny|100/100
+|-ability|p1a: Doge|Intimidate|boost
+|-unboost|p2a: Seedmen Donor|atk|1
+|move|p2a: Seedmen Donor|Stealth Rock|p1a: Doge
+|-sidestart|p1: Magikarp60000|move: Stealth Rock
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Nectar|Toxapex, F|100/100
+|-damage|p2a: Nectar|88/100|[from] Stealth Rock
+|move|p1a: Doge|Flare Blitz|p2a: Nectar
+|-resisted|p2a: Nectar
+|-damage|p2a: Nectar|59/100
+|-damage|p1a: Doge|91/100|[from] Recoil
+|
+|-heal|p2a: Nectar|66/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|switch|p1a: Swaggy|Ferrothorn, M, shiny|100/100
+|-damage|p1a: Swaggy|94/100|[from] Stealth Rock
+|switch|p2a: Toothless|Dragapult, M|65/100
+|-damage|p2a: Toothless|52/100|[from] Stealth Rock
+|
+|-heal|p1a: Swaggy|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Noelle|Milotic, F, shiny|88/100 brn
+|-damage|p1a: Noelle|76/100 brn|[from] Stealth Rock
+|move|p2a: Toothless|Fire Blast|p1a: Noelle|[miss]
+|-miss|p2a: Toothless|p1a: Noelle
+|
+|-damage|p1a: Noelle|70/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p2a: Nectar|Toxapex, F|99/100
+|-damage|p2a: Nectar|86/100|[from] Stealth Rock
+|move|p1a: Noelle|Ice Beam|p2a: Nectar
+|-resisted|p2a: Nectar
+|-damage|p2a: Nectar|76/100
+|
+|-heal|p2a: Nectar|82/100|[from] item: Black Sludge
+|-damage|p1a: Noelle|63/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p1a: Noelle|Recover|p1a: Noelle
+|-heal|p1a: Noelle|100/100 brn
+|move|p2a: Nectar|Scald|p1a: Noelle
+|-resisted|p1a: Noelle
+|-damage|p1a: Noelle|94/100 brn
+|
+|-heal|p2a: Nectar|89/100|[from] item: Black Sludge
+|-damage|p1a: Noelle|88/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p1a: Swaggy|Ferrothorn, M, shiny|100/100
+|-damage|p1a: Swaggy|94/100|[from] Stealth Rock
+|move|p2a: Nectar|Scald|p1a: Swaggy
+|-resisted|p1a: Swaggy
+|-damage|p1a: Swaggy|88/100
+|
+|-heal|p2a: Nectar|95/100|[from] item: Black Sludge
+|-heal|p1a: Swaggy|94/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Seedmen Donor|Ferrothorn, F|100/100 par
+|-damage|p2a: Seedmen Donor|94/100 par|[from] Stealth Rock
+|move|p1a: Swaggy|Leech Seed|p2a: Seedmen Donor
+|-immune|p2a: Seedmen Donor
+|
+|-heal|p1a: Swaggy|99/100|[from] item: Leftovers
+|-heal|p2a: Seedmen Donor|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Swaggy|Toxic||[still]
+|-fail|p1a: Swaggy
+|cant|p2a: Seedmen Donor|par
+|
+|-heal|p1a: Swaggy|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Swaggy|Power Whip|p2a: Seedmen Donor
+|-resisted|p2a: Seedmen Donor
+|-damage|p2a: Seedmen Donor|93/100 par
+|-damage|p1a: Swaggy|88/100|[from] ability: Iron Barbs|[of] p2a: Seedmen Donor
+|move|p2a: Seedmen Donor|Leech Seed|p1a: Swaggy
+|-immune|p1a: Swaggy
+|
+|-heal|p1a: Swaggy|94/100|[from] item: Leftovers
+|-heal|p2a: Seedmen Donor|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: Vibe check|Hatterene, F, shiny|100/100
+|-damage|p1a: Vibe check|88/100|[from] Stealth Rock
+|cant|p2a: Seedmen Donor|par
+|
+|-heal|p1a: Vibe check|94/100|[from] item: Leftovers
+|-heal|p2a: Seedmen Donor|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p1a: Swaggy|Ferrothorn, M, shiny|94/100
+|-damage|p1a: Swaggy|88/100|[from] Stealth Rock
+|move|p2a: Seedmen Donor|Gyro Ball|p1a: Swaggy
+|-resisted|p1a: Swaggy
+|-damage|p1a: Swaggy|76/100
+|-damage|p2a: Seedmen Donor|88/100 par|[from] ability: Iron Barbs|[of] p1a: Swaggy
+|
+|-heal|p1a: Swaggy|83/100|[from] item: Leftovers
+|-heal|p2a: Seedmen Donor|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p1a: Doge|Arcanine, M, shiny|91/100
+|-damage|p1a: Doge|67/100|[from] Stealth Rock
+|-ability|p1a: Doge|Intimidate|boost
+|-unboost|p2a: Seedmen Donor|atk|1
+|move|p2a: Seedmen Donor|Leech Seed|p1a: Doge
+|-start|p1a: Doge|move: Leech Seed
+|
+|-heal|p2a: Seedmen Donor|100/100 par|[from] item: Leftovers
+|-damage|p1a: Doge|54/100|[from] Leech Seed|[of] p2a: Seedmen Donor
+|upkeep
+|turn|29
+|
+|switch|p1a: One shot|Claydol, shiny|100/100
+|-damage|p1a: One shot|94/100|[from] Stealth Rock
+|move|p2a: Seedmen Donor|Protect||[still]
+|-fail|p2a: Seedmen Donor
+|
+|upkeep
+|turn|30
+|
+|switch|p2a: Walk the Dinosaur|Mandibuzz, F|70/100 tox
+|move|p1a: One shot|Rapid Spin|p2a: Walk the Dinosaur
+|-enditem|p1a: One shot|Normal Gem|[from] gem|[move] Rapid Spin
+|-damage|p2a: Walk the Dinosaur|59/100 tox
+|-sideend|p1: Magikarp60000|Stealth Rock|[from] move: Rapid Spin|[of] p1a: One shot
+|-boost|p1a: One shot|spe|1
+|
+|-damage|p2a: Walk the Dinosaur|53/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|switch|p1a: Doge|Arcanine, M, shiny|54/100
+|-ability|p1a: Doge|Intimidate|boost
+|-unboost|p2a: Walk the Dinosaur|atk|1
+|move|p2a: Walk the Dinosaur|Defog|p1a: Doge
+|-unboost|p1a: Doge|evasion|1
+|-sideend|p2: Swaggy exe|Stealth Rock|[from] move: Defog|[of] p2a: Walk the Dinosaur
+|
+|-damage|p2a: Walk the Dinosaur|41/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|move|p1a: Doge|Flare Blitz|p2a: Walk the Dinosaur
+|-damage|p2a: Walk the Dinosaur|0 fnt
+|-damage|p1a: Doge|37/100|[from] Recoil
+|faint|p2a: Walk the Dinosaur
+|
+|upkeep
+|
+|switch|p2a: Dicktrio|Dugtrio, F|100/100
+|turn|33
+|
+|move|p2a: Dicktrio|Earthquake|p1a: Doge
+|-supereffective|p1a: Doge
+|-damage|p1a: Doge|0 fnt
+|faint|p1a: Doge
+|
+|upkeep
+|
+|switch|p1a: One shot|Claydol, shiny|94/100
+|turn|34
+|
+|move|p2a: Dicktrio|Screech|p1a: One shot
+|-unboost|p1a: One shot|def|2
+|move|p1a: One shot|Stealth Rock|p2a: Dicktrio
+|-sidestart|p2: Swaggy exe|move: Stealth Rock
+|
+|upkeep
+|turn|35
+|
+|move|p2a: Dicktrio|Screech|p1a: One shot
+|-unboost|p1a: One shot|def|2
+|move|p1a: One shot|Explosion|p2a: Dicktrio
+|-enditem|p2a: Dicktrio|Focus Sash
+|-damage|p2a: Dicktrio|1/100
+|faint|p1a: One shot
+|
+|upkeep
+|
+|switch|p1a: Vibe check|Hatterene, F, shiny|94/100
+|turn|36
+|
+|move|p2a: Dicktrio|Earthquake|p1a: Vibe check
+|-damage|p1a: Vibe check|46/100
+|move|p1a: Vibe check|Trick Room|p1a: Vibe check
+|-fieldstart|move: Trick Room|[of] p1a: Vibe check
+|
+|-heal|p1a: Vibe check|52/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p2a: Dicktrio|Sucker Punch|p1a: Vibe check
+|-damage|p1a: Vibe check|29/100
+|move|p1a: Vibe check|Dazzling Gleam|p2a: Dicktrio
+|-damage|p2a: Dicktrio|0 fnt
+|faint|p2a: Dicktrio
+|
+|-heal|p1a: Vibe check|35/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Seedmen Donor|Ferrothorn, F|100/100 par
+|-damage|p2a: Seedmen Donor|94/100 par|[from] Stealth Rock
+|turn|38
+|
+|move|p2a: Seedmen Donor|Leech Seed|p1a: Vibe check
+|move|p1a: Vibe check|Leech Seed|p2a: Seedmen Donor|[from]Magic Bounce
+|-immune|p2a: Seedmen Donor
+|move|p1a: Vibe check|Life Dew|p1a: Vibe check
+|-heal|p1a: Vibe check|60/100
+|
+|-heal|p2a: Seedmen Donor|100/100 par|[from] item: Leftovers
+|-heal|p1a: Vibe check|67/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|cant|p2a: Seedmen Donor|par
+|move|p1a: Vibe check|Calm Mind|p1a: Vibe check
+|-boost|p1a: Vibe check|spa|1
+|-boost|p1a: Vibe check|spd|1
+|
+|-heal|p1a: Vibe check|73/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p2a: Seedmen Donor|Gyro Ball|p1a: Vibe check
+|-supereffective|p1a: Vibe check
+|-damage|p1a: Vibe check|0 fnt
+|faint|p1a: Vibe check
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: Swaggy|Ferrothorn, M, shiny|83/100
+|turn|41
+|
+|move|p1a: Swaggy|Toxic||[still]
+|-fail|p1a: Swaggy
+|move|p2a: Seedmen Donor|Gyro Ball|p1a: Swaggy
+|-resisted|p1a: Swaggy
+|-damage|p1a: Swaggy|71/100
+|-damage|p2a: Seedmen Donor|88/100 par|[from] ability: Iron Barbs|[of] p1a: Swaggy
+|
+|-heal|p1a: Swaggy|77/100|[from] item: Leftovers
+|-heal|p2a: Seedmen Donor|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p1a: Swaggy|Leech Seed|p2a: Seedmen Donor
+|-immune|p2a: Seedmen Donor
+|move|p2a: Seedmen Donor|Leech Seed|p1a: Swaggy
+|-immune|p1a: Swaggy
+|
+|-heal|p1a: Swaggy|83/100|[from] item: Leftovers
+|-heal|p2a: Seedmen Donor|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p1a: Swaggy|Stealth Rock||[still]
+|-fail|p1a: Swaggy
+|cant|p2a: Seedmen Donor|par
+|
+|-heal|p1a: Swaggy|89/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p1a: Swaggy|Stealth Rock||[still]
+|-fail|p1a: Swaggy
+|move|p2a: Seedmen Donor|Gyro Ball|p1a: Swaggy
+|-resisted|p1a: Swaggy
+|-damage|p1a: Swaggy|78/100
+|-damage|p2a: Seedmen Donor|88/100 par|[from] ability: Iron Barbs|[of] p1a: Swaggy
+|
+|-heal|p1a: Swaggy|85/100|[from] item: Leftovers
+|-heal|p2a: Seedmen Donor|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p1a: Swaggy|Stealth Rock||[still]
+|-fail|p1a: Swaggy
+|move|p2a: Seedmen Donor|Gyro Ball|p1a: Swaggy
+|-resisted|p1a: Swaggy
+|-damage|p1a: Swaggy|72/100
+|-damage|p2a: Seedmen Donor|82/100 par|[from] ability: Iron Barbs|[of] p1a: Swaggy
+|
+|-heal|p1a: Swaggy|78/100|[from] item: Leftovers
+|-heal|p2a: Seedmen Donor|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|move|p1a: Swaggy|Stealth Rock||[still]
+|-fail|p1a: Swaggy
+|move|p2a: Seedmen Donor|Gyro Ball|p1a: Swaggy
+|-resisted|p1a: Swaggy
+|-damage|p1a: Swaggy|66/100
+|-damage|p2a: Seedmen Donor|75/100 par|[from] ability: Iron Barbs|[of] p1a: Swaggy
+|
+|-heal|p1a: Swaggy|72/100|[from] item: Leftovers
+|-heal|p2a: Seedmen Donor|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|switch|p2a: Toothless|Dragapult, M|52/100
+|-damage|p2a: Toothless|40/100|[from] Stealth Rock
+|move|p1a: Swaggy|Stealth Rock||[still]
+|-fail|p1a: Swaggy
+|
+|-heal|p1a: Swaggy|78/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|move|p2a: Toothless|Fire Blast|p1a: Swaggy
+|-supereffective|p1a: Swaggy
+|-damage|p1a: Swaggy|0 fnt
+|faint|p1a: Swaggy
+|
+|upkeep
+|l| Psi Warrior075
+|
+|switch|p1a: Noelle|Milotic, F, shiny|88/100 brn
+|turn|49
+|
+|switch|p2a: Seedmen Donor|Ferrothorn, F|82/100 par
+|-damage|p2a: Seedmen Donor|75/100 par|[from] Stealth Rock
+|move|p1a: Noelle|Ice Beam|p2a: Seedmen Donor
+|-damage|p2a: Seedmen Donor|60/100 par
+|
+|-heal|p2a: Seedmen Donor|66/100 par|[from] item: Leftovers
+|-damage|p1a: Noelle|82/100 brn|[from] brn
+|upkeep
+|turn|50
+|-message|Magikarp60000 forfeited.
+|
+|win|Swaggy exe
+|l|☆Magikarp60000

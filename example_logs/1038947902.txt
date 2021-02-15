@@ -1,0 +1,208 @@
+|ScrapeTime|2020-01-01-01:46:36
+|j|☆Pokkenbattler
+|j|☆Sm7tty
+|player|p1|Pokkenbattler|bellelba|1109
+|player|p2|Sm7tty|chuck|1147
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Thievul, F|
+|poke|p1|Alcremie-Mint, F|
+|poke|p1|Whimsicott, M|
+|poke|p1|Snorlax, F|
+|poke|p1|Gyarados, M|
+|poke|p1|Barraskewda, M|
+|poke|p2|Machamp, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Ditto|
+|poke|p2|Chandelure, M|
+|poke|p2|Gastrodon, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Whimsicott|Whimsicott, M|100/100
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pokkenbattler)
+|
+|move|p1a: Whimsicott|Leech Seed|p2a: Hydreigon
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Hydreigon
+|move|p2a: Hydreigon|U-turn|p1a: Whimsicott
+|-damage|p1a: Whimsicott|87/100
+|
+|switch|p2a: Chandelure|Chandelure, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Whimsicott|Light Screen|p1a: Whimsicott
+|-sidestart|p1: Pokkenbattler|move: Light Screen
+|move|p2a: Chandelure|Flamethrower|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|upkeep
+|
+|switch|p1a: Alcremie|Alcremie-Mint, F|100/100
+|turn|3
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+|-boost|p1a: Alcremie|spa|1
+|-boost|p1a: Alcremie|spd|1
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Alcremie|Acid Armor|p1a: Alcremie
+|-boost|p1a: Alcremie|def|2
+|move|p2a: Gastrodon|Earth Power|p1a: Alcremie
+|-damage|p1a: Alcremie|94/100
+|-unboost|p1a: Alcremie|spd|1
+|
+|-heal|p1a: Alcremie|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Alcremie|Acid Armor|p1a: Alcremie
+|-boost|p1a: Alcremie|def|2
+|move|p2a: Gastrodon|Scald|p1a: Alcremie
+|-damage|p1a: Alcremie|91/100
+|
+|-heal|p1a: Alcremie|97/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+|-boost|p1a: Alcremie|spa|1
+|-boost|p1a: Alcremie|spd|1
+|move|p2a: Gastrodon|Scald|p1a: Alcremie
+|-damage|p1a: Alcremie|91/100
+|
+|-heal|p1a: Alcremie|97/100|[from] item: Leftovers
+|-sideend|p1: Pokkenbattler|move: Light Screen
+|upkeep
+|turn|7
+|
+|move|p1a: Alcremie|Dazzling Gleam|p2a: Gastrodon
+|-damage|p2a: Gastrodon|38/100
+|move|p2a: Gastrodon|Scald|p1a: Alcremie
+|-damage|p1a: Alcremie|83/100
+|
+|-heal|p1a: Alcremie|89/100|[from] item: Leftovers
+|-heal|p2a: Gastrodon|44/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+|-boost|p1a: Alcremie|spa|1
+|-boost|p1a: Alcremie|spd|1
+|move|p2a: Gastrodon|Earth Power|p1a: Alcremie
+|-damage|p1a: Alcremie|78/100
+|
+|-heal|p1a: Alcremie|84/100|[from] item: Leftovers
+|-heal|p2a: Gastrodon|50/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Alcremie|Dazzling Gleam|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|-heal|p1a: Alcremie|90/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Machamp|Machamp, F|100/100
+|turn|10
+|
+|move|p1a: Alcremie|Dazzling Gleam|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|-heal|p1a: Alcremie|96/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Alcremie|[from] ability: Imposter
+|turn|11
+|
+|move|p2a: Ditto|Dazzling Gleam|p1a: Alcremie
+|-damage|p1a: Alcremie|74/100
+|move|p1a: Alcremie|Dazzling Gleam|p2a: Ditto
+|-damage|p2a: Ditto|75/100
+|
+|-heal|p1a: Alcremie|80/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Ditto|Dazzling Gleam|p1a: Alcremie
+|-damage|p1a: Alcremie|57/100
+|move|p1a: Alcremie|Dazzling Gleam|p2a: Ditto
+|-damage|p2a: Ditto|47/100
+|
+|-heal|p1a: Alcremie|63/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Ditto|Dazzling Gleam|p1a: Alcremie
+|-damage|p1a: Alcremie|39/100
+|move|p1a: Alcremie|Dazzling Gleam|p2a: Ditto
+|-damage|p2a: Ditto|18/100
+|
+|-heal|p1a: Alcremie|45/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Ditto|Dazzling Gleam|p1a: Alcremie
+|-damage|p1a: Alcremie|22/100
+|move|p1a: Alcremie|Recover|p1a: Alcremie
+|-heal|p1a: Alcremie|72/100
+|
+|-heal|p1a: Alcremie|78/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Ditto|Dazzling Gleam|p1a: Alcremie
+|-damage|p1a: Alcremie|55/100
+|move|p1a: Alcremie|Dazzling Gleam|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|-heal|p1a: Alcremie|61/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|16
+|c|☆Sm7tty|gg
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Alcremie
+|-resisted|p1a: Alcremie
+|-damage|p1a: Alcremie|54/100
+|move|p1a: Alcremie|Dazzling Gleam|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-heal|p1a: Alcremie|60/100|[from] item: Leftovers
+|upkeep
+|-message|Sm7tty forfeited.
+|
+|win|Pokkenbattler
+|l|☆Sm7tty
+|raw|Pokkenbattler's rating: 1109 → 1137(+28 for winning)
+|raw|Sm7tty's rating: 1147 → 1119(-28 for losing)

@@ -1,0 +1,203 @@
+|ScrapeTime|2020-01-01-13:24:46
+|j|☆GrandCaster
+|j|☆AaAaaaAAaa119
+|player|p1|GrandCaster|161|1052
+|player|p2|AaAaaaAAaa119|psychic-gen4|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Dracovish|
+|poke|p1|Excadrill, M|
+|poke|p1|Hydreigon, M|
+|poke|p1|Dragapult, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Toxtricity, M|
+|poke|p2|Centiskorch, F|
+|poke|p2|Aegislash, M|
+|poke|p2|Noivern, M|
+|poke|p2|Gallade, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: JAPANESENAME|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: JAPANESENAME
+|turn|1
+|
+|move|p1a: Cinderace|U-turn|p2a: JAPANESENAME
+|-supereffective|p2a: JAPANESENAME
+|-damage|p2a: JAPANESENAME|60/100
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100|[from]move: U-turn
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: JAPANESENAME|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|2
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: JAPANESENAME
+|-supereffective|p2a: JAPANESENAME
+|-damage|p2a: JAPANESENAME|0 fnt
+|faint|p2a: JAPANESENAME
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dracovish|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Teslar|Toxtricity, M|100/100
+|turn|3
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Teslar
+|-damage|p2a: Teslar|0 fnt
+|faint|p2a: Teslar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dracovish|88/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Arthur|Aegislash, M|100/100
+|turn|4
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|-formechange|p2a: Arthur|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Arthur|Sacred Sword|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|20/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|13/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Arthur
+|-supereffective|p2a: Arthur
+|-damage|p2a: Arthur|0 fnt
+|faint|p2a: Arthur
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|7/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Gawain|Gallade, M|100/100
+|turn|6
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Gawain
+|-damage|p2a: Gawain|56/100
+|-ability|p2a: Gawain|Justified|boost
+|-boost|p2a: Gawain|atk|1
+|move|p2a: Gawain|Drain Punch|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|-heal|p2a: Gawain|60/100|[from] drain|[of] p1a: Hydreigon
+|-damage|p2a: Gawain|50/100|[from] item: Life Orb
+|faint|p1a: Hydreigon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gawain|44/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|7
+|
+|move|p1a: Cinderace|Blaze Kick|p2a: Gawain
+|-damage|p2a: Gawain|0 fnt
+|faint|p2a: Gawain
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cinderace|95/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: NoirTwo|Noivern, M|100/100
+|turn|8
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|move|p2a: NoirTwo|Hurricane|p1a: Corsola
+|-damage|p1a: Corsola|67/100
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|move|p2a: NoirTwo|Dragon Pulse|p1a: Corsola
+|-damage|p1a: Corsola|41/100
+|move|p1a: Corsola|Will-O-Wisp|p2a: NoirTwo
+|-status|p2a: NoirTwo|brn
+|
+|-damage|p2a: NoirTwo|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: NoirTwo|Dragon Pulse|p1a: Corsola
+|-damage|p1a: Corsola|15/100
+|move|p1a: Corsola|Destiny Bond|p1a: Corsola
+|-singlemove|p1a: Corsola|Destiny Bond
+|
+|-heal|p2a: NoirTwo|100/100 brn|[from] item: Leftovers
+|-damage|p2a: NoirTwo|94/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: NoirTwo|Dragon Pulse|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|-activate|p1a: Corsola|move: Destiny Bond
+|faint|p2a: NoirTwo
+|
+|upkeep
+|
+|switch|p2a: Pairo|Centiskorch, F|100/100
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|12
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Pairo|Coil|p2a: Pairo
+|-boost|p2a: Pairo|atk|1
+|-boost|p2a: Pairo|def|1
+|-boost|p2a: Pairo|accuracy|1
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Pairo
+|-damage|p2a: Pairo|60/100
+|-damage|p2a: Pairo|22/100
+|-hitcount|p2a: Pairo|2
+|-damage|p1a: Dragapult|91/100|[from] item: Life Orb
+|move|p2a: Pairo|Coil|p2a: Pairo
+|-boost|p2a: Pairo|atk|1
+|-boost|p2a: Pairo|def|1
+|-boost|p2a: Pairo|accuracy|1
+|
+|-heal|p2a: Pairo|29/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Pairo
+|-damage|p2a: Pairo|0 fnt
+|-hitcount|p2a: Pairo|1
+|-damage|p1a: Dragapult|81/100|[from] item: Life Orb
+|faint|p2a: Pairo
+|
+|win|GrandCaster
+|l|☆GrandCaster

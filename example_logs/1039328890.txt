@@ -1,0 +1,360 @@
+|ScrapeTime|2020-01-01-21:44:55
+|j|☆misutotw
+|j|☆sadchatot
+|player|p1|misutotw|101|1346
+|player|p2|sadchatot|203|1314
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Hydreigon, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Toxtricity, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sadchatot)
+|
+|start
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-enditem|p1a: Excadrill|Focus Sash
+|-damage|p1a: Excadrill|1/100
+|move|p1a: Excadrill|Earthquake|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|2
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Cinderace|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|94/100
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100|[from]move: U-turn
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Seismitoad|Stealth Rock|p1a: Toxapex
+|-sidestart|p1: misutotw|move: Stealth Rock
+|move|p1a: Toxapex|Toxic|p2a: Seismitoad
+|-status|p2a: Seismitoad|tox
+|
+|-damage|p2a: Seismitoad|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|
+|-heal|p1a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Excadrill|Excadrill, M|1/100
+|-damage|p1a: Excadrill|0 fnt|[from] Stealth Rock
+|faint|p1a: Excadrill
+|move|p2a: Toxtricity|Overdrive|p1: Excadrill|[notarget]
+|-fail|p2a: Toxtricity
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|6
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|57/100|[from] Sandstorm
+|-heal|p1a: Hydreigon|63/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|73/100
+|move|p2a: Tyranitar|Crunch|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-activate|p1a: Hydreigon|move: Substitute|[damage]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|57/100|[from] Sandstorm
+|-heal|p1a: Hydreigon|63/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|79/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|55/100
+|move|p2a: Tyranitar|Crunch|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-end|p1a: Hydreigon|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|57/100|[from] Sandstorm
+|-heal|p1a: Hydreigon|63/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|61/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|32/100|[from] Sandstorm
+|-heal|p1a: Hydreigon|39/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Excadrill|Iron Head|p1a: Hydreigon
+|-end|p1a: Hydreigon|Substitute
+|-damage|p2a: Excadrill|91/100|[from] item: Life Orb
+|move|p1a: Hydreigon|Dark Pulse|p2a: Excadrill
+|-damage|p2a: Excadrill|33/100
+|
+|-weather|none
+|-heal|p1a: Hydreigon|45/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|misutotw has 120 seconds left.
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Excadrill|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|70/100
+|-damage|p2a: Excadrill|23/100|[from] item: Life Orb
+|
+|-heal|p1a: Toxapex|76/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|move|p1a: Toxapex|Scald|p2a: Toxtricity
+|-damage|p2a: Toxtricity|72/100
+|
+|-heal|p1a: Toxapex|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|misutotw has 120 seconds left.
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|move|p2a: Toxtricity|Overdrive|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|37/100
+|
+|upkeep
+|turn|14
+|inactive|misutotw has 120 seconds left.
+|
+|switch|p2a: Seismitoad|Seismitoad, F|94/100 tox
+|move|p1a: Rotom|Trick|p2a: Seismitoad
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Seismitoad
+|-item|p2a: Seismitoad|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|
+|-heal|p1a: Rotom|43/100|[from] item: Leftovers
+|-damage|p2a: Seismitoad|88/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p1a: Corviknight|Corviknight, M|94/100
+|-damage|p1a: Corviknight|82/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Seismitoad|Toxic|p1a: Corviknight
+|-immune|p1a: Corviknight
+|
+|-heal|p1a: Corviknight|88/100|[from] item: Leftovers
+|-damage|p2a: Seismitoad|76/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p2a: Toxtricity|Toxtricity, F|72/100
+|move|p1a: Corviknight|Defog|p2a: Toxtricity
+|-unboost|p2a: Toxtricity|evasion|1
+|-sideend|p1: misutotw|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|
+|-heal|p1a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Rotom|Rotom-Heat|43/100
+|move|p2a: Toxtricity|Boomburst|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|18
+|
+|switch|p2a: Tyranitar|Tyranitar, F|61/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|95/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|68/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Tyranitar
+|-damage|p2a: Tyranitar|32/100
+|-damage|p2a: Tyranitar|0 fnt
+|-hitcount|p2a: Tyranitar|2
+|-damage|p1a: Dragapult|85/100|[from] item: Life Orb
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|79/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|23/100
+|turn|20
+|
+|move|p1a: Dragapult|Sucker Punch|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-damage|p1a: Dragapult|69/100|[from] item: Life Orb
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|63/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, F|76/100 tox
+|turn|21
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Seismitoad
+|-damage|p2a: Seismitoad|39/100 tox
+|-damage|p2a: Seismitoad|5/100 tox
+|-hitcount|p2a: Seismitoad|2
+|-damage|p1a: Dragapult|53/100|[from] item: Life Orb
+|move|p2a: Seismitoad|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|6/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|0 fnt|[from] Sandstorm
+|faint|p1a: Dragapult
+|-damage|p2a: Seismitoad|0 fnt|[from] psn
+|faint|p2a: Seismitoad
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|45/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|22
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Cinderace|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|94/100
+|
+|switch|p2a: Toxtricity|Toxtricity, F|72/100|[from]move: U-turn
+|
+|-weather|none
+|-heal|p1a: Toxapex|99/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Toxtricity|Overdrive|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|45/100
+|turn|24
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Toxtricity
+|-damage|p2a: Toxtricity|12/100
+|move|p2a: Toxtricity|Overdrive|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|4/100
+|
+|-heal|p1a: Hydreigon|10/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|-heal|p1a: Hydreigon|16/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|26
+|
+|switch|p1a: Corviknight|Corviknight, M|94/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Cinderace|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|90/100
+|
+|-heal|p1a: Corviknight|97/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|11/100
+|move|p1a: Corviknight|Brave Bird|p2a: Cinderace
+|-damage|p2a: Cinderace|49/100
+|-damage|p1a: Corviknight|0 fnt|[from] Recoil
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|16/100
+|turn|28
+|
+|move|p2a: Cinderace|U-turn|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|win|sadchatot
+|l|☆misutotw
+|raw|misutotw's rating: 1346 → 1324(-22 for losing)
+|raw|sadchatot's rating: 1314 → 1336(+22 for winning)

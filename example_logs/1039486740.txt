@@ -1,0 +1,256 @@
+|ScrapeTime|2020-01-02-03:44:39
+|j|☆Satania McDowell
+|j|☆Catalycsm
+|player|p1|Satania McDowell|lana|1458
+|player|p2|Catalycsm|30|1419
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Dragapult, M|
+|poke|p1|Seismitoad, M|
+|poke|p1|Corviknight, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Dracozolt|
+|poke|p2|Seismitoad, M|
+|poke|p2|Clefable, F|
+|poke|p2|Corviknight, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|1
+|
+|move|p1a: Dragapult|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|90/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Catalycsm)
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100|[from]move: U-turn
+|move|p2a: Clefable|Moonblast|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|78/100
+|
+|-heal|p1a: Corviknight|85/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Clefable|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|33/100
+|move|p1a: Corviknight|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|22/100
+|
+|-heal|p1a: Corviknight|39/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|72/100
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Clefable|Moonblast|p1a: Seismitoad
+|-damage|p1a: Seismitoad|41/100
+|-unboost|p1a: Seismitoad|spa|1
+|move|p1a: Seismitoad|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|25/100
+|
+|-heal|p1a: Seismitoad|47/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|75/100
+|move|p1a: Seismitoad|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|32/100
+|
+|-heal|p1a: Seismitoad|53/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Clefable|Moonblast|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|7
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|67/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|68/100
+|move|p1a: Mandibuzz|U-turn|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|38/100
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Hydreigon|Flash Cannon|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|87/100
+|-unboost|p1a: Rotom|spd|1
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Rotom|Overheat|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|12/100
+|-unboost|p1a: Rotom|spa|2
+|-enditem|p2a: Hydreigon|Salac Berry|[eat]
+|-boost|p2a: Hydreigon|spe|1
+|move|p2a: Hydreigon|Dark Pulse|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|68/100
+|turn|12
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|34/100
+|move|p1a: Mandibuzz|U-turn|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|13
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Seismitoad|Earthquake|p1a: Hatterene
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|41/100
+|
+|-heal|p1a: Hatterene|47/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Seismitoad|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|13/100
+|move|p1a: Hatterene|Psychic|p2a: Seismitoad
+|-damage|p2a: Seismitoad|45/100
+|
+|-heal|p2a: Seismitoad|51/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|19/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Seismitoad|Scald|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-heal|p2a: Seismitoad|57/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|16
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|17
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|46/100
+|-unboost|p2a: Corviknight|spd|1
+|move|p2a: Corviknight|Tailwind|p2a: Corviknight
+|-sidestart|p2: Catalycsm|move: Tailwind
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Dragapult
+|-damage|p1a: Dragapult|55/100
+|-damage|p2a: Corviknight|34/100|[from] Recoil
+|move|p1a: Dragapult|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|turn|19
+|
+|switch|p1a: Corviknight|Corviknight, M|39/100
+|move|p2a: Dracozolt|Bolt Beak|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|34/100
+|turn|20
+|
+|move|p2a: Dracozolt|Bolt Beak|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|-sideend|p2: Catalycsm|move: Tailwind
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|55/100
+|turn|21
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Dracozolt
+|-damage|p2a: Dracozolt|15/100
+|move|p2a: Dracozolt|Bolt Beak|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|win|Catalycsm
+|raw|Satania McDowell's rating: 1445 → 1422(-23 for losing)
+|raw|Catalycsm's rating: 1398 → 1421(+23 for winning)
+|l|☆Satania McDowell

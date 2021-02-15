@@ -1,0 +1,468 @@
+|ScrapeTime|2020-01-01-14:06:28
+|j|☆Neutralist
+|j|☆G18 Gui
+|player|p1|Neutralist|169|1000
+|player|p2|G18 Gui|266|1032
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Arctovish, L87|
+|poke|p1|Appletun, L87, M|
+|poke|p1|Hatterene, L90, F|
+|poke|p1|Toxapex, L85, F|
+|poke|p1|Conkeldurr, L90, M|
+|poke|p1|Umbreon, M|
+|poke|p2|Gengar, M|
+|poke|p2|Toxtricity, F|
+|poke|p2|Dracozolt|
+|poke|p2|Mimikyu, M|
+|poke|p2|Mew|
+|poke|p2|Tyranitar, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Neutralist)
+|
+|start
+|switch|p1a: Yukako|Hatterene, L90, F|100/100
+|switch|p2a: TT|Toxtricity, F|100/100
+|turn|1
+|
+|move|p2a: TT|Discharge|p1a: Yukako
+|-damage|p1a: Yukako|17/100
+|-enditem|p1a: Yukako|Mago Berry|[eat]
+|-heal|p1a: Yukako|50/100|[from] item: Mago Berry
+|-damage|p2a: TT|91/100|[from] item: Life Orb
+|move|p1a: Yukako|Psychic|p2a: TT
+|-supereffective|p2a: TT
+|-damage|p2a: TT|0 fnt
+|faint|p2a: TT
+|
+|upkeep
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|turn|2
+|c|☆Neutralist|Yup
+|
+|move|p2a: Dracozolt|Bolt Beak|p1a: Yukako
+|-damage|p1a: Yukako|0 fnt
+|-damage|p2a: Dracozolt|91/100|[from] item: Life Orb
+|faint|p1a: Yukako
+|
+|upkeep
+|
+|switch|p1a: Stereotype|Toxapex, L85, F|100/100
+|turn|3
+|
+|move|p1a: Stereotype|Baneful Bunker|p1a: Stereotype
+|-singleturn|p1a: Stereotype|move: Protect
+|move|p2a: Dracozolt|Dragon Pulse|p1a: Stereotype
+|-activate|p1a: Stereotype|move: Protect
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Stereotype|Baneful Bunker||[still]
+|-fail|p1a: Stereotype
+|move|p2a: Dracozolt|Dragon Pulse|p1a: Stereotype
+|-damage|p1a: Stereotype|54/100
+|-damage|p2a: Dracozolt|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Stereotype|Baneful Bunker|p1a: Stereotype
+|-singleturn|p1a: Stereotype|move: Protect
+|move|p2a: Dracozolt|Dragon Claw|p1a: Stereotype
+|-activate|p1a: Stereotype|move: Protect
+|-status|p2a: Dracozolt|psn
+|
+|-damage|p2a: Dracozolt|68/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|move|p2a: Dracozolt|Dragon Claw|p1a: Stereotype
+|-damage|p1a: Stereotype|18/100
+|-enditem|p1a: Stereotype|Wiki Berry|[eat]
+|-heal|p1a: Stereotype|50/100|[from] item: Wiki Berry
+|-damage|p2a: Dracozolt|58/100 psn|[from] item: Life Orb
+|move|p1a: Stereotype|Recover|p1a: Stereotype
+|-heal|p1a: Stereotype|100/100
+|
+|-damage|p2a: Dracozolt|46/100 psn|[from] psn
+|upkeep
+|turn|7
+|c|☆Neutralist|Hmmm
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Stereotype|Toxic Spikes|p2a: Gengar
+|-sidestart|p2: G18 Gui|move: Toxic Spikes
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: MadeinFlorida|Umbreon, M|100/100
+|move|p2a: Gengar|Dark Pulse|p1a: MadeinFlorida
+|-resisted|p1a: MadeinFlorida
+|-damage|p1a: MadeinFlorida|90/100
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Gengar|Dark Pulse|p1a: MadeinFlorida
+|-resisted|p1a: MadeinFlorida
+|-damage|p1a: MadeinFlorida|79/100
+|move|p1a: MadeinFlorida|Taunt|p2a: Gengar
+|-start|p2a: Gengar|move: Taunt
+|
+|upkeep
+|turn|10
+|inactive|G18 Gui has 120 seconds left.
+|
+|move|p2a: Gengar|Dark Pulse|p1a: MadeinFlorida
+|-resisted|p1a: MadeinFlorida
+|-damage|p1a: MadeinFlorida|67/100
+|move|p1a: MadeinFlorida|Throat Chop|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|10/100
+|-start|p2a: Gengar|Throat Chop|[silent]
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Gengar|Dark Pulse|p1a: MadeinFlorida
+|-resisted|p1a: MadeinFlorida
+|-damage|p1a: MadeinFlorida|55/100
+|move|p1a: MadeinFlorida|Throat Chop|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-start|p1a: MadeinFlorida|Disable|Throat Chop|[from] ability: Cursed Body|[of] p2a: Gengar
+|faint|p2a: Gengar
+|
+|upkeep
+|inactive|G18 Gui has 120 seconds left.
+|
+|switch|p2a: Mew|Mew|100/100
+|-status|p2a: Mew|psn
+|turn|12
+|
+|move|p2a: Mew|Brave Bird|p1a: MadeinFlorida
+|-damage|p1a: MadeinFlorida|30/100
+|-damage|p2a: Mew|92/100 psn|[from] Recoil
+|move|p1a: MadeinFlorida|Taunt|p2a: Mew
+|-start|p2a: Mew|move: Taunt
+|
+|-damage|p2a: Mew|80/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|switch|p1a: Horus|Arctovish, L87|100/100
+|move|p2a: Mew|Dazzling Gleam|p1a: Horus
+|-damage|p1a: Horus|69/100
+|
+|-damage|p2a: Mew|68/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|move|p2a: Mew|Psychic|p1a: Horus
+|-damage|p1a: Horus|15/100
+|move|p1a: Horus|Crunch|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|25/100 psn
+|-damage|p1a: Horus|5/100|[from] item: Life Orb
+|
+|-damage|p2a: Mew|13/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|move|p2a: Mew|Brave Bird|p1a: Horus
+|-damage|p1a: Horus|0 fnt
+|-damage|p2a: Mew|12/100 psn|[from] Recoil
+|faint|p1a: Horus
+|
+|-damage|p2a: Mew|0 fnt|[from] psn
+|faint|p2a: Mew
+|upkeep
+|
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|switch|p1a: Stereotype|Toxapex, L85, F|100/100
+|-status|p2a: Mimikyu|psn
+|turn|16
+|
+|move|p2a: Mimikyu|Shadow Ball|p1a: Stereotype
+|-damage|p1a: Stereotype|77/100
+|move|p1a: Stereotype|Haze|p1a: Stereotype
+|-clearallboost
+|
+|-damage|p2a: Mimikyu|88/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|move|p2a: Mimikyu|Dazzling Gleam|p1a: Stereotype
+|-resisted|p1a: Stereotype
+|-damage|p1a: Stereotype|65/100
+|move|p1a: Stereotype|Haze|p1a: Stereotype
+|-clearallboost
+|
+|-heal|p2a: Mimikyu|94/100 psn|[from] item: Leftovers
+|-damage|p2a: Mimikyu|82/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|move|p2a: Mimikyu|Play Rough|p1a: Stereotype
+|-resisted|p1a: Stereotype
+|-damage|p1a: Stereotype|48/100
+|move|p1a: Stereotype|Recover|p1a: Stereotype
+|-heal|p1a: Stereotype|99/100
+|
+|-heal|p2a: Mimikyu|88/100 psn|[from] item: Leftovers
+|-damage|p2a: Mimikyu|76/100 psn|[from] psn
+|upkeep
+|turn|19
+|inactive|G18 Gui has 120 seconds left.
+|
+|move|p1a: Stereotype|Baneful Bunker|p1a: Stereotype
+|-singleturn|p1a: Stereotype|move: Protect
+|move|p2a: Mimikyu|Play Rough|p1a: Stereotype
+|-activate|p1a: Stereotype|move: Protect
+|
+|-heal|p2a: Mimikyu|82/100 psn|[from] item: Leftovers
+|-damage|p2a: Mimikyu|70/100 psn|[from] psn
+|upkeep
+|turn|20
+|inactive|G18 Gui has 120 seconds left.
+|
+|move|p2a: Mimikyu|Play Rough|p1a: Stereotype
+|-resisted|p1a: Stereotype
+|-damage|p1a: Stereotype|83/100
+|move|p1a: Stereotype|Recover|p1a: Stereotype
+|-heal|p1a: Stereotype|100/100
+|
+|-heal|p2a: Mimikyu|76/100 psn|[from] item: Leftovers
+|-damage|p2a: Mimikyu|64/100 psn|[from] psn
+|upkeep
+|turn|21
+|inactive|G18 Gui has 120 seconds left.
+|
+|move|p2a: Mimikyu|Protect|p2a: Mimikyu
+|-singleturn|p2a: Mimikyu|Protect
+|move|p1a: Stereotype|Recover||[still]
+|-fail|p1a: Stereotype|heal
+|
+|-heal|p2a: Mimikyu|70/100 psn|[from] item: Leftovers
+|-damage|p2a: Mimikyu|58/100 psn|[from] psn
+|upkeep
+|turn|22
+|inactive|G18 Gui has 120 seconds left.
+|inactive|Neutralist has 120 seconds left.
+|
+|move|p2a: Mimikyu|Protect|p2a: Mimikyu
+|-singleturn|p2a: Mimikyu|Protect
+|move|p1a: Stereotype|Haze|p1a: Stereotype
+|-clearallboost
+|
+|-heal|p2a: Mimikyu|64/100 psn|[from] item: Leftovers
+|-damage|p2a: Mimikyu|51/100 psn|[from] psn
+|upkeep
+|turn|23
+|inactive|Neutralist has 120 seconds left.
+|inactive|G18 Gui has 120 seconds left.
+|
+|move|p2a: Mimikyu|Play Rough|p1a: Stereotype
+|-resisted|p1a: Stereotype
+|-damage|p1a: Stereotype|85/100
+|move|p1a: Stereotype|Recover|p1a: Stereotype
+|-heal|p1a: Stereotype|100/100
+|
+|-heal|p2a: Mimikyu|58/100 psn|[from] item: Leftovers
+|-damage|p2a: Mimikyu|45/100 psn|[from] psn
+|upkeep
+|turn|24
+|inactive|Neutralist has 120 seconds left.
+|inactive|G18 Gui has 120 seconds left.
+|
+|move|p1a: Stereotype|Baneful Bunker|p1a: Stereotype
+|-singleturn|p1a: Stereotype|move: Protect
+|move|p2a: Mimikyu|Dazzling Gleam|p1a: Stereotype
+|-activate|p1a: Stereotype|move: Protect
+|
+|-heal|p2a: Mimikyu|51/100 psn|[from] item: Leftovers
+|-damage|p2a: Mimikyu|39/100 psn|[from] psn
+|upkeep
+|turn|25
+|inactive|G18 Gui has 120 seconds left.
+|
+|move|p2a: Mimikyu|Shadow Ball|p1a: Stereotype
+|-damage|p1a: Stereotype|76/100
+|move|p1a: Stereotype|Recover|p1a: Stereotype
+|-heal|p1a: Stereotype|100/100
+|
+|-heal|p2a: Mimikyu|45/100 psn|[from] item: Leftovers
+|-damage|p2a: Mimikyu|33/100 psn|[from] psn
+|upkeep
+|turn|26
+|inactive|G18 Gui has 120 seconds left.
+|inactive|G18 Gui has 90 seconds left.
+|
+|move|p2a: Mimikyu|Shadow Ball|p1a: Stereotype
+|-damage|p1a: Stereotype|77/100
+|-unboost|p1a: Stereotype|spd|1
+|move|p1a: Stereotype|Haze|p1a: Stereotype
+|-clearallboost
+|
+|-heal|p2a: Mimikyu|39/100 psn|[from] item: Leftovers
+|-damage|p2a: Mimikyu|27/100 psn|[from] psn
+|upkeep
+|turn|27
+|inactive|G18 Gui has 90 seconds left.
+|
+|move|p2a: Mimikyu|Play Rough|p1a: Stereotype
+|-resisted|p1a: Stereotype
+|-damage|p1a: Stereotype|61/100
+|move|p1a: Stereotype|Recover|p1a: Stereotype
+|-heal|p1a: Stereotype|100/100
+|
+|-heal|p2a: Mimikyu|33/100 psn|[from] item: Leftovers
+|-damage|p2a: Mimikyu|21/100 psn|[from] psn
+|upkeep
+|turn|28
+|inactive|Neutralist has 90 seconds left.
+|inactive|G18 Gui has 60 seconds left.
+|
+|move|p2a: Mimikyu|Protect|p2a: Mimikyu
+|-singleturn|p2a: Mimikyu|Protect
+|move|p1a: Stereotype|Toxic Spikes|p2a: Mimikyu
+|-sidestart|p2: G18 Gui|move: Toxic Spikes
+|
+|-heal|p2a: Mimikyu|27/100 psn|[from] item: Leftovers
+|-damage|p2a: Mimikyu|15/100 psn|[from] psn
+|upkeep
+|turn|29
+|inactive|Neutralist has 90 seconds left.
+|inactive|G18 Gui has 60 seconds left.
+|
+|move|p2a: Mimikyu|Shadow Ball|p1a: Stereotype
+|-damage|p1a: Stereotype|78/100
+|move|p1a: Stereotype|Haze|p1a: Stereotype
+|-clearallboost
+|
+|-heal|p2a: Mimikyu|21/100 psn|[from] item: Leftovers
+|-damage|p2a: Mimikyu|9/100 psn|[from] psn
+|upkeep
+|turn|30
+|inactive|G18 Gui has 60 seconds left.
+|
+|move|p2a: Mimikyu|Play Rough|p1a: Stereotype
+|-resisted|p1a: Stereotype
+|-damage|p1a: Stereotype|62/100
+|move|p1a: Stereotype|Haze|p1a: Stereotype
+|-clearallboost
+|
+|-heal|p2a: Mimikyu|15/100 psn|[from] item: Leftovers
+|-damage|p2a: Mimikyu|2/100 psn|[from] psn
+|upkeep
+|turn|31
+|inactive|G18 Gui has 60 seconds left.
+|
+|move|p2a: Mimikyu|Dazzling Gleam|p1a: Stereotype
+|-resisted|p1a: Stereotype
+|-damage|p1a: Stereotype|51/100
+|move|p1a: Stereotype|Recover|p1a: Stereotype
+|-heal|p1a: Stereotype|100/100
+|
+|-heal|p2a: Mimikyu|9/100 psn|[from] item: Leftovers
+|-damage|p2a: Mimikyu|0 fnt|[from] psn
+|faint|p2a: Mimikyu
+|upkeep
+|c|☆Neutralist|LMAO
+|
+|switch|p2a: Dracozolt|Dracozolt|46/100 psn
+|turn|32
+|
+|move|p1a: Stereotype|Baneful Bunker|p1a: Stereotype
+|-singleturn|p1a: Stereotype|move: Protect
+|move|p2a: Dracozolt|Bolt Beak|p1a: Stereotype
+|-activate|p1a: Stereotype|move: Protect
+|
+|-damage|p2a: Dracozolt|33/100 psn|[from] psn
+|upkeep
+|turn|33
+|inactive|G18 Gui has 60 seconds left.
+|
+|switch|p1a: Conkeldurr|Conkeldurr, L90, M|100/100
+|move|p2a: Dracozolt|Bolt Beak|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|10/100
+|-damage|p2a: Dracozolt|23/100 psn|[from] item: Life Orb
+|
+|-damage|p2a: Dracozolt|11/100 psn|[from] psn
+|upkeep
+|turn|34
+|inactive|G18 Gui has 60 seconds left.
+|inactive|Neutralist has 90 seconds left.
+|
+|move|p2a: Dracozolt|Bolt Beak|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|-damage|p2a: Dracozolt|1/100 psn|[from] item: Life Orb
+|faint|p1a: Conkeldurr
+|
+|-damage|p2a: Dracozolt|0 fnt|[from] psn
+|faint|p2a: Dracozolt
+|upkeep
+|inactive|G18 Gui has 60 seconds left.
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|switch|p1a: Appletun|Appletun, L87, M|100/100
+|-status|p2a: Tyranitar|tox
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|35
+|inactive|G18 Gui has 60 seconds left.
+|
+|move|p2a: Tyranitar|Earthquake|p1a: Appletun
+|-resisted|p1a: Appletun
+|-damage|p1a: Appletun|83/100
+|move|p1a: Appletun|Body Press|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|59/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Appletun|77/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|53/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|move|p2a: Tyranitar|Dragon Claw|p1a: Appletun
+|-supereffective|p1a: Appletun
+|-damage|p1a: Appletun|16/100
+|-enditem|p1a: Appletun|Iapapa Berry|[eat]
+|-heal|p1a: Appletun|82/100|[from] item: Iapapa Berry
+|move|p1a: Appletun|Body Press|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|16/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Appletun|76/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|3/100 tox|[from] psn
+|upkeep
+|turn|37
+|c|☆Neutralist|GG
+|
+|move|p2a: Tyranitar|Dragon Claw|p1a: Appletun
+|-supereffective|p1a: Appletun
+|-damage|p1a: Appletun|15/100
+|move|p1a: Appletun|Dragon Pulse|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|win|Neutralist
+|raw|Neutralist's rating: 1000 → 1044(+44 for winning)
+|raw|G18 Gui's rating: 1032 → 1016(-16 for losing)
+|l|☆G18 Gui

@@ -1,0 +1,425 @@
+|ScrapeTime|2020-01-01-19:15:26
+|j|☆M.Mangag
+|j|☆BeefOnFire
+|player|p1|M.Mangag|87|1296
+|player|p2|BeefOnFire|1|1240
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Heliolisk, M|
+|poke|p1|Seismitoad, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Corviknight, M|
+|poke|p2|Falinks|
+|poke|p2|Tyranitar, M|
+|poke|p2|Polteageist|
+|poke|p2|Rotom-Wash|
+|poke|p2|Excadrill, M|
+|poke|p2|Whimsicott, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BeefOnFire)
+|
+|start
+|switch|p1a: Piko|Ferrothorn, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|move|p2a: Rotom|Trick|p1a: Piko
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Piko
+|-item|p1a: Piko|Choice Specs|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|move|p1a: Piko|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|72/100
+|-enditem|p2a: Rotom|Leftovers|[from] move: Knock Off|[of] p1a: Piko
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Rotom|Volt Switch|p1a: Piko
+|-resisted|p1a: Piko
+|-crit|p1a: Piko
+|-damage|p1a: Piko|80/100
+|
+|switch|p2a: Whimsicott|Whimsicott, F, shiny|100/100|[from]move: Volt Switch
+|move|p1a: Piko|Knock Off|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|92/100
+|-enditem|p2a: Whimsicott|Leftovers|[from] move: Knock Off|[of] p1a: Piko
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Shin|Corviknight, M|100/100
+|-ability|p1a: Shin|Pressure
+|move|p2a: Whimsicott|Moonblast|p1a: Shin
+|-resisted|p1a: Shin
+|-damage|p1a: Shin|91/100
+|
+|-heal|p1a: Shin|97/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Whimsicott|U-turn|p1a: Shin
+|-resisted|p1a: Shin
+|-damage|p1a: Shin|95/100
+|
+|switch|p2a: Rotom|Rotom-Wash|72/100|[from]move: U-turn
+|move|p1a: Shin|Brave Bird|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|48/100
+|-damage|p1a: Shin|91/100|[from] Recoil
+|
+|-heal|p1a: Shin|97/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Piko|Ferrothorn, F|80/100
+|move|p2a: Rotom|Thunderbolt|p1a: Piko
+|-resisted|p1a: Piko
+|-damage|p1a: Piko|61/100
+|-status|p1a: Piko|par
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Rotom|Volt Switch|p1a: Piko
+|-resisted|p1a: Piko
+|-damage|p1a: Piko|49/100 par
+|
+|switch|p2a: Whimsicott|Whimsicott, F, shiny|92/100|[from]move: Volt Switch
+|cant|p1a: Piko|par
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: AU NOOORD|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: AU NOOORD
+|move|p2a: Whimsicott|Taunt|p1a: AU NOOORD
+|-start|p1a: AU NOOORD|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p2a: Whimsicott|U-turn|p1a: AU NOOORD
+|-resisted|p1a: AU NOOORD
+|-damage|p1a: AU NOOORD|96/100
+|
+|switch|p2a: Rotom|Rotom-Wash|48/100|[from]move: U-turn
+|move|p1a: AU NOOORD|Hurricane|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|23/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|switch|p1a: Prepuce-Man|Seismitoad, M, shiny|100/100
+|move|p2a: Rotom|Thunderbolt|p1a: Prepuce-Man
+|-immune|p1a: Prepuce-Man
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p1a: Prepuce-Man|Hydro Pump|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-damage|p1a: Prepuce-Man|91/100|[from] item: Life Orb
+|faint|p2a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Whimsicott|Whimsicott, F, shiny|92/100
+|turn|11
+|
+|switch|p1a: Piko|Ferrothorn, F|49/100 par
+|move|p2a: Whimsicott|Giga Drain|p1a: Piko
+|-resisted|p1a: Piko
+|-damage|p1a: Piko|44/100 par
+|-heal|p2a: Whimsicott|94/100|[from] drain|[of] p1a: Piko
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p2a: Whimsicott|U-turn|p1a: Piko
+|-damage|p1a: Piko|38/100 par
+|-damage|p2a: Whimsicott|82/100|[from] ability: Iron Barbs|[of] p1a: Piko
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Piko|Spikes|p2a: Tyranitar
+|-sidestart|p2: BeefOnFire|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|switch|p1a: AU NOOORD|Pelipper, M|96/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: AU NOOORD
+|move|p2a: Tyranitar|Flamethrower|p1a: AU NOOORD
+|-resisted|p1a: AU NOOORD
+|-crit|p1a: AU NOOORD
+|-damage|p1a: AU NOOORD|83/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|switch|p1a: Prepuce-Man|Seismitoad, M, shiny|91/100
+|move|p2a: Tyranitar|Dark Pulse|p1a: Prepuce-Man
+|-damage|p1a: Prepuce-Man|47/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|switch|p2a: Whimsicott|Whimsicott, F, shiny|82/100
+|-damage|p2a: Whimsicott|70/100|[from] Spikes
+|move|p1a: Prepuce-Man|Stealth Rock|p2a: Whimsicott
+|-sidestart|p2: BeefOnFire|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|switch|p1a: Piko|Ferrothorn, F|38/100 par
+|move|p2a: Whimsicott|Giga Drain|p1a: Piko
+|-resisted|p1a: Piko
+|-damage|p1a: Piko|34/100 par
+|-heal|p2a: Whimsicott|72/100|[from] drain|[of] p1a: Piko
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p2a: Whimsicott|U-turn|p1a: Piko
+|-damage|p1a: Piko|27/100 par
+|-damage|p2a: Whimsicott|60/100|[from] ability: Iron Barbs|[of] p1a: Piko
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100|[from]move: U-turn
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-damage|p2a: Tyranitar|76/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Piko|Power Whip|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p2a: Tyranitar|Flamethrower|p1a: Piko
+|-supereffective|p1a: Piko
+|-damage|p1a: Piko|0 fnt
+|faint|p1a: Piko
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Jujule|Heliolisk, M|100/100
+|turn|19
+|inactive|BeefOnFire has 120 seconds left.
+|
+|move|p1a: Jujule|Surf|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jujule|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-damage|p2a: Excadrill|85/100|[from] Spikes
+|turn|20
+|
+|switch|p1a: AU NOOORD|Pelipper, M|83/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: AU NOOORD
+|move|p2a: Excadrill|Iron Head|p1a: AU NOOORD
+|-resisted|p1a: AU NOOORD
+|-damage|p1a: AU NOOORD|54/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|inactive|M.Mangag has 120 seconds left.
+|inactive|M.Mangag has 90 seconds left.
+|
+|switch|p2a: Whimsicott|Whimsicott, F, shiny|60/100
+|-damage|p2a: Whimsicott|47/100|[from] Spikes
+|-damage|p2a: Whimsicott|35/100|[from] Stealth Rock
+|switch|p1a: Prepuce-Man|Seismitoad, M, shiny|47/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|inactive|BeefOnFire has 90 seconds left.
+|inactive|BeefOnFire has 60 seconds left.
+|
+|switch|p1a: Shin|Corviknight, M|97/100
+|-ability|p1a: Shin|Pressure
+|move|p2a: Whimsicott|Giga Drain|p1a: Shin
+|-resisted|p1a: Shin
+|-damage|p1a: Shin|93/100
+|-heal|p2a: Whimsicott|38/100|[from] drain|[of] p1a: Shin
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Shin|99/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Whimsicott|Taunt|p1a: Shin
+|-start|p1a: Shin|move: Taunt
+|move|p1a: Shin|Brave Bird|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|-damage|p1a: Shin|89/100|[from] Recoil
+|faint|p2a: Whimsicott
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Shin|95/100|[from] item: Leftovers
+|upkeep
+|inactive|BeefOnFire has 60 seconds left.
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|-damage|p2a: Polteageist|88/100|[from] Spikes
+|-damage|p2a: Polteageist|76/100|[from] Stealth Rock
+|turn|24
+|inactive|M.Mangag has 60 seconds left.
+|
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|move|p1a: Shin|Brave Bird|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|-damage|p1a: Shin|79/100|[from] Recoil
+|faint|p2a: Polteageist
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Shin|85/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|85/100
+|-damage|p2a: Excadrill|82/100|[from] Stealth Rock
+|-damage|p2a: Excadrill|69/100|[from] Spikes
+|turn|25
+|inactive|M.Mangag has 60 seconds left.
+|
+|move|p2a: Excadrill|Rock Blast|p1a: Shin
+|-damage|p1a: Shin|75/100
+|-damage|p1a: Shin|65/100
+|-damage|p1a: Shin|55/100
+|-hitcount|p1a: Shin|3
+|move|p1a: Shin|U-turn|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|60/100
+|inactive|M.Mangag has 30 seconds left.
+|
+|switch|p1a: Prepuce-Man|Seismitoad, M, shiny|47/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|26
+|inactive|BeefOnFire has 60 seconds left.
+|
+|move|p1a: Prepuce-Man|Earth Power|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-damage|p1a: Prepuce-Man|37/100|[from] item: Life Orb
+|faint|p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Falinks|Falinks|100/100
+|-damage|p2a: Falinks|88/100|[from] Spikes
+|-damage|p2a: Falinks|82/100|[from] Stealth Rock
+|turn|27
+|inactive|BeefOnFire has 60 seconds left.
+|inactive|M.Mangag has 30 seconds left.
+|inactive|M.Mangag has 20 seconds left.
+|
+|move|p1a: Prepuce-Man|Earth Power|p2a: Falinks
+|-damage|p2a: Falinks|7/100
+|-damage|p1a: Prepuce-Man|27/100|[from] item: Life Orb
+|move|p2a: Falinks|No Retreat|p2a: Falinks
+|-boost|p2a: Falinks|atk|1
+|-boost|p2a: Falinks|def|1
+|-boost|p2a: Falinks|spa|1
+|-boost|p2a: Falinks|spd|1
+|-boost|p2a: Falinks|spe|1
+|-start|p2a: Falinks|move: No Retreat
+|
+|-weather|none
+|-heal|p2a: Falinks|13/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|M.Mangag has 30 seconds left this turn.
+|inactive|BeefOnFire has 60 seconds left.
+|
+|switch|p1a: AU NOOORD|Pelipper, M|54/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: AU NOOORD
+|move|p2a: Falinks|Throat Chop|p1a: AU NOOORD
+|-damage|p1a: AU NOOORD|23/100
+|-start|p1a: AU NOOORD|Throat Chop|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Falinks|19/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|M.Mangag has 30 seconds left.
+|
+|move|p2a: Falinks|Throat Chop|p1a: AU NOOORD
+|-damage|p1a: AU NOOORD|0 fnt
+|faint|p1a: AU NOOORD
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Falinks|25/100|[from] item: Leftovers
+|upkeep
+|inactive|M.Mangag has 30 seconds left.
+|
+|switch|p1a: Shin|Corviknight, M|55/100
+|-ability|p1a: Shin|Pressure
+|turn|30
+|
+|move|p2a: Falinks|Close Combat|p1a: Shin
+|-damage|p1a: Shin|0 fnt
+|-unboost|p2a: Falinks|def|1
+|-unboost|p2a: Falinks|spd|1
+|faint|p1a: Shin
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Falinks|31/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Prepuce-Man|Seismitoad, M, shiny|27/100
+|turn|31
+|inactive|BeefOnFire has 60 seconds left.
+|
+|move|p1a: Prepuce-Man|Earth Power|p2a: Falinks
+|-damage|p2a: Falinks|0 fnt
+|-damage|p1a: Prepuce-Man|17/100|[from] item: Life Orb
+|faint|p2a: Falinks
+|
+|win|M.Mangag
+|l|☆BeefOnFire

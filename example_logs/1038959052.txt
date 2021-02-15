@@ -1,0 +1,379 @@
+|ScrapeTime|2020-01-01-02:25:09
+|j|☆Ctrl G-Max
+|j|☆RRENES
+|player|p1|Ctrl G-Max|188|1304
+|player|p2|RRENES|ghetsis-gen5bw|1250
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Lucario, M|
+|poke|p1|Lapras, F|
+|poke|p1|Diggersby, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Inteleon, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Dragapult, F|
+|poke|p2|Hatterene, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ctrl G-Max)
+|
+|start
+|switch|p1a: Lapras|Lapras, F|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|1
+|
+|move|p1a: Lapras|Protect|p1a: Lapras
+|-singleturn|p1a: Lapras|Protect
+|move|p2a: Rotom|Trick|p1a: Lapras
+|-activate|p1a: Lapras|move: Protect
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Inteleon|Inteleon, F|100/100
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Grimmsnarl|Trick|p2a: Inteleon
+|-activate|p1a: Grimmsnarl|move: Trick|[of] p2a: Inteleon
+|-item|p2a: Inteleon|Lagging Tail|[from] move: Trick
+|-item|p1a: Grimmsnarl|Choice Specs|[from] move: Trick
+|move|p2a: Inteleon|Snipe Shot|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|70/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Inteleon|[miss]
+|-miss|p1a: Grimmsnarl|p2a: Inteleon
+|move|p2a: Inteleon|Snipe Shot|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|41/100
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|switch|p1a: Lapras|Lapras, F|100/100
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Lapras|Protect|p1a: Lapras
+|-singleturn|p1a: Lapras|Protect
+|move|p2a: Rotom|Volt Switch|p1a: Lapras
+|-activate|p1a: Lapras|move: Protect
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Inteleon|Inteleon, F|100/100
+|move|p1a: Lapras|Whirlpool|p2a: Inteleon|[miss]
+|-miss|p1a: Lapras|p2a: Inteleon
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Lapras|Whirlpool|p2a: Inteleon
+|-resisted|p2a: Inteleon
+|-damage|p2a: Inteleon|92/100
+|-activate|p2a: Inteleon|move: Whirlpool|[of] p1a: Lapras
+|move|p2a: Inteleon|Dark Pulse|p1a: Lapras
+|-damage|p1a: Lapras|81/100
+|
+|-heal|p1a: Lapras|87/100|[from] item: Leftovers
+|-damage|p2a: Inteleon|79/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|move|p1a: Lapras|Freeze-Dry|p2a: Inteleon
+|-supereffective|p2a: Inteleon
+|-damage|p2a: Inteleon|10/100
+|move|p2a: Inteleon|U-turn|p1a: Lapras
+|-damage|p1a: Lapras|79/100
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100|[from]move: U-turn
+|
+|-heal|p1a: Lapras|85/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Lapras|Protect|p1a: Lapras
+|-singleturn|p1a: Lapras|Protect
+|move|p2a: Rotom|Trick|p1a: Lapras
+|-activate|p1a: Lapras|move: Protect
+|
+|-heal|p1a: Lapras|91/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|41/100
+|move|p2a: Rotom|Trick|p1a: Grimmsnarl
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Grimmsnarl
+|-item|p1a: Grimmsnarl|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Choice Specs|[from] move: Trick
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Rotom
+|-immune|p2a: Rotom
+|move|p2a: Rotom|Volt Switch|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|2/100
+|
+|switch|p2a: Inteleon|Inteleon, F|10/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Lapras|Lapras, F|91/100
+|move|p2a: Inteleon|U-turn|p1a: Lapras
+|-damage|p1a: Lapras|84/100
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100|[from]move: U-turn
+|
+|-heal|p1a: Lapras|90/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Lapras|Protect|p1a: Lapras
+|-singleturn|p1a: Lapras|Protect
+|move|p2a: Rotom|Volt Switch|p1a: Lapras
+|-activate|p1a: Lapras|move: Protect
+|
+|-heal|p1a: Lapras|96/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Rotom|Volt Switch|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|21/100
+|
+|switch|p2a: Inteleon|Inteleon, F|10/100|[from]move: Volt Switch
+|move|p1a: Lapras|Whirlpool|p2a: Inteleon|[miss]
+|-miss|p1a: Lapras|p2a: Inteleon
+|
+|-heal|p1a: Lapras|27/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Lapras|Freeze-Dry|p2a: Inteleon
+|-supereffective|p2a: Inteleon
+|-damage|p2a: Inteleon|0 fnt
+|faint|p2a: Inteleon
+|
+|-heal|p1a: Lapras|34/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|17
+|
+|move|p1a: Lapras|Protect|p1a: Lapras
+|-singleturn|p1a: Lapras|Protect
+|move|p2a: Rotom|Volt Switch|p1a: Lapras
+|-activate|p1a: Lapras|move: Protect
+|
+|-heal|p1a: Lapras|40/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Diggersby|Diggersby, F|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Diggersby
+|-immune|p1a: Diggersby
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|move|p1a: Diggersby|Fire Punch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|38/100
+|-damage|p1a: Diggersby|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-damage|p1a: Diggersby|74/100|[from] item: Life Orb
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Diggersby|Fire Punch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Diggersby|58/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-damage|p1a: Diggersby|48/100|[from] item: Life Orb
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|21
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Rotom|Trick|p1a: Cinderace
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Cinderace
+|-item|p1a: Cinderace|Choice Specs|[from] move: Trick
+|-item|p2a: Rotom|Heavy-Duty Boots|[from] move: Trick
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Cinderace|U-turn|p2a: Rotom
+|-resisted|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|78/100
+|
+|switch|p1a: Lapras|Lapras, F|40/100|[from]move: U-turn
+|move|p2a: Rotom|Volt Switch|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|switch|p1a: Diggersby|Diggersby, F|48/100
+|turn|23
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: RRENES|Reflect
+|move|p1a: Diggersby|Mega Kick|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|38/100
+|-damage|p1a: Diggersby|38/100|[from] item: Life Orb
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Diggersby|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|43/100
+|-damage|p1a: Diggersby|28/100|[from] item: Life Orb
+|
+|upkeep
+|turn|25
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Cinderace
+|-damage|p1a: Cinderace|53/100
+|-damage|p1a: Cinderace|7/100
+|-hitcount|p1a: Cinderace|2
+|-damage|p2a: Dragapult|33/100|[from] item: Life Orb
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-hitcount|p1a: Cinderace|1
+|-damage|p2a: Dragapult|23/100|[from] item: Life Orb
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|2/100
+|turn|27
+|
+|switch|p2a: Rotom|Rotom-Heat|78/100
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Rotom
+|-immune|p2a: Rotom
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Dragapult|[miss]
+|-miss|p2a: Rotom|p1a: Dragapult
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|move|p2a: Rotom|Will-O-Wisp||[still]
+|-fail|p2a: Rotom
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Rotom|Overheat|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|-unboost|p2a: Rotom|spa|2
+|
+|-heal|p1a: Dragapult|88/100|[from] item: Leftovers
+|-sideend|p2: RRENES|Reflect
+|upkeep
+|turn|31
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|38/100
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|63/100
+|
+|-heal|p1a: Dragapult|69/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: RRENES|Reflect
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Grimmsnarl
+|
+|-heal|p1a: Dragapult|75/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Grimmsnarl|[from]lockedmove
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|-heal|p1a: Dragapult|81/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|34
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Hatterene
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Dragapult|[miss]
+|-miss|p2a: Hatterene|p1a: Dragapult
+|
+|-heal|p1a: Dragapult|87/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Hatterene|[from]lockedmove
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-heal|p1a: Dragapult|93/100|[from] item: Leftovers
+|upkeep
+|-message|RRENES forfeited.
+|
+|win|Ctrl G-Max
+|l|☆RRENES
+|raw|Ctrl G-Max's rating: 1304 → 1321(+17 for winning)
+|raw|RRENES's rating: 1250 → 1229(-21 for losing)
+|c|☆Ctrl G-Max|gg

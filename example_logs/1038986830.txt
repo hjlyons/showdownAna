@@ -1,0 +1,368 @@
+|ScrapeTime|2020-01-01-03:42:28
+|j|☆JumpingSkiploom
+|j|☆saltylegume
+|player|p1|JumpingSkiploom|wallace|1133
+|player|p2|saltylegume|266|1159
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Dracovish|
+|poke|p1|Eiscue, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Whimsicott, M|
+|poke|p1|Excadrill, M|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Bisharp, F|
+|poke|p2|Clefable, M|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Dragapult, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JumpingSkiploom)
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Conkeldurr
+|-enditem|p1a: Dragapult|Power Herb
+|-anim|p1a: Dragapult|Phantom Force|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|60/100
+|
+|upkeep
+|turn|2
+|inactive|saltylegume has 120 seconds left.
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|move|p1a: Dragapult|Acrobatics|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|82/100
+|
+|upkeep
+|turn|3
+|inactive|saltylegume has 120 seconds left.
+|
+|switch|p1a: Whimsicott|Whimsicott, M|100/100
+|move|p2a: Bisharp|Night Slash|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|80/100
+|
+|upkeep
+|turn|4
+|inactive|saltylegume has 120 seconds left.
+|inactive|JumpingSkiploom has 120 seconds left.
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Bisharp
+|-damage|p2a: Bisharp|43/100
+|-unboost|p2a: Bisharp|spa|1
+|-ability|p2a: Bisharp|Defiant
+|-boost|p2a: Bisharp|atk|2
+|move|p2a: Bisharp|Night Slash|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|41/100
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|5/100
+|move|p1a: Whimsicott|Moonblast|p2a: Bisharp
+|-damage|p2a: Bisharp|4/100
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: JumpingSkiploom|move: Tailwind
+|move|p2a: Bisharp|Night Slash|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|upkeep
+|
+|switch|p1a: Eiscue|Eiscue, M|100/100
+|turn|7
+|inactive|saltylegume has 120 seconds left.
+|
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|move|p1a: Eiscue|Substitute|p1a: Eiscue
+|-start|p1a: Eiscue|Substitute
+|-damage|p1a: Eiscue|75/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|move|p1a: Eiscue|Belly Drum|p1a: Eiscue
+|-damage|p1a: Eiscue|25/100
+|-setboost|p1a: Eiscue|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Eiscue|Salac Berry|[eat]
+|-boost|p1a: Eiscue|spe|1
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Eiscue
+|-end|p1a: Eiscue|Substitute
+|move|p1a: Eiscue|Ice Punch|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|-sideend|p1: JumpingSkiploom|move: Tailwind
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|60/100
+|turn|10
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Eiscue
+|-activate|p1a: Eiscue|ability: Ice Face
+|-damage|p1a: Eiscue|25/100
+|detailschange|p1a: Eiscue|Eiscue-Noice, M
+|move|p1a: Eiscue|Ice Punch|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|turn|11
+|
+|move|p1a: Eiscue|Ice Punch|p2a: Corsola
+|-damage|p2a: Corsola|47/100
+|move|p2a: Corsola|Night Shade|p1a: Eiscue
+|-damage|p1a: Eiscue|0 fnt
+|faint|p1a: Eiscue
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|12
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Corsola|Strength Sap|p1a: Dragapult
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|-heal|p2a: Corsola|100/100
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Corsola
+|move|p2a: Corsola|Will-O-Wisp|p1a: Dragapult|[miss]
+|-miss|p2a: Corsola|p1a: Dragapult
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Corsola|[from]lockedmove
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|38/100
+|move|p2a: Corsola|Will-O-Wisp|p1a: Dragapult|[miss]
+|-miss|p2a: Corsola|p1a: Dragapult
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Corsola
+|move|p2a: Corsola|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: JumpingSkiploom|move: Stealth Rock
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Corsola|[from]lockedmove
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-start|p1a: Dragapult|Disable|Phantom Force|[from] ability: Cursed Body|[of] p2a: Corsola
+|faint|p2a: Corsola
+|
+|upkeep
+|inactive|saltylegume has 120 seconds left.
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|17
+|
+|move|p1a: Dragapult|Acrobatics|p2a: Clefable
+|-damage|p2a: Clefable|37/100
+|move|p2a: Clefable|Moonblast|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|18
+|inactive|saltylegume has 120 seconds left.
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Clefable
+|-damage|p2a: Clefable|15/100
+|-sideend|p1: JumpingSkiploom|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|move|p2a: Clefable|Fire Blast|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|14/100
+|
+|upkeep
+|turn|19
+|inactive|saltylegume has 120 seconds left.
+|
+|move|p1a: Excadrill|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|inactive|saltylegume has 120 seconds left.
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|20
+|
+|move|p1a: Excadrill|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|31/100
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|
+|upkeep
+|turn|21
+|inactive|saltylegume has 120 seconds left.
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Excadrill
+|move|p1a: Excadrill|Earthquake|p2a: Dragapult|[miss]
+|-miss|p1a: Excadrill|p2a: Dragapult
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Excadrill|[from]lockedmove
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|turn|23
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Corsola
+|move|p1a: Corsola|Substitute|p1a: Corsola
+|-start|p1a: Corsola|Substitute
+|-damage|p1a: Corsola|76/100
+|
+|upkeep
+|turn|24
+|c|☆saltylegume|omg
+|c|☆saltylegume|lol
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Corsola|[from]lockedmove
+|-supereffective|p1a: Corsola
+|-end|p1a: Corsola|Substitute
+|move|p1a: Corsola|Night Shade|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|c|☆JumpingSkiploom|lol
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|25
+|
+|move|p1a: Corsola|Substitute|p1a: Corsola
+|-start|p1a: Corsola|Substitute
+|-damage|p1a: Corsola|51/100
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Corsola|Night Shade|p2a: Hatterene
+|-damage|p2a: Hatterene|69/100
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Corsola|Night Shade|p2a: Hatterene
+|-damage|p2a: Hatterene|38/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Hatterene|Draining Kiss|p1a: Corsola
+|-end|p1a: Corsola|Substitute
+|-heal|p2a: Hatterene|56/100|[from] drain|[of] p1a: Corsola
+|-damage|p2a: Hatterene|47/100|[from] item: Life Orb
+|move|p1a: Corsola|Night Shade|p2a: Hatterene
+|-damage|p2a: Hatterene|15/100
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Hatterene|Draining Kiss|p1a: Corsola
+|-damage|p1a: Corsola|8/100
+|-heal|p2a: Hatterene|48/100|[from] drain|[of] p1a: Corsola
+|-damage|p2a: Hatterene|38/100|[from] item: Life Orb
+|move|p1a: Corsola|Night Shade|p2a: Hatterene
+|-damage|p2a: Hatterene|7/100
+|
+|upkeep
+|turn|30
+|c|☆JumpingSkiploom|gg
+|
+|move|p2a: Hatterene|Draining Kiss|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|-heal|p2a: Hatterene|13/100|[from] drain|[of] p1a: Corsola
+|-start|p2a: Hatterene|Disable|Draining Kiss|[from] ability: Cursed Body|[of] p1a: Corsola
+|-damage|p2a: Hatterene|3/100|[from] item: Life Orb
+|faint|p1a: Corsola
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|31
+|c|☆saltylegume|gg
+|
+|move|p2a: Hatterene|Mystical Fire|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|74/100
+|-unboost|p1a: Dracovish|spa|1
+|-damage|p2a: Hatterene|0 fnt|[from] item: Life Orb
+|faint|p2a: Hatterene
+|
+|win|JumpingSkiploom
+|raw|JumpingSkiploom's rating: 1133 → 1160(+27 for winning)
+|raw|saltylegume's rating: 1159 → 1132(-27 for losing)
+|l|☆saltylegume

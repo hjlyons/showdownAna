@@ -1,0 +1,336 @@
+|ScrapeTime|2020-01-01-07:25:46
+|j|☆lol554852476
+|j|☆tennerps
+|player|p1|lol554852476|262|1094
+|player|p2|tennerps|pokefanf|1119
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Tyranitar, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Hatterene, F|
+|poke|p1|Cinderace, M|
+|poke|p2|Clefable, F|
+|poke|p2|Dugtrio, F|
+|poke|p2|Appletun, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Mandibuzz, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Cinderace|High Jump Kick|p1a: Rotom
+|-damage|p1a: Rotom|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cinderace|95/100|[from] Sandstorm
+|-damage|p1a: Rotom|64/100|[from] Sandstorm
+|-heal|p1a: Rotom|70/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Cinderace|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|51/100
+|
+|switch|p2a: Appletun|Appletun, F|100/100|[from]move: U-turn
+|move|p1a: Rotom|Volt Switch|p2a: Appletun
+|-resisted|p2a: Appletun
+|-crit|p2a: Appletun
+|-damage|p2a: Appletun|91/100
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|94/100|[from] Sandstorm
+|-damage|p2a: Appletun|85/100|[from] Sandstorm
+|-heal|p2a: Appletun|91/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Hydreigon|Dragon Pulse|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-crit|p2a: Appletun
+|-damage|p2a: Appletun|0 fnt
+|faint|p2a: Appletun
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|88/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|4
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|move|p2a: Clefable|Flamethrower|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Excadrill|Iron Head|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|81/100
+|-damage|p1a: Excadrill|0 fnt|[from] item: Life Orb
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|75/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|turn|6
+|
+|move|p2a: Rotom|Volt Switch|p1a: Tyranitar
+|-damage|p1a: Tyranitar|81/100
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100|[from]move: Volt Switch
+|move|p1a: Tyranitar|Stone Edge|p2a: Mandibuzz|[miss]
+|-miss|p1a: Tyranitar|p2a: Mandibuzz
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p2a: Mandibuzz|Knock Off|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|73/100
+|-enditem|p1a: Tyranitar|Smooth Rock|[from] move: Knock Off|[of] p2a: Mandibuzz
+|move|p1a: Tyranitar|Stone Edge|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|81/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Tyranitar|Stone Edge|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|49/100
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|99/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Tyranitar|Stone Edge|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|64/100
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Mandibuzz|Toxic|p1a: Tyranitar|[miss]
+|-miss|p2a: Mandibuzz|p1a: Tyranitar
+|move|p1a: Tyranitar|Stealth Rock|p2a: Mandibuzz
+|-sidestart|p2: tennerps|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Mandibuzz|Toxic|p1a: Tyranitar
+|-status|p1a: Tyranitar|tox
+|move|p1a: Tyranitar|Stone Edge|p2a: Mandibuzz|[miss]
+|-miss|p1a: Tyranitar|p2a: Mandibuzz
+|
+|-damage|p1a: Tyranitar|67/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Tyranitar|Stone Edge|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|69/100
+|
+|-damage|p1a: Tyranitar|55/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Mandibuzz|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|74/100
+|-enditem|p1a: Hatterene|Assault Vest|[from] move: Knock Off|[of] p2a: Mandibuzz
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|27/100
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Mandibuzz|Foul Play|p1a: Hatterene
+|-damage|p1a: Hatterene|45/100
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|95/100
+|turn|16
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: tennerps|Stealth Rock|[silent]
+|-sidestart|p1: lol554852476|Stealth Rock|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Hatterene|Psychic|p2a: Cinderace
+|-damage|p2a: Cinderace|20/100
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|55/100 tox
+|-damage|p1a: Tyranitar|42/100 tox|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|18
+|
+|move|p2a: Cinderace|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|6/100 tox
+|
+|switch|p2a: Clefable|Clefable, F|100/100|[from]move: U-turn
+|move|p1a: Tyranitar|Stone Edge|p2a: Clefable
+|-damage|p2a: Clefable|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|0 fnt|[from] psn
+|faint|p1a: Tyranitar
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|88/100
+|-damage|p1a: Hydreigon|76/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p2a: Rotom|Rotom-Wash|75/100
+|move|p1a: Hydreigon|Flash Cannon|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|70/100|[from] Sandstorm
+|-damage|p2a: Rotom|60/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|switch|p1a: Rotom|Rotom-Wash|51/100
+|-damage|p1a: Rotom|39/100|[from] Stealth Rock
+|move|p2a: Rotom|Thunderbolt|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|54/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|-damage|p1a: Cinderace|76/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Cinderace|Zen Headbutt|p2a: Rotom
+|-damage|p2a: Rotom|20/100
+|move|p2a: Rotom|Thunderbolt|p1a: Cinderace
+|-damage|p1a: Cinderace|14/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cinderace|8/100|[from] Sandstorm
+|-damage|p2a: Rotom|14/100|[from] Sandstorm
+|upkeep
+|turn|22
+|
+|move|p1a: Cinderace|Zen Headbutt|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|turn|23
+|
+|move|p1a: Cinderace|Zen Headbutt|p2a: Dugtrio
+|-damage|p2a: Dugtrio|30/100
+|move|p2a: Dugtrio|Earthquake|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-crit|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|70/100
+|-damage|p1a: Hydreigon|57/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|28/100
+|turn|25
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|4/100
+|cant|p2a: Clefable|flinch
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|20/100
+|turn|27
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|win|lol554852476
+|raw|lol554852476's rating: 1094 → 1122(+28 for winning)
+|raw|tennerps's rating: 1119 → 1092(-27 for losing)
+|l|☆tennerps

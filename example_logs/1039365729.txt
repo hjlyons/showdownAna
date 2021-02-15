@@ -1,0 +1,68 @@
+|ScrapeTime|2020-01-01-22:56:48
+|j|☆Joakota
+|j|☆Miliak
+|player|p1|Joakota|124|1024
+|player|p2|Miliak|224|1087
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ditto|
+|poke|p1|Dracovish|
+|poke|p1|Corviknight, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Toxapex, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Gyarados, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Galvantula, M|
+|poke|p2|Gengar, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Jessi|Toxapex, F|100/100
+|switch|p2a: Galvantula|Galvantula, M, shiny|100/100
+|turn|1
+|
+|move|p1a: Jessi|Baneful Bunker|p1a: Jessi
+|-singleturn|p1a: Jessi|move: Protect
+|move|p2a: Galvantula|Volt Switch|p1a: Jessi
+|-activate|p1a: Jessi|move: Protect
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Galvantula|Thunder|p1a: Jessi
+|-supereffective|p1a: Jessi
+|-damage|p1a: Jessi|21/100
+|-status|p1a: Jessi|par
+|move|p1a: Jessi|Toxic Spikes|p2a: Galvantula
+|-sidestart|p2: Miliak|move: Toxic Spikes
+|
+|-heal|p1a: Jessi|27/100 par|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|cant|p1a: Jessi|par
+|move|p2a: Galvantula|Volt Switch|p1a: Jessi
+|-supereffective|p1a: Jessi
+|-damage|p1a: Jessi|0 fnt
+|faint|p1a: Jessi
+|-message|Joakota forfeited.
+|
+|win|Miliak
+|l|☆Joakota
+|raw|Joakota's rating: 1024 → 1013(-11 for losing)
+|raw|Miliak's rating: 1087 → 1109(+22 for winning)

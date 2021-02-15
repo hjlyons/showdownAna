@@ -1,0 +1,635 @@
+|ScrapeTime|2020-01-01-22:50:50
+|j|☆Garchomplte
+|j|‽Watermess
+|player|p1|Garchomplte|brock|1581
+|player|p2|Watermess|12|1634
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hippowdon, M|
+|poke|p1|Seismitoad, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Bronzong|
+|poke|p1|Toxapex, M|
+|poke|p1|Toxtricity, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Dugtrio, M|
+|poke|p2|Xatu, M|
+|poke|p2|Hippowdon, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Dracovish|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|switch|p2a: Xatu|Xatu, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: Xatu|Teleport|p2a: Xatu
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from]move: Teleport
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|94/100|[from] Sandstorm
+|-heal|p2a: Dragapult|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Bronzong|Protect|p1a: Bronzong
+|-singleturn|p1a: Bronzong|Protect
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Bronzong
+|-activate|p1a: Bronzong|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|94/100|[from] Sandstorm
+|-heal|p2a: Dragapult|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Xatu|Xatu, M|100/100
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Xatu|95/100|[from] Sandstorm
+|-heal|p2a: Xatu|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Garchomplte)
+|
+|move|p1a: Mandibuzz|Knock Off|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|53/100
+|-enditem|p2a: Xatu|Leftovers|[from] move: Knock Off|[of] p1a: Mandibuzz
+|move|p2a: Xatu|Teleport|p2a: Xatu
+|
+|switch|p2a: Dracovish|Dracovish|100/100|[from]move: Teleport
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dracovish|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Seismitoad
+|-immune|p1a: Seismitoad|[from] ability: Water Absorb
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|switch|p2a: Xatu|Xatu, M|53/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Xatu
+|move|p2a: Xatu|Stealth Rock|p1a: Seismitoad|[from]Magic Bounce
+|-sidestart|p1: Garchomplte|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|100/100
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Seismitoad|Stealth Rock|p2a: Xatu
+|move|p2a: Xatu|Stealth Rock||[from]Magic Bounce|[still]
+|-fail|p2a: Xatu
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Seismitoad|Stealth Rock|p2a: Xatu
+|move|p2a: Xatu|Stealth Rock||[from]Magic Bounce|[still]
+|-fail|p2a: Xatu
+|move|p2a: Xatu|Teleport|p2a: Xatu
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Xatu|Xatu, M|100/100
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Mandibuzz|Defog|p2a: Xatu
+|move|p2a: Xatu|Defog|p1a: Mandibuzz|[from]Magic Bounce
+|-unboost|p1a: Mandibuzz|evasion|1
+|-sideend|p1: Garchomplte|Stealth Rock|[from] move: Defog|[of] p2a: Xatu
+|move|p2a: Xatu|Teleport|p2a: Xatu
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100|[from]move: Teleport
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|switch|p2a: Xatu|Xatu, M|100/100
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Toxtricity|Boomburst|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Hippowdon|[miss]
+|-miss|p2a: Dragapult|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|94/100|[from] Sandstorm
+|-heal|p2a: Dragapult|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Xatu|Xatu, M|100/100
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Xatu|95/100|[from] Sandstorm
+|-damage|p1a: Toxapex|94/100|[from] Sandstorm
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|move|p1a: Toxapex|Scald|p2a: Xatu
+|-damage|p2a: Xatu|70/100
+|move|p2a: Xatu|Teleport|p2a: Xatu
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100|[from]move: Teleport
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|94/100|[from] Sandstorm
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|51/100
+|move|p1a: Toxapex|Scald|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|45/100|[from] Sandstorm
+|-heal|p1a: Toxapex|51/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|inactive|Watermess has 120 seconds left.
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|2/100
+|move|p1a: Toxapex|Scald|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|-weather|none
+|-heal|p1a: Toxapex|8/100|[from] item: Black Sludge
+|upkeep
+|inactive|Watermess has 120 seconds left.
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|18
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Mandibuzz
+|-status|p1a: Mandibuzz|brn
+|
+|-damage|p1a: Mandibuzz|94/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|switch|p2a: Xatu|Xatu, M|70/100
+|move|p1a: Mandibuzz|Knock Off|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|56/100
+|
+|-damage|p1a: Mandibuzz|88/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|100/100
+|-singleturn|p2a: Xatu|move: Roost
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Toxtricity|Boomburst|p2a: Hippowdon
+|-damage|p2a: Hippowdon|35/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxtricity|94/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|42/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|88/100 brn
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|94/100|[from] Sandstorm
+|-heal|p2a: Dragapult|100/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|82/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|switch|p2a: Hippowdon|Hippowdon, M|42/100
+|move|p1a: Mandibuzz|Knock Off|p2a: Hippowdon
+|-damage|p2a: Hippowdon|34/100
+|-enditem|p2a: Hippowdon|Leftovers|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mandibuzz|76/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p1a: Mandibuzz|Taunt|p2a: Hippowdon
+|-start|p2a: Hippowdon|move: Taunt
+|cant|p2a: Hippowdon|move: Taunt|Slack Off
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mandibuzz|70/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|switch|p2a: Xatu|Xatu, M|100/100
+|move|p1a: Mandibuzz|Knock Off|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|86/100
+|
+|-weather|none
+|-damage|p1a: Mandibuzz|64/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: Xatu|Teleport|p2a: Xatu
+|
+|switch|p2a: Hippowdon|Hippowdon, M|34/100|[from]move: Teleport
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|27
+|
+|switch|p2a: Xatu|Xatu, M|86/100
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Xatu|80/100|[from] Sandstorm
+|upkeep
+|turn|28
+|
+|move|p1a: Seismitoad|Scald|p2a: Xatu
+|-damage|p2a: Xatu|49/100
+|-status|p2a: Xatu|brn
+|move|p2a: Xatu|Teleport|p2a: Xatu
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from]move: Teleport
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|94/100|[from] Sandstorm
+|-heal|p2a: Dragapult|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Seismitoad
+|-status|p1a: Seismitoad|brn
+|move|p1a: Seismitoad|Toxic|p2a: Dragapult
+|-status|p2a: Dragapult|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|94/100 tox|[from] Sandstorm
+|-heal|p2a: Dragapult|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Dragapult|94/100 tox|[from] psn
+|-damage|p1a: Seismitoad|94/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|switch|p2a: Xatu|Xatu, M|49/100 brn
+|move|p1a: Seismitoad|Scald|p2a: Xatu
+|-damage|p2a: Xatu|17/100 brn
+|
+|-weather|none
+|-heal|p1a: Seismitoad|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Xatu|11/100 brn|[from] brn
+|-damage|p1a: Seismitoad|94/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|61/100 brn
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Seismitoad|Scald|p2a: Xatu
+|-damage|p2a: Xatu|28/100 brn
+|
+|-heal|p1a: Seismitoad|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Xatu|22/100 brn|[from] brn
+|-damage|p1a: Seismitoad|94/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|switch|p1a: Toxtricity|Toxtricity, M|94/100
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|72/100 brn
+|-singleturn|p2a: Xatu|move: Roost
+|
+|-damage|p2a: Xatu|66/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|switch|p2a: Dragapult|Dragapult, F|94/100 tox
+|move|p1a: Toxtricity|Volt Switch|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|64/100 tox
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100|[from]move: Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|57/100 tox|[from] Sandstorm
+|-heal|p2a: Dragapult|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Dragapult|57/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|switch|p2a: Xatu|Xatu, M|66/100 brn
+|switch|p1a: Mandibuzz|Mandibuzz, F|64/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Xatu|60/100 brn|[from] Sandstorm
+|-damage|p2a: Xatu|54/100 brn|[from] brn
+|-damage|p1a: Mandibuzz|58/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|94/100|[from] Sandstorm
+|-damage|p1a: Mandibuzz|94/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|switch|p2a: Xatu|Xatu, M|54/100 brn
+|move|p1a: Mandibuzz|Knock Off|p2a: Xatu
+|-supereffective|p2a: Xatu
+|-damage|p2a: Xatu|38/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Xatu|32/100 brn|[from] Sandstorm
+|-damage|p2a: Xatu|26/100 brn|[from] brn
+|-damage|p1a: Mandibuzz|88/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|switch|p1a: Toxtricity|Toxtricity, M|94/100
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|76/100 brn
+|-singleturn|p2a: Xatu|move: Roost
+|
+|-weather|none
+|-damage|p2a: Xatu|70/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|switch|p2a: Dragapult|Dragapult, F|57/100 tox
+|move|p1a: Toxtricity|Boomburst|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-heal|p2a: Dragapult|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Dragapult|57/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|88/100 brn
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Mandibuzz
+|-fail|p1a: Mandibuzz|brn
+|
+|-heal|p2a: Dragapult|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Dragapult|51/100 tox|[from] psn
+|-damage|p1a: Mandibuzz|82/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|switch|p1a: Toxtricity|Toxtricity, M|94/100
+|
+|upkeep
+|turn|41
+|
+|switch|p2a: Hippowdon|Hippowdon, M|34/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Toxtricity|Overdrive|p2a: Hippowdon
+|-immune|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxtricity|88/100|[from] Sandstorm
+|upkeep
+|turn|42
+|
+|switch|p1a: Seismitoad|Seismitoad, M|94/100 brn
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Seismitoad|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Seismitoad|94/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|switch|p1a: Toxtricity|Toxtricity, M|88/100
+|switch|p2a: Xatu|Xatu, M|70/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxtricity|82/100|[from] Sandstorm
+|-damage|p2a: Xatu|64/100 brn|[from] Sandstorm
+|-damage|p2a: Xatu|58/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|switch|p2a: Dragapult|Dragapult, F|51/100 tox
+|move|p1a: Toxtricity|Boomburst|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|45/100 tox|[from] Sandstorm
+|-damage|p1a: Toxtricity|76/100|[from] Sandstorm
+|-heal|p2a: Dragapult|51/100 tox|[from] item: Leftovers
+|-damage|p2a: Dragapult|45/100 tox|[from] psn
+|upkeep
+|turn|45
+|
+|switch|p2a: Dracovish|Dracovish|94/100
+|switch|p1a: Mandibuzz|Mandibuzz, F|82/100 brn
+|
+|-weather|none
+|-damage|p1a: Mandibuzz|76/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|switch|p1a: Seismitoad|Seismitoad, M|94/100 brn
+|move|p2a: Dracovish|Crunch|p1a: Seismitoad
+|-damage|p1a: Seismitoad|73/100 brn
+|-unboost|p1a: Seismitoad|def|1
+|
+|-heal|p1a: Seismitoad|79/100 brn|[from] item: Leftovers
+|-damage|p1a: Seismitoad|73/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|switch|p2a: Xatu|Xatu, M|58/100 brn
+|move|p1a: Seismitoad|Toxic|p2a: Xatu
+|move|p2a: Xatu|Toxic||[from]Magic Bounce|[still]
+|-fail|p2a: Xatu
+|
+|-heal|p1a: Seismitoad|79/100 brn|[from] item: Leftovers
+|-damage|p2a: Xatu|52/100 brn|[from] brn
+|-damage|p1a: Seismitoad|73/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|switch|p1a: Toxapex|Toxapex, M|41/100
+|move|p2a: Xatu|Teleport|p2a: Xatu
+|
+|switch|p2a: Hippowdon|Hippowdon, M|84/100|[from]move: Teleport
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|35/100|[from] Sandstorm
+|-heal|p1a: Toxapex|41/100|[from] item: Black Sludge
+|upkeep
+|turn|49
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|76/100 brn
+|move|p2a: Hippowdon|Earthquake|p1a: Mandibuzz
+|-immune|p1a: Mandibuzz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mandibuzz|70/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|switch|p2a: Dracovish|Dracovish|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dracovish|88/100|[from] Sandstorm
+|upkeep
+|turn|51
+|
+|switch|p1a: Seismitoad|Seismitoad, M|73/100 brn
+|move|p2a: Dracovish|Fishious Rend|p1a: Seismitoad
+|-heal|p1a: Seismitoad|98/100 brn|[from] ability: Water Absorb|[of] p2a: Dracovish
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dracovish|82/100|[from] Sandstorm
+|-heal|p1a: Seismitoad|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Seismitoad|94/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|switch|p2a: Xatu|Xatu, M|52/100 brn
+|switch|p1a: Toxtricity|Toxtricity, M|76/100
+|
+|-weather|none
+|-damage|p2a: Xatu|46/100 brn|[from] brn
+|upkeep
+|turn|53
+|
+|switch|p2a: Dragapult|Dragapult, F|45/100 tox
+|move|p1a: Toxtricity|Boomburst|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-heal|p2a: Dragapult|51/100 tox|[from] item: Leftovers
+|-damage|p2a: Dragapult|45/100 tox|[from] psn
+|upkeep
+|turn|54
+|
+|switch|p2a: Dracovish|Dracovish|82/100
+|switch|p1a: Mandibuzz|Mandibuzz, F|70/100 brn
+|
+|-damage|p1a: Mandibuzz|64/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|switch|p1a: Toxapex|Toxapex, M|75/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|44/100
+|
+|-heal|p1a: Toxapex|50/100|[from] item: Black Sludge
+|upkeep
+|turn|56
+|
+|switch|p2a: Xatu|Xatu, M|46/100 brn
+|move|p1a: Toxapex|Toxic|p2a: Xatu
+|move|p2a: Xatu|Toxic|p1a: Toxapex|[from]Magic Bounce|[miss]
+|-miss|p2a: Xatu|p1a: Toxapex
+|
+|-heal|p1a: Toxapex|57/100|[from] item: Black Sludge
+|-damage|p2a: Xatu|40/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|switch|p2a: Dracovish|Dracovish|82/100
+|move|p1a: Toxapex|Scald|p2a: Dracovish
+|-resisted|p2a: Dracovish
+|-damage|p2a: Dracovish|77/100
+|
+|-heal|p1a: Toxapex|63/100|[from] item: Black Sludge
+|upkeep
+|turn|58
+|
+|switch|p2a: Xatu|Xatu, M|40/100 brn
+|move|p1a: Toxapex|Toxic|p2a: Xatu
+|move|p2a: Xatu|Toxic|p1a: Toxapex|[from]Magic Bounce
+|-immune|p1a: Toxapex
+|
+|-heal|p1a: Toxapex|69/100|[from] item: Black Sludge
+|-damage|p2a: Xatu|34/100 brn|[from] brn
+|upkeep
+|turn|59
+|
+|move|p2a: Xatu|Roost|p2a: Xatu
+|-heal|p2a: Xatu|84/100 brn
+|-singleturn|p2a: Xatu|move: Roost
+|move|p1a: Toxapex|Scald|p2a: Xatu
+|-damage|p2a: Xatu|63/100 brn
+|
+|-heal|p1a: Toxapex|75/100|[from] item: Black Sludge
+|-damage|p2a: Xatu|57/100 brn|[from] brn
+|upkeep
+|turn|60
+|-message|Watermess forfeited.
+|
+|win|Garchomplte
+|raw|Garchomplte's rating: 1581 → 1604(+23 for winning)
+|raw|Watermess's rating: 1634 → 1611(-23 for losing)

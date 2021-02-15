@@ -1,0 +1,258 @@
+|ScrapeTime|2020-01-02-09:15:00
+|j|☆Gwkgk
+|j|☆IAmGarbo
+|player|p1|Gwkgk|giovanni|1000
+|player|p2|IAmGarbo|bellelba|1010
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Galvantula, F|
+|poke|p1|Butterfree, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Espeon, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Gyarados, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Inteleon, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Galvantula, F|
+|poke|p2|Dugtrio, M|
+|poke|p2|Corsola-Galar, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Galvantula|Galvantula, F|100/100
+|switch|p2a: Galvantula|Galvantula, F|100/100
+|turn|1
+|
+|move|p2a: Galvantula|String Shot|p1a: Galvantula
+|-unboost|p1a: Galvantula|spe|2
+|move|p1a: Galvantula|Sticky Web|p2a: Galvantula
+|-sidestart|p2: IAmGarbo|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Galvantula|Sticky Web|p1a: Excadrill
+|-sidestart|p1: Gwkgk|move: Sticky Web
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Galvantula|String Shot|p1a: Excadrill
+|-unboost|p1a: Excadrill|spe|2
+|move|p1a: Excadrill|Earthquake|p2a: Galvantula
+|-damage|p2a: Galvantula|25/100
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Galvantula|Gastro Acid|p1a: Excadrill
+|-endability|p1a: Excadrill
+|move|p1a: Excadrill|Earthquake|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|-activate|p2a: Corsola|move: Sticky Web
+|-unboost|p2a: Corsola|spe|1
+|turn|5
+|
+|move|p1a: Excadrill|Iron Head|p2a: Corsola
+|-damage|p2a: Corsola|71/100
+|move|p2a: Corsola|Will-O-Wisp|p1a: Excadrill
+|-status|p1a: Excadrill|brn
+|
+|-damage|p1a: Excadrill|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Excadrill|Iron Head|p2a: Corsola
+|-damage|p2a: Corsola|55/100
+|move|p2a: Corsola|Strength Sap|p1a: Excadrill
+|-unboost|p1a: Excadrill|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-damage|p1a: Excadrill|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-activate|p1a: Ferrothorn|move: Sticky Web
+|-unboost|p1a: Ferrothorn|spe|1
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|-activate|p2a: Dugtrio|move: Sticky Web
+|-unboost|p2a: Dugtrio|spe|1
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Dugtrio|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Gwkgk|move: Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Dugtrio
+|-start|p2a: Dugtrio|move: Leech Seed
+|
+|-damage|p2a: Dugtrio|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|9
+|
+|move|p2a: Dugtrio|Memento|p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|atk|2
+|-unboost|p1a: Ferrothorn|spa|2
+|faint|p2a: Dugtrio
+|move|p1a: Ferrothorn|Stealth Rock|p2: Dugtrio
+|-sidestart|p2: IAmGarbo|move: Stealth Rock
+|
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|-damage|p2a: Corsola|88/100|[from] Stealth Rock
+|-activate|p2a: Corsola|move: Sticky Web
+|-unboost|p2a: Corsola|spe|1
+|turn|10
+|
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-activate|p2a: Rillaboom|move: Sticky Web
+|-unboost|p2a: Rillaboom|spe|1
+|-damage|p2a: Rillaboom|88/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Rillaboom
+|-immune|p2a: Rillaboom
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Rillaboom|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|81/100
+|-damage|p2a: Rillaboom|76/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from]move: U-turn
+|-activate|p2a: Cinderace|move: Sticky Web
+|-unboost|p2a: Cinderace|spe|1
+|-damage|p2a: Cinderace|76/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|59/100
+|-enditem|p2a: Cinderace|Focus Sash|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|87/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Cinderace|Pyro Ball|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Ferrothorn|93/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Galvantula|Galvantula, F|100/100
+|-damage|p1a: Galvantula|76/100|[from] Stealth Rock
+|-activate|p1a: Galvantula|move: Sticky Web
+|-unboost|p1a: Galvantula|spe|1
+|move|p2a: Cinderace|Pyro Ball|p1a: Galvantula
+|-supereffective|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|88/100 brn
+|-activate|p1a: Excadrill|move: Sticky Web
+|-unboost|p1a: Excadrill|spe|1
+|-damage|p1a: Excadrill|85/100 brn|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|14
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Excadrill|[miss]
+|-miss|p2a: Cinderace|p1a: Excadrill
+|move|p1a: Excadrill|Rapid Spin|p2a: Cinderace
+|-damage|p2a: Cinderace|45/100
+|-sideend|p1: Gwkgk|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-sideend|p1: Gwkgk|Sticky Web|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|
+|-damage|p1a: Excadrill|79/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Excadrill|Earthquake|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-damage|p1a: Excadrill|73/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, M|88/100
+|-damage|p2a: Corsola|76/100|[from] Stealth Rock
+|-activate|p2a: Corsola|move: Sticky Web
+|-unboost|p2a: Corsola|spe|1
+|turn|16
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|93/100
+|move|p2a: Corsola|Strength Sap|p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-heal|p1a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Ferrothorn|Leech Seed|p2a: Corsola
+|-start|p2a: Corsola|move: Leech Seed
+|move|p2a: Corsola|Will-O-Wisp|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|brn
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Corsola|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p1a: Ferrothorn|Knock Off|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|79/100
+|-enditem|p2a: Corsola|Eviolite|[from] move: Knock Off|[of] p1a: Ferrothorn
+|move|p2a: Corsola|Night Shade|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|66/100 brn
+|
+|-heal|p1a: Ferrothorn|72/100 brn|[from] item: Leftovers
+|-damage|p2a: Corsola|66/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|83/100 brn|[silent]
+|-damage|p1a: Ferrothorn|77/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p1a: Ferrothorn|Knock Off|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|56/100
+|move|p2a: Corsola|Strength Sap|p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-heal|p1a: Ferrothorn|83/100 brn|[from] item: Leftovers
+|-damage|p2a: Corsola|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|95/100 brn|[silent]
+|-damage|p1a: Ferrothorn|89/100 brn|[from] brn
+|upkeep
+|turn|20
+|-message|IAmGarbo forfeited.
+|
+|win|Gwkgk
+|l|☆IAmGarbo

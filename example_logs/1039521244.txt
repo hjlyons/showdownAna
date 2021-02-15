@@ -1,0 +1,498 @@
+|ScrapeTime|2020-01-02-05:35:12
+|j|☆Mariyellow
+|j|☆Kdyg565
+|player|p1|Mariyellow|70|1541
+|player|p2|Kdyg565|guitarist|1531
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tyranitar, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Aegislash, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Corviknight, F|
+|poke|p2|Sirfetch'd, F|
+|poke|p2|Clefable, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Seismitoad, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|1
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Rotom
+|-damage|p2a: Rotom|6/100
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: Rotom|Trick|p1a: Dragapult
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Dragapult
+|-item|p1a: Dragapult|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Choice Specs|[from] move: Trick
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Seismitoad
+|-damage|p2a: Seismitoad|79/100
+|-unboost|p2a: Seismitoad|spd|1
+|
+|-heal|p2a: Seismitoad|86/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Elias|Aegislash, M, shiny|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Elias
+|-sidestart|p1: Mariyellow|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|92/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Rotom|Rotom-Heat|6/100
+|-formechange|p1a: Elias|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Elias|Shadow Ball|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|5
+|
+|-formechange|p1a: Elias|Aegislash||[from] ability: Stance Change
+|move|p1a: Elias|King's Shield|p1a: Elias
+|-singleturn|p1a: Elias|Protect
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Elias
+|-status|p1a: Elias|brn
+|
+|-damage|p1a: Elias|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p2a: Dragapult|Hex|p1a: Elias
+|-supereffective|p1a: Elias
+|-damage|p1a: Elias|24/100 brn
+|-formechange|p1a: Elias|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Elias|Shadow Ball|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Elias|30/100 brn|[from] item: Leftovers
+|-damage|p1a: Elias|24/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|100/100
+|turn|7
+|
+|-formechange|p1a: Elias|Aegislash||[from] ability: Stance Change
+|move|p1a: Elias|King's Shield|p1a: Elias
+|-singleturn|p1a: Elias|Protect
+|move|p2a: Sirfetch'd|Knock Off|p1a: Elias
+|-activate|p1a: Elias|move: Protect
+|-unboost|p2a: Sirfetch'd|atk|1
+|
+|-heal|p1a: Elias|30/100 brn|[from] item: Leftovers
+|-damage|p1a: Elias|24/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p1a: Oswaldo|Ferrothorn, M|100/100
+|-damage|p1a: Oswaldo|94/100|[from] Stealth Rock
+|move|p2a: Sirfetch'd|Knock Off|p1a: Oswaldo
+|-damage|p1a: Oswaldo|72/100
+|-damage|p2a: Sirfetch'd|88/100|[from] ability: Iron Barbs|[of] p1a: Oswaldo
+|-enditem|p1a: Oswaldo|Leftovers|[from] move: Knock Off|[of] p2a: Sirfetch'd
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|move|p1a: Oswaldo|Leech Seed|p2a: Corviknight
+|-start|p2a: Corviknight|move: Leech Seed
+|
+|-damage|p2a: Corviknight|88/100|[from] Leech Seed|[of] p1a: Oswaldo
+|-heal|p1a: Oswaldo|86/100|[silent]
+|upkeep
+|turn|10
+|
+|switch|p2a: Seismitoad|Seismitoad, F|92/100
+|move|p1a: Oswaldo|Body Press|p2a: Seismitoad
+|-damage|p2a: Seismitoad|71/100
+|
+|-heal|p2a: Seismitoad|77/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Mary|Tyranitar, F|100/100
+|-damage|p1a: Mary|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Mary
+|move|p2a: Seismitoad|Scald|p1a: Mary
+|-supereffective|p1a: Mary
+|-damage|p1a: Mary|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Seismitoad|83/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Mary|Stealth Rock|p2a: Clefable
+|-sidestart|p2: Kdyg565|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|switch|p1a: Elias|Aegislash, M, shiny|24/100 brn
+|-damage|p1a: Elias|18/100 brn|[from] Stealth Rock
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Elias|24/100 brn|[from] item: Leftovers
+|-damage|p1a: Elias|18/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|88/100
+|-damage|p2a: Sirfetch'd|82/100|[from] Stealth Rock
+|-formechange|p1a: Elias|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Elias|Shadow Ball|p2a: Sirfetch'd
+|-damage|p2a: Sirfetch'd|12/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sirfetch'd|6/100|[from] Sandstorm
+|-heal|p2a: Sirfetch'd|73/100|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Elias|24/100 brn|[from] item: Leftovers
+|-damage|p1a: Elias|18/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p2a: Seismitoad|Seismitoad, F|83/100
+|-damage|p2a: Seismitoad|77/100|[from] Stealth Rock
+|-formechange|p1a: Elias|Aegislash||[from] ability: Stance Change
+|move|p1a: Elias|King's Shield||[still]
+|-fail|p1a: Elias
+|
+|-weather|none
+|-heal|p2a: Seismitoad|83/100|[from] item: Leftovers
+|-heal|p1a: Elias|24/100 brn|[from] item: Leftovers
+|-damage|p1a: Elias|18/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Earthquake|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|18/100
+|
+|-heal|p2a: Seismitoad|89/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Clefable
+|-damage|p2a: Clefable|73/100
+|
+|-heal|p2a: Clefable|79/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Elias|Aegislash, M, shiny|18/100 brn
+|-damage|p1a: Elias|12/100 brn|[from] Stealth Rock
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|85/100|[from] item: Leftovers
+|-heal|p1a: Elias|18/100 brn|[from] item: Leftovers
+|-damage|p1a: Elias|12/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|switch|p2a: Corviknight|Corviknight, F|88/100
+|-damage|p2a: Corviknight|75/100|[from] Stealth Rock
+|-formechange|p1a: Elias|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Elias|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|43/100
+|
+|-heal|p2a: Corviknight|92/100|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Corviknight|99/100|[from] item: Leftovers
+|-heal|p1a: Elias|18/100 brn|[from] item: Leftovers
+|-damage|p1a: Elias|12/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p1a: Oswaldo|Ferrothorn, M|86/100
+|-damage|p1a: Oswaldo|80/100|[from] Stealth Rock
+|move|p2a: Corviknight|Defog|p1a: Oswaldo
+|-unboost|p1a: Oswaldo|evasion|1
+|-sideend|p1: Mariyellow|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: Kdyg565|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|73/100
+|move|p1a: Oswaldo|Gyro Ball|p2a: Sirfetch'd
+|-damage|p2a: Sirfetch'd|24/100
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Elias|Aegislash, M, shiny|12/100 brn
+|move|p2a: Sirfetch'd|Close Combat|p1a: Elias
+|-supereffective|p1a: Elias
+|-damage|p1a: Elias|0 fnt
+|-unboost|p2a: Sirfetch'd|def|1
+|-unboost|p2a: Sirfetch'd|spd|1
+|faint|p1a: Elias
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|18/100
+|turn|23
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|75/100
+|
+|-heal|p2a: Corviknight|81/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Oswaldo|Ferrothorn, M|80/100
+|move|p2a: Corviknight|U-turn|p1a: Oswaldo
+|-damage|p1a: Oswaldo|71/100
+|-damage|p2a: Corviknight|68/100|[from] ability: Iron Barbs|[of] p1a: Oswaldo
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|24/100|[from]move: U-turn
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Sirfetch'd|Close Combat|p1a: Oswaldo
+|-supereffective|p1a: Oswaldo
+|-damage|p1a: Oswaldo|0 fnt
+|-damage|p2a: Sirfetch'd|12/100|[from] ability: Iron Barbs|[of] p1a: Oswaldo
+|-unboost|p2a: Sirfetch'd|def|1
+|-unboost|p2a: Sirfetch'd|spd|1
+|faint|p1a: Oswaldo
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|18/100
+|turn|26
+|
+|switch|p2a: Clefable|Clefable, F|85/100
+|move|p1a: Dragapult|Fire Blast|p2a: Clefable
+|-damage|p2a: Clefable|62/100
+|
+|-heal|p2a: Clefable|68/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p1a: Leo|Excadrill, M, shiny|100/100
+|-item|p1a: Leo|Air Balloon
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|12/100
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Dragapult|Dragapult, M|18/100
+|switch|p2a: Corviknight|Corviknight, F|68/100
+|
+|-heal|p2a: Corviknight|75/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: Clefable|Clefable, F|68/100
+|move|p1a: Dragapult|Fire Blast|p2a: Clefable
+|-damage|p2a: Clefable|44/100
+|-status|p2a: Clefable|brn
+|
+|-heal|p2a: Clefable|50/100 brn|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p1a: Yon|Conkeldurr, M|100/100
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|57/100 brn|[from] item: Leftovers
+|-status|p1a: Yon|brn|[from] item: Flame Orb
+|upkeep
+|turn|31
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Yon|Facade|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|100/100 brn|[from] move: Wish|[wisher] Clefable
+|-damage|p1a: Yon|94/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p1a: Yon|Facade|p2a: Clefable
+|-damage|p2a: Clefable|18/100 brn
+|move|p2a: Clefable|Moonblast|p1a: Yon
+|-supereffective|p1a: Yon
+|-damage|p1a: Yon|12/100 brn
+|
+|-heal|p2a: Clefable|24/100 brn|[from] item: Leftovers
+|-damage|p1a: Yon|6/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|switch|p1a: Dragapult|Dragapult, M|18/100
+|move|p2a: Clefable|Protect||[still]
+|-fail|p2a: Clefable
+|
+|-heal|p2a: Clefable|30/100 brn|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Dragapult|Shadow Ball|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|36/100 brn|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Clefable
+|-damage|p2a: Clefable|9/100 brn
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|15/100 brn|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Dragapult|Shadow Ball|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|65/100 brn|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Clefable|71/100 brn|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|switch|p1a: Leo|Excadrill, M, shiny|100/100
+|-item|p1a: Leo|Air Balloon
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|77/100 brn|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|switch|p2a: Corviknight|Corviknight, F|75/100
+|move|p1a: Leo|Swords Dance|p1a: Leo
+|-boost|p1a: Leo|atk|2
+|
+|-heal|p2a: Corviknight|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|39
+|
+|move|p1a: Leo|Rock Slide|p2a: Corviknight
+|-damage|p2a: Corviknight|49/100
+|move|p2a: Corviknight|U-turn|p1a: Leo
+|-resisted|p1a: Leo
+|-damage|p1a: Leo|91/100
+|-enditem|p1a: Leo|Air Balloon
+|
+|switch|p2a: Seismitoad|Seismitoad, F|89/100|[from]move: U-turn
+|
+|-heal|p2a: Seismitoad|95/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: Leo|Earthquake|p2a: Seismitoad
+|-damage|p2a: Seismitoad|9/100
+|move|p2a: Seismitoad|Earthquake|p1a: Leo
+|-supereffective|p1a: Leo
+|-damage|p1a: Leo|9/100
+|
+|-heal|p2a: Seismitoad|15/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p1a: Leo|Rock Slide|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|12/100
+|turn|42
+|
+|switch|p1a: Mary|Tyranitar, F|62/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Mary
+|move|p2a: Sirfetch'd|First Impression|p1a: Mary
+|-supereffective|p1a: Mary
+|-damage|p1a: Mary|0 fnt
+|faint|p1a: Mary
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sirfetch'd|6/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Yon|Conkeldurr, M|6/100 brn
+|turn|43
+|
+|switch|p2a: Corviknight|Corviknight, F|49/100
+|move|p1a: Yon|Facade|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Yon|0 fnt|[from] Sandstorm
+|faint|p1a: Yon
+|-heal|p2a: Corviknight|22/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Leo|Excadrill, M, shiny|9/100
+|turn|44
+|
+|move|p1a: Leo|Rock Slide|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|6/100
+|turn|45
+|
+|switch|p1a: Dragapult|Dragapult, M|18/100
+|switch|p2a: Clefable|Clefable, F|77/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|12/100|[from] Sandstorm
+|-heal|p2a: Clefable|83/100 brn|[from] item: Leftovers
+|upkeep
+|turn|46
+|-message|Mariyellow forfeited.
+|
+|win|Kdyg565
+|l|☆Mariyellow
+|raw|Mariyellow's rating: 1535 → 1515(-20 for losing)
+|raw|Kdyg565's rating: 1531 → 1551(+20 for winning)

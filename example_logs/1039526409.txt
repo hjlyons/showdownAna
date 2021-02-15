@@ -1,0 +1,307 @@
+|ScrapeTime|2020-01-02-05:44:57
+|j|☆Peacemann
+|j|☆EmperadorSRN
+|player|p1|Peacemann|drake-gen3|1488
+|player|p2|EmperadorSRN|52|1494
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Seismitoad, M|
+|poke|p1|Durant, M|
+|poke|p1|Hydreigon, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Machamp, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Hippowdon, M|
+|poke|p2|Drednaw, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Kommo-o, M|
+|poke|p2|Vikavolt, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mon Fils|Durant, M|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Peacemann)
+|
+|move|p1a: Mon Fils|First Impression|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|33/100
+|move|p2a: Cinderace|U-turn|p1a: Mon Fils
+|-resisted|p1a: Mon Fils
+|-damage|p1a: Mon Fils|78/100
+|
+|switch|p2a: Vikavolt|Vikavolt, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Kawhi FILS CADET|Machamp, M|100/100
+|move|p2a: Vikavolt|Sticky Web|p1a: Kawhi FILS CADET
+|-sidestart|p1: Peacemann|move: Sticky Web
+|
+|-status|p1a: Kawhi FILS CADET|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|move|p1a: Kawhi FILS CADET|Knock Off|p2a: Vikavolt
+|-damage|p2a: Vikavolt|39/100
+|-enditem|p2a: Vikavolt|Leftovers|[from] move: Knock Off|[of] p1a: Kawhi FILS CADET
+|move|p2a: Vikavolt|Volt Switch|p1a: Kawhi FILS CADET
+|-damage|p1a: Kawhi FILS CADET|54/100 brn
+|
+|switch|p2a: Hippowdon|Hippowdon, M|100/100|[from]move: Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kawhi FILS CADET|48/100 brn|[from] Sandstorm
+|-damage|p1a: Kawhi FILS CADET|41/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Kawhi FILS CADET|Knock Off|p2a: Hippowdon
+|-crit|p2a: Hippowdon
+|-damage|p2a: Hippowdon|55/100
+|-damage|p1a: Kawhi FILS CADET|25/100 brn|[from] item: Rocky Helmet|[of] p2a: Hippowdon
+|-enditem|p2a: Hippowdon|Rocky Helmet|[from] move: Knock Off|[of] p1a: Kawhi FILS CADET
+|move|p2a: Hippowdon|Earthquake|p1a: Kawhi FILS CADET
+|-damage|p1a: Kawhi FILS CADET|0 fnt
+|faint|p1a: Kawhi FILS CADET
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: SosaChamberlain|Excadrill, F|100/100
+|-activate|p1a: SosaChamberlain|move: Sticky Web
+|-unboost|p1a: SosaChamberlain|spe|1
+|-ability|p1a: SosaChamberlain|Mold Breaker
+|turn|5
+|
+|move|p1a: SosaChamberlain|Rapid Spin|p2a: Hippowdon
+|-crit|p2a: Hippowdon
+|-damage|p2a: Hippowdon|43/100
+|-sideend|p1: Peacemann|Sticky Web|[from] move: Rapid Spin|[of] p1a: SosaChamberlain
+|-boost|p1a: SosaChamberlain|spe|1
+|move|p2a: Hippowdon|Yawn|p1a: SosaChamberlain
+|-start|p1a: SosaChamberlain|move: Yawn|[of] p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: La6T|Hydreigon, M|100/100
+|move|p2a: Hippowdon|Stealth Rock|p1a: La6T
+|-sidestart|p1: Peacemann|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: La6T|94/100|[from] Sandstorm
+|-heal|p1a: La6T|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: La6T|Substitute|p1a: La6T
+|-start|p1a: La6T|Substitute
+|-damage|p1a: La6T|76/100
+|move|p2a: Hippowdon|Yawn||[still]
+|-fail|p2a: Hippowdon
+|
+|-weather|none
+|-heal|p1a: La6T|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Vikavolt|Vikavolt, M|39/100
+|move|p1a: La6T|Nasty Plot|p1a: La6T
+|-boost|p1a: La6T|spa|2
+|
+|-heal|p1a: La6T|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: La6T|Dark Pulse|p2a: Vikavolt
+|-damage|p2a: Vikavolt|0 fnt
+|faint|p2a: Vikavolt
+|
+|-heal|p1a: La6T|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|33/100
+|turn|10
+|
+|move|p2a: Cinderace|U-turn|p1a: La6T
+|-supereffective|p1a: La6T
+|-end|p1a: La6T|Substitute
+|
+|switch|p2a: Hippowdon|Hippowdon, M|43/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: La6T|Substitute|p1a: La6T
+|-start|p1a: La6T|Substitute
+|-damage|p1a: La6T|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: La6T|63/100|[from] Sandstorm
+|-heal|p1a: La6T|69/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|c|☆Peacemann|oof
+|
+|move|p1a: La6T|Dark Pulse|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: La6T|63/100|[from] Sandstorm
+|-heal|p1a: La6T|69/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|33/100
+|turn|12
+|
+|move|p2a: Cinderace|U-turn|p1a: La6T
+|-supereffective|p1a: La6T
+|-end|p1a: La6T|Substitute
+|
+|switch|p2a: Drednaw|Drednaw, M|100/100|[from]move: U-turn
+|move|p1a: La6T|Substitute|p1a: La6T
+|-start|p1a: La6T|Substitute
+|-damage|p1a: La6T|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: La6T|38/100|[from] Sandstorm
+|-heal|p1a: La6T|44/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|c|☆Peacemann|OOF
+|
+|move|p1a: La6T|Dark Pulse|p2a: Drednaw
+|-damage|p2a: Drednaw|24/100
+|move|p2a: Drednaw|Rock Polish|p2a: Drednaw
+|-boost|p2a: Drednaw|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: La6T|38/100|[from] Sandstorm
+|-heal|p1a: La6T|44/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Drednaw|Rock Slide|p1a: La6T
+|-end|p1a: La6T|Substitute
+|move|p1a: La6T|Dark Pulse|p2a: Drednaw
+|-damage|p2a: Drednaw|0 fnt
+|faint|p2a: Drednaw
+|
+|-weather|none
+|-heal|p1a: La6T|50/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|33/100
+|turn|15
+|
+|move|p2a: Cinderace|U-turn|p1a: La6T
+|-supereffective|p1a: La6T
+|-damage|p1a: La6T|0 fnt
+|faint|p1a: La6T
+|
+|switch|p2a: Kommo-o|Kommo-o, M|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p1a: GUEZ|Dragapult, M|100/100
+|-damage|p1a: GUEZ|88/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p1a: Mon Fils|Durant, M|78/100
+|-damage|p1a: Mon Fils|66/100|[from] Stealth Rock
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Mon Fils|Iron Head|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|turn|18
+|
+|move|p1a: Mon Fils|Iron Head|p2a: Kommo-o|[miss]
+|-miss|p1a: Mon Fils|p2a: Kommo-o
+|move|p2a: Kommo-o|Substitute|p2a: Kommo-o
+|-start|p2a: Kommo-o|Substitute
+|-damage|p2a: Kommo-o|75/100
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Mon Fils|Iron Head|p2a: Kommo-o
+|-end|p2a: Kommo-o|Substitute
+|move|p2a: Kommo-o|Belly Drum|p2a: Kommo-o
+|-damage|p2a: Kommo-o|25/100
+|-setboost|p2a: Kommo-o|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Kommo-o|Salac Berry|[eat]
+|-boost|p2a: Kommo-o|spe|1
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: GUEZ|Dragapult, M|88/100
+|-damage|p1a: GUEZ|76/100|[from] Stealth Rock
+|move|p2a: Kommo-o|Drain Punch|p1a: GUEZ
+|-immune|p1a: GUEZ
+|
+|upkeep
+|turn|21
+|
+|move|p1a: GUEZ|Draco Meteor|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|-unboost|p1a: GUEZ|spa|2
+|faint|p2a: Kommo-o
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|33/100
+|turn|22
+|c|☆Peacemann|OOOOOOOF
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: GUEZ
+|-supereffective|p1a: GUEZ
+|-damage|p1a: GUEZ|0 fnt
+|faint|p1a: GUEZ
+|
+|upkeep
+|c|☆Peacemann|you think i care?
+|c|☆Peacemann|the god is here
+|
+|switch|p1a: NaessSuperstar|Seismitoad, M|100/100
+|-damage|p1a: NaessSuperstar|94/100|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: NaessSuperstar
+|-damage|p1a: NaessSuperstar|71/100
+|move|p1a: NaessSuperstar|Earthquake|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|win|Peacemann
+|c|☆Peacemann|OOOOOOOOF
+|l|☆EmperadorSRN
+|raw|Peacemann's rating: 1488 → 1509(+21 for winning)
+|raw|EmperadorSRN's rating: 1494 → 1474(-20 for losing)

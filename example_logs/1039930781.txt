@@ -1,0 +1,181 @@
+|ScrapeTime|2020-01-02-23:35:25
+|j|☆Crimson Endeavor
+|j|☆FrogMasterKrunk
+|player|p1|Crimson Endeavor|lance|
+|player|p2|FrogMasterKrunk|gardenia|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Jolteon, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Cofagrigus, F|
+|poke|p1|Lucario, F|
+|poke|p1|Rhyperior, M|
+|poke|p1|Ditto|
+|poke|p2|Silvally-*|
+|poke|p2|Piloswine, M|
+|poke|p2|Aegislash, F|
+|poke|p2|Weavile, F|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Tsareena, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cofagrigus|Cofagrigus, F|100/100
+|switch|p2a: Fauxceus|Silvally-Electric|100/100
+|turn|1
+|
+|switch|p2a: OK Boomer|Conkeldurr, M|100/100
+|move|p1a: Cofagrigus|Toxic Spikes|p2a: OK Boomer
+|-sidestart|p2: FrogMasterKrunk|move: Toxic Spikes
+|
+|-status|p2a: OK Boomer|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|move|p2a: OK Boomer|Earthquake|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|50/100
+|move|p1a: Cofagrigus|Hex|p2a: OK Boomer
+|-damage|p2a: OK Boomer|50/100 brn
+|
+|-heal|p1a: Cofagrigus|57/100|[from] item: Leftovers
+|-damage|p2a: OK Boomer|44/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: OK Boomer|Earthquake|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|10/100
+|move|p1a: Cofagrigus|Hex|p2a: OK Boomer
+|-damage|p2a: OK Boomer|0 fnt
+|faint|p2a: OK Boomer
+|
+|-heal|p1a: Cofagrigus|16/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Nintendo SwiSh|Aegislash, F|100/100
+|turn|4
+|
+|-formechange|p2a: Nintendo SwiSh|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Nintendo SwiSh|Shadow Sneak|p1a: Cofagrigus
+|-supereffective|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|0 fnt
+|faint|p1a: Cofagrigus
+|
+|upkeep
+|
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|turn|5
+|
+|switch|p2a: Chun Li|Tsareena, F|100/100
+|-status|p2a: Chun Li|psn
+|move|p1a: Rhyperior|Stealth Rock|p2a: Chun Li
+|-sidestart|p2: FrogMasterKrunk|move: Stealth Rock
+|
+|-damage|p2a: Chun Li|88/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|move|p2a: Chun Li|Rapid Spin|p1a: Rhyperior
+|-resisted|p1a: Rhyperior
+|-damage|p1a: Rhyperior|96/100
+|-sideend|p2: FrogMasterKrunk|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Chun Li
+|-sideend|p2: FrogMasterKrunk|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Chun Li
+|-boost|p2a: Chun Li|spe|1
+|move|p1a: Rhyperior|Ice Punch|p2a: Chun Li
+|-supereffective|p2a: Chun Li
+|-damage|p2a: Chun Li|32/100 psn
+|
+|-damage|p2a: Chun Li|20/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|move|p2a: Chun Li|Power Whip|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|-damage|p2a: Chun Li|8/100 psn|[from] psn
+|upkeep
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|8
+|
+|move|p2a: Chun Li|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|81/100
+|
+|switch|p2a: Nintendo SwiSh|Aegislash, F|100/100|[from]move: U-turn
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-heal|p1a: Hatterene|87/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Hatterene|Mystical Fire|p2a: Nintendo SwiSh
+|-supereffective|p2a: Nintendo SwiSh
+|-damage|p2a: Nintendo SwiSh|66/100
+|-enditem|p2a: Nintendo SwiSh|Weakness Policy
+|-boost|p2a: Nintendo SwiSh|atk|2
+|-boost|p2a: Nintendo SwiSh|spa|2
+|-unboost|p2a: Nintendo SwiSh|spa|1
+|move|p2a: Nintendo SwiSh|Swords Dance|p2a: Nintendo SwiSh
+|-boost|p2a: Nintendo SwiSh|atk|2
+|
+|-heal|p1a: Hatterene|93/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Hatterene|Mystical Fire|p2a: Nintendo SwiSh
+|-supereffective|p2a: Nintendo SwiSh
+|-damage|p2a: Nintendo SwiSh|31/100
+|-unboost|p2a: Nintendo SwiSh|spa|1
+|-formechange|p2a: Nintendo SwiSh|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Nintendo SwiSh|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Nintendo SwiSh|[from] ability: Imposter
+|turn|11
+|c|☆Crimson Endeavor|Well f
+|c|☆Crimson Endeavor|Gg
+|
+|move|p2a: Nintendo SwiSh|Shadow Sneak|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, F|100/100
+|turn|12
+|
+|move|p2a: Nintendo SwiSh|Shadow Sneak|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: Jolteon|Jolteon, F|100/100
+|turn|13
+|
+|move|p2a: Nintendo SwiSh|Shadow Sneak|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|win|FrogMasterKrunk
+|c|☆FrogMasterKrunk|Trick Room worked against you

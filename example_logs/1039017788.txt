@@ -1,0 +1,676 @@
+|ScrapeTime|2020-01-01-05:22:25
+|j|☆SuperStar_27
+|j|☆Skz10032
+|player|p1|SuperStar_27|youngcouple-gen4dp|1175
+|player|p2|Skz10032|110|1178
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Chandelure, M|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Gengar, F|
+|poke|p1|Aegislash, F|
+|poke|p1|Sableye, M|
+|poke|p2|Hydreigon, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Clefable, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Seismitoad, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SuperStar_27)
+|
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|move|p1a: Dragapult|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|77/100
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100|[from]move: U-turn
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Aegislash
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Aegislash|[from]lockedmove
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|turn|3
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Corsola
+|move|p1a: Corsola|Stealth Rock|p2a: Dragapult
+|-sidestart|p2: Skz10032|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Corsola|[from]lockedmove
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|15/100
+|-start|p2a: Dragapult|Disable|Phantom Force|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Strength Sap|p2a: Dragapult
+|-unboost|p2a: Dragapult|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Corsola|Will-O-Wisp|p2a: Cinderace
+|-immune|p2a: Cinderace
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: Skz10032|Stealth Rock|[silent]
+|-sidestart|p1: SuperStar_27|Stealth Rock|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Corsola|Strength Sap|p2a: Cinderace
+|-unboost|p2a: Cinderace|atk|1
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Cinderace|U-turn|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|96/100
+|-start|p2a: Cinderace|Disable|U-turn|[from] ability: Cursed Body|[of] p1a: Corsola
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100|[from]move: U-turn
+|move|p1a: Corsola|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Skz10032|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Corviknight|Taunt|p1a: Corsola
+|-start|p1a: Corsola|move: Taunt
+|cant|p1a: Corsola|move: Taunt|Will-O-Wisp
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Corsola
+|-damage|p1a: Corsola|71/100
+|-damage|p2a: Corviknight|93/100|[from] Recoil
+|move|p1a: Corsola|Night Shade|p2a: Corviknight
+|-damage|p2a: Corviknight|67/100
+|
+|-heal|p2a: Corviknight|73/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Corsola|Night Shade|p2a: Corviknight
+|-damage|p2a: Corviknight|74/100
+|
+|-heal|p2a: Corviknight|80/100|[from] item: Leftovers
+|-end|p1a: Corsola|move: Taunt
+|upkeep
+|turn|11
+|
+|move|p2a: Corviknight|Taunt|p1a: Corsola
+|-start|p1a: Corsola|move: Taunt
+|cant|p1a: Corsola|move: Taunt|Will-O-Wisp
+|
+|-heal|p2a: Corviknight|86/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Sableye|Sableye, M|100/100
+|-damage|p1a: Sableye|88/100|[from] Stealth Rock
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|92/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Sableye|Will-O-Wisp|p2a: Corviknight
+|-status|p2a: Corviknight|brn
+|move|p2a: Corviknight|Taunt|p1a: Sableye
+|-start|p1a: Sableye|move: Taunt
+|
+|-heal|p2a: Corviknight|98/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|92/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|-damage|p1a: Chandelure|76/100|[from] Stealth Rock
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|98/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|92/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|move|p1a: Chandelure|Flamethrower|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|59/100
+|
+|-heal|p2a: Hydreigon|65/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Chandelure|Flamethrower|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|37/100
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|12/100
+|
+|-heal|p2a: Hydreigon|19/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Chandelure|Flamethrower|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|move|p2a: Hydreigon|Dark Pulse|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|-heal|p2a: Hydreigon|25/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Sableye|Sableye, M|88/100
+|-damage|p1a: Sableye|76/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Sableye
+|-damage|p1a: Sableye|47/100
+|move|p1a: Sableye|Knock Off|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|8/100
+|-enditem|p2a: Hydreigon|Leftovers|[from] move: Knock Off|[of] p1a: Sableye
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|97/100
+|move|p2a: Hydreigon|Flash Cannon|p1a: Sableye
+|-damage|p1a: Sableye|69/100
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Sableye
+|-damage|p1a: Sableye|42/100
+|move|p1a: Sableye|Night Shade|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, F|92/100 brn
+|-damage|p2a: Corviknight|80/100 brn|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Corviknight|Taunt|p1a: Sableye
+|-start|p1a: Sableye|move: Taunt
+|move|p1a: Sableye|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|56/100 brn
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Sableye
+|
+|-damage|p2a: Corviknight|50/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|99/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-damage|p2a: Corviknight|94/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Corviknight
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-damage|p2a: Corviknight|94/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Corviknight|[from]lockedmove
+|-damage|p2a: Corviknight|39/100 brn
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|89/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-damage|p2a: Corviknight|83/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|switch|p2a: Dragapult|Dragapult, M|77/100
+|-damage|p2a: Dragapult|64/100|[from] Stealth Rock
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Dragapult
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Dragapult|[from]lockedmove
+|-supereffective|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Seismitoad
+|move|p2a: Seismitoad|Scald|p1a: Dragapult|[miss]
+|-miss|p2a: Seismitoad|p1a: Dragapult
+|
+|-heal|p2a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Seismitoad|[from]lockedmove
+|-damage|p2a: Seismitoad|56/100
+|move|p2a: Seismitoad|Scald|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|71/100
+|
+|-heal|p2a: Seismitoad|62/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p1a: Gengar|Gengar, F|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Scald|p1a: Gengar
+|-damage|p1a: Gengar|58/100
+|
+|-heal|p1a: Gengar|64/100|[from] item: Black Sludge
+|-heal|p2a: Seismitoad|68/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p2a: Corviknight|Corviknight, F|83/100 brn
+|-damage|p2a: Corviknight|71/100 brn|[from] Stealth Rock
+|move|p1a: Gengar|Toxic||[still]
+|-fail|p1a: Gengar
+|
+|-heal|p1a: Gengar|70/100|[from] item: Black Sludge
+|-damage|p2a: Corviknight|65/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|switch|p1a: Sableye|Sableye, M|42/100
+|-damage|p1a: Sableye|30/100|[from] Stealth Rock
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-damage|p2a: Corviknight|94/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|80/100
+|move|p2a: Corviknight|Taunt|p1a: Sableye
+|-start|p1a: Sableye|move: Taunt
+|
+|-damage|p2a: Corviknight|88/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Sableye
+|-damage|p1a: Sableye|56/100
+|-damage|p2a: Corviknight|82/100 brn|[from] Recoil
+|move|p1a: Sableye|Night Shade|p2a: Corviknight
+|-damage|p2a: Corviknight|55/100 brn
+|
+|-damage|p2a: Corviknight|49/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|99/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Sableye|Night Shade|p2a: Corviknight
+|-damage|p2a: Corviknight|73/100 brn
+|
+|-damage|p2a: Corviknight|67/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Sableye
+|-damage|p1a: Sableye|29/100
+|-damage|p2a: Corviknight|60/100 brn|[from] Recoil
+|move|p1a: Sableye|Night Shade|p2a: Corviknight
+|-damage|p2a: Corviknight|33/100 brn
+|
+|-damage|p2a: Corviknight|27/100 brn|[from] brn
+|-end|p1a: Sableye|move: Taunt
+|upkeep
+|turn|36
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|79/100
+|move|p2a: Corviknight|Taunt|p1a: Sableye
+|-start|p1a: Sableye|move: Taunt
+|
+|-damage|p2a: Corviknight|21/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|71/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Sableye|Night Shade|p2a: Corviknight
+|-damage|p2a: Corviknight|45/100 brn
+|
+|-damage|p2a: Corviknight|38/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|89/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Sableye|Night Shade|p2a: Corviknight
+|-damage|p2a: Corviknight|62/100 brn
+|
+|-damage|p2a: Corviknight|56/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|switch|p2a: Seismitoad|Seismitoad, F|68/100
+|-damage|p2a: Seismitoad|62/100|[from] Stealth Rock
+|move|p1a: Sableye|Night Shade|p2a: Seismitoad
+|-damage|p2a: Seismitoad|38/100
+|
+|-heal|p2a: Seismitoad|44/100|[from] item: Leftovers
+|-end|p1a: Sableye|move: Taunt
+|upkeep
+|turn|40
+|
+|move|p2a: Seismitoad|Earthquake|p1a: Sableye
+|-damage|p1a: Sableye|30/100
+|move|p1a: Sableye|Knock Off|p2a: Seismitoad
+|-damage|p2a: Seismitoad|24/100
+|-enditem|p2a: Seismitoad|Leftovers|[from] move: Knock Off|[of] p1a: Sableye
+|
+|upkeep
+|turn|41
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|80/100
+|
+|upkeep
+|turn|42
+|
+|move|p1a: Sableye|Will-O-Wisp|p2a: Seismitoad
+|-status|p2a: Seismitoad|brn
+|move|p2a: Seismitoad|Scald|p1a: Sableye
+|-crit|p1a: Sableye
+|-damage|p1a: Sableye|41/100
+|-status|p1a: Sableye|brn
+|
+|-damage|p2a: Seismitoad|18/100 brn|[from] brn
+|-damage|p1a: Sableye|35/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|85/100 brn
+|move|p2a: Seismitoad|Scald|p1a: Sableye
+|-damage|p1a: Sableye|59/100 brn
+|
+|-damage|p2a: Seismitoad|12/100 brn|[from] brn
+|-damage|p1a: Sableye|53/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|100/100 brn
+|
+|-damage|p2a: Seismitoad|6/100 brn|[from] brn
+|-damage|p1a: Sableye|95/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|100/100 brn
+|move|p2a: Seismitoad|Scald|p1a: Sableye
+|-damage|p1a: Sableye|74/100 brn
+|
+|-damage|p2a: Seismitoad|0 fnt|[from] brn
+|faint|p2a: Seismitoad
+|-damage|p1a: Sableye|68/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|46
+|
+|move|p2a: Cinderace|U-turn|p1a: Sableye
+|-damage|p1a: Sableye|40/100 brn
+|
+|switch|p2a: Corviknight|Corviknight, F|56/100 brn|[from]move: U-turn
+|-damage|p2a: Corviknight|43/100 brn|[from] Stealth Rock
+|move|p1a: Sableye|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|35/100 brn
+|
+|-damage|p2a: Corviknight|29/100 brn|[from] brn
+|-damage|p1a: Sableye|34/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|move|p2a: Corviknight|Taunt|p1a: Sableye
+|-start|p1a: Sableye|move: Taunt
+|move|p1a: Sableye|Night Shade|p2a: Corviknight
+|-damage|p2a: Corviknight|3/100 brn
+|
+|-damage|p2a: Corviknight|0 fnt|[from] brn
+|faint|p2a: Corviknight
+|-damage|p1a: Sableye|28/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|48
+|
+|move|p2a: Clefable|Moonblast|p1a: Sableye
+|-supereffective|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, F|70/100
+|-damage|p1a: Gengar|58/100|[from] Stealth Rock
+|turn|49
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Gengar|Toxic|p2a: Cinderace
+|-status|p2a: Cinderace|tox
+|
+|-heal|p1a: Gengar|64/100|[from] item: Black Sludge
+|-damage|p2a: Cinderace|94/100 tox|[from] psn
+|upkeep
+|turn|50
+|
+|move|p1a: Gengar|Protect|p1a: Gengar
+|-singleturn|p1a: Gengar|Protect
+|move|p2a: Cinderace|Pyro Ball|p1a: Gengar
+|-activate|p1a: Gengar|move: Protect
+|
+|-heal|p1a: Gengar|70/100|[from] item: Black Sludge
+|-damage|p2a: Cinderace|82/100 tox|[from] psn
+|upkeep
+|turn|51
+|
+|switch|p1a: Corsola|Corsola-Galar, F|71/100
+|-damage|p1a: Corsola|58/100|[from] Stealth Rock
+|move|p2a: Cinderace|Pyro Ball|p1a: Corsola
+|-damage|p1a: Corsola|17/100
+|-start|p2a: Cinderace|Disable|Pyro Ball|[from] ability: Cursed Body|[of] p1a: Corsola
+|
+|-damage|p2a: Cinderace|63/100 tox|[from] psn
+|upkeep
+|turn|52
+|
+|move|p2a: Cinderace|U-turn|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|9/100
+|
+|switch|p2a: Clefable|Clefable, F|100/100|[from]move: U-turn
+|move|p1a: Corsola|Strength Sap|p2a: Clefable
+|-unboost|p2a: Clefable|atk|1
+|-heal|p1a: Corsola|50/100
+|
+|upkeep
+|turn|53
+|
+|move|p2a: Clefable|Moonblast|p1a: Corsola
+|-damage|p1a: Corsola|19/100
+|-start|p2a: Clefable|Disable|Moonblast|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Strength Sap|p2a: Clefable
+|-unboost|p2a: Clefable|atk|1
+|-heal|p1a: Corsola|46/100
+|
+|upkeep
+|turn|54
+|
+|move|p2a: Clefable|Thunderbolt|p1a: Corsola
+|-damage|p1a: Corsola|27/100
+|move|p1a: Corsola|Strength Sap|p2a: Clefable
+|-unboost|p2a: Clefable|atk|1
+|-heal|p1a: Corsola|47/100
+|
+|upkeep
+|turn|55
+|
+|move|p2a: Clefable|Thunderbolt|p1a: Corsola
+|-damage|p1a: Corsola|28/100
+|move|p1a: Corsola|Night Shade|p2a: Clefable
+|-damage|p2a: Clefable|73/100
+|
+|upkeep
+|turn|56
+|
+|move|p2a: Clefable|Thunderbolt|p1a: Corsola
+|-damage|p1a: Corsola|10/100
+|move|p1a: Corsola|Night Shade|p2a: Clefable
+|-damage|p2a: Clefable|46/100
+|
+|-end|p2a: Clefable|Disable
+|upkeep
+|turn|57
+|
+|switch|p1a: Gengar|Gengar, F|70/100
+|-damage|p1a: Gengar|58/100|[from] Stealth Rock
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|96/100
+|
+|-heal|p1a: Gengar|64/100|[from] item: Black Sludge
+|upkeep
+|turn|58
+|
+|switch|p2a: Cinderace|Cinderace, M|63/100 tox
+|move|p1a: Gengar|Toxic|p2a: Cinderace
+|-fail|p2a: Cinderace|tox
+|
+|-heal|p1a: Gengar|70/100|[from] item: Black Sludge
+|-damage|p2a: Cinderace|57/100 tox|[from] psn
+|upkeep
+|turn|59
+|
+|move|p1a: Gengar|Protect|p1a: Gengar
+|-singleturn|p1a: Gengar|Protect
+|move|p2a: Cinderace|Pyro Ball|p1a: Gengar
+|-activate|p1a: Gengar|move: Protect
+|
+|-heal|p1a: Gengar|76/100|[from] item: Black Sludge
+|-damage|p2a: Cinderace|44/100 tox|[from] psn
+|upkeep
+|turn|60
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-start|p2a: Cinderace|Disable|Pyro Ball|[from] ability: Cursed Body|[of] p1a: Gengar
+|faint|p1a: Gengar
+|
+|-damage|p2a: Cinderace|25/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|71/100
+|-damage|p1a: Dragapult|59/100|[from] Stealth Rock
+|turn|61
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|5/100
+|move|p1a: Dragapult|Steel Wing|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|4/100 tox
+|
+|-damage|p2a: Cinderace|0 fnt|[from] psn
+|faint|p2a: Cinderace
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|96/100
+|turn|62
+|
+|move|p1a: Dragapult|Steel Wing|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|7/100
+|move|p2a: Clefable|Moonblast|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, F|10/100
+|-damage|p1a: Corsola|0 fnt|[from] Stealth Rock
+|faint|p1a: Corsola
+|
+|win|Skz10032
+|raw|SuperStar_27's rating: 1175 → 1150(-25 for losing)
+|raw|Skz10032's rating: 1178 → 1203(+25 for winning)

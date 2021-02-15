@@ -1,0 +1,339 @@
+|ScrapeTime|2020-01-01-19:18:56
+|j|☆hjhlhlh
+|j|☆poofpoofman9
+|player|p1|hjhlhlh|lucas|1107
+|player|p2|poofpoofman9|barry|1123
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Indeedee, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Hawlucha, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Dracozolt|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Golisopod, F|
+|poke|p2|Steelix, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Dracovish|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|switch|p2a: Steelix|Steelix, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|move|p1a: Indeedee|Mystical Fire|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|4/100
+|-unboost|p2a: Steelix|spa|1
+|move|p2a: Steelix|Stealth Rock|p1a: Indeedee
+|-sidestart|p1: hjhlhlh|move: Stealth Rock
+|
+|-heal|p2a: Steelix|11/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Steelix|Protect|p2a: Steelix
+|-singleturn|p2a: Steelix|Protect
+|move|p1a: Indeedee|Mystical Fire|p2a: Steelix
+|-activate|p2a: Steelix|move: Protect
+|
+|-heal|p2a: Steelix|17/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Indeedee|Mystical Fire|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|0 fnt
+|faint|p2a: Steelix
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hjhlhlh)
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|4
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p2a: Dracovish|Fishious Rend|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|63/100
+|-damage|p2a: Dracovish|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|69/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|37/100
+|-damage|p2a: Dracovish|76/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Dracovish
+|-start|p2a: Dracovish|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|43/100|[from] item: Leftovers
+|-damage|p2a: Dracovish|63/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|55/100|[silent]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Cinderace
+|-start|p2a: Cinderace|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|61/100|[from] item: Leftovers
+|-damage|p2a: Cinderace|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|71/100|[silent]
+|upkeep
+|turn|7
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Cinderace|Pyro Ball|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Ferrothorn|77/100|[from] item: Leftovers
+|-damage|p2a: Cinderace|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|88/100|[silent]
+|upkeep
+|turn|8
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|64/100
+|-status|p1a: Mandibuzz|brn
+|
+|-damage|p2a: Cinderace|64/100|[from] Leech Seed|[of] p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|73/100 brn|[silent]
+|-damage|p1a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p2a: Cinderace|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|52/100 brn
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100|[from]move: U-turn
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Mandibuzz|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Mandibuzz|Defog|p2a: Toxapex
+|-unboost|p2a: Toxapex|evasion|1
+|-sideend|p1: hjhlhlh|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Toxapex|Toxic Spikes|p1a: Mandibuzz
+|-sidestart|p1: hjhlhlh|move: Toxic Spikes
+|
+|-damage|p1a: Mandibuzz|88/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Mandibuzz|Defog|p2a: Toxapex
+|-unboost|p2a: Toxapex|evasion|1
+|-sideend|p1: hjhlhlh|Toxic Spikes|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Toxapex|Toxic Spikes|p1a: Mandibuzz
+|-sidestart|p1: hjhlhlh|move: Toxic Spikes
+|
+|-damage|p1a: Mandibuzz|82/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Mandibuzz|Defog|p2a: Toxapex
+|-unboost|p2a: Toxapex|evasion|1
+|-sideend|p1: hjhlhlh|Toxic Spikes|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Toxapex|Toxic Spikes|p1a: Mandibuzz
+|-sidestart|p1: hjhlhlh|move: Toxic Spikes
+|
+|-damage|p1a: Mandibuzz|76/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Toxapex
+|-damage|p2a: Toxapex|93/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Mandibuzz
+|-sidestart|p1: hjhlhlh|move: Toxic Spikes
+|
+|-heal|p2a: Toxapex|99/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|70/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Mandibuzz|Defog|p2a: Toxapex
+|-unboost|p2a: Toxapex|evasion|1
+|-sideend|p1: hjhlhlh|Toxic Spikes|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Toxapex|Scald|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|57/100 brn
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|51/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Toxapex|Toxic Spikes|p1a: Mandibuzz
+|-sidestart|p1: hjhlhlh|move: Toxic Spikes
+|
+|-damage|p1a: Mandibuzz|94/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p2a: Dracovish|Dracovish|63/100
+|move|p1a: Mandibuzz|Foul Play|p2a: Dracovish
+|-damage|p2a: Dracovish|44/100
+|
+|-damage|p1a: Mandibuzz|88/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|88/100
+|move|p2a: Dracovish|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|71/100
+|
+|-heal|p1a: Ferrothorn|77/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Cinderace|Cinderace, M|64/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Cinderace
+|-start|p2a: Cinderace|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|83/100|[from] item: Leftovers
+|-damage|p2a: Cinderace|51/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|93/100|[silent]
+|upkeep
+|turn|19
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Cinderace|U-turn|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Ferrothorn|99/100|[from] item: Leftovers
+|-damage|p2a: Cinderace|39/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|20
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|88/100 brn
+|move|p2a: Cinderace|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|73/100 brn
+|inactive|poofpoofman9 has 120 seconds left.
+|
+|switch|p2a: Dracovish|Dracovish|44/100|[from]move: U-turn
+|
+|-damage|p1a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|21
+|inactive|poofpoofman9 has 120 seconds left.
+|
+|switch|p2a: Cinderace|Cinderace, M|39/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Mandibuzz|94/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|56/100 brn
+|move|p1a: Mandibuzz|Defog|p2a: Cinderace
+|-unboost|p2a: Cinderace|evasion|1
+|-sideend|p1: hjhlhlh|Toxic Spikes|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|-damage|p1a: Mandibuzz|50/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p2a: Cinderace|High Jump Kick|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|21/100 brn
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|71/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Mandibuzz|65/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p2a: Cinderace|High Jump Kick|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|38/100 brn
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|88/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Mandibuzz|82/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|45/100 brn
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|95/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Mandibuzz|89/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|switch|p2a: Dracovish|Dracovish|44/100
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|67/100
+|-damage|p2a: Dracovish|32/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|73/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: poofpoofman9|move: Stealth Rock
+|
+|-heal|p1a: Ferrothorn|79/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|poofpoofman9 has 120 seconds left.
+|
+|switch|p2a: Cinderace|Cinderace, M|39/100
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Dracozolt|Earthquake|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|-message|poofpoofman9 forfeited.
+|
+|win|hjhlhlh
+|l|☆poofpoofman9

@@ -1,0 +1,154 @@
+|ScrapeTime|2020-01-01-16:02:29
+|j|☆LordRevived
+|j|☆big bouncing bussy
+|player|p1|LordRevived|mira|
+|player|p2|big bouncing bussy|crasherwake|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Kommo-o, M|
+|poke|p1|Aegislash, M|
+|poke|p1|Polteageist|
+|poke|p1|Excadrill, M|
+|poke|p1|Gyarados, F|
+|poke|p1|Barraskewda, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Coalossal, M|
+|poke|p2|Hydreigon, F|
+|poke|p2|Dragapult, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Barraskewda|Barraskewda, M, shiny|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|switch|p1a: Excadrill|Excadrill, M, shiny|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Dragapult|Shadow Ball|p1a: Excadrill
+|-damage|p1a: Excadrill|34/100
+|-unboost|p1a: Excadrill|spd|1
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p1a: Kommo-o|Kommo-o, M, shiny|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Kommo-o|Substitute|p1a: Kommo-o
+|-start|p1a: Kommo-o|Substitute
+|-damage|p1a: Kommo-o|75/100
+|move|p2a: Ferrothorn|Leech Seed||[still]
+|-fail|p2a: Ferrothorn
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Kommo-o|Belly Drum|p1a: Kommo-o
+|-damage|p1a: Kommo-o|25/100
+|-setboost|p1a: Kommo-o|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Kommo-o|Salac Berry|[eat]
+|-boost|p1a: Kommo-o|spe|1
+|move|p2a: Ferrothorn|Power Whip|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-activate|p1a: Kommo-o|move: Substitute|[damage]
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Kommo-o|Drain Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-heal|p1a: Kommo-o|74/100|[from] drain|[of] p2a: Ferrothorn
+|-damage|p1a: Kommo-o|61/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Kommo-o|45/100|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|turn|6
+|
+|move|p1a: Kommo-o|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|switch|p2a: Coalossal|Coalossal, M|100/100
+|turn|7
+|
+|move|p1a: Kommo-o|Drain Punch|p2a: Coalossal
+|-supereffective|p2a: Coalossal
+|-enditem|p2a: Coalossal|Focus Sash
+|-damage|p2a: Coalossal|1/100
+|-heal|p1a: Kommo-o|100/100|[from] drain|[of] p2a: Coalossal
+|move|p2a: Coalossal|Fire Punch|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-end|p1a: Kommo-o|Substitute
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Kommo-o|Substitute|p1a: Kommo-o
+|-start|p1a: Kommo-o|Substitute
+|-damage|p1a: Kommo-o|75/100
+|move|p2a: Coalossal|Fire Punch|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-activate|p1a: Kommo-o|move: Substitute|[damage]
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Kommo-o|Drain Punch|p2a: Coalossal
+|-supereffective|p2a: Coalossal
+|-damage|p2a: Coalossal|0 fnt
+|-heal|p1a: Kommo-o|76/100|[from] drain|[of] p2a: Coalossal
+|faint|p2a: Coalossal
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|10
+|
+|move|p1a: Kommo-o|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|11
+|
+|move|p1a: Kommo-o|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|12
+|
+|move|p1a: Kommo-o|Drain Punch|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-heal|p1a: Kommo-o|100/100|[from] drain|[of] p2a: Hydreigon
+|faint|p2a: Hydreigon
+|
+|win|LordRevived

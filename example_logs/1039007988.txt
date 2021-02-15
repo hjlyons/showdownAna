@@ -1,0 +1,192 @@
+|ScrapeTime|2020-01-01-04:44:24
+|j|☆Suicidosaurus
+|j|☆PKS Itchy Eyes
+|player|p1|Suicidosaurus|brock-gen2|1473
+|player|p2|PKS Itchy Eyes|2|1396
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Rotom-Mow|
+|poke|p1|Kommo-o, F|
+|poke|p1|Dracovish|
+|poke|p1|Copperajah, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Tyranitar, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Toxapex, F|
+|poke|p2|Bisharp, M|
+|poke|p2|Toxtricity, F|
+|poke|p2|Flygon, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PKS Itchy Eyes)
+|
+|start
+|switch|p1a: Dracovish|Dracovish|100/100
+|switch|p2a: Flygon|Flygon, M|100/100
+|turn|1
+|
+|switch|p1a: Copperajah|Copperajah, M|100/100
+|move|p2a: Flygon|Outrage|p1a: Copperajah
+|-resisted|p1a: Copperajah
+|-damage|p1a: Copperajah|73/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Flygon|Outrage|p1a: Copperajah|[from]lockedmove
+|-resisted|p1a: Copperajah
+|-damage|p1a: Copperajah|45/100
+|move|p1a: Copperajah|Heavy Slam|p2a: Flygon
+|-damage|p2a: Flygon|10/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Flygon|Outrage|p1a: Copperajah|[from]lockedmove
+|-resisted|p1a: Copperajah
+|-damage|p1a: Copperajah|19/100
+|-start|p2a: Flygon|confusion|[fatigue]
+|move|p1a: Copperajah|Heavy Slam|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|4
+|inactive|PKS Itchy Eyes has 120 seconds left.
+|
+|move|p2a: Rotom|Shadow Ball|p1a: Copperajah
+|-crit|p1a: Copperajah
+|-damage|p1a: Copperajah|0 fnt
+|faint|p1a: Copperajah
+|
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|5
+|inactive|Suicidosaurus has 120 seconds left.
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|94/100|[from] Sandstorm
+|-damage|p2a: Toxapex|94/100|[from] Sandstorm
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|move|p1a: Rotom|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|50/100
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100|[from]move: Volt Switch
+|move|p2a: Toxapex|Toxic|p1a: Dragapult
+|-status|p1a: Dragapult|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|95/100 tox|[from] Sandstorm
+|-damage|p2a: Toxapex|44/100|[from] Sandstorm
+|-heal|p2a: Toxapex|50/100|[from] item: Black Sludge
+|-damage|p1a: Dragapult|89/100 tox|[from] psn
+|upkeep
+|turn|7
+|inactive|Suicidosaurus has 120 seconds left.
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dragapult|Thunderbolt|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|44/100
+|-damage|p1a: Dragapult|79/100 tox|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|73/100 tox|[from] Sandstorm
+|-heal|p2a: Corviknight|50/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|61/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p2a: Toxapex|Toxapex, F|84/100
+|move|p1a: Dragapult|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|-damage|p1a: Dragapult|51/100 tox|[from] item: Life Orb
+|faint|p2a: Toxapex
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|45/100 tox|[from] Sandstorm
+|-damage|p1a: Dragapult|27/100 tox|[from] psn
+|upkeep
+|inactive|PKS Itchy Eyes has 120 seconds left.
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|turn|9
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p2a: Bisharp|91/100|[from] item: Life Orb
+|faint|p1a: Dragapult
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|10
+|inactive|PKS Itchy Eyes has 120 seconds left.
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|turn|11
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M|50/100
+|-ability|p2a: Corviknight|Pressure
+|turn|12
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|13
+|
+|move|p2a: Rotom|Volt Switch|p1a: Dracovish
+|-damage|p1a: Dracovish|59/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|win|Suicidosaurus
+|l|☆PKS Itchy Eyes
+|raw|Suicidosaurus's rating: 1473 → 1489(+16 for winning)
+|raw|PKS Itchy Eyes's rating: 1396 → 1380(-16 for losing)

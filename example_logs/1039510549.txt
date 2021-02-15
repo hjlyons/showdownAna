@@ -1,0 +1,416 @@
+|ScrapeTime|2020-01-02-04:54:43
+|j|☆gookumbanger
+|j|☆Aimboytrain
+|player|p1|gookumbanger|1|1173
+|player|p2|Aimboytrain|206|1167
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Conkeldurr, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Dracozolt|
+|poke|p1|Cinderace, M|
+|poke|p1|Ribombee, M|
+|poke|p1|Gengar, M|
+|poke|p2|Dubwool, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Orbeetle, M|
+|poke|p2|Sandaconda, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Appletun, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|move|p2a: Dragapult|Fire Blast|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-enditem|p1a: Ribombee|Focus Sash
+|-damage|p1a: Ribombee|1/100
+|move|p1a: Ribombee|Dazzling Gleam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|17/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Dragapult|Fire Blast|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|3
+|
+|move|p1a: Grimmsnarl|Sucker Punch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Appletun|Appletun, M|100/100
+|turn|4
+|
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|move|p2a: Appletun|Iron Defense|p2a: Appletun
+|-boost|p2a: Appletun|def|2
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|move|p2a: Appletun|Leech Seed|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|move: Leech Seed
+|
+|-damage|p1a: Grimmsnarl|88/100|[from] Leech Seed|[of] p2a: Appletun
+|upkeep
+|turn|6
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|38/100
+|-unboost|p2a: Appletun|spa|1
+|move|p2a: Appletun|Iron Defense|p2a: Appletun
+|-boost|p2a: Appletun|def|2
+|
+|-heal|p1a: Grimmsnarl|94/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|82/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|49/100|[silent]
+|upkeep
+|turn|7
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|9/100
+|-unboost|p2a: Appletun|spa|1
+|move|p2a: Appletun|Recover|p2a: Appletun
+|-heal|p2a: Appletun|60/100
+|
+|-heal|p1a: Grimmsnarl|88/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|75/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|71/100|[silent]
+|upkeep
+|turn|8
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|29/100
+|-unboost|p2a: Appletun|spa|1
+|move|p2a: Appletun|Iron Defense|p2a: Appletun
+|-boost|p2a: Appletun|def|2
+|
+|-heal|p1a: Grimmsnarl|81/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|69/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|40/100|[silent]
+|upkeep
+|turn|9
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|9/100
+|-unboost|p2a: Appletun|spa|1
+|move|p2a: Appletun|Recover|p2a: Appletun
+|-heal|p2a: Appletun|59/100
+|
+|-heal|p1a: Grimmsnarl|75/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|63/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|70/100|[silent]
+|upkeep
+|turn|10
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|move|p2a: Appletun|Seed Bomb|p1a: Dracozolt
+|-resisted|p1a: Dracozolt
+|-damage|p1a: Dracozolt|86/100
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Dracozolt|Dragon Claw|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|30/100
+|move|p2a: Appletun|Leech Seed|p1a: Dracozolt
+|-start|p1a: Dracozolt|move: Leech Seed
+|
+|-damage|p1a: Dracozolt|73/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|40/100|[silent]
+|upkeep
+|turn|12
+|
+|move|p1a: Dracozolt|Dragon Claw|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|1/100
+|move|p2a: Appletun|Recover|p2a: Appletun
+|-heal|p2a: Appletun|51/100
+|
+|-damage|p1a: Dracozolt|61/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|60/100|[silent]
+|upkeep
+|turn|13
+|
+|move|p1a: Dracozolt|Dragon Claw|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|23/100
+|move|p2a: Appletun|Recover|p2a: Appletun
+|-heal|p2a: Appletun|73/100
+|
+|-damage|p1a: Dracozolt|48/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|83/100|[silent]
+|upkeep
+|turn|14
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|63/100
+|move|p2a: Appletun|Recover|p2a: Appletun
+|-heal|p2a: Appletun|100/100
+|
+|-heal|p1a: Grimmsnarl|69/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Appletun
+|-status|p2a: Appletun|par
+|move|p2a: Appletun|Seed Bomb|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|50/100
+|
+|-heal|p1a: Grimmsnarl|56/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|move|p2a: Appletun|Seed Bomb|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|42/100
+|
+|-heal|p1a: Grimmsnarl|48/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|move|p2a: Appletun|Leech Seed|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|move: Leech Seed
+|
+|-heal|p1a: Grimmsnarl|54/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|42/100|[from] Leech Seed|[of] p2a: Appletun
+|upkeep
+|turn|18
+|
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|cant|p2a: Appletun|par
+|
+|-heal|p1a: Grimmsnarl|48/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|35/100|[from] Leech Seed|[of] p2a: Appletun
+|upkeep
+|turn|19
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|66/100 par
+|-unboost|p2a: Appletun|spa|1
+|cant|p2a: Appletun|par
+|
+|-heal|p1a: Grimmsnarl|41/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|29/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|78/100 par|[silent]
+|upkeep
+|turn|20
+|
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|cant|p2a: Appletun|par
+|
+|-heal|p1a: Grimmsnarl|35/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|23/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|90/100 par|[silent]
+|upkeep
+|turn|21
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|44/100 par
+|-unboost|p2a: Appletun|spa|1
+|move|p2a: Appletun|Seed Bomb|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|16/100
+|
+|-heal|p1a: Grimmsnarl|22/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|9/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|55/100 par|[silent]
+|upkeep
+|turn|22
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|12/100 par
+|move|p2a: Appletun|Recover|p2a: Appletun
+|-heal|p2a: Appletun|62/100 par
+|
+|-heal|p1a: Grimmsnarl|15/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|3/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|74/100 par|[silent]
+|upkeep
+|turn|23
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|33/100 par
+|move|p2a: Appletun|Recover|p2a: Appletun
+|-heal|p2a: Appletun|83/100 par
+|
+|-heal|p1a: Grimmsnarl|9/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|0 fnt|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|91/100 par|[silent]
+|faint|p1a: Grimmsnarl
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|24
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Appletun
+|-damage|p2a: Appletun|78/100 par
+|move|p2a: Appletun|Leech Seed|p1a: Cinderace
+|-start|p1a: Cinderace|move: Leech Seed
+|
+|-damage|p1a: Cinderace|88/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|87/100 par|[silent]
+|upkeep
+|turn|25
+|
+|move|p1a: Cinderace|U-turn|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|75/100 par
+|
+|switch|p1a: Gengar|Gengar, M|100/100|[from]move: U-turn
+|cant|p2a: Appletun|par
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Gengar|Sludge Wave|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-crit|p2a: Appletun
+|-damage|p2a: Appletun|0 fnt
+|faint|p2a: Appletun
+|
+|upkeep
+|
+|switch|p2a: Sandaconda|Sandaconda, F|100/100
+|turn|27
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|move|p2a: Sandaconda|Coil|p2a: Sandaconda
+|-boost|p2a: Sandaconda|atk|1
+|-boost|p2a: Sandaconda|def|1
+|-boost|p2a: Sandaconda|accuracy|1
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|28
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Sandaconda
+|-damage|p2a: Sandaconda|82/100
+|move|p2a: Sandaconda|Coil|p2a: Sandaconda
+|-boost|p2a: Sandaconda|atk|1
+|-boost|p2a: Sandaconda|def|1
+|-boost|p2a: Sandaconda|accuracy|1
+|
+|-damage|p1a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Sandaconda|Drill Run|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-damage|p2a: Sandaconda|72/100|[from] item: Life Orb
+|faint|p1a: Gengar
+|
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|94/100 brn
+|turn|30
+|
+|move|p2a: Sandaconda|Drill Run|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|11/100 brn
+|-damage|p2a: Sandaconda|63/100|[from] item: Life Orb
+|move|p1a: Conkeldurr|Facade|p2a: Sandaconda
+|-damage|p2a: Sandaconda|28/100
+|
+|-damage|p1a: Conkeldurr|5/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Sandaconda
+|-damage|p2a: Sandaconda|13/100
+|move|p2a: Sandaconda|Rest|p2a: Sandaconda
+|-status|p2a: Sandaconda|slp|[from] move: Rest
+|-heal|p2a: Sandaconda|100/100 slp|[silent]
+|
+|-damage|p1a: Conkeldurr|0 fnt|[from] brn
+|faint|p1a: Conkeldurr
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|88/100
+|turn|32
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Sandaconda
+|-damage|p2a: Sandaconda|75/100 slp
+|cant|p2a: Sandaconda|slp
+|
+|-activate|p2a: Sandaconda|ability: Shed Skin
+|-curestatus|p2a: Sandaconda|slp|[msg]
+|upkeep
+|turn|33
+|
+|move|p1a: Cinderace|U-turn|p2a: Sandaconda
+|-damage|p2a: Sandaconda|65/100
+|
+|switch|p1a: Dracozolt|Dracozolt|48/100|[from]move: U-turn
+|move|p2a: Sandaconda|Drill Run|p1a: Dracozolt
+|-supereffective|p1a: Dracozolt
+|-damage|p1a: Dracozolt|0 fnt
+|-damage|p2a: Sandaconda|55/100|[from] item: Life Orb
+|faint|p1a: Dracozolt
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|88/100
+|turn|34
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Sandaconda
+|-damage|p2a: Sandaconda|30/100
+|move|p2a: Sandaconda|Drill Run|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-damage|p2a: Sandaconda|20/100|[from] item: Life Orb
+|faint|p1a: Cinderace
+|
+|win|Aimboytrain
+|raw|gookumbanger's rating: 1174 → 1148(-26 for losing)
+|raw|Aimboytrain's rating: 1167 → 1192(+25 for winning)
+|l|☆gookumbanger

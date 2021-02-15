@@ -1,0 +1,143 @@
+|ScrapeTime|2020-01-03-01:36:55
+|j|☆Stickman1644
+|j|☆Aestro135
+|player|p1|Stickman1644|boarder|
+|player|p2|Aestro135|shadowtriad|
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Eiscue, M|
+|poke|p1|Mamoswine, M|
+|poke|p1|Abomasnow, F|
+|poke|p2|Gigalith, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Crustle, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆Aestro135|Arriving at the peak of the hills, the leader in front of you turns around to face you
+|c|☆Stickman1644|Who the fuck are you!
+|c|☆Aestro135|"These hills are sturdy, like my pokemon. You haven't the slightest chance!"
+|c|☆Aestro135|he throws out his first pokeball
+|c|☆Stickman1644|Oh you are the gym leader sure as shit don't look strong
+|
+|start
+|switch|p1a: Eiscue|Eiscue, M|100/100
+|switch|p2a: Crustle|Crustle, M|100/100
+|turn|1
+|
+|move|p1a: Eiscue|Belly Drum|p1a: Eiscue
+|-damage|p1a: Eiscue|51/100
+|-setboost|p1a: Eiscue|atk|6|[from] move: Belly Drum
+|move|p2a: Crustle|Shell Smash|p2a: Crustle
+|-unboost|p2a: Crustle|def|1
+|-unboost|p2a: Crustle|spd|1
+|-boost|p2a: Crustle|atk|2
+|-boost|p2a: Crustle|spa|2
+|-boost|p2a: Crustle|spe|2
+|
+|-heal|p1a: Eiscue|57/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Crustle|Earthquake|p1a: Eiscue
+|-activate|p1a: Eiscue|ability: Ice Face
+|-damage|p1a: Eiscue|57/100
+|detailschange|p1a: Eiscue|Eiscue-Noice, M
+|move|p1a: Eiscue|Icicle Crash|p2a: Crustle
+|-enditem|p2a: Crustle|Focus Sash
+|-damage|p2a: Crustle|1/100
+|-ability|p2a: Crustle|Weak Armor|boost
+|-unboost|p2a: Crustle|def|1
+|-boost|p2a: Crustle|spe|2
+|
+|-heal|p1a: Eiscue|63/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Crustle|Earthquake|p1a: Eiscue
+|-damage|p1a: Eiscue|0 fnt
+|faint|p1a: Eiscue
+|
+|upkeep
+|c|☆Aestro135|"You see now! These rocks are immovable!"
+|c|☆Stickman1644|"Oh they will get out of my way if they know whats good for em!
+|
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|turn|4
+|
+|move|p2a: Crustle|Earthquake|p1a: Mamoswine
+|-damage|p1a: Mamoswine|37/100
+|move|p1a: Mamoswine|Hail|p1a: Mamoswine
+|-weather|Hail
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Crustle|0 fnt|[from] Hail
+|faint|p2a: Crustle
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|5
+|
+|move|p1a: Mamoswine|High Horsepower|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|22/100
+|move|p2a: Tyranitar|Substitute|p2a: Tyranitar
+|-fail|p2a: Tyranitar|move: Substitute|[weak]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p1a: Mamoswine|High Horsepower|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Gigalith|Gigalith, F|100/100
+|turn|7
+|c|☆Stickman1644|see what I mean this is the power of a real trainer!
+|c|☆Aestro135|Grimacing, the leader throws his last pokeball
+|
+|move|p2a: Gigalith|Protect|p2a: Gigalith
+|-singleturn|p2a: Gigalith|Protect
+|move|p1a: Mamoswine|High Horsepower|p2a: Gigalith
+|-activate|p2a: Gigalith|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|c|☆Aestro135|"I'll not give in this easily!"
+|
+|move|p2a: Gigalith|Protect||[still]
+|-fail|p2a: Gigalith
+|move|p1a: Mamoswine|High Horsepower|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gigalith|39/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Mamoswine|High Horsepower|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|faint|p2a: Gigalith
+|
+|win|Stickman1644
+|c|☆Aestro135|Defeated, the leader hands you your badge before disappearing into the sandstorms
+|l|☆Aestro135
+|c|☆Stickman1644|What a fucking nerd

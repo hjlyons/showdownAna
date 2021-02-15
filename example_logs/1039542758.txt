@@ -1,0 +1,337 @@
+|ScrapeTime|2020-01-02-06:44:58
+|j|☆Reddragoon24
+|j|☆CZ148
+|player|p1|Reddragoon24|102|1000
+|player|p2|CZ148|beauty|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxtricity, F|
+|poke|p1|Gyarados, F|
+|poke|p1|Snorlax, M|
+|poke|p1|Mew|
+|poke|p1|Duraludon, F|
+|poke|p1|Conkeldurr, M|
+|poke|p2|Dugtrio, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Centiskorch, F|
+|poke|p2|Bronzong|
+|poke|p2|Dragapult, M|
+|poke|p2|Appletun, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Killua|Toxtricity, F, shiny|100/100
+|switch|p2a: Appletun|Appletun, M|100/100
+|turn|1
+|
+|move|p1a: Killua|Toxic|p2a: Appletun
+|-status|p2a: Appletun|tox
+|move|p2a: Appletun|Leech Seed|p1a: Killua
+|-start|p1a: Killua|move: Leech Seed
+|
+|-damage|p1a: Killua|88/100|[from] Leech Seed|[of] p2a: Appletun
+|-damage|p2a: Appletun|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p1a: Killua|Boomburst|p2a: Appletun
+|-damage|p2a: Appletun|45/100 tox
+|move|p2a: Appletun|Dragon Pulse|p1a: Killua
+|-crit|p1a: Killua
+|-damage|p1a: Killua|2/100
+|
+|-heal|p1a: Killua|8/100|[from] item: Leftovers
+|-heal|p2a: Appletun|51/100 tox|[from] item: Leftovers
+|-damage|p1a: Killua|0 fnt|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|58/100 tox|[silent]
+|faint|p1a: Killua
+|-damage|p2a: Appletun|46/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Donkey|Conkeldurr, M, shiny|100/100
+|turn|3
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|move|p1a: Donkey|Bulk Up|p1a: Donkey
+|-boost|p1a: Donkey|atk|1
+|-boost|p1a: Donkey|def|1
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Donkey|Earthquake|p2a: Bronzong
+|-immune|p2a: Bronzong|[from] ability: Levitate
+|move|p2a: Bronzong|Psychic|p1a: Donkey
+|-supereffective|p1a: Donkey
+|-damage|p1a: Donkey|41/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Donkey|Hammer Arm|p2a: Bronzong
+|-damage|p2a: Bronzong|2/100
+|-unboost|p1a: Donkey|spe|1
+|move|p2a: Bronzong|Psychic|p1a: Donkey
+|-supereffective|p1a: Donkey
+|-damage|p1a: Donkey|0 fnt
+|faint|p1a: Donkey
+|
+|-heal|p2a: Bronzong|8/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Mark|Mew|100/100
+|turn|6
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Mark|Drain Punch|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mark|94/100|[from] Sandstorm
+|-heal|p1a: Mark|100/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|39/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Mark|Drain Punch|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mark|94/100|[from] Sandstorm
+|-heal|p1a: Mark|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Centiskorch|Centiskorch, F|100/100
+|turn|8
+|
+|move|p1a: Mark|Hurricane|p2a: Centiskorch
+|-supereffective|p2a: Centiskorch
+|-damage|p2a: Centiskorch|38/100
+|move|p2a: Centiskorch|X-Scissor|p1a: Mark
+|-supereffective|p1a: Mark
+|-damage|p1a: Mark|17/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mark|11/100|[from] Sandstorm
+|-damage|p2a: Centiskorch|32/100|[from] Sandstorm
+|-heal|p1a: Mark|17/100|[from] item: Leftovers
+|-heal|p2a: Centiskorch|38/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Mark|Rest|p1a: Mark
+|-status|p1a: Mark|slp|[from] move: Rest
+|-heal|p1a: Mark|100/100 slp|[silent]
+|move|p2a: Centiskorch|X-Scissor|p1a: Mark
+|-supereffective|p1a: Mark
+|-damage|p1a: Mark|12/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mark|6/100 slp|[from] Sandstorm
+|-damage|p2a: Centiskorch|32/100|[from] Sandstorm
+|-heal|p1a: Mark|12/100 slp|[from] item: Leftovers
+|-heal|p2a: Centiskorch|38/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|cant|p1a: Mark|slp
+|move|p1a: Mark|Sleep Talk|p1a: Mark
+|move|p1a: Mark|Hurricane|p2a: Centiskorch|[from]Sleep Talk
+|-supereffective|p2a: Centiskorch
+|-damage|p2a: Centiskorch|0 fnt
+|faint|p2a: Centiskorch
+|
+|-weather|none
+|-heal|p1a: Mark|18/100 slp|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|11
+|
+|move|p2a: Dragapult|Sucker Punch||[still]
+|-fail|p2a: Dragapult
+|cant|p1a: Mark|slp
+|move|p1a: Mark|Sleep Talk|p1a: Mark
+|move|p1a: Mark|Hurricane|p2a: Dragapult|[from]Sleep Talk|[miss]
+|-miss|p1a: Mark|p2a: Dragapult
+|
+|-heal|p1a: Mark|24/100 slp|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|-curestatus|p1a: Mark|slp|[msg]
+|move|p1a: Mark|Sleep Talk||[still]
+|-fail|p1a: Mark
+|move|p2a: Dragapult|Dragon Darts|p1a: Mark
+|-damage|p1a: Mark|0 fnt
+|-hitcount|p1a: Mark|1
+|faint|p1a: Mark
+|
+|upkeep
+|
+|switch|p1a: Durrrrrrrrrr|Duraludon, F, shiny|100/100
+|turn|13
+|
+|move|p2a: Dragapult|Thunder Wave|p1a: Durrrrrrrrrr
+|-status|p1a: Durrrrrrrrrr|par
+|move|p1a: Durrrrrrrrrr|Draco Meteor|p2a: Dragapult|[miss]
+|-miss|p1a: Durrrrrrrrrr|p2a: Dragapult
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|cant|p1a: Durrrrrrrrrr|par
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Durrrrrrrrrr
+|-supereffective|p1a: Durrrrrrrrrr
+|-damage|p1a: Durrrrrrrrrr|1/100 par
+|move|p1a: Durrrrrrrrrr|Heavy Slam|p2a: Dugtrio
+|-damage|p2a: Dugtrio|48/100
+|
+|-heal|p2a: Dugtrio|54/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Durrrrrrrrrr
+|-supereffective|p1a: Durrrrrrrrrr
+|-damage|p1a: Durrrrrrrrrr|0 fnt
+|faint|p1a: Durrrrrrrrrr
+|
+|-heal|p2a: Dugtrio|60/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dart|Gyarados, F, shiny|100/100
+|-ability|p1a: Dart|Intimidate|boost
+|-unboost|p2a: Dugtrio|atk|1
+|turn|17
+|
+|move|p2a: Dugtrio|Sucker Punch|p1a: Dart
+|-damage|p1a: Dart|84/100
+|move|p1a: Dart|Earthquake|p2a: Dugtrio
+|-damage|p2a: Dugtrio|11/100
+|
+|-heal|p2a: Dugtrio|17/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Dugtrio|Stealth Rock|p1a: Dart
+|-sidestart|p1: Reddragoon24|move: Stealth Rock
+|move|p1a: Dart|Earthquake|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|upkeep
+|
+|switch|p2a: Appletun|Appletun, M|46/100 tox
+|turn|19
+|
+|move|p1a: Dart|Dragon Dance|p1a: Dart
+|-boost|p1a: Dart|atk|1
+|-boost|p1a: Dart|spe|1
+|move|p2a: Appletun|Recover|p2a: Appletun
+|-heal|p2a: Appletun|96/100 tox
+|
+|-heal|p2a: Appletun|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Appletun|94/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p1a: Dart|Hurricane|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|23/100 tox
+|move|p2a: Appletun|Dragon Pulse|p1a: Dart
+|-damage|p1a: Dart|45/100
+|
+|-heal|p2a: Appletun|29/100 tox|[from] item: Leftovers
+|-damage|p2a: Appletun|17/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|move|p1a: Dart|Hurricane|p2a: Appletun|[miss]
+|-miss|p1a: Dart|p2a: Appletun
+|move|p2a: Appletun|Apple Acid|p1a: Dart
+|-damage|p1a: Dart|2/100
+|-unboost|p1a: Dart|spd|1
+|
+|-heal|p2a: Appletun|23/100 tox|[from] item: Leftovers
+|-damage|p2a: Appletun|5/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|move|p1a: Dart|Hurricane|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|0 fnt
+|faint|p2a: Appletun
+|
+|upkeep
+|
+|switch|p2a: Bronzong|Bronzong|8/100
+|turn|23
+|
+|switch|p1a: Archie|Snorlax, M, shiny|100/100
+|-damage|p1a: Archie|88/100|[from] Stealth Rock
+|move|p2a: Bronzong|Psychic|p1a: Archie
+|-damage|p1a: Archie|72/100
+|
+|-heal|p2a: Bronzong|14/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Bronzong|Psychic|p1a: Archie
+|-damage|p1a: Archie|54/100
+|move|p1a: Archie|Flamethrower|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|25
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Archie
+|-damage|p1a: Archie|31/100
+|-damage|p1a: Archie|10/100
+|-hitcount|p1a: Archie|2
+|move|p1a: Archie|Heavy Slam|p2a: Dragapult
+|-damage|p2a: Dragapult|48/100
+|
+|-heal|p2a: Dragapult|54/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Archie
+|-damage|p1a: Archie|0 fnt
+|-hitcount|p1a: Archie|1
+|faint|p1a: Archie
+|
+|-heal|p2a: Dragapult|60/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dart|Gyarados, F, shiny|2/100
+|-damage|p1a: Dart|0 fnt|[from] Stealth Rock
+|faint|p1a: Dart
+|
+|win|CZ148
+|raw|Reddragoon24's rating: 1000 → 1000(+0 for losing)
+|raw|CZ148's rating: 1000 → 1040(+40 for winning)

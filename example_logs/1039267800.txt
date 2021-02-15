@@ -1,0 +1,169 @@
+|ScrapeTime|2020-01-01-19:39:07
+|j|☆matifail
+|j|☆EG_Spinda
+|player|p1|matifail|pokemaniac|1032
+|player|p2|EG_Spinda|2|1040
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Umbreon, F|
+|poke|p1|Duraludon, M|
+|poke|p1|Inteleon, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Coalossal, M|
+|poke|p2|Dracovish|
+|poke|p2|Rotom-Heat|
+|poke|p2|Sawk, M|
+|poke|p2|Beheeyem, F|
+|poke|p2|Togedemaru, M|
+|poke|p2|Toxtricity, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Duraludon|Duraludon, M|100/100
+|switch|p2a: Togedemaru|Togedemaru, M, shiny|100/100
+|turn|1
+|
+|switch|p1a: Coalossal|Coalossal, M|100/100
+|move|p2a: Togedemaru|Spiky Shield||[still]
+|-fail|p2a: Togedemaru
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Togedemaru|Iron Head|p1a: Coalossal
+|-damage|p1a: Coalossal|81/100
+|move|p1a: Coalossal|Earth Power|p2a: Togedemaru
+|-supereffective|p2a: Togedemaru
+|-damage|p2a: Togedemaru|0 fnt
+|faint|p2a: Togedemaru
+|
+|upkeep
+|
+|switch|p2a: Sawk|Sawk, M, shiny|100/100
+|turn|3
+|
+|move|p2a: Sawk|Close Combat|p1a: Coalossal
+|-supereffective|p1a: Coalossal
+|-damage|p1a: Coalossal|0 fnt
+|-unboost|p2a: Sawk|def|1
+|-unboost|p2a: Sawk|spd|1
+|faint|p1a: Coalossal
+|
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F, shiny|100/100
+|turn|4
+|
+|move|p2a: Sawk|Close Combat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Sawk|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Sawk|72/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|-unboost|p2a: Sawk|def|1
+|-unboost|p2a: Sawk|spd|1
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Duraludon|Duraludon, M|100/100
+|turn|5
+|
+|move|p1a: Duraludon|Draco Meteor|p2a: Sawk
+|-damage|p2a: Sawk|0 fnt
+|-unboost|p1a: Duraludon|spa|2
+|faint|p2a: Sawk
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish, shiny|100/100
+|turn|6
+|
+|move|p1a: Duraludon|Draco Meteor|p2a: Dracovish
+|-supereffective|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|-unboost|p1a: Duraludon|spa|2
+|faint|p2a: Dracovish
+|
+|upkeep
+|
+|switch|p2a: Beheeyem|Beheeyem, F, shiny|100/100
+|turn|7
+|
+|switch|p1a: Umbreon|Umbreon, F, shiny|100/100
+|move|p2a: Beheeyem|Trick|p1a: Umbreon
+|-activate|p2a: Beheeyem|move: Trick|[of] p1a: Umbreon
+|-item|p1a: Umbreon|Toxic Orb|[from] move: Trick
+|-item|p2a: Beheeyem|Leftovers|[from] move: Trick
+|
+|-status|p1a: Umbreon|tox|[from] item: Toxic Orb
+|upkeep
+|turn|8
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|move|p1a: Umbreon|Foul Play|p2a: Toxtricity
+|-damage|p2a: Toxtricity|60/100
+|
+|-damage|p1a: Umbreon|94/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Umbreon
+|-damage|p1a: Umbreon|57/100 tox
+|-damage|p2a: Toxtricity|50/100|[from] item: Life Orb
+|move|p1a: Umbreon|Foul Play|p2a: Toxtricity
+|-damage|p2a: Toxtricity|10/100
+|
+|-damage|p1a: Umbreon|45/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|move|p2a: Toxtricity|Overdrive|p1a: Umbreon
+|-damage|p1a: Umbreon|11/100 tox
+|-damage|p2a: Toxtricity|0 fnt|[from] item: Life Orb
+|faint|p2a: Toxtricity
+|move|p1a: Umbreon|Foul Play|p2: Toxtricity|[notarget]
+|-fail|p1a: Umbreon
+|
+|-damage|p1a: Umbreon|0 fnt|[from] psn
+|faint|p1a: Umbreon
+|upkeep
+|
+|switch|p2a: Beheeyem|Beheeyem, F, shiny|100/100
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|11
+|
+|switch|p2a: Rotom|Rotom-Heat, shiny|100/100
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Rotom
+|-damage|p2a: Rotom|44/100
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-hitcount|p2a: Rotom|2
+|faint|p2a: Rotom
+|
+|upkeep
+|-message|EG_Spinda forfeited.
+|
+|win|matifail
+|l|☆EG_Spinda
+|raw|matifail's rating: 1033 → 1069(+36 for winning)
+|raw|EG_Spinda's rating: 1040 → 1024(-16 for losing)

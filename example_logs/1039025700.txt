@@ -1,0 +1,262 @@
+|ScrapeTime|2020-01-01-05:44:36
+|j|☆Explosion Badger
+|j|☆Emoninja23
+|player|p1|Explosion Badger|roxie|1321
+|player|p2|Emoninja23|pokekid|1326
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mandibuzz, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Clefable, F|
+|poke|p1|Jellicent, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Dubwool, M|
+|poke|p2|Mimikyu, F|
+|poke|p2|Heliolisk, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|switch|p2a: Pikachu?|Mimikyu, F|100/100
+|turn|1
+|
+|move|p2a: Pikachu?|Trick|p1a: Mandibuzz
+|-activate|p2a: Pikachu?|move: Trick|[of] p1a: Mandibuzz
+|-item|p1a: Mandibuzz|Choice Scarf|[from] move: Trick
+|-item|p2a: Pikachu?|Heavy-Duty Boots|[from] move: Trick
+|move|p1a: Mandibuzz|U-turn|p2a: Pikachu?
+|-activate|p2a: Pikachu?|ability: Disguise
+|-damage|p2a: Pikachu?|100/100
+|detailschange|p2a: Pikachu?|Mimikyu-Busted, F
+|-damage|p2a: Pikachu?|88/100|[from] ability: Disguise|[of] p2a: Pikachu?
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100|[from]move: U-turn
+|-ability|p1a: Excadrill|Mold Breaker
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Pikachu?|Play Rough|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|76/100
+|move|p1a: Excadrill|Iron Head|p2a: Pikachu?
+|-supereffective|p2a: Pikachu?
+|-damage|p2a: Pikachu?|0 fnt
+|faint|p2a: Pikachu?
+|
+|-heal|p1a: Excadrill|83/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: The Conk|Conkeldurr, M|100/100
+|turn|3
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|move|p2a: The Conk|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|65/100
+|
+|-heal|p1a: Jellicent|71/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Jellicent|Night Shade|p2a: The Conk
+|-damage|p2a: The Conk|74/100
+|move|p2a: The Conk|Poison Jab|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|56/100
+|
+|-heal|p1a: Jellicent|63/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|100/100
+|move|p2a: The Conk|Poison Jab|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|87/100
+|-status|p1a: Jellicent|psn
+|
+|-heal|p1a: Jellicent|93/100 psn|[from] item: Leftovers
+|-damage|p1a: Jellicent|81/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|move|p1a: Jellicent|Night Shade|p2a: The Conk
+|-damage|p2a: The Conk|47/100
+|move|p2a: The Conk|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|43/100 psn
+|
+|-heal|p1a: Jellicent|49/100 psn|[from] item: Leftovers
+|-damage|p1a: Jellicent|37/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p2a: Annoying|Heliolisk, F|100/100
+|-item|p2a: Annoying|Air Balloon
+|move|p1a: Jellicent|Recover|p1a: Jellicent
+|-heal|p1a: Jellicent|87/100 psn
+|
+|-heal|p1a: Jellicent|93/100 psn|[from] item: Leftovers
+|-damage|p1a: Jellicent|81/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Excadrill|Excadrill, F|83/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Annoying|Grass Knot|p1a: Excadrill
+|-damage|p1a: Excadrill|67/100
+|
+|-heal|p1a: Excadrill|73/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: The Conk|Conkeldurr, M|47/100
+|move|p1a: Excadrill|Rapid Spin|p2a: The Conk
+|-damage|p2a: The Conk|32/100
+|-boost|p1a: Excadrill|spe|1
+|
+|-heal|p1a: Excadrill|79/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Jellicent|Jellicent, F|81/100 psn
+|move|p2a: The Conk|Drain Punch|p1a: Jellicent
+|-immune|p1a: Jellicent
+|
+|-heal|p1a: Jellicent|87/100 psn|[from] item: Leftovers
+|-damage|p1a: Jellicent|75/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p2a: Kinda gay|Dubwool, M|100/100
+|move|p1a: Jellicent|Night Shade|p2a: Kinda gay
+|-immune|p2a: Kinda gay
+|
+|-heal|p1a: Jellicent|81/100 psn|[from] item: Leftovers
+|-damage|p1a: Jellicent|68/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p2a: Annoying|Heliolisk, F|100/100
+|-item|p2a: Annoying|Air Balloon
+|move|p1a: Jellicent|Taunt|p2a: Annoying
+|-start|p2a: Annoying|move: Taunt
+|
+|-heal|p1a: Jellicent|75/100 psn|[from] item: Leftovers
+|-damage|p1a: Jellicent|62/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|switch|p2a: Dragameta|Dragapult, F|100/100
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Dragameta|Phantom Force||[still]
+|-prepare|p2a: Dragameta|Phantom Force|p1a: Mandibuzz
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Dragameta|Phantom Force|p1a: Mandibuzz|[from]lockedmove
+|-resisted|p1a: Mandibuzz
+|-crit|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|85/100
+|move|p1a: Mandibuzz|Knock Off|p2a: Dragameta
+|-supereffective|p2a: Dragameta
+|-damage|p2a: Dragameta|51/100
+|-enditem|p2a: Dragameta|Leftovers|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Dragameta|Disable|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|Disable|Knock Off
+|cant|p1a: Mandibuzz|Disable|Knock Off
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Dragameta|Dragon Dance|p2a: Dragameta
+|-boost|p2a: Dragameta|atk|1
+|-boost|p2a: Dragameta|spe|1
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Dragameta|Substitute|p2a: Dragameta
+|-start|p2a: Dragameta|Substitute
+|-damage|p2a: Dragameta|26/100
+|move|p1a: Clefable|Moonblast|p2a: Dragameta
+|-supereffective|p2a: Dragameta
+|-end|p2a: Dragameta|Substitute
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Dragameta|Disable|p1a: Clefable
+|-start|p1a: Clefable|Disable|Moonblast
+|cant|p1a: Clefable|Disable|Moonblast
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|85/100
+|move|p2a: Dragameta|Dragon Dance|p2a: Dragameta
+|-boost|p2a: Dragameta|atk|1
+|-boost|p2a: Dragameta|spe|1
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Dragameta|Substitute|p2a: Dragameta
+|-start|p2a: Dragameta|Substitute
+|-damage|p2a: Dragameta|1/100
+|move|p1a: Mandibuzz|Knock Off|p2a: Dragameta
+|-supereffective|p2a: Dragameta
+|-end|p2a: Dragameta|Substitute
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Dragameta|Disable|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|Disable|Knock Off
+|cant|p1a: Mandibuzz|Disable|Knock Off
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Dragameta|Dragon Dance|p2a: Dragameta
+|-boost|p2a: Dragameta|atk|1
+|-boost|p2a: Dragameta|spe|1
+|-activate|p1a: Mandibuzz|move: Struggle
+|move|p1a: Mandibuzz|Struggle|p2a: Dragameta
+|-damage|p2a: Dragameta|0 fnt
+|-damage|p1a: Mandibuzz|60/100|[from] recoil
+|faint|p2a: Dragameta
+|
+|upkeep
+|-message|Emoninja23 forfeited.
+|
+|win|Explosion Badger
+|l|☆Emoninja23
+|raw|Explosion Badger's rating: 1321 → 1341(+20 for winning)
+|raw|Emoninja23's rating: 1327 → 1306(-21 for losing)

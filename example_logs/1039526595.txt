@@ -1,0 +1,335 @@
+|ScrapeTime|2020-01-02-05:46:43
+|j|☆squirrelboi
+|j|☆anyways so
+|player|p1|squirrelboi|169|1155
+|player|p2|anyways so|beauty|1138
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Jolteon, F|
+|poke|p1|Gardevoir, F|
+|poke|p1|Umbreon, M|
+|poke|p1|Togekiss, M|
+|poke|p1|Cloyster, M|
+|poke|p1|Dragapult, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Escavalier, M|
+|poke|p2|Turtonator, M|
+|poke|p2|Runerigus, F|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Gastrodon-East, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Gardevoir|Gardevoir, F, shiny|100/100
+|switch|p2a: Hourglass|Hatterene, F|100/100
+|turn|1
+|
+|move|p1a: Gardevoir|Light Screen|p1a: Gardevoir
+|-sidestart|p1: squirrelboi|move: Light Screen
+|move|p2a: Hourglass|Trick Room|p2a: Hourglass
+|-fieldstart|move: Trick Room|[of] p2a: Hourglass
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Fork|Escavalier, M|100/100
+|move|p1a: Gardevoir|Reflect|p1a: Gardevoir
+|-sidestart|p1: squirrelboi|Reflect
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Jolteon|Jolteon, F, shiny|100/100
+|-item|p1a: Jolteon|Air Balloon
+|move|p2a: Fork|Swords Dance|p2a: Fork
+|-boost|p2a: Fork|atk|2
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Fork|Iron Head|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|55/100
+|-enditem|p1a: Jolteon|Air Balloon
+|cant|p1a: Jolteon|flinch
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Fork|Megahorn|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: Cloyster|Cloyster, M, shiny|100/100
+|turn|6
+|
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|move|p2a: Fork|Knock Off|p1a: Cloyster
+|-damage|p1a: Cloyster|53/100
+|-enditem|p1a: Cloyster|Focus Sash|[from] move: Knock Off|[of] p2a: Fork
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Cloyster|Rock Blast|p2a: Fork
+|-damage|p2a: Fork|86/100
+|-crit|p2a: Fork
+|-damage|p2a: Fork|62/100
+|-damage|p2a: Fork|46/100
+|-damage|p2a: Fork|31/100
+|-damage|p2a: Fork|15/100
+|-enditem|p2a: Fork|Aguav Berry|[eat]
+|-heal|p2a: Fork|48/100|[from] item: Aguav Berry
+|-hitcount|p2a: Fork|5
+|move|p2a: Fork|Iron Head|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|upkeep
+|
+|switch|p1a: Umbreon|Umbreon, M, shiny|100/100
+|turn|8
+|
+|move|p1a: Umbreon|Foul Play|p2a: Fork
+|-damage|p2a: Fork|0 fnt
+|faint|p2a: Fork
+|
+|-sideend|p1: squirrelboi|move: Light Screen
+|upkeep
+|
+|switch|p2a: Hourglass|Hatterene, F|100/100
+|turn|9
+|
+|move|p1a: Umbreon|Foul Play|p2a: Hourglass
+|-damage|p2a: Hourglass|74/100
+|move|p2a: Hourglass|Trick Room|p2a: Hourglass
+|-fieldstart|move: Trick Room|[of] p2a: Hourglass
+|
+|-sideend|p1: squirrelboi|Reflect
+|upkeep
+|turn|10
+|
+|move|p2a: Hourglass|Calm Mind|p2a: Hourglass
+|-boost|p2a: Hourglass|spa|1
+|-boost|p2a: Hourglass|spd|1
+|move|p1a: Umbreon|Foul Play|p2a: Hourglass
+|-damage|p2a: Hourglass|46/100
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Hourglass|Dazzling Gleam|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|15/100
+|move|p1a: Umbreon|Foul Play|p2a: Hourglass
+|-damage|p2a: Hourglass|15/100
+|
+|-heal|p1a: Umbreon|21/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Hourglass|Dazzling Gleam|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|27/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Gardevoir|Gardevoir, F, shiny|100/100
+|move|p2a: Hourglass|Dazzling Gleam|p1a: Gardevoir
+|-damage|p1a: Gardevoir|47/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|14
+|
+|move|p1a: Gardevoir|Light Screen|p1a: Gardevoir
+|-sidestart|p1: squirrelboi|move: Light Screen
+|move|p2a: Hourglass|Trick Room|p2a: Hourglass
+|-fieldstart|move: Trick Room|[of] p2a: Hourglass
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Hourglass|Shadow Ball|p1a: Gardevoir
+|-supereffective|p1a: Gardevoir
+|-damage|p1a: Gardevoir|10/100
+|-unboost|p1a: Gardevoir|spd|1
+|move|p1a: Gardevoir|Reflect|p1a: Gardevoir
+|-sidestart|p1: squirrelboi|Reflect
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Hourglass|Shadow Ball|p1a: Gardevoir
+|-supereffective|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|
+|upkeep
+|
+|switch|p1a: Umbreon|Umbreon, M, shiny|27/100
+|turn|17
+|
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Hourglass|Dazzling Gleam|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|33/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Hourglass|Dazzling Gleam|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|0 fnt
+|faint|p1a: Umbreon
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: Togekiss|Togekiss, M, shiny|100/100
+|turn|19
+|
+|move|p1a: Togekiss|Air Slash|p2a: Hourglass
+|-damage|p2a: Hourglass|0 fnt
+|-damage|p1a: Togekiss|91/100|[from] item: Life Orb
+|faint|p2a: Hourglass
+|
+|upkeep
+|
+|switch|p2a: West Coast|Gastrodon-East, F|100/100
+|turn|20
+|
+|move|p1a: Togekiss|Air Slash|p2a: West Coast
+|-damage|p2a: West Coast|59/100
+|-damage|p1a: Togekiss|81/100|[from] item: Life Orb
+|move|p2a: West Coast|Ice Beam|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|61/100
+|
+|-heal|p2a: West Coast|65/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Togekiss|Air Slash|p2a: West Coast
+|-damage|p2a: West Coast|17/100
+|-damage|p1a: Togekiss|51/100|[from] item: Life Orb
+|cant|p2a: West Coast|flinch
+|
+|-heal|p2a: West Coast|24/100|[from] item: Leftovers
+|-sideend|p1: squirrelboi|move: Light Screen
+|upkeep
+|turn|22
+|
+|move|p1a: Togekiss|Air Slash|p2a: West Coast
+|-damage|p2a: West Coast|0 fnt
+|-damage|p1a: Togekiss|42/100|[from] item: Life Orb
+|faint|p2a: West Coast
+|
+|-sideend|p1: squirrelboi|Reflect
+|upkeep
+|
+|switch|p2a: Sleep Paralysis|Runerigus, F|100/100
+|turn|23
+|
+|move|p1a: Togekiss|Air Slash|p2a: Sleep Paralysis
+|-damage|p2a: Sleep Paralysis|65/100
+|-damage|p1a: Togekiss|32/100|[from] item: Life Orb
+|cant|p2a: Sleep Paralysis|flinch
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Togekiss|Air Slash|p2a: Sleep Paralysis
+|-damage|p2a: Sleep Paralysis|31/100
+|-damage|p1a: Togekiss|22/100|[from] item: Life Orb
+|cant|p2a: Sleep Paralysis|flinch
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Togekiss|Air Slash|p2a: Sleep Paralysis
+|-damage|p2a: Sleep Paralysis|0 fnt
+|-damage|p1a: Togekiss|12/100|[from] item: Life Orb
+|faint|p2a: Sleep Paralysis
+|
+|upkeep
+|
+|switch|p2a: Emotional Walls|Turtonator, M|100/100
+|turn|26
+|
+|move|p1a: Togekiss|Dazzling Gleam|p2a: Emotional Walls
+|-damage|p2a: Emotional Walls|40/100
+|-damage|p1a: Togekiss|2/100|[from] item: Life Orb
+|move|p2a: Emotional Walls|Dragon Pulse|p1a: Togekiss
+|-immune|p1a: Togekiss
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Togekiss|Dazzling Gleam|p2a: Emotional Walls
+|-damage|p2a: Emotional Walls|0 fnt
+|-damage|p1a: Togekiss|0 fnt|[from] item: Life Orb
+|faint|p2a: Emotional Walls
+|faint|p1a: Togekiss
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M, shiny|100/100
+|switch|p2a: Daddy Issues|Conkeldurr, M|100/100
+|turn|28
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Daddy Issues
+|-damage|p2a: Daddy Issues|80/100
+|-damage|p2a: Daddy Issues|60/100
+|-hitcount|p2a: Daddy Issues|2
+|move|p2a: Daddy Issues|Stone Edge|p1a: Dragapult
+|-damage|p1a: Dragapult|25/100
+|-damage|p2a: Daddy Issues|50/100|[from] item: Life Orb
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Daddy Issues
+|-damage|p2a: Daddy Issues|27/100
+|-damage|p2a: Daddy Issues|5/100
+|-hitcount|p2a: Daddy Issues|2
+|move|p2a: Daddy Issues|Thunder Punch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p2a: Daddy Issues|0 fnt|[from] item: Life Orb
+|faint|p1a: Dragapult
+|faint|p2a: Daddy Issues
+|
+|win|anyways so
+|raw|squirrelboi's rating: 1155 → 1128(-27 for losing)
+|raw|anyways so's rating: 1138 → 1164(+26 for winning)
+|c|☆squirrelboi|wowwwww
+|c|☆anyways so|ik lol
+|c|☆anyways so|fun battle
+|c|☆anyways so|ty
+|c|☆anyways so|gg

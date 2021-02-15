@@ -1,0 +1,251 @@
+|ScrapeTime|2020-01-03-01:48:36
+|j|☆Orekeeper
+|j|☆jordonkk
+|player|p1|Orekeeper|pokemaniac|
+|player|p2|jordonkk|gambler|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Durant, M|
+|poke|p1|Togekiss, F|
+|poke|p1|Flapple, M|
+|poke|p1|Dracozolt|
+|poke|p1|Delibird, M|
+|poke|p1|Zweilous, F|
+|poke|p2|Morpeko, M|
+|poke|p2|Noivern, M|
+|poke|p2|Eiscue, F|
+|poke|p2|Kommo-o, M|
+|poke|p2|Aegislash, M|
+|poke|p2|Abomasnow, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Krangle|Delibird, M|100/100
+|switch|p2a: Ice Ice Baby|Eiscue, F|100/100
+|turn|1
+|
+|move|p1a: Krangle|Spikes|p2a: Ice Ice Baby
+|-sidestart|p2: jordonkk|Spikes
+|move|p2a: Ice Ice Baby|Belly Drum|p2a: Ice Ice Baby
+|-damage|p2a: Ice Ice Baby|51/100
+|-setboost|p2a: Ice Ice Baby|atk|6|[from] move: Belly Drum
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Krangle|Destiny Bond|p1a: Krangle
+|-singlemove|p1a: Krangle|Destiny Bond
+|move|p2a: Ice Ice Baby|Icicle Spear|p1a: Krangle
+|-damage|p1a: Krangle|0 fnt
+|-hitcount|p1a: Krangle|1
+|faint|p1a: Krangle
+|-activate|p1a: Krangle|move: Destiny Bond
+|faint|p2a: Ice Ice Baby
+|
+|upkeep
+|
+|switch|p1a: Gala Region|Flapple, M|100/100
+|switch|p2a: Obamasnow|Abomasnow, M|100/100
+|-damage|p2a: Obamasnow|88/100|[from] Spikes
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Obamasnow
+|turn|3
+|
+|move|p2a: Obamasnow|Ice Shard|p1a: Gala Region
+|-supereffective|p1a: Gala Region
+|-damage|p1a: Gala Region|0 fnt
+|faint|p1a: Gala Region
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p1a: A. I. M. P.|Durant, M|100/100
+|turn|4
+|
+|move|p1a: A. I. M. P.|Iron Head|p2a: Obamasnow
+|-supereffective|p2a: Obamasnow
+|-damage|p2a: Obamasnow|0 fnt
+|faint|p2a: Obamasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: A. I. M. P.|94/100|[from] Hail
+|upkeep
+|
+|switch|p2a: Earrape|Noivern, M|100/100
+|-item|p1a: A. I. M. P.|Choice Band|[from] ability: Frisk|[of] p2a: Earrape|[identify]
+|turn|5
+|
+|move|p2a: Earrape|Flamethrower|p1a: A. I. M. P.
+|-supereffective|p1a: A. I. M. P.
+|-damage|p1a: A. I. M. P.|0 fnt
+|faint|p1a: A. I. M. P.
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Earrape|94/100|[from] Hail
+|upkeep
+|
+|switch|p1a: Cerberus 66%|Zweilous, F|100/100
+|turn|6
+|
+|switch|p2a: Sword&Shield|Aegislash, M, shiny|100/100
+|-damage|p2a: Sword&Shield|88/100|[from] Spikes
+|move|p1a: Cerberus 66%|Focus Energy|p1a: Cerberus 66%
+|-start|p1a: Cerberus 66%|move: Focus Energy
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Cerberus 66%|94/100|[from] Hail
+|-damage|p2a: Sword&Shield|82/100|[from] Hail
+|-heal|p2a: Sword&Shield|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Cerberus 66%|Outrage|p2a: Sword&Shield
+|-resisted|p2a: Sword&Shield
+|-damage|p2a: Sword&Shield|56/100
+|move|p2a: Sword&Shield|Swords Dance|p2a: Sword&Shield
+|-boost|p2a: Sword&Shield|atk|2
+|
+|-weather|none
+|-heal|p2a: Sword&Shield|62/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Sword&Shield|King's Shield|p2a: Sword&Shield
+|-singleturn|p2a: Sword&Shield|Protect
+|move|p1a: Cerberus 66%|Outrage|p2a: Sword&Shield|[from]lockedmove
+|-activate|p2a: Sword&Shield|move: Protect
+|-unboost|p1a: Cerberus 66%|atk|1
+|-start|p1a: Cerberus 66%|confusion|[fatigue]
+|
+|-heal|p2a: Sword&Shield|68/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|-activate|p1a: Cerberus 66%|confusion
+|move|p1a: Cerberus 66%|Outrage|p2a: Sword&Shield
+|-resisted|p2a: Sword&Shield
+|-crit|p2a: Sword&Shield
+|-damage|p2a: Sword&Shield|25/100
+|-formechange|p2a: Sword&Shield|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Sword&Shield|Gyro Ball|p1a: Cerberus 66%
+|-damage|p1a: Cerberus 66%|59/100
+|
+|-heal|p2a: Sword&Shield|31/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|-formechange|p2a: Sword&Shield|Aegislash||[from] ability: Stance Change
+|move|p2a: Sword&Shield|King's Shield|p2a: Sword&Shield
+|-singleturn|p2a: Sword&Shield|Protect
+|-activate|p1a: Cerberus 66%|confusion
+|move|p1a: Cerberus 66%|Outrage|p2a: Sword&Shield|[from]lockedmove
+|-activate|p2a: Sword&Shield|move: Protect
+|-unboost|p1a: Cerberus 66%|atk|1
+|
+|-heal|p2a: Sword&Shield|38/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|-activate|p1a: Cerberus 66%|confusion
+|move|p1a: Cerberus 66%|Outrage|p2a: Sword&Shield
+|-resisted|p2a: Sword&Shield
+|-damage|p2a: Sword&Shield|23/100
+|-formechange|p2a: Sword&Shield|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Sword&Shield|Gyro Ball|p1a: Cerberus 66%
+|-damage|p1a: Cerberus 66%|25/100
+|
+|-heal|p2a: Sword&Shield|29/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|-formechange|p2a: Sword&Shield|Aegislash||[from] ability: Stance Change
+|move|p2a: Sword&Shield|King's Shield|p2a: Sword&Shield
+|-singleturn|p2a: Sword&Shield|Protect
+|-activate|p1a: Cerberus 66%|confusion
+|move|p1a: Cerberus 66%|Outrage|p2a: Sword&Shield|[from]lockedmove
+|-activate|p2a: Sword&Shield|move: Protect
+|-unboost|p1a: Cerberus 66%|atk|1
+|
+|-heal|p2a: Sword&Shield|35/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|-end|p1a: Cerberus 66%|confusion
+|move|p1a: Cerberus 66%|Outrage|p2a: Sword&Shield
+|-resisted|p2a: Sword&Shield
+|-damage|p2a: Sword&Shield|22/100
+|-formechange|p2a: Sword&Shield|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Sword&Shield|Gyro Ball|p1a: Cerberus 66%
+|-damage|p1a: Cerberus 66%|0 fnt
+|faint|p1a: Cerberus 66%
+|
+|-heal|p2a: Sword&Shield|28/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Pina Colada|Dracozolt|100/100
+|turn|14
+|
+|-formechange|p2a: Sword&Shield|Aegislash||[from] ability: Stance Change
+|move|p2a: Sword&Shield|King's Shield|p2a: Sword&Shield
+|-singleturn|p2a: Sword&Shield|Protect
+|move|p1a: Pina Colada|Earthquake|p2a: Sword&Shield
+|-activate|p2a: Sword&Shield|move: Protect
+|
+|-heal|p2a: Sword&Shield|34/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|-activate|p1a: Pina Colada|item: Quick Claw
+|
+|-formechange|p2a: Sword&Shield|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Sword&Shield|Shadow Sneak|p1a: Pina Colada
+|-damage|p1a: Pina Colada|51/100
+|move|p1a: Pina Colada|Earthquake|p2a: Sword&Shield|[miss]
+|-miss|p1a: Pina Colada|p2a: Sword&Shield
+|
+|-heal|p2a: Sword&Shield|40/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Sword&Shield|Shadow Sneak|p1a: Pina Colada
+|-damage|p1a: Pina Colada|7/100
+|move|p1a: Pina Colada|Thunder Wave|p2a: Sword&Shield
+|-status|p2a: Sword&Shield|par
+|
+|-heal|p2a: Sword&Shield|46/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Kiss Me Goodbye|Togekiss, F|100/100
+|move|p2a: Sword&Shield|Shadow Sneak|p1a: Kiss Me Goodbye
+|-damage|p1a: Kiss Me Goodbye|49/100
+|
+|-heal|p2a: Sword&Shield|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Sword&Shield|Shadow Sneak|p1a: Kiss Me Goodbye
+|-damage|p1a: Kiss Me Goodbye|0 fnt
+|faint|p1a: Kiss Me Goodbye
+|
+|-heal|p2a: Sword&Shield|59/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Pina Colada|Dracozolt|7/100
+|turn|19
+|
+|move|p2a: Sword&Shield|Shadow Sneak|p1a: Pina Colada
+|-damage|p1a: Pina Colada|0 fnt
+|faint|p1a: Pina Colada
+|
+|win|jordonkk
+|l|☆Orekeeper

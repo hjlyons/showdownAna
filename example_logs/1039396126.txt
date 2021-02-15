@@ -1,0 +1,303 @@
+|ScrapeTime|2020-01-02-00:08:31
+|j|☆Aiksdhhd
+|j|☆Pierre O'Dactyle
+|player|p1|Aiksdhhd|169|1000
+|player|p2|Pierre O'Dactyle|2|1056
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ninetales, M|
+|poke|p1|Shiftry, M|
+|poke|p1|Salazzle, F|
+|poke|p1|Arcanine, F|
+|poke|p1|Whimsicott, M|
+|poke|p1|Cinderace, M|
+|poke|p2|Centiskorch, F|
+|poke|p2|Hippowdon, M|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Gyarados, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|
+|switch|p1a: Shiftry|Shiftry, M|100/100
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Shiftry|Rock Slide|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|25/100
+|-enditem|p2a: Gyarados|Sitrus Berry|[eat]
+|-heal|p2a: Gyarados|50/100|[from] item: Sitrus Berry
+|-damage|p1a: Shiftry|91/100|[from] item: Life Orb
+|move|p2a: Gyarados|Earthquake|p1a: Shiftry
+|-resisted|p1a: Shiftry
+|-damage|p1a: Shiftry|49/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Shiftry|Rock Slide|p2a: Ferrothorn|[miss]
+|-miss|p1a: Shiftry|p2a: Ferrothorn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|move|p2a: Ferrothorn|Toxic|p1a: Salazzle
+|-immune|p1a: Salazzle
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|76/100
+|move|p2a: Ferrothorn|Leech Seed||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Salazzle|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Salazzle|Fire Blast|p2a: Hippowdon|[miss]
+|-miss|p1a: Salazzle|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salazzle|76/100|[from] Sandstorm
+|-heal|p1a: Salazzle|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Salazzle|Fire Blast|p2a: Hippowdon
+|-damage|p2a: Hippowdon|58/100
+|move|p2a: Hippowdon|Roar|p1a: Salazzle
+|drag|p1a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Hippowdon|64/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Ninetales|Solar Beam||[still]
+|-prepare|p1a: Ninetales|Solar Beam|p2a: Hippowdon
+|-anim|p1a: Ninetales|Solar Beam|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|12/100
+|move|p2a: Hippowdon|Stockpile|p2a: Hippowdon
+|-start|p2a: Hippowdon|stockpile1
+|-boost|p2a: Hippowdon|def|1
+|-boost|p2a: Hippowdon|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Hippowdon|19/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Centiskorch|Centiskorch, F|100/100
+|move|p1a: Ninetales|Solar Beam||[still]
+|-prepare|p1a: Ninetales|Solar Beam|p2a: Centiskorch
+|-anim|p1a: Ninetales|Solar Beam|p2a: Centiskorch
+|-resisted|p2a: Centiskorch
+|-damage|p2a: Centiskorch|93/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Centiskorch
+|-start|p2a: Centiskorch|ability: Flash Fire
+|move|p2a: Centiskorch|Coil|p2a: Centiskorch
+|-boost|p2a: Centiskorch|atk|1
+|-boost|p2a: Centiskorch|def|1
+|-boost|p2a: Centiskorch|accuracy|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p1a: Salazzle|Salazzle, F|82/100
+|move|p2a: Centiskorch|Coil|p2a: Centiskorch
+|-boost|p2a: Centiskorch|atk|1
+|-boost|p2a: Centiskorch|def|1
+|-boost|p2a: Centiskorch|accuracy|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Salazzle|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|63/100
+|move|p2a: Centiskorch|Leech Life|p1a: Salazzle
+|-resisted|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|-heal|p2a: Centiskorch|100/100|[from] drain|[of] p1a: Salazzle
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Salazzle|69/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Salazzle|Sludge Wave|p2a: Centiskorch
+|-damage|p2a: Centiskorch|62/100
+|move|p2a: Centiskorch|Fire Lash|p1a: Salazzle
+|-resisted|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|faint|p1a: Salazzle
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Arcanine|Arcanine, F|100/100
+|turn|14
+|
+|move|p1a: Arcanine|Wild Charge|p2a: Centiskorch
+|-damage|p2a: Centiskorch|38/100
+|-enditem|p2a: Centiskorch|Sitrus Berry|[eat]
+|-heal|p2a: Centiskorch|63/100|[from] item: Sitrus Berry
+|-damage|p1a: Arcanine|93/100|[from] Recoil
+|-damage|p1a: Arcanine|83/100|[from] item: Life Orb
+|move|p2a: Centiskorch|Leech Life|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-crit|p1a: Arcanine
+|-damage|p1a: Arcanine|10/100
+|-heal|p2a: Centiskorch|92/100|[from] drain|[of] p1a: Arcanine
+|
+|-weather|none
+|upkeep
+|turn|15
+|
+|move|p1a: Arcanine|Wild Charge|p2a: Centiskorch
+|-damage|p2a: Centiskorch|72/100
+|-damage|p1a: Arcanine|4/100|[from] Recoil
+|-damage|p1a: Arcanine|0 fnt|[from] item: Life Orb
+|faint|p1a: Arcanine
+|move|p2a: Centiskorch|Leech Life|p1: Arcanine|[notarget]
+|-fail|p2a: Centiskorch
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|16
+|
+|move|p1a: Cinderace|High Jump Kick|p2a: Centiskorch
+|-resisted|p2a: Centiskorch
+|-damage|p2a: Centiskorch|59/100
+|move|p2a: Centiskorch|Leech Life|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|41/100
+|-heal|p2a: Centiskorch|81/100|[from] drain|[of] p1a: Cinderace
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Cinderace|U-turn|p2a: Centiskorch
+|-resisted|p2a: Centiskorch
+|-damage|p2a: Centiskorch|75/100
+|
+|switch|p1a: Shiftry|Shiftry, M|49/100|[from]move: U-turn
+|move|p2a: Centiskorch|Leech Life|p1a: Shiftry
+|-supereffective|p1a: Shiftry
+|-damage|p1a: Shiftry|0 fnt
+|-heal|p2a: Centiskorch|94/100|[from] drain|[of] p1a: Shiftry
+|faint|p1a: Shiftry
+|
+|upkeep
+|
+|switch|p1a: Whimsicott|Whimsicott, M|100/100
+|turn|18
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Centiskorch
+|-resisted|p2a: Centiskorch
+|-damage|p2a: Centiskorch|71/100
+|-damage|p1a: Whimsicott|91/100|[from] item: Life Orb
+|move|p2a: Centiskorch|Fire Lash|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|upkeep
+|c|☆Pierre O'Dactyle|sorry man
+|c|☆Pierre O'Dactyle|sweepy time
+|
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|19
+|
+|move|p1a: Ninetales|Extrasensory|p2a: Centiskorch
+|-damage|p2a: Centiskorch|51/100
+|move|p2a: Centiskorch|Leech Life|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|48/100
+|-heal|p2a: Centiskorch|70/100|[from] drain|[of] p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p1a: Ninetales|Extrasensory|p2a: Centiskorch
+|-damage|p2a: Centiskorch|50/100
+|cant|p2a: Centiskorch|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|
+|move|p1a: Ninetales|Extrasensory|p2a: Centiskorch
+|-damage|p2a: Centiskorch|31/100
+|move|p2a: Centiskorch|Leech Life|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|-heal|p2a: Centiskorch|48/100|[from] drain|[of] p1a: Ninetales
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|41/100
+|turn|22
+|
+|move|p1a: Cinderace|High Jump Kick|p2a: Centiskorch
+|-resisted|p2a: Centiskorch
+|-damage|p2a: Centiskorch|35/100
+|move|p2a: Centiskorch|Fire Lash|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|win|Pierre O'Dactyle
+|raw|Aiksdhhd's rating: 1000 → 1000(+0 for losing)
+|raw|Pierre O'Dactyle's rating: 1088 → 1108(+20 for winning)
+|l|☆Aiksdhhd

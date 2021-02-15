@@ -1,0 +1,240 @@
+|ScrapeTime|2020-01-03-01:44:50
+|j|☆auiauiladot
+|j|☆Looole
+|player|p1|auiauiladot|beauty-gen4dp|1332
+|player|p2|Looole|dawn|1370
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Clefable, F|
+|poke|p1|Bisharp, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Galvantula, M|
+|poke|p1|Seismitoad, M|
+|poke|p1|Dubwool, M|
+|poke|p2|Aegislash, M|
+|poke|p2|Crawdaunt, M|
+|poke|p2|Mew|
+|poke|p2|Lucario, M|
+|poke|p2|Bisharp, F|
+|poke|p2|Dragapult, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: aragog|Galvantula, M, shiny|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: aragog
+|-damage|p1a: aragog|58/100
+|-damage|p1a: aragog|10/100
+|-hitcount|p1a: aragog|2
+|move|p1a: aragog|Sticky Web|p2a: Dragapult
+|-sidestart|p2: Looole|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|move|p1a: aragog|Thunder|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: aragog
+|-damage|p1a: aragog|0 fnt
+|-hitcount|p1a: aragog|1
+|faint|p1a: aragog
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: everything is blue|Bisharp, M, shiny|100/100
+|turn|4
+|
+|switch|p2a: Lucario|Lucario, M|100/100
+|-activate|p2a: Lucario|move: Sticky Web
+|-unboost|p2a: Lucario|spe|1
+|move|p1a: everything is blue|Throat Chop|p2a: Lucario
+|-resisted|p2a: Lucario
+|-damage|p2a: Lucario|56/100
+|-ability|p2a: Lucario|Justified|boost
+|-boost|p2a: Lucario|atk|1
+|-start|p2a: Lucario|Throat Chop|[silent]
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: cutie|Clefable, F, shiny|100/100
+|move|p2a: Lucario|Close Combat|p1a: cutie
+|-resisted|p1a: cutie
+|-damage|p1a: cutie|32/100
+|-unboost|p2a: Lucario|def|1
+|-unboost|p2a: Lucario|spd|1
+|-damage|p2a: Lucario|46/100|[from] item: Life Orb
+|
+|-end|p2a: Lucario|Throat Chop|[silent]
+|upkeep
+|turn|6
+|
+|move|p2a: Lucario|Close Combat|p1a: cutie
+|-resisted|p1a: cutie
+|-damage|p1a: cutie|0 fnt
+|-unboost|p2a: Lucario|def|1
+|-unboost|p2a: Lucario|spd|1
+|-damage|p2a: Lucario|36/100|[from] item: Life Orb
+|faint|p1a: cutie
+|
+|upkeep
+|
+|switch|p1a: everything is blue|Bisharp, M, shiny|100/100
+|turn|7
+|
+|move|p1a: everything is blue|Sucker Punch|p2a: Lucario
+|-resisted|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|upkeep
+|
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|-activate|p2a: Crawdaunt|move: Sticky Web
+|-unboost|p2a: Crawdaunt|spe|1
+|turn|8
+|
+|switch|p1a: naveen|Seismitoad, M, shiny|100/100
+|move|p2a: Crawdaunt|Swords Dance|p2a: Crawdaunt
+|-boost|p2a: Crawdaunt|atk|2
+|
+|upkeep
+|turn|9
+|
+|move|p1a: naveen|Power Whip|p2a: Crawdaunt|[miss]
+|-miss|p1a: naveen|p2a: Crawdaunt
+|move|p2a: Crawdaunt|Knock Off|p1a: naveen
+|-damage|p1a: naveen|0 fnt
+|-enditem|p1a: naveen|Leftovers|[from] move: Knock Off|[of] p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|91/100|[from] item: Life Orb
+|faint|p1a: naveen
+|
+|upkeep
+|
+|switch|p1a: sweet|Dubwool, M|100/100
+|turn|10
+|
+|move|p1a: sweet|Cotton Guard|p1a: sweet
+|-boost|p1a: sweet|def|3
+|move|p2a: Crawdaunt|Crabhammer|p1a: sweet|[miss]
+|-miss|p2a: Crawdaunt|p1a: sweet
+|
+|upkeep
+|turn|11
+|
+|move|p1a: sweet|Cotton Guard|p1a: sweet
+|-boost|p1a: sweet|def|3
+|move|p2a: Crawdaunt|Knock Off|p1a: sweet
+|-damage|p1a: sweet|84/100
+|-enditem|p1a: sweet|Leftovers|[from] move: Knock Off|[of] p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|
+|move|p1a: sweet|Body Press|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|-item|p2a: Aegislash|Air Balloon
+|turn|13
+|
+|switch|p1a: mbappe|Cinderace, M|100/100
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|
+|upkeep
+|turn|14
+|
+|move|p1a: mbappe|Court Change|p1a: mbappe
+|-sideend|p2: Looole|Sticky Web|[silent]
+|-sidestart|p1: auiauiladot|Sticky Web|[silent]
+|-activate|p1a: mbappe|move: Court Change
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|
+|upkeep
+|turn|15
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: mbappe
+|-damage|p1a: mbappe|0 fnt
+|faint|p1a: mbappe
+|
+|upkeep
+|
+|switch|p1a: everything is blue|Bisharp, M, shiny|100/100
+|-activate|p1a: everything is blue|move: Sticky Web
+|-unboost|p1a: everything is blue|spe|1
+|-ability|p1a: everything is blue|Defiant
+|-boost|p1a: everything is blue|atk|2
+|turn|16
+|
+|move|p1a: everything is blue|Sucker Punch||[still]
+|-fail|p1a: everything is blue
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|
+|upkeep
+|turn|17
+|
+|move|p1a: everything is blue|Sucker Punch||[still]
+|-fail|p1a: everything is blue
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|0
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Aegislash|Close Combat|p1a: everything is blue
+|-supereffective|p1a: everything is blue
+|-damage|p1a: everything is blue|0 fnt
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|faint|p1a: everything is blue
+|
+|upkeep
+|
+|switch|p1a: sweet|Dubwool, M|84/100
+|-activate|p1a: sweet|move: Sticky Web
+|-unboost|p1a: sweet|spe|1
+|turn|19
+|
+|move|p2a: Aegislash|Close Combat|p1a: sweet
+|-supereffective|p1a: sweet
+|-damage|p1a: sweet|0 fnt
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|faint|p1a: sweet
+|
+|win|Looole
+|raw|auiauiladot's rating: 1333 → 1315(-18 for losing)
+|raw|Looole's rating: 1370 → 1388(+18 for winning)

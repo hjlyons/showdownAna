@@ -1,0 +1,192 @@
+|ScrapeTime|2020-01-01-21:45:09
+|j|☆psydukk++!
+|j|☆Dhdux
+|player|p1|psydukk++!|hilbert-dueldisk|
+|player|p2|Dhdux|nanu|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Kingler, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Obstagoon, M|
+|poke|p1|Dugtrio, M|
+|poke|p1|Kommo-o, M|
+|poke|p2|Gyarados, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Polteageist|
+|poke|p2|Corviknight, M|
+|poke|p2|Eiscue, F|
+|poke|p2|Hydreigon, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Obstagoon|Obstagoon, M, shiny|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|switch|p1a: Corviknight|Corviknight, M, shiny|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Dhdux|Reflect
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Corviknight
+|-start|p1a: Corviknight|move: Taunt
+|cant|p1a: Corviknight|move: Taunt|Defog
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Dhdux|move: Light Screen
+|move|p1a: Corviknight|U-turn|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|91/100
+|
+|switch|p1a: Kommo-o|Kommo-o, M, shiny|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|move|p1a: Kommo-o|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Dhdux|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|54/100
+|-damage|p2a: Corviknight|87/100|[from] Recoil
+|move|p1a: Kommo-o|Dragon Tail|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|84/100
+|drag|p2a: Grimmsnarl|Grimmsnarl, M|91/100
+|-damage|p2a: Grimmsnarl|78/100|[from] Stealth Rock
+|
+|-heal|p1a: Kommo-o|60/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Kommo-o
+|-status|p1a: Kommo-o|par
+|move|p1a: Kommo-o|Dragon Tail|p2a: Grimmsnarl
+|-immune|p2a: Grimmsnarl
+|
+|-heal|p1a: Kommo-o|67/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Corviknight|Corviknight, M|84/100
+|-damage|p2a: Corviknight|71/100|[from] Stealth Rock
+|cant|p1a: Kommo-o|par
+|
+|-heal|p1a: Kommo-o|73/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Corviknight|Defog|p1a: Kommo-o
+|-unboost|p1a: Kommo-o|evasion|1
+|-sideend|p2: Dhdux|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Kommo-o|Dragon Tail|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|68/100
+|drag|p2a: Polteageist|Polteageist|100/100
+|
+|-heal|p1a: Kommo-o|79/100 par|[from] item: Leftovers
+|-sideend|p2: Dhdux|Reflect
+|upkeep
+|turn|9
+|
+|switch|p2a: Corviknight|Corviknight, M|68/100
+|cant|p1a: Kommo-o|par
+|
+|-heal|p1a: Kommo-o|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Dragapult|Dragapult, M, shiny|100/100
+|move|p2a: Corviknight|Reflect|p2a: Corviknight
+|-sidestart|p2: Dhdux|Reflect
+|
+|-sideend|p2: Dhdux|move: Light Screen
+|upkeep
+|turn|11
+|
+|move|p1a: Dragapult|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|12
+|
+|move|p1a: Dragapult|Flamethrower|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|80/100
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|55/100
+|
+|-heal|p2a: Hydreigon|62/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Obstagoon|Obstagoon, M, shiny|100/100
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|-heal|p2a: Hydreigon|68/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Obstagoon|Body Slam|p2a: Hydreigon
+|-activate|p2a: Hydreigon|move: Substitute|[damage]
+|move|p2a: Hydreigon|Flash Cannon|p1a: Obstagoon
+|-damage|p1a: Obstagoon|41/100
+|
+|-heal|p2a: Hydreigon|74/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Obstagoon|Body Slam|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|49/100
+|
+|-heal|p2a: Hydreigon|55/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Obstagoon|Body Slam|p2a: Hydreigon
+|-activate|p2a: Hydreigon|move: Substitute|[damage]
+|move|p2a: Hydreigon|Flash Cannon|p1a: Obstagoon
+|-damage|p1a: Obstagoon|0 fnt
+|faint|p1a: Obstagoon
+|
+|-heal|p2a: Hydreigon|61/100|[from] item: Leftovers
+|upkeep
+|c|☆psydukk++!|im gunna be doin
+|c|☆psydukk++!|an roa tour
+|c|☆psydukk++!|spec me
+|-message|psydukk++! forfeited.
+|
+|win|Dhdux
+|l|☆psydukk++!
+|c|☆Dhdux|ok

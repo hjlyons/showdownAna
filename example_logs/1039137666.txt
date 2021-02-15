@@ -1,0 +1,124 @@
+|ScrapeTime|2020-01-01-14:06:13
+|j|☆hombre mana
+|j|☆Secks_Pandas
+|player|p1|hombre mana|lucas|1134
+|player|p2|Secks_Pandas|101|1105
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Golurk|
+|poke|p1|Toxtricity-Low-Key, M|
+|poke|p1|Haxorus, M|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Stunfisk-Galar, M|
+|poke|p1|Milotic, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Vikavolt, M|
+|poke|p2|Bronzong|
+|poke|p2|Cofagrigus, F|
+|poke|p2|Crawdaunt, F|
+|poke|p2|Mew|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, M|100/100
+|switch|p2a: Cofagrigus|Cofagrigus, F|100/100
+|turn|1
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|move|p1a: Toxtricity|Overdrive|p2a: Bronzong
+|-damage|p2a: Bronzong|53/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|upkeep
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|3
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Hatterene
+|-damage|p2a: Hatterene|19/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Stunfisk|Stunfisk-Galar, M|100/100
+|move|p2a: Hatterene|Psychic|p1a: Stunfisk
+|-resisted|p1a: Stunfisk
+|-damage|p1a: Stunfisk|77/100
+|-damage|p2a: Hatterene|9/100|[from] item: Life Orb
+|
+|-heal|p1a: Stunfisk|83/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Stunfisk|Sucker Punch|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-heal|p1a: Stunfisk|90/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Mew|Mew|100/100
+|turn|6
+|
+|move|p1a: Stunfisk|Yawn|p2a: Mew
+|-start|p2a: Mew|move: Yawn|[of] p1a: Stunfisk
+|move|p2a: Mew|Mystical Fire|p1a: Stunfisk
+|-supereffective|p1a: Stunfisk
+|-damage|p1a: Stunfisk|62/100
+|-unboost|p1a: Stunfisk|spa|1
+|
+|-heal|p1a: Stunfisk|68/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Golurk|Golurk|100/100
+|move|p2a: Mew|Mystical Fire|p1a: Golurk
+|-damage|p1a: Golurk|70/100
+|-unboost|p1a: Golurk|spa|1
+|
+|-end|p2a: Mew|move: Yawn|[silent]
+|-status|p2a: Mew|slp
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|move|p1a: Golurk|Earthquake|p2a: Mew
+|-damage|p2a: Mew|36/100 slp
+|cant|p2a: Mew|slp
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Cofagrigus|Cofagrigus, F|100/100
+|move|p1a: Golurk|Earthquake|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|44/100
+|
+|-heal|p2a: Cofagrigus|50/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|-message|Secks_Pandas forfeited.
+|
+|win|hombre mana
+|l|☆Secks_Pandas
+|raw|hombre mana's rating: 1135 → 1157(+22 for winning)
+|raw|Secks_Pandas's rating: 1105 → 1082(-23 for losing)

@@ -1,0 +1,284 @@
+|ScrapeTime|2020-01-02-06:55:23
+|j|☆mimi (bitches)
+|j|☆flybrand
+|player|p1|mimi (bitches)|erika-gen1|1249
+|player|p2|flybrand|2|1221
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Flygon, F|
+|poke|p1|Copperajah, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Milotic, F|
+|poke|p1|Mew|
+|poke|p1|Arctozolt|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Bisharp, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Roserade, M|
+|poke|p2|Excadrill, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Flygon|Flygon, F|100/100
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|turn|1
+|
+|move|p1a: Flygon|U-turn|p2a: Corsola
+|-resisted|p2a: Corsola
+|-damage|p2a: Corsola|95/100
+|-start|p1a: Flygon|Disable|U-turn|[from] ability: Cursed Body|[of] p2a: Corsola
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100|[from]move: U-turn
+|move|p2a: Corsola|Stealth Rock|p1a: Hatterene
+|move|p1a: Hatterene|Stealth Rock|p2a: Corsola|[from]Magic Bounce
+|-sidestart|p2: flybrand|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Excadrill|Rapid Spin|p1a: Milotic
+|-damage|p1a: Milotic|77/100
+|-sideend|p2: flybrand|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-boost|p2a: Excadrill|spe|1
+|-damage|p2a: Excadrill|87/100|[from] item: Life Orb
+|
+|-status|p1a: Milotic|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|c|☆mimi (bitches)|!data Marvel Scale
+|raw|Marvel Scale If this Pokemon is statused, its Defense is 1.5x. 
+
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Milotic|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|89/100
+|-status|p2a: Rotom|brn
+|
+|-heal|p2a: Rotom|95/100 brn|[from] item: Leftovers
+|-damage|p1a: Milotic|71/100 brn|[from] brn
+|-damage|p2a: Rotom|89/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Arctozolt|Arctozolt|100/100
+|move|p2a: Rotom|Thunderbolt|p1a: Arctozolt
+|-immune|p1a: Arctozolt|[from] ability: Volt Absorb
+|
+|-heal|p2a: Rotom|95/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|89/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Arctozolt|Bolt Beak|p2a: Rotom
+|-damage|p2a: Rotom|6/100 brn
+|move|p2a: Rotom|Will-O-Wisp|p1a: Arctozolt
+|-status|p1a: Arctozolt|brn
+|
+|-heal|p2a: Rotom|12/100 brn|[from] item: Leftovers
+|-damage|p1a: Arctozolt|94/100 brn|[from] brn
+|-damage|p2a: Rotom|6/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Arctozolt
+|-damage|p1a: Arctozolt|39/100 brn
+|move|p1a: Arctozolt|Freeze-Dry|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-damage|p1a: Arctozolt|33/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M, shiny|100/100
+|turn|8
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Arctozolt
+|-damage|p1a: Arctozolt|0 fnt
+|faint|p1a: Arctozolt
+|
+|upkeep
+|
+|switch|p1a: Flygon|Flygon, F|100/100
+|turn|9
+|
+|switch|p2a: Excadrill|Excadrill, M|87/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Flygon|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|turn|10
+|
+|switch|p1a: Mew|Mew|100/100
+|move|p2a: Conkeldurr|Ice Punch|p1a: Mew
+|-damage|p1a: Mew|76/100
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Bisharp|Bisharp, M, shiny|100/100
+|move|p1a: Mew|Encore||[still]
+|-fail|p1a: Mew
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Mew|Encore||[still]
+|-fail|p1a: Mew
+|move|p2a: Bisharp|Throat Chop|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|
+|switch|p1a: Copperajah|Copperajah, M|100/100
+|turn|13
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|move|p1a: Copperajah|Heat Crash|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|58/100
+|-damage|p1a: Copperajah|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|88/100
+|-heal|p2a: Conkeldurr|62/100|[from] drain|[of] p1a: Hatterene
+|
+|-heal|p1a: Hatterene|94/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Roserade|Roserade, M|100/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-heal|p1a: Hatterene|99/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Hatterene|Psychic|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|
+|-heal|p1a: Hatterene|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M, shiny|100/100
+|turn|17
+|
+|switch|p1a: Copperajah|Copperajah, M|91/100
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Corsola|Corsola-Galar, M|95/100
+|move|p1a: Copperajah|Heat Crash|p2a: Corsola
+|-damage|p2a: Corsola|67/100
+|-start|p1a: Copperajah|Disable|Heat Crash|[from] ability: Cursed Body|[of] p2a: Corsola
+|-damage|p1a: Copperajah|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Corsola|Will-O-Wisp|p1a: Hatterene
+|move|p1a: Hatterene|Will-O-Wisp|p2a: Corsola|[from]Magic Bounce
+|-status|p2a: Corsola|brn
+|
+|-damage|p2a: Corsola|61/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|20
+|
+|move|p2a: Corsola|Hex|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|68/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-heal|p1a: Hatterene|74/100|[from] item: Leftovers
+|-damage|p2a: Corsola|55/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Corsola
+|-damage|p2a: Corsola|21/100 brn
+|-start|p1a: Hatterene|Disable|Dazzling Gleam|[from] ability: Cursed Body|[of] p2a: Corsola
+|move|p2a: Corsola|Hex|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|42/100
+|
+|-heal|p1a: Hatterene|48/100|[from] item: Leftovers
+|-damage|p2a: Corsola|15/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p1a: Hatterene|Psychic|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|
+|-heal|p1a: Hatterene|54/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|62/100
+|turn|23
+|
+|move|p1a: Hatterene|Psychic|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|-heal|p1a: Hatterene|60/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M, shiny|100/100
+|turn|24
+|
+|move|p1a: Hatterene|Mystical Fire|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|win|mimi (bitches)
+|raw|mimi (bitches)'s rating: 1249 → 1272(+23 for winning)
+|raw|flybrand's rating: 1221 → 1198(-23 for losing)
+|c|☆flybrand|gg
+|c|☆mimi (bitches)|gg

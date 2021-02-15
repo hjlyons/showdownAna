@@ -1,0 +1,293 @@
+|ScrapeTime|2020-01-01-16:04:59
+|j|☆Nikesame
+|j|☆Etcafaitbimbamboom
+|player|p1|Nikesame|170|1163
+|player|p2|Etcafaitbimbamboom|idol|1137
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Seismitoad, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Pelipper, M|
+|poke|p1|Dracovish|
+|poke|p1|Polteageist|
+|poke|p2|Mew|
+|poke|p2|Dragapult, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Indeedee, M|
+|poke|p2|Bisharp, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Seismitoad
+|-damage|p1a: Seismitoad|28/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Seismitoad|Stealth Rock|p2a: Dragapult
+|-sidestart|p2: Etcafaitbimbamboom|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Nikesame)
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Grimmsnarl
+|-immune|p1a: Grimmsnarl
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Toxapex
+|-status|p2a: Toxapex|par
+|
+|-heal|p2a: Toxapex|94/100 par|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Nikesame|move: Light Screen
+|cant|p2a: Toxapex|par
+|
+|-heal|p2a: Toxapex|100/100 par|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Nikesame|Reflect
+|move|p2a: Toxapex|Toxic Spikes|p1a: Grimmsnarl
+|-sidestart|p1: Nikesame|move: Toxic Spikes
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Polteageist|Polteageist|100/100
+|-status|p1a: Polteageist|psn
+|move|p2a: Toxapex|Scald|p1a: Polteageist
+|-damage|p1a: Polteageist|91/100 psn
+|
+|-damage|p1a: Polteageist|79/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|-enditem|p1a: Polteageist|White Herb
+|-clearnegativeboost|p1a: Polteageist|[silent]
+|
+|-damage|p1a: Polteageist|67/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|move|p1a: Polteageist|Strength Sap|p2a: Bisharp
+|-unboost|p2a: Bisharp|atk|1
+|-ability|p2a: Bisharp|Defiant
+|-boost|p2a: Bisharp|atk|2
+|-heal|p1a: Polteageist|100/100 psn
+|
+|-damage|p1a: Polteageist|88/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|upkeep
+|inactive|Nikesame has 120 seconds left.
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|-status|p1a: Grimmsnarl|psn
+|turn|10
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Bisharp
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Bisharp
+|move|p2a: Bisharp|Iron Head|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|26/100 psn
+|
+|-damage|p1a: Grimmsnarl|14/100 psn|[from] psn
+|upkeep
+|turn|11
+|inactive|Nikesame has 120 seconds left.
+|
+|switch|p1a: Seismitoad|Seismitoad, F|28/100
+|-status|p1a: Seismitoad|psn
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|
+|-damage|p1a: Seismitoad|16/100 psn|[from] psn
+|-sideend|p1: Nikesame|move: Light Screen
+|upkeep
+|turn|12
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-sideend|p1: Nikesame|Reflect
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|14/100 psn
+|turn|13
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Nikesame|Reflect
+|move|p2a: Bisharp|Iron Head|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|turn|14
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|move|p1a: Rotom|Will-O-Wisp|p2a: Seismitoad
+|-status|p2a: Seismitoad|brn
+|
+|-heal|p2a: Seismitoad|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|94/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Seismitoad|Stealth Rock|p1a: Pelipper
+|-sidestart|p1: Nikesame|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|94/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100 par
+|-damage|p2a: Toxapex|88/100 par|[from] Stealth Rock
+|move|p1a: Pelipper|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|58/100 par
+|-start|p2a: Toxapex|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|64/100 par|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|move|p1a: Pelipper|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|34/100 par
+|-activate|p2a: Toxapex|confusion
+|-damage|p2a: Toxapex|30/100 par|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|37/100 par|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p1a: Pelipper|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|10/100 par
+|-activate|p2a: Toxapex|confusion
+|-damage|p2a: Toxapex|6/100 par|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|12/100 par|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-damage|p2a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Pelipper|Hurricane|p2a: Indeedee
+|-damage|p2a: Indeedee|29/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p2a: Indeedee|Psyshock|p1a: Pelipper
+|-damage|p1a: Pelipper|2/100
+|move|p1a: Pelipper|Hurricane|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: Nikesame|Reflect
+|upkeep
+|
+|switch|p2a: Mew|Mew|100/100
+|-damage|p2a: Mew|88/100|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Mew|Nasty Plot|p2a: Mew
+|-boost|p2a: Mew|spa|2
+|move|p1a: Pelipper|Hurricane|p2a: Mew
+|-damage|p2a: Mew|45/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mew|51/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Mew|Psychic|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|none
+|-heal|p2a: Mew|57/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|turn|23
+|inactive|Nikesame has 90 seconds left.
+|
+|move|p2a: Mew|Psychic|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-heal|p2a: Mew|64/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|-damage|p1a: Dracovish|88/100|[from] Stealth Rock
+|-status|p1a: Dracovish|psn
+|turn|24
+|inactive|Nikesame has 90 seconds left.
+|
+|move|p2a: Mew|Psychic|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|win|Etcafaitbimbamboom
+|raw|Nikesame's rating: 1163 → 1136(-27 for losing)
+|raw|Etcafaitbimbamboom's rating: 1137 → 1164(+27 for winning)
+|l|☆Nikesame

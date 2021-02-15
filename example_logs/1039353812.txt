@@ -1,0 +1,459 @@
+|ScrapeTime|2020-01-01-22:45:48
+|j|☆princesse etoile
+|j|☆Sneaky IRL
+|player|p1|princesse etoile|expertf-gen3|1416
+|player|p2|Sneaky IRL|hilbert|1377
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Lucario, M|
+|poke|p1|Dracozolt|
+|poke|p1|Rotom-Wash|
+|poke|p1|Rillaboom, F|
+|poke|p1|Tyranitar, F|
+|poke|p1|Clefable, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Toxtricity, M|
+|poke|p2|Sylveon, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Gastrodon, M|
+|poke|p2|Crawdaunt, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Clefable|Clefable, F|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Sneaky IRL)
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Cinderace|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|72/100
+|
+|switch|p2a: Sylveon|Sylveon, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Rotom|Volt Switch|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Rotom|Volt Switch|p2a: Sylveon
+|-damage|p2a: Sylveon|88/100
+|
+|switch|p1a: Lucario|Lucario, M|100/100|[from]move: Volt Switch
+|move|p2a: Sylveon|Mystical Fire|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|42/100
+|-unboost|p1a: Lucario|spa|1
+|
+|-heal|p2a: Sylveon|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|move|p1a: Lucario|Bullet Punch|p2a: Gastrodon
+|-resisted|p2a: Gastrodon
+|-damage|p2a: Gastrodon|92/100
+|-damage|p1a: Lucario|32/100|[from] item: Life Orb
+|
+|-heal|p2a: Gastrodon|98/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|move|p2a: Gastrodon|Scald|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|85/100
+|
+|-heal|p1a: Rillaboom|91/100|[from] item: Leftovers
+|-heal|p2a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Rillaboom|Leech Seed|p2a: Corviknight
+|-start|p2a: Corviknight|move: Leech Seed
+|
+|-heal|p1a: Rillaboom|98/100|[from] item: Leftovers
+|-damage|p2a: Corviknight|88/100|[from] Leech Seed|[of] p1a: Rillaboom
+|-heal|p1a: Rillaboom|100/100|[silent]
+|upkeep
+|turn|7
+|
+|switch|p1a: Lucario|Lucario, M|32/100
+|move|p2a: Corviknight|U-turn|p1a: Lucario
+|-resisted|p1a: Lucario
+|-damage|p1a: Lucario|26/100
+|inactive|Sneaky IRL has 120 seconds left.
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Cinderace|U-turn|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|86/100
+|inactive|Sneaky IRL has 120 seconds left.
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Toxtricity|Sludge Wave|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxtricity|94/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|move|p1a: Tyranitar|Stealth Rock|p2a: Gastrodon
+|-sidestart|p2: Sneaky IRL|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|inactive|princesse etoile has 120 seconds left.
+|
+|switch|p1a: Clefable|Clefable, F|86/100
+|switch|p2a: Corviknight|Corviknight, F|88/100
+|-damage|p2a: Corviknight|75/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p1a: Clefable|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|2/100
+|move|p2a: Corviknight|Defog|p1a: Clefable
+|-unboost|p1a: Clefable|evasion|1
+|-sideend|p2: Sneaky IRL|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|move|p1a: Clefable|Moonblast|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|14
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Clefable
+|-damage|p1a: Clefable|18/100
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|68/100
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Corviknight|Corviknight, F|2/100
+|-ability|p2a: Corviknight|Pressure
+|switch|p1a: Rotom|Rotom-Wash|72/100
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Gastrodon
+|-immune|p2a: Gastrodon
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Tyranitar|Tyranitar, F|89/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Gastrodon|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|18
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Tyranitar|Stealth Rock|p2a: Cinderace
+|-sidestart|p2: Sneaky IRL|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cinderace|95/100|[from] Sandstorm
+|upkeep
+|turn|19
+|
+|move|p2a: Cinderace|High Jump Kick|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cinderace|89/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|72/100
+|turn|20
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|-damage|p2a: Gastrodon|94/100|[from] Stealth Rock
+|move|p1a: Rotom|Hydro Pump|p2a: Gastrodon
+|-ability|p2a: Gastrodon|Storm Drain|boost
+|-boost|p2a: Gastrodon|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|66/100|[from] Sandstorm
+|-heal|p2a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|move|p2a: Gastrodon|Clear Smog|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|64/100
+|-clearboost|p1a: Rillaboom
+|
+|-weather|none
+|-heal|p1a: Rillaboom|71/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Corviknight|Corviknight, F|2/100
+|-damage|p2a: Corviknight|0 fnt|[from] Stealth Rock
+|faint|p2a: Corviknight
+|move|p1a: Rillaboom|Drum Beating|p2: Corviknight|[notarget]
+|-fail|p1a: Rillaboom
+|
+|-heal|p1a: Rillaboom|77/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|89/100
+|-damage|p2a: Cinderace|64/100|[from] Stealth Rock
+|turn|23
+|
+|switch|p1a: Clefable|Clefable, F|68/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|turn|24
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|-damage|p2a: Gastrodon|94/100|[from] Stealth Rock
+|move|p1a: Dracozolt|Dragon Claw|p2a: Gastrodon
+|-damage|p2a: Gastrodon|58/100
+|
+|-heal|p2a: Gastrodon|64/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p1a: Rotom|Rotom-Wash|66/100
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100
+|
+|upkeep
+|turn|26
+|
+|switch|p2a: Toxtricity|Toxtricity, M|94/100
+|-damage|p2a: Toxtricity|82/100|[from] Stealth Rock
+|move|p1a: Rotom|Trick|p2a: Toxtricity
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Toxtricity
+|-item|p2a: Toxtricity|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Expert Belt|[from] move: Trick
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|turn|28
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|-damage|p2a: Gastrodon|94/100|[from] Stealth Rock
+|move|p1a: Dracozolt|Dragon Claw|p2a: Gastrodon
+|-crit|p2a: Gastrodon
+|-damage|p2a: Gastrodon|39/100
+|
+|-heal|p2a: Gastrodon|45/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Dracozolt|Dragon Claw|p2a: Gastrodon
+|-damage|p2a: Gastrodon|7/100
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|57/100
+|
+|-heal|p2a: Gastrodon|63/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p1a: Lucario|Lucario, M|26/100
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100
+|
+|upkeep
+|turn|31
+|
+|switch|p1a: Rillaboom|Rillaboom, F|77/100
+|move|p2a: Gastrodon|Earth Power|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|60/100
+|
+|-heal|p1a: Rillaboom|66/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p2a: Sylveon|Sylveon, F|94/100
+|-damage|p2a: Sylveon|81/100|[from] Stealth Rock
+|move|p1a: Rillaboom|Leech Seed|p2a: Sylveon
+|-start|p2a: Sylveon|move: Leech Seed
+|
+|-heal|p1a: Rillaboom|73/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|87/100|[from] item: Leftovers
+|-damage|p2a: Sylveon|75/100|[from] Leech Seed|[of] p1a: Rillaboom
+|-heal|p1a: Rillaboom|85/100|[silent]
+|upkeep
+|turn|33
+|
+|switch|p2a: Cinderace|Cinderace, M|64/100
+|-damage|p2a: Cinderace|39/100|[from] Stealth Rock
+|move|p1a: Rillaboom|Drum Beating|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|15/100
+|-unboost|p2a: Cinderace|spe|1
+|
+|-heal|p1a: Rillaboom|91/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Dracozolt|[miss]
+|-miss|p2a: Cinderace|p1a: Dracozolt
+|
+|upkeep
+|turn|35
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Dracozolt
+|-resisted|p1a: Dracozolt
+|-damage|p1a: Dracozolt|48/100
+|-status|p1a: Dracozolt|brn
+|move|p1a: Dracozolt|Dragon Claw|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-damage|p1a: Dracozolt|42/100 brn|[from] brn
+|upkeep
+|inactive|Sneaky IRL has 120 seconds left.
+|
+|switch|p2a: Sylveon|Sylveon, F|75/100
+|-damage|p2a: Sylveon|62/100|[from] Stealth Rock
+|turn|36
+|
+|move|p1a: Dracozolt|Bolt Beak|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|faint|p2a: Sylveon
+|
+|-damage|p1a: Dracozolt|36/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, M|82/100
+|-damage|p2a: Toxtricity|70/100|[from] Stealth Rock
+|turn|37
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Dracozolt
+|-crit|p1a: Dracozolt
+|-damage|p1a: Dracozolt|0 fnt
+|faint|p1a: Dracozolt
+|
+|upkeep
+|
+|switch|p1a: Rillaboom|Rillaboom, F|91/100
+|turn|38
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Rillaboom
+|-damage|p1a: Rillaboom|17/100
+|move|p1a: Rillaboom|Knock Off|p2a: Toxtricity
+|-damage|p2a: Toxtricity|19/100
+|-enditem|p2a: Toxtricity|Choice Scarf|[from] move: Knock Off|[of] p1a: Rillaboom
+|
+|-heal|p1a: Rillaboom|24/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, M|26/100
+|turn|40
+|
+|move|p1a: Lucario|Close Combat|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|-damage|p1a: Lucario|17/100|[from] item: Life Orb
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|-damage|p2a: Gastrodon|94/100|[from] Stealth Rock
+|turn|41
+|
+|move|p1a: Lucario|Close Combat|p2a: Gastrodon
+|-damage|p2a: Gastrodon|43/100
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|-damage|p1a: Lucario|7/100|[from] item: Life Orb
+|move|p2a: Gastrodon|Earth Power|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|win|Sneaky IRL
+|c|☆Sneaky IRL|Gg
+|l|☆princesse etoile
+|raw|princesse etoile's rating: 1436 → 1412(-24 for losing)
+|raw|Sneaky IRL's rating: 1377 → 1400(+23 for winning)

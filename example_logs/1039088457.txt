@@ -1,0 +1,401 @@
+|ScrapeTime|2020-01-01-10:35:33
+|j|☆DarkGenex
+|j|☆Hades813
+|player|p1|DarkGenex|unknownf|1376
+|player|p2|Hades813|ghetsis|1351
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Rotom-Mow|
+|poke|p1|Ditto|
+|poke|p1|Toxapex, F|
+|poke|p1|Hydreigon, F|
+|poke|p1|Hippowdon, M|
+|poke|p2|Dracovish|
+|poke|p2|Hawlucha, M|
+|poke|p2|Indeedee, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Clefable, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hades813)
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Hydreigon|Fire Blast|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|89/100
+|
+|-heal|p2a: Toxapex|95/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Toxapex|Scald|p1a: Hatterene
+|-damage|p1a: Hatterene|81/100
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-heal|p1a: Hatterene|87/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Indeedee
+|-damage|p2a: Indeedee|38/100
+|
+|-heal|p1a: Hatterene|93/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Ditto|Ditto, shiny|100/100
+|-transform|p1a: Ditto|p2a: Indeedee|[from] ability: Imposter
+|move|p2a: Indeedee|Shadow Ball|p1a: Ditto
+|-immune|p1a: Ditto
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Ditto|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|53/100
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Ditto|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|2/100
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|52/100
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Ditto|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|8
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Excadrill|Rapid Spin|p1a: Hippowdon
+|-damage|p1a: Hippowdon|91/100
+|-boost|p2a: Excadrill|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|98/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Excadrill|Stealth Rock|p1a: Hippowdon
+|-sidestart|p1: DarkGenex|move: Stealth Rock
+|move|p1a: Hippowdon|Stealth Rock|p2a: Excadrill
+|-sidestart|p2: Hades813|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Excadrill|Rapid Spin|p1a: Hippowdon
+|-damage|p1a: Hippowdon|90/100
+|-sideend|p2: Hades813|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-boost|p2a: Excadrill|spe|1
+|move|p1a: Hippowdon|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-enditem|p2a: Excadrill|Focus Sash
+|-damage|p2a: Excadrill|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|97/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Excadrill|Iron Head|p1a: Hippowdon
+|-damage|p1a: Hippowdon|73/100
+|move|p1a: Hippowdon|Stealth Rock|p2a: Excadrill
+|-sidestart|p2: Hades813|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|79/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Excadrill|Rapid Spin|p1a: Hippowdon
+|-crit|p1a: Hippowdon
+|-damage|p1a: Hippowdon|64/100
+|-sideend|p2: Hades813|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-boost|p2a: Excadrill|spe|1
+|move|p1a: Hippowdon|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|none
+|-heal|p1a: Hippowdon|70/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|13
+|
+|switch|p1a: Ditto|Ditto, shiny|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Dracovish|[from] ability: Imposter
+|move|p2a: Dracovish|Fishious Rend|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|60/100
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Ditto|Psychic Fangs|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|49/100
+|
+|-heal|p2a: Toxapex|55/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-heal|p1a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|switch|p2a: Indeedee|Indeedee, M|38/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|switch|p1a: Hatterene|Hatterene, F|93/100
+|-damage|p1a: Hatterene|81/100|[from] Stealth Rock
+|
+|-heal|p1a: Hatterene|87/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|move|p2a: Indeedee|Psychic|p1a: Hydreigon
+|-immune|p1a: Hydreigon
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Hydreigon|U-turn|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100|[from]move: U-turn
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|-enditem|p2a: Hawlucha|Psychic Seed
+|-boost|p2a: Hawlucha|spd|1
+|turn|19
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Rotom
+|-damage|p1a: Rotom|20/100
+|move|p1a: Rotom|Volt Switch|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|31/100
+|
+|switch|p1a: Hippowdon|Hippowdon, M|70/100|[from]move: Volt Switch
+|-damage|p1a: Hippowdon|64/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hawlucha|25/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|70/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Hawlucha|Iron Head|p1a: Hippowdon
+|-damage|p1a: Hippowdon|57/100
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hawlucha|19/100|[from] Sandstorm
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|21
+|
+|move|p2a: Hawlucha|Iron Head|p1a: Hippowdon
+|-damage|p1a: Hippowdon|87/100
+|cant|p1a: Hippowdon|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hawlucha|13/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|94/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Hawlucha|Iron Head|p1a: Hippowdon
+|-damage|p1a: Hippowdon|82/100
+|cant|p1a: Hippowdon|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hawlucha|7/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|88/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Hawlucha|Iron Head|p1a: Hippowdon
+|-damage|p1a: Hippowdon|76/100
+|cant|p1a: Hippowdon|flinch
+|
+|-weather|none
+|-heal|p1a: Hippowdon|82/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Hawlucha|Iron Head|p1a: Hippowdon
+|-damage|p1a: Hippowdon|70/100
+|move|p1a: Hippowdon|Stealth Rock|p2a: Hawlucha
+|-sidestart|p2: Hades813|move: Stealth Rock
+|
+|-heal|p1a: Hippowdon|76/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Hippowdon|Whirlwind|p2a: Hawlucha
+|drag|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|switch|p1a: Hatterene|Hatterene, F|87/100
+|-damage|p1a: Hatterene|75/100|[from] Stealth Rock
+|move|p2a: Toxapex|Toxic|p1a: Hatterene
+|move|p1a: Hatterene|Toxic|p2a: Toxapex|[from]Magic Bounce
+|-immune|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-heal|p1a: Hatterene|81/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Hawlucha|Hawlucha, M|7/100
+|-damage|p2a: Hawlucha|0 fnt|[from] Stealth Rock
+|faint|p2a: Hawlucha
+|move|p1a: Hatterene|Dazzling Gleam|p2: Hawlucha|[notarget]
+|-fail|p1a: Hatterene
+|
+|-heal|p1a: Hatterene|87/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|turn|29
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Dracovish|Fishious Rend|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|46/100
+|
+|-heal|p1a: Toxapex|52/100|[from] item: Black Sludge
+|upkeep
+|turn|30
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Dracovish|Fishious Rend|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|-status|p2a: Dracovish|psn
+|
+|-heal|p1a: Toxapex|58/100|[from] item: Black Sludge
+|-damage|p2a: Dracovish|76/100 psn|[from] psn
+|upkeep
+|turn|31
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|15/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|65/100
+|
+|-heal|p1a: Toxapex|71/100|[from] item: Black Sludge
+|-damage|p2a: Dracovish|63/100 psn|[from] psn
+|upkeep
+|turn|32
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|31/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|81/100
+|
+|-heal|p1a: Toxapex|88/100|[from] item: Black Sludge
+|-damage|p2a: Dracovish|51/100 psn|[from] psn
+|upkeep
+|turn|33
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|46/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|96/100
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p2a: Dracovish|38/100 psn|[from] psn
+|upkeep
+|turn|34
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|61/100
+|move|p1a: Toxapex|Scald|p2a: Dracovish
+|-resisted|p2a: Dracovish
+|-damage|p2a: Dracovish|33/100 psn
+|
+|-heal|p1a: Toxapex|67/100|[from] item: Black Sludge
+|-damage|p2a: Dracovish|21/100 psn|[from] psn
+|upkeep
+|turn|35
+|-message|Hades813 forfeited.
+|
+|win|DarkGenex
+|l|☆Hades813
+|raw|DarkGenex's rating: 1376 → 1395(+19 for winning)
+|raw|Hades813's rating: 1351 → 1332(-19 for losing)

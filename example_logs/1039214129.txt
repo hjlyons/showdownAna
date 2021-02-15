@@ -1,0 +1,405 @@
+|ScrapeTime|2020-01-01-17:44:51
+|j|☆Lord UnderCrow
+|j|☆Fifou le vrai
+|player|p1|Lord UnderCrow|238|1266
+|player|p2|Fifou le vrai|ruinmaniac|1238
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Machamp, M|
+|poke|p1|Milotic, F|
+|poke|p1|Salazzle, F|
+|poke|p1|Gengar, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Corviknight, M|
+|poke|p2|Escavalier, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Dracovish|
+|poke|p2|Charizard, F|
+|poke|p2|Ditto|
+|poke|p2|Gastrodon, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Fifou le vrai)
+|
+|start
+|switch|p1a: Salazzle|Salazzle, F, shiny|100/100
+|switch|p2a: Aïe|Charizard, F|100/100
+|turn|1
+|
+|switch|p2a: Mad podcast|Ditto|100/100
+|-transform|p2a: Mad podcast|p1a: Salazzle|[from] ability: Imposter
+|move|p1a: Salazzle|Fake Out|p2a: Mad podcast
+|-damage|p2a: Mad podcast|88/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Mad podcast|Toxic|p1a: Salazzle
+|-status|p1a: Salazzle|tox
+|move|p1a: Salazzle|Toxic|p2a: Mad podcast
+|-status|p2a: Mad podcast|tox
+|
+|-damage|p2a: Mad podcast|82/100 tox|[from] psn
+|-damage|p1a: Salazzle|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p2a: Dracoput|Dracovish|100/100
+|move|p1a: Salazzle|Toxic|p2a: Dracoput
+|-status|p2a: Dracoput|tox
+|
+|-damage|p1a: Salazzle|82/100 tox|[from] psn
+|-damage|p2a: Dracoput|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p1a: Salazzle|Sludge Wave|p2a: Dracoput
+|-damage|p2a: Dracoput|47/100 tox
+|move|p2a: Dracoput|Fishious Rend|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|faint|p1a: Salazzle
+|
+|-damage|p2a: Dracoput|35/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, M, shiny|100/100
+|turn|5
+|
+|switch|p2a: Ça te déboite l'an|Escavalier, F|100/100
+|move|p1a: Gengar|Shadow Ball|p2a: Ça te déboite l'an
+|-damage|p2a: Ça te déboite l'an|74/100
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Ça te déboite l'an|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|75/100
+|-damage|p2a: Ça te déboite l'an|61/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p2a: Ça te déboite l'an
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Ça te déboite l'an|Drill Run|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|41/100
+|-damage|p2a: Ça te déboite l'an|49/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Ça te déboite l'an
+|-sidestart|p2: Fifou le vrai|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Ça te déboite l'an|Close Combat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Ça te déboite l'an|37/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-unboost|p2a: Ça te déboite l'an|def|1
+|-unboost|p2a: Ça te déboite l'an|spd|1
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|inactive|Lord UnderCrow has 120 seconds left.
+|
+|switch|p1a: Hulk|Machamp, M, shiny|100/100
+|turn|9
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Hulk|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|64/100
+|-damage|p1a: Hulk|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-enditem|p2a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p1a: Hulk
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Gengar|Gengar, M, shiny|100/100
+|move|p2a: Corviknight|Defog|p1a: Gengar
+|-unboost|p1a: Gengar|evasion|1
+|-sideend|p2: Fifou le vrai|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Gengar|Substitute|p1a: Gengar
+|-start|p1a: Gengar|Substitute
+|-damage|p1a: Gengar|76/100
+|move|p2a: Corviknight|Brave Bird|p1a: Gengar
+|-end|p1a: Gengar|Substitute
+|-damage|p2a: Corviknight|58/100|[from] Recoil|[of] p1a: Gengar
+|
+|-heal|p1a: Gengar|82/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|move|p1a: Gengar|Disable|p2a: Corviknight
+|-start|p2a: Corviknight|Disable|Brave Bird
+|cant|p2a: Corviknight|Disable|Brave Bird
+|
+|-heal|p1a: Gengar|88/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|move|p1a: Gengar|Substitute|p1a: Gengar
+|-start|p1a: Gengar|Substitute
+|-damage|p1a: Gengar|63/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p1a: Gengar|69/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|switch|p2a: Ça te déboite l'an|Escavalier, F|37/100
+|move|p1a: Gengar|Shadow Ball|p2a: Ça te déboite l'an
+|-damage|p2a: Ça te déboite l'an|10/100
+|
+|-heal|p1a: Gengar|75/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Ça te déboite l'an
+|-damage|p2a: Ça te déboite l'an|0 fnt
+|faint|p2a: Ça te déboite l'an
+|
+|-heal|p1a: Gengar|81/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|turn|16
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Gastrodon
+|-damage|p2a: Gastrodon|59/100
+|move|p2a: Gastrodon|Scald|p1a: Gengar
+|-end|p1a: Gengar|Substitute
+|
+|-heal|p1a: Gengar|87/100|[from] item: Black Sludge
+|-heal|p2a: Gastrodon|65/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Gastrodon|Earth Power|p1a: Milotic
+|-damage|p1a: Milotic|81/100
+|
+|-heal|p2a: Gastrodon|71/100|[from] item: Leftovers
+|-status|p1a: Milotic|brn|[from] item: Flame Orb
+|upkeep
+|turn|18
+|
+|switch|p1a: Hulk|Machamp, M, shiny|84/100
+|switch|p2a: Mad podcast|Ditto|82/100 tox
+|-transform|p2a: Mad podcast|p1a: Hulk|[from] ability: Imposter
+|
+|-damage|p2a: Mad podcast|76/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|switch|p1a: Milotic|Milotic, F|81/100 brn
+|move|p2a: Mad podcast|Knock Off|p1a: Milotic
+|-damage|p1a: Milotic|57/100 brn
+|-enditem|p1a: Milotic|Flame Orb|[from] move: Knock Off|[of] p2a: Mad podcast
+|
+|-damage|p2a: Mad podcast|65/100 tox|[from] psn
+|-damage|p1a: Milotic|51/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p2a: Gastrodon|Gastrodon, M|71/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100 brn
+|
+|-heal|p2a: Gastrodon|77/100|[from] item: Leftovers
+|-damage|p1a: Milotic|94/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|switch|p1a: Hulk|Machamp, M, shiny|84/100
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Hulk|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|53/100
+|-unboost|p1a: Hulk|def|1
+|-unboost|p1a: Hulk|spd|1
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Hulk|Close Combat|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|5/100
+|-unboost|p1a: Hulk|def|1
+|-unboost|p1a: Hulk|spd|1
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Hulk|Bullet Punch|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Aïe|Charizard, F|100/100
+|turn|25
+|
+|switch|p1a: Milotic|Milotic, F|94/100 brn
+|move|p2a: Aïe|Heat Wave|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|75/100 brn
+|
+|-damage|p1a: Milotic|69/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|switch|p2a: Dracoput|Dracovish|35/100 tox
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100 brn
+|
+|-damage|p1a: Milotic|94/100 brn|[from] brn
+|-damage|p2a: Dracoput|28/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100 brn
+|move|p2a: Dracoput|Outrage|p1a: Milotic
+|-damage|p1a: Milotic|64/100 brn
+|
+|-damage|p1a: Milotic|58/100 brn|[from] brn
+|-damage|p2a: Dracoput|16/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|move|p1a: Milotic|Ice Beam|p2a: Dracoput
+|-damage|p2a: Dracoput|0 fnt
+|faint|p2a: Dracoput
+|
+|-damage|p1a: Milotic|52/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Aïe|Charizard, F|100/100
+|turn|29
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Aïe|Dragon Pulse|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|83/100
+|
+|upkeep
+|turn|30
+|
+|switch|p2a: Mad podcast|Ditto|65/100 tox
+|-transform|p2a: Mad podcast|p1a: Corviknight|[from] ability: Imposter
+|switch|p1a: Milotic|Milotic, F|52/100 brn
+|
+|-damage|p2a: Mad podcast|59/100 tox|[from] psn
+|-damage|p1a: Milotic|45/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p2a: Mad podcast|Brave Bird|p1a: Milotic
+|-damage|p1a: Milotic|28/100 brn
+|-damage|p2a: Mad podcast|49/100 tox|[from] Recoil
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|78/100 brn
+|
+|-damage|p2a: Mad podcast|38/100 tox|[from] psn
+|-damage|p1a: Milotic|72/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100 brn
+|
+|-damage|p1a: Milotic|94/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|switch|p1a: Hulk|Machamp, M, shiny|84/100
+|move|p2a: Gastrodon|Scald|p1a: Hulk
+|-damage|p1a: Hulk|68/100
+|-status|p1a: Hulk|brn
+|
+|-damage|p1a: Hulk|62/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|move|p1a: Hulk|Close Combat|p2a: Gastrodon
+|-damage|p2a: Gastrodon|24/100
+|-unboost|p1a: Hulk|def|1
+|-unboost|p1a: Hulk|spd|1
+|move|p2a: Gastrodon|Earth Power|p1a: Hulk
+|-damage|p1a: Hulk|31/100 brn
+|
+|-heal|p2a: Gastrodon|30/100|[from] item: Leftovers
+|-damage|p1a: Hulk|25/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|switch|p2a: Aïe|Charizard, F|100/100
+|move|p1a: Hulk|Knock Off|p2a: Aïe
+|-damage|p2a: Aïe|16/100
+|-enditem|p2a: Aïe|Choice Specs|[from] move: Knock Off|[of] p1a: Hulk
+|
+|-damage|p1a: Hulk|19/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|move|p1a: Hulk|Bullet Punch|p2a: Aïe
+|-resisted|p2a: Aïe
+|-damage|p2a: Aïe|0 fnt
+|faint|p2a: Aïe
+|
+|-damage|p1a: Hulk|12/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Mad podcast|Ditto|38/100 tox
+|-transform|p2a: Mad podcast|p1a: Hulk|[from] ability: Imposter
+|turn|37
+|
+|move|p1a: Hulk|Bullet Punch|p2a: Mad podcast
+|-damage|p2a: Mad podcast|0 fnt
+|faint|p2a: Mad podcast
+|
+|-damage|p1a: Hulk|6/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Gastrodon|Gastrodon, M|30/100
+|turn|38
+|
+|move|p1a: Hulk|Close Combat|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|-unboost|p1a: Hulk|def|1
+|-unboost|p1a: Hulk|spd|1
+|faint|p2a: Gastrodon
+|
+|win|Lord UnderCrow
+|l|☆Fifou le vrai

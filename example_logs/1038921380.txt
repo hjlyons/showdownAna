@@ -1,0 +1,332 @@
+|ScrapeTime|2020-01-01-00:45:25
+|j|☆GoodWholesomeBoy
+|j|☆JohnGold42
+|player|p1|GoodWholesomeBoy|265|1107
+|player|p2|JohnGold42|176|1073
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Duraludon, M|
+|poke|p1|Sirfetch'd, M|
+|poke|p1|Avalugg, M|
+|poke|p1|Cloyster, M|
+|poke|p1|Polteageist|
+|poke|p1|Obstagoon, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Obstagoon, F|
+|poke|p2|Dracovish|
+|poke|p2|Gengar, F|
+|poke|p2|Eldegoss, F|
+|poke|p2|Togekiss, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Polteageist|Polteageist|100/100
+|switch|p2a: Emmaly|Togekiss, F|100/100
+|turn|1
+|
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|move|p2a: Emmaly|Shadow Ball|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-enditem|p1a: Polteageist|Focus Sash
+|-damage|p1a: Polteageist|1/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Polteageist|Shadow Ball|p2a: Emmaly
+|-damage|p2a: Emmaly|48/100
+|-unboost|p2a: Emmaly|spd|1
+|move|p2a: Emmaly|Ancient Power|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|upkeep
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|turn|3
+|
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|-enditem|p1a: Cloyster|White Herb
+|-clearnegativeboost|p1a: Cloyster|[silent]
+|move|p2a: Emmaly|Ancient Power|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|upkeep
+|
+|switch|p1a: Duraludon|Duraludon, M|100/100
+|turn|4
+|
+|move|p1a: Duraludon|Flash Cannon|p2a: Emmaly
+|-supereffective|p2a: Emmaly
+|-damage|p2a: Emmaly|0 fnt
+|faint|p2a: Emmaly
+|
+|upkeep
+|
+|switch|p2a: Mr. Fish|Dracovish|100/100
+|turn|5
+|
+|switch|p1a: Avalugg|Avalugg, M|100/100
+|move|p2a: Mr. Fish|Fishious Rend|p1a: Avalugg
+|-damage|p1a: Avalugg|45/100
+|
+|-heal|p1a: Avalugg|51/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Mr. Fish|Fishious Rend|p1a: Avalugg
+|-damage|p1a: Avalugg|3/100
+|move|p1a: Avalugg|Avalanche|p2a: Mr. Fish
+|-damage|p2a: Mr. Fish|34/100
+|
+|-heal|p1a: Avalugg|9/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Mr. Fish|Fishious Rend|p1a: Avalugg
+|-damage|p1a: Avalugg|0 fnt
+|faint|p1a: Avalugg
+|
+|upkeep
+|
+|switch|p1a: Sirfetch'd|Sirfetch'd, M|100/100
+|turn|8
+|
+|move|p1a: Sirfetch'd|First Impression|p2a: Mr. Fish
+|-damage|p2a: Mr. Fish|0 fnt
+|faint|p2a: Mr. Fish
+|
+|upkeep
+|
+|switch|p2a: Gwen|Gengar, F|100/100
+|turn|9
+|
+|switch|p1a: Obstagoon|Obstagoon, F|100/100
+|move|p2a: Gwen|Psychic|p1a: Obstagoon
+|-immune|p1a: Obstagoon
+|
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|10
+|
+|move|p2a: Gwen|Psychic|p1a: Obstagoon
+|-immune|p1a: Obstagoon
+|move|p1a: Obstagoon|Night Slash|p2a: Gwen
+|-supereffective|p2a: Gwen
+|-crit|p2a: Gwen
+|-damage|p2a: Gwen|0 fnt
+|faint|p2a: Gwen
+|
+|-damage|p1a: Obstagoon|94/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Frola|Eldegoss, F|100/100
+|turn|11
+|
+|move|p1a: Obstagoon|Facade|p2a: Frola
+|-damage|p2a: Frola|0 fnt
+|faint|p2a: Frola
+|
+|-damage|p1a: Obstagoon|88/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Skyla|Corviknight, F|100/100
+|turn|12
+|
+|move|p1a: Obstagoon|Close Combat|p2a: Skyla
+|-damage|p2a: Skyla|73/100
+|-unboost|p1a: Obstagoon|def|1
+|-unboost|p1a: Obstagoon|spd|1
+|move|p2a: Skyla|Bulk Up|p2a: Skyla
+|-boost|p2a: Skyla|atk|1
+|-boost|p2a: Skyla|def|1
+|
+|-heal|p2a: Skyla|79/100|[from] item: Leftovers
+|-damage|p1a: Obstagoon|82/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Obstagoon|Facade|p2a: Skyla
+|-resisted|p2a: Skyla
+|-damage|p2a: Skyla|61/100
+|move|p2a: Skyla|Bulk Up|p2a: Skyla
+|-boost|p2a: Skyla|atk|1
+|-boost|p2a: Skyla|def|1
+|
+|-heal|p2a: Skyla|67/100|[from] item: Leftovers
+|-damage|p1a: Obstagoon|76/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Obstagoon|Close Combat|p2a: Skyla
+|-damage|p2a: Skyla|52/100
+|-unboost|p1a: Obstagoon|def|1
+|-unboost|p1a: Obstagoon|spd|1
+|move|p2a: Skyla|Roost|p2a: Skyla
+|-heal|p2a: Skyla|100/100
+|-singleturn|p2a: Skyla|move: Roost
+|
+|-damage|p1a: Obstagoon|70/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Obstagoon|Night Slash|p2a: Skyla
+|-crit|p2a: Skyla
+|-damage|p2a: Skyla|64/100
+|move|p2a: Skyla|Bulk Up|p2a: Skyla
+|-boost|p2a: Skyla|atk|1
+|-boost|p2a: Skyla|def|1
+|
+|-heal|p2a: Skyla|70/100|[from] item: Leftovers
+|-damage|p1a: Obstagoon|64/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Obstagoon|Night Slash|p2a: Skyla
+|-damage|p2a: Skyla|59/100
+|move|p2a: Skyla|Bulk Up|p2a: Skyla
+|-boost|p2a: Skyla|atk|1
+|-boost|p2a: Skyla|def|1
+|
+|-heal|p2a: Skyla|65/100|[from] item: Leftovers
+|-damage|p1a: Obstagoon|58/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p1a: Obstagoon|Night Slash|p2a: Skyla
+|-damage|p2a: Skyla|57/100
+|move|p2a: Skyla|Bulk Up|p2a: Skyla
+|-boost|p2a: Skyla|atk|1
+|-boost|p2a: Skyla|def|1
+|
+|-heal|p2a: Skyla|63/100|[from] item: Leftovers
+|-damage|p1a: Obstagoon|52/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p1a: Obstagoon|Night Slash|p2a: Skyla
+|-damage|p2a: Skyla|55/100
+|move|p2a: Skyla|Roost|p2a: Skyla
+|-heal|p2a: Skyla|100/100
+|-singleturn|p2a: Skyla|move: Roost
+|
+|-damage|p1a: Obstagoon|45/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p1a: Obstagoon|Night Slash|p2a: Skyla
+|-damage|p2a: Skyla|93/100
+|move|p2a: Skyla|Bulk Up|p2a: Skyla
+|-boost|p2a: Skyla|atk|1
+|-boost|p2a: Skyla|def|1
+|
+|-heal|p2a: Skyla|99/100|[from] item: Leftovers
+|-damage|p1a: Obstagoon|39/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p1a: Obstagoon|Night Slash|p2a: Skyla
+|-damage|p2a: Skyla|93/100
+|move|p2a: Skyla|Drill Peck|p1a: Obstagoon
+|-damage|p1a: Obstagoon|0 fnt
+|faint|p1a: Obstagoon
+|
+|-heal|p2a: Skyla|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Duraludon|Duraludon, M|100/100
+|turn|21
+|
+|move|p1a: Duraludon|Thunderbolt|p2a: Skyla
+|-supereffective|p2a: Skyla
+|-damage|p2a: Skyla|6/100
+|move|p2a: Skyla|Drill Peck|p1a: Duraludon
+|-resisted|p1a: Duraludon
+|-damage|p1a: Duraludon|50/100
+|
+|-heal|p2a: Skyla|12/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Duraludon|Thunderbolt|p2a: Skyla
+|-supereffective|p2a: Skyla
+|-damage|p2a: Skyla|0 fnt
+|faint|p2a: Skyla
+|
+|upkeep
+|
+|switch|p2a: Rubia|Obstagoon, F, shiny|100/100
+|turn|23
+|
+|move|p2a: Rubia|Obstruct|p2a: Rubia
+|-singleturn|p2a: Rubia|Protect
+|move|p1a: Duraludon|Thunderbolt|p2a: Rubia
+|-activate|p2a: Rubia|move: Protect
+|
+|-status|p2a: Rubia|brn|[from] item: Flame Orb
+|upkeep
+|turn|24
+|
+|move|p2a: Rubia|Facade|p1a: Duraludon
+|-resisted|p1a: Duraludon
+|-damage|p1a: Duraludon|6/100
+|move|p1a: Duraludon|Thunderbolt|p2a: Rubia
+|-damage|p2a: Rubia|50/100 brn
+|
+|-damage|p2a: Rubia|44/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p2a: Rubia|Knock Off|p1a: Duraludon
+|-damage|p1a: Duraludon|0 fnt
+|-enditem|p1a: Duraludon|Choice Specs|[from] move: Knock Off|[of] p2a: Rubia
+|faint|p1a: Duraludon
+|
+|-damage|p2a: Rubia|38/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Sirfetch'd|Sirfetch'd, M|100/100
+|turn|26
+|
+|move|p2a: Rubia|Obstruct|p2a: Rubia
+|-singleturn|p2a: Rubia|Protect
+|move|p1a: Sirfetch'd|First Impression|p2a: Rubia
+|-activate|p2a: Rubia|move: Protect
+|-unboost|p1a: Sirfetch'd|def|2
+|
+|-damage|p2a: Rubia|31/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p2a: Rubia|Facade|p1a: Sirfetch'd
+|-damage|p1a: Sirfetch'd|0 fnt
+|faint|p1a: Sirfetch'd
+|
+|win|JohnGold42
+|l|☆GoodWholesomeBoy
+|raw|GoodWholesomeBoy's rating: 1107 → 1080(-27 for losing)
+|raw|JohnGold42's rating: 1073 → 1105(+32 for winning)

@@ -1,0 +1,220 @@
+|ScrapeTime|2020-01-01-12:25:33
+|j|‽Team FRS
+|j|☆Thinning the herd
+|player|p1|Team FRS|blue-gen2|1773
+|player|p2|Thinning the herd|gentleman|1676
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aegislash, F|
+|poke|p1|Mew|
+|poke|p1|Dragapult, M|
+|poke|p1|Mimikyu, F|
+|poke|p1|Toxtricity, F|
+|poke|p1|Hydreigon, M|
+|poke|p2|Dugtrio, F|
+|poke|p2|Sirfetch'd, F|
+|poke|p2|Crawdaunt, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Polteageist|
+|poke|p2|Bisharp, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|j| TheLindomar
+|
+|move|p1a: Mew|Taunt|p2a: Excadrill
+|-start|p2a: Excadrill|move: Taunt
+|move|p2a: Excadrill|Rapid Spin|p1a: Mew
+|-damage|p1a: Mew|85/100
+|-boost|p2a: Excadrill|spe|1
+|-enditem|p1a: Mew|Red Card|[of] p2a: Excadrill
+|drag|p2a: Polteageist|Polteageist|100/100
+|
+|upkeep
+|turn|2
+|l| TheLindomar
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Mew|Stealth Rock|p2a: Excadrill
+|-sidestart|p2: Thinning the herd|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|-item|p1a: Aegislash|Air Balloon
+|move|p2a: Excadrill|Rock Tomb|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|91/100
+|-enditem|p1a: Aegislash|Air Balloon
+|-unboost|p1a: Aegislash|spe|1
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Excadrill|Earthquake|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|turn|5
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Excadrill
+|-damage|p2a: Excadrill|45/100
+|move|p2a: Excadrill|Rapid Spin|p1a: Hydreigon
+|-damage|p1a: Hydreigon|79/100
+|-sideend|p2: Thinning the herd|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-boost|p2a: Excadrill|spe|1
+|
+|-heal|p1a: Hydreigon|85/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Excadrill|Stealth Rock|p1a: Hydreigon
+|-sidestart|p1: Team FRS|move: Stealth Rock
+|move|p1a: Hydreigon|Dark Pulse|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-heal|p1a: Hydreigon|91/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|100/100
+|turn|7
+|
+|switch|p1a: Mew|Mew|85/100
+|-damage|p1a: Mew|72/100|[from] Stealth Rock
+|move|p2a: Sirfetch'd|Brave Bird|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|11/100
+|-damage|p2a: Sirfetch'd|70/100|[from] Recoil
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|move|p1a: Mew|Stealth Rock|p2a: Dugtrio
+|-sidestart|p2: Thinning the herd|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|63/100
+|move|p2a: Dugtrio|Earthquake|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|39/100
+|move|p2a: Dugtrio|Earthquake|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Dugtrio
+|-damage|p2a: Dugtrio|4/100
+|-damage|p2a: Dugtrio|0 fnt
+|-hitcount|p2a: Dugtrio|2
+|-damage|p1a: Dragapult|29/100|[from] item: Life Orb
+|faint|p2a: Dugtrio
+|
+|upkeep
+|j| tanghuiming
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-damage|p2a: Bisharp|94/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Bisharp|Iron Head|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, F|100/100
+|-damage|p1a: Toxtricity|88/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|-damage|p2a: Polteageist|88/100|[from] Stealth Rock
+|move|p1a: Toxtricity|Overdrive|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|
+|upkeep
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|70/100
+|-damage|p2a: Sirfetch'd|64/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Sirfetch'd
+|-damage|p2a: Sirfetch'd|0 fnt
+|faint|p2a: Sirfetch'd
+|
+|upkeep
+|
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100
+|-damage|p2a: Crawdaunt|88/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Toxtricity
+|-damage|p1a: Toxtricity|47/100
+|move|p1a: Toxtricity|Overdrive|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|94/100
+|-damage|p2a: Bisharp|88/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|win|Team FRS
+|raw|Team FRS's rating: 1773 → 1788(+15 for winning)
+|raw|Thinning the herd's rating: 1676 → 1661(-15 for losing)
+|l|☆Thinning the herd
+|l|‽Team FRS

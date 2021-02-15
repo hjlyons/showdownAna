@@ -1,0 +1,422 @@
+|ScrapeTime|2020-01-01-20:18:37
+|j|☆Gloriosa Superba
+|j|☆AnimeGOD
+|player|p1|Gloriosa Superba|34|1109
+|player|p2|AnimeGOD|70|1123
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Centiskorch, M|
+|poke|p1|Orbeetle, M|
+|poke|p1|Galvantula, M|
+|poke|p1|Araquanid, M|
+|poke|p1|Vikavolt, F|
+|poke|p1|Crustle, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Ditto|
+|poke|p2|Dragapult, M|
+|poke|p2|Polteageist|
+|poke|p2|Corsola-Galar, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AnimeGOD)
+|
+|start
+|switch|p1a: Crustle|Crustle, F|100/100
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|turn|1
+|
+|move|p1a: Crustle|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: AnimeGOD|move: Stealth Rock
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Crustle|Spikes|p2a: Toxapex
+|-sidestart|p2: AnimeGOD|Spikes
+|move|p2a: Toxapex|Scald|p1a: Crustle
+|-supereffective|p1a: Crustle
+|-damage|p1a: Crustle|62/100
+|-status|p1a: Crustle|brn
+|
+|-damage|p1a: Crustle|56/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: Crustle|Spikes|p2a: Toxapex
+|-sidestart|p2: AnimeGOD|Spikes
+|move|p2a: Toxapex|Scald|p1a: Crustle
+|-supereffective|p1a: Crustle
+|-damage|p1a: Crustle|12/100 brn
+|
+|-damage|p1a: Crustle|5/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-damage|p2a: Ditto|84/100|[from] Spikes
+|-damage|p2a: Ditto|71/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Crustle|[from] ability: Imposter
+|move|p1a: Crustle|Spikes|p2a: Ditto
+|-sidestart|p2: AnimeGOD|Spikes
+|
+|-damage|p1a: Crustle|0 fnt|[from] brn
+|faint|p1a: Crustle
+|upkeep
+|
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|turn|5
+|
+|move|p2a: Ditto|Spikes|p1a: Araquanid
+|-sidestart|p1: Gloriosa Superba|Spikes
+|move|p1a: Araquanid|Waterfall|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|75/100|[from] Spikes
+|-damage|p2a: Ferrothorn|69/100|[from] Stealth Rock
+|turn|6
+|
+|move|p1a: Araquanid|Infestation|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|66/100
+|-damage|p1a: Araquanid|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Infestation|[of] p1a: Araquanid
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Araquanid
+|-sidestart|p1: Gloriosa Superba|move: Stealth Rock
+|
+|-heal|p1a: Araquanid|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|72/100|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|59/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|move|p1a: Araquanid|Aqua Ring|p1a: Araquanid
+|-start|p1a: Araquanid|Aqua Ring
+|move|p2a: Ferrothorn|Toxic|p1a: Araquanid
+|-status|p1a: Araquanid|tox
+|
+|-heal|p1a: Araquanid|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|66/100|[from] item: Leftovers
+|-damage|p1a: Araquanid|94/100 tox|[from] psn
+|-damage|p2a: Ferrothorn|53/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|8
+|
+|move|p1a: Araquanid|Waterfall|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|37/100
+|-damage|p1a: Araquanid|82/100 tox|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Araquanid
+|-start|p1a: Araquanid|move: Leech Seed
+|
+|-heal|p1a: Araquanid|88/100 tox|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|43/100|[from] item: Leftovers
+|-heal|p1a: Araquanid|94/100 tox|[from] Aqua Ring
+|-damage|p1a: Araquanid|82/100 tox|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|55/100|[silent]
+|-damage|p1a: Araquanid|70/100 tox|[from] psn
+|-damage|p2a: Ferrothorn|42/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|switch|p1a: Centiskorch|Centiskorch, M|100/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Centiskorch
+|-resisted|p1a: Centiskorch
+|-damage|p1a: Centiskorch|82/100
+|
+|-heal|p2a: Ferrothorn|49/100|[from] item: Leftovers
+|-end|p2a: Ferrothorn|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|turn|10
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|-damage|p2a: Toxapex|63/100|[from] Spikes
+|move|p1a: Centiskorch|Fire Lash|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|50/100
+|-unboost|p2a: Toxapex|def|1
+|
+|-heal|p2a: Toxapex|56/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|move|p1a: Centiskorch|Power Whip|p2a: Toxapex
+|-damage|p2a: Toxapex|18/100
+|move|p2a: Toxapex|Scald|p1a: Centiskorch
+|-supereffective|p1a: Centiskorch
+|-damage|p1a: Centiskorch|52/100
+|
+|-heal|p2a: Toxapex|24/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Centiskorch|Leech Life|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|-status|p1a: Centiskorch|psn
+|
+|-heal|p2a: Toxapex|30/100|[from] item: Black Sludge
+|-damage|p1a: Centiskorch|40/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|-damage|p2a: Corsola|75/100|[from] Spikes
+|-damage|p2a: Corsola|63/100|[from] Stealth Rock
+|move|p1a: Centiskorch|Power Whip|p2a: Corsola
+|-damage|p2a: Corsola|33/100
+|
+|-damage|p1a: Centiskorch|27/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|move|p1a: Centiskorch|Leech Life|p2a: Corsola
+|-resisted|p2a: Corsola
+|-damage|p2a: Corsola|19/100
+|-heal|p1a: Centiskorch|33/100 psn|[from] drain|[of] p2a: Corsola
+|-start|p1a: Centiskorch|Disable|Leech Life|[from] ability: Cursed Body|[of] p2a: Corsola
+|move|p2a: Corsola|Strength Sap|p1a: Centiskorch
+|-unboost|p1a: Centiskorch|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-damage|p1a: Centiskorch|21/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|move|p1a: Centiskorch|Bite|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|81/100
+|move|p2a: Corsola|Night Shade|p1a: Centiskorch
+|-damage|p1a: Centiskorch|0 fnt
+|faint|p1a: Centiskorch
+|
+|upkeep
+|c|☆AnimeGOD|?????????????????????
+|c|☆AnimeGOD|BITE?!
+|
+|switch|p1a: Orbeetle|Orbeetle, M|100/100
+|-damage|p1a: Orbeetle|76/100|[from] Stealth Rock
+|-damage|p1a: Orbeetle|63/100|[from] Spikes
+|turn|16
+|c|☆AnimeGOD|Why on earth would you ever willingly run bite on any pokemon in existence my dude?
+|
+|move|p1a: Orbeetle|Confuse Ray|p2a: Corsola
+|-start|p2a: Corsola|confusion
+|-activate|p2a: Corsola|confusion
+|move|p2a: Corsola|Will-O-Wisp|p1a: Orbeetle
+|-status|p1a: Orbeetle|brn
+|
+|-damage|p1a: Orbeetle|57/100 brn|[from] brn
+|upkeep
+|turn|17
+|c|☆Gloriosa Superba|Don't mind my dumbness I'm just testing these funky bugs
+|inactive|Gloriosa Superba has 120 seconds left.
+|
+|move|p1a: Orbeetle|Calm Mind|p1a: Orbeetle
+|-boost|p1a: Orbeetle|spa|1
+|-boost|p1a: Orbeetle|spd|1
+|-activate|p2a: Corsola|confusion
+|move|p2a: Corsola|Night Shade|p1a: Orbeetle
+|-damage|p1a: Orbeetle|19/100 brn
+|-enditem|p1a: Orbeetle|Aguav Berry|[eat]
+|-heal|p1a: Orbeetle|52/100 brn|[from] item: Aguav Berry
+|
+|-damage|p1a: Orbeetle|46/100 brn|[from] brn
+|upkeep
+|turn|18
+|inactive|Gloriosa Superba has 120 seconds left.
+|
+|move|p1a: Orbeetle|Bug Buzz|p2a: Corsola
+|-resisted|p2a: Corsola
+|-damage|p2a: Corsola|69/100
+|-start|p1a: Orbeetle|Disable|Bug Buzz|[from] ability: Cursed Body|[of] p2a: Corsola
+|-end|p2a: Corsola|confusion
+|move|p2a: Corsola|Haze|p2a: Corsola
+|-clearallboost
+|
+|-damage|p1a: Orbeetle|40/100 brn|[from] brn
+|upkeep
+|turn|19
+|inactive|Gloriosa Superba has 120 seconds left.
+|
+|move|p1a: Orbeetle|Confuse Ray|p2a: Corsola
+|-start|p2a: Corsola|confusion
+|-activate|p2a: Corsola|confusion
+|move|p2a: Corsola|Night Shade|p1a: Orbeetle
+|-damage|p1a: Orbeetle|1/100 brn
+|
+|-damage|p1a: Orbeetle|0 fnt|[from] brn
+|faint|p1a: Orbeetle
+|upkeep
+|
+|switch|p1a: Araquanid|Araquanid, M|70/100 tox
+|-damage|p1a: Araquanid|57/100 tox|[from] Spikes
+|-damage|p1a: Araquanid|32/100 tox|[from] Stealth Rock
+|turn|20
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|49/100
+|-damage|p2a: Ferrothorn|24/100|[from] Spikes
+|-damage|p2a: Ferrothorn|17/100|[from] Stealth Rock
+|move|p1a: Araquanid|Poison Jab|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|-heal|p1a: Araquanid|38/100 tox|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|24/100|[from] item: Leftovers
+|-damage|p1a: Araquanid|32/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|move|p1a: Araquanid|Waterfall|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|6/100
+|-damage|p1a: Araquanid|20/100 tox|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Araquanid
+|-start|p1a: Araquanid|move: Leech Seed
+|
+|-heal|p1a: Araquanid|26/100 tox|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|12/100|[from] item: Leftovers
+|-damage|p1a: Araquanid|14/100 tox|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|24/100|[silent]
+|-damage|p1a: Araquanid|1/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|move|p1a: Araquanid|Infestation|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|21/100
+|-damage|p1a: Araquanid|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Infestation|[of] p1a: Araquanid
+|faint|p1a: Araquanid
+|move|p2a: Ferrothorn|Leech Seed|p1: Araquanid|[notarget]
+|-fail|p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|27/100|[from] item: Leftovers
+|-end|p2a: Ferrothorn|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|
+|switch|p1a: Galvantula|Galvantula, M, shiny|100/100
+|-damage|p1a: Galvantula|88/100|[from] Spikes
+|-damage|p1a: Galvantula|63/100|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Galvantula|Thunder Wave|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|par
+|move|p2a: Ferrothorn|Toxic|p1a: Galvantula
+|-status|p1a: Galvantula|tox
+|
+|-heal|p2a: Ferrothorn|33/100 par|[from] item: Leftovers
+|-damage|p1a: Galvantula|57/100 tox|[from] psn
+|upkeep
+|turn|24
+|inactive|Gloriosa Superba has 120 seconds left.
+|
+|switch|p1a: Vikavolt|Vikavolt, F|100/100
+|-damage|p1a: Vikavolt|76/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Vikavolt
+|-resisted|p1a: Vikavolt
+|-damage|p1a: Vikavolt|56/100
+|
+|-heal|p1a: Vikavolt|62/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|40/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|Gloriosa Superba has 120 seconds left.
+|
+|switch|p2a: Corsola|Corsola-Galar, M|69/100
+|-damage|p2a: Corsola|56/100|[from] Stealth Rock
+|-damage|p2a: Corsola|31/100|[from] Spikes
+|move|p1a: Vikavolt|Bug Buzz|p2a: Corsola
+|-resisted|p2a: Corsola
+|-damage|p2a: Corsola|20/100
+|-unboost|p2a: Corsola|spd|1
+|
+|-heal|p1a: Vikavolt|68/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|Gloriosa Superba has 120 seconds left.
+|
+|move|p1a: Vikavolt|Bug Buzz|p2a: Corsola
+|-resisted|p2a: Corsola
+|-damage|p2a: Corsola|2/100
+|-start|p1a: Vikavolt|Disable|Bug Buzz|[from] ability: Cursed Body|[of] p2a: Corsola
+|-unboost|p2a: Corsola|spd|1
+|move|p2a: Corsola|Strength Sap|p1a: Vikavolt
+|-unboost|p1a: Vikavolt|atk|1
+|-heal|p2a: Corsola|42/100
+|
+|-heal|p1a: Vikavolt|75/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|Gloriosa Superba has 120 seconds left.
+|
+|move|p1a: Vikavolt|Discharge|p2a: Corsola
+|-damage|p2a: Corsola|7/100
+|move|p2a: Corsola|Night Shade|p1a: Vikavolt
+|-damage|p1a: Vikavolt|47/100
+|
+|-heal|p1a: Vikavolt|53/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|Gloriosa Superba has 120 seconds left.
+|
+|move|p1a: Vikavolt|Discharge|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|
+|-heal|p1a: Vikavolt|59/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|-damage|p2a: Polteageist|76/100|[from] Spikes
+|-damage|p2a: Polteageist|63/100|[from] Stealth Rock
+|turn|29
+|
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|move|p1a: Vikavolt|Discharge|p2a: Polteageist
+|-damage|p2a: Polteageist|2/100
+|
+|-heal|p1a: Vikavolt|65/100|[from] item: Leftovers
+|-end|p1a: Vikavolt|Disable
+|upkeep
+|turn|30
+|
+|move|p2a: Polteageist|Stored Power|p1a: Vikavolt
+|-damage|p1a: Vikavolt|0 fnt
+|faint|p1a: Vikavolt
+|
+|upkeep
+|
+|switch|p1a: Galvantula|Galvantula, M, shiny|57/100 tox
+|-damage|p1a: Galvantula|32/100 tox|[from] Stealth Rock
+|-damage|p1a: Galvantula|20/100 tox|[from] Spikes
+|turn|31
+|c|☆Gloriosa Superba|Gg sorry
+|
+|move|p2a: Polteageist|Stored Power|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|win|AnimeGOD

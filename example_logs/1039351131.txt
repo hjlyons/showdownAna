@@ -1,0 +1,281 @@
+|ScrapeTime|2020-01-01-22:35:34
+|j|☆Burnmibread
+|j|☆Minato_n29_
+|player|p1|Burnmibread|2|1050
+|player|p2|Minato_n29_|102|1046
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gardevoir, M|
+|poke|p1|Dugtrio, M|
+|poke|p1|Frosmoth, F|
+|poke|p1|Heliolisk, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Espeon, M|
+|poke|p2|Aegislash, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Toxapex, M|
+|poke|p2|Clefable, M|
+|poke|p2|Mimikyu, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Espeon|Espeon, M|100/100
+|switch|p2a: Toxapex|Toxapex, M, shiny|100/100
+|turn|1
+|
+|switch|p2a: Aegislash|Aegislash, M, shiny|100/100
+|move|p1a: Espeon|Psychic|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|80/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Espeon|Protect|p1a: Espeon
+|-singleturn|p1a: Espeon|Protect
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Night Slash|p1a: Espeon
+|-activate|p1a: Espeon|move: Protect
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Espeon|Copycat|p1a: Espeon
+|move|p1a: Espeon|Night Slash|p2a: Aegislash|[from]Copycat
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|24/100
+|move|p2a: Aegislash|Night Slash|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|24/100
+|
+|-heal|p1a: Espeon|30/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Mimikyu|Mimikyu, M, shiny|100/100
+|move|p1a: Espeon|Copycat|p1a: Espeon
+|move|p1a: Espeon|Night Slash|p2a: Mimikyu|[from]Copycat
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M, shiny
+|-damage|p2a: Mimikyu|88/100|[from] ability: Disguise|[of] p2a: Mimikyu
+|
+|-heal|p1a: Espeon|36/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|move|p2a: Mimikyu|Dark Pulse|p1a: Dugtrio
+|-damage|p1a: Dugtrio|78/100
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Dugtrio|Shadow Claw|p2a: Mimikyu
+|-supereffective|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash, shiny|100/100
+|turn|7
+|
+|switch|p1a: Gardevoir|Gardevoir, M|100/100
+|-ability|p1a: Gardevoir|Levitate|[from] ability: Trace|[of] p2a: Rotom
+|move|p2a: Rotom|Hydro Pump|p1a: Gardevoir|[miss]
+|-miss|p2a: Rotom|p1a: Gardevoir
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Toxapex|Toxapex, M, shiny|100/100
+|move|p1a: Gardevoir|Mystical Fire|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|92/100
+|-unboost|p2a: Toxapex|spa|1
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Espeon|Espeon, M|36/100
+|move|p2a: Toxapex|Gunk Shot|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|upkeep
+|
+|switch|p1a: Gardevoir|Gardevoir, M|100/100
+|-ability|p1a: Gardevoir|Regenerator|[from] ability: Trace|[of] p2a: Toxapex
+|turn|10
+|
+|move|p1a: Gardevoir|Psychic|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|27/100
+|move|p2a: Toxapex|Gunk Shot|p1a: Gardevoir
+|-supereffective|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|
+|upkeep
+|
+|switch|p1a: Dugtrio|Dugtrio, M|78/100
+|turn|11
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash, shiny|100/100
+|turn|12
+|
+|switch|p1a: Heliolisk|Heliolisk, M|100/100
+|move|p2a: Rotom|Hydro Pump|p1a: Heliolisk
+|-immune|p1a: Heliolisk|[from] ability: Dry Skin
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Heliolisk|Dragon Pulse|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|36/100
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Heliolisk|Dragon Pulse|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, M, shiny|24/100
+|turn|15
+|
+|move|p1a: Heliolisk|Dragon Pulse|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|12/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Close Combat|p1a: Heliolisk
+|-supereffective|p1a: Heliolisk
+|-damage|p1a: Heliolisk|0 fnt
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|faint|p1a: Heliolisk
+|
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|turn|16
+|
+|switch|p2a: Rotom|Rotom-Wash, shiny|100/100
+|move|p1a: Mandibuzz|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|68/100
+|-enditem|p2a: Rotom|Choice Scarf|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|61/100
+|move|p1a: Mandibuzz|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-heal|p1a: Mandibuzz|67/100|[from] item: Leftovers
+|-damage|p2a: Rotom|62/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|-damage|p2a: Rotom|49/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Dugtrio|Dugtrio, M|78/100
+|turn|19
+|
+|move|p1a: Dugtrio|Shadow Claw|p2a: Rotom
+|-damage|p2a: Rotom|10/100 tox
+|move|p2a: Rotom|Hydro Pump|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|-damage|p2a: Rotom|0 fnt|[from] psn
+|faint|p2a: Rotom
+|upkeep
+|
+|switch|p1a: Frosmoth|Frosmoth, F|100/100
+|switch|p2a: Aegislash|Aegislash, M, shiny|12/100
+|turn|20
+|
+|move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+|-boost|p1a: Frosmoth|spa|1
+|-boost|p1a: Frosmoth|spd|1
+|-boost|p1a: Frosmoth|spe|1
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Close Combat|p1a: Frosmoth
+|-damage|p1a: Frosmoth|23/100
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|
+|-heal|p1a: Frosmoth|29/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Frosmoth|Giga Drain|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-crit|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|-heal|p1a: Frosmoth|34/100|[from] drain|[of] p2a: Aegislash
+|faint|p2a: Aegislash
+|
+|-heal|p1a: Frosmoth|40/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M, shiny|100/100
+|turn|22
+|
+|move|p1a: Frosmoth|Giga Drain|p2a: Clefable
+|-damage|p2a: Clefable|51/100
+|-heal|p1a: Frosmoth|70/100|[from] drain|[of] p2a: Clefable
+|move|p2a: Clefable|Focus Blast|p1a: Frosmoth
+|-damage|p1a: Frosmoth|42/100
+|
+|-heal|p1a: Frosmoth|48/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Frosmoth|Giga Drain|p2a: Clefable
+|-damage|p2a: Clefable|4/100
+|-heal|p1a: Frosmoth|76/100|[from] drain|[of] p2a: Clefable
+|move|p2a: Clefable|Fire Blast|p1a: Frosmoth
+|-supereffective|p1a: Frosmoth
+|-damage|p1a: Frosmoth|0 fnt
+|faint|p1a: Frosmoth
+|
+|win|Minato_n29_
+|l|☆Burnmibread
+|raw|Burnmibread's rating: 1035 → 1019(-16 for losing)
+|raw|Minato_n29_'s rating: 1028 → 1064(+36 for winning)

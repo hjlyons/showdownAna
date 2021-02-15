@@ -1,0 +1,324 @@
+|ScrapeTime|2020-01-01-19:14:57
+|j|☆DaColorPurpl
+|j|☆Alkchofa
+|player|p1|DaColorPurpl|10|1198
+|player|p2|Alkchofa|102|1169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dracozolt|
+|poke|p1|Bewear, F|
+|poke|p1|Ninetales, M|
+|poke|p1|Shiftry, M|
+|poke|p1|Gigalith, M|
+|poke|p1|Drifblim, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Alcremie, F|
+|poke|p2|Obstagoon, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Noivern, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DaColorPurpl)
+|inactive|DaColorPurpl has 120 seconds left.
+|
+|start
+|switch|p1a: Shiftry|Shiftry, M|100/100
+|switch|p2a: Obstagoon|Obstagoon, F|100/100
+|turn|1
+|
+|switch|p1a: Bewear|Bewear, F, shiny|100/100
+|move|p2a: Obstagoon|Parting Shot|p1a: Bewear
+|-unboost|p1a: Bewear|atk|1
+|-unboost|p1a: Bewear|spa|1
+|
+|switch|p2a: Noivern|Noivern, F|100/100|[from]move: Parting Shot
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Gigalith|Gigalith, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Noivern|Air Slash|p1a: Gigalith
+|-resisted|p1a: Gigalith
+|-damage|p1a: Gigalith|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Noivern|94/100|[from] Sandstorm
+|-heal|p1a: Gigalith|85/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Gigalith|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: Alkchofa|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gigalith|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|DaColorPurpl has 120 seconds left.
+|
+|switch|p1a: Drifblim|Drifblim, M|100/100
+|move|p2a: Seismitoad|Toxic|p1a: Drifblim|[miss]
+|-miss|p2a: Seismitoad|p1a: Drifblim
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drifblim|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|move|p1a: Drifblim|Substitute|p1a: Drifblim
+|-start|p1a: Drifblim|Substitute
+|-damage|p1a: Drifblim|69/100
+|move|p2a: Seismitoad|Toxic||[still]
+|-fail|p2a: Seismitoad
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drifblim|63/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|switch|p2a: Noivern|Noivern, F|94/100
+|-damage|p2a: Noivern|69/100|[from] Stealth Rock
+|move|p1a: Drifblim|Will-O-Wisp|p2a: Noivern
+|-status|p2a: Noivern|brn
+|
+|-weather|none
+|-damage|p2a: Noivern|63/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p2a: Noivern|Air Slash|p1a: Drifblim
+|-damage|p1a: Drifblim|8/100
+|-enditem|p1a: Drifblim|Sitrus Berry|[eat]
+|-heal|p1a: Drifblim|33/100|[from] item: Sitrus Berry
+|cant|p1a: Drifblim|flinch
+|
+|-damage|p2a: Noivern|57/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p1a: Drifblim|Hex|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|faint|p2a: Noivern
+|
+|upkeep
+|
+|switch|p2a: Obstagoon|Obstagoon, F|100/100
+|-damage|p2a: Obstagoon|88/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p1a: Bewear|Bewear, F, shiny|100/100
+|move|p2a: Obstagoon|Knock Off|p1a: Bewear
+|-resisted|p1a: Bewear
+|-damage|p1a: Bewear|93/100
+|-damage|p2a: Obstagoon|72/100|[from] item: Rocky Helmet|[of] p1a: Bewear
+|-enditem|p1a: Bewear|Rocky Helmet|[from] move: Knock Off|[of] p2a: Obstagoon
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|move|p1a: Bewear|Drain Punch|p2a: Rotom
+|-damage|p2a: Rotom|31/100
+|-heal|p1a: Bewear|100/100|[from] drain|[of] p2a: Rotom
+|-enditem|p2a: Rotom|Sitrus Berry|[eat]
+|-heal|p2a: Rotom|56/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Drifblim|Drifblim, M|33/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Drifblim|[miss]
+|-miss|p2a: Rotom|p1a: Drifblim
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Rotom|Discharge|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|0 fnt
+|faint|p1a: Drifblim
+|
+|upkeep
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|turn|13
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|move|p1a: Dracozolt|Facade|p2a: Seismitoad
+|-damage|p2a: Seismitoad|69/100
+|-damage|p1a: Dracozolt|84/100|[from] item: Rocky Helmet|[of] p2a: Seismitoad
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Bewear|Bewear, F, shiny|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Bewear
+|-sidestart|p1: DaColorPurpl|move: Stealth Rock
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Seismitoad|Toxic|p1a: Bewear
+|-status|p1a: Bewear|tox
+|move|p1a: Bewear|Drain Punch|p2a: Seismitoad
+|-damage|p2a: Seismitoad|39/100
+|-damage|p1a: Bewear|84/100 tox|[from] item: Rocky Helmet|[of] p2a: Seismitoad
+|
+|-damage|p1a: Bewear|78/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Bewear|Drain Punch|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-damage|p1a: Bewear|66/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|move|p1a: Bewear|Drain Punch|p2a: Corviknight
+|-damage|p2a: Corviknight|60/100
+|-heal|p1a: Bewear|80/100 tox|[from] drain|[of] p2a: Corviknight
+|
+|-damage|p1a: Bewear|62/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p1a: Ninetales|Ninetales, M, shiny|100/100
+|-damage|p1a: Ninetales|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Corviknight|Defog|p1a: Ninetales
+|-unboost|p1a: Ninetales|evasion|1
+|-sideend|p1: DaColorPurpl|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: Alkchofa|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|switch|p2a: Rotom|Rotom-Heat|56/100
+|move|p1a: Ninetales|Nasty Plot|p1a: Ninetales
+|-boost|p1a: Ninetales|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p1a: Ninetales|Flamethrower|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|5/100
+|move|p2a: Rotom|Discharge|p1a: Ninetales
+|-damage|p1a: Ninetales|43/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|
+|move|p2a: Rotom|Protect|p2a: Rotom
+|-singleturn|p2a: Rotom|Protect
+|move|p1a: Ninetales|Flamethrower|p2a: Rotom
+|-activate|p2a: Rotom|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|22
+|
+|move|p1a: Ninetales|Flamethrower|p2a: Rotom
+|-resisted|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Obstagoon|Obstagoon, F|72/100
+|turn|23
+|
+|move|p2a: Obstagoon|Knock Off|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|-enditem|p1a: Ninetales|Heat Rock|[from] move: Knock Off|[of] p2a: Obstagoon
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Shiftry|Shiftry, M|100/100
+|turn|24
+|
+|switch|p2a: Corviknight|Corviknight, M|60/100
+|move|p1a: Shiftry|Growth|p1a: Shiftry
+|-boost|p1a: Shiftry|atk|2
+|-boost|p1a: Shiftry|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|25
+|
+|move|p1a: Shiftry|Heat Wave|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Alcremie|Alcremie, F|100/100
+|turn|26
+|
+|move|p1a: Shiftry|Leaf Blade|p2a: Alcremie
+|-crit|p2a: Alcremie
+|-damage|p2a: Alcremie|0 fnt
+|faint|p2a: Alcremie
+|
+|upkeep
+|
+|switch|p2a: Obstagoon|Obstagoon, F|72/100
+|turn|27
+|
+|move|p2a: Obstagoon|Brick Break|p1a: Shiftry
+|-supereffective|p1a: Shiftry
+|-damage|p1a: Shiftry|34/100
+|move|p1a: Shiftry|Leaf Blade|p2a: Obstagoon
+|-damage|p2a: Obstagoon|1/100
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Shiftry|Sucker Punch|p2a: Obstagoon
+|-resisted|p2a: Obstagoon
+|-damage|p2a: Obstagoon|0 fnt
+|faint|p2a: Obstagoon
+|
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, M|39/100
+|turn|29
+|
+|move|p1a: Shiftry|Leaf Blade|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-damage|p1a: Shiftry|17/100|[from] item: Rocky Helmet|[of] p2a: Seismitoad
+|faint|p2a: Seismitoad
+|
+|win|DaColorPurpl
+|l|☆Alkchofa

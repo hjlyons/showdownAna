@@ -1,0 +1,365 @@
+|ScrapeTime|2020-01-02-10:14:55
+|j|☆Noratastic
+|j|☆AbsolutelyUseless
+|player|p1|Noratastic|lady-gen4|1023
+|player|p2|AbsolutelyUseless|148|1020
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hippowdon, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Flygon, F|
+|poke|p1|Mamoswine, M|
+|poke|p1|Mudsdale, F|
+|poke|p1|Seismitoad, M|
+|poke|p2|Falinks|
+|poke|p2|Perrserker, M|
+|poke|p2|Dubwool, M|
+|poke|p2|Inteleon, M|
+|poke|p2|Toxtricity, M|
+|poke|p2|Eldegoss, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, M, shiny|100/100
+|switch|p2a: Inteleon|Inteleon, M|100/100
+|turn|1
+|
+|switch|p2a: Eldegoss|Eldegoss, F|100/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Eldegoss
+|-sidestart|p2: AbsolutelyUseless|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Swine Flu|Mamoswine, M, shiny|100/100
+|move|p2a: Eldegoss|Leech Seed|p1a: Swine Flu
+|-start|p1a: Swine Flu|move: Leech Seed
+|
+|-damage|p1a: Swine Flu|88/100|[from] Leech Seed|[of] p2a: Eldegoss
+|upkeep
+|turn|3
+|
+|switch|p2a: Perrserker|Perrserker, M|100/100
+|-damage|p2a: Perrserker|94/100|[from] Stealth Rock
+|move|p1a: Swine Flu|Icicle Crash|p2a: Perrserker
+|-resisted|p2a: Perrserker
+|-damage|p2a: Perrserker|59/100
+|
+|-damage|p1a: Swine Flu|76/100|[from] Leech Seed|[of] p2a: Perrserker
+|-heal|p2a: Perrserker|72/100|[silent]
+|upkeep
+|turn|4
+|
+|switch|p1a: Bygones|Flygon, F, shiny|100/100
+|move|p2a: Perrserker|Iron Head|p1a: Bygones
+|-damage|p1a: Bygones|0 fnt
+|faint|p1a: Bygones
+|
+|upkeep
+|
+|switch|p1a: Mudsdale|Mudsdale, F, shiny|100/100
+|turn|5
+|
+|switch|p2a: Eldegoss|Eldegoss, F|100/100
+|move|p1a: Mudsdale|Earthquake|p2a: Eldegoss
+|-resisted|p2a: Eldegoss
+|-damage|p2a: Eldegoss|66/100
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Eldegoss|Giga Drain|p1a: Mudsdale
+|-supereffective|p1a: Mudsdale
+|-damage|p1a: Mudsdale|61/100
+|-heal|p2a: Eldegoss|90/100|[from] drain|[of] p1a: Mudsdale
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|move|p1a: Mudsdale|Body Slam|p2a: Eldegoss
+|-damage|p2a: Eldegoss|55/100
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Eldegoss|Giga Drain|p1a: Mudsdale
+|-supereffective|p1a: Mudsdale
+|-damage|p1a: Mudsdale|21/100
+|-heal|p2a: Eldegoss|80/100|[from] drain|[of] p1a: Mudsdale
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|-enditem|p1a: Mudsdale|Figy Berry|[eat]
+|-heal|p1a: Mudsdale|54/100|[from] item: Figy Berry
+|move|p1a: Mudsdale|Body Slam|p2a: Eldegoss
+|-damage|p2a: Eldegoss|46/100
+|-status|p2a: Eldegoss|par
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Mudsdale|Earthquake|p2a: Eldegoss
+|-resisted|p2a: Eldegoss
+|-damage|p2a: Eldegoss|12/100 par
+|cant|p2a: Eldegoss|par
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Mudsdale|Earthquake|p2a: Eldegoss
+|-resisted|p2a: Eldegoss
+|-damage|p2a: Eldegoss|0 fnt
+|faint|p2a: Eldegoss
+|
+|upkeep
+|
+|switch|p2a: Woohoo|Dubwool, M|100/100
+|-damage|p2a: Woohoo|88/100|[from] Stealth Rock
+|turn|10
+|
+|move|p2a: Woohoo|Cotton Guard|p2a: Woohoo
+|-boost|p2a: Woohoo|def|3
+|move|p1a: Mudsdale|Close Combat|p2a: Woohoo
+|-supereffective|p2a: Woohoo
+|-damage|p2a: Woohoo|70/100
+|-unboost|p1a: Mudsdale|def|1
+|-unboost|p1a: Mudsdale|spd|1
+|
+|-heal|p2a: Woohoo|76/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Woohoo|Cotton Guard|p2a: Woohoo
+|-boost|p2a: Woohoo|def|3
+|move|p1a: Mudsdale|Body Slam|p2a: Woohoo
+|-damage|p2a: Woohoo|72/100
+|
+|-heal|p2a: Woohoo|78/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Hungry Hippo|Hippowdon, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hungry Hippo
+|move|p2a: Woohoo|Swords Dance|p2a: Woohoo
+|-boost|p2a: Woohoo|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Woohoo|72/100|[from] Sandstorm
+|-heal|p2a: Woohoo|78/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Woohoo|Swords Dance|p2a: Woohoo
+|-boost|p2a: Woohoo|atk|2
+|move|p1a: Hungry Hippo|Whirlwind|p2a: Woohoo
+|drag|p2a: Falinks|Falinks|100/100
+|-damage|p2a: Falinks|95/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Falinks|89/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|move|p2a: Falinks|Brick Break|p1a: Hungry Hippo
+|-damage|p1a: Hungry Hippo|80/100
+|-enditem|p1a: Hungry Hippo|Eject Button
+|
+|switch|p1a: Holey Moley|Excadrill, M, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Falinks|83/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|move|p1a: Holey Moley|Earthquake|p2a: Falinks
+|-damage|p2a: Falinks|17/100
+|move|p2a: Falinks|No Retreat|p2a: Falinks
+|-boost|p2a: Falinks|atk|1
+|-boost|p2a: Falinks|def|1
+|-boost|p2a: Falinks|spa|1
+|-boost|p2a: Falinks|spd|1
+|-boost|p2a: Falinks|spe|1
+|-start|p2a: Falinks|move: No Retreat
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Falinks|11/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|move|p1a: Holey Moley|Earthquake|p2a: Falinks
+|-damage|p2a: Falinks|0 fnt
+|faint|p2a: Falinks
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Woohoo|Dubwool, M|78/100
+|-damage|p2a: Woohoo|65/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p1a: Seismitoad|Seismitoad, M, shiny|100/100
+|move|p2a: Woohoo|Headbutt|p1a: Seismitoad
+|-damage|p1a: Seismitoad|70/100
+|
+|-heal|p2a: Woohoo|71/100|[from] item: Leftovers
+|-heal|p1a: Seismitoad|76/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Woohoo|Headbutt|p1a: Seismitoad
+|-damage|p1a: Seismitoad|42/100
+|cant|p1a: Seismitoad|flinch
+|
+|-heal|p2a: Woohoo|77/100|[from] item: Leftovers
+|-heal|p1a: Seismitoad|48/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Woohoo|Headbutt|p1a: Seismitoad
+|-damage|p1a: Seismitoad|13/100
+|cant|p1a: Seismitoad|flinch
+|
+|-heal|p2a: Woohoo|83/100|[from] item: Leftovers
+|-heal|p1a: Seismitoad|19/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Mudsdale|Mudsdale, F, shiny|54/100
+|move|p2a: Woohoo|Headbutt|p1a: Mudsdale
+|-damage|p1a: Mudsdale|30/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|
+|-heal|p2a: Woohoo|89/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Woohoo|Swords Dance|p2a: Woohoo
+|-boost|p2a: Woohoo|atk|2
+|move|p1a: Mudsdale|Close Combat|p2a: Woohoo
+|-supereffective|p2a: Woohoo
+|-damage|p2a: Woohoo|40/100
+|-unboost|p1a: Mudsdale|def|1
+|-unboost|p1a: Mudsdale|spd|1
+|
+|-heal|p2a: Woohoo|46/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Hungry Hippo|Hippowdon, M, shiny|80/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hungry Hippo
+|move|p2a: Woohoo|Headbutt|p1a: Hungry Hippo
+|-damage|p1a: Hungry Hippo|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Woohoo|40/100|[from] Sandstorm
+|-heal|p2a: Woohoo|46/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Woohoo|Headbutt|p1a: Hungry Hippo
+|-damage|p1a: Hungry Hippo|19/100
+|move|p1a: Hungry Hippo|Yawn|p2a: Woohoo
+|-start|p2a: Woohoo|move: Yawn|[of] p1a: Hungry Hippo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Woohoo|40/100|[from] Sandstorm
+|-heal|p2a: Woohoo|46/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Woohoo|Headbutt|p1a: Hungry Hippo
+|-damage|p1a: Hungry Hippo|0 fnt
+|faint|p1a: Hungry Hippo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Woohoo|40/100|[from] Sandstorm
+|-heal|p2a: Woohoo|46/100|[from] item: Leftovers
+|-end|p2a: Woohoo|move: Yawn|[silent]
+|-status|p2a: Woohoo|slp
+|upkeep
+|
+|switch|p1a: Holey Moley|Excadrill, M, shiny|100/100
+|turn|25
+|
+|move|p1a: Holey Moley|Earthquake|p2a: Woohoo
+|-damage|p2a: Woohoo|0 fnt
+|faint|p2a: Woohoo
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Perrserker|Perrserker, M|72/100
+|-damage|p2a: Perrserker|66/100|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Holey Moley|Earthquake|p2a: Perrserker
+|-supereffective|p2a: Perrserker
+|-damage|p2a: Perrserker|0 fnt
+|faint|p2a: Perrserker
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Inteleon|Inteleon, M|100/100
+|-damage|p2a: Inteleon|88/100|[from] Stealth Rock
+|turn|27
+|
+|switch|p1a: Seismitoad|Seismitoad, M, shiny|19/100
+|move|p2a: Inteleon|Snipe Shot|p1a: Seismitoad
+|-heal|p1a: Seismitoad|44/100|[from] ability: Water Absorb|[of] p2a: Inteleon
+|
+|-heal|p1a: Seismitoad|50/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|-damage|p2a: Toxtricity|88/100|[from] Stealth Rock
+|switch|p1a: Mudsdale|Mudsdale, F, shiny|30/100
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Toxtricity|Hyper Voice|p1a: Mudsdale
+|-damage|p1a: Mudsdale|0 fnt
+|faint|p1a: Mudsdale
+|
+|upkeep
+|
+|switch|p1a: Swine Flu|Mamoswine, M, shiny|76/100
+|turn|30
+|
+|switch|p2a: Inteleon|Inteleon, M|88/100
+|-damage|p2a: Inteleon|76/100|[from] Stealth Rock
+|move|p1a: Swine Flu|Earthquake|p2a: Inteleon
+|-crit|p2a: Inteleon
+|-damage|p2a: Inteleon|0 fnt
+|faint|p2a: Inteleon
+|
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, M|88/100
+|-damage|p2a: Toxtricity|76/100|[from] Stealth Rock
+|turn|31
+|
+|move|p2a: Toxtricity|Sludge Wave|p1a: Swine Flu
+|-resisted|p1a: Swine Flu
+|-damage|p1a: Swine Flu|43/100
+|move|p1a: Swine Flu|Earthquake|p2a: Toxtricity
+|-supereffective|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|win|Noratastic
+|raw|Noratastic's rating: 1023 → 1059(+36 for winning)
+|raw|AbsolutelyUseless's rating: 1020 → 1007(-13 for losing)
+|l|☆AbsolutelyUseless

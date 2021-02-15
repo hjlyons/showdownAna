@@ -1,0 +1,376 @@
+|ScrapeTime|2020-01-03-00:25:28
+|j|☆ToDIO
+|j|☆sir fagoslayer
+|player|p1|ToDIO|ghetsis|1121
+|player|p2|sir fagoslayer|290|1142
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Clefable, M|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Weavile, M|
+|poke|p1|Cloyster, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Sylveon, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Rotom-Wash|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ToDIO)
+|
+|start
+|switch|p1a: Não é time|Mandibuzz, F|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|
+|move|p1a: Não é time|Knock Off|p2a: Seismitoad
+|-damage|p2a: Seismitoad|85/100
+|-enditem|p2a: Seismitoad|Leftovers|[from] move: Knock Off|[of] p1a: Não é time
+|move|p2a: Seismitoad|Toxic|p1a: Não é time
+|-status|p1a: Não é time|tox
+|
+|-damage|p1a: Não é time|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p1a: Não é time|Taunt|p2a: Seismitoad
+|-start|p2a: Seismitoad|move: Taunt
+|cant|p2a: Seismitoad|move: Taunt|Stealth Rock
+|
+|-heal|p1a: Não é time|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Não é time|88/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|move|p1a: Não é time|U-turn|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|95/100
+|
+|switch|p1a: MedateuATK|Corsola-Galar, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Sylveon|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: MedateuATK|Stealth Rock|p2a: Rotom
+|-sidestart|p2: sir fagoslayer|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Rotom|Trick|p1a: MedateuATK
+|-activate|p2a: Rotom|move: Trick|[of] p1a: MedateuATK
+|-item|p1a: MedateuATK|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Eviolite|[from] move: Trick
+|move|p1a: MedateuATK|Strength Sap|p2a: Rotom
+|-unboost|p2a: Rotom|atk|1
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Cleber|Clefable, M, shiny|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Cleber
+|-status|p1a: Cleber|brn
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Rotom|Trick|p1a: Cleber
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Cleber
+|-item|p1a: Cleber|Eviolite|[from] move: Trick
+|-item|p2a: Rotom|Life Orb|[from] move: Trick
+|move|p1a: Cleber|Moonblast|p2a: Rotom
+|-damage|p2a: Rotom|56/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Rotom|Volt Switch|p1a: Cleber
+|-damage|p1a: Cleber|68/100 brn
+|-damage|p2a: Rotom|46/100|[from] item: Life Orb
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100|[from]move: Volt Switch
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Cleber|Moonblast|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|73/100
+|
+|-heal|p2a: Corviknight|79/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Corviknight|U-turn|p1a: Cleber
+|-resisted|p1a: Cleber
+|-damage|p1a: Cleber|60/100 brn
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100|[from]move: U-turn
+|-damage|p2a: Sylveon|88/100|[from] Stealth Rock
+|move|p1a: Cleber|Flamethrower|p2a: Sylveon
+|-damage|p2a: Sylveon|70/100
+|
+|-heal|p2a: Sylveon|76/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Cloyster|Cloyster, F|100/100
+|switch|p2a: Corviknight|Corviknight, F|79/100
+|-damage|p2a: Corviknight|67/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|
+|-heal|p2a: Corviknight|73/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Cloyster|Icicle Spear|p2a: Corviknight
+|-damage|p2a: Corviknight|63/100
+|-damage|p2a: Corviknight|53/100
+|-damage|p2a: Corviknight|43/100
+|-damage|p2a: Corviknight|34/100
+|-damage|p2a: Corviknight|24/100
+|-hitcount|p2a: Corviknight|5
+|move|p2a: Corviknight|Taunt|p1a: Cloyster
+|-start|p1a: Cloyster|move: Taunt
+|
+|-heal|p2a: Corviknight|30/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Cloyster|Icicle Spear|p2a: Corviknight
+|-damage|p2a: Corviknight|20/100
+|-damage|p2a: Corviknight|10/100
+|-damage|p2a: Corviknight|0 fnt
+|-hitcount|p2a: Corviknight|3
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|13
+|
+|move|p2a: Cinderace|High Jump Kick|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|42/100
+|move|p1a: Cloyster|Hydro Pump|p2a: Cinderace|[miss]
+|-miss|p1a: Cloyster|p2a: Cinderace
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: MedateuATK|Corsola-Galar, M|100/100
+|move|p2a: Cinderace|High Jump Kick|p1a: MedateuATK
+|-immune|p1a: MedateuATK
+|-damage|p2a: Cinderace|51/100|[from] highjumpkick
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Cinderace|U-turn|p1a: MedateuATK
+|-resisted|p1a: MedateuATK
+|-damage|p1a: MedateuATK|88/100
+|-start|p2a: Cinderace|Disable|U-turn|[from] ability: Cursed Body|[of] p1a: MedateuATK
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100|[from]move: U-turn
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|move|p1a: MedateuATK|Strength Sap|p2a: Hydreigon
+|-unboost|p2a: Hydreigon|atk|1
+|-heal|p1a: MedateuATK|100/100
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Não é time|Mandibuzz, F|88/100 tox
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|-heal|p1a: Não é time|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Não é time|88/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Não é time
+|-damage|p1a: Não é time|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|78/100|[from] item: Life Orb
+|faint|p1a: Não é time
+|
+|upkeep
+|
+|switch|p1a: Cleber|Clefable, M, shiny|60/100 brn
+|turn|18
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Cleber
+|-supereffective|p1a: Cleber
+|-damage|p1a: Cleber|0 fnt
+|-damage|p2a: Hydreigon|68/100|[from] item: Life Orb
+|faint|p1a: Cleber
+|
+|upkeep
+|
+|switch|p1a: Onehit|Weavile, M|100/100
+|-ability|p1a: Onehit|Pressure
+|turn|19
+|
+|switch|p2a: Rotom|Rotom-Wash|46/100
+|-damage|p2a: Rotom|34/100|[from] Stealth Rock
+|move|p1a: Onehit|Fake Out|p2a: Rotom
+|-damage|p2a: Rotom|20/100
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Onehit|Swords Dance|p1a: Onehit
+|-boost|p1a: Onehit|atk|2
+|move|p2a: Rotom|Will-O-Wisp|p1a: Onehit
+|-status|p1a: Onehit|brn
+|
+|-damage|p1a: Onehit|94/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p1a: Onehit|Throat Chop|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-damage|p1a: Onehit|88/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Sylveon|Sylveon, M|76/100
+|-damage|p2a: Sylveon|63/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Onehit|Icicle Crash|p2a: Sylveon
+|-damage|p2a: Sylveon|27/100
+|cant|p2a: Sylveon|flinch
+|
+|-heal|p2a: Sylveon|33/100|[from] item: Leftovers
+|-damage|p1a: Onehit|82/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Onehit|Icicle Crash|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p2a: Sylveon|39/100|[from] item: Leftovers
+|-damage|p1a: Onehit|76/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p1a: Onehit|Icicle Crash|p2a: Sylveon
+|-damage|p2a: Sylveon|4/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Onehit
+|-supereffective|p1a: Onehit
+|-damage|p1a: Onehit|0 fnt
+|faint|p1a: Onehit
+|
+|-heal|p2a: Sylveon|10/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Afromedusa|Hydreigon, F|100/100
+|turn|25
+|
+|move|p1a: Afromedusa|Dark Pulse|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|-damage|p1a: Afromedusa|91/100|[from] item: Life Orb
+|faint|p2a: Sylveon
+|
+|upkeep
+|inactive|sir fagoslayer has 120 seconds left.
+|
+|switch|p2a: Cinderace|Cinderace, F|51/100
+|turn|26
+|
+|switch|p1a: MedateuATK|Corsola-Galar, M|100/100
+|move|p2a: Cinderace|U-turn|p1a: MedateuATK
+|-resisted|p1a: MedateuATK
+|-damage|p1a: MedateuATK|88/100
+|-start|p2a: Cinderace|Disable|U-turn|[from] ability: Cursed Body|[of] p1a: MedateuATK
+|
+|switch|p2a: Hydreigon|Hydreigon, F|68/100|[from]move: U-turn
+|-damage|p2a: Hydreigon|56/100|[from] Stealth Rock
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Cloyster|Cloyster, F|42/100
+|move|p2a: Hydreigon|Draco Meteor|p1a: Cloyster|[miss]
+|-miss|p2a: Hydreigon|p1a: Cloyster
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|46/100|[from] item: Life Orb
+|faint|p1a: Cloyster
+|
+|upkeep
+|
+|switch|p1a: Afromedusa|Hydreigon, F|91/100
+|turn|29
+|
+|switch|p2a: Seismitoad|Seismitoad, M|85/100
+|-damage|p2a: Seismitoad|79/100|[from] Stealth Rock
+|move|p1a: Afromedusa|Dragon Pulse|p2a: Seismitoad
+|-damage|p2a: Seismitoad|22/100
+|-damage|p1a: Afromedusa|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Afromedusa|Dragon Pulse|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-damage|p1a: Afromedusa|71/100|[from] item: Life Orb
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|51/100
+|turn|31
+|
+|switch|p1a: MedateuATK|Corsola-Galar, M|88/100
+|move|p2a: Cinderace|High Jump Kick|p1a: MedateuATK
+|-immune|p1a: MedateuATK
+|-damage|p2a: Cinderace|1/100|[from] highjumpkick
+|
+|upkeep
+|turn|32
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: MedateuATK
+|-damage|p1a: MedateuATK|0 fnt
+|faint|p1a: MedateuATK
+|
+|upkeep
+|
+|switch|p1a: Afromedusa|Hydreigon, F|71/100
+|turn|33
+|
+|move|p2a: Cinderace|High Jump Kick|p1a: Afromedusa
+|-supereffective|p1a: Afromedusa
+|-damage|p1a: Afromedusa|0 fnt
+|faint|p1a: Afromedusa
+|
+|win|sir fagoslayer
+|l|☆ToDIO
+|raw|ToDIO's rating: 1121 → 1098(-23 for losing)
+|raw|sir fagoslayer's rating: 1142 → 1166(+24 for winning)

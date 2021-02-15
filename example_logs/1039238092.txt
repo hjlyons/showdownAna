@@ -1,0 +1,382 @@
+|ScrapeTime|2020-01-01-18:36:24
+|j|☆Mhao zetung 98
+|j|☆Lord UnderCrow
+|player|p1|Mhao zetung 98|lucas|1326
+|player|p2|Lord UnderCrow|238|1322
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Torkoal, M|
+|poke|p1|Shiftry, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Charizard, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Kommo-o, M|
+|poke|p2|Machamp, M|
+|poke|p2|Milotic, F|
+|poke|p2|Salazzle, F|
+|poke|p2|Gengar, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Corviknight, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Salazzle|Salazzle, F, shiny|100/100
+|turn|1
+|
+|move|p2a: Salazzle|Fake Out|p1a: Cinderace
+|-damage|p1a: Cinderace|93/100
+|cant|p1a: Cinderace|flinch
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Cinderace|High Jump Kick|p2a: Salazzle
+|-resisted|p2a: Salazzle
+|-damage|p2a: Salazzle|62/100
+|move|p2a: Salazzle|Toxic|p1a: Cinderace
+|-status|p1a: Cinderace|tox
+|
+|-damage|p1a: Cinderace|87/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p1a: Cinderace|U-turn|p2a: Salazzle
+|-resisted|p2a: Salazzle
+|-damage|p2a: Salazzle|52/100
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100|[from]move: U-turn
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Salazzle|Sludge Wave|p1a: Excadrill
+|-immune|p1a: Excadrill
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Salazzle|Flamethrower|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|87/100 tox
+|turn|5
+|
+|switch|p2a: Milotic|Milotic, F|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|81/100
+|
+|-damage|p1a: Cinderace|81/100 tox|[from] psn
+|-status|p2a: Milotic|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|move|p1a: Cinderace|U-turn|p2a: Milotic
+|-damage|p2a: Milotic|70/100 brn
+|
+|switch|p1a: Torkoal|Torkoal, M|100/100|[from]move: U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Milotic|Ice Beam|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|86/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Milotic|64/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p2a: Salazzle|Salazzle, F, shiny|52/100
+|move|p1a: Torkoal|Stealth Rock|p2a: Salazzle
+|-sidestart|p2: Lord UnderCrow|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p1a: Cinderace|Cinderace, M|81/100 tox
+|move|p2a: Salazzle|Sludge Wave|p1a: Cinderace
+|-damage|p1a: Cinderace|14/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Cinderace|8/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Salazzle
+|-resisted|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Cinderace|0 fnt|[from] psn
+|faint|p1a: Cinderace
+|upkeep
+|
+|switch|p1a: Shiftry|Shiftry, F|100/100
+|switch|p2a: Milotic|Milotic, F|64/100 brn
+|-damage|p2a: Milotic|52/100 brn|[from] Stealth Rock
+|turn|10
+|
+|switch|p2a: Hulk|Machamp, M, shiny|100/100
+|-damage|p2a: Hulk|94/100|[from] Stealth Rock
+|move|p1a: Shiftry|Growth|p1a: Shiftry
+|-boost|p1a: Shiftry|atk|2
+|-boost|p1a: Shiftry|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p1a: Shiftry|Energy Ball|p2a: Hulk
+|-damage|p2a: Hulk|21/100
+|-damage|p1a: Shiftry|91/100|[from] item: Life Orb
+|move|p2a: Hulk|Close Combat|p1a: Shiftry
+|-supereffective|p1a: Shiftry
+|-damage|p1a: Shiftry|0 fnt
+|-unboost|p2a: Hulk|def|1
+|-unboost|p2a: Hulk|spd|1
+|faint|p1a: Shiftry
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Charizard|Charizard, F|100/100
+|turn|12
+|
+|move|p1a: Charizard|Air Slash|p2a: Hulk
+|-supereffective|p2a: Hulk
+|-damage|p2a: Hulk|0 fnt
+|faint|p2a: Hulk
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|88/100|[from] ability: Solar Power|[of] p1a: Charizard
+|-heal|p1a: Charizard|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Milotic|Milotic, F|52/100 brn
+|-damage|p2a: Milotic|39/100 brn|[from] Stealth Rock
+|turn|13
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Charizard|Solar Beam||[still]
+|-prepare|p1a: Charizard|Solar Beam|p2a: Ferrothorn
+|-anim|p1a: Charizard|Solar Beam|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|81/100
+|
+|-weather|none
+|-heal|p1a: Charizard|99/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|87/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|move|p1a: Charizard|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|3/100
+|
+|-heal|p1a: Charizard|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Charizard|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, M, shiny|100/100
+|-damage|p2a: Gengar|88/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Charizard
+|-damage|p1a: Charizard|43/100
+|move|p1a: Charizard|Flamethrower|p2a: Gengar
+|-damage|p2a: Gengar|15/100
+|
+|-heal|p2a: Gengar|21/100|[from] item: Black Sludge
+|-heal|p1a: Charizard|49/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Gengar|Sludge Wave|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-heal|p2a: Gengar|27/100|[from] item: Black Sludge
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lord UnderCrow)
+|
+|switch|p1a: Torkoal|Torkoal, M|86/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|18
+|
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|2/100
+|move|p1a: Torkoal|Lava Plume|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gengar|8/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p2a: Gengar|Disable|p1a: Torkoal
+|-start|p1a: Torkoal|Disable|Lava Plume
+|cant|p1a: Torkoal|Disable|Lava Plume
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gengar|14/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|move|p2a: Gengar|Sludge Wave|p1a: Torkoal
+|-damage|p1a: Torkoal|15/100
+|move|p1a: Torkoal|Yawn|p2a: Gengar
+|-start|p2a: Gengar|move: Yawn|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gengar|20/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|switch|p2a: Milotic|Milotic, F|39/100 brn
+|-damage|p2a: Milotic|27/100 brn|[from] Stealth Rock
+|move|p1a: Torkoal|Rapid Spin|p2a: Milotic
+|-damage|p2a: Milotic|23/100 brn
+|-boost|p1a: Torkoal|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Milotic|17/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|67/100 brn
+|move|p1a: Torkoal|Yawn||[still]
+|-fail|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Milotic|61/100 brn|[from] brn
+|-end|p1a: Torkoal|Disable
+|upkeep
+|turn|23
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100 brn
+|move|p1a: Torkoal|Lava Plume|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|88/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Milotic|82/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p2a: Milotic|Ice Beam|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|1/100
+|move|p1a: Torkoal|Lava Plume|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|68/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Milotic|62/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100 brn
+|move|p1a: Torkoal|Lava Plume|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|88/100 brn
+|
+|-weather|none
+|-damage|p2a: Milotic|81/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100 brn
+|move|p1a: Torkoal|Lava Plume|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|92/100 brn
+|
+|-damage|p2a: Milotic|86/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p2a: Milotic|Scald|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-damage|p2a: Milotic|80/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|turn|28
+|
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|67/100
+|-enditem|p1a: Kommo-o|Throat Spray
+|-boost|p1a: Kommo-o|spa|1
+|move|p2a: Milotic|Ice Beam|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|33/100
+|
+|-damage|p2a: Milotic|74/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|move|p1a: Kommo-o|Clanging Scales|p2a: Milotic
+|-damage|p2a: Milotic|8/100 brn
+|-unboost|p1a: Kommo-o|def|1
+|move|p2a: Milotic|Haze|p2a: Milotic
+|-clearallboost
+|
+|-damage|p2a: Milotic|2/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p1a: Kommo-o|Flamethrower|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, M, shiny|20/100
+|-damage|p2a: Gengar|8/100|[from] Stealth Rock
+|turn|31
+|
+|move|p2a: Gengar|Sludge Wave|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|win|Lord UnderCrow
+|l|☆Mhao zetung 98

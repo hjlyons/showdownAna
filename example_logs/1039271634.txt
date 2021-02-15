@@ -1,0 +1,292 @@
+|ScrapeTime|2020-01-01-19:47:02
+|j|☆karnaaj
+|j|☆Blaxophone
+|player|p1|karnaaj|benga|1257
+|player|p2|Blaxophone|102|1265
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dhelmise|
+|poke|p1|Toxapex, F|
+|poke|p1|Salazzle, F|
+|poke|p1|Drampa, F|
+|poke|p1|Mimikyu, F|
+|poke|p1|Seismitoad, F|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Aegislash, F|
+|poke|p2|Arcanine, F|
+|poke|p2|Togekiss, M|
+|poke|p2|Gastrodon, M|
+|poke|p2|Bisharp, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dhelmise|Dhelmise, shiny|100/100
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|turn|1
+|
+|move|p2a: Conkeldurr|Ice Punch|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|35/100
+|move|p1a: Dhelmise|Power Whip|p2a: Conkeldurr|[miss]
+|-miss|p1a: Dhelmise|p2a: Conkeldurr
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Conkeldurr|Substitute|p2a: Conkeldurr
+|-start|p2a: Conkeldurr|Substitute
+|-damage|p2a: Conkeldurr|76/100
+|
+|-heal|p2a: Conkeldurr|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|move|p1a: Toxapex|Toxic Spikes|p2a: Gastrodon
+|-sidestart|p2: Blaxophone|move: Toxic Spikes
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Gastrodon|Earth Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|47/100
+|move|p1a: Toxapex|Toxic Spikes|p2a: Gastrodon
+|-sidestart|p2: Blaxophone|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|53/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|switch|p1a: Dhelmise|Dhelmise, shiny|35/100
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|0 fnt
+|faint|p1a: Dhelmise
+|
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|turn|7
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Togekiss
+|-sidestart|p2: Blaxophone|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Togekiss|Air Slash|p1a: Seismitoad
+|-damage|p1a: Seismitoad|61/100
+|cant|p1a: Seismitoad|flinch
+|
+|-heal|p1a: Seismitoad|67/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Togekiss|Air Slash|p1a: Seismitoad
+|-damage|p1a: Seismitoad|26/100
+|cant|p1a: Seismitoad|flinch
+|
+|-heal|p1a: Seismitoad|32/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Toxapex|Toxapex, F|86/100
+|move|p2a: Togekiss|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|60/100
+|
+|-heal|p1a: Toxapex|67/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|move|p2a: Togekiss|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|40/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|90/100
+|
+|-heal|p1a: Toxapex|96/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|move|p2a: Togekiss|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|72/100
+|cant|p1a: Toxapex|flinch
+|
+|-heal|p1a: Toxapex|78/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|-damage|p2a: Gastrodon|94/100|[from] Stealth Rock
+|-status|p2a: Gastrodon|tox
+|move|p1a: Toxapex|Scald|p2a: Gastrodon
+|-ability|p2a: Gastrodon|Storm Drain|boost
+|-boost|p2a: Gastrodon|spa|1
+|
+|-heal|p2a: Gastrodon|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|84/100|[from] item: Black Sludge
+|-damage|p2a: Gastrodon|94/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p2a: Gastrodon|Earth Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-heal|p2a: Gastrodon|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Gastrodon|88/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Drampa|Drampa, F|100/100
+|turn|15
+|
+|move|p2a: Gastrodon|Ice Beam|p1a: Drampa
+|-supereffective|p1a: Drampa
+|-damage|p1a: Drampa|20/100
+|move|p1a: Drampa|Dragon Pulse|p2a: Gastrodon
+|-damage|p2a: Gastrodon|38/100 tox
+|
+|-heal|p2a: Gastrodon|44/100 tox|[from] item: Leftovers
+|-heal|p1a: Drampa|26/100|[from] item: Leftovers
+|-damage|p2a: Gastrodon|25/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|move|p2a: Gastrodon|Ice Beam|p1a: Drampa
+|-supereffective|p1a: Drampa
+|-damage|p1a: Drampa|0 fnt
+|faint|p1a: Drampa
+|
+|-heal|p2a: Gastrodon|31/100 tox|[from] item: Leftovers
+|-damage|p2a: Gastrodon|7/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|turn|17
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|-damage|p2a: Togekiss|76/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p1a: Seismitoad|Seismitoad, F|32/100
+|move|p2a: Togekiss|Trick|p1a: Seismitoad
+|-activate|p2a: Togekiss|move: Trick|[of] p1a: Seismitoad
+|-item|p1a: Seismitoad|Choice Scarf|[from] move: Trick
+|-item|p2a: Togekiss|Leftovers|[from] move: Trick
+|
+|-heal|p2a: Togekiss|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Togekiss|Trick|p1a: Seismitoad
+|-activate|p2a: Togekiss|move: Trick|[of] p1a: Seismitoad
+|-item|p1a: Seismitoad|Leftovers|[from] move: Trick
+|-item|p2a: Togekiss|Choice Scarf|[from] move: Trick
+|move|p1a: Seismitoad|Toxic|p2a: Togekiss
+|-status|p2a: Togekiss|tox
+|
+|-heal|p1a: Seismitoad|38/100|[from] item: Leftovers
+|-damage|p2a: Togekiss|76/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p2a: Togekiss|Air Slash|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-damage|p2a: Togekiss|64/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|turn|21
+|
+|move|p1a: Salazzle|Venoshock|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|-damage|p2a: Aegislash|94/100|[from] Stealth Rock
+|turn|22
+|
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|-unboost|p1a: Mimikyu|atk|1
+|
+|upkeep
+|turn|24
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|-damage|p1a: Mimikyu|88/100|[from] ability: Disguise|[of] p1a: Mimikyu
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|
+|-heal|p1a: Mimikyu|94/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|12/100
+|-enditem|p2a: Aegislash|Weakness Policy
+|-boost|p2a: Aegislash|atk|2
+|-boost|p2a: Aegislash|spa|2
+|move|p2a: Aegislash|Shadow Sneak|p1a: Mimikyu
+|-supereffective|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|upkeep
+|
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|turn|26
+|
+|move|p2a: Aegislash|Shadow Sneak|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|faint|p1a: Salazzle
+|
+|win|Blaxophone
+|l|☆karnaaj
+|raw|karnaaj's rating: 1257 → 1233(-24 for losing)
+|raw|Blaxophone's rating: 1265 → 1289(+24 for winning)

@@ -1,0 +1,97 @@
+|ScrapeTime|2020-01-01-16:54:51
+|j|☆sdfhgdtgf
+|j|☆sonwidge
+|player|p1|sdfhgdtgf|n|1103
+|player|p2|sonwidge|2|1107
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aegislash, M|
+|poke|p1|Hydreigon, M|
+|poke|p1|Clefable, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Excadrill, M|
+|poke|p2|Passimian, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Togekiss, M|
+|poke|p2|Conkeldurr, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Excadrill|Excadrill, M, shiny|100/100
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|
+|switch|p1a: Clefable|Clefable, F, shiny|100/100
+|move|p2a: Mandibuzz|Taunt|p1a: Clefable
+|-start|p1a: Clefable|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Clefable|Moonblast|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|62/100
+|-unboost|p2a: Excadrill|spa|1
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Corviknight|Corviknight, M, shiny|100/100
+|move|p2a: Excadrill|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: sdfhgdtgf|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Rotom|Trick|p1a: Corviknight
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Corviknight
+|-item|p1a: Corviknight|Choice Specs|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|move|p1a: Corviknight|Body Press|p2a: Rotom
+|-damage|p2a: Rotom|61/100
+|
+|-heal|p2a: Rotom|68/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Corviknight
+|-status|p1a: Corviknight|brn
+|move|p1a: Corviknight|Body Press|p2a: Rotom
+|-damage|p2a: Rotom|49/100
+|
+|-heal|p2a: Rotom|55/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|-message|sdfhgdtgf forfeited.
+|
+|win|sonwidge
+|l|☆sdfhgdtgf
+|raw|sdfhgdtgf's rating: 1103 → 1078(-25 for losing)
+|raw|sonwidge's rating: 1107 → 1132(+25 for winning)

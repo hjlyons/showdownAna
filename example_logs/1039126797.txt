@@ -1,0 +1,194 @@
+|ScrapeTime|2020-01-01-13:26:10
+|j|☆Ace Trainer 2020
+|j|☆firstbrhere
+|player|p1|Ace Trainer 2020|aetherfoundation|1234
+|player|p2|firstbrhere|dancer|1230
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cloyster, F|
+|poke|p1|Dracovish|
+|poke|p1|Rotom-Mow|
+|poke|p1|Clefable, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Conkeldurr, M|
+|poke|p2|Kommo-o, F|
+|poke|p2|Aegislash, M|
+|poke|p2|Clefable, F|
+|poke|p2|Rotom-Mow|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Dracovish|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by firstbrhere)
+|
+|start
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|switch|p2a: Kommo-o|Kommo-o, F|100/100
+|turn|1
+|
+|move|p1a: Rotom|Trick|p2a: Kommo-o
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Kommo-o
+|-item|p2a: Kommo-o|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Aguav Berry|[from] move: Trick
+|move|p2a: Kommo-o|Stealth Rock|p1a: Rotom
+|-sidestart|p1: Ace Trainer 2020|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Aegislash
+|-damage|p2a: Aegislash|75/100
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|
+|-heal|p1a: Corviknight|94/100|[from] item: Leftovers
+|-heal|p2a: Aegislash|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Corviknight|Defog|p2a: Aegislash
+|-unboost|p2a: Aegislash|evasion|1
+|-sideend|p1: Ace Trainer 2020|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|-heal|p2a: Aegislash|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Corviknight|U-turn|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|85/100
+|
+|switch|p1a: Clefable|Clefable, M|100/100|[from]move: U-turn
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|
+|-heal|p2a: Aegislash|91/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Clefable|Flamethrower|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|37/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Iron Head|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-heal|p2a: Aegislash|43/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|6
+|
+|-formechange|p2a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Dracovish|Fishious Rend|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|-unboost|p1a: Dracovish|atk|1
+|
+|-heal|p2a: Aegislash|49/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Dracovish
+|-damage|p1a: Dracovish|19/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|turn|8
+|
+|move|p2a: Rotom|Volt Switch|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|switch|p2a: Kommo-o|Kommo-o, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|switch|p1a: Cloyster|Cloyster, F|100/100
+|turn|9
+|
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|move|p2a: Kommo-o|Dragon Tail|p1a: Cloyster|[miss]
+|-miss|p2a: Kommo-o|p1a: Cloyster
+|
+|upkeep
+|turn|10
+|c|☆firstbrhere|wow
+|
+|move|p1a: Cloyster|Icicle Spear|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|75/100
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|46/100
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|17/100
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|-hitcount|p2a: Kommo-o|4
+|faint|p2a: Kommo-o
+|
+|upkeep
+|c|☆firstbrhere|ofc i fucking miss
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|turn|11
+|
+|move|p1a: Cloyster|Icicle Spear|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|36/100
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-hitcount|p2a: Rotom|2
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|12
+|
+|move|p1a: Cloyster|Icicle Spear|p2a: Dracovish
+|-damage|p2a: Dracovish|76/100
+|-damage|p2a: Dracovish|51/100
+|-damage|p2a: Dracovish|29/100
+|-damage|p2a: Dracovish|4/100
+|-damage|p2a: Dracovish|0 fnt
+|-hitcount|p2a: Dracovish|5
+|faint|p2a: Dracovish
+|
+|upkeep
+|-message|firstbrhere forfeited.
+|
+|win|Ace Trainer 2020
+|l|☆firstbrhere
+|raw|Ace Trainer 2020's rating: 1234 → 1258(+24 for winning)
+|raw|firstbrhere's rating: 1230 → 1206(-24 for losing)

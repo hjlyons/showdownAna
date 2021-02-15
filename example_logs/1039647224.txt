@@ -1,0 +1,380 @@
+|ScrapeTime|2020-01-02-13:36:43
+|j|☆jxfx
+|j|☆GREENFF
+|player|p1|jxfx|266|1211
+|player|p2|GREENFF|cyclist-gen4|1237
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Chandelure, F|
+|poke|p1|Togekiss, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Dragapult, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Toxtricity, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Cinderace, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GREENFF)
+|
+|move|p1a: Excadrill|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-enditem|p2a: Excadrill|Focus Sash
+|-damage|p2a: Excadrill|1/100
+|move|p2a: Excadrill|Rapid Spin|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|89/100
+|-boost|p2a: Excadrill|spe|1
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Excadrill|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|turn|3
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|move|p1a: Corviknight|U-turn|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|70/100
+|
+|switch|p1a: Togekiss|Togekiss, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|move|p1a: Togekiss|Draining Kiss|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|87/100
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Toxtricity|Overdrive|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|62/100
+|-enditem|p2a: Toxtricity|Throat Spray
+|-boost|p2a: Toxtricity|spa|1
+|
+|-heal|p1a: Dragapult|68/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Toxtricity
+|-damage|p2a: Toxtricity|66/100
+|-damage|p2a: Toxtricity|44/100
+|-hitcount|p2a: Toxtricity|2
+|move|p2a: Toxtricity|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|33/100
+|
+|switch|p2a: Dragapult|Dragapult, M, shiny|100/100|[from]move: Volt Switch
+|
+|-heal|p1a: Dragapult|39/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|55/100
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|12/100
+|-hitcount|p2a: Dragapult|2
+|move|p2a: Dragapult|Disable|p1a: Dragapult
+|-start|p1a: Dragapult|Disable|Dragon Darts
+|
+|-heal|p1a: Dragapult|45/100|[from] item: Leftovers
+|-heal|p2a: Dragapult|18/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Dragapult|Hex|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Dragapult|24/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|turn|9
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Togekiss|Air Slash|p2a: Seismitoad
+|-damage|p2a: Seismitoad|30/100
+|cant|p2a: Seismitoad|flinch
+|
+|-heal|p2a: Seismitoad|36/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Togekiss|Air Slash|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-heal|p2a: Seismitoad|42/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Toxtricity|Toxtricity, M|44/100
+|move|p1a: Togekiss|Air Slash|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|1/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|13
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|move|p2a: Excadrill|Iron Head|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|85/100
+|
+|-heal|p1a: Corviknight|92/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Corviknight|U-turn|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|91/100
+|
+|switch|p1a: Chandelure|Chandelure, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|31/100
+|move|p1a: Chandelure|Shadow Ball|p2a: Cinderace
+|-damage|p2a: Cinderace|23/100
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Cinderace|Sucker Punch||[still]
+|-fail|p2a: Cinderace
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Cinderace|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|93/100
+|
+|switch|p2a: Seismitoad|Seismitoad, F|42/100|[from]move: U-turn
+|move|p1a: Toxapex|Scald|p2a: Seismitoad
+|-heal|p2a: Seismitoad|67/100|[from] ability: Water Absorb|[of] p1a: Toxapex
+|
+|-heal|p2a: Seismitoad|73/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|99/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p2a: Seismitoad|Stealth Rock|p1a: Toxapex
+|-sidestart|p1: jxfx|move: Stealth Rock
+|move|p1a: Toxapex|Toxic Spikes|p2a: Seismitoad
+|-sidestart|p2: GREENFF|move: Toxic Spikes
+|
+|-heal|p2a: Seismitoad|79/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p2a: Seismitoad|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|91/100
+|-status|p1a: Toxapex|brn
+|move|p1a: Toxapex|Toxic Spikes|p2a: Seismitoad
+|-sidestart|p2: GREENFF|move: Toxic Spikes
+|
+|-heal|p2a: Seismitoad|85/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|98/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|91/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|-damage|p1a: Togekiss|76/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Scald|p1a: Togekiss
+|-damage|p1a: Togekiss|57/100
+|
+|-heal|p1a: Togekiss|63/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|91/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Togekiss|Air Slash|p2a: Seismitoad
+|-damage|p2a: Seismitoad|57/100
+|cant|p2a: Seismitoad|flinch
+|
+|-heal|p1a: Togekiss|69/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|63/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Togekiss|Air Slash|p2a: Seismitoad
+|-damage|p2a: Seismitoad|30/100
+|cant|p2a: Seismitoad|flinch
+|
+|-heal|p1a: Togekiss|76/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|36/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Togekiss|Air Slash|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-heal|p1a: Togekiss|82/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|1/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|24
+|
+|move|p2a: Excadrill|Iron Head|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|5/100
+|move|p1a: Togekiss|Air Slash|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-heal|p1a: Togekiss|11/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|23/100
+|turn|25
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p1a: Toxapex|88/100 brn|[from] Stealth Rock
+|move|p2a: Cinderace|Sucker Punch||[still]
+|-fail|p2a: Cinderace
+|
+|-heal|p1a: Toxapex|94/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|88/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p2a: Cinderace|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|80/100 brn
+|
+|switch|p2a: Dragapult|Dragapult, M, shiny|24/100|[from]move: U-turn
+|-status|p2a: Dragapult|tox
+|move|p1a: Toxapex|Scald|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|15/100 tox
+|
+|-heal|p2a: Dragapult|21/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|86/100 brn|[from] item: Black Sludge
+|-damage|p2a: Dragapult|15/100 tox|[from] psn
+|-damage|p1a: Toxapex|80/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p2a: Dragapult|Hex|p1a: Toxapex
+|-damage|p1a: Toxapex|45/100 brn
+|move|p1a: Toxapex|Scald|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|5/100 tox
+|
+|-heal|p2a: Dragapult|11/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|51/100 brn|[from] item: Black Sludge
+|-damage|p2a: Dragapult|0 fnt|[from] psn
+|faint|p2a: Dragapult
+|-damage|p1a: Toxapex|45/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|70/100
+|turn|28
+|
+|switch|p1a: Corviknight|Corviknight, F|92/100
+|-damage|p1a: Corviknight|79/100|[from] Stealth Rock
+|move|p2a: Hydreigon|Fire Blast|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-damage|p2a: Hydreigon|60/100|[from] item: Life Orb
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Chandelure|Chandelure, F|31/100
+|-damage|p1a: Chandelure|6/100|[from] Stealth Rock
+|turn|29
+|
+|move|p1a: Chandelure|Will-O-Wisp|p2a: Hydreigon
+|-status|p2a: Hydreigon|brn
+|move|p2a: Hydreigon|Dark Pulse|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|-damage|p2a: Hydreigon|50/100 brn|[from] item: Life Orb
+|faint|p1a: Chandelure
+|
+|-damage|p2a: Hydreigon|44/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, F|78/100 brn
+|-damage|p1a: Toxapex|65/100 brn|[from] Stealth Rock
+|turn|30
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|34/100 brn|[from] item: Life Orb
+|faint|p1a: Toxapex
+|
+|-damage|p2a: Hydreigon|28/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Togekiss|Togekiss, F|11/100
+|-damage|p1a: Togekiss|0 fnt|[from] Stealth Rock
+|faint|p1a: Togekiss
+|
+|win|GREENFF
+|l|☆jxfx
+|raw|jxfx's rating: 1211 → 1188(-23 for losing)
+|raw|GREENFF's rating: 1237 → 1261(+24 for winning)

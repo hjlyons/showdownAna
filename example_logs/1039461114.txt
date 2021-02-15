@@ -1,0 +1,311 @@
+|ScrapeTime|2020-01-02-02:45:02
+|j|☆TrippyTech
+|j|☆Grinwald Krieg
+|player|p1|TrippyTech|165|1188
+|player|p2|Grinwald Krieg|mina|1169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Haxorus, M|
+|poke|p1|Bisharp, M|
+|poke|p1|Vikavolt, M|
+|poke|p1|Whimsicott, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Conkeldurr, M|
+|poke|p2|Cloyster, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Clefable, M|
+|poke|p2|Aegislash, F|
+|poke|p2|Seismitoad, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Grinwald Krieg)
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Cloyster|Cloyster, M, shiny|100/100
+|turn|1
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Cloyster
+|-start|p2a: Cloyster|move: Taunt
+|cant|p2a: Cloyster|move: Taunt|Shell Smash
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: TrippyTech|Reflect
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: TrippyTech|move: Light Screen
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|18/100
+|-start|p2a: Aegislash|Throat Chop|[silent]
+|-damage|p1a: Bisharp|91/100|[from] item: Life Orb
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Close Combat|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|faint|p1a: Bisharp
+|
+|-heal|p2a: Aegislash|24/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|6
+|
+|move|p2a: Aegislash|Shadow Sneak|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|78/100
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|turn|7
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Seismitoad
+|-start|p2a: Seismitoad|move: Taunt
+|move|p2a: Seismitoad|Liquidation|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|51/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Whimsicott|Whimsicott, M|100/100
+|move|p2a: Seismitoad|Liquidation|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-crit|p1a: Whimsicott
+|-damage|p1a: Whimsicott|64/100
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Whimsicott|Leech Seed|p2a: Seismitoad
+|-start|p2a: Seismitoad|move: Leech Seed
+|move|p2a: Seismitoad|Ice Punch|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|34/100
+|
+|-damage|p2a: Seismitoad|88/100|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|50/100|[silent]
+|-end|p2a: Seismitoad|move: Taunt
+|-sideend|p1: TrippyTech|Reflect
+|upkeep
+|turn|10
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: TrippyTech|move: Tailwind
+|
+|-sideend|p1: TrippyTech|move: Light Screen
+|upkeep
+|turn|11
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Whimsicott|U-turn|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|92/100
+|
+|switch|p1a: Haxorus|Haxorus, M|100/100|[from]move: U-turn
+|-ability|p1a: Haxorus|Mold Breaker
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Haxorus|Earthquake|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Cloyster|Cloyster, M, shiny|100/100
+|turn|13
+|
+|move|p1a: Haxorus|Close Combat|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|25/100
+|-unboost|p1a: Haxorus|def|1
+|-unboost|p1a: Haxorus|spd|1
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|
+|-sideend|p1: TrippyTech|move: Tailwind
+|upkeep
+|turn|14
+|
+|switch|p1a: Vikavolt|Vikavolt, M|100/100
+|move|p2a: Cloyster|Icicle Spear|p1a: Vikavolt
+|-damage|p1a: Vikavolt|75/100
+|-damage|p1a: Vikavolt|51/100
+|-damage|p1a: Vikavolt|27/100
+|-damage|p1a: Vikavolt|5/100
+|-damage|p1a: Vikavolt|0 fnt
+|-hitcount|p1a: Vikavolt|5
+|faint|p1a: Vikavolt
+|
+|upkeep
+|inactive|TrippyTech has 120 seconds left.
+|
+|switch|p1a: Whimsicott|Whimsicott, M|50/100
+|turn|15
+|
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: TrippyTech|move: Tailwind
+|move|p2a: Cloyster|Icicle Spear|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|-hitcount|p1a: Whimsicott|1
+|faint|p1a: Whimsicott
+|
+|upkeep
+|inactive|TrippyTech has 120 seconds left.
+|
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|16
+|
+|move|p2a: Cloyster|Ice Shard|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|4/100
+|move|p1a: Haxorus|Earthquake|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|-heal|p1a: Haxorus|10/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|17
+|
+|move|p2a: Dragapult|Sucker Punch|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|faint|p1a: Haxorus
+|
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|51/100
+|turn|18
+|
+|switch|p2a: Seismitoad|Seismitoad, F|88/100
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: TrippyTech|move: Light Screen
+|
+|-sideend|p1: TrippyTech|move: Tailwind
+|upkeep
+|turn|19
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: TrippyTech|Reflect
+|move|p2a: Seismitoad|Earthquake|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|19/100
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|move|p2a: Seismitoad|Earthquake|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|80/100
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|21
+|
+|move|p2a: Seismitoad|Drain Punch|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|70/100 brn
+|-heal|p2a: Seismitoad|93/100|[from] drain|[of] p1a: Conkeldurr
+|move|p1a: Conkeldurr|Earthquake|p2a: Seismitoad
+|-damage|p2a: Seismitoad|30/100
+|
+|-damage|p1a: Conkeldurr|64/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p2a: Seismitoad|Drain Punch|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|55/100 brn
+|-heal|p2a: Seismitoad|35/100|[from] drain|[of] p1a: Conkeldurr
+|move|p1a: Conkeldurr|Drain Punch|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-heal|p1a: Conkeldurr|72/100 brn|[from] drain|[of] p2a: Seismitoad
+|faint|p2a: Seismitoad
+|
+|-damage|p1a: Conkeldurr|66/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|23
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|35/100 brn
+|-damage|p1a: Conkeldurr|4/100 brn
+|-hitcount|p1a: Conkeldurr|2
+|move|p1a: Conkeldurr|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|17/100
+|
+|-damage|p1a: Conkeldurr|0 fnt|[from] brn
+|faint|p1a: Conkeldurr
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|19/100
+|turn|24
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Clefable
+|-damage|p2a: Clefable|56/100
+|-unboost|p2a: Clefable|spa|1
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Clefable
+|-damage|p2a: Clefable|6/100
+|-unboost|p2a: Clefable|spa|1
+|move|p2a: Clefable|Moonblast|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|win|Grinwald Krieg
+|c|☆TrippyTech|gg
+|l|☆TrippyTech
+|raw|TrippyTech's rating: 1188 → 1162(-26 for losing)
+|raw|Grinwald Krieg's rating: 1169 → 1195(+26 for winning)

@@ -1,0 +1,248 @@
+|ScrapeTime|2020-01-01-21:05:05
+|j|☆Sebas4906
+|j|☆Thinning the herd
+|player|p1|Sebas4906|waiter-gen4|1626
+|player|p2|Thinning the herd|gentleman|1651
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ribombee, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Bisharp, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Falinks|
+|poke|p1|Malamar, M|
+|poke|p2|Dugtrio, F|
+|poke|p2|Sirfetch'd, F|
+|poke|p2|Crawdaunt, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Polteageist|
+|poke|p2|Bisharp, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p1a: Ribombee|U-turn|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|91/100
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from]move: U-turn
+|move|p2a: Excadrill|Rapid Spin|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Dragapult|Fire Blast|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|turn|3
+|
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|move|p2a: Dugtrio|Rock Tomb|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|34/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Ribombee|U-turn|p2a: Dugtrio
+|-damage|p2a: Dugtrio|64/100
+|
+|switch|p1a: Malamar|Malamar, M|100/100|[from]move: U-turn
+|move|p2a: Dugtrio|Rock Tomb|p1a: Malamar
+|-damage|p1a: Malamar|79/100
+|-boost|p1a: Malamar|spe|1
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Malamar|Superpower|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|faint|p2a: Dugtrio
+|
+|upkeep
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|turn|6
+|
+|move|p1a: Malamar|Throat Chop|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-enditem|p2a: Polteageist|Focus Sash
+|-damage|p2a: Polteageist|1/100
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|-start|p2a: Polteageist|Throat Chop|[silent]
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|faint|p1a: Malamar
+|
+|-end|p2a: Polteageist|Throat Chop|[silent]
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|8
+|
+|move|p1a: Cinderace|Sucker Punch||[still]
+|-fail|p1a: Cinderace
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Cinderace|Sucker Punch||[still]
+|-fail|p1a: Cinderace
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|0
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Cinderace|Sucker Punch||[still]
+|-fail|p1a: Cinderace
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|0
+|-boost|p2a: Polteageist|spa|0
+|-boost|p2a: Polteageist|spe|0
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Cinderace|Sucker Punch||[still]
+|-fail|p1a: Cinderace
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|0
+|-boost|p2a: Polteageist|spa|0
+|-boost|p2a: Polteageist|spe|0
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Cinderace|Sucker Punch||[still]
+|-fail|p1a: Cinderace
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|0
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|0
+|-boost|p2a: Polteageist|spa|0
+|-boost|p2a: Polteageist|spe|0
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Cinderace|Sucker Punch||[still]
+|-fail|p1a: Cinderace
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|0
+|-unboost|p2a: Polteageist|spd|0
+|-boost|p2a: Polteageist|atk|0
+|-boost|p2a: Polteageist|spa|0
+|-boost|p2a: Polteageist|spe|0
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Cinderace|Sucker Punch||[still]
+|-fail|p1a: Cinderace
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|0
+|-unboost|p2a: Polteageist|spd|0
+|-boost|p2a: Polteageist|atk|0
+|-boost|p2a: Polteageist|spa|0
+|-boost|p2a: Polteageist|spe|0
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Cinderace|Sucker Punch||[still]
+|-fail|p1a: Cinderace
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|0
+|-unboost|p2a: Polteageist|spd|0
+|-boost|p2a: Polteageist|atk|0
+|-boost|p2a: Polteageist|spa|0
+|-boost|p2a: Polteageist|spe|0
+|
+|upkeep
+|turn|16
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Thinning the herd)
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|turn|17
+|
+|move|p1a: Bisharp|Sucker Punch||[still]
+|-fail|p1a: Bisharp
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|0
+|-unboost|p2a: Polteageist|spd|0
+|-boost|p2a: Polteageist|atk|0
+|-boost|p2a: Polteageist|spa|0
+|-boost|p2a: Polteageist|spe|0
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|-message|Sebas4906 forfeited.
+|
+|win|Thinning the herd
+|c|☆Thinning the herd|Whoa
+|raw|Sebas4906's rating: 1626 → 1608(-18 for losing)
+|raw|Thinning the herd's rating: 1651 → 1669(+18 for winning)

@@ -1,0 +1,167 @@
+|ScrapeTime|2020-01-02-23:55:33
+|j|☆ogTFlame
+|j|☆Kudoz
+|player|p1|ogTFlame|lucas|1515
+|player|p2|Kudoz|2|1475
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Aegislash, F|
+|poke|p1|Gyarados, F|
+|poke|p1|Conkeldurr, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Clefable, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Sirfetch'd, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ogTFlame)
+|
+|start
+|switch|p1a: CLEEEAN|Rotom-Wash|100/100
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|turn|1
+|
+|switch|p1a: SLICE EM UP|Aegislash, F|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: SLICE EM UP
+|-sidestart|p1: ogTFlame|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Rampage|Gyarados, F|100/100
+|move|p2a: Seismitoad|Earthquake|p1a: Rampage
+|-immune|p1a: Rampage
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Rampage|Power Whip|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|-ability|p1a: Rampage|Moxie|boost
+|-boost|p1a: Rampage|atk|1
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|4
+|
+|switch|p1a: Nesquik|Cinderace, F|100/100
+|-damage|p1a: Nesquik|76/100|[from] Stealth Rock
+|move|p2a: Clefable|Thunderbolt|p1a: Nesquik
+|-damage|p1a: Nesquik|27/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Nesquik|Pyro Ball|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|6
+|
+|move|p1a: Nesquik|Sucker Punch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|43/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Nesquik
+|-damage|p1a: Nesquik|0 fnt
+|-damage|p2a: Dragapult|33/100|[from] item: Life Orb
+|faint|p1a: Nesquik
+|
+|upkeep
+|
+|switch|p1a: SLICE EM UP|Aegislash, F|100/100
+|-damage|p1a: SLICE EM UP|94/100|[from] Stealth Rock
+|turn|7
+|
+|-formechange|p1a: SLICE EM UP|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: SLICE EM UP|Shadow Sneak|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: SLICE EM UP|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|8
+|
+|switch|p1a: Brody|Conkeldurr, M|100/100
+|-damage|p1a: Brody|94/100|[from] Stealth Rock
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|-status|p1a: Brody|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|
+|move|p2a: Hydreigon|Earth Power|p1a: Brody
+|-damage|p1a: Brody|23/100 brn
+|move|p1a: Brody|Drain Punch|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-heal|p1a: Brody|63/100 brn|[from] drain|[of] p2a: Hydreigon
+|faint|p2a: Hydreigon
+|
+|-damage|p1a: Brody|57/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|100/100
+|turn|10
+|
+|move|p1a: Brody|Mach Punch|p2a: Sirfetch'd
+|-damage|p2a: Sirfetch'd|51/100
+|move|p2a: Sirfetch'd|Close Combat|p1a: Brody
+|-damage|p1a: Brody|4/100 brn
+|-unboost|p2a: Sirfetch'd|def|1
+|-unboost|p2a: Sirfetch'd|spd|1
+|
+|-damage|p1a: Brody|0 fnt|[from] brn
+|faint|p1a: Brody
+|upkeep
+|
+|switch|p1a: Rampage|Gyarados, F|100/100
+|turn|11
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Rampage|Dragon Dance|p1a: Rampage
+|-boost|p1a: Rampage|atk|1
+|-boost|p1a: Rampage|spe|1
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Rampage|Waterfall|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|-ability|p1a: Rampage|Moxie|boost
+|-boost|p1a: Rampage|atk|1
+|
+|upkeep
+|-message|Kudoz forfeited.
+|
+|win|ogTFlame
+|l|☆Kudoz
+|raw|ogTFlame's rating: 1494 → 1513(+19 for winning)
+|raw|Kudoz's rating: 1471 → 1452(-19 for losing)

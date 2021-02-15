@@ -1,0 +1,222 @@
+|ScrapeTime|2020-01-01-08:55:28
+|j|☆freezeflare
+|j|☆Eddy
+|player|p1|freezeflare|brawly|1624
+|player|p2|Eddy|olivia|1571
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Gengar, F|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Bisharp, F|
+|poke|p1|Ferrothorn, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Aegislash, M|
+|poke|p2|Rotom-Mow|
+|poke|p2|Cloyster, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Dietar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Dietar
+|turn|1
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Dietar|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: freezeflare|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Galaxia|Aegislash, M|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Galaxia
+|-sidestart|p2: Eddy|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|-formechange|p2a: Galaxia|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Galaxia|Shadow Ball|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|51/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Galaxia
+|-start|p2a: Galaxia|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|57/100|[from] item: Leftovers
+|-damage|p2a: Galaxia|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|66/100|[silent]
+|upkeep
+|turn|4
+|
+|switch|p2a: Gärtner|Rotom-Mow|100/100
+|-damage|p2a: Gärtner|88/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Gärtner
+|-resisted|p2a: Gärtner
+|-damage|p2a: Gärtner|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gärtner|57/100|[from] Sandstorm
+|-heal|p1a: Ferrothorn|72/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Gengar|Gengar, F|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|move|p2a: Gärtner|Trick|p1a: Gengar
+|-activate|p2a: Gärtner|move: Trick|[of] p1a: Gengar
+|-item|p1a: Gengar|Choice Scarf|[from] move: Trick
+|-item|p2a: Gärtner|Choice Scarf|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|82/100|[from] Sandstorm
+|-damage|p2a: Gärtner|51/100|[from] Sandstorm
+|upkeep
+|turn|6
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by freezeflare)
+|
+|move|p1a: Gengar|Focus Blast|p2a: Gärtner
+|-damage|p2a: Gärtner|5/100
+|move|p2a: Gärtner|Volt Switch|p1a: Gengar
+|-damage|p1a: Gengar|38/100
+|-start|p2a: Gärtner|Disable|Volt Switch|[from] ability: Cursed Body|[of] p1a: Gengar
+|
+|switch|p2a: Eddydrill|Excadrill, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Eddydrill|97/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|32/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|move|p2a: Eddydrill|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-damage|p2a: Eddydrill|87/100|[from] item: Life Orb
+|faint|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p1a: Conkeldurr|94/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p2a: Gärtner|Rotom-Mow|5/100
+|-damage|p2a: Gärtner|0 fnt|[from] Stealth Rock
+|faint|p2a: Gärtner
+|move|p1a: Conkeldurr|Mach Punch|p2: Gärtner|[notarget]
+|-fail|p1a: Conkeldurr
+|
+|-weather|none
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|
+|switch|p2a: Galaxia|Aegislash, M|88/100
+|-damage|p2a: Galaxia|82/100|[from] Stealth Rock
+|turn|9
+|
+|-formechange|p2a: Galaxia|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Galaxia|Shadow Ball|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|10
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Galaxia
+|-supereffective|p2a: Galaxia
+|-damage|p2a: Galaxia|0 fnt
+|faint|p2a: Galaxia
+|
+|upkeep
+|
+|switch|p2a: Dietar|Tyranitar, M|100/100
+|-damage|p2a: Dietar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Dietar
+|turn|11
+|
+|move|p1a: Cinderace|High Jump Kick|p2a: Dietar
+|-supereffective|p2a: Dietar
+|-damage|p2a: Dietar|0 fnt
+|faint|p2a: Dietar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cinderace|95/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Eddydrill|Excadrill, M|87/100
+|-damage|p2a: Eddydrill|84/100|[from] Stealth Rock
+|turn|12
+|
+|move|p2a: Eddydrill|Earthquake|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-damage|p2a: Eddydrill|74/100|[from] item: Life Orb
+|faint|p1a: Cinderace
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|-damage|p1a: Bisharp|95/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Eddydrill
+|-damage|p2a: Eddydrill|2/100
+|-damage|p1a: Bisharp|85/100|[from] item: Life Orb
+|move|p2a: Eddydrill|Earthquake|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|-damage|p2a: Eddydrill|0 fnt|[from] item: Life Orb
+|faint|p1a: Bisharp
+|faint|p2a: Eddydrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Meister Proper|Conkeldurr, M|100/100
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|-damage|p2a: Meister Proper|95/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Meister Proper
+|-damage|p2a: Meister Proper|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Meister Proper
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|82/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|turn|15
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Cloyster
+|
+|win|freezeflare
+|raw|freezeflare's rating: 1625 → 1642(+17 for winning)
+|raw|Eddy's rating: 1571 → 1554(-17 for losing)

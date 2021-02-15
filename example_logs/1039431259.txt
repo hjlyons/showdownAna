@@ -1,0 +1,196 @@
+|ScrapeTime|2020-01-02-01:26:31
+|j|☆LiIIy
+|j|☆Mr.asianeggplant
+|player|p1|LiIIy|hiker-gen4|1231
+|player|p2|Mr.asianeggplant|33|1220
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Beartic, F|
+|poke|p1|Abomasnow, F|
+|poke|p1|Vanilluxe, M|
+|poke|p1|Mr. Rime, M|
+|poke|p1|Lapras, F|
+|poke|p1|Cloyster, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Dracovish|
+|poke|p2|Dragapult, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Morpeko, M|
+|poke|p2|Conkeldurr, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LiIIy)
+|
+|start
+|switch|p1a: Lapras|Lapras, F, shiny|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: Mr.asianeggplant|move: Tailwind
+|move|p1a: Lapras|Freeze-Dry|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|turn|2
+|
+|move|p1a: Lapras|Protect|p1a: Lapras
+|-singleturn|p1a: Lapras|Protect
+|move|p2a: Conkeldurr|Drain Punch|p1a: Lapras
+|-activate|p1a: Lapras|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|move|p2a: Conkeldurr|Drain Punch|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Conkeldurr|95/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Abomasnow|Abomasnow, F, shiny|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|4
+|
+|move|p2a: Conkeldurr|Drain Punch|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|-heal|p2a: Conkeldurr|100/100 brn|[from] drain|[of] p1a: Abomasnow
+|faint|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Conkeldurr|95/100 brn|[from] Hail
+|-damage|p2a: Conkeldurr|89/100 brn|[from] brn
+|-sideend|p2: Mr.asianeggplant|move: Tailwind
+|upkeep
+|
+|switch|p1a: Beartic|Beartic, F, shiny|100/100
+|turn|5
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Beartic|Play Rough|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|84/100
+|-damage|p1a: Beartic|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Beartic|78/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|78/100|[from] Hail
+|-heal|p2a: Ferrothorn|84/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Beartic|Swords Dance|p1a: Beartic
+|-boost|p1a: Beartic|atk|2
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Beartic
+|-sidestart|p1: LiIIy|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|78/100|[from] Hail
+|-heal|p2a: Ferrothorn|84/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Beartic|Superpower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Beartic|66/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-unboost|p1a: Beartic|atk|1
+|-unboost|p1a: Beartic|def|1
+|-damage|p1a: Beartic|56/100|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|89/100 brn
+|turn|8
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Beartic
+|-supereffective|p1a: Beartic
+|-damage|p1a: Beartic|0 fnt
+|faint|p1a: Beartic
+|
+|-weather|none
+|-damage|p2a: Conkeldurr|83/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Vanilluxe|Vanilluxe, M, shiny|100/100
+|-damage|p1a: Vanilluxe|75/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|9
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Vanilluxe
+|-supereffective|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|0 fnt
+|faint|p1a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Conkeldurr|77/100 brn|[from] Hail
+|-damage|p2a: Conkeldurr|71/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Mr. Rime|Mr. Rime, M, shiny|100/100
+|-damage|p1a: Mr. Rime|76/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p2a: Morpeko|Morpeko, M|100/100
+|move|p1a: Mr. Rime|Psychic|p2a: Morpeko
+|-immune|p2a: Morpeko
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Morpeko|94/100|[from] Hail
+|-heal|p1a: Mr. Rime|82/100|[from] ability: Ice Body
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|11
+|
+|move|p2a: Morpeko|Aura Wheel|p1a: Mr. Rime
+|-supereffective|p1a: Mr. Rime
+|-damage|p1a: Mr. Rime|0 fnt
+|-boost|p2a: Morpeko|spe|1
+|faint|p1a: Mr. Rime
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Morpeko|88/100|[from] Hail
+|-formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|
+|switch|p1a: Cloyster|Cloyster, F, shiny|100/100
+|-damage|p1a: Cloyster|76/100|[from] Stealth Rock
+|turn|12
+|c|☆Mr.asianeggplant|Gg
+|c|☆LiIIy|gg
+|
+|move|p2a: Morpeko|Aura Wheel|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|-boost|p2a: Morpeko|spe|1
+|faint|p1a: Cloyster
+|
+|win|Mr.asianeggplant
+|l|☆LiIIy
+|raw|LiIIy's rating: 1232 → 1206(-26 for losing)
+|raw|Mr.asianeggplant's rating: 1220 → 1246(+26 for winning)

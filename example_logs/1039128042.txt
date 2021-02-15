@@ -1,0 +1,230 @@
+|ScrapeTime|2020-01-01-13:25:02
+|j|☆vcdestruiuomeuovo
+|j|☆sissythatwalk1
+|player|p1|vcdestruiuomeuovo|161|1281
+|player|p2|sissythatwalk1|34|1258
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mew|
+|poke|p1|Bisharp, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Gyarados, F|
+|poke|p1|Cloyster, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Rotom-Mow|
+|poke|p2|Seismitoad, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Toxtricity, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by vcdestruiuomeuovo)
+|
+|move|p2a: Rotom|Leaf Storm|p1a: Mew
+|-damage|p1a: Mew|44/100
+|-unboost|p2a: Rotom|spa|2
+|move|p1a: Mew|Stealth Rock|p2a: Rotom
+|-sidestart|p2: sissythatwalk1|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Mew|Spikes|p2a: Cinderace
+|-sidestart|p2: sissythatwalk1|Spikes
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: sissythatwalk1|Spikes|[silent]
+|-sidestart|p1: vcdestruiuomeuovo|Spikes|[silent]
+|-sideend|p2: sissythatwalk1|Stealth Rock|[silent]
+|-sidestart|p1: vcdestruiuomeuovo|Stealth Rock|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Mew|Stealth Rock|p2a: Cinderace
+|-sidestart|p2: sissythatwalk1|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|turn|5
+|
+|move|p2a: Cinderace|U-turn|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|88/100
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100|[from]move: U-turn
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Spikes
+|-damage|p1a: Dragapult|76/100|[from] Stealth Rock
+|move|p2a: Rotom|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|54/100
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Dragapult|Thunderbolt|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|62/100
+|-damage|p1a: Dragapult|44/100|[from] item: Life Orb
+|move|p2a: Mandibuzz|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-enditem|p1a: Dragapult|Life Orb|[from] move: Knock Off|[of] p2a: Mandibuzz
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|-damage|p1a: Bisharp|94/100|[from] Stealth Rock
+|-damage|p1a: Bisharp|82/100|[from] Spikes
+|turn|8
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Mandibuzz|Taunt|p1a: Bisharp
+|-start|p1a: Bisharp|move: Taunt
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Bisharp|Iron Head|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|-damage|p1a: Bisharp|72/100|[from] item: Life Orb
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|-damage|p2a: Toxtricity|88/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|-damage|p1a: Bisharp|62/100|[from] item: Life Orb
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Seismitoad
+|-damage|p2a: Seismitoad|11/100
+|-start|p2a: Seismitoad|Throat Chop|[silent]
+|-damage|p1a: Bisharp|52/100|[from] item: Life Orb
+|move|p2a: Seismitoad|Earthquake|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|-heal|p2a: Seismitoad|17/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Cloyster|Cloyster, F|100/100
+|turn|12
+|
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|move|p2a: Seismitoad|Toxic|p1a: Cloyster
+|-status|p1a: Cloyster|tox
+|
+|-heal|p2a: Seismitoad|23/100|[from] item: Leftovers
+|-damage|p1a: Cloyster|94/100 tox|[from] psn
+|-end|p2a: Seismitoad|Throat Chop|[silent]
+|upkeep
+|turn|13
+|
+|move|p1a: Cloyster|Icicle Spear|p2a: Seismitoad
+|-damage|p2a: Seismitoad|8/100
+|-damage|p2a: Seismitoad|0 fnt
+|-hitcount|p2a: Seismitoad|2
+|faint|p2a: Seismitoad
+|
+|-damage|p1a: Cloyster|82/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|14
+|
+|move|p1a: Cloyster|Liquidation|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-damage|p1a: Cloyster|63/100 tox|[from] psn
+|upkeep
+|c|☆sissythatwalk1|gg
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|15
+|c|☆vcdestruiuomeuovo|gg
+|
+|move|p1a: Cloyster|Icicle Spear|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|30/100
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-hitcount|p2a: Dragapult|2
+|faint|p2a: Dragapult
+|
+|-damage|p1a: Cloyster|38/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Mow|88/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Cloyster|Icicle Spear|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|16/100
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-hitcount|p2a: Rotom|2
+|faint|p2a: Rotom
+|
+|win|vcdestruiuomeuovo
+|raw|vcdestruiuomeuovo's rating: 1281 → 1305(+24 for winning)
+|raw|sissythatwalk1's rating: 1258 → 1234(-24 for losing)

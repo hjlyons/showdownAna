@@ -1,0 +1,590 @@
+|ScrapeTime|2020-01-01-11:45:34
+|j|☆Sarx65
+|j|☆Elyakov
+|player|p1|Sarx65|boarder|
+|player|p2|Elyakov|169|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Heliolisk, F|
+|poke|p1|Torkoal, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Flapple, F|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Cloyster, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Barraskewda, F|
+|poke|p2|Dracovish|
+|poke|p2|Dragapult, F|
+|poke|p2|Ditto|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|switch|p1a: Michel|Heliolisk, F, shiny|100/100
+|move|p2a: Corsola|Stealth Rock|p1a: Michel
+|-sidestart|p1: Sarx65|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Michel|88/100|[from] ability: Solar Power|[of] p1a: Michel
+|upkeep
+|turn|2
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Michel|[from] ability: Imposter
+|move|p1a: Michel|Thunderbolt|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|48/100
+|-damage|p1a: Michel|78/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ditto|36/100|[from] ability: Solar Power|[of] p2a: Ditto
+|-damage|p1a: Michel|66/100|[from] ability: Solar Power|[of] p1a: Michel
+|upkeep
+|turn|3
+|
+|switch|p1a: Flapple|Flapple, F|100/100
+|-damage|p1a: Flapple|88/100|[from] Stealth Rock
+|move|p2a: Ditto|Focus Blast|p1a: Flapple|[miss]
+|-miss|p2a: Ditto|p1a: Flapple
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ditto|24/100|[from] ability: Solar Power|[of] p2a: Ditto
+|upkeep
+|turn|4
+|
+|move|p2a: Ditto|Focus Blast|p1a: Flapple|[miss]
+|-miss|p2a: Ditto|p1a: Flapple
+|move|p1a: Flapple|Grav Apple|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|5
+|
+|move|p2a: Dragapult|Fire Blast|p1a: Flapple
+|-damage|p1a: Flapple|7/100
+|-enditem|p1a: Flapple|Salac Berry|[eat]
+|-boost|p1a: Flapple|spe|2
+|-damage|p2a: Dragapult|91/100|[from] item: Life Orb
+|move|p1a: Flapple|Substitute|p1a: Flapple
+|-fail|p1a: Flapple|move: Substitute|[weak]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Flapple
+|-damage|p1a: Flapple|0 fnt
+|-damage|p2a: Dragapult|81/100|[from] item: Life Orb
+|faint|p1a: Flapple
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Cloyster|Cloyster, F, shiny|100/100
+|-damage|p1a: Cloyster|76/100|[from] Stealth Rock
+|turn|7
+|
+|move|p2a: Dragapult|Fire Blast|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|-damage|p2a: Dragapult|71/100|[from] item: Life Orb
+|faint|p1a: Cloyster
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|8
+|
+|switch|p2a: Pelipper|Pelipper, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p1: Sarx65|Stealth Rock|[silent]
+|-sidestart|p2: Elyakov|Stealth Rock|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p1a: Cinderace|U-turn|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|92/100
+|
+|switch|p1a: Michel|Heliolisk, F, shiny|66/100|[from]move: U-turn
+|move|p2a: Pelipper|Scald|p1a: Michel
+|-damage|p1a: Michel|16/100
+|-status|p1a: Michel|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Michel|10/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Michel|Thunderbolt|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|-damage|p1a: Michel|0 fnt|[from] item: Life Orb
+|faint|p2a: Pelipper
+|faint|p1a: Michel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|switch|p2a: Barraskewda|Barraskewda, F|100/100
+|-damage|p2a: Barraskewda|88/100|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Barraskewda|Throat Chop|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|43/100
+|-start|p2a: Barraskewda|Disable|Throat Chop|[from] ability: Cursed Body|[of] p1a: Corsola
+|-start|p1a: Corsola|Throat Chop|[silent]
+|move|p1a: Corsola|Will-O-Wisp|p2a: Barraskewda|[miss]
+|-miss|p1a: Corsola|p2a: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|move|p1a: Corsola|Strength Sap|p2a: Dracovish
+|-unboost|p2a: Dracovish|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Corsola|Throat Chop|[silent]
+|upkeep
+|turn|13
+|
+|move|p2a: Dracovish|Crunch|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|49/100
+|move|p1a: Corsola|Will-O-Wisp|p2a: Dracovish
+|-status|p2a: Dracovish|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Dracovish|82/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Dracovish|Crunch|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|26/100
+|move|p1a: Corsola|Strength Sap|p2a: Dracovish
+|-unboost|p2a: Dracovish|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Dracovish|76/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p2a: Barraskewda|Barraskewda, F|88/100
+|-damage|p2a: Barraskewda|76/100|[from] Stealth Rock
+|move|p1a: Corsola|Shadow Ball|p2a: Barraskewda
+|-damage|p2a: Barraskewda|27/100
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|move|p2a: Barraskewda|Throat Chop|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|39/100
+|-start|p1a: Corsola|Throat Chop|[silent]
+|move|p1a: Corsola|Will-O-Wisp|p2a: Barraskewda
+|-status|p2a: Barraskewda|brn
+|
+|-damage|p2a: Barraskewda|21/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Barraskewda|Throat Chop|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|6/100
+|move|p1a: Corsola|Strength Sap|p2a: Barraskewda
+|-unboost|p2a: Barraskewda|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|-damage|p2a: Barraskewda|15/100 brn|[from] brn
+|-end|p1a: Corsola|Throat Chop|[silent]
+|upkeep
+|turn|18
+|
+|move|p2a: Barraskewda|Throat Chop|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|81/100
+|-start|p1a: Corsola|Throat Chop|[silent]
+|move|p1a: Corsola|Shadow Ball|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|faint|p2a: Barraskewda
+|
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|-damage|p2a: Corsola|88/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Corsola|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|52/100
+|move|p1a: Corsola|Will-O-Wisp|p2a: Corsola
+|-status|p2a: Corsola|brn
+|
+|-damage|p2a: Corsola|82/100 brn|[from] brn
+|-end|p1a: Corsola|Throat Chop|[silent]
+|upkeep
+|turn|20
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Corsola|Will-O-Wisp|p1a: Cinderace
+|-immune|p1a: Cinderace
+|
+|-damage|p2a: Corsola|76/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Corsola
+|-damage|p2a: Corsola|42/100 brn
+|move|p2a: Corsola|Strength Sap|p1a: Cinderace
+|-unboost|p1a: Cinderace|atk|1
+|-heal|p2a: Corsola|100/100 brn
+|
+|-damage|p2a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Corsola
+|-damage|p2a: Corsola|70/100 brn
+|move|p2a: Corsola|Stealth Rock|p1a: Cinderace
+|-sidestart|p1: Sarx65|move: Stealth Rock
+|
+|-damage|p2a: Corsola|64/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Corsola
+|-damage|p2a: Corsola|40/100 brn
+|move|p2a: Corsola|Strength Sap|p1a: Cinderace
+|-unboost|p1a: Cinderace|atk|1
+|-heal|p2a: Corsola|100/100 brn
+|
+|-damage|p2a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Corsola
+|-damage|p2a: Corsola|76/100 brn
+|-start|p1a: Cinderace|Disable|Pyro Ball|[from] ability: Cursed Body|[of] p2a: Corsola
+|move|p2a: Corsola|Shadow Ball|p1a: Cinderace
+|-damage|p1a: Cinderace|74/100
+|
+|-damage|p2a: Corsola|70/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|switch|p1a: Corsola|Corsola-Galar, M|52/100
+|-damage|p1a: Corsola|40/100|[from] Stealth Rock
+|move|p2a: Corsola|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|12/100
+|-start|p2a: Corsola|Disable|Shadow Ball|[from] ability: Cursed Body|[of] p1a: Corsola
+|-unboost|p1a: Corsola|spd|1
+|
+|-damage|p2a: Corsola|63/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p1a: Corsola|Strength Sap|p2a: Corsola
+|-unboost|p2a: Corsola|atk|1
+|-heal|p1a: Corsola|52/100
+|move|p2a: Corsola|Will-O-Wisp|p1a: Corsola
+|-status|p1a: Corsola|brn
+|
+|-damage|p2a: Corsola|57/100 brn|[from] brn
+|-damage|p1a: Corsola|46/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p1a: Corsola|Strength Sap|p2a: Corsola
+|-unboost|p2a: Corsola|atk|1
+|-heal|p1a: Corsola|72/100 brn
+|move|p2a: Corsola|Strength Sap|p1a: Corsola
+|-unboost|p1a: Corsola|atk|1
+|-heal|p2a: Corsola|100/100 brn
+|
+|-damage|p2a: Corsola|94/100 brn|[from] brn
+|-damage|p1a: Corsola|66/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|switch|p2a: Dracovish|Dracovish|76/100 brn
+|-damage|p2a: Dracovish|63/100 brn|[from] Stealth Rock
+|move|p1a: Corsola|Strength Sap|p2a: Dracovish
+|-unboost|p2a: Dracovish|atk|1
+|-heal|p1a: Corsola|100/100 brn
+|
+|-damage|p2a: Dracovish|57/100 brn|[from] brn
+|-damage|p1a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Corsola
+|-damage|p1a: Corsola|54/100 brn
+|move|p1a: Corsola|Shadow Ball|p2a: Dracovish
+|-damage|p2a: Dracovish|32/100 brn
+|
+|-damage|p2a: Dracovish|25/100 brn|[from] brn
+|-damage|p1a: Corsola|48/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Corsola
+|-damage|p1a: Corsola|7/100 brn
+|move|p1a: Corsola|Strength Sap|p2a: Dracovish
+|-unboost|p2a: Dracovish|atk|1
+|-heal|p1a: Corsola|85/100 brn
+|
+|-damage|p2a: Dracovish|19/100 brn|[from] brn
+|-damage|p1a: Corsola|79/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Corsola
+|-damage|p1a: Corsola|49/100 brn
+|move|p1a: Corsola|Strength Sap|p2a: Dracovish
+|-unboost|p2a: Dracovish|atk|1
+|-heal|p1a: Corsola|100/100 brn
+|
+|-damage|p2a: Dracovish|13/100 brn|[from] brn
+|-damage|p1a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Corsola
+|-damage|p1a: Corsola|70/100 brn
+|move|p1a: Corsola|Strength Sap|p2a: Dracovish
+|-unboost|p2a: Dracovish|atk|1
+|-heal|p1a: Corsola|100/100 brn
+|
+|-damage|p2a: Dracovish|7/100 brn|[from] brn
+|-damage|p1a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Corsola
+|-damage|p1a: Corsola|73/100 brn
+|move|p1a: Corsola|Strength Sap|p2a: Dracovish
+|-unboost|p2a: Dracovish|atk|1
+|-heal|p1a: Corsola|100/100 brn
+|
+|-damage|p2a: Dracovish|0 fnt|[from] brn
+|faint|p2a: Dracovish
+|-damage|p1a: Corsola|94/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, F|94/100 brn
+|-damage|p2a: Corsola|82/100 brn|[from] Stealth Rock
+|turn|34
+|
+|move|p2a: Corsola|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|57/100 brn
+|move|p1a: Corsola|Shadow Ball|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|52/100 brn
+|
+|-damage|p1a: Corsola|51/100 brn|[from] brn
+|-damage|p2a: Corsola|46/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|move|p1a: Corsola|Shadow Ball|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|19/100 brn
+|-start|p1a: Corsola|Disable|Shadow Ball|[from] ability: Cursed Body|[of] p2a: Corsola
+|move|p2a: Corsola|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|11/100 brn
+|
+|-damage|p1a: Corsola|5/100 brn|[from] brn
+|-damage|p2a: Corsola|13/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|move|p1a: Corsola|Strength Sap|p2a: Corsola
+|-unboost|p2a: Corsola|atk|1
+|-heal|p1a: Corsola|44/100 brn
+|move|p2a: Corsola|Strength Sap|p1a: Corsola
+|-unboost|p1a: Corsola|atk|1
+|-heal|p2a: Corsola|42/100 brn
+|
+|-damage|p1a: Corsola|38/100 brn|[from] brn
+|-damage|p2a: Corsola|36/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-damage|p1a: Torkoal|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Corsola|Strength Sap|p1a: Torkoal
+|-unboost|p1a: Torkoal|atk|1
+|-heal|p2a: Corsola|100/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p2a: Corsola|Shadow Ball|p1a: Torkoal
+|-damage|p1a: Torkoal|54/100
+|move|p1a: Torkoal|Lava Plume|p2a: Corsola
+|-damage|p2a: Corsola|71/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Corsola|65/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|move|p2a: Corsola|Shadow Ball|p1a: Torkoal
+|-damage|p1a: Torkoal|29/100
+|move|p1a: Torkoal|Gyro Ball|p2a: Corsola
+|-damage|p2a: Corsola|60/100 brn
+|-start|p1a: Torkoal|Disable|Gyro Ball|[from] ability: Cursed Body|[of] p2a: Corsola
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Corsola|54/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|move|p2a: Corsola|Strength Sap|p1a: Torkoal
+|-unboost|p1a: Torkoal|atk|1
+|-heal|p2a: Corsola|100/100 brn
+|move|p1a: Torkoal|Lava Plume|p2a: Corsola
+|-damage|p2a: Corsola|74/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Corsola|68/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|move|p2a: Corsola|Shadow Ball|p1a: Torkoal
+|-damage|p1a: Torkoal|4/100
+|move|p1a: Torkoal|Lava Plume|p2a: Corsola
+|-damage|p2a: Corsola|42/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Corsola|36/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|move|p2a: Corsola|Strength Sap|p1a: Torkoal
+|-unboost|p1a: Torkoal|atk|1
+|-heal|p2a: Corsola|71/100 brn
+|move|p1a: Torkoal|Solar Beam||[still]
+|-prepare|p1a: Torkoal|Solar Beam|p2a: Corsola
+|-anim|p1a: Torkoal|Solar Beam|p2a: Corsola
+|-damage|p2a: Corsola|54/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Corsola|47/100 brn|[from] brn
+|-end|p1a: Torkoal|Disable
+|upkeep
+|turn|43
+|
+|move|p2a: Corsola|Strength Sap|p1a: Torkoal
+|-unboost|p1a: Torkoal|atk|1
+|-heal|p2a: Corsola|76/100 brn
+|move|p1a: Torkoal|Lava Plume|p2a: Corsola
+|-damage|p2a: Corsola|48/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Corsola|42/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|move|p2a: Corsola|Strength Sap|p1a: Torkoal
+|-unboost|p1a: Torkoal|atk|1
+|-heal|p2a: Corsola|65/100 brn
+|move|p1a: Torkoal|Lava Plume|p2a: Corsola
+|-damage|p2a: Corsola|41/100 brn
+|
+|-weather|none
+|-damage|p2a: Corsola|35/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|move|p2a: Corsola|Shadow Ball|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-damage|p2a: Corsola|29/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, M|38/100 brn
+|-damage|p1a: Corsola|26/100 brn|[from] Stealth Rock
+|turn|46
+|
+|move|p1a: Corsola|Strength Sap|p2a: Corsola
+|-unboost|p2a: Corsola|atk|1
+|-heal|p1a: Corsola|52/100 brn
+|move|p2a: Corsola|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|27/100 brn
+|
+|-damage|p2a: Corsola|23/100 brn|[from] brn
+|-damage|p1a: Corsola|20/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|move|p1a: Corsola|Strength Sap|p2a: Corsola
+|-unboost|p2a: Corsola|atk|1
+|-heal|p1a: Corsola|40/100 brn
+|move|p2a: Corsola|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|12/100 brn
+|-unboost|p1a: Corsola|spd|1
+|
+|-damage|p2a: Corsola|17/100 brn|[from] brn
+|-damage|p1a: Corsola|6/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|move|p2a: Corsola|Strength Sap|p1a: Corsola
+|-unboost|p1a: Corsola|atk|1
+|-heal|p2a: Corsola|61/100 brn
+|move|p1a: Corsola|Shadow Ball|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|35/100 brn
+|-start|p1a: Corsola|Disable|Shadow Ball|[from] ability: Cursed Body|[of] p2a: Corsola
+|
+|-damage|p2a: Corsola|29/100 brn|[from] brn
+|-damage|p1a: Corsola|0 fnt|[from] brn
+|faint|p1a: Corsola
+|upkeep
+|-message|Sarx65 forfeited.
+|
+|win|Elyakov
+|l|☆Sarx65

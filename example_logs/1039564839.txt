@@ -1,0 +1,231 @@
+|ScrapeTime|2020-01-02-08:15:16
+|j|☆Mord3x
+|j|☆SageGoldFish
+|player|p1|Mord3x|170|1102
+|player|p2|SageGoldFish|koga|1072
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Obstagoon, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Dragapult, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Dracovish|
+|poke|p2|Corviknight, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Toxtricity, M|
+|poke|p2|Mimikyu, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Obstagoon|Obstagoon, M|100/100
+|switch|p2a: Pikachu?|Mimikyu, M|100/100
+|turn|1
+|
+|move|p2a: Pikachu?|Play Rough|p1a: Obstagoon
+|-supereffective|p1a: Obstagoon
+|-damage|p1a: Obstagoon|23/100
+|move|p1a: Obstagoon|Knock Off|p2a: Pikachu?
+|-activate|p2a: Pikachu?|ability: Disguise
+|-damage|p2a: Pikachu?|100/100
+|-enditem|p2a: Pikachu?|Leftovers|[from] move: Knock Off|[of] p1a: Obstagoon
+|detailschange|p2a: Pikachu?|Mimikyu-Busted, M
+|-damage|p2a: Pikachu?|88/100|[from] ability: Disguise|[of] p2a: Pikachu?
+|
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Pikachu?|Play Rough|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|85/100
+|
+|-heal|p1a: Corviknight|91/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Striker|Cinderace, M|100/100
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-heal|p1a: Corviknight|97/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Rotom|Rotom-Wash, shiny|100/100
+|move|p2a: Striker|Pyro Ball|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|71/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Rotom|Volt Switch|p2a: Striker
+|-damage|p2a: Striker|61/100
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100|[from]move: Volt Switch
+|move|p2a: Striker|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|86/100
+|
+|switch|p2a: Jet|Dragapult, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Jet
+|-supereffective|p2a: Jet
+|-damage|p2a: Jet|0 fnt
+|faint|p2a: Jet
+|
+|upkeep
+|
+|switch|p2a: Pikachu?|Mimikyu-Busted, M|88/100
+|turn|7
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Pikachu?
+|-supereffective|p2a: Pikachu?
+|-damage|p2a: Pikachu?|0 fnt
+|faint|p2a: Pikachu?
+|
+|upkeep
+|
+|switch|p2a: Jaws|Dracovish|100/100
+|turn|8
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Jaws|Outrage|p1a: Grimmsnarl
+|-immune|p1a: Grimmsnarl
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Coach Boomer|Toxtricity, M|100/100
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Coach Boomer
+|-resisted|p2a: Coach Boomer
+|-damage|p2a: Coach Boomer|66/100
+|-unboost|p2a: Coach Boomer|spa|1
+|
+|-heal|p2a: Coach Boomer|73/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Corviknight|Corviknight, M|97/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Coach Boomer|Poison Jab|p1a: Corviknight
+|-immune|p1a: Corviknight
+|
+|-heal|p2a: Coach Boomer|79/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Coach Boomer|Overdrive|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|51/100
+|move|p1a: Corviknight|Brave Bird|p2a: Coach Boomer
+|-resisted|p2a: Coach Boomer
+|-damage|p2a: Coach Boomer|52/100
+|-damage|p1a: Corviknight|44/100|[from] Recoil
+|
+|-heal|p2a: Coach Boomer|58/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|51/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Dragapult|Dragapult, M|86/100
+|move|p2a: Coach Boomer|Overdrive|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|65/100
+|
+|-heal|p2a: Coach Boomer|64/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Jaws|Dracovish|100/100
+|move|p1a: Dragapult|Draco Meteor|p2a: Jaws
+|-supereffective|p2a: Jaws
+|-damage|p2a: Jaws|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Jaws
+|
+|upkeep
+|
+|switch|p2a: Coach Boomer|Toxtricity, M|64/100
+|turn|14
+|
+|switch|p1a: Rotom|Rotom-Wash, shiny|71/100
+|move|p2a: Coach Boomer|Poison Jab|p1a: Rotom
+|-damage|p1a: Rotom|37/100
+|
+|-heal|p2a: Coach Boomer|70/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Rotom|Volt Switch|p2a: Coach Boomer
+|-resisted|p2a: Coach Boomer
+|-damage|p2a: Coach Boomer|49/100
+|
+|switch|p1a: Dragapult|Dragapult, M|65/100|[from]move: Volt Switch
+|move|p2a: Coach Boomer|Overdrive|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|34/100
+|
+|-heal|p2a: Coach Boomer|55/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Coach Boomer
+|-damage|p2a: Coach Boomer|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Coach Boomer
+|
+|upkeep
+|
+|switch|p2a: Striker|Cinderace, M|61/100
+|turn|17
+|
+|switch|p1a: Rotom|Rotom-Wash, shiny|37/100
+|move|p2a: Striker|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|13/100
+|
+|switch|p2a: Corvus|Corviknight, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Rotom|Volt Switch|p2a: Corvus
+|-supereffective|p2a: Corvus
+|-damage|p2a: Corvus|36/100
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100|[from]move: Volt Switch
+|move|p2a: Corvus|Iron Head|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|76/100
+|
+|-heal|p2a: Corvus|43/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|-message|SageGoldFish forfeited.
+|
+|win|Mord3x
+|l|☆SageGoldFish
+|raw|Mord3x's rating: 1102 → 1125(+23 for winning)
+|raw|SageGoldFish's rating: 1072 → 1053(-19 for losing)

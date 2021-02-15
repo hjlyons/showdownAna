@@ -1,0 +1,141 @@
+|ScrapeTime|2020-01-01-21:05:34
+|j|☆TheDewgod
+|j|☆Jowar
+|player|p1|TheDewgod|274|1198
+|player|p2|Jowar|fisherman-gen4|1220
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Grapploct, M|
+|poke|p1|Toxtricity, F|
+|poke|p1|Drapion, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Cursola, M|
+|poke|p2|Togekiss, F|
+|poke|p2|Salazzle, F|
+|poke|p2|Jolteon, M|
+|poke|p2|Lapras, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Kommo-o, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jowar)
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|upkeep
+|inactive|Jowar has 120 seconds left.
+|
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|turn|2
+|
+|switch|p1a: Cursola|Cursola, M|100/100
+|move|p2a: Kommo-o|Stealth Rock|p1a: Cursola
+|-sidestart|p1: TheDewgod|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|move|p1a: Cursola|Stealth Rock|p2a: Salazzle
+|-sidestart|p2: Jowar|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Salazzle|Knock Off|p1a: Cursola
+|-supereffective|p1a: Cursola
+|-damage|p1a: Cursola|52/100
+|-ability|p1a: Cursola|Perish Body
+|-start|p1a: Cursola|perish3
+|-start|p2a: Salazzle|perish3
+|-enditem|p1a: Cursola|Leftovers|[from] move: Knock Off|[of] p2a: Salazzle
+|move|p1a: Cursola|Earth Power|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|-start|p1a: Cursola|perish3
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, F|100/100
+|-damage|p2a: Togekiss|76/100|[from] Stealth Rock
+|turn|5
+|
+|move|p2a: Togekiss|Air Slash|p1a: Cursola
+|-damage|p1a: Cursola|20/100
+|cant|p1a: Cursola|flinch
+|
+|-heal|p2a: Togekiss|82/100|[from] item: Leftovers
+|-start|p1a: Cursola|perish2
+|upkeep
+|turn|6
+|
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Cursola
+|-damage|p1a: Cursola|0 fnt
+|faint|p1a: Cursola
+|
+|-heal|p2a: Togekiss|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Drapion|Drapion, M|100/100
+|-damage|p1a: Drapion|88/100|[from] Stealth Rock
+|turn|7
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Drapion|Toxic Spikes|p2a: Ferrothorn
+|-sidestart|p2: Jowar|move: Toxic Spikes
+|
+|-heal|p1a: Drapion|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Drapion|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|cant|p2a: Ferrothorn|move: Taunt|Leech Seed
+|
+|-heal|p1a: Drapion|99/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Togekiss|Togekiss, F|88/100
+|-damage|p2a: Togekiss|63/100|[from] Stealth Rock
+|move|p1a: Drapion|Knock Off|p2a: Togekiss
+|-resisted|p2a: Togekiss
+|-damage|p2a: Togekiss|45/100
+|-enditem|p2a: Togekiss|Leftovers|[from] move: Knock Off|[of] p1a: Drapion
+|
+|-heal|p1a: Drapion|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Drapion|Poison Jab|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|upkeep
+|-message|Jowar forfeited.
+|
+|win|TheDewgod
+|l|☆Jowar

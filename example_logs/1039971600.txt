@@ -1,0 +1,295 @@
+|ScrapeTime|2020-01-03-01:05:18
+|j|☆fieox1337
+|j|☆NasPena2
+|player|p1|fieox1337|2|1628
+|player|p2|NasPena2|blaine|1621
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Garbodor, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Toxtricity, M|
+|poke|p1|Bisharp, M|
+|poke|p1|Gengar, F|
+|poke|p1|Hydreigon, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Obstagoon, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Hippowdon, F|
+|poke|p2|Hatterene, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fieox1337)
+|
+|start
+|switch|p1a: Garbodor|Garbodor, M|100/100
+|switch|p2a: Gene|Obstagoon, F|100/100
+|turn|1
+|
+|switch|p2a: The Hat|Hatterene, F|100/100
+|move|p1a: Garbodor|Toxic Spikes|p2a: The Hat
+|move|p2a: The Hat|Toxic Spikes|p1a: Garbodor|[from]Magic Bounce
+|-sidestart|p1: fieox1337|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Garbodor|Gunk Shot|p2a: The Hat|[miss]
+|-miss|p1a: Garbodor|p2a: The Hat
+|move|p2a: The Hat|Psyshock|p1a: Garbodor
+|-supereffective|p1a: Garbodor
+|-damage|p1a: Garbodor|11/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Nettles|Ferrothorn, F|100/100
+|move|p1a: Garbodor|Toxic Spikes|p2a: Nettles
+|-sidestart|p2: NasPena2|move: Toxic Spikes
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Garbodor|Explosion|p2a: Nettles
+|-resisted|p2a: Nettles
+|-damage|p2a: Nettles|78/100
+|faint|p1a: Garbodor
+|move|p2a: Nettles|Body Press|p1: Garbodor|[notarget]
+|-fail|p2a: Nettles
+|
+|-heal|p2a: Nettles|84/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|-sideend|p1: fieox1337|move: Toxic Spikes|[of] p1a: Toxtricity
+|turn|5
+|
+|move|p1a: Toxtricity|Shift Gear|p1a: Toxtricity
+|-boost|p1a: Toxtricity|spe|2
+|-boost|p1a: Toxtricity|atk|1
+|move|p2a: Nettles|Leech Seed|p1a: Toxtricity
+|-start|p1a: Toxtricity|move: Leech Seed
+|
+|-heal|p2a: Nettles|90/100|[from] item: Leftovers
+|-damage|p1a: Toxtricity|88/100|[from] Leech Seed|[of] p2a: Nettles
+|-heal|p2a: Nettles|100/100|[silent]
+|upkeep
+|turn|6
+|
+|switch|p2a: Bertha|Hippowdon, F, shiny|100/100
+|-status|p2a: Bertha|psn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Bertha
+|move|p1a: Toxtricity|Fire Punch|p2a: Bertha
+|-damage|p2a: Bertha|84/100 psn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxtricity|82/100|[from] Sandstorm
+|-heal|p2a: Bertha|90/100 psn|[from] item: Leftovers
+|-damage|p1a: Toxtricity|70/100|[from] Leech Seed|[of] p2a: Bertha
+|-heal|p2a: Bertha|99/100 psn|[silent]
+|-damage|p2a: Bertha|86/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Bertha|Stealth Rock|p1a: Hydreigon
+|-sidestart|p1: fieox1337|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|94/100|[from] Sandstorm
+|-heal|p1a: Hydreigon|100/100|[from] item: Leftovers
+|-heal|p2a: Bertha|92/100 psn|[from] item: Leftovers
+|-damage|p2a: Bertha|80/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Bertha
+|-damage|p2a: Bertha|51/100 psn
+|move|p2a: Bertha|Whirlwind|p1a: Hydreigon
+|drag|p1a: Gengar|Gengar, F|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|82/100|[from] Sandstorm
+|-heal|p2a: Bertha|57/100 psn|[from] item: Leftovers
+|-damage|p2a: Bertha|45/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|move|p2a: Bertha|Slack Off|p2a: Bertha
+|-heal|p2a: Bertha|95/100 psn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|82/100|[from] Sandstorm
+|-heal|p1a: Hydreigon|88/100|[from] item: Leftovers
+|-heal|p2a: Bertha|100/100 psn|[from] item: Leftovers
+|-damage|p2a: Bertha|88/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Bertha
+|-damage|p2a: Bertha|57/100 psn
+|cant|p2a: Bertha|flinch
+|
+|-weather|none
+|-heal|p1a: Hydreigon|94/100|[from] item: Leftovers
+|-heal|p2a: Bertha|64/100 psn|[from] item: Leftovers
+|-damage|p2a: Bertha|51/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p2a: Nettles|Ferrothorn, F|100/100
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|
+|-heal|p1a: Hydreigon|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Nettles
+|-damage|p2a: Nettles|37/100
+|move|p2a: Nettles|Body Press|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|27/100
+|
+|-heal|p1a: Hydreigon|33/100|[from] item: Leftovers
+|-heal|p2a: Nettles|43/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Bertha|Hippowdon, F, shiny|51/100 psn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Bertha
+|move|p1a: Hydreigon|Dark Pulse|p2a: Bertha
+|-damage|p2a: Bertha|0 fnt
+|faint|p2a: Bertha
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|27/100|[from] Sandstorm
+|-heal|p1a: Hydreigon|33/100|[from] item: Leftovers
+|upkeep
+|inactive|NasPena2 has 120 seconds left.
+|
+|switch|p2a: Toothless|Dragapult, M|100/100
+|-status|p2a: Toothless|psn
+|turn|14
+|inactive|NasPena2 has 120 seconds left.
+|inactive|NasPena2 has 90 seconds left.
+|
+|move|p2a: Toothless|Draco Meteor|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|-unboost|p2a: Toothless|spa|2
+|faint|p1a: Hydreigon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toothless|95/100 psn|[from] Sandstorm
+|-damage|p2a: Toothless|82/100 psn|[from] psn
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|-damage|p1a: Bisharp|95/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p2a: Nettles|Ferrothorn, F|43/100
+|move|p1a: Bisharp|Throat Chop|p2a: Nettles
+|-crit|p2a: Nettles
+|-damage|p2a: Nettles|0 fnt
+|-damage|p1a: Bisharp|82/100|[from] ability: Iron Barbs|[of] p2a: Nettles
+|faint|p2a: Nettles
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Hotbox|Rotom-Heat, shiny|100/100
+|turn|16
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p1a: Grimmsnarl|88/100|[from] Stealth Rock
+|move|p2a: Hotbox|Nasty Plot|p2a: Hotbox
+|-boost|p2a: Hotbox|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hotbox|94/100|[from] Sandstorm
+|-damage|p1a: Grimmsnarl|82/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: fieox1337|move: Light Screen
+|move|p2a: Hotbox|Overheat|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|32/100
+|-unboost|p2a: Hotbox|spa|2
+|-enditem|p1a: Grimmsnarl|Eject Button
+|
+|switch|p1a: Toxtricity|Toxtricity, M|70/100
+|-damage|p1a: Toxtricity|57/100|[from] Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|18
+|
+|move|p1a: Toxtricity|Shift Gear|p1a: Toxtricity
+|-boost|p1a: Toxtricity|spe|2
+|-boost|p1a: Toxtricity|atk|1
+|move|p2a: Hotbox|Overheat|p1a: Toxtricity
+|-damage|p1a: Toxtricity|19/100
+|-unboost|p2a: Hotbox|spa|2
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Hotbox
+|-damage|p2a: Hotbox|35/100
+|-enditem|p1a: Toxtricity|Throat Spray
+|-boost|p1a: Toxtricity|spa|1
+|move|p2a: Hotbox|Overheat|p1a: Toxtricity
+|-damage|p1a: Toxtricity|2/100
+|-unboost|p2a: Hotbox|spa|2
+|
+|upkeep
+|turn|20
+|
+|switch|p2a: Toothless|Dragapult, M|82/100 psn
+|move|p1a: Toxtricity|Overdrive|p2a: Toothless
+|-resisted|p2a: Toothless
+|-damage|p2a: Toothless|35/100 psn
+|
+|-damage|p2a: Toothless|22/100 psn|[from] psn
+|upkeep
+|turn|21
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Toothless
+|-resisted|p2a: Toothless
+|-damage|p2a: Toothless|0 fnt
+|faint|p2a: Toothless
+|
+|-sideend|p1: fieox1337|move: Light Screen
+|upkeep
+|
+|switch|p2a: Gene|Obstagoon, F|100/100
+|-status|p2a: Gene|psn
+|turn|22
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Gene
+|-damage|p2a: Gene|0 fnt
+|faint|p2a: Gene
+|
+|upkeep
+|c|☆NasPena2|gg
+|-message|NasPena2 forfeited.
+|
+|win|fieox1337
+|c|☆fieox1337|gg

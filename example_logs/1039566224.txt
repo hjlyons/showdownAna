@@ -1,0 +1,228 @@
+|ScrapeTime|2020-01-02-08:14:50
+|j|☆HalozillaEX
+|j|☆lemones
+|player|p1|HalozillaEX|130|1272
+|player|p2|lemones|sabrina|1306
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Kommo-o, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Crawdaunt, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Duraludon, M|
+|poke|p1|Gengar, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Clefable, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Dragapult, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lemones)
+|
+|start
+|switch|p1a: Duraludon|Duraludon, M|100/100
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p2a: Excadrill|Earthquake|p1a: Duraludon
+|-supereffective|p1a: Duraludon
+|-damage|p1a: Duraludon|25/100
+|move|p1a: Duraludon|Stealth Rock|p2a: Excadrill
+|-sidestart|p2: lemones|move: Stealth Rock
+|
+|-heal|p1a: Duraludon|31/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Excadrill|Earthquake|p1a: Duraludon
+|-supereffective|p1a: Duraludon
+|-damage|p1a: Duraludon|0 fnt
+|faint|p1a: Duraludon
+|
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|turn|3
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Excadrill
+|-damage|p2a: Excadrill|43/100
+|-unboost|p2a: Excadrill|spd|1
+|move|p2a: Excadrill|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-enditem|p1a: Gengar|Focus Sash
+|-damage|p1a: Gengar|1/100
+|-start|p2a: Excadrill|Disable|Earthquake|[from] ability: Cursed Body|[of] p1a: Gengar
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Gengar|Shadow Ball|p2a: Clefable
+|-damage|p2a: Clefable|72/100
+|
+|-heal|p2a: Clefable|78/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Gengar|Sludge Wave|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|7/100
+|move|p2a: Clefable|Moonblast|p1a: Gengar
+|-resisted|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-start|p2a: Clefable|Disable|Moonblast|[from] ability: Cursed Body|[of] p1a: Gengar
+|faint|p1a: Gengar
+|
+|-heal|p2a: Clefable|13/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|turn|6
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|67/100
+|-enditem|p1a: Kommo-o|Throat Spray
+|-boost|p1a: Kommo-o|spa|1
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Kommo-o|Clanging Scales|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-unboost|p1a: Kommo-o|def|1
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|8
+|
+|move|p1a: Kommo-o|Drain Punch|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-heal|p1a: Kommo-o|100/100|[from] drain|[of] p2a: Tyranitar
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kommo-o|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|turn|9
+|
+|move|p1a: Kommo-o|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kommo-o|88/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|55/100
+|move|p2a: Seismitoad|Toxic|p1a: Kommo-o
+|-status|p1a: Kommo-o|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kommo-o|49/100 tox|[from] Sandstorm
+|-heal|p2a: Seismitoad|100/100|[from] item: Leftovers
+|-damage|p1a: Kommo-o|42/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|move|p1a: Kommo-o|Drain Punch|p2a: Seismitoad
+|-damage|p2a: Seismitoad|63/100
+|-heal|p1a: Kommo-o|69/100 tox|[from] drain|[of] p2a: Seismitoad
+|move|p2a: Seismitoad|Stealth Rock|p1a: Kommo-o
+|-sidestart|p1: HalozillaEX|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kommo-o|63/100 tox|[from] Sandstorm
+|-heal|p2a: Seismitoad|69/100|[from] item: Leftovers
+|-damage|p1a: Kommo-o|51/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|move|p1a: Kommo-o|Clanging Scales|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-unboost|p1a: Kommo-o|def|1
+|faint|p2a: Seismitoad
+|
+|-weather|none
+|-damage|p1a: Kommo-o|32/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|13/100
+|turn|13
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Kommo-o|Drain Punch|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|19/100|[from] item: Leftovers
+|-damage|p1a: Kommo-o|7/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p1a: Kommo-o|Flamethrower|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|-damage|p1a: Kommo-o|0 fnt|[from] psn
+|faint|p1a: Kommo-o
+|upkeep
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|switch|p2a: Excadrill|Excadrill, M|43/100
+|-damage|p2a: Excadrill|40/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|-damage|p1a: Crawdaunt|88/100|[from] Stealth Rock
+|turn|15
+|c|☆HalozillaEX|gg
+|
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|win|HalozillaEX
+|raw|HalozillaEX's rating: 1272 → 1300(+28 for winning)
+|raw|lemones's rating: 1306 → 1284(-22 for losing)
+|l|☆lemones

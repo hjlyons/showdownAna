@@ -1,0 +1,99 @@
+|ScrapeTime|2020-01-01-21:35:19
+|j|☆WB0
+|j|☆Pikasami
+|player|p1|WB0|102|1519
+|player|p2|Pikasami|262|1448
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mew|
+|poke|p1|Kommo-o, M|
+|poke|p1|Gyarados, F|
+|poke|p1|Hawlucha, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Dragapult, M|
+|poke|p2|Ditto|
+|poke|p2|Cinderace, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Hatterene, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pikasami)
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|1
+|
+|move|p1a: Mew|Skill Swap|p2a: Hatterene
+|-activate|p1a: Mew|move: Skill Swap|Magic Bounce|Synchronize|[of] p2a: Hatterene
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Mew|Stealth Rock|p2a: Hatterene
+|-sidestart|p2: Pikasami|move: Stealth Rock
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Mew|Self-Destruct|p2a: Hatterene
+|-enditem|p1a: Mew|Normal Gem|[from] gem|[move] Self-Destruct
+|-damage|p2a: Hatterene|42/100
+|faint|p1a: Mew
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p2a: Hatterene|48/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|4
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Hatterene|Draining Kiss|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-heal|p2a: Hatterene|100/100|[from] drain|[of] p1a: Dragapult
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|turn|5
+|
+|move|p1a: Gyarados|Waterfall|p2a: Hatterene
+|-damage|p2a: Hatterene|63/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Gyarados
+|-damage|p1a: Gyarados|39/100
+|-heal|p2a: Hatterene|100/100|[from] drain|[of] p1a: Gyarados
+|
+|upkeep
+|turn|6
+|-message|WB0 forfeited.
+|
+|win|Pikasami
+|l|☆WB0
+|raw|WB0's rating: 1542 → 1516(-26 for losing)
+|raw|Pikasami's rating: 1448 → 1474(+26 for winning)

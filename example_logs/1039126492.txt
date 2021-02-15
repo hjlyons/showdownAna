@@ -1,0 +1,277 @@
+|ScrapeTime|2020-01-01-13:25:47
+|j|☆TrainerSai
+|j|☆trivette
+|player|p1|TrainerSai|ethan|1067
+|player|p2|trivette|102|1043
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Polteageist|
+|poke|p1|Ditto|
+|poke|p1|Clefable, F|
+|poke|p1|Hydreigon, F|
+|poke|p2|Aegislash, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Mew|
+|poke|p2|Dragapult, F|
+|poke|p2|Bisharp, F|
+|poke|p2|Rotom-Heat|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TrainerSai)
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|
+|move|p2a: Mew|Stealth Rock|p1a: Hydreigon
+|-sidestart|p1: TrainerSai|move: Stealth Rock
+|move|p1a: Hydreigon|Taunt|p2a: Mew
+|-start|p2a: Mew|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|-item|p2a: Aegislash|Air Balloon
+|move|p1a: Hydreigon|U-turn|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|97/100
+|-enditem|p2a: Aegislash|Air Balloon
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p1: TrainerSai|Stealth Rock|[silent]
+|-sidestart|p2: trivette|Stealth Rock|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Cinderace|U-turn|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|88/100
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100|[from]move: U-turn
+|move|p2a: Rotom|Volt Switch|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|87/100
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|-heal|p1a: Hydreigon|93/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Hydreigon|U-turn|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|88/100
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from]move: U-turn
+|move|p2a: Excadrill|Rapid Spin|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Mew|Mew|100/100
+|-damage|p2a: Mew|88/100|[from] Stealth Rock
+|move|p1a: Dragapult|Flamethrower|p2a: Mew
+|-damage|p2a: Mew|50/100
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Dragapult|Flamethrower|p2a: Mew
+|-damage|p2a: Mew|11/100
+|move|p2a: Mew|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: TrainerSai|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Dragapult|Flamethrower|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|88/100
+|turn|9
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Cinderace|High Jump Kick|p2a: Rotom
+|-damage|p2a: Rotom|44/100
+|move|p2a: Rotom|Volt Switch|p1a: Cinderace
+|-damage|p1a: Cinderace|24/100
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from]move: Volt Switch
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: Cinderace|Pyro Ball|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|39/100
+|
+|-heal|p2a: Dragapult|45/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-hitcount|p1a: Cinderace|1
+|faint|p1a: Cinderace
+|
+|-heal|p2a: Dragapult|52/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Dragapult|[from] ability: Imposter
+|turn|13
+|
+|switch|p2a: Excadrill|Excadrill, M|88/100
+|-damage|p2a: Excadrill|85/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Ditto|Dragon Darts|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|61/100
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|37/100
+|-hitcount|p2a: Excadrill|2
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Ditto|Dragon Darts|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|12/100
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-hitcount|p2a: Excadrill|2
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p1a: Hydreigon|Hydreigon, F|93/100
+|-damage|p1a: Hydreigon|81/100|[from] Stealth Rock
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|-heal|p1a: Hydreigon|87/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Hydreigon|Earth Power|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|-heal|p1a: Hydreigon|93/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|52/100
+|-damage|p2a: Dragapult|39/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Clefable
+|-immune|p1a: Clefable
+|
+|-heal|p2a: Dragapult|45/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|20/100
+|move|p1a: Clefable|Moonblast|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|27/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Clefable
+|-damage|p1a: Clefable|67/100
+|move|p1a: Clefable|Moonblast|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, F|97/100
+|-damage|p2a: Aegislash|91/100|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Clefable|Thunderbolt|p2a: Aegislash
+|-damage|p2a: Aegislash|64/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Flash Cannon|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|93/100
+|-damage|p1a: Hydreigon|81/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|-heal|p1a: Hydreigon|87/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|44/100
+|turn|22
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|win|TrainerSai
+|raw|TrainerSai's rating: 1067 → 1095(+28 for winning)
+|raw|trivette's rating: 1043 → 1028(-15 for losing)
+|l|☆trivette

@@ -1,0 +1,158 @@
+|ScrapeTime|2020-01-01-04:15:58
+|j|☆Venus Cyberdyne
+|j|☆Vileo Aqua
+|player|p1|Venus Cyberdyne|psychic-gen4|1000
+|player|p2|Vileo Aqua|52|1058
+|teamsize|p1|5
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Sandaconda, F|
+|poke|p1|Toxtricity, M|
+|poke|p2|Flygon, M|
+|poke|p2|Dracozolt|
+|poke|p2|Dragapult, M|
+|poke|p2|Noivern, M|
+|poke|p2|Flapple, F|
+|poke|p2|Kommo-o, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|turn|1
+|
+|move|p2a: Dracozolt|Earthquake|p1a: Toxtricity|[miss]
+|-miss|p2a: Dracozolt|p1a: Toxtricity
+|move|p1a: Toxtricity|Toxic|p2a: Dracozolt
+|-status|p2a: Dracozolt|tox
+|
+|-damage|p2a: Dracozolt|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p2a: Dracozolt|Earthquake|p1a: Toxtricity
+|-supereffective|p1a: Toxtricity
+|-enditem|p1a: Toxtricity|Focus Sash
+|-damage|p1a: Toxtricity|1/100
+|move|p1a: Toxtricity|Boomburst|p2a: Dracozolt
+|-damage|p2a: Dracozolt|2/100 tox
+|
+|-damage|p2a: Dracozolt|0 fnt|[from] psn
+|faint|p2a: Dracozolt
+|upkeep
+|
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|turn|3
+|
+|move|p2a: Kommo-o|Aura Sphere|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|turn|4
+|
+|move|p2a: Kommo-o|Aura Sphere|p1a: Corviknight
+|-damage|p1a: Corviknight|58/100
+|move|p1a: Corviknight|Agility|p1a: Corviknight
+|-boost|p1a: Corviknight|spe|2
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|8/100
+|-damage|p1a: Corviknight|32/100|[from] Recoil
+|move|p2a: Kommo-o|Aura Sphere|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|6
+|
+|move|p1a: Dragapult|Sucker Punch|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|upkeep
+|
+|switch|p2a: Noivern|Noivern, M|100/100
+|turn|7
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Noivern
+|-supereffective|p2a: Noivern
+|-damage|p2a: Noivern|36/100
+|-supereffective|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|-hitcount|p2a: Noivern|2
+|faint|p2a: Noivern
+|
+|upkeep
+|
+|switch|p2a: Flapple|Flapple, F|100/100
+|turn|8
+|
+|move|p2a: Flapple|Sucker Punch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|7/100
+|-enditem|p1a: Dragapult|Figy Berry|[eat]
+|-heal|p1a: Dragapult|40/100|[from] item: Figy Berry
+|move|p1a: Dragapult|Dragon Darts|p2a: Flapple
+|-supereffective|p2a: Flapple
+|-damage|p2a: Flapple|30/100
+|-supereffective|p2a: Flapple
+|-damage|p2a: Flapple|0 fnt
+|-hitcount|p2a: Flapple|2
+|faint|p2a: Flapple
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|9
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|28/100
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-hitcount|p2a: Dragapult|2
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Flygon|Flygon, M|100/100
+|turn|10
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-damage|p2a: Flygon|37/100
+|-supereffective|p2a: Flygon
+|-crit|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|-hitcount|p2a: Flygon|2
+|faint|p2a: Flygon
+|
+|win|Venus Cyberdyne
+|raw|Venus Cyberdyne's rating: 1000 → 1047(+47 for winning)
+|raw|Vileo Aqua's rating: 1058 → 1036(-22 for losing)
+|l|☆Vileo Aqua

@@ -1,0 +1,302 @@
+|ScrapeTime|2020-01-02-00:19:10
+|j|☆Mypokeniverse
+|j|☆Grinwald Krieg
+|player|p1|Mypokeniverse|101|1103
+|player|p2|Grinwald Krieg|mina|1134
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Gastrodon, F|
+|poke|p1|Chandelure, M|
+|poke|p1|Grapploct, F|
+|poke|p1|Toxapex, M|
+|poke|p2|Cloyster, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Clefable, F|
+|poke|p2|Aegislash, F|
+|poke|p2|Seismitoad, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Grinwald Krieg)
+|
+|start
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|switch|p2a: Cloyster|Cloyster, F, shiny|100/100
+|turn|1
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Toxapex|Toxic Spikes|p2a: Clefable
+|-sidestart|p2: Grinwald Krieg|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Clefable|Thunderbolt|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|38/100
+|move|p1a: Toxapex|Toxic Spikes|p2a: Clefable
+|-sidestart|p2: Grinwald Krieg|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|44/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|move|p2a: Clefable|Psychic|p1a: Chandelure
+|-damage|p1a: Chandelure|52/100
+|
+|-heal|p1a: Chandelure|58/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Chandelure|Calm Mind|p1a: Chandelure
+|-boost|p1a: Chandelure|spa|1
+|-boost|p1a: Chandelure|spd|1
+|move|p2a: Clefable|Shadow Ball|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|turn|5
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Ferrothorn|Spikes|p2a: Cinderace
+|-sidestart|p2: Grinwald Krieg|Spikes
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Gastrodon|Gastrodon, F|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|67/100
+|
+|-heal|p1a: Gastrodon|73/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: Grinwald Krieg|Spikes|[silent]
+|-sidestart|p1: Mypokeniverse|Spikes|[silent]
+|-sideend|p2: Grinwald Krieg|Toxic Spikes|[silent]
+|-sidestart|p1: Mypokeniverse|Toxic Spikes|[silent]
+|-sidestart|p1: Mypokeniverse|Toxic Spikes|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Gastrodon|Yawn|p2a: Cinderace
+|-start|p2a: Cinderace|move: Yawn|[of] p1a: Gastrodon
+|
+|-heal|p1a: Gastrodon|79/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p1a: Grimmsnarl|88/100|[from] Spikes
+|-status|p1a: Grimmsnarl|tox
+|
+|-damage|p1a: Grimmsnarl|82/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Mypokeniverse|Reflect
+|move|p2a: Seismitoad|Earthquake|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|61/100 tox
+|
+|-damage|p1a: Grimmsnarl|49/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p1a: Toxapex|Toxapex, M|77/100
+|-damage|p1a: Toxapex|65/100|[from] Spikes
+|-sideend|p1: Mypokeniverse|move: Toxic Spikes|[of] p1a: Toxapex
+|move|p2a: Seismitoad|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|37/100
+|
+|-heal|p1a: Toxapex|44/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Toxapex|Toxic Spikes|p2a: Clefable
+|-sidestart|p2: Grinwald Krieg|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|50/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|move|p2a: Clefable|Thunderbolt|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|88/100|[from] Spikes
+|turn|13
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Ferrothorn|Spikes|p2a: Cinderace
+|-sidestart|p2: Grinwald Krieg|Spikes
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: Grinwald Krieg|Spikes|[silent]
+|-sideend|p1: Mypokeniverse|Spikes|[silent]
+|-sidestart|p2: Grinwald Krieg|Spikes|[silent]
+|-sidestart|p1: Mypokeniverse|Spikes|[silent]
+|-sideend|p2: Grinwald Krieg|Toxic Spikes|[silent]
+|-sidestart|p1: Mypokeniverse|Toxic Spikes|[silent]
+|-sideend|p1: Mypokeniverse|Reflect|[silent]
+|-sidestart|p2: Grinwald Krieg|Reflect|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Cinderace
+|-status|p2a: Cinderace|par
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|49/100 tox
+|-damage|p1a: Grimmsnarl|37/100 tox|[from] Spikes
+|cant|p2a: Cinderace|par
+|
+|-damage|p1a: Grimmsnarl|31/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Mypokeniverse|Reflect
+|move|p2a: Cinderace|U-turn|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|20/100 tox
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100|[from]move: U-turn
+|-damage|p2a: Aegislash|88/100|[from] Spikes
+|
+|-heal|p2a: Aegislash|94/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|8/100 tox|[from] psn
+|-sideend|p2: Grinwald Krieg|Reflect
+|upkeep
+|turn|17
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Aegislash
+|-status|p2a: Aegislash|par
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|
+|-heal|p2a: Aegislash|100/100 par|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|0 fnt|[from] psn
+|faint|p1a: Grimmsnarl
+|upkeep
+|inactive|Mypokeniverse has 120 seconds left.
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|88/100
+|-damage|p1a: Ferrothorn|75/100|[from] Spikes
+|turn|18
+|inactive|Mypokeniverse has 120 seconds left.
+|
+|cant|p2a: Aegislash|par
+|move|p1a: Ferrothorn|Leech Seed|p2a: Aegislash
+|-start|p2a: Aegislash|move: Leech Seed
+|
+|-damage|p2a: Aegislash|88/100 par|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|87/100|[silent]
+|upkeep
+|turn|19
+|inactive|Mypokeniverse has 120 seconds left.
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Close Combat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|16/100
+|-damage|p2a: Aegislash|76/100 par|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Aegislash|59/100 par|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|move|p1a: Ferrothorn|Spikes|p2a: Aegislash
+|-sidestart|p2: Grinwald Krieg|Spikes
+|
+|-heal|p2a: Aegislash|65/100 par|[from] item: Leftovers
+|-damage|p2a: Aegislash|53/100 par|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|27/100|[silent]
+|upkeep
+|turn|20
+|inactive|Mypokeniverse has 120 seconds left.
+|
+|cant|p2a: Aegislash|par
+|move|p1a: Ferrothorn|Power Whip|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100 par
+|turn|21
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Grapploct|Grapploct, F|100/100
+|-damage|p1a: Grapploct|88/100|[from] Spikes
+|-status|p1a: Grapploct|psn
+|turn|22
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|-damage|p2a: Seismitoad|84/100|[from] Spikes
+|move|p1a: Grapploct|Stomping Tantrum|p2a: Seismitoad
+|-damage|p2a: Seismitoad|44/100
+|
+|-damage|p1a: Grapploct|76/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|move|p2a: Seismitoad|Drain Punch|p1a: Grapploct
+|-damage|p1a: Grapploct|65/100 psn
+|-heal|p2a: Seismitoad|49/100|[from] drain|[of] p1a: Grapploct
+|move|p1a: Grapploct|Stomping Tantrum|p2a: Seismitoad
+|-damage|p2a: Seismitoad|9/100
+|
+|-damage|p1a: Grapploct|52/100 psn|[from] psn
+|-sideend|p1: Mypokeniverse|Reflect
+|upkeep
+|turn|24
+|
+|move|p2a: Seismitoad|Drain Punch|p1a: Grapploct
+|-damage|p1a: Grapploct|27/100 psn
+|-heal|p2a: Seismitoad|20/100|[from] drain|[of] p1a: Grapploct
+|move|p1a: Grapploct|Stomping Tantrum|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-damage|p1a: Grapploct|14/100 psn|[from] psn
+|upkeep
+|-message|Mypokeniverse forfeited.
+|
+|win|Grinwald Krieg
+|l|☆Mypokeniverse
+|raw|Mypokeniverse's rating: 1103 → 1079(-24 for losing)
+|raw|Grinwald Krieg's rating: 1111 → 1136(+25 for winning)

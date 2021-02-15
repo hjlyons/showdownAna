@@ -1,0 +1,193 @@
+|ScrapeTime|2020-01-02-14:22:24
+|j|☆DS Edu
+|j|☆Jaja9000
+|player|p1|DS Edu|137|1231
+|player|p2|Jaja9000|70|1220
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Seismitoad, F|
+|poke|p1|Mew|
+|poke|p1|Tyranitar, M|
+|poke|p1|Bronzong|
+|poke|p1|Dhelmise|
+|poke|p2|Rotom-Wash|
+|poke|p2|Torkoal, M|
+|poke|p2|Charizard, F|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Dragapult, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Wanejo|Cinderace, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|switch|p1a: Sapo feo|Seismitoad, F|100/100
+|move|p2a: Rotom|Trick|p1a: Sapo feo
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Sapo feo
+|-item|p1a: Sapo feo|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Sapo feo
+|-status|p1a: Sapo feo|brn
+|move|p1a: Sapo feo|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-damage|p2a: Rotom|94/100 tox|[from] psn
+|-damage|p1a: Sapo feo|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p1a: Miu|Mew|100/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Miu|Calm Mind|p1a: Miu
+|-boost|p1a: Miu|spa|1
+|-boost|p1a: Miu|spd|1
+|move|p2a: Ferrothorn|Knock Off|p1a: Miu
+|-supereffective|p1a: Miu
+|-damage|p1a: Miu|59/100
+|-enditem|p1a: Miu|Lum Berry|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Miu|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|6
+|
+|switch|p1a: Godzilla|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Godzilla
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Godzilla
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|95/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Godzilla|[from]lockedmove
+|-resisted|p1a: Godzilla
+|-damage|p1a: Godzilla|82/100
+|move|p1a: Godzilla|Dark Pulse|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-enditem|p2a: Dragapult|Colbur Berry|[eat]
+|-enditem|p2a: Dragapult|Colbur Berry|[weaken]
+|-damage|p2a: Dragapult|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|42/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Godzilla|Dark Pulse|p2a: Torkoal
+|-damage|p2a: Torkoal|52/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Torkoal|58/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Godzilla|Earth Power|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Charizard|Charizard, F, shiny|100/100
+|turn|10
+|
+|switch|p1a: Sapo feo|Seismitoad, F|94/100 brn
+|move|p2a: Charizard|Focus Blast|p1a: Sapo feo
+|-damage|p1a: Sapo feo|4/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|88/100|[from] ability: Solar Power|[of] p2a: Charizard
+|-damage|p1a: Sapo feo|0 fnt|[from] brn
+|faint|p1a: Sapo feo
+|upkeep
+|
+|switch|p1a: Godzilla|Tyranitar, M|82/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Godzilla
+|turn|11
+|
+|switch|p1a: Un ancla we|Dhelmise|100/100
+|move|p2a: Charizard|Focus Blast|p1a: Un ancla we
+|-immune|p1a: Un ancla we
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|82/100|[from] Sandstorm
+|-damage|p1a: Un ancla we|94/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|switch|p2a: Rotom|Rotom-Wash|94/100 tox
+|move|p1a: Un ancla we|Phantom Force||[still]
+|-prepare|p1a: Un ancla we|Phantom Force|p2a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|88/100 tox|[from] Sandstorm
+|-damage|p1a: Un ancla we|88/100|[from] Sandstorm
+|-heal|p2a: Rotom|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|88/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Un ancla we|[miss]
+|-miss|p2a: Rotom|p1a: Un ancla we
+|move|p1a: Un ancla we|Phantom Force|p2a: Rotom|[from]lockedmove
+|-damage|p2a: Rotom|17/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|10/100 tox|[from] Sandstorm
+|-damage|p1a: Un ancla we|82/100|[from] Sandstorm
+|-heal|p2a: Rotom|17/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|4/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|switch|p1a: Wanejo|Cinderace, F|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Wanejo
+|-immune|p1a: Wanejo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Wanejo|95/100|[from] Sandstorm
+|-damage|p2a: Rotom|0 fnt|[from] Sandstorm
+|faint|p2a: Rotom
+|upkeep
+|-message|Jaja9000 forfeited.
+|
+|win|DS Edu
+|l|☆Jaja9000
+|raw|DS Edu's rating: 1232 → 1256(+24 for winning)
+|raw|Jaja9000's rating: 1220 → 1196(-24 for losing)

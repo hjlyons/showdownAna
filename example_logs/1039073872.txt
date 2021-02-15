@@ -1,0 +1,188 @@
+|ScrapeTime|2020-01-01-09:15:35
+|j|☆blazingcommander
+|j|☆ESTRIAS
+|player|p1|blazingcommander|101|1414
+|player|p2|ESTRIAS|clown|1316
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mimikyu, M|
+|poke|p1|Togekiss, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Gyarados, F|
+|poke|p1|Cinderace, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Clefable, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Aegislash, M|
+|poke|p2|Gyarados, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ESTRIAS)
+|
+|start
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|move|p2a: Excadrill|Iron Head|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|75/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: BDSM|Ferrothorn, F|100/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|move|p2a: BDSM|Power Whip|p1a: Togekiss|[miss]
+|-miss|p2a: BDSM|p1a: Togekiss
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Togekiss|Flamethrower|p2a: BDSM
+|-supereffective|p2a: BDSM
+|-crit|p2a: BDSM
+|-damage|p2a: BDSM|0 fnt
+|faint|p2a: BDSM
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|5
+|
+|switch|p1a: Gyarados|Gyarados, F|75/100
+|move|p2a: Excadrill|Iron Head|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|46/100
+|-enditem|p1a: Gyarados|Sitrus Berry|[eat]
+|-heal|p1a: Gyarados|71/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Lerna|Gyarados, F, shiny|100/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Gyarados|Power Whip|p2a: Lerna
+|-damage|p2a: Lerna|18/100
+|move|p2a: Lerna|Bounce||[still]
+|-prepare|p2a: Lerna|Bounce|p1a: Gyarados
+|
+|-heal|p2a: Lerna|24/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Lerna|Bounce|p1a: Gyarados|[from]lockedmove|[miss]
+|-miss|p2a: Lerna|p1a: Gyarados
+|
+|-heal|p2a: Lerna|30/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Gyarados|Waterfall|p2a: Lerna
+|-resisted|p2a: Lerna
+|-damage|p2a: Lerna|0 fnt
+|faint|p2a: Lerna
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|turn|10
+|
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Gyarados|Earthquake|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Gyarados|Earthquake|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|12
+|
+|move|p1a: Gyarados|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|upkeep
+|
+|switch|p2a: VHS|Clefable, F, shiny|100/100
+|turn|13
+|
+|move|p1a: Gyarados|Waterfall|p2a: VHS
+|-damage|p2a: VHS|0 fnt
+|faint|p2a: VHS
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|upkeep
+|
+|switch|p2a: Di María|Cinderace, M, shiny|100/100
+|turn|14
+|
+|move|p1a: Gyarados|Waterfall|p2a: Di María
+|-supereffective|p2a: Di María
+|-enditem|p2a: Di María|Focus Sash
+|-damage|p2a: Di María|1/100
+|move|p2a: Di María|Pyro Ball|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|20/100
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Gyarados|Waterfall|p2a: Di María
+|-supereffective|p2a: Di María
+|-damage|p2a: Di María|0 fnt
+|faint|p2a: Di María
+|
+|win|blazingcommander
+|l|☆ESTRIAS
+|raw|blazingcommander's rating: 1414 → 1428(+14 for winning)
+|raw|ESTRIAS's rating: 1316 → 1301(-15 for losing)

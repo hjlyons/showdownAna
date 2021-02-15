@@ -1,0 +1,214 @@
+|ScrapeTime|2020-01-01-02:25:38
+|j|☆josmar0611
+|j|☆aidangg
+|player|p1|josmar0611|290|1087
+|player|p2|aidangg|1|1109
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Charizard, M|
+|poke|p2|Aegislash, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Gyarados, F|
+|poke|p2|Mew|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|turn|1
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Hatterene
+|move|p2a: Hatterene|Stealth Rock|p1a: Ferrothorn|[from]Magic Bounce
+|-sidestart|p1: josmar0611|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Excadrill|Excadrill, M, shiny|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|move|p2a: Hatterene|Psychic|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|57/100
+|-damage|p2a: Hatterene|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|move|p1a: Excadrill|Rapid Spin|p2a: Aegislash
+|-immune|p2a: Aegislash
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Excadrill|Earthquake|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|-damage|p1a: Excadrill|47/100|[from] item: Life Orb
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|5
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Excadrill
+|-damage|p1a: Excadrill|8/100
+|move|p1a: Excadrill|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|1/100
+|-damage|p1a: Excadrill|0 fnt|[from] item: Life Orb
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|6
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Tyranitar|Crunch|p2a: Toxapex
+|-damage|p2a: Toxapex|68/100
+|-unboost|p2a: Toxapex|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|61/100|[from] Sandstorm
+|-heal|p2a: Toxapex|68/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Tyranitar|Crunch|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|turn|8
+|
+|switch|p1a: Hatterene|Hatterene, F, shiny|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|94/100|[from] Sandstorm
+|-damage|p1a: Hatterene|82/100|[from] Sandstorm
+|-heal|p1a: Hatterene|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Gyarados|Dark Pulse|p1a: Hatterene
+|-damage|p1a: Hatterene|74/100
+|move|p1a: Hatterene|Psychic|p2a: Gyarados
+|-damage|p2a: Gyarados|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|32/100|[from] Sandstorm
+|-damage|p1a: Hatterene|68/100|[from] Sandstorm
+|-heal|p1a: Hatterene|74/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Gyarados|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|9/100
+|move|p1a: Hatterene|Psychic|p2a: Gyarados
+|-crit|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|-weather|none
+|-heal|p1a: Hatterene|15/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|1/100
+|turn|11
+|
+|move|p2a: Dragapult|Sucker Punch|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|88/100
+|-damage|p1a: Tyranitar|76/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|12
+|
+|switch|p2a: Mew|Mew|100/100
+|move|p1a: Tyranitar|Crunch|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|37/100
+|-unboost|p2a: Mew|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|31/100|[from] Sandstorm
+|-heal|p2a: Mew|37/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Tyranitar|Crunch|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Hatterene|Hatterene, F|91/100
+|turn|14
+|
+|move|p1a: Tyranitar|Crunch|p2a: Hatterene
+|-damage|p2a: Hatterene|33/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hatterene|27/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|move|p2a: Hatterene|Psychic|p1a: Tyranitar
+|-immune|p1a: Tyranitar
+|move|p1a: Tyranitar|Crunch|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|1/100
+|turn|16
+|
+|move|p1a: Tyranitar|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|win|josmar0611
+|raw|josmar0611's rating: 1088 → 1116(+28 for winning)
+|raw|aidangg's rating: 1109 → 1082(-27 for losing)
+|l|☆aidangg

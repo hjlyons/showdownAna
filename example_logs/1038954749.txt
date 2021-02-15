@@ -1,0 +1,391 @@
+|ScrapeTime|2020-01-01-02:15:44
+|j|☆Arcanine Gang
+|j|☆sadchatot
+|player|p1|Arcanine Gang|teamrocket|1238
+|player|p2|sadchatot|203|1297
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Arcanine, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Seismitoad, M|
+|poke|p1|Hydreigon, M|
+|poke|p1|Toxtricity, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Toxtricity, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sadchatot)
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|
+|move|p1a: Seismitoad|Toxic|p2a: Seismitoad
+|-status|p2a: Seismitoad|tox
+|move|p2a: Seismitoad|Toxic|p1a: Seismitoad
+|-status|p1a: Seismitoad|tox
+|
+|-damage|p1a: Seismitoad|94/100 tox|[from] psn
+|-damage|p2a: Seismitoad|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p1a: Seismitoad|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: sadchatot|move: Stealth Rock
+|move|p2a: Seismitoad|Stealth Rock|p1a: Seismitoad
+|-sidestart|p1: Arcanine Gang|move: Stealth Rock
+|
+|-heal|p1a: Seismitoad|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Seismitoad|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|88/100 tox|[from] psn
+|-damage|p2a: Seismitoad|88/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|move|p2a: Rotom|Will-O-Wisp|p1a: Hydreigon
+|-status|p1a: Hydreigon|brn
+|
+|-heal|p1a: Hydreigon|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Hydreigon|88/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Hydreigon|Dark Pulse|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|82/100 brn|[from] Sandstorm
+|-heal|p1a: Hydreigon|88/100 brn|[from] item: Leftovers
+|-heal|p2a: Tyranitar|84/100|[from] item: Leftovers
+|-damage|p1a: Hydreigon|82/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Seismitoad|Seismitoad, M|88/100 tox
+|-damage|p1a: Seismitoad|82/100 tox|[from] Stealth Rock
+|move|p2a: Tyranitar|Thunder Wave|p1a: Seismitoad
+|-immune|p1a: Seismitoad
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Seismitoad|88/100 tox|[from] item: Leftovers
+|-heal|p2a: Tyranitar|91/100|[from] item: Leftovers
+|-damage|p1a: Seismitoad|82/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p2a: Rotom|Rotom-Wash|88/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|move|p1a: Seismitoad|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|70/100 tox|[from] Sandstorm
+|-heal|p1a: Seismitoad|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|64/100 tox|[from] psn
+|-damage|p1a: Seismitoad|76/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p2a: Tyranitar|Tyranitar, M|91/100
+|-damage|p2a: Tyranitar|78/100|[from] Stealth Rock
+|switch|p1a: Hydreigon|Hydreigon, M|82/100 brn
+|-damage|p1a: Hydreigon|70/100 brn|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|64/100 brn|[from] Sandstorm
+|-heal|p1a: Hydreigon|70/100 brn|[from] item: Leftovers
+|-heal|p2a: Tyranitar|84/100|[from] item: Leftovers
+|-damage|p1a: Hydreigon|64/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|39/100 brn
+|move|p2a: Tyranitar|Crunch|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-activate|p1a: Hydreigon|move: Substitute|[damage]
+|
+|-weather|none
+|-heal|p1a: Hydreigon|45/100 brn|[from] item: Leftovers
+|-heal|p2a: Tyranitar|91/100|[from] item: Leftovers
+|-damage|p1a: Hydreigon|39/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|51/100
+|move|p2a: Tyranitar|Crunch|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-end|p1a: Hydreigon|Substitute
+|
+|-heal|p1a: Hydreigon|45/100 brn|[from] item: Leftovers
+|-heal|p2a: Tyranitar|57/100|[from] item: Leftovers
+|-damage|p1a: Hydreigon|39/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|14/100
+|move|p2a: Tyranitar|Crunch|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|15/100 brn
+|-unboost|p1a: Hydreigon|def|1
+|
+|-heal|p1a: Hydreigon|21/100 brn|[from] item: Leftovers
+|-heal|p2a: Tyranitar|20/100|[from] item: Leftovers
+|-damage|p1a: Hydreigon|15/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Rotom|Rotom-Wash|64/100 tox
+|-damage|p2a: Rotom|52/100 tox|[from] Stealth Rock
+|move|p1a: Hydreigon|Dark Pulse|p2a: Rotom
+|-damage|p2a: Rotom|4/100 tox
+|
+|-heal|p1a: Hydreigon|21/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|0 fnt|[from] psn
+|faint|p2a: Rotom
+|-damage|p1a: Hydreigon|15/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|13
+|
+|move|p2a: Cinderace|U-turn|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|switch|p2a: Tyranitar|Tyranitar, M|20/100|[from]move: U-turn
+|-damage|p2a: Tyranitar|8/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|14/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|turn|14
+|
+|move|p1a: Mandibuzz|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|switch|p1a: Arcanine|Arcanine, F|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Arcanine|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|move|p1a: Arcanine|Flare Blitz|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-damage|p1a: Arcanine|64/100|[from] Recoil
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Arcanine|58/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, M|88/100 tox
+|-damage|p2a: Seismitoad|82/100 tox|[from] Stealth Rock
+|turn|16
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|74/100|[from] Sandstorm
+|-heal|p2a: Seismitoad|88/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|80/100|[from] item: Black Sludge
+|-damage|p2a: Seismitoad|82/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|-damage|p1a: Toxtricity|88/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Earthquake|p1a: Toxtricity
+|-supereffective|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|-weather|none
+|-heal|p2a: Seismitoad|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|76/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|turn|18
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Seismitoad
+|-damage|p2a: Seismitoad|53/100 tox
+|move|p2a: Seismitoad|Toxic|p1a: Mandibuzz
+|-status|p1a: Mandibuzz|tox
+|
+|-heal|p2a: Seismitoad|59/100 tox|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|94/100 tox|[from] psn
+|-damage|p2a: Seismitoad|41/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Mandibuzz|Foul Play|p2a: Cinderace
+|-damage|p2a: Cinderace|36/100
+|
+|-damage|p1a: Mandibuzz|82/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Cinderace|Pyro Ball|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|65/100
+|
+|-heal|p1a: Toxapex|71/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|move|p2a: Cinderace|Taunt|p1a: Toxapex
+|-start|p1a: Toxapex|move: Taunt
+|move|p1a: Toxapex|Scald|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-heal|p1a: Toxapex|77/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, M|41/100 tox
+|-damage|p2a: Seismitoad|35/100 tox|[from] Stealth Rock
+|turn|22
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|82/100 tox
+|move|p2a: Seismitoad|Earthquake|p1a: Mandibuzz
+|-immune|p1a: Mandibuzz
+|
+|-heal|p2a: Seismitoad|41/100 tox|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|76/100 tox|[from] psn
+|-damage|p2a: Seismitoad|35/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Seismitoad
+|-damage|p2a: Seismitoad|12/100 tox
+|move|p2a: Seismitoad|Scald|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|56/100 tox
+|
+|-heal|p2a: Seismitoad|18/100 tox|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|44/100 tox|[from] psn
+|-damage|p2a: Seismitoad|6/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-damage|p1a: Mandibuzz|25/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|-damage|p2a: Toxtricity|88/100|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, M|76/100 tox
+|-damage|p1a: Seismitoad|70/100 tox|[from] Stealth Rock
+|turn|26
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|turn|27
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Toxapex
+|-damage|p1a: Toxapex|31/100
+|move|p1a: Toxapex|Scald|p2a: Toxtricity
+|-damage|p2a: Toxtricity|61/100
+|-status|p2a: Toxtricity|brn
+|
+|-heal|p1a: Toxapex|37/100|[from] item: Black Sludge
+|-damage|p2a: Toxtricity|55/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-damage|p2a: Toxtricity|49/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Arcanine|Arcanine, F|58/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Toxtricity|atk|1
+|turn|29
+|
+|move|p1a: Arcanine|Extreme Speed|p2a: Toxtricity
+|-damage|p2a: Toxtricity|19/100 brn
+|move|p2a: Toxtricity|Boomburst|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|win|sadchatot
+|raw|Arcanine Gang's rating: 1238 → 1217(-21 for losing)
+|raw|sadchatot's rating: 1297 → 1318(+21 for winning)

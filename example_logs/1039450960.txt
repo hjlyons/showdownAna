@@ -1,0 +1,455 @@
+|ScrapeTime|2020-01-02-02:25:27
+|j|☆Jieeeee
+|j|☆Ms Sticky Fingers
+|player|p1|Jieeeee|101|1081
+|player|p2|Ms Sticky Fingers|cynthia|1046
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxapex, F|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Cursola, F|
+|poke|p1|Sableye, F|
+|poke|p1|Hippowdon, M|
+|poke|p1|Excadrill, F|
+|poke|p2|Hawlucha, F|
+|poke|p2|Galvantula, M|
+|poke|p2|Tsareena, F|
+|poke|p2|Polteageist|
+|poke|p2|Falinks|
+|poke|p2|Golisopod, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jieeeee)
+|
+|start
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|switch|p2a: Ushiwakamaru|Golisopod, F, shiny|100/100
+|turn|1
+|
+|move|p2a: Ushiwakamaru|First Impression|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|93/100
+|move|p1a: Weezing|Will-O-Wisp|p2a: Ushiwakamaru
+|-status|p2a: Ushiwakamaru|brn
+|
+|-heal|p1a: Weezing|99/100|[from] item: Leftovers
+|-damage|p2a: Ushiwakamaru|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p1a: Weezing|Strange Steam|p2a: Ushiwakamaru
+|-damage|p2a: Ushiwakamaru|66/100 brn
+|move|p2a: Ushiwakamaru|Shadow Claw|p1a: Weezing
+|-damage|p1a: Weezing|90/100
+|
+|-heal|p1a: Weezing|96/100|[from] item: Leftovers
+|-damage|p2a: Ushiwakamaru|60/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: Weezing|Strange Steam|p2a: Ushiwakamaru
+|-damage|p2a: Ushiwakamaru|30/100 brn
+|-start|p2a: Ushiwakamaru|confusion
+|-activate|p2a: Ushiwakamaru|ability: Emergency Exit
+|
+|switch|p2a: Gilgamesh|Galvantula, M, shiny|100/100
+|
+|-heal|p1a: Weezing|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Gilgamesh|Sticky Web|p1a: Weezing
+|-sidestart|p1: Jieeeee|move: Sticky Web
+|move|p1a: Weezing|Will-O-Wisp|p2a: Gilgamesh
+|-status|p2a: Gilgamesh|brn
+|
+|-damage|p2a: Gilgamesh|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Cursola|Cursola, F|100/100
+|-activate|p1a: Cursola|move: Sticky Web
+|-unboost|p1a: Cursola|spe|1
+|move|p2a: Gilgamesh|Volt Switch|p1a: Cursola
+|-damage|p1a: Cursola|83/100
+|
+|switch|p2a: Eresh|Polteageist|100/100|[from]move: Volt Switch
+|
+|-heal|p1a: Cursola|89/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-activate|p1a: Toxapex|move: Sticky Web
+|-unboost|p1a: Toxapex|spe|1
+|move|p2a: Eresh|Shell Smash|p2a: Eresh
+|-unboost|p2a: Eresh|def|1
+|-unboost|p2a: Eresh|spd|1
+|-boost|p2a: Eresh|atk|2
+|-boost|p2a: Eresh|spa|2
+|-boost|p2a: Eresh|spe|2
+|-enditem|p2a: Eresh|White Herb
+|-clearnegativeboost|p2a: Eresh|[silent]
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Eresh|Psychic|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|6/100
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Toxapex|12/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|switch|p1a: Sableye|Sableye, F|100/100
+|-activate|p1a: Sableye|move: Sticky Web
+|-unboost|p1a: Sableye|spe|1
+|move|p2a: Eresh|Psychic|p1a: Sableye
+|-immune|p1a: Sableye
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Ishtar|Tsareena, F|100/100
+|move|p1a: Sableye|Will-O-Wisp||[still]
+|cant|p2a: Ishtar|ability: Queenly Majesty|Will-O-Wisp|[of] p1a: Sableye
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Ishtar|Play Rough|p1a: Sableye
+|-supereffective|p1a: Sableye
+|-damage|p1a: Sableye|33/100
+|move|p1a: Sableye|Knock Off|p2a: Ishtar
+|-damage|p2a: Ishtar|77/100
+|-enditem|p2a: Ishtar|Assault Vest|[from] move: Knock Off|[of] p1a: Sableye
+|
+|-heal|p1a: Sableye|39/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|move|p2a: Ishtar|Play Rough|p1a: Weezing|[miss]
+|-miss|p2a: Ishtar|p1a: Weezing
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Ushiwakamaru|Golisopod, F, shiny|30/100 brn
+|move|p1a: Weezing|Clear Smog|p2a: Ushiwakamaru
+|-damage|p2a: Ushiwakamaru|14/100 brn
+|-clearboost|p2a: Ushiwakamaru
+|-enditem|p2a: Ushiwakamaru|Mago Berry|[eat]
+|-heal|p2a: Ushiwakamaru|47/100 brn|[from] item: Mago Berry
+|-activate|p2a: Ushiwakamaru|ability: Emergency Exit
+|
+|switch|p2a: Gilgamesh|Galvantula, M, shiny|94/100 brn
+|
+|-damage|p2a: Gilgamesh|88/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p1a: Sableye|Sableye, F|39/100
+|-activate|p1a: Sableye|move: Sticky Web
+|-unboost|p1a: Sableye|spe|1
+|move|p2a: Gilgamesh|Bug Buzz|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|-damage|p2a: Gilgamesh|82/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-activate|p1a: Hippowdon|move: Sticky Web
+|-unboost|p1a: Hippowdon|spe|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|14
+|
+|switch|p2a: Quetzalcoatl|Hawlucha, F, shiny|100/100
+|move|p1a: Hippowdon|Earthquake|p2a: Quetzalcoatl
+|-immune|p2a: Quetzalcoatl
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Quetzalcoatl|94/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|move|p2a: Quetzalcoatl|Swords Dance|p2a: Quetzalcoatl
+|-boost|p2a: Quetzalcoatl|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Quetzalcoatl|88/100|[from] Sandstorm
+|-damage|p1a: Weezing|95/100|[from] Sandstorm
+|-heal|p1a: Weezing|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Quetzalcoatl|Brave Bird|p1a: Weezing
+|-crit|p1a: Weezing
+|-damage|p1a: Weezing|1/100
+|-damage|p2a: Quetzalcoatl|52/100|[from] Recoil
+|move|p1a: Weezing|Will-O-Wisp|p2a: Quetzalcoatl
+|-status|p2a: Quetzalcoatl|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Quetzalcoatl|46/100 brn|[from] Sandstorm
+|-damage|p1a: Weezing|0 fnt|[from] Sandstorm
+|faint|p1a: Weezing
+|-damage|p2a: Quetzalcoatl|40/100 brn|[from] brn
+|upkeep
+|inactive|Jieeeee has 120 seconds left.
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-activate|p1a: Excadrill|move: Sticky Web
+|-unboost|p1a: Excadrill|spe|1
+|turn|17
+|
+|move|p2a: Quetzalcoatl|Drain Punch|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|35/100
+|-heal|p2a: Quetzalcoatl|80/100 brn|[from] drain|[of] p1a: Excadrill
+|move|p1a: Excadrill|Rapid Spin|p2a: Quetzalcoatl
+|-crit|p2a: Quetzalcoatl
+|-damage|p2a: Quetzalcoatl|23/100 brn
+|-sideend|p1: Jieeeee|Sticky Web|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|-damage|p1a: Excadrill|25/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Quetzalcoatl|17/100 brn|[from] Sandstorm
+|-damage|p2a: Quetzalcoatl|11/100 brn|[from] brn
+|upkeep
+|turn|18
+|inactive|Jieeeee has 120 seconds left.
+|
+|move|p1a: Excadrill|Iron Head|p2a: Quetzalcoatl
+|-damage|p2a: Quetzalcoatl|0 fnt
+|-damage|p1a: Excadrill|15/100|[from] item: Life Orb
+|faint|p2a: Quetzalcoatl
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Ushiwakamaru|Golisopod, F, shiny|47/100 brn
+|turn|19
+|
+|switch|p1a: Toxapex|Toxapex, F|45/100
+|move|p2a: Ushiwakamaru|First Impression|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|35/100
+|
+|-heal|p1a: Toxapex|41/100|[from] item: Black Sludge
+|-damage|p2a: Ushiwakamaru|41/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Ushiwakamaru|Iron Head|p1a: Hippowdon
+|-damage|p1a: Hippowdon|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ushiwakamaru|34/100 brn|[from] Sandstorm
+|-heal|p1a: Hippowdon|99/100|[from] item: Leftovers
+|-damage|p2a: Ushiwakamaru|28/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p1a: Hippowdon|Earthquake|p2a: Ushiwakamaru
+|-resisted|p2a: Ushiwakamaru
+|-damage|p2a: Ushiwakamaru|14/100 brn
+|move|p2a: Ushiwakamaru|Razor Shell|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|78/100
+|-unboost|p1a: Hippowdon|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ushiwakamaru|8/100 brn|[from] Sandstorm
+|-heal|p1a: Hippowdon|84/100|[from] item: Leftovers
+|-damage|p2a: Ushiwakamaru|2/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p1a: Toxapex|Toxapex, F|74/100
+|move|p2a: Ushiwakamaru|Razor Shell|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|66/100
+|-unboost|p1a: Toxapex|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ushiwakamaru|0 fnt|[from] Sandstorm
+|-damage|p1a: Toxapex|60/100|[from] Sandstorm
+|faint|p2a: Ushiwakamaru
+|-heal|p1a: Toxapex|66/100|[from] item: Black Sludge
+|upkeep
+|inactive|Ms Sticky Fingers has 120 seconds left.
+|
+|switch|p2a: Ishtar|Tsareena, F|77/100
+|turn|23
+|
+|move|p2a: Ishtar|Seed Bomb|p1a: Toxapex
+|-damage|p1a: Toxapex|19/100
+|move|p1a: Toxapex|Toxic|p2a: Ishtar
+|-status|p2a: Ishtar|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ishtar|71/100 tox|[from] Sandstorm
+|-damage|p1a: Toxapex|12/100|[from] Sandstorm
+|-heal|p1a: Toxapex|19/100|[from] item: Black Sludge
+|-damage|p2a: Ishtar|65/100 tox|[from] psn
+|upkeep
+|turn|24
+|inactive|Jieeeee has 120 seconds left.
+|
+|move|p2a: Ishtar|Seed Bomb|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-weather|none
+|-damage|p2a: Ishtar|53/100 tox|[from] psn
+|upkeep
+|inactive|Jieeeee has 120 seconds left.
+|
+|switch|p1a: Excadrill|Excadrill, F|15/100
+|turn|25
+|
+|move|p1a: Excadrill|Iron Head|p2a: Ishtar
+|-damage|p2a: Ishtar|0 fnt
+|-damage|p1a: Excadrill|5/100|[from] item: Life Orb
+|faint|p2a: Ishtar
+|
+|upkeep
+|
+|switch|p2a: Leonidas|Falinks|100/100
+|turn|26
+|
+|switch|p1a: Hippowdon|Hippowdon, M|84/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Leonidas|Close Combat|p1a: Hippowdon
+|-damage|p1a: Hippowdon|54/100
+|-unboost|p2a: Leonidas|def|1
+|-unboost|p2a: Leonidas|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leonidas|95/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|60/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Leonidas|No Retreat|p2a: Leonidas
+|-boost|p2a: Leonidas|atk|1
+|-boost|p2a: Leonidas|def|1
+|-boost|p2a: Leonidas|spa|1
+|-boost|p2a: Leonidas|spd|1
+|-boost|p2a: Leonidas|spe|1
+|-start|p2a: Leonidas|move: No Retreat
+|move|p1a: Hippowdon|Earthquake|p2a: Leonidas
+|-damage|p2a: Leonidas|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leonidas|48/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|66/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|Jieeeee has 120 seconds left.
+|
+|move|p2a: Leonidas|Zen Headbutt|p1a: Hippowdon
+|-damage|p1a: Hippowdon|45/100
+|move|p1a: Hippowdon|Earthquake|p2a: Leonidas
+|-damage|p2a: Leonidas|12/100
+|-enditem|p2a: Leonidas|Figy Berry|[eat]
+|-heal|p2a: Leonidas|45/100|[from] item: Figy Berry
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leonidas|39/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|52/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|Jieeeee has 120 seconds left.
+|
+|move|p2a: Leonidas|Close Combat|p1a: Hippowdon
+|-damage|p1a: Hippowdon|8/100
+|-unboost|p2a: Leonidas|def|1
+|-unboost|p2a: Leonidas|spd|1
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Leonidas|33/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|64/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|Jieeeee has 120 seconds left.
+|
+|move|p2a: Leonidas|Close Combat|p1a: Hippowdon
+|-damage|p1a: Hippowdon|20/100
+|-unboost|p2a: Leonidas|def|1
+|-unboost|p2a: Leonidas|spd|1
+|move|p1a: Hippowdon|Earthquake|p2a: Leonidas
+|-damage|p2a: Leonidas|0 fnt
+|faint|p2a: Leonidas
+|
+|-weather|none
+|-heal|p1a: Hippowdon|27/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Eresh|Polteageist|100/100
+|turn|31
+|
+|switch|p1a: Cursola|Cursola, F|89/100
+|move|p2a: Eresh|Shell Smash|p2a: Eresh
+|-unboost|p2a: Eresh|def|1
+|-unboost|p2a: Eresh|spd|1
+|-boost|p2a: Eresh|atk|2
+|-boost|p2a: Eresh|spa|2
+|-boost|p2a: Eresh|spe|2
+|
+|-heal|p1a: Cursola|95/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p2a: Eresh|Shadow Ball|p1a: Cursola
+|-supereffective|p1a: Cursola
+|-damage|p1a: Cursola|0 fnt
+|faint|p1a: Cursola
+|
+|upkeep
+|
+|switch|p1a: Hippowdon|Hippowdon, M|27/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|33
+|
+|move|p2a: Eresh|Shadow Ball|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eresh|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|5/100
+|turn|34
+|
+|move|p2a: Eresh|Shadow Ball|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|win|Ms Sticky Fingers
+|raw|Jieeeee's rating: 1082 → 1057(-25 for losing)
+|raw|Ms Sticky Fingers's rating: 1046 → 1082(+36 for winning)
+|l|☆Jieeeee

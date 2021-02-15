@@ -1,0 +1,1605 @@
+|ScrapeTime|2020-01-01-16:54:43
+|j|☆Baganha
+|j|☆LeaderMissingNo
+|player|p1|Baganha|2|1494
+|player|p2|LeaderMissingNo|giovanni|1492
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Conkeldurr, M|
+|poke|p1|Clefable, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Seismitoad, M|
+|poke|p1|Flareon, M|
+|poke|p1|Rotom-Mow|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Ditto|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Sylveon, F|
+|poke|p2|Avalugg, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Seismitoad|[from] ability: Imposter
+|turn|1
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Seismitoad|Protect||[still]
+|-fail|p1a: Seismitoad
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Flareon|Flareon, M|100/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Flareon
+|-damage|p1a: Flareon|73/100
+|-enditem|p1a: Flareon|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LeaderMissingNo)
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: LeaderMissingNo|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Flareon|Flareon, M|73/100
+|move|p2a: Ferrothorn|Spikes|p1a: Flareon
+|-sidestart|p1: Baganha|Spikes
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p1a: Clefable|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|48/100
+|-status|p2a: Toxapex|par
+|move|p2a: Toxapex|Toxic|p1a: Clefable
+|-status|p1a: Clefable|tox
+|
+|-heal|p2a: Toxapex|54/100 par|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|move|p1a: Clefable|Moonblast|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|35/100 par
+|move|p2a: Toxapex|Venoshock|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|49/100 tox
+|
+|-heal|p2a: Toxapex|42/100 par|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|switch|p2a: Sylveon|Sylveon, F|100/100
+|-damage|p2a: Sylveon|88/100|[from] Stealth Rock
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|99/100 tox
+|
+|-heal|p2a: Sylveon|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Clefable|Moonblast|p2a: Sylveon
+|-damage|p2a: Sylveon|58/100
+|-unboost|p2a: Sylveon|spa|1
+|move|p2a: Sylveon|Mystical Fire|p1a: Clefable
+|-damage|p1a: Clefable|84/100 tox
+|-unboost|p1a: Clefable|spa|1
+|
+|-heal|p2a: Sylveon|64/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|-damage|p1a: Seismitoad|88/100|[from] Spikes
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p1a: Seismitoad|94/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|70/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|move|p2a: Sylveon|Protect||[still]
+|-fail|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|100/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|13
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Rotom|Volt Switch|p2a: Sylveon
+|-damage|p2a: Sylveon|69/100
+|
+|switch|p1a: Seismitoad|Seismitoad, M|94/100|[from]move: Volt Switch
+|-damage|p1a: Seismitoad|82/100|[from] Spikes
+|move|p2a: Sylveon|Mystical Fire|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|74/100
+|-unboost|p1a: Seismitoad|spa|1
+|
+|-heal|p1a: Seismitoad|80/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|75/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Seismitoad|Scald|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p1a: Seismitoad|86/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|81/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Seismitoad|Toxic|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|-heal|p1a: Seismitoad|93/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Seismitoad|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|89/100
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Spikes|p1a: Seismitoad
+|-sidestart|p1: Baganha|Spikes
+|
+|-heal|p1a: Seismitoad|99/100|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|83/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p1a: Clefable|Clefable, F|84/100 tox
+|move|p2a: Ferrothorn|Knock Off|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|79/100 tox
+|-enditem|p1a: Clefable|Life Orb|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-damage|p2a: Ferrothorn|76/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p1a: Conkeldurr|84/100|[from] Spikes
+|switch|p2a: Sylveon|Sylveon, F|81/100
+|-damage|p2a: Sylveon|69/100|[from] Stealth Rock
+|
+|-heal|p2a: Sylveon|75/100|[from] item: Leftovers
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|20
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Conkeldurr|Earthquake|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p2a: Sylveon|81/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|78/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|-damage|p2a: Corsola|88/100|[from] Stealth Rock
+|switch|p1a: Seismitoad|Seismitoad, M|99/100
+|-damage|p1a: Seismitoad|82/100|[from] Spikes
+|
+|-heal|p1a: Seismitoad|88/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|76/100 brn
+|-damage|p2a: Ferrothorn|70/100 brn|[from] Stealth Rock
+|move|p1a: Seismitoad|Toxic||[still]
+|-fail|p1a: Seismitoad
+|
+|-heal|p1a: Seismitoad|94/100|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|64/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|move: Leech Seed
+|
+|-damage|p1a: Mandibuzz|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|79/100 brn|[silent]
+|-damage|p2a: Ferrothorn|72/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|move|p2a: Ferrothorn|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-damage|p1a: Rotom|95/100 tox|[from] psn
+|-damage|p2a: Ferrothorn|66/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|switch|p2a: Sylveon|Sylveon, F|81/100
+|-damage|p2a: Sylveon|69/100|[from] Stealth Rock
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|
+|-heal|p1a: Rotom|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Sylveon|75/100|[from] item: Leftovers
+|-damage|p1a: Rotom|89/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|
+|-heal|p1a: Rotom|95/100 tox|[from] item: Leftovers
+|-heal|p2a: Sylveon|81/100|[from] item: Leftovers
+|-damage|p1a: Rotom|77/100 tox|[from] psn
+|upkeep
+|turn|27
+|inactive|LeaderMissingNo has 120 seconds left.
+|
+|switch|p2a: Avalugg|Avalugg, M|100/100
+|move|p1a: Rotom|Thunderbolt|p2a: Avalugg
+|-damage|p2a: Avalugg|0 fnt
+|faint|p2a: Avalugg
+|
+|-heal|p1a: Rotom|83/100 tox|[from] item: Leftovers
+|-damage|p1a: Rotom|59/100 tox|[from] psn
+|upkeep
+|inactive|LeaderMissingNo has 120 seconds left.
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-damage|p2a: Ditto|88/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Rotom|[from] ability: Imposter
+|turn|28
+|inactive|LeaderMissingNo has 120 seconds left.
+|
+|move|p2a: Ditto|Leaf Storm|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-unboost|p2a: Ditto|spa|2
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Flareon|Flareon, M|73/100
+|-damage|p1a: Flareon|56/100|[from] Spikes
+|turn|29
+|
+|switch|p2a: Toxapex|Toxapex, M|75/100 par
+|-damage|p2a: Toxapex|62/100 par|[from] Stealth Rock
+|move|p1a: Flareon|Wish|p1a: Flareon
+|
+|-heal|p2a: Toxapex|69/100 par|[from] item: Black Sludge
+|upkeep
+|turn|30
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|78/100 brn
+|-damage|p1a: Conkeldurr|61/100 brn|[from] Spikes
+|move|p2a: Toxapex|Toxic||[still]
+|-fail|p2a: Toxapex
+|
+|-heal|p1a: Conkeldurr|100/100 brn|[from] move: Wish|[wisher] Flareon
+|-heal|p2a: Toxapex|75/100 par|[from] item: Black Sludge
+|-damage|p1a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|switch|p2a: Corsola|Corsola-Galar, M|88/100
+|-damage|p2a: Corsola|76/100|[from] Stealth Rock
+|move|p1a: Conkeldurr|Earthquake|p2a: Corsola
+|-damage|p2a: Corsola|48/100
+|
+|-damage|p1a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|switch|p1a: Clefable|Clefable, F|79/100 tox
+|move|p2a: Corsola|Strength Sap|p1a: Clefable
+|-unboost|p1a: Clefable|atk|1
+|-heal|p2a: Corsola|88/100
+|
+|upkeep
+|turn|33
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|88/100
+|switch|p2a: Toxapex|Toxapex, M|100/100 par
+|-damage|p2a: Toxapex|88/100 par|[from] Stealth Rock
+|
+|-heal|p2a: Toxapex|94/100 par|[from] item: Black Sludge
+|upkeep
+|turn|34
+|
+|move|p1a: Mandibuzz|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|76/100 par
+|-enditem|p2a: Toxapex|Black Sludge|[from] move: Knock Off|[of] p1a: Mandibuzz
+|move|p2a: Toxapex|Toxic|p1a: Mandibuzz
+|-status|p1a: Mandibuzz|tox
+|
+|-damage|p1a: Mandibuzz|82/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|move|p1a: Mandibuzz|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|72/100 par
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|88/100 brn|[from]move: U-turn
+|-damage|p1a: Conkeldurr|72/100 brn|[from] Spikes
+|move|p2a: Toxapex|Toxic||[still]
+|-fail|p2a: Toxapex
+|
+|-damage|p1a: Conkeldurr|66/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|switch|p1a: Clefable|Clefable, F|79/100 tox
+|switch|p2a: Corsola|Corsola-Galar, M|88/100
+|-damage|p2a: Corsola|75/100|[from] Stealth Rock
+|
+|upkeep
+|turn|37
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100 par
+|-damage|p2a: Toxapex|88/100 par|[from] Stealth Rock
+|move|p1a: Clefable|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|50/100 par
+|
+|upkeep
+|turn|38
+|
+|move|p1a: Clefable|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|14/100 par
+|move|p2a: Toxapex|Venoshock|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|66/100 brn
+|-damage|p1a: Conkeldurr|49/100 brn|[from] Spikes
+|turn|39
+|
+|switch|p2a: Corsola|Corsola-Galar, M|75/100
+|-damage|p2a: Corsola|63/100|[from] Stealth Rock
+|move|p1a: Conkeldurr|Earthquake|p2a: Corsola
+|-damage|p2a: Corsola|30/100
+|
+|-damage|p1a: Conkeldurr|43/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|move|p1a: Conkeldurr|Earthquake|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-start|p1a: Conkeldurr|Disable|Earthquake|[from] ability: Cursed Body|[of] p2a: Corsola
+|faint|p2a: Corsola
+|
+|-damage|p1a: Conkeldurr|37/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|47/100 par
+|-damage|p2a: Toxapex|34/100 par|[from] Stealth Rock
+|turn|41
+|
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-damage|p1a: Conkeldurr|31/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|88/100
+|-damage|p2a: Ditto|76/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Conkeldurr|[from] ability: Imposter
+|turn|42
+|
+|switch|p1a: Seismitoad|Seismitoad, M|94/100
+|-damage|p1a: Seismitoad|77/100|[from] Spikes
+|move|p2a: Ditto|Drain Punch|p1a: Seismitoad
+|-damage|p1a: Seismitoad|44/100
+|-heal|p2a: Ditto|99/100|[from] drain|[of] p1a: Seismitoad
+|
+|-heal|p1a: Seismitoad|50/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|66/100 brn
+|-damage|p2a: Ferrothorn|60/100 brn|[from] Stealth Rock
+|move|p1a: Seismitoad|Protect||[still]
+|-fail|p1a: Seismitoad
+|
+|-heal|p1a: Seismitoad|56/100|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|54/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|switch|p1a: Flareon|Flareon, M|56/100
+|-damage|p1a: Flareon|40/100|[from] Spikes
+|move|p2a: Ferrothorn|Leech Seed|p1a: Flareon
+|-start|p1a: Flareon|move: Leech Seed
+|
+|-damage|p1a: Flareon|28/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|65/100 brn|[silent]
+|-damage|p2a: Ferrothorn|59/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|switch|p2a: Ditto|Ditto|99/100
+|-damage|p2a: Ditto|86/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Flareon|[from] ability: Imposter
+|move|p1a: Flareon|Wish|p1a: Flareon
+|
+|-damage|p1a: Flareon|15/100|[from] Leech Seed|[of] p2a: Ditto
+|-heal|p2a: Ditto|99/100|[silent]
+|upkeep
+|turn|46
+|
+|move|p2a: Ditto|Lava Plume|p1a: Flareon
+|-start|p1a: Flareon|ability: Flash Fire
+|move|p1a: Flareon|Lava Plume|p2a: Ditto
+|-start|p2a: Ditto|ability: Flash Fire
+|
+|-heal|p1a: Flareon|65/100|[from] move: Wish|[wisher] Flareon
+|-damage|p1a: Flareon|53/100|[from] Leech Seed|[of] p2a: Ditto
+|-heal|p2a: Ditto|100/100|[silent]
+|upkeep
+|turn|47
+|
+|move|p2a: Ditto|Lava Plume|p1a: Flareon
+|-immune|p1a: Flareon|[from] ability: Flash Fire
+|move|p1a: Flareon|Wish|p1a: Flareon
+|
+|-damage|p1a: Flareon|41/100|[from] Leech Seed|[of] p2a: Ditto
+|upkeep
+|turn|48
+|
+|-end|p2a: Ditto|ability: Flash Fire|[silent]
+|switch|p2a: Sylveon|Sylveon, F|81/100
+|-damage|p2a: Sylveon|68/100|[from] Stealth Rock
+|move|p1a: Flareon|Lava Plume|p2a: Sylveon
+|-damage|p2a: Sylveon|45/100
+|
+|-heal|p1a: Flareon|91/100|[from] move: Wish|[wisher] Flareon
+|-heal|p2a: Sylveon|52/100|[from] item: Leftovers
+|-damage|p1a: Flareon|79/100|[from] Leech Seed|[of] p2a: Sylveon
+|-heal|p2a: Sylveon|63/100|[silent]
+|upkeep
+|turn|49
+|
+|move|p1a: Flareon|Wish|p1a: Flareon
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|69/100|[from] item: Leftovers
+|-damage|p1a: Flareon|66/100|[from] Leech Seed|[of] p2a: Sylveon
+|-heal|p2a: Sylveon|81/100|[silent]
+|upkeep
+|turn|50
+|
+|-end|p1a: Flareon|ability: Flash Fire|[silent]
+|switch|p1a: Mandibuzz|Mandibuzz, F|82/100 tox
+|move|p2a: Sylveon|Hyper Voice|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|18/100 tox
+|
+|-heal|p2a: Sylveon|100/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Mandibuzz|57/100 tox|[from] move: Wish|[wisher] Flareon
+|-damage|p1a: Mandibuzz|51/100 tox|[from] psn
+|upkeep
+|turn|51
+|
+|move|p1a: Mandibuzz|U-turn|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|93/100
+|
+|switch|p1a: Flareon|Flareon, M|66/100|[from]move: U-turn
+|-damage|p1a: Flareon|50/100|[from] Spikes
+|move|p2a: Sylveon|Hyper Voice|p1a: Flareon
+|-resisted|p1a: Flareon
+|-damage|p1a: Flareon|29/100
+|
+|-heal|p2a: Sylveon|99/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|move|p1a: Flareon|Wish|p1a: Flareon
+|move|p2a: Sylveon|Hyper Voice|p1a: Flareon
+|-resisted|p1a: Flareon
+|-damage|p1a: Flareon|10/100
+|
+|-heal|p2a: Sylveon|100/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|move|p1a: Flareon|Protect|p1a: Flareon
+|-singleturn|p1a: Flareon|Protect
+|move|p2a: Sylveon|Hyper Voice|p1a: Flareon
+|-activate|p1a: Flareon|move: Protect
+|
+|-heal|p1a: Flareon|60/100|[from] move: Wish|[wisher] Flareon
+|upkeep
+|turn|54
+|
+|move|p1a: Flareon|Wish|p1a: Flareon
+|move|p2a: Sylveon|Hyper Voice|p1a: Flareon
+|-resisted|p1a: Flareon
+|-damage|p1a: Flareon|39/100
+|
+|upkeep
+|turn|55
+|
+|move|p1a: Flareon|Lava Plume|p2a: Sylveon
+|-damage|p2a: Sylveon|86/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Flareon
+|-resisted|p1a: Flareon
+|-damage|p1a: Flareon|19/100
+|
+|-heal|p1a: Flareon|69/100|[from] move: Wish|[wisher] Flareon
+|-heal|p2a: Sylveon|92/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|move|p1a: Flareon|Will-O-Wisp|p2a: Sylveon|[miss]
+|-miss|p1a: Flareon|p2a: Sylveon
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|98/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-damage|p2a: Ditto|88/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Flareon|[from] ability: Imposter
+|move|p1a: Flareon|Wish|p1a: Flareon
+|
+|-heal|p2a: Ditto|100/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|58
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|51/100 tox
+|move|p2a: Ditto|Lava Plume|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|35/100 tox
+|
+|-heal|p1a: Mandibuzz|75/100 tox|[from] move: Wish|[wisher] Flareon
+|-damage|p1a: Mandibuzz|69/100 tox|[from] psn
+|upkeep
+|turn|59
+|
+|switch|p2a: Sylveon|Sylveon, F|98/100
+|-damage|p2a: Sylveon|85/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Knock Off|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|67/100
+|-enditem|p2a: Sylveon|Leftovers|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|-damage|p1a: Mandibuzz|57/100 tox|[from] psn
+|upkeep
+|turn|60
+|
+|move|p1a: Mandibuzz|U-turn|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|58/100
+|
+|switch|p1a: Flareon|Flareon, M|69/100|[from]move: U-turn
+|-damage|p1a: Flareon|53/100|[from] Spikes
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|upkeep
+|turn|61
+|
+|move|p1a: Flareon|Wish|p1a: Flareon
+|move|p2a: Sylveon|Hyper Voice|p1a: Flareon
+|-resisted|p1a: Flareon
+|-damage|p1a: Flareon|35/100
+|
+|-heal|p2a: Sylveon|100/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|62
+|
+|move|p1a: Flareon|Will-O-Wisp|p2a: Sylveon
+|-status|p2a: Sylveon|brn
+|move|p2a: Sylveon|Hyper Voice|p1a: Flareon
+|-resisted|p1a: Flareon
+|-damage|p1a: Flareon|13/100
+|
+|-heal|p1a: Flareon|63/100|[from] move: Wish|[wisher] Flareon
+|-damage|p2a: Sylveon|94/100 brn|[from] brn
+|upkeep
+|turn|63
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-damage|p2a: Ditto|88/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Flareon|[from] ability: Imposter
+|move|p1a: Flareon|Lava Plume|p2a: Ditto
+|-start|p2a: Ditto|ability: Flash Fire
+|
+|upkeep
+|turn|64
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|57/100 tox
+|move|p2a: Ditto|Lava Plume|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|30/100 tox
+|
+|-damage|p1a: Mandibuzz|24/100 tox|[from] psn
+|upkeep
+|turn|65
+|inactive|Baganha has 120 seconds left.
+|
+|move|p2a: Ditto|Lava Plume|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|1/100 tox
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|51/100 tox
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Mandibuzz|39/100 tox|[from] psn
+|upkeep
+|turn|66
+|
+|switch|p1a: Flareon|Flareon, M|63/100
+|-damage|p1a: Flareon|47/100|[from] Spikes
+|move|p2a: Ditto|Lava Plume|p1a: Flareon
+|-start|p1a: Flareon|ability: Flash Fire
+|
+|upkeep
+|turn|67
+|
+|-end|p2a: Ditto|ability: Flash Fire|[silent]
+|switch|p2a: Sylveon|Sylveon, F|94/100 brn
+|-damage|p2a: Sylveon|82/100 brn|[from] Stealth Rock
+|move|p1a: Flareon|Lava Plume|p2a: Sylveon
+|-damage|p2a: Sylveon|60/100 brn
+|
+|-damage|p2a: Sylveon|54/100 brn|[from] brn
+|upkeep
+|turn|68
+|
+|move|p1a: Flareon|Lava Plume|p2a: Sylveon
+|-damage|p2a: Sylveon|31/100 brn
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-damage|p2a: Sylveon|25/100 brn|[from] brn
+|upkeep
+|turn|69
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Flareon|Wish|p1a: Flareon
+|
+|-heal|p2a: Sylveon|75/100 brn|[from] move: Wish|[wisher] Sylveon
+|-damage|p2a: Sylveon|69/100 brn|[from] brn
+|upkeep
+|turn|70
+|
+|move|p1a: Flareon|Lava Plume|p2a: Sylveon
+|-damage|p2a: Sylveon|45/100 brn
+|move|p2a: Sylveon|Hyper Voice|p1a: Flareon
+|-resisted|p1a: Flareon
+|-damage|p1a: Flareon|28/100
+|
+|-heal|p1a: Flareon|78/100|[from] move: Wish|[wisher] Flareon
+|-damage|p2a: Sylveon|39/100 brn|[from] brn
+|upkeep
+|turn|71
+|inactive|Baganha has 120 seconds left.
+|
+|move|p1a: Flareon|Lava Plume|p2a: Sylveon
+|-damage|p2a: Sylveon|17/100 brn
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-damage|p2a: Sylveon|11/100 brn|[from] brn
+|upkeep
+|turn|72
+|inactive|Baganha has 120 seconds left.
+|
+|-end|p1a: Flareon|ability: Flash Fire|[silent]
+|switch|p1a: Conkeldurr|Conkeldurr, M|31/100 brn
+|-damage|p1a: Conkeldurr|14/100 brn|[from] Spikes
+|move|p2a: Sylveon|Protect||[still]
+|-fail|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|61/100 brn|[from] move: Wish|[wisher] Sylveon
+|-damage|p2a: Sylveon|55/100 brn|[from] brn
+|-damage|p1a: Conkeldurr|8/100 brn|[from] brn
+|upkeep
+|turn|73
+|inactive|Baganha has 120 seconds left.
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Conkeldurr|Drain Punch|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-damage|p2a: Sylveon|49/100 brn|[from] brn
+|-damage|p1a: Conkeldurr|2/100 brn|[from] brn
+|upkeep
+|turn|74
+|inactive|Baganha has 120 seconds left.
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|59/100 brn
+|-damage|p2a: Ferrothorn|53/100 brn|[from] Stealth Rock
+|move|p1a: Conkeldurr|Drain Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-heal|p1a: Conkeldurr|24/100 brn|[from] drain|[of] p2a: Ferrothorn
+|-damage|p1a: Conkeldurr|12/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Conkeldurr|0 fnt|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|inactive|Baganha has 120 seconds left.
+|
+|switch|p1a: Flareon|Flareon, M|78/100
+|switch|p2a: Sylveon|Sylveon, F|49/100 brn
+|-damage|p1a: Flareon|62/100|[from] Spikes
+|-damage|p2a: Sylveon|36/100 brn|[from] Stealth Rock
+|turn|75
+|
+|move|p1a: Flareon|Lava Plume|p2a: Sylveon
+|-damage|p2a: Sylveon|21/100 brn
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-damage|p2a: Sylveon|15/100 brn|[from] brn
+|upkeep
+|turn|76
+|inactive|Baganha has 120 seconds left.
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Flareon|Wish|p1a: Flareon
+|
+|-heal|p2a: Sylveon|65/100 brn|[from] move: Wish|[wisher] Sylveon
+|-damage|p2a: Sylveon|59/100 brn|[from] brn
+|upkeep
+|turn|77
+|
+|move|p1a: Flareon|Protect|p1a: Flareon
+|-singleturn|p1a: Flareon|Protect
+|move|p2a: Sylveon|Hyper Voice|p1a: Flareon
+|-activate|p1a: Flareon|move: Protect
+|
+|-heal|p1a: Flareon|100/100|[from] move: Wish|[wisher] Flareon
+|-damage|p2a: Sylveon|53/100 brn|[from] brn
+|upkeep
+|turn|78
+|
+|move|p1a: Flareon|Lava Plume|p2a: Sylveon
+|-damage|p2a: Sylveon|37/100 brn
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-damage|p2a: Sylveon|31/100 brn|[from] brn
+|upkeep
+|turn|79
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Flareon|Will-O-Wisp|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p2a: Sylveon|81/100 brn|[from] move: Wish|[wisher] Sylveon
+|-damage|p2a: Sylveon|75/100 brn|[from] brn
+|upkeep
+|turn|80
+|
+|switch|p2a: Ditto|Ditto|88/100
+|-damage|p2a: Ditto|76/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Flareon|[from] ability: Imposter
+|move|p1a: Flareon|Will-O-Wisp|p2a: Ditto
+|-start|p2a: Ditto|ability: Flash Fire
+|
+|upkeep
+|turn|81
+|
+|-end|p2a: Ditto|ability: Flash Fire|[silent]
+|switch|p2a: Sylveon|Sylveon, F|75/100 brn
+|-damage|p2a: Sylveon|63/100 brn|[from] Stealth Rock
+|move|p1a: Flareon|Wish|p1a: Flareon
+|
+|-damage|p2a: Sylveon|56/100 brn|[from] brn
+|upkeep
+|turn|82
+|
+|move|p1a: Flareon|Will-O-Wisp|p2a: Sylveon
+|-fail|p2a: Sylveon|brn
+|move|p2a: Sylveon|Hyper Voice|p1a: Flareon
+|-resisted|p1a: Flareon
+|-damage|p1a: Flareon|82/100
+|
+|-heal|p1a: Flareon|100/100|[from] move: Wish|[wisher] Flareon
+|-damage|p2a: Sylveon|50/100 brn|[from] brn
+|upkeep
+|turn|83
+|
+|move|p1a: Flareon|Will-O-Wisp|p2a: Sylveon
+|-fail|p2a: Sylveon|brn
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-damage|p2a: Sylveon|44/100 brn|[from] brn
+|upkeep
+|turn|84
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Flareon|Lava Plume|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p2a: Sylveon|94/100 brn|[from] move: Wish|[wisher] Sylveon
+|-damage|p2a: Sylveon|88/100 brn|[from] brn
+|upkeep
+|turn|85
+|
+|switch|p2a: Ditto|Ditto|76/100
+|-damage|p2a: Ditto|63/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Flareon|[from] ability: Imposter
+|move|p1a: Flareon|Will-O-Wisp|p2a: Ditto
+|-start|p2a: Ditto|ability: Flash Fire
+|
+|upkeep
+|turn|86
+|
+|move|p2a: Ditto|Wish|p2a: Ditto
+|move|p1a: Flareon|Wish|p1a: Flareon
+|
+|upkeep
+|turn|87
+|
+|-end|p2a: Ditto|ability: Flash Fire|[silent]
+|switch|p2a: Sylveon|Sylveon, F|88/100 brn
+|-damage|p2a: Sylveon|76/100 brn|[from] Stealth Rock
+|switch|p1a: Mandibuzz|Mandibuzz, F|39/100 tox
+|
+|-heal|p1a: Mandibuzz|79/100 tox|[from] move: Wish|[wisher] Flareon
+|-heal|p2a: Sylveon|100/100 brn|[from] move: Wish|[wisher] Ditto
+|-damage|p1a: Mandibuzz|72/100 tox|[from] psn
+|-damage|p2a: Sylveon|94/100 brn|[from] brn
+|upkeep
+|turn|88
+|
+|switch|p1a: Flareon|Flareon, M|100/100
+|-damage|p1a: Flareon|84/100|[from] Spikes
+|move|p2a: Sylveon|Hyper Voice|p1a: Flareon
+|-resisted|p1a: Flareon
+|-damage|p1a: Flareon|63/100
+|
+|-damage|p2a: Sylveon|88/100 brn|[from] brn
+|upkeep
+|turn|89
+|
+|switch|p2a: Ditto|Ditto|63/100
+|-damage|p2a: Ditto|51/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Flareon|[from] ability: Imposter
+|move|p1a: Flareon|Will-O-Wisp|p2a: Ditto
+|-start|p2a: Ditto|ability: Flash Fire
+|
+|upkeep
+|turn|90
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|72/100 tox
+|move|p2a: Ditto|Wish|p2a: Ditto
+|
+|-damage|p1a: Mandibuzz|66/100 tox|[from] psn
+|upkeep
+|turn|91
+|
+|move|p2a: Ditto|Wish||[still]
+|-fail|p2a: Ditto
+|move|p1a: Mandibuzz|Defog|p2a: Ditto
+|-unboost|p2a: Ditto|evasion|1
+|-sideend|p2: LeaderMissingNo|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|-sideend|p1: Baganha|Spikes|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|-heal|p2a: Ditto|100/100|[from] move: Wish|[wisher] Ditto
+|-damage|p1a: Mandibuzz|54/100 tox|[from] psn
+|upkeep
+|turn|92
+|
+|-end|p2a: Ditto|ability: Flash Fire|[silent]
+|switch|p2a: Sylveon|Sylveon, F|88/100 brn
+|move|p1a: Mandibuzz|U-turn|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|80/100 brn
+|
+|switch|p1a: Seismitoad|Seismitoad, M|56/100|[from]move: U-turn
+|
+|-heal|p1a: Seismitoad|62/100|[from] item: Leftovers
+|-damage|p2a: Sylveon|74/100 brn|[from] brn
+|upkeep
+|turn|93
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Seismitoad|[from] ability: Imposter
+|move|p1a: Seismitoad|Protect||[still]
+|-fail|p1a: Seismitoad
+|
+|-heal|p1a: Seismitoad|68/100|[from] item: Leftovers
+|upkeep
+|turn|94
+|
+|move|p2a: Ditto|Toxic|p1a: Seismitoad
+|-status|p1a: Seismitoad|tox
+|move|p1a: Seismitoad|Toxic|p2a: Ditto
+|-status|p2a: Ditto|tox
+|
+|-heal|p1a: Seismitoad|74/100 tox|[from] item: Leftovers
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|-damage|p1a: Seismitoad|68/100 tox|[from] psn
+|upkeep
+|turn|95
+|
+|switch|p2a: Sylveon|Sylveon, F|74/100 brn
+|move|p1a: Seismitoad|Stealth Rock|p2a: Sylveon
+|-sidestart|p2: LeaderMissingNo|move: Stealth Rock
+|
+|-heal|p1a: Seismitoad|74/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|62/100 tox|[from] psn
+|-damage|p2a: Sylveon|68/100 brn|[from] brn
+|upkeep
+|turn|96
+|
+|switch|p1a: Flareon|Flareon, M|63/100
+|switch|p2a: Ditto|Ditto|94/100 tox
+|-damage|p2a: Ditto|82/100 tox|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Flareon|[from] ability: Imposter
+|
+|-damage|p2a: Ditto|76/100 tox|[from] psn
+|upkeep
+|turn|97
+|
+|move|p2a: Ditto|Wish|p2a: Ditto
+|move|p1a: Flareon|Lava Plume|p2a: Ditto
+|-start|p2a: Ditto|ability: Flash Fire
+|
+|-damage|p2a: Ditto|64/100 tox|[from] psn
+|upkeep
+|turn|98
+|
+|-end|p2a: Ditto|ability: Flash Fire|[silent]
+|switch|p2a: Sylveon|Sylveon, F|68/100 brn
+|-damage|p2a: Sylveon|56/100 brn|[from] Stealth Rock
+|switch|p1a: Seismitoad|Seismitoad, M|62/100 tox
+|
+|-heal|p2a: Sylveon|99/100 brn|[from] move: Wish|[wisher] Ditto
+|-heal|p1a: Seismitoad|68/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|62/100 tox|[from] psn
+|-damage|p2a: Sylveon|93/100 brn|[from] brn
+|upkeep
+|turn|99
+|
+|switch|p1a: Flareon|Flareon, M|63/100
+|move|p2a: Sylveon|Protect||[still]
+|-fail|p2a: Sylveon
+|
+|-damage|p2a: Sylveon|87/100 brn|[from] brn
+|upkeep
+|turn|100
+|
+|move|p1a: Flareon|Will-O-Wisp|p2a: Sylveon
+|-fail|p2a: Sylveon|brn
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-damage|p2a: Sylveon|81/100 brn|[from] brn
+|upkeep
+|turn|101
+|
+|switch|p1a: Seismitoad|Seismitoad, M|62/100 tox
+|switch|p2a: Ditto|Ditto|64/100 tox
+|-damage|p2a: Ditto|52/100 tox|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Seismitoad|[from] ability: Imposter
+|
+|-heal|p2a: Ditto|100/100 tox|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Seismitoad|68/100 tox|[from] item: Leftovers
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|-damage|p1a: Seismitoad|62/100 tox|[from] psn
+|upkeep
+|turn|102
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|54/100 tox
+|move|p2a: Ditto|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: Baganha|move: Stealth Rock
+|
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|-damage|p1a: Mandibuzz|48/100 tox|[from] psn
+|upkeep
+|turn|103
+|
+|switch|p2a: Sylveon|Sylveon, F|81/100 brn
+|-damage|p2a: Sylveon|68/100 brn|[from] Stealth Rock
+|move|p1a: Mandibuzz|Defog|p2a: Sylveon
+|-unboost|p2a: Sylveon|evasion|1
+|-sideend|p2: LeaderMissingNo|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|-sideend|p1: Baganha|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|-damage|p1a: Mandibuzz|35/100 tox|[from] psn
+|-damage|p2a: Sylveon|62/100 brn|[from] brn
+|upkeep
+|turn|104
+|
+|move|p1a: Mandibuzz|U-turn|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|54/100 brn
+|
+|switch|p1a: Flareon|Flareon, M|63/100|[from]move: U-turn
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-damage|p2a: Sylveon|47/100 brn|[from] brn
+|upkeep
+|turn|105
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Flareon|Wish|p1a: Flareon
+|
+|-heal|p2a: Sylveon|97/100 brn|[from] move: Wish|[wisher] Sylveon
+|-damage|p2a: Sylveon|91/100 brn|[from] brn
+|upkeep
+|turn|106
+|
+|switch|p1a: Seismitoad|Seismitoad, M|62/100 tox
+|move|p2a: Sylveon|Hyper Voice|p1a: Seismitoad
+|-damage|p1a: Seismitoad|11/100 tox
+|
+|-heal|p1a: Seismitoad|51/100 tox|[from] move: Wish|[wisher] Flareon
+|-heal|p1a: Seismitoad|58/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|51/100 tox|[from] psn
+|-damage|p2a: Sylveon|85/100 brn|[from] brn
+|upkeep
+|turn|107
+|
+|switch|p1a: Flareon|Flareon, M|63/100
+|switch|p2a: Ditto|Ditto|82/100 tox
+|-transform|p2a: Ditto|p1a: Flareon|[from] ability: Imposter
+|
+|-damage|p2a: Ditto|76/100 tox|[from] psn
+|upkeep
+|turn|108
+|
+|move|p2a: Ditto|Wish|p2a: Ditto
+|move|p1a: Flareon|Wish|p1a: Flareon
+|
+|-damage|p2a: Ditto|64/100 tox|[from] psn
+|upkeep
+|turn|109
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|35/100 tox
+|move|p2a: Ditto|Wish||[still]
+|-fail|p2a: Ditto
+|
+|-heal|p1a: Mandibuzz|75/100 tox|[from] move: Wish|[wisher] Flareon
+|-heal|p2a: Ditto|100/100 tox|[from] move: Wish|[wisher] Ditto
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|-damage|p1a: Mandibuzz|69/100 tox|[from] psn
+|upkeep
+|turn|110
+|
+|switch|p2a: Sylveon|Sylveon, F|85/100 brn
+|move|p1a: Mandibuzz|U-turn|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|77/100 brn
+|
+|switch|p1a: Flareon|Flareon, M|63/100|[from]move: U-turn
+|
+|-damage|p2a: Sylveon|71/100 brn|[from] brn
+|upkeep
+|turn|111
+|inactive|Baganha has 120 seconds left.
+|
+|switch|p2a: Ditto|Ditto|82/100 tox
+|-transform|p2a: Ditto|p1a: Flareon|[from] ability: Imposter
+|move|p1a: Flareon|Will-O-Wisp|p2a: Ditto
+|-start|p2a: Ditto|ability: Flash Fire
+|
+|-damage|p2a: Ditto|76/100 tox|[from] psn
+|upkeep
+|turn|112
+|inactive|Baganha has 120 seconds left.
+|
+|switch|p1a: Seismitoad|Seismitoad, M|51/100 tox
+|move|p2a: Ditto|Wish|p2a: Ditto
+|
+|-heal|p1a: Seismitoad|58/100 tox|[from] item: Leftovers
+|-damage|p2a: Ditto|64/100 tox|[from] psn
+|-damage|p1a: Seismitoad|51/100 tox|[from] psn
+|upkeep
+|turn|113
+|
+|-end|p2a: Ditto|ability: Flash Fire|[silent]
+|switch|p2a: Sylveon|Sylveon, F|71/100 brn
+|move|p1a: Seismitoad|Stealth Rock|p2a: Sylveon
+|-sidestart|p2: LeaderMissingNo|move: Stealth Rock
+|
+|-heal|p2a: Sylveon|100/100 brn|[from] move: Wish|[wisher] Ditto
+|-heal|p1a: Seismitoad|58/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|45/100 tox|[from] psn
+|-damage|p2a: Sylveon|94/100 brn|[from] brn
+|upkeep
+|turn|114
+|
+|switch|p1a: Flareon|Flareon, M|63/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Flareon
+|-resisted|p1a: Flareon
+|-crit|p1a: Flareon
+|-damage|p1a: Flareon|36/100
+|
+|-damage|p2a: Sylveon|88/100 brn|[from] brn
+|upkeep
+|turn|115
+|
+|move|p1a: Flareon|Wish|p1a: Flareon
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-damage|p2a: Sylveon|82/100 brn|[from] brn
+|upkeep
+|turn|116
+|
+|switch|p2a: Ditto|Ditto|64/100 tox
+|-damage|p2a: Ditto|52/100 tox|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Flareon|[from] ability: Imposter
+|move|p1a: Flareon|Protect||[still]
+|-fail|p1a: Flareon
+|
+|-heal|p2a: Ditto|100/100 tox|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Flareon|86/100|[from] move: Wish|[wisher] Flareon
+|-damage|p2a: Ditto|94/100 tox|[from] psn
+|upkeep
+|turn|117
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|69/100 tox
+|move|p2a: Ditto|Wish|p2a: Ditto
+|
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|-damage|p1a: Mandibuzz|63/100 tox|[from] psn
+|upkeep
+|turn|118
+|
+|switch|p2a: Sylveon|Sylveon, F|82/100 brn
+|-damage|p2a: Sylveon|70/100 brn|[from] Stealth Rock
+|switch|p1a: Flareon|Flareon, M|86/100
+|
+|-heal|p2a: Sylveon|100/100 brn|[from] move: Wish|[wisher] Ditto
+|-damage|p2a: Sylveon|94/100 brn|[from] brn
+|upkeep
+|turn|119
+|
+|switch|p2a: Ditto|Ditto|82/100 tox
+|-damage|p2a: Ditto|70/100 tox|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Flareon|[from] ability: Imposter
+|move|p1a: Flareon|Will-O-Wisp|p2a: Ditto
+|-start|p2a: Ditto|ability: Flash Fire
+|
+|-damage|p2a: Ditto|64/100 tox|[from] psn
+|upkeep
+|turn|120
+|
+|move|p1a: Flareon|Protect|p1a: Flareon
+|-singleturn|p1a: Flareon|Protect
+|move|p2a: Ditto|Wish|p2a: Ditto
+|
+|-damage|p2a: Ditto|52/100 tox|[from] psn
+|upkeep
+|turn|121
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|63/100 tox
+|move|p2a: Ditto|Wish||[still]
+|-fail|p2a: Ditto
+|
+|-heal|p2a: Ditto|100/100 tox|[from] move: Wish|[wisher] Ditto
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|-damage|p1a: Mandibuzz|57/100 tox|[from] psn
+|upkeep
+|turn|122
+|
+|-end|p2a: Ditto|ability: Flash Fire|[silent]
+|switch|p2a: Sylveon|Sylveon, F|94/100 brn
+|-damage|p2a: Sylveon|82/100 brn|[from] Stealth Rock
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 tox
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Mandibuzz|88/100 tox|[from] psn
+|-damage|p2a: Sylveon|76/100 brn|[from] brn
+|upkeep
+|turn|123
+|
+|switch|p1a: Flareon|Flareon, M|86/100
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-damage|p2a: Sylveon|70/100 brn|[from] brn
+|upkeep
+|turn|124
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|88/100 tox
+|move|p2a: Sylveon|Protect||[still]
+|-fail|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|100/100 brn|[from] move: Wish|[wisher] Sylveon
+|-damage|p1a: Mandibuzz|82/100 tox|[from] psn
+|-damage|p2a: Sylveon|94/100 brn|[from] brn
+|upkeep
+|turn|125
+|
+|switch|p1a: Flareon|Flareon, M|86/100
+|move|p2a: Sylveon|Mystical Fire|p1a: Flareon
+|-start|p1a: Flareon|ability: Flash Fire
+|
+|-damage|p2a: Sylveon|88/100 brn|[from] brn
+|upkeep
+|turn|126
+|
+|switch|p2a: Ditto|Ditto|82/100 tox
+|-damage|p2a: Ditto|70/100 tox|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Flareon|[from] ability: Imposter
+|move|p1a: Flareon|Lava Plume|p2a: Ditto
+|-start|p2a: Ditto|ability: Flash Fire
+|
+|-damage|p2a: Ditto|64/100 tox|[from] psn
+|upkeep
+|turn|127
+|
+|move|p2a: Ditto|Wish|p2a: Ditto
+|move|p1a: Flareon|Will-O-Wisp|p2a: Ditto
+|-immune|p2a: Ditto|[from] ability: Flash Fire
+|
+|-damage|p2a: Ditto|52/100 tox|[from] psn
+|upkeep
+|turn|128
+|
+|-end|p1a: Flareon|ability: Flash Fire|[silent]
+|switch|p1a: Mandibuzz|Mandibuzz, F|82/100 tox
+|move|p2a: Ditto|Wish||[still]
+|-fail|p2a: Ditto
+|
+|-heal|p2a: Ditto|100/100 tox|[from] move: Wish|[wisher] Ditto
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|-damage|p1a: Mandibuzz|76/100 tox|[from] psn
+|upkeep
+|turn|129
+|
+|-end|p2a: Ditto|ability: Flash Fire|[silent]
+|switch|p2a: Sylveon|Sylveon, F|88/100 brn
+|-damage|p2a: Sylveon|76/100 brn|[from] Stealth Rock
+|switch|p1a: Flareon|Flareon, M|86/100
+|
+|-damage|p2a: Sylveon|70/100 brn|[from] brn
+|upkeep
+|turn|130
+|
+|move|p1a: Flareon|Lava Plume|p2a: Sylveon
+|-damage|p2a: Sylveon|54/100 brn
+|move|p2a: Sylveon|Hyper Voice|p1a: Flareon
+|-resisted|p1a: Flareon
+|-damage|p1a: Flareon|67/100
+|
+|-damage|p2a: Sylveon|48/100 brn|[from] brn
+|upkeep
+|turn|131
+|
+|move|p1a: Flareon|Will-O-Wisp|p2a: Sylveon
+|-fail|p2a: Sylveon|brn
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-damage|p2a: Sylveon|42/100 brn|[from] brn
+|upkeep
+|turn|132
+|
+|switch|p1a: Seismitoad|Seismitoad, M|45/100 tox
+|move|p2a: Sylveon|Protect||[still]
+|-fail|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|92/100 brn|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Seismitoad|51/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|45/100 tox|[from] psn
+|-damage|p2a: Sylveon|86/100 brn|[from] brn
+|upkeep
+|turn|133
+|
+|switch|p1a: Flareon|Flareon, M|67/100
+|switch|p2a: Ditto|Ditto|82/100 tox
+|-damage|p2a: Ditto|70/100 tox|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Flareon|[from] ability: Imposter
+|
+|-damage|p2a: Ditto|64/100 tox|[from] psn
+|upkeep
+|turn|134
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|76/100 tox
+|move|p2a: Ditto|Wish|p2a: Ditto
+|
+|-damage|p2a: Ditto|52/100 tox|[from] psn
+|-damage|p1a: Mandibuzz|70/100 tox|[from] psn
+|upkeep
+|turn|135
+|
+|switch|p1a: Flareon|Flareon, M|67/100
+|move|p2a: Ditto|Wish||[still]
+|-fail|p2a: Ditto
+|
+|-heal|p2a: Ditto|100/100 tox|[from] move: Wish|[wisher] Ditto
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|upkeep
+|turn|136
+|
+|switch|p2a: Sylveon|Sylveon, F|86/100 brn
+|-damage|p2a: Sylveon|73/100 brn|[from] Stealth Rock
+|switch|p1a: Seismitoad|Seismitoad, M|45/100 tox
+|
+|-heal|p1a: Seismitoad|51/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|45/100 tox|[from] psn
+|-damage|p2a: Sylveon|67/100 brn|[from] brn
+|upkeep
+|turn|137
+|
+|switch|p1a: Flareon|Flareon, M|67/100
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-damage|p2a: Sylveon|61/100 brn|[from] brn
+|upkeep
+|turn|138
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Flareon|Will-O-Wisp|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p2a: Sylveon|100/100 brn|[from] move: Wish|[wisher] Sylveon
+|-damage|p2a: Sylveon|94/100 brn|[from] brn
+|upkeep
+|turn|139
+|
+|switch|p2a: Ditto|Ditto|82/100 tox
+|-damage|p2a: Ditto|70/100 tox|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Flareon|[from] ability: Imposter
+|move|p1a: Flareon|Lava Plume|p2a: Ditto
+|-start|p2a: Ditto|ability: Flash Fire
+|
+|-damage|p2a: Ditto|64/100 tox|[from] psn
+|upkeep
+|turn|140
+|
+|move|p2a: Ditto|Wish|p2a: Ditto
+|move|p1a: Flareon|Will-O-Wisp|p2a: Ditto
+|-immune|p2a: Ditto|[from] ability: Flash Fire
+|
+|-damage|p2a: Ditto|52/100 tox|[from] psn
+|upkeep
+|turn|141
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|70/100 tox
+|move|p2a: Ditto|Wish||[still]
+|-fail|p2a: Ditto
+|
+|-heal|p2a: Ditto|100/100 tox|[from] move: Wish|[wisher] Ditto
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|-damage|p1a: Mandibuzz|64/100 tox|[from] psn
+|upkeep
+|turn|142
+|
+|-end|p2a: Ditto|ability: Flash Fire|[silent]
+|switch|p2a: Sylveon|Sylveon, F|94/100 brn
+|-damage|p2a: Sylveon|82/100 brn|[from] Stealth Rock
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 tox
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Mandibuzz|88/100 tox|[from] psn
+|-damage|p2a: Sylveon|76/100 brn|[from] brn
+|upkeep
+|turn|143
+|
+|switch|p1a: Flareon|Flareon, M|67/100
+|switch|p2a: Ditto|Ditto|82/100 tox
+|-damage|p2a: Ditto|70/100 tox|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Flareon|[from] ability: Imposter
+|
+|-damage|p2a: Ditto|64/100 tox|[from] psn
+|upkeep
+|turn|144
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|88/100 tox
+|move|p2a: Ditto|Wish|p2a: Ditto
+|
+|-damage|p2a: Ditto|52/100 tox|[from] psn
+|-damage|p1a: Mandibuzz|82/100 tox|[from] psn
+|upkeep
+|turn|145
+|
+|switch|p1a: Flareon|Flareon, M|67/100
+|move|p2a: Ditto|Wish||[still]
+|-fail|p2a: Ditto
+|
+|-heal|p2a: Ditto|100/100 tox|[from] move: Wish|[wisher] Ditto
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|upkeep
+|turn|146
+|
+|switch|p2a: Sylveon|Sylveon, F|76/100 brn
+|-damage|p2a: Sylveon|63/100 brn|[from] Stealth Rock
+|switch|p1a: Seismitoad|Seismitoad, M|45/100 tox
+|
+|-heal|p1a: Seismitoad|51/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|45/100 tox|[from] psn
+|-damage|p2a: Sylveon|57/100 brn|[from] brn
+|upkeep
+|turn|147
+|
+|switch|p1a: Flareon|Flareon, M|67/100
+|switch|p2a: Ditto|Ditto|82/100 tox
+|-damage|p2a: Ditto|70/100 tox|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Flareon|[from] ability: Imposter
+|
+|-damage|p2a: Ditto|64/100 tox|[from] psn
+|upkeep
+|turn|148
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|82/100 tox
+|move|p2a: Ditto|Wish|p2a: Ditto
+|
+|-damage|p2a: Ditto|52/100 tox|[from] psn
+|-damage|p1a: Mandibuzz|76/100 tox|[from] psn
+|upkeep
+|turn|149
+|
+|switch|p1a: Flareon|Flareon, M|67/100
+|move|p2a: Ditto|Wish||[still]
+|-fail|p2a: Ditto
+|
+|-heal|p2a: Ditto|100/100 tox|[from] move: Wish|[wisher] Ditto
+|-damage|p2a: Ditto|82/100 tox|[from] psn
+|upkeep
+|turn|150
+|
+|switch|p2a: Sylveon|Sylveon, F|57/100 brn
+|-damage|p2a: Sylveon|45/100 brn|[from] Stealth Rock
+|switch|p1a: Seismitoad|Seismitoad, M|45/100 tox
+|
+|-heal|p1a: Seismitoad|51/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|45/100 tox|[from] psn
+|-damage|p2a: Sylveon|39/100 brn|[from] brn
+|upkeep
+|turn|151
+|
+|switch|p1a: Flareon|Flareon, M|67/100
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-damage|p2a: Sylveon|33/100 brn|[from] brn
+|upkeep
+|turn|152
+|
+|move|p1a: Flareon|Protect|p1a: Flareon
+|-singleturn|p1a: Flareon|Protect
+|move|p2a: Sylveon|Mystical Fire|p1a: Flareon
+|-activate|p1a: Flareon|move: Protect
+|
+|-heal|p2a: Sylveon|83/100 brn|[from] move: Wish|[wisher] Sylveon
+|-damage|p2a: Sylveon|76/100 brn|[from] brn
+|upkeep
+|turn|153
+|
+|switch|p2a: Ditto|Ditto|82/100 tox
+|-damage|p2a: Ditto|70/100 tox|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Flareon|[from] ability: Imposter
+|move|p1a: Flareon|Lava Plume|p2a: Ditto
+|-start|p2a: Ditto|ability: Flash Fire
+|
+|-damage|p2a: Ditto|64/100 tox|[from] psn
+|upkeep
+|turn|154
+|
+|move|p1a: Flareon|Protect|p1a: Flareon
+|-singleturn|p1a: Flareon|Protect
+|move|p2a: Ditto|Lava Plume|p1a: Flareon
+|-activate|p1a: Flareon|move: Protect
+|
+|-damage|p2a: Ditto|52/100 tox|[from] psn
+|upkeep
+|turn|155
+|
+|-end|p2a: Ditto|ability: Flash Fire|[silent]
+|switch|p2a: Sylveon|Sylveon, F|76/100 brn
+|-damage|p2a: Sylveon|64/100 brn|[from] Stealth Rock
+|move|p1a: Flareon|Lava Plume|p2a: Sylveon
+|-damage|p2a: Sylveon|49/100 brn
+|
+|-damage|p2a: Sylveon|43/100 brn|[from] brn
+|upkeep
+|turn|156
+|
+|switch|p2a: Ditto|Ditto|52/100 tox
+|-damage|p2a: Ditto|40/100 tox|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Flareon|[from] ability: Imposter
+|move|p1a: Flareon|Protect||[still]
+|-fail|p1a: Flareon
+|
+|-damage|p2a: Ditto|34/100 tox|[from] psn
+|upkeep
+|turn|157
+|inactive|Baganha has 120 seconds left.
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|76/100 tox
+|move|p2a: Ditto|Wish|p2a: Ditto
+|
+|-damage|p2a: Ditto|22/100 tox|[from] psn
+|-damage|p1a: Mandibuzz|70/100 tox|[from] psn
+|upkeep
+|turn|158
+|inactive|Baganha has 120 seconds left.
+|
+|move|p2a: Ditto|Wish||[still]
+|-fail|p2a: Ditto
+|move|p1a: Mandibuzz|Knock Off|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|-enditem|p2a: Ditto|Choice Scarf|[from] move: Knock Off|[of] p1a: Mandibuzz
+|faint|p2a: Ditto
+|
+|-damage|p1a: Mandibuzz|57/100 tox|[from] psn
+|upkeep
+|c|☆Baganha|gg
+|
+|switch|p2a: Sylveon|Sylveon, F|43/100 brn
+|-damage|p2a: Sylveon|31/100 brn|[from] Stealth Rock
+|turn|159
+|
+|switch|p1a: Flareon|Flareon, M|67/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Flareon
+|-resisted|p1a: Flareon
+|-damage|p1a: Flareon|47/100
+|
+|-damage|p2a: Sylveon|25/100 brn|[from] brn
+|upkeep
+|turn|160
+|-message|LeaderMissingNo forfeited.
+|
+|win|Baganha
+|l|☆LeaderMissingNo
+|raw|Baganha's rating: 1494 → 1514(+20 for winning)
+|raw|LeaderMissingNo's rating: 1492 → 1472(-20 for losing)

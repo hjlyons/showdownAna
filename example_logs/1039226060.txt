@@ -1,0 +1,115 @@
+|ScrapeTime|2020-01-01-18:04:46
+|j|☆Havagooday
+|j|☆Char11
+|player|p1|Havagooday|waiter|1145
+|player|p2|Char11|265|1201
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tyranitar, F|
+|poke|p1|Pyukumuku, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Cofagrigus, F|
+|poke|p1|Hatterene, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Kommo-o, F|
+|poke|p2|Polteageist|
+|poke|p2|Mew|
+|poke|p2|Bisharp, M|
+|poke|p2|Conkeldurr, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Havagooday)
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Char11|move: Light Screen
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|64/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Bisharp
+|-damage|p2a: Bisharp|58/100
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Hatterene
+|-damage|p1a: Hatterene|52/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|7/100
+|-unboost|p2a: Bisharp|spa|1
+|-ability|p2a: Bisharp|Defiant
+|-boost|p2a: Bisharp|atk|2
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|switch|p1a: Hatterene|Hatterene, F|52/100
+|-ability|p1a: Hatterene|Anticipation
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Bisharp|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|turn|8
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|36/100
+|-damage|p2a: Bisharp|0 fnt|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-start|p1a: Ferrothorn|Throat Chop|[silent]
+|faint|p2a: Bisharp
+|move|p1a: Ferrothorn|Leech Seed|p2: Bisharp|[notarget]
+|-fail|p1a: Ferrothorn
+|
+|upkeep
+|-message|Havagooday forfeited.
+|
+|win|Char11
+|l|☆Havagooday
+|raw|Havagooday's rating: 1119 → 1100(-19 for losing)
+|raw|Char11's rating: 1201 → 1220(+19 for winning)

@@ -1,0 +1,198 @@
+|ScrapeTime|2020-01-01-10:26:03
+|j|☆Ishiku75
+|j|☆Bon a Nez
+|player|p1|Ishiku75|cynthia-gen4|1054
+|player|p2|Bon a Nez|drake-gen3|1071
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Duraludon, M|
+|poke|p1|Togekiss, M|
+|poke|p1|Aegislash, F|
+|poke|p1|Mew|
+|poke|p1|Cinderace, M|
+|poke|p1|Dracovish|
+|poke|p2|Cinderace, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Gengar, M|
+|poke|p2|Hydreigon, F|
+|poke|p2|Hatterene, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Gengar|Gengar, M|100/100
+|turn|1
+|
+|move|p1a: Cinderace|U-turn|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|89/100
+|
+|switch|p1a: Dracovish|Dracovish|100/100|[from]move: U-turn
+|move|p2a: Gengar|Sludge Bomb|p1a: Dracovish
+|-damage|p1a: Dracovish|14/100
+|-status|p1a: Dracovish|psn
+|
+|-damage|p1a: Dracovish|2/100 psn|[from] psn
+|upkeep
+|turn|2
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Dracovish|Crunch|p2a: Seismitoad
+|-damage|p2a: Seismitoad|79/100
+|
+|-heal|p2a: Seismitoad|85/100|[from] item: Leftovers
+|-damage|p1a: Dracovish|0 fnt|[from] psn
+|faint|p1a: Dracovish
+|upkeep
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|turn|3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Togekiss|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, M|89/100
+|turn|5
+|
+|move|p2a: Gengar|Sludge Bomb|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|6
+|
+|switch|p2a: Seismitoad|Seismitoad, F|85/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|65/100
+|
+|-heal|p2a: Seismitoad|71/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Cinderace|High Jump Kick|p2a: Seismitoad
+|-damage|p2a: Seismitoad|43/100
+|move|p2a: Seismitoad|Earth Power|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|25/100
+|
+|-heal|p2a: Seismitoad|49/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Cinderace|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|33/100
+|
+|switch|p1a: Mew|Mew|100/100|[from]move: U-turn
+|move|p2a: Seismitoad|Scald|p1a: Mew
+|-damage|p1a: Mew|81/100
+|
+|-heal|p1a: Mew|87/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|39/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Mew|Substitute|p1a: Mew
+|-start|p1a: Mew|Substitute
+|-damage|p1a: Mew|62/100
+|
+|-heal|p1a: Mew|68/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Mew|Dragon Dance|p1a: Mew
+|-boost|p1a: Mew|atk|1
+|-boost|p1a: Mew|spe|1
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-heal|p1a: Mew|75/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Mew
+|-end|p1a: Mew|Substitute
+|move|p1a: Mew|Flare Blitz|p2a: Hatterene
+|-damage|p2a: Hatterene|57/100
+|-status|p2a: Hatterene|brn
+|-damage|p1a: Mew|63/100|[from] Recoil
+|
+|-heal|p2a: Hatterene|63/100 brn|[from] item: Leftovers
+|-heal|p1a: Mew|69/100|[from] item: Leftovers
+|-damage|p2a: Hatterene|57/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Mew
+|-damage|p1a: Mew|27/100
+|move|p1a: Mew|Psycho Cut|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|35/100 brn
+|
+|-heal|p2a: Hatterene|41/100 brn|[from] item: Leftovers
+|-heal|p1a: Mew|34/100|[from] item: Leftovers
+|-damage|p2a: Hatterene|35/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|78/100
+|
+|-heal|p2a: Hatterene|41/100 brn|[from] item: Leftovers
+|-damage|p2a: Hatterene|35/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p2a: Seismitoad|Seismitoad, F|39/100
+|move|p1a: Aegislash|Destiny Bond|p1a: Aegislash
+|-singlemove|p1a: Aegislash|Destiny Bond
+|
+|-heal|p2a: Seismitoad|45/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|15
+|
+|move|p1a: Aegislash|Destiny Bond||[still]
+|-fail|p1a: Aegislash
+|move|p2a: Seismitoad|Stealth Rock|p1a: Aegislash
+|-sidestart|p1: Ishiku75|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|51/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|-message|Ishiku75 forfeited.
+|
+|win|Bon a Nez
+|l|☆Ishiku75
+|raw|Ishiku75's rating: 1055 → 1037(-18 for losing)
+|raw|Bon a Nez's rating: 1071 → 1099(+28 for winning)

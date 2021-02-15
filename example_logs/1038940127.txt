@@ -1,0 +1,364 @@
+|ScrapeTime|2020-01-01-01:26:26
+|j|☆lokcyam
+|j|☆Pixeldudeplays
+|player|p1|lokcyam|burglar|1204
+|player|p2|Pixeldudeplays|elesa|1252
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tyranitar, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Gastrodon, F|
+|poke|p1|Sandaconda, M|
+|poke|p1|Hydreigon, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Bisharp, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Clefable, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Tyranitar, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Sandaconda|Sandaconda, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|1
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Hydreigon
+|-start|p1a: Hydreigon|move: Leech Seed
+|
+|-damage|p1a: Hydreigon|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|2
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Hydreigon|Flamethrower|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|79/100
+|
+|-heal|p1a: Hydreigon|94/100|[from] item: Leftovers
+|-damage|p1a: Hydreigon|82/100|[from] Leech Seed|[of] p2a: Rotom
+|-heal|p2a: Rotom|96/100|[silent]
+|upkeep
+|turn|3
+|
+|switch|p1a: Gastrodon|Gastrodon, F|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Gastrodon
+|-immune|p1a: Gastrodon
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Gastrodon|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|89/100
+|
+|-heal|p2a: Ferrothorn|96/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Gastrodon|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|84/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Gastrodon
+|-sidestart|p1: lokcyam|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|90/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Hydreigon|Hydreigon, M|82/100
+|-damage|p1a: Hydreigon|70/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Knock Off|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|58/100
+|-enditem|p1a: Hydreigon|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|96/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|52/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|89/100
+|cant|p2a: Tyranitar|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|46/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p1a: Grimmsnarl|88/100|[from] Stealth Rock
+|move|p2a: Tyranitar|Stone Edge|p1a: Grimmsnarl|[miss]
+|-miss|p2a: Tyranitar|p1a: Grimmsnarl
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Grimmsnarl|82/100|[from] Sandstorm
+|-heal|p1a: Grimmsnarl|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Tyranitar
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Tyranitar
+|move|p2a: Tyranitar|Stone Edge|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Grimmsnarl|30/100|[from] Sandstorm
+|-heal|p1a: Grimmsnarl|36/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Tyranitar|Stone Edge|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Gastrodon|Gastrodon, F|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|96/100
+|move|p1a: Gastrodon|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|86/100
+|
+|-heal|p1a: Gastrodon|100/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|92/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Knock Off|p1a: Excadrill
+|-damage|p1a: Excadrill|64/100
+|-enditem|p1a: Excadrill|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|98/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Ferrothorn|Leech Seed|p1a: Excadrill
+|-start|p1a: Excadrill|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|52/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|15
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Excadrill|Earthquake|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-damage|p1a: Excadrill|40/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|16
+|
+|move|p1a: Excadrill|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|36/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Excadrill
+|-damage|p1a: Excadrill|18/100
+|
+|-heal|p2a: Ferrothorn|42/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|5/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|55/100|[silent]
+|upkeep
+|turn|17
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Excadrill|Earthquake|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|61/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|0 fnt|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|66/100|[silent]
+|faint|p1a: Excadrill
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|46/100
+|-damage|p1a: Hydreigon|34/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p2a: Rotom|Rotom-Wash|96/100
+|move|p1a: Hydreigon|Flamethrower|p2a: Rotom
+|-resisted|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|64/100
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Rotom|Trick|p1a: Hydreigon
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Hydreigon
+|-item|p1a: Hydreigon|Choice Scarf|[from] move: Trick
+|-enditem|p2a: Rotom|Choice Scarf|[silent]|[from] move: Trick
+|move|p1a: Hydreigon|Dark Pulse|p2a: Rotom
+|-damage|p2a: Rotom|5/100
+|
+|upkeep
+|turn|20
+|
+|switch|p2a: Tyranitar|Tyranitar, F|89/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Hydreigon|Dark Pulse|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|28/100|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|switch|p1a: Gastrodon|Gastrodon, F|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|move|p2a: Tyranitar|Earthquake|p1a: Gastrodon
+|-damage|p1a: Gastrodon|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gastrodon|77/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Tyranitar|Crunch|p1a: Gastrodon
+|-damage|p1a: Gastrodon|53/100
+|move|p1a: Gastrodon|Ice Beam|p2a: Tyranitar
+|-damage|p2a: Tyranitar|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gastrodon|59/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Tyranitar|Crunch|p1a: Gastrodon
+|-crit|p1a: Gastrodon
+|-damage|p1a: Gastrodon|20/100
+|move|p1a: Gastrodon|Scald|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|64/100
+|-status|p2a: Tyranitar|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gastrodon|26/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|58/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p2a: Rotom|Rotom-Wash|5/100
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|76/100
+|
+|-weather|none
+|-heal|p1a: Gastrodon|82/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Rotom|Trick|p1a: Gastrodon
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Gastrodon
+|-enditem|p1a: Gastrodon|Leftovers|[silent]|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|move|p1a: Gastrodon|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|turn|26
+|
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|move|p1a: Gastrodon|Clear Smog|p2a: Bisharp
+|-immune|p2a: Bisharp
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Sandaconda|Sandaconda, M|100/100
+|-damage|p1a: Sandaconda|95/100|[from] Stealth Rock
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Sandaconda
+|-damage|p1a: Sandaconda|0 fnt
+|-weather|Sandstorm|[from] ability: Sand Spit|[of] p1a: Sandaconda
+|-damage|p2a: Bisharp|91/100|[from] item: Life Orb
+|faint|p1a: Sandaconda
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|28/100
+|-damage|p1a: Hydreigon|15/100|[from] Stealth Rock
+|turn|29
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|-damage|p2a: Bisharp|81/100|[from] item: Life Orb
+|faint|p1a: Hydreigon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Gastrodon|Gastrodon, F|82/100
+|-damage|p1a: Gastrodon|76/100|[from] Stealth Rock
+|turn|30
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|-damage|p2a: Bisharp|71/100|[from] item: Life Orb
+|faint|p1a: Gastrodon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|turn|31
+|
+|move|p2a: Bisharp|Iron Head|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-damage|p2a: Bisharp|61/100|[from] item: Life Orb
+|faint|p1a: Tyranitar
+|
+|win|Pixeldudeplays
+|l|☆lokcyam
+|raw|lokcyam's rating: 1204 → 1183(-21 for losing)
+|raw|Pixeldudeplays's rating: 1252 → 1274(+22 for winning)

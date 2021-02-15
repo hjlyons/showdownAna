@@ -1,0 +1,118 @@
+|ScrapeTime|2020-01-01-19:56:53
+|j|☆PassinThatGas
+|j|☆StinkyCraptain
+|player|p1|PassinThatGas|sabrina|
+|player|p2|StinkyCraptain|157|
+|teamsize|p1|2
+|teamsize|p2|2
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Runerigus, M|
+|poke|p1|Clefable, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Bisharp, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Runerigus|Runerigus, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|move|p2a: Tyranitar|Dragon Claw|p1a: Runerigus
+|-damage|p1a: Runerigus|75/100
+|-activate|p2a: Tyranitar|ability: Wandering Spirit|Wandering Spirit|Sand Stream|[of] p1a: Runerigus
+|move|p1a: Runerigus|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: StinkyCraptain|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Runerigus|81/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|move|p1a: Runerigus|Toxic Spikes|p2a: Bisharp
+|-sidestart|p2: StinkyCraptain|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Runerigus|87/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Bisharp|Brick Break|p1a: Runerigus
+|-immune|p1a: Runerigus
+|move|p1a: Runerigus|Toxic Spikes|p2a: Bisharp
+|-sidestart|p2: StinkyCraptain|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Runerigus|93/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Bisharp|Brick Break|p1a: Runerigus
+|-immune|p1a: Runerigus
+|move|p1a: Runerigus|Toxic Spikes||[still]
+|-fail|p1a: Runerigus
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Runerigus|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Bisharp|Brick Break|p1a: Runerigus
+|-immune|p1a: Runerigus
+|move|p1a: Runerigus|Toxic Spikes||[still]
+|-fail|p1a: Runerigus
+|
+|-weather|none
+|-heal|p1a: Runerigus|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-status|p2a: Tyranitar|tox
+|-damage|p2a: Tyranitar|88/100 tox|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Runerigus|Toxic Spikes||[still]
+|-fail|p1a: Runerigus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|82/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|move|p2a: Tyranitar|Dragon Claw|p1a: Runerigus
+|-damage|p1a: Runerigus|72/100
+|move|p1a: Runerigus|Body Press|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Runerigus|78/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|95/100
+|-damage|p2a: Bisharp|89/100|[from] Stealth Rock
+|turn|8
+|
+|move|p2a: Bisharp|Dark Pulse|p1a: Runerigus
+|-supereffective|p1a: Runerigus
+|-damage|p1a: Runerigus|44/100
+|move|p1a: Runerigus|Body Press|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-crit|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|win|PassinThatGas

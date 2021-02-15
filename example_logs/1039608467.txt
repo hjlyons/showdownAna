@@ -1,0 +1,514 @@
+|ScrapeTime|2020-01-02-11:25:13
+|j|☆Criminal girls
+|j|☆DeterminedNpc
+|player|p1|Criminal girls|170|1411
+|player|p2|DeterminedNpc|dancer|1374
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Seismitoad, F|
+|poke|p1|Aegislash, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Dragapult, M|
+|poke|p2|Chandelure, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Bisharp, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Centiskorch, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|switch|p2a: Centiskorch|Centiskorch, F|100/100
+|turn|1
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Centiskorch|Power Whip|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-crit|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|69/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|move|p1a: Mandibuzz|Knock Off|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|85/100
+|-enditem|p2a: Bisharp|Life Orb|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|move|p1a: Mandibuzz|U-turn|p2a: Bisharp
+|-damage|p2a: Bisharp|71/100
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Seismitoad
+|-damage|p1a: Seismitoad|32/100
+|-start|p1a: Seismitoad|Throat Chop|[silent]
+|move|p1a: Seismitoad|Scald|p2a: Bisharp
+|-damage|p2a: Bisharp|33/100
+|
+|-heal|p1a: Seismitoad|38/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Seismitoad|Protect|p1a: Seismitoad
+|-singleturn|p1a: Seismitoad|Protect
+|move|p2a: Bisharp|Throat Chop|p1a: Seismitoad
+|-activate|p1a: Seismitoad|move: Protect
+|
+|-heal|p1a: Seismitoad|44/100|[from] item: Leftovers
+|-end|p1a: Seismitoad|Throat Chop|[silent]
+|upkeep
+|turn|6
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Bisharp|Throat Chop|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|39/100
+|-damage|p2a: Bisharp|21/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-start|p1a: Ferrothorn|Throat Chop|[silent]
+|
+|-heal|p1a: Ferrothorn|45/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DeterminedNpc)
+|
+|switch|p1a: Seismitoad|Seismitoad, F|44/100
+|move|p2a: Bisharp|Throat Chop|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|turn|8
+|
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|move|p1a: Rotom|Will-O-Wisp|p2a: Bisharp
+|-status|p2a: Bisharp|brn
+|
+|-damage|p2a: Bisharp|15/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Rotom|Volt Switch|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|inactive|Criminal girls has 120 seconds left.
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|69/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|10
+|
+|move|p1a: Mandibuzz|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|87/100
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Mandibuzz
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Rotom|Overheat|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|13
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Rotom
+|-start|p1a: Rotom|move: Taunt
+|cant|p1a: Rotom|move: Taunt|Will-O-Wisp
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: DeterminedNpc|move: Light Screen
+|move|p1a: Rotom|Volt Switch|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|95/100
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: DeterminedNpc|Reflect
+|move|p1a: Aegislash|Substitute|p1a: Aegislash
+|-start|p1a: Aegislash|Substitute
+|-damage|p1a: Aegislash|75/100
+|
+|-heal|p1a: Aegislash|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Chandelure|Chandelure, F, shiny|100/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Flash Cannon|p2a: Chandelure
+|-resisted|p2a: Chandelure
+|-damage|p2a: Chandelure|84/100
+|-unboost|p2a: Chandelure|spd|1
+|
+|-heal|p1a: Aegislash|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Chandelure|Shadow Ball|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|-heal|p1a: Aegislash|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|69/100
+|move|p2a: Chandelure|Shadow Ball|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|54/100
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|95/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Mandibuzz|Knock Off|p2a: Grimmsnarl
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|91/100
+|-enditem|p2a: Grimmsnarl|Light Clay|[from] move: Knock Off|[of] p1a: Mandibuzz
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|59/100
+|-unboost|p1a: Mandibuzz|spa|1
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|55/100
+|-unboost|p1a: Mandibuzz|spa|1
+|
+|-sideend|p2: DeterminedNpc|move: Light Screen
+|upkeep
+|turn|22
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|58/100
+|-unboost|p1a: Mandibuzz|spa|1
+|
+|-sideend|p2: DeterminedNpc|Reflect
+|upkeep
+|turn|23
+|
+|switch|p1a: Aegislash|Aegislash, M|94/100
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: DeterminedNpc|Reflect
+|
+|-heal|p1a: Aegislash|99/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: DeterminedNpc|move: Light Screen
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Flash Cannon|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|59/100
+|
+|-heal|p1a: Aegislash|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Chandelure|Chandelure, F, shiny|84/100
+|move|p1a: Aegislash|Substitute|p1a: Aegislash
+|-start|p1a: Aegislash|Substitute
+|-damage|p1a: Aegislash|75/100
+|
+|-heal|p1a: Aegislash|82/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Chandelure|Shadow Ball|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|-heal|p1a: Aegislash|88/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Chandelure|Shadow Ball|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|17/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|21/100
+|
+|-heal|p1a: Aegislash|24/100|[from] item: Leftovers
+|-sideend|p2: DeterminedNpc|Reflect
+|upkeep
+|turn|28
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Chandelure|Shadow Ball|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|-heal|p1a: Aegislash|30/100|[from] item: Leftovers
+|-sideend|p2: DeterminedNpc|move: Light Screen
+|upkeep
+|turn|29
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Chandelure|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|51/100
+|
+|-heal|p1a: Rotom|57/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|59/100
+|move|p1a: Rotom|Volt Switch|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|38/100
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: DeterminedNpc|move: Light Screen
+|move|p1a: Dragapult|Steel Wing|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-boost|p1a: Dragapult|def|1
+|-damage|p1a: Dragapult|91/100|[from] item: Life Orb
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Chandelure|Chandelure, F, shiny|21/100
+|turn|32
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|58/100
+|move|p2a: Chandelure|Shadow Ball|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|42/100
+|
+|upkeep
+|turn|33
+|
+|switch|p2a: Centiskorch|Centiskorch, F|100/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|92/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|34
+|
+|move|p1a: Mandibuzz|Knock Off|p2a: Centiskorch
+|-damage|p2a: Centiskorch|74/100
+|-enditem|p2a: Centiskorch|Choice Band|[from] move: Knock Off|[of] p1a: Mandibuzz
+|move|p2a: Centiskorch|Flare Blitz|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|50/100
+|-damage|p2a: Centiskorch|60/100|[from] Recoil
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|99/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Centiskorch|Leech Life|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|39/100
+|-heal|p2a: Centiskorch|92/100|[from] drain|[of] p1a: Mandibuzz
+|
+|-sideend|p2: DeterminedNpc|move: Light Screen
+|upkeep
+|turn|36
+|
+|move|p1a: Mandibuzz|U-turn|p2a: Centiskorch
+|-resisted|p2a: Centiskorch
+|-damage|p2a: Centiskorch|85/100
+|
+|switch|p1a: Rotom|Rotom-Heat|57/100|[from]move: U-turn
+|move|p2a: Centiskorch|Leech Life|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|35/100
+|-heal|p2a: Centiskorch|93/100|[from] drain|[of] p1a: Rotom
+|
+|-heal|p1a: Rotom|41/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p1a: Rotom|Volt Switch|p2a: Centiskorch
+|-damage|p2a: Centiskorch|67/100
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|39/100|[from]move: Volt Switch
+|move|p2a: Centiskorch|Knock Off|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|27/100
+|-enditem|p1a: Mandibuzz|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Centiskorch
+|
+|upkeep
+|turn|38
+|
+|move|p1a: Mandibuzz|U-turn|p2a: Centiskorch
+|-resisted|p2a: Centiskorch
+|-damage|p2a: Centiskorch|60/100
+|
+|switch|p1a: Aegislash|Aegislash, M|30/100|[from]move: U-turn
+|move|p2a: Centiskorch|Leech Life|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|21/100
+|-heal|p2a: Centiskorch|64/100|[from] drain|[of] p1a: Aegislash
+|
+|-heal|p1a: Aegislash|27/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Centiskorch|Flare Blitz|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|-unboost|p2a: Centiskorch|atk|1
+|
+|-heal|p1a: Aegislash|33/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|switch|p1a: Rotom|Rotom-Heat|41/100
+|move|p2a: Centiskorch|Flare Blitz|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|20/100
+|-damage|p2a: Centiskorch|58/100|[from] Recoil
+|
+|-heal|p1a: Rotom|26/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p1a: Rotom|Volt Switch|p2a: Centiskorch
+|-damage|p2a: Centiskorch|33/100
+|
+|switch|p1a: Dragapult|Dragapult, M|91/100|[from]move: Volt Switch
+|move|p2a: Centiskorch|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|22/100
+|-enditem|p1a: Dragapult|Life Orb|[from] move: Knock Off|[of] p2a: Centiskorch
+|
+|upkeep
+|turn|42
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Seismitoad
+|-damage|p2a: Seismitoad|79/100
+|-crit|p2a: Seismitoad
+|-damage|p2a: Seismitoad|53/100
+|-hitcount|p2a: Seismitoad|2
+|
+|-heal|p2a: Seismitoad|59/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Seismitoad|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: Criminal girls|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|65/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Seismitoad
+|-damage|p2a: Seismitoad|36/100
+|-crit|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-hitcount|p2a: Seismitoad|2
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Centiskorch|Centiskorch, F|33/100
+|turn|45
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Centiskorch
+|-crit|p2a: Centiskorch
+|-damage|p2a: Centiskorch|0 fnt
+|-hitcount|p2a: Centiskorch|1
+|faint|p2a: Centiskorch
+|
+|upkeep
+|
+|switch|p2a: Chandelure|Chandelure, F, shiny|21/100
+|turn|46
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|-hitcount|p2a: Chandelure|1
+|faint|p2a: Chandelure
+|
+|win|Criminal girls
+|raw|Criminal girls's rating: 1411 → 1429(+18 for winning)
+|raw|DeterminedNpc's rating: 1375 → 1357(-18 for losing)
+|l|☆DeterminedNpc

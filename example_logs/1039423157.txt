@@ -1,0 +1,124 @@
+|ScrapeTime|2020-01-02-01:09:05
+|j|☆running sausages
+|j|☆SymbioZ
+|player|p1|running sausages|1|1258
+|player|p2|SymbioZ|283|1312
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Chandelure, M|
+|poke|p1|Bisharp, F|
+|poke|p1|Dragapult, F|
+|poke|p2|Polteageist|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Reuniclus, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Cinderace, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|1
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Dragapult|Flamethrower|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|86/100
+|
+|-heal|p2a: Rotom|92/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Rotom|Discharge|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|89/100
+|-status|p1a: Ferrothorn|par
+|
+|-heal|p2a: Rotom|98/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Rotom|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|84/100 par
+|
+|switch|p2a: Reuniclus|Reuniclus, F|100/100|[from]move: Volt Switch
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Reuniclus
+|-sidestart|p2: SymbioZ|move: Stealth Rock
+|
+|-heal|p1a: Ferrothorn|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|move|p2a: Reuniclus|Trick Room|p2a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p2a: Reuniclus
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|move|p2a: Reuniclus|Focus Blast|p1a: Chandelure
+|-immune|p1a: Chandelure
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Reuniclus|Shadow Ball|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|7
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: running sausages|move: Light Screen
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|par
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|9
+|
+|move|p1a: Dragapult|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|84/100 par
+|-damage|p1a: Dragapult|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-message|running sausages forfeited.
+|
+|win|SymbioZ
+|l|☆running sausages
+|raw|running sausages's rating: 1258 → 1235(-23 for losing)
+|raw|SymbioZ's rating: 1290 → 1312(+22 for winning)

@@ -1,0 +1,294 @@
+|ScrapeTime|2020-01-02-15:14:53
+|j|☆Ellendrin
+|j|☆windwakerx
+|player|p1|Ellendrin|lucas|
+|player|p2|windwakerx|219|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gyarados, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Sylveon, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Goodra, M|
+|poke|p1|Corsola-Galar, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Togekiss, M|
+|poke|p2|Gyarados, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆Ellendrin|so sollte mein ursprüngliches GSL Team aussehen
+|
+|start
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|switch|p1a: Sylveon|Sylveon, M|100/100
+|move|p2a: Dragapult|U-turn|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|86/100
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100|[from]move: U-turn
+|
+|-heal|p1a: Sylveon|92/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|move|p2a: Corsola|Stealth Rock|p1a: Corsola
+|-sidestart|p1: Ellendrin|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Corsola|Will-O-Wisp|p1a: Corsola
+|-status|p1a: Corsola|brn
+|move|p1a: Corsola|Will-O-Wisp|p2a: Corsola|[miss]
+|-miss|p1a: Corsola|p2a: Corsola
+|
+|-damage|p1a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Corsola|Hex|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|61/100 brn
+|move|p1a: Corsola|Stealth Rock|p2a: Corsola
+|-sidestart|p2: windwakerx|move: Stealth Rock
+|
+|-damage|p1a: Corsola|55/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: Corsola|Strength Sap|p2a: Corsola
+|-unboost|p2a: Corsola|atk|1
+|-heal|p1a: Corsola|87/100 brn
+|move|p2a: Corsola|Hex|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|57/100 brn
+|
+|-damage|p1a: Corsola|51/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Corsola|Will-O-Wisp|p2a: Corsola
+|-status|p2a: Corsola|brn
+|move|p2a: Corsola|Hex|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|19/100 brn
+|
+|-damage|p2a: Corsola|94/100 brn|[from] brn
+|-damage|p1a: Corsola|13/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Corsola|Strength Sap|p2a: Toxapex
+|-unboost|p2a: Toxapex|atk|1
+|-heal|p1a: Corsola|49/100 brn
+|
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|-damage|p1a: Corsola|42/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Toxapex|Toxic Spikes|p1a: Tyranitar
+|-sidestart|p1: Ellendrin|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|88/100|[from] Sandstorm
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|move|p2a: Toxapex|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|65/100
+|-enditem|p1a: Tyranitar|Weakness Policy
+|-boost|p1a: Tyranitar|atk|2
+|-boost|p1a: Tyranitar|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|88/100|[from] Sandstorm
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|move|p1a: Tyranitar|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, M|94/100 brn
+|-damage|p2a: Corsola|82/100 brn|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Tyranitar|Crunch|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-damage|p2a: Gyarados|75/100|[from] Stealth Rock
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|turn|12
+|
+|move|p1a: Tyranitar|Stone Edge|p2a: Gyarados|[miss]
+|-miss|p1a: Tyranitar|p2a: Gyarados
+|move|p2a: Gyarados|Waterfall|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|none
+|upkeep
+|c|☆Ellendrin|man die misses sind echt nervig
+|
+|switch|p1a: Goodra|Goodra, M|100/100
+|-damage|p1a: Goodra|88/100|[from] Stealth Rock
+|-status|p1a: Goodra|psn
+|turn|13
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|-damage|p2a: Togekiss|75/100|[from] Stealth Rock
+|move|p1a: Goodra|Thunderbolt|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|17/100
+|
+|-heal|p2a: Togekiss|23/100|[from] item: Leftovers
+|-damage|p1a: Goodra|76/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|45/100 psn
+|move|p1a: Goodra|Thunderbolt|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|-damage|p1a: Goodra|32/100 psn|[from] psn
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|-hitcount|p1a: Goodra|1
+|faint|p1a: Goodra
+|
+|upkeep
+|
+|switch|p1a: Sylveon|Sylveon, M|92/100
+|-status|p1a: Sylveon|psn
+|-damage|p1a: Sylveon|79/100 psn|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Dragapult|U-turn|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|64/100 psn
+|
+|switch|p2a: Gyarados|Gyarados, M|75/100|[from]move: U-turn
+|-damage|p2a: Gyarados|50/100|[from] Stealth Rock
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Sylveon|atk|1
+|move|p1a: Sylveon|Hyper Voice|p2a: Gyarados
+|-damage|p2a: Gyarados|7/100
+|
+|-heal|p1a: Sylveon|70/100 psn|[from] item: Leftovers
+|-damage|p1a: Sylveon|58/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|move|p2a: Gyarados|Waterfall|p1a: Sylveon
+|-damage|p1a: Sylveon|5/100 psn
+|move|p1a: Sylveon|Hyper Voice|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|-heal|p1a: Sylveon|11/100 psn|[from] item: Leftovers
+|-damage|p1a: Sylveon|0 fnt|[from] psn
+|faint|p1a: Sylveon
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|switch|p1a: Corsola|Corsola-Galar, M|42/100 brn
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|-damage|p1a: Corsola|30/100 brn|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Tyranitar|Crunch|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p2a: Dragapult|Dragapult, M|88/100
+|-damage|p2a: Dragapult|76/100|[from] Stealth Rock
+|move|p1a: Excadrill|Rapid Spin|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|70/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|move|p1a: Excadrill|Iron Head|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p1a: Excadrill|87/100|[from] item: Life Orb
+|faint|p2a: Dragapult
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|88/100
+|-damage|p2a: Tyranitar|76/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Excadrill|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p1a: Excadrill|78/100|[from] item: Life Orb
+|faint|p2a: Tyranitar
+|
+|win|Ellendrin
+|c|☆Ellendrin|GG
+|c|☆Ellendrin|zöhlt dann schon für die APL

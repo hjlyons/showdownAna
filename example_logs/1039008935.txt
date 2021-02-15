@@ -1,0 +1,316 @@
+|ScrapeTime|2020-01-01-04:55:45
+|j|☆toonblast
+|j|☆Unban Dmax
+|player|p1|toonblast|1|1150
+|player|p2|Unban Dmax|swimmer-gen4dp|1103
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Rhyperior, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Excadrill, F|
+|poke|p1|Appletun, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Arcanine, F|
+|poke|p2|Dugtrio, F|
+|poke|p2|Galvantula, M|
+|poke|p2|Aegislash, F|
+|poke|p2|Appletun, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Mew|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Unban Dmax)
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|turn|1
+|
+|move|p2a: Dugtrio|Stealth Rock|p1a: Rotom
+|-sidestart|p1: toonblast|move: Stealth Rock
+|move|p1a: Rotom|Will-O-Wisp|p2a: Dugtrio
+|-status|p2a: Dugtrio|brn
+|
+|-damage|p2a: Dugtrio|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p2a: Mew|Mew|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Mew
+|-damage|p2a: Mew|64/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Mew|Spikes|p1a: Rotom
+|-sidestart|p1: toonblast|Spikes
+|move|p1a: Rotom|Thunder Wave|p2a: Mew|[miss]
+|-miss|p1a: Rotom|p2a: Mew
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|move|p1a: Rotom|Thunder Wave|p2a: Galvantula
+|-immune|p2a: Galvantula
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Galvantula|Sticky Web|p1a: Rotom
+|-sidestart|p1: toonblast|move: Sticky Web
+|move|p1a: Rotom|Hydro Pump|p2a: Galvantula
+|-damage|p2a: Galvantula|24/100
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Mew|Mew|64/100
+|move|p1a: Rotom|Volt Switch|p2a: Mew
+|-damage|p2a: Mew|40/100
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Hydreigon|U-turn|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|7/100
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100|[from]move: U-turn
+|-damage|p1a: Excadrill|88/100|[from] Spikes
+|-damage|p1a: Excadrill|85/100|[from] Stealth Rock
+|-activate|p1a: Excadrill|move: Sticky Web
+|-unboost|p1a: Excadrill|spe|1
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Mew|Self-Destruct|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|33/100
+|faint|p2a: Mew
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|8
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Hydreigon|Flamethrower|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|67/100
+|-damage|p2a: Hydreigon|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Rotom|73/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Rotom|[miss]
+|-miss|p2a: Hydreigon|p1a: Rotom
+|move|p1a: Rotom|Volt Switch|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|77/100
+|
+|switch|p1a: Hydreigon|Hydreigon, F|88/100|[from]move: Volt Switch
+|-damage|p1a: Hydreigon|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Dugtrio|Dugtrio, F|94/100 brn
+|move|p1a: Hydreigon|U-turn|p2a: Dugtrio
+|-damage|p2a: Dugtrio|51/100 brn
+|
+|switch|p1a: Arcanine|Arcanine, F|100/100|[from]move: U-turn
+|-damage|p1a: Arcanine|76/100|[from] Stealth Rock
+|-damage|p1a: Arcanine|63/100|[from] Spikes
+|-activate|p1a: Arcanine|move: Sticky Web
+|-unboost|p1a: Arcanine|spe|1
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Dugtrio|atk|1
+|
+|-heal|p1a: Arcanine|69/100|[from] item: Leftovers
+|-damage|p2a: Dugtrio|45/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Arcanine|Extreme Speed|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|-heal|p1a: Arcanine|76/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Appletun|Appletun, F|100/100
+|turn|12
+|
+|switch|p1a: Excadrill|Excadrill, F|33/100
+|-activate|p1a: Excadrill|move: Sticky Web
+|-unboost|p1a: Excadrill|spe|1
+|-damage|p1a: Excadrill|30/100|[from] Stealth Rock
+|-damage|p1a: Excadrill|18/100|[from] Spikes
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Appletun|Leech Seed|p1a: Excadrill
+|-start|p1a: Excadrill|move: Leech Seed
+|
+|-damage|p1a: Excadrill|5/100|[from] Leech Seed|[of] p2a: Appletun
+|upkeep
+|turn|13
+|
+|move|p2a: Appletun|Protect|p2a: Appletun
+|-singleturn|p2a: Appletun|Protect
+|move|p1a: Excadrill|Rapid Spin|p2a: Appletun
+|-activate|p2a: Appletun|move: Protect
+|
+|-damage|p1a: Excadrill|0 fnt|[from] Leech Seed|[of] p2a: Appletun
+|faint|p1a: Excadrill
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|76/100
+|-damage|p1a: Hydreigon|64/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p2a: Galvantula|Galvantula, M|24/100
+|move|p1a: Hydreigon|U-turn|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|
+|switch|p1a: Rotom|Rotom-Wash|73/100|[from]move: U-turn
+|-damage|p1a: Rotom|61/100|[from] Stealth Rock
+|
+|-heal|p1a: Rotom|67/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Bloody Sword|Aegislash, F, shiny|100/100
+|turn|15
+|
+|-formechange|p2a: Bloody Sword|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Bloody Sword|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|17/100
+|-unboost|p1a: Rotom|spd|1
+|-damage|p2a: Bloody Sword|91/100|[from] item: Life Orb
+|move|p1a: Rotom|Will-O-Wisp|p2a: Bloody Sword
+|-status|p2a: Bloody Sword|brn
+|
+|-heal|p1a: Rotom|23/100|[from] item: Leftovers
+|-damage|p2a: Bloody Sword|84/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p2a: Bloody Sword|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-damage|p2a: Bloody Sword|74/100 brn|[from] item: Life Orb
+|faint|p1a: Rotom
+|
+|-damage|p2a: Bloody Sword|68/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|64/100
+|-damage|p1a: Hydreigon|51/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Bloody Sword
+|-supereffective|p2a: Bloody Sword
+|-damage|p2a: Bloody Sword|0 fnt
+|faint|p2a: Bloody Sword
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|77/100
+|turn|18
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|51/100
+|cant|p2a: Hydreigon|flinch
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|26/100
+|move|p2a: Hydreigon|Draco Meteor|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|16/100|[from] item: Life Orb
+|faint|p1a: Hydreigon
+|
+|upkeep
+|
+|switch|p1a: Arcanine|Arcanine, F|76/100
+|-activate|p1a: Arcanine|move: Sticky Web
+|-unboost|p1a: Arcanine|spe|1
+|-damage|p1a: Arcanine|63/100|[from] Spikes
+|-damage|p1a: Arcanine|38/100|[from] Stealth Rock
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Hydreigon|atk|1
+|turn|20
+|
+|switch|p2a: Appletun|Appletun, F|100/100
+|move|p1a: Arcanine|Extreme Speed|p2a: Appletun
+|-damage|p2a: Appletun|83/100
+|
+|-heal|p1a: Arcanine|45/100|[from] item: Leftovers
+|-heal|p2a: Appletun|89/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Appletun|Appletun, M|100/100
+|-damage|p1a: Appletun|88/100|[from] Spikes
+|-damage|p1a: Appletun|75/100|[from] Stealth Rock
+|-activate|p1a: Appletun|move: Sticky Web
+|-unboost|p1a: Appletun|spe|1
+|move|p2a: Appletun|Dragon Pulse|p1a: Appletun
+|-supereffective|p1a: Appletun
+|-damage|p1a: Appletun|34/100
+|
+|-heal|p2a: Appletun|96/100|[from] item: Leftovers
+|-heal|p1a: Appletun|40/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Appletun|Dragon Pulse|p1a: Appletun
+|-supereffective|p1a: Appletun
+|-damage|p1a: Appletun|0 fnt
+|faint|p1a: Appletun
+|
+|-heal|p2a: Appletun|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|-damage|p1a: Rhyperior|88/100|[from] Spikes
+|-activate|p1a: Rhyperior|move: Sticky Web
+|-unboost|p1a: Rhyperior|spe|1
+|-damage|p1a: Rhyperior|82/100|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Rhyperior|Ice Punch|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|67/100
+|move|p2a: Appletun|Apple Acid|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|-heal|p2a: Appletun|73/100|[from] item: Leftovers
+|upkeep
+|-message|toonblast forfeited.
+|
+|win|Unban Dmax
+|l|☆toonblast
+|raw|toonblast's rating: 1150 → 1122(-28 for losing)
+|raw|Unban Dmax's rating: 1103 → 1131(+28 for winning)

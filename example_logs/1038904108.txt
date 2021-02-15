@@ -1,0 +1,449 @@
+|ScrapeTime|2020-01-01-00:04:26
+|j|☆Patokillerman
+|j|☆George067
+|player|p1|Patokillerman|170|1371
+|player|p2|George067|266|1338
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Ditto|
+|poke|p1|Hatterene, F|
+|poke|p1|Gyarados, F|
+|poke|p1|Toxapex, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Rillaboom, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Gastrodon-East, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Patokillerman)
+|
+|start
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|turn|1
+|
+|move|p2a: Rillaboom|U-turn|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|93/100
+|
+|switch|p2a: Gastrodon|Gastrodon-East, M|100/100|[from]move: U-turn
+|move|p1a: Corsola|Amnesia|p1a: Corsola
+|-boost|p1a: Corsola|spd|2
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Gastrodon|Yawn|p1a: Toxapex
+|-start|p1a: Toxapex|move: Yawn|[of] p2a: Gastrodon
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Gastrodon|Earth Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|55/100
+|move|p1a: Toxapex|Toxic|p2a: Gastrodon
+|-status|p2a: Gastrodon|tox
+|
+|-heal|p1a: Toxapex|61/100|[from] item: Black Sludge
+|-damage|p2a: Gastrodon|94/100 tox|[from] psn
+|-end|p1a: Toxapex|move: Yawn|[silent]
+|-status|p1a: Toxapex|slp
+|upkeep
+|turn|4
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Dragapult|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|44/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|94/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Dragapult|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|50/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Dragapult|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|45/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|95/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Dragapult|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|43/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|93/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p1a: Corviknight|99/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Dragapult|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|48/100
+|-status|p1a: Corviknight|par
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|98/100 par
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p1a: Corviknight|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Dragapult|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|50/100 par
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100 par
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Dragapult|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|48/100 par
+|cant|p1a: Corviknight|par
+|
+|-heal|p1a: Corviknight|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Corsola|Corsola-Galar, M|93/100
+|move|p2a: Dragapult|Thunderbolt|p1a: Corsola
+|-damage|p1a: Corsola|69/100
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Corsola|Amnesia|p1a: Corsola
+|-boost|p1a: Corsola|spd|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|63/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|move|p2a: Tyranitar|Stealth Rock|p1a: Corsola
+|-sidestart|p1: Patokillerman|move: Stealth Rock
+|move|p1a: Corsola|Strength Sap|p2a: Tyranitar
+|-unboost|p2a: Tyranitar|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|94/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|switch|p2a: Gastrodon|Gastrodon-East, M|94/100 tox
+|move|p1a: Corsola|Whirlpool|p2a: Gastrodon
+|-ability|p2a: Gastrodon|Storm Drain|boost
+|-boost|p2a: Gastrodon|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|88/100|[from] Sandstorm
+|-heal|p2a: Gastrodon|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Gastrodon|94/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|move|p2a: Gastrodon|Yawn|p1a: Corsola
+|-start|p1a: Corsola|move: Yawn|[of] p2a: Gastrodon
+|move|p1a: Corsola|Night Shade|p2a: Gastrodon
+|-damage|p2a: Gastrodon|71/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|82/100|[from] Sandstorm
+|-heal|p2a: Gastrodon|77/100 tox|[from] item: Leftovers
+|-damage|p2a: Gastrodon|65/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|switch|p1a: Toxapex|Toxapex, M|94/100 slp
+|-damage|p1a: Toxapex|82/100 slp|[from] Stealth Rock
+|
+|-weather|none
+|-heal|p1a: Toxapex|88/100 slp|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|43/100 slp
+|cant|p1a: Toxapex|slp
+|
+|-heal|p1a: Toxapex|49/100 slp|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|4/100 slp
+|cant|p1a: Toxapex|slp
+|
+|-heal|p1a: Toxapex|10/100 slp|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-damage|p1a: Gyarados|76/100|[from] Stealth Rock
+|turn|21
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-heal|p1a: Gyarados|82/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Gyarados|Substitute|p1a: Gyarados
+|-start|p1a: Gyarados|Substitute
+|-damage|p1a: Gyarados|57/100
+|move|p2a: Mandibuzz|Foul Play|p1a: Gyarados
+|-end|p1a: Gyarados|Substitute
+|
+|-heal|p1a: Gyarados|63/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Gyarados|Waterfall|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|71/100
+|-damage|p1a: Gyarados|46/100|[from] item: Rocky Helmet|[of] p2a: Mandibuzz
+|move|p2a: Mandibuzz|Foul Play|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, M|54/100 par
+|-damage|p1a: Corviknight|42/100 par|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|turn|24
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|cant|p1a: Corviknight|par
+|
+|-heal|p1a: Corviknight|48/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Dragapult|Flamethrower|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|turn|26
+|
+|switch|p2a: Gastrodon|Gastrodon-East, M|65/100 tox
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-heal|p2a: Gastrodon|71/100 tox|[from] item: Leftovers
+|-damage|p2a: Gastrodon|65/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|move|p1a: Hatterene|Psychic|p2a: Gastrodon
+|-damage|p2a: Gastrodon|36/100 tox
+|move|p2a: Gastrodon|Yawn|p1a: Hatterene
+|move|p1a: Hatterene|Yawn||[from]Magic Bounce|[still]
+|-fail|p1a: Hatterene
+|
+|-heal|p2a: Gastrodon|42/100 tox|[from] item: Leftovers
+|-damage|p2a: Gastrodon|30/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Gastrodon
+|-damage|p2a: Gastrodon|3/100 tox
+|move|p2a: Gastrodon|Earth Power|p1a: Hatterene
+|-damage|p1a: Hatterene|60/100
+|
+|-heal|p2a: Gastrodon|9/100 tox|[from] item: Leftovers
+|-damage|p2a: Gastrodon|0 fnt|[from] psn
+|faint|p2a: Gastrodon
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|turn|29
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Hatterene|Mystical Fire|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|90/100
+|-unboost|p2a: Tyranitar|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hatterene|54/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|96/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hatterene|48/100|[from] Sandstorm
+|-enditem|p1a: Hatterene|Sitrus Berry|[eat]
+|-heal|p1a: Hatterene|73/100|[from] item: Sitrus Berry
+|-fieldend|move: Trick Room
+|upkeep
+|turn|31
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Hatterene
+|-damage|p1a: Hatterene|29/100
+|-damage|p2a: Corviknight|62/100|[from] Recoil
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hatterene|23/100|[from] Sandstorm
+|upkeep
+|turn|32
+|
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|39/100
+|move|p2a: Corviknight|Brave Bird|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|-damage|p2a: Corviknight|32/100|[from] Recoil
+|faint|p1a: Hatterene
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, M|82/100
+|-damage|p1a: Corsola|70/100|[from] Stealth Rock
+|turn|33
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|71/100
+|move|p1a: Corsola|Amnesia|p1a: Corsola
+|-boost|p1a: Corsola|spd|2
+|
+|-weather|none
+|upkeep
+|turn|34
+|
+|move|p1a: Corsola|Strength Sap|p2a: Mandibuzz
+|-unboost|p2a: Mandibuzz|atk|1
+|-heal|p1a: Corsola|100/100
+|move|p2a: Mandibuzz|Toxic|p1a: Corsola
+|-status|p1a: Corsola|tox
+|
+|-damage|p1a: Corsola|94/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|move|p1a: Corsola|Night Shade|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|48/100
+|move|p2a: Mandibuzz|Foul Play|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|78/100 tox
+|
+|-damage|p1a: Corsola|65/100 tox|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|36
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|98/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Corsola|Night Shade|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|74/100
+|
+|-damage|p1a: Corsola|47/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|switch|p2a: Tyranitar|Tyranitar, M|96/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Corsola|Night Shade|p2a: Tyranitar
+|-damage|p2a: Tyranitar|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|41/100 tox|[from] Sandstorm
+|-heal|p2a: Tyranitar|75/100|[from] item: Leftovers
+|-damage|p1a: Corsola|16/100 tox|[from] psn
+|upkeep
+|turn|38
+|inactive|Patokillerman has 120 seconds left.
+|
+|switch|p2a: Corviknight|Corviknight, M|32/100
+|move|p1a: Corsola|Whirlpool|p2a: Corviknight
+|-damage|p2a: Corviknight|24/100
+|-activate|p2a: Corviknight|move: Whirlpool|[of] p1a: Corsola
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|10/100 tox|[from] Sandstorm
+|-damage|p1a: Corsola|0 fnt|[from] psn
+|faint|p1a: Corsola
+|-end|p2a: Corviknight|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Corviknight|[from] ability: Imposter
+|turn|39
+|-message|Patokillerman forfeited.
+|
+|win|George067
+|l|☆Patokillerman
+|raw|Patokillerman's rating: 1371 → 1348(-23 for losing)
+|raw|George067's rating: 1321 → 1344(+23 for winning)

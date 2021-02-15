@@ -1,0 +1,399 @@
+|ScrapeTime|2020-01-02-03:24:36
+|j|☆META-Duhlphin
+|j|☆403gi
+|player|p1|META-Duhlphin|169|1044
+|player|p2|403gi|swimmer-gen4|1120
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gyarados, F|
+|poke|p1|Alcremie-Salted, F|
+|poke|p1|Cofagrigus, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Indeedee, M|
+|poke|p1|Mr. Mime-Galar, F|
+|poke|p2|Hawlucha, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Aegislash, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Ditto|
+|poke|p2|Togekiss, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mr. Mime|Mr. Mime-Galar, F|100/100
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|turn|1
+|
+|move|p1a: Mr. Mime|Fake Out|p2a: Toxapex
+|-damage|p2a: Toxapex|97/100
+|cant|p2a: Toxapex|flinch
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|move|p1a: Mr. Mime|Freeze-Dry|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|50/100
+|-status|p2a: Toxapex|frz
+|cant|p2a: Toxapex|frz
+|
+|-heal|p2a: Toxapex|57/100 frz|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|move|p1a: Mr. Mime|Freeze-Dry|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|11/100 frz
+|-curestatus|p2a: Toxapex|frz|[msg]
+|move|p2a: Toxapex|Stockpile|p2a: Toxapex
+|-start|p2a: Toxapex|stockpile1
+|-boost|p2a: Toxapex|def|1
+|-boost|p2a: Toxapex|spd|1
+|
+|-heal|p2a: Toxapex|17/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|switch|p2a: Aegislash|Aegislash, F, shiny|100/100
+|move|p1a: Mr. Mime|Freeze-Dry|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|89/100
+|
+|-heal|p2a: Aegislash|95/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|
+|-heal|p2a: Aegislash|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Rotom|Overheat|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|47/100
+|-unboost|p1a: Rotom|spa|2
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Alcremie|Alcremie-Salted, F|100/100
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Dragapult|Psychic Fangs|p1a: Alcremie
+|-damage|p1a: Alcremie|54/100
+|-damage|p2a: Dragapult|37/100|[from] item: Life Orb
+|move|p1a: Alcremie|Draining Kiss|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-heal|p1a: Alcremie|80/100|[from] drain|[of] p2a: Dragapult
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Alcremie|86/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|turn|9
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 403gi)
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Togekiss|Air Slash|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|78/100
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Togekiss|Air Slash|p1a: Rotom|[miss]
+|-miss|p2a: Togekiss|p1a: Rotom
+|move|p1a: Rotom|Volt Switch|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|52/100
+|
+|switch|p1a: Gyarados|Gyarados, F, shiny|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Togekiss|Air Slash|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|35/100
+|cant|p1a: Gyarados|flinch
+|
+|upkeep
+|turn|12
+|inactive|META-Duhlphin has 120 seconds left.
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Togekiss|Air Slash|p1a: Indeedee
+|-damage|p1a: Indeedee|45/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Togekiss|Air Slash|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|upkeep
+|inactive|META-Duhlphin has 120 seconds left.
+|
+|switch|p1a: Mr. Mime|Mr. Mime-Galar, F|100/100
+|turn|14
+|
+|move|p1a: Mr. Mime|Fake Out|p2a: Togekiss
+|-crit|p2a: Togekiss
+|-damage|p2a: Togekiss|42/100
+|cant|p2a: Togekiss|flinch
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Togekiss|Air Slash|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|42/100
+|cant|p1a: Mr. Mime|flinch
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Togekiss|Air Slash|p1a: Mr. Mime|[miss]
+|-miss|p2a: Togekiss|p1a: Mr. Mime
+|move|p1a: Mr. Mime|Freeze-Dry|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|50/100
+|turn|17
+|
+|move|p1a: Mr. Mime|Freeze-Dry|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|4/100
+|move|p2a: Toxapex|Stockpile|p2a: Toxapex
+|-start|p2a: Toxapex|stockpile1
+|-boost|p2a: Toxapex|def|1
+|-boost|p2a: Toxapex|spd|1
+|
+|-heal|p2a: Toxapex|10/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p1a: Mr. Mime|Freeze-Dry|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, F, shiny|100/100
+|turn|19
+|
+|switch|p1a: Cofagrigus|Cofagrigus, F|100/100
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|
+|upkeep
+|turn|20
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Cofagrigus
+|-supereffective|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|4/100
+|-enditem|p1a: Cofagrigus|Aguav Berry|[eat]
+|-heal|p1a: Cofagrigus|37/100|[from] item: Aguav Berry
+|move|p1a: Cofagrigus|Will-O-Wisp|p2a: Aegislash
+|-status|p2a: Aegislash|brn
+|
+|-damage|p2a: Aegislash|94/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|move|p1a: Cofagrigus|Hex|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|turn|22
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Cofagrigus|Memento|p2a: Hawlucha
+|-unboost|p2a: Hawlucha|atk|2
+|-unboost|p2a: Hawlucha|spa|2
+|-enditem|p2a: Hawlucha|White Herb
+|-clearnegativeboost|p2a: Hawlucha|[silent]
+|faint|p1a: Cofagrigus
+|
+|upkeep
+|
+|switch|p1a: Mr. Mime|Mr. Mime-Galar, F|42/100
+|turn|23
+|c|☆403gi|Get off my screen
+|
+|move|p1a: Mr. Mime|Fake Out|p2a: Hawlucha
+|-damage|p2a: Hawlucha|92/100
+|cant|p2a: Hawlucha|flinch
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|
+|upkeep
+|
+|switch|p1a: Alcremie|Alcremie-Salted, F|86/100
+|turn|25
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Alcremie
+|-damage|p1a: Alcremie|43/100
+|move|p1a: Alcremie|Draining Kiss|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|29/100
+|-heal|p1a: Alcremie|85/100|[from] drain|[of] p2a: Hawlucha
+|
+|-heal|p1a: Alcremie|91/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Hawlucha|U-turn|p1a: Alcremie
+|-resisted|p1a: Alcremie
+|-damage|p1a: Alcremie|82/100
+|
+|switch|p2a: Ditto|Ditto|100/100|[from]move: U-turn
+|move|p1a: Alcremie|Draining Kiss|p2a: Ditto
+|-damage|p2a: Ditto|63/100
+|-heal|p1a: Alcremie|100/100|[from] drain|[of] p2a: Ditto
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Ditto|Transform|p1a: Alcremie
+|-transform|p2a: Ditto|p1a: Alcremie
+|-endability|p2a: Ditto|Limber|[from] move: Transform
+|move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+|-boost|p1a: Alcremie|spa|1
+|-boost|p1a: Alcremie|spd|1
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Ditto|Mystical Fire|p1a: Alcremie
+|-damage|p1a: Alcremie|89/100
+|-unboost|p1a: Alcremie|spa|1
+|move|p1a: Alcremie|Mystical Fire|p2a: Ditto
+|-damage|p2a: Ditto|46/100
+|-unboost|p2a: Ditto|spa|1
+|
+|-heal|p1a: Alcremie|95/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Ditto|Mystical Fire|p1a: Alcremie
+|-damage|p1a: Alcremie|88/100
+|-unboost|p1a: Alcremie|spa|1
+|move|p1a: Alcremie|Mystical Fire|p2a: Ditto
+|-damage|p2a: Ditto|34/100
+|-unboost|p2a: Ditto|spa|1
+|
+|-heal|p1a: Alcremie|94/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Ditto|Mystical Fire|p1a: Alcremie
+|-damage|p1a: Alcremie|88/100
+|-unboost|p1a: Alcremie|spa|1
+|move|p1a: Alcremie|Mystical Fire|p2a: Ditto
+|-damage|p2a: Ditto|25/100
+|-unboost|p2a: Ditto|spa|1
+|
+|-heal|p1a: Alcremie|94/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Ditto|Mystical Fire|p1a: Alcremie
+|-damage|p1a: Alcremie|89/100
+|-unboost|p1a: Alcremie|spa|1
+|move|p1a: Alcremie|Mystical Fire|p2a: Ditto
+|-damage|p2a: Ditto|17/100
+|-unboost|p2a: Ditto|spa|1
+|
+|-heal|p1a: Alcremie|95/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p2a: Ditto|Mystical Fire|p1a: Alcremie
+|-damage|p1a: Alcremie|92/100
+|-unboost|p1a: Alcremie|spa|1
+|move|p1a: Alcremie|Mystical Fire|p2a: Ditto
+|-damage|p2a: Ditto|11/100
+|-unboost|p2a: Ditto|spa|1
+|
+|-heal|p1a: Alcremie|98/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|-activate|p2a: Ditto|move: Struggle
+|move|p2a: Ditto|Struggle|p1a: Alcremie
+|-damage|p1a: Alcremie|92/100
+|-damage|p2a: Ditto|0 fnt|[from] recoil
+|faint|p2a: Ditto
+|move|p1a: Alcremie|Mystical Fire|p2: Ditto|[notarget]
+|-fail|p1a: Alcremie
+|
+|-heal|p1a: Alcremie|98/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, F|29/100
+|turn|34
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Alcremie
+|-damage|p1a: Alcremie|56/100
+|move|p1a: Alcremie|Draining Kiss|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|11/100
+|-heal|p1a: Alcremie|68/100|[from] drain|[of] p2a: Hawlucha
+|
+|-heal|p1a: Alcremie|74/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|c|☆META-Duhlphin|gg
+|c|☆403gi|gg
+|-message|403gi forfeited.
+|
+|win|META-Duhlphin
+|l|☆403gi
+|raw|META-Duhlphin's rating: 1044 → 1085(+41 for winning)
+|raw|403gi's rating: 1120 → 1089(-31 for losing)

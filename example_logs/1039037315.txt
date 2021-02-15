@@ -1,0 +1,149 @@
+|ScrapeTime|2020-01-01-06:36:05
+|j|☆Mauricioelanime2
+|j|☆Babydave77
+|player|p1|Mauricioelanime2|proton|1178
+|player|p2|Babydave77|wallace|1159
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Polteageist|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Reuniclus, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Cinderace, M|
+|poke|p2|Chandelure, F|
+|poke|p2|Hawlucha, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Goodra, F|
+|poke|p2|Togekiss, F|
+|poke|p2|Dragapult, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Chandelure|Chandelure, F|100/100
+|turn|1
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Mauricioelanime2|move: Light Screen
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|cant|p2a: Ferrothorn|move: Taunt|Leech Seed
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Mauricioelanime2|Reflect
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|75/100
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Polteageist|Polteageist|100/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Polteageist
+|-damage|p1a: Polteageist|51/100
+|-start|p2a: Ferrothorn|Disable|Gyro Ball|[from] ability: Cursed Body|[of] p1a: Polteageist
+|
+|-end|p2a: Ferrothorn|move: Taunt
+|upkeep
+|turn|5
+|
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|-enditem|p1a: Polteageist|White Herb
+|-clearnegativeboost|p1a: Polteageist|[silent]
+|move|p2a: Ferrothorn|Power Whip|p1a: Polteageist
+|-damage|p1a: Polteageist|12/100
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Polteageist|Strength Sap|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|atk|1
+|-heal|p1a: Polteageist|98/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Polteageist
+|-damage|p1a: Polteageist|76/100
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|move|p2a: Ferrothorn|Leech Seed|p1a: Polteageist
+|-start|p1a: Polteageist|move: Leech Seed
+|
+|-damage|p1a: Polteageist|63/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-end|p2a: Ferrothorn|Disable
+|upkeep
+|turn|8
+|
+|move|p1a: Polteageist|Strength Sap|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|atk|1
+|-heal|p1a: Polteageist|100/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Polteageist
+|-damage|p1a: Polteageist|73/100
+|
+|-damage|p1a: Polteageist|61/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-sideend|p1: Mauricioelanime2|move: Light Screen
+|upkeep
+|turn|9
+|
+|move|p1a: Polteageist|Shadow Ball|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Goodra|Goodra, F|100/100
+|turn|10
+|
+|move|p1a: Polteageist|Stored Power|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|-sideend|p1: Mauricioelanime2|Reflect
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, F|100/100
+|turn|11
+|
+|move|p1a: Polteageist|Shadow Ball|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|upkeep
+|-message|Babydave77 forfeited.
+|
+|win|Mauricioelanime2
+|l|☆Babydave77
+|raw|Mauricioelanime2's rating: 1178 → 1201(+23 for winning)
+|raw|Babydave77's rating: 1159 → 1135(-24 for losing)
+|c|☆Mauricioelanime2|gg

@@ -1,0 +1,305 @@
+|ScrapeTime|2020-01-01-06:55:12
+|j|☆freerkelly2019
+|j|☆JK41
+|player|p1|freerkelly2019|200|1371
+|player|p2|JK41|101|1325
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Togekiss, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Cinderace, M|
+|poke|p1|Kommo-o, M|
+|poke|p2|Boltund, M|
+|poke|p2|Gyarados, M|
+|poke|p2|Chandelure, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Vileplume, M|
+|poke|p2|Morpeko, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by freerkelly2019)
+|
+|move|p1a: Cinderace|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|78/100
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100|[from]move: U-turn
+|-item|p1a: Excadrill|Air Balloon
+|move|p2a: Seismitoad|Toxic|p1a: Excadrill
+|-immune|p1a: Excadrill
+|
+|-heal|p2a: Seismitoad|84/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Seismitoad|Stealth Rock|p1a: Tyranitar
+|-sidestart|p1: freerkelly2019|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Seismitoad|90/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|move|p2a: Seismitoad|Power Whip|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Seismitoad|96/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Tyranitar|Earthquake|p2a: Seismitoad
+|-damage|p2a: Seismitoad|38/100
+|move|p2a: Seismitoad|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Seismitoad|44/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-item|p1a: Excadrill|Air Balloon
+|turn|5
+|
+|move|p1a: Excadrill|Earthquake|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|turn|6
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Gyarados
+|-damage|p2a: Gyarados|75/100
+|-sideend|p1: freerkelly2019|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|move|p2a: Gyarados|Waterfall|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-enditem|p1a: Excadrill|Air Balloon
+|faint|p1a: Excadrill
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|turn|7
+|
+|switch|p2a: Boltund|Boltund, M|100/100
+|move|p1a: Togekiss|Air Slash|p2a: Boltund
+|-resisted|p2a: Boltund
+|-crit|p2a: Boltund
+|-damage|p2a: Boltund|50/100
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Togekiss|Air Slash|p2a: Boltund
+|-resisted|p2a: Boltund
+|-damage|p2a: Boltund|18/100
+|cant|p2a: Boltund|flinch
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Togekiss|Air Slash|p2a: Boltund
+|-resisted|p2a: Boltund
+|-damage|p2a: Boltund|0 fnt
+|faint|p2a: Boltund
+|
+|upkeep
+|
+|switch|p2a: Morpeko|Morpeko, F|100/100
+|turn|10
+|
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|move|p2a: Morpeko|Aura Wheel|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|72/100
+|-boost|p2a: Morpeko|spe|1
+|-damage|p2a: Morpeko|91/100|[from] item: Life Orb
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|11
+|
+|move|p2a: Morpeko|Parting Shot|p1a: Kommo-o
+|-unboost|p1a: Kommo-o|atk|1
+|-unboost|p1a: Kommo-o|spa|1
+|
+|switch|p2a: Vileplume|Vileplume, M|100/100|[from]move: Parting Shot
+|move|p1a: Kommo-o|Drain Punch|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|90/100
+|-heal|p1a: Kommo-o|79/100|[from] drain|[of] p2a: Vileplume
+|-status|p1a: Kommo-o|par|[from] ability: Effect Spore|[of] p2a: Vileplume
+|
+|-heal|p2a: Vileplume|97/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Vileplume|Moonblast|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|76/100
+|-unboost|p1a: Cinderace|spa|1
+|
+|-heal|p2a: Vileplume|100/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|switch|p2a: Chandelure|Chandelure, F|100/100
+|move|p1a: Cinderace|U-turn|p2a: Chandelure
+|-resisted|p2a: Chandelure
+|-damage|p2a: Chandelure|93/100
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Chandelure|Energy Ball|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|1/100
+|move|p1a: Rotom|Discharge|p2a: Chandelure
+|-damage|p2a: Chandelure|42/100
+|
+|-heal|p1a: Rotom|7/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Chandelure|Energy Ball|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|turn|16
+|
+|switch|p2a: Morpeko|Morpeko, F|91/100
+|move|p1a: Togekiss|Air Slash|p2a: Morpeko
+|-resisted|p2a: Morpeko
+|-damage|p2a: Morpeko|51/100
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|17
+|
+|move|p1a: Togekiss|Air Slash|p2a: Morpeko
+|-resisted|p2a: Morpeko
+|-damage|p2a: Morpeko|13/100
+|move|p2a: Morpeko|Aura Wheel|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|64/100
+|-boost|p2a: Morpeko|spe|1
+|-damage|p2a: Morpeko|4/100|[from] item: Life Orb
+|
+|-formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|18
+|
+|switch|p1a: Kommo-o|Kommo-o, M|79/100 par
+|move|p2a: Morpeko|Aura Wheel|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|52/100 par
+|-boost|p2a: Morpeko|spe|1
+|-damage|p2a: Morpeko|0 fnt|[from] item: Life Orb
+|faint|p2a: Morpeko
+|
+|upkeep
+|
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|turn|19
+|
+|cant|p1a: Kommo-o|par
+|move|p2a: Vileplume|Moonblast|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|76/100
+|turn|20
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, M|75/100
+|turn|21
+|
+|move|p1a: Cinderace|U-turn|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|61/100
+|
+|switch|p1a: Togekiss|Togekiss, M|64/100|[from]move: U-turn
+|move|p2a: Gyarados|Substitute|p2a: Gyarados
+|-start|p2a: Gyarados|Substitute
+|-damage|p2a: Gyarados|36/100
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Togekiss|Air Slash|p2a: Gyarados
+|-end|p2a: Gyarados|Substitute
+|move|p2a: Gyarados|Waterfall|p1a: Togekiss
+|-damage|p1a: Togekiss|9/100
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Togekiss|Air Slash|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|upkeep
+|
+|switch|p2a: Chandelure|Chandelure, F|42/100
+|turn|24
+|
+|move|p1a: Togekiss|Air Slash|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|
+|win|freerkelly2019
+|raw|freerkelly2019's rating: 1371 → 1388(+17 for winning)
+|raw|JK41's rating: 1325 → 1308(-17 for losing)
+|l|☆JK41
+|l|☆freerkelly2019

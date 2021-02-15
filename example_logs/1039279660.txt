@@ -1,0 +1,91 @@
+|ScrapeTime|2020-01-01-19:58:55
+|j|☆M.Mangag
+|j|☆monikaisHOT
+|player|p1|M.Mangag|87|1319
+|player|p2|monikaisHOT|101|1277
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Heliolisk, M|
+|poke|p1|Seismitoad, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Corviknight, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Dracovish|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Barraskewda, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Excadrill, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Piko|Ferrothorn, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|move|p2a: Rotom|Trick|p1a: Piko
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Piko
+|-item|p1a: Piko|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|move|p1a: Piko|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|79/100
+|-enditem|p2a: Rotom|Leftovers|[from] move: Knock Off|[of] p1a: Piko
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Fléchette|Dragapult, F|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Fléchette
+|-status|p1a: Fléchette|brn
+|
+|-damage|p1a: Fléchette|95/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Fléchette|Shadow Ball|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|77/100
+|
+|-heal|p2a: Ferrothorn|83/100|[from] item: Leftovers
+|-damage|p1a: Fléchette|89/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Fléchette|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-damage|p1a: Fléchette|83/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|5
+|
+|move|p1a: Fléchette|Thunder|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Fléchette|77/100 brn|[from] brn
+|upkeep
+|-message|monikaisHOT forfeited.
+|
+|win|M.Mangag
+|l|☆monikaisHOT

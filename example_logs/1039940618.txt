@@ -1,0 +1,478 @@
+|ScrapeTime|2020-01-02-23:56:33
+|j|☆Delicatexo
+|j|☆ur mum is gen8
+|player|p1|Delicatexo|2|1856
+|player|p2|ur mum is gen8|102|1862
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Seismitoad, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Salazzle, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Clefable, M|
+|poke|p1|Dracovish|
+|poke|p2|Mantine, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Crawdaunt, M|
+|poke|p2|Dracovish|
+|poke|p2|Rotom-Mow|
+|poke|p2|Excadrill, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| Lo' Sensei
+|
+|start
+|switch|p1a: Dracovish|Dracovish|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Dracovish
+|-resisted|p2a: Dracovish
+|-damage|p2a: Dracovish|52/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Seismitoad
+|-immune|p1a: Seismitoad|[from] ability: Water Absorb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Crawdaunt
+|-sidestart|p2: ur mum is gen8|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Crawdaunt|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|42/100
+|-enditem|p1a: Toxapex|Black Sludge|[from] move: Knock Off|[of] p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Crawdaunt|Swords Dance|p2a: Crawdaunt
+|-boost|p2a: Crawdaunt|atk|2
+|move|p1a: Toxapex|Toxic Spikes|p2a: Crawdaunt
+|-sidestart|p2: ur mum is gen8|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p2a: Crawdaunt|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|-damage|p2a: Crawdaunt|81/100|[from] item: Life Orb
+|faint|p1a: Toxapex
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|7
+|
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|72/100
+|-damage|p2a: Crawdaunt|71/100|[from] item: Life Orb
+|move|p1a: Dracovish|Fishious Rend|p2a: Crawdaunt
+|-resisted|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|8/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|43/100
+|-damage|p2a: Crawdaunt|0 fnt|[from] item: Life Orb
+|faint|p2a: Crawdaunt
+|move|p1a: Dracovish|Fishious Rend|p2: Crawdaunt|[notarget]
+|-fail|p1a: Dracovish
+|
+|-weather|none
+|upkeep
+|j| foorman
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|move|p2a: Rotom|Leaf Storm|p1a: Salazzle
+|-resisted|p1a: Salazzle
+|-damage|p1a: Salazzle|83/100
+|-unboost|p2a: Rotom|spa|2
+|
+|-heal|p1a: Salazzle|89/100|[from] item: Black Sludge
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-damage|p2a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|65/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Salazzle|71/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Salazzle|Protect||[still]
+|-fail|p1a: Salazzle
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Salazzle|77/100|[from] item: Black Sludge
+|-heal|p2a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Salazzle|Toxic|p2a: Excadrill
+|-status|p2a: Excadrill|tox
+|move|p2a: Excadrill|Rapid Spin|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Substitute|[damage]
+|-sideend|p2: ur mum is gen8|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-sideend|p2: ur mum is gen8|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-boost|p2a: Excadrill|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Salazzle|83/100|[from] item: Black Sludge
+|-damage|p2a: Excadrill|94/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Excadrill|Stealth Rock|p1a: Salazzle
+|-sidestart|p1: Delicatexo|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Salazzle|89/100|[from] item: Black Sludge
+|-heal|p2a: Excadrill|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Excadrill|88/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-fail|p1a: Salazzle|move: Substitute
+|move|p2a: Excadrill|Rapid Spin|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|-boost|p2a: Excadrill|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Excadrill|94/100 tox|[from] item: Leftovers
+|-heal|p1a: Salazzle|95/100|[from] item: Black Sludge
+|-damage|p2a: Excadrill|76/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Excadrill|Earthquake|p1a: Mandibuzz
+|-immune|p1a: Mandibuzz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Excadrill|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Excadrill|57/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p2a: Rotom|Rotom-Mow|94/100
+|move|p1a: Mandibuzz|Defog|p2a: Rotom
+|-unboost|p2a: Rotom|evasion|1
+|-sideend|p1: Delicatexo|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|99/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Rotom|Thunder|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|51/100
+|move|p1a: Mandibuzz|U-turn|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|82/100
+|
+|switch|p1a: Salazzle|Salazzle, F|95/100|[from]move: U-turn
+|
+|-weather|none
+|-heal|p1a: Salazzle|100/100|[from] item: Black Sludge
+|-heal|p2a: Rotom|88/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|j| Free Darmanitan
+|
+|switch|p1a: Dracovish|Dracovish|43/100
+|switch|p2a: Pelipper|Pelipper, M|76/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|11/100
+|move|p2a: Pelipper|Hurricane|p1a: Dracovish
+|-damage|p1a: Dracovish|1/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|switch|p2a: Dracovish|Dracovish|52/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Dracovish
+|-resisted|p2a: Dracovish
+|-damage|p2a: Dracovish|6/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Dracovish
+|-resisted|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Mantine|Mantine, M|100/100
+|turn|22
+|j| bayesian_monk
+|c| Free Darmanitan|helo
+|j| Hockey1
+|
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|move|p2a: Mantine|Hurricane|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|faint|p1a: Salazzle
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|51/100
+|turn|23
+|
+|move|p2a: Mantine|Hurricane|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|10/100
+|-start|p1a: Mandibuzz|confusion
+|-activate|p1a: Mandibuzz|confusion
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|60/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|c| Free Darmanitan|you playin good
+|
+|switch|p2a: Rotom|Rotom-Mow|88/100
+|-activate|p1a: Mandibuzz|confusion
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|-activate|p1a: Mandibuzz|confusion
+|-damage|p1a: Mandibuzz|96/100|[from] confusion
+|
+|-weather|none
+|-heal|p2a: Rotom|99/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|
+|-heal|p2a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|96/100
+|move|p2a: Rotom|Leaf Storm|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|51/100
+|-unboost|p2a: Rotom|spa|2
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Seismitoad
+|-immune|p1a: Seismitoad
+|
+|upkeep
+|turn|29
+|j| DOM3NICO3
+|
+|move|p2a: Rotom|Leaf Storm|p1a: Seismitoad
+|-supereffective|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Seismitoad
+|
+|upkeep
+|j| Tsorig of Carthus
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|turn|30
+|
+|move|p2a: Rotom|Volt Switch|p1a: Clefable
+|-damage|p1a: Clefable|78/100
+|
+|switch|p2a: Pelipper|Pelipper, M|11/100|[from]move: Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Clefable|85/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p2a: Excadrill|Excadrill, M|57/100 tox
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Excadrill|64/100 tox|[from] item: Leftovers
+|-heal|p1a: Clefable|91/100|[from] item: Leftovers
+|-damage|p2a: Excadrill|57/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|51/100
+|move|p2a: Excadrill|Iron Head|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|26/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Excadrill|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Excadrill|51/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|76/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|34
+|j| phys2000
+|
+|move|p2a: Rotom|Thunder|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|26/100
+|move|p1a: Mandibuzz|U-turn|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|81/100
+|
+|switch|p1a: Dracovish|Dracovish|1/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|87/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|switch|p2a: Excadrill|Excadrill, M|51/100 tox
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Dracovish|Fishious Rend|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Mantine|Mantine, M|100/100
+|turn|36
+|
+|move|p2a: Mantine|Hydro Pump|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c| Free Darmanitan|im going sleep
+|c| Free Darmanitan|bye
+|
+|switch|p1a: Clefable|Clefable, M|91/100
+|turn|37
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|26/100
+|move|p2a: Mantine|Hydro Pump|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, M|91/100
+|turn|38
+|l| Free Darmanitan
+|
+|move|p2a: Mantine|Hydro Pump|p1a: Clefable
+|-damage|p1a: Clefable|28/100
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|-heal|p1a: Clefable|34/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p2a: Mantine|Hydro Pump|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|win|ur mum is gen8
+|l|☆Delicatexo
+|l| DOM3NICO3
+|l|☆ur mum is gen8
+|l| Lo' Sensei
+|raw|Delicatexo's rating: 1830 → 1812(-18 for losing)
+|raw|ur mum is gen8's rating: 1862 → 1881(+19 for winning)
+|l| foorman
+|l| Tsorig of Carthus

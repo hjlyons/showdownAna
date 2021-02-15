@@ -1,0 +1,440 @@
+|ScrapeTime|2020-01-01-21:28:36
+|j|☆dagismax
+|j|☆Pikasami
+|player|p1|dagismax|infielder|1427
+|player|p2|Pikasami|262|1430
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Barraskewda, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Mantine, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Seismitoad, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Ditto|
+|poke|p2|Cinderace, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Hatterene, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dagismax)
+|
+|start
+|switch|p1a: GO|Pelipper, M, shiny|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: GO
+|turn|1
+|
+|move|p2a: Cinderace|U-turn|p1a: GO
+|-resisted|p1a: GO
+|-damage|p1a: GO|92/100
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100|[from]move: U-turn
+|move|p1a: GO|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|98/100
+|
+|switch|p1a: MRS. FROG|Seismitoad, F, shiny|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|move|p1a: MRS. FROG|Earth Power|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|16/100
+|-damage|p1a: MRS. FROG|91/100|[from] item: Life Orb
+|move|p2a: Toxapex|Toxic Spikes|p1a: MRS. FROG
+|-sidestart|p1: dagismax|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|22/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: MRS. FROG|Earth Power|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|67/100
+|-damage|p1a: MRS. FROG|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|73/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: MRS. FROG|Focus Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|18/100
+|-damage|p1a: MRS. FROG|71/100|[from] item: Life Orb
+|move|p2a: Ferrothorn|Knock Off|p1a: MRS. FROG
+|-damage|p1a: MRS. FROG|46/100
+|-enditem|p1a: MRS. FROG|Life Orb|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|24/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: MRS. FROG|Focus Blast|p2a: Ferrothorn|[miss]
+|-miss|p1a: MRS. FROG|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: MRS. FROG
+|-start|p1a: MRS. FROG|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|30/100|[from] item: Leftovers
+|-damage|p1a: MRS. FROG|34/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|43/100|[silent]
+|upkeep
+|turn|6
+|
+|switch|p1a: RESPECT MANTINE|Mantine, F, shiny|100/100
+|move|p2a: Ferrothorn|Protect||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|49/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: RESPECT MANTINE|Hurricane|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|8/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: RESPECT MANTINE
+|-start|p1a: RESPECT MANTINE|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|14/100|[from] item: Leftovers
+|-damage|p1a: RESPECT MANTINE|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|25/100|[silent]
+|upkeep
+|turn|8
+|
+|switch|p1a: STOP|Ferrothorn, M, shiny|100/100
+|move|p2a: Ferrothorn|Protect||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|none
+|-heal|p2a: Ferrothorn|31/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: STOP|Power Whip|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|24/100
+|-damage|p1a: STOP|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Knock Off|p1a: STOP
+|-damage|p1a: STOP|72/100
+|-damage|p2a: Ferrothorn|11/100|[from] ability: Iron Barbs|[of] p1a: STOP
+|-enditem|p1a: STOP|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|17/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: GO|Pelipper, M, shiny|92/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: GO
+|move|p2a: Ferrothorn|Protect||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|24/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: STOP|Ferrothorn, M, shiny|72/100
+|move|p2a: Ferrothorn|Protect||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|30/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: STOP|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Pikasami|Spikes
+|move|p2a: Ferrothorn|Leech Seed|p1a: STOP
+|-immune|p1a: STOP
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|36/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: STOP|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Pikasami|Spikes
+|move|p2a: Ferrothorn|Knock Off|p1a: STOP
+|-damage|p1a: STOP|60/100
+|-damage|p2a: Ferrothorn|24/100|[from] ability: Iron Barbs|[of] p1a: STOP
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|30/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: STOP|Power Whip|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|23/100
+|-damage|p1a: STOP|47/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Power Whip|p1a: STOP
+|-resisted|p1a: STOP
+|-damage|p1a: STOP|40/100
+|-damage|p2a: Ferrothorn|10/100|[from] ability: Iron Barbs|[of] p1a: STOP
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|17/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: STOP|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Pikasami|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|23/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: RESPECT MANTINE|Mantine, F, shiny|88/100
+|move|p2a: Ferrothorn|Knock Off|p1a: RESPECT MANTINE
+|-damage|p1a: RESPECT MANTINE|54/100
+|-enditem|p1a: RESPECT MANTINE|Choice Specs|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|29/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Pikasami has 120 seconds left.
+|
+|switch|p1a: STOP|Ferrothorn, M, shiny|40/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: STOP
+|-immune|p1a: STOP
+|
+|-weather|none
+|-heal|p2a: Ferrothorn|35/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|Pikasami has 120 seconds left.
+|
+|switch|p1a: GO|Pelipper, M, shiny|92/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: GO
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|76/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Hatterene|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: GO|U-turn|p2a: Hatterene
+|-damage|p2a: Hatterene|75/100
+|
+|switch|p1a: STOP|Ferrothorn, M, shiny|40/100|[from]move: U-turn
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Hatterene|81/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Hatterene|Mystical Fire|p1a: STOP
+|-supereffective|p1a: STOP
+|-damage|p1a: STOP|0 fnt
+|faint|p1a: STOP
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Hatterene|87/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: YOUCH|Barraskewda, M|100/100
+|-status|p1a: YOUCH|psn
+|turn|21
+|
+|move|p1a: YOUCH|Liquidation|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: YOUCH|88/100 psn|[from] psn
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-damage|p2a: Ditto|76/100|[from] Spikes
+|-transform|p2a: Ditto|p1a: YOUCH|[from] ability: Imposter
+|turn|22
+|
+|switch|p1a: GO|Pelipper, M, shiny|92/100
+|move|p2a: Ditto|Liquidation|p1a: GO
+|-resisted|p1a: GO
+|-damage|p1a: GO|65/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|move|p2a: Ditto|Liquidation|p1a: GO
+|-resisted|p1a: GO
+|-damage|p1a: GO|36/100
+|move|p1a: GO|U-turn|p2a: Ditto
+|-damage|p2a: Ditto|63/100
+|
+|switch|p1a: YOUCH|Barraskewda, M|88/100 psn|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: YOUCH|76/100 psn|[from] psn
+|upkeep
+|turn|24
+|
+|move|p2a: Ditto|Liquidation|p1a: YOUCH
+|-resisted|p1a: YOUCH
+|-damage|p1a: YOUCH|10/100 psn
+|move|p1a: YOUCH|Liquidation|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: YOUCH|0 fnt|[from] psn
+|faint|p1a: YOUCH
+|upkeep
+|
+|switch|p1a: RESPECT MANTINE|Mantine, F, shiny|54/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|25
+|
+|move|p1a: RESPECT MANTINE|Surf|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|76/100|[from] Spikes
+|turn|26
+|
+|switch|p1a: GO|Pelipper, M, shiny|36/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: GO
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|51/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragapult|57/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: GO|Scald|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragapult|63/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: GO
+|-damage|p1a: GO|10/100
+|-damage|p1a: GO|0 fnt
+|-hitcount|p1a: GO|2
+|faint|p1a: GO
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragapult|69/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|-status|p1a: Grimmsnarl|psn
+|turn|29
+|
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|44/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragapult|50/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|88/100 psn|[from] psn
+|upkeep
+|turn|30
+|
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Grimmsnarl
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragapult|56/100|[from] item: Leftovers
+|-heal|p1a: Grimmsnarl|94/100 psn|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|82/100 psn|[from] psn
+|upkeep
+|turn|31
+|
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|move|p2a: Dragapult|Phantom Force|p1a: Grimmsnarl|[from]lockedmove
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|64/100 psn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragapult|62/100|[from] item: Leftovers
+|-heal|p1a: Grimmsnarl|71/100 psn|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|58/100 psn|[from] psn
+|upkeep
+|turn|32
+|
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Grimmsnarl
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragapult|68/100|[from] item: Leftovers
+|-heal|p1a: Grimmsnarl|64/100 psn|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|52/100 psn|[from] psn
+|upkeep
+|turn|33
+|
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|move|p2a: Dragapult|Phantom Force|p1a: Grimmsnarl|[from]lockedmove
+|-resisted|p1a: Grimmsnarl
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|-weather|none
+|-heal|p2a: Dragapult|74/100|[from] item: Leftovers
+|upkeep
+|-message|dagismax forfeited.
+|
+|win|Pikasami
+|l|☆dagismax
+|raw|dagismax's rating: 1408 → 1389(-19 for losing)
+|raw|Pikasami's rating: 1430 → 1448(+18 for winning)

@@ -1,0 +1,252 @@
+|ScrapeTime|2020-01-02-04:54:26
+|j|☆GStmilk
+|j|☆jtsall2004
+|player|p1|GStmilk|101|1000
+|player|p2|jtsall2004|2|1054
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pincurchin, F|
+|poke|p1|Dracozolt|
+|poke|p1|Hawlucha, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Excadrill, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Ludicolo, M|
+|poke|p2|Duraludon, M|
+|poke|p2|Tyranitar, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GStmilk)
+|
+|switch|p1a: Pincurchin|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|move|p2a: Grimmsnarl|Foul Play|p1a: Pincurchin
+|-damage|p1a: Pincurchin|78/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: jtsall2004|Reflect
+|move|p1a: Pincurchin|Spikes|p2a: Grimmsnarl
+|-sidestart|p2: jtsall2004|Spikes
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: jtsall2004|move: Light Screen
+|move|p1a: Pincurchin|Discharge|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|89/100
+|
+|-heal|p2a: Grimmsnarl|95/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Pincurchin|Spikes|p2a: Corviknight
+|-sidestart|p2: jtsall2004|Spikes
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Corviknight|Defog|p1a: Pincurchin
+|-unboost|p1a: Pincurchin|evasion|1
+|-sideend|p2: jtsall2004|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|-fieldend|move: Electric Terrain
+|move|p1a: Pincurchin|Discharge|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|74/100
+|-status|p2a: Corviknight|par
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Grimmsnarl|94/100|[from] Sandstorm
+|-sideend|p2: jtsall2004|Reflect
+|upkeep
+|turn|7
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: GStmilk|Reflect
+|move|p2a: Tyranitar|Earthquake|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Grimmsnarl|52/100|[from] Sandstorm
+|-sideend|p2: jtsall2004|move: Light Screen
+|upkeep
+|turn|8
+|
+|move|p2a: Tyranitar|Earthquake|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|17/100
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|24/100
+|-unboost|p2a: Tyranitar|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Grimmsnarl|11/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: GStmilk|move: Light Screen
+|move|p2a: Tyranitar|Earthquake|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|GStmilk has 120 seconds left.
+|
+|switch|p1a: Pincurchin|Pincurchin, F|78/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|10
+|
+|move|p2a: Tyranitar|Earthquake|p1a: Pincurchin
+|-supereffective|p1a: Pincurchin
+|-damage|p1a: Pincurchin|31/100
+|move|p1a: Pincurchin|Memento|p2a: Tyranitar
+|-unboost|p2a: Tyranitar|atk|2
+|-unboost|p2a: Tyranitar|spa|2
+|faint|p1a: Pincurchin
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p1a: Hawlucha|Electric Seed
+|-boost|p1a: Hawlucha|def|1
+|turn|11
+|
+|switch|p2a: Corviknight|Corviknight, F|74/100 par
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Corviknight|Defog|p1a: Hawlucha
+|-unboost|p1a: Hawlucha|evasion|1
+|-sideend|p1: GStmilk|Reflect
+|-sideend|p1: GStmilk|move: Light Screen
+|-fieldend|move: Electric Terrain
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Corviknight|Tailwind|p2a: Corviknight
+|-sidestart|p2: jtsall2004|move: Tailwind
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Hawlucha|Fire Punch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|95/100
+|turn|15
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Ludicolo|Ludicolo, M|100/100
+|turn|16
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Ludicolo
+|-supereffective|p2a: Ludicolo
+|-damage|p2a: Ludicolo|0 fnt
+|faint|p2a: Ludicolo
+|
+|-sideend|p2: jtsall2004|move: Tailwind
+|upkeep
+|
+|switch|p2a: Duraludon|Duraludon, M|100/100
+|turn|17
+|
+|move|p1a: Hawlucha|Close Combat|p2a: Duraludon
+|-supereffective|p2a: Duraludon
+|-damage|p2a: Duraludon|0 fnt
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|faint|p2a: Duraludon
+|
+|upkeep
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|18
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Pelipper
+|-enditem|p2a: Pelipper|Focus Sash
+|-damage|p2a: Pelipper|1/100
+|move|p2a: Pelipper|Hurricane|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|turn|19
+|
+|move|p1a: Dracozolt|Bolt Beak|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-crit|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, M|24/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|20
+|
+|move|p1a: Dracozolt|Bolt Beak|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|win|GStmilk
+|raw|GStmilk's rating: 1000 → 1046(+46 for winning)
+|raw|jtsall2004's rating: 1054 → 1033(-21 for losing)

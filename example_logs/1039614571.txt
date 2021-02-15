@@ -1,0 +1,113 @@
+|ScrapeTime|2020-01-02-11:45:20
+|j|☆erkikemelo
+|j|☆DuelChase
+|player|p1|erkikemelo|169|1258
+|player|p2|DuelChase|policeman|1218
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pincurchin, M|
+|poke|p1|Slurpuff, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Mr. Mime-Galar, F|
+|poke|p1|Roserade, F|
+|poke|p1|Bisharp, M|
+|poke|p2|Hydreigon, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Seismitoad, M|
+|poke|p2|Hatterene, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by erkikemelo)
+|
+|start
+|switch|p1a: PorcupineTree|Pincurchin, M|100/100
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: PorcupineTree
+|-item|p1a: PorcupineTree|Air Balloon
+|turn|1
+|
+|move|p2a: Hydreigon|Taunt|p1a: PorcupineTree
+|-start|p1a: PorcupineTree|move: Taunt
+|move|p1a: PorcupineTree|Zing Zap|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|78/100
+|
+|-heal|p2a: Hydreigon|84/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: JimmyEatWorld|Slurpuff, F|100/100
+|-enditem|p1a: JimmyEatWorld|Electric Seed
+|-boost|p1a: JimmyEatWorld|def|1
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|-heal|p2a: Hydreigon|90/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: JimmyEatWorld|Dazzling Gleam|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|4
+|
+|move|p1a: JimmyEatWorld|Calm Mind|p1a: JimmyEatWorld
+|-boost|p1a: JimmyEatWorld|spa|1
+|-boost|p1a: JimmyEatWorld|spd|1
+|move|p2a: Rotom|Will-O-Wisp|p1a: JimmyEatWorld
+|-status|p1a: JimmyEatWorld|brn
+|
+|-damage|p1a: JimmyEatWorld|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: JimmyEatWorld|Calm Mind|p1a: JimmyEatWorld
+|-boost|p1a: JimmyEatWorld|spa|1
+|-boost|p1a: JimmyEatWorld|spd|1
+|
+|-damage|p1a: JimmyEatWorld|88/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: JimmyEatWorld|Flamethrower|p2a: Hatterene
+|-damage|p2a: Hatterene|44/100
+|
+|-heal|p2a: Hatterene|50/100|[from] item: Leftovers
+|-damage|p1a: JimmyEatWorld|82/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: JimmyEatWorld|Dazzling Gleam|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-damage|p1a: JimmyEatWorld|76/100 brn|[from] brn
+|upkeep
+|-message|DuelChase forfeited.
+|
+|win|erkikemelo
+|l|☆DuelChase
+|raw|erkikemelo's rating: 1258 → 1280(+22 for winning)
+|raw|DuelChase's rating: 1219 → 1197(-22 for losing)

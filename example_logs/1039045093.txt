@@ -1,0 +1,296 @@
+|ScrapeTime|2020-01-01-07:05:03
+|j|☆HabaneroMilk
+|j|☆EwokTreeMan
+|player|p1|HabaneroMilk|226|1199
+|player|p2|EwokTreeMan|2|1142
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corviknight, F|
+|poke|p1|Clefable, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Dracovish|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Crawdaunt, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Clefable, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Aegislash, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HabaneroMilk)
+|
+|start
+|switch|p1a: Dracovish|Dracovish|100/100
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|1
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|turn|2
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, F, shiny|100/100
+|turn|3
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|move|p2a: Toxapex|Baneful Bunker||[still]
+|-fail|p2a: Toxapex
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Toxapex|Toxic Spikes|p1a: Corsola
+|-sidestart|p1: HabaneroMilk|move: Toxic Spikes
+|move|p1a: Corsola|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: EwokTreeMan|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|-status|p1a: Clefable|psn
+|move|p2a: Toxapex|Toxic Spikes|p1a: Clefable
+|-sidestart|p1: HabaneroMilk|move: Toxic Spikes
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Clefable|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|37/100
+|move|p2a: Toxapex|Scald|p1a: Clefable
+|-damage|p1a: Clefable|86/100 psn
+|
+|-heal|p2a: Toxapex|44/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Clefable|Thunderbolt|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|50/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|-damage|p2a: Aegislash|94/100|[from] Stealth Rock
+|move|p1a: Clefable|Thunderbolt|p2a: Aegislash
+|-damage|p2a: Aegislash|64/100
+|
+|-heal|p2a: Aegislash|70/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Aegislash|Metal Sound|p1a: Corviknight
+|-unboost|p1a: Corviknight|spd|2
+|
+|-heal|p2a: Aegislash|76/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Corviknight|Defog|p2a: Aegislash
+|-unboost|p2a: Aegislash|evasion|1
+|-sideend|p2: EwokTreeMan|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: HabaneroMilk|Toxic Spikes|[from] move: Defog|[of] p1a: Corviknight
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|6/100
+|-unboost|p1a: Corviknight|spd|1
+|
+|-heal|p1a: Corviknight|12/100|[from] item: Leftovers
+|-heal|p2a: Aegislash|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|62/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Aegislash|Substitute|p2a: Aegislash
+|-start|p2a: Aegislash|Substitute
+|-damage|p2a: Aegislash|57/100
+|
+|-heal|p1a: Corviknight|68/100|[from] item: Leftovers
+|-heal|p2a: Aegislash|63/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-end|p2a: Aegislash|Substitute
+|-damage|p1a: Corviknight|61/100|[from] Recoil|[of] p2a: Aegislash
+|move|p2a: Aegislash|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-heal|p2a: Aegislash|70/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|13
+|
+|-formechange|p2a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Dracovish|Fishious Rend|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|-unboost|p1a: Dracovish|atk|1
+|
+|-heal|p2a: Aegislash|76/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, F, shiny|83/100
+|turn|15
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Dracovish|Fishious Rend|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|-status|p1a: Dracovish|psn
+|
+|-heal|p2a: Toxapex|89/100|[from] item: Black Sludge
+|-damage|p1a: Dracovish|88/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|48/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|98/100
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p1a: Dracovish|76/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Toxapex|Baneful Bunker||[still]
+|-fail|p2a: Toxapex
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Grimmsnarl|Substitute|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|Substitute
+|-damage|p1a: Grimmsnarl|76/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Grimmsnarl
+|-sidestart|p1: HabaneroMilk|move: Toxic Spikes
+|
+|-heal|p1a: Grimmsnarl|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|move|p2a: Toxapex|Scald|p1a: Grimmsnarl
+|-activate|p1a: Grimmsnarl|move: Substitute|[damage]
+|
+|-heal|p1a: Grimmsnarl|88/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|
+|-heal|p1a: Grimmsnarl|94/100|[from] item: Leftovers
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|21
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|-heal|p1a: Grimmsnarl|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100
+|turn|22
+|
+|move|p2a: Crawdaunt|Close Combat|p1a: Grimmsnarl
+|-end|p1a: Grimmsnarl|Substitute
+|-unboost|p2a: Crawdaunt|def|1
+|-unboost|p2a: Crawdaunt|spd|1
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|-heal|p1a: Grimmsnarl|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, F, shiny|100/100
+|turn|23
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Grimmsnarl|Substitute|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|Substitute
+|-damage|p1a: Grimmsnarl|76/100
+|
+|-heal|p1a: Grimmsnarl|82/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Toxapex
+|-status|p2a: Toxapex|par
+|cant|p2a: Toxapex|par
+|
+|-heal|p1a: Grimmsnarl|88/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|
+|-heal|p1a: Grimmsnarl|94/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|-message|EwokTreeMan forfeited.
+|
+|win|HabaneroMilk
+|l|☆EwokTreeMan
+|raw|HabaneroMilk's rating: 1199 → 1220(+21 for winning)
+|raw|EwokTreeMan's rating: 1142 → 1121(-21 for losing)

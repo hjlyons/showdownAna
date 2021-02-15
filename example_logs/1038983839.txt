@@ -1,0 +1,565 @@
+|ScrapeTime|2020-01-01-03:34:44
+|j|☆SP00NELL
+|j|☆Reaper Sensei
+|player|p1|SP00NELL|ethan|1099
+|player|p2|Reaper Sensei|ethan|1137
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, F|
+|poke|p1|Toxtricity, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Gastrodon, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Aegislash, M|
+|poke|p2|Milotic, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Hippowdon, F|
+|poke|p2|Conkeldurr, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|1
+|
+|switch|p2a: Milotic|Milotic, M|100/100
+|move|p1a: Hydreigon|Taunt|p2a: Milotic
+|-start|p2a: Milotic|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|94/100|[from] Sandstorm
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Milotic|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|75/100
+|-enditem|p2a: Rotom|Choice Scarf|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|69/100|[from] Sandstorm
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Gastrodon|Gastrodon, F|100/100
+|move|p2a: Rotom|Trick|p1a: Gastrodon
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Gastrodon
+|-enditem|p1a: Gastrodon|Leftovers|[silent]|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|63/100|[from] Sandstorm
+|-heal|p2a: Rotom|69/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Milotic|Milotic, M|100/100
+|move|p1a: Gastrodon|Surf|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|87/100
+|
+|-weather|none
+|-heal|p2a: Milotic|93/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Milotic|Ice Beam|p1a: Gastrodon
+|-crit|p1a: Gastrodon
+|-damage|p1a: Gastrodon|69/100
+|move|p1a: Gastrodon|Sludge Wave|p2a: Milotic
+|-damage|p2a: Milotic|73/100
+|
+|-heal|p2a: Milotic|79/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Milotic|Ice Beam|p1a: Gastrodon
+|-damage|p1a: Gastrodon|51/100
+|move|p1a: Gastrodon|Sludge Wave|p2a: Milotic
+|-damage|p2a: Milotic|59/100
+|
+|-heal|p2a: Milotic|65/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Milotic|Ice Beam|p1a: Gastrodon
+|-damage|p1a: Gastrodon|32/100
+|move|p1a: Gastrodon|Sludge Wave|p2a: Milotic
+|-damage|p2a: Milotic|45/100
+|
+|-heal|p2a: Milotic|51/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Milotic|Ice Beam|p1a: Gastrodon
+|-damage|p1a: Gastrodon|12/100
+|move|p1a: Gastrodon|Sludge Wave|p2a: Milotic
+|-damage|p2a: Milotic|32/100
+|-status|p2a: Milotic|psn
+|
+|-heal|p2a: Milotic|38/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|25/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|move|p2a: Milotic|Ice Beam|p1a: Toxtricity
+|-damage|p1a: Toxtricity|69/100
+|
+|-heal|p2a: Milotic|31/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|19/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|move|p1a: Toxtricity|Shift Gear|p1a: Toxtricity
+|-boost|p1a: Toxtricity|spe|2
+|-boost|p1a: Toxtricity|atk|1
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|69/100 psn
+|
+|-heal|p2a: Milotic|75/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|63/100 psn|[from] psn
+|upkeep
+|turn|12
+|-activate|p1a: Toxtricity|item: Quick Claw
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Toxtricity|Overdrive|p2a: Hippowdon
+|-immune|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxtricity|63/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|move|p1a: Toxtricity|Toxic|p2a: Hippowdon
+|-status|p2a: Hippowdon|tox
+|move|p2a: Hippowdon|Earthquake|p1a: Toxtricity
+|-supereffective|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hippowdon|94/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|94/100
+|turn|14
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Hippowdon
+|-damage|p2a: Hippowdon|28/100 tox
+|-unboost|p1a: Hydreigon|spa|2
+|-damage|p1a: Hydreigon|84/100|[from] item: Life Orb
+|move|p2a: Hippowdon|Stealth Rock|p1a: Hydreigon
+|-sidestart|p1: SP00NELL|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|78/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|34/100 tox|[from] item: Leftovers
+|-damage|p2a: Hippowdon|22/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Hippowdon
+|-damage|p2a: Hippowdon|3/100 tox
+|-damage|p1a: Hydreigon|68/100|[from] item: Life Orb
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|53/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|62/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|60/100 tox|[from] item: Leftovers
+|-damage|p2a: Hippowdon|41/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Hippowdon
+|-damage|p2a: Hippowdon|11/100 tox
+|-unboost|p1a: Hydreigon|spa|2
+|-damage|p1a: Hydreigon|52/100|[from] item: Life Orb
+|move|p2a: Hippowdon|Whirlwind|p1a: Hydreigon
+|drag|p1a: Ferrothorn|Ferrothorn, F|94/100
+|-damage|p1a: Ferrothorn|88/100|[from] Stealth Rock
+|
+|-weather|none
+|-heal|p2a: Hippowdon|17/100 tox|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|-damage|p2a: Hippowdon|0 fnt|[from] psn
+|faint|p2a: Hippowdon
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|69/100
+|turn|17
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Rotom|Overheat|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|65/100
+|-unboost|p2a: Rotom|spa|2
+|
+|-heal|p2a: Rotom|75/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p1: SP00NELL|Stealth Rock|[silent]
+|-sidestart|p2: Reaper Sensei|Stealth Rock|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Rotom|Volt Switch|p1a: Cinderace
+|-damage|p1a: Cinderace|47/100
+|
+|switch|p2a: Milotic|Milotic, M|63/100 psn|[from]move: Volt Switch
+|-damage|p2a: Milotic|50/100 psn|[from] Stealth Rock
+|
+|-heal|p2a: Milotic|56/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|44/100 psn|[from] psn
+|upkeep
+|turn|19
+|
+|move|p1a: Cinderace|U-turn|p2a: Milotic
+|-damage|p2a: Milotic|26/100 psn
+|
+|switch|p1a: Gastrodon|Gastrodon, F|12/100|[from]move: U-turn
+|move|p2a: Milotic|Scald|p1a: Gastrodon
+|-ability|p1a: Gastrodon|Storm Drain|boost
+|-boost|p1a: Gastrodon|spa|1
+|
+|-heal|p2a: Milotic|32/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|20/100 psn|[from] psn
+|upkeep
+|turn|20
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|70/100 psn
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|62/100
+|
+|-heal|p2a: Milotic|76/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|64/100 psn|[from] psn
+|upkeep
+|turn|21
+|
+|move|p2a: Milotic|Ice Beam|p1a: Gastrodon
+|-damage|p1a: Gastrodon|43/100
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|93/100
+|
+|-heal|p2a: Milotic|70/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|57/100 psn|[from] psn
+|upkeep
+|turn|22
+|
+|move|p2a: Milotic|Ice Beam|p1a: Gastrodon
+|-damage|p1a: Gastrodon|73/100
+|move|p1a: Gastrodon|Sludge Wave|p2a: Milotic
+|-damage|p2a: Milotic|27/100 psn
+|
+|-heal|p2a: Milotic|33/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|21/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|71/100 psn
+|move|p1a: Gastrodon|Sludge Wave|p2a: Milotic
+|-damage|p2a: Milotic|41/100 psn
+|
+|-heal|p2a: Milotic|47/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|35/100 psn|[from] psn
+|upkeep
+|turn|24
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|85/100 psn
+|move|p1a: Gastrodon|Sludge Wave|p2a: Milotic
+|-damage|p2a: Milotic|54/100 psn
+|
+|-heal|p2a: Milotic|60/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|48/100 psn|[from] psn
+|upkeep
+|turn|25
+|
+|move|p2a: Milotic|Ice Beam|p1a: Gastrodon
+|-damage|p1a: Gastrodon|53/100
+|move|p1a: Gastrodon|Sludge Wave|p2a: Milotic
+|-damage|p2a: Milotic|15/100 psn
+|
+|-heal|p2a: Milotic|21/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|9/100 psn|[from] psn
+|upkeep
+|turn|26
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|59/100 psn
+|move|p1a: Gastrodon|Sludge Wave|p2a: Milotic
+|-damage|p2a: Milotic|27/100 psn
+|
+|-heal|p2a: Milotic|33/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|21/100 psn|[from] psn
+|upkeep
+|turn|27
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|71/100 psn
+|move|p1a: Gastrodon|Sludge Wave|p2a: Milotic
+|-damage|p2a: Milotic|41/100 psn
+|
+|-heal|p2a: Milotic|47/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|35/100 psn|[from] psn
+|upkeep
+|turn|28
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|85/100 psn
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|100/100
+|
+|-heal|p2a: Milotic|91/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|78/100 psn|[from] psn
+|upkeep
+|turn|29
+|
+|move|p2a: Milotic|Hypnosis|p1a: Gastrodon
+|-status|p1a: Gastrodon|slp|[from] move: Hypnosis
+|cant|p1a: Gastrodon|slp
+|
+|-heal|p2a: Milotic|84/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|72/100 psn|[from] psn
+|upkeep
+|turn|30
+|
+|move|p2a: Milotic|Ice Beam|p1a: Gastrodon
+|-damage|p1a: Gastrodon|82/100 slp
+|cant|p1a: Gastrodon|slp
+|
+|-heal|p2a: Milotic|78/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|65/100 psn|[from] psn
+|upkeep
+|turn|31
+|
+|move|p2a: Milotic|Ice Beam|p1a: Gastrodon
+|-crit|p1a: Gastrodon
+|-damage|p1a: Gastrodon|52/100 slp
+|-curestatus|p1a: Gastrodon|slp|[msg]
+|move|p1a: Gastrodon|Surf|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|43/100 psn
+|
+|-heal|p2a: Milotic|49/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|36/100 psn|[from] psn
+|upkeep
+|turn|32
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|94/100
+|move|p2a: Milotic|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|77/100
+|-status|p1a: Ferrothorn|frz
+|
+|-heal|p2a: Milotic|42/100 psn|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|84/100 frz|[from] item: Leftovers
+|-damage|p2a: Milotic|30/100 psn|[from] psn
+|upkeep
+|turn|33
+|
+|switch|p2a: Rotom|Rotom-Heat|75/100
+|-damage|p2a: Rotom|50/100|[from] Stealth Rock
+|cant|p1a: Ferrothorn|frz
+|
+|-heal|p2a: Rotom|56/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|90/100 frz|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p2a: Rotom|Overheat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Ferrothorn
+|
+|-heal|p2a: Rotom|63/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|52/100
+|turn|35
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|-damage|p1a: Hydreigon|43/100|[from] item: Life Orb
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|-damage|p2a: Conkeldurr|94/100|[from] Stealth Rock
+|turn|36
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Conkeldurr|Mach Punch|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|94/100
+|
+|-heal|p1a: Hatterene|99/100|[from] item: Leftovers
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|37
+|
+|move|p2a: Conkeldurr|Defog|p1a: Hatterene
+|move|p1a: Hatterene|Defog|p2a: Conkeldurr|[from]Magic Bounce
+|-unboost|p2a: Conkeldurr|evasion|1
+|-sideend|p2: Reaper Sensei|Stealth Rock|[from] move: Defog|[of] p1a: Hatterene
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-heal|p1a: Hatterene|100/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|77/100
+|
+|upkeep
+|turn|39
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|43/100
+|turn|40
+|
+|switch|p2a: Milotic|Milotic, M|30/100 psn
+|move|p1a: Hydreigon|Taunt|p2a: Milotic
+|-start|p2a: Milotic|move: Taunt
+|
+|-heal|p2a: Milotic|36/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|24/100 psn|[from] psn
+|upkeep
+|turn|41
+|
+|move|p2a: Milotic|Ice Beam|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-heal|p2a: Milotic|30/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|17/100 psn|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|47/100
+|turn|42
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Milotic|[miss]
+|-miss|p1a: Cinderace|p2a: Milotic
+|move|p2a: Milotic|Scald|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-heal|p2a: Milotic|23/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|11/100 psn|[from] psn
+|-end|p2a: Milotic|move: Taunt
+|upkeep
+|
+|switch|p1a: Gastrodon|Gastrodon, F|52/100
+|turn|43
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|61/100 psn
+|move|p1a: Gastrodon|Sludge Wave|p2a: Milotic
+|-damage|p2a: Milotic|39/100 psn
+|
+|-heal|p2a: Milotic|45/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|33/100 psn|[from] psn
+|upkeep
+|turn|44
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|83/100 psn
+|move|p1a: Gastrodon|Surf|p2a: Milotic
+|-resisted|p2a: Milotic
+|-crit|p2a: Milotic
+|-damage|p2a: Milotic|61/100 psn
+|
+|-heal|p2a: Milotic|67/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|55/100 psn|[from] psn
+|upkeep
+|turn|45
+|
+|move|p2a: Milotic|Hypnosis|p1a: Gastrodon
+|-status|p1a: Gastrodon|slp|[from] move: Hypnosis
+|cant|p1a: Gastrodon|slp
+|
+|-heal|p2a: Milotic|61/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|48/100 psn|[from] psn
+|upkeep
+|turn|46
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|88/100 brn
+|-curestatus|p1a: Gastrodon|slp|[msg]
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|100/100
+|
+|-damage|p2a: Conkeldurr|82/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|move|p2a: Conkeldurr|Drain Punch|p1a: Gastrodon
+|-damage|p1a: Gastrodon|26/100
+|-heal|p2a: Conkeldurr|100/100 brn|[from] drain|[of] p1a: Gastrodon
+|move|p1a: Gastrodon|Surf|p2a: Conkeldurr
+|-crit|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|31/100 brn
+|
+|-damage|p2a: Conkeldurr|25/100 brn|[from] brn
+|upkeep
+|turn|48
+|c|☆SP00NELL|gg
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|
+|win|Reaper Sensei
+|c|☆Reaper Sensei|gg
+|raw|SP00NELL's rating: 1099 → 1077(-22 for losing)
+|raw|Reaper Sensei's rating: 1137 → 1159(+22 for winning)
+|l|☆SP00NELL

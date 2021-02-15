@@ -1,0 +1,337 @@
+|ScrapeTime|2020-01-03-00:15:41
+|j|☆rossopowa
+|j|☆ShitmonVGC
+|player|p1|rossopowa|preschooler|1218
+|player|p2|ShitmonVGC|fisherman-gen4|1174
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gengar, M|
+|poke|p1|Tsareena, F|
+|poke|p1|Dracovish|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Pelipper, M|
+|poke|p1|Barraskewda, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Ribombee, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Eldegoss, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Toxtricity, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ShitmonVGC)
+|
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Toxtricity|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|77/100
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from]move: Volt Switch
+|-ability|p2a: Corviknight|Pressure
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|83/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|75/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: ShitmonVGC|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Corviknight|82/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|89/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Corviknight|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|move|p2a: Corviknight|Brave Bird|p1a: Dracovish
+|-damage|p1a: Dracovish|47/100
+|-damage|p2a: Corviknight|74/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Corviknight|80/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|move|p1a: Dracovish|Fishious Rend|p2a: Seismitoad
+|-heal|p2a: Seismitoad|100/100|[from] ability: Water Absorb|[of] p1a: Dracovish
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Tsareena|Tsareena, F|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Tsareena
+|-sidestart|p1: rossopowa|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Eldegoss|Eldegoss, M|100/100
+|-damage|p2a: Eldegoss|88/100|[from] Stealth Rock
+|move|p1a: Tsareena|Rapid Spin|p2a: Eldegoss
+|-damage|p2a: Eldegoss|67/100
+|-sideend|p1: rossopowa|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tsareena
+|-boost|p1a: Tsareena|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Eldegoss|74/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Tsareena|U-turn|p2a: Eldegoss
+|-supereffective|p2a: Eldegoss
+|-damage|p2a: Eldegoss|19/100
+|
+|switch|p1a: Gengar|Gengar, M|100/100|[from]move: U-turn
+|move|p2a: Eldegoss|Rapid Spin|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-weather|none
+|-heal|p2a: Eldegoss|25/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Corviknight|Corviknight, M|80/100
+|-damage|p2a: Corviknight|67/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Gengar|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|35/100
+|-unboost|p2a: Corviknight|spd|1
+|
+|-heal|p2a: Corviknight|41/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Eldegoss|Eldegoss, M|58/100
+|-damage|p2a: Eldegoss|46/100|[from] Stealth Rock
+|move|p1a: Gengar|Shadow Ball|p2a: Eldegoss
+|-crit|p2a: Eldegoss
+|-damage|p2a: Eldegoss|1/100
+|
+|-heal|p2a: Eldegoss|7/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|-damage|p2a: Cinderace|76/100|[from] Stealth Rock
+|move|p1a: Gengar|Shadow Ball|p2a: Cinderace
+|-damage|p2a: Cinderace|15/100
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Dracovish|Dracovish|47/100
+|move|p2a: Cinderace|U-turn|p1a: Dracovish
+|-damage|p1a: Dracovish|11/100
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100|[from]move: U-turn
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Tsareena|Tsareena, F|100/100
+|move|p2a: Seismitoad|Toxic|p1a: Tsareena
+|-status|p1a: Tsareena|tox
+|
+|-damage|p1a: Tsareena|94/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|switch|p2a: Cinderace|Cinderace, F|15/100
+|-damage|p2a: Cinderace|0 fnt|[from] Stealth Rock
+|faint|p2a: Cinderace
+|move|p1a: Tsareena|High Jump Kick|p2: Cinderace|[notarget]
+|-fail|p1a: Tsareena
+|
+|-damage|p1a: Tsareena|82/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|-damage|p2a: Toxtricity|88/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|89/100
+|move|p2a: Toxtricity|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|66/100
+|
+|switch|p2a: Corviknight|Corviknight, M|41/100|[from]move: Volt Switch
+|-damage|p2a: Corviknight|29/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|
+|-heal|p2a: Corviknight|35/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|72/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Dracovish|Dracovish|11/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|85/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|91/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Seismitoad|Seismitoad, F|94/100
+|-damage|p2a: Seismitoad|88/100|[from] Stealth Rock
+|move|p1a: Dracovish|Fishious Rend|p2a: Seismitoad
+|-heal|p2a: Seismitoad|100/100|[from] ability: Water Absorb|[of] p1a: Dracovish
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Tsareena|Tsareena, F|82/100 tox
+|move|p2a: Seismitoad|Stealth Rock|p1a: Tsareena
+|-sidestart|p1: rossopowa|move: Stealth Rock
+|
+|-damage|p1a: Tsareena|76/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p2a: Seismitoad|Stealth Rock||[still]
+|-fail|p2a: Seismitoad
+|move|p1a: Tsareena|Trop Kick|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-damage|p1a: Tsareena|60/100 tox|[from] item: Rocky Helmet|[of] p2a: Seismitoad
+|faint|p2a: Seismitoad
+|
+|-damage|p1a: Tsareena|48/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, F|88/100
+|-damage|p2a: Toxtricity|76/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Toxtricity|Overdrive|p1a: Tsareena
+|-resisted|p1a: Tsareena
+|-damage|p1a: Tsareena|20/100 tox
+|move|p1a: Tsareena|Rapid Spin|p2a: Toxtricity
+|-damage|p2a: Toxtricity|53/100
+|-sideend|p1: rossopowa|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tsareena
+|-boost|p1a: Tsareena|spe|1
+|
+|-damage|p1a: Tsareena|2/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p2a: Corviknight|Corviknight, M|91/100
+|-damage|p2a: Corviknight|79/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Tsareena|Trop Kick|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|71/100
+|-unboost|p2a: Corviknight|atk|1
+|
+|-heal|p2a: Corviknight|77/100|[from] item: Leftovers
+|-damage|p1a: Tsareena|0 fnt|[from] psn
+|faint|p1a: Tsareena
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|11/100
+|turn|22
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Ribombee|Ribombee, M|100/100
+|-damage|p2a: Ribombee|76/100|[from] Stealth Rock
+|turn|23
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Ribombee|Quiver Dance|p2a: Ribombee
+|-boost|p2a: Ribombee|spa|1
+|-boost|p2a: Ribombee|spd|1
+|-boost|p2a: Ribombee|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|
+|move|p2a: Ribombee|Sticky Web|p1a: Pelipper
+|-sidestart|p1: rossopowa|move: Sticky Web
+|move|p1a: Pelipper|Hurricane|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, F|53/100
+|-damage|p2a: Toxtricity|41/100|[from] Stealth Rock
+|turn|25
+|
+|switch|p1a: Dracovish|Dracovish|11/100
+|-activate|p1a: Dracovish|move: Sticky Web
+|-unboost|p1a: Dracovish|spe|1
+|move|p2a: Toxtricity|Overdrive|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|-activate|p1a: Barraskewda|move: Sticky Web
+|-unboost|p1a: Barraskewda|spe|1
+|turn|26
+|
+|move|p1a: Barraskewda|Liquidation|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Eldegoss|Eldegoss, M|41/100
+|-damage|p2a: Eldegoss|28/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Barraskewda|Liquidation|p2a: Eldegoss
+|-resisted|p2a: Eldegoss
+|-damage|p2a: Eldegoss|0 fnt
+|faint|p2a: Eldegoss
+|
+|win|rossopowa

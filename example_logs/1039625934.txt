@@ -1,0 +1,528 @@
+|ScrapeTime|2020-01-02-12:35:21
+|j|☆bright snorlax
+|j|☆Gnirks_Flo
+|player|p1|bright snorlax|169|1581
+|player|p2|Gnirks_Flo|92|1500
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Seismitoad, F|
+|poke|p1|Aegislash, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Obstagoon, M|
+|poke|p1|Sylveon, M|
+|poke|p1|Avalugg, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Gastrodon-East, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Corviknight, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|1
+|
+|switch|p2a: Gastrodon|Gastrodon-East, M|100/100
+|move|p1a: Cinderace|U-turn|p2a: Gastrodon
+|-damage|p2a: Gastrodon|85/100
+|
+|switch|p1a: Obstagoon|Obstagoon, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Gastrodon|91/100|[from] item: Leftovers
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bright snorlax)
+|
+|move|p1a: Obstagoon|Trick|p2a: Gastrodon
+|-activate|p1a: Obstagoon|move: Trick|[of] p2a: Gastrodon
+|-item|p2a: Gastrodon|Flame Orb|[from] move: Trick
+|-item|p1a: Obstagoon|Leftovers|[from] move: Trick
+|move|p2a: Gastrodon|Counter||[still]
+|-fail|p2a: Gastrodon
+|
+|-damage|p1a: Obstagoon|94/100 brn|[from] brn
+|-status|p2a: Gastrodon|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|move|p1a: Obstagoon|Parting Shot|p2a: Gastrodon
+|-unboost|p2a: Gastrodon|atk|1
+|-unboost|p2a: Gastrodon|spa|1
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100|[from]move: Parting Shot
+|move|p2a: Gastrodon|Scald|p1a: Aegislash
+|-damage|p1a: Aegislash|88/100
+|
+|-heal|p1a: Aegislash|94/100|[from] item: Leftovers
+|-damage|p2a: Gastrodon|85/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Aegislash|Substitute|p1a: Aegislash
+|-start|p1a: Aegislash|Substitute
+|-damage|p1a: Aegislash|69/100
+|move|p2a: Gastrodon|Earth Power|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-end|p1a: Aegislash|Substitute
+|
+|-heal|p1a: Aegislash|75/100|[from] item: Leftovers
+|-damage|p2a: Gastrodon|79/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Gastrodon|Earth Power|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|-heal|p1a: Aegislash|81/100|[from] item: Leftovers
+|-damage|p2a: Gastrodon|73/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100 brn
+|
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Gnirks_Flo|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Aegislash|Aegislash, M|81/100
+|move|p2a: Ferrothorn|Toxic|p1a: Aegislash
+|-immune|p1a: Aegislash
+|
+|-heal|p1a: Aegislash|87/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Aegislash|Substitute|p1a: Aegislash
+|-start|p1a: Aegislash|Substitute
+|-damage|p1a: Aegislash|62/100
+|move|p2a: Ferrothorn|Leech Seed||[still]
+|-fail|p2a: Ferrothorn
+|
+|-heal|p1a: Aegislash|68/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Gastrodon|Gastrodon-East, M|94/100 brn
+|-damage|p2a: Gastrodon|88/100 brn|[from] Stealth Rock
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Gastrodon
+|-damage|p2a: Gastrodon|42/100 brn
+|
+|-heal|p1a: Aegislash|75/100|[from] item: Leftovers
+|-damage|p2a: Gastrodon|36/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Aegislash|Shadow Ball|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|-heal|p1a: Aegislash|81/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|-damage|p2a: Corsola|88/100|[from] Stealth Rock
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield||[still]
+|-fail|p1a: Aegislash
+|
+|-heal|p1a: Aegislash|87/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|21/100
+|-start|p1a: Aegislash|Disable|Shadow Ball|[from] ability: Cursed Body|[of] p2a: Corsola
+|-unboost|p2a: Corsola|spd|1
+|move|p2a: Corsola|Night Shade|p1a: Aegislash
+|-end|p1a: Aegislash|Substitute
+|
+|-heal|p1a: Aegislash|93/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Obstagoon|Obstagoon, M|94/100 brn
+|move|p2a: Corsola|Strength Sap|p1a: Obstagoon
+|-unboost|p1a: Obstagoon|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-heal|p1a: Obstagoon|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Obstagoon|94/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Obstagoon|Knock Off|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|63/100
+|-enditem|p2a: Corsola|Eviolite|[from] move: Knock Off|[of] p1a: Obstagoon
+|move|p2a: Corsola|Strength Sap|p1a: Obstagoon
+|-unboost|p1a: Obstagoon|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-heal|p1a: Obstagoon|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Obstagoon|94/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Obstagoon|Parting Shot|p2a: Corsola
+|-unboost|p2a: Corsola|atk|1
+|-unboost|p2a: Corsola|spa|1
+|
+|switch|p1a: Aegislash|Aegislash, M|93/100|[from]move: Parting Shot
+|move|p2a: Corsola|Stealth Rock|p1a: Aegislash
+|-sidestart|p1: bright snorlax|move: Stealth Rock
+|
+|-heal|p1a: Aegislash|99/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|87/100
+|
+|-heal|p1a: Aegislash|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Mandibuzz|Knock Off|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|-unboost|p2a: Mandibuzz|atk|1
+|
+|upkeep
+|turn|19
+|inactive|bright snorlax has 120 seconds left.
+|
+|switch|p1a: Avalugg|Avalugg, M|100/100
+|move|p2a: Mandibuzz|Knock Off|p1a: Avalugg
+|-damage|p1a: Avalugg|94/100
+|-enditem|p1a: Avalugg|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|20
+|inactive|bright snorlax has 120 seconds left.
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|-damage|p2a: Corsola|88/100|[from] Stealth Rock
+|move|p1a: Avalugg|Avalanche|p2a: Corsola
+|-damage|p2a: Corsola|69/100
+|
+|upkeep
+|turn|21
+|inactive|bright snorlax has 120 seconds left.
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Corsola|Strength Sap|p1a: Cinderace
+|-unboost|p1a: Cinderace|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Cinderace|U-turn|p2a: Corsola
+|-resisted|p2a: Corsola
+|-damage|p2a: Corsola|94/100
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100|[from]move: U-turn
+|-damage|p1a: Aegislash|94/100|[from] Stealth Rock
+|move|p2a: Corsola|Night Shade|p1a: Aegislash
+|-damage|p1a: Aegislash|63/100
+|
+|-heal|p1a: Aegislash|70/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|87/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Flash Cannon|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|59/100
+|
+|-heal|p1a: Aegislash|76/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Aegislash|82/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p1a: Avalugg|Avalugg, M|94/100
+|-damage|p1a: Avalugg|69/100|[from] Stealth Rock
+|move|p2a: Mandibuzz|Toxic|p1a: Avalugg
+|-status|p1a: Avalugg|tox
+|
+|-damage|p1a: Avalugg|63/100 tox|[from] psn
+|upkeep
+|turn|26
+|inactive|bright snorlax has 120 seconds left.
+|
+|switch|p2a: Corsola|Corsola-Galar, F|94/100
+|-damage|p2a: Corsola|82/100|[from] Stealth Rock
+|switch|p1a: Obstagoon|Obstagoon, M|94/100 brn
+|-damage|p1a: Obstagoon|82/100 brn|[from] Stealth Rock
+|
+|-heal|p1a: Obstagoon|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Obstagoon|82/100 brn|[from] brn
+|upkeep
+|turn|27
+|inactive|bright snorlax has 120 seconds left.
+|
+|move|p1a: Obstagoon|Knock Off|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|17/100
+|move|p2a: Corsola|Strength Sap|p1a: Obstagoon
+|-unboost|p1a: Obstagoon|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-heal|p1a: Obstagoon|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Obstagoon|82/100 brn|[from] brn
+|upkeep
+|turn|28
+|inactive|bright snorlax has 120 seconds left.
+|
+|switch|p1a: Aegislash|Aegislash, M|82/100
+|-damage|p1a: Aegislash|76/100|[from] Stealth Rock
+|move|p2a: Corsola|Will-O-Wisp|p1a: Aegislash
+|-status|p1a: Aegislash|brn
+|
+|-heal|p1a: Aegislash|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Aegislash|76/100 brn|[from] brn
+|upkeep
+|turn|29
+|inactive|bright snorlax has 120 seconds left.
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Flash Cannon|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|73/100
+|
+|-heal|p1a: Aegislash|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Aegislash|76/100 brn|[from] brn
+|upkeep
+|turn|30
+|inactive|bright snorlax has 120 seconds left.
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Aegislash|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Aegislash|76/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|switch|p1a: Avalugg|Avalugg, M|63/100 tox
+|-damage|p1a: Avalugg|38/100 tox|[from] Stealth Rock
+|move|p2a: Mandibuzz|Whirlwind|p1a: Avalugg
+|drag|p1a: Obstagoon|Obstagoon, M|82/100 brn
+|-damage|p1a: Obstagoon|70/100 brn|[from] Stealth Rock
+|
+|-heal|p1a: Obstagoon|76/100 brn|[from] item: Leftovers
+|-damage|p1a: Obstagoon|70/100 brn|[from] brn
+|upkeep
+|turn|32
+|j| Sing And Noise
+|inactive|bright snorlax has 120 seconds left.
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|move|p1a: Obstagoon|Facade|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|55/100
+|
+|-heal|p1a: Obstagoon|76/100 brn|[from] item: Leftovers
+|-heal|p2a: Corviknight|61/100|[from] item: Leftovers
+|-damage|p1a: Obstagoon|70/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p1a: Obstagoon|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|14/100
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Obstagoon
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|64/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p1a: Obstagoon|76/100 brn|[from] item: Leftovers
+|-damage|p1a: Obstagoon|70/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|move|p1a: Obstagoon|Parting Shot||[still]
+|-ability|p2a: Corviknight|Mirror Armor
+|-unboost|p1a: Obstagoon|atk|1
+|-unboost|p1a: Obstagoon|spa|1
+|-fail|p1a: Obstagoon
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p1a: Obstagoon|76/100 brn|[from] item: Leftovers
+|-damage|p1a: Obstagoon|70/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Corviknight|Iron Head|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|83/100
+|
+|upkeep
+|turn|36
+|l|☆bright snorlax
+|inactive|bright snorlax disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆bright snorlax
+|inactive|bright snorlax reconnected and has 140 seconds left.
+|player|p1|bright snorlax|169
+|
+|switch|p2a: Dragapult|Dragapult, M|88/100
+|-damage|p2a: Dragapult|75/100|[from] Stealth Rock
+|move|p1a: Cinderace|Pyro Ball|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|37/100
+|-status|p2a: Dragapult|brn
+|
+|-heal|p2a: Dragapult|44/100 brn|[from] item: Leftovers
+|-damage|p2a: Dragapult|37/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p1a: Cinderace|Sucker Punch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|-damage|p2a: Corsola|88/100|[from] Stealth Rock
+|turn|38
+|
+|move|p1a: Cinderace|U-turn|p2a: Corsola
+|-resisted|p2a: Corsola
+|-damage|p2a: Corsola|80/100
+|
+|switch|p1a: Sylveon|Sylveon, M|100/100|[from]move: U-turn
+|-damage|p1a: Sylveon|88/100|[from] Stealth Rock
+|move|p2a: Corsola|Strength Sap|p1a: Sylveon
+|-unboost|p1a: Sylveon|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-heal|p1a: Sylveon|94/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|99/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|switch|p1a: Cinderace|Cinderace, F|83/100
+|move|p2a: Corviknight|Iron Head|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|66/100
+|
+|-heal|p1a: Cinderace|100/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|41
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|-damage|p2a: Corsola|88/100|[from] Stealth Rock
+|move|p1a: Cinderace|Pyro Ball|p2a: Corsola
+|-crit|p2a: Corsola
+|-damage|p2a: Corsola|22/100
+|
+|upkeep
+|turn|42
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|
+|upkeep
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|turn|43
+|
+|move|p1a: Cinderace|U-turn|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|83/100
+|
+|switch|p1a: Avalugg|Avalugg, M|38/100 tox|[from]move: U-turn
+|-damage|p1a: Avalugg|13/100 tox|[from] Stealth Rock
+|move|p2a: Mandibuzz|Knock Off|p1a: Avalugg
+|-damage|p1a: Avalugg|7/100 tox
+|
+|-damage|p1a: Avalugg|1/100 tox|[from] psn
+|upkeep
+|turn|44
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Avalugg|Rapid Spin|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|89/100
+|-sideend|p1: bright snorlax|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Avalugg
+|-boost|p1a: Avalugg|spe|1
+|
+|-damage|p1a: Avalugg|0 fnt|[from] psn
+|faint|p1a: Avalugg
+|upkeep
+|
+|switch|p1a: Obstagoon|Obstagoon, M|70/100 brn
+|turn|45
+|inactive|Gnirks_Flo has 120 seconds left.
+|-message|Gnirks_Flo forfeited.
+|
+|win|bright snorlax
+|l|☆Gnirks_Flo
+|raw|bright snorlax's rating: 1581 → 1596(+15 for winning)
+|raw|Gnirks_Flo's rating: 1500 → 1485(-15 for losing)

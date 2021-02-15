@@ -1,0 +1,272 @@
+|ScrapeTime|2020-01-02-23:22:29
+|j|☆taw
+|j|☆Evolving LuZar
+|player|p1|taw|alder|1393
+|player|p2|Evolving LuZar|psychic|1390
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Lucario, F|
+|poke|p1|Gyarados, M|
+|poke|p1|Dracozolt|
+|poke|p1|Clefable, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Corsola-Galar, M|
+|poke|p2|Clefable, F|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Bisharp, M|
+|poke|p2|Corviknight, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Evolving LuZar)
+|
+|start
+|switch|p1a: Clefable|Clefable, F|100/100
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|1
+|
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|47/100
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|40/100
+|-unboost|p2a: Clefable|spa|1
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|move|p1a: Clefable|Moonblast|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|62/100
+|-unboost|p2a: Excadrill|spa|1
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|move|p2a: Excadrill|Rock Slide|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|31/100
+|-damage|p2a: Excadrill|52/100|[from] item: Life Orb
+|
+|-heal|p1a: Gyarados|37/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|move|p2a: Excadrill|Rock Slide|p1a: Corsola
+|-damage|p1a: Corsola|82/100
+|-damage|p2a: Excadrill|42/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Corsola|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: Evolving LuZar|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|75/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|switch|p1a: Lucario|Lucario, F|100/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Lucario
+|-sidestart|p1: taw|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Lucario|Swords Dance|p1a: Lucario
+|-boost|p1a: Lucario|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Lucario|Close Combat|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|-damage|p1a: Lucario|91/100|[from] item: Life Orb
+|faint|p2a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p2a: Conkeldurr|94/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p1a: Clefable|Clefable, F|47/100
+|move|p2a: Conkeldurr|Mach Punch|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|88/100|[from] Sandstorm
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|10
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|move|p1a: Clefable|Moonblast|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|42/100
+|-damage|p2a: Excadrill|39/100|[from] Stealth Rock
+|turn|11
+|
+|switch|p1a: Corsola|Corsola-Galar, M|75/100
+|-damage|p1a: Corsola|63/100|[from] Stealth Rock
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|57/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|move|p2a: Excadrill|Earthquake|p1a: Corsola
+|-crit|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|-damage|p2a: Excadrill|29/100|[from] item: Life Orb
+|faint|p1a: Corsola
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|turn|13
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|21/100
+|-damage|p2a: Excadrill|19/100|[from] item: Life Orb
+|move|p1a: Mandibuzz|Foul Play|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|88/100 brn
+|-damage|p2a: Conkeldurr|82/100 brn|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|1/100
+|move|p1a: Mandibuzz|Toxic||[still]
+|-fail|p1a: Mandibuzz
+|
+|-damage|p2a: Conkeldurr|76/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|-damage|p2a: Conkeldurr|70/100 brn|[from] brn
+|upkeep
+|c|☆taw|that was dumb
+|
+|switch|p1a: Clefable|Clefable, F|32/100
+|turn|16
+|
+|switch|p2a: Clefable|Clefable, F|40/100
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|82/100
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|32/100
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|18
+|
+|switch|p1a: Gyarados|Gyarados, M|37/100
+|-damage|p1a: Gyarados|12/100|[from] Stealth Rock
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|move|p2a: Tyranitar|Earthquake|p1a: Gyarados
+|-immune|p1a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|6/100|[from] Sandstorm
+|-heal|p1a: Gyarados|12/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|70/100 brn
+|-damage|p2a: Conkeldurr|64/100 brn|[from] Stealth Rock
+|move|p1a: Gyarados|Waterfall|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|31/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|6/100|[from] Sandstorm
+|-damage|p2a: Conkeldurr|25/100 brn|[from] Sandstorm
+|-heal|p1a: Gyarados|12/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|19/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|12/100 brn|[from] Sandstorm
+|-damage|p2a: Conkeldurr|6/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, F|91/100
+|-damage|p1a: Lucario|88/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Lucario|Extreme Speed|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|-damage|p1a: Lucario|78/100|[from] item: Life Orb
+|faint|p2a: Conkeldurr
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|-message|Evolving LuZar forfeited.
+|
+|win|taw
+|l|☆Evolving LuZar

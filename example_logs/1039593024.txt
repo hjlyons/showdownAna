@@ -1,0 +1,223 @@
+|ScrapeTime|2020-01-02-10:25:37
+|j|☆Gaut67
+|j|☆battlebot_v0.3.1
+|player|p1|Gaut67|cheren-gen5bw2|1177
+|player|p2|battlebot_v0.3.1|giovanni|1203
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pelipper, M|
+|poke|p1|Barraskewda, M|
+|poke|p1|Ditto|
+|poke|p1|Dragapult, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Drednaw, M|
+|poke|p2|Centiskorch, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Hippowdon, F|
+|poke|p2|Machamp, F|
+|poke|p2|Rotom-Wash|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Bretagne|Pelipper, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Bretagne
+|turn|1
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|switch|p1a: Cactus|Ferrothorn, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Hippowdon|Stealth Rock|p1a: Cactus
+|-sidestart|p1: Gaut67|move: Stealth Rock
+|move|p1a: Cactus|Stealth Rock|p2a: Hippowdon
+|-sidestart|p2: battlebot_v0.3.1|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by battlebot_v0.3.1)
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Cactus|Leech Seed|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Cactus|Protect|p1a: Cactus
+|-singleturn|p1a: Cactus|Protect
+|move|p2a: Ferrothorn|Spikes|p1a: Cactus
+|-sidestart|p1: Gaut67|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p1a: Macro|Barraskewda, M|100/100
+|-damage|p1a: Macro|88/100|[from] Spikes
+|-damage|p1a: Macro|76/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Macro
+|-start|p1a: Macro|move: Leech Seed
+|
+|-weather|none
+|-damage|p1a: Macro|64/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|6
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Macro|Close Combat|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-damage|p1a: Macro|52/100|[from] Leech Seed|[of] p2a: Dragapult
+|-heal|p2a: Dragapult|98/100|[silent]
+|upkeep
+|turn|7
+|
+|switch|p1a: Bretagne|Pelipper, M|100/100
+|-damage|p1a: Bretagne|75/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Bretagne
+|move|p2a: Dragapult|Shadow Ball|p1a: Bretagne
+|-damage|p1a: Bretagne|23/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|inactive|Gaut67 has 120 seconds left.
+|inactive|Gaut67 has 90 seconds left.
+|
+|switch|p1a: Copycat|Ditto|100/100
+|-damage|p1a: Copycat|88/100|[from] Spikes
+|-damage|p1a: Copycat|76/100|[from] Stealth Rock
+|-transform|p1a: Copycat|p2a: Dragapult|[from] ability: Imposter
+|move|p2a: Dragapult|Shadow Ball|p1a: Copycat
+|-supereffective|p1a: Copycat
+|-damage|p1a: Copycat|0 fnt
+|faint|p1a: Copycat
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Gaut67 has 90 seconds left.
+|
+|switch|p1a: Franklin|Drednaw, M|100/100
+|-damage|p1a: Franklin|88/100|[from] Spikes
+|-damage|p1a: Franklin|76/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Franklin|Swords Dance|p1a: Franklin
+|-boost|p1a: Franklin|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Franklin|Superpower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Franklin|63/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-unboost|p1a: Franklin|atk|1
+|-unboost|p1a: Franklin|def|1
+|-damage|p1a: Franklin|53/100|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-damage|p2a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|11
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Franklin|Liquidation|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|41/100
+|-unboost|p2a: Rotom|def|1
+|-damage|p1a: Franklin|43/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|35/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|move|p2a: Rotom|Discharge|p1a: Franklin
+|-supereffective|p1a: Franklin
+|-damage|p1a: Franklin|0 fnt
+|faint|p1a: Franklin
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|29/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Bretagne|Pelipper, M|23/100
+|-damage|p1a: Bretagne|0 fnt|[from] Stealth Rock
+|faint|p1a: Bretagne
+|
+|switch|p1a: Macro|Barraskewda, M|52/100
+|-damage|p1a: Macro|40/100|[from] Spikes
+|-damage|p1a: Macro|27/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Macro|Psychic Fangs|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Macro|21/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|98/100
+|-damage|p2a: Dragapult|86/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Macro
+|-damage|p1a: Macro|0 fnt
+|faint|p1a: Macro
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|80/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Fantomask|Dragapult, F|100/100
+|-damage|p1a: Fantomask|88/100|[from] Stealth Rock
+|-damage|p1a: Fantomask|76/100|[from] Spikes
+|turn|15
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Fantomask
+|-supereffective|p1a: Fantomask
+|-damage|p1a: Fantomask|0 fnt
+|faint|p1a: Fantomask
+|
+|-weather|none
+|upkeep
+|-message|Gaut67 forfeited.
+|
+|win|battlebot_v0.3.1
+|l|☆Gaut67
+|raw|Gaut67's rating: 1149 → 1128(-21 for losing)
+|raw|battlebot_v0.3.1's rating: 1203 → 1224(+21 for winning)

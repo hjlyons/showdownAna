@@ -1,0 +1,110 @@
+|ScrapeTime|2020-01-03-01:45:16
+|j|☆Liek Thieves
+|j|☆Treysummit
+|player|p1|Liek Thieves|pokemaniac|1040
+|player|p2|Treysummit|hoopster|1020
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gyarados, M|
+|poke|p1|Drednaw, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Dracozolt|
+|poke|p1|Pelipper, M|
+|poke|p1|Tyranitar, M|
+|poke|p2|Rapidash-Galar, F|
+|poke|p2|Orbeetle, F|
+|poke|p2|Appletun, F|
+|poke|p2|Thievul, F|
+|poke|p2|Pincurchin, F|
+|poke|p2|Boltund, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Pincurchin|Pincurchin, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Treysummit)
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|move|p2a: Pincurchin|Thunder Wave|p1a: Dracozolt
+|-immune|p1a: Dracozolt|[from] ability: Volt Absorb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Thievul|Thievul, F|100/100
+|-enditem|p2a: Thievul|Electric Seed
+|-boost|p2a: Thievul|def|1
+|move|p1a: Dracozolt|Bolt Beak|p2a: Thievul
+|-damage|p2a: Thievul|0 fnt
+|faint|p2a: Thievul
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Boltund|Boltund, F|100/100
+|turn|3
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Boltund|Crunch|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|83/100
+|-damage|p2a: Boltund|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Boltund|85/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|89/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Boltund|Thunder Fang|p1a: Tyranitar|[miss]
+|-miss|p2a: Boltund|p1a: Tyranitar
+|move|p1a: Tyranitar|Stealth Rock|p2a: Boltund
+|-sidestart|p2: Treysummit|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Boltund|79/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|95/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Boltund|Fire Fang|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|80/100
+|-damage|p2a: Boltund|69/100|[from] item: Life Orb
+|move|p1a: Tyranitar|Earth Power|p2a: Boltund
+|-supereffective|p2a: Boltund
+|-damage|p2a: Boltund|0 fnt
+|faint|p2a: Boltund
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Tyranitar|87/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|switch|p2a: Orbeetle|Orbeetle, F|100/100
+|-damage|p2a: Orbeetle|76/100|[from] Stealth Rock
+|-item|p1a: Tyranitar|Leftovers|[from] ability: Frisk|[of] p2a: Orbeetle|[identify]
+|turn|6
+|-message|Treysummit forfeited.
+|
+|win|Liek Thieves
+|l|☆Treysummit
+|raw|Liek Thieves's rating: 1040 → 1072(+32 for winning)
+|raw|Treysummit's rating: 1020 → 1008(-12 for losing)

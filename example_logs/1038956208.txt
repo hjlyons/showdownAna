@@ -1,0 +1,235 @@
+|ScrapeTime|2020-01-01-02:15:23
+|j|☆Dr. Elite
+|j|☆Sealx♬
+|player|p1|Dr. Elite|#drelite|1361
+|player|p2|Sealx♬|hilbert-dueldisk|1397
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gardevoir, F|
+|poke|p1|Rapidash-Galar, F|
+|poke|p1|Togekiss, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Clefable, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Hydreigon, F|
+|poke|p2|Mew|
+|poke|p2|Polteageist|
+|poke|p2|Bisharp, M|
+|poke|p2|Toxtricity, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Sealx♬)
+|
+|start
+|switch|p1a: Joy|Rapidash-Galar, F|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|
+|switch|p1a: Patience|Hatterene, F, shiny|100/100
+|move|p2a: Mew|Skill Swap|p1a: Patience
+|-activate|p2a: Mew|move: Skill Swap|Magic Bounce|Synchronize|[of] p1a: Patience
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Mew|Stealth Rock|p1a: Patience
+|-sidestart|p1: Dr. Elite|move: Stealth Rock
+|move|p1a: Patience|Calm Mind|p1a: Patience
+|-boost|p1a: Patience|spa|1
+|-boost|p1a: Patience|spd|1
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Mew|Taunt|p1a: Patience
+|-start|p1a: Patience|move: Taunt
+|cant|p1a: Patience|move: Taunt|Calm Mind
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Mew|Spikes|p1a: Patience
+|-sidestart|p1: Dr. Elite|Spikes
+|move|p1a: Patience|Mystical Fire|p2a: Mew
+|-damage|p2a: Mew|74/100
+|-unboost|p2a: Mew|spa|1
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Mew|Spikes|p1a: Patience
+|-sidestart|p1: Dr. Elite|Spikes
+|move|p1a: Patience|Mystical Fire|p2a: Mew
+|-damage|p2a: Mew|48/100
+|-unboost|p2a: Mew|spa|1
+|
+|-end|p1a: Patience|move: Taunt
+|upkeep
+|turn|6
+|
+|move|p2a: Mew|Taunt|p1a: Patience
+|-start|p1a: Patience|move: Taunt
+|move|p1a: Patience|Mystical Fire|p2a: Mew
+|-damage|p2a: Mew|20/100
+|-unboost|p2a: Mew|spa|1
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Mew|Spikes|p1a: Patience
+|-sidestart|p1: Dr. Elite|Spikes
+|move|p1a: Patience|Draining Kiss|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|turn|8
+|
+|move|p2a: Bisharp|Iron Head|p1a: Patience
+|-supereffective|p1a: Patience
+|-crit|p1a: Patience
+|-damage|p1a: Patience|0 fnt
+|-damage|p2a: Bisharp|91/100|[from] item: Life Orb
+|faint|p1a: Patience
+|
+|upkeep
+|
+|switch|p1a: Peace|Togekiss, M|100/100
+|-damage|p1a: Peace|76/100|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Peace|Flamethrower|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|6/100
+|move|p2a: Bisharp|Iron Head|p1a: Peace
+|-supereffective|p1a: Peace
+|-damage|p1a: Peace|0 fnt
+|-damage|p2a: Bisharp|0 fnt|[from] item: Life Orb
+|faint|p1a: Peace
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|switch|p1a: Kindness|Grimmsnarl, M, shiny|100/100
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|-damage|p1a: Kindness|76/100|[from] Spikes
+|-damage|p1a: Kindness|63/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Kindness|Trick|p2a: Toxtricity
+|-activate|p1a: Kindness|move: Trick|[of] p2a: Toxtricity
+|-item|p2a: Toxtricity|Lagging Tail|[from] move: Trick
+|-item|p1a: Kindness|Throat Spray|[from] move: Trick
+|move|p2a: Toxtricity|Sludge Wave|p1a: Kindness
+|-supereffective|p1a: Kindness
+|-damage|p1a: Kindness|0 fnt
+|faint|p1a: Kindness
+|
+|upkeep
+|
+|switch|p1a: Love|Gardevoir, F, shiny|100/100
+|-damage|p1a: Love|76/100|[from] Spikes
+|-damage|p1a: Love|63/100|[from] Stealth Rock
+|-ability|p1a: Love|Plus|[from] ability: Trace|[of] p2a: Toxtricity
+|turn|11
+|
+|move|p1a: Love|Psychic|p2a: Toxtricity
+|-supereffective|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|12
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Love
+|-status|p1a: Love|par
+|move|p1a: Love|Moonblast|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|33/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Sealx♬|move: Light Screen
+|move|p1a: Love|Moonblast|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|turn|14
+|
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|move|p1a: Love|Destiny Bond|p1a: Love
+|-singlemove|p1a: Love|Destiny Bond
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|move|p1a: Love|Moonblast|p2a: Polteageist
+|-crit|p2a: Polteageist
+|-enditem|p2a: Polteageist|Focus Sash
+|-damage|p2a: Polteageist|1/100
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Love
+|-supereffective|p1a: Love
+|-damage|p1a: Love|0 fnt
+|faint|p1a: Love
+|
+|upkeep
+|
+|switch|p1a: Goodness|Clefable, F, shiny|100/100
+|turn|17
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Goodness
+|-damage|p1a: Goodness|0 fnt
+|faint|p1a: Goodness
+|
+|upkeep
+|
+|switch|p1a: Joy|Rapidash-Galar, F|100/100
+|-damage|p1a: Joy|76/100|[from] Spikes
+|-damage|p1a: Joy|64/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Joy
+|-supereffective|p1a: Joy
+|-damage|p1a: Joy|0 fnt
+|faint|p1a: Joy
+|
+|win|Sealx♬
+|raw|Dr. Elite's rating: 1362 → 1344(-18 for losing)
+|raw|Sealx♬'s rating: 1397 → 1415(+18 for winning)

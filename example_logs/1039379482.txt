@@ -1,0 +1,508 @@
+|ScrapeTime|2020-01-01-23:36:43
+|j|☆Y8shikage
+|j|☆TragicKingdom1
+|player|p1|Y8shikage|roark|1502
+|player|p2|TragicKingdom1|policeman|1444
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Aegislash, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Mamoswine, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Kommo-o, F|
+|poke|p2|Sylveon, M|
+|poke|p2|Heliolisk, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Aegislash, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|1
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|move|p1a: Dragapult|Draco Meteor|p2a: Sylveon
+|-immune|p2a: Sylveon
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|83/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Iron Head|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|84/100
+|-damage|p1a: Aegislash|67/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Y8shikage)
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Corviknight|Brave Bird|p1a: Dragapult
+|-damage|p1a: Dragapult|55/100
+|-damage|p2a: Corviknight|72/100|[from] Recoil
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|move|p1a: Dragapult|Fire Blast|p2a: Sylveon
+|-crit|p2a: Sylveon
+|-damage|p2a: Sylveon|49/100
+|
+|-heal|p2a: Sylveon|55/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|85/100
+|
+|-heal|p2a: Sylveon|61/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|91/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Toxapex|Toxic|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p2a: Sylveon|67/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|97/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|move|p1a: Toxapex|Scald|p2a: Aegislash
+|-damage|p2a: Aegislash|87/100
+|-status|p2a: Aegislash|brn
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p2a: Aegislash|81/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p2a: Heliolisk|Heliolisk, F|100/100
+|move|p1a: Toxapex|Toxic|p2a: Heliolisk
+|-status|p2a: Heliolisk|tox
+|
+|-damage|p2a: Heliolisk|94/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Heliolisk|Volt Switch|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-damage|p2a: Heliolisk|82/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|move|p2a: Heliolisk|Grass Knot|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|-damage|p2a: Heliolisk|73/100 tox|[from] item: Life Orb
+|faint|p1a: Mamoswine
+|
+|-damage|p2a: Heliolisk|54/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|55/100
+|turn|12
+|
+|switch|p2a: Sylveon|Sylveon, M|67/100
+|move|p1a: Dragapult|Fire Blast|p2a: Sylveon
+|-damage|p2a: Sylveon|37/100
+|
+|-heal|p2a: Sylveon|43/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Aegislash|Aegislash, M|67/100
+|move|p2a: Sylveon|Protect||[still]
+|-fail|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|49/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|TragicKingdom1 has 120 seconds left.
+|
+|switch|p2a: Corviknight|Corviknight, M|72/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|37/100
+|-damage|p1a: Aegislash|50/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-unboost|p1a: Aegislash|def|1
+|-unboost|p1a: Aegislash|spd|1
+|
+|upkeep
+|turn|15
+|inactive|TragicKingdom1 has 120 seconds left.
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|2/100
+|-damage|p2a: Corviknight|24/100|[from] Recoil
+|move|p1a: Aegislash|Iron Head|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|7/100
+|-damage|p1a: Aegislash|0 fnt|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|faint|p1a: Aegislash
+|
+|upkeep
+|c|☆Y8shikage|damn
+|c|☆Y8shikage|missclick
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|16
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|57/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Hatterene|Mystical Fire|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Sylveon|Sylveon, M|49/100
+|turn|17
+|
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|move|p1a: Hatterene|Psychic|p2a: Sylveon
+|-damage|p2a: Sylveon|17/100
+|
+|-heal|p2a: Sylveon|23/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-heal|p2a: Sylveon|73/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p2a: Sylveon|79/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Hatterene|Psychic|p2a: Sylveon
+|-damage|p2a: Sylveon|45/100
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|52/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Aegislash|Aegislash, M|81/100 brn
+|move|p1a: Hatterene|Psychic|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|61/100 brn
+|
+|-heal|p2a: Aegislash|100/100 brn|[from] move: Wish|[wisher] Sylveon
+|-damage|p2a: Aegislash|94/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|
+|-damage|p2a: Aegislash|88/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Mandibuzz|Foul Play|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|-unboost|p1a: Mandibuzz|atk|1
+|
+|-damage|p2a: Aegislash|82/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|23
+|
+|switch|p2a: Kommo-o|Kommo-o, F|100/100
+|move|p1a: Mandibuzz|Foul Play|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|86/100
+|
+|-heal|p2a: Kommo-o|92/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Sylveon|Sylveon, M|52/100
+|move|p1a: Mandibuzz|Taunt|p2a: Sylveon
+|-start|p2a: Sylveon|move: Taunt
+|
+|-heal|p2a: Sylveon|58/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|85/100
+|
+|-heal|p2a: Sylveon|64/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|91/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|switch|p2a: Heliolisk|Heliolisk, F|54/100 tox
+|move|p1a: Toxapex|Scald|p2a: Heliolisk
+|-heal|p2a: Heliolisk|79/100 tox|[from] ability: Dry Skin|[of] p1a: Toxapex
+|
+|-heal|p1a: Toxapex|97/100|[from] item: Black Sludge
+|-damage|p2a: Heliolisk|73/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Heliolisk|Thunderbolt|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p2a: Heliolisk|61/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|move|p2a: Heliolisk|Volt Switch|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|29/100
+|-damage|p2a: Heliolisk|51/100 tox|[from] item: Life Orb
+|
+|switch|p2a: Aegislash|Aegislash, M|82/100 brn|[from]move: Volt Switch
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|79/100
+|
+|-heal|p1a: Toxapex|85/100|[from] item: Black Sludge
+|-damage|p2a: Aegislash|76/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|switch|p1a: Dragapult|Dragapult, F|55/100
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|
+|-damage|p2a: Aegislash|70/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|91/100
+|-damage|p2a: Aegislash|53/100 brn|[from] item: Rocky Helmet|[of] p1a: Mandibuzz
+|-damage|p2a: Aegislash|43/100 brn|[from] item: Life Orb
+|
+|-damage|p2a: Aegislash|37/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|switch|p2a: Sylveon|Sylveon, M|64/100
+|move|p1a: Mandibuzz|Taunt|p2a: Sylveon
+|-start|p2a: Sylveon|move: Taunt
+|
+|-heal|p2a: Sylveon|70/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|switch|p2a: Heliolisk|Heliolisk, F|51/100 tox
+|
+|-damage|p2a: Heliolisk|45/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Heliolisk|Thunderbolt|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-damage|p2a: Heliolisk|33/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|move|p2a: Heliolisk|Thunderbolt|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|11/100
+|-damage|p2a: Heliolisk|24/100 tox|[from] item: Life Orb
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|61/100
+|
+|-heal|p1a: Toxapex|67/100|[from] item: Black Sludge
+|-damage|p2a: Heliolisk|5/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Heliolisk|Thunderbolt|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-heal|p1a: Toxapex|73/100|[from] item: Black Sludge
+|-damage|p2a: Heliolisk|0 fnt|[from] psn
+|faint|p2a: Heliolisk
+|upkeep
+|
+|switch|p2a: Kommo-o|Kommo-o, F|92/100
+|turn|36
+|
+|move|p2a: Kommo-o|Bulk Up|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|move|p1a: Toxapex|Toxic|p2a: Kommo-o
+|-status|p2a: Kommo-o|tox
+|
+|-heal|p2a: Kommo-o|99/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|79/100|[from] item: Black Sludge
+|-damage|p2a: Kommo-o|92/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|91/100
+|move|p2a: Kommo-o|Earthquake|p1a: Mandibuzz
+|-immune|p1a: Mandibuzz
+|
+|-heal|p2a: Kommo-o|99/100 tox|[from] item: Leftovers
+|-damage|p2a: Kommo-o|86/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|move|p2a: Kommo-o|Rock Slide|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|57/100
+|move|p1a: Mandibuzz|Foul Play|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|73/100 tox
+|
+|-heal|p2a: Kommo-o|79/100 tox|[from] item: Leftovers
+|-damage|p2a: Kommo-o|60/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|40
+|
+|move|p2a: Cinderace|Taunt|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|move: Taunt
+|move|p1a: Mandibuzz|Foul Play|p2a: Cinderace
+|-damage|p2a: Cinderace|32/100
+|
+|upkeep
+|turn|41
+|
+|move|p2a: Cinderace|Taunt||[still]
+|-fail|p2a: Cinderace
+|move|p1a: Mandibuzz|Foul Play|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Sylveon|Sylveon, M|70/100
+|turn|42
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|84/100
+|
+|-heal|p2a: Sylveon|76/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|90/100|[from] item: Black Sludge
+|upkeep
+|turn|43
+|
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|move|p1a: Toxapex|Toxic|p2a: Sylveon
+|-status|p2a: Sylveon|tox
+|
+|-heal|p2a: Sylveon|82/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|96/100|[from] item: Black Sludge
+|-damage|p2a: Sylveon|76/100 tox|[from] psn
+|upkeep
+|turn|44
+|
+|switch|p2a: Aegislash|Aegislash, M|37/100 brn
+|move|p1a: Toxapex|Scald|p2a: Aegislash
+|-damage|p2a: Aegislash|23/100 brn
+|
+|-heal|p2a: Aegislash|84/100 brn|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p2a: Aegislash|77/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|move|p1a: Toxapex|Scald|p2a: Aegislash
+|-damage|p2a: Aegislash|63/100 brn
+|
+|-damage|p2a: Aegislash|57/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|move|p1a: Toxapex|Scald|p2a: Aegislash
+|-damage|p2a: Aegislash|44/100 brn
+|
+|-damage|p2a: Aegislash|38/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Toxapex
+|-damage|p1a: Toxapex|73/100
+|-damage|p2a: Aegislash|28/100 brn|[from] item: Life Orb
+|move|p1a: Toxapex|Scald|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|-heal|p1a: Toxapex|79/100|[from] item: Black Sludge
+|upkeep
+|-message|TragicKingdom1 forfeited.
+|
+|win|Y8shikage
+|l|☆TragicKingdom1
+|raw|Y8shikage's rating: 1502 → 1519(+17 for winning)
+|raw|TragicKingdom1's rating: 1444 → 1427(-17 for losing)

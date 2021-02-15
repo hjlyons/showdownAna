@@ -1,0 +1,95 @@
+|ScrapeTime|2020-01-02-04:04:31
+|j|☆clementdu4
+|j|☆DS Edu
+|player|p1|clementdu4|265|1089
+|player|p2|DS Edu|137|1105
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Obstagoon, F|
+|poke|p1|Cloyster, F|
+|poke|p1|Mimikyu, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Cinderace, M|
+|poke|p2|Clefable, M|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Orbeetle, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Dracovish|
+|poke|p2|Excadrill, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Obstagoon|Obstagoon, F|100/100
+|switch|p2a: Topo Gigio|Excadrill, F|100/100
+|-ability|p2a: Topo Gigio|Mold Breaker
+|turn|1
+|
+|move|p2a: Topo Gigio|Earthquake|p1a: Obstagoon
+|-damage|p1a: Obstagoon|50/100
+|move|p1a: Obstagoon|Knock Off|p2a: Topo Gigio
+|-damage|p2a: Topo Gigio|39/100
+|-enditem|p2a: Topo Gigio|Focus Sash|[from] move: Knock Off|[of] p1a: Obstagoon
+|
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Topo Gigio|Earthquake|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|22/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: clementdu4|Reflect
+|move|p2a: Topo Gigio|Stealth Rock|p1a: Grimmsnarl
+|-sidestart|p1: clementdu4|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: clementdu4|move: Light Screen
+|move|p2a: Topo Gigio|Iron Head|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|5
+|
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p1: clementdu4|Stealth Rock|[silent]
+|-sidestart|p2: DS Edu|Stealth Rock|[silent]
+|-sideend|p1: clementdu4|Light Screen|[silent]
+|-sidestart|p2: DS Edu|Light Screen|[silent]
+|-sideend|p1: clementdu4|Reflect|[silent]
+|-sidestart|p2: DS Edu|Reflect|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Topo Gigio|Rapid Spin|p1a: Cinderace
+|-damage|p1a: Cinderace|74/100
+|-sideend|p2: DS Edu|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Topo Gigio
+|-boost|p2a: Topo Gigio|spe|1
+|
+|upkeep
+|turn|6
+|-message|clementdu4 forfeited.
+|
+|win|DS Edu
+|l|☆clementdu4

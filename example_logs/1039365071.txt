@@ -1,0 +1,273 @@
+|ScrapeTime|2020-01-01-22:58:36
+|j|☆beeoi
+|j|☆andrewm0n
+|player|p1|beeoi|artist|1589
+|player|p2|andrewm0n|253|1648
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Shuckle, M|
+|poke|p1|Obstagoon, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Mimikyu, F|
+|poke|p1|Coalossal, M|
+|poke|p1|Toxtricity, M|
+|poke|p2|Vaporeon, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Kommo-o, M|
+|poke|p2|Polteageist|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: FEBuilder Debugger|Shuckle, M|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by beeoi)
+|
+|move|p2a: Hatterene|Nuzzle|p1a: FEBuilder Debugger
+|-damage|p1a: FEBuilder Debugger|98/100
+|-status|p1a: FEBuilder Debugger|par
+|move|p1a: FEBuilder Debugger|Final Gambit|p2a: Hatterene
+|-damage|p2a: Hatterene|11/100
+|faint|p1a: FEBuilder Debugger
+|
+|upkeep
+|
+|switch|p1a: Fix Body Press|Obstagoon, M|100/100
+|turn|2
+|
+|move|p1a: Fix Body Press|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-enditem|p2a: Hatterene|Assault Vest|[from] move: Knock Off|[of] p1a: Fix Body Press
+|faint|p2a: Hatterene
+|
+|-status|p1a: Fix Body Press|brn|[from] item: Flame Orb
+|upkeep
+|
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|turn|3
+|
+|move|p1a: Fix Body Press|Facade|p2a: Kommo-o
+|-damage|p2a: Kommo-o|18/100
+|move|p2a: Kommo-o|Iron Head|p1a: Fix Body Press
+|-damage|p1a: Fix Body Press|75/100 brn
+|
+|-heal|p2a: Kommo-o|24/100|[from] item: Leftovers
+|-damage|p1a: Fix Body Press|69/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|move|p1a: Fix Body Press|Facade|p2a: Polteageist
+|-immune|p2a: Polteageist
+|
+|-damage|p1a: Fix Body Press|63/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Fix Body Press|Knock Off|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|83/100
+|-enditem|p2a: Mandibuzz|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Fix Body Press
+|
+|-damage|p1a: Fix Body Press|56/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Fix Body Press|Facade|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|31/100
+|move|p2a: Mandibuzz|U-turn|p1a: Fix Body Press
+|-supereffective|p1a: Fix Body Press
+|-damage|p1a: Fix Body Press|32/100 brn
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100|[from]move: U-turn
+|
+|-damage|p1a: Fix Body Press|26/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p1a: BBC Label Punk|Toxtricity, M|100/100
+|move|p2a: Vaporeon|Scald|p1a: BBC Label Punk
+|-damage|p1a: BBC Label Punk|51/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: BBC Label Punk|Overdrive|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: MARK HENRY|Coalossal, M|100/100
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Excadrill|Earthquake|p1a: MARK HENRY
+|-supereffective|p1a: MARK HENRY
+|-damage|p1a: MARK HENRY|0 fnt
+|faint|p1a: MARK HENRY
+|
+|upkeep
+|
+|switch|p1a: Fix Body Press|Obstagoon, M|26/100 brn
+|turn|11
+|
+|switch|p2a: Kommo-o|Kommo-o, M|24/100
+|move|p1a: Fix Body Press|Close Combat|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|-unboost|p1a: Fix Body Press|def|1
+|-unboost|p1a: Fix Body Press|spd|1
+|faint|p2a: Kommo-o
+|
+|-damage|p1a: Fix Body Press|20/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|turn|12
+|
+|switch|p1a: Christmas Future|Dragapult, F|100/100
+|move|p2a: Vaporeon|Scald|p1a: Christmas Future
+|-resisted|p1a: Christmas Future
+|-damage|p1a: Christmas Future|82/100
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Christmas Future|Dragon Dance|p1a: Christmas Future
+|-boost|p1a: Christmas Future|atk|1
+|-boost|p1a: Christmas Future|spe|1
+|move|p2a: Vaporeon|Ice Beam|p1a: Christmas Future
+|-supereffective|p1a: Christmas Future
+|-damage|p1a: Christmas Future|18/100
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|31/100
+|move|p1a: Christmas Future|Dragon Darts|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|-hitcount|p2a: Mandibuzz|1
+|-damage|p1a: Christmas Future|8/100|[from] item: Life Orb
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|turn|15
+|
+|move|p1a: Christmas Future|Phantom Force||[still]
+|-prepare|p1a: Christmas Future|Phantom Force|p2a: Polteageist
+|move|p2a: Polteageist|Hex|p1a: Christmas Future|[miss]
+|-miss|p2a: Polteageist|p1a: Christmas Future
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Christmas Future|Phantom Force|p2a: Polteageist|[from]lockedmove
+|-supereffective|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|-damage|p1a: Christmas Future|0 fnt|[from] item: Life Orb
+|faint|p2a: Polteageist
+|faint|p1a: Christmas Future
+|
+|upkeep
+|
+|switch|p1a: Star of Violence|Mimikyu, F|100/100
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|17
+|
+|move|p1a: Star of Violence|Shadow Claw|p2a: Excadrill
+|-damage|p2a: Excadrill|49/100
+|move|p2a: Excadrill|Iron Head|p1a: Star of Violence
+|-supereffective|p1a: Star of Violence
+|-damage|p1a: Star of Violence|0 fnt
+|faint|p1a: Star of Violence
+|
+|upkeep
+|
+|switch|p1a: Fix Body Press|Obstagoon, M|20/100 brn
+|turn|18
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|move|p1a: Fix Body Press|Knock Off|p2a: Vaporeon
+|-damage|p2a: Vaporeon|57/100
+|-enditem|p2a: Vaporeon|Leftovers|[from] move: Knock Off|[of] p1a: Fix Body Press
+|
+|-damage|p1a: Fix Body Press|14/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Fix Body Press|Facade|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-damage|p1a: Fix Body Press|8/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p1a: BBC Label Punk|Toxtricity, M|51/100
+|switch|p2a: Excadrill|Excadrill, M|49/100
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Excadrill|Earthquake|p1a: BBC Label Punk
+|-supereffective|p1a: BBC Label Punk
+|-damage|p1a: BBC Label Punk|0 fnt
+|faint|p1a: BBC Label Punk
+|
+|upkeep
+|
+|switch|p1a: Fix Body Press|Obstagoon, M|8/100 brn
+|turn|22
+|inactive|beeoi has 120 seconds left.
+|
+|move|p1a: Fix Body Press|Close Combat|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-unboost|p1a: Fix Body Press|def|1
+|-unboost|p1a: Fix Body Press|spd|1
+|faint|p2a: Excadrill
+|
+|-damage|p1a: Fix Body Press|1/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Vaporeon|Vaporeon, F|57/100
+|turn|23
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Fix Body Press|Facade|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-damage|p1a: Fix Body Press|0 fnt|[from] brn
+|faint|p1a: Fix Body Press
+|
+|win|andrewm0n
+|upkeep
+|l|☆beeoi
+|raw|beeoi's rating: 1589 → 1574(-15 for losing)
+|raw|andrewm0n's rating: 1677 → 1692(+15 for winning)

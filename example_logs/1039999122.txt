@@ -1,0 +1,286 @@
+|ScrapeTime|2020-01-03-02:05:25
+|j|☆DIMONI PELUT
+|j|☆Dlayse7
+|player|p1|DIMONI PELUT|pokemaniac|
+|player|p2|Dlayse7|flint|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mamoswine, M|
+|poke|p1|Seismitoad, M|
+|poke|p1|Aegislash, F|
+|poke|p1|Rotom-Mow|
+|poke|p1|Sylveon, M|
+|poke|p1|Corviknight, M|
+|poke|p2|Bewear, M|
+|poke|p2|Hippowdon, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Centiskorch, F|
+|poke|p2|Rotom-Wash|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: FeedMeToads|Rotom-Mow|100/100
+|switch|p2a: Bewear|Bewear, M|100/100
+|turn|1
+|
+|move|p1a: FeedMeToads|Volt Switch|p2a: Bewear
+|-damage|p2a: Bewear|61/100
+|
+|switch|p1a: TyrnTyrnTyrn|Corviknight, M|100/100|[from]move: Volt Switch
+|-ability|p1a: TyrnTyrnTyrn|Pressure
+|move|p2a: Bewear|Darkest Lariat|p1a: TyrnTyrnTyrn
+|-damage|p1a: TyrnTyrnTyrn|64/100
+|
+|-heal|p1a: TyrnTyrnTyrn|70/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: TyrnTyrnTyrn|Roost|p1a: TyrnTyrnTyrn
+|-heal|p1a: TyrnTyrnTyrn|100/100
+|-singleturn|p1a: TyrnTyrnTyrn|move: Roost
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: VishWho|Seismitoad, M|100/100
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Rotom|Dark Pulse|p1a: VishWho
+|-damage|p1a: VishWho|59/100
+|cant|p1a: VishWho|flinch
+|
+|-heal|p1a: VishWho|65/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: IWish|Sylveon, M|100/100
+|move|p2a: Rotom|Dark Pulse|p1a: IWish
+|-resisted|p1a: IWish
+|-damage|p1a: IWish|89/100
+|
+|-heal|p1a: IWish|95/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|move|p1a: IWish|Wish|p1a: IWish
+|
+|-heal|p1a: IWish|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|move|p1a: IWish|Hyper Voice|p2a: Rotom
+|-damage|p2a: Rotom|46/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: VishWho|Seismitoad, M|65/100
+|move|p2a: Rotom|Dark Pulse|p1a: VishWho
+|-damage|p1a: VishWho|0 fnt
+|faint|p1a: VishWho
+|
+|upkeep
+|
+|switch|p1a: Discount GDarm|Mamoswine, M|100/100
+|turn|9
+|
+|move|p1a: Discount GDarm|Rock Blast|p2a: Rotom
+|-damage|p2a: Rotom|37/100
+|-damage|p2a: Rotom|27/100
+|-hitcount|p2a: Rotom|2
+|move|p2a: Rotom|Hydro Pump|p1a: Discount GDarm|[miss]
+|-miss|p2a: Rotom|p1a: Discount GDarm
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Discount GDarm|Rock Blast|p2a: Rotom
+|-damage|p2a: Rotom|18/100
+|-enditem|p2a: Rotom|Iapapa Berry|[eat]
+|-heal|p2a: Rotom|50/100|[from] item: Iapapa Berry
+|-damage|p2a: Rotom|40/100
+|-hitcount|p2a: Rotom|2
+|move|p2a: Rotom|Hydro Pump|p1a: Discount GDarm
+|-supereffective|p1a: Discount GDarm
+|-damage|p1a: Discount GDarm|0 fnt
+|faint|p1a: Discount GDarm
+|
+|upkeep
+|
+|switch|p1a: FeedMeToads|Rotom-Mow|100/100
+|turn|11
+|
+|move|p1a: FeedMeToads|Volt Switch|p2a: Rotom
+|-damage|p2a: Rotom|5/100
+|
+|switch|p1a: IWish|Sylveon, M|100/100|[from]move: Volt Switch
+|move|p2a: Rotom|Dark Pulse|p1a: IWish
+|-resisted|p1a: IWish
+|-damage|p1a: IWish|76/100
+|
+|-heal|p1a: IWish|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: IWish|Protect|p1a: IWish
+|-singleturn|p1a: IWish|Protect
+|move|p2a: Rotom|Hydro Pump|p1a: IWish
+|-activate|p1a: IWish|move: Protect
+|
+|-heal|p1a: IWish|88/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Rotom|Hydro Pump|p1a: IWish|[miss]
+|-miss|p2a: Rotom|p1a: IWish
+|move|p1a: IWish|Wish|p1a: IWish
+|
+|-heal|p1a: IWish|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Rotom|Hydro Pump|p1a: IWish
+|-damage|p1a: IWish|0 fnt
+|faint|p1a: IWish
+|
+|upkeep
+|
+|switch|p1a: FeedMeToads|Rotom-Mow|100/100
+|turn|15
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: FeedMeToads|Volt Switch|p2a: Hippowdon
+|-immune|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: FeedMeToads|94/100|[from] Sandstorm
+|-heal|p1a: FeedMeToads|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: FeedMeToads|Nasty Plot|p1a: FeedMeToads
+|-boost|p1a: FeedMeToads|spa|2
+|move|p2a: Hippowdon|Stealth Rock|p1a: FeedMeToads
+|-sidestart|p1: DIMONI PELUT|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: FeedMeToads|94/100|[from] Sandstorm
+|-heal|p1a: FeedMeToads|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: FeedMeToads|Nasty Plot|p1a: FeedMeToads
+|-boost|p1a: FeedMeToads|spa|2
+|move|p2a: Hippowdon|Whirlwind|p1a: FeedMeToads
+|drag|p1a: OnceBanned|Aegislash, F|100/100
+|-damage|p1a: OnceBanned|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: OnceBanned|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: OnceBanned|Substitute|p1a: OnceBanned
+|-start|p1a: OnceBanned|Substitute
+|-damage|p1a: OnceBanned|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|95/100|[from] Sandstorm
+|-heal|p1a: OnceBanned|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: OnceBanned
+|-supereffective|p1a: OnceBanned
+|-damage|p1a: OnceBanned|0 fnt
+|faint|p1a: OnceBanned
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: TyrnTyrnTyrn|Corviknight, M|100/100
+|-damage|p1a: TyrnTyrnTyrn|88/100|[from] Stealth Rock
+|-ability|p1a: TyrnTyrnTyrn|Pressure
+|turn|20
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: TyrnTyrnTyrn
+|-damage|p1a: TyrnTyrnTyrn|51/100
+|move|p1a: TyrnTyrnTyrn|Brave Bird|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|18/100
+|-damage|p1a: TyrnTyrnTyrn|31/100|[from] Recoil
+|
+|-heal|p1a: TyrnTyrnTyrn|37/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: TyrnTyrnTyrn
+|-damage|p1a: TyrnTyrnTyrn|0 fnt
+|faint|p1a: TyrnTyrnTyrn
+|
+|upkeep
+|
+|switch|p1a: FeedMeToads|Rotom-Mow|100/100
+|-damage|p1a: FeedMeToads|88/100|[from] Stealth Rock
+|turn|22
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: FeedMeToads|Leaf Storm|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|89/100
+|-unboost|p1a: FeedMeToads|spa|2
+|
+|-heal|p1a: FeedMeToads|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|95/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: FeedMeToads|Nasty Plot|p1a: FeedMeToads
+|-boost|p1a: FeedMeToads|spa|2
+|move|p2a: Ferrothorn|Power Whip|p1a: FeedMeToads
+|-resisted|p1a: FeedMeToads
+|-damage|p1a: FeedMeToads|69/100
+|
+|-heal|p1a: FeedMeToads|75/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Dragapult|Dragapult, M|18/100
+|move|p1a: FeedMeToads|Nasty Plot|p1a: FeedMeToads
+|-boost|p1a: FeedMeToads|spa|2
+|
+|-heal|p1a: FeedMeToads|81/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: FeedMeToads
+|-damage|p1a: FeedMeToads|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: FeedMeToads
+|
+|win|Dlayse7
+|l|☆DIMONI PELUT

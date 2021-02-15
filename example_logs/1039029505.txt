@@ -1,0 +1,269 @@
+|ScrapeTime|2020-01-01-06:05:23
+|j|☆DV DE RIVIA
+|j|☆NovaCrono
+|player|p1|DV DE RIVIA|steven|1000
+|player|p2|NovaCrono|266|1053
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mew|
+|poke|p1|Clefable, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Seismitoad, M|
+|poke|p1|Hydreigon, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Toxtricity, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Ribombee, M|
+|poke|p2|Dragapult, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|1
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Corviknight|Body Press|p1a: Rotom
+|-damage|p1a: Rotom|72/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Cinderace
+|-immune|p2a: Cinderace
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Cinderace|Taunt|p1a: Seismitoad
+|-start|p1a: Seismitoad|move: Taunt
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|switch|p1a: Mew|Mew|100/100
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Corviknight|Brave Bird|p1a: Seismitoad
+|-damage|p1a: Seismitoad|73/100
+|-damage|p2a: Corviknight|91/100|[from] Recoil
+|
+|-heal|p1a: Seismitoad|79/100|[from] item: Leftovers
+|-heal|p2a: Corviknight|97/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Ribombee|Ribombee, M|100/100
+|move|p1a: Seismitoad|Toxic|p2a: Ribombee
+|-status|p2a: Ribombee|tox
+|
+|-heal|p1a: Seismitoad|85/100|[from] item: Leftovers
+|-damage|p2a: Ribombee|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|move|p2a: Ribombee|Sticky Web|p1a: Seismitoad
+|-sidestart|p1: DV DE RIVIA|move: Sticky Web
+|move|p1a: Seismitoad|Stealth Rock|p2a: Ribombee
+|-sidestart|p2: NovaCrono|move: Stealth Rock
+|
+|-heal|p1a: Seismitoad|92/100|[from] item: Leftovers
+|-damage|p2a: Ribombee|82/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|-activate|p1a: Clefable|move: Sticky Web
+|-unboost|p1a: Clefable|spe|1
+|move|p2a: Ribombee|Aromatherapy|p2a: Ribombee
+|-activate|p2a: Ribombee|move: Aromatherapy
+|-curestatus|p2a: Ribombee|tox|[msg]
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Corviknight|Corviknight, M|97/100
+|-damage|p2a: Corviknight|85/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Clefable|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|8/100
+|
+|-heal|p2a: Corviknight|15/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Corviknight|Defog|p1a: Clefable
+|-unboost|p1a: Clefable|evasion|1
+|-sideend|p1: DV DE RIVIA|Sticky Web|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: NovaCrono|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Clefable|Thunderbolt|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|turn|11
+|
+|switch|p1a: Seismitoad|Seismitoad, M|92/100
+|move|p2a: Toxtricity|Shift Gear|p2a: Toxtricity
+|-boost|p2a: Toxtricity|spe|2
+|-boost|p2a: Toxtricity|atk|1
+|
+|-heal|p1a: Seismitoad|98/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Seismitoad|Protect|p1a: Seismitoad
+|-singleturn|p1a: Seismitoad|Protect
+|move|p2a: Toxtricity|Overdrive|p1a: Seismitoad
+|-activate|p1a: Seismitoad|move: Protect
+|
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Toxtricity|Overdrive|p1a: Seismitoad
+|-immune|p1a: Seismitoad
+|move|p1a: Seismitoad|Scald|p2a: Toxtricity
+|-damage|p2a: Toxtricity|72/100
+|-status|p2a: Toxtricity|brn
+|
+|-damage|p2a: Toxtricity|65/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Dragapult
+|-sidestart|p2: NovaCrono|move: Stealth Rock
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Dragapult|Flamethrower|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|82/100
+|-damage|p2a: Dragapult|91/100|[from] item: Life Orb
+|move|p1a: Seismitoad|Toxic|p2a: Dragapult
+|-status|p2a: Dragapult|tox
+|
+|-heal|p1a: Seismitoad|88/100|[from] item: Leftovers
+|-damage|p2a: Dragapult|85/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|switch|p1a: Rotom|Rotom-Heat|72/100
+|
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|move|p2a: Toxapex|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p1a: Rotom|66/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|move|p1a: Rotom|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|11/100
+|
+|switch|p1a: Mew|Mew|100/100|[from]move: Volt Switch
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|17/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p2a: Toxapex|Protect|p2a: Toxapex
+|-singleturn|p2a: Toxapex|Protect
+|move|p1a: Mew|Psychic Fangs|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|24/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Mew|Dragon Dance|p1a: Mew
+|-boost|p1a: Mew|atk|1
+|-boost|p1a: Mew|spe|1
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Mew|Psychic Fangs|p2a: Cinderace
+|-damage|p2a: Cinderace|26/100
+|move|p2a: Cinderace|Taunt|p1a: Mew
+|-start|p1a: Mew|move: Taunt
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|57/100
+|move|p1a: Mew|Psychic Fangs|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|85/100 tox
+|-damage|p2a: Dragapult|72/100 tox|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Mew|Darkest Lariat|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Ribombee|Ribombee, M|82/100
+|-damage|p2a: Ribombee|57/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Mew|Psychic Fangs|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|-end|p1a: Mew|move: Taunt
+|upkeep
+|-message|NovaCrono forfeited.
+|
+|win|DV DE RIVIA
+|l|☆NovaCrono
+|raw|DV DE RIVIA's rating: 1000 → 1046(+46 for winning)
+|raw|NovaCrono's rating: 1053 → 1033(-20 for losing)

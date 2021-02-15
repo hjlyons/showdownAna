@@ -1,0 +1,461 @@
+|ScrapeTime|2020-01-03-00:34:43
+|j|☆totorogro
+|j|☆piterce
+|player|p1|totorogro|169|1247
+|player|p2|piterce|170|1280
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aegislash, M|
+|poke|p1|Dracozolt|
+|poke|p1|Dragapult, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Excadrill, F|
+|poke|p2|Centiskorch, F|
+|poke|p2|Vikavolt, M|
+|poke|p2|Obstagoon, M|
+|poke|p2|Dracovish|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Corsola-Galar, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Obstagoon|Obstagoon, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by piterce)
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Obstagoon|Bulk Up|p2a: Obstagoon
+|-boost|p2a: Obstagoon|atk|1
+|-boost|p2a: Obstagoon|def|1
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Obstagoon|Bulk Up|p2a: Obstagoon
+|-boost|p2a: Obstagoon|atk|1
+|-boost|p2a: Obstagoon|def|1
+|move|p1a: Ferrothorn|Leech Seed|p2a: Obstagoon
+|-start|p2a: Obstagoon|move: Leech Seed
+|
+|-damage|p2a: Obstagoon|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|3
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Obstagoon|Body Press|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|89/100
+|
+|-heal|p2a: Obstagoon|94/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|95/100|[from] item: Leftovers
+|-damage|p2a: Obstagoon|82/100|[from] Leech Seed|[of] p1a: Toxapex
+|-heal|p1a: Toxapex|100/100|[silent]
+|upkeep
+|turn|4
+|
+|move|p2a: Obstagoon|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|59/100
+|-enditem|p1a: Toxapex|Leftovers|[from] move: Knock Off|[of] p2a: Obstagoon
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Obstagoon|88/100|[from] item: Leftovers
+|-damage|p2a: Obstagoon|76/100|[from] Leech Seed|[of] p1a: Toxapex
+|-heal|p1a: Toxapex|74/100|[silent]
+|upkeep
+|turn|5
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Dracovish|Psychic Fangs|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|57/100
+|move|p1a: Toxapex|Toxic Spikes|p2a: Dracovish
+|-sidestart|p2: piterce|move: Toxic Spikes
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Centiskorch|Centiskorch, F|100/100
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Toxapex|Toxapex, M|90/100
+|move|p2a: Centiskorch|Fire Lash|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|80/100
+|-unboost|p1a: Toxapex|def|1
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Centiskorch|Fire Lash|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|67/100
+|-unboost|p1a: Toxapex|def|1
+|move|p1a: Toxapex|Toxic Spikes|p2a: Centiskorch
+|-sidestart|p2: piterce|move: Toxic Spikes
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|-status|p2a: Conkeldurr|tox
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: Conkeldurr|94/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|move|p2a: Conkeldurr|Defog|p1a: Toxapex
+|-unboost|p1a: Toxapex|evasion|1
+|-sideend|p2: piterce|Toxic Spikes|[from] move: Defog|[of] p2a: Conkeldurr
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|-damage|p2a: Conkeldurr|82/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p2a: Vikavolt|Vikavolt, M|100/100
+|move|p1a: Toxapex|Toxic Spikes|p2a: Vikavolt
+|-sidestart|p2: piterce|move: Toxic Spikes
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|move|p2a: Vikavolt|Substitute|p2a: Vikavolt
+|-start|p2a: Vikavolt|Substitute
+|-damage|p2a: Vikavolt|76/100
+|
+|-heal|p2a: Vikavolt|82/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Dracozolt|Bolt Beak|p2a: Vikavolt
+|-resisted|p2a: Vikavolt
+|-end|p2a: Vikavolt|Substitute
+|move|p2a: Vikavolt|Bug Buzz|p1a: Dracozolt
+|-damage|p1a: Dracozolt|33/100
+|-unboost|p1a: Dracozolt|spd|1
+|
+|-heal|p2a: Vikavolt|88/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|-status|p2a: Corsola|psn
+|
+|-damage|p2a: Corsola|88/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Corsola|Stealth Rock|p1a: Toxapex
+|-sidestart|p1: totorogro|move: Stealth Rock
+|
+|-damage|p2a: Corsola|76/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|move|p1a: Toxapex|Scald|p2a: Corsola
+|-damage|p2a: Corsola|67/100 psn
+|move|p2a: Corsola|Will-O-Wisp|p1a: Toxapex
+|-status|p1a: Toxapex|brn
+|
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|-damage|p2a: Corsola|55/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p2a: Vikavolt|Vikavolt, M|88/100
+|move|p1a: Toxapex|Scald|p2a: Vikavolt
+|-damage|p2a: Vikavolt|66/100
+|-status|p2a: Vikavolt|brn
+|
+|-heal|p2a: Vikavolt|72/100 brn|[from] item: Leftovers
+|-damage|p2a: Vikavolt|66/100 brn|[from] brn
+|-damage|p1a: Toxapex|88/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p2a: Vikavolt|Thunderbolt|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-heal|p2a: Vikavolt|72/100 brn|[from] item: Leftovers
+|-damage|p2a: Vikavolt|66/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|20
+|
+|switch|p2a: Corsola|Corsola-Galar, F|55/100 psn
+|move|p1a: Excadrill|Rapid Spin|p2a: Corsola
+|-immune|p2a: Corsola
+|
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|-damage|p2a: Corsola|43/100 psn|[from] psn
+|upkeep
+|turn|21
+|
+|move|p1a: Excadrill|Earthquake|p2a: Corsola
+|-damage|p2a: Corsola|7/100 psn
+|-start|p1a: Excadrill|Disable|Earthquake|[from] ability: Cursed Body|[of] p2a: Corsola
+|move|p2a: Corsola|Strength Sap|p1a: Excadrill
+|-unboost|p1a: Excadrill|atk|1
+|-heal|p2a: Corsola|100/100 psn
+|
+|-damage|p2a: Corsola|88/100 psn|[from] psn
+|upkeep
+|turn|22
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p2a: Corsola|Will-O-Wisp|p1a: Ferrothorn|[miss]
+|-miss|p2a: Corsola|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p2a: Corsola|76/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|move|p2a: Corsola|Will-O-Wisp|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Corsola
+|-start|p2a: Corsola|move: Leech Seed
+|
+|-damage|p2a: Corsola|63/100 psn|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p2a: Corsola|51/100 psn|[from] psn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p2a: Vikavolt|Vikavolt, M|66/100 brn
+|move|p1a: Ferrothorn|Spikes|p2a: Vikavolt
+|-sidestart|p2: piterce|Spikes
+|
+|-heal|p2a: Vikavolt|72/100 brn|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Vikavolt|66/100 brn|[from] brn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Vikavolt|Substitute|p2a: Vikavolt
+|-start|p2a: Vikavolt|Substitute
+|-damage|p2a: Vikavolt|41/100 brn
+|
+|-heal|p2a: Vikavolt|47/100 brn|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Vikavolt|41/100 brn|[from] brn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p2a: Vikavolt|Bug Buzz|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|60/100 brn
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Vikavolt
+|-resisted|p2a: Vikavolt
+|-activate|p2a: Vikavolt|move: Substitute|[damage]
+|
+|-heal|p2a: Vikavolt|47/100 brn|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|66/100 brn|[from] item: Leftovers
+|-damage|p2a: Vikavolt|41/100 brn|[from] brn
+|-damage|p1a: Ferrothorn|60/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p2a: Vikavolt|Bug Buzz|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|25/100 brn
+|move|p1a: Ferrothorn|Spikes|p2a: Vikavolt
+|-sidestart|p2: piterce|Spikes
+|
+|-heal|p2a: Vikavolt|47/100 brn|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|31/100 brn|[from] item: Leftovers
+|-damage|p2a: Vikavolt|41/100 brn|[from] brn
+|-damage|p1a: Ferrothorn|25/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p2a: Vikavolt|Bug Buzz|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-heal|p2a: Vikavolt|47/100 brn|[from] item: Leftovers
+|-damage|p2a: Vikavolt|41/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|29
+|
+|move|p1a: Dragapult|Hex|p2a: Vikavolt
+|-end|p2a: Vikavolt|Substitute
+|move|p2a: Vikavolt|Thunderbolt|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|54/100
+|-start|p2a: Vikavolt|Disable|Thunderbolt|[from] ability: Cursed Body|[of] p1a: Dragapult
+|
+|-heal|p1a: Dragapult|60/100|[from] item: Leftovers
+|-heal|p2a: Vikavolt|47/100 brn|[from] item: Leftovers
+|-damage|p2a: Vikavolt|41/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|switch|p2a: Centiskorch|Centiskorch, F|100/100
+|move|p1a: Dragapult|Hex|p2a: Centiskorch
+|-damage|p2a: Centiskorch|85/100
+|
+|-heal|p1a: Dragapult|66/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|41/100
+|move|p2a: Centiskorch|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|47/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Dragapult|Disable|p2a: Centiskorch
+|-start|p2a: Centiskorch|Disable|Knock Off
+|move|p2a: Centiskorch|Fire Lash|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|28/100
+|-unboost|p1a: Dragapult|def|1
+|
+|-heal|p1a: Dragapult|35/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p1a: Dracozolt|Dracozolt|33/100
+|-damage|p1a: Dracozolt|21/100|[from] Stealth Rock
+|move|p2a: Centiskorch|Fire Lash|p1a: Dracozolt
+|-resisted|p1a: Dracozolt
+|-damage|p1a: Dracozolt|4/100
+|-unboost|p1a: Dracozolt|def|1
+|
+|upkeep
+|turn|34
+|
+|switch|p2a: Corsola|Corsola-Galar, F|51/100 psn
+|-damage|p2a: Corsola|34/100 psn|[from] Spikes
+|move|p1a: Dracozolt|Bolt Beak|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|82/100 tox
+|-damage|p2a: Conkeldurr|66/100 tox|[from] Spikes
+|turn|35
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|-damage|p1a: Aegislash|94/100|[from] Stealth Rock
+|move|p2a: Conkeldurr|Mach Punch|p1a: Aegislash
+|-immune|p1a: Aegislash
+|
+|-damage|p2a: Conkeldurr|60/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Claw|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|2/100 tox
+|move|p2a: Conkeldurr|Thunder Punch|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|-damage|p2a: Conkeldurr|0 fnt|[from] psn
+|faint|p2a: Conkeldurr
+|upkeep
+|
+|switch|p1a: Dracozolt|Dracozolt|4/100
+|switch|p2a: Dracovish|Dracovish|100/100
+|-damage|p2a: Dracovish|84/100|[from] Spikes
+|-status|p2a: Dracovish|psn
+|-damage|p1a: Dracozolt|0 fnt|[from] Stealth Rock
+|faint|p1a: Dracozolt
+|
+|switch|p1a: Dragapult|Dragapult, M|35/100
+|-damage|p1a: Dragapult|22/100|[from] Stealth Rock
+|turn|37
+|
+|move|p1a: Dragapult|Hex|p2a: Dracovish
+|-damage|p2a: Dracovish|27/100 psn
+|move|p2a: Dracovish|Fishious Rend|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-start|p2a: Dracovish|Disable|Fishious Rend|[from] ability: Cursed Body|[of] p1a: Dragapult
+|faint|p1a: Dragapult
+|
+|-damage|p2a: Dracovish|15/100 psn|[from] psn
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|38
+|
+|-activate|p2a: Dracovish|move: Struggle
+|move|p2a: Dracovish|Struggle|p1a: Excadrill
+|-damage|p1a: Excadrill|78/100
+|-damage|p2a: Dracovish|0 fnt|[from] recoil
+|faint|p2a: Dracovish
+|move|p1a: Excadrill|Rapid Spin|p2: Dracovish|[notarget]
+|-fail|p1a: Excadrill
+|
+|-heal|p1a: Excadrill|84/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Centiskorch|Centiskorch, F|85/100
+|turn|39
+|
+|move|p1a: Excadrill|Earthquake|p2a: Centiskorch
+|-damage|p2a: Centiskorch|26/100
+|move|p2a: Centiskorch|Fire Lash|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|win|piterce
+|l|☆totorogro
+|raw|totorogro's rating: 1247 → 1226(-21 for losing)
+|raw|piterce's rating: 1306 → 1322(+16 for winning)

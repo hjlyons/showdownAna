@@ -1,0 +1,433 @@
+|ScrapeTime|2020-01-01-21:38:26
+|j|☆Mel0nhead
+|j|☆dogs733
+|player|p1|Mel0nhead|2|
+|player|p2|dogs733|n|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Ditto|
+|poke|p2|Accelgor, M|
+|poke|p2|Duraludon, M|
+|poke|p2|Togekiss, M|
+|poke|p2|Hippowdon, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Corviknight, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hugs :D|Ferrothorn, M|100/100
+|switch|p2a: The Final Attack|Accelgor, M|100/100
+|turn|1
+|
+|move|p2a: The Final Attack|Final Gambit|p1a: Hugs :D
+|-damage|p1a: Hugs :D|0 fnt
+|faint|p2a: The Final Attack
+|faint|p1a: Hugs :D
+|
+|upkeep
+|
+|switch|p2a: Unbreaking III|Duraludon, M|100/100
+|switch|p1a: Roger Rabbit|Cinderace, F|100/100
+|turn|2
+|
+|switch|p2a: Hippower|Hippowdon, M|100/100
+|move|p1a: Roger Rabbit|Pyro Ball|p2a: Hippower
+|-damage|p2a: Hippower|68/100
+|
+|-heal|p2a: Hippower|74/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Roger Rabbit|U-turn|p2a: Hippower
+|-damage|p2a: Hippower|61/100
+|
+|switch|p1a: Peekaboo|Toxapex, F|100/100|[from]move: U-turn
+|move|p2a: Hippower|Stockpile|p2a: Hippower
+|-start|p2a: Hippower|stockpile1
+|-boost|p2a: Hippower|def|1
+|-boost|p2a: Hippower|spd|1
+|
+|-heal|p2a: Hippower|67/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Hippower|Earthquake|p1a: Peekaboo
+|-supereffective|p1a: Peekaboo
+|-damage|p1a: Peekaboo|56/100
+|move|p1a: Peekaboo|Toxic|p2a: Hippower
+|-status|p2a: Hippower|tox
+|
+|-heal|p2a: Hippower|73/100 tox|[from] item: Leftovers
+|-heal|p1a: Peekaboo|63/100|[from] item: Black Sludge
+|-damage|p2a: Hippower|67/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p2a: Hippower|Earthquake|p1a: Peekaboo
+|-supereffective|p1a: Peekaboo
+|-damage|p1a: Peekaboo|21/100
+|move|p1a: Peekaboo|Recover|p1a: Peekaboo
+|-heal|p1a: Peekaboo|71/100
+|
+|-heal|p2a: Hippower|73/100 tox|[from] item: Leftovers
+|-heal|p1a: Peekaboo|77/100|[from] item: Black Sludge
+|-damage|p2a: Hippower|61/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p2a: Hippower|Earthquake|p1a: Peekaboo
+|-supereffective|p1a: Peekaboo
+|-damage|p1a: Peekaboo|27/100
+|move|p1a: Peekaboo|Haze|p1a: Peekaboo
+|-clearallboost
+|
+|-heal|p2a: Hippower|67/100 tox|[from] item: Leftovers
+|-heal|p1a: Peekaboo|34/100|[from] item: Black Sludge
+|-damage|p2a: Hippower|49/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p1a: Rave|Corviknight, M|100/100
+|-ability|p1a: Rave|Pressure
+|move|p2a: Hippower|Earthquake|p1a: Rave
+|-immune|p1a: Rave
+|
+|-heal|p2a: Hippower|55/100 tox|[from] item: Leftovers
+|-damage|p2a: Hippower|30/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|move|p1a: Rave|Body Press|p2a: Hippower
+|-damage|p2a: Hippower|16/100 tox
+|move|p2a: Hippower|Slack Off|p2a: Hippower
+|-heal|p2a: Hippower|66/100 tox
+|
+|-heal|p2a: Hippower|72/100 tox|[from] item: Leftovers
+|-damage|p2a: Hippower|41/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|move|p1a: Rave|Brave Bird|p2a: Hippower
+|-damage|p2a: Hippower|23/100 tox
+|-damage|p1a: Rave|94/100|[from] Recoil
+|move|p2a: Hippower|Rock Slide|p1a: Rave|[miss]
+|-miss|p2a: Hippower|p1a: Rave
+|
+|-heal|p1a: Rave|100/100|[from] item: Leftovers
+|-heal|p2a: Hippower|29/100 tox|[from] item: Leftovers
+|-damage|p2a: Hippower|0 fnt|[from] psn
+|faint|p2a: Hippower
+|upkeep
+|
+|switch|p2a: Eagle|Togekiss, M|100/100
+|turn|10
+|
+|move|p2a: Eagle|Ancient Power|p1a: Rave
+|-damage|p1a: Rave|80/100
+|move|p1a: Rave|Brave Bird|p2a: Eagle
+|-damage|p2a: Eagle|58/100
+|-damage|p1a: Rave|69/100|[from] Recoil
+|
+|-heal|p1a: Rave|76/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Peekaboo|Toxapex, F|67/100
+|move|p2a: Eagle|Flamethrower|p1a: Peekaboo
+|-resisted|p1a: Peekaboo
+|-damage|p1a: Peekaboo|54/100
+|-status|p1a: Peekaboo|brn
+|
+|-heal|p1a: Peekaboo|60/100 brn|[from] item: Black Sludge
+|-damage|p1a: Peekaboo|54/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Eagle|Air Slash|p1a: Peekaboo
+|-damage|p1a: Peekaboo|22/100 brn
+|cant|p1a: Peekaboo|flinch
+|
+|-heal|p1a: Peekaboo|28/100 brn|[from] item: Black Sludge
+|-damage|p1a: Peekaboo|22/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Eagle|Air Slash|p1a: Peekaboo
+|-damage|p1a: Peekaboo|0 fnt
+|faint|p1a: Peekaboo
+|
+|upkeep
+|
+|switch|p1a: I'm You But Strong|Ditto|100/100
+|-transform|p1a: I'm You But Strong|p2a: Eagle|[from] ability: Imposter
+|turn|14
+|
+|move|p1a: I'm You But Strong|Ancient Power|p2a: Eagle
+|-supereffective|p2a: Eagle
+|-damage|p2a: Eagle|22/100
+|-enditem|p2a: Eagle|Weakness Policy
+|-boost|p2a: Eagle|atk|2
+|-boost|p2a: Eagle|spa|2
+|move|p2a: Eagle|Ancient Power|p1a: I'm You But Strong
+|-supereffective|p1a: I'm You But Strong
+|-damage|p1a: I'm You But Strong|18/100
+|
+|upkeep
+|turn|15
+|
+|move|p1a: I'm You But Strong|Ancient Power|p2a: Eagle
+|-supereffective|p2a: Eagle
+|-damage|p2a: Eagle|0 fnt
+|faint|p2a: Eagle
+|
+|upkeep
+|
+|switch|p2a: Unbreaking III|Duraludon, M|100/100
+|turn|16
+|
+|move|p1a: I'm You But Strong|Ancient Power|p2a: Unbreaking III
+|-resisted|p2a: Unbreaking III
+|-damage|p2a: Unbreaking III|81/100
+|move|p2a: Unbreaking III|Thunderbolt|p1a: I'm You But Strong
+|-supereffective|p1a: I'm You But Strong
+|-damage|p1a: I'm You But Strong|0 fnt
+|-damage|p2a: Unbreaking III|71/100|[from] item: Life Orb
+|faint|p1a: I'm You But Strong
+|
+|upkeep
+|
+|switch|p1a: Roger Rabbit|Cinderace, F|100/100
+|turn|17
+|
+|switch|p2a: It's A Trap|Toxapex, M|100/100
+|move|p1a: Roger Rabbit|Pyro Ball|p2a: It's A Trap
+|-resisted|p2a: It's A Trap
+|-damage|p2a: It's A Trap|83/100
+|
+|-heal|p2a: It's A Trap|89/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p1a: Roger Rabbit|U-turn|p2a: It's A Trap
+|-resisted|p2a: It's A Trap
+|-damage|p2a: It's A Trap|82/100
+|
+|switch|p1a: Missile Fetish|Dragapult, F|100/100|[from]move: U-turn
+|move|p2a: It's A Trap|Stockpile|p2a: It's A Trap
+|-start|p2a: It's A Trap|stockpile1
+|-boost|p2a: It's A Trap|def|1
+|-boost|p2a: It's A Trap|spd|1
+|
+|-heal|p2a: It's A Trap|89/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p1a: Missile Fetish|Draco Meteor|p2a: It's A Trap
+|-damage|p2a: It's A Trap|44/100
+|-unboost|p1a: Missile Fetish|spa|2
+|move|p2a: It's A Trap|Toxic|p1a: Missile Fetish
+|-status|p1a: Missile Fetish|tox
+|
+|-heal|p2a: It's A Trap|50/100|[from] item: Black Sludge
+|-damage|p1a: Missile Fetish|95/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p1a: Missile Fetish|Draco Meteor|p2a: It's A Trap
+|-damage|p2a: It's A Trap|29/100
+|-unboost|p1a: Missile Fetish|spa|2
+|move|p2a: It's A Trap|Recover|p2a: It's A Trap
+|-heal|p2a: It's A Trap|79/100
+|
+|-heal|p2a: It's A Trap|85/100|[from] item: Black Sludge
+|-damage|p1a: Missile Fetish|83/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p1a: Rave|Corviknight, M|76/100
+|-ability|p1a: Rave|Pressure
+|move|p2a: It's A Trap|Stockpile|p2a: It's A Trap
+|-start|p2a: It's A Trap|stockpile2
+|-boost|p2a: It's A Trap|def|1
+|-boost|p2a: It's A Trap|spd|1
+|
+|-heal|p1a: Rave|82/100|[from] item: Leftovers
+|-heal|p2a: It's A Trap|91/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|move|p1a: Rave|Body Press|p2a: It's A Trap
+|-resisted|p2a: It's A Trap
+|-damage|p2a: It's A Trap|87/100
+|move|p2a: It's A Trap|Liquidation|p1a: Rave
+|-damage|p1a: Rave|70/100
+|
+|-heal|p1a: Rave|76/100|[from] item: Leftovers
+|-heal|p2a: It's A Trap|93/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|move|p1a: Rave|Brave Bird|p2a: It's A Trap
+|-damage|p2a: It's A Trap|81/100
+|-damage|p1a: Rave|73/100|[from] Recoil
+|move|p2a: It's A Trap|Liquidation|p1a: Rave
+|-damage|p1a: Rave|61/100
+|
+|-heal|p1a: Rave|68/100|[from] item: Leftovers
+|-heal|p2a: It's A Trap|87/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|switch|p2a: Nevermore|Corviknight, M|100/100
+|move|p1a: Rave|Brave Bird|p2a: Nevermore
+|-resisted|p2a: Nevermore
+|-damage|p2a: Nevermore|85/100
+|-damage|p1a: Rave|63/100|[from] Recoil
+|
+|-heal|p1a: Rave|69/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Rave|Roost|p1a: Rave
+|-heal|p1a: Rave|100/100
+|-singleturn|p1a: Rave|move: Roost
+|move|p2a: Nevermore|Iron Defense|p2a: Nevermore
+|-boost|p2a: Nevermore|def|2
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Missile Fetish|Dragapult, F|83/100 tox
+|move|p2a: Nevermore|Body Press|p1a: Missile Fetish
+|-immune|p1a: Missile Fetish
+|
+|-damage|p1a: Missile Fetish|77/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|move|p1a: Missile Fetish|Fire Blast|p2a: Nevermore
+|-supereffective|p2a: Nevermore
+|-damage|p2a: Nevermore|13/100
+|-enditem|p2a: Nevermore|Maranga Berry|[eat]
+|-boost|p2a: Nevermore|spd|1
+|move|p2a: Nevermore|Iron Defense|p2a: Nevermore
+|-boost|p2a: Nevermore|def|2
+|
+|-damage|p1a: Missile Fetish|65/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|move|p1a: Missile Fetish|Fire Blast|p2a: Nevermore|[miss]
+|-miss|p1a: Missile Fetish|p2a: Nevermore
+|move|p2a: Nevermore|Roost|p2a: Nevermore
+|-heal|p2a: Nevermore|63/100
+|-singleturn|p2a: Nevermore|move: Roost
+|
+|-damage|p1a: Missile Fetish|47/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|move|p1a: Missile Fetish|Fire Blast|p2a: Nevermore
+|-supereffective|p2a: Nevermore
+|-damage|p2a: Nevermore|14/100
+|move|p2a: Nevermore|Power Trip|p1a: Missile Fetish
+|-supereffective|p1a: Missile Fetish
+|-damage|p1a: Missile Fetish|0 fnt
+|faint|p1a: Missile Fetish
+|
+|upkeep
+|
+|switch|p1a: Roger Rabbit|Cinderace, F|100/100
+|turn|30
+|
+|move|p1a: Roger Rabbit|Pyro Ball|p2a: Nevermore
+|-supereffective|p2a: Nevermore
+|-damage|p2a: Nevermore|0 fnt
+|faint|p2a: Nevermore
+|
+|upkeep
+|
+|switch|p2a: It's A Trap|Toxapex, M|100/100
+|turn|31
+|
+|move|p1a: Roger Rabbit|U-turn|p2a: It's A Trap
+|-resisted|p2a: It's A Trap
+|-damage|p2a: It's A Trap|94/100
+|
+|switch|p1a: Rave|Corviknight, M|100/100|[from]move: U-turn
+|-ability|p1a: Rave|Pressure
+|move|p2a: It's A Trap|Liquidation|p1a: Rave
+|-damage|p1a: Rave|88/100
+|
+|-heal|p1a: Rave|95/100|[from] item: Leftovers
+|-heal|p2a: It's A Trap|99/100|[from] item: Black Sludge
+|upkeep
+|turn|32
+|
+|switch|p2a: Unbreaking III|Duraludon, M|71/100
+|move|p1a: Rave|Brave Bird|p2a: Unbreaking III
+|-resisted|p2a: Unbreaking III
+|-damage|p2a: Unbreaking III|51/100
+|-damage|p1a: Rave|90/100|[from] Recoil
+|
+|-heal|p1a: Rave|96/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p2a: Unbreaking III|Thunderbolt|p1a: Rave
+|-supereffective|p1a: Rave
+|-damage|p1a: Rave|14/100
+|-damage|p2a: Unbreaking III|41/100|[from] item: Life Orb
+|move|p1a: Rave|Body Press|p2a: Unbreaking III
+|-supereffective|p2a: Unbreaking III
+|-damage|p2a: Unbreaking III|0 fnt
+|faint|p2a: Unbreaking III
+|
+|-heal|p1a: Rave|20/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: It's A Trap|Toxapex, M|100/100
+|turn|34
+|
+|move|p1a: Rave|Roost|p1a: Rave
+|-heal|p1a: Rave|70/100
+|-singleturn|p1a: Rave|move: Roost
+|move|p2a: It's A Trap|Liquidation|p1a: Rave
+|-damage|p1a: Rave|57/100
+|
+|-heal|p1a: Rave|64/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Rave|Body Press|p2a: It's A Trap
+|-resisted|p2a: It's A Trap
+|-damage|p2a: It's A Trap|92/100
+|move|p2a: It's A Trap|Stockpile|p2a: It's A Trap
+|-start|p2a: It's A Trap|stockpile1
+|-boost|p2a: It's A Trap|def|1
+|-boost|p2a: It's A Trap|spd|1
+|
+|-heal|p1a: Rave|70/100|[from] item: Leftovers
+|-heal|p2a: It's A Trap|99/100|[from] item: Black Sludge
+|upkeep
+|turn|36
+|-message|dogs733 forfeited.
+|
+|win|Mel0nhead
+|l|☆dogs733

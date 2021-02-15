@@ -1,0 +1,81 @@
+|ScrapeTime|2020-01-02-01:39:01
+|j|☆Caleco
+|j|☆Skksskkss
+|player|p1|Caleco|102|1000
+|player|p2|Skksskkss|265|1040
+|teamsize|p1|6
+|teamsize|p2|1
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dubwool, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Cursola, F|
+|poke|p1|Dugtrio, M|
+|poke|p1|Sandaconda, F|
+|poke|p1|Kommo-o, M|
+|poke|p2|Dracozolt|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Skksskkss)
+|
+|start
+|switch|p1a: Cursola|Cursola, F|100/100
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|turn|1
+|
+|move|p2a: Dracozolt|Bolt Beak|p1a: Cursola
+|-damage|p1a: Cursola|0 fnt
+|-ability|p1a: Cursola|Perish Body
+|-start|p1a: Cursola|perish3
+|-start|p2a: Dracozolt|perish3
+|faint|p1a: Cursola
+|
+|-start|p2a: Dracozolt|perish3
+|upkeep
+|
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|turn|2
+|
+|move|p1a: Dugtrio|Protect|p1a: Dugtrio
+|-singleturn|p1a: Dugtrio|Protect
+|move|p2a: Dracozolt|Dragon Claw|p1a: Dugtrio
+|-activate|p1a: Dugtrio|move: Protect
+|
+|-start|p2a: Dracozolt|perish2
+|upkeep
+|turn|3
+|
+|move|p1a: Dugtrio|Protect||[still]
+|-fail|p1a: Dugtrio
+|move|p2a: Dracozolt|Dragon Claw|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|-start|p2a: Dracozolt|perish1
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|turn|4
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Dracozolt|Taunt|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-start|p2a: Dracozolt|perish0
+|faint|p2a: Dracozolt
+|
+|win|Caleco
+|upkeep
+|l|☆Skksskkss
+|raw|Caleco's rating: 1000 → 1043(+43 for winning)
+|raw|Skksskkss's rating: 1023 → 1008(-15 for losing)

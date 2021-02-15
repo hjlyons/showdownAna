@@ -1,0 +1,438 @@
+|ScrapeTime|2020-01-02-05:45:38
+|j|☆chikaricox
+|j|☆gyhfght
+|player|p1|chikaricox|153|1565
+|player|p2|gyhfght|drayden|1517
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Araquanid, M|
+|poke|p1|Bisharp, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Dracovish|
+|poke|p1|Pelipper, M|
+|poke|p1|Dragapult, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Sylveon, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Dragapult, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gyhfght)
+|
+|start
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|turn|1
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Araquanid|Sticky Web|p2a: Corviknight
+|-sidestart|p2: gyhfght|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Corviknight|Defog|p1a: Araquanid
+|-unboost|p1a: Araquanid|evasion|1
+|-sideend|p2: gyhfght|Sticky Web|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Araquanid|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|47/100
+|-damage|p1a: Araquanid|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Corviknight|54/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Araquanid|Sticky Web|p2a: Corviknight
+|-sidestart|p2: gyhfght|move: Sticky Web
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|move|p2a: Corviknight|U-turn|p1a: Bisharp
+|-damage|p1a: Bisharp|82/100
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100|[from]move: U-turn
+|-activate|p2a: Conkeldurr|move: Sticky Web
+|-unboost|p2a: Conkeldurr|spe|1
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Conkeldurr|Drain Punch|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|67/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Pelipper|Hurricane|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|75/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|94/100 brn
+|-activate|p2a: Conkeldurr|move: Sticky Web
+|-unboost|p2a: Conkeldurr|spe|1
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p1a: Excadrill|Earthquake|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|38/100 brn
+|move|p2a: Conkeldurr|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Conkeldurr|32/100 brn|[from] brn
+|upkeep
+|inactive|chikaricox has 120 seconds left.
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|9
+|
+|switch|p2a: Sylveon|Sylveon, F|100/100
+|-activate|p2a: Sylveon|move: Sticky Web
+|-unboost|p2a: Sylveon|spe|1
+|move|p1a: Dragapult|Shadow Ball|p2a: Sylveon
+|-damage|p2a: Sylveon|73/100
+|-damage|p1a: Dragapult|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sylveon|79/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Dragapult|Surf|p2a: Sylveon
+|-damage|p2a: Sylveon|53/100
+|-damage|p1a: Dragapult|81/100|[from] item: Life Orb
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sylveon|59/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Dracovish
+|-supereffective|p1a: Dracovish
+|-damage|p1a: Dracovish|5/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sylveon|100/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|12
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Dracovish|Fishious Rend|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-activate|p2a: Ferrothorn|move: Sticky Web
+|-unboost|p2a: Ferrothorn|spe|1
+|move|p1a: Dracovish|Fishious Rend|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|38/100
+|-damage|p1a: Dracovish|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p1a: Dracovish
+|
+|-heal|p2a: Ferrothorn|45/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, F|82/100
+|turn|14
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Ferrothorn|Knock Off|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|69/100
+|-enditem|p1a: Bisharp|Black Glasses|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|51/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Ferrothorn|Leech Seed|p1a: Bisharp
+|-start|p1a: Bisharp|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|57/100|[from] item: Leftovers
+|-damage|p1a: Bisharp|57/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|66/100|[silent]
+|upkeep
+|turn|16
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Bisharp|Throat Chop|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|73/100|[from] item: Leftovers
+|-damage|p1a: Bisharp|45/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|82/100|[silent]
+|upkeep
+|turn|17
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Bisharp|33/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|75/100
+|turn|18
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Bisharp
+|-status|p1a: Bisharp|brn
+|move|p1a: Bisharp|Throat Chop|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-damage|p1a: Bisharp|27/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|19
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Corviknight
+|-damage|p2a: Corviknight|58/100
+|-start|p2a: Corviknight|Throat Chop|[silent]
+|move|p2a: Corviknight|Brave Bird|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|4/100 brn
+|-damage|p2a: Corviknight|53/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|59/100|[from] item: Leftovers
+|-damage|p1a: Bisharp|0 fnt|[from] Leech Seed|[of] p2a: Corviknight
+|-heal|p2a: Corviknight|62/100|[silent]
+|faint|p1a: Bisharp
+|upkeep
+|
+|switch|p1a: Pelipper|Pelipper, M|67/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|20
+|
+|switch|p2a: Sylveon|Sylveon, F|100/100
+|-activate|p2a: Sylveon|move: Sticky Web
+|-unboost|p2a: Sylveon|spe|1
+|move|p1a: Pelipper|Scald|p2a: Sylveon
+|-damage|p2a: Sylveon|72/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sylveon|78/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Pelipper|Hurricane|p2a: Sylveon
+|-damage|p2a: Sylveon|51/100
+|-start|p2a: Sylveon|confusion
+|-activate|p2a: Sylveon|confusion
+|-damage|p2a: Sylveon|45/100|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sylveon|51/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Pelipper|Knock Off|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|44/100
+|-enditem|p2a: Sylveon|Leftovers|[from] move: Knock Off|[of] p1a: Pelipper
+|-activate|p2a: Sylveon|confusion
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|move|p1a: Pelipper|Scald|p2a: Sylveon
+|-damage|p2a: Sylveon|14/100
+|-activate|p2a: Sylveon|confusion
+|-damage|p2a: Sylveon|8/100|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sylveon|58/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|24
+|
+|move|p1a: Pelipper|Scald|p2a: Sylveon
+|-damage|p2a: Sylveon|27/100
+|-end|p2a: Sylveon|confusion
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Pelipper|Scald|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sylveon|77/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|26
+|
+|move|p1a: Pelipper|Scald|p2a: Sylveon
+|-crit|p2a: Sylveon
+|-damage|p2a: Sylveon|34/100
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|switch|p1a: Araquanid|Araquanid, M|91/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Araquanid
+|-damage|p1a: Araquanid|61/100
+|
+|-weather|none
+|-heal|p2a: Sylveon|84/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|28
+|
+|switch|p1a: Pelipper|Pelipper, M|67/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|29
+|
+|move|p1a: Pelipper|Scald|p2a: Sylveon
+|-damage|p2a: Sylveon|57/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sylveon|100/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|
+|switch|p1a: Araquanid|Araquanid, M|61/100
+|turn|30
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Araquanid|Scald|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|31
+|
+|move|p1a: Araquanid|Scald|p2a: Sylveon
+|-damage|p2a: Sylveon|44/100
+|-damage|p1a: Araquanid|52/100|[from] item: Life Orb
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|32
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Araquanid|Scald|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sylveon|94/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|33
+|
+|move|p1a: Araquanid|Scald|p2a: Sylveon
+|-damage|p2a: Sylveon|45/100
+|-damage|p1a: Araquanid|42/100|[from] item: Life Orb
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|34
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Araquanid|Scald|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sylveon|95/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|35
+|
+|move|p1a: Araquanid|Scald|p2a: Sylveon
+|-damage|p2a: Sylveon|45/100
+|-damage|p1a: Araquanid|32/100|[from] item: Life Orb
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-weather|none
+|upkeep
+|turn|36
+|
+|switch|p1a: Dragapult|Dragapult, M|81/100
+|move|p2a: Sylveon|Protect||[still]
+|-fail|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|95/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|37
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Sylveon
+|-damage|p2a: Sylveon|70/100
+|-damage|p1a: Dragapult|71/100|[from] item: Life Orb
+|move|p2a: Sylveon|Hyper Voice|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|c|☆gyhfght|gg
+|c|☆chikaricox|Gg
+|-message|chikaricox forfeited.
+|
+|win|gyhfght
+|l|☆chikaricox
+|raw|chikaricox's rating: 1565 → 1542(-23 for losing)
+|raw|gyhfght's rating: 1517 → 1540(+23 for winning)

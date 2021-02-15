@@ -1,0 +1,513 @@
+|ScrapeTime|2020-01-01-23:38:24
+|j|☆oirk
+|j|☆mapy2004
+|player|p1|oirk|23|1045
+|player|p2|mapy2004|156|1088
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Umbreon, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Dragapult, M|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Ditto|
+|poke|p2|Cinderace, M|
+|poke|p2|Hawlucha, M|
+|poke|p2|Barraskewda, M|
+|poke|p2|Lucario, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Hatterene, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Messi|Cinderace, M|100/100
+|turn|1
+|
+|move|p2a: Messi|Sucker Punch||[still]
+|-fail|p2a: Messi
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Messi|Sucker Punch||[still]
+|-fail|p2a: Messi
+|move|p1a: Dragapult|Disable|p2a: Messi
+|-start|p2a: Messi|Disable|Sucker Punch
+|
+|-heal|p1a: Dragapult|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Dragapult|Hex|p2a: Messi
+|-damage|p2a: Messi|63/100
+|move|p2a: Messi|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|switch|p2a: Pinchudo|Ferrothorn, M|100/100|[from]move: U-turn
+|
+|-heal|p1a: Dragapult|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Pinchudo
+|-status|p2a: Pinchudo|brn
+|move|p2a: Pinchudo|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: oirk|move: Stealth Rock
+|
+|-heal|p1a: Dragapult|99/100|[from] item: Leftovers
+|-damage|p2a: Pinchudo|95/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: Dragapult|Hex|p2a: Pinchudo
+|-damage|p2a: Pinchudo|52/100 brn
+|move|p2a: Pinchudo|Gyro Ball|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|100/100|[from] item: Leftovers
+|-heal|p2a: Pinchudo|58/100 brn|[from] item: Leftovers
+|-damage|p2a: Pinchudo|52/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Dragapult|Disable|p2a: Pinchudo
+|-start|p2a: Pinchudo|Disable|Gyro Ball
+|move|p2a: Pinchudo|Thunder Wave|p1a: Dragapult
+|-status|p1a: Dragapult|par
+|
+|-heal|p2a: Pinchudo|58/100 brn|[from] item: Leftovers
+|-damage|p2a: Pinchudo|52/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100 par
+|move|p2a: Pinchudo|Leech Seed||[still]
+|-fail|p2a: Pinchudo
+|
+|-heal|p1a: Dragapult|82/100 par|[from] item: Leftovers
+|-heal|p2a: Pinchudo|58/100 brn|[from] item: Leftovers
+|-damage|p2a: Pinchudo|52/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p1a: Dragapult|Hex|p2a: Pinchudo
+|-damage|p2a: Pinchudo|4/100 brn
+|move|p2a: Pinchudo|Stealth Rock||[still]
+|-fail|p2a: Pinchudo
+|
+|-heal|p1a: Dragapult|88/100 par|[from] item: Leftovers
+|-heal|p2a: Pinchudo|10/100 brn|[from] item: Leftovers
+|-damage|p2a: Pinchudo|4/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Dragapult|Hex|p2a: Pinchudo
+|-damage|p2a: Pinchudo|0 fnt
+|faint|p2a: Pinchudo
+|
+|-heal|p1a: Dragapult|94/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Messi|Cinderace, M|63/100
+|turn|10
+|
+|move|p2a: Messi|Sucker Punch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|cant|p1a: Dragapult|par
+|
+|-heal|p1a: Dragapult|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Messi|Sucker Punch||[still]
+|-fail|p2a: Messi
+|move|p1a: Dragapult|Disable|p2a: Messi
+|-start|p2a: Messi|Disable|Sucker Punch
+|
+|-heal|p1a: Dragapult|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Messi|Pyro Ball|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|45/100 par
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|20/100 par
+|
+|-heal|p1a: Dragapult|27/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Messi|Pyro Ball|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|cant|p1a: Dragapult|par
+|
+|-heal|p1a: Dragapult|33/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Messi|Pyro Ball|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|55/100
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Messi|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|29/100
+|
+|switch|p2a: Fat ema|Hatterene, F|100/100|[from]move: U-turn
+|move|p1a: Rotom|Volt Switch|p2a: Fat ema
+|-damage|p2a: Fat ema|73/100
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Corsola|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Subrayador|Lucario, F, shiny|100/100
+|move|p1a: Corsola|Whirlpool|p2a: Subrayador|[miss]
+|-miss|p1a: Corsola|p2a: Subrayador
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Subrayador|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|47/100
+|move|p1a: Corsola|Strength Sap|p2a: Subrayador
+|-unboost|p2a: Subrayador|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Subrayador|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|56/100
+|-start|p2a: Subrayador|Disable|Shadow Ball|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Whirlpool|p2a: Subrayador|[miss]
+|-miss|p1a: Corsola|p2a: Subrayador
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Messi|Cinderace, M|63/100
+|move|p1a: Corsola|Strength Sap|p2a: Messi
+|-unboost|p2a: Messi|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Messi|Sucker Punch|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|79/100
+|-start|p2a: Messi|Disable|Sucker Punch|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Whirlpool|p2a: Messi
+|-supereffective|p2a: Messi
+|-damage|p2a: Messi|46/100
+|-activate|p2a: Messi|move: Whirlpool|[of] p1a: Corsola
+|
+|-damage|p2a: Messi|33/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|21
+|
+|move|p2a: Messi|U-turn|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|73/100
+|
+|switch|p2a: Subrayador|Lucario, F, shiny|100/100|[from]move: U-turn
+|move|p1a: Corsola|Strength Sap|p2a: Subrayador
+|-unboost|p2a: Subrayador|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Subrayador|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|61/100
+|-unboost|p1a: Corsola|spd|1
+|move|p1a: Corsola|Whirlpool|p2a: Subrayador
+|-damage|p2a: Subrayador|91/100
+|-activate|p2a: Subrayador|move: Whirlpool|[of] p1a: Corsola
+|
+|-damage|p2a: Subrayador|79/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|23
+|
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|-damage|p1a: Umbreon|88/100|[from] Stealth Rock
+|move|p2a: Subrayador|Shadow Ball|p1a: Umbreon
+|-resisted|p1a: Umbreon
+|-damage|p1a: Umbreon|77/100
+|
+|-heal|p1a: Umbreon|83/100|[from] item: Leftovers
+|-end|p2a: Subrayador|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|turn|24
+|
+|switch|p2a: Dieguito|Barraskewda, M|100/100
+|switch|p1a: Corsola|Corsola-Galar, M|61/100
+|-damage|p1a: Corsola|49/100|[from] Stealth Rock
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Dieguito|Liquidation|p1a: Corsola
+|-damage|p1a: Corsola|7/100
+|-unboost|p1a: Corsola|def|1
+|-damage|p2a: Dieguito|91/100|[from] item: Life Orb
+|move|p1a: Corsola|Strength Sap|p2a: Dieguito
+|-unboost|p2a: Dieguito|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Dieguito|Liquidation|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|83/100
+|-damage|p2a: Dieguito|78/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Dieguito|69/100|[from] item: Life Orb
+|
+|-heal|p1a: Ferrothorn|89/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Dieguito|Close Combat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|51/100
+|-damage|p2a: Dieguito|56/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-unboost|p2a: Dieguito|def|1
+|-unboost|p2a: Dieguito|spd|1
+|-damage|p2a: Dieguito|47/100|[from] item: Life Orb
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Dieguito
+|-status|p2a: Dieguito|par
+|
+|-heal|p1a: Ferrothorn|58/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Taco|Hawlucha, M, shiny|100/100
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Taco
+|-status|p2a: Taco|par
+|
+|-heal|p1a: Ferrothorn|64/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|-damage|p1a: Corsola|88/100|[from] Stealth Rock
+|move|p2a: Taco|Close Combat|p1a: Corsola
+|-immune|p1a: Corsola
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Taco|U-turn|p1a: Corsola
+|-resisted|p1a: Corsola
+|-crit|p1a: Corsola
+|-damage|p1a: Corsola|79/100
+|-start|p2a: Taco|Disable|U-turn|[from] ability: Cursed Body|[of] p1a: Corsola
+|
+|switch|p2a: Fat ema|Hatterene, F|73/100|[from]move: U-turn
+|move|p1a: Corsola|Whirlpool|p2a: Fat ema
+|-damage|p2a: Fat ema|67/100
+|-activate|p2a: Fat ema|move: Whirlpool|[of] p1a: Corsola
+|
+|-damage|p2a: Fat ema|55/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|31
+|
+|move|p1a: Corsola|Night Shade|p2a: Fat ema
+|-damage|p2a: Fat ema|23/100
+|move|p2a: Fat ema|Aromatherapy|p2a: Fat ema
+|-activate|p2a: Fat ema|move: Aromatherapy
+|-curestatus|p2: Dieguito|par|[msg]
+|-curestatus|p2: Taco|par|[msg]
+|
+|-damage|p2a: Fat ema|11/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|32
+|
+|move|p1a: Corsola|Night Shade|p2a: Fat ema
+|-damage|p2a: Fat ema|0 fnt
+|faint|p2a: Fat ema
+|
+|upkeep
+|
+|switch|p2a: Subrayador|Lucario, F, shiny|79/100
+|turn|33
+|
+|move|p2a: Subrayador|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|35/100
+|-unboost|p1a: Corsola|spd|1
+|move|p1a: Corsola|Strength Sap|p2a: Subrayador
+|-unboost|p2a: Subrayador|atk|1
+|-heal|p1a: Corsola|98/100
+|
+|upkeep
+|turn|34
+|
+|switch|p1a: Rotom|Rotom-Wash|29/100
+|-damage|p1a: Rotom|17/100|[from] Stealth Rock
+|move|p2a: Subrayador|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Subrayador|[from] ability: Imposter
+|turn|35
+|
+|switch|p2a: Taco|Hawlucha, M, shiny|100/100
+|move|p1a: Ditto|Aura Sphere|p2a: Taco
+|-resisted|p2a: Taco
+|-damage|p2a: Taco|68/100
+|
+|upkeep
+|turn|36
+|
+|switch|p1a: Corsola|Corsola-Galar, M|98/100
+|-damage|p1a: Corsola|85/100|[from] Stealth Rock
+|move|p2a: Taco|Acrobatics|p1a: Corsola
+|-damage|p1a: Corsola|68/100
+|
+|upkeep
+|turn|37
+|
+|move|p2a: Taco|U-turn|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|62/100
+|
+|switch|p2a: Messi|Cinderace, M|33/100|[from]move: U-turn
+|move|p1a: Corsola|Strength Sap|p2a: Messi
+|-unboost|p2a: Messi|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|upkeep
+|turn|38
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|64/100
+|-damage|p1a: Ferrothorn|58/100|[from] Stealth Rock
+|move|p2a: Messi|Sucker Punch||[still]
+|-fail|p2a: Messi
+|
+|-heal|p1a: Ferrothorn|64/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|-damage|p1a: Corsola|88/100|[from] Stealth Rock
+|move|p2a: Messi|Pyro Ball|p1a: Corsola
+|-damage|p1a: Corsola|50/100
+|
+|upkeep
+|turn|40
+|
+|move|p2a: Messi|Pyro Ball|p1a: Corsola
+|-damage|p1a: Corsola|11/100
+|move|p1a: Corsola|Strength Sap|p2a: Messi
+|-unboost|p2a: Messi|atk|1
+|-heal|p1a: Corsola|79/100
+|
+|upkeep
+|turn|41
+|
+|switch|p2a: Subrayador|Lucario, F, shiny|79/100
+|move|p1a: Corsola|Night Shade|p2a: Subrayador
+|-damage|p2a: Subrayador|43/100
+|
+|upkeep
+|turn|42
+|
+|switch|p1a: Dragapult|Dragapult, M|33/100 par
+|-damage|p1a: Dragapult|20/100 par|[from] Stealth Rock
+|move|p2a: Subrayador|Shadow Ball|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|88/100
+|-damage|p1a: Ditto|76/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Subrayador|[from] ability: Imposter
+|turn|43
+|
+|switch|p2a: Dieguito|Barraskewda, M|47/100
+|move|p1a: Ditto|Psychic|p2a: Dieguito
+|-damage|p2a: Dieguito|0 fnt
+|faint|p2a: Dieguito
+|
+|upkeep
+|
+|switch|p2a: Messi|Cinderace, M|33/100
+|turn|44
+|
+|move|p1a: Ditto|Psychic|p2a: Messi
+|-damage|p2a: Messi|0 fnt
+|faint|p2a: Messi
+|
+|upkeep
+|
+|switch|p2a: Taco|Hawlucha, M, shiny|68/100
+|turn|45
+|
+|move|p1a: Ditto|Psychic|p2a: Taco
+|-supereffective|p2a: Taco
+|-damage|p2a: Taco|0 fnt
+|faint|p2a: Taco
+|
+|upkeep
+|
+|switch|p2a: Subrayador|Lucario, F, shiny|43/100
+|turn|46
+|
+|switch|p1a: Corsola|Corsola-Galar, M|79/100
+|-damage|p1a: Corsola|67/100|[from] Stealth Rock
+|move|p2a: Subrayador|Aura Sphere|p1a: Corsola
+|-immune|p1a: Corsola
+|
+|upkeep
+|turn|47
+|-message|mapy2004 forfeited.
+|
+|win|oirk
+|l|☆mapy2004
+|raw|oirk's rating: 1079 → 1108(+29 for winning)
+|raw|mapy2004's rating: 1088 → 1064(-24 for losing)

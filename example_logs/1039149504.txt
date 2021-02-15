@@ -1,0 +1,295 @@
+|ScrapeTime|2020-01-01-14:45:01
+|j|☆IM A G3NG4R
+|j|☆HorstHodenhagen
+|player|p1|IM A G3NG4R|acerola|1112
+|player|p2|HorstHodenhagen|1|1094
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Togedemaru, M|
+|poke|p1|Polteageist|
+|poke|p1|Excadrill, M|
+|poke|p1|Gyarados, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Golisopod, F|
+|poke|p2|Eldegoss, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Centiskorch, M|
+|poke|p2|Toxtricity, M|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Hydreigon, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by IM A G3NG4R)
+|
+|start
+|switch|p1a: Togedemaru|Togedemaru, M|100/100
+|switch|p2a: Corsola|Corsola-Galar, F, shiny|100/100
+|turn|1
+|
+|move|p1a: Togedemaru|Spiky Shield|p1a: Togedemaru
+|-singleturn|p1a: Togedemaru|move: Protect
+|move|p2a: Corsola|Will-O-Wisp|p1a: Togedemaru
+|-activate|p1a: Togedemaru|move: Protect
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Polteageist|Polteageist|100/100
+|move|p2a: Corsola|Will-O-Wisp|p1a: Polteageist
+|-status|p1a: Polteageist|brn
+|
+|-damage|p1a: Polteageist|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Hydreigon|Hydreigon, M, shiny|100/100
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|
+|-damage|p1a: Polteageist|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Polteageist|Shadow Ball|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|42/100
+|-unboost|p2a: Hydreigon|spd|1
+|move|p2a: Hydreigon|Draco Meteor|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|faint|p1a: Polteageist
+|
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|turn|5
+|
+|switch|p2a: Corsola|Corsola-Galar, F, shiny|100/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Corsola|Will-O-Wisp|p1a: Dragapult
+|-status|p1a: Dragapult|brn
+|
+|-damage|p1a: Dragapult|95/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|41/100
+|move|p2a: Corsola|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: IM A G3NG4R|move: Stealth Rock
+|
+|-damage|p1a: Dragapult|89/100 brn|[from] brn
+|upkeep
+|turn|8
+|inactive|HorstHodenhagen has 120 seconds left.
+|
+|switch|p2a: Eldegoss|Eldegoss, F, shiny|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Eldegoss
+|-damage|p2a: Eldegoss|65/100
+|
+|-heal|p2a: Eldegoss|71/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|83/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p1a: Golisopod|Golisopod, F|100/100
+|-damage|p1a: Golisopod|76/100|[from] Stealth Rock
+|move|p2a: Eldegoss|Leech Seed|p1a: Golisopod|[miss]
+|-miss|p2a: Eldegoss|p1a: Golisopod
+|
+|-heal|p2a: Eldegoss|77/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Centiskorch|Centiskorch, M|100/100
+|move|p1a: Golisopod|Liquidation|p2a: Centiskorch
+|-supereffective|p2a: Centiskorch
+|-damage|p2a: Centiskorch|0 fnt
+|faint|p2a: Centiskorch
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|turn|11
+|
+|move|p2a: Corviknight|U-turn|p1a: Golisopod
+|-crit|p1a: Golisopod
+|-damage|p1a: Golisopod|60/100
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100|[from]move: U-turn
+|move|p1a: Golisopod|Liquidation|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, F, shiny|41/100
+|turn|12
+|
+|move|p1a: Golisopod|Liquidation|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M, shiny|42/100
+|turn|13
+|inactive|HorstHodenhagen has 120 seconds left.
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Golisopod
+|-damage|p1a: Golisopod|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|faint|p1a: Golisopod
+|
+|upkeep
+|
+|switch|p1a: Togedemaru|Togedemaru, M|100/100
+|turn|14
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|move|p1a: Togedemaru|Nuzzle|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|87/100
+|-damage|p1a: Togedemaru|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-status|p2a: Corviknight|par
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Togedemaru|Spiky Shield|p1a: Togedemaru
+|-singleturn|p1a: Togedemaru|move: Protect
+|cant|p2a: Corviknight|par
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Togedemaru|Zing Zap|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|37/100 par
+|-damage|p1a: Togedemaru|67/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|move|p2a: Corviknight|Body Press|p1a: Togedemaru
+|-supereffective|p1a: Togedemaru
+|-damage|p1a: Togedemaru|0 fnt
+|faint|p1a: Togedemaru
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|83/100 brn
+|-damage|p1a: Dragapult|70/100 brn|[from] Stealth Rock
+|turn|17
+|
+|switch|p2a: Eldegoss|Eldegoss, F, shiny|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Eldegoss
+|-damage|p2a: Eldegoss|67/100
+|
+|-heal|p2a: Eldegoss|73/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|64/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Eldegoss
+|-damage|p2a: Eldegoss|40/100
+|move|p2a: Eldegoss|Leech Seed|p1a: Dragapult|[miss]
+|-miss|p2a: Eldegoss|p1a: Dragapult
+|
+|-heal|p2a: Eldegoss|46/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|58/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Eldegoss
+|-damage|p2a: Eldegoss|13/100
+|move|p2a: Eldegoss|Leech Seed|p1a: Dragapult|[miss]
+|-miss|p2a: Eldegoss|p1a: Dragapult
+|
+|-heal|p2a: Eldegoss|19/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|52/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Eldegoss
+|-damage|p2a: Eldegoss|0 fnt
+|faint|p2a: Eldegoss
+|
+|-damage|p1a: Dragapult|46/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M, shiny|42/100
+|turn|21
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|11/100
+|move|p2a: Hydreigon|Draco Meteor|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|turn|22
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Gyarados
+|-damage|p1a: Gyarados|51/100
+|-unboost|p2a: Hydreigon|spa|2
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Corviknight|Corviknight, F|37/100 par
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Gyarados|Waterfall|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Gyarados|35/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|faint|p2a: Corviknight
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M, shiny|11/100
+|turn|25
+|
+|move|p1a: Gyarados|Waterfall|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|win|IM A G3NG4R
+|raw|IM A G3NG4R's rating: 1112 → 1136(+24 for winning)
+|raw|HorstHodenhagen's rating: 1094 → 1071(-23 for losing)
+|l|☆HorstHodenhagen

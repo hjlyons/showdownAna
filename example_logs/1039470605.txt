@@ -1,0 +1,284 @@
+|ScrapeTime|2020-01-02-03:04:38
+|j|☆PachiReeSueMe
+|j|☆Boo D Bandit
+|player|p1|PachiReeSueMe|doctor|1027
+|player|p2|Boo D Bandit|bellelba|1040
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxtricity, F|
+|poke|p1|Cloyster, M|
+|poke|p1|Mimikyu, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Hippowdon, M|
+|poke|p1|Excadrill, M|
+|poke|p2|Gourgeist-*, F|
+|poke|p2|Milotic, F|
+|poke|p2|Gallade, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Hatterene, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Toxtricity|Toxtricity, F|100/100
+|switch|p2a: Boo|Gourgeist-Super, F, shiny|100/100
+|-item|p1a: Toxtricity|Assault Vest|[from] ability: Frisk|[of] p2a: Boo|[identify]
+|turn|1
+|
+|move|p2a: Boo|Shadow Sneak|p1a: Toxtricity
+|-damage|p1a: Toxtricity|70/100
+|-damage|p2a: Boo|91/100|[from] item: Life Orb
+|move|p1a: Toxtricity|Nuzzle|p2a: Boo
+|-resisted|p2a: Boo
+|-damage|p2a: Boo|88/100
+|-status|p2a: Boo|par
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Toxtricity|Sludge Bomb|p2a: Boo
+|-damage|p2a: Boo|29/100 par
+|move|p2a: Boo|Trick Room|p2a: Boo
+|-fieldstart|move: Trick Room|[of] p2a: Boo
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Boo|Explosion|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p2a: Boo
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|switch|p2a: Hattie|Hatterene, F, shiny|100/100
+|switch|p1a: Hippowdon|Hippowdon, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|4
+|j| EazyEvv
+|
+|move|p2a: Hattie|Psychic|p1a: Hippowdon
+|-damage|p1a: Hippowdon|54/100
+|move|p1a: Hippowdon|Stealth Rock|p2a: Hattie
+|move|p2a: Hattie|Stealth Rock|p1a: Hippowdon|[from]Magic Bounce
+|-sidestart|p1: PachiReeSueMe|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hattie|95/100|[from] Sandstorm
+|-heal|p2a: Hattie|100/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|60/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Excadrill|Excadrill, M, shiny|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Hippowdon|Whirlwind|p2a: Excadrill
+|drag|p2a: King Ghidorah|Hydreigon, M, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Ghidorah|94/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|66/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Hippowdon|Yawn|p2a: King Ghidorah
+|-start|p2a: King Ghidorah|move: Yawn|[of] p1a: Hippowdon
+|move|p2a: King Ghidorah|Hydro Pump|p1a: Hippowdon|[miss]
+|-miss|p2a: King Ghidorah|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: King Ghidorah|88/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|72/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|switch|p2a: Excadrill|Excadrill, M, shiny|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|switch|p1a: Cloyster|Cloyster, M, shiny|100/100
+|-damage|p1a: Cloyster|76/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cloyster|69/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|switch|p1a: Rotom|Rotom-Heat, shiny|100/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|move|p2a: Excadrill|Brick Break|p1a: Rotom
+|-damage|p1a: Rotom|34/100
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|move|p1a: Rotom|Overheat|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Aqua|Milotic, F, shiny|100/100
+|turn|10
+|
+|switch|p1a: Mimikyu|Mimikyu, M, shiny|100/100
+|-damage|p1a: Mimikyu|88/100|[from] Stealth Rock
+|move|p2a: Aqua|Scald|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|88/100
+|-status|p1a: Mimikyu|brn
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M, shiny
+|-damage|p1a: Mimikyu|76/100 brn|[from] ability: Disguise|[of] p1a: Mimikyu
+|-enditem|p1a: Mimikyu|Red Card|[of] p2a: Aqua
+|drag|p2a: Kio|Gallade, M, shiny|100/100
+|
+|-damage|p1a: Mimikyu|70/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Kio
+|-supereffective|p2a: Kio
+|-damage|p2a: Kio|75/100
+|move|p2a: Kio|Earthquake|p1a: Mimikyu
+|-damage|p1a: Mimikyu|14/100 brn
+|
+|-damage|p1a: Mimikyu|8/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Kio
+|-supereffective|p2a: Kio
+|-damage|p2a: Kio|49/100
+|move|p2a: Kio|Trick Room|p2a: Kio
+|-fieldstart|move: Trick Room|[of] p2a: Kio
+|
+|-damage|p1a: Mimikyu|2/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p2a: Hattie|Hatterene, F, shiny|100/100
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Hattie
+|-supereffective|p2a: Hattie
+|-damage|p2a: Hattie|83/100
+|
+|-heal|p2a: Hattie|89/100|[from] item: Leftovers
+|-damage|p1a: Mimikyu|0 fnt|[from] brn
+|faint|p1a: Mimikyu
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|14
+|
+|move|p2a: Hattie|Mystical Fire|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-crit|p1a: Excadrill
+|-damage|p1a: Excadrill|14/100
+|-unboost|p1a: Excadrill|spa|1
+|move|p1a: Excadrill|Rapid Spin|p2a: Hattie
+|-damage|p2a: Hattie|68/100
+|-sideend|p1: PachiReeSueMe|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|
+|-heal|p2a: Hattie|74/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Hippowdon|Hippowdon, M, shiny|72/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Hattie|Giga Drain|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|22/100
+|-heal|p2a: Hattie|100/100|[from] drain|[of] p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hattie|95/100|[from] Sandstorm
+|-heal|p2a: Hattie|100/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|28/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Hattie|Psychic|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hattie|95/100|[from] Sandstorm
+|-heal|p2a: Hattie|100/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: Cloyster|Cloyster, M, shiny|69/100
+|turn|17
+|
+|move|p1a: Cloyster|Icicle Spear|p2a: Hattie
+|-damage|p2a: Hattie|88/100
+|-damage|p2a: Hattie|75/100
+|-damage|p2a: Hattie|61/100
+|-damage|p2a: Hattie|49/100
+|-damage|p2a: Hattie|34/100
+|-hitcount|p2a: Hattie|5
+|move|p2a: Hattie|Giga Drain|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|-heal|p2a: Hattie|61/100|[from] drain|[of] p1a: Cloyster
+|faint|p1a: Cloyster
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hattie|55/100|[from] Sandstorm
+|-heal|p2a: Hattie|61/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat, shiny|34/100
+|turn|18
+|
+|switch|p2a: Aqua|Milotic, F, shiny|100/100
+|move|p1a: Rotom|Shadow Ball|p2a: Aqua
+|-damage|p2a: Aqua|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|27/100|[from] Sandstorm
+|-damage|p2a: Aqua|76/100|[from] Sandstorm
+|upkeep
+|turn|19
+|
+|switch|p1a: Excadrill|Excadrill, M|14/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Aqua|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat, shiny|27/100
+|turn|20
+|
+|move|p1a: Rotom|Volt Switch|p2a: Aqua
+|-supereffective|p2a: Aqua
+|-damage|p2a: Aqua|29/100
+|move|p2a: Aqua|Scald|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|win|Boo D Bandit
+|raw|PachiReeSueMe's rating: 1027 → 1014(-13 for losing)
+|raw|Boo D Bandit's rating: 1040 → 1073(+33 for winning)
+|l|☆PachiReeSueMe

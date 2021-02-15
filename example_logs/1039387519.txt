@@ -1,0 +1,595 @@
+|ScrapeTime|2020-01-01-23:56:52
+|j|☆cubeman1
+|j|☆amodus
+|player|p1|cubeman1|267|1091
+|player|p2|amodus|170|1081
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Mimikyu, F|
+|poke|p1|Hydreigon, F|
+|poke|p1|Duraludon, F|
+|poke|p1|Heliolisk, F|
+|poke|p1|Conkeldurr, F|
+|poke|p2|Toxtricity, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Clefable, F|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Toxapex, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Duraludon|Duraludon, F|100/100
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|1
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Duraludon
+|-damage|p1a: Duraludon|36/100
+|-unboost|p2a: Hydreigon|spa|2
+|move|p1a: Duraludon|Metal Burst|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-heal|p1a: Duraludon|47/100|[from] item: Shell Bell|[of] p2a: Hydreigon
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|turn|2
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Duraludon
+|-supereffective|p1a: Duraludon
+|-damage|p1a: Duraludon|2/100
+|move|p1a: Duraludon|Rest|p1a: Duraludon
+|-status|p1a: Duraludon|slp|[from] move: Rest
+|-heal|p1a: Duraludon|100/100 slp|[silent]
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Duraludon
+|-supereffective|p1a: Duraludon
+|-damage|p1a: Duraludon|31/100 slp
+|cant|p1a: Duraludon|slp
+|move|p1a: Duraludon|Sleep Talk|p1a: Duraludon
+|move|p1a: Duraludon|Metal Burst||[from]Sleep Talk|[still]
+|-fail|p1a: Duraludon
+|
+|-damage|p2a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Duraludon
+|-supereffective|p1a: Duraludon
+|-crit|p1a: Duraludon
+|-damage|p1a: Duraludon|0 fnt
+|faint|p1a: Duraludon
+|
+|-damage|p2a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|turn|5
+|
+|move|p2a: Conkeldurr|Earthquake|p1a: Corsola
+|-damage|p1a: Corsola|62/100
+|move|p1a: Corsola|Strength Sap|p2a: Conkeldurr
+|-unboost|p2a: Conkeldurr|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|-damage|p2a: Conkeldurr|82/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|move|p1a: Corsola|Night Shade|p2a: Toxtricity
+|-damage|p2a: Toxtricity|66/100
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Heliolisk|Heliolisk, F|100/100
+|move|p2a: Toxtricity|Snarl|p1a: Heliolisk
+|-damage|p1a: Heliolisk|51/100
+|-unboost|p1a: Heliolisk|spa|1
+|
+|-heal|p1a: Heliolisk|57/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Heliolisk|Surf|p2a: Toxtricity
+|-damage|p2a: Toxtricity|33/100
+|move|p2a: Toxtricity|Snarl|p1a: Heliolisk
+|-damage|p1a: Heliolisk|10/100
+|-unboost|p1a: Heliolisk|spa|1
+|
+|-heal|p1a: Heliolisk|16/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Heliolisk|Parabolic Charge|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|20/100
+|-heal|p1a: Heliolisk|24/100|[from] drain|[of] p2a: Toxtricity
+|move|p2a: Toxtricity|Snarl|p1a: Heliolisk
+|-damage|p1a: Heliolisk|0 fnt
+|faint|p1a: Heliolisk
+|
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|turn|10
+|c|☆amodus|!weak conkeldurr
+|html|Conkeldurr (ignoring abilities):Weaknesses: Fairy, Flying, PsychicResistances: Bug, Dark, RockImmunities: None
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Conkeldurr|Mach Punch|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|86/100
+|
+|-heal|p2a: Clefable|92/100|[from] item: Leftovers
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|11
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|move|p2a: Clefable|Moonblast|p1a: Corsola
+|-damage|p1a: Corsola|77/100
+|
+|-heal|p2a: Clefable|98/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Clefable|Thunder Wave|p1a: Corsola
+|-status|p1a: Corsola|par
+|cant|p1a: Corsola|par
+|
+|-heal|p2a: Clefable|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Clefable|Moonblast|p1a: Corsola
+|-damage|p1a: Corsola|56/100 par
+|-start|p2a: Clefable|Disable|Moonblast|[from] ability: Cursed Body|[of] p1a: Corsola
+|-unboost|p1a: Corsola|spa|1
+|move|p1a: Corsola|Strength Sap|p2a: Clefable
+|-unboost|p2a: Clefable|atk|1
+|-heal|p1a: Corsola|100/100 par
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Corsola|Night Shade|p2a: Corviknight
+|-damage|p2a: Corviknight|75/100
+|
+|-heal|p2a: Corviknight|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Corviknight|Iron Head|p1a: Corsola
+|-damage|p1a: Corsola|85/100 par
+|move|p1a: Corsola|Will-O-Wisp|p2a: Corviknight
+|-status|p2a: Corviknight|brn
+|
+|-heal|p2a: Corviknight|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|82/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p2a: Toxtricity|Toxtricity, F|20/100
+|move|p1a: Corsola|Strength Sap|p2a: Toxtricity
+|-unboost|p2a: Toxtricity|atk|1
+|-heal|p1a: Corsola|100/100 par
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Toxtricity|Snarl|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|49/100 par
+|-unboost|p1a: Corsola|spa|1
+|move|p1a: Corsola|Night Shade|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|18
+|
+|move|p2a: Clefable|Moonblast|p1a: Corsola
+|-damage|p1a: Corsola|28/100 par
+|cant|p1a: Corsola|par
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Clefable|Moonblast|p1a: Corsola
+|-damage|p1a: Corsola|6/100 par
+|-unboost|p1a: Corsola|spa|1
+|move|p1a: Corsola|Strength Sap|p2a: Clefable
+|-unboost|p2a: Clefable|atk|1
+|-heal|p1a: Corsola|56/100 par
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Clefable|Moonblast|p1a: Corsola
+|-damage|p1a: Corsola|36/100 par
+|move|p1a: Corsola|Strength Sap|p2a: Clefable
+|-unboost|p2a: Clefable|atk|1
+|-heal|p1a: Corsola|69/100 par
+|
+|upkeep
+|turn|21
+|c|☆amodus|!weak corsola-ga
+|html|corsola-ga isn't a recognized type or pokemon.
+|c|☆amodus|!weak corsola
+|html|Corsola (ignoring abilities):Weaknesses: Electric, Fighting, Grass, GroundResistances: Fire, Flying, Ice, Normal, PoisonImmunities: None
+|
+|move|p2a: Clefable|Moonblast|p1a: Corsola
+|-damage|p1a: Corsola|49/100 par
+|-start|p2a: Clefable|Disable|Moonblast|[from] ability: Cursed Body|[of] p1a: Corsola
+|-unboost|p1a: Corsola|spa|1
+|move|p1a: Corsola|Night Shade|p2a: Clefable
+|-damage|p2a: Clefable|75/100
+|
+|-heal|p2a: Clefable|81/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Corsola|Haze|p1a: Corsola
+|-clearallboost
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Toxapex|Scald|p1a: Corsola
+|-damage|p1a: Corsola|37/100 par
+|move|p1a: Corsola|Strength Sap|p2a: Toxapex
+|-unboost|p2a: Toxapex|atk|1
+|-heal|p1a: Corsola|87/100 par
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Corsola|Will-O-Wisp|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Toxapex|Scald|p1a: Corsola
+|-damage|p1a: Corsola|74/100 par
+|cant|p1a: Corsola|par
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Toxapex|Scald|p1a: Corsola
+|-damage|p1a: Corsola|63/100 par
+|-start|p2a: Toxapex|Disable|Scald|[from] ability: Cursed Body|[of] p1a: Corsola
+|cant|p1a: Corsola|par
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|82/100 brn
+|move|p1a: Corsola|Will-O-Wisp|p2a: Conkeldurr
+|-fail|p2a: Conkeldurr|brn
+|
+|-damage|p2a: Conkeldurr|75/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p2a: Conkeldurr|Earthquake|p1a: Corsola
+|-damage|p1a: Corsola|23/100 par
+|-start|p2a: Conkeldurr|Disable|Earthquake|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Strength Sap|p2a: Conkeldurr
+|-unboost|p2a: Conkeldurr|atk|1
+|-heal|p1a: Corsola|100/100 par
+|
+|-damage|p2a: Conkeldurr|69/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|switch|p2a: Corviknight|Corviknight, F|82/100 brn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Corsola|Night Shade|p2a: Corviknight
+|-damage|p2a: Corviknight|57/100 brn
+|
+|-heal|p2a: Corviknight|63/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|57/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p2a: Corviknight|U-turn|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|98/100 par
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|69/100 brn|[from]move: U-turn
+|move|p1a: Corsola|Night Shade|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|41/100 brn
+|
+|-damage|p2a: Conkeldurr|35/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p2a: Conkeldurr|Earthquake|p1a: Corsola
+|-damage|p1a: Corsola|62/100 par
+|move|p1a: Corsola|Strength Sap|p2a: Conkeldurr
+|-unboost|p2a: Conkeldurr|atk|1
+|-heal|p1a: Corsola|100/100 par
+|
+|-damage|p2a: Conkeldurr|28/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p2a: Conkeldurr|Earthquake|p1a: Corsola
+|-damage|p1a: Corsola|75/100 par
+|-start|p2a: Conkeldurr|Disable|Earthquake|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Night Shade|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, F|57/100 brn
+|-ability|p2a: Corviknight|Pressure
+|turn|33
+|
+|move|p2a: Corviknight|Iron Head|p1a: Corsola
+|-damage|p1a: Corsola|67/100 par
+|move|p1a: Corsola|Strength Sap|p2a: Corviknight
+|-unboost|p2a: Corviknight|atk|1
+|-heal|p1a: Corsola|100/100 par
+|
+|-heal|p2a: Corviknight|63/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|57/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|move|p2a: Corviknight|Iron Head|p1a: Corsola
+|-damage|p1a: Corsola|95/100 par
+|move|p1a: Corsola|Night Shade|p2a: Corviknight
+|-damage|p2a: Corviknight|32/100 brn
+|
+|-heal|p2a: Corviknight|38/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|32/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|move|p2a: Corviknight|U-turn|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|93/100 par
+|
+|switch|p2a: Clefable|Clefable, F|81/100|[from]move: U-turn
+|move|p1a: Corsola|Night Shade|p2a: Clefable
+|-damage|p2a: Clefable|56/100
+|
+|-heal|p2a: Clefable|62/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p2a: Clefable|Moonblast|p1a: Corsola
+|-damage|p1a: Corsola|71/100 par
+|-start|p2a: Clefable|Disable|Moonblast|[from] ability: Cursed Body|[of] p1a: Corsola
+|cant|p1a: Corsola|par
+|
+|-heal|p2a: Clefable|68/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Corsola|Will-O-Wisp|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|74/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Corsola|Will-O-Wisp|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|80/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p2a: Clefable|Wish|p2a: Clefable
+|move|p1a: Corsola|Will-O-Wisp|p2a: Clefable
+|-status|p2a: Clefable|brn
+|
+|-heal|p2a: Clefable|86/100 brn|[from] item: Leftovers
+|-end|p2a: Clefable|Disable
+|upkeep
+|turn|40
+|
+|move|p2a: Clefable|Moonblast|p1a: Corsola
+|-damage|p1a: Corsola|51/100 par
+|cant|p1a: Corsola|par
+|
+|-heal|p2a: Clefable|100/100 brn|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|41
+|
+|move|p2a: Clefable|Moonblast|p1a: Corsola
+|-damage|p1a: Corsola|29/100 par
+|-start|p2a: Clefable|Disable|Moonblast|[from] ability: Cursed Body|[of] p1a: Corsola
+|-unboost|p1a: Corsola|spa|1
+|cant|p1a: Corsola|par
+|
+|upkeep
+|turn|42
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Corsola|Strength Sap|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|upkeep
+|turn|43
+|
+|move|p2a: Clefable|Protect||[still]
+|-fail|p2a: Clefable
+|move|p1a: Corsola|Strength Sap|p2a: Clefable
+|-unboost|p2a: Clefable|atk|1
+|-heal|p1a: Corsola|79/100 par
+|
+|upkeep
+|turn|44
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-end|p2a: Clefable|Disable
+|upkeep
+|turn|45
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|58/100 brn
+|move|p2a: Clefable|Moonblast|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-heal|p2a: Clefable|100/100 brn|[from] move: Wish|[wisher] Clefable
+|upkeep
+|
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|turn|46
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Clefable|Moonblast|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|-damage|p1a: Mimikyu|88/100|[from] ability: Disguise|[of] p1a: Mimikyu
+|-enditem|p1a: Mimikyu|Red Card|[of] p2a: Clefable
+|drag|p2a: Corviknight|Corviknight, F|32/100 brn
+|-ability|p2a: Corviknight|Pressure
+|
+|-heal|p2a: Corviknight|38/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|32/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|move|p1a: Mimikyu|Drain Punch|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-heal|p1a: Mimikyu|100/100|[from] drain|[of] p2a: Corviknight
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|100/100 brn
+|turn|48
+|
+|move|p1a: Mimikyu|Leech Life|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|75/100 brn
+|move|p2a: Clefable|Moonblast|p1a: Mimikyu
+|-damage|p1a: Mimikyu|58/100
+|
+|-heal|p2a: Clefable|81/100 brn|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|move|p1a: Mimikyu|Leech Life|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|54/100 brn
+|-heal|p1a: Mimikyu|79/100|[from] drain|[of] p2a: Clefable
+|move|p2a: Clefable|Moonblast|p1a: Mimikyu
+|-damage|p1a: Mimikyu|40/100
+|
+|-heal|p2a: Clefable|60/100 brn|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|move|p1a: Mimikyu|Leech Life|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|34/100 brn
+|-heal|p1a: Mimikyu|61/100|[from] drain|[of] p2a: Clefable
+|move|p2a: Clefable|Moonblast|p1a: Mimikyu
+|-damage|p1a: Mimikyu|18/100
+|
+|-heal|p2a: Clefable|40/100 brn|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|move|p1a: Mimikyu|Leech Life|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|16/100 brn
+|-heal|p1a: Mimikyu|37/100|[from] drain|[of] p2a: Clefable
+|move|p2a: Clefable|Moonblast|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|-heal|p2a: Clefable|22/100 brn|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100 brn
+|turn|52
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|-damage|p1a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|turn|53
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Conkeldurr|Fling|p2a: Toxapex
+|-enditem|p1a: Conkeldurr|Flame Orb|[from] move: Fling
+|-activate|p2a: Toxapex|move: Protect
+|
+|-damage|p1a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|35/100
+|move|p2a: Toxapex|Scald|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|69/100 brn
+|
+|-heal|p2a: Toxapex|42/100|[from] item: Black Sludge
+|-damage|p1a: Conkeldurr|63/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|win|cubeman1
+|l|☆amodus
+|raw|cubeman1's rating: 1091 → 1117(+26 for winning)
+|raw|amodus's rating: 1081 → 1060(-21 for losing)

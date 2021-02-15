@@ -1,0 +1,321 @@
+|ScrapeTime|2020-01-02-01:44:40
+|j|☆lalorazor
+|j|☆ydm14
+|player|p1|lalorazor|169|1110
+|player|p2|ydm14|bruno|1136
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Malamar, F|
+|poke|p1|Shuckle, M|
+|poke|p1|Kommo-o, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Corviknight, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Clefable, F|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Aegislash, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Obstagoon, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ydm14)
+|
+|start
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|turn|1
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Head Smash|p1a: Corviknight
+|-damage|p1a: Corviknight|35/100
+|-damage|p2a: Aegislash|65/100|[from] Recoil
+|move|p1a: Corviknight|Sand Attack|p2a: Aegislash
+|-unboost|p2a: Aegislash|accuracy|1
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Aegislash|Head Smash|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-damage|p2a: Aegislash|46/100|[from] Recoil
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|turn|3
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|move|p1a: Kommo-o|Fire Punch|p2a: Corsola
+|-damage|p2a: Corsola|91/100
+|-start|p1a: Kommo-o|Disable|Fire Punch|[from] ability: Cursed Body|[of] p2a: Corsola
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|67/100
+|move|p2a: Corsola|Will-O-Wisp|p1a: Kommo-o
+|-status|p1a: Kommo-o|brn
+|
+|-damage|p1a: Kommo-o|61/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|28/100 brn
+|move|p2a: Corsola|Strength Sap|p1a: Kommo-o
+|-unboost|p1a: Kommo-o|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-damage|p1a: Kommo-o|22/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Kommo-o|Rest|p1a: Kommo-o
+|-status|p1a: Kommo-o|slp|[from] move: Rest
+|-heal|p1a: Kommo-o|100/100 slp|[silent]
+|-enditem|p1a: Kommo-o|Chesto Berry|[eat]
+|-curestatus|p1a: Kommo-o|slp|[msg]
+|move|p2a: Corsola|Stealth Rock|p1a: Kommo-o
+|-sidestart|p1: lalorazor|move: Stealth Rock
+|
+|-end|p1a: Kommo-o|Disable
+|upkeep
+|turn|7
+|
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|67/100
+|move|p2a: Corsola|Strength Sap|p1a: Kommo-o
+|-unboost|p1a: Kommo-o|atk|1
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|34/100
+|move|p2a: Corsola|Strength Sap|p1a: Kommo-o
+|-unboost|p1a: Kommo-o|atk|1
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Kommo-o|Fire Punch|p2a: Corsola
+|-damage|p2a: Corsola|87/100
+|-start|p1a: Kommo-o|Disable|Fire Punch|[from] ability: Cursed Body|[of] p2a: Corsola
+|move|p2a: Corsola|Night Shade|p1a: Kommo-o
+|-damage|p1a: Kommo-o|1/100
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Kommo-o|Rest|p1a: Kommo-o
+|-status|p1a: Kommo-o|slp|[from] move: Rest
+|-heal|p1a: Kommo-o|100/100 slp|[silent]
+|move|p2a: Corsola|Stealth Rock||[still]
+|-fail|p2a: Corsola
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|cant|p1a: Kommo-o|slp
+|
+|upkeep
+|turn|12
+|
+|cant|p1a: Kommo-o|slp
+|move|p2a: Clefable|Moonblast|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|42/100 slp
+|
+|-end|p1a: Kommo-o|Disable
+|upkeep
+|turn|13
+|
+|-curestatus|p1a: Kommo-o|slp|[msg]
+|move|p1a: Kommo-o|Drain Punch|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|73/100
+|-heal|p1a: Kommo-o|57/100|[from] drain|[of] p2a: Clefable
+|move|p2a: Clefable|Moonblast|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|switch|p1a: Shuckle|Shuckle, M|100/100
+|-damage|p1a: Shuckle|75/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Clefable|Cosmic Power|p2a: Clefable
+|-boost|p2a: Clefable|def|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Shuckle|Infestation|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|73/100
+|-activate|p2a: Clefable|move: Infestation|[of] p1a: Shuckle
+|
+|-heal|p1a: Shuckle|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Clefable|Cosmic Power|p2a: Clefable
+|-boost|p2a: Clefable|def|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Shuckle|Sandstorm|p1a: Shuckle
+|-weather|Sandstorm
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Shuckle|88/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Clefable|Cosmic Power|p2a: Clefable
+|-boost|p2a: Clefable|def|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Shuckle|Shell Smash|p1a: Shuckle
+|-boost|p1a: Shuckle|def|1
+|-boost|p1a: Shuckle|spd|1
+|-unboost|p1a: Shuckle|atk|2
+|-unboost|p1a: Shuckle|spa|2
+|-unboost|p1a: Shuckle|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Shuckle|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Clefable|Moonblast|p1a: Shuckle
+|-damage|p1a: Shuckle|76/100
+|move|p1a: Shuckle|Shell Smash|p1a: Shuckle
+|-boost|p1a: Shuckle|def|1
+|-boost|p1a: Shuckle|spd|1
+|-unboost|p1a: Shuckle|atk|2
+|-unboost|p1a: Shuckle|spa|2
+|-unboost|p1a: Shuckle|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Shuckle|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Clefable|Moonblast|p1a: Shuckle
+|-damage|p1a: Shuckle|71/100
+|move|p1a: Shuckle|Shell Smash|p1a: Shuckle
+|-boost|p1a: Shuckle|def|1
+|-boost|p1a: Shuckle|spd|1
+|-unboost|p1a: Shuckle|atk|2
+|-unboost|p1a: Shuckle|spa|2
+|-unboost|p1a: Shuckle|spe|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Shuckle|77/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Clefable|Moonblast|p1a: Shuckle
+|-damage|p1a: Shuckle|66/100
+|-boost|p1a: Shuckle|spa|1
+|move|p1a: Shuckle|Shell Smash|p1a: Shuckle
+|-boost|p1a: Shuckle|def|1
+|-boost|p1a: Shuckle|spd|1
+|-unboost|p1a: Shuckle|atk|0
+|-unboost|p1a: Shuckle|spa|1
+|-unboost|p1a: Shuckle|spe|0
+|
+|-weather|none
+|-heal|p1a: Shuckle|73/100|[from] item: Leftovers
+|-end|p2a: Clefable|Infestation|[partiallytrapped]
+|upkeep
+|turn|20
+|
+|move|p2a: Clefable|Cosmic Power|p2a: Clefable
+|-boost|p2a: Clefable|def|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Shuckle|Shell Smash|p1a: Shuckle
+|-boost|p1a: Shuckle|def|1
+|-boost|p1a: Shuckle|spd|1
+|-unboost|p1a: Shuckle|atk|0
+|-unboost|p1a: Shuckle|spa|0
+|-unboost|p1a: Shuckle|spe|0
+|
+|-heal|p1a: Shuckle|79/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Clefable|Cosmic Power|p2a: Clefable
+|-boost|p2a: Clefable|def|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Shuckle|Shell Smash|p1a: Shuckle
+|-boost|p1a: Shuckle|def|1
+|-boost|p1a: Shuckle|spd|1
+|-unboost|p1a: Shuckle|atk|0
+|-unboost|p1a: Shuckle|spa|0
+|-unboost|p1a: Shuckle|spe|0
+|
+|-heal|p1a: Shuckle|85/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Clefable|Cosmic Power|p2a: Clefable
+|-boost|p2a: Clefable|def|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Shuckle|Sandstorm|p1a: Shuckle
+|-weather|Sandstorm
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Shuckle|91/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Clefable|Moonblast|p1a: Shuckle
+|-damage|p1a: Shuckle|84/100
+|move|p1a: Shuckle|Infestation|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|72/100
+|-activate|p2a: Clefable|move: Infestation|[of] p1a: Shuckle
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Shuckle|90/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|-message|lalorazor forfeited.
+|
+|win|ydm14
+|l|☆lalorazor
+|raw|lalorazor's rating: 1110 → 1087(-23 for losing)
+|raw|ydm14's rating: 1136 → 1160(+24 for winning)

@@ -1,0 +1,170 @@
+|ScrapeTime|2020-01-03-00:08:52
+|j|☆E4_Mono
+|j|☆Anemoo
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|player|p1|E4_Mono|greta-gen3|
+|player|p2|Anemoo|147|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mew|
+|poke|p1|Polteageist|
+|poke|p1|Gyarados, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Kommo-o, F|
+|poke|p1|Mimikyu, M|
+|poke|p2|Bisharp, F|
+|poke|p2|Mimikyu, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Mew|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| dspojfpo
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|l| dspojfpo
+|
+|move|p2a: Mew|Toxic Spikes|p1a: Mew
+|-sidestart|p1: E4_Mono|move: Toxic Spikes
+|move|p1a: Mew|Taunt|p2a: Mew
+|-start|p2a: Mew|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Mew|Volt Switch|p1a: Mew
+|-damage|p1a: Mew|83/100
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100|[from]move: Volt Switch
+|move|p1a: Mew|Stealth Rock|p2a: Hydreigon
+|-sidestart|p2: Anemoo|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|15/100
+|cant|p1a: Mew|flinch
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|-enditem|p2a: Hydreigon|Eject Pack
+|faint|p1a: Mew
+|j| reckfloner
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|-status|p1a: Kommo-o|psn
+|turn|5
+|
+|move|p1a: Kommo-o|Substitute|p1a: Kommo-o
+|-start|p1a: Kommo-o|Substitute
+|-damage|p1a: Kommo-o|76/100 psn
+|move|p2a: Toxapex|Liquidation|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-crit|p1a: Kommo-o
+|-activate|p1a: Kommo-o|move: Substitute|[damage]
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p1a: Kommo-o|63/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|move|p1a: Kommo-o|Belly Drum|p1a: Kommo-o
+|-damage|p1a: Kommo-o|14/100 psn
+|-setboost|p1a: Kommo-o|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Kommo-o|Salac Berry|[eat]
+|-boost|p1a: Kommo-o|spe|1
+|move|p2a: Toxapex|Liquidation|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-crit|p1a: Kommo-o
+|-end|p1a: Kommo-o|Substitute
+|
+|-damage|p1a: Kommo-o|1/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Kommo-o|Earthquake|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-damage|p1a: Kommo-o|0 fnt|[from] psn
+|faint|p1a: Kommo-o
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|turn|8
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Toxapex|Poison Jab|p1a: Gyarados
+|-damage|p1a: Gyarados|62/100
+|-status|p1a: Gyarados|psn
+|
+|-heal|p1a: Gyarados|68/100 psn|[from] item: Leftovers
+|-damage|p1a: Gyarados|56/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Toxapex|Poison Jab|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|10
+|
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|move|p2a: Toxapex|Liquidation|p1a: Corviknight
+|-damage|p1a: Corviknight|89/100
+|
+|-heal|p1a: Corviknight|95/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Polteageist|Polteageist|100/100
+|-status|p1a: Polteageist|psn
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|
+|-damage|p1a: Polteageist|88/100 psn|[from] psn
+|upkeep
+|turn|12
+|-message|E4_Mono forfeited.
+|
+|win|Anemoo
+|l|☆E4_Mono

@@ -1,0 +1,163 @@
+|ScrapeTime|2020-01-01-21:44:43
+|j|☆w0909
+|j|☆Waneda
+|player|p1|w0909|263|1261
+|player|p2|Waneda|2|1244
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Excadrill, M|
+|poke|p1|Reuniclus, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Duraludon, F|
+|poke|p1|Gyarados, M|
+|poke|p1|Golisopod, M|
+|poke|p2|Hawlucha, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Indeedee, M|
+|poke|p2|Obstagoon, M|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Seismitoad, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Waneda)
+|
+|start
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Excadrill
+|-start|p1a: Excadrill|move: Taunt
+|move|p1a: Excadrill|Iron Head|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|2
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Indeedee
+|-damage|p2a: Indeedee|65/100
+|-boost|p1a: Excadrill|spe|1
+|move|p2a: Indeedee|Mystical Fire|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|8/100
+|-unboost|p1a: Excadrill|spa|1
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Excadrill|Iron Head|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-end|p1a: Excadrill|move: Taunt
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|-enditem|p2a: Hawlucha|Psychic Seed
+|-boost|p2a: Hawlucha|spd|1
+|turn|4
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|turn|5
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Hawlucha|Thunder Punch|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-enditem|p1a: Gyarados|Wacan Berry|[eat]
+|-enditem|p1a: Gyarados|Wacan Berry|[weaken]
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|switch|p1a: Golisopod|Golisopod, M|100/100
+|turn|7
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Golisopod
+|-supereffective|p1a: Golisopod
+|-damage|p1a: Golisopod|0 fnt
+|faint|p1a: Golisopod
+|
+|upkeep
+|
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|turn|8
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Reuniclus
+|-damage|p1a: Reuniclus|33/100
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|-heal|p1a: Reuniclus|39/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|10
+|
+|move|p2a: Hawlucha|Close Combat|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hawlucha|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Duraludon|Duraludon, F|100/100
+|turn|11
+|
+|move|p2a: Hawlucha|Close Combat|p1a: Duraludon
+|-supereffective|p1a: Duraludon
+|-damage|p1a: Duraludon|0 fnt
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|faint|p1a: Duraludon
+|
+|win|Waneda
+|l|☆w0909
+|raw|w0909's rating: 1282 → 1255(-27 for losing)
+|raw|Waneda's rating: 1245 → 1272(+27 for winning)

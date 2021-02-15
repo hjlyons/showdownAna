@@ -1,0 +1,233 @@
+|ScrapeTime|2020-01-02-02:56:00
+|j|☆Grinwald Krieg
+|j|☆Pulsavi
+|player|p1|Grinwald Krieg|mina|1195
+|player|p2|Pulsavi|190|1163
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cloyster, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Clefable, M|
+|poke|p1|Aegislash, M|
+|poke|p1|Seismitoad, F|
+|poke|p2|Clefable, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Lucario, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Excadrill, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Grinwald Krieg)
+|inactive|Pulsavi has 120 seconds left.
+|
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|60/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Dragapult|Hydro Pump|p1a: Clefable
+|-damage|p1a: Clefable|59/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Tyranitar|Tyranitar, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Clefable|Moonblast|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p2a: Tyranitar|Stone Edge|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|turn|5
+|inactive|Pulsavi has 120 seconds left.
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Seismitoad|Liquidation|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|87/100
+|-damage|p1a: Seismitoad|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Cinderace
+|-start|p1a: Cinderace|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cinderace|95/100|[from] Sandstorm
+|-damage|p1a: Cinderace|82/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|99/100|[silent]
+|upkeep
+|turn|7
+|
+|switch|p2a: Dragapult|Dragapult, M|60/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|24/100
+|
+|-weather|none
+|-damage|p1a: Cinderace|70/100|[from] Leech Seed|[of] p2a: Dragapult
+|-heal|p2a: Dragapult|36/100|[silent]
+|upkeep
+|turn|8
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|69/100
+|-unboost|p2a: Dragapult|spa|2
+|
+|-heal|p1a: Aegislash|75/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|Pulsavi has 90 seconds left.
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|99/100
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|-heal|p1a: Aegislash|82/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Close Combat|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Aegislash|69/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-unboost|p1a: Aegislash|def|1
+|-unboost|p1a: Aegislash|spd|1
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Aegislash|75/100|[from] item: Leftovers
+|upkeep
+|inactive|Pulsavi has 90 seconds left.
+|inactive|Pulsavi has 60 seconds left.
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|11
+|inactive|Pulsavi has 60 seconds left.
+|
+|move|p2a: Excadrill|Stealth Rock|p1a: Aegislash
+|-sidestart|p1: Grinwald Krieg|move: Stealth Rock
+|move|p1a: Aegislash|Close Combat|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-enditem|p2a: Excadrill|Focus Sash
+|-damage|p2a: Excadrill|1/100
+|-unboost|p1a: Aegislash|def|1
+|-unboost|p1a: Aegislash|spd|1
+|
+|-heal|p1a: Aegislash|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Aegislash|Shadow Sneak|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-heal|p1a: Aegislash|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Lucario|Lucario, M|100/100
+|turn|13
+|
+|move|p2a: Lucario|Bullet Punch|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|52/100
+|move|p1a: Aegislash|Close Combat|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|-unboost|p1a: Aegislash|def|1
+|-unboost|p1a: Aegislash|spd|1
+|faint|p2a: Lucario
+|
+|-heal|p1a: Aegislash|58/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|14
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Clefable|Flamethrower|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|-heal|p1a: Aegislash|64/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Clefable|Wish|p2a: Clefable
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|-heal|p1a: Aegislash|70/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Dragapult|Dragapult, M|36/100
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|-heal|p2a: Dragapult|98/100|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Aegislash|76/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Pulsavi has 60 seconds left.
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Sneak|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Aegislash|83/100|[from] item: Leftovers
+|upkeep
+|inactive|Pulsavi has 60 seconds left.
+|inactive|Pulsavi has 30 seconds left.
+|inactive|Pulsavi has 20 seconds left.
+|inactive|Pulsavi has 15 seconds left.
+|-message|Pulsavi forfeited.
+|
+|win|Grinwald Krieg
+|inactive|Pulsavi has 20 seconds left this turn.
+|l|☆Pulsavi
+|raw|Grinwald Krieg's rating: 1195 → 1218(+23 for winning)
+|raw|Pulsavi's rating: 1163 → 1140(-23 for losing)

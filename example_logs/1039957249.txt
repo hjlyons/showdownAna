@@ -1,0 +1,230 @@
+|ScrapeTime|2020-01-03-00:26:43
+|j|☆OrphenCrilancelo
+|j|☆Ace729
+|player|p1|OrphenCrilancelo|ghetsis|1026
+|player|p2|Ace729|1|1078
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Jolteon, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Dugtrio, M|
+|poke|p1|Vaporeon, M|
+|poke|p1|Espeon, F|
+|poke|p1|Ditto|
+|poke|p2|Morpeko, F|
+|poke|p2|Clefable, M|
+|poke|p2|Dracovish|
+|poke|p2|Toxtricity, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Pelipper, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by OrphenCrilancelo)
+|
+|start
+|switch|p1a: TripleRock|Dugtrio, M|100/100
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|turn|1
+|
+|switch|p1a: Saya|Espeon, F|100/100
+|move|p2a: Seismitoad|Earthquake|p1a: Saya
+|-damage|p1a: Saya|34/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Saya|Grass Knot|p2a: Clefable
+|-damage|p2a: Clefable|81/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Saya|Fake Tears|p2a: Clefable
+|-unboost|p2a: Clefable|spd|2
+|move|p2a: Clefable|Moonblast|p1a: Saya
+|-damage|p1a: Saya|0 fnt
+|faint|p1a: Saya
+|
+|upkeep
+|
+|switch|p1a: TripleRock|Dugtrio, M|100/100
+|turn|4
+|
+|move|p1a: TripleRock|Stealth Rock|p2a: Clefable
+|-sidestart|p2: Ace729|move: Stealth Rock
+|move|p2a: Clefable|Moonblast|p1a: TripleRock
+|-enditem|p1a: TripleRock|Focus Sash
+|-damage|p1a: TripleRock|1/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: TripleRock|Memento|p2a: Clefable
+|-unboost|p2a: Clefable|atk|2
+|-unboost|p2a: Clefable|spa|2
+|faint|p1a: TripleRock
+|move|p2a: Clefable|Moonblast|p1: TripleRock|[notarget]
+|-fail|p2a: Clefable
+|
+|upkeep
+|
+|switch|p1a: GiratinaNerfed|Dragapult, M|100/100
+|turn|6
+|
+|switch|p2a: Morpeko|Morpeko, F|100/100
+|move|p1a: GiratinaNerfed|Dragon Dance|p1a: GiratinaNerfed
+|-boost|p1a: GiratinaNerfed|atk|1
+|-boost|p1a: GiratinaNerfed|spe|1
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|7
+|
+|move|p1a: GiratinaNerfed|Dragon Darts|p2a: Morpeko
+|-damage|p2a: Morpeko|0 fnt
+|-hitcount|p2a: Morpeko|1
+|-damage|p1a: GiratinaNerfed|91/100|[from] item: Life Orb
+|faint|p2a: Morpeko
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|81/100
+|turn|8
+|
+|move|p1a: GiratinaNerfed|Phantom Force||[still]
+|-prepare|p1a: GiratinaNerfed|Phantom Force|p2a: Clefable
+|move|p2a: Clefable|Moonblast|p1a: GiratinaNerfed|[miss]
+|-miss|p2a: Clefable|p1a: GiratinaNerfed
+|
+|upkeep
+|turn|9
+|
+|move|p1a: GiratinaNerfed|Phantom Force|p2a: Clefable|[from]lockedmove
+|-damage|p2a: Clefable|0 fnt
+|-damage|p1a: GiratinaNerfed|81/100|[from] item: Life Orb
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: GiratinaNerfed|Dragon Darts|p2a: Seismitoad
+|-damage|p2a: Seismitoad|59/100
+|-damage|p2a: Seismitoad|19/100
+|-hitcount|p2a: Seismitoad|2
+|-damage|p1a: GiratinaNerfed|71/100|[from] item: Life Orb
+|move|p2a: Seismitoad|Earthquake|p1a: GiratinaNerfed
+|-damage|p1a: GiratinaNerfed|27/100
+|
+|-heal|p2a: Seismitoad|25/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: GiratinaNerfed|Dragon Darts|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-hitcount|p2a: Seismitoad|1
+|-damage|p1a: GiratinaNerfed|17/100|[from] item: Life Orb
+|faint|p2a: Seismitoad
+|
+|upkeep
+|inactive|Ace729 has 120 seconds left.
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-damage|p2a: Pelipper|75/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|12
+|
+|move|p1a: GiratinaNerfed|Dragon Darts|p2a: Pelipper
+|-damage|p2a: Pelipper|34/100
+|-damage|p2a: Pelipper|0 fnt
+|-hitcount|p2a: Pelipper|2
+|-damage|p1a: GiratinaNerfed|7/100|[from] item: Life Orb
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Ace729 has 120 seconds left.
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|-damage|p2a: Toxtricity|88/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: GiratinaNerfed|Dragon Darts|p2a: Toxtricity
+|-damage|p2a: Toxtricity|12/100
+|-damage|p2a: Toxtricity|0 fnt
+|-hitcount|p2a: Toxtricity|2
+|-damage|p1a: GiratinaNerfed|0 fnt|[from] item: Life Orb
+|faint|p2a: Toxtricity
+|faint|p1a: GiratinaNerfed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Detto|Ditto, shiny|100/100
+|switch|p2a: Dracovish|Dracovish|100/100
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|-transform|p1a: Detto|p2a: Dracovish|[from] ability: Imposter
+|turn|14
+|
+|move|p2a: Dracovish|Outrage|p1a: Detto
+|-supereffective|p1a: Detto
+|-damage|p1a: Detto|0 fnt
+|faint|p1a: Detto
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Raikiri|Jolteon, F|100/100
+|turn|15
+|
+|move|p1a: Raikiri|Copycat|p1a: Raikiri
+|move|p1a: Raikiri|Outrage|p2a: Dracovish|[from]Copycat
+|-supereffective|p2a: Dracovish
+|-damage|p2a: Dracovish|39/100
+|-damage|p1a: Raikiri|91/100|[from] item: Life Orb
+|move|p2a: Dracovish|Outrage|p1a: Raikiri|[from]lockedmove
+|-damage|p1a: Raikiri|0 fnt
+|faint|p1a: Raikiri
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Sireno|Vaporeon, M|100/100
+|turn|16
+|
+|move|p2a: Dracovish|Outrage|p1a: Sireno|[from]lockedmove
+|-damage|p1a: Sireno|38/100
+|-start|p2a: Dracovish|confusion|[fatigue]
+|move|p1a: Sireno|Ice Beam|p2a: Dracovish
+|-damage|p2a: Dracovish|10/100
+|-status|p2a: Dracovish|frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Sireno|44/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|-curestatus|p2a: Dracovish|frz|[msg]
+|-activate|p2a: Dracovish|confusion
+|move|p2a: Dracovish|Outrage|p1a: Sireno
+|-damage|p1a: Sireno|0 fnt
+|faint|p1a: Sireno
+|
+|win|Ace729
+|c|☆Ace729|gg
+|raw|OrphenCrilancelo's rating: 1026 → 1016(-10 for losing)
+|raw|Ace729's rating: 1106 → 1125(+19 for winning)

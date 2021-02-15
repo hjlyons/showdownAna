@@ -1,0 +1,467 @@
+|ScrapeTime|2020-01-01-21:18:50
+|j|☆Armandeoxys
+|j|☆Eilewynn
+|player|p1|Armandeoxys|170|1398
+|player|p2|Eilewynn|hoopster|1369
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Barraskewda, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Dracovish|
+|poke|p1|Excadrill, M|
+|poke|p2|Indeedee, M|
+|poke|p2|Hawlucha, M|
+|poke|p2|Vanilluxe, F|
+|poke|p2|Avalugg, M|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Dragapult, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Armandeoxys)
+|
+|start
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|switch|p2a: Avalugg|Avalugg, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p1a: Excadrill|Iron Head|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-damage|p2a: Avalugg|66/100
+|move|p2a: Avalugg|Iron Defense|p2a: Avalugg
+|-boost|p2a: Avalugg|def|2
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Excadrill|Iron Head|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-damage|p2a: Avalugg|48/100
+|move|p2a: Avalugg|Recover|p2a: Avalugg
+|-heal|p2a: Avalugg|98/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Avalugg|Rapid Spin|p1a: Toxapex
+|-damage|p1a: Toxapex|93/100
+|-boost|p2a: Avalugg|spe|1
+|
+|-heal|p1a: Toxapex|99/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Toxapex|Toxic|p2a: Indeedee
+|-status|p2a: Indeedee|tox
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p2a: Indeedee|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Indeedee|Aromatherapy|p2a: Indeedee
+|-activate|p2a: Indeedee|move: Aromatherapy
+|-curestatus|p2a: Indeedee|tox|[msg]
+|
+|-heal|p2a: Indeedee|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Pelipper|Hurricane|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Vanilluxe|Vanilluxe, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Vanilluxe|Freeze-Dry|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|79/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Ferrothorn|73/100|[from] Hail
+|-heal|p1a: Ferrothorn|79/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+|
+|switch|p2a: Avalugg|Avalugg, M|98/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-damage|p2a: Avalugg|82/100
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Avalugg|89/100|[from] ability: Ice Body
+|-damage|p1a: Ferrothorn|73/100|[from] Hail
+|-heal|p1a: Ferrothorn|79/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Avalugg|Iron Defense|p2a: Avalugg
+|-boost|p2a: Avalugg|def|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Toxapex|94/100|[from] Hail
+|-heal|p2a: Avalugg|95/100|[from] ability: Ice Body
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|move|p1a: Toxapex|Toxic|p2a: Avalugg
+|-status|p2a: Avalugg|tox
+|move|p2a: Avalugg|Body Press|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|75/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Toxapex|69/100|[from] Hail
+|-heal|p2a: Avalugg|100/100 tox|[from] ability: Ice Body
+|-heal|p1a: Toxapex|75/100|[from] item: Black Sludge
+|-damage|p2a: Avalugg|94/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Avalugg|Iron Defense|p2a: Avalugg
+|-boost|p2a: Avalugg|def|2
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Avalugg|82/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|switch|p2a: Vanilluxe|Vanilluxe, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|move|p1a: Pelipper|Hydro Pump|p2a: Vanilluxe|[miss]
+|-miss|p1a: Pelipper|p2a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Pelipper|94/100|[from] Hail
+|upkeep
+|turn|14
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|switch|p1a: Ferrothorn|Ferrothorn, F|79/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dragapult|95/100|[from] Hail
+|-damage|p1a: Ferrothorn|73/100|[from] Hail
+|-heal|p1a: Ferrothorn|79/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Dragapult|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|63/100
+|-damage|p2a: Dragapult|82/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Dragapult|72/100|[from] item: Life Orb
+|
+|switch|p2a: Avalugg|Avalugg, M|82/100 tox|[from]move: U-turn
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-damage|p2a: Avalugg|67/100 tox
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Avalugg|73/100 tox|[from] ability: Ice Body
+|-damage|p1a: Ferrothorn|57/100|[from] Hail
+|-heal|p1a: Ferrothorn|63/100|[from] item: Leftovers
+|-damage|p2a: Avalugg|67/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|switch|p1a: Pelipper|Pelipper, M|94/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p2a: Indeedee|Psyshock|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|6/100
+|move|p1a: Pelipper|U-turn|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|62/100
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100|[from]move: U-turn
+|-ability|p1a: Excadrill|Mold Breaker
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Indeedee|68/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Avalugg|Avalugg, M|67/100 tox
+|move|p1a: Excadrill|Earthquake|p2a: Avalugg
+|-damage|p2a: Avalugg|47/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Avalugg|41/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p1a: Excadrill|Iron Head|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-damage|p2a: Avalugg|6/100 tox
+|cant|p2a: Avalugg|flinch
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Avalugg|0 fnt|[from] psn
+|faint|p2a: Avalugg
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|turn|20
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Corsola|Stealth Rock|p1a: Toxapex
+|-sidestart|p1: Armandeoxys|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|21
+|
+|move|p1a: Toxapex|Toxic|p2a: Corsola
+|-status|p2a: Corsola|tox
+|move|p2a: Corsola|Will-O-Wisp|p1a: Toxapex
+|-status|p1a: Toxapex|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|-damage|p2a: Corsola|94/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|-damage|p1a: Dracovish|88/100|[from] Stealth Rock
+|move|p2a: Corsola|Hex|p1a: Dracovish
+|-damage|p1a: Dracovish|69/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Corsola|82/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-start|p1a: Dracovish|Disable|Fishious Rend|[from] ability: Cursed Body|[of] p2a: Corsola
+|faint|p2a: Corsola
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Vanilluxe|Vanilluxe, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|turn|24
+|
+|switch|p2a: Dragapult|Dragapult, F|72/100
+|switch|p1a: Ferrothorn|Ferrothorn, F|63/100
+|-damage|p1a: Ferrothorn|57/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dragapult|66/100|[from] Hail
+|-damage|p1a: Ferrothorn|50/100|[from] Hail
+|-heal|p1a: Ferrothorn|57/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Dragapult|Fire Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Dragapult|57/100|[from] item: Life Orb
+|faint|p1a: Ferrothorn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dragapult|51/100|[from] Hail
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p1a: Toxapex|88/100 brn|[from] Stealth Rock
+|turn|26
+|
+|switch|p2a: Indeedee|Indeedee, M|68/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Toxapex|Toxic|p2a: Indeedee
+|-status|p2a: Indeedee|tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Indeedee|62/100 tox|[from] Hail
+|-damage|p1a: Toxapex|82/100 brn|[from] Hail
+|-heal|p2a: Indeedee|68/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|88/100 brn|[from] item: Black Sludge
+|-damage|p2a: Indeedee|62/100 tox|[from] psn
+|-damage|p1a: Toxapex|82/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Indeedee|Aromatherapy|p2a: Indeedee
+|-activate|p2a: Indeedee|move: Aromatherapy
+|-curestatus|p2a: Indeedee|tox|[msg]
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Indeedee|56/100|[from] Hail
+|-damage|p1a: Excadrill|91/100|[from] Hail
+|-heal|p2a: Indeedee|62/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Indeedee|Psyshock|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|61/100
+|move|p1a: Excadrill|Earthquake|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|51/100
+|turn|29
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Excadrill
+|-damage|p1a: Excadrill|1/100
+|-unboost|p1a: Excadrill|spd|1
+|-damage|p2a: Dragapult|41/100|[from] item: Life Orb
+|move|p1a: Excadrill|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Vanilluxe|Vanilluxe, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|turn|30
+|
+|move|p2a: Vanilluxe|Freeze-Dry|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|Hail|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p1a: Toxapex|88/100 brn|[from] Stealth Rock
+|turn|31
+|
+|move|p2a: Vanilluxe|Freeze-Dry|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|32/100 brn
+|move|p1a: Toxapex|Toxic|p2a: Vanilluxe
+|-status|p2a: Vanilluxe|tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Toxapex|26/100 brn|[from] Hail
+|-heal|p1a: Toxapex|32/100 brn|[from] item: Black Sludge
+|-damage|p2a: Vanilluxe|94/100 tox|[from] psn
+|-damage|p1a: Toxapex|26/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|switch|p1a: Pelipper|Pelipper, M|6/100
+|-damage|p1a: Pelipper|0 fnt|[from] Stealth Rock
+|faint|p1a: Pelipper
+|move|p2a: Vanilluxe|Freeze-Dry|p1: Pelipper|[notarget]
+|-fail|p2a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Vanilluxe|82/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|-damage|p1a: Barraskewda|88/100|[from] Stealth Rock
+|turn|33
+|
+|move|p2a: Vanilluxe|Freeze-Dry|p1a: Barraskewda
+|-supereffective|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Vanilluxe|64/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, F|59/100 brn
+|-damage|p1a: Toxapex|47/100 brn|[from] Stealth Rock
+|turn|34
+|
+|switch|p1a: Dracovish|Dracovish|69/100
+|-damage|p1a: Dracovish|57/100|[from] Stealth Rock
+|move|p2a: Vanilluxe|Freeze-Dry|p1a: Dracovish
+|-supereffective|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|-weather|none
+|-damage|p2a: Vanilluxe|40/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, F|80/100 brn
+|-damage|p1a: Toxapex|67/100 brn|[from] Stealth Rock
+|turn|35
+|
+|move|p2a: Vanilluxe|Freeze-Dry|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|16/100 brn
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|66/100 brn
+|
+|-heal|p1a: Toxapex|72/100 brn|[from] item: Black Sludge
+|-damage|p2a: Vanilluxe|10/100 tox|[from] psn
+|-damage|p1a: Toxapex|66/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|move|p2a: Vanilluxe|Freeze-Dry|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|16/100 brn
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|66/100 brn
+|
+|-heal|p1a: Toxapex|72/100 brn|[from] item: Black Sludge
+|-damage|p2a: Vanilluxe|0 fnt|[from] psn
+|faint|p2a: Vanilluxe
+|
+|win|Armandeoxys
+|upkeep
+|raw|Armandeoxys's rating: 1398 → 1417(+19 for winning)
+|raw|Eilewynn's rating: 1369 → 1351(-18 for losing)

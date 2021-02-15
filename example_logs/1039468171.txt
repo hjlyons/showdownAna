@@ -1,0 +1,196 @@
+|ScrapeTime|2020-01-02-02:56:55
+|j|☆Theo216
+|j|☆Nickbrown676
+|player|p1|Theo216|170|1092
+|player|p2|Nickbrown676|170|1073
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Dracovish|
+|poke|p1|Clefable, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Copperajah, F|
+|poke|p2|Oranguru, M|
+|poke|p2|Sudowoodo, M|
+|poke|p2|Mimikyu, F|
+|poke|p2|Falinks|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Clefable|Clefable, M|100/100
+|switch|p2a: Lord Brinton|Sudowoodo, M|100/100
+|turn|1
+|
+|switch|p2a: Harambe|Oranguru, M, shiny|100/100
+|move|p1a: Clefable|Stealth Rock|p2a: Harambe
+|-sidestart|p2: Nickbrown676|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Harambe|Calm Mind|p2a: Harambe
+|-boost|p2a: Harambe|spa|1
+|-boost|p2a: Harambe|spd|1
+|move|p1a: Clefable|Moonblast|p2a: Harambe
+|-damage|p2a: Harambe|65/100
+|-unboost|p2a: Harambe|spa|1
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Copraj|Copperajah, F|100/100
+|-damage|p2a: Copraj|94/100|[from] Stealth Rock
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Dragapult|Fire Blast|p2a: Copraj
+|-supereffective|p2a: Copraj
+|-damage|p2a: Copraj|0 fnt
+|faint|p2a: Copraj
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|5
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Clefable
+|-immune|p1a: Clefable
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Clefable
+|-damage|p1a: Clefable|72/100
+|move|p1a: Clefable|Moonblast|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Delta Orb|Falinks|100/100
+|-damage|p2a: Delta Orb|95/100|[from] Stealth Rock
+|turn|7
+|
+|move|p2a: Delta Orb|First Impression|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|51/100
+|-damage|p2a: Delta Orb|85/100|[from] item: Life Orb
+|move|p1a: Clefable|Moonblast|p2a: Delta Orb
+|-supereffective|p2a: Delta Orb
+|-damage|p2a: Delta Orb|0 fnt
+|faint|p2a: Delta Orb
+|
+|upkeep
+|
+|switch|p2a: Harambe|Oranguru, M, shiny|65/100
+|-damage|p2a: Harambe|53/100|[from] Stealth Rock
+|turn|8
+|
+|move|p2a: Harambe|Calm Mind|p2a: Harambe
+|-boost|p2a: Harambe|spa|1
+|-boost|p2a: Harambe|spd|1
+|move|p1a: Clefable|Moonblast|p2a: Harambe
+|-damage|p2a: Harambe|20/100
+|-unboost|p2a: Harambe|spa|1
+|-enditem|p2a: Harambe|Salac Berry|[eat]
+|-boost|p2a: Harambe|spe|1
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Harambe|Stored Power|p1a: Dragapult
+|-damage|p1a: Dragapult|64/100
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Harambe
+|-immune|p2a: Harambe
+|move|p2a: Harambe|Stored Power|p1a: Dragapult
+|-damage|p1a: Dragapult|30/100
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|move|p2a: Harambe|Stored Power|p1a: Dracovish
+|-damage|p1a: Dracovish|70/100
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Harambe|Endure|p2a: Harambe
+|-singleturn|p2a: Harambe|move: Endure
+|move|p1a: Dracovish|Fishious Rend|p2a: Harambe
+|-activate|p2a: Harambe|move: Endure
+|-damage|p2a: Harambe|1/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Harambe|Protect||[still]
+|-fail|p2a: Harambe
+|move|p1a: Dracovish|Fishious Rend|p2a: Harambe
+|-damage|p2a: Harambe|0 fnt
+|faint|p2a: Harambe
+|
+|upkeep
+|
+|switch|p2a: Lord Brinton|Sudowoodo, M|100/100
+|-damage|p2a: Lord Brinton|88/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Lord Brinton
+|-supereffective|p2a: Lord Brinton
+|-damage|p2a: Lord Brinton|0 fnt
+|faint|p2a: Lord Brinton
+|
+|upkeep
+|
+|switch|p2a: Bab**|Mimikyu, F|100/100
+|-damage|p2a: Bab**|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Bab**
+|-activate|p2a: Bab**|ability: Disguise
+|-damage|p2a: Bab**|88/100
+|detailschange|p2a: Bab**|Mimikyu-Busted, F
+|-damage|p2a: Bab**|76/100|[from] ability: Disguise|[of] p2a: Bab**
+|move|p2a: Bab**|Hone Claws|p2a: Bab**
+|-boost|p2a: Bab**|atk|1
+|-boost|p2a: Bab**|accuracy|1
+|
+|-heal|p2a: Bab**|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Bab**
+|-damage|p2a: Bab**|0 fnt
+|faint|p2a: Bab**
+|
+|win|Theo216
+|c|☆Nickbrown676|ff
+|c|☆Nickbrown676|gg
+|raw|Theo216's rating: 1092 → 1116(+24 for winning)
+|raw|Nickbrown676's rating: 1073 → 1053(-20 for losing)

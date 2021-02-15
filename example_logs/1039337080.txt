@@ -1,0 +1,293 @@
+|ScrapeTime|2020-01-01-22:05:29
+|j|☆Juan-033
+|j|☆DAME_battles
+|player|p1|Juan-033|288|1215
+|player|p2|DAME_battles|25|1177
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Gyarados, M|
+|poke|p1|Espeon, F|
+|poke|p1|Toxtricity, M|
+|poke|p2|Bisharp, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Milotic, M|
+|poke|p2|Orbeetle, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Falinks|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|switch|p2a: Orbeetle|Orbeetle, F|100/100
+|-item|p1a: Rotom|Choice Scarf|[from] ability: Frisk|[of] p2a: Orbeetle|[identify]
+|turn|1
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|78/100
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Dragapult|U-turn|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|92/100
+|-damage|p2a: Dragapult|68/100|[from] item: Life Orb
+|
+|switch|p2a: Orbeetle|Orbeetle, F|100/100|[from]move: U-turn
+|-item|p1a: Corsola|Eviolite|[from] ability: Frisk|[of] p2a: Orbeetle|[identify]
+|move|p1a: Corsola|Night Shade|p2a: Orbeetle
+|-damage|p2a: Orbeetle|70/100
+|
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Juan-033)
+|
+|move|p2a: Orbeetle|Sticky Web|p1a: Corsola
+|-sidestart|p1: Juan-033|move: Sticky Web
+|move|p1a: Corsola|Stealth Rock|p2a: Orbeetle
+|-sidestart|p2: DAME_battles|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Orbeetle|Recover|p2a: Orbeetle
+|-heal|p2a: Orbeetle|100/100
+|move|p1a: Corsola|Night Shade|p2a: Orbeetle
+|-damage|p2a: Orbeetle|70/100
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|move|p2a: Orbeetle|U-turn|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|94/100
+|
+|switch|p2a: Dragapult|Dragapult, M|68/100|[from]move: U-turn
+|-damage|p2a: Dragapult|56/100|[from] Stealth Rock
+|
+|-heal|p1a: Gyarados|99/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-activate|p1a: Dragapult|move: Sticky Web
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|move|p2a: Dragapult|Thunderbolt|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|76/100
+|-damage|p2a: Dragapult|46/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Dragapult|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|61/100
+|-damage|p2a: Dragapult|36/100|[from] item: Life Orb
+|
+|switch|p2a: Orbeetle|Orbeetle, F|70/100|[from]move: U-turn
+|-damage|p2a: Orbeetle|45/100|[from] Stealth Rock
+|-item|p1a: Dragapult|Choice Specs|[from] ability: Frisk|[of] p2a: Orbeetle|[identify]
+|move|p1a: Dragapult|Fire Blast|p2a: Orbeetle
+|-supereffective|p2a: Orbeetle
+|-damage|p2a: Orbeetle|0 fnt
+|faint|p2a: Orbeetle
+|
+|upkeep
+|inactive|DAME_battles has 120 seconds left.
+|inactive|DAME_battles has 90 seconds left.
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|8
+|inactive|DAME_battles has 90 seconds left.
+|
+|switch|p1a: Espeon|Espeon, F|100/100
+|-activate|p1a: Espeon|move: Sticky Web
+|-unboost|p1a: Espeon|spe|1
+|move|p2a: Cinderace|Pyro Ball|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, M|99/100
+|turn|9
+|
+|move|p2a: Cinderace|Taunt|p1a: Gyarados
+|-start|p1a: Gyarados|move: Taunt
+|cant|p1a: Gyarados|move: Taunt|Dragon Dance
+|
+|-heal|p1a: Gyarados|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Cinderace|U-turn|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|78/100
+|
+|switch|p2a: Milotic|Milotic, M|100/100|[from]move: U-turn
+|-damage|p2a: Milotic|88/100|[from] Stealth Rock
+|move|p1a: Gyarados|Waterfall|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|71/100
+|
+|-heal|p1a: Gyarados|84/100|[from] item: Leftovers
+|-heal|p2a: Milotic|77/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Milotic|Scald|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|25/100
+|
+|-heal|p2a: Milotic|83/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Falinks|Falinks|100/100
+|-damage|p2a: Falinks|95/100|[from] Stealth Rock
+|move|p1a: Rotom|Trick|p2a: Falinks
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Falinks
+|-item|p2a: Falinks|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Lum Berry|[from] move: Trick
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Falinks|Throat Chop|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, M|84/100
+|turn|14
+|
+|switch|p2a: Milotic|Milotic, M|83/100
+|-damage|p2a: Milotic|70/100|[from] Stealth Rock
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-heal|p1a: Gyarados|90/100|[from] item: Leftovers
+|-heal|p2a: Milotic|76/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Gyarados|Power Whip|p2a: Milotic|[miss]
+|-miss|p1a: Gyarados|p2a: Milotic
+|move|p2a: Milotic|Haze|p2a: Milotic
+|-clearallboost
+|
+|-heal|p1a: Gyarados|96/100|[from] item: Leftovers
+|-heal|p2a: Milotic|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Milotic|Scald|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|81/100
+|
+|-heal|p1a: Gyarados|87/100|[from] item: Leftovers
+|-heal|p2a: Milotic|89/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Gyarados|Power Whip|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-heal|p1a: Gyarados|93/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Falinks|Falinks|95/100
+|-damage|p2a: Falinks|89/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Falinks|Close Combat|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|62/100
+|-unboost|p2a: Falinks|def|1
+|-unboost|p2a: Falinks|spd|1
+|move|p1a: Gyarados|Waterfall|p2a: Falinks
+|-damage|p2a: Falinks|0 fnt
+|faint|p2a: Falinks
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-heal|p1a: Gyarados|68/100|[from] item: Leftovers
+|upkeep
+|inactive|DAME_battles has 120 seconds left.
+|
+|switch|p2a: Dragapult|Dragapult, M|36/100
+|-damage|p2a: Dragapult|24/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Dragapult|Thunderbolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|-damage|p2a: Dragapult|14/100|[from] item: Life Orb
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|61/100
+|-activate|p1a: Dragapult|move: Sticky Web
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|turn|20
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p2a: Dragapult|4/100|[from] item: Life Orb
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|-activate|p1a: Toxtricity|move: Sticky Web
+|-unboost|p1a: Toxtricity|spe|1
+|turn|21
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|-damage|p2a: Dragapult|0 fnt|[from] item: Life Orb
+|faint|p1a: Toxtricity
+|faint|p2a: Dragapult
+|
+|upkeep
+|-message|Juan-033 forfeited.
+|
+|win|DAME_battles
+|l|☆Juan-033
+|raw|Juan-033's rating: 1190 → 1164(-26 for losing)
+|raw|DAME_battles's rating: 1178 → 1204(+26 for winning)

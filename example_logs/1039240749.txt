@@ -1,0 +1,428 @@
+|ScrapeTime|2020-01-01-18:44:52
+|j|☆The first rule
+|j|☆Tomatocito
+|player|p1|The first rule|cynthia-gen4|1553
+|player|p2|Tomatocito|palmer|1494
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pelipper, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Barraskewda, F|
+|poke|p1|Dracovish|
+|poke|p1|Seismitoad, M|
+|poke|p1|Rotom-Mow|
+|poke|p2|Clefable, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Rotom-Wash|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Tomatocito)
+|
+|start
+|switch|p1a: Pelipper|Pelipper, M, shiny|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M, shiny|100/100
+|move|p2a: Rotom|Trick|p1a: Ferrothorn
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Ferrothorn
+|-item|p1a: Ferrothorn|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Rotom|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|84/100
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from]move: Volt Switch
+|move|p1a: Ferrothorn|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|72/100
+|-enditem|p2a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|93/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Seismitoad|Seismitoad, M, shiny|100/100
+|move|p1a: Dracovish|Super Fang|p2a: Seismitoad
+|-damage|p2a: Seismitoad|50/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|57/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Dracovish|Super Fang|p2a: Seismitoad
+|-damage|p2a: Seismitoad|29/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Dracovish
+|-sidestart|p1: The first rule|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|35/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|41/100|[from] item: Leftovers
+|-damage|p1a: Rotom|82/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p2a: Cinderace|Cinderace, M|72/100
+|move|p1a: Rotom|Trick|p2a: Cinderace
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Cinderace
+|-item|p2a: Cinderace|Choice Scarf|[from] move: Trick
+|-enditem|p1a: Rotom|Choice Scarf|[silent]|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Rotom|69/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|move|p2a: Cinderace|U-turn|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100|[from]move: U-turn
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|-damage|p1a: Barraskewda|88/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Barraskewda|Close Combat|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|65/100
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|-damage|p1a: Barraskewda|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Pelipper|Pelipper, M, shiny|100/100
+|-damage|p1a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Clefable|Moonblast|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, M, shiny|100/100
+|-damage|p1a: Seismitoad|95/100|[from] Stealth Rock
+|turn|11
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Seismitoad|Power Whip|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|94/100
+|-damage|p1a: Seismitoad|82/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Seismitoad|72/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Seismitoad|Drain Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|65/100
+|-heal|p1a: Seismitoad|90/100|[from] drain|[of] p2a: Ferrothorn
+|-damage|p1a: Seismitoad|78/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Seismitoad|68/100|[from] item: Life Orb
+|move|p2a: Ferrothorn|Leech Seed|p1a: Seismitoad
+|-start|p1a: Seismitoad|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|71/100|[from] item: Leftovers
+|-damage|p1a: Seismitoad|56/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|83/100|[silent]
+|upkeep
+|turn|13
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M, shiny|84/100
+|-damage|p1a: Ferrothorn|78/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|90/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Tomatocito|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|96/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Barraskewda|Barraskewda, F|78/100
+|-damage|p1a: Barraskewda|66/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Barraskewda|[miss]
+|-miss|p2a: Ferrothorn|p1a: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Barraskewda|Close Combat|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Barraskewda|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p1a: Barraskewda|56/100|[from] item: Life Orb
+|faint|p2a: Dragapult
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, M, shiny|41/100
+|-damage|p2a: Seismitoad|35/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Barraskewda|Close Combat|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|-damage|p1a: Barraskewda|47/100|[from] item: Life Orb
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|72/100
+|-damage|p2a: Cinderace|47/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Barraskewda
+|-crit|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|upkeep
+|inactive|The first rule has 120 seconds left.
+|
+|switch|p1a: Seismitoad|Seismitoad, M, shiny|56/100
+|-damage|p1a: Seismitoad|50/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p2a: Clefable|Clefable, F|65/100
+|move|p1a: Seismitoad|Drain Punch|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|48/100
+|-heal|p1a: Seismitoad|59/100|[from] drain|[of] p2a: Clefable
+|-damage|p1a: Seismitoad|49/100|[from] item: Life Orb
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Seismitoad|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-damage|p1a: Seismitoad|39/100|[from] item: Life Orb
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Seismitoad|Drain Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|56/100
+|-heal|p1a: Seismitoad|58/100|[from] drain|[of] p2a: Ferrothorn
+|-damage|p1a: Seismitoad|46/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Seismitoad|36/100|[from] item: Life Orb
+|move|p2a: Ferrothorn|Leech Seed|p1a: Seismitoad
+|-start|p1a: Seismitoad|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|62/100|[from] item: Leftovers
+|-damage|p1a: Seismitoad|24/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|74/100|[silent]
+|upkeep
+|turn|23
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M, shiny|78/100
+|-damage|p1a: Ferrothorn|72/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Protect||[still]
+|-fail|p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|81/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Knock Off|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|43/100
+|-enditem|p2a: Rotom|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|upkeep
+|turn|25
+|inactive|The first rule has 120 seconds left.
+|
+|move|p2a: Rotom|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|61/100
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|81/100|[from]move: Volt Switch
+|-damage|p2a: Ferrothorn|74/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|62/100
+|-damage|p1a: Ferrothorn|49/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Ferrothorn|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|54/100
+|-damage|p1a: Ferrothorn|36/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Ferrothorn|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|46/100
+|-damage|p1a: Ferrothorn|24/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Ferrothorn|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|37/100
+|-damage|p1a: Ferrothorn|11/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Ferrothorn|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|29/100
+|-damage|p1a: Ferrothorn|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p1a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1: Ferrothorn|[notarget]
+|-fail|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, M, shiny|24/100
+|-damage|p1a: Seismitoad|18/100|[from] Stealth Rock
+|turn|30
+|
+|move|p1a: Seismitoad|Drain Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-heal|p1a: Seismitoad|32/100|[from] drain|[of] p2a: Ferrothorn
+|-damage|p1a: Seismitoad|20/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Seismitoad|10/100|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|47/100
+|-damage|p2a: Cinderace|22/100|[from] Stealth Rock
+|turn|31
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|93/100
+|-damage|p1a: Dracovish|81/100|[from] Stealth Rock
+|turn|32
+|inactive|The first rule has 120 seconds left.
+|inactive|The first rule has 90 seconds left.
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Dracovish
+|-damage|p1a: Dracovish|58/100
+|move|p1a: Dracovish|Outrage|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|43/100
+|-damage|p2a: Rotom|30/100|[from] Stealth Rock
+|turn|33
+|
+|move|p2a: Rotom|Thunder Wave|p1a: Dracovish
+|-status|p1a: Dracovish|par
+|cant|p1a: Dracovish|par
+|
+|upkeep
+|turn|34
+|
+|move|p2a: Rotom|Volt Switch|p1a: Dracovish
+|-damage|p1a: Dracovish|19/100 par
+|move|p1a: Dracovish|Outrage|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|win|The first rule
+|l|☆Tomatocito
+|raw|The first rule's rating: 1553 → 1570(+17 for winning)
+|raw|Tomatocito's rating: 1494 → 1477(-17 for losing)
+|c|☆The first rule|gg

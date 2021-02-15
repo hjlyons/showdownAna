@@ -1,0 +1,326 @@
+|ScrapeTime|2020-01-02-06:34:34
+|j|☆Serenas
+|j|☆Ssoru
+|player|p1|Serenas|265|1151
+|player|p2|Ssoru|1|1141
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mudsdale, M|
+|poke|p1|Dracozolt|
+|poke|p1|Araquanid, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Eldegoss, M|
+|poke|p1|Gengar, M|
+|poke|p2|Togekiss, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Polteageist|
+|poke|p2|Dragapult, M|
+|poke|p2|Grimmsnarl, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Rotom
+|-start|p2a: Rotom|move: Taunt
+|cant|p2a: Rotom|move: Taunt|Trick
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Rotom|Volt Switch|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|50/100
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100|[from]move: Volt Switch
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|-heal|p1a: Grimmsnarl|56/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|turn|3
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Polteageist
+|-status|p2a: Polteageist|par
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|-heal|p1a: Grimmsnarl|62/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Grimmsnarl|Sucker Punch|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-enditem|p2a: Polteageist|Focus Sash
+|-damage|p2a: Polteageist|1/100 par
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|move|p2a: Polteageist|Shadow Ball|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|9/100
+|
+|-heal|p1a: Grimmsnarl|15/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Grimmsnarl|Sucker Punch|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|
+|-heal|p1a: Grimmsnarl|21/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, F|100/100
+|turn|6
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Togekiss
+|-status|p2a: Togekiss|par
+|move|p2a: Togekiss|Nasty Plot|p2a: Togekiss
+|-boost|p2a: Togekiss|spa|2
+|
+|-heal|p1a: Grimmsnarl|27/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Togekiss
+|-start|p2a: Togekiss|move: Taunt
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|turn|8
+|
+|move|p1a: Gengar|Sludge Bomb|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|14/100 par
+|-enditem|p2a: Togekiss|Weakness Policy
+|-boost|p2a: Togekiss|atk|2
+|-boost|p2a: Togekiss|spa|2
+|cant|p2a: Togekiss|par
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Gengar|Sludge Bomb|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|10
+|
+|switch|p1a: Eldegoss|Eldegoss, M|100/100
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Eldegoss
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Eldegoss|[from]lockedmove
+|-damage|p1a: Eldegoss|57/100
+|-ability|p1a: Eldegoss|Cotton Down
+|-unboost|p2a: Dragapult|spe|1
+|move|p1a: Eldegoss|Leech Seed|p2a: Dragapult
+|-start|p2a: Dragapult|move: Leech Seed
+|
+|-heal|p1a: Eldegoss|63/100|[from] item: Leftovers
+|-damage|p2a: Dragapult|88/100|[from] Leech Seed|[of] p1a: Eldegoss
+|-heal|p1a: Eldegoss|75/100|[silent]
+|upkeep
+|turn|12
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Eldegoss|Leech Seed|p2a: Rotom
+|-start|p2a: Rotom|move: Leech Seed
+|
+|-heal|p1a: Eldegoss|81/100|[from] item: Leftovers
+|-damage|p2a: Rotom|88/100|[from] Leech Seed|[of] p1a: Eldegoss
+|-heal|p1a: Eldegoss|91/100|[silent]
+|upkeep
+|turn|13
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|move|p2a: Rotom|Trick|p1a: Dracozolt
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Dracozolt
+|-item|p1a: Dracozolt|Choice Specs|[from] move: Trick
+|-item|p2a: Rotom|Choice Band|[from] move: Trick
+|
+|-damage|p2a: Rotom|76/100|[from] Leech Seed|[of] p1a: Dracozolt
+|upkeep
+|turn|14
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Dracozolt
+|-status|p1a: Dracozolt|brn
+|move|p1a: Dracozolt|Bolt Beak|p2a: Rotom
+|-damage|p2a: Rotom|35/100
+|
+|-damage|p2a: Rotom|22/100|[from] Leech Seed|[of] p1a: Dracozolt
+|-damage|p1a: Dracozolt|94/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p2a: Dragapult|Dragapult, M|88/100
+|move|p1a: Dracozolt|Bolt Beak|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|44/100
+|
+|-damage|p1a: Dracozolt|88/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p1a: Eldegoss|Eldegoss, M|91/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Eldegoss
+|-damage|p1a: Eldegoss|67/100
+|-ability|p1a: Eldegoss|Cotton Down
+|-unboost|p2a: Dragapult|spe|1
+|-damage|p1a: Eldegoss|39/100
+|-ability|p1a: Eldegoss|Cotton Down
+|-unboost|p2a: Dragapult|spe|1
+|-hitcount|p1a: Eldegoss|2
+|
+|-heal|p1a: Eldegoss|45/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Eldegoss
+|-damage|p1a: Eldegoss|19/100
+|-ability|p1a: Eldegoss|Cotton Down
+|-unboost|p2a: Dragapult|spe|1
+|-damage|p1a: Eldegoss|0 fnt
+|-ability|p1a: Eldegoss|Cotton Down
+|-unboost|p2a: Dragapult|spe|1
+|-hitcount|p1a: Eldegoss|2
+|faint|p1a: Eldegoss
+|
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|turn|18
+|
+|switch|p2a: Rotom|Rotom-Wash|22/100
+|move|p1a: Gengar|Shadow Ball|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|44/100
+|turn|19
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Gengar
+|move|p1a: Gengar|Shadow Ball|p2a: Dragapult|[miss]
+|-miss|p1a: Gengar|p2a: Dragapult
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Mudsdale|Mudsdale, M|100/100
+|move|p2a: Dragapult|Phantom Force|p1a: Mudsdale|[from]lockedmove
+|-damage|p1a: Mudsdale|77/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|
+|-heal|p1a: Mudsdale|83/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Mudsdale
+|move|p1a: Mudsdale|Bulldoze|p2a: Dragapult|[miss]
+|-miss|p1a: Mudsdale|p2a: Dragapult
+|
+|-heal|p1a: Mudsdale|89/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Mudsdale|[from]lockedmove
+|-damage|p1a: Mudsdale|72/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|move|p1a: Mudsdale|Bulldoze|p2a: Dragapult
+|-damage|p2a: Dragapult|7/100
+|-unboost|p2a: Dragapult|spe|1
+|
+|-heal|p1a: Mudsdale|78/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Mudsdale
+|move|p1a: Mudsdale|Bulldoze|p2a: Dragapult|[miss]
+|-miss|p1a: Mudsdale|p2a: Dragapult
+|
+|-heal|p1a: Mudsdale|84/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Mudsdale|[from]lockedmove
+|-damage|p1a: Mudsdale|71/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|move|p1a: Mudsdale|Bulldoze|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Mudsdale|77/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|25
+|
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|76/100
+|move|p1a: Mudsdale|Body Press|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|
+|-heal|p2a: Hydreigon|82/100|[from] item: Leftovers
+|-heal|p1a: Mudsdale|83/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Mudsdale
+|-damage|p1a: Mudsdale|46/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|move|p1a: Mudsdale|Body Press|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|win|Serenas
+|raw|Serenas's rating: 1151 → 1175(+24 for winning)
+|raw|Ssoru's rating: 1141 → 1117(-24 for losing)
+|l|☆Ssoru

@@ -1,0 +1,221 @@
+|ScrapeTime|2020-01-01-20:41:02
+|j|☆PanD4rk
+|j|☆PocketRudy
+|player|p1|PanD4rk|ethan|1012
+|player|p2|PocketRudy|265|1041
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dracovish|
+|poke|p1|Cinderace, M|
+|poke|p1|Lucario, M|
+|poke|p1|Golisopod, M|
+|poke|p1|Hydreigon, M|
+|poke|p1|Drednaw, M|
+|poke|p2|Bisharp, M|
+|poke|p2|Togekiss, F|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Seismitoad, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|turn|1
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Corsola
+|-damage|p2a: Corsola|59/100
+|-unboost|p1a: Hydreigon|spa|2
+|move|p2a: Corsola|Stealth Rock|p1a: Hydreigon
+|-sidestart|p1: PanD4rk|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Corsola
+|-damage|p2a: Corsola|38/100
+|-start|p1a: Hydreigon|Disable|Draco Meteor|[from] ability: Cursed Body|[of] p2a: Corsola
+|-unboost|p1a: Hydreigon|spa|2
+|move|p2a: Corsola|Will-O-Wisp|p1a: Hydreigon
+|-status|p1a: Hydreigon|brn
+|
+|-damage|p1a: Hydreigon|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Togekiss|Togekiss, F, shiny|100/100
+|move|p1a: Hydreigon|Earthquake|p2a: Togekiss
+|-immune|p2a: Togekiss
+|
+|-damage|p1a: Hydreigon|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Togekiss|Air Slash|p1a: Hydreigon
+|-damage|p1a: Hydreigon|51/100 brn
+|cant|p1a: Hydreigon|flinch
+|
+|-damage|p1a: Hydreigon|45/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p2a: Togekiss|Aura Sphere|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|upkeep
+|
+|switch|p1a: Marta|Cinderace, M|100/100
+|-damage|p1a: Marta|76/100|[from] Stealth Rock
+|turn|6
+|
+|switch|p2a: Seismitoad|Seismitoad, M, shiny|100/100
+|move|p1a: Marta|Pyro Ball|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|67/100
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Marta|Mega Kick|p2a: Seismitoad
+|-damage|p2a: Seismitoad|19/100
+|move|p2a: Seismitoad|Earthquake|p1a: Marta
+|-supereffective|p1a: Marta
+|-damage|p1a: Marta|0 fnt
+|-damage|p2a: Seismitoad|9/100|[from] item: Life Orb
+|faint|p1a: Marta
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|-damage|p1a: Dracovish|88/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p2a: Togekiss|Togekiss, F, shiny|100/100
+|move|p1a: Dracovish|Body Slam|p2a: Togekiss
+|-damage|p2a: Togekiss|75/100
+|
+|-heal|p1a: Dracovish|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Togekiss|Air Slash|p1a: Dracovish
+|-damage|p1a: Dracovish|57/100
+|cant|p1a: Dracovish|flinch
+|
+|-heal|p1a: Dracovish|63/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Togekiss|Air Slash|p1a: Dracovish
+|-damage|p1a: Dracovish|25/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Togekiss
+|-damage|p2a: Togekiss|41/100
+|
+|-heal|p1a: Dracovish|32/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Togekiss|Air Slash|p1a: Dracovish|[miss]
+|-miss|p2a: Togekiss|p1a: Dracovish
+|move|p1a: Dracovish|Fishious Rend|p2a: Togekiss
+|-damage|p2a: Togekiss|7/100
+|
+|-heal|p1a: Dracovish|38/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Drednaw|Drednaw, M|100/100
+|-damage|p1a: Drednaw|88/100|[from] Stealth Rock
+|move|p2a: Togekiss|Air Slash|p1a: Drednaw
+|-resisted|p1a: Drednaw
+|-damage|p1a: Drednaw|69/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Togekiss|Aura Sphere|p1a: Drednaw
+|-supereffective|p1a: Drednaw
+|-damage|p1a: Drednaw|16/100
+|-enditem|p1a: Drednaw|Aguav Berry|[eat]
+|-heal|p1a: Drednaw|48/100|[from] item: Aguav Berry
+|move|p1a: Drednaw|Hydro Pump|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|turn|14
+|
+|move|p1a: Drednaw|Megahorn|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|82/100
+|move|p2a: Conkeldurr|Power-Up Punch|p1a: Drednaw
+|-supereffective|p1a: Drednaw
+|-damage|p1a: Drednaw|0 fnt
+|-boost|p2a: Conkeldurr|atk|1
+|faint|p1a: Drednaw
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|38/100
+|-damage|p1a: Dracovish|25/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|upkeep
+|
+|switch|p1a: Golisopod|Golisopod, M, shiny|100/100
+|-damage|p1a: Golisopod|76/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Golisopod
+|-resisted|p1a: Golisopod
+|-damage|p1a: Golisopod|57/100
+|move|p1a: Golisopod|Liquidation|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|40/100
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Golisopod|Liquidation|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|3/100
+|move|p2a: Conkeldurr|Thunder Punch|p1a: Golisopod
+|-supereffective|p1a: Golisopod
+|-crit|p1a: Golisopod
+|-damage|p1a: Golisopod|0 fnt
+|faint|p1a: Golisopod
+|
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, M, shiny|100/100
+|-damage|p1a: Lucario|98/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|win|PocketRudy
+|l|☆PanD4rk
+|raw|PanD4rk's rating: 1000 → 1000(+0 for losing)
+|raw|PocketRudy's rating: 1024 → 1058(+34 for winning)

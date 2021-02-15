@@ -1,0 +1,200 @@
+|ScrapeTime|2020-01-03-01:35:18
+|j|☆vytrx
+|j|☆frostbitten beau
+|player|p1|vytrx|2|
+|player|p2|frostbitten beau|waiter|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tyranitar, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Dugtrio, F|
+|poke|p1|Mamoswine, M|
+|poke|p1|Seismitoad, M|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Quagsire, M|
+|poke|p2|Clefable, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Toxtricity, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Daru|Seismitoad, M|100/100
+|switch|p2a: Rhea|Corsola-Galar, F|100/100
+|turn|1
+|
+|switch|p2a: Moisan|Clefable, F|100/100
+|move|p1a: Daru|Toxic|p2a: Moisan
+|-status|p2a: Moisan|tox
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Alphonse Elric|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Alphonse Elric
+|move|p2a: Moisan|Moonblast|p1a: Alphonse Elric
+|-supereffective|p1a: Alphonse Elric
+|-crit|p1a: Alphonse Elric
+|-damage|p1a: Alphonse Elric|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Terrence|Quagsire, M|100/100
+|switch|p1a: Ishigami-kun|Dugtrio, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Daru|Seismitoad, M|100/100
+|move|p2a: Terrence|Scald|p1a: Daru
+|-immune|p1a: Daru|[from] ability: Water Absorb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p2a: Liana|Dragapult, F|100/100
+|move|p1a: Daru|Toxic|p2a: Liana
+|-status|p2a: Liana|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Liana|95/100 tox|[from] Sandstorm
+|-heal|p2a: Liana|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Liana|95/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p1a: Daru|Protect|p1a: Daru
+|-singleturn|p1a: Daru|Protect
+|move|p2a: Liana|Dragon Dance|p2a: Liana
+|-boost|p2a: Liana|atk|1
+|-boost|p2a: Liana|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Liana|89/100 tox|[from] Sandstorm
+|-heal|p2a: Liana|95/100 tox|[from] item: Leftovers
+|-damage|p2a: Liana|83/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p1a: Ishigami-kun|Dugtrio, F|100/100
+|move|p2a: Liana|Dragon Darts|p1a: Ishigami-kun
+|-enditem|p1a: Ishigami-kun|Focus Sash
+|-damage|p1a: Ishigami-kun|1/100
+|-damage|p1a: Ishigami-kun|0 fnt
+|-hitcount|p1a: Ishigami-kun|2
+|faint|p1a: Ishigami-kun
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Liana|77/100 tox|[from] Sandstorm
+|-heal|p2a: Liana|83/100 tox|[from] item: Leftovers
+|-damage|p2a: Liana|65/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Mr Braum|Mamoswine, M|100/100
+|turn|8
+|
+|move|p1a: Mr Braum|Ice Shard|p2a: Liana
+|-supereffective|p2a: Liana
+|-damage|p2a: Liana|0 fnt
+|faint|p2a: Liana
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Rhea|Corsola-Galar, F|100/100
+|turn|9
+|
+|switch|p1a: Daru|Seismitoad, M|100/100
+|move|p2a: Rhea|Strength Sap|p1a: Daru
+|-unboost|p1a: Daru|atk|1
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|switch|p2a: Moisan|Clefable, F|100/100 tox
+|move|p1a: Daru|Toxic|p2a: Moisan
+|-fail|p2a: Moisan|tox
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Daru|Protect|p1a: Daru
+|-singleturn|p1a: Daru|Protect
+|move|p2a: Moisan|Moonblast|p1a: Daru
+|-activate|p1a: Daru|move: Protect
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Kurisutina|Corviknight, F|100/100
+|-ability|p1a: Kurisutina|Pressure
+|move|p2a: Moisan|Flamethrower|p1a: Kurisutina
+|-supereffective|p1a: Kurisutina
+|-damage|p1a: Kurisutina|34/100
+|-status|p1a: Kurisutina|brn
+|
+|-damage|p1a: Kurisutina|28/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Moisan|Flamethrower|p1a: Kurisutina
+|-supereffective|p1a: Kurisutina
+|-damage|p1a: Kurisutina|0 fnt
+|faint|p1a: Kurisutina
+|
+|upkeep
+|c|☆frostbitten beau|m bad
+|
+|switch|p1a: Edward Elric|Excadrill, M, shiny|100/100
+|turn|14
+|
+|switch|p2a: Rhea|Corsola-Galar, F|100/100
+|move|p1a: Edward Elric|Swords Dance|p1a: Edward Elric
+|-boost|p1a: Edward Elric|atk|2
+|
+|upkeep
+|turn|15
+|l|☆vytrx
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by frostbitten beau)
+|c|☆frostbitten beau|oh shit
+|inactiveoff|Battle timer is now OFF.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by frostbitten beau)
+|inactive|vytrx has 270 seconds to reconnect!
+|inactive|vytrx has 240 seconds to reconnect!
+|inactive|vytrx has 210 seconds to reconnect!
+|inactive|vytrx has 180 seconds to reconnect!
+|inactive|vytrx has 150 seconds to reconnect!
+|inactive|vytrx has 120 seconds to reconnect!
+|l|☆frostbitten beau
+|inactive|frostbitten beau disconnected and has 300 seconds to reconnect!
+|player|p2|
+|inactive|vytrx has 90 seconds to reconnect!
+|inactive|vytrx has 60 seconds to reconnect!
+|inactive|vytrx has 30 seconds to reconnect!
+|inactive|vytrx has 20 seconds to reconnect!
+|inactive|vytrx has 15 seconds to reconnect!
+|inactive|vytrx has 10 seconds to reconnect!
+|inactive|vytrx has 5 seconds to reconnect!
+|-message|vytrx lost due to inactivity.
+|
+|win|frostbitten beau
+|j|☆frostbitten beau
+|player|p2|frostbitten beau|waiter

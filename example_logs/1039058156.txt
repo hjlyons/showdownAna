@@ -1,0 +1,290 @@
+|ScrapeTime|2020-01-01-07:52:24
+|j|☆stupid nooby
+|j|☆050317L
+|player|p1|stupid nooby|170|1097
+|player|p2|050317L|101|1049
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Crawdaunt, F|
+|poke|p1|Bronzong|
+|poke|p1|Jellicent, M|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Bisharp, M|
+|poke|p1|Malamar, F|
+|poke|p2|Scrafty, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Tyranitar, M|
+|poke|p2|Togekiss, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Bronzong|Bronzong|100/100
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by stupid nooby)
+|
+|move|p2a: Mandibuzz|Taunt|p1a: Bronzong
+|-start|p1a: Bronzong|move: Taunt
+|cant|p1a: Bronzong|move: Taunt|Trick Room
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|move|p2a: Mandibuzz|U-turn|p1a: Bisharp
+|-damage|p1a: Bisharp|88/100
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Bronzong
+|-damage|p1a: Bronzong|79/100
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Togekiss|Trick|p1a: Bronzong
+|-activate|p2a: Togekiss|move: Trick|[of] p1a: Bronzong
+|-item|p1a: Bronzong|Choice Scarf|[from] move: Trick
+|-item|p2a: Togekiss|Light Clay|[from] move: Trick
+|move|p1a: Bronzong|Trick Room|p1a: Bronzong
+|-fieldstart|move: Trick Room|[of] p1a: Bronzong
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Malamar|Malamar, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|move|p1a: Malamar|Superpower|p2a: Togekiss
+|-resisted|p2a: Togekiss
+|-damage|p2a: Togekiss|91/100
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Malamar|Psycho Cut|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|77/100
+|
+|-heal|p2a: Ferrothorn|84/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Malamar|Superpower|p2a: Rotom
+|-damage|p2a: Rotom|42/100
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|
+|-heal|p2a: Rotom|48/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+|
+|switch|p1a: Bronzong|Bronzong|79/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Bronzong
+|-status|p1a: Bronzong|brn
+|
+|-heal|p2a: Rotom|54/100|[from] item: Leftovers
+|-damage|p1a: Bronzong|73/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Bronzong
+|-damage|p1a: Bronzong|35/100 brn
+|move|p1a: Bronzong|Trick Room|p1a: Bronzong
+|-fieldstart|move: Trick Room|[of] p1a: Bronzong
+|
+|-heal|p2a: Rotom|60/100|[from] item: Leftovers
+|-damage|p1a: Bronzong|29/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|12/100
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100|[from]move: Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Crawdaunt|6/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|84/100
+|move|p1a: Crawdaunt|Crabhammer|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|53/100
+|-damage|p1a: Crawdaunt|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p1a: Crawdaunt
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|60/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Malamar|Malamar, F|100/100
+|turn|13
+|
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Malamar
+|-damage|p1a: Malamar|72/100
+|move|p1a: Malamar|Superpower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|11/100
+|-damage|p1a: Malamar|59/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Malamar|53/100|[from] Sandstorm
+|-heal|p2a: Ferrothorn|17/100|[from] item: Leftovers
+|-heal|p1a: Malamar|59/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Jellicent
+|-start|p1a: Jellicent|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|94/100|[from] Sandstorm
+|-heal|p2a: Ferrothorn|23/100|[from] item: Leftovers
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|-damage|p1a: Jellicent|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|37/100|[silent]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|15
+|
+|move|p2a: Ferrothorn|Power Whip|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|26/100
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|-weather|none
+|-heal|p2a: Ferrothorn|44/100|[from] item: Leftovers
+|-heal|p1a: Jellicent|32/100|[from] item: Leftovers
+|-damage|p1a: Jellicent|20/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|58/100|[silent]
+|upkeep
+|turn|16
+|
+|switch|p1a: Bisharp|Bisharp, M|88/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Bisharp
+|-start|p1a: Bisharp|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|64/100|[from] item: Leftovers
+|-damage|p1a: Bisharp|75/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|76/100|[silent]
+|upkeep
+|turn|17
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|
+|-damage|p1a: Bisharp|63/100|[from] Leech Seed|[of] p2a: Mandibuzz
+|upkeep
+|turn|18
+|
+|move|p1a: Bisharp|Brick Break|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|59/100
+|-damage|p1a: Bisharp|53/100|[from] item: Life Orb
+|move|p2a: Mandibuzz|U-turn|p1a: Bisharp
+|-damage|p1a: Bisharp|42/100
+|
+|switch|p2a: Togekiss|Togekiss, M|91/100|[from]move: U-turn
+|
+|-damage|p1a: Bisharp|30/100|[from] Leech Seed|[of] p2a: Togekiss
+|-heal|p2a: Togekiss|100/100|[silent]
+|upkeep
+|turn|19
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|76/100
+|move|p1a: Bisharp|Brick Break|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Bisharp|17/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Bisharp|8/100|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|59/100
+|turn|20
+|
+|switch|p1a: Jellicent|Jellicent, M|20/100
+|move|p2a: Mandibuzz|U-turn|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|15/100
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100|[from]move: U-turn
+|
+|-heal|p1a: Jellicent|21/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|upkeep
+|
+|switch|p1a: Bronzong|Bronzong|29/100 brn
+|turn|22
+|
+|move|p2a: Togekiss|Fire Blast|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|turn|23
+|
+|move|p2a: Togekiss|Air Slash|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|10/100
+|cant|p1a: Conkeldurr|flinch
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|24
+|-message|stupid nooby forfeited.
+|
+|win|050317L
+|l|☆stupid nooby
+|raw|stupid nooby's rating: 1097 → 1069(-28 for losing)
+|raw|050317L's rating: 1049 → 1086(+37 for winning)

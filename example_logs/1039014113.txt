@@ -1,0 +1,374 @@
+|ScrapeTime|2020-01-01-05:15:18
+|j|☆spida rico
+|j|☆colour123
+|player|p1|spida rico|170|1191
+|player|p2|colour123|1|1157
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mandibuzz, F|
+|poke|p1|Seismitoad, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Clefable, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Cinderace, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Chandelure, M|
+|poke|p2|Hatterene, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p1a: Cinderace|U-turn|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|84/100
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100|[from]move: U-turn
+|move|p2a: Excadrill|Earthquake|p1a: Mandibuzz
+|-immune|p1a: Mandibuzz
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|move|p1a: Mandibuzz|Foul Play|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|74/100
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|move|p1a: Mandibuzz|U-turn|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|70/100 brn
+|
+|switch|p1a: Clefable|Clefable, F|100/100|[from]move: U-turn
+|move|p2a: Conkeldurr|Drain Punch|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|59/100
+|-heal|p2a: Conkeldurr|88/100 brn|[from] drain|[of] p1a: Clefable
+|
+|-damage|p2a: Conkeldurr|81/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|move|p1a: Clefable|Moonblast|p2a: Chandelure
+|-resisted|p2a: Chandelure
+|-damage|p2a: Chandelure|58/100
+|-unboost|p2a: Chandelure|spa|1
+|
+|-heal|p2a: Chandelure|64/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Chandelure|Calm Mind|p2a: Chandelure
+|-boost|p2a: Chandelure|spa|1
+|-boost|p2a: Chandelure|spd|1
+|
+|-heal|p2a: Chandelure|70/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Cinderace|U-turn|p2a: Chandelure
+|-resisted|p2a: Chandelure
+|-damage|p2a: Chandelure|62/100
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|move|p2a: Chandelure|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|56/100
+|
+|-heal|p2a: Chandelure|68/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Hatterene
+|-damage|p2a: Hatterene|70/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|80/100
+|-heal|p2a: Hatterene|85/100|[from] drain|[of] p1a: Cinderace
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Chandelure|Chandelure, M|68/100
+|move|p1a: Cinderace|Gunk Shot|p2a: Chandelure|[miss]
+|-miss|p1a: Cinderace|p2a: Chandelure
+|
+|-heal|p2a: Chandelure|74/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Hatterene|Hatterene, F|85/100
+|move|p1a: Cinderace|U-turn|p2a: Hatterene
+|-damage|p2a: Hatterene|62/100
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|12
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|88/100
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|81/100 brn
+|move|p1a: Mandibuzz|U-turn|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|77/100 brn
+|
+|switch|p1a: Clefable|Clefable, F|59/100|[from]move: U-turn
+|
+|-damage|p2a: Conkeldurr|71/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p2a: Chandelure|Chandelure, M|74/100
+|move|p1a: Clefable|Thunderbolt|p2a: Chandelure
+|-damage|p2a: Chandelure|25/100
+|
+|-heal|p2a: Chandelure|32/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Chandelure|Shadow Ball|p1a: Clefable
+|-damage|p1a: Clefable|12/100
+|move|p1a: Clefable|Thunderbolt|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|71/100 brn
+|turn|16
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|88/100
+|move|p2a: Conkeldurr|Mach Punch|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|61/100
+|-damage|p2a: Conkeldurr|54/100 brn|[from] item: Rocky Helmet|[of] p1a: Mandibuzz
+|
+|-damage|p2a: Conkeldurr|48/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Mandibuzz|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|97/100
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100|[from]move: U-turn
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Seismitoad|Earthquake|p2a: Hydreigon
+|-immune|p2a: Hydreigon|[from] ability: Levitate
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Seismitoad
+|-damage|p1a: Seismitoad|56/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Hydreigon
+|-sidestart|p2: colour123|move: Stealth Rock
+|
+|-heal|p1a: Seismitoad|62/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|48/100 brn
+|-damage|p2a: Conkeldurr|42/100 brn|[from] Stealth Rock
+|switch|p1a: Cinderace|Cinderace, M|80/100
+|
+|-damage|p2a: Conkeldurr|36/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Cinderace
+|-damage|p1a: Cinderace|26/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Cinderace|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|81/100
+|
+|switch|p1a: Clefable|Clefable, F|12/100|[from]move: U-turn
+|move|p2a: Toxapex|Toxic|p1a: Clefable
+|-status|p1a: Clefable|tox
+|
+|-heal|p2a: Toxapex|88/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by colour123)
+|
+|switch|p2a: Excadrill|Excadrill, F|84/100
+|-damage|p2a: Excadrill|81/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|62/100 tox
+|
+|upkeep
+|turn|24
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Excadrill|Iron Head|p1a: Dragapult
+|-damage|p1a: Dragapult|39/100
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Dragapult|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|46/100
+|
+|-heal|p2a: Toxapex|52/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|11/100
+|-unboost|p2a: Toxapex|spd|1
+|move|p2a: Toxapex|Toxic|p1a: Dragapult
+|-status|p1a: Dragapult|tox
+|
+|-heal|p2a: Toxapex|18/100|[from] item: Black Sludge
+|-damage|p1a: Dragapult|33/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|switch|p1a: Clefable|Clefable, F|62/100 tox
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|68/100
+|
+|-heal|p2a: Toxapex|74/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|
+|move|p1a: Clefable|Moonblast|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|38/100
+|-unboost|p2a: Toxapex|spa|1
+|move|p2a: Toxapex|Scald|p1a: Clefable
+|-damage|p1a: Clefable|50/100 tox
+|
+|-heal|p2a: Toxapex|44/100|[from] item: Black Sludge
+|upkeep
+|turn|29
+|
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|99/100 tox
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|94/100
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|30
+|
+|move|p1a: Clefable|Moonblast|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|67/100
+|-unboost|p2a: Toxapex|spa|1
+|move|p2a: Toxapex|Scald|p1a: Clefable
+|-damage|p1a: Clefable|92/100 tox
+|
+|-heal|p2a: Toxapex|73/100|[from] item: Black Sludge
+|upkeep
+|turn|31
+|
+|move|p1a: Clefable|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|81/100
+|-damage|p2a: Excadrill|78/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|32
+|
+|switch|p1a: Rotom|Rotom-Wash|56/100
+|move|p2a: Excadrill|Iron Head|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|44/100
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|turn|34
+|
+|switch|p1a: Clefable|Clefable, F|92/100 tox
+|move|p2a: Hydreigon|Dark Pulse|p1a: Clefable
+|-resisted|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|60/100 tox
+|
+|upkeep
+|turn|35
+|-message|colour123 forfeited.
+|
+|win|spida rico
+|l|☆colour123
+|raw|spida rico's rating: 1192 → 1214(+22 for winning)
+|raw|colour123's rating: 1157 → 1135(-22 for losing)

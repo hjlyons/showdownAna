@@ -1,0 +1,209 @@
+|ScrapeTime|2020-01-02-05:45:41
+|j|☆zahm
+|j|☆seanisghey
+|player|p1|zahm|ninjaboy|1309
+|player|p2|seanisghey|gardenia|1365
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Clefable, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Aegislash, M|
+|poke|p1|Seismitoad, M|
+|poke|p1|Hydreigon, F|
+|poke|p2|Ribombee, M|
+|poke|p2|Dracozolt|
+|poke|p2|Bisharp, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Vaporeon, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by seanisghey)
+|
+|start
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|turn|1
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Excadrill|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|70/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Ferrothorn|Knock Off|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|91/100
+|-enditem|p1a: Tyranitar|Weakness Policy|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Tyranitar
+|-sidestart|p1: zahm|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|move|p1a: Tyranitar|Fire Punch|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|78/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|84/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Tyranitar|Stone Edge|p2a: Vaporeon
+|-damage|p2a: Vaporeon|20/100
+|move|p2a: Vaporeon|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|13/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|20/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Tyranitar|Crunch|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-weather|none
+|-heal|p2a: Vaporeon|26/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Tyranitar|Crunch|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|upkeep
+|
+|switch|p2a: Ribombee|Ribombee, M|100/100
+|turn|8
+|
+|move|p2a: Ribombee|Moonblast|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|70/100
+|switch|p1a: Clefable|Clefable, M|100/100
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Clefable|Flamethrower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|turn|11
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|-damage|p1a: Seismitoad|94/100|[from] Stealth Rock
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|-damage|p1a: Aegislash|94/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|97/100
+|-damage|p1a: Excadrill|94/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|turn|15
+|
+|move|p2a: Bisharp|Iron Head|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|16
+|c|☆zahm|LOL
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|33/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|64/100
+|
+|-heal|p1a: Hydreigon|39/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|c|☆zahm|gg
+|c|☆seanisghey|hydreigon is the first thing to send out against bisharp
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|win|seanisghey
+|raw|zahm's rating: 1309 → 1294(-15 for losing)
+|raw|seanisghey's rating: 1382 → 1398(+16 for winning)
+|l|☆zahm

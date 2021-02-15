@@ -1,0 +1,113 @@
+|ScrapeTime|2020-01-02-13:14:59
+|j|☆djodjoxyz
+|j|☆dripfather
+|player|p1|djodjoxyz|2|1294
+|player|p2|dripfather|102|1334
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Centiskorch, M|
+|poke|p1|Lapras, F|
+|poke|p1|Dracovish|
+|poke|p1|Dugtrio, F|
+|poke|p1|Mew|
+|poke|p1|Kommo-o, M|
+|poke|p2|Durant, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Seismitoad, F|
+|poke|p2|Aegislash, F|
+|poke|p2|Clefable, M|
+|poke|p2|Dragapult, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: KD|Durant, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dripfather)
+|
+|switch|p1a: Centiskorch|Centiskorch, M|100/100
+|move|p2a: KD|First Impression|p1a: Centiskorch|[miss]
+|-miss|p2a: KD|p1a: Centiskorch
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Centiskorch|Substitute|p1a: Centiskorch
+|-start|p1a: Centiskorch|Substitute
+|-damage|p1a: Centiskorch|76/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Rotom|Volt Switch|p1a: Centiskorch
+|-activate|p1a: Centiskorch|move: Substitute|[damage]
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100|[from]move: Volt Switch
+|move|p1a: Centiskorch|Coil|p1a: Centiskorch
+|-boost|p1a: Centiskorch|atk|1
+|-boost|p1a: Centiskorch|def|1
+|-boost|p1a: Centiskorch|accuracy|1
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Centiskorch|Fire Lash|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|83/100
+|-unboost|p2a: Seismitoad|def|1
+|move|p2a: Seismitoad|Scald|p1a: Centiskorch
+|-supereffective|p1a: Centiskorch
+|-end|p1a: Centiskorch|Substitute
+|
+|-heal|p2a: Seismitoad|89/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Centiskorch|Leech Life|p2a: Seismitoad
+|-damage|p2a: Seismitoad|31/100
+|-heal|p1a: Centiskorch|100/100|[from] drain|[of] p2a: Seismitoad
+|move|p2a: Seismitoad|Scald|p1a: Centiskorch
+|-supereffective|p1a: Centiskorch
+|-damage|p1a: Centiskorch|62/100
+|
+|-heal|p2a: Seismitoad|37/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|dripfather has 120 seconds left.
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Centiskorch|Leech Life|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|69/100
+|-heal|p1a: Centiskorch|77/100|[from] drain|[of] p2a: Clefable
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Centiskorch|Substitute|p1a: Centiskorch
+|-start|p1a: Centiskorch|Substitute
+|-damage|p1a: Centiskorch|52/100
+|move|p2a: Clefable|Flamethrower|p1a: Centiskorch
+|-start|p1a: Centiskorch|ability: Flash Fire
+|
+|upkeep
+|turn|8
+|-message|dripfather forfeited.
+|
+|win|djodjoxyz
+|l|☆dripfather
+|raw|djodjoxyz's rating: 1294 → 1322(+28 for winning)
+|raw|dripfather's rating: 1334 → 1312(-22 for losing)

@@ -1,0 +1,178 @@
+|ScrapeTime|2020-01-01-21:35:15
+|j|☆TheDewgod
+|j|☆Damometro
+|player|p1|TheDewgod|274|1247
+|player|p2|Damometro|hilbert-dueldisk|1183
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dracovish|
+|poke|p1|Ribombee, F|
+|poke|p1|Bisharp, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Rotom-Mow|
+|poke|p2|Vikavolt, F|
+|poke|p2|Glaceon, F|
+|poke|p2|Braviary, M|
+|poke|p2|Arcanine, M|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Chandelure, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|switch|p2a: Albatross|Arcanine, M|100/100
+|-ability|p2a: Albatross|Intimidate|boost
+|-unboost|p1a: Ribombee|atk|1
+|turn|1
+|
+|switch|p2a: El mamao|Conkeldurr, M|100/100
+|move|p1a: Ribombee|Sticky Web|p2a: El mamao
+|-sidestart|p2: Damometro|move: Sticky Web
+|
+|-status|p2a: El mamao|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|move|p1a: Ribombee|Moonblast|p2a: El mamao
+|-supereffective|p2a: El mamao
+|-damage|p2a: El mamao|9/100 brn
+|move|p2a: El mamao|Rock Slide|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-enditem|p1a: Ribombee|Focus Sash
+|-damage|p1a: Ribombee|1/100
+|
+|-damage|p2a: El mamao|3/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: El mamao|Mach Punch|p1a: Ribombee
+|-resisted|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|-damage|p2a: El mamao|0 fnt|[from] brn
+|faint|p2a: El mamao
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|switch|p2a: Braviary|Braviary, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|4
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Braviary|Defog|p1a: Dragapult
+|-unboost|p1a: Dragapult|evasion|1
+|-sideend|p2: Damometro|Sticky Web|[from] move: Defog|[of] p2a: Braviary
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Braviary
+|
+|upkeep
+|
+|switch|p2a: Santiagos|Chandelure, M, shiny|100/100
+|turn|6
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|move|p2a: Santiagos|Shadow Ball|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|33/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Albatross|Arcanine, M|100/100
+|-ability|p2a: Albatross|Intimidate|boost
+|-unboost|p1a: Bisharp|atk|1
+|-ability|p1a: Bisharp|Defiant
+|-boost|p1a: Bisharp|atk|2
+|move|p1a: Bisharp|Sucker Punch||[still]
+|-fail|p1a: Bisharp
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Albatross|Close Combat|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|-unboost|p2a: Albatross|def|1
+|-unboost|p2a: Albatross|spd|1
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|9
+|
+|switch|p2a: Ryuka|Vikavolt, F|100/100
+|move|p1a: Dragapult|Draco Meteor|p2a: Ryuka
+|-damage|p2a: Ryuka|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Ryuka
+|
+|upkeep
+|
+|switch|p2a: Santiagos|Chandelure, M, shiny|100/100
+|turn|10
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|move|p2a: Santiagos|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|11
+|
+|switch|p2a: Yukii|Glaceon, F, shiny|100/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Yukii
+|-damage|p2a: Yukii|0 fnt
+|faint|p2a: Yukii
+|
+|upkeep
+|
+|switch|p2a: Albatross|Arcanine, M|100/100
+|-ability|p2a: Albatross|Intimidate|boost
+|-unboost|p1a: Dracovish|atk|1
+|turn|12
+|
+|move|p2a: Albatross|Extreme Speed|p1a: Dracovish
+|-damage|p1a: Dracovish|72/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Albatross
+|-supereffective|p2a: Albatross
+|-damage|p2a: Albatross|0 fnt
+|faint|p2a: Albatross
+|
+|upkeep
+|
+|switch|p2a: Santiagos|Chandelure, M, shiny|100/100
+|turn|13
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Santiagos
+|-supereffective|p2a: Santiagos
+|-damage|p2a: Santiagos|0 fnt
+|faint|p2a: Santiagos
+|
+|win|TheDewgod
+|l|☆Damometro
+|l|☆TheDewgod
+|j|☆TheDewgod
+|player|p1|TheDewgod|274

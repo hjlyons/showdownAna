@@ -1,0 +1,178 @@
+|ScrapeTime|2020-01-01-12:06:36
+|j|☆Vince_Leder
+|j|☆jiro uchiha
+|player|p1|Vince_Leder|266|1128
+|player|p2|jiro uchiha|clerk-boss|1165
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Toxtricity, M|
+|poke|p1|Dracovish|
+|poke|p1|Dragapult, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Toxtricity-Low-Key, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Accelgor, M|
+|poke|p2|Silvally-*|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Silvallah|Silvally, shiny|100/100
+|turn|1
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Silvallah
+|-start|p2a: Silvallah|move: Taunt
+|move|p2a: Silvallah|Multi-Attack|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|38/100
+|-damage|p2a: Silvallah|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Vince_Leder|Reflect
+|move|p2a: Silvallah|Crunch|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|35/100
+|-unboost|p1a: Grimmsnarl|def|1
+|-damage|p2a: Silvallah|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|move|p2a: Silvallah|Multi-Attack|p1a: Toxtricity
+|-damage|p1a: Toxtricity|51/100
+|-damage|p2a: Silvallah|71/100|[from] item: Life Orb
+|
+|-end|p2a: Silvallah|move: Taunt
+|upkeep
+|turn|4
+|
+|move|p2a: Silvallah|Explosion|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p2a: Silvallah
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|switch|p2a: Gia|Hydreigon, M, shiny|100/100
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|5
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Gia|Dragon Dance|p2a: Gia
+|-boost|p2a: Gia|atk|1
+|-boost|p2a: Gia|spe|1
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Gia
+|-supereffective|p2a: Gia
+|-damage|p2a: Gia|23/100
+|-supereffective|p2a: Gia
+|-damage|p2a: Gia|0 fnt
+|-hitcount|p2a: Gia|2
+|faint|p2a: Gia
+|
+|upkeep
+|
+|switch|p2a: Dagda|Grimmsnarl, M|100/100
+|turn|7
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Dagda|Spirit Break|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|57/100
+|-unboost|p1a: Dragapult|spa|1
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Dagda|Power Swap|p1a: Dragapult
+|-swapboost|p2a: Dagda|p1a: Dragapult|atk, spa|[from] move: Power Swap
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Dagda
+|move|p2a: Dagda|Darkest Lariat|p1a: Dragapult|[miss]
+|-miss|p2a: Dagda|p1a: Dragapult
+|
+|-sideend|p1: Vince_Leder|Reflect
+|upkeep
+|turn|10
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Dagda|[from]lockedmove
+|-resisted|p2a: Dagda
+|-damage|p2a: Dagda|60/100
+|move|p2a: Dagda|Darkest Lariat|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Dagda|66/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|11
+|
+|move|p2a: Dagda|Metronome|p2a: Dagda
+|move|p2a: Dagda|Obstruct|p2a: Dagda|[from]Metronome
+|-singleturn|p2a: Dagda|Protect
+|move|p1a: Cinderace|Iron Head|p2a: Dagda
+|-activate|p2a: Dagda|move: Protect
+|-unboost|p1a: Cinderace|def|2
+|
+|-heal|p2a: Dagda|73/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Dagda|Metronome|p2a: Dagda
+|move|p2a: Dagda|Strength|p1a: Cinderace|[from]Metronome
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-heal|p2a: Dagda|79/100|[from] item: Leftovers
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jiro uchiha)
+|inactive|Vince_Leder has 120 seconds left.
+|inactive|Vince_Leder has 90 seconds left.
+|inactive|Vince_Leder has 60 seconds left.
+|c|☆jiro uchiha|Ya meat not throbbing if youn finish this battle like a man
+|inactive|Vince_Leder has 30 seconds left.
+|inactive|Vince_Leder has 20 seconds left.
+|inactive|Vince_Leder has 15 seconds left.
+|inactive|Vince_Leder has 10 seconds left.
+|inactive|Vince_Leder has 5 seconds left.
+|-message|Vince_Leder lost due to inactivity.
+|
+|win|jiro uchiha
+|raw|Vince_Leder's rating: 1129 → 1107(-22 for losing)
+|raw|jiro uchiha's rating: 1165 → 1188(+23 for winning)
+|c|☆jiro uchiha|Seems like my veins immaculate

@@ -1,0 +1,233 @@
+|ScrapeTime|2020-01-02-05:46:36
+|j|☆DragontamerChinito
+|j|☆GuardArc PDV
+|player|p1|DragontamerChinito|hugh|1242
+|player|p2|GuardArc PDV|284|1192
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Toxtricity, M|
+|poke|p1|Mew|
+|poke|p1|Aegislash, M|
+|poke|p1|Dracovish|
+|poke|p2|Hatterene, F|
+|poke|p2|Mimikyu, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Bisharp, F|
+|poke|p2|Seismitoad, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GuardArc PDV)
+|
+|start
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|1
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Toxtricity|Boomburst|p2a: Seismitoad
+|-damage|p2a: Seismitoad|9/100
+|
+|-heal|p2a: Seismitoad|15/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Mew|Taunt|p2a: Corviknight
+|-start|p2a: Corviknight|move: Taunt
+|move|p2a: Corviknight|U-turn|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|69/100
+|-enditem|p1a: Mew|Red Card|[of] p2a: Corviknight
+|drag|p2a: Bisharp|Bisharp, F|100/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Mew|Thunder Wave|p2a: Bisharp
+|-status|p2a: Bisharp|par
+|move|p2a: Bisharp|Throat Chop|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|5
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|71/100
+|
+|-heal|p2a: Rotom|77/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Cinderace|U-turn|p2a: Rotom
+|-resisted|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|60/100
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100|[from]move: U-turn
+|move|p2a: Rotom|Volt Switch|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|81/100
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100 par|[from]move: Volt Switch
+|
+|upkeep
+|turn|7
+|inactive|GuardArc PDV has 120 seconds left.
+|
+|move|p1a: Toxtricity|Volt Switch|p2a: Bisharp
+|-damage|p2a: Bisharp|14/100 par
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100|[from]move: Volt Switch
+|move|p2a: Bisharp|Throat Chop|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|69/100
+|-start|p1a: Hydreigon|Throat Chop|[silent]
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Hydreigon|U-turn|p2a: Hatterene
+|-damage|p2a: Hatterene|84/100
+|
+|switch|p1a: Dracovish|Dracovish|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Seismitoad|Seismitoad, M|15/100
+|move|p1a: Dracovish|Crunch|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Hatterene|Hatterene, F|84/100
+|turn|10
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|-item|p1a: Aegislash|Air Balloon
+|move|p2a: Hatterene|Shadow Ball|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|11/100
+|-enditem|p1a: Aegislash|Air Balloon
+|-unboost|p1a: Aegislash|spd|1
+|
+|upkeep
+|turn|11
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Sneak|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|34/100
+|move|p2a: Hatterene|Shadow Ball|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, M|81/100
+|turn|12
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Toxtricity|Overdrive|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|60/100
+|turn|13
+|
+|switch|p1a: Hydreigon|Hydreigon, M|69/100
+|move|p2a: Rotom|Volt Switch|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|55/100
+|inactive|GuardArc PDV has 120 seconds left.
+|
+|switch|p2a: Mimikyu|Mimikyu, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Hydreigon|U-turn|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F
+|-damage|p2a: Mimikyu|88/100|[from] ability: Disguise|[of] p2a: Mimikyu
+|
+|switch|p1a: Toxtricity|Toxtricity, M|81/100|[from]move: U-turn
+|move|p2a: Mimikyu|Play Rough|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|43/100
+|-unboost|p1a: Toxtricity|atk|1
+|-damage|p2a: Mimikyu|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|15
+|inactive|GuardArc PDV has 120 seconds left.
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Toxtricity
+|-damage|p1a: Toxtricity|8/100
+|-damage|p2a: Mimikyu|68/100|[from] item: Life Orb
+|move|p1a: Toxtricity|Overdrive|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, F|14/100 par
+|turn|16
+|
+|switch|p1a: Hydreigon|Hydreigon, M|55/100
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|
+|upkeep
+|turn|17
+|inactive|GuardArc PDV has 120 seconds left.
+|
+|switch|p2a: Hatterene|Hatterene, F|34/100
+|move|p1a: Hydreigon|U-turn|p2a: Hatterene
+|-damage|p2a: Hatterene|17/100
+|
+|switch|p1a: Toxtricity|Toxtricity, M|8/100|[from]move: U-turn
+|
+|upkeep
+|turn|18
+|-message|GuardArc PDV forfeited.
+|
+|win|DragontamerChinito
+|l|☆GuardArc PDV
+|raw|DragontamerChinito's rating: 1242 → 1263(+21 for winning)
+|raw|GuardArc PDV's rating: 1192 → 1171(-21 for losing)

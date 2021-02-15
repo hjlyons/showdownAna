@@ -1,0 +1,284 @@
+|ScrapeTime|2020-01-02-04:36:43
+|j|☆Giganto Cohones
+|j|☆mattispr1
+|player|p1|Giganto Cohones|blackbelt|1110
+|player|p2|mattispr1|290|1057
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Bisharp, F|
+|poke|p1|Aegislash, F|
+|poke|p1|Mew|
+|poke|p1|Gyarados, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Conkeldurr, F|
+|poke|p2|Dracovish|
+|poke|p2|Tyranitar, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Hawlucha, M|
+|poke|p2|Togekiss, M|
+|poke|p2|Corviknight, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mattispr1)
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Pelipper|Pelipper, M, shiny|100/100
+|turn|1
+|
+|move|p1a: Mew|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: mattispr1|move: Stealth Rock
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: mattispr1|move: Tailwind
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Pelipper|U-turn|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|88/100
+|-enditem|p1a: Mew|Red Card|[of] p2a: Pelipper
+|drag|p2a: Hawlucha|Hawlucha, M|100/100
+|-damage|p2a: Hawlucha|88/100|[from] Stealth Rock
+|move|p1a: Mew|Thunder Wave|p2a: Hawlucha
+|-immune|p2a: Hawlucha|[from] ability: Limber
+|
+|upkeep
+|turn|3
+|inactive|mattispr1 has 120 seconds left.
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|move|p1a: Mew|Spikes|p2a: Dracovish
+|-sidestart|p2: mattispr1|Spikes
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Dracovish|atk|1
+|move|p2a: Dracovish|Fishious Rend|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|55/100
+|
+|-heal|p1a: Gyarados|62/100|[from] item: Leftovers
+|-sideend|p2: mattispr1|move: Tailwind
+|upkeep
+|turn|5
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|20/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-heal|p1a: Gyarados|26/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Gyarados|Power Whip|p2a: Dracovish
+|-damage|p2a: Dracovish|27/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|5/100
+|
+|-heal|p1a: Gyarados|11/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Gyarados|Power Whip|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|-heal|p1a: Gyarados|17/100|[from] item: Leftovers
+|upkeep
+|inactive|mattispr1 has 90 seconds left.
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-damage|p2a: Tyranitar|76/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|8
+|inactive|mattispr1 has 90 seconds left.
+|
+|move|p1a: Gyarados|Waterfall|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p1a: Gyarados|0 fnt|[from] item: Rocky Helmet|[of] p2a: Tyranitar
+|faint|p2a: Tyranitar
+|faint|p1a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|mattispr1 has 90 seconds left.
+|
+|switch|p1a: Mew|Mew|88/100
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|-damage|p2a: Togekiss|76/100|[from] Stealth Rock
+|turn|9
+|
+|move|p2a: Togekiss|Ancient Power|p1a: Mew
+|-damage|p1a: Mew|73/100
+|-boost|p2a: Togekiss|atk|1
+|-boost|p2a: Togekiss|def|1
+|-boost|p2a: Togekiss|spa|1
+|-boost|p2a: Togekiss|spd|1
+|-boost|p2a: Togekiss|spe|1
+|move|p1a: Mew|Thunder Wave|p2a: Togekiss
+|-status|p2a: Togekiss|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Togekiss|70/100 par|[from] Sandstorm
+|-damage|p1a: Mew|67/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|cant|p2a: Togekiss|par
+|move|p1a: Mew|Spikes|p2a: Togekiss
+|-sidestart|p2: mattispr1|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Togekiss|64/100 par|[from] Sandstorm
+|-damage|p1a: Mew|61/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|move|p2a: Togekiss|Ancient Power|p1a: Mew
+|-damage|p1a: Mew|42/100
+|move|p1a: Mew|Spikes|p2a: Togekiss
+|-sidestart|p2: mattispr1|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Togekiss|57/100 par|[from] Sandstorm
+|-damage|p1a: Mew|36/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|move|p2a: Togekiss|Ancient Power|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|76/100
+|-boost|p2a: Togekiss|atk|1
+|-boost|p2a: Togekiss|def|1
+|-boost|p2a: Togekiss|spa|1
+|-boost|p2a: Togekiss|spd|1
+|-boost|p2a: Togekiss|spe|1
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|cant|p2a: Togekiss|par
+|move|p1a: Bisharp|Iron Head|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|-damage|p1a: Bisharp|66/100|[from] item: Life Orb
+|faint|p2a: Togekiss
+|
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, M|88/100
+|-damage|p2a: Hawlucha|76/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Hawlucha|Flying Press|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|15
+|
+|move|p2a: Hawlucha|Flying Press|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|35/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|mattispr1 has 120 seconds left.
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|turn|16
+|inactive|Giganto Cohones has 120 seconds left.
+|
+|switch|p2a: Pelipper|Pelipper, M, shiny|100/100
+|-damage|p2a: Pelipper|76/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Stone Edge|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, F|88/100
+|-damage|p2a: Corviknight|76/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Corviknight|Iron Head|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|turn|18
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|34/100
+|-damage|p2a: Corviknight|53/100|[from] Recoil
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|20/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Conkeldurr|28/100|[from] Sandstorm
+|upkeep
+|turn|19
+|inactive|mattispr1 has 120 seconds left.
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|-damage|p2a: Corviknight|10/100|[from] Recoil
+|faint|p1a: Conkeldurr
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|-item|p1a: Aegislash|Air Balloon
+|turn|20
+|inactive|mattispr1 has 120 seconds left.
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Sneak|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|win|Giganto Cohones
+|raw|Giganto Cohones's rating: 1110 → 1131(+21 for winning)
+|raw|mattispr1's rating: 1057 → 1042(-15 for losing)

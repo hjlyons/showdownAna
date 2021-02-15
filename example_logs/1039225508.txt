@@ -1,0 +1,300 @@
+|ScrapeTime|2020-01-01-18:04:58
+|j|☆WB0
+|j|☆Jakarn
+|player|p1|WB0|266|1473
+|player|p2|Jakarn|acerola|1415
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mew|
+|poke|p1|Kommo-o, M|
+|poke|p1|Gyarados, F|
+|poke|p1|Hawlucha, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Dragapult, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Flareon, M|
+|poke|p2|Toxapex, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|switch|p1a: Mew|Mew|100/100
+|move|p2a: Excadrill|Earthquake|p1a: Mew
+|-damage|p1a: Mew|44/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Mew|Stealth Rock|p2a: Excadrill
+|-sidestart|p2: Jakarn|move: Stealth Rock
+|move|p2a: Excadrill|Earthquake|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|turn|3
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Excadrill|Rapid Spin|p1a: Hawlucha
+|-damage|p1a: Hawlucha|75/100
+|-sideend|p2: Jakarn|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-boost|p2a: Excadrill|spe|1
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Excadrill|Stealth Rock|p1a: Hawlucha
+|-sidestart|p1: WB0|move: Stealth Rock
+|move|p1a: Hawlucha|Acrobatics|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|61/100
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Excadrill|Steel Beam|p1a: Hawlucha
+|-damage|p1a: Hawlucha|28/100
+|-damage|p2a: Excadrill|10/100|[from] mindblown
+|-enditem|p1a: Hawlucha|Sitrus Berry|[eat]
+|-heal|p1a: Hawlucha|53/100|[from] item: Sitrus Berry
+|move|p1a: Hawlucha|Acrobatics|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|turn|6
+|
+|move|p1a: Hawlucha|Taunt|p2a: Toxapex
+|-start|p2a: Toxapex|move: Taunt
+|cant|p2a: Toxapex|move: Taunt|Haze
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|19/100
+|move|p2a: Toxapex|Scald|p1a: Hawlucha
+|-damage|p1a: Hawlucha|24/100
+|
+|-heal|p2a: Toxapex|25/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|switch|p2a: Flareon|Flareon, M|100/100
+|move|p1a: Hawlucha|Acrobatics|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, F|58/100
+|turn|9
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Toxapex|Scald|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|-heal|p2a: Toxapex|64/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Rotom|Discharge|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|75/100
+|
+|-heal|p1a: Rotom|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-damage|p1a: Gyarados|76/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p2a: Toxapex|Toxapex, F|98/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|move|p1a: Gyarados|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|39/100
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|45/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Toxapex|Scald|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|67/100
+|
+|-heal|p2a: Toxapex|51/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|57/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Toxapex|Toxic|p1a: Gyarados
+|-status|p1a: Gyarados|tox
+|
+|-heal|p2a: Toxapex|64/100|[from] item: Black Sludge
+|-damage|p1a: Gyarados|61/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p1a: Gyarados|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-damage|p1a: Gyarados|49/100 tox|[from] psn
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by WB0)
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|turn|18
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|33/100 tox
+|move|p1a: Gyarados|Waterfall|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|24/100
+|
+|-damage|p1a: Gyarados|15/100 tox|[from] psn
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|19
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-damage|p2a: Conkeldurr|18/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Conkeldurr
+|move|p2a: Conkeldurr|Earthquake|p1a: Dragapult|[miss]
+|-miss|p2a: Conkeldurr|p1a: Dragapult
+|
+|-damage|p2a: Conkeldurr|11/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Conkeldurr|[from]lockedmove
+|-damage|p2a: Conkeldurr|0 fnt
+|-damage|p1a: Dragapult|78/100|[from] item: Life Orb
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|22
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Hatterene
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Dragapult|Dragapult, F|75/100
+|move|p1a: Dragapult|Phantom Force|p2a: Dragapult|[from]lockedmove
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p1a: Dragapult|69/100|[from] item: Life Orb
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|24
+|
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p2a: Hatterene|91/100|[from] item: Life Orb
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|-damage|p1a: Kommo-o|94/100|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|-damage|p2a: Hatterene|81/100|[from] item: Life Orb
+|faint|p1a: Kommo-o
+|
+|win|Jakarn
+|l|☆WB0
+|raw|WB0's rating: 1473 → 1449(-24 for losing)
+|raw|Jakarn's rating: 1415 → 1438(+23 for winning)

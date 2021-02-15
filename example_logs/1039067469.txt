@@ -1,0 +1,235 @@
+|ScrapeTime|2020-01-01-08:46:00
+|j|☆Shakunjin
+|j|☆TrainerSai
+|player|p1|Shakunjin|169|1000
+|player|p2|TrainerSai|ethan|1067
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Galvantula, M|
+|poke|p1|Duraludon, F|
+|poke|p1|Aegislash, M|
+|poke|p1|Ditto|
+|poke|p1|Dracozolt|
+|poke|p1|Eldegoss, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Ditto|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Cramorant, M|
+|poke|p2|Polteageist|
+|poke|p2|Falinks|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Shakunjin)
+|inactive|TrainerSai also wants the timer to be on.
+|
+|start
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|turn|1
+|
+|move|p1a: Galvantula|Sucker Punch|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|82/100
+|move|p2a: Corsola|Night Shade|p1a: Galvantula
+|-damage|p1a: Galvantula|65/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Galvantula|Sticky Web|p2a: Corsola
+|-sidestart|p2: TrainerSai|move: Sticky Web
+|move|p2a: Corsola|Night Shade|p1a: Galvantula
+|-damage|p1a: Galvantula|29/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|move|p2a: Corsola|Night Shade|p1a: Dracozolt
+|-damage|p1a: Dracozolt|74/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Dracozolt|Bolt Beak|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-start|p1a: Dracozolt|Disable|Bolt Beak|[from] ability: Cursed Body|[of] p2a: Corsola
+|faint|p2a: Corsola
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|5
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: TrainerSai|Sticky Web|[silent]
+|-sidestart|p1: Shakunjin|Sticky Web|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Dracozolt|Outrage|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Dracozolt|[from] ability: Imposter
+|turn|6
+|
+|move|p2a: Ditto|Outrage|p1a: Dracozolt|[miss]
+|-miss|p2a: Ditto|p1a: Dracozolt
+|move|p1a: Dracozolt|Outrage|p2a: Ditto|[from]lockedmove
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|-start|p1a: Dracozolt|confusion|[fatigue]
+|faint|p2a: Ditto
+|
+|upkeep
+|
+|switch|p2a: Cramorant|Cramorant, M|100/100
+|turn|7
+|
+|switch|p1a: Eldegoss|Eldegoss, F|100/100
+|-activate|p1a: Eldegoss|move: Sticky Web
+|-unboost|p1a: Eldegoss|spe|1
+|move|p2a: Cramorant|Surf|p1a: Eldegoss
+|-resisted|p1a: Eldegoss
+|-damage|p1a: Eldegoss|83/100
+|-formechange|p2a: Cramorant|Cramorant-Gulping|
+|
+|-heal|p1a: Eldegoss|90/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|move|p1a: Eldegoss|Rapid Spin|p2a: Polteageist
+|-immune|p2a: Polteageist
+|
+|-heal|p1a: Eldegoss|96/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Eldegoss
+|-damage|p1a: Eldegoss|50/100
+|-unboost|p1a: Eldegoss|spd|1
+|move|p1a: Eldegoss|Energy Ball|p2a: Polteageist
+|-damage|p2a: Polteageist|73/100
+|
+|-heal|p1a: Eldegoss|57/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Duraludon|Duraludon, F|100/100
+|-activate|p1a: Duraludon|move: Sticky Web
+|-unboost|p1a: Duraludon|spe|1
+|move|p2a: Polteageist|Shadow Ball|p1a: Duraludon
+|-damage|p1a: Duraludon|0 fnt
+|faint|p1a: Duraludon
+|
+|upkeep
+|
+|switch|p1a: Galvantula|Galvantula, M|29/100
+|-activate|p1a: Galvantula|move: Sticky Web
+|-unboost|p1a: Galvantula|spe|1
+|turn|11
+|
+|switch|p2a: Cramorant|Cramorant, M|100/100
+|move|p1a: Galvantula|Sucker Punch||[still]
+|-fail|p1a: Galvantula
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Cramorant|Surf|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|-formechange|p2a: Cramorant|Cramorant-Gulping|
+|faint|p1a: Galvantula
+|
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|-activate|p1a: Aegislash|move: Sticky Web
+|-unboost|p1a: Aegislash|spe|1
+|turn|13
+|
+|move|p2a: Cramorant|Surf|p1a: Aegislash
+|-damage|p1a: Aegislash|71/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Claw|p2a: Cramorant
+|-crit|p2a: Cramorant
+|-formechange|p2a: Cramorant|Cramorant|
+|-damage|p1a: Aegislash|46/100|[from] ability: Gulp Missile|[of] p2a: Cramorant
+|-unboost|p1a: Aegislash|def|1
+|-damage|p2a: Cramorant|0 fnt
+|-damage|p1a: Aegislash|29/100|[from] item: Rocky Helmet|[of] p2a: Cramorant
+|-damage|p1a: Aegislash|19/100|[from] item: Life Orb
+|faint|p2a: Cramorant
+|
+|upkeep
+|
+|switch|p2a: Falinks|Falinks|100/100
+|turn|14
+|
+|move|p2a: Falinks|Throat Chop|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Eldegoss|Eldegoss, F|90/100
+|-activate|p1a: Eldegoss|move: Sticky Web
+|-unboost|p1a: Eldegoss|spe|1
+|turn|15
+|
+|switch|p2a: Polteageist|Polteageist|73/100
+|move|p1a: Eldegoss|Energy Ball|p2a: Polteageist
+|-damage|p2a: Polteageist|45/100
+|
+|-heal|p1a: Eldegoss|96/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Polteageist|Strength Sap|p1a: Eldegoss
+|-unboost|p1a: Eldegoss|atk|1
+|-heal|p2a: Polteageist|85/100
+|move|p1a: Eldegoss|Energy Ball|p2a: Polteageist
+|-damage|p2a: Polteageist|54/100
+|
+|-heal|p1a: Eldegoss|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Eldegoss
+|-damage|p1a: Eldegoss|60/100
+|move|p1a: Eldegoss|Energy Ball|p2a: Polteageist
+|-damage|p2a: Polteageist|24/100
+|
+|-heal|p1a: Eldegoss|66/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Eldegoss
+|-damage|p1a: Eldegoss|24/100
+|move|p1a: Eldegoss|Energy Ball|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|
+|-heal|p1a: Eldegoss|30/100|[from] item: Leftovers
+|upkeep
+|-message|TrainerSai forfeited.
+|
+|win|Shakunjin
+|l|☆TrainerSai
+|raw|Shakunjin's rating: 1000 → 1051(+51 for winning)
+|raw|TrainerSai's rating: 1094 → 1064(-30 for losing)

@@ -1,0 +1,901 @@
+|ScrapeTime|2020-01-01-03:54:58
+|j|‽kliktuplorel
+|j|☆IceBlueLugia
+|player|p1|kliktuplorel|102|1187
+|player|p2|IceBlueLugia|101|1271
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Conkeldurr, M|
+|poke|p1|Hippowdon, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Toxapex, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Dragapult, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kliktuplorel)
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|
+|move|p1a: Hippowdon|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: IceBlueLugia|move: Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Hippowdon
+|-sidestart|p1: kliktuplorel|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Hippowdon|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|69/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Hippowdon|[miss]
+|-miss|p2a: Ferrothorn|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|75/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Hippowdon|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|45/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Hippowdon
+|-start|p1a: Hippowdon|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|51/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|66/100|[silent]
+|upkeep
+|turn|4
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Ferrothorn|Spikes|p1a: Rotom
+|-sidestart|p1: kliktuplorel|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|95/100|[from] Sandstorm
+|-heal|p2a: Ferrothorn|72/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Rotom|Overheat|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|63/100
+|-unboost|p1a: Rotom|spa|2
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|52/100
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|84/100|[from] Spikes
+|move|p2a: Dragapult|Draco Meteor|p1a: Toxapex
+|-damage|p1a: Toxapex|4/100
+|-unboost|p2a: Dragapult|spa|2
+|
+|-heal|p1a: Toxapex|10/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Toxapex
+|
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|52/100
+|turn|9
+|
+|switch|p2a: Rotom|Rotom-Wash|63/100
+|-damage|p2a: Rotom|50/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Rotom|Trick|p1a: Mandibuzz
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Mandibuzz
+|-item|p1a: Mandibuzz|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Heavy-Duty Boots|[from] move: Trick
+|move|p1a: Mandibuzz|Foul Play|p2a: Rotom
+|-damage|p2a: Rotom|33/100
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Rotom
+|-damage|p2a: Rotom|15/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Mandibuzz
+|-status|p1a: Mandibuzz|brn
+|
+|-damage|p1a: Mandibuzz|94/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p1a: Conkeldurr|84/100|[from] Spikes
+|switch|p2a: Ferrothorn|Ferrothorn, M|72/100
+|-damage|p2a: Ferrothorn|66/100|[from] Stealth Rock
+|
+|-heal|p2a: Ferrothorn|72/100|[from] item: Leftovers
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|13
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|-damage|p2a: Corsola|88/100|[from] Stealth Rock
+|move|p1a: Conkeldurr|Drain Punch|p2a: Corsola
+|-immune|p2a: Corsola
+|
+|-damage|p1a: Conkeldurr|78/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|94/100 brn
+|move|p2a: Corsola|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|80/100 brn
+|
+|-damage|p1a: Mandibuzz|74/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Corsola|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: kliktuplorel|move: Stealth Rock
+|
+|-damage|p1a: Mandibuzz|94/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p1a: Rotom|Rotom-Heat|95/100
+|-damage|p1a: Rotom|70/100|[from] Stealth Rock
+|switch|p2a: Rotom|Rotom-Wash|15/100
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Rotom|Overheat|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|88/100
+|-damage|p2a: Dragapult|76/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|78/100 brn
+|-damage|p1a: Conkeldurr|72/100 brn|[from] Stealth Rock
+|-damage|p1a: Conkeldurr|55/100 brn|[from] Spikes
+|move|p2a: Dragapult|Draco Meteor|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|
+|switch|p1a: Hippowdon|Hippowdon, F|88/100
+|-damage|p1a: Hippowdon|72/100|[from] Spikes
+|-damage|p1a: Hippowdon|65/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|19
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Hippowdon
+|-damage|p1a: Hippowdon|29/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Hippowdon|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|18/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|35/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|72/100
+|-damage|p2a: Ferrothorn|66/100|[from] Stealth Rock
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|91/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|72/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|94/100 brn
+|-damage|p1a: Mandibuzz|70/100 brn|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|78/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|57/100 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|93/100|[silent]
+|-damage|p1a: Mandibuzz|51/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p2a: Dragapult|Dragapult, M|18/100
+|-damage|p2a: Dragapult|6/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Defog|p2a: Dragapult
+|-unboost|p2a: Dragapult|evasion|1
+|-sideend|p2: IceBlueLugia|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|-sideend|p1: kliktuplorel|Spikes|[from] move: Defog|[of] p1a: Mandibuzz
+|-sideend|p1: kliktuplorel|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|0 fnt|[from] Sandstorm
+|faint|p2a: Dragapult
+|-damage|p1a: Mandibuzz|45/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|turn|23
+|
+|switch|p1a: Hippowdon|Hippowdon, F|91/100
+|move|p2a: Tyranitar|Stone Edge|p1a: Hippowdon
+|-resisted|p1a: Hippowdon
+|-damage|p1a: Hippowdon|74/100
+|
+|-weather|none
+|-heal|p1a: Hippowdon|80/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|93/100
+|move|p1a: Hippowdon|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: IceBlueLugia|move: Stealth Rock
+|
+|-heal|p1a: Hippowdon|86/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|45/100 brn
+|move|p2a: Ferrothorn|Spikes|p1a: Mandibuzz
+|-sidestart|p1: kliktuplorel|Spikes
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|39/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|89/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Ferrothorn|Leech Seed|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|move: Leech Seed
+|
+|-damage|p1a: Mandibuzz|77/100 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-damage|p1a: Mandibuzz|70/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|switch|p1a: Rotom|Rotom-Heat|70/100
+|move|p2a: Ferrothorn|Spikes|p1a: Rotom
+|-sidestart|p1: kliktuplorel|Spikes
+|
+|upkeep
+|turn|28
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Rotom|Will-O-Wisp|p2a: Tyranitar
+|-status|p2a: Tyranitar|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|64/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|82/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|switch|p1a: Hippowdon|Hippowdon, F|86/100
+|-damage|p1a: Hippowdon|69/100|[from] Spikes
+|move|p2a: Tyranitar|Crunch|p1a: Hippowdon
+|-damage|p1a: Hippowdon|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|62/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|76/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|switch|p2a: Corsola|Corsola-Galar, F|88/100
+|-damage|p2a: Corsola|76/100|[from] Stealth Rock
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Corsola|70/100|[from] Sandstorm
+|upkeep
+|turn|31
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|70/100 brn
+|move|p2a: Corsola|Will-O-Wisp|p1a: Mandibuzz
+|-fail|p1a: Mandibuzz|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Corsola|63/100|[from] Sandstorm
+|-damage|p1a: Mandibuzz|64/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Corsola|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: kliktuplorel|move: Stealth Rock
+|
+|-weather|none
+|-damage|p1a: Mandibuzz|94/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Corsola|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|87/100 brn
+|
+|-damage|p1a: Mandibuzz|81/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Corsola|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|88/100 brn
+|
+|-damage|p1a: Mandibuzz|82/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Corsola|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|88/100 brn
+|
+|-damage|p1a: Mandibuzz|82/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Corsola|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|88/100 brn
+|
+|-damage|p1a: Mandibuzz|82/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Corsola|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|87/100 brn
+|
+|-damage|p1a: Mandibuzz|81/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Corsola|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|87/100 brn
+|
+|-damage|p1a: Mandibuzz|81/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Corsola|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|88/100 brn
+|
+|-damage|p1a: Mandibuzz|82/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Corsola|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|88/100 brn
+|
+|-damage|p1a: Mandibuzz|82/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Corsola|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|86/100 brn
+|
+|-damage|p1a: Mandibuzz|80/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Corsola|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|87/100 brn
+|
+|-damage|p1a: Mandibuzz|81/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Corsola|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|87/100 brn
+|
+|-damage|p1a: Mandibuzz|81/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Corsola|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|88/100 brn
+|
+|-damage|p1a: Mandibuzz|82/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-damage|p1a: Hippowdon|84/100|[from] Spikes
+|-damage|p1a: Hippowdon|78/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Corsola|Hex|p1a: Hippowdon
+|-damage|p1a: Hippowdon|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Corsola|57/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|69/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100
+|move|p2a: Corsola|Strength Sap|p1a: Hippowdon
+|-unboost|p1a: Hippowdon|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Corsola|94/100|[from] Sandstorm
+|upkeep
+|turn|47
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|82/100 brn
+|-damage|p1a: Mandibuzz|57/100 brn|[from] Stealth Rock
+|move|p2a: Corsola|Will-O-Wisp|p1a: Mandibuzz
+|-fail|p1a: Mandibuzz|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Corsola|88/100|[from] Sandstorm
+|-damage|p1a: Mandibuzz|51/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|move|p1a: Mandibuzz|Defog|p2a: Corsola
+|-unboost|p2a: Corsola|evasion|1
+|-sideend|p2: IceBlueLugia|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|-sideend|p1: kliktuplorel|Spikes|[from] move: Defog|[of] p1a: Mandibuzz
+|-sideend|p1: kliktuplorel|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Corsola|Strength Sap|p1a: Mandibuzz
+|-unboost|p1a: Mandibuzz|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Corsola|94/100|[from] Sandstorm
+|-damage|p1a: Mandibuzz|44/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|move|p2a: Corsola|Stealth Rock|p1a: Hippowdon
+|-sidestart|p1: kliktuplorel|move: Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|50
+|c|☆IceBlueLugia|Why was using all your roosts the play
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Hippowdon|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: IceBlueLugia|move: Stealth Rock
+|
+|upkeep
+|turn|51
+|
+|move|p1a: Hippowdon|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|70/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Hippowdon|[miss]
+|-miss|p2a: Ferrothorn|p1a: Hippowdon
+|
+|-heal|p2a: Ferrothorn|76/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|move|p1a: Hippowdon|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|49/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Hippowdon
+|-start|p1a: Hippowdon|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|55/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|69/100|[silent]
+|upkeep
+|turn|53
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|44/100 brn
+|-damage|p1a: Mandibuzz|20/100 brn|[from] Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Mandibuzz
+|-sidestart|p1: kliktuplorel|Spikes
+|
+|-heal|p2a: Ferrothorn|75/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|14/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|move|p1a: Mandibuzz|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p2: IceBlueLugia|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|-sideend|p1: kliktuplorel|Spikes|[from] move: Defog|[of] p1a: Mandibuzz
+|-sideend|p1: kliktuplorel|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Ferrothorn|Spikes|p1a: Mandibuzz
+|-sidestart|p1: kliktuplorel|Spikes
+|
+|-heal|p2a: Ferrothorn|81/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|7/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|move|p1a: Mandibuzz|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p1: kliktuplorel|Spikes|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Ferrothorn|Spikes|p1a: Mandibuzz
+|-sidestart|p1: kliktuplorel|Spikes
+|
+|-heal|p2a: Ferrothorn|87/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|1/100 brn|[from] brn
+|upkeep
+|turn|56
+|
+|move|p1a: Mandibuzz|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p1: kliktuplorel|Spikes|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Ferrothorn|Spikes|p1a: Mandibuzz
+|-sidestart|p1: kliktuplorel|Spikes
+|
+|-heal|p2a: Ferrothorn|93/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|0 fnt|[from] brn
+|faint|p1a: Mandibuzz
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat|64/100
+|turn|57
+|
+|move|p1a: Rotom|Overheat|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|c|☆IceBlueLugia|Oops
+|
+|switch|p2a: Tyranitar|Tyranitar, M|76/100 brn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|58
+|
+|switch|p1a: Hippowdon|Hippowdon, F|88/100
+|-damage|p1a: Hippowdon|76/100|[from] Spikes
+|move|p2a: Tyranitar|Crunch|p1a: Hippowdon
+|-damage|p1a: Hippowdon|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|68/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|70/100 brn|[from] brn
+|upkeep
+|turn|59
+|
+|switch|p2a: Corsola|Corsola-Galar, F|94/100
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Corsola|88/100|[from] Sandstorm
+|upkeep
+|turn|60
+|
+|move|p1a: Hippowdon|Stealth Rock|p2a: Corsola
+|-sidestart|p2: IceBlueLugia|move: Stealth Rock
+|move|p2a: Corsola|Will-O-Wisp|p1a: Hippowdon
+|-status|p1a: Hippowdon|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Corsola|82/100|[from] Sandstorm
+|-damage|p1a: Hippowdon|94/100 brn|[from] brn
+|upkeep
+|turn|61
+|
+|move|p1a: Hippowdon|Earthquake|p2a: Corsola
+|-damage|p2a: Corsola|72/100
+|move|p2a: Corsola|Hex|p1a: Hippowdon
+|-damage|p1a: Hippowdon|69/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Corsola|66/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|75/100 brn|[from] item: Leftovers
+|-damage|p1a: Hippowdon|69/100 brn|[from] brn
+|upkeep
+|turn|62
+|
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100 brn
+|move|p2a: Corsola|Strength Sap|p1a: Hippowdon
+|-unboost|p1a: Hippowdon|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-weather|none
+|-damage|p1a: Hippowdon|94/100 brn|[from] brn
+|upkeep
+|turn|63
+|
+|switch|p1a: Rotom|Rotom-Heat|64/100
+|move|p2a: Corsola|Stealth Rock|p1a: Rotom
+|-sidestart|p1: kliktuplorel|move: Stealth Rock
+|
+|upkeep
+|turn|64
+|
+|switch|p1a: Hippowdon|Hippowdon, F|94/100 brn
+|-damage|p1a: Hippowdon|82/100 brn|[from] Spikes
+|-damage|p1a: Hippowdon|76/100 brn|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|switch|p2a: Tyranitar|Tyranitar, M|70/100 brn
+|-damage|p2a: Tyranitar|57/100 brn|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Tyranitar|51/100 brn|[from] brn
+|-damage|p1a: Hippowdon|76/100 brn|[from] brn
+|upkeep
+|turn|65
+|
+|move|p2a: Tyranitar|Fire Blast|p1a: Hippowdon
+|-damage|p1a: Hippowdon|53/100 brn
+|move|p1a: Hippowdon|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|22/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|60/100 brn|[from] item: Leftovers
+|-damage|p2a: Tyranitar|16/100 brn|[from] brn
+|-damage|p1a: Hippowdon|53/100 brn|[from] brn
+|upkeep
+|turn|66
+|
+|move|p2a: Tyranitar|Crunch|p1a: Hippowdon
+|-damage|p1a: Hippowdon|39/100 brn
+|-unboost|p1a: Hippowdon|def|1
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|89/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|95/100 brn|[from] item: Leftovers
+|-damage|p2a: Tyranitar|10/100 brn|[from] brn
+|-damage|p1a: Hippowdon|89/100 brn|[from] brn
+|upkeep
+|turn|67
+|
+|move|p2a: Tyranitar|Crunch|p1a: Hippowdon
+|-damage|p1a: Hippowdon|66/100 brn
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|3/100 brn|[from] brn
+|-damage|p1a: Hippowdon|94/100 brn|[from] brn
+|upkeep
+|turn|68
+|
+|move|p2a: Tyranitar|Crunch|p1a: Hippowdon
+|-damage|p1a: Hippowdon|71/100 brn
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100 brn
+|
+|-weather|none
+|-damage|p2a: Tyranitar|0 fnt|[from] brn
+|faint|p2a: Tyranitar
+|-damage|p1a: Hippowdon|94/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|turn|69
+|
+|move|p2a: Excadrill|Earthquake|p1a: Hippowdon
+|-damage|p1a: Hippowdon|38/100 brn
+|move|p1a: Hippowdon|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|44/100
+|
+|-heal|p2a: Excadrill|50/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|44/100 brn|[from] item: Leftovers
+|-damage|p1a: Hippowdon|38/100 brn|[from] brn
+|upkeep
+|turn|70
+|
+|move|p2a: Excadrill|Earthquake|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-heal|p2a: Excadrill|56/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat|64/100
+|-damage|p1a: Rotom|39/100|[from] Stealth Rock
+|turn|71
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|-damage|p2a: Corsola|88/100|[from] Stealth Rock
+|move|p1a: Rotom|Will-O-Wisp|p2a: Corsola|[miss]
+|-miss|p1a: Rotom|p2a: Corsola
+|
+|upkeep
+|turn|72
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Corsola
+|-status|p2a: Corsola|brn
+|move|p2a: Corsola|Hex|p1a: Rotom
+|-damage|p1a: Rotom|23/100
+|
+|-damage|p2a: Corsola|82/100 brn|[from] brn
+|upkeep
+|turn|73
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Corsola
+|-fail|p2a: Corsola|brn
+|move|p2a: Corsola|Strength Sap|p1a: Rotom
+|-unboost|p1a: Rotom|atk|1
+|-heal|p2a: Corsola|100/100 brn
+|
+|-damage|p2a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|74
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p1a: Grimmsnarl|88/100|[from] Spikes
+|-damage|p1a: Grimmsnarl|75/100|[from] Stealth Rock
+|switch|p2a: Excadrill|Excadrill, F|56/100
+|-damage|p2a: Excadrill|53/100|[from] Stealth Rock
+|
+|-heal|p2a: Excadrill|59/100|[from] item: Leftovers
+|-heal|p1a: Grimmsnarl|82/100|[from] item: Leftovers
+|upkeep
+|turn|75
+|
+|move|p1a: Grimmsnarl|Substitute|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|Substitute
+|-damage|p1a: Grimmsnarl|57/100
+|move|p2a: Excadrill|Iron Head|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-end|p1a: Grimmsnarl|Substitute
+|
+|-heal|p2a: Excadrill|65/100|[from] item: Leftovers
+|-heal|p1a: Grimmsnarl|63/100|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|move|p1a: Grimmsnarl|Substitute|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|Substitute
+|-damage|p1a: Grimmsnarl|38/100
+|move|p2a: Excadrill|Iron Head|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-end|p1a: Grimmsnarl|Substitute
+|
+|-heal|p2a: Excadrill|71/100|[from] item: Leftovers
+|-heal|p1a: Grimmsnarl|44/100|[from] item: Leftovers
+|upkeep
+|turn|77
+|
+|move|p1a: Grimmsnarl|Substitute|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|Substitute
+|-damage|p1a: Grimmsnarl|19/100
+|move|p2a: Excadrill|Iron Head|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-end|p1a: Grimmsnarl|Substitute
+|
+|-heal|p2a: Excadrill|78/100|[from] item: Leftovers
+|-heal|p1a: Grimmsnarl|25/100|[from] item: Leftovers
+|upkeep
+|turn|78
+|
+|move|p1a: Grimmsnarl|Sucker Punch|p2a: Excadrill
+|-damage|p2a: Excadrill|28/100
+|move|p2a: Excadrill|Iron Head|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|-heal|p2a: Excadrill|35/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat|23/100
+|-damage|p1a: Rotom|0 fnt|[from] Stealth Rock
+|faint|p1a: Rotom
+|
+|win|IceBlueLugia
+|l|‽kliktuplorel
+|raw|kliktuplorel's rating: 1161 → 1144(-17 for losing)
+|raw|IceBlueLugia's rating: 1271 → 1288(+17 for winning)
+|l|☆IceBlueLugia
+|j|☆IceBlueLugia
+|player|p2|IceBlueLugia|101

@@ -1,0 +1,538 @@
+|ScrapeTime|2020-01-01-22:56:45
+|j|☆ZeDroguinhaJr
+|j|☆Crauce
+|player|p1|ZeDroguinhaJr|anabel|1000
+|player|p2|Crauce|1|1033
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Hydreigon, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Corviknight, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Gastrodon, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Clefable, F|
+|poke|p2|Dugtrio, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Crauce)
+|
+|start
+|switch|p1a: Spike|Ferrothorn, M, shiny|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|1
+|
+|switch|p1a: Menino Ney|Cinderace, M|100/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Menino Ney
+|-damage|p1a: Menino Ney|68/100
+|-enditem|p1a: Menino Ney|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|move|p1a: Menino Ney|U-turn|p2a: Gastrodon
+|-damage|p2a: Gastrodon|85/100
+|
+|switch|p1a: Minha Mina|Hydreigon, F, shiny|100/100|[from]move: U-turn
+|
+|-heal|p2a: Gastrodon|91/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Minha Mina|Taunt|p2a: Clefable
+|-start|p2a: Clefable|move: Taunt
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Spike|Ferrothorn, M, shiny|100/100
+|move|p2a: Clefable|Moonblast|p1a: Spike
+|-resisted|p1a: Spike
+|-damage|p1a: Spike|81/100
+|
+|-heal|p1a: Spike|87/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Toxa|Toxapex, F, shiny|100/100
+|move|p2a: Clefable|Flamethrower|p1a: Toxa
+|-resisted|p1a: Toxa
+|-damage|p1a: Toxa|85/100
+|
+|-heal|p1a: Toxa|91/100|[from] item: Black Sludge
+|-end|p2a: Clefable|move: Taunt
+|upkeep
+|turn|6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Toxa|Toxic Spikes|p2a: Ferrothorn
+|-sidestart|p2: Crauce|move: Toxic Spikes
+|
+|-heal|p1a: Toxa|97/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p1a: Toxa|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|94/100
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Knock Off|p1a: Toxa
+|-damage|p1a: Toxa|90/100
+|-enditem|p1a: Toxa|Black Sludge|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|99/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p1a: Toxa|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|86/100 brn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Toxa|[miss]
+|-miss|p2a: Ferrothorn|p1a: Toxa
+|
+|-heal|p2a: Ferrothorn|93/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|86/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p1a: Spike|Ferrothorn, M, shiny|87/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Spike
+|-immune|p1a: Spike
+|
+|-heal|p2a: Ferrothorn|93/100 brn|[from] item: Leftovers
+|-heal|p1a: Spike|94/100|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|86/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Spike|Stealth Rock|p2a: Cinderace
+|-sidestart|p2: Crauce|move: Stealth Rock
+|
+|-heal|p1a: Spike|99/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Toxa|Toxapex, F, shiny|100/100
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: Crauce|Toxic Spikes|[silent]
+|-sidestart|p1: ZeDroguinhaJr|Toxic Spikes|[silent]
+|-sideend|p2: Crauce|Stealth Rock|[silent]
+|-sidestart|p1: ZeDroguinhaJr|Stealth Rock|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Cinderace|U-turn|p1a: Toxa
+|-resisted|p1a: Toxa
+|-damage|p1a: Toxa|94/100
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|86/100 brn|[from]move: U-turn
+|move|p1a: Toxa|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|75/100 brn
+|
+|-heal|p2a: Ferrothorn|81/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|75/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Toxa|Toxic Spikes|p2a: Ferrothorn
+|-sidestart|p2: Crauce|move: Toxic Spikes
+|move|p2a: Ferrothorn|Leech Seed|p1a: Toxa
+|-start|p1a: Toxa|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|81/100 brn|[from] item: Leftovers
+|-damage|p1a: Toxa|82/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|91/100 brn|[silent]
+|-damage|p2a: Ferrothorn|85/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p1a: Yatagarasu|Corviknight, M|100/100
+|-damage|p1a: Yatagarasu|88/100|[from] Stealth Rock
+|-ability|p1a: Yatagarasu|Pressure
+|move|p2a: Ferrothorn|Power Whip|p1a: Yatagarasu
+|-resisted|p1a: Yatagarasu
+|-damage|p1a: Yatagarasu|85/100
+|
+|-heal|p1a: Yatagarasu|91/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|91/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|85/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Yatagarasu|Body Press|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|54/100 brn
+|-damage|p1a: Yatagarasu|79/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Knock Off|p1a: Yatagarasu
+|-damage|p1a: Yatagarasu|73/100
+|-enditem|p1a: Yatagarasu|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|61/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|54/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Yatagarasu|Body Press|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|23/100 brn
+|-damage|p1a: Yatagarasu|60/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Yatagarasu
+|-start|p1a: Yatagarasu|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|29/100 brn|[from] item: Leftovers
+|-damage|p1a: Yatagarasu|48/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|44/100 brn|[silent]
+|-damage|p2a: Ferrothorn|37/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p2a: Gastrodon|Gastrodon, M|91/100
+|-status|p2a: Gastrodon|psn
+|move|p1a: Yatagarasu|Body Press|p2a: Gastrodon
+|-damage|p2a: Gastrodon|74/100 psn
+|
+|-heal|p2a: Gastrodon|80/100 psn|[from] item: Leftovers
+|-damage|p1a: Yatagarasu|35/100|[from] Leech Seed|[of] p2a: Gastrodon
+|-heal|p2a: Gastrodon|92/100 psn|[silent]
+|-damage|p2a: Gastrodon|80/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|move|p1a: Yatagarasu|Roost|p1a: Yatagarasu
+|-heal|p1a: Yatagarasu|85/100
+|-singleturn|p1a: Yatagarasu|move: Roost
+|move|p2a: Gastrodon|Counter||[still]
+|-fail|p2a: Gastrodon
+|
+|-heal|p2a: Gastrodon|86/100 psn|[from] item: Leftovers
+|-damage|p1a: Yatagarasu|73/100|[from] Leech Seed|[of] p2a: Gastrodon
+|-heal|p2a: Gastrodon|97/100 psn|[silent]
+|-damage|p2a: Gastrodon|85/100 psn|[from] psn
+|upkeep
+|turn|19
+|
+|switch|p1a: Spike|Ferrothorn, M, shiny|99/100
+|-damage|p1a: Spike|94/100|[from] Stealth Rock
+|move|p2a: Gastrodon|Scald|p1a: Spike
+|-resisted|p1a: Spike
+|-damage|p1a: Spike|85/100
+|
+|-heal|p2a: Gastrodon|91/100 psn|[from] item: Leftovers
+|-heal|p1a: Spike|91/100|[from] item: Leftovers
+|-damage|p2a: Gastrodon|79/100 psn|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|switch|p1a: Minha Mina|Hydreigon, F, shiny|100/100
+|-damage|p1a: Minha Mina|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Minha Mina|94/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Minha Mina|Taunt|p2a: Mandibuzz
+|-start|p2a: Mandibuzz|move: Taunt
+|move|p2a: Mandibuzz|Knock Off|p1a: Minha Mina
+|-resisted|p1a: Minha Mina
+|-damage|p1a: Minha Mina|82/100
+|-enditem|p1a: Minha Mina|Leftovers|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Gastrodon|Gastrodon, M|79/100 psn
+|move|p1a: Minha Mina|Nasty Plot|p1a: Minha Mina
+|-boost|p1a: Minha Mina|spa|2
+|
+|-heal|p2a: Gastrodon|85/100 psn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|72/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|move|p1a: Minha Mina|Nasty Plot|p1a: Minha Mina
+|-boost|p1a: Minha Mina|spa|2
+|move|p2a: Gastrodon|Clear Smog|p1a: Minha Mina
+|-damage|p1a: Minha Mina|69/100
+|-clearboost|p1a: Minha Mina
+|
+|-heal|p2a: Gastrodon|78/100 psn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|66/100 psn|[from] psn
+|upkeep
+|turn|24
+|
+|switch|p1a: Spike|Ferrothorn, M, shiny|91/100
+|-damage|p1a: Spike|85/100|[from] Stealth Rock
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100 psn
+|
+|-heal|p1a: Spike|91/100|[from] item: Leftovers
+|-damage|p2a: Gastrodon|88/100 psn|[from] psn
+|upkeep
+|turn|25
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Spike|Stealth Rock|p2a: Cinderace
+|-sidestart|p2: Crauce|move: Stealth Rock
+|
+|-heal|p1a: Spike|97/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: Toxa|Toxapex, F, shiny|100/100
+|-sideend|p1: ZeDroguinhaJr|move: Toxic Spikes|[of] p1a: Toxa
+|-damage|p1a: Toxa|88/100|[from] Stealth Rock
+|move|p2a: Cinderace|Pyro Ball|p1a: Toxa
+|-resisted|p1a: Toxa
+|-damage|p1a: Toxa|70/100
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Cinderace|U-turn|p1a: Toxa
+|-resisted|p1a: Toxa
+|-damage|p1a: Toxa|64/100
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100|[from]move: U-turn
+|move|p1a: Toxa|Scald|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|91/100
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Mandibuzz|Defog|p1a: Toxa
+|-unboost|p1a: Toxa|evasion|1
+|-sideend|p1: ZeDroguinhaJr|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|-sideend|p2: Crauce|Toxic Spikes|[from] move: Defog|[of] p2a: Mandibuzz
+|-sideend|p2: Crauce|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|move|p1a: Toxa|Recover|p1a: Toxa
+|-heal|p1a: Toxa|100/100
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Mandibuzz|Taunt|p1a: Toxa
+|-start|p1a: Toxa|move: Taunt
+|cant|p1a: Toxa|move: Taunt|Toxic Spikes
+|
+|upkeep
+|turn|30
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|37/100 brn
+|move|p1a: Toxa|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|31/100 brn
+|
+|-heal|p2a: Ferrothorn|37/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|31/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|switch|p1a: Spike|Ferrothorn, M, shiny|97/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Spike
+|-immune|p1a: Spike
+|
+|-heal|p2a: Ferrothorn|37/100 brn|[from] item: Leftovers
+|-heal|p1a: Spike|100/100|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|31/100 brn|[from] brn
+|upkeep
+|turn|32
+|inactive|Crauce has 120 seconds left.
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Spike|Power Whip|p2a: Clefable|[miss]
+|-miss|p1a: Spike|p2a: Clefable
+|
+|upkeep
+|turn|33
+|
+|move|p2a: Clefable|Flamethrower|p1a: Spike
+|-supereffective|p1a: Spike
+|-damage|p1a: Spike|10/100
+|move|p1a: Spike|Gyro Ball|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|21/100
+|
+|-heal|p1a: Spike|17/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|Crauce has 120 seconds left.
+|
+|switch|p1a: Cuzona-Galar|Corsola-Galar, F|100/100
+|move|p2a: Clefable|Moonblast|p1a: Cuzona-Galar
+|-damage|p1a: Cuzona-Galar|62/100
+|-start|p2a: Clefable|Disable|Moonblast|[from] ability: Cursed Body|[of] p1a: Cuzona-Galar
+|-unboost|p1a: Cuzona-Galar|spa|1
+|
+|upkeep
+|turn|35
+|inactive|Crauce has 120 seconds left.
+|
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|71/100
+|move|p1a: Cuzona-Galar|Stealth Rock|p2a: Clefable
+|-sidestart|p2: Crauce|move: Stealth Rock
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|100/100
+|move|p1a: Cuzona-Galar|Strength Sap|p2a: Clefable
+|-unboost|p2a: Clefable|atk|1
+|-heal|p1a: Cuzona-Galar|100/100
+|
+|upkeep
+|turn|37
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|switch|p1a: Toxa|Toxapex, F, shiny|100/100
+|
+|upkeep
+|turn|38
+|
+|move|p2a: Cinderace|U-turn|p1a: Toxa
+|-resisted|p1a: Toxa
+|-damage|p1a: Toxa|94/100
+|
+|switch|p2a: Gastrodon|Gastrodon, M|88/100 psn|[from]move: U-turn
+|-damage|p2a: Gastrodon|82/100 psn|[from] Stealth Rock
+|move|p1a: Toxa|Scald|p2a: Gastrodon
+|-damage|p2a: Gastrodon|66/100 psn
+|
+|-heal|p2a: Gastrodon|72/100 psn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|59/100 psn|[from] psn
+|upkeep
+|turn|39
+|
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|100/100 psn
+|move|p1a: Toxa|Toxic Spikes|p2a: Gastrodon
+|-sidestart|p2: Crauce|move: Toxic Spikes
+|
+|-damage|p2a: Gastrodon|88/100 psn|[from] psn
+|upkeep
+|turn|40
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Toxa|Toxic Spikes|p2a: Cinderace
+|-sidestart|p2: Crauce|move: Toxic Spikes
+|
+|upkeep
+|turn|41
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: Crauce|Toxic Spikes|[silent]
+|-sidestart|p1: ZeDroguinhaJr|Toxic Spikes|[silent]
+|-sidestart|p1: ZeDroguinhaJr|Toxic Spikes|[silent]
+|-sideend|p2: Crauce|Stealth Rock|[silent]
+|-sidestart|p1: ZeDroguinhaJr|Stealth Rock|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Toxa|Scald|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|51/100
+|
+|upkeep
+|turn|42
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p1: ZeDroguinhaJr|Toxic Spikes|[silent]
+|-sidestart|p2: Crauce|Toxic Spikes|[silent]
+|-sidestart|p2: Crauce|Toxic Spikes|[silent]
+|-sideend|p1: ZeDroguinhaJr|Stealth Rock|[silent]
+|-sidestart|p2: Crauce|Stealth Rock|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Toxa|Toxic Spikes||[still]
+|-fail|p1a: Toxa
+|
+|upkeep
+|turn|43
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: Crauce|Toxic Spikes|[silent]
+|-sidestart|p1: ZeDroguinhaJr|Toxic Spikes|[silent]
+|-sidestart|p1: ZeDroguinhaJr|Toxic Spikes|[silent]
+|-sideend|p2: Crauce|Stealth Rock|[silent]
+|-sidestart|p1: ZeDroguinhaJr|Stealth Rock|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Toxa|Scald|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|5/100
+|
+|upkeep
+|turn|44
+|
+|move|p2a: Cinderace|U-turn|p1a: Toxa
+|-resisted|p1a: Toxa
+|-damage|p1a: Toxa|88/100
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|91/100|[from]move: U-turn
+|move|p1a: Toxa|Toxic Spikes|p2a: Mandibuzz
+|-sidestart|p2: Crauce|move: Toxic Spikes
+|
+|upkeep
+|turn|45
+|
+|move|p2a: Mandibuzz|Taunt|p1a: Toxa
+|-start|p1a: Toxa|move: Taunt
+|cant|p1a: Toxa|move: Taunt|Toxic Spikes
+|
+|upkeep
+|turn|46
+|
+|move|p2a: Mandibuzz|Knock Off|p1a: Toxa
+|-damage|p1a: Toxa|78/100
+|move|p1a: Toxa|Scald|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|81/100
+|
+|upkeep
+|turn|47
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Toxa|Scald|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|90/100
+|
+|-end|p1a: Toxa|move: Taunt
+|upkeep
+|turn|48
+|
+|move|p2a: Mandibuzz|Taunt|p1a: Toxa
+|-start|p1a: Toxa|move: Taunt
+|move|p1a: Toxa|Scald|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|79/100
+|-status|p2a: Mandibuzz|brn
+|
+|-damage|p2a: Mandibuzz|73/100 brn|[from] brn
+|upkeep
+|turn|49
+|-message|Crauce forfeited.
+|
+|win|ZeDroguinhaJr
+|l|☆Crauce
+|raw|ZeDroguinhaJr's rating: 1000 → 1044(+44 for winning)
+|raw|Crauce's rating: 1033 → 1017(-16 for losing)

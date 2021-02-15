@@ -1,0 +1,253 @@
+|ScrapeTime|2020-01-01-14:54:24
+|j|☆VeritasUnae
+|j|☆TundraV
+|player|p1|VeritasUnae|265|1177
+|player|p2|TundraV|cameraman|1208
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxtricity, F|
+|poke|p1|Appletun, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Chandelure, F|
+|poke|p2|Obstagoon, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Appletun, F|
+|poke|p2|Dusknoir, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Mamoswine, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆VeritasUnae|pie pals
+|
+|start
+|switch|p1a: robert q conk|Conkeldurr, M|100/100
+|switch|p2a: Obstagoon|Obstagoon, M|100/100
+|turn|1
+|
+|move|p2a: Obstagoon|Obstruct|p2a: Obstagoon
+|-singleturn|p2a: Obstagoon|Protect
+|move|p1a: robert q conk|Mach Punch|p2a: Obstagoon
+|-activate|p2a: Obstagoon|move: Protect
+|-unboost|p1a: robert q conk|def|2
+|
+|-status|p2a: Obstagoon|brn|[from] item: Flame Orb
+|-status|p1a: robert q conk|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|switch|p2a: Dusknoir|Dusknoir, M|100/100
+|-item|p1a: robert q conk|Flame Orb|[from] ability: Frisk|[of] p2a: Dusknoir|[identify]
+|switch|p1a: tyrant|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: tyrant
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dusknoir|94/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|move|p1a: tyrant|Stealth Rock|p2a: Dusknoir
+|-sidestart|p2: TundraV|move: Stealth Rock
+|move|p2a: Dusknoir|Earthquake|p1a: tyrant
+|-supereffective|p1a: tyrant
+|-damage|p1a: tyrant|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dusknoir|88/100|[from] Sandstorm
+|-heal|p1a: tyrant|58/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|move|p1a: tyrant|Crunch|p2a: Corviknight
+|-damage|p2a: Corviknight|60/100
+|-damage|p1a: tyrant|41/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-ability|p2a: Corviknight|Mirror Armor
+|-unboost|p1a: tyrant|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: tyrant|47/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Corviknight|Defog|p1a: tyrant
+|-unboost|p1a: tyrant|evasion|1
+|-sideend|p2: TundraV|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: tyrant|Fire Punch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|27/100
+|-damage|p1a: tyrant|31/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: tyrant|37/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: brittany spears|Toxtricity, F|100/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|77/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|switch|p2a: Appletun|Appletun, F|100/100
+|move|p1a: brittany spears|Boomburst|p2a: Appletun
+|-crit|p2a: Appletun
+|-damage|p2a: Appletun|13/100
+|
+|-heal|p2a: Appletun|20/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Appletun|Protect|p2a: Appletun
+|-singleturn|p2a: Appletun|Protect
+|move|p1a: brittany spears|Boomburst|p2a: Appletun
+|-activate|p2a: Appletun|move: Protect
+|
+|-heal|p2a: Appletun|26/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: tyrant|Tyranitar, F|37/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: tyrant
+|switch|p2a: Dusknoir|Dusknoir, M|88/100
+|-item|p1a: tyrant|Leftovers|[from] ability: Frisk|[of] p2a: Dusknoir|[identify]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dusknoir|82/100|[from] Sandstorm
+|-heal|p1a: tyrant|43/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: caw caw|Corviknight, M|100/100
+|-ability|p1a: caw caw|Pressure
+|move|p2a: Dusknoir|Earthquake|p1a: caw caw
+|-immune|p1a: caw caw
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dusknoir|76/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|move|p1a: caw caw|Substitute|p1a: caw caw
+|-start|p1a: caw caw|Substitute
+|-damage|p1a: caw caw|75/100
+|move|p2a: Dusknoir|Fire Punch|p1a: caw caw
+|-supereffective|p1a: caw caw
+|-end|p1a: caw caw|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dusknoir|70/100|[from] Sandstorm
+|-heal|p1a: caw caw|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: sia on da chandeli|Chandelure, F|100/100
+|move|p2a: Dusknoir|Fire Punch|p1a: sia on da chandeli
+|-start|p1a: sia on da chandeli|ability: Flash Fire
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: sia on da chandeli|94/100|[from] Sandstorm
+|-damage|p2a: Dusknoir|64/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|switch|p2a: Appletun|Appletun, F|26/100
+|move|p1a: sia on da chandeli|Fire Blast|p2a: Appletun
+|-damage|p2a: Appletun|0 fnt
+|faint|p2a: Appletun
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Obstagoon|Obstagoon, M|100/100 brn
+|turn|14
+|
+|move|p1a: sia on da chandeli|Fire Blast|p2a: Obstagoon
+|-damage|p2a: Obstagoon|0 fnt
+|faint|p2a: Obstagoon
+|
+|upkeep
+|
+|switch|p2a: Dusknoir|Dusknoir, M|64/100
+|-item|p1a: sia on da chandeli|Choice Scarf|[from] ability: Frisk|[of] p2a: Dusknoir|[identify]
+|turn|15
+|
+|move|p2a: Dusknoir|Shadow Sneak|p1a: sia on da chandeli
+|-supereffective|p1a: sia on da chandeli
+|-crit|p1a: sia on da chandeli
+|-damage|p1a: sia on da chandeli|13/100
+|move|p1a: sia on da chandeli|Fire Blast|p2a: Dusknoir
+|-damage|p2a: Dusknoir|4/100
+|
+|upkeep
+|turn|16
+|
+|-end|p1a: sia on da chandeli|ability: Flash Fire|[silent]
+|switch|p1a: tyrant|Tyranitar, F|43/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: tyrant
+|move|p2a: Dusknoir|Shadow Sneak|p1a: tyrant
+|-resisted|p1a: tyrant
+|-damage|p1a: tyrant|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dusknoir|0 fnt|[from] Sandstorm
+|faint|p2a: Dusknoir
+|-heal|p1a: tyrant|42/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|turn|17
+|
+|move|p2a: Mamoswine|Stealth Rock|p1a: tyrant
+|-sidestart|p1: VeritasUnae|move: Stealth Rock
+|move|p1a: tyrant|Crunch|p2a: Mamoswine
+|-damage|p2a: Mamoswine|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: tyrant|48/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: caw caw|Corviknight, M|82/100
+|-damage|p1a: caw caw|69/100|[from] Stealth Rock
+|-ability|p1a: caw caw|Pressure
+|move|p2a: Mamoswine|Earthquake|p1a: caw caw
+|-immune|p1a: caw caw
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: caw caw|75/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Mamoswine|Icicle Crash|p1a: caw caw|[miss]
+|-miss|p2a: Mamoswine|p1a: caw caw
+|move|p1a: caw caw|Substitute|p1a: caw caw
+|-start|p1a: caw caw|Substitute
+|-damage|p1a: caw caw|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: caw caw|57/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|-message|TundraV forfeited.
+|
+|win|VeritasUnae
+|l|☆TundraV
+|raw|VeritasUnae's rating: 1177 → 1204(+27 for winning)
+|raw|TundraV's rating: 1208 → 1181(-27 for losing)

@@ -1,0 +1,618 @@
+|ScrapeTime|2020-01-01-17:36:43
+|j|☆The first rule
+|j|☆LitAFdonkeyPUNCH
+|player|p1|The first rule|cynthia-gen4|1500
+|player|p2|LitAFdonkeyPUNCH|lance|1450
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pelipper, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Barraskewda, F|
+|poke|p1|Mantine, M|
+|poke|p1|Toxtricity, M|
+|poke|p1|Hydreigon, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Araquanid, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Bisharp, F|
+|poke|p2|Togekiss, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, M, shiny|100/100
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|move|p1a: Pelipper|Scald|p2a: Bisharp
+|-damage|p2a: Bisharp|30/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M, shiny|100/100
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|28/100
+|-damage|p2a: Bisharp|17/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-start|p1a: Ferrothorn|Throat Chop|[silent]
+|-damage|p2a: Bisharp|8/100|[from] item: Life Orb
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Bisharp
+|-sidestart|p2: LitAFdonkeyPUNCH|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|34/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Bisharp|0 fnt|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|faint|p2a: Bisharp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|switch|p1a: Mantine|Mantine, M, shiny|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|turn|5
+|
+|move|p1a: Mantine|Substitute|p1a: Mantine
+|-start|p1a: Mantine|Substitute
+|-damage|p1a: Mantine|76/100
+|move|p2a: Seismitoad|Toxic||[still]
+|-fail|p2a: Seismitoad
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Mantine|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|56/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|62/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p1a: Mantine|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|26/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|83/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|move|p1a: Mantine|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|44/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|94/100
+|
+|-weather|none
+|-heal|p2a: Toxapex|99/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|move|p1a: Mantine|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|52/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Mantine
+|-sidestart|p1: The first rule|move: Toxic Spikes
+|
+|-heal|p2a: Toxapex|58/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|move|p1a: Mantine|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|6/100
+|-start|p2a: Toxapex|confusion
+|-activate|p2a: Toxapex|confusion
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|56/100
+|
+|-heal|p2a: Toxapex|63/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Mantine|Hurricane|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|57/100
+|-start|p2a: Corviknight|confusion
+|
+|-heal|p2a: Corviknight|63/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Toxapex|Toxapex, M|63/100
+|-damage|p2a: Toxapex|50/100|[from] Stealth Rock
+|move|p1a: Mantine|Surf|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|39/100
+|
+|-heal|p2a: Toxapex|45/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|move|p1a: Mantine|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|15/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|65/100
+|
+|-heal|p2a: Toxapex|72/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|100/100
+|-singleturn|p1a: Mantine|move: Roost
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Mantine|Surf|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|88/100
+|move|p2a: Toxapex|Scald|p1a: Mantine
+|-resisted|p1a: Mantine
+|-activate|p1a: Mantine|move: Substitute|[damage]
+|
+|-heal|p2a: Toxapex|95/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p1a: Mantine|Surf|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|81/100
+|move|p2a: Toxapex|Scald|p1a: Mantine
+|-resisted|p1a: Mantine
+|-activate|p1a: Mantine|move: Substitute|[damage]
+|
+|-heal|p2a: Toxapex|87/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|move|p1a: Mantine|Surf|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|70/100
+|move|p2a: Toxapex|Scald|p1a: Mantine
+|-resisted|p1a: Mantine
+|-activate|p1a: Mantine|move: Substitute|[damage]
+|
+|-heal|p2a: Toxapex|76/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p1a: Mantine|Surf|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|59/100
+|move|p2a: Toxapex|Scald|p1a: Mantine
+|-resisted|p1a: Mantine
+|-activate|p1a: Mantine|move: Substitute|[damage]
+|
+|-heal|p2a: Toxapex|65/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p1a: Mantine|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|37/100
+|-start|p2a: Toxapex|confusion
+|-activate|p2a: Toxapex|confusion
+|-damage|p2a: Toxapex|33/100|[from] confusion
+|
+|-heal|p2a: Toxapex|39/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|move|p1a: Mantine|Surf|p2a: Seismitoad
+|-heal|p2a: Seismitoad|100/100|[from] ability: Water Absorb|[of] p1a: Mantine
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Mantine|Hurricane|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Mantine|Hurricane|p2a: Seismitoad
+|-damage|p2a: Seismitoad|46/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Mantine
+|-sidestart|p1: The first rule|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|52/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Mantine|Hurricane|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-heal|p2a: Seismitoad|58/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Corviknight|Corviknight, M|63/100
+|-damage|p2a: Corviknight|50/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Mantine|Hurricane|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|26/100
+|-start|p2a: Corviknight|confusion
+|
+|-heal|p2a: Corviknight|32/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Seismitoad|Seismitoad, M|58/100
+|-damage|p2a: Seismitoad|52/100|[from] Stealth Rock
+|move|p1a: Mantine|Hurricane|p2a: Seismitoad|[miss]
+|-miss|p1a: Mantine|p2a: Seismitoad
+|
+|-heal|p2a: Seismitoad|58/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p2a: Toxapex|Toxapex, M|39/100
+|-damage|p2a: Toxapex|27/100|[from] Stealth Rock
+|move|p1a: Mantine|Substitute|p1a: Mantine
+|-fail|p1a: Mantine|move: Substitute
+|
+|-heal|p2a: Toxapex|33/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|switch|p2a: Corviknight|Corviknight, M|32/100
+|-damage|p2a: Corviknight|20/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Mantine|Hurricane|p2a: Corviknight|[miss]
+|-miss|p1a: Mantine|p2a: Corviknight
+|
+|-heal|p2a: Corviknight|26/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Seismitoad|Seismitoad, M|58/100
+|-damage|p2a: Seismitoad|52/100|[from] Stealth Rock
+|move|p1a: Mantine|Surf|p2a: Seismitoad
+|-heal|p2a: Seismitoad|77/100|[from] ability: Water Absorb|[of] p1a: Mantine
+|
+|-heal|p2a: Seismitoad|83/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: Toxapex|Toxapex, M|33/100
+|-damage|p2a: Toxapex|21/100|[from] Stealth Rock
+|move|p1a: Mantine|Substitute|p1a: Mantine
+|-fail|p1a: Mantine|move: Substitute
+|
+|-heal|p2a: Toxapex|27/100|[from] item: Black Sludge
+|upkeep
+|turn|30
+|
+|move|p1a: Mantine|Surf|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|14/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|64/100
+|
+|-heal|p2a: Toxapex|71/100|[from] item: Black Sludge
+|upkeep
+|turn|31
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|-sideend|p1: The first rule|move: Toxic Spikes|[of] p1a: Toxtricity
+|-damage|p1a: Toxtricity|88/100|[from] Stealth Rock
+|move|p2a: Toxapex|Scald|p1a: Toxtricity
+|-damage|p1a: Toxtricity|65/100
+|
+|-heal|p2a: Toxapex|77/100|[from] item: Black Sludge
+|upkeep
+|turn|32
+|
+|switch|p2a: Corviknight|Corviknight, M|26/100
+|-damage|p2a: Corviknight|14/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Toxtricity|Acid Spray|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-heal|p2a: Corviknight|20/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|-damage|p2a: Araquanid|75/100|[from] Stealth Rock
+|move|p1a: Toxtricity|Overdrive|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|-damage|p1a: Toxtricity|55/100|[from] item: Life Orb
+|faint|p2a: Araquanid
+|
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, M|83/100
+|-damage|p2a: Seismitoad|77/100|[from] Stealth Rock
+|turn|34
+|
+|switch|p1a: Pelipper|Pelipper, M, shiny|100/100
+|-damage|p1a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Seismitoad|Toxic|p1a: Pelipper
+|-status|p1a: Pelipper|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|83/100|[from] item: Leftovers
+|-damage|p1a: Pelipper|70/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|switch|p2a: Corviknight|Corviknight, M|20/100
+|-damage|p2a: Corviknight|8/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Corviknight|14/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Hydreigon|78/100|[from] item: Life Orb
+|faint|p2a: Corviknight
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|-damage|p2a: Togekiss|76/100|[from] Stealth Rock
+|turn|37
+|
+|switch|p1a: Mantine|Mantine, M, shiny|100/100
+|-damage|p1a: Mantine|76/100|[from] Stealth Rock
+|move|p2a: Togekiss|Air Slash|p1a: Mantine
+|-damage|p1a: Mantine|43/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|38
+|
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|93/100
+|-singleturn|p1a: Mantine|move: Roost
+|move|p2a: Togekiss|Air Slash|p1a: Mantine
+|-crit|p1a: Mantine
+|-damage|p1a: Mantine|48/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|39
+|
+|move|p1a: Mantine|Surf|p2a: Togekiss
+|-damage|p2a: Togekiss|22/100
+|move|p2a: Togekiss|Nasty Plot|p2a: Togekiss
+|-boost|p2a: Togekiss|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|40
+|
+|switch|p2a: Seismitoad|Seismitoad, M|83/100
+|-damage|p2a: Seismitoad|77/100|[from] Stealth Rock
+|move|p1a: Mantine|Surf|p2a: Seismitoad
+|-heal|p2a: Seismitoad|100/100|[from] ability: Water Absorb|[of] p1a: Mantine
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|41
+|
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|99/100
+|-singleturn|p1a: Mantine|move: Roost
+|move|p2a: Seismitoad|Toxic|p1a: Mantine
+|-status|p1a: Mantine|tox
+|
+|-weather|none
+|-damage|p1a: Mantine|92/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|switch|p1a: Pelipper|Pelipper, M, shiny|70/100 tox
+|-damage|p1a: Pelipper|45/100 tox|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|switch|p2a: Toxapex|Toxapex, M|77/100
+|-damage|p2a: Toxapex|64/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|71/100|[from] item: Black Sludge
+|-damage|p1a: Pelipper|39/100 tox|[from] psn
+|upkeep
+|turn|43
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|move|p1a: Pelipper|Scald|p2a: Seismitoad
+|-heal|p2a: Seismitoad|100/100|[from] ability: Water Absorb|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|26/100 tox|[from] psn
+|upkeep
+|turn|44
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|76/100 tox
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|58/100 tox|[from] psn
+|upkeep
+|turn|45
+|
+|switch|p1a: Mantine|Mantine, M, shiny|92/100 tox
+|-damage|p1a: Mantine|68/100 tox|[from] Stealth Rock
+|move|p2a: Seismitoad|Earthquake|p1a: Mantine
+|-immune|p1a: Mantine
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Mantine|62/100 tox|[from] psn
+|upkeep
+|turn|46
+|
+|switch|p2a: Toxapex|Toxapex, M|71/100
+|-damage|p2a: Toxapex|58/100|[from] Stealth Rock
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|100/100 tox
+|-singleturn|p1a: Mantine|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|64/100|[from] item: Black Sludge
+|-damage|p1a: Mantine|88/100 tox|[from] psn
+|upkeep
+|turn|47
+|
+|move|p1a: Mantine|Surf|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|47/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Mantine
+|-sidestart|p1: The first rule|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|53/100|[from] item: Black Sludge
+|-damage|p1a: Mantine|70/100 tox|[from] psn
+|upkeep
+|turn|48
+|
+|switch|p1a: Hydreigon|Hydreigon, F|78/100
+|-damage|p1a: Hydreigon|66/100|[from] Stealth Rock
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|49
+|
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|41/100
+|move|p2a: Toxapex|Scald|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-crit|p1a: Hydreigon
+|-activate|p1a: Hydreigon|move: Substitute|[damage]
+|
+|-weather|none
+|upkeep
+|turn|50
+|
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|upkeep
+|turn|51
+|
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|move|p2a: Toxapex|Scald|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-end|p1a: Hydreigon|Substitute
+|
+|upkeep
+|turn|52
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Toxapex
+|-damage|p2a: Toxapex|36/100
+|-damage|p1a: Hydreigon|31/100|[from] item: Life Orb
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|43/100|[from] item: Black Sludge
+|upkeep
+|turn|53
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Toxapex
+|-damage|p2a: Toxapex|7/100
+|-damage|p1a: Hydreigon|21/100|[from] item: Life Orb
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|57/100
+|
+|-heal|p2a: Toxapex|63/100|[from] item: Black Sludge
+|upkeep
+|turn|54
+|
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|upkeep
+|turn|55
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Toxapex
+|-damage|p2a: Toxapex|28/100
+|-damage|p1a: Hydreigon|12/100|[from] item: Life Orb
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|34/100|[from] item: Black Sludge
+|upkeep
+|turn|56
+|
+|switch|p2a: Togekiss|Togekiss, M|22/100
+|-damage|p2a: Togekiss|0 fnt|[from] Stealth Rock
+|faint|p2a: Togekiss
+|move|p1a: Hydreigon|Dark Pulse|p2: Togekiss|[notarget]
+|-fail|p1a: Hydreigon
+|
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|34/100
+|-damage|p2a: Toxapex|22/100|[from] Stealth Rock
+|turn|57
+|-message|LitAFdonkeyPUNCH forfeited.
+|
+|win|The first rule
+|l|☆LitAFdonkeyPUNCH
+|raw|The first rule's rating: 1500 → 1517(+17 for winning)
+|raw|LitAFdonkeyPUNCH's rating: 1450 → 1433(-17 for losing)

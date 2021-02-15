@@ -1,0 +1,870 @@
+|ScrapeTime|2020-01-02-23:34:32
+|j|☆Mercurei
+|j|☆Mochiwave
+|player|p1|Mercurei|n|1209
+|player|p2|Mochiwave|hilbert|1226
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Seismitoad, M|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Toxtricity-Low-Key, M|
+|poke|p1|Aegislash, F|
+|poke|p2|Obstagoon, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Clefable, M|
+|poke|p2|Hawlucha, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|switch|p2a: Sakurai|Seismitoad, M|100/100
+|turn|1
+|
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, M|100/100
+|move|p2a: Sakurai|Toxic|p1a: Toxtricity
+|-immune|p1a: Toxtricity
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Sakurai|Scald|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|81/100
+|-status|p1a: Mandibuzz|brn
+|
+|-heal|p1a: Mandibuzz|87/100 brn|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|81/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: Mandibuzz|Knock Off|p2a: Sakurai
+|-damage|p2a: Sakurai|90/100
+|-enditem|p2a: Sakurai|Leftovers|[from] move: Knock Off|[of] p1a: Mandibuzz
+|move|p2a: Sakurai|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: Mercurei|move: Stealth Rock
+|
+|-heal|p1a: Mandibuzz|87/100 brn|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|81/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Sakurai|Protect|p2a: Sakurai
+|-singleturn|p2a: Sakurai|Protect
+|move|p1a: Mandibuzz|Defog|p2a: Sakurai
+|-activate|p2a: Sakurai|move: Protect
+|
+|-heal|p1a: Mandibuzz|87/100 brn|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|81/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: Mandibuzz|Defog|p2a: Sakurai
+|-unboost|p2a: Sakurai|evasion|1
+|-sideend|p1: Mercurei|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Sakurai|Scald|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|62/100 brn
+|
+|-heal|p1a: Mandibuzz|68/100 brn|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|62/100 brn|[from] brn
+|upkeep
+|turn|6
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mercurei)
+|
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, M|100/100
+|switch|p2a: Chef BoyImFree|Rotom-Heat|100/100
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Chef BoyImFree
+|-damage|p2a: Chef BoyImFree|39/100
+|move|p2a: Chef BoyImFree|Nasty Plot|p2a: Chef BoyImFree
+|-boost|p2a: Chef BoyImFree|spa|2
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: B L A C K|Corviknight, M|100/100
+|-ability|p2a: B L A C K|Pressure
+|move|p1a: Toxtricity|Boomburst|p2a: B L A C K
+|-resisted|p2a: B L A C K
+|-crit|p2a: B L A C K
+|-damage|p2a: B L A C K|63/100
+|
+|-heal|p2a: B L A C K|69/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|62/100 brn
+|move|p2a: B L A C K|Brave Bird|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|36/100 brn
+|-damage|p2a: B L A C K|60/100|[from] Recoil
+|
+|-heal|p1a: Mandibuzz|42/100 brn|[from] item: Leftovers
+|-heal|p2a: B L A C K|66/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|36/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Mandibuzz|Knock Off|p2a: B L A C K
+|-damage|p2a: B L A C K|57/100
+|-enditem|p2a: B L A C K|Leftovers|[from] move: Knock Off|[of] p1a: Mandibuzz
+|move|p2a: B L A C K|Roost|p2a: B L A C K
+|-heal|p2a: B L A C K|100/100
+|-singleturn|p2a: B L A C K|move: Roost
+|
+|-heal|p1a: Mandibuzz|42/100 brn|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|36/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|86/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: B L A C K|Brave Bird|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|61/100 brn
+|-damage|p2a: B L A C K|92/100|[from] Recoil
+|
+|-heal|p1a: Mandibuzz|67/100 brn|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|61/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|switch|p2a: Ziggy|Obstagoon, F|100/100
+|
+|-status|p2a: Ziggy|brn|[from] item: Flame Orb
+|upkeep
+|turn|13
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|61/100 brn
+|move|p2a: Ziggy|Knock Off|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|39/100 brn
+|-enditem|p1a: Mandibuzz|Leftovers|[from] move: Knock Off|[of] p2a: Ziggy
+|
+|-damage|p2a: Ziggy|94/100 brn|[from] brn
+|-damage|p1a: Mandibuzz|33/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Ziggy|Obstruct|p2a: Ziggy
+|-singleturn|p2a: Ziggy|Protect
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|83/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p2a: Ziggy|88/100 brn|[from] brn
+|-damage|p1a: Mandibuzz|77/100 brn|[from] brn
+|upkeep
+|turn|15
+|inactive|Mercurei has 120 seconds left.
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|move|p2a: Ziggy|Facade|p1a: Aegislash
+|-immune|p1a: Aegislash
+|
+|-damage|p2a: Ziggy|82/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|77/100 brn
+|move|p2a: Ziggy|Obstruct||[still]
+|-fail|p2a: Ziggy
+|
+|-damage|p2a: Ziggy|76/100 brn|[from] brn
+|-damage|p1a: Mandibuzz|71/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Ziggy|Knock Off|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|55/100 brn
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p2a: Ziggy|70/100 brn|[from] brn
+|-damage|p1a: Mandibuzz|94/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p2a: Ziggy|Knock Off|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|81/100 brn
+|move|p1a: Mandibuzz|Knock Off|p2a: Ziggy
+|-resisted|p2a: Ziggy
+|-damage|p2a: Ziggy|63/100 brn
+|-enditem|p2a: Ziggy|Flame Orb|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|-damage|p2a: Ziggy|56/100 brn|[from] brn
+|-damage|p1a: Mandibuzz|75/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p2a: Ziggy|Facade|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|16/100 brn
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|66/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p2a: Ziggy|50/100 brn|[from] brn
+|-damage|p1a: Mandibuzz|60/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p2a: Ziggy|Facade|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|-damage|p2a: Ziggy|44/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, M|100/100
+|turn|21
+|
+|move|p2a: Ziggy|Obstruct|p2a: Ziggy
+|-singleturn|p2a: Ziggy|Protect
+|move|p1a: Toxtricity|Boomburst|p2a: Ziggy
+|-activate|p2a: Ziggy|move: Protect
+|
+|-damage|p2a: Ziggy|38/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Ziggy
+|-damage|p2a: Ziggy|0 fnt
+|faint|p2a: Ziggy
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|23
+|inactiveoff|Battle timer is now OFF.
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|move|p2a: Clefable|Moonblast|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|88/100
+|-unboost|p1a: Aegislash|spa|1
+|
+|-heal|p1a: Aegislash|94/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|33/100
+|move|p2a: Clefable|Flamethrower|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|20/100
+|
+|-heal|p1a: Aegislash|26/100|[from] item: Leftovers
+|-heal|p2a: Clefable|40/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Aegislash|Iron Head|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p1a: Aegislash|32/100|[from] item: Leftovers
+|-heal|p2a: Clefable|46/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p2a: B L A C K|Corviknight, M|92/100
+|-ability|p2a: B L A C K|Pressure
+|move|p1a: Aegislash|Iron Head|p2a: B L A C K
+|-resisted|p2a: B L A C K
+|-damage|p2a: B L A C K|78/100
+|
+|-heal|p1a: Aegislash|38/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|move|p2a: B L A C K|Brave Bird|p1a: Corsola
+|-damage|p1a: Corsola|74/100
+|-start|p2a: B L A C K|Disable|Brave Bird|[from] ability: Cursed Body|[of] p1a: Corsola
+|-damage|p2a: B L A C K|72/100|[from] Recoil
+|
+|upkeep
+|turn|28
+|
+|move|p2a: B L A C K|U-turn|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|69/100
+|
+|switch|p2a: Sakurai|Seismitoad, M|90/100|[from]move: U-turn
+|move|p1a: Corsola|Strength Sap|p2a: Sakurai
+|-unboost|p2a: Sakurai|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|upkeep
+|turn|29
+|
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, M|100/100
+|move|p2a: Sakurai|Toxic|p1a: Toxtricity
+|-immune|p1a: Toxtricity
+|
+|upkeep
+|turn|30
+|
+|switch|p2a: B L A C K|Corviknight, M|72/100
+|-ability|p2a: B L A C K|Pressure
+|move|p1a: Toxtricity|Boomburst|p2a: B L A C K
+|-resisted|p2a: B L A C K
+|-damage|p2a: B L A C K|47/100
+|
+|upkeep
+|turn|31
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|move|p2a: B L A C K|Roost|p2a: B L A C K
+|-heal|p2a: B L A C K|97/100
+|-singleturn|p2a: B L A C K|move: Roost
+|
+|upkeep
+|turn|32
+|
+|switch|p2a: Sakurai|Seismitoad, M|90/100
+|move|p1a: Corsola|Strength Sap|p2a: Sakurai
+|-unboost|p2a: Sakurai|atk|1
+|
+|upkeep
+|turn|33
+|
+|switch|p1a: Aegislash|Aegislash, F|38/100
+|move|p2a: Sakurai|Stealth Rock|p1a: Aegislash
+|-sidestart|p1: Mercurei|move: Stealth Rock
+|
+|-heal|p1a: Aegislash|44/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|-damage|p1a: Seismitoad|94/100|[from] Stealth Rock
+|move|p2a: Sakurai|Scald|p1a: Seismitoad
+|-heal|p1a: Seismitoad|100/100|[from] ability: Water Absorb|[of] p2a: Sakurai
+|
+|upkeep
+|turn|35
+|
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, M|100/100
+|-damage|p1a: Toxtricity|88/100|[from] Stealth Rock
+|move|p2a: Sakurai|Toxic|p1a: Toxtricity|[miss]
+|-miss|p2a: Sakurai|p1a: Toxtricity
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Sakurai|Protect|p2a: Sakurai
+|-singleturn|p2a: Sakurai|Protect
+|move|p1a: Toxtricity|Overdrive|p2a: Sakurai
+|-activate|p2a: Sakurai|move: Protect
+|
+|upkeep
+|turn|37
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|-damage|p1a: Seismitoad|94/100|[from] Stealth Rock
+|switch|p2a: Chef BoyImFree|Rotom-Heat|39/100
+|
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|switch|p2a: Clefable|Clefable, M|46/100
+|move|p1a: Seismitoad|Toxic|p2a: Clefable
+|-status|p2a: Clefable|tox
+|
+|-heal|p2a: Clefable|52/100 tox|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p1a: Seismitoad|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|23/100 tox
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|29/100 tox|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Seismitoad|Earthquake|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|79/100 tox|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Clefable|86/100 tox|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p1a: Seismitoad|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|58/100 tox
+|move|p2a: Clefable|Moonblast|p1a: Seismitoad
+|-damage|p1a: Seismitoad|69/100
+|-unboost|p1a: Seismitoad|spa|1
+|
+|-heal|p1a: Seismitoad|75/100|[from] item: Leftovers
+|-heal|p2a: Clefable|64/100 tox|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p1a: Seismitoad|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|33/100 tox
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p1a: Seismitoad|81/100|[from] item: Leftovers
+|-heal|p2a: Clefable|40/100 tox|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, M|88/100
+|-damage|p1a: Toxtricity|76/100|[from] Stealth Rock
+|move|p2a: Clefable|Protect||[still]
+|-fail|p2a: Clefable
+|
+|-heal|p2a: Clefable|90/100 tox|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Clefable|96/100 tox|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Toxtricity|Sludge Wave|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|100/100 tox|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|-damage|p1a: Cinderace|76/100|[from] Stealth Rock
+|switch|p2a: B L A C K|Corviknight, M|97/100
+|-ability|p2a: B L A C K|Pressure
+|
+|upkeep
+|turn|46
+|
+|switch|p2a: Sakurai|Seismitoad, M|90/100
+|move|p1a: Cinderace|U-turn|p2a: Sakurai
+|-damage|p2a: Sakurai|65/100
+|
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, M|76/100|[from]move: U-turn
+|-damage|p1a: Toxtricity|63/100|[from] Stealth Rock
+|
+|upkeep
+|turn|47
+|
+|move|p2a: Sakurai|Protect|p2a: Sakurai
+|-singleturn|p2a: Sakurai|Protect
+|move|p1a: Toxtricity|Boomburst|p2a: Sakurai
+|-activate|p2a: Sakurai|move: Protect
+|
+|upkeep
+|turn|48
+|
+|switch|p2a: B L A C K|Corviknight, M|97/100
+|-ability|p2a: B L A C K|Pressure
+|move|p1a: Toxtricity|Boomburst|p2a: B L A C K
+|-resisted|p2a: B L A C K
+|-damage|p2a: B L A C K|74/100
+|
+|upkeep
+|turn|49
+|
+|move|p1a: Toxtricity|Boomburst|p2a: B L A C K
+|-resisted|p2a: B L A C K
+|-damage|p2a: B L A C K|52/100
+|move|p2a: B L A C K|U-turn|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|53/100
+|
+|switch|p2a: Clefable|Clefable, M|100/100 tox|[from]move: U-turn
+|
+|upkeep
+|turn|50
+|
+|switch|p1a: Aegislash|Aegislash, F|44/100
+|-damage|p1a: Aegislash|38/100|[from] Stealth Rock
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p1a: Aegislash|44/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|switch|p2a: Sakurai|Seismitoad, M|65/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Iron Head|p2a: Sakurai
+|-resisted|p2a: Sakurai
+|-damage|p2a: Sakurai|49/100
+|
+|-heal|p2a: Sakurai|97/100|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Aegislash|50/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Sakurai|Scald|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|-heal|p1a: Aegislash|56/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|switch|p1a: Seismitoad|Seismitoad, M|81/100
+|-damage|p1a: Seismitoad|75/100|[from] Stealth Rock
+|move|p2a: Sakurai|Scald|p1a: Seismitoad
+|-heal|p1a: Seismitoad|99/100|[from] ability: Water Absorb|[of] p2a: Sakurai
+|
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|move|p1a: Seismitoad|Earthquake|p2a: Sakurai
+|-damage|p2a: Sakurai|68/100
+|move|p2a: Sakurai|Toxic|p1a: Seismitoad
+|-status|p1a: Seismitoad|tox
+|
+|-damage|p1a: Seismitoad|94/100 tox|[from] psn
+|upkeep
+|turn|55
+|
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, M|53/100
+|-damage|p1a: Toxtricity|40/100|[from] Stealth Rock
+|move|p2a: Sakurai|Protect||[still]
+|-fail|p2a: Sakurai
+|
+|upkeep
+|turn|56
+|
+|move|p2a: Sakurai|Protect|p2a: Sakurai
+|-singleturn|p2a: Sakurai|Protect
+|move|p1a: Toxtricity|Overdrive|p2a: Sakurai
+|-activate|p2a: Sakurai|move: Protect
+|
+|upkeep
+|turn|57
+|
+|switch|p2a: Clefable|Clefable, M|100/100 tox
+|move|p1a: Toxtricity|Overdrive|p2a: Clefable
+|-damage|p2a: Clefable|52/100 tox
+|
+|-heal|p2a: Clefable|58/100 tox|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Clefable
+|-damage|p2a: Clefable|7/100 tox
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|13/100 tox|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Toxtricity|Overdrive|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|63/100 tox|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Clefable|69/100 tox|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Clefable
+|-damage|p2a: Clefable|21/100 tox
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|27/100 tox|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Toxtricity|Overdrive|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|77/100 tox|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Clefable|83/100 tox|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Clefable
+|-damage|p2a: Clefable|38/100 tox
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|44/100 tox|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|switch|p1a: Aegislash|Aegislash, F|56/100
+|-damage|p1a: Aegislash|50/100|[from] Stealth Rock
+|move|p2a: Clefable|Protect||[still]
+|-fail|p2a: Clefable
+|
+|-heal|p2a: Clefable|94/100 tox|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Aegislash|56/100|[from] item: Leftovers
+|-heal|p2a: Clefable|100/100 tox|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|31/100 tox
+|move|p2a: Clefable|Flamethrower|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|-heal|p2a: Clefable|38/100 tox|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, M|40/100
+|-damage|p1a: Toxtricity|28/100|[from] Stealth Rock
+|turn|65
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Toxtricity|Overdrive|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|44/100 tox|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|switch|p1a: Seismitoad|Seismitoad, M|94/100 tox
+|-damage|p1a: Seismitoad|88/100 tox|[from] Stealth Rock
+|switch|p2a: Chef BoyImFree|Rotom-Heat|39/100
+|
+|-heal|p1a: Seismitoad|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|88/100 tox|[from] psn
+|upkeep
+|turn|67
+|
+|switch|p2a: B L A C K|Corviknight, M|52/100
+|-ability|p2a: B L A C K|Pressure
+|move|p1a: Seismitoad|Toxic|p2a: B L A C K
+|-immune|p2a: B L A C K
+|
+|-heal|p1a: Seismitoad|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|82/100 tox|[from] psn
+|upkeep
+|turn|68
+|
+|switch|p1a: Cinderace|Cinderace, M|76/100
+|-damage|p1a: Cinderace|51/100|[from] Stealth Rock
+|move|p2a: B L A C K|Roost|p2a: B L A C K
+|-heal|p2a: B L A C K|100/100
+|-singleturn|p2a: B L A C K|move: Roost
+|
+|upkeep
+|turn|69
+|
+|switch|p2a: Sakurai|Seismitoad, M|68/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Sakurai
+|-resisted|p2a: Sakurai
+|-damage|p2a: Sakurai|37/100
+|
+|upkeep
+|turn|70
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Sakurai
+|-resisted|p2a: Sakurai
+|-damage|p2a: Sakurai|7/100
+|move|p2a: Sakurai|Toxic|p1a: Cinderace
+|-status|p1a: Cinderace|tox
+|
+|-damage|p1a: Cinderace|45/100 tox|[from] psn
+|upkeep
+|turn|71
+|
+|move|p2a: Sakurai|Protect|p2a: Sakurai
+|-singleturn|p2a: Sakurai|Protect
+|move|p1a: Cinderace|Pyro Ball|p2a: Sakurai
+|-activate|p2a: Sakurai|move: Protect
+|
+|-damage|p1a: Cinderace|33/100 tox|[from] psn
+|upkeep
+|turn|72
+|
+|switch|p2a: Clefable|Clefable, M|44/100 tox
+|move|p1a: Cinderace|Pyro Ball|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|-damage|p1a: Cinderace|15/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Sakurai|Seismitoad, M|7/100
+|turn|73
+|
+|move|p2a: Sakurai|Protect|p2a: Sakurai
+|-singleturn|p2a: Sakurai|Protect
+|move|p1a: Cinderace|Pyro Ball|p2a: Sakurai
+|-activate|p2a: Sakurai|move: Protect
+|
+|-damage|p1a: Cinderace|0 fnt|[from] psn
+|faint|p1a: Cinderace
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, M|28/100
+|-damage|p1a: Toxtricity|16/100|[from] Stealth Rock
+|turn|74
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Sakurai
+|-damage|p2a: Sakurai|0 fnt
+|faint|p2a: Sakurai
+|
+|upkeep
+|
+|switch|p2a: B L A C K|Corviknight, M|100/100
+|-ability|p2a: B L A C K|Pressure
+|turn|75
+|
+|move|p1a: Toxtricity|Boomburst|p2a: B L A C K
+|-resisted|p2a: B L A C K
+|-damage|p2a: B L A C K|77/100
+|move|p2a: B L A C K|Brave Bird|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|-damage|p2a: B L A C K|73/100|[from] Recoil
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, M|82/100 tox
+|-damage|p1a: Seismitoad|76/100 tox|[from] Stealth Rock
+|turn|76
+|
+|move|p1a: Seismitoad|Stealth Rock|p2a: B L A C K
+|-sidestart|p2: Mochiwave|move: Stealth Rock
+|move|p2a: B L A C K|Brave Bird|p1a: Seismitoad
+|-damage|p1a: Seismitoad|42/100 tox
+|-damage|p2a: B L A C K|62/100|[from] Recoil
+|
+|-heal|p1a: Seismitoad|49/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|42/100 tox|[from] psn
+|upkeep
+|turn|77
+|
+|move|p1a: Seismitoad|Earthquake|p2a: B L A C K
+|-immune|p2a: B L A C K
+|move|p2a: B L A C K|Roost|p2a: B L A C K
+|-heal|p2a: B L A C K|100/100
+|-singleturn|p2a: B L A C K|move: Roost
+|
+|-heal|p1a: Seismitoad|49/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|36/100 tox|[from] psn
+|upkeep
+|turn|78
+|
+|move|p1a: Seismitoad|Earthquake|p2a: B L A C K
+|-immune|p2a: B L A C K
+|move|p2a: B L A C K|Brave Bird|p1a: Seismitoad
+|-damage|p1a: Seismitoad|3/100 tox
+|-damage|p2a: B L A C K|90/100|[from] Recoil
+|
+|-heal|p1a: Seismitoad|9/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|0 fnt|[from] psn
+|faint|p1a: Seismitoad
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|-damage|p1a: Corsola|88/100|[from] Stealth Rock
+|turn|79
+|
+|move|p2a: B L A C K|Brave Bird|p1a: Corsola
+|-damage|p1a: Corsola|63/100
+|-damage|p2a: B L A C K|84/100|[from] Recoil
+|move|p1a: Corsola|Strength Sap|p2a: B L A C K
+|-unboost|p2a: B L A C K|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|upkeep
+|turn|80
+|
+|move|p2a: B L A C K|U-turn|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|97/100
+|-start|p2a: B L A C K|Disable|U-turn|[from] ability: Cursed Body|[of] p1a: Corsola
+|
+|switch|p2a: Chef BoyImFree|Rotom-Heat|39/100|[from]move: U-turn
+|move|p1a: Corsola|Strength Sap|p2a: Chef BoyImFree
+|-unboost|p2a: Chef BoyImFree|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|upkeep
+|turn|81
+|
+|move|p2a: Chef BoyImFree|Nasty Plot|p2a: Chef BoyImFree
+|-boost|p2a: Chef BoyImFree|spa|2
+|move|p1a: Corsola|Shadow Ball|p2a: Chef BoyImFree
+|-damage|p2a: Chef BoyImFree|14/100
+|-unboost|p2a: Chef BoyImFree|spd|1
+|
+|upkeep
+|turn|82
+|
+|move|p2a: Chef BoyImFree|Overheat|p1a: Corsola
+|-damage|p1a: Corsola|41/100
+|-unboost|p2a: Chef BoyImFree|spa|2
+|move|p1a: Corsola|Shadow Ball|p2a: Chef BoyImFree
+|-damage|p2a: Chef BoyImFree|0 fnt
+|faint|p2a: Chef BoyImFree
+|
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|-damage|p2a: Hawlucha|88/100|[from] Stealth Rock
+|turn|83
+|
+|move|p2a: Hawlucha|Substitute|p2a: Hawlucha
+|-start|p2a: Hawlucha|Substitute
+|-damage|p2a: Hawlucha|63/100
+|move|p1a: Corsola|Strength Sap||[still]
+|-fail|p1a: Corsola
+|
+|upkeep
+|turn|84
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Corsola|Shadow Ball|p2a: Hawlucha
+|-end|p2a: Hawlucha|Substitute
+|
+|upkeep
+|turn|85
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Corsola
+|-crit|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|win|Mochiwave
+|l|☆Mercurei
+|raw|Mercurei's rating: 1181 → 1159(-22 for losing)
+|raw|Mochiwave's rating: 1227 → 1248(+21 for winning)

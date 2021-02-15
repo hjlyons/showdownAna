@@ -1,0 +1,207 @@
+|ScrapeTime|2020-01-01-04:14:29
+|j|☆SP00NELL
+|j|☆laxerboyj
+|player|p1|SP00NELL|ethan|1010
+|player|p2|laxerboyj|linebacker|1077
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, F|
+|poke|p1|Toxtricity, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Gastrodon, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Toxtricity-Low-Key, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Dracovish|
+|poke|p2|Hawlucha, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Dewalt|Excadrill, M, shiny|100/100
+|-ability|p2a: Dewalt|Mold Breaker
+|turn|1
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Dewalt|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: SP00NELL|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: El Lucha|Hawlucha, M, shiny|100/100
+|move|p1a: Ferrothorn|Knock Off|p2a: El Lucha
+|-resisted|p2a: El Lucha
+|-damage|p2a: El Lucha|85/100
+|-enditem|p2a: El Lucha|Electric Seed|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|upkeep
+|turn|3
+|
+|move|p2a: El Lucha|Fire Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|50/100
+|-damage|p2a: El Lucha|73/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Leech Seed|p2a: El Lucha
+|-start|p2a: El Lucha|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|57/100 brn|[from] item: Leftovers
+|-damage|p2a: El Lucha|60/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|67/100 brn|[silent]
+|-damage|p1a: Ferrothorn|61/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Dewalt|Excadrill, M, shiny|100/100
+|-ability|p2a: Dewalt|Mold Breaker
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Dewalt
+|-sidestart|p2: laxerboyj|move: Stealth Rock
+|
+|-heal|p1a: Ferrothorn|67/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|61/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p2a: Dewalt|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|56/100 brn
+|-damage|p2a: Dewalt|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-sideend|p2: laxerboyj|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Dewalt
+|-boost|p2a: Dewalt|spe|1
+|move|p1a: Ferrothorn|Leech Seed|p2a: Dewalt
+|-start|p2a: Dewalt|move: Leech Seed
+|
+|-heal|p2a: Dewalt|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|62/100 brn|[from] item: Leftovers
+|-damage|p2a: Dewalt|82/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|75/100 brn|[silent]
+|-damage|p1a: Ferrothorn|69/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p2a: Ushi Oni|Grimmsnarl, M|100/100
+|-item|p1a: Ferrothorn|Leftovers|[from] ability: Frisk|[of] p2a: Ushi Oni|[identify]
+|move|p1a: Ferrothorn|Knock Off|p2a: Ushi Oni
+|-resisted|p2a: Ushi Oni
+|-damage|p2a: Ushi Oni|97/100
+|-enditem|p2a: Ushi Oni|Expert Belt|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|75/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|69/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|move|p2a: Ushi Oni|Fire Punch|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|72/100
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Ushi Oni
+|-supereffective|p2a: Ushi Oni
+|-damage|p2a: Ushi Oni|21/100
+|-damage|p1a: Hydreigon|63/100|[from] item: Life Orb
+|move|p2a: Ushi Oni|Play Rough|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|upkeep
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|turn|9
+|
+|move|p2a: Ushi Oni|Leech Life|p1a: Hatterene
+|-damage|p1a: Hatterene|56/100
+|-heal|p2a: Ushi Oni|34/100|[from] drain|[of] p1a: Hatterene
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-heal|p1a: Hatterene|62/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Ushi Oni
+|-supereffective|p2a: Ushi Oni
+|-damage|p2a: Ushi Oni|0 fnt
+|faint|p2a: Ushi Oni
+|
+|-heal|p1a: Hatterene|68/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dewalt|Excadrill, M, shiny|82/100
+|-ability|p2a: Dewalt|Mold Breaker
+|turn|11
+|
+|move|p1a: Hatterene|Mystical Fire|p2a: Dewalt
+|-supereffective|p2a: Dewalt
+|-damage|p2a: Dewalt|6/100
+|-unboost|p2a: Dewalt|spa|1
+|move|p2a: Dewalt|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-heal|p2a: Dewalt|12/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|12
+|
+|move|p1a: Cinderace|Sucker Punch|p2a: Dewalt
+|-crit|p2a: Dewalt
+|-damage|p2a: Dewalt|0 fnt
+|faint|p2a: Dewalt
+|
+|upkeep
+|
+|switch|p2a: El Lucha|Hawlucha, M, shiny|60/100
+|turn|13
+|
+|move|p2a: El Lucha|Acrobatics|p1a: Cinderace
+|-damage|p1a: Cinderace|32/100
+|move|p1a: Cinderace|Pyro Ball|p2a: El Lucha
+|-damage|p2a: El Lucha|0 fnt
+|faint|p2a: El Lucha
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p2a: Fear Monger|Dracovish|100/100
+|turn|14
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|move|p2a: Fear Monger|Fishious Rend|p1a: Gastrodon
+|-ability|p1a: Gastrodon|Storm Drain|boost
+|-boost|p1a: Gastrodon|spa|1
+|
+|-heal|p1a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|-message|laxerboyj forfeited.
+|
+|win|SP00NELL
+|l|☆laxerboyj
+|raw|SP00NELL's rating: 1010 → 1056(+46 for winning)
+|raw|laxerboyj's rating: 1078 → 1052(-26 for losing)

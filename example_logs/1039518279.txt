@@ -1,0 +1,360 @@
+|ScrapeTime|2020-01-02-05:16:55
+|j|☆ydm14
+|j|☆assassinpro12
+|player|p1|ydm14|bruno|1132
+|player|p2|assassinpro12|109|1096
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Clefable, F|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Aegislash, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Obstagoon, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Toxtricity-Low-Key, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Hawlucha, F|
+|poke|p2|Cinderace, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ydm14)
+|
+|start
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|turn|1
+|
+|move|p2a: Excadrill|Stealth Rock|p1a: Aegislash
+|-sidestart|p1: ydm14|move: Stealth Rock
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Close Combat|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-enditem|p2a: Excadrill|Focus Sash
+|-damage|p2a: Excadrill|1/100
+|-unboost|p1a: Aegislash|def|1
+|-unboost|p1a: Aegislash|spd|1
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Dragapult|Dragapult, F, shiny|100/100
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p1a: Grimmsnarl|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Dragapult
+|-status|p2a: Dragapult|par
+|move|p2a: Dragapult|U-turn|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|66/100
+|
+|switch|p2a: Excadrill|Excadrill, F|1/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Grimmsnarl|Fake Out||[still]
+|-fail|p1a: Grimmsnarl
+|-hint|Fake Out only works on your first turn out.
+|move|p2a: Excadrill|Iron Head|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|turn|5
+|
+|move|p2a: Excadrill|Rapid Spin|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|80/100
+|-boost|p2a: Excadrill|spe|1
+|move|p1a: Corviknight|Defog|p2a: Excadrill
+|-unboost|p2a: Excadrill|evasion|1
+|-sideend|p1: ydm14|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|
+|-heal|p1a: Corviknight|87/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Excadrill|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: ydm14|move: Stealth Rock
+|move|p1a: Corviknight|Body Press|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-heal|p1a: Corviknight|93/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F, shiny|100/100
+|turn|7
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|-damage|p1a: Corsola|88/100|[from] Stealth Rock
+|move|p2a: Cinderace|Taunt|p1a: Corsola
+|-start|p1a: Corsola|move: Taunt
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Cinderace|Bulk Up|p2a: Cinderace
+|-boost|p2a: Cinderace|atk|1
+|-boost|p2a: Cinderace|def|1
+|move|p1a: Corsola|Night Shade|p2a: Cinderace
+|-damage|p2a: Cinderace|67/100
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Cinderace|Bulk Up|p2a: Cinderace
+|-boost|p2a: Cinderace|atk|1
+|-boost|p2a: Cinderace|def|1
+|move|p1a: Corsola|Night Shade|p2a: Cinderace
+|-damage|p2a: Cinderace|34/100
+|
+|-end|p1a: Corsola|move: Taunt
+|upkeep
+|turn|10
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Corsola|[miss]
+|-miss|p2a: Cinderace|p1a: Corsola
+|move|p1a: Corsola|Strength Sap|p2a: Cinderace
+|-unboost|p2a: Cinderace|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Cinderace|Taunt|p1a: Corsola
+|-start|p1a: Corsola|move: Taunt
+|move|p1a: Corsola|Night Shade|p2a: Cinderace
+|-damage|p2a: Cinderace|1/100
+|-enditem|p2a: Cinderace|Iapapa Berry|[eat]
+|-heal|p2a: Cinderace|34/100|[from] item: Iapapa Berry
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Corsola
+|-damage|p1a: Corsola|54/100
+|-status|p1a: Corsola|brn
+|move|p1a: Corsola|Night Shade|p2a: Cinderace
+|-damage|p2a: Cinderace|1/100
+|
+|-damage|p1a: Corsola|48/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|-damage|p1a: Aegislash|94/100|[from] Stealth Rock
+|turn|14
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Sneak|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|turn|15
+|
+|switch|p1a: Corviknight|Corviknight, M|93/100
+|-damage|p1a: Corviknight|80/100|[from] Stealth Rock
+|move|p2a: Hawlucha|Substitute|p2a: Hawlucha
+|-start|p2a: Hawlucha|Substitute
+|-damage|p2a: Hawlucha|76/100
+|
+|-heal|p1a: Corviknight|87/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Corviknight|Defog|p2a: Hawlucha
+|-sideend|p1: ydm14|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|
+|-heal|p1a: Corviknight|93/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|-heal|p1a: Corviknight|99/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Hawlucha|Throat Chop|p1a: Corviknight
+|-damage|p1a: Corviknight|70/100
+|-start|p1a: Corviknight|Throat Chop|[silent]
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|-heal|p1a: Corviknight|76/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|-heal|p1a: Corviknight|83/100|[from] item: Leftovers
+|-end|p1a: Corviknight|Throat Chop|[silent]
+|upkeep
+|turn|20
+|
+|move|p2a: Hawlucha|Throat Chop|p1a: Corviknight
+|-damage|p1a: Corviknight|63/100
+|-start|p1a: Corviknight|Throat Chop|[silent]
+|move|p1a: Corviknight|Body Press|p2a: Hawlucha
+|-resisted|p2a: Hawlucha
+|-end|p2a: Hawlucha|Substitute
+|
+|-heal|p1a: Corviknight|69/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Dragapult|Dragapult, F, shiny|100/100 par
+|move|p1a: Corviknight|Body Press|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-heal|p1a: Corviknight|76/100|[from] item: Leftovers
+|-end|p1a: Corviknight|Throat Chop|[silent]
+|upkeep
+|turn|22
+|
+|switch|p1a: Obstagoon|Obstagoon, F|100/100
+|move|p2a: Dragapult|Fire Blast|p1a: Obstagoon
+|-damage|p1a: Obstagoon|61/100
+|
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|23
+|
+|move|p1a: Obstagoon|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-enditem|p2a: Dragapult|Assault Vest|[from] move: Knock Off|[of] p1a: Obstagoon
+|faint|p2a: Dragapult
+|
+|-damage|p1a: Obstagoon|55/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|24
+|
+|move|p1a: Obstagoon|Knock Off|p2a: Grimmsnarl
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|86/100
+|-enditem|p2a: Grimmsnarl|Figy Berry|[from] move: Knock Off|[of] p1a: Obstagoon
+|-enditem|p1a: Obstagoon|Flame Orb|[silent]|[from] ability: Pickpocket|[of] p1a: Obstagoon
+|-item|p2a: Grimmsnarl|Flame Orb|[from] ability: Pickpocket|[of] p1a: Obstagoon
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Obstagoon
+|-supereffective|p1a: Obstagoon
+|-damage|p1a: Obstagoon|0 fnt
+|faint|p1a: Obstagoon
+|
+|-status|p2a: Grimmsnarl|brn|[from] item: Flame Orb
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|turn|25
+|
+|move|p1a: Clefable|Cosmic Power|p1a: Clefable
+|-boost|p1a: Clefable|def|1
+|-boost|p1a: Clefable|spd|1
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Clefable
+|-damage|p1a: Clefable|87/100
+|-unboost|p1a: Clefable|spa|1
+|
+|-damage|p2a: Grimmsnarl|79/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|switch|p2a: Toxtricity|Toxtricity-Low-Key, M|100/100
+|move|p1a: Clefable|Cosmic Power|p1a: Clefable
+|-boost|p1a: Clefable|def|1
+|-boost|p1a: Clefable|spd|1
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Toxtricity|Thunder Wave|p1a: Clefable
+|-status|p1a: Clefable|par
+|move|p1a: Clefable|Mystical Fire|p2a: Toxtricity
+|-damage|p2a: Toxtricity|76/100
+|-unboost|p2a: Toxtricity|spa|1
+|
+|upkeep
+|turn|28
+|
+|switch|p2a: Hawlucha|Hawlucha, F|76/100
+|move|p1a: Clefable|Moonblast|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity-Low-Key, M|76/100
+|turn|29
+|
+|move|p2a: Toxtricity|Hex|p1a: Clefable
+|-damage|p1a: Clefable|65/100 par
+|move|p1a: Clefable|Mystical Fire|p2a: Toxtricity
+|-damage|p2a: Toxtricity|50/100
+|-unboost|p2a: Toxtricity|spa|1
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Clefable
+|-damage|p1a: Clefable|44/100 par
+|move|p1a: Clefable|Moonblast|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|25/100
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Clefable
+|-damage|p1a: Clefable|24/100 par
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|74/100 par
+|
+|upkeep
+|turn|32
+|-message|assassinpro12 forfeited.
+|
+|win|ydm14
+|l|☆assassinpro12
+|raw|ydm14's rating: 1132 → 1155(+23 for winning)
+|raw|assassinpro12's rating: 1096 → 1074(-22 for losing)

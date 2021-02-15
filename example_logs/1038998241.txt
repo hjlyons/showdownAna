@@ -1,0 +1,308 @@
+|ScrapeTime|2020-01-01-04:14:43
+|j|☆skotus
+|j|☆JediMindTrix
+|player|p1|skotus|266|1185
+|player|p2|JediMindTrix|blaine|1177
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cloyster, M|
+|poke|p1|Beartic, F|
+|poke|p1|Vanilluxe, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Jolteon, M|
+|poke|p2|Shuckle, M|
+|poke|p2|Toxtricity, F|
+|poke|p2|Tsareena, F|
+|poke|p2|Dracovish|
+|poke|p2|Reuniclus, F|
+|poke|p2|Grimmsnarl, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Vanilluxe|Vanilluxe, F|100/100
+|switch|p2a: Shuckle|Shuckle, M, shiny|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JediMindTrix)
+|
+|move|p1a: Vanilluxe|Taunt|p2a: Shuckle
+|-start|p2a: Shuckle|move: Taunt
+|-enditem|p2a: Shuckle|Mental Herb
+|-end|p2a: Shuckle|move: Taunt
+|move|p2a: Shuckle|Sticky Web|p1a: Vanilluxe
+|-sidestart|p1: skotus|move: Sticky Web
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Shuckle|94/100|[from] Hail
+|upkeep
+|turn|2
+|
+|move|p1a: Vanilluxe|Taunt|p2a: Shuckle
+|-start|p2a: Shuckle|move: Taunt
+|cant|p2a: Shuckle|move: Taunt|Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Shuckle|88/100|[from] Hail
+|upkeep
+|turn|3
+|
+|move|p1a: Vanilluxe|Aurora Veil|p1a: Vanilluxe
+|-sidestart|p1: skotus|move: Aurora Veil
+|move|p2a: Shuckle|Knock Off|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|96/100
+|-enditem|p1a: Vanilluxe|Icy Rock|[from] move: Knock Off|[of] p2a: Shuckle
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Shuckle|82/100|[from] Hail
+|upkeep
+|turn|4
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-activate|p1a: Excadrill|move: Sticky Web
+|-unboost|p1a: Excadrill|spe|1
+|-ability|p1a: Excadrill|Mold Breaker
+|switch|p2a: Reuniclus|Reuniclus, F, shiny|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Excadrill|94/100|[from] Hail
+|upkeep
+|turn|5
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Reuniclus
+|-damage|p2a: Reuniclus|86/100
+|-sideend|p1: skotus|Sticky Web|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|move|p2a: Reuniclus|Acid Armor|p2a: Reuniclus
+|-boost|p2a: Reuniclus|def|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Excadrill|88/100|[from] Hail
+|-heal|p2a: Reuniclus|92/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Beartic|Beartic, F|100/100
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Reuniclus|98/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Beartic|Night Slash|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|73/100
+|-damage|p1a: Beartic|91/100|[from] item: Life Orb
+|move|p2a: Reuniclus|Acid Armor|p2a: Reuniclus
+|-boost|p2a: Reuniclus|def|2
+|
+|-weather|Hail|[upkeep]
+|-heal|p2a: Reuniclus|79/100|[from] item: Leftovers
+|-sideend|p1: skotus|move: Aurora Veil
+|upkeep
+|turn|8
+|
+|move|p1a: Beartic|Night Slash|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|61/100
+|-damage|p1a: Beartic|81/100|[from] item: Life Orb
+|move|p2a: Reuniclus|Acid Armor|p2a: Reuniclus
+|-boost|p2a: Reuniclus|def|2
+|
+|-weather|none
+|-heal|p2a: Reuniclus|67/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Beartic|Night Slash|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-crit|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|-damage|p1a: Beartic|71/100|[from] item: Life Orb
+|faint|p2a: Reuniclus
+|
+|upkeep
+|
+|switch|p2a: Shuckle|Shuckle, M, shiny|82/100
+|turn|10
+|
+|move|p1a: Beartic|Superpower|p2a: Shuckle
+|-damage|p2a: Shuckle|30/100
+|-unboost|p1a: Beartic|atk|1
+|-unboost|p1a: Beartic|def|1
+|-damage|p1a: Beartic|61/100|[from] item: Life Orb
+|move|p2a: Shuckle|Sticky Web|p1a: Beartic
+|-sidestart|p1: skotus|move: Sticky Web
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Beartic|Superpower|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|-unboost|p1a: Beartic|atk|1
+|-unboost|p1a: Beartic|def|1
+|-damage|p1a: Beartic|51/100|[from] item: Life Orb
+|faint|p2a: Shuckle
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|12
+|
+|switch|p1a: Vanilluxe|Vanilluxe, F|96/100
+|-activate|p1a: Vanilluxe|move: Sticky Web
+|-unboost|p1a: Vanilluxe|spe|1
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|move|p2a: Dracovish|Fishious Rend|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|0 fnt
+|faint|p1a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dracovish|94/100|[from] Hail
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|88/100
+|-activate|p1a: Excadrill|move: Sticky Web
+|-unboost|p1a: Excadrill|spe|1
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|13
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dracovish|88/100|[from] Hail
+|upkeep
+|
+|switch|p1a: Beartic|Beartic, F|51/100
+|-activate|p1a: Beartic|move: Sticky Web
+|-unboost|p1a: Beartic|spe|1
+|turn|14
+|
+|switch|p2a: Tsareena|Tsareena, F, shiny|100/100
+|move|p1a: Beartic|Icicle Crash|p2a: Tsareena
+|-supereffective|p2a: Tsareena
+|-damage|p2a: Tsareena|0 fnt
+|-damage|p1a: Beartic|41/100|[from] item: Life Orb
+|faint|p2a: Tsareena
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|15
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Beartic
+|-status|p1a: Beartic|par
+|move|p1a: Beartic|Superpower|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|24/100
+|-unboost|p1a: Beartic|atk|1
+|-unboost|p1a: Beartic|def|1
+|-damage|p1a: Beartic|31/100 par|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Grimmsnarl|18/100|[from] Hail
+|upkeep
+|turn|16
+|
+|move|p2a: Grimmsnarl|Sucker Punch|p1a: Beartic
+|-damage|p1a: Beartic|0 fnt
+|faint|p1a: Beartic
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|-activate|p1a: Cloyster|move: Sticky Web
+|-unboost|p1a: Cloyster|spe|1
+|turn|17
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Cloyster
+|-status|p1a: Cloyster|par
+|cant|p1a: Cloyster|par
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Grimmsnarl|Play Rough|p1a: Cloyster
+|-damage|p1a: Cloyster|57/100 par
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Grimmsnarl|Sucker Punch|p1a: Cloyster
+|-damage|p1a: Cloyster|11/100 par
+|move|p1a: Cloyster|Icicle Spear|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-hitcount|p2a: Grimmsnarl|1
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|88/100
+|turn|20
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|upkeep
+|
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|-activate|p1a: Jolteon|move: Sticky Web
+|-unboost|p1a: Jolteon|spe|1
+|turn|21
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Jolteon
+|-enditem|p1a: Jolteon|Focus Sash
+|-damage|p1a: Jolteon|1/100
+|move|p1a: Jolteon|Discharge|p2a: Dracovish
+|-damage|p2a: Dracovish|37/100
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|turn|23
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|win|JediMindTrix
+|raw|skotus's rating: 1185 → 1160(-25 for losing)
+|raw|JediMindTrix's rating: 1177 → 1202(+25 for winning)
+|c|☆JediMindTrix|Gg
+|c|☆skotus|Gg
+|l|☆skotus

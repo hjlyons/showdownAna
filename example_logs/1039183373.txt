@@ -1,0 +1,241 @@
+|ScrapeTime|2020-01-01-16:24:53
+|j|☆polona
+|j|☆smearingpaint
+|player|p1|polona|red|1000
+|player|p2|smearingpaint|mars|1009
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Charizard, M|
+|poke|p1|Shuckle, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Sneasel, F|
+|poke|p2|Pincurchin, F|
+|poke|p2|Rapidash-Galar, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Obstagoon, M|
+|poke|p2|Linoone-Galar, F|
+|poke|p2|Jolteon, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by smearingpaint)
+|
+|start
+|switch|p1a: Minero|Excadrill, M|100/100
+|switch|p2a: Pincurchin|Pincurchin, F|100/100
+|-ability|p1a: Minero|Mold Breaker
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|1
+|
+|move|p1a: Minero|Earthquake|p2a: Pincurchin
+|-supereffective|p2a: Pincurchin
+|-enditem|p2a: Pincurchin|Focus Sash
+|-damage|p2a: Pincurchin|1/100
+|-damage|p1a: Minero|91/100|[from] item: Life Orb
+|move|p2a: Pincurchin|Toxic Spikes|p1a: Minero
+|-sidestart|p1: polona|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Pincurchin|Sucker Punch|p1a: Minero
+|-damage|p1a: Minero|58/100
+|move|p1a: Minero|Rock Slide|p2a: Pincurchin
+|-damage|p2a: Pincurchin|0 fnt
+|-damage|p1a: Minero|48/100|[from] item: Life Orb
+|faint|p2a: Pincurchin
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|3
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p1: polona|Toxic Spikes|[silent]
+|-sidestart|p2: smearingpaint|Toxic Spikes|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Minero|Earthquake|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-damage|p1a: Minero|38/100|[from] item: Life Orb
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Linoone|Linoone-Galar, F|100/100
+|-status|p2a: Linoone|psn
+|turn|4
+|inactive|polona has 120 seconds left.
+|
+|move|p2a: Linoone|Knock Off|p1a: Minero
+|-damage|p1a: Minero|0 fnt
+|-enditem|p1a: Minero|Life Orb|[from] move: Knock Off|[of] p2a: Linoone
+|faint|p1a: Minero
+|
+|-damage|p2a: Linoone|88/100 psn|[from] psn
+|upkeep
+|inactive|polona has 120 seconds left.
+|inactive|polona has 90 seconds left.
+|
+|switch|p1a: nose me ocurre nad|Ferrothorn, F|100/100
+|turn|5
+|
+|move|p2a: Linoone|Knock Off|p1a: nose me ocurre nad
+|-damage|p1a: nose me ocurre nad|69/100
+|-damage|p2a: Linoone|76/100 psn|[from] ability: Iron Barbs|[of] p1a: nose me ocurre nad
+|-damage|p2a: Linoone|59/100 psn|[from] item: Rocky Helmet|[of] p1a: nose me ocurre nad
+|-enditem|p1a: nose me ocurre nad|Rocky Helmet|[from] move: Knock Off|[of] p2a: Linoone
+|move|p1a: nose me ocurre nad|Leech Seed|p2a: Linoone
+|-start|p2a: Linoone|move: Leech Seed
+|
+|-damage|p2a: Linoone|47/100 psn|[from] Leech Seed|[of] p1a: nose me ocurre nad
+|-heal|p1a: nose me ocurre nad|79/100|[silent]
+|-damage|p2a: Linoone|34/100 psn|[from] psn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|move|p2a: Linoone|Knock Off|p1a: nose me ocurre nad
+|-damage|p1a: nose me ocurre nad|58/100
+|-damage|p2a: Linoone|22/100 psn|[from] ability: Iron Barbs|[of] p1a: nose me ocurre nad
+|move|p1a: nose me ocurre nad|Stealth Rock|p2a: Linoone
+|-sidestart|p2: smearingpaint|move: Stealth Rock
+|
+|-damage|p2a: Linoone|10/100 psn|[from] Leech Seed|[of] p1a: nose me ocurre nad
+|-heal|p1a: nose me ocurre nad|69/100|[silent]
+|-damage|p2a: Linoone|0 fnt|[from] psn
+|faint|p2a: Linoone
+|upkeep
+|
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|-damage|p2a: Jolteon|88/100|[from] Stealth Rock
+|-status|p2a: Jolteon|psn
+|turn|7
+|
+|move|p2a: Jolteon|Electro Ball|p1a: nose me ocurre nad
+|-resisted|p1a: nose me ocurre nad
+|-damage|p1a: nose me ocurre nad|24/100
+|-damage|p2a: Jolteon|78/100 psn|[from] item: Life Orb
+|move|p1a: nose me ocurre nad|Leech Seed|p2a: Jolteon
+|-start|p2a: Jolteon|move: Leech Seed
+|
+|-damage|p2a: Jolteon|66/100 psn|[from] Leech Seed|[of] p1a: nose me ocurre nad
+|-heal|p1a: nose me ocurre nad|34/100|[silent]
+|-damage|p2a: Jolteon|53/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|move|p2a: Jolteon|Electro Ball|p1a: nose me ocurre nad
+|-resisted|p1a: nose me ocurre nad
+|-crit|p1a: nose me ocurre nad
+|-damage|p1a: nose me ocurre nad|0 fnt
+|-damage|p2a: Jolteon|43/100 psn|[from] item: Life Orb
+|faint|p1a: nose me ocurre nad
+|
+|-damage|p2a: Jolteon|31/100 psn|[from] psn
+|upkeep
+|
+|switch|p1a: guarro 100%|Shuckle, F|100/100
+|turn|9
+|
+|move|p2a: Jolteon|Electro Ball|p1a: guarro 100%
+|-damage|p1a: guarro 100%|40/100
+|-damage|p2a: Jolteon|21/100 psn|[from] item: Life Orb
+|move|p1a: guarro 100%|Sticky Web|p2a: Jolteon
+|-sidestart|p2: smearingpaint|move: Sticky Web
+|
+|-damage|p2a: Jolteon|8/100 psn|[from] Leech Seed|[of] p1a: guarro 100%
+|-heal|p1a: guarro 100%|54/100|[silent]
+|-damage|p2a: Jolteon|0 fnt|[from] psn
+|faint|p2a: Jolteon
+|upkeep
+|
+|switch|p2a: Rapidash|Rapidash-Galar, M|100/100
+|-damage|p2a: Rapidash|88/100|[from] Stealth Rock
+|-activate|p2a: Rapidash|move: Sticky Web
+|-unboost|p2a: Rapidash|spe|1
+|turn|10
+|inactive|polona has 120 seconds left.
+|
+|move|p2a: Rapidash|Calm Mind|p2a: Rapidash
+|-boost|p2a: Rapidash|spa|1
+|-boost|p2a: Rapidash|spd|1
+|move|p1a: guarro 100%|Infestation|p2a: Rapidash
+|-damage|p2a: Rapidash|84/100
+|-activate|p2a: Rapidash|move: Infestation|[of] p1a: guarro 100%
+|
+|-damage|p2a: Rapidash|71/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|11
+|
+|move|p2a: Rapidash|Calm Mind|p2a: Rapidash
+|-boost|p2a: Rapidash|spa|1
+|-boost|p2a: Rapidash|spd|1
+|move|p1a: guarro 100%|Earth Power|p2a: Rapidash
+|-damage|p2a: Rapidash|62/100
+|
+|-damage|p2a: Rapidash|49/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|12
+|
+|move|p2a: Rapidash|Calm Mind|p2a: Rapidash
+|-boost|p2a: Rapidash|spa|1
+|-boost|p2a: Rapidash|spd|1
+|move|p1a: guarro 100%|Earth Power|p2a: Rapidash
+|-damage|p2a: Rapidash|41/100
+|
+|-damage|p2a: Rapidash|29/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|13
+|
+|move|p2a: Rapidash|Stored Power|p1a: guarro 100%
+|-damage|p1a: guarro 100%|0 fnt
+|faint|p1a: guarro 100%
+|
+|-end|p2a: Rapidash|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|
+|switch|p1a: esa no te ama|Sneasel, F|100/100
+|turn|14
+|
+|move|p1a: esa no te ama|Icicle Crash|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|
+|upkeep
+|
+|switch|p2a: Obstagoon|Obstagoon, M|100/100
+|-status|p2a: Obstagoon|psn
+|-activate|p2a: Obstagoon|move: Sticky Web
+|-unboost|p2a: Obstagoon|spe|1
+|-damage|p2a: Obstagoon|88/100 psn|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: esa no te ama|Icicle Crash|p2a: Obstagoon
+|-damage|p2a: Obstagoon|48/100 psn
+|cant|p2a: Obstagoon|flinch
+|
+|-damage|p2a: Obstagoon|35/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|move|p1a: esa no te ama|Icicle Crash|p2a: Obstagoon
+|-damage|p2a: Obstagoon|0 fnt
+|faint|p2a: Obstagoon
+|
+|win|polona
+|l|☆smearingpaint
+|raw|polona's rating: 1000 → 1041(+41 for winning)
+|raw|smearingpaint's rating: 1009 → 1000(-9 for losing)

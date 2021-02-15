@@ -1,0 +1,372 @@
+|ScrapeTime|2020-01-01-18:55:00
+|j|☆TwistedFerrisWheel
+|j|☆pierrny
+|player|p1|TwistedFerrisWheel|benga|1073
+|player|p2|pierrny|163|1091
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Togekiss, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Gastrodon, M|
+|poke|p1|Obstagoon, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Barraskewda, F|
+|poke|p2|Dracovish|
+|poke|p2|Dragapult, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pierrny)
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Corsola|Corsola-Galar, F, shiny|100/100
+|turn|1
+|
+|move|p2a: Corsola|Will-O-Wisp|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Corsola
+|-start|p2a: Corsola|move: Leech Seed
+|
+|-damage|p2a: Corsola|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p2a: Corsola|Night Shade|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|60/100 brn
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Corsola
+|-sidestart|p2: pierrny|move: Stealth Rock
+|
+|-heal|p1a: Ferrothorn|66/100 brn|[from] item: Leftovers
+|-damage|p2a: Corsola|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|77/100 brn|[silent]
+|-damage|p1a: Ferrothorn|71/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Corsola|Strength Sap|p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|atk|1
+|-heal|p2a: Corsola|100/100
+|move|p1a: Ferrothorn|Seed Bomb|p2a: Corsola
+|-damage|p2a: Corsola|94/100
+|
+|-heal|p1a: Ferrothorn|77/100 brn|[from] item: Leftovers
+|-damage|p2a: Corsola|82/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|88/100 brn|[silent]
+|-damage|p1a: Ferrothorn|82/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Barraskewda|Barraskewda, F, shiny|100/100
+|-damage|p2a: Barraskewda|88/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Iron Head|p2a: Barraskewda
+|-resisted|p2a: Barraskewda
+|-crit|p2a: Barraskewda
+|-damage|p2a: Barraskewda|69/100
+|
+|-heal|p1a: Ferrothorn|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|82/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p2a: Barraskewda|Close Combat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Barraskewda|56/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-unboost|p2a: Barraskewda|def|1
+|-unboost|p2a: Barraskewda|spd|1
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|6
+|
+|move|p2a: Barraskewda|Close Combat|p1a: Rotom
+|-damage|p1a: Rotom|33/100
+|-unboost|p2a: Barraskewda|def|1
+|-unboost|p2a: Barraskewda|spd|1
+|move|p1a: Rotom|Volt Switch|p2a: Barraskewda
+|-supereffective|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|faint|p2a: Barraskewda
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|turn|7
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Togekiss
+|-damage|p1a: Togekiss|18/100
+|move|p1a: Togekiss|Dazzling Gleam|p2a: Dracovish
+|-supereffective|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|upkeep
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-damage|p2a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|8
+|
+|move|p1a: Togekiss|Dazzling Gleam|p2a: Pelipper
+|-damage|p2a: Pelipper|9/100
+|move|p2a: Pelipper|Hurricane|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|33/100
+|turn|9
+|
+|move|p2a: Pelipper|Hurricane|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|7/100
+|move|p1a: Rotom|Volt Switch|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|switch|p1a: Obstagoon|Obstagoon, F|100/100|[from]move: Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M, shiny|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Obstagoon|Stomping Tantrum|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|55/100
+|move|p2a: Toxapex|Substitute|p2a: Toxapex
+|-start|p2a: Toxapex|Substitute
+|-damage|p2a: Toxapex|30/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|36/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Obstagoon|Stomping Tantrum|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|-status|p1a: Obstagoon|psn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|42/100|[from] item: Black Sludge
+|-damage|p1a: Obstagoon|88/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|move|p1a: Obstagoon|Stomping Tantrum|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-end|p2a: Toxapex|Substitute
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|93/100
+|
+|-weather|none
+|-heal|p2a: Toxapex|99/100|[from] item: Black Sludge
+|-damage|p1a: Obstagoon|76/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Obstagoon|Stomping Tantrum|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p1a: Obstagoon|64/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|move|p1a: Obstagoon|Stomping Tantrum|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|66/100
+|move|p2a: Toxapex|Substitute|p2a: Toxapex
+|-start|p2a: Toxapex|Substitute
+|-damage|p2a: Toxapex|42/100
+|
+|-heal|p2a: Toxapex|48/100|[from] item: Black Sludge
+|-damage|p1a: Obstagoon|52/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|move|p1a: Obstagoon|Close Combat|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Substitute|[damage]
+|-unboost|p1a: Obstagoon|def|1
+|-unboost|p1a: Obstagoon|spd|1
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|98/100
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p1a: Obstagoon|39/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|move|p1a: Obstagoon|Stomping Tantrum|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-end|p2a: Toxapex|Substitute
+|move|p2a: Toxapex|Substitute|p2a: Toxapex
+|-start|p2a: Toxapex|Substitute
+|-damage|p2a: Toxapex|76/100
+|
+|-heal|p2a: Toxapex|82/100|[from] item: Black Sludge
+|-damage|p1a: Obstagoon|27/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|move|p1a: Obstagoon|Stomping Tantrum|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-end|p2a: Toxapex|Substitute
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-damage|p1a: Obstagoon|15/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|move|p1a: Obstagoon|Stomping Tantrum|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|65/100
+|move|p2a: Toxapex|Substitute|p2a: Toxapex
+|-start|p2a: Toxapex|Substitute
+|-damage|p2a: Toxapex|40/100
+|
+|-heal|p2a: Toxapex|46/100|[from] item: Black Sludge
+|-damage|p1a: Obstagoon|3/100 psn|[from] psn
+|upkeep
+|turn|19
+|
+|move|p1a: Obstagoon|Stomping Tantrum|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-end|p2a: Toxapex|Substitute
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|96/100
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p1a: Obstagoon|0 fnt|[from] psn
+|faint|p1a: Obstagoon
+|upkeep
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|turn|20
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Gastrodon|Earth Power|p2a: Dragapult
+|-damage|p2a: Dragapult|35/100
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Gastrodon
+|-damage|p1a: Gastrodon|17/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Gastrodon|Ice Beam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, F, shiny|82/100
+|-damage|p2a: Corsola|70/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Gastrodon|Earth Power|p2a: Corsola
+|-damage|p2a: Corsola|46/100
+|move|p2a: Corsola|Night Shade|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|7/100
+|turn|23
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Corsola
+|-damage|p2a: Corsola|20/100
+|-start|p1a: Rotom|Disable|Hydro Pump|[from] ability: Cursed Body|[of] p2a: Corsola
+|move|p2a: Corsola|Night Shade|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|24
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-start|p1a: Cinderace|Disable|Pyro Ball|[from] ability: Cursed Body|[of] p2a: Corsola
+|-damage|p1a: Cinderace|91/100|[from] item: Life Orb
+|faint|p2a: Corsola
+|
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M, shiny|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Cinderace|Zen Headbutt|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|-status|p1a: Cinderace|psn
+|
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|-damage|p1a: Cinderace|78/100 psn|[from] psn
+|upkeep
+|turn|26
+|
+|move|p1a: Cinderace|Zen Headbutt|p2a: Toxapex|[miss]
+|-miss|p1a: Cinderace|p2a: Toxapex
+|move|p2a: Toxapex|Substitute|p2a: Toxapex
+|-start|p2a: Toxapex|Substitute
+|-damage|p2a: Toxapex|69/100
+|
+|-heal|p2a: Toxapex|76/100|[from] item: Black Sludge
+|-damage|p1a: Cinderace|66/100 psn|[from] psn
+|upkeep
+|turn|27
+|
+|move|p1a: Cinderace|Zen Headbutt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-end|p2a: Toxapex|Substitute
+|-damage|p1a: Cinderace|56/100 psn|[from] item: Life Orb
+|move|p2a: Toxapex|Scald|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|4/100 psn
+|
+|-heal|p2a: Toxapex|82/100|[from] item: Black Sludge
+|-damage|p1a: Cinderace|0 fnt|[from] psn
+|faint|p1a: Cinderace
+|
+|win|pierrny
+|upkeep
+|l|☆TwistedFerrisWheel

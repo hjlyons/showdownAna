@@ -1,0 +1,370 @@
+|ScrapeTime|2020-01-01-15:04:57
+|j|☆Paradiigme
+|j|☆NasPena2
+|player|p1|Paradiigme|282|1457
+|player|p2|NasPena2|blaine|1431
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Kommo-o, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Toxtricity, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Clefable, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Clefable, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Seismitoad, F|
+|poke|p2|Ferrothorn, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Paradiigme)
+|inactive|NasPena2 has 120 seconds left.
+|
+|start
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|switch|p2a: Nettles|Ferrothorn, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p1a: Excadrill|Stealth Rock|p2a: Nettles
+|-sidestart|p2: NasPena2|move: Stealth Rock
+|move|p2a: Nettles|Knock Off|p1a: Excadrill
+|-damage|p1a: Excadrill|69/100
+|-enditem|p1a: Excadrill|Focus Sash|[from] move: Knock Off|[of] p2a: Nettles
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Excadrill|Earthquake|p2a: Nettles
+|-damage|p2a: Nettles|63/100
+|move|p2a: Nettles|Leech Seed|p1a: Excadrill
+|-start|p1a: Excadrill|move: Leech Seed
+|
+|-heal|p2a: Nettles|69/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|57/100|[from] Leech Seed|[of] p2a: Nettles
+|-heal|p2a: Nettles|82/100|[silent]
+|upkeep
+|turn|3
+|
+|move|p1a: Excadrill|Earthquake|p2a: Nettles
+|-damage|p2a: Nettles|41/100
+|move|p2a: Nettles|Spikes|p1a: Excadrill
+|-sidestart|p1: Paradiigme|Spikes
+|
+|-heal|p2a: Nettles|48/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|45/100|[from] Leech Seed|[of] p2a: Nettles
+|-heal|p2a: Nettles|60/100|[silent]
+|upkeep
+|turn|4
+|
+|switch|p2a: Gamma Bunta|Seismitoad, F|100/100
+|-damage|p2a: Gamma Bunta|94/100|[from] Stealth Rock
+|move|p1a: Excadrill|Earthquake|p2a: Gamma Bunta
+|-damage|p2a: Gamma Bunta|57/100
+|
+|-heal|p2a: Gamma Bunta|63/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|32/100|[from] Leech Seed|[of] p2a: Gamma Bunta
+|-heal|p2a: Gamma Bunta|74/100|[silent]
+|upkeep
+|turn|5
+|
+|move|p2a: Gamma Bunta|Protect|p2a: Gamma Bunta
+|-singleturn|p2a: Gamma Bunta|Protect
+|move|p1a: Excadrill|Rapid Spin|p2a: Gamma Bunta
+|-activate|p2a: Gamma Bunta|move: Protect
+|
+|-heal|p2a: Gamma Bunta|80/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|20/100|[from] Leech Seed|[of] p2a: Gamma Bunta
+|-heal|p2a: Gamma Bunta|91/100|[silent]
+|upkeep
+|turn|6
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Gamma Bunta
+|-damage|p2a: Gamma Bunta|77/100
+|-end|p1a: Excadrill|Leech Seed|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-sideend|p1: Paradiigme|Spikes|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|move|p2a: Gamma Bunta|Stealth Rock|p1a: Excadrill
+|-sidestart|p1: Paradiigme|move: Stealth Rock
+|
+|-heal|p2a: Gamma Bunta|83/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Gamma Bunta
+|-damage|p2a: Gamma Bunta|69/100
+|-sideend|p1: Paradiigme|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|move|p2a: Gamma Bunta|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-heal|p2a: Gamma Bunta|75/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|turn|8
+|
+|move|p1a: Kommo-o|Substitute|p1a: Kommo-o
+|-start|p1a: Kommo-o|Substitute
+|-damage|p1a: Kommo-o|75/100
+|move|p2a: Gamma Bunta|Toxic||[still]
+|-fail|p2a: Gamma Bunta
+|
+|-heal|p2a: Gamma Bunta|81/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Ernesto|Conkeldurr, M, shiny|100/100
+|-damage|p2a: Ernesto|94/100|[from] Stealth Rock
+|move|p1a: Kommo-o|Belly Drum|p1a: Kommo-o
+|-damage|p1a: Kommo-o|25/100
+|-setboost|p1a: Kommo-o|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Kommo-o|Salac Berry|[eat]
+|-boost|p1a: Kommo-o|spe|1
+|
+|-status|p2a: Ernesto|brn|[from] item: Flame Orb
+|upkeep
+|turn|10
+|
+|move|p2a: Ernesto|Mach Punch|p1a: Kommo-o
+|-end|p1a: Kommo-o|Substitute
+|move|p1a: Kommo-o|Drain Punch|p2a: Ernesto
+|-damage|p2a: Ernesto|0 fnt
+|-heal|p1a: Kommo-o|89/100|[from] drain|[of] p2a: Ernesto
+|faint|p2a: Ernesto
+|
+|upkeep
+|
+|switch|p2a: Regie|Hydreigon, M, shiny|100/100
+|-damage|p2a: Regie|88/100|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Regie|Draco Meteor|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|-unboost|p2a: Regie|spa|2
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|turn|12
+|
+|switch|p2a: Nettles|Ferrothorn, M|60/100
+|-damage|p2a: Nettles|54/100|[from] Stealth Rock
+|move|p1a: Toxtricity|Shift Gear|p1a: Toxtricity
+|-boost|p1a: Toxtricity|spe|2
+|-boost|p1a: Toxtricity|atk|1
+|
+|-heal|p2a: Nettles|60/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Gamma Bunta|Seismitoad, F|81/100
+|-damage|p2a: Gamma Bunta|75/100|[from] Stealth Rock
+|move|p1a: Toxtricity|Boomburst|p2a: Gamma Bunta
+|-damage|p2a: Gamma Bunta|14/100
+|-enditem|p1a: Toxtricity|Throat Spray
+|-boost|p1a: Toxtricity|spa|1
+|
+|-heal|p2a: Gamma Bunta|20/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Gamma Bunta
+|-damage|p2a: Gamma Bunta|0 fnt
+|faint|p2a: Gamma Bunta
+|
+|upkeep
+|
+|switch|p2a: Nettles|Ferrothorn, M|60/100
+|-damage|p2a: Nettles|54/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Nettles
+|-resisted|p2a: Nettles
+|-damage|p2a: Nettles|24/100
+|move|p2a: Nettles|Leech Seed|p1a: Toxtricity
+|-start|p1a: Toxtricity|move: Leech Seed
+|
+|-heal|p2a: Nettles|30/100|[from] item: Leftovers
+|-damage|p1a: Toxtricity|88/100|[from] Leech Seed|[of] p2a: Nettles
+|-heal|p2a: Nettles|41/100|[silent]
+|upkeep
+|turn|16
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Nettles|Knock Off|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|88/100
+|-enditem|p1a: Clefable|Life Orb|[from] move: Knock Off|[of] p2a: Nettles
+|
+|-heal|p2a: Nettles|47/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Hotbox|Rotom-Heat, shiny|100/100
+|move|p1a: Clefable|Flamethrower|p2a: Hotbox
+|-resisted|p2a: Hotbox
+|-damage|p2a: Hotbox|85/100
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Hotbox|Thunder Wave|p1a: Rotom
+|-immune|p1a: Rotom
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Nettles|Ferrothorn, M|47/100
+|-damage|p2a: Nettles|41/100|[from] Stealth Rock
+|move|p1a: Rotom|Trick|p2a: Nettles
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Nettles
+|-item|p2a: Nettles|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Nettles
+|-status|p2a: Nettles|brn
+|move|p2a: Nettles|Power Whip|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|62/100
+|
+|-heal|p1a: Rotom|67/100|[from] item: Leftovers
+|-damage|p2a: Nettles|34/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p1a: Rotom|Volt Switch|p2a: Nettles
+|-resisted|p2a: Nettles
+|-damage|p2a: Nettles|26/100 brn
+|
+|switch|p1a: Toxtricity|Toxtricity, M|88/100|[from]move: Volt Switch
+|move|p2a: Nettles|Power Whip|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|74/100
+|
+|-damage|p2a: Nettles|20/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p2a: Hotbox|Rotom-Heat, shiny|85/100
+|move|p1a: Toxtricity|Shift Gear|p1a: Toxtricity
+|-boost|p1a: Toxtricity|spe|2
+|-boost|p1a: Toxtricity|atk|1
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Hotbox
+|-damage|p2a: Hotbox|18/100
+|move|p2a: Hotbox|Overheat|p1a: Toxtricity
+|-damage|p1a: Toxtricity|5/100
+|-unboost|p2a: Hotbox|spa|2
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Nettles|Ferrothorn, M|20/100 brn
+|-damage|p2a: Nettles|14/100 brn|[from] Stealth Rock
+|move|p1a: Toxtricity|Boomburst|p2a: Nettles
+|-resisted|p2a: Nettles
+|-damage|p2a: Nettles|0 fnt
+|faint|p2a: Nettles
+|
+|upkeep
+|
+|switch|p2a: Regie|Hydreigon, M, shiny|88/100
+|-damage|p2a: Regie|76/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Regie
+|-damage|p2a: Regie|6/100
+|move|p2a: Regie|Dark Pulse|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|26
+|
+|switch|p2a: Hotbox|Rotom-Heat, shiny|18/100
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Paradiigme|move: Light Screen
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Hotbox|Nasty Plot|p2a: Hotbox
+|-boost|p2a: Hotbox|spa|2
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Hotbox
+|-resisted|p2a: Hotbox
+|-damage|p2a: Hotbox|4/100
+|-unboost|p2a: Hotbox|spa|1
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Hotbox|Overheat|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|59/100
+|-unboost|p2a: Hotbox|spa|2
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Hotbox
+|-resisted|p2a: Hotbox
+|-damage|p2a: Hotbox|0 fnt
+|faint|p2a: Hotbox
+|
+|upkeep
+|
+|switch|p2a: Regie|Hydreigon, M, shiny|6/100
+|-damage|p2a: Regie|0 fnt|[from] Stealth Rock
+|faint|p2a: Regie
+|
+|switch|p2a: Celeste|Clefable, F, shiny|100/100
+|turn|29
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Celeste
+|-status|p2a: Celeste|par
+|move|p2a: Celeste|Moonblast|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|67/100
+|turn|30
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Celeste
+|-damage|p2a: Celeste|54/100 par
+|move|p2a: Celeste|Moonblast|p1a: Rotom
+|-damage|p1a: Rotom|38/100
+|-unboost|p1a: Rotom|spa|1
+|
+|-heal|p1a: Rotom|44/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|-message|NasPena2 forfeited.
+|
+|win|Paradiigme
+|raw|Paradiigme's rating: 1457 → 1476(+19 for winning)
+|raw|NasPena2's rating: 1431 → 1413(-18 for losing)

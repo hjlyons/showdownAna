@@ -1,0 +1,166 @@
+|ScrapeTime|2020-01-01-00:46:55
+|j|☆adamakasquints
+|j|☆Mount Gold
+|player|p1|adamakasquints|163|1162
+|player|p2|Mount Gold|lance-gen1rb|1178
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gengar, M|
+|poke|p1|Crawdaunt, F|
+|poke|p1|Passimian, M|
+|poke|p1|Dhelmise|
+|poke|p1|Gardevoir, M|
+|poke|p1|Tyranitar, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Indeedee-F, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Mimikyu, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Hawlucha, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mount Gold)
+|
+|start
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|
+|move|p1a: Crawdaunt|Substitute|p1a: Crawdaunt
+|-start|p1a: Crawdaunt|Substitute
+|-damage|p1a: Crawdaunt|76/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Crawdaunt
+|-sidestart|p1: adamakasquints|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Crawdaunt|Dragon Dance|p1a: Crawdaunt
+|-boost|p1a: Crawdaunt|atk|1
+|-boost|p1a: Crawdaunt|spe|1
+|move|p2a: Seismitoad|Earthquake|p1a: Crawdaunt
+|-crit|p1a: Crawdaunt
+|-end|p1a: Crawdaunt|Substitute
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Crawdaunt|Knock Off|p2a: Seismitoad
+|-damage|p2a: Seismitoad|8/100
+|-enditem|p2a: Seismitoad|Leftovers|[from] move: Knock Off|[of] p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|66/100|[from] item: Life Orb
+|move|p2a: Seismitoad|Earthquake|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|14/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Crawdaunt|Knock Off|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-damage|p1a: Crawdaunt|4/100|[from] item: Life Orb
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|turn|5
+|
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M
+|-damage|p2a: Mimikyu|88/100|[from] ability: Disguise|[of] p2a: Mimikyu
+|-damage|p1a: Crawdaunt|0 fnt|[from] item: Life Orb
+|faint|p1a: Crawdaunt
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|turn|6
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-damage|p2a: Mimikyu|78/100|[from] item: Life Orb
+|faint|p1a: Gengar
+|
+|upkeep
+|c|☆Mount Gold|ohh
+|inactive|adamakasquints has 120 seconds left.
+|c|☆Mount Gold|ok
+|
+|switch|p1a: Passimian|Passimian, M|100/100
+|-damage|p1a: Passimian|94/100|[from] Stealth Rock
+|turn|7
+|c|☆Mount Gold|go anyone
+|c|☆Mount Gold|newb
+|
+|move|p2a: Mimikyu|Play Rough|p1a: Passimian
+|-supereffective|p1a: Passimian
+|-crit|p1a: Passimian
+|-damage|p1a: Passimian|0 fnt
+|-damage|p2a: Mimikyu|68/100|[from] item: Life Orb
+|faint|p1a: Passimian
+|
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|8
+|
+|move|p2a: Mimikyu|Play Rough|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-damage|p2a: Mimikyu|58/100|[from] item: Life Orb
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mimikyu|52/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Gardevoir|Gardevoir, M|100/100
+|-damage|p1a: Gardevoir|88/100|[from] Stealth Rock
+|turn|9
+|inactive|adamakasquints has 120 seconds left.
+|c|☆Mount Gold|gg
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Gardevoir
+|-supereffective|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|-damage|p2a: Mimikyu|42/100|[from] item: Life Orb
+|faint|p1a: Gardevoir
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mimikyu|36/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Dhelmise|Dhelmise|100/100
+|-damage|p1a: Dhelmise|88/100|[from] Stealth Rock
+|turn|10
+|c|☆Mount Gold|kinda
+|
+|move|p2a: Mimikyu|Shadow Claw|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|0 fnt
+|-damage|p2a: Mimikyu|26/100|[from] item: Life Orb
+|faint|p1a: Dhelmise
+|
+|win|Mount Gold
+|raw|adamakasquints's rating: 1162 → 1138(-24 for losing)
+|raw|Mount Gold's rating: 1178 → 1201(+23 for winning)
+|l|☆adamakasquints

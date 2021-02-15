@@ -1,0 +1,227 @@
+|ScrapeTime|2020-01-02-09:15:02
+|j|☆Ocktopus
+|j|☆OmegaTowel
+|player|p1|Ocktopus|6|1215
+|player|p2|OmegaTowel|lance|1234
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxtricity, M|
+|poke|p1|Aegislash, M|
+|poke|p1|Obstagoon, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Clefable, M|
+|poke|p1|Araquanid, F|
+|poke|p2|Ribombee, F|
+|poke|p2|Dracovish|
+|poke|p2|Bisharp, F|
+|poke|p2|Toxtricity, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Rotom-Heat|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Clefable|Clefable, M|100/100
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|turn|1
+|
+|move|p2a: Ribombee|U-turn|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|95/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ocktopus)
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100|[from]move: U-turn
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|-heal|p1a: Clefable|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Toxtricity|Sludge Wave|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|20/100
+|move|p1a: Clefable|Moonblast|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|64/100
+|
+|-heal|p1a: Clefable|26/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Ribombee|Sticky Web|p1a: Aegislash
+|-sidestart|p1: Ocktopus|move: Sticky Web
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Ribombee|U-turn|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|98/100
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100|[from]move: U-turn
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|-heal|p1a: Aegislash|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Iron Head|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|60/100
+|-damage|p1a: Aegislash|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Aegislash
+|-start|p1a: Aegislash|move: Leech Seed
+|
+|-heal|p1a: Aegislash|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|66/100|[from] item: Leftovers
+|-damage|p1a: Aegislash|82/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|77/100|[silent]
+|upkeep
+|turn|7
+|
+|switch|p1a: Clefable|Clefable, M|26/100
+|-activate|p1a: Clefable|move: Sticky Web
+|-unboost|p1a: Clefable|spe|1
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Clefable
+|-sidestart|p1: Ocktopus|move: Stealth Rock
+|
+|-heal|p1a: Clefable|32/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|84/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Clefable|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: OmegaTowel|move: Stealth Rock
+|
+|-heal|p1a: Clefable|38/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|90/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Clefable|Flamethrower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|17/100
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|21/100
+|
+|-heal|p1a: Clefable|27/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|24/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|17/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Clefable|Flamethrower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Clefable|33/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, M|64/100
+|-damage|p2a: Toxtricity|51/100|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Toxtricity|Volt Switch|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|switch|p2a: Dracovish|Dracovish|100/100|[from]move: Volt Switch
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|turn|12
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|-damage|p1a: Toxtricity|88/100|[from] Stealth Rock
+|-activate|p1a: Toxtricity|move: Sticky Web
+|-unboost|p1a: Toxtricity|spe|1
+|turn|13
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Dracovish
+|-damage|p2a: Dracovish|27/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, M|82/100
+|-activate|p1a: Aegislash|move: Sticky Web
+|-unboost|p1a: Aegislash|spe|1
+|-damage|p1a: Aegislash|76/100|[from] Stealth Rock
+|turn|14
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Sneak|p2a: Dracovish
+|-damage|p2a: Dracovish|1/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Obstagoon|Obstagoon, M|100/100
+|-damage|p1a: Obstagoon|88/100|[from] Stealth Rock
+|-activate|p1a: Obstagoon|move: Sticky Web
+|-unboost|p1a: Obstagoon|spe|1
+|turn|15
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Obstagoon
+|-damage|p1a: Obstagoon|0 fnt
+|faint|p1a: Obstagoon
+|
+|upkeep
+|
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|-damage|p1a: Araquanid|76/100|[from] Stealth Rock
+|-activate|p1a: Araquanid|move: Sticky Web
+|-unboost|p1a: Araquanid|spe|1
+|turn|16
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|win|OmegaTowel
+|l|☆Ocktopus
+|raw|Ocktopus's rating: 1215 → 1192(-23 for losing)
+|raw|OmegaTowel's rating: 1234 → 1258(+24 for winning)

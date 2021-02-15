@@ -1,0 +1,595 @@
+|ScrapeTime|2020-01-01-12:07:07
+|j|☆Pauloscorps
+|j|☆remiwat
+|player|p1|Pauloscorps|266|1162
+|player|p2|remiwat|acetrainer-gen4dp|1121
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pelipper, M|
+|poke|p1|Dracovish|
+|poke|p1|Barraskewda, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Dugtrio, F|
+|poke|p2|Rillaboom, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Excadrill, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Togekiss, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|1
+|
+|move|p2a: Rotom|Volt Switch|p1a: Rotom
+|-damage|p1a: Rotom|75/100
+|
+|switch|p2a: Rillaboom|Rillaboom, M|100/100|[from]move: Volt Switch
+|move|p1a: Rotom|Hydro Pump|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-crit|p2a: Rillaboom
+|-damage|p2a: Rillaboom|57/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Rillaboom|Wood Hammer|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|79/100
+|-damage|p2a: Rillaboom|45/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Rillaboom|38/100|[from] Recoil
+|
+|-heal|p1a: Ferrothorn|85/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|79/100
+|-enditem|p2a: Rotom|Choice Scarf|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|92/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Rotom|Overheat|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Ferrothorn|98/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|move|p2a: Rotom|Trick|p1a: Dugtrio
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Dugtrio
+|-enditem|p1a: Dugtrio|Focus Sash|[silent]|[from] move: Trick
+|-item|p2a: Rotom|Focus Sash|[from] move: Trick
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Dugtrio|Reversal|p2a: Rotom
+|-damage|p2a: Rotom|73/100
+|move|p2a: Rotom|Overheat|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Dugtrio
+|
+|upkeep
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|7
+|
+|move|p2a: Rotom|Thunder Wave|p1a: Pelipper|[miss]
+|-miss|p2a: Rotom|p1a: Pelipper
+|move|p1a: Pelipper|Hurricane|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|53/100
+|-start|p2a: Rotom|confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|-activate|p2a: Rotom|confusion
+|-damage|p2a: Rotom|48/100|[from] confusion
+|move|p1a: Pelipper|U-turn|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|43/100
+|
+|switch|p1a: Barraskewda|Barraskewda, F|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Barraskewda|Liquidation|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|69/100
+|-unboost|p2a: Toxapex|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|75/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|switch|p1a: Rotom|Rotom-Wash|75/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p2a: Rillaboom|Rillaboom, M|38/100
+|move|p1a: Rotom|Volt Switch|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|21/100
+|
+|switch|p1a: Barraskewda|Barraskewda, F|100/100|[from]move: Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Barraskewda|Liquidation|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|67/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|73/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|move|p2a: Toxapex|Scald|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|92/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|79/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p1a: Dracovish|Psychic Fangs|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|10/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|60/100
+|
+|-weather|none
+|-heal|p2a: Toxapex|67/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Dracovish|Psychic Fangs|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Mandibuzz|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|83/100
+|-enditem|p1a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p2a: Mandibuzz|Knock Off|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|66/100
+|move|p1a: Pelipper|U-turn|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|94/100
+|
+|switch|p1a: Rotom|Rotom-Wash|75/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Rotom|Thunder Wave|p2a: Excadrill
+|-immune|p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|switch|p1a: Pelipper|Pelipper, M|66/100
+|switch|p2a: Toxapex|Toxapex, M|99/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|100/100
+|-singleturn|p1a: Pelipper|move: Roost
+|move|p2a: Toxapex|Toxic Spikes|p1a: Pelipper
+|-sidestart|p1: Pauloscorps|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|move|p1a: Pelipper|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|69/100
+|-start|p2a: Toxapex|confusion
+|-activate|p2a: Toxapex|confusion
+|move|p2a: Toxapex|Toxic Spikes|p1a: Pelipper
+|-sidestart|p1: Pauloscorps|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|75/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|move|p1a: Pelipper|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|45/100
+|-activate|p2a: Toxapex|confusion
+|-damage|p2a: Toxapex|42/100|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|49/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|move|p1a: Pelipper|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|46/100
+|
+|switch|p1a: Barraskewda|Barraskewda, F|100/100|[from]move: U-turn
+|-status|p1a: Barraskewda|tox
+|-activate|p2a: Toxapex|confusion
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|96/100
+|
+|-weather|none
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p1a: Barraskewda|94/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|move|p1a: Barraskewda|Psychic Fangs|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|41/100
+|-end|p2a: Toxapex|confusion
+|move|p2a: Toxapex|Scald|p1a: Barraskewda
+|-resisted|p1a: Barraskewda
+|-damage|p1a: Barraskewda|76/100 tox
+|
+|-heal|p2a: Toxapex|47/100|[from] item: Black Sludge
+|-damage|p1a: Barraskewda|64/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|switch|p1a: Rotom|Rotom-Wash|75/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, F|100/100
+|turn|27
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Togekiss|Air Slash|p1a: Pelipper
+|-damage|p1a: Pelipper|46/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|28
+|
+|switch|p1a: Rotom|Rotom-Wash|75/100
+|move|p2a: Togekiss|Air Slash|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|57/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|29
+|
+|move|p1a: Rotom|Volt Switch|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|50/100
+|
+|switch|p1a: Barraskewda|Barraskewda, F|64/100 tox|[from]move: Volt Switch
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Togekiss|56/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|57/100
+|turn|30
+|
+|move|p1a: Rotom|Volt Switch|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|10/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|98/100|[from]move: Volt Switch
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|83/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Togekiss|16/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|89/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p2a: Toxapex|Toxapex, M|80/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|67/100
+|-enditem|p2a: Toxapex|Black Sludge|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|none
+|-heal|p1a: Ferrothorn|95/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p2a: Toxapex|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|88/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Toxapex
+|-start|p2a: Toxapex|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|95/100|[from] item: Leftovers
+|-damage|p2a: Toxapex|54/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|33
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Toxapex
+|-damage|p2a: Toxapex|78/100
+|
+|-damage|p2a: Toxapex|66/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|34
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|94/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|79/100
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Mandibuzz|Knock Off|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|upkeep
+|turn|36
+|
+|switch|p1a: Rotom|Rotom-Wash|57/100
+|move|p2a: Mandibuzz|Foul Play|p1a: Rotom
+|-damage|p1a: Rotom|33/100
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Rotom|Volt Switch|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|46/100
+|
+|switch|p1a: Pelipper|Pelipper, M|46/100|[from]move: Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Mandibuzz|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|33/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|38
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|96/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|83/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|39
+|
+|move|p2a: Mandibuzz|Foul Play|p1a: Pelipper
+|-damage|p1a: Pelipper|69/100
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|100/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|40
+|
+|switch|p2a: Toxapex|Toxapex, M|99/100
+|move|p1a: Pelipper|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|82/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|41
+|
+|move|p1a: Pelipper|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|51/100
+|move|p2a: Toxapex|Scald|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|83/100
+|
+|-weather|none
+|upkeep
+|turn|42
+|
+|move|p1a: Pelipper|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|21/100
+|-start|p2a: Toxapex|confusion
+|-activate|p2a: Toxapex|confusion
+|move|p2a: Toxapex|Scald|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|72/100
+|
+|upkeep
+|turn|43
+|
+|move|p1a: Pelipper|Hurricane|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, F|16/100
+|turn|44
+|
+|move|p2a: Togekiss|Air Slash|p1a: Pelipper
+|-damage|p1a: Pelipper|25/100
+|move|p1a: Pelipper|Hurricane|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|upkeep
+|
+|switch|p2a: Rillaboom|Rillaboom, M|21/100
+|turn|45
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Rillaboom|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|71/100
+|-damage|p2a: Rillaboom|8/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p2a: Rillaboom
+|
+|upkeep
+|turn|46
+|
+|switch|p2a: Rotom|Rotom-Heat|43/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|20/100
+|-enditem|p2a: Rotom|Focus Sash|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|upkeep
+|turn|47
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Rotom|Volt Switch|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|upkeep
+|turn|48
+|
+|move|p2a: Rotom|Overheat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Pelipper|Pelipper, M|25/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|49
+|
+|switch|p1a: Rotom|Rotom-Wash|33/100
+|move|p2a: Rotom|Volt Switch|p1a: Rotom
+|-damage|p1a: Rotom|20/100
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|96/100|[from]move: Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|50
+|
+|move|p1a: Rotom|Thunder Wave|p2a: Mandibuzz
+|-status|p2a: Mandibuzz|par
+|move|p2a: Mandibuzz|Foul Play|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|92/100
+|-status|p1a: Dracovish|tox
+|turn|51
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Dracovish|86/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|20/100
+|turn|52
+|
+|move|p2a: Rotom|Volt Switch|p1a: Dracovish
+|-damage|p1a: Dracovish|54/100 tox
+|
+|switch|p2a: Rillaboom|Rillaboom, M|8/100|[from]move: Volt Switch
+|move|p1a: Dracovish|Fishious Rend|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Dracovish|41/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|20/100
+|turn|53
+|
+|move|p2a: Rotom|Volt Switch|p1a: Dracovish
+|-damage|p1a: Dracovish|10/100 tox
+|move|p1a: Dracovish|Fishious Rend|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|win|Pauloscorps
+|raw|Pauloscorps's rating: 1163 → 1185(+22 for winning)
+|raw|remiwat's rating: 1121 → 1099(-22 for losing)

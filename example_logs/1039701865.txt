@@ -1,0 +1,166 @@
+|ScrapeTime|2020-01-02-15:55:02
+|j|☆ThomasDracomon
+|j|☆Waneda
+|player|p1|ThomasDracomon|162|1214
+|player|p2|Waneda|102|1230
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dracovish|
+|poke|p1|Rotom-Heat|
+|poke|p1|Dragapult, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Toxtricity, M|
+|poke|p1|Hatterene, F|
+|poke|p2|Dugtrio, F|
+|poke|p2|Diglett, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Vaporeon, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Corviknight, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ThomasDracomon)
+|inactive|Waneda has 120 seconds left.
+|
+|start
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Excadrill|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|move|p2a: Corviknight|Body Press|p1a: Dracovish
+|-damage|p1a: Dracovish|80/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Vaporeon
+|-immune|p2a: Vaporeon|[from] ability: Water Absorb
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|move|p1a: Toxtricity|Overdrive|p2a: Dugtrio
+|-immune|p2a: Dugtrio
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Toxtricity
+|-supereffective|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|7
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|95/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|move|p1a: Dragapult|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|46/100
+|
+|switch|p1a: Dracovish|Dracovish|80/100|[from]move: U-turn
+|move|p2a: Tyranitar|Avalanche|p1a: Dracovish
+|-damage|p1a: Dracovish|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dracovish|50/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|move|p1a: Dracovish|Leech Life|p2a: Vaporeon
+|-damage|p2a: Vaporeon|83/100
+|-heal|p1a: Dracovish|62/100|[from] drain|[of] p2a: Vaporeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dracovish|56/100|[from] Sandstorm
+|-damage|p2a: Vaporeon|77/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|83/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vaporeon|77/100|[from] Sandstorm
+|-damage|p1a: Hatterene|95/100|[from] Sandstorm
+|-heal|p2a: Vaporeon|83/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Tyranitar|Tyranitar, M|46/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-weather|none
+|-heal|p2a: Tyranitar|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|12
+|
+|move|p2a: Tyranitar|Heavy Slam|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|3/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|9/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Tyranitar|Heavy Slam|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|-message|ThomasDracomon forfeited.
+|
+|win|Waneda
+|l|☆ThomasDracomon
+|raw|ThomasDracomon's rating: 1188 → 1166(-22 for losing)
+|raw|Waneda's rating: 1230 → 1252(+22 for winning)

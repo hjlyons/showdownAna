@@ -1,0 +1,100 @@
+|ScrapeTime|2020-01-01-20:28:43
+|j|☆PocketRudy
+|j|☆crashbandicoconuts
+|player|p1|PocketRudy|265|1000
+|player|p2|crashbandicoconuts|swimmer-gen4dp|1026
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Bisharp, M|
+|poke|p1|Togekiss, F|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Seismitoad, M|
+|poke|p2|Crawdaunt, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Hawlucha, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Barbaracle, F|
+|poke|p2|Bisharp, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|turn|1
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Corsola|Stealth Rock|p2a: Hawlucha
+|-sidestart|p2: crashbandicoconuts|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Hawlucha|Throat Chop|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|35/100
+|-start|p1a: Corsola|Throat Chop|[silent]
+|move|p1a: Corsola|Will-O-Wisp|p2a: Hawlucha
+|-status|p2a: Hawlucha|brn
+|
+|-damage|p2a: Hawlucha|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p1a: Togekiss|Togekiss, F, shiny|100/100
+|move|p2a: Hawlucha|Throat Chop|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|90/100
+|-start|p1a: Togekiss|Throat Chop|[silent]
+|
+|-damage|p2a: Hawlucha|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Seismitoad|Seismitoad, M, shiny|100/100
+|-damage|p2a: Seismitoad|95/100|[from] Stealth Rock
+|move|p1a: Togekiss|Air Slash|p2a: Seismitoad
+|-damage|p2a: Seismitoad|55/100
+|
+|-heal|p2a: Seismitoad|61/100|[from] item: Leftovers
+|-end|p1a: Togekiss|Throat Chop|[silent]
+|upkeep
+|turn|5
+|
+|move|p1a: Togekiss|Air Slash|p2a: Seismitoad
+|-damage|p2a: Seismitoad|25/100
+|cant|p2a: Seismitoad|flinch
+|
+|-heal|p2a: Seismitoad|31/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Togekiss|Air Slash|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Barbaracle|Barbaracle, F|100/100
+|-damage|p2a: Barbaracle|88/100|[from] Stealth Rock
+|turn|7
+|-message|crashbandicoconuts forfeited.
+|
+|win|PocketRudy
+|l|☆crashbandicoconuts
+|raw|PocketRudy's rating: 1000 → 1041(+41 for winning)
+|raw|crashbandicoconuts's rating: 1011 → 1000(-11 for losing)

@@ -1,0 +1,243 @@
+|ScrapeTime|2020-01-02-01:49:04
+|j|☆OhShitImIn
+|j|☆3somesRKewl
+|player|p1|OhShitImIn|nanu|
+|player|p2|3somesRKewl|102|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aegislash, F|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Clefable, F|
+|poke|p1|Dracovish|
+|poke|p1|Ribombee, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Dragapult, F|
+|poke|p2|Bisharp, F|
+|poke|p2|Dugtrio, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Clefable|Clefable, F|100/100
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|turn|1
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|move|p1a: Clefable|Moonblast|p2a: Bisharp
+|-damage|p2a: Bisharp|5/100
+|-unboost|p2a: Bisharp|spa|1
+|-ability|p2a: Bisharp|Defiant
+|-boost|p2a: Bisharp|atk|2
+|
+|upkeep
+|turn|2
+|c|☆3somesRKewl|That did alot lmao
+|c|☆OhShitImIn|<:
+|
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|move|p2a: Bisharp|Iron Head|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-enditem|p1a: Ribombee|Focus Sash
+|-damage|p1a: Ribombee|1/100
+|-damage|p2a: Bisharp|0 fnt|[from] item: Life Orb
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|3
+|
+|move|p2a: Dragapult|U-turn|p1a: Ribombee
+|-resisted|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|4
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|70/100
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from]move: Volt Switch
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|move|p2a: Dragapult|U-turn|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|62/100 brn
+|c|☆3somesRKewl|So you were afraid of galar darumaka eh
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100|[from]move: U-turn
+|move|p1a: Conkeldurr|Earthquake|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|-damage|p1a: Conkeldurr|56/100 brn|[from] brn
+|upkeep
+|turn|6
+|c|☆OhShitImIn|ye man
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Conkeldurr
+|-crit|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|c|☆OhShitImIn|fuck
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|7
+|c|☆3somesRKewl|Yeah that was sad lol
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|turn|8
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Clefable
+|-sidestart|p1: OhShitImIn|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Clefable|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: 3somesRKewl|move: Stealth Rock
+|move|p2a: Seismitoad|Scald|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|59/100
+|-status|p1a: Clefable|brn
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|100/100 brn
+|move|p2a: Seismitoad|Scald|p1a: Clefable
+|-damage|p1a: Clefable|74/100 brn
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Clefable|Moonblast|p2a: Seismitoad
+|-damage|p2a: Seismitoad|40/100
+|move|p2a: Seismitoad|Earth Power|p1a: Clefable
+|-damage|p1a: Clefable|43/100 brn
+|
+|-heal|p2a: Seismitoad|46/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|93/100 brn
+|move|p2a: Seismitoad|Earth Power|p1a: Clefable
+|-damage|p1a: Clefable|65/100 brn
+|
+|-heal|p2a: Seismitoad|52/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Clefable|Moonblast|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|-damage|p2a: Dugtrio|94/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|5/100 brn
+|move|p1a: Clefable|Moonblast|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|upkeep
+|j| schwipper
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|turn|15
+|c| schwipper|gg
+|c|☆3somesRKewl|I lost the moment I forgot I needed seis
+|
+|move|p1a: Clefable|Thunderbolt|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|35/100
+|move|p2a: Corviknight|Brave Bird|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|-damage|p2a: Corviknight|34/100|[from] Recoil
+|faint|p1a: Clefable
+|
+|-heal|p2a: Corviknight|40/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|-damage|p1a: Dracovish|88/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Dragapult|Thunderbolt|p1a: Dracovish
+|-damage|p1a: Dracovish|37/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|54/100
+|
+|upkeep
+|turn|18
+|c|☆3somesRKewl|I did not realize this could take one or two of those
+|
+|move|p2a: Dragapult|Thunderbolt|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|-damage|p1a: Aegislash|94/100|[from] Stealth Rock
+|turn|19
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Sneak|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p1a: Aegislash|84/100|[from] item: Life Orb
+|faint|p2a: Dragapult
+|
+|win|OhShitImIn
+|c|☆OhShitImIn|gg

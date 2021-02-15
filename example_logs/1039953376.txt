@@ -1,0 +1,170 @@
+|ScrapeTime|2020-01-03-00:17:02
+|j|☆BBSCP
+|j|☆atm0615
+|player|p1|BBSCP|ltsurge|1000
+|player|p2|atm0615|blackbelt-gen4dp|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Togedemaru, L1, M|
+|poke|p1|Riolu, M|
+|poke|p1|Inkay, F|
+|poke|p1|Type: Null|
+|poke|p1|Wailmer, F|
+|poke|p1|Solosis, F|
+|poke|p2|Charizard, M|
+|poke|p2|Heliolisk, F|
+|poke|p2|Whimsicott, M|
+|poke|p2|Torkoal, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Shiftry, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Togedemaru|Togedemaru, L1, M, shiny|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BBSCP)
+|
+|move|p2a: Torkoal|Stone Edge|p1a: Togedemaru
+|-resisted|p1a: Togedemaru
+|-ability|p1a: Togedemaru|Sturdy
+|-damage|p1a: Togedemaru|9/100
+|move|p1a: Togedemaru|Bounce||[still]
+|-prepare|p1a: Togedemaru|Bounce|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Togedemaru|0 fnt|[from] item: Sticky Barb
+|faint|p1a: Togedemaru
+|upkeep
+|
+|switch|p1a: Riolu|Riolu, M, shiny|100/100
+|turn|2
+|
+|move|p1a: Riolu|Copycat|p1a: Riolu
+|move|p1a: Riolu|Bounce||[from]Copycat|[still]
+|-prepare|p1a: Riolu|Bounce|p2a: Torkoal
+|move|p2a: Torkoal|Flamethrower|p1a: Riolu|[miss]
+|-miss|p2a: Torkoal|p1a: Riolu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Shiftry|Shiftry, F|100/100
+|move|p1a: Riolu|Bounce|p2a: Shiftry|[from]lockedmove
+|-supereffective|p2a: Shiftry
+|-damage|p2a: Shiftry|25/100
+|-enditem|p2a: Shiftry|Weakness Policy
+|-boost|p2a: Shiftry|atk|2
+|-boost|p2a: Shiftry|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Riolu|Copycat|p1a: Riolu
+|move|p1a: Riolu|Bounce||[from]Copycat|[still]
+|-prepare|p1a: Riolu|Bounce|p2a: Shiftry
+|move|p2a: Shiftry|Solar Blade||[still]
+|-prepare|p2a: Shiftry|Solar Blade|p1a: Riolu
+|-anim|p2a: Shiftry|Solar Blade|p1a: Riolu|[miss]
+|-miss|p2a: Shiftry|p1a: Riolu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Shiftry|Solar Blade||[still]
+|-prepare|p2a: Shiftry|Solar Blade|p1a: Riolu
+|-anim|p2a: Shiftry|Solar Blade|p1a: Riolu|[miss]
+|-miss|p2a: Shiftry|p1a: Riolu
+|move|p1a: Riolu|Bounce|p2a: Shiftry|[from]lockedmove
+|-supereffective|p2a: Shiftry
+|-damage|p2a: Shiftry|0 fnt
+|faint|p2a: Shiftry
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|6
+|
+|move|p1a: Riolu|Copycat|p1a: Riolu
+|move|p1a: Riolu|Bounce||[from]Copycat|[still]
+|-prepare|p1a: Riolu|Bounce|p2a: Charizard
+|move|p2a: Charizard|Belly Drum|p2a: Charizard
+|-damage|p2a: Charizard|51/100
+|-setboost|p2a: Charizard|atk|6|[from] move: Belly Drum
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Charizard|Belly Drum||[still]
+|-fail|p2a: Charizard
+|move|p1a: Riolu|Bounce|p2a: Charizard|[from]lockedmove
+|-damage|p2a: Charizard|21/100
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Riolu|Copycat|p1a: Riolu
+|move|p1a: Riolu|Bounce||[from]Copycat|[still]
+|-prepare|p1a: Riolu|Bounce|p2a: Charizard
+|move|p2a: Charizard|Flamethrower|p1a: Riolu|[miss]
+|-miss|p2a: Charizard|p1a: Riolu
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Whimsicott|Whimsicott, M|100/100
+|move|p1a: Riolu|Bounce|p2a: Whimsicott|[from]lockedmove|[miss]
+|-miss|p1a: Riolu|p2a: Whimsicott
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Riolu|Copycat|p1a: Riolu
+|move|p1a: Riolu|Bounce||[from]Copycat|[still]
+|-prepare|p1a: Riolu|Bounce|p2a: Whimsicott
+|move|p2a: Whimsicott|Dazzling Gleam|p1a: Riolu|[miss]
+|-miss|p2a: Whimsicott|p1a: Riolu
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Whimsicott|Dazzling Gleam|p1a: Riolu|[miss]
+|-miss|p2a: Whimsicott|p1a: Riolu
+|move|p1a: Riolu|Bounce|p2a: Whimsicott|[from]lockedmove
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|41/100
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Riolu|Copycat|p1a: Riolu
+|move|p1a: Riolu|Bounce||[from]Copycat|[still]
+|-prepare|p1a: Riolu|Bounce|p2a: Whimsicott
+|move|p2a: Whimsicott|Dazzling Gleam|p1a: Riolu|[miss]
+|-miss|p2a: Whimsicott|p1a: Riolu
+|
+|upkeep
+|turn|13
+|-message|atm0615 forfeited.
+|
+|win|BBSCP
+|l|☆atm0615
+|raw|BBSCP's rating: 1000 → 1040(+40 for winning)
+|raw|atm0615's rating: 1000 → 1000(+0 for losing)

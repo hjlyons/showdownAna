@@ -1,0 +1,289 @@
+|ScrapeTime|2020-01-03-01:44:34
+|j|☆Troll des forets
+|j|‽jkbnhjhkh
+|player|p1|Troll des forets|215|1268
+|player|p2|jkbnhjhkh|1|1251
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Lucario, F|
+|poke|p1|Dugtrio, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Togekiss, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Rotom-Mow|
+|poke|p2|Indeedee, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Hawlucha, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Dracozolt|
+|poke|p2|Mandibuzz, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|1
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|38/100
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jkbnhjhkh)
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Cinderace|Pyro Ball|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|66/100
+|-status|p2a: Mandibuzz|brn
+|
+|-damage|p2a: Mandibuzz|60/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Mandibuzz|[miss]
+|-miss|p1a: Cinderace|p2a: Mandibuzz
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100 brn
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-damage|p2a: Mandibuzz|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|61/100 brn
+|move|p2a: Mandibuzz|Foul Play|p1a: Cinderace
+|-damage|p1a: Cinderace|67/100
+|
+|-damage|p2a: Mandibuzz|55/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Cinderace|U-turn|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|42/100 brn
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100|[from]move: U-turn
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|92/100 brn
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-damage|p2a: Mandibuzz|86/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|move|p1a: Rotom|Trick|p2a: Dracozolt
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Dracozolt
+|-item|p2a: Dracozolt|Choice Specs|[from] move: Trick
+|-item|p1a: Rotom|Choice Scarf|[from] move: Trick
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Rotom|Volt Switch|p2a: Dracozolt
+|-resisted|p2a: Dracozolt
+|-damage|p2a: Dracozolt|90/100
+|
+|switch|p1a: Dugtrio|Dugtrio, M|100/100|[from]move: Volt Switch
+|move|p2a: Dracozolt|Fire Fang|p1a: Dugtrio
+|-damage|p1a: Dugtrio|20/100
+|-status|p1a: Dugtrio|brn
+|
+|-damage|p1a: Dugtrio|14/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Dracozolt
+|-supereffective|p2a: Dracozolt
+|-damage|p2a: Dracozolt|37/100
+|move|p2a: Dracozolt|Fire Fang|p1a: Dugtrio|[miss]
+|-miss|p2a: Dracozolt|p1a: Dugtrio
+|
+|-damage|p1a: Dugtrio|8/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Dugtrio|Stealth Rock|p2a: Dracozolt
+|-sidestart|p2: jkbnhjhkh|move: Stealth Rock
+|move|p2a: Dracozolt|Fire Fang|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|38/100
+|turn|12
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Dracozolt
+|-supereffective|p2a: Dracozolt
+|-damage|p2a: Dracozolt|0 fnt
+|-hitcount|p2a: Dracozolt|1
+|-damage|p1a: Dragapult|28/100|[from] item: Life Orb
+|faint|p2a: Dracozolt
+|
+|upkeep
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|86/100 brn
+|turn|13
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|move|p2a: Mandibuzz|Defog|p1a: Togekiss
+|-unboost|p1a: Togekiss|evasion|1
+|-sideend|p2: jkbnhjhkh|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|
+|-damage|p2a: Mandibuzz|80/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|move|p2a: Mandibuzz|U-turn|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|99/100
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100|[from]move: U-turn
+|
+|-heal|p1a: Togekiss|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|turn|16
+|
+|move|p1a: Rotom|Volt Switch|p2a: Cinderace
+|-damage|p2a: Cinderace|59/100
+|
+|switch|p1a: Dragapult|Dragapult, F|28/100|[from]move: Volt Switch
+|move|p2a: Cinderace|Pyro Ball|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Luc Arbogast|Lucario, F|100/100
+|turn|17
+|
+|move|p1a: Luc Arbogast|Extreme Speed|p2a: Cinderace
+|-damage|p2a: Cinderace|11/100
+|-damage|p1a: Luc Arbogast|91/100|[from] item: Life Orb
+|move|p2a: Cinderace|Pyro Ball|p1a: Luc Arbogast
+|-supereffective|p1a: Luc Arbogast
+|-damage|p1a: Luc Arbogast|0 fnt
+|faint|p1a: Luc Arbogast
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|turn|18
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Rotom|Thunderbolt|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|85/100
+|
+|-heal|p2a: Ferrothorn|91/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Cinderace|Cinderace, M|67/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|31/100
+|
+|-heal|p2a: Ferrothorn|97/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Cinderace|Pyro Ball|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|80/100 brn
+|move|p1a: Cinderace|U-turn|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|67/100 brn
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100|[from]move: U-turn
+|
+|-damage|p2a: Mandibuzz|61/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p1a: Rotom|Volt Switch|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|14/100 brn
+|
+|switch|p1a: Cinderace|Cinderace, M|31/100|[from]move: Volt Switch
+|move|p2a: Mandibuzz|Foul Play|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-damage|p2a: Mandibuzz|8/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|turn|23
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Rotom|Thunderbolt|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|84/100
+|
+|-heal|p2a: Ferrothorn|90/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Rotom|Thunderbolt|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|73/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Rotom
+|-sidestart|p1: Troll des forets|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|79/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|-message|Troll des forets forfeited.
+|
+|win|jkbnhjhkh
+|l|☆Troll des forets
+|raw|Troll des forets's rating: 1315 → 1291(-24 for losing)
+|raw|jkbnhjhkh's rating: 1251 → 1280(+29 for winning)

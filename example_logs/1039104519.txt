@@ -1,0 +1,429 @@
+|ScrapeTime|2020-01-01-11:59:59
+|j|☆bonjourbonjour
+|j|☆pedrin del angel
+|player|p1|bonjourbonjour|2|1283
+|player|p2|pedrin del angel|steven|1227
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Ditto|
+|poke|p1|Corviknight, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Ferrothorn, F|
+|poke|p2|Bewear, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Hydreigon, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Abomasnow, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|switch|p2a: Abomasnow|Abomasnow, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|1
+|
+|move|p2a: Abomasnow|Aurora Veil|p2a: Abomasnow
+|-sidestart|p2: pedrin del angel|move: Aurora Veil
+|move|p1a: Corsola|Stealth Rock|p2a: Abomasnow
+|-sidestart|p2: pedrin del angel|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Corsola|94/100|[from] Hail
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bonjourbonjour)
+|
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|move|p1a: Corsola|Will-O-Wisp|p2a: Weezing|[miss]
+|-miss|p1a: Corsola|p2a: Weezing
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Weezing|82/100|[from] Hail
+|-damage|p1a: Corsola|88/100|[from] Hail
+|-heal|p2a: Weezing|88/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|move|p2a: Weezing|Defog|p1a: Corsola
+|-unboost|p1a: Corsola|evasion|1
+|-sideend|p2: pedrin del angel|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|move|p1a: Corsola|Will-O-Wisp|p2a: Weezing
+|-status|p2a: Weezing|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Weezing|82/100 brn|[from] Hail
+|-damage|p1a: Corsola|82/100|[from] Hail
+|-heal|p2a: Weezing|88/100 brn|[from] item: Black Sludge
+|-damage|p2a: Weezing|82/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Weezing|Aromatherapy|p2a: Weezing
+|-activate|p2a: Weezing|move: Aromatherapy
+|-curestatus|p2a: Weezing|brn|[msg]
+|move|p1a: Corsola|Stealth Rock|p2a: Weezing
+|-sidestart|p2: pedrin del angel|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Weezing|76/100|[from] Hail
+|-damage|p1a: Corsola|76/100|[from] Hail
+|-heal|p2a: Weezing|82/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|move|p1a: Corsola|Night Shade|p2a: Rotom
+|-damage|p2a: Rotom|34/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|move|p2a: Rotom|Trick|p1a: Corsola
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Corsola
+|-item|p1a: Corsola|Flame Orb|[from] move: Trick
+|-item|p2a: Rotom|Eviolite|[from] move: Trick
+|move|p1a: Corsola|Night Shade|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-status|p1a: Corsola|brn|[from] item: Flame Orb
+|upkeep
+|
+|switch|p2a: Bewear|Bewear, M|100/100
+|-damage|p2a: Bewear|94/100|[from] Stealth Rock
+|turn|7
+|
+|move|p2a: Bewear|Substitute|p2a: Bewear
+|-start|p2a: Bewear|Substitute
+|-damage|p2a: Bewear|70/100
+|move|p1a: Corsola|Will-O-Wisp|p2a: Bewear|[miss]
+|-miss|p1a: Corsola|p2a: Bewear
+|
+|-heal|p2a: Bewear|76/100|[from] item: Leftovers
+|-damage|p1a: Corsola|70/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p2a: Bewear|Shadow Claw|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|18/100 brn
+|-start|p2a: Bewear|Disable|Shadow Claw|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Night Shade|p2a: Bewear
+|-immune|p2a: Bewear
+|
+|-heal|p2a: Bewear|82/100|[from] item: Leftovers
+|-damage|p1a: Corsola|12/100 brn|[from] brn
+|-sideend|p2: pedrin del angel|move: Aurora Veil
+|upkeep
+|turn|9
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Bewear|Bulk Up|p2a: Bewear
+|-boost|p2a: Bewear|atk|1
+|-boost|p2a: Bewear|def|1
+|
+|-heal|p2a: Bewear|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Weezing|Weezing-Galar, M|82/100
+|-damage|p2a: Weezing|69/100|[from] Stealth Rock
+|move|p1a: Dragapult|Dragon Tail|p2a: Weezing
+|-immune|p2a: Weezing
+|
+|-heal|p2a: Weezing|76/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|move|p1a: Dragapult|Thunder Wave|p2a: Weezing
+|-status|p2a: Weezing|par
+|cant|p2a: Weezing|par
+|
+|-heal|p2a: Weezing|82/100 par|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Weezing|Aromatherapy|p2a: Weezing
+|-activate|p2a: Weezing|move: Aromatherapy
+|-curestatus|p2a: Weezing|par|[msg]
+|
+|-heal|p2a: Weezing|88/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|switch|p2a: Abomasnow|Abomasnow, F|100/100
+|-damage|p2a: Abomasnow|76/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Ferrothorn|Knock Off|p2a: Abomasnow
+|-damage|p2a: Abomasnow|50/100
+|-enditem|p2a: Abomasnow|Light Clay|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Ferrothorn|95/100|[from] Hail
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Abomasnow|Aurora Veil|p2a: Abomasnow
+|-sidestart|p2: pedrin del angel|move: Aurora Veil
+|move|p1a: Ferrothorn|Leech Seed|p2a: Abomasnow
+|-immune|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Ferrothorn|95/100|[from] Hail
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Hydreigon
+|-sidestart|p2: pedrin del angel|Spikes
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Hydreigon|82/100|[from] Hail
+|-damage|p1a: Ferrothorn|95/100|[from] Hail
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Hydreigon|Fire Blast|p1a: Ferrothorn|[miss]
+|-miss|p2a: Hydreigon|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Hydreigon
+|-start|p2a: Hydreigon|move: Leech Seed
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Hydreigon|76/100|[from] Hail
+|-damage|p1a: Ferrothorn|95/100|[from] Hail
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p2a: Hydreigon|64/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|17
+|
+|switch|p2a: Weezing|Weezing-Galar, M|88/100
+|-damage|p2a: Weezing|76/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Protect||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|none
+|-heal|p2a: Weezing|82/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p2a: Weezing|Defog|p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|evasion|1
+|-sideend|p2: pedrin del angel|Spikes|[from] move: Defog|[of] p2a: Weezing
+|-sideend|p2: pedrin del angel|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|move|p1a: Ferrothorn|Leech Seed|p2a: Weezing
+|-start|p2a: Weezing|move: Leech Seed
+|
+|-heal|p2a: Weezing|88/100|[from] item: Black Sludge
+|-damage|p2a: Weezing|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-sideend|p2: pedrin del angel|move: Aurora Veil
+|upkeep
+|turn|19
+|
+|switch|p2a: Abomasnow|Abomasnow, F|50/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Ferrothorn|Knock Off|p2a: Abomasnow
+|-damage|p2a: Abomasnow|33/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Ferrothorn|95/100|[from] Hail
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Abomasnow|Aurora Veil|p2a: Abomasnow
+|-sidestart|p2: pedrin del angel|move: Aurora Veil
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Ferrothorn|95/100|[from] Hail
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Bewear|Bewear, M|88/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Bewear
+|-resisted|p2a: Bewear
+|-damage|p2a: Bewear|86/100
+|-enditem|p2a: Bewear|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Bewear|80/100|[from] Hail
+|-damage|p1a: Ferrothorn|95/100|[from] Hail
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Bewear|Substitute|p2a: Bewear
+|-start|p2a: Bewear|Substitute
+|-damage|p2a: Bewear|55/100
+|move|p1a: Ferrothorn|Spikes|p2a: Bewear
+|-sidestart|p2: pedrin del angel|Spikes
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Bewear|49/100|[from] Hail
+|-damage|p1a: Ferrothorn|95/100|[from] Hail
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Bewear|Bulk Up|p2a: Bewear
+|-boost|p2a: Bewear|atk|1
+|-boost|p2a: Bewear|def|1
+|move|p1a: Ferrothorn|Spikes|p2a: Bewear
+|-sidestart|p2: pedrin del angel|Spikes
+|
+|-weather|none
+|upkeep
+|turn|24
+|
+|move|p2a: Bewear|Drain Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|12/100
+|-heal|p2a: Bewear|82/100|[from] drain|[of] p1a: Ferrothorn
+|-damage|p2a: Bewear|70/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Bewear
+|-sidestart|p2: pedrin del angel|Spikes
+|
+|-heal|p1a: Ferrothorn|18/100|[from] item: Leftovers
+|-sideend|p2: pedrin del angel|move: Aurora Veil
+|upkeep
+|turn|25
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Bewear|Shadow Claw|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Ferrothorn|24/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Bewear|Drain Punch|p1a: Corviknight
+|-damage|p1a: Corviknight|50/100
+|-heal|p2a: Bewear|89/100|[from] drain|[of] p1a: Corviknight
+|
+|-heal|p1a: Corviknight|57/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Bewear
+|-supereffective|p2a: Bewear
+|-activate|p2a: Bewear|move: Substitute|[damage]
+|-damage|p1a: Corviknight|46/100|[from] Recoil|[of] p2a: Bewear
+|move|p2a: Bewear|Drain Punch|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-heal|p2a: Bewear|100/100|[from] drain|[of] p1a: Corviknight
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|28
+|
+|move|p2a: Bewear|Shadow Claw|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|29
+|
+|move|p1a: Excadrill|Iron Head|p2a: Bewear
+|-end|p2a: Bewear|Substitute
+|move|p2a: Bewear|Substitute|p2a: Bewear
+|-start|p2a: Bewear|Substitute
+|-damage|p2a: Bewear|76/100
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Excadrill|Iron Head|p2a: Bewear
+|-activate|p2a: Bewear|move: Substitute|[damage]
+|move|p2a: Bewear|Drain Punch|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-heal|p2a: Bewear|100/100|[from] drain|[of] p1a: Excadrill
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, F|12/100 brn
+|turn|31
+|
+|move|p2a: Bewear|Bulk Up|p2a: Bewear
+|-boost|p2a: Bewear|atk|1
+|-boost|p2a: Bewear|def|1
+|move|p1a: Corsola|Night Shade|p2a: Bewear
+|-immune|p2a: Bewear
+|
+|-damage|p1a: Corsola|6/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p2a: Bewear|Bulk Up|p2a: Bewear
+|-boost|p2a: Bewear|atk|1
+|-boost|p2a: Bewear|def|1
+|move|p1a: Corsola|Night Shade|p2a: Bewear
+|-immune|p2a: Bewear
+|
+|-damage|p1a: Corsola|0 fnt|[from] brn
+|faint|p1a: Corsola
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|24/100
+|turn|33
+|
+|move|p2a: Bewear|Drain Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Bewear|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|turn|34
+|c|☆pedrin del angel|xdxd
+|c|☆bonjourbonjour|😂😂
+|
+|move|p1a: Ditto|Transform||[still]
+|-fail|p1a: Ditto
+|move|p2a: Bewear|Drain Punch|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|-heal|p2a: Bewear|100/100|[from] drain|[of] p1a: Ditto
+|faint|p1a: Ditto
+|
+|win|pedrin del angel
+|raw|bonjourbonjour's rating: 1284 → 1257(-27 for losing)
+|raw|pedrin del angel's rating: 1253 → 1280(+27 for winning)
+|l|☆bonjourbonjour

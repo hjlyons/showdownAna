@@ -1,0 +1,272 @@
+|ScrapeTime|2020-01-02-03:14:36
+|j|☆Geralt the Rivera
+|j|☆team rocketto-dan
+|player|p1|Geralt the Rivera|bruno|1511
+|player|p2|team rocketto-dan|rocketgrunt|1470
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pincurchin, M|
+|poke|p1|Hawlucha, F|
+|poke|p1|Diggersby, F|
+|poke|p1|Drifblim, M|
+|poke|p1|Mew|
+|poke|p1|Hydreigon, M|
+|poke|p2|Heliolisk, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Shiftry, M|
+|poke|p2|Dragapult, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| Superkillerman
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|j| master of miss
+|l| master of miss
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Torkoal
+|-damage|p2a: Torkoal|49/100
+|move|p2a: Torkoal|Stealth Rock|p1a: Hydreigon
+|-sidestart|p1: Geralt the Rivera|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Shiftry|Shiftry, M|100/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Shiftry
+|-resisted|p2a: Shiftry
+|-damage|p2a: Shiftry|67/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p2a: Shiftry|Low Kick|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|11/100
+|-damage|p2a: Shiftry|57/100|[from] item: Life Orb
+|move|p1a: Hydreigon|Dark Pulse|p2a: Shiftry
+|-resisted|p2a: Shiftry
+|-damage|p2a: Shiftry|23/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Pincurchin|Pincurchin, M|100/100
+|-damage|p1a: Pincurchin|88/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|move|p2a: Shiftry|Throat Chop|p1a: Pincurchin
+|-damage|p1a: Pincurchin|43/100
+|-start|p1a: Pincurchin|Throat Chop|[silent]
+|-damage|p2a: Shiftry|13/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Shiftry|Solar Blade||[still]
+|-prepare|p2a: Shiftry|Solar Blade|p1a: Pincurchin
+|-anim|p2a: Shiftry|Solar Blade|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|-damage|p2a: Shiftry|3/100|[from] item: Life Orb
+|faint|p1a: Pincurchin
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|-damage|p1a: Hawlucha|88/100|[from] Stealth Rock
+|-ability|p1a: Hawlucha|Mold Breaker
+|-enditem|p1a: Hawlucha|Electric Seed
+|-boost|p1a: Hawlucha|def|1
+|turn|6
+|
+|move|p2a: Shiftry|Throat Chop|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|63/100
+|-start|p1a: Hawlucha|Throat Chop|[silent]
+|-damage|p2a: Shiftry|0 fnt|[from] item: Life Orb
+|faint|p2a: Shiftry
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|7
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Hawlucha
+|-damage|p1a: Hawlucha|41/100
+|-damage|p1a: Hawlucha|15/100
+|-hitcount|p1a: Hawlucha|2
+|move|p1a: Hawlucha|Acrobatics|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Hawlucha|Throat Chop|[silent]
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|8
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|4/100
+|move|p1a: Hawlucha|Acrobatics|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|turn|9
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+|
+|switch|p1a: Drifblim|Drifblim, M|100/100
+|-damage|p1a: Drifblim|76/100|[from] Stealth Rock
+|-enditem|p1a: Drifblim|Electric Seed
+|-boost|p1a: Drifblim|def|1
+|turn|10
+|
+|move|p1a: Drifblim|Strength Sap|p2a: Conkeldurr
+|-unboost|p2a: Conkeldurr|atk|1
+|-heal|p1a: Drifblim|100/100
+|move|p2a: Conkeldurr|Payback|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|50/100
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Drifblim|Strength Sap|p2a: Conkeldurr
+|-unboost|p2a: Conkeldurr|atk|1
+|-heal|p1a: Drifblim|100/100
+|move|p2a: Conkeldurr|Payback|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|61/100
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|12
+|
+|switch|p2a: Torkoal|Torkoal, M|49/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Drifblim|Strength Sap|p2a: Torkoal
+|-unboost|p2a: Torkoal|atk|1
+|-heal|p1a: Drifblim|96/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p1a: Drifblim|Calm Mind|p1a: Drifblim
+|-boost|p1a: Drifblim|spa|1
+|-boost|p1a: Drifblim|spd|1
+|move|p2a: Torkoal|Heat Wave|p1a: Drifblim
+|-damage|p1a: Drifblim|62/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|move|p1a: Drifblim|Shadow Ball|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Heliolisk|Heliolisk, M|100/100
+|turn|15
+|
+|move|p1a: Drifblim|Thunderbolt|p2a: Heliolisk
+|-resisted|p2a: Heliolisk
+|-damage|p2a: Heliolisk|75/100
+|move|p2a: Heliolisk|Dark Pulse|p1a: Drifblim
+|-supereffective|p1a: Drifblim
+|-damage|p1a: Drifblim|0 fnt
+|faint|p1a: Drifblim
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Heliolisk|63/100|[from] ability: Solar Power|[of] p2a: Heliolisk
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|11/100
+|-damage|p1a: Hydreigon|0 fnt|[from] Stealth Rock
+|faint|p1a: Hydreigon
+|
+|switch|p1a: Diggersby|Diggersby, F|100/100
+|-damage|p1a: Diggersby|94/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|move|p1a: Diggersby|Earthquake|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|36/100
+|-damage|p1a: Diggersby|84/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Diggersby
+|-supereffective|p1a: Diggersby
+|-damage|p1a: Diggersby|16/100
+|move|p1a: Diggersby|Earthquake|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|-damage|p1a: Diggersby|6/100|[from] item: Life Orb
+|faint|p2a: Conkeldurr
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Heliolisk|Heliolisk, M|63/100
+|turn|18
+|
+|move|p2a: Heliolisk|Dark Pulse|p1a: Diggersby
+|-damage|p1a: Diggersby|0 fnt
+|faint|p1a: Diggersby
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Heliolisk|50/100|[from] ability: Solar Power|[of] p2a: Heliolisk
+|upkeep
+|
+|switch|p1a: Mew|Mew|100/100
+|-damage|p1a: Mew|88/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Heliolisk|Dark Pulse|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|win|team rocketto-dan
+|raw|Geralt the Rivera's rating: 1511 → 1489(-22 for losing)
+|raw|team rocketto-dan's rating: 1470 → 1493(+23 for winning)
+|l|☆team rocketto-dan

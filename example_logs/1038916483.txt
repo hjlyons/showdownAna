@@ -1,0 +1,693 @@
+|ScrapeTime|2020-01-01-00:34:29
+|j|☆henhon
+|j|☆Msiu2
+|player|p1|henhon|unknown|1339
+|player|p2|Msiu2|red|1319
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxapex, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Polteageist|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Togekiss, M|
+|poke|p1|Hydreigon, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Cinderace, F|
+|poke|p2|Whimsicott, M|
+|poke|p2|Lucario, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Msiu2)
+|
+|start
+|switch|p1a: 4pm tea party|Polteageist|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|1
+|
+|move|p2a: Cinderace|Taunt|p1a: 4pm tea party
+|-start|p1a: 4pm tea party|move: Taunt
+|cant|p1a: 4pm tea party|move: Taunt|Shell Smash
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: corsola hater|Toxapex, F, shiny|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: corsola hater
+|-resisted|p1a: corsola hater
+|-damage|p1a: corsola hater|82/100
+|
+|-heal|p1a: corsola hater|89/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|move|p2a: Cinderace|U-turn|p1a: corsola hater
+|-resisted|p1a: corsola hater
+|-damage|p1a: corsola hater|82/100
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|move|p1a: corsola hater|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-heal|p1a: corsola hater|89/100|[from] item: Black Sludge
+|-damage|p2a: Rotom|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p1a: corsola hater|Baneful Bunker|p1a: corsola hater
+|-singleturn|p1a: corsola hater|move: Protect
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|
+|-heal|p2a: Rotom|100/100 tox|[from] item: Leftovers
+|-heal|p1a: corsola hater|95/100|[from] item: Black Sludge
+|-damage|p2a: Rotom|88/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p1a: 99% miss rate|Hydreigon, M|100/100
+|move|p2a: Rotom|Volt Switch|p1a: 99% miss rate
+|-resisted|p1a: 99% miss rate
+|-damage|p1a: 99% miss rate|70/100
+|
+|switch|p2a: Whimsicott|Whimsicott, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: paul anka|Grimmsnarl, M|100/100
+|move|p2a: Whimsicott|Moonblast|p1a: paul anka
+|-supereffective|p1a: paul anka
+|-damage|p1a: paul anka|47/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: paul anka|Light Screen|p1a: paul anka
+|-sidestart|p1: henhon|move: Light Screen
+|
+|upkeep
+|turn|8
+|
+|move|p1a: paul anka|Reflect|p1a: paul anka
+|-sidestart|p1: henhon|Reflect
+|move|p2a: Mandibuzz|Knock Off|p1a: paul anka
+|-resisted|p1a: paul anka
+|-damage|p1a: paul anka|43/100
+|-enditem|p1a: paul anka|Light Clay|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|9
+|
+|move|p1a: paul anka|Thunder Wave|p2a: Mandibuzz
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Mandibuzz
+|move|p2a: Mandibuzz|Defog|p1a: paul anka
+|-unboost|p1a: paul anka|evasion|1
+|-sideend|p1: henhon|Reflect
+|-sideend|p1: henhon|move: Light Screen
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Mandibuzz|Knock Off|p1a: paul anka
+|-resisted|p1a: paul anka
+|-damage|p1a: paul anka|38/100
+|move|p1a: paul anka|Spirit Break|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|55/100
+|-unboost|p2a: Mandibuzz|spa|1
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Mandibuzz|U-turn|p1a: paul anka
+|-damage|p1a: paul anka|25/100
+|
+|switch|p2a: Rotom|Rotom-Wash|88/100 tox|[from]move: U-turn
+|move|p1a: paul anka|Spirit Break|p2a: Rotom
+|-damage|p2a: Rotom|63/100 tox
+|-unboost|p2a: Rotom|spa|1
+|
+|-heal|p2a: Rotom|69/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|63/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|move|p1a: paul anka|Light Screen|p1a: paul anka
+|-sidestart|p1: henhon|move: Light Screen
+|move|p2a: Rotom|Volt Switch|p1a: paul anka
+|-damage|p1a: paul anka|18/100
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: corsola hater|Toxapex, F, shiny|100/100
+|move|p2a: Seismitoad|Earthquake|p1a: corsola hater
+|-supereffective|p1a: corsola hater
+|-damage|p1a: corsola hater|64/100
+|
+|-heal|p1a: corsola hater|71/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|switch|p2a: Rotom|Rotom-Wash|63/100 tox
+|move|p1a: corsola hater|Toxic|p2a: Rotom
+|-fail|p2a: Rotom|tox
+|
+|-heal|p2a: Rotom|69/100 tox|[from] item: Leftovers
+|-heal|p1a: corsola hater|77/100|[from] item: Black Sludge
+|-damage|p2a: Rotom|63/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|move|p2a: Rotom|Volt Switch|p1a: corsola hater
+|-supereffective|p1a: corsola hater
+|-damage|p1a: corsola hater|57/100
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100|[from]move: Volt Switch
+|move|p1a: corsola hater|Haze|p1a: corsola hater
+|-clearallboost
+|
+|-heal|p1a: corsola hater|63/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p2a: Seismitoad|Earthquake|p1a: corsola hater
+|-supereffective|p1a: corsola hater
+|-damage|p1a: corsola hater|25/100
+|move|p1a: corsola hater|Toxic|p2a: Seismitoad
+|-status|p2a: Seismitoad|tox
+|
+|-heal|p1a: corsola hater|31/100|[from] item: Black Sludge
+|-damage|p2a: Seismitoad|94/100 tox|[from] psn
+|-sideend|p1: henhon|move: Light Screen
+|upkeep
+|turn|17
+|
+|move|p1a: corsola hater|Baneful Bunker|p1a: corsola hater
+|-singleturn|p1a: corsola hater|move: Protect
+|move|p2a: Seismitoad|Earthquake|p1a: corsola hater
+|-activate|p1a: corsola hater|move: Protect
+|
+|-heal|p2a: Seismitoad|100/100 tox|[from] item: Leftovers
+|-heal|p1a: corsola hater|37/100|[from] item: Black Sludge
+|-damage|p2a: Seismitoad|88/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p1a: 99% miss rate|Hydreigon, M|70/100
+|move|p2a: Seismitoad|Toxic|p1a: 99% miss rate
+|-status|p1a: 99% miss rate|tox
+|
+|-heal|p2a: Seismitoad|94/100 tox|[from] item: Leftovers
+|-damage|p1a: 99% miss rate|64/100 tox|[from] psn
+|-damage|p2a: Seismitoad|76/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|55/100
+|move|p1a: 99% miss rate|Flash Cannon|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|38/100
+|
+|-damage|p1a: 99% miss rate|52/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p1a: depressed rabbit|Cinderace, F|100/100
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|88/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|21
+|
+|move|p1a: depressed rabbit|Pyro Ball|p2a: Mandibuzz
+|-crit|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|15/100
+|move|p2a: Mandibuzz|Knock Off|p1a: depressed rabbit
+|-damage|p1a: depressed rabbit|64/100
+|-enditem|p1a: depressed rabbit|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Seismitoad|Seismitoad, F|76/100 tox
+|move|p1a: depressed rabbit|Pyro Ball|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|53/100 tox
+|
+|-heal|p2a: Seismitoad|59/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|53/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|switch|p1a: 99% miss rate|Hydreigon, M|52/100 tox
+|move|p2a: Seismitoad|Earthquake|p1a: 99% miss rate
+|-immune|p1a: 99% miss rate|[from] ability: Levitate
+|
+|-heal|p2a: Seismitoad|59/100 tox|[from] item: Leftovers
+|-damage|p1a: 99% miss rate|45/100 tox|[from] psn
+|-damage|p2a: Seismitoad|47/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: 99% miss rate|Draco Meteor|p2a: Cinderace
+|-damage|p2a: Cinderace|2/100
+|-unboost|p1a: 99% miss rate|spa|2
+|
+|-damage|p1a: 99% miss rate|33/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|switch|p2a: Whimsicott|Whimsicott, M|100/100
+|move|p1a: 99% miss rate|Draco Meteor|p2a: Whimsicott
+|-immune|p2a: Whimsicott
+|
+|-damage|p1a: 99% miss rate|15/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|switch|p1a: corsola hater|Toxapex, F, shiny|71/100
+|move|p2a: Whimsicott|U-turn|p1a: corsola hater
+|-resisted|p1a: corsola hater
+|-damage|p1a: corsola hater|68/100
+|
+|switch|p2a: Lucario|Lucario, F|100/100|[from]move: U-turn
+|
+|-heal|p1a: corsola hater|74/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|move|p2a: Lucario|Substitute|p2a: Lucario
+|-start|p2a: Lucario|Substitute
+|-damage|p2a: Lucario|76/100
+|move|p1a: corsola hater|Haze|p1a: corsola hater
+|-clearallboost
+|
+|-heal|p2a: Lucario|82/100|[from] item: Leftovers
+|-heal|p1a: corsola hater|80/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|
+|switch|p1a: kazoo kid|Togekiss, M|100/100
+|move|p2a: Lucario|Dark Pulse|p1a: kazoo kid
+|-resisted|p1a: kazoo kid
+|-damage|p1a: kazoo kid|87/100
+|
+|-heal|p2a: Lucario|88/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: kazoo kid|Encore|p2a: Lucario
+|-start|p2a: Lucario|Encore
+|move|p2a: Lucario|Dark Pulse|p1a: kazoo kid
+|-resisted|p1a: kazoo kid
+|-damage|p1a: kazoo kid|76/100
+|
+|-heal|p2a: Lucario|94/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p1a: corsola hater|Toxapex, F, shiny|100/100
+|switch|p2a: Cinderace|Cinderace, F|2/100
+|
+|upkeep
+|turn|31
+|
+|move|p1a: corsola hater|Baneful Bunker|p1a: corsola hater
+|-singleturn|p1a: corsola hater|move: Protect
+|move|p2a: Cinderace|Taunt|p1a: corsola hater
+|-activate|p1a: corsola hater|move: Protect
+|
+|upkeep
+|turn|32
+|inactive|henhon has 120 seconds left.
+|
+|move|p2a: Cinderace|Taunt|p1a: corsola hater
+|-start|p1a: corsola hater|move: Taunt
+|cant|p1a: corsola hater|move: Taunt|Toxic
+|
+|upkeep
+|turn|33
+|
+|move|p2a: Cinderace|U-turn|p1a: corsola hater
+|-resisted|p1a: corsola hater
+|-damage|p1a: corsola hater|94/100
+|
+|switch|p2a: Seismitoad|Seismitoad, F|47/100 tox|[from]move: U-turn
+|-activate|p1a: corsola hater|move: Struggle
+|move|p1a: corsola hater|Struggle|p2a: Seismitoad
+|-damage|p2a: Seismitoad|43/100 tox
+|-damage|p1a: corsola hater|69/100|[from] recoil
+|
+|-heal|p2a: Seismitoad|49/100 tox|[from] item: Leftovers
+|-heal|p1a: corsola hater|75/100|[from] item: Black Sludge
+|-damage|p2a: Seismitoad|43/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|switch|p1a: kazoo kid|Togekiss, M|76/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: kazoo kid
+|-sidestart|p1: henhon|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|49/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|37/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|move|p1a: kazoo kid|Air Slash|p2a: Seismitoad
+|-damage|p2a: Seismitoad|1/100 tox
+|move|p2a: Seismitoad|Toxic|p1a: kazoo kid
+|-status|p1a: kazoo kid|tox
+|
+|-heal|p2a: Seismitoad|7/100 tox|[from] item: Leftovers
+|-damage|p1a: kazoo kid|70/100 tox|[from] psn
+|-damage|p2a: Seismitoad|0 fnt|[from] psn
+|faint|p2a: Seismitoad
+|upkeep
+|
+|switch|p2a: Whimsicott|Whimsicott, M|100/100
+|turn|36
+|
+|switch|p1a: depressed rabbit|Cinderace, F|64/100
+|-damage|p1a: depressed rabbit|39/100|[from] Stealth Rock
+|move|p2a: Whimsicott|Moonblast|p1a: depressed rabbit
+|-resisted|p1a: depressed rabbit
+|-damage|p1a: depressed rabbit|14/100
+|-unboost|p1a: depressed rabbit|spa|1
+|
+|upkeep
+|turn|37
+|
+|move|p2a: Whimsicott|Moonblast|p1a: depressed rabbit
+|-resisted|p1a: depressed rabbit
+|-damage|p1a: depressed rabbit|0 fnt
+|faint|p1a: depressed rabbit
+|
+|upkeep
+|
+|switch|p1a: corsola hater|Toxapex, F, shiny|100/100
+|-damage|p1a: corsola hater|88/100|[from] Stealth Rock
+|turn|38
+|
+|switch|p2a: Cinderace|Cinderace, F|2/100
+|move|p1a: corsola hater|Baneful Bunker||[still]
+|-fail|p1a: corsola hater
+|
+|-heal|p1a: corsola hater|94/100|[from] item: Black Sludge
+|upkeep
+|turn|39
+|
+|switch|p1a: 4pm tea party|Polteageist|100/100
+|-damage|p1a: 4pm tea party|88/100|[from] Stealth Rock
+|move|p2a: Cinderace|Taunt|p1a: 4pm tea party
+|-start|p1a: 4pm tea party|move: Taunt
+|
+|upkeep
+|turn|40
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: 4pm tea party
+|-damage|p1a: 4pm tea party|0 fnt
+|faint|p1a: 4pm tea party
+|
+|upkeep
+|
+|switch|p1a: 99% miss rate|Hydreigon, M|15/100 tox
+|-damage|p1a: 99% miss rate|2/100 tox|[from] Stealth Rock
+|turn|41
+|
+|move|p1a: 99% miss rate|Flash Cannon|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-damage|p1a: 99% miss rate|0 fnt|[from] psn
+|faint|p1a: 99% miss rate
+|upkeep
+|
+|switch|p2a: Whimsicott|Whimsicott, M|100/100
+|switch|p1a: kazoo kid|Togekiss, M|70/100 tox
+|-damage|p1a: kazoo kid|45/100 tox|[from] Stealth Rock
+|turn|42
+|inactive|Msiu2 has 120 seconds left.
+|
+|move|p2a: Whimsicott|U-turn|p1a: kazoo kid
+|-resisted|p1a: kazoo kid
+|-damage|p1a: kazoo kid|42/100 tox
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|15/100|[from]move: U-turn
+|move|p1a: kazoo kid|Air Slash|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|-damage|p1a: kazoo kid|36/100 tox|[from] psn
+|upkeep
+|inactive|Msiu2 has 120 seconds left.
+|l|☆Msiu2
+|inactive|Msiu2 disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆Msiu2
+|inactive|Msiu2 reconnected and has 95 seconds left.
+|player|p2|Msiu2|red
+|inactive|Msiu2 has 90 seconds left.
+|
+|switch|p2a: Whimsicott|Whimsicott, M|100/100
+|turn|43
+|
+|move|p2a: Whimsicott|Moonblast|p1a: kazoo kid
+|-damage|p1a: kazoo kid|4/100 tox
+|move|p1a: kazoo kid|Air Slash|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|-damage|p1a: kazoo kid|0 fnt|[from] psn
+|faint|p1a: kazoo kid
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|63/100 tox
+|switch|p1a: paul anka|Grimmsnarl, M|18/100
+|-damage|p1a: paul anka|6/100|[from] Stealth Rock
+|turn|44
+|
+|move|p1a: paul anka|Light Screen|p1a: paul anka
+|-sidestart|p1: henhon|move: Light Screen
+|move|p2a: Rotom|Hydro Pump|p1a: paul anka|[miss]
+|-miss|p2a: Rotom|p1a: paul anka
+|
+|-heal|p2a: Rotom|69/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|63/100 tox|[from] psn
+|upkeep
+|turn|45
+|
+|move|p2a: Rotom|Hydro Pump|p1a: paul anka|[miss]
+|-miss|p2a: Rotom|p1a: paul anka
+|move|p1a: paul anka|Spirit Break|p2a: Rotom
+|-damage|p2a: Rotom|35/100 tox
+|-unboost|p2a: Rotom|spa|1
+|
+|-heal|p2a: Rotom|41/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|29/100 tox|[from] psn
+|upkeep
+|turn|46
+|
+|move|p2a: Rotom|Hydro Pump|p1a: paul anka
+|-damage|p1a: paul anka|0 fnt
+|faint|p1a: paul anka
+|
+|-heal|p2a: Rotom|35/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|16/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: corsola hater|Toxapex, F, shiny|100/100
+|-damage|p1a: corsola hater|88/100|[from] Stealth Rock
+|turn|47
+|
+|switch|p2a: Lucario|Lucario, F|94/100
+|move|p1a: corsola hater|Baneful Bunker||[still]
+|-fail|p1a: corsola hater
+|
+|-heal|p2a: Lucario|99/100|[from] item: Leftovers
+|-heal|p1a: corsola hater|94/100|[from] item: Black Sludge
+|upkeep
+|turn|48
+|
+|move|p2a: Lucario|Substitute|p2a: Lucario
+|-start|p2a: Lucario|Substitute
+|-damage|p2a: Lucario|75/100
+|move|p1a: corsola hater|Haze|p1a: corsola hater
+|-clearallboost
+|
+|-heal|p2a: Lucario|81/100|[from] item: Leftovers
+|-heal|p1a: corsola hater|100/100|[from] item: Black Sludge
+|-sideend|p1: henhon|move: Light Screen
+|upkeep
+|turn|49
+|
+|move|p2a: Lucario|Nasty Plot|p2a: Lucario
+|-boost|p2a: Lucario|spa|2
+|move|p1a: corsola hater|Haze|p1a: corsola hater
+|-clearallboost
+|
+|-heal|p2a: Lucario|87/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|move|p2a: Lucario|Flash Cannon|p1a: corsola hater
+|-resisted|p1a: corsola hater
+|-damage|p1a: corsola hater|84/100
+|move|p1a: corsola hater|Haze|p1a: corsola hater
+|-clearallboost
+|
+|-heal|p2a: Lucario|93/100|[from] item: Leftovers
+|-heal|p1a: corsola hater|90/100|[from] item: Black Sludge
+|upkeep
+|turn|51
+|
+|move|p2a: Lucario|Flash Cannon|p1a: corsola hater
+|-resisted|p1a: corsola hater
+|-damage|p1a: corsola hater|74/100
+|move|p1a: corsola hater|Toxic||[still]
+|-fail|p1a: corsola hater
+|
+|-heal|p2a: Lucario|99/100|[from] item: Leftovers
+|-heal|p1a: corsola hater|80/100|[from] item: Black Sludge
+|upkeep
+|turn|52
+|
+|move|p2a: Lucario|Flash Cannon|p1a: corsola hater
+|-resisted|p1a: corsola hater
+|-damage|p1a: corsola hater|64/100
+|move|p1a: corsola hater|Haze|p1a: corsola hater
+|-clearallboost
+|
+|-heal|p2a: Lucario|100/100|[from] item: Leftovers
+|-heal|p1a: corsola hater|71/100|[from] item: Black Sludge
+|upkeep
+|turn|53
+|
+|move|p2a: Lucario|Flash Cannon|p1a: corsola hater
+|-resisted|p1a: corsola hater
+|-damage|p1a: corsola hater|56/100
+|move|p1a: corsola hater|Toxic||[still]
+|-fail|p1a: corsola hater
+|
+|-heal|p1a: corsola hater|62/100|[from] item: Black Sludge
+|upkeep
+|turn|54
+|
+|move|p2a: Lucario|Dark Pulse|p1a: corsola hater
+|-damage|p1a: corsola hater|40/100
+|cant|p1a: corsola hater|flinch
+|
+|-heal|p1a: corsola hater|46/100|[from] item: Black Sludge
+|upkeep
+|turn|55
+|
+|move|p2a: Lucario|Dark Pulse|p1a: corsola hater
+|-damage|p1a: corsola hater|25/100
+|move|p1a: corsola hater|Recover|p1a: corsola hater
+|-heal|p1a: corsola hater|75/100
+|
+|-heal|p1a: corsola hater|81/100|[from] item: Black Sludge
+|upkeep
+|turn|56
+|
+|move|p2a: Lucario|Nasty Plot|p2a: Lucario
+|-boost|p2a: Lucario|spa|2
+|move|p1a: corsola hater|Toxic||[still]
+|-fail|p1a: corsola hater
+|
+|-heal|p1a: corsola hater|87/100|[from] item: Black Sludge
+|upkeep
+|turn|57
+|
+|move|p2a: Lucario|Dark Pulse|p1a: corsola hater
+|-damage|p1a: corsola hater|43/100
+|move|p1a: corsola hater|Haze|p1a: corsola hater
+|-clearallboost
+|
+|-heal|p1a: corsola hater|49/100|[from] item: Black Sludge
+|upkeep
+|turn|58
+|
+|move|p2a: Lucario|Dark Pulse|p1a: corsola hater
+|-damage|p1a: corsola hater|26/100
+|move|p1a: corsola hater|Recover|p1a: corsola hater
+|-heal|p1a: corsola hater|76/100
+|
+|-heal|p1a: corsola hater|83/100|[from] item: Black Sludge
+|upkeep
+|turn|59
+|
+|move|p2a: Lucario|Flash Cannon|p1a: corsola hater
+|-resisted|p1a: corsola hater
+|-damage|p1a: corsola hater|67/100
+|move|p1a: corsola hater|Haze|p1a: corsola hater
+|-clearallboost
+|
+|-heal|p1a: corsola hater|74/100|[from] item: Black Sludge
+|upkeep
+|turn|60
+|
+|move|p2a: Lucario|Flash Cannon|p1a: corsola hater
+|-resisted|p1a: corsola hater
+|-damage|p1a: corsola hater|57/100
+|move|p1a: corsola hater|Toxic||[still]
+|-fail|p1a: corsola hater
+|
+|-heal|p1a: corsola hater|63/100|[from] item: Black Sludge
+|upkeep
+|turn|61
+|
+|move|p1a: corsola hater|Baneful Bunker|p1a: corsola hater
+|-singleturn|p1a: corsola hater|move: Protect
+|move|p2a: Lucario|Flash Cannon|p1a: corsola hater
+|-activate|p1a: corsola hater|move: Protect
+|
+|-heal|p1a: corsola hater|69/100|[from] item: Black Sludge
+|upkeep
+|turn|62
+|
+|move|p2a: Lucario|Nasty Plot|p2a: Lucario
+|-boost|p2a: Lucario|spa|2
+|move|p1a: corsola hater|Toxic||[still]
+|-fail|p1a: corsola hater
+|
+|-heal|p1a: corsola hater|75/100|[from] item: Black Sludge
+|upkeep
+|turn|63
+|
+|move|p2a: Lucario|Dark Pulse|p1a: corsola hater
+|-damage|p1a: corsola hater|35/100
+|cant|p1a: corsola hater|flinch
+|
+|-heal|p1a: corsola hater|42/100|[from] item: Black Sludge
+|upkeep
+|turn|64
+|
+|move|p2a: Lucario|Dark Pulse|p1a: corsola hater
+|-damage|p1a: corsola hater|0 fnt
+|faint|p1a: corsola hater
+|
+|win|Msiu2
+|l|☆henhon
+|raw|henhon's rating: 1317 → 1298(-19 for losing)
+|raw|Msiu2's rating: 1339 → 1358(+19 for winning)

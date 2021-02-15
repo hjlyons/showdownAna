@@ -1,0 +1,374 @@
+|ScrapeTime|2020-01-01-03:15:46
+|j|☆Lapinathor
+|j|☆R. Irving
+|player|p1|Lapinathor|250|1169
+|player|p2|R. Irving|emmet|1154
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Hawlucha, F|
+|poke|p1|Gyarados, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Bisharp, M|
+|poke|p1|Polteageist|
+|poke|p2|Corviknight, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Milotic, F|
+|poke|p2|Appletun, F|
+|poke|p2|Heliolisk, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Polteageist|Polteageist|100/100
+|switch|p2a: Heliolisk|Heliolisk, F|100/100
+|-item|p2a: Heliolisk|Air Balloon
+|turn|1
+|
+|move|p2a: Heliolisk|Glare|p1a: Polteageist
+|-status|p1a: Polteageist|par
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Heliolisk|Volt Switch|p1a: Polteageist
+|-damage|p1a: Polteageist|43/100 par
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100|[from]move: Volt Switch
+|move|p1a: Polteageist|Psyshock|p2a: Grimmsnarl
+|-immune|p2a: Grimmsnarl
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: R. Irving|move: Light Screen
+|cant|p1a: Polteageist|par
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Polteageist|Giga Drain|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|73/100
+|-heal|p1a: Polteageist|64/100 par|[from] drain|[of] p2a: Grimmsnarl
+|move|p2a: Grimmsnarl|Foul Play|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|turn|5
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: R. Irving|Reflect
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Milotic|Milotic, F|100/100
+|move|p1a: Bisharp|Iron Head|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|81/100
+|
+|-status|p2a: Milotic|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Milotic
+|-damage|p2a: Milotic|56/100 brn
+|-start|p2a: Milotic|Throat Chop|[silent]
+|move|p2a: Milotic|Aqua Ring|p2a: Milotic
+|-start|p2a: Milotic|Aqua Ring
+|
+|-heal|p2a: Milotic|62/100 brn|[from] Aqua Ring
+|-damage|p2a: Milotic|56/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Milotic
+|-damage|p2a: Milotic|32/100 brn
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|82/100 brn
+|
+|-heal|p2a: Milotic|88/100 brn|[from] Aqua Ring
+|-damage|p2a: Milotic|82/100 brn|[from] brn
+|-end|p2a: Milotic|Throat Chop|[silent]
+|upkeep
+|turn|9
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Milotic|Haze|p2a: Milotic
+|-clearallboost
+|
+|-heal|p2a: Milotic|88/100 brn|[from] Aqua Ring
+|-damage|p2a: Milotic|82/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|move|p2a: Milotic|Scald|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|86/100
+|-status|p1a: Gyarados|brn
+|
+|-heal|p2a: Milotic|88/100 brn|[from] Aqua Ring
+|-damage|p1a: Gyarados|80/100 brn|[from] brn
+|-damage|p2a: Milotic|82/100 brn|[from] brn
+|-sideend|p2: R. Irving|move: Light Screen
+|upkeep
+|turn|11
+|
+|switch|p2a: Heliolisk|Heliolisk, F|100/100
+|-item|p2a: Heliolisk|Air Balloon
+|move|p1a: Gyarados|Power Whip|p2a: Heliolisk
+|-damage|p2a: Heliolisk|76/100
+|-enditem|p2a: Heliolisk|Air Balloon
+|
+|-damage|p1a: Gyarados|74/100 brn|[from] brn
+|upkeep
+|turn|12
+|l|☆Lapinathor
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by R. Irving)
+|j|☆Lapinathor
+|inactive|Lapinathor reconnected and has 130 seconds left.
+|player|p1|Lapinathor|250
+|
+|move|p2a: Heliolisk|Glare||[still]
+|-fail|p2a: Heliolisk
+|move|p1a: Gyarados|Earthquake|p2a: Heliolisk
+|-supereffective|p2a: Heliolisk
+|-damage|p2a: Heliolisk|38/100
+|
+|-damage|p1a: Gyarados|68/100 brn|[from] brn
+|-sideend|p2: R. Irving|Reflect
+|upkeep
+|turn|13
+|
+|move|p2a: Heliolisk|Volt Switch|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|73/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|14
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Dragapult
+|-status|p1a: Dragapult|par
+|cant|p1a: Dragapult|par
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: R. Irving|move: Light Screen
+|move|p1a: Dragapult|Draco Meteor|p2a: Grimmsnarl
+|-immune|p2a: Grimmsnarl
+|
+|upkeep
+|turn|16
+|inactive|Lapinathor has 120 seconds left.
+|l|☆Lapinathor
+|inactive|Lapinathor disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆Lapinathor
+|inactive|Lapinathor reconnected and has 90 seconds left.
+|player|p1|Lapinathor|250
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: R. Irving|Reflect
+|cant|p1a: Dragapult|par
+|
+|upkeep
+|turn|17
+|inactive|Lapinathor has 90 seconds left.
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Grimmsnarl
+|-immune|p2a: Grimmsnarl
+|move|p2a: Grimmsnarl|Foul Play|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|24/100 par
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Steve|Corviknight, M|100/100
+|-ability|p2a: Steve|Pressure
+|move|p1a: Dragapult|Draco Meteor|p2a: Steve
+|-resisted|p2a: Steve
+|-damage|p2a: Steve|85/100
+|-unboost|p1a: Dragapult|spa|2
+|
+|-heal|p2a: Steve|91/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Steve
+|-resisted|p2a: Steve
+|-damage|p2a: Steve|84/100
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: Steve|Bulk Up|p2a: Steve
+|-boost|p2a: Steve|atk|1
+|-boost|p2a: Steve|def|1
+|
+|-heal|p2a: Steve|90/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|move|p2a: Steve|Bulk Up|p2a: Steve
+|-boost|p2a: Steve|atk|1
+|-boost|p2a: Steve|def|1
+|
+|-heal|p2a: Steve|96/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|Lapinathor has 90 seconds left.
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Steve|Substitute|p2a: Steve
+|-start|p2a: Steve|Substitute
+|-damage|p2a: Steve|71/100
+|
+|-heal|p2a: Steve|77/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Steve
+|-activate|p2a: Steve|move: Substitute|[damage]
+|move|p2a: Steve|Bulk Up|p2a: Steve
+|-boost|p2a: Steve|atk|1
+|-boost|p2a: Steve|def|1
+|
+|-heal|p2a: Steve|84/100|[from] item: Leftovers
+|-sideend|p2: R. Irving|move: Light Screen
+|upkeep
+|turn|23
+|inactive|Lapinathor has 90 seconds left.
+|inactive|Lapinathor has 60 seconds left.
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Steve
+|-end|p2a: Steve|Substitute
+|move|p2a: Steve|Bulk Up|p2a: Steve
+|-boost|p2a: Steve|atk|1
+|-boost|p2a: Steve|def|1
+|
+|-heal|p2a: Steve|90/100|[from] item: Leftovers
+|-sideend|p2: R. Irving|Reflect
+|upkeep
+|turn|24
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Steve
+|-damage|p2a: Steve|69/100
+|-start|p2a: Steve|Throat Chop|[silent]
+|move|p2a: Steve|Brave Bird|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|37/100
+|-damage|p2a: Steve|55/100|[from] Recoil
+|
+|-heal|p1a: Bisharp|43/100|[from] item: Leftovers
+|-heal|p2a: Steve|61/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Steve
+|-damage|p2a: Steve|41/100
+|move|p2a: Steve|Roost|p2a: Steve
+|-heal|p2a: Steve|91/100
+|-singleturn|p2a: Steve|move: Roost
+|
+|-heal|p1a: Bisharp|49/100|[from] item: Leftovers
+|-heal|p2a: Steve|97/100|[from] item: Leftovers
+|-end|p2a: Steve|Throat Chop|[silent]
+|upkeep
+|turn|26
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Steve|Brave Bird|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|-damage|p2a: Steve|87/100|[from] Recoil
+|faint|p1a: Bisharp
+|
+|-heal|p2a: Steve|93/100|[from] item: Leftovers
+|upkeep
+|inactive|Lapinathor has 60 seconds left.
+|
+|switch|p1a: Dragapult|Dragapult, F|24/100 par
+|turn|27
+|
+|cant|p1a: Dragapult|par
+|move|p2a: Steve|Brave Bird|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p2a: Steve|87/100|[from] Recoil
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Steve|93/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|28
+|
+|move|p2a: Steve|Brave Bird|p1a: Hatterene
+|-damage|p1a: Hatterene|17/100
+|-damage|p2a: Steve|71/100|[from] Recoil
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p2a: Steve|77/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Steve|Brave Bird|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|-damage|p2a: Steve|73/100|[from] Recoil
+|faint|p1a: Hatterene
+|
+|-heal|p2a: Steve|79/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|turn|30
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Steve|Brave Bird|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|-damage|p2a: Steve|55/100|[from] Recoil
+|faint|p1a: Hawlucha
+|
+|win|R. Irving
+|c|☆R. Irving|Gg
+|raw|Lapinathor's rating: 1169 → 1143(-26 for losing)
+|raw|R. Irving's rating: 1154 → 1180(+26 for winning)

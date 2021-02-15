@@ -1,0 +1,497 @@
+|ScrapeTime|2020-01-01-06:24:36
+|j|☆MarkRMichaels
+|j|☆AsumaTest
+|player|p1|MarkRMichaels|169|1365
+|player|p2|AsumaTest|gambler|1368
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Quagsire, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Mantine, M|
+|poke|p1|Clefable, M|
+|poke|p1|Milotic, F|
+|poke|p1|Salazzle, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Sylveon, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Conkeldurr, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| C1K
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MarkRMichaels)
+|j| veganBoyd
+|
+|start
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|76/100
+|move|p2a: Seismitoad|Earth Power|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|
+|-heal|p1a: Salazzle|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Quagsire|Quagsire, F, shiny|100/100
+|move|p2a: Seismitoad|Earth Power|p1a: Quagsire
+|-damage|p1a: Quagsire|72/100
+|
+|-heal|p1a: Quagsire|78/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Seismitoad|Toxic|p1a: Quagsire
+|-status|p1a: Quagsire|tox
+|move|p1a: Quagsire|Toxic|p2a: Seismitoad|[miss]
+|-miss|p1a: Quagsire|p2a: Seismitoad
+|
+|-heal|p1a: Quagsire|84/100 tox|[from] item: Leftovers
+|-damage|p1a: Quagsire|78/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F, shiny|100/100
+|move|p1a: Quagsire|Toxic|p2a: Conkeldurr
+|-status|p2a: Conkeldurr|tox
+|
+|-heal|p1a: Quagsire|84/100 tox|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|94/100 tox|[from] psn
+|-damage|p1a: Quagsire|72/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p1a: Quagsire|Protect|p1a: Quagsire
+|-singleturn|p1a: Quagsire|Protect
+|move|p2a: Conkeldurr|Facade|p1a: Quagsire
+|-activate|p1a: Quagsire|move: Protect
+|
+|-heal|p1a: Quagsire|78/100 tox|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|82/100 tox|[from] psn
+|-damage|p1a: Quagsire|60/100 tox|[from] psn
+|upkeep
+|turn|6
+|l|☆MarkRMichaels
+|inactive|MarkRMichaels disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆MarkRMichaels
+|inactive|MarkRMichaels reconnected and has 125 seconds left.
+|player|p1|MarkRMichaels|169
+|inactive|MarkRMichaels has 120 seconds left.
+|inactive|MarkRMichaels has 90 seconds left.
+|
+|move|p2a: Conkeldurr|Earthquake|p1a: Quagsire
+|-damage|p1a: Quagsire|8/100 tox
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|58/100 tox
+|
+|-heal|p1a: Quagsire|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|64/100 tox|[from] psn
+|-damage|p1a: Quagsire|40/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|switch|p1a: Mantine|Mantine, M|100/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Hydreigon|U-turn|p1a: Mantine
+|-resisted|p1a: Mantine
+|-damage|p1a: Mantine|92/100
+|inactive|AsumaTest has 120 seconds left.
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100|[from]move: U-turn
+|move|p1a: Mantine|Scald|p2a: Seismitoad
+|-immune|p2a: Seismitoad|[from] ability: Water Absorb
+|
+|-heal|p1a: Mantine|98/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|AsumaTest has 120 seconds left.
+|
+|switch|p1a: Quagsire|Quagsire, F, shiny|40/100 tox
+|move|p2a: Seismitoad|Stealth Rock|p1a: Quagsire
+|-sidestart|p1: MarkRMichaels|move: Stealth Rock
+|
+|-heal|p1a: Quagsire|46/100 tox|[from] item: Leftovers
+|-damage|p1a: Quagsire|40/100 tox|[from] psn
+|upkeep
+|turn|10
+|inactive|AsumaTest has 120 seconds left.
+|
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|move|p1a: Quagsire|Toxic|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-heal|p1a: Quagsire|46/100 tox|[from] item: Leftovers
+|-damage|p1a: Quagsire|34/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|move|p2a: Corviknight|Taunt|p1a: Quagsire
+|-start|p1a: Quagsire|move: Taunt
+|cant|p1a: Quagsire|move: Taunt|Recover
+|
+|-heal|p1a: Quagsire|40/100 tox|[from] item: Leftovers
+|-damage|p1a: Quagsire|22/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p1a: Salazzle|Salazzle, F|82/100
+|-damage|p1a: Salazzle|57/100|[from] Stealth Rock
+|move|p2a: Corviknight|U-turn|p1a: Salazzle
+|-resisted|p1a: Salazzle
+|-crit|p1a: Salazzle
+|-damage|p1a: Salazzle|47/100
+|inactive|AsumaTest has 120 seconds left.
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100|[from]move: U-turn
+|
+|-heal|p1a: Salazzle|53/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|AsumaTest has 120 seconds left.
+|
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Seismitoad|Earth Power|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|-heal|p1a: Salazzle|59/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|AsumaTest has 120 seconds left.
+|
+|switch|p1a: Mantine|Mantine, M|98/100
+|-damage|p1a: Mantine|73/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Earth Power|p1a: Mantine
+|-immune|p1a: Mantine
+|
+|-heal|p1a: Mantine|79/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|AsumaTest has 120 seconds left.
+|
+|move|p1a: Mantine|Protect|p1a: Mantine
+|-singleturn|p1a: Mantine|Protect
+|move|p2a: Seismitoad|Toxic|p1a: Mantine
+|-activate|p1a: Mantine|move: Protect
+|
+|-heal|p1a: Mantine|85/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Seismitoad|Toxic|p1a: Clefable
+|-status|p1a: Clefable|tox
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|move|p1a: Clefable|Moonblast|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|83/100
+|
+|-heal|p2a: Corviknight|89/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Corviknight|Iron Head|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|37/100 tox
+|move|p1a: Clefable|Moonblast|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|72/100
+|-ability|p2a: Corviknight|Mirror Armor
+|-unboost|p1a: Clefable|spa|1
+|
+|-heal|p2a: Corviknight|78/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Milotic|Milotic, F, shiny|100/100
+|-damage|p1a: Milotic|88/100|[from] Stealth Rock
+|move|p2a: Corviknight|Iron Head|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|77/100
+|
+|-heal|p1a: Milotic|83/100|[from] item: Leftovers
+|-heal|p2a: Corviknight|84/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|AsumaTest has 120 seconds left.
+|
+|move|p1a: Milotic|Ice Beam|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|56/100
+|move|p2a: Corviknight|Taunt|p1a: Milotic
+|-start|p1a: Milotic|move: Taunt
+|
+|-heal|p1a: Milotic|89/100|[from] item: Leftovers
+|-heal|p2a: Corviknight|62/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Milotic|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|35/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|85/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p1a: Milotic|95/100|[from] item: Leftovers
+|-heal|p2a: Corviknight|91/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Milotic|Scald|p2a: Seismitoad
+|-immune|p2a: Seismitoad|[from] ability: Water Absorb
+|
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Milotic|Ice Beam|p2a: Seismitoad
+|-damage|p2a: Seismitoad|69/100
+|move|p2a: Seismitoad|Toxic|p1a: Milotic
+|-status|p1a: Milotic|tox
+|
+|-heal|p2a: Seismitoad|75/100|[from] item: Leftovers
+|-damage|p1a: Milotic|94/100 tox|[from] psn
+|-end|p1a: Milotic|move: Taunt
+|upkeep
+|turn|24
+|
+|switch|p2a: Sylveon|Sylveon, F|100/100
+|move|p1a: Milotic|Ice Beam|p2a: Sylveon
+|-damage|p2a: Sylveon|86/100
+|
+|-heal|p1a: Milotic|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Sylveon|92/100|[from] item: Leftovers
+|-damage|p1a: Milotic|88/100 tox|[from] psn
+|upkeep
+|turn|25
+|inactive|AsumaTest has 90 seconds left.
+|
+|switch|p1a: Quagsire|Quagsire, F, shiny|22/100 tox
+|-damage|p1a: Quagsire|16/100 tox|[from] Stealth Rock
+|switch|p2a: Seismitoad|Seismitoad, M|75/100
+|
+|-heal|p2a: Seismitoad|81/100|[from] item: Leftovers
+|-heal|p1a: Quagsire|22/100 tox|[from] item: Leftovers
+|-damage|p1a: Quagsire|16/100 tox|[from] psn
+|upkeep
+|turn|26
+|inactive|AsumaTest has 90 seconds left.
+|
+|move|p2a: Seismitoad|Earth Power|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|faint|p1a: Quagsire
+|
+|-heal|p2a: Seismitoad|87/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|27
+|
+|switch|p2a: Sylveon|Sylveon, F|92/100
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|98/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Sylveon|[from]lockedmove
+|-damage|p2a: Sylveon|13/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Sylveon|19/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Salazzle|Salazzle, F|59/100
+|-damage|p1a: Salazzle|34/100|[from] Stealth Rock
+|turn|29
+|inactive|AsumaTest has 90 seconds left.
+|
+|switch|p2a: Seismitoad|Seismitoad, M|87/100
+|move|p1a: Salazzle|Toxic|p2a: Seismitoad
+|-status|p2a: Seismitoad|tox
+|
+|-heal|p1a: Salazzle|40/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|93/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|87/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Seismitoad|Earth Power|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|-heal|p1a: Salazzle|47/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|93/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|81/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|22/100
+|move|p2a: Seismitoad|Earth Power|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|
+|-heal|p1a: Salazzle|28/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|87/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|69/100 tox|[from] psn
+|upkeep
+|turn|32
+|inactive|AsumaTest has 60 seconds left.
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Salazzle|Protect||[still]
+|-fail|p1a: Salazzle
+|
+|-heal|p1a: Salazzle|34/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|AsumaTest has 60 seconds left.
+|
+|switch|p1a: Milotic|Milotic, F, shiny|88/100 tox
+|-damage|p1a: Milotic|76/100 tox|[from] Stealth Rock
+|move|p2a: Hydreigon|Dark Pulse|p1a: Milotic
+|-damage|p1a: Milotic|39/100 tox
+|
+|-heal|p1a: Milotic|45/100 tox|[from] item: Leftovers
+|-damage|p1a: Milotic|39/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|switch|p2a: Seismitoad|Seismitoad, M|69/100 tox
+|move|p1a: Milotic|Ice Beam|p2a: Seismitoad
+|-damage|p2a: Seismitoad|40/100 tox
+|
+|-heal|p1a: Milotic|45/100 tox|[from] item: Leftovers
+|-heal|p2a: Seismitoad|46/100 tox|[from] item: Leftovers
+|-damage|p1a: Milotic|33/100 tox|[from] psn
+|-damage|p2a: Seismitoad|40/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|switch|p2a: Corviknight|Corviknight, M, shiny|91/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|83/100 tox
+|
+|-heal|p1a: Milotic|89/100 tox|[from] item: Leftovers
+|-heal|p2a: Corviknight|98/100|[from] item: Leftovers
+|-damage|p1a: Milotic|71/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|move|p1a: Milotic|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|70/100
+|move|p2a: Corviknight|Taunt|p1a: Milotic
+|-start|p1a: Milotic|move: Taunt
+|
+|-heal|p1a: Milotic|77/100 tox|[from] item: Leftovers
+|-heal|p2a: Corviknight|76/100|[from] item: Leftovers
+|-damage|p1a: Milotic|53/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|switch|p1a: Mantine|Mantine, M|85/100
+|-damage|p1a: Mantine|60/100|[from] Stealth Rock
+|move|p2a: Corviknight|U-turn|p1a: Mantine
+|-resisted|p1a: Mantine
+|-damage|p1a: Mantine|52/100
+|inactive|AsumaTest has 30 seconds left.
+|inactive|AsumaTest has 20 seconds left.
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F, shiny|64/100 tox|[from]move: U-turn
+|
+|-heal|p1a: Mantine|58/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|58/100 tox|[from] psn
+|upkeep
+|turn|38
+|inactive|AsumaTest has 30 seconds left this turn.
+|
+|move|p1a: Mantine|Protect|p1a: Mantine
+|-singleturn|p1a: Mantine|Protect
+|move|p2a: Conkeldurr|Facade|p1a: Mantine
+|-activate|p1a: Mantine|move: Protect
+|
+|-heal|p1a: Mantine|64/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|46/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|switch|p1a: Clefable|Clefable, M|37/100 tox
+|move|p2a: Conkeldurr|Facade|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-damage|p2a: Conkeldurr|28/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Mantine|Mantine, M|64/100
+|-damage|p1a: Mantine|39/100|[from] Stealth Rock
+|turn|40
+|
+|move|p1a: Mantine|Protect|p1a: Mantine
+|-singleturn|p1a: Mantine|Protect
+|move|p2a: Conkeldurr|Facade|p1a: Mantine
+|-activate|p1a: Mantine|move: Protect
+|
+|-heal|p1a: Mantine|45/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|4/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|95/100
+|-singleturn|p1a: Mantine|move: Roost
+|move|p2a: Conkeldurr|Facade|p1a: Mantine
+|-damage|p1a: Mantine|0 fnt
+|faint|p1a: Mantine
+|
+|-damage|p2a: Conkeldurr|0 fnt|[from] psn
+|faint|p2a: Conkeldurr
+|upkeep
+|inactive|AsumaTest has 60 seconds left.
+|
+|switch|p1a: Milotic|Milotic, F, shiny|53/100 tox
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|-damage|p1a: Milotic|41/100 tox|[from] Stealth Rock
+|turn|42
+|-message|MarkRMichaels forfeited.
+|
+|win|AsumaTest
+|l|☆MarkRMichaels
+|raw|MarkRMichaels's rating: 1365 → 1346(-19 for losing)
+|raw|AsumaTest's rating: 1368 → 1388(+20 for winning)
+|l| C1K

@@ -1,0 +1,301 @@
+|ScrapeTime|2020-01-01-00:04:38
+|j|☆fewaufewih
+|j|☆a9i4
+|player|p1|fewaufewih|chuck|1081
+|player|p2|a9i4|101|1040
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Sirfetch'd, F|
+|poke|p1|Hitmonlee, M|
+|poke|p1|Seismitoad, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Hydreigon, M|
+|poke|p1|Corviknight, M|
+|poke|p2|Aegislash, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Dracovish|
+|poke|p2|Vaporeon, M|
+|poke|p2|Mimikyu, M|
+|poke|p2|Hatterene, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Dragapult|Outrage|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|52/100
+|-damage|p2a: Dragapult|91/100|[from] item: Life Orb
+|move|p1a: Corviknight|Brave Bird|p2a: Dragapult
+|-damage|p2a: Dragapult|37/100
+|-damage|p1a: Corviknight|38/100|[from] Recoil
+|
+|-heal|p1a: Corviknight|44/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Dragapult|Outrage|p1a: Corviknight|[from]lockedmove
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-damage|p2a: Dragapult|27/100|[from] item: Life Orb
+|-start|p2a: Dragapult|confusion|[fatigue]
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Sirfetch'd|Sirfetch'd, F|100/100
+|turn|4
+|
+|move|p1a: Sirfetch'd|First Impression|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|5
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Seismitoad
+|-immune|p1a: Seismitoad|[from] ability: Water Absorb
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|move|p1a: Seismitoad|Earthquake|p2a: Vaporeon
+|-damage|p2a: Vaporeon|63/100
+|
+|-heal|p2a: Vaporeon|70/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Seismitoad|Stealth Rock|p2a: Vaporeon
+|-sidestart|p2: a9i4|move: Stealth Rock
+|move|p2a: Vaporeon|Scald|p1a: Seismitoad
+|-immune|p1a: Seismitoad|[from] ability: Water Absorb
+|
+|-heal|p2a: Vaporeon|76/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|move|p1a: Seismitoad|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|52/100
+|
+|-heal|p2a: Hatterene|58/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Hatterene|Psychic|p1a: Cinderace
+|-damage|p1a: Cinderace|25/100
+|
+|-heal|p2a: Hatterene|64/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|turn|11
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Dracovish|Outrage|p1a: Seismitoad
+|-damage|p1a: Seismitoad|63/100
+|
+|-heal|p1a: Seismitoad|69/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Dracovish|Outrage|p1a: Seismitoad|[from]lockedmove
+|-damage|p1a: Seismitoad|32/100
+|-start|p2a: Dracovish|confusion|[fatigue]
+|move|p1a: Seismitoad|Earthquake|p2a: Dracovish
+|-damage|p2a: Dracovish|50/100
+|
+|-heal|p1a: Seismitoad|38/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|-activate|p2a: Dracovish|confusion
+|-damage|p2a: Dracovish|37/100|[from] confusion
+|move|p1a: Seismitoad|Earthquake|p2a: Dracovish
+|-damage|p2a: Dracovish|3/100
+|
+|-heal|p1a: Seismitoad|44/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|-activate|p2a: Dracovish|confusion
+|move|p2a: Dracovish|Outrage|p1a: Seismitoad
+|-damage|p1a: Seismitoad|5/100
+|move|p1a: Seismitoad|Earthquake|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|-heal|p1a: Seismitoad|11/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|-damage|p2a: Mimikyu|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|move|p1a: Seismitoad|Earthquake|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|88/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M
+|-damage|p2a: Mimikyu|76/100|[from] ability: Disguise|[of] p2a: Mimikyu
+|
+|-heal|p2a: Mimikyu|82/100|[from] item: Leftovers
+|-heal|p1a: Seismitoad|17/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Mimikyu|Drain Punch|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|-heal|p2a: Mimikyu|95/100|[from] drain|[of] p1a: Seismitoad
+|faint|p1a: Seismitoad
+|
+|-heal|p2a: Mimikyu|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|25/100
+|turn|17
+|
+|move|p1a: Cinderace|Sucker Punch|p2a: Mimikyu
+|-damage|p2a: Mimikyu|63/100
+|move|p2a: Mimikyu|Drain Punch|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-heal|p2a: Mimikyu|78/100|[from] drain|[of] p1a: Cinderace
+|faint|p1a: Cinderace
+|
+|-heal|p2a: Mimikyu|84/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|turn|18
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Mimikyu
+|-supereffective|p2a: Mimikyu
+|-damage|p2a: Mimikyu|11/100
+|move|p2a: Mimikyu|Play Rough|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-heal|p2a: Mimikyu|17/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Sirfetch'd|Sirfetch'd, F|100/100
+|turn|19
+|
+|move|p1a: Sirfetch'd|First Impression|p2a: Mimikyu
+|-resisted|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|upkeep
+|
+|switch|p2a: Vaporeon|Vaporeon, M|76/100
+|-damage|p2a: Vaporeon|63/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p1a: Hitmonlee|Hitmonlee, M|100/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|70/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Hitmonlee|Throat Chop|p2a: Vaporeon
+|-damage|p2a: Vaporeon|39/100
+|-start|p2a: Vaporeon|Throat Chop|[silent]
+|move|p2a: Vaporeon|Scald|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|51/100
+|
+|-heal|p2a: Vaporeon|89/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Vaporeon|96/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|c|☆a9i4|!dex throat chop
+|raw|Throat Chop  Power80 Accuracy100% PP24 For 2 turns, the target cannot use sound moves. 
+
+|
+|move|p1a: Hitmonlee|Poison Jab|p2a: Vaporeon
+|-damage|p2a: Vaporeon|61/100
+|move|p2a: Vaporeon|Scald|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|-heal|p2a: Vaporeon|68/100|[from] item: Leftovers
+|-end|p2a: Vaporeon|Throat Chop|[silent]
+|upkeep
+|
+|switch|p1a: Sirfetch'd|Sirfetch'd, F|100/100
+|turn|23
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Sirfetch'd|Close Combat|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p2a: Vaporeon|74/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Sirfetch'd|Close Combat|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|-unboost|p1a: Sirfetch'd|def|1
+|-unboost|p1a: Sirfetch'd|spd|1
+|faint|p2a: Vaporeon
+|
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|-damage|p2a: Aegislash|94/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Sirfetch'd|Close Combat|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|-unboost|p1a: Sirfetch'd|def|1
+|-unboost|p1a: Sirfetch'd|spd|1
+|faint|p2a: Aegislash
+|
+|win|fewaufewih
+|c|☆fewaufewih|gg
+|l|☆a9i4
+|raw|fewaufewih's rating: 1081 → 1106(+25 for winning)
+|raw|a9i4's rating: 1040 → 1026(-14 for losing)

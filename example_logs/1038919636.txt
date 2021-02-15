@@ -1,0 +1,894 @@
+|ScrapeTime|2020-01-01-00:46:43
+|j|☆Agent Frosmoth
+|j|☆zCranidos
+|player|p1|Agent Frosmoth|159|1291
+|player|p2|zCranidos|hau-stance|1279
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Centiskorch, M|
+|poke|p1|Dugtrio, F|
+|poke|p1|Haxorus, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Dragapult, M|
+|poke|p2|Lucario, M|
+|poke|p2|Hippowdon, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Mimikyu, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Reuniclus, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Haxorus|Haxorus, F, shiny|100/100
+|switch|p2a: RHCP|Rotom-Wash, shiny|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|1
+|
+|switch|p2a: The Fool|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: The Fool
+|move|p1a: Haxorus|Earthquake|p2a: The Fool
+|-crit|p2a: The Fool
+|-damage|p2a: The Fool|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Haxorus|94/100|[from] Sandstorm
+|-heal|p2a: The Fool|74/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: The Fool|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Agent Frosmoth|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: The Fool|80/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Black Sabbath|Hydreigon, M|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Black Sabbath
+|-sidestart|p2: zCranidos|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Black Sabbath|94/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Black Sabbath|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|88/100
+|
+|switch|p2a: RHCP|Rotom-Wash, shiny|100/100|[from]move: U-turn
+|-damage|p2a: RHCP|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: RHCP|82/100|[from] Sandstorm
+|-heal|p2a: RHCP|88/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: RHCP|Volt Switch|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-crit|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|40/100
+|
+|switch|p2a: Gold Experience|Lucario, M, shiny|100/100|[from]move: Volt Switch
+|-damage|p2a: Gold Experience|98/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Defog|p2a: Gold Experience
+|-unboost|p2a: Gold Experience|evasion|1
+|-sideend|p2: zCranidos|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|-sideend|p1: Agent Frosmoth|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|switch|p1a: Centiskorch|Centiskorch, M|100/100
+|move|p2a: Gold Experience|Flash Cannon|p1a: Centiskorch
+|-resisted|p1a: Centiskorch
+|-damage|p1a: Centiskorch|76/100
+|-unboost|p1a: Centiskorch|spd|1
+|-damage|p2a: Gold Experience|88/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: RHCP|Rotom-Wash, shiny|88/100
+|move|p1a: Centiskorch|Fire Lash|p2a: RHCP
+|-resisted|p2a: RHCP
+|-damage|p2a: RHCP|73/100
+|-unboost|p2a: RHCP|def|1
+|
+|-heal|p2a: RHCP|79/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: RHCP|Hydro Pump|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|84/100
+|
+|-heal|p2a: RHCP|85/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|90/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: RHCP|Will-O-Wisp|p1a: Ferrothorn|[miss]
+|-miss|p2a: RHCP|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: RHCP
+|-start|p2a: RHCP|move: Leech Seed
+|
+|-heal|p2a: RHCP|91/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|96/100|[from] item: Leftovers
+|-damage|p2a: RHCP|79/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|10
+|
+|move|p2a: RHCP|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|91/100
+|
+|switch|p2a: Hierophant Green|Reuniclus, M|100/100|[from]move: Volt Switch
+|move|p1a: Ferrothorn|Power Whip|p2a: Hierophant Green
+|-damage|p2a: Hierophant Green|63/100
+|
+|-heal|p1a: Ferrothorn|97/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|40/100
+|move|p2a: Hierophant Green|Recover|p2a: Hierophant Green
+|-heal|p2a: Hierophant Green|100/100
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: The Fool|Hippowdon, M|80/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: The Fool
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|90/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: The Fool|87/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Mandibuzz|U-turn|p2a: The Fool
+|-damage|p2a: The Fool|80/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|97/100|[from]move: U-turn
+|move|p2a: The Fool|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Agent Frosmoth|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: The Fool|87/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|90/100
+|move|p2a: The Fool|Whirlwind|p1a: Mandibuzz
+|drag|p1a: Centiskorch|Centiskorch, M|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Centiskorch|70/100|[from] Sandstorm
+|-heal|p2a: The Fool|93/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Centiskorch|Power Whip|p2a: The Fool
+|-supereffective|p2a: The Fool
+|-crit|p2a: The Fool
+|-damage|p2a: The Fool|24/100
+|move|p2a: The Fool|Whirlwind|p1a: Centiskorch
+|drag|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|82/100|[from] Sandstorm
+|-heal|p2a: The Fool|30/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: The Fool
+|-damage|p2a: The Fool|0 fnt
+|faint|p2a: The Fool
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Black Sabbath|Hydreigon, M|94/100
+|turn|17
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|90/100
+|move|p2a: Black Sabbath|Draco Meteor|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|49/100
+|-unboost|p2a: Black Sabbath|spa|2
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Gold Experience|Lucario, M, shiny|88/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|99/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Gold Experience|Nasty Plot|p2a: Gold Experience
+|-boost|p2a: Gold Experience|spa|2
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Gold Experience|Flash Cannon|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|41/100
+|-damage|p2a: Gold Experience|78/100|[from] item: Life Orb
+|move|p1a: Mandibuzz|U-turn|p2a: Gold Experience
+|-resisted|p2a: Gold Experience
+|-damage|p2a: Gold Experience|73/100
+|
+|switch|p1a: Dugtrio|Dugtrio, F|100/100|[from]move: U-turn
+|-damage|p1a: Dugtrio|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Gold Experience|Vacuum Wave|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|-damage|p2a: Gold Experience|63/100|[from] item: Life Orb
+|faint|p1a: Dugtrio
+|
+|upkeep
+|
+|switch|p1a: Haxorus|Haxorus, F, shiny|94/100
+|-damage|p1a: Haxorus|82/100|[from] Stealth Rock
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|22
+|
+|switch|p2a: Hierophant Green|Reuniclus, M|100/100
+|move|p1a: Haxorus|Earthquake|p2a: Hierophant Green
+|-damage|p2a: Hierophant Green|61/100
+|
+|upkeep
+|turn|23
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|41/100
+|move|p2a: Hierophant Green|Focus Blast|p1a: Mandibuzz|[miss]
+|-miss|p2a: Hierophant Green|p1a: Mandibuzz
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|91/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Hierophant Green|Recover|p2a: Hierophant Green
+|-heal|p2a: Hierophant Green|100/100
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Mandibuzz|Defog|p2a: Hierophant Green
+|-unboost|p2a: Hierophant Green|evasion|1
+|-sideend|p1: Agent Frosmoth|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Hierophant Green|Thunder|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|32/100
+|
+|upkeep
+|turn|26
+|
+|switch|p2a: Gold Experience|Lucario, M, shiny|63/100
+|move|p1a: Mandibuzz|U-turn|p2a: Gold Experience
+|-resisted|p2a: Gold Experience
+|-damage|p2a: Gold Experience|59/100
+|
+|switch|p1a: Centiskorch|Centiskorch, M|70/100|[from]move: U-turn
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: RHCP|Rotom-Wash, shiny|79/100
+|move|p1a: Centiskorch|Fire Lash|p2a: RHCP
+|-resisted|p2a: RHCP
+|-crit|p2a: RHCP
+|-damage|p2a: RHCP|54/100
+|-unboost|p2a: RHCP|def|1
+|
+|-heal|p2a: RHCP|60/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: RHCP|Hydro Pump|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|85/100
+|
+|-heal|p2a: RHCP|67/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|91/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: RHCP|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|81/100
+|
+|switch|p2a: Black Sabbath|Hydreigon, M|94/100|[from]move: Volt Switch
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Black Sabbath
+|-sidestart|p2: zCranidos|move: Stealth Rock
+|
+|-heal|p1a: Ferrothorn|87/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Black Sabbath|U-turn|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Black Sabbath|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|84/100
+|-damage|p2a: Black Sabbath|82/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Hierophant Green|Reuniclus, M|100/100|[from]move: U-turn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Hierophant Green|[miss]
+|-miss|p1a: Ferrothorn|p2a: Hierophant Green
+|
+|-heal|p1a: Ferrothorn|91/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p1a: Centiskorch|Centiskorch, M|70/100
+|move|p2a: Hierophant Green|Thunder|p1a: Centiskorch
+|-damage|p1a: Centiskorch|21/100
+|-status|p1a: Centiskorch|par
+|
+|upkeep
+|turn|33
+|
+|switch|p2a: RHCP|Rotom-Wash, shiny|67/100
+|-damage|p2a: RHCP|54/100|[from] Stealth Rock
+|move|p1a: Centiskorch|Leech Life|p2a: RHCP
+|-damage|p2a: RHCP|22/100
+|-heal|p1a: Centiskorch|34/100 par|[from] drain|[of] p2a: RHCP
+|
+|-heal|p2a: RHCP|28/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|91/100
+|move|p2a: RHCP|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|79/100
+|
+|switch|p2a: Black Sabbath|Hydreigon, M|82/100|[from]move: Volt Switch
+|-damage|p2a: Black Sabbath|70/100|[from] Stealth Rock
+|
+|-heal|p1a: Ferrothorn|86/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Black Sabbath|Flamethrower|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Ferrothorn|92/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|switch|p2a: RHCP|Rotom-Wash, shiny|28/100
+|-damage|p2a: RHCP|16/100|[from] Stealth Rock
+|switch|p1a: Centiskorch|Centiskorch, M|34/100 par
+|
+|-heal|p2a: RHCP|22/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|92/100
+|move|p2a: RHCP|Hydro Pump|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|76/100
+|
+|-heal|p2a: RHCP|28/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|82/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|switch|p1a: Dragapult|Dragapult, M|82/100
+|move|p2a: RHCP|Will-O-Wisp|p1a: Dragapult
+|-status|p1a: Dragapult|brn
+|
+|-heal|p2a: RHCP|35/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|76/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: RHCP
+|-damage|p2a: RHCP|0 fnt
+|faint|p2a: RHCP
+|
+|-damage|p1a: Dragapult|70/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Black Sabbath|Hydreigon, M|70/100
+|-damage|p2a: Black Sabbath|57/100|[from] Stealth Rock
+|turn|40
+|
+|switch|p1a: Centiskorch|Centiskorch, M|34/100 par
+|move|p2a: Black Sabbath|Dark Pulse|p1a: Centiskorch
+|-damage|p1a: Centiskorch|0 fnt
+|faint|p1a: Centiskorch
+|
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|32/100
+|turn|41
+|
+|switch|p2a: Gold Experience|Lucario, M, shiny|59/100
+|-damage|p2a: Gold Experience|56/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|82/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|42
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|82/100
+|move|p2a: Gold Experience|Flash Cannon|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|62/100
+|-damage|p2a: Gold Experience|46/100|[from] item: Life Orb
+|
+|-heal|p1a: Ferrothorn|69/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|switch|p1a: Haxorus|Haxorus, F, shiny|82/100
+|-ability|p1a: Haxorus|Mold Breaker
+|move|p2a: Gold Experience|Nasty Plot|p2a: Gold Experience
+|-boost|p2a: Gold Experience|spa|2
+|
+|upkeep
+|turn|44
+|
+|move|p2a: Gold Experience|Vacuum Wave|p1a: Haxorus
+|-damage|p1a: Haxorus|10/100
+|-damage|p2a: Gold Experience|36/100|[from] item: Life Orb
+|move|p1a: Haxorus|Earthquake|p2a: Gold Experience
+|-supereffective|p2a: Gold Experience
+|-damage|p2a: Gold Experience|0 fnt
+|faint|p2a: Gold Experience
+|
+|upkeep
+|
+|switch|p2a: Death 13|Mimikyu, F, shiny|100/100
+|-damage|p2a: Death 13|88/100|[from] Stealth Rock
+|turn|45
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|69/100
+|move|p2a: Death 13|Shadow Sneak|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|55/100
+|-damage|p2a: Death 13|76/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Death 13|66/100|[from] item: Life Orb
+|
+|-heal|p1a: Ferrothorn|62/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|switch|p2a: Hierophant Green|Reuniclus, M|100/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Hierophant Green
+|-damage|p2a: Hierophant Green|62/100
+|
+|-heal|p1a: Ferrothorn|68/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|82/100
+|move|p2a: Hierophant Green|Thunder|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|14/100
+|-status|p1a: Mandibuzz|par
+|
+|upkeep
+|turn|48
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|64/100 par
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Hierophant Green|Recover|p2a: Hierophant Green
+|-heal|p2a: Hierophant Green|100/100
+|
+|upkeep
+|turn|49
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 par
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Hierophant Green|Focus Blast|p1a: Mandibuzz|[miss]
+|-miss|p2a: Hierophant Green|p1a: Mandibuzz
+|
+|upkeep
+|turn|50
+|
+|move|p1a: Mandibuzz|U-turn|p2a: Hierophant Green
+|-supereffective|p2a: Hierophant Green
+|-damage|p2a: Hierophant Green|79/100
+|
+|switch|p1a: Dragapult|Dragapult, M|70/100 brn|[from]move: U-turn
+|move|p2a: Hierophant Green|Thunder|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|36/100 brn
+|
+|-damage|p1a: Dragapult|30/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|switch|p2a: Black Sabbath|Hydreigon, M|57/100
+|-damage|p2a: Black Sabbath|45/100|[from] Stealth Rock
+|move|p1a: Dragapult|Shadow Ball|p2a: Black Sabbath
+|-resisted|p2a: Black Sabbath
+|-damage|p2a: Black Sabbath|16/100
+|-unboost|p2a: Black Sabbath|spd|1
+|
+|-damage|p1a: Dragapult|24/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100 par
+|move|p2a: Black Sabbath|Draco Meteor|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|60/100 par
+|-unboost|p2a: Black Sabbath|spa|2
+|
+|upkeep
+|turn|53
+|
+|switch|p2a: Hierophant Green|Reuniclus, M|79/100
+|move|p1a: Mandibuzz|U-turn|p2a: Hierophant Green
+|-supereffective|p2a: Hierophant Green
+|-damage|p2a: Hierophant Green|54/100
+|
+|switch|p1a: Dragapult|Dragapult, M|24/100 brn|[from]move: U-turn
+|
+|-damage|p1a: Dragapult|18/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|switch|p2a: Black Sabbath|Hydreigon, M|16/100
+|-damage|p2a: Black Sabbath|4/100|[from] Stealth Rock
+|move|p1a: Dragapult|Shadow Ball|p2a: Black Sabbath
+|-resisted|p2a: Black Sabbath
+|-damage|p2a: Black Sabbath|0 fnt
+|faint|p2a: Black Sabbath
+|
+|-damage|p1a: Dragapult|12/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Death 13|Mimikyu, F, shiny|66/100
+|-damage|p2a: Death 13|53/100|[from] Stealth Rock
+|turn|55
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|68/100
+|move|p2a: Death 13|Shadow Sneak|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|56/100
+|-damage|p2a: Death 13|41/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Death 13|31/100|[from] item: Life Orb
+|
+|-heal|p1a: Ferrothorn|63/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|switch|p2a: Hierophant Green|Reuniclus, M|54/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Hierophant Green
+|-start|p2a: Hierophant Green|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|69/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|switch|p1a: Haxorus|Haxorus, F, shiny|10/100
+|-ability|p1a: Haxorus|Mold Breaker
+|move|p2a: Hierophant Green|Psychic|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|faint|p1a: Haxorus
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|12/100 brn
+|turn|58
+|
+|switch|p2a: Death 13|Mimikyu, F, shiny|31/100
+|-damage|p2a: Death 13|19/100|[from] Stealth Rock
+|move|p1a: Dragapult|Shadow Ball|p2a: Death 13
+|-crit|p2a: Death 13
+|-activate|p2a: Death 13|ability: Disguise
+|-damage|p2a: Death 13|19/100
+|detailschange|p2a: Death 13|Mimikyu-Busted, F, shiny
+|-damage|p2a: Death 13|6/100|[from] ability: Disguise|[of] p2a: Death 13
+|
+|-damage|p1a: Dragapult|6/100 brn|[from] brn
+|upkeep
+|turn|59
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|69/100
+|switch|p2a: Hierophant Green|Reuniclus, M|54/100
+|
+|-heal|p1a: Ferrothorn|75/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|60/100 par
+|move|p2a: Hierophant Green|Psychic|p1a: Mandibuzz
+|-immune|p1a: Mandibuzz
+|
+|upkeep
+|turn|61
+|
+|cant|p1a: Mandibuzz|par
+|move|p2a: Hierophant Green|Recover|p2a: Hierophant Green
+|-heal|p2a: Hierophant Green|100/100
+|
+|upkeep
+|turn|62
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 par
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Hierophant Green|Thunder|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|67/100 par
+|
+|upkeep
+|turn|63
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 par
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Hierophant Green|Focus Blast|p1a: Mandibuzz|[miss]
+|-miss|p2a: Hierophant Green|p1a: Mandibuzz
+|
+|upkeep
+|turn|64
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Hierophant Green
+|-supereffective|p2a: Hierophant Green
+|-damage|p2a: Hierophant Green|65/100
+|move|p2a: Hierophant Green|Psychic|p1a: Mandibuzz
+|-immune|p1a: Mandibuzz
+|
+|upkeep
+|turn|65
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Hierophant Green
+|-supereffective|p2a: Hierophant Green
+|-damage|p2a: Hierophant Green|26/100
+|move|p2a: Hierophant Green|Recover|p2a: Hierophant Green
+|-heal|p2a: Hierophant Green|76/100
+|
+|upkeep
+|turn|66
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Hierophant Green
+|-supereffective|p2a: Hierophant Green
+|-damage|p2a: Hierophant Green|38/100
+|move|p2a: Hierophant Green|Thunder|p1a: Mandibuzz|[miss]
+|-miss|p2a: Hierophant Green|p1a: Mandibuzz
+|
+|upkeep
+|turn|67
+|
+|cant|p1a: Mandibuzz|par
+|move|p2a: Hierophant Green|Recover|p2a: Hierophant Green
+|-heal|p2a: Hierophant Green|88/100
+|
+|upkeep
+|turn|68
+|
+|cant|p1a: Mandibuzz|par
+|move|p2a: Hierophant Green|Thunder|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|40/100 par
+|
+|upkeep
+|turn|69
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|90/100 par
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Hierophant Green|Thunder|p1a: Mandibuzz|[miss]
+|-miss|p2a: Hierophant Green|p1a: Mandibuzz
+|
+|upkeep
+|turn|70
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Hierophant Green
+|-supereffective|p2a: Hierophant Green
+|-damage|p2a: Hierophant Green|53/100
+|move|p2a: Hierophant Green|Thunder|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|24/100 par
+|
+|upkeep
+|turn|71
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|74/100 par
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Hierophant Green|Recover|p2a: Hierophant Green
+|-heal|p2a: Hierophant Green|100/100
+|
+|upkeep
+|turn|72
+|
+|cant|p1a: Mandibuzz|par
+|move|p2a: Hierophant Green|Thunder|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|7/100 par
+|
+|upkeep
+|turn|73
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|57/100 par
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Hierophant Green|Focus Blast|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|6/100 brn
+|turn|74
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|75/100
+|move|p2a: Hierophant Green|Psychic|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|48/100
+|
+|-heal|p1a: Ferrothorn|54/100|[from] item: Leftovers
+|upkeep
+|turn|75
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Hierophant Green|Focus Blast|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Ferrothorn|60/100|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|move|p1a: Ferrothorn|Power Whip|p2a: Hierophant Green
+|-damage|p2a: Hierophant Green|59/100
+|move|p2a: Hierophant Green|Psychic|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|34/100
+|
+|-heal|p1a: Ferrothorn|41/100|[from] item: Leftovers
+|upkeep
+|turn|77
+|
+|move|p1a: Ferrothorn|Power Whip|p2a: Hierophant Green
+|-damage|p2a: Hierophant Green|16/100
+|move|p2a: Hierophant Green|Recover|p2a: Hierophant Green
+|-heal|p2a: Hierophant Green|66/100
+|
+|-heal|p1a: Ferrothorn|47/100|[from] item: Leftovers
+|upkeep
+|turn|78
+|
+|move|p1a: Ferrothorn|Power Whip|p2a: Hierophant Green
+|-damage|p2a: Hierophant Green|29/100
+|move|p2a: Hierophant Green|Recover|p2a: Hierophant Green
+|-heal|p2a: Hierophant Green|79/100
+|
+|-heal|p1a: Ferrothorn|53/100|[from] item: Leftovers
+|upkeep
+|turn|79
+|
+|move|p1a: Ferrothorn|Power Whip|p2a: Hierophant Green
+|-damage|p2a: Hierophant Green|41/100
+|move|p2a: Hierophant Green|Recover|p2a: Hierophant Green
+|-heal|p2a: Hierophant Green|91/100
+|
+|-heal|p1a: Ferrothorn|59/100|[from] item: Leftovers
+|upkeep
+|turn|80
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Hierophant Green|Recover|p2a: Hierophant Green
+|-heal|p2a: Hierophant Green|100/100
+|
+|-heal|p1a: Ferrothorn|66/100|[from] item: Leftovers
+|upkeep
+|turn|81
+|
+|move|p1a: Ferrothorn|Power Whip|p2a: Hierophant Green
+|-damage|p2a: Hierophant Green|59/100
+|move|p2a: Hierophant Green|Focus Blast|p1a: Ferrothorn|[miss]
+|-miss|p2a: Hierophant Green|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|72/100|[from] item: Leftovers
+|upkeep
+|turn|82
+|
+|move|p1a: Ferrothorn|Power Whip|p2a: Hierophant Green
+|-damage|p2a: Hierophant Green|15/100
+|move|p2a: Hierophant Green|Recover|p2a: Hierophant Green
+|-heal|p2a: Hierophant Green|65/100
+|
+|-heal|p1a: Ferrothorn|78/100|[from] item: Leftovers
+|upkeep
+|turn|83
+|
+|move|p1a: Ferrothorn|Power Whip|p2a: Hierophant Green|[miss]
+|-miss|p1a: Ferrothorn|p2a: Hierophant Green
+|move|p2a: Hierophant Green|Recover|p2a: Hierophant Green
+|-heal|p2a: Hierophant Green|100/100
+|
+|-heal|p1a: Ferrothorn|84/100|[from] item: Leftovers
+|upkeep
+|turn|84
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Hierophant Green|Focus Blast|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Ferrothorn|91/100|[from] item: Leftovers
+|upkeep
+|turn|85
+|
+|move|p1a: Ferrothorn|Power Whip|p2a: Hierophant Green
+|-crit|p2a: Hierophant Green
+|-damage|p2a: Hierophant Green|38/100
+|move|p2a: Hierophant Green|Psychic|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|63/100
+|
+|-heal|p1a: Ferrothorn|70/100|[from] item: Leftovers
+|upkeep
+|turn|86
+|
+|move|p1a: Ferrothorn|Power Whip|p2a: Hierophant Green
+|-crit|p2a: Hierophant Green
+|-damage|p2a: Hierophant Green|0 fnt
+|faint|p2a: Hierophant Green
+|
+|-heal|p1a: Ferrothorn|76/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Death 13|Mimikyu-Busted, F, shiny|6/100
+|-damage|p2a: Death 13|0 fnt|[from] Stealth Rock
+|faint|p2a: Death 13
+|
+|win|Agent Frosmoth
+|l|☆zCranidos
+|c|☆Agent Frosmoth|gg
+|raw|Agent Frosmoth's rating: 1291 → 1315(+24 for winning)
+|raw|zCranidos's rating: 1279 → 1255(-24 for losing)

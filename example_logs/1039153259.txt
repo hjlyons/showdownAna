@@ -1,0 +1,125 @@
+|ScrapeTime|2020-01-01-14:55:38
+|j|☆Harzen
+|j|☆Bunrra
+|player|p1|Harzen|hiker-gen4|1298
+|player|p2|Bunrra|ethan|1332
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aegislash, F|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Ditto|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Corviknight, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Gyarados, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Toxtricity, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Clefable, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|1
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Clefable
+|-damage|p2a: Clefable|37/100
+|-damage|p1a: Cinderace|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Clefable|43/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Cinderace|Pyro Ball|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|49/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-damage|p1a: Cinderace|81/100|[from] item: Life Orb
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|turn|4
+|
+|move|p1a: Cinderace|U-turn|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|83/100
+|-damage|p1a: Cinderace|71/100|[from] item: Life Orb
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100|[from]move: U-turn
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Gyarados|Earthquake|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Gyarados|[from] ability: Imposter
+|move|p2a: Gyarados|Earthquake|p1a: Ditto
+|-immune|p1a: Ditto
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Ditto|Bounce||[still]
+|-prepare|p1a: Ditto|Bounce|p2a: Gyarados
+|move|p2a: Gyarados|Waterfall|p1a: Ditto|[miss]
+|-miss|p2a: Gyarados|p1a: Ditto
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Ditto|Bounce|p2a: Gyarados|[from]lockedmove
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|-ability|p1a: Ditto|Moxie|boost
+|-boost|p1a: Ditto|atk|1
+|
+|upkeep
+|-message|Bunrra forfeited.
+|
+|win|Harzen
+|l|☆Bunrra
+|raw|Harzen's rating: 1298 → 1325(+27 for winning)
+|raw|Bunrra's rating: 1332 → 1310(-22 for losing)

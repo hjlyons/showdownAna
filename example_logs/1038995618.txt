@@ -1,0 +1,127 @@
+|ScrapeTime|2020-01-01-04:02:33
+|j|☆Thunder YDLP
+|j|☆Adanx64
+|player|p1|Thunder YDLP|parasollady-gen4|1350
+|player|p2|Adanx64|wattson|1390
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Obstagoon, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Gengar, M|
+|poke|p1|Seismitoad, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Ditto|
+|poke|p2|Obstagoon, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Toxapex, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Obstagoon|Obstagoon, F|100/100
+|switch|p2a: Obstagoon|Obstagoon, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Adanx64)
+|
+|move|p2a: Obstagoon|Obstruct|p2a: Obstagoon
+|-singleturn|p2a: Obstagoon|Protect
+|move|p1a: Obstagoon|Close Combat|p2a: Obstagoon
+|-activate|p2a: Obstagoon|move: Protect
+|-unboost|p1a: Obstagoon|def|2
+|
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|-status|p2a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Obstagoon|Close Combat|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|85/100
+|-unboost|p1a: Obstagoon|def|1
+|-unboost|p1a: Obstagoon|spd|1
+|
+|-heal|p2a: Toxapex|91/100|[from] item: Black Sludge
+|-damage|p1a: Obstagoon|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Seismitoad
+|-sidestart|p1: Thunder YDLP|move: Toxic Spikes
+|
+|-heal|p2a: Toxapex|97/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Corsola
+|-sidestart|p2: Adanx64|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Obstagoon|Obstagoon, F|94/100 brn
+|move|p2a: Corsola|Will-O-Wisp|p1a: Obstagoon
+|-fail|p1a: Obstagoon|brn
+|
+|-damage|p1a: Obstagoon|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Obstagoon|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|50/100
+|-enditem|p2a: Toxapex|Black Sludge|[from] move: Knock Off|[of] p1a: Obstagoon
+|
+|-damage|p1a: Obstagoon|82/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Obstagoon|Facade|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-damage|p1a: Obstagoon|76/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Obstagoon|Obstagoon, F|100/100 brn
+|-damage|p2a: Obstagoon|88/100 brn|[from] Stealth Rock
+|turn|8
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|-sideend|p1: Thunder YDLP|move: Toxic Spikes|[of] p1a: Gengar
+|move|p2a: Obstagoon|Close Combat|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-damage|p2a: Obstagoon|82/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Gengar|Focus Blast|p2a: Obstagoon
+|-supereffective|p2a: Obstagoon
+|-damage|p2a: Obstagoon|0 fnt
+|faint|p2a: Obstagoon
+|
+|upkeep
+|-message|Adanx64 forfeited.
+|
+|win|Thunder YDLP
+|l|☆Adanx64
+|raw|Thunder YDLP's rating: 1350 → 1372(+22 for winning)
+|raw|Adanx64's rating: 1390 → 1368(-22 for losing)

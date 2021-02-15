@@ -1,0 +1,408 @@
+|ScrapeTime|2020-01-01-19:34:55
+|j|☆Abel020403
+|j|☆NomAlakon
+|player|p1|Abel020403|red|1083
+|player|p2|NomAlakon|flannery|1098
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Araquanid, M|
+|poke|p1|Cramorant, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Diggersby, M|
+|poke|p2|Abomasnow, F|
+|poke|p2|Gigalith, F|
+|poke|p2|Dracovish|
+|poke|p2|Garbodor, M|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Centiskorch, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Araquanid|Araquanid, M, shiny|100/100
+|switch|p2a: GADDA|Abomasnow, F, shiny|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: GADDA
+|turn|1
+|
+|move|p1a: Araquanid|Sticky Web|p2a: GADDA
+|-sidestart|p2: NomAlakon|move: Sticky Web
+|move|p2a: GADDA|Giga Drain|p1a: Araquanid
+|-damage|p1a: Araquanid|70/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Araquanid|64/100|[from] Hail
+|-heal|p1a: Araquanid|70/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Cinderace|Cinderace, M, shiny|100/100
+|move|p2a: GADDA|Giga Drain|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|74/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Cinderace|68/100|[from] Hail
+|upkeep
+|turn|3
+|
+|switch|p2a: Centiskorch|Centiskorch, M|100/100
+|-activate|p2a: Centiskorch|move: Sticky Web
+|-unboost|p2a: Centiskorch|spe|1
+|move|p1a: Cinderace|Pyro Ball|p2a: Centiskorch
+|-start|p2a: Centiskorch|ability: Flash Fire
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Cinderace|62/100|[from] Hail
+|-damage|p2a: Centiskorch|94/100|[from] Hail
+|upkeep
+|turn|4
+|
+|switch|p1a: Cramorant|Cramorant, M, shiny|100/100
+|move|p2a: Centiskorch|Coil|p2a: Centiskorch
+|-boost|p2a: Centiskorch|atk|1
+|-boost|p2a: Centiskorch|def|1
+|-boost|p2a: Centiskorch|accuracy|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Cramorant|94/100|[from] Hail
+|-damage|p2a: Centiskorch|88/100|[from] Hail
+|upkeep
+|turn|5
+|
+|move|p1a: Cramorant|Surf|p2a: Centiskorch
+|-supereffective|p2a: Centiskorch
+|-damage|p2a: Centiskorch|19/100
+|-enditem|p2a: Centiskorch|Mago Berry|[eat]
+|-heal|p2a: Centiskorch|52/100|[from] item: Mago Berry
+|-formechange|p1a: Cramorant|Cramorant-Gulping|
+|move|p2a: Centiskorch|Crunch|p1a: Cramorant
+|-formechange|p1a: Cramorant|Cramorant|
+|-damage|p2a: Centiskorch|27/100|[from] ability: Gulp Missile|[of] p1a: Cramorant
+|-unboost|p2a: Centiskorch|def|1
+|-damage|p1a: Cramorant|20/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|-end|p2a: Centiskorch|ability: Flash Fire|[silent]
+|switch|p2a: Dracovish|Dracovish|100/100
+|-activate|p2a: Dracovish|move: Sticky Web
+|-unboost|p2a: Dracovish|spe|1
+|move|p1a: Cramorant|Surf|p2a: Dracovish
+|-immune|p2a: Dracovish|[from] ability: Water Absorb
+|-formechange|p1a: Cramorant|Cramorant-Gorging|
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Cramorant|Endure|p1a: Cramorant
+|-singleturn|p1a: Cramorant|move: Endure
+|move|p2a: Dracovish|Crunch|p1a: Cramorant
+|-formechange|p1a: Cramorant|Cramorant|
+|-damage|p2a: Dracovish|76/100|[from] ability: Gulp Missile|[of] p1a: Cramorant
+|-status|p2a: Dracovish|par
+|-activate|p1a: Cramorant|move: Endure
+|-damage|p1a: Cramorant|1/100
+|-unboost|p1a: Cramorant|def|1
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Hatterene|Hatterene, F, shiny|100/100
+|move|p2a: Dracovish|Crunch|p1a: Hatterene
+|-damage|p1a: Hatterene|66/100
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Gigalith|Gigalith, F|100/100
+|-activate|p2a: Gigalith|move: Sticky Web
+|-unboost|p2a: Gigalith|spe|1
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Gigalith
+|-damage|p2a: Gigalith|52/100
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Cramorant|Cramorant, M, shiny|1/100
+|move|p2a: Gigalith|Stealth Rock|p1a: Cramorant
+|-sidestart|p1: Abel020403|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Gigalith|Protect|p2a: Gigalith
+|-singleturn|p2a: Gigalith|Protect
+|move|p1a: Cramorant|Surf|p2a: Gigalith
+|-activate|p2a: Gigalith|move: Protect
+|-formechange|p1a: Cramorant|Cramorant-Gorging|
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Dracovish|Dracovish|76/100 par
+|-activate|p2a: Dracovish|move: Sticky Web
+|-unboost|p2a: Dracovish|spe|1
+|move|p1a: Cramorant|Surf|p2a: Dracovish
+|-heal|p2a: Dracovish|100/100 par|[from] ability: Water Absorb|[of] p1a: Cramorant
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Cramorant|Air Slash|p2a: Dracovish|[miss]
+|-miss|p1a: Cramorant|p2a: Dracovish
+|cant|p2a: Dracovish|par
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Cramorant|Air Slash|p2a: Dracovish
+|-damage|p2a: Dracovish|67/100 par
+|cant|p2a: Dracovish|flinch
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Cramorant|Air Slash|p2a: Dracovish
+|-damage|p2a: Dracovish|33/100 par
+|move|p2a: Dracovish|Crunch|p1a: Cramorant
+|-formechange|p1a: Cramorant|Cramorant|
+|-damage|p2a: Dracovish|8/100 par|[from] ability: Gulp Missile|[of] p1a: Cramorant
+|-damage|p1a: Cramorant|0 fnt
+|-enditem|p2a: Dracovish|Aguav Berry|[eat]
+|-heal|p2a: Dracovish|41/100 par|[from] item: Aguav Berry
+|faint|p1a: Cramorant
+|
+|upkeep
+|
+|switch|p1a: Hatterene|Hatterene, F, shiny|66/100
+|-damage|p1a: Hatterene|53/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p2a: Garbodor|Garbodor, M|100/100
+|-activate|p2a: Garbodor|move: Sticky Web
+|-unboost|p2a: Garbodor|spe|1
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Garbodor
+|-resisted|p2a: Garbodor
+|-damage|p2a: Garbodor|81/100
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Excadrill|Excadrill, M, shiny|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|move|p2a: Garbodor|Gunk Shot|p1a: Excadrill
+|-immune|p1a: Excadrill
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|-activate|p2a: Corsola|move: Sticky Web
+|-unboost|p2a: Corsola|spe|1
+|move|p1a: Excadrill|Rapid Spin|p2a: Corsola
+|-immune|p2a: Corsola
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Corsola|Will-O-Wisp|p1a: Excadrill
+|-status|p1a: Excadrill|brn
+|
+|-damage|p1a: Excadrill|91/100 brn|[from] brn
+|upkeep
+|turn|20
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NomAlakon)
+|
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Corsola|Strength Sap|p1a: Excadrill
+|-unboost|p1a: Excadrill|atk|1
+|
+|-damage|p1a: Excadrill|85/100 brn|[from] brn
+|upkeep
+|turn|21
+|inactive|Abel020403 has 120 seconds left.
+|inactive|NomAlakon has 120 seconds left.
+|
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Corsola|Strength Sap|p1a: Excadrill
+|-unboost|p1a: Excadrill|atk|1
+|
+|-damage|p1a: Excadrill|79/100 brn|[from] brn
+|upkeep
+|turn|22
+|inactive|NomAlakon has 120 seconds left.
+|
+|move|p1a: Excadrill|Earthquake|p2a: Corsola
+|-damage|p2a: Corsola|12/100
+|-ability|p2a: Corsola|Weak Armor|boost
+|-unboost|p2a: Corsola|def|1
+|-boost|p2a: Corsola|spe|2
+|-damage|p1a: Excadrill|69/100 brn|[from] item: Life Orb
+|move|p2a: Corsola|Hex|p1a: Excadrill
+|-damage|p1a: Excadrill|15/100 brn
+|
+|-damage|p1a: Excadrill|9/100 brn|[from] brn
+|upkeep
+|turn|23
+|inactive|NomAlakon has 120 seconds left.
+|
+|move|p1a: Excadrill|Iron Head|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-damage|p1a: Excadrill|0 fnt|[from] item: Life Orb
+|faint|p2a: Corsola
+|faint|p1a: Excadrill
+|
+|upkeep
+|inactive|NomAlakon has 120 seconds left.
+|inactive|Abel020403 has 120 seconds left.
+|
+|switch|p1a: Araquanid|Araquanid, M, shiny|70/100
+|switch|p2a: Garbodor|Garbodor, M|81/100
+|-damage|p1a: Araquanid|45/100|[from] Stealth Rock
+|-activate|p2a: Garbodor|move: Sticky Web
+|-unboost|p2a: Garbodor|spe|1
+|turn|24
+|inactive|Abel020403 has 120 seconds left.
+|
+|move|p1a: Araquanid|Aqua Ring|p1a: Araquanid
+|-start|p1a: Araquanid|Aqua Ring
+|move|p2a: Garbodor|Toxic|p1a: Araquanid
+|-status|p1a: Araquanid|tox
+|
+|-heal|p1a: Araquanid|51/100 tox|[from] item: Leftovers
+|-heal|p1a: Araquanid|57/100 tox|[from] Aqua Ring
+|-damage|p1a: Araquanid|51/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|move|p1a: Araquanid|Liquidation|p2a: Garbodor
+|-damage|p2a: Garbodor|50/100
+|move|p2a: Garbodor|Gunk Shot|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|inactive|Abel020403 has 120 seconds left.
+|
+|switch|p1a: Cinderace|Cinderace, M, shiny|62/100
+|turn|26
+|
+|move|p1a: Cinderace|High Jump Kick|p2a: Garbodor
+|-resisted|p2a: Garbodor
+|-damage|p2a: Garbodor|28/100
+|move|p2a: Garbodor|Toxic|p1a: Cinderace
+|-status|p1a: Cinderace|tox
+|
+|-damage|p1a: Cinderace|56/100 tox|[from] psn
+|upkeep
+|turn|27
+|inactive|Abel020403 has 120 seconds left.
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Garbodor
+|-damage|p2a: Garbodor|0 fnt
+|faint|p2a: Garbodor
+|
+|-damage|p1a: Cinderace|44/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Gigalith|Gigalith, F|52/100
+|-activate|p2a: Gigalith|move: Sticky Web
+|-unboost|p2a: Gigalith|spe|1
+|turn|28
+|inactive|Abel020403 has 120 seconds left.
+|
+|move|p2a: Gigalith|Protect|p2a: Gigalith
+|-singleturn|p2a: Gigalith|Protect
+|move|p1a: Cinderace|High Jump Kick|p2a: Gigalith
+|-activate|p2a: Gigalith|move: Protect
+|-damage|p1a: Cinderace|0 fnt|[from] highjumpkick
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Diggersby|Diggersby, M, shiny|100/100
+|-damage|p1a: Diggersby|94/100|[from] Stealth Rock
+|turn|29
+|
+|move|p1a: Diggersby|Superpower|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|-damage|p1a: Diggersby|78/100|[from] item: Rocky Helmet|[of] p2a: Gigalith
+|-unboost|p1a: Diggersby|atk|1
+|-unboost|p1a: Diggersby|def|1
+|faint|p2a: Gigalith
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|41/100 par
+|-activate|p2a: Dracovish|move: Sticky Web
+|-unboost|p2a: Dracovish|spe|1
+|turn|30
+|inactive|Abel020403 has 120 seconds left.
+|inactive|NomAlakon has 120 seconds left.
+|
+|switch|p1a: Hatterene|Hatterene, F, shiny|53/100
+|-damage|p1a: Hatterene|41/100|[from] Stealth Rock
+|move|p2a: Dracovish|Protect||[still]
+|-fail|p2a: Dracovish
+|
+|upkeep
+|turn|31
+|
+|switch|p2a: GADDA|Abomasnow, F, shiny|100/100
+|-activate|p2a: GADDA|move: Sticky Web
+|-unboost|p2a: GADDA|spe|1
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: GADDA
+|move|p1a: Hatterene|Dazzling Gleam|p2a: GADDA
+|-damage|p2a: GADDA|59/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Hatterene|35/100|[from] Hail
+|upkeep
+|turn|32
+|
+|switch|p1a: Diggersby|Diggersby, M, shiny|78/100
+|-damage|p1a: Diggersby|72/100|[from] Stealth Rock
+|move|p2a: GADDA|Giga Drain|p1a: Diggersby
+|-supereffective|p1a: Diggersby
+|-damage|p1a: Diggersby|0 fnt
+|-heal|p2a: GADDA|100/100|[from] drain|[of] p1a: Diggersby
+|faint|p1a: Diggersby
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p1a: Hatterene|Hatterene, F, shiny|35/100
+|-damage|p1a: Hatterene|23/100|[from] Stealth Rock
+|turn|33
+|
+|move|p1a: Hatterene|Dark Pulse|p2a: GADDA
+|-damage|p2a: GADDA|69/100
+|move|p2a: GADDA|Giga Drain|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|-heal|p2a: GADDA|78/100|[from] drain|[of] p1a: Hatterene
+|faint|p1a: Hatterene
+|
+|win|NomAlakon
+|l|☆Abel020403
+|raw|Abel020403's rating: 1083 → 1062(-21 for losing)
+|raw|NomAlakon's rating: 1098 → 1123(+25 for winning)

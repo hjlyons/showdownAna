@@ -1,0 +1,192 @@
+|ScrapeTime|2020-01-02-14:34:38
+|j|☆XxEnderProxX
+|j|☆Noratastic
+|player|p1|XxEnderProxX|2|1006
+|player|p2|Noratastic|lady-gen4|1059
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Toxtricity, M|
+|poke|p1|Frosmoth, F|
+|poke|p1|Dragapult, F|
+|poke|p2|Hippowdon, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Flygon, M|
+|poke|p2|Mamoswine, F|
+|poke|p2|Mudsdale, M|
+|poke|p2|Seismitoad, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Noratastic)
+|
+|start
+|switch|p1a: Frosmoth|Frosmoth, F|100/100
+|switch|p2a: Hungry Hippo|Hippowdon, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hungry Hippo
+|turn|1
+|
+|switch|p2a: Holey Moley|Excadrill, M, shiny|100/100
+|move|p1a: Frosmoth|U-turn|p2a: Holey Moley
+|-resisted|p2a: Holey Moley
+|-damage|p2a: Holey Moley|87/100
+|inactive|XxEnderProxX has 120 seconds left.
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cinderace|95/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|move|p2a: Holey Moley|Earthquake|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|XxEnderProxX has 120 seconds left.
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|3
+|
+|switch|p2a: Swine Flu|Mamoswine, F, shiny|100/100
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Swine Flu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|94/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Swine Flu|[from]lockedmove
+|-damage|p2a: Swine Flu|56/100
+|move|p2a: Swine Flu|Icicle Crash|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|5
+|
+|switch|p2a: Holey Moley|Excadrill, M, shiny|87/100
+|move|p1a: Grimmsnarl|Focus Blast|p2a: Holey Moley
+|-supereffective|p2a: Holey Moley
+|-damage|p2a: Holey Moley|34/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|move|p2a: Holey Moley|Iron Head|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|3/100
+|move|p1a: Grimmsnarl|Focus Blast|p2a: Holey Moley
+|-supereffective|p2a: Holey Moley
+|-damage|p2a: Holey Moley|0 fnt
+|faint|p2a: Holey Moley
+|
+|upkeep
+|
+|switch|p2a: Hungry Hippo|Hippowdon, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hungry Hippo
+|turn|7
+|
+|move|p1a: Grimmsnarl|Focus Blast|p2a: Hungry Hippo|[miss]
+|-miss|p1a: Grimmsnarl|p2a: Hungry Hippo
+|move|p2a: Hungry Hippo|Earthquake|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|turn|8
+|
+|move|p1a: Corviknight|Steel Wing|p2a: Hungry Hippo
+|-damage|p2a: Hungry Hippo|87/100
+|-enditem|p2a: Hungry Hippo|Eject Button
+|
+|switch|p2a: Mudsdale|Mudsdale, M, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Mudsdale
+|-damage|p2a: Mudsdale|68/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|-damage|p1a: Corviknight|88/100|[from] Recoil
+|move|p2a: Mudsdale|Smack Down|p1a: Corviknight
+|-damage|p1a: Corviknight|71/100
+|-start|p1a: Corviknight|Smack Down
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p1a: Corviknight|Drill Peck|p2a: Mudsdale
+|-damage|p2a: Mudsdale|53/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|move|p2a: Mudsdale|Earthquake|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Frosmoth|Frosmoth, F|100/100
+|turn|11
+|
+|move|p1a: Frosmoth|Giga Drain|p2a: Mudsdale
+|-supereffective|p2a: Mudsdale
+|-damage|p2a: Mudsdale|9/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|-enditem|p2a: Mudsdale|Figy Berry|[eat]
+|-heal|p2a: Mudsdale|42/100|[from] item: Figy Berry
+|move|p2a: Mudsdale|Smack Down|p1a: Frosmoth
+|-supereffective|p1a: Frosmoth
+|-damage|p1a: Frosmoth|0 fnt
+|faint|p1a: Frosmoth
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|turn|12
+|
+|move|p1a: Toxtricity|Venoshock|p2a: Mudsdale
+|-resisted|p2a: Mudsdale
+|-damage|p2a: Mudsdale|31/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|move|p2a: Mudsdale|Earthquake|p1a: Toxtricity
+|-supereffective|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|win|Noratastic
+|l|☆XxEnderProxX
+|raw|XxEnderProxX's rating: 1006 → 1000(-6 for losing)
+|raw|Noratastic's rating: 1059 → 1085(+26 for winning)

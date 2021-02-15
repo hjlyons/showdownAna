@@ -1,0 +1,1060 @@
+|ScrapeTime|2020-01-03-01:11:12
+|j|☆Sir Isaac Mewton
+|j|☆andrewm0n
+|player|p1|Sir Isaac Mewton|267|1787
+|player|p2|andrewm0n|253|1857
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aegislash, F|
+|poke|p1|Hydreigon, M|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Ditto|
+|poke|p2|Vaporeon, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Kommo-o, M|
+|poke|p2|Polteageist|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Sir Isaac Mewton)
+|
+|start
+|switch|p1a: Hgon|Hydreigon, M|100/100
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|turn|1
+|
+|move|p1a: Hgon|U-turn|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|91/100
+|
+|switch|p1a: Fert|Ferrothorn, M|100/100|[from]move: U-turn
+|move|p2a: Mandibuzz|Knock Off|p1a: Fert
+|-damage|p1a: Fert|85/100
+|-damage|p2a: Mandibuzz|79/100|[from] ability: Iron Barbs|[of] p1a: Fert
+|-enditem|p1a: Fert|Leftovers|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|2
+|j| Palindome
+|j| JKongh
+|
+|move|p2a: Mandibuzz|U-turn|p1a: Fert
+|-damage|p1a: Fert|77/100
+|-damage|p2a: Mandibuzz|66/100|[from] ability: Iron Barbs|[of] p1a: Fert
+|
+|switch|p2a: Kommo-o|Kommo-o, M|100/100|[from]move: U-turn
+|move|p1a: Fert|Knock Off|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|91/100
+|-enditem|p2a: Kommo-o|Leftovers|[from] move: Knock Off|[of] p1a: Fert
+|
+|upkeep
+|turn|3
+|j| nfe on xanax
+|
+|switch|p1a: Toxe|Toxapex, F|100/100
+|move|p2a: Kommo-o|Drain Punch|p1a: Toxe
+|-resisted|p1a: Toxe
+|-damage|p1a: Toxe|88/100
+|-heal|p2a: Kommo-o|97/100|[from] drain|[of] p1a: Toxe
+|
+|-heal|p1a: Toxe|94/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Toxe|Toxic|p2a: Hatterene
+|move|p2a: Hatterene|Toxic|p1a: Toxe|[from]Magic Bounce
+|-immune|p1a: Toxe
+|
+|-heal|p1a: Toxe|99/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|move|p2a: Hatterene|Nuzzle|p1a: Toxe
+|-supereffective|p1a: Toxe
+|-damage|p1a: Toxe|94/100
+|-status|p1a: Toxe|par
+|cant|p1a: Toxe|par
+|
+|-heal|p1a: Toxe|100/100 par|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|switch|p1a: Agsh|Aegislash, F|100/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Agsh
+|-supereffective|p1a: Agsh
+|-damage|p1a: Agsh|55/100
+|-unboost|p1a: Agsh|spa|1
+|
+|-heal|p1a: Agsh|62/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Toxe|Toxapex, F|100/100 par
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|move|p1a: Toxe|Toxic|p2a: Vaporeon
+|-status|p2a: Vaporeon|tox
+|
+|-damage|p2a: Vaporeon|94/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|66/100
+|switch|p1a: Fert|Ferrothorn, M|77/100
+|
+|-heal|p2a: Mandibuzz|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|10
+|
+|move|p2a: Mandibuzz|U-turn|p1a: Fert
+|-crit|p1a: Fert
+|-damage|p1a: Fert|66/100
+|-damage|p2a: Mandibuzz|88/100|[from] ability: Iron Barbs|[of] p1a: Fert
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100|[from]move: U-turn
+|move|p1a: Fert|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|73/100
+|-enditem|p2a: Hatterene|Assault Vest|[from] move: Knock Off|[of] p1a: Fert
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Toxe|Toxapex, F|100/100 par
+|move|p2a: Hatterene|Mystical Fire|p1a: Toxe
+|-resisted|p1a: Toxe
+|-damage|p1a: Toxe|91/100 par
+|-unboost|p1a: Toxe|spa|1
+|
+|-heal|p1a: Toxe|98/100 par|[from] item: Black Sludge
+|upkeep
+|turn|12
+|inactive|Sir Isaac Mewton has 120 seconds left.
+|
+|move|p2a: Hatterene|Psychic|p1a: Toxe
+|-supereffective|p1a: Toxe
+|-damage|p1a: Toxe|28/100 par
+|move|p1a: Toxe|Scald|p2a: Hatterene
+|-damage|p2a: Hatterene|60/100
+|-status|p2a: Hatterene|brn
+|
+|-heal|p1a: Toxe|35/100 par|[from] item: Black Sludge
+|-damage|p2a: Hatterene|54/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p1a: Hgon|Hydreigon, M|100/100
+|move|p2a: Hatterene|Nuzzle|p1a: Hgon
+|-resisted|p1a: Hgon
+|-damage|p1a: Hgon|99/100
+|-status|p1a: Hgon|par
+|
+|-heal|p1a: Hgon|100/100 par|[from] item: Leftovers
+|-damage|p2a: Hatterene|48/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Hgon|U-turn|p2a: Hatterene
+|-damage|p2a: Hatterene|29/100 brn
+|j| thtmexguitarguy
+|
+|switch|p1a: Agsh|Aegislash, F|62/100|[from]move: U-turn
+|move|p2a: Hatterene|Draining Kiss|p1a: Agsh
+|-resisted|p1a: Agsh
+|-damage|p1a: Agsh|50/100
+|-heal|p2a: Hatterene|40/100 brn|[from] drain|[of] p1a: Agsh
+|
+|-heal|p1a: Agsh|56/100|[from] item: Leftovers
+|-damage|p2a: Hatterene|34/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|88/100
+|move|p1a: Agsh|Substitute|p1a: Agsh
+|-start|p1a: Agsh|Substitute
+|-damage|p1a: Agsh|31/100
+|
+|-heal|p1a: Agsh|37/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Agsh|King's Shield|p1a: Agsh
+|-singleturn|p1a: Agsh|Protect
+|move|p2a: Mandibuzz|Foul Play|p1a: Agsh
+|-activate|p1a: Agsh|move: Protect
+|-unboost|p2a: Mandibuzz|atk|1
+|
+|-heal|p1a: Agsh|43/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|j| Inner Turmoil
+|l| Inner Turmoil
+|
+|switch|p1a: Fert|Ferrothorn, M|66/100
+|move|p2a: Mandibuzz|Foul Play|p1a: Fert
+|-damage|p1a: Fert|48/100
+|-damage|p2a: Mandibuzz|75/100|[from] ability: Iron Barbs|[of] p1a: Fert
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|move|p1a: Fert|Gyro Ball|p2a: Polteageist
+|-damage|p2a: Polteageist|48/100
+|
+|-heal|p2a: Polteageist|55/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Hgon|Hydreigon, M|100/100 par
+|move|p2a: Polteageist|Aromatherapy|p2a: Polteageist
+|-activate|p2a: Polteageist|move: Aromatherapy
+|-curestatus|p2: Hatterene|brn|[msg]
+|-curestatus|p2: Vaporeon|tox|[msg]
+|
+|-heal|p2a: Polteageist|61/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Polteageist|Strength Sap|p1a: Hgon
+|-unboost|p1a: Hgon|atk|1
+|-heal|p2a: Polteageist|100/100
+|move|p1a: Hgon|Dark Pulse|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-damage|p2a: Polteageist|17/100
+|
+|-heal|p2a: Polteageist|23/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|75/100
+|move|p1a: Hgon|Dark Pulse|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|59/100
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Hgon|U-turn|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|86/100
+|j| Eclipse81
+|inactive|Sir Isaac Mewton has 120 seconds left.
+|j|+perry ♥
+|
+|switch|p1a: Fert|Ferrothorn, M|48/100|[from]move: U-turn
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Fert|Knock Off|p2a: Excadrill
+|-damage|p2a: Excadrill|70/100
+|-enditem|p2a: Excadrill|Focus Sash|[from] move: Knock Off|[of] p1a: Fert
+|
+|upkeep
+|turn|24
+|inactive|Sir Isaac Mewton has 120 seconds left.
+|
+|switch|p2a: Hatterene|Hatterene, F|34/100
+|move|p1a: Fert|Spikes|p2a: Hatterene
+|move|p2a: Hatterene|Spikes|p1a: Fert|[from]Magic Bounce
+|-sidestart|p1: Sir Isaac Mewton|Spikes
+|
+|upkeep
+|turn|25
+|
+|switch|p1a: Hgon|Hydreigon, M|100/100 par
+|move|p2a: Hatterene|Mystical Fire|p1a: Hgon
+|-resisted|p1a: Hgon
+|-crit|p1a: Hgon
+|-damage|p1a: Hgon|77/100 par
+|-unboost|p1a: Hgon|spa|1
+|
+|-heal|p1a: Hgon|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|cant|p1a: Hgon|par
+|move|p2a: Hatterene|Draining Kiss|p1a: Hgon
+|-supereffective|p1a: Hgon
+|-damage|p1a: Hgon|0 fnt
+|-heal|p2a: Hatterene|100/100|[from] drain|[of] p1a: Hgon
+|faint|p1a: Hgon
+|
+|upkeep
+|c|☆Sir Isaac Mewton|sigh
+|
+|switch|p1a: Agsh|Aegislash, F|43/100
+|-damage|p1a: Agsh|31/100|[from] Spikes
+|turn|27
+|c|☆andrewm0n|flash cannon?
+|c|☆Sir Isaac Mewton|yeah
+|c|☆andrewm0n|i'm heavily invested in spdef, mind you
+|inactive|andrewm0n has 120 seconds left.
+|c|☆andrewm0n|+2 does 70% when i have my vest on
+|c|☆Sir Isaac Mewton|it doesnt matter
+|c|☆Sir Isaac Mewton|ur vest is off
+|j| Gya Gya
+|c|☆Sir Isaac Mewton|so
+|inactive|andrewm0n has 90 seconds left.
+|c|☆andrewm0n|yeah, but your spatk was down
+|c|☆Sir Isaac Mewton|-1
+|inactive|andrewm0n has 60 seconds left.
+|c|☆andrewm0n|yeah, vs the -1 i lose from my AV being gone
+|c|☆Sir Isaac Mewton|whatever, you haxed, we know you gonna be an ahole bout it
+|c|☆Sir Isaac Mewton|just click or calc
+|c|☆andrewm0n|i think i lived cannon
+|c|☆Sir Isaac Mewton|we know am right
+|inactive|andrewm0n has 30 seconds left.
+|c|☆Sir Isaac Mewton|i think you know you didn't
+|
+|switch|p1a: Ditt|Ditto|100/100
+|-damage|p1a: Ditt|88/100|[from] Spikes
+|-transform|p1a: Ditt|p2a: Hatterene|[from] ability: Imposter
+|switch|p2a: Mandibuzz|Mandibuzz, F|86/100
+|
+|upkeep
+|turn|28
+|inactive|andrewm0n has 30 seconds left.
+|inactive|Sir Isaac Mewton has 120 seconds left.
+|
+|move|p2a: Mandibuzz|Knock Off|p1a: Ditt
+|-damage|p1a: Ditt|59/100
+|-enditem|p1a: Ditt|Choice Scarf|[from] move: Knock Off|[of] p2a: Mandibuzz
+|move|p1a: Ditt|Draining Kiss|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|38/100
+|-heal|p1a: Ditt|100/100|[from] drain|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|29
+|inactive|andrewm0n has 30 seconds left.
+|
+|move|p2a: Mandibuzz|U-turn|p1a: Ditt
+|-damage|p1a: Ditt|86/100
+|l|☆Sir Isaac Mewton
+|inactive|Sir Isaac Mewton disconnected and has a minute to reconnect!
+|player|p1|
+|
+|switch|p2a: Vaporeon|Vaporeon, F|94/100|[from]move: U-turn
+|move|p1a: Ditt|Nuzzle|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|89/100
+|-status|p2a: Vaporeon|par
+|
+|-heal|p2a: Vaporeon|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|j| lugirio
+|j|☆Sir Isaac Mewton
+|inactive|Sir Isaac Mewton reconnected and has 140 seconds left.
+|player|p1|Sir Isaac Mewton|267
+|
+|move|p1a: Ditt|Psychic|p2a: Vaporeon
+|-damage|p2a: Vaporeon|56/100 par
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|63/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|l|+perry ♥
+|l| nfe on xanax
+|inactive|andrewm0n has 30 seconds left.
+|
+|move|p1a: Ditt|Mystical Fire|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|51/100 par
+|-unboost|p2a: Vaporeon|spa|1
+|cant|p2a: Vaporeon|par
+|
+|-heal|p2a: Vaporeon|100/100 par|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|32
+|inactive|andrewm0n has 30 seconds left.
+|
+|move|p1a: Ditt|Psychic|p2a: Vaporeon
+|-damage|p2a: Vaporeon|57/100 par
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|63/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|andrewm0n has 30 seconds left.
+|inactive|andrewm0n has 20 seconds left.
+|
+|move|p1a: Ditt|Mystical Fire|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|51/100 par
+|-unboost|p2a: Vaporeon|spa|1
+|cant|p2a: Vaporeon|par
+|
+|-heal|p2a: Vaporeon|100/100 par|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|34
+|inactive|andrewm0n has 30 seconds left this turn.
+|
+|switch|p2a: Excadrill|Excadrill, M|70/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Ditt|Psychic|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|36/100
+|
+|upkeep
+|turn|35
+|
+|switch|p1a: Cola|Corsola-Galar, F|100/100
+|-damage|p1a: Cola|88/100|[from] Spikes
+|move|p2a: Excadrill|Iron Head|p1a: Cola
+|-damage|p1a: Cola|68/100
+|
+|upkeep
+|turn|36
+|l| thtmexguitarguy
+|
+|move|p2a: Excadrill|Stealth Rock|p1a: Cola
+|-sidestart|p1: Sir Isaac Mewton|move: Stealth Rock
+|move|p1a: Cola|Night Shade|p2a: Excadrill
+|-damage|p2a: Excadrill|9/100
+|
+|upkeep
+|turn|37
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Cola|Night Shade|p2a: Hatterene
+|-damage|p2a: Hatterene|63/100
+|
+|upkeep
+|turn|38
+|
+|move|p2a: Hatterene|Nuzzle|p1a: Cola
+|-damage|p1a: Cola|66/100
+|-status|p1a: Cola|par
+|cant|p1a: Cola|par
+|
+|upkeep
+|turn|39
+|
+|move|p2a: Hatterene|Draining Kiss|p1a: Cola
+|-crit|p1a: Cola
+|-damage|p1a: Cola|35/100 par
+|-heal|p2a: Hatterene|90/100|[from] drain|[of] p1a: Cola
+|move|p1a: Cola|Night Shade|p2a: Hatterene
+|-damage|p2a: Hatterene|53/100
+|
+|upkeep
+|turn|40
+|c|☆Sir Isaac Mewton|let me guess
+|c|☆Sir Isaac Mewton|heavily invested in critting too?
+|
+|move|p2a: Hatterene|Psychic|p1a: Cola
+|-damage|p1a: Cola|0 fnt
+|faint|p1a: Cola
+|
+|upkeep
+|
+|switch|p1a: Agsh|Aegislash, F|31/100
+|-damage|p1a: Agsh|18/100|[from] Spikes
+|-damage|p1a: Agsh|12/100|[from] Stealth Rock
+|turn|41
+|
+|switch|p2a: Kommo-o|Kommo-o, M|97/100
+|-formechange|p1a: Agsh|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Agsh|Shadow Ball|p2a: Kommo-o
+|-immune|p2a: Kommo-o|[from] ability: Bulletproof
+|
+|-heal|p1a: Agsh|18/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|-formechange|p1a: Agsh|Aegislash||[from] ability: Stance Change
+|move|p1a: Agsh|King's Shield|p1a: Agsh
+|-singleturn|p1a: Agsh|Protect
+|move|p2a: Kommo-o|Clanging Scales|p1a: Agsh
+|-activate|p1a: Agsh|move: Protect
+|
+|-heal|p1a: Agsh|25/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p2a: Kommo-o|Clanging Scales|p1a: Agsh
+|-resisted|p1a: Agsh
+|-damage|p1a: Agsh|10/100
+|-unboost|p2a: Kommo-o|def|1
+|-formechange|p1a: Agsh|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Agsh|Sacred Sword|p2a: Kommo-o
+|-damage|p2a: Kommo-o|70/100
+|
+|-heal|p1a: Agsh|17/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|inactive|andrewm0n has 90 seconds left.
+|
+|-formechange|p1a: Agsh|Aegislash||[from] ability: Stance Change
+|move|p1a: Agsh|King's Shield|p1a: Agsh
+|-singleturn|p1a: Agsh|Protect
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|36/100
+|
+|-heal|p1a: Agsh|23/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|inactive|andrewm0n has 90 seconds left.
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100 par
+|-formechange|p1a: Agsh|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Agsh|Sacred Sword|p2a: Vaporeon
+|-damage|p2a: Vaporeon|79/100 par
+|
+|-heal|p1a: Agsh|29/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|46
+|j| TheLindomar
+|
+|-formechange|p1a: Agsh|Aegislash||[from] ability: Stance Change
+|move|p1a: Agsh|King's Shield|p1a: Agsh
+|-singleturn|p1a: Agsh|Protect
+|cant|p2a: Vaporeon|par
+|
+|-heal|p1a: Agsh|35/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|move|p1a: Agsh|Substitute|p1a: Agsh
+|-start|p1a: Agsh|Substitute
+|-damage|p1a: Agsh|10/100
+|move|p2a: Vaporeon|Scald|p1a: Agsh
+|-activate|p1a: Agsh|move: Substitute|[damage]
+|
+|-heal|p1a: Agsh|16/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|48
+|j| Serek94
+|
+|-formechange|p1a: Agsh|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Agsh|Shadow Ball|p2a: Vaporeon
+|-damage|p2a: Vaporeon|60/100 par
+|move|p2a: Vaporeon|Scald|p1a: Agsh
+|-end|p1a: Agsh|Substitute
+|
+|-heal|p1a: Agsh|22/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|switch|p2a: Polteageist|Polteageist|23/100
+|move|p1a: Agsh|Shadow Ball|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|
+|-heal|p1a: Agsh|29/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|9/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|50
+|inactive|andrewm0n has 90 seconds left.
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|38/100
+|-formechange|p1a: Agsh|Aegislash||[from] ability: Stance Change
+|move|p1a: Agsh|King's Shield||[still]
+|-fail|p1a: Agsh
+|
+|-heal|p1a: Agsh|35/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|move|p1a: Agsh|King's Shield|p1a: Agsh
+|-singleturn|p1a: Agsh|Protect
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|88/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Agsh|41/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|switch|p1a: Ditt|Ditto|86/100
+|-damage|p1a: Ditt|74/100|[from] Stealth Rock
+|-damage|p1a: Ditt|61/100|[from] Spikes
+|-transform|p1a: Ditt|p2a: Mandibuzz|[from] ability: Imposter
+|move|p2a: Mandibuzz|Knock Off|p1a: Ditt
+|-resisted|p1a: Ditt
+|-damage|p1a: Ditt|55/100
+|
+|upkeep
+|turn|53
+|j| DemZii
+|l| DemZii
+|j| watr sucks
+|inactive|andrewm0n has 90 seconds left.
+|
+|move|p1a: Ditt|Roost|p1a: Ditt
+|-heal|p1a: Ditt|100/100
+|-singleturn|p1a: Ditt|move: Roost
+|move|p2a: Mandibuzz|U-turn|p1a: Ditt
+|-supereffective|p1a: Ditt
+|-damage|p1a: Ditt|78/100
+|
+|switch|p2a: Hatterene|Hatterene, F|53/100|[from]move: U-turn
+|
+|upkeep
+|turn|54
+|j| RomeXIV
+|j| Tsorig of Carthus
+|
+|move|p1a: Ditt|U-turn|p2a: Hatterene
+|-damage|p2a: Hatterene|35/100
+|
+|switch|p1a: Fert|Ferrothorn, M|48/100|[from]move: U-turn
+|-damage|p1a: Fert|35/100|[from] Spikes
+|-damage|p1a: Fert|29/100|[from] Stealth Rock
+|move|p2a: Hatterene|Draining Kiss|p1a: Fert
+|-resisted|p1a: Fert
+|-damage|p1a: Fert|18/100
+|-heal|p2a: Hatterene|46/100|[from] drain|[of] p1a: Fert
+|-damage|p2a: Hatterene|34/100|[from] ability: Iron Barbs|[of] p1a: Fert
+|
+|upkeep
+|turn|55
+|
+|switch|p1a: Toxe|Toxapex, F|68/100 par
+|-damage|p1a: Toxe|55/100 par|[from] Spikes
+|-damage|p1a: Toxe|43/100 par|[from] Stealth Rock
+|move|p2a: Hatterene|Mystical Fire|p1a: Toxe
+|-resisted|p1a: Toxe
+|-damage|p1a: Toxe|33/100 par
+|-unboost|p1a: Toxe|spa|1
+|
+|-heal|p1a: Toxe|40/100 par|[from] item: Black Sludge
+|upkeep
+|turn|56
+|
+|switch|p2a: Vaporeon|Vaporeon, F|66/100 par
+|switch|p1a: Agsh|Aegislash, F|41/100
+|-damage|p1a: Agsh|35/100|[from] Stealth Rock
+|-damage|p1a: Agsh|22/100|[from] Spikes
+|
+|-heal|p1a: Agsh|29/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|move|p1a: Agsh|Substitute|p1a: Agsh
+|-start|p1a: Agsh|Substitute
+|-damage|p1a: Agsh|4/100
+|move|p2a: Vaporeon|Scald|p1a: Agsh
+|-end|p1a: Agsh|Substitute
+|
+|-heal|p1a: Agsh|10/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|move|p1a: Agsh|King's Shield|p1a: Agsh
+|-singleturn|p1a: Agsh|Protect
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p1a: Agsh|16/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|59
+|j| JereGod
+|inactive|andrewm0n has 90 seconds left.
+|j| gdfsgdsfgdrsr
+|
+|switch|p1a: Ditt|Ditto|78/100
+|-damage|p1a: Ditt|66/100|[from] Spikes
+|-damage|p1a: Ditt|54/100|[from] Stealth Rock
+|-transform|p1a: Ditt|p2a: Vaporeon|[from] ability: Imposter
+|switch|p2a: Kommo-o|Kommo-o, M|36/100
+|
+|-heal|p2a: Kommo-o|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|60
+|inactive|andrewm0n has 90 seconds left.
+|
+|switch|p1a: Toxe|Toxapex, F|73/100 par
+|-damage|p1a: Toxe|60/100 par|[from] Stealth Rock
+|-damage|p1a: Toxe|48/100 par|[from] Spikes
+|move|p2a: Kommo-o|Drain Punch|p1a: Toxe
+|-resisted|p1a: Toxe
+|-damage|p1a: Toxe|36/100 par
+|
+|-heal|p1a: Toxe|42/100 par|[from] item: Black Sludge
+|upkeep
+|turn|61
+|inactive|andrewm0n has 90 seconds left.
+|
+|switch|p2a: Hatterene|Hatterene, F|34/100
+|move|p1a: Toxe|Recover|p1a: Toxe
+|-heal|p1a: Toxe|92/100 par
+|
+|-heal|p1a: Toxe|98/100 par|[from] item: Black Sludge
+|upkeep
+|turn|62
+|
+|move|p2a: Hatterene|Psychic|p1a: Toxe
+|-supereffective|p1a: Toxe
+|-damage|p1a: Toxe|32/100 par
+|cant|p1a: Toxe|par
+|
+|-heal|p1a: Toxe|39/100 par|[from] item: Black Sludge
+|upkeep
+|turn|63
+|
+|switch|p1a: Agsh|Aegislash, F|16/100
+|-damage|p1a: Agsh|4/100|[from] Spikes
+|-damage|p1a: Agsh|0 fnt|[from] Stealth Rock
+|faint|p1a: Agsh
+|move|p2a: Hatterene|Psychic|p1: Agsh|[notarget]
+|-fail|p2a: Hatterene
+|
+|upkeep
+|c|☆Sir Isaac Mewton|nice
+|
+|switch|p1a: Ditt|Ditto|54/100
+|-damage|p1a: Ditt|41/100|[from] Stealth Rock
+|-damage|p1a: Ditt|29/100|[from] Spikes
+|-transform|p1a: Ditt|p2a: Hatterene|[from] ability: Imposter
+|turn|64
+|inactive|andrewm0n has 90 seconds left.
+|j| Boblova
+|c|☆andrewm0n|sorry
+|inactive|andrewm0n has 60 seconds left.
+|
+|move|p1a: Ditt|Draining Kiss|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-heal|p1a: Ditt|51/100|[from] drain|[of] p2a: Hatterene
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|9/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|65
+|c|☆Sir Isaac Mewton|ur not so
+|
+|switch|p1a: Fert|Ferrothorn, M|18/100
+|-damage|p1a: Fert|12/100|[from] Stealth Rock
+|-damage|p1a: Fert|0 fnt|[from] Spikes
+|faint|p1a: Fert
+|move|p2a: Excadrill|Earthquake|p1: Fert|[notarget]
+|-fail|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Ditt|Ditto|51/100
+|-damage|p1a: Ditt|39/100|[from] Spikes
+|-damage|p1a: Ditt|26/100|[from] Stealth Rock
+|-transform|p1a: Ditt|p2a: Excadrill|[from] ability: Imposter
+|-ability|p1a: Ditt|Mold Breaker
+|turn|66
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|88/100
+|move|p1a: Ditt|Iron Head|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|60/100
+|
+|upkeep
+|turn|67
+|
+|move|p1a: Ditt|Rapid Spin|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|48/100
+|-sideend|p1: Sir Isaac Mewton|Spikes|[from] move: Rapid Spin|[of] p1a: Ditt
+|-sideend|p1: Sir Isaac Mewton|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Ditt
+|-boost|p1a: Ditt|spe|1
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|98/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|68
+|l| Tsorig of Carthus
+|
+|switch|p1a: Toxe|Toxapex, F|72/100 par
+|move|p2a: Mandibuzz|Foul Play|p1a: Toxe
+|-damage|p1a: Toxe|59/100 par
+|
+|-heal|p1a: Toxe|65/100 par|[from] item: Black Sludge
+|upkeep
+|turn|69
+|
+|move|p2a: Mandibuzz|U-turn|p1a: Toxe
+|-resisted|p1a: Toxe
+|-damage|p1a: Toxe|61/100 par
+|
+|switch|p2a: Vaporeon|Vaporeon, F|84/100 par|[from]move: U-turn
+|move|p1a: Toxe|Recover|p1a: Toxe
+|-heal|p1a: Toxe|100/100 par
+|
+|-heal|p2a: Vaporeon|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|switch|p1a: Ditt|Ditto|26/100
+|-transform|p1a: Ditt|p2a: Vaporeon|[from] ability: Imposter
+|move|p2a: Vaporeon|Fake Tears|p1a: Ditt
+|-unboost|p1a: Ditt|spd|2
+|
+|-heal|p2a: Vaporeon|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|move|p1a: Ditt|Wish|p1a: Ditt
+|
+|upkeep
+|turn|72
+|inactive|andrewm0n has 120 seconds left.
+|
+|switch|p1a: Toxe|Toxapex, F|100/100 par
+|move|p2a: Kommo-o|Drain Punch|p1a: Toxe
+|-resisted|p1a: Toxe
+|-damage|p1a: Toxe|87/100 par
+|
+|-heal|p1a: Toxe|100/100 par|[from] move: Wish|[wisher] Ditt
+|upkeep
+|turn|73
+|l| Palindome
+|
+|move|p2a: Kommo-o|Clanging Scales|p1a: Toxe
+|-damage|p1a: Toxe|74/100 par
+|-unboost|p2a: Kommo-o|def|1
+|move|p1a: Toxe|Toxic|p2a: Kommo-o
+|-status|p2a: Kommo-o|tox
+|
+|-heal|p1a: Toxe|80/100 par|[from] item: Black Sludge
+|-damage|p2a: Kommo-o|94/100 tox|[from] psn
+|upkeep
+|turn|74
+|
+|move|p2a: Kommo-o|Clanging Scales|p1a: Toxe
+|-damage|p1a: Toxe|55/100 par
+|-unboost|p2a: Kommo-o|def|1
+|move|p1a: Toxe|Haze|p1a: Toxe
+|-clearallboost
+|
+|-heal|p1a: Toxe|61/100 par|[from] item: Black Sludge
+|-damage|p2a: Kommo-o|82/100 tox|[from] psn
+|upkeep
+|turn|75
+|
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|49/100 tox
+|move|p1a: Toxe|Recover|p1a: Toxe
+|-heal|p1a: Toxe|100/100 par
+|
+|-damage|p2a: Kommo-o|30/100 tox|[from] psn
+|upkeep
+|turn|76
+|
+|move|p2a: Kommo-o|Clanging Scales|p1a: Toxe
+|-damage|p1a: Toxe|63/100 par
+|-unboost|p2a: Kommo-o|def|1
+|move|p1a: Toxe|Haze|p1a: Toxe
+|-clearallboost
+|
+|-heal|p1a: Toxe|69/100 par|[from] item: Black Sludge
+|-damage|p2a: Kommo-o|5/100 tox|[from] psn
+|upkeep
+|turn|77
+|
+|move|p2a: Kommo-o|Clanging Scales|p1a: Toxe
+|-damage|p1a: Toxe|44/100 par
+|-unboost|p2a: Kommo-o|def|1
+|move|p1a: Toxe|Recover|p1a: Toxe
+|-heal|p1a: Toxe|94/100 par
+|
+|-heal|p1a: Toxe|99/100 par|[from] item: Black Sludge
+|-damage|p2a: Kommo-o|0 fnt|[from] psn
+|faint|p2a: Kommo-o
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|9/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|78
+|
+|move|p2a: Excadrill|Earthquake|p1a: Toxe
+|-supereffective|p1a: Toxe
+|-damage|p1a: Toxe|24/100 par
+|move|p1a: Toxe|Scald|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-heal|p1a: Toxe|30/100 par|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|98/100
+|turn|79
+|
+|switch|p1a: Ditt|Ditto|26/100
+|-transform|p1a: Ditt|p2a: Mandibuzz|[from] ability: Imposter
+|move|p2a: Mandibuzz|Foul Play|p1a: Ditt
+|-resisted|p1a: Ditt
+|-damage|p1a: Ditt|15/100
+|
+|upkeep
+|turn|80
+|
+|move|p1a: Ditt|Roost|p1a: Ditt
+|-heal|p1a: Ditt|65/100
+|-singleturn|p1a: Ditt|move: Roost
+|move|p2a: Mandibuzz|U-turn|p1a: Ditt
+|-supereffective|p1a: Ditt
+|-damage|p1a: Ditt|43/100
+|
+|switch|p2a: Vaporeon|Vaporeon, F|96/100 par|[from]move: U-turn
+|
+|-heal|p2a: Vaporeon|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|81
+|inactive|andrewm0n has 120 seconds left.
+|
+|move|p1a: Ditt|Knock Off|p2a: Vaporeon
+|-damage|p2a: Vaporeon|83/100 par
+|-enditem|p2a: Vaporeon|Leftovers|[from] move: Knock Off|[of] p1a: Ditt
+|move|p2a: Vaporeon|Fake Tears|p1a: Ditt
+|-unboost|p1a: Ditt|spd|2
+|
+|upkeep
+|turn|82
+|
+|move|p1a: Ditt|U-turn|p2a: Vaporeon
+|-damage|p2a: Vaporeon|74/100 par
+|
+|switch|p1a: Toxe|Toxapex, F|64/100 par|[from]move: U-turn
+|cant|p2a: Vaporeon|par
+|
+|-heal|p1a: Toxe|70/100 par|[from] item: Black Sludge
+|upkeep
+|turn|83
+|
+|switch|p1a: Ditt|Ditto|43/100
+|-transform|p1a: Ditt|p2a: Vaporeon|[from] ability: Imposter
+|move|p2a: Vaporeon|Fake Tears|p1a: Ditt
+|-unboost|p1a: Ditt|spd|2
+|
+|upkeep
+|turn|84
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|98/100
+|move|p1a: Ditt|Wish|p1a: Ditt
+|
+|upkeep
+|turn|85
+|
+|move|p1a: Ditt|Protect|p1a: Ditt
+|-singleturn|p1a: Ditt|Protect
+|move|p2a: Mandibuzz|U-turn|p1a: Ditt
+|-activate|p1a: Ditt|move: Protect
+|
+|-heal|p1a: Ditt|93/100|[from] move: Wish|[wisher] Ditt
+|upkeep
+|turn|86
+|
+|move|p2a: Mandibuzz|U-turn|p1a: Ditt
+|-damage|p1a: Ditt|80/100
+|l| lugirio
+|
+|switch|p2a: Vaporeon|Vaporeon, F|74/100 par|[from]move: U-turn
+|move|p1a: Ditt|Scald|p2a: Vaporeon
+|-heal|p2a: Vaporeon|99/100 par|[from] ability: Water Absorb|[of] p1a: Ditt
+|
+|upkeep
+|turn|87
+|
+|switch|p1a: Toxe|Toxapex, F|100/100 par
+|cant|p2a: Vaporeon|par
+|
+|upkeep
+|turn|88
+|
+|switch|p1a: Ditt|Ditto|80/100
+|-transform|p1a: Ditt|p2a: Vaporeon|[from] ability: Imposter
+|cant|p2a: Vaporeon|par
+|
+|upkeep
+|turn|89
+|
+|move|p1a: Ditt|Fake Tears|p2a: Vaporeon
+|-unboost|p2a: Vaporeon|spd|2
+|cant|p2a: Vaporeon|par
+|
+|upkeep
+|turn|90
+|c|☆Sir Isaac Mewton|hot trash
+|c|☆andrewm0n|-1 252 SpA Hydreigon Flash Cannon vs. 48 HP / 136 SpD Hatterene: 98-116 (36.7 - 43.4%) -- guaranteed 3HKO
+|inactive|andrewm0n has 120 seconds left.
+|c|☆Sir Isaac Mewton|u choked like a man diein of thirst in an oasis
+|c|☆andrewm0n|i don't remember how much health i had
+|c|☆Sir Isaac Mewton|32%
+|c|☆andrewm0n|then u desrrve to win from the beginning
+|c|☆andrewm0n|gg
+|l| Eclipse81
+|c|☆Sir Isaac Mewton|of course I do
+|inactive|andrewm0n has 90 seconds left.
+|j| Eclipse81
+|-message|andrewm0n forfeited.
+|
+|win|Sir Isaac Mewton
+|c|☆Sir Isaac Mewton|but u only forfeit now
+|c|☆Sir Isaac Mewton|that u lose 100%
+|c|☆Sir Isaac Mewton|sad, sad man
+|l| Boblova
+|raw|Sir Isaac Mewton's rating: 1743 → 1769(+26 for winning)
+|raw|andrewm0n's rating: 1857 → 1831(-26 for losing)
+|c|☆Sir Isaac Mewton|u tried to play it cool
+|c|☆Sir Isaac Mewton|hahahah
+|c|☆andrewm0n|obviously i'm gonna keep playing after i hax
+|l| TheLindomar
+|l| Eclipse81
+|c|☆Sir Isaac Mewton|ofc u will
+|c|☆Sir Isaac Mewton|shameless
+|c|☆andrewm0n|i fucked up by givng u a chance to win a speedtie with ditto vs hat
+|c|☆Sir Isaac Mewton|nah nah
+|c|☆Sir Isaac Mewton|u fucked up all game with misplays
+|c|☆andrewm0n|i should've switched and revenged with drill
+|c|☆Sir Isaac Mewton|and getting read
+|l| Serek94
+|c|☆Sir Isaac Mewton|really sad how much luck u got
+|c|☆Sir Isaac Mewton|and how bad you play
+|c|☆andrewm0n|whatever
+|c|☆Sir Isaac Mewton|whatever, off to the next one

@@ -1,0 +1,292 @@
+|ScrapeTime|2020-01-02-12:35:41
+|j|☆Seradykio
+|j|☆DYWY❀
+|player|p1|Seradykio|misty|
+|player|p2|DYWY❀|acerola|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Gyarados, F|
+|poke|p1|Silvally-*|
+|poke|p1|Rotom-Mow|
+|poke|p1|Gengar, M|
+|poke|p2|Sirfetch'd, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Snorlax, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Corviknight, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|1
+|
+|switch|p1a: Silvally|Silvally-Fairy, shiny|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Silvally
+|-damage|p1a: Silvally|73/100
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Seismitoad
+|-damage|p2a: Seismitoad|68/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Silvally
+|-sidestart|p1: Seradykio|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|74/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|72/100
+|-status|p1a: Rotom|brn
+|
+|-heal|p2a: Seismitoad|80/100|[from] item: Leftovers
+|-damage|p1a: Rotom|66/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Rotom|Trick|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-heal|p2a: Seismitoad|86/100|[from] item: Leftovers
+|-damage|p1a: Rotom|60/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Rotom|Trick|p2a: Rotom
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Rotom
+|-item|p2a: Rotom|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Choice Scarf|[from] move: Trick
+|
+|-damage|p1a: Rotom|54/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Rotom|Overheat|p1a: Tyranitar|[miss]
+|-miss|p2a: Rotom|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|94/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|switch|p2a: Seismitoad|Seismitoad, F|86/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Seismitoad|76/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|100/100
+|switch|p1a: Rotom|Rotom-Mow|54/100 brn
+|-damage|p1a: Rotom|41/100 brn|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|35/100 brn|[from] Sandstorm
+|-damage|p2a: Sirfetch'd|94/100|[from] Sandstorm
+|-damage|p1a: Rotom|29/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p2a: Sirfetch'd|First Impression|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sirfetch'd|88/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|move|p1a: Gengar|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|77/100
+|
+|-weather|none
+|-heal|p2a: Snorlax|83/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Tyranitar|Tyranitar, F|88/100
+|-damage|p1a: Tyranitar|76/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Snorlax|Darkest Lariat|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Snorlax|77/100|[from] Sandstorm
+|-heal|p2a: Snorlax|83/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Seismitoad|Seismitoad, F|76/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Seismitoad|67/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Gengar|Gengar, M|88/100
+|-damage|p1a: Gengar|76/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Scald|p1a: Gengar
+|-damage|p1a: Gengar|37/100
+|-start|p2a: Seismitoad|Disable|Scald|[from] ability: Cursed Body|[of] p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|30/100|[from] Sandstorm
+|-heal|p2a: Seismitoad|73/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-damage|p1a: Gyarados|76/100|[from] Stealth Rock
+|switch|p2a: Snorlax|Snorlax, M|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|70/100|[from] Sandstorm
+|-damage|p2a: Snorlax|77/100|[from] Sandstorm
+|-heal|p2a: Snorlax|83/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Snorlax|Body Slam|p1a: Gyarados
+|-damage|p1a: Gyarados|24/100
+|
+|-weather|none
+|-heal|p2a: Snorlax|89/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Gyarados|Waterfall|p2a: Snorlax
+|-damage|p2a: Snorlax|41/100
+|move|p2a: Snorlax|Body Slam|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-heal|p2a: Snorlax|47/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|67/100
+|-damage|p1a: Tyranitar|54/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|17
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|-damage|p1a: Cinderace|76/100|[from] Stealth Rock
+|switch|p2a: Seismitoad|Seismitoad, F|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cinderace|70/100|[from] Sandstorm
+|-heal|p2a: Seismitoad|79/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p1: Seradykio|Stealth Rock|[silent]
+|-sidestart|p2: DYWY❀|Stealth Rock|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Seismitoad|Earthquake|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Seismitoad|86/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Fairy, shiny|73/100
+|turn|19
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Silvally|Multi-Attack|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silvally|67/100|[from] Sandstorm
+|-heal|p2a: Corviknight|73/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Silvally|Fire Fang|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|40/100
+|move|p2a: Corviknight|Defog|p1a: Silvally
+|-unboost|p1a: Silvally|evasion|1
+|-sideend|p2: DYWY❀|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silvally|61/100|[from] Sandstorm
+|-heal|p2a: Corviknight|47/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Silvally|Fire Fang|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|19/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|69/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-weather|none
+|-heal|p2a: Corviknight|75/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Gengar|Gengar, M|30/100
+|move|p2a: Corviknight|Iron Head|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|-heal|p2a: Corviknight|81/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|54/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|23
+|-message|Seradykio forfeited.
+|
+|win|DYWY❀
+|l|☆Seradykio
+|l|☆DYWY❀

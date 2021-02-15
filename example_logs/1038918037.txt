@@ -1,0 +1,252 @@
+|ScrapeTime|2020-01-01-00:28:29
+|j|☆Waitchill
+|j|☆SandGetsEverywhere
+|player|p1|Waitchill|workerice|1180
+|player|p2|SandGetsEverywhere|riley|1151
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Crawdaunt, F|
+|poke|p1|Mimikyu, M|
+|poke|p1|Clefable, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Chandelure, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Dracovish|
+|poke|p2|Barraskewda, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Mantine, F|
+|poke|p2|Ferrothorn, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Curly Q|Clefable, M|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Waitchill)
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Curly Q|Thunderbolt|p2a: Excadrill
+|-immune|p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: U.F.O.|Ferrothorn, M|100/100
+|move|p2a: Excadrill|Iron Head|p1a: U.F.O.
+|-resisted|p1a: U.F.O.
+|-damage|p1a: U.F.O.|85/100
+|-damage|p2a: Excadrill|88/100|[from] ability: Iron Barbs|[of] p1a: U.F.O.
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: U.F.O.|91/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Mantine|Mantine, F|100/100
+|move|p1a: U.F.O.|Leech Seed|p2a: Mantine
+|-start|p2a: Mantine|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: U.F.O.|98/100|[from] item: Leftovers
+|-damage|p2a: Mantine|88/100|[from] Leech Seed|[of] p1a: U.F.O.
+|-heal|p1a: U.F.O.|100/100|[silent]
+|upkeep
+|turn|4
+|
+|move|p2a: Mantine|Hurricane|p1a: U.F.O.
+|-damage|p1a: U.F.O.|51/100
+|move|p1a: U.F.O.|Stealth Rock|p2a: Mantine
+|-sidestart|p2: SandGetsEverywhere|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: U.F.O.|57/100|[from] item: Leftovers
+|-damage|p2a: Mantine|75/100|[from] Leech Seed|[of] p1a: U.F.O.
+|-heal|p1a: U.F.O.|68/100|[silent]
+|upkeep
+|turn|5
+|
+|switch|p2a: Excadrill|Excadrill, M|88/100
+|-damage|p2a: Excadrill|85/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: U.F.O.|Gyro Ball|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|35/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: U.F.O.|74/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Excadrill|Rapid Spin|p1a: U.F.O.
+|-resisted|p1a: U.F.O.
+|-damage|p1a: U.F.O.|68/100
+|-damage|p2a: Excadrill|22/100|[from] ability: Iron Barbs|[of] p1a: U.F.O.
+|-sideend|p2: SandGetsEverywhere|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-boost|p2a: Excadrill|spe|1
+|move|p1a: U.F.O.|Gyro Ball|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: U.F.O.|75/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|7
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: U.F.O.
+|-resisted|p1a: U.F.O.
+|-crit|p1a: U.F.O.
+|-damage|p1a: U.F.O.|0 fnt
+|-damage|p2a: Dracovish|88/100|[from] ability: Iron Barbs|[of] p1a: U.F.O.
+|faint|p1a: U.F.O.
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|8
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Dragapult|Dragon Claw|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|83/100
+|-damage|p1a: Dragapult|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|none
+|-heal|p2a: Ferrothorn|90/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: FireMyOldFriend|Chandelure, M|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|switch|p1a: Curly Q|Clefable, M|100/100
+|move|p2a: Pelipper|U-turn|p1a: Curly Q
+|-resisted|p1a: Curly Q
+|-damage|p1a: Curly Q|96/100
+|
+|switch|p2a: Dracovish|Dracovish|88/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Curly Q
+|-damage|p1a: Curly Q|0 fnt
+|faint|p1a: Curly Q
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Hero|Crawdaunt, F|100/100
+|turn|12
+|
+|move|p1a: Hero|Aqua Jet|p2a: Dracovish
+|-resisted|p2a: Dracovish
+|-damage|p2a: Dracovish|72/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Hero
+|-resisted|p1a: Hero
+|-damage|p1a: Hero|22/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p1a: Hero|Aqua Jet|p2a: Dracovish
+|-resisted|p2a: Dracovish
+|-damage|p2a: Dracovish|56/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Hero
+|-resisted|p1a: Hero
+|-damage|p1a: Hero|0 fnt
+|faint|p1a: Hero
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: 2nd Chance Man|Mimikyu, M|100/100
+|turn|14
+|
+|move|p1a: 2nd Chance Man|Swords Dance|p1a: 2nd Chance Man
+|-boost|p1a: 2nd Chance Man|atk|2
+|move|p2a: Dracovish|Fishious Rend|p1a: 2nd Chance Man
+|-activate|p1a: 2nd Chance Man|ability: Disguise
+|-damage|p1a: 2nd Chance Man|100/100
+|detailschange|p1a: 2nd Chance Man|Mimikyu-Busted, M
+|-damage|p1a: 2nd Chance Man|88/100|[from] ability: Disguise|[of] p1a: 2nd Chance Man
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p1a: 2nd Chance Man|Shadow Sneak|p2a: Dracovish
+|-damage|p2a: Dracovish|14/100
+|-damage|p1a: 2nd Chance Man|78/100|[from] item: Life Orb
+|move|p2a: Dracovish|Fishious Rend|p1a: 2nd Chance Man
+|-damage|p1a: 2nd Chance Man|0 fnt
+|faint|p1a: 2nd Chance Man
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|88/100
+|turn|16
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|90/100
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Ferrothorn
+|
+|-weather|none
+|-heal|p2a: Ferrothorn|96/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Ferrothorn|[from]lockedmove
+|-damage|p2a: Ferrothorn|59/100
+|-damage|p1a: Dragapult|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|17/100
+|-enditem|p1a: Dragapult|Choice Scarf|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|66/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: FireMyOldFriend|Chandelure, M|100/100
+|move|p2a: Ferrothorn|Knock Off|p1a: FireMyOldFriend
+|-supereffective|p1a: FireMyOldFriend
+|-damage|p1a: FireMyOldFriend|39/100
+|-enditem|p1a: FireMyOldFriend|Choice Scarf|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|72/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|-message|Waitchill forfeited.
+|
+|win|SandGetsEverywhere
+|l|☆Waitchill
+|raw|Waitchill's rating: 1180 → 1153(-27 for losing)
+|raw|SandGetsEverywhere's rating: 1151 → 1178(+27 for winning)

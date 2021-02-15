@@ -1,0 +1,394 @@
+|ScrapeTime|2020-01-02-02:55:08
+|j|☆Chiyosuke
+|j|☆gungownn
+|player|p1|Chiyosuke|caitlin|1132
+|player|p2|gungownn|101|1125
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Froslass, F|
+|poke|p1|Kommo-o, M|
+|poke|p1|Bisharp, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Toxtricity, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Durant, M|
+|poke|p2|Rotom-Mow|
+|poke|p2|Arcanine, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Froslass|Froslass, F|100/100
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|turn|1
+|
+|move|p1a: Froslass|Taunt|p2a: Seismitoad
+|-start|p2a: Seismitoad|move: Taunt
+|cant|p2a: Seismitoad|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Durant|Durant, M, shiny|100/100
+|move|p1a: Froslass|Spikes|p2a: Durant
+|-sidestart|p2: gungownn|Spikes
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Durant|First Impression|p1a: Froslass|[miss]
+|-miss|p2a: Durant|p1a: Froslass
+|move|p1a: Froslass|Destiny Bond|p1a: Froslass
+|-singlemove|p1a: Froslass|Destiny Bond
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|-damage|p2a: Seismitoad|88/100|[from] Spikes
+|move|p1a: Froslass|Spikes|p2a: Seismitoad
+|-sidestart|p2: gungownn|Spikes
+|
+|-heal|p2a: Seismitoad|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Arcanine|Arcanine, M|100/100
+|-damage|p2a: Arcanine|84/100|[from] Spikes
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Froslass|atk|1
+|move|p1a: Froslass|Taunt|p2a: Arcanine
+|-start|p2a: Arcanine|move: Taunt
+|
+|-heal|p2a: Arcanine|90/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Froslass|Destiny Bond|p1a: Froslass
+|-singlemove|p1a: Froslass|Destiny Bond
+|move|p2a: Arcanine|Flare Blitz|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-enditem|p1a: Froslass|Focus Sash
+|-damage|p1a: Froslass|1/100
+|-start|p2a: Arcanine|Disable|Flare Blitz|[from] ability: Cursed Body|[of] p1a: Froslass
+|-damage|p2a: Arcanine|61/100|[from] Recoil
+|
+|-heal|p2a: Arcanine|67/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Durant|Durant, M, shiny|100/100
+|-damage|p2a: Durant|84/100|[from] Spikes
+|move|p1a: Froslass|Spikes|p2a: Durant
+|-sidestart|p2: gungownn|Spikes
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Durant|First Impression|p1a: Froslass
+|-resisted|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|-start|p2a: Durant|Disable|First Impression|[from] ability: Cursed Body|[of] p1a: Froslass
+|-damage|p2a: Durant|74/100|[from] item: Life Orb
+|faint|p1a: Froslass
+|
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|turn|9
+|
+|move|p2a: Durant|Superpower|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|-unboost|p2a: Durant|atk|1
+|-unboost|p2a: Durant|def|1
+|-damage|p2a: Durant|64/100|[from] item: Life Orb
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|turn|10
+|
+|switch|p2a: Seismitoad|Seismitoad, F|94/100
+|-damage|p2a: Seismitoad|69/100|[from] Spikes
+|move|p1a: Kommo-o|Drain Punch|p2a: Seismitoad
+|-damage|p2a: Seismitoad|45/100
+|
+|-heal|p2a: Seismitoad|51/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Kommo-o|Taunt|p2a: Seismitoad
+|-start|p2a: Seismitoad|move: Taunt
+|cant|p2a: Seismitoad|move: Taunt|Stealth Rock
+|
+|-heal|p2a: Seismitoad|57/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Seismitoad|Scald|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|90/100
+|move|p1a: Kommo-o|Dragon Tail|p2a: Seismitoad
+|-damage|p2a: Seismitoad|38/100
+|drag|p2a: Hydreigon|Hydreigon, M|100/100
+|
+|-heal|p1a: Kommo-o|97/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Hydreigon|Draco Meteor|p1a: Grimmsnarl
+|-immune|p1a: Grimmsnarl
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|-damage|p2a: Corsola|75/100|[from] Spikes
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Corsola
+|-damage|p2a: Corsola|54/100
+|-start|p1a: Grimmsnarl|Disable|Spirit Break|[from] ability: Cursed Body|[of] p2a: Corsola
+|-unboost|p2a: Corsola|spa|1
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Corsola
+|-start|p2a: Corsola|move: Taunt
+|cant|p2a: Corsola|move: Taunt|Strength Sap
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Durant|Durant, M, shiny|64/100
+|-damage|p2a: Durant|40/100|[from] Spikes
+|move|p1a: Grimmsnarl|Darkest Lariat|p2a: Durant
+|-damage|p2a: Durant|0 fnt
+|faint|p2a: Durant
+|
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, F|38/100
+|-damage|p2a: Seismitoad|13/100|[from] Spikes
+|turn|17
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Seismitoad
+|-start|p2a: Seismitoad|move: Taunt
+|cant|p2a: Seismitoad|move: Taunt|Toxic
+|
+|-heal|p2a: Seismitoad|19/100|[from] item: Leftovers
+|-end|p1a: Grimmsnarl|Disable
+|upkeep
+|turn|18
+|
+|move|p2a: Seismitoad|Scald|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|76/100
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-heal|p1a: Grimmsnarl|82/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|turn|19
+|
+|switch|p1a: Kommo-o|Kommo-o, M|97/100
+|move|p2a: Rotom|Thunderbolt|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|78/100
+|-status|p1a: Kommo-o|par
+|
+|-heal|p1a: Kommo-o|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Rotom|Volt Switch|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|70/100 par
+|
+|switch|p2a: Corsola|Corsola-Galar, F|54/100|[from]move: Volt Switch
+|-damage|p2a: Corsola|29/100|[from] Spikes
+|move|p1a: Kommo-o|Dragon Tail|p2a: Corsola
+|-damage|p2a: Corsola|17/100
+|drag|p2a: Rotom|Rotom-Mow|100/100
+|
+|-heal|p1a: Kommo-o|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|57/100 par
+|move|p1a: Kommo-o|Stealth Rock|p2a: Rotom
+|-sidestart|p2: gungownn|move: Stealth Rock
+|
+|-heal|p1a: Kommo-o|63/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gungownn)
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|46/100 par
+|cant|p1a: Kommo-o|par
+|
+|-heal|p1a: Kommo-o|52/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|33/100 par
+|move|p1a: Kommo-o|Dragon Tail|p2a: Rotom
+|-damage|p2a: Rotom|69/100
+|drag|p2a: Corsola|Corsola-Galar, F|17/100
+|-damage|p2a: Corsola|0 fnt|[from] Spikes
+|faint|p2a: Corsola
+|
+|-heal|p1a: Kommo-o|39/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|turn|24
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|82/100
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|63/100
+|
+|-heal|p1a: Grimmsnarl|88/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Hydreigon
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Hydreigon
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|-heal|p1a: Grimmsnarl|94/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|-damage|p2a: Hydreigon|54/100|[from] item: Life Orb
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|turn|27
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|44/100|[from] item: Life Orb
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, M|39/100 par
+|turn|28
+|
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|move|p1a: Kommo-o|Dragon Tail|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|
+|-heal|p1a: Kommo-o|45/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|19/100
+|move|p1a: Kommo-o|Taunt|p2a: Hydreigon
+|-start|p2a: Hydreigon|move: Taunt
+|
+|-heal|p1a: Kommo-o|51/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|9/100|[from] item: Life Orb
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|turn|31
+|
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|76/100
+|move|p2a: Hydreigon|Draco Meteor|p1a: Hydreigon|[miss]
+|-miss|p2a: Hydreigon|p1a: Hydreigon
+|
+|-heal|p1a: Hydreigon|82/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|move|p2a: Hydreigon|Draco Meteor|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-end|p1a: Hydreigon|Substitute
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|0 fnt|[from] item: Life Orb
+|faint|p2a: Hydreigon
+|
+|-heal|p1a: Hydreigon|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Arcanine|Arcanine, M|67/100
+|-damage|p2a: Arcanine|42/100|[from] Spikes
+|-damage|p2a: Arcanine|17/100|[from] Stealth Rock
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Hydreigon|atk|1
+|turn|33
+|
+|move|p2a: Arcanine|Extreme Speed|p1a: Hydreigon
+|-damage|p1a: Hydreigon|58/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|-heal|p1a: Hydreigon|64/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Mow|69/100
+|-damage|p2a: Rotom|57/100|[from] Stealth Rock
+|turn|34
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|win|Chiyosuke
+|l|☆gungownn
+|raw|Chiyosuke's rating: 1133 → 1156(+23 for winning)
+|raw|gungownn's rating: 1102 → 1079(-23 for losing)

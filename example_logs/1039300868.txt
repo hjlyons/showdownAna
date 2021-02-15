@@ -1,0 +1,394 @@
+|ScrapeTime|2020-01-01-20:46:36
+|j|☆bolt pls
+|j|☆LudoNoLudo'
+|player|p1|bolt pls|248|1320
+|player|p2|LudoNoLudo'|anabel|1323
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, F|
+|poke|p1|Mamoswine, M|
+|poke|p1|Aegislash, M|
+|poke|p1|Clefable, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Toxtricity, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Dragapult, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|turn|1
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|move|p2a: Conkeldurr|Poison Jab|p1a: Aegislash
+|-immune|p1a: Aegislash
+|
+|upkeep
+|turn|2
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Flash Cannon|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|71/100
+|move|p2a: Conkeldurr|Earthquake|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|turn|3
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Clefable|Moonblast|p2a: Rotom
+|-damage|p2a: Rotom|70/100
+|-unboost|p2a: Rotom|spa|1
+|
+|-heal|p2a: Rotom|76/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Rotom|Volt Switch|p1a: Clefable
+|-damage|p1a: Clefable|87/100
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100|[from]move: Volt Switch
+|move|p1a: Clefable|Moonblast|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|79/100
+|
+|-heal|p1a: Clefable|93/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|75/100
+|move|p1a: Rotom|Thunder Wave||[still]
+|-fail|p1a: Rotom
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Rotom
+|-status|p1a: Rotom|brn
+|move|p1a: Rotom|Hydro Pump|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-activate|p2a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|-damage|p1a: Rotom|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p2a: Dragapult|Hex|p1a: Rotom
+|-damage|p1a: Rotom|36/100 brn
+|move|p1a: Rotom|Hydro Pump|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|-heal|p1a: Rotom|42/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|36/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|69/100
+|move|p1a: Rotom|Hydro Pump|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-activate|p2a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p2a: Dragapult|75/100|[from] item: Leftovers
+|-heal|p1a: Rotom|42/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|36/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Dragapult|Disable|p1a: Rotom
+|-start|p1a: Rotom|Disable|Hydro Pump
+|cant|p1a: Rotom|Disable|Hydro Pump
+|
+|-heal|p2a: Dragapult|81/100|[from] item: Leftovers
+|-heal|p1a: Rotom|42/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|36/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Dragapult|Hex|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-heal|p2a: Dragapult|87/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|turn|12
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Hydreigon
+|-status|p1a: Hydreigon|brn
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|76/100 brn
+|
+|-heal|p2a: Dragapult|93/100|[from] item: Leftovers
+|-heal|p1a: Hydreigon|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Hydreigon|76/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Dragapult|Hex|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|41/100 brn
+|move|p1a: Hydreigon|Flamethrower|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|99/100|[from] item: Leftovers
+|-heal|p1a: Hydreigon|47/100 brn|[from] item: Leftovers
+|-damage|p1a: Hydreigon|41/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|74/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|80/100|[from] item: Leftovers
+|-heal|p1a: Hydreigon|47/100 brn|[from] item: Leftovers
+|-damage|p1a: Hydreigon|41/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Dragapult|Disable|p1a: Hydreigon
+|-start|p1a: Hydreigon|Disable|Dark Pulse
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|
+|-heal|p2a: Dragapult|86/100|[from] item: Leftovers
+|-heal|p1a: Hydreigon|47/100 brn|[from] item: Leftovers
+|-damage|p1a: Hydreigon|41/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p2a: Dragapult|Hex|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|9/100 brn
+|move|p1a: Hydreigon|Flamethrower|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|46/100
+|
+|-heal|p2a: Dragapult|52/100|[from] item: Leftovers
+|-heal|p1a: Hydreigon|16/100 brn|[from] item: Leftovers
+|-damage|p1a: Hydreigon|9/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|move|p2a: Dragapult|Hex|p1a: Mamoswine
+|-damage|p1a: Mamoswine|64/100
+|
+|-heal|p2a: Dragapult|58/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Rotom|Rotom-Wash|76/100
+|move|p1a: Mamoswine|Stealth Rock|p2a: Rotom
+|-sidestart|p2: LudoNoLudo'|move: Stealth Rock
+|
+|-heal|p2a: Rotom|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Clefable|Clefable, M|93/100
+|move|p2a: Rotom|Hydro Pump|p1a: Clefable
+|-damage|p1a: Clefable|58/100
+|
+|-heal|p2a: Rotom|89/100|[from] item: Leftovers
+|-heal|p1a: Clefable|64/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|39/100
+|move|p1a: Clefable|Moonblast|p2a: Rotom
+|-damage|p2a: Rotom|56/100
+|
+|-heal|p2a: Rotom|62/100|[from] item: Leftovers
+|-heal|p1a: Clefable|45/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|20/100
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|70/100
+|
+|-heal|p2a: Rotom|69/100|[from] item: Leftovers
+|-heal|p1a: Clefable|76/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Rotom|Volt Switch|p1a: Clefable
+|-damage|p1a: Clefable|55/100
+|
+|switch|p2a: Excadrill|Excadrill, M|79/100|[from]move: Volt Switch
+|-damage|p2a: Excadrill|76/100|[from] Stealth Rock
+|move|p1a: Clefable|Moonblast|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-crit|p2a: Excadrill
+|-damage|p2a: Excadrill|45/100
+|-unboost|p2a: Excadrill|spa|1
+|
+|-heal|p1a: Clefable|61/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p1a: Toxtricity|Toxtricity, F|100/100
+|move|p2a: Excadrill|Iron Head|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|48/100
+|-damage|p2a: Excadrill|35/100|[from] item: Life Orb
+|
+|upkeep
+|turn|24
+|
+|switch|p1a: Hydreigon|Hydreigon, F|9/100 brn
+|move|p2a: Excadrill|Iron Head|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|-damage|p2a: Excadrill|25/100|[from] item: Life Orb
+|faint|p1a: Hydreigon
+|
+|upkeep
+|
+|switch|p1a: Mamoswine|Mamoswine, M|64/100
+|turn|25
+|
+|switch|p2a: Rotom|Rotom-Wash|69/100
+|-damage|p2a: Rotom|56/100|[from] Stealth Rock
+|move|p1a: Mamoswine|Earthquake|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|-heal|p2a: Rotom|62/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: Clefable|Clefable, M|61/100
+|move|p2a: Rotom|Volt Switch|p1a: Clefable
+|-damage|p1a: Clefable|40/100
+|
+|switch|p2a: Excadrill|Excadrill, M|25/100|[from]move: Volt Switch
+|-damage|p2a: Excadrill|22/100|[from] Stealth Rock
+|
+|-heal|p1a: Clefable|46/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p1a: Toxtricity|Toxtricity, F|48/100
+|move|p2a: Excadrill|Iron Head|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|3/100
+|-damage|p2a: Excadrill|12/100|[from] item: Life Orb
+|
+|upkeep
+|turn|28
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Toxtricity|Boomburst|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxtricity|0 fnt|[from] Sandstorm
+|faint|p1a: Toxtricity
+|upkeep
+|
+|switch|p1a: Mamoswine|Mamoswine, M|64/100
+|turn|29
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bolt pls)
+|
+|switch|p1a: Clefable|Clefable, M|46/100
+|switch|p2a: Rotom|Rotom-Wash|62/100
+|-damage|p2a: Rotom|50/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|44/100|[from] Sandstorm
+|-heal|p2a: Rotom|50/100|[from] item: Leftovers
+|-heal|p1a: Clefable|53/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|27/100
+|move|p1a: Clefable|Flamethrower|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|33/100|[from] Sandstorm
+|-heal|p2a: Rotom|39/100|[from] item: Leftovers
+|-heal|p1a: Clefable|33/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|7/100
+|move|p1a: Clefable|Flamethrower|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|21/100|[from] Sandstorm
+|-heal|p2a: Rotom|27/100|[from] item: Leftovers
+|-heal|p1a: Clefable|13/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|c|☆bolt pls|fuck lol
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|21/100|[from] Sandstorm
+|-heal|p2a: Rotom|27/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Mamoswine|Mamoswine, M|64/100
+|turn|33
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|win|LudoNoLudo'

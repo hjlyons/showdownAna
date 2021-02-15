@@ -1,0 +1,254 @@
+|ScrapeTime|2020-01-02-13:02:29
+|j|☆papi24
+|j|☆TogetherMarc
+|player|p1|papi24|blackbelt|1204
+|player|p2|TogetherMarc|250|1217
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mew|
+|poke|p1|Excadrill, F|
+|poke|p1|Kommo-o, F|
+|poke|p1|Cloyster, F|
+|poke|p1|Mimikyu, F|
+|poke|p1|Dragapult, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Golisopod, M|
+|poke|p2|Mudsdale, F|
+|poke|p2|Heliolisk, F|
+|poke|p2|Conkeldurr, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|switch|p2a: Heliolisk|Heliolisk, F|100/100
+|turn|1
+|
+|move|p2a: Heliolisk|Volt Switch|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|75/100
+|
+|switch|p2a: Mudsdale|Mudsdale, F|100/100|[from]move: Volt Switch
+|move|p1a: Kommo-o|Clanging Scales|p2a: Mudsdale
+|-damage|p2a: Mudsdale|55/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|-unboost|p1a: Kommo-o|def|1
+|-enditem|p1a: Kommo-o|Throat Spray
+|-boost|p1a: Kommo-o|spa|1
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Kommo-o|Clanging Scales|p2a: Mudsdale
+|-damage|p2a: Mudsdale|0 fnt
+|-unboost|p1a: Kommo-o|def|1
+|faint|p2a: Mudsdale
+|
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|3
+|
+|move|p1a: Kommo-o|Flamethrower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|4/100
+|-enditem|p2a: Ferrothorn|Aguav Berry|[eat]
+|-heal|p2a: Ferrothorn|36/100|[from] item: Aguav Berry
+|move|p2a: Ferrothorn|Leech Seed|p1a: Kommo-o
+|-start|p1a: Kommo-o|move: Leech Seed
+|
+|-damage|p1a: Kommo-o|63/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|47/100|[silent]
+|upkeep
+|turn|4
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M, shiny|100/100
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|30/100
+|
+|-damage|p1a: Kommo-o|17/100|[from] Leech Seed|[of] p2a: Conkeldurr
+|upkeep
+|turn|5
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|6
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|3/100
+|-unboost|p1a: Dragapult|spa|2
+|-enditem|p2a: Conkeldurr|Wiki Berry|[eat]
+|-heal|p2a: Conkeldurr|36/100|[from] item: Wiki Berry
+|move|p2a: Conkeldurr|Ice Punch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|18/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Hatterene|Hatterene, F, shiny|100/100
+|move|p1a: Dragapult|Draco Meteor|p2a: Hatterene
+|-immune|p2a: Hatterene
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Hatterene|Mystical Fire|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|20/100
+|-unboost|p1a: Excadrill|spa|1
+|move|p1a: Excadrill|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|44/100
+|
+|-heal|p2a: Hatterene|50/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Hatterene|Mystical Fire|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-heal|p2a: Hatterene|56/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|turn|11
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|47/100
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Ferrothorn|Toxic|p1a: Mimikyu
+|-status|p1a: Mimikyu|tox
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|
+|-damage|p1a: Mimikyu|95/100 tox|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|13
+|
+|move|p1a: Mimikyu|Shadow Claw|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Mimikyu|82/100 tox|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Mimikyu|72/100 tox|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|-damage|p1a: Mimikyu|60/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Golisopod|Golisopod, M, shiny|100/100
+|turn|14
+|
+|move|p2a: Golisopod|First Impression|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|60/100 tox
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|-damage|p1a: Mimikyu|48/100 tox|[from] ability: Disguise|[of] p1a: Mimikyu
+|move|p1a: Mimikyu|Shadow Claw|p2a: Golisopod
+|-damage|p2a: Golisopod|21/100
+|-enditem|p2a: Golisopod|Sitrus Berry|[eat]
+|-heal|p2a: Golisopod|46/100|[from] item: Sitrus Berry
+|-activate|p2a: Golisopod|ability: Emergency Exit
+|-damage|p1a: Mimikyu|38/100 tox|[from] item: Life Orb
+|
+|switch|p2a: Heliolisk|Heliolisk, F|100/100
+|
+|-damage|p1a: Mimikyu|20/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|move|p2a: Heliolisk|Volt Switch|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|switch|p2a: Golisopod|Golisopod, M, shiny|46/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|18/100
+|turn|16
+|
+|move|p2a: Golisopod|First Impression|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Cloyster|Cloyster, F|100/100
+|turn|17
+|
+|move|p1a: Cloyster|Rock Blast|p2a: Golisopod
+|-supereffective|p2a: Golisopod
+|-damage|p2a: Golisopod|34/100
+|-supereffective|p2a: Golisopod
+|-damage|p2a: Golisopod|22/100
+|-supereffective|p2a: Golisopod
+|-damage|p2a: Golisopod|9/100
+|-supereffective|p2a: Golisopod
+|-damage|p2a: Golisopod|0 fnt
+|-hitcount|p2a: Golisopod|4
+|faint|p2a: Golisopod
+|
+|upkeep
+|
+|switch|p2a: Heliolisk|Heliolisk, F|100/100
+|turn|18
+|
+|switch|p1a: Mew|Mew|100/100
+|move|p2a: Heliolisk|Thunderbolt|p1a: Mew
+|-damage|p1a: Mew|36/100
+|-status|p1a: Mew|par
+|-activate|p1a: Mew|ability: Synchronize
+|-immune|p2a: Heliolisk
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Heliolisk|Thunderbolt|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|-message|papi24 forfeited.
+|
+|win|TogetherMarc
+|l|☆papi24
+|raw|papi24's rating: 1204 → 1180(-24 for losing)
+|raw|TogetherMarc's rating: 1218 → 1242(+24 for winning)

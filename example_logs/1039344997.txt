@@ -1,0 +1,256 @@
+|ScrapeTime|2020-01-01-22:16:40
+|j|☆Pokemon User Cole
+|j|☆kirgito
+|player|p1|Pokemon User Cole|rosa|1065
+|player|p2|kirgito|steven|1058
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Dugtrio, F|
+|poke|p1|Barbaracle, M|
+|poke|p1|Shiftry, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Accelgor, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Cramorant, F|
+|poke|p2|Obstagoon, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Silvally-*|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Accelgor|Accelgor, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kirgito)
+|
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Dragapult|Flamethrower|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Torkoal|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: kirgito|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p2a: Seismitoad|Earthquake|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|21/100
+|move|p1a: Torkoal|Solar Beam||[still]
+|-prepare|p1a: Torkoal|Solar Beam|p2a: Seismitoad
+|-anim|p1a: Torkoal|Solar Beam|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Cramorant|Cramorant, F|100/100
+|-damage|p2a: Cramorant|76/100|[from] Stealth Rock
+|turn|4
+|
+|move|p2a: Cramorant|Surf|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-formechange|p2a: Cramorant|Cramorant-Gulping|
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Shiftry|Shiftry, F|100/100
+|turn|5
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Shiftry|Solar Blade||[still]
+|-prepare|p1a: Shiftry|Solar Blade|p2a: Dragapult
+|-anim|p1a: Shiftry|Solar Blade|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|36/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p2a: Dragapult|Flamethrower|p1a: Shiftry
+|-supereffective|p1a: Shiftry
+|-damage|p1a: Shiftry|0 fnt
+|faint|p1a: Shiftry
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|7
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p2a: Grimmsnarl|88/100|[from] Stealth Rock
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Grimmsnarl
+|-enditem|p1a: Dragapult|Power Herb
+|-anim|p1a: Dragapult|Phantom Force|p2a: Grimmsnarl
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: Dragapult|Acrobatics|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|36/100
+|-damage|p2a: Dragapult|23/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Dugtrio
+|-damage|p1a: Dugtrio|18/100
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Dugtrio|Sucker Punch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Silvally|Silvally-Fairy|100/100
+|-damage|p2a: Silvally|88/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Silvally
+|-damage|p2a: Silvally|44/100
+|move|p2a: Silvally|Tri Attack|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|12
+|
+|move|p1a: Dragapult|Acrobatics|p2a: Silvally
+|-damage|p2a: Silvally|10/100
+|move|p2a: Silvally|Rest|p2a: Silvally
+|-status|p2a: Silvally|slp|[from] move: Rest
+|-heal|p2a: Silvally|100/100 slp|[silent]
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Barbaracle|Barbaracle, M, shiny|100/100
+|cant|p2a: Silvally|slp
+|move|p2a: Silvally|Sleep Talk|p2a: Silvally
+|move|p2a: Silvally|Rest|p2a: Silvally|[from]Sleep Talk
+|-fail|p2a: Silvally|heal
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Barbaracle|Shell Smash|p1a: Barbaracle
+|-unboost|p1a: Barbaracle|def|1
+|-unboost|p1a: Barbaracle|spd|1
+|-boost|p1a: Barbaracle|atk|2
+|-boost|p1a: Barbaracle|spa|2
+|-boost|p1a: Barbaracle|spe|2
+|-enditem|p1a: Barbaracle|White Herb
+|-clearnegativeboost|p1a: Barbaracle|[silent]
+|cant|p2a: Silvally|slp
+|move|p2a: Silvally|Sleep Talk|p2a: Silvally
+|move|p2a: Silvally|Flamethrower|p1a: Barbaracle|[from]Sleep Talk
+|-resisted|p1a: Barbaracle
+|-damage|p1a: Barbaracle|92/100
+|-status|p1a: Barbaracle|brn
+|
+|-damage|p1a: Barbaracle|86/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Barbaracle|Poison Jab|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-crit|p2a: Silvally
+|-damage|p2a: Silvally|16/100 slp
+|-curestatus|p2a: Silvally|slp|[msg]
+|move|p2a: Silvally|Tri Attack|p1a: Barbaracle
+|-resisted|p1a: Barbaracle
+|-damage|p1a: Barbaracle|68/100 brn
+|
+|-damage|p1a: Barbaracle|62/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Barbaracle|Poison Jab|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|-damage|p1a: Barbaracle|56/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Obstagoon|Obstagoon, F|100/100
+|-damage|p2a: Obstagoon|88/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Barbaracle|Liquidation|p2a: Obstagoon
+|-damage|p2a: Obstagoon|35/100
+|move|p2a: Obstagoon|Close Combat|p1a: Barbaracle
+|-supereffective|p1a: Barbaracle
+|-damage|p1a: Barbaracle|0 fnt
+|-unboost|p2a: Obstagoon|def|1
+|-unboost|p2a: Obstagoon|spd|1
+|faint|p1a: Barbaracle
+|
+|-status|p2a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|
+|switch|p1a: Accelgor|Accelgor, F|100/100
+|turn|18
+|
+|move|p1a: Accelgor|Bug Buzz|p2a: Obstagoon
+|-supereffective|p2a: Obstagoon
+|-damage|p2a: Obstagoon|0 fnt
+|-enditem|p1a: Accelgor|Throat Spray
+|-boost|p1a: Accelgor|spa|1
+|faint|p2a: Obstagoon
+|
+|upkeep
+|
+|switch|p2a: Cramorant|Cramorant, F|76/100
+|-damage|p2a: Cramorant|51/100|[from] Stealth Rock
+|turn|19
+|-message|kirgito forfeited.
+|
+|win|Pokemon User Cole
+|l|☆kirgito

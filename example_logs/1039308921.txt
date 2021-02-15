@@ -1,0 +1,186 @@
+|ScrapeTime|2020-01-01-21:05:15
+|j|☆O Man2020
+|j|☆4G3NC Cob
+|player|p1|O Man2020|colress|1532
+|player|p2|4G3NC Cob|argenta|1530
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Roserade, F|
+|poke|p1|Bisharp, F|
+|poke|p1|Sylveon, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Gyarados, M|
+|poke|p2|Mew|
+|poke|p2|Toxtricity, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Bisharp, M|
+|poke|p2|Cloyster, F|
+|poke|p2|Kommo-o, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Roserade|Roserade, F|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by O Man2020)
+|c|☆O Man2020|Gl hf
+|
+|move|p2a: Mew|Stealth Rock|p1a: Roserade
+|-sidestart|p1: O Man2020|move: Stealth Rock
+|move|p1a: Roserade|Sleep Powder|p2a: Mew
+|-status|p2a: Mew|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p1a: Roserade|Spikes|p2a: Grimmsnarl
+|-sidestart|p2: 4G3NC Cob|Spikes
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Roserade
+|-start|p1a: Roserade|move: Taunt
+|cant|p1a: Roserade|move: Taunt|Toxic Spikes
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: 4G3NC Cob|move: Light Screen
+|move|p1a: Roserade|Leaf Storm|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|60/100
+|-unboost|p1a: Roserade|spa|2
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|-damage|p2a: Kommo-o|88/100|[from] Spikes
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|move|p2a: Kommo-o|Substitute|p2a: Kommo-o
+|-start|p2a: Kommo-o|Substitute
+|-damage|p2a: Kommo-o|63/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Mew|Mew|100/100 slp
+|-damage|p2a: Mew|88/100 slp|[from] Spikes
+|move|p1a: Dragapult|Draco Meteor|p2a: Mew
+|-damage|p2a: Mew|36/100 slp
+|-unboost|p1a: Dragapult|spa|2
+|-enditem|p2a: Mew|Red Card|[of] p1a: Dragapult
+|drag|p1a: Sylveon|Sylveon, F|100/100
+|-damage|p1a: Sylveon|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Sylveon|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|cant|p2a: Mew|slp
+|move|p1a: Sylveon|Hyper Voice|p2a: Mew
+|-damage|p2a: Mew|20/100 slp
+|
+|-heal|p1a: Sylveon|99/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Excadrill|Excadrill, F|97/100
+|-damage|p1a: Excadrill|94/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|cant|p2a: Mew|slp
+|
+|upkeep
+|turn|10
+|
+|-curestatus|p2a: Mew|slp|[msg]
+|move|p2a: Mew|Self-Destruct|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|59/100
+|faint|p2a: Mew
+|move|p1a: Excadrill|Rapid Spin|p2: Mew|[notarget]
+|-fail|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|60/100
+|-damage|p2a: Grimmsnarl|48/100|[from] Spikes
+|turn|11
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: 4G3NC Cob|Reflect
+|move|p1a: Excadrill|Rapid Spin|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|34/100
+|-sideend|p1: O Man2020|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|
+|-sideend|p2: 4G3NC Cob|move: Light Screen
+|upkeep
+|turn|12
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Excadrill
+|-start|p1a: Excadrill|move: Taunt
+|cant|p1a: Excadrill|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: 4G3NC Cob|move: Light Screen
+|move|p1a: Excadrill|Rapid Spin|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|22/100
+|-boost|p1a: Excadrill|spe|1
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|9/100
+|-boost|p1a: Excadrill|spe|1
+|move|p2a: Grimmsnarl|Play Rough|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|23/100
+|-enditem|p1a: Excadrill|Figy Berry|[eat]
+|-heal|p1a: Excadrill|56/100|[from] item: Figy Berry
+|
+|-end|p1a: Excadrill|move: Taunt
+|upkeep
+|turn|15
+|
+|move|p1a: Excadrill|Stealth Rock|p2a: Grimmsnarl
+|-sidestart|p2: 4G3NC Cob|move: Stealth Rock
+|move|p2a: Grimmsnarl|Play Rough|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|19/100
+|
+|upkeep
+|turn|16
+|-message|4G3NC Cob forfeited.
+|
+|win|O Man2020
+|l|☆4G3NC Cob
+|raw|O Man2020's rating: 1532 → 1551(+19 for winning)
+|raw|4G3NC Cob's rating: 1512 → 1493(-19 for losing)

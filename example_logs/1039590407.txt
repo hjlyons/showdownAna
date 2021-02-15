@@ -1,0 +1,501 @@
+|ScrapeTime|2020-01-02-10:15:36
+|j|☆L-Ghost
+|j|☆simondl995
+|player|p1|L-Ghost|2|1587
+|player|p2|simondl995|129|1548
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Clefable, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Ditto|
+|poke|p1|Gastrodon-East, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Mew|
+|poke|p2|Aegislash, M|
+|poke|p2|Hawlucha, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Bisharp, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Régé-PP|Ditto|100/100
+|switch|p2a: Mew|Mew|100/100
+|-transform|p1a: Régé-PP|p2a: Mew|[from] ability: Imposter
+|turn|1
+|
+|move|p1a: Régé-PP|Taunt|p2a: Mew
+|-start|p2a: Mew|move: Taunt
+|cant|p2a: Mew|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Régé-pv|Toxapex, M|100/100
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Régé-pv
+|-damage|p1a: Régé-pv|48/100
+|move|p1a: Régé-pv|Toxic|p2a: Hydreigon
+|-status|p2a: Hydreigon|tox
+|
+|-heal|p1a: Régé-pv|54/100|[from] item: Black Sludge
+|-damage|p2a: Hydreigon|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|switch|p1a: Soin|Clefable, F, shiny|100/100
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Corviknight|Corviknight, F, shiny|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Bisharp|Iron Head|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|83/100
+|-damage|p2a: Bisharp|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Corviknight|90/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Mew|Mew|100/100
+|move|p1a: Corviknight|Body Press|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|89/100
+|
+|-heal|p1a: Corviknight|96/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Mew|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: L-Ghost|move: Stealth Rock
+|move|p1a: Corviknight|Drill Peck|p2a: Mew
+|-damage|p2a: Mew|69/100
+|
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Mew|Spikes|p1a: Corviknight
+|-sidestart|p1: L-Ghost|Spikes
+|move|p1a: Corviknight|Drill Peck|p2a: Mew
+|-damage|p2a: Mew|49/100
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Mew|Taunt|p1a: Corviknight
+|-start|p1a: Corviknight|move: Taunt
+|cant|p1a: Corviknight|move: Taunt|Defog
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Hydreigon|Hydreigon, M|94/100 tox
+|move|p1a: Corviknight|Drill Peck|p2a: Hydreigon
+|-damage|p2a: Hydreigon|68/100 tox
+|
+|-damage|p2a: Hydreigon|61/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p1a: Soin|Clefable, F, shiny|100/100
+|move|p2a: Hydreigon|Fire Blast|p1a: Soin|[miss]
+|-miss|p2a: Hydreigon|p1a: Soin
+|
+|-damage|p2a: Hydreigon|49/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p2a: Mew|Mew|49/100
+|move|p1a: Soin|Moonblast|p2a: Mew
+|-damage|p2a: Mew|22/100
+|-enditem|p2a: Mew|Salac Berry|[eat]
+|-boost|p2a: Mew|spe|1
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Mew|Spikes|p1a: Soin
+|-sidestart|p1: L-Ghost|Spikes
+|move|p1a: Soin|Moonblast|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, F|91/100
+|turn|14
+|
+|switch|p2a: Hydreigon|Hydreigon, M|49/100 tox
+|switch|p1a: Corviknight|Corviknight, F, shiny|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|
+|-heal|p1a: Corviknight|94/100|[from] item: Leftovers
+|-damage|p2a: Hydreigon|43/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p1a: Soin|Clefable, F, shiny|100/100
+|move|p2a: Hydreigon|Fire Blast|p1a: Soin
+|-damage|p1a: Soin|61/100
+|
+|-heal|p1a: Soin|67/100|[from] item: Leftovers
+|-damage|p2a: Hydreigon|31/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|-item|p2a: Aegislash|Air Balloon
+|move|p1a: Soin|Moonlight|p1a: Soin
+|-heal|p1a: Soin|100/100
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Régé-pv|Toxapex, M|88/100
+|-damage|p1a: Régé-pv|75/100|[from] Stealth Rock
+|-damage|p1a: Régé-pv|59/100|[from] Spikes
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|
+|-heal|p1a: Régé-pv|65/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Claw|p1a: Régé-pv
+|-damage|p1a: Régé-pv|18/100
+|move|p1a: Régé-pv|Haze|p1a: Régé-pv
+|-clearallboost
+|
+|-heal|p1a: Régé-pv|25/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p2a: Aegislash|Shadow Claw|p1a: Régé-pv
+|-damage|p1a: Régé-pv|0 fnt
+|faint|p1a: Régé-pv
+|
+|upkeep
+|
+|switch|p1a: Lavabo|Gastrodon-East, F, shiny|100/100
+|-damage|p1a: Lavabo|94/100|[from] Stealth Rock
+|-damage|p1a: Lavabo|78/100|[from] Spikes
+|turn|20
+|
+|switch|p2a: Hydreigon|Hydreigon, M|31/100 tox
+|move|p1a: Lavabo|Earth Power|p2a: Hydreigon
+|-immune|p2a: Hydreigon|[from] ability: Levitate
+|
+|-heal|p1a: Lavabo|84/100|[from] item: Leftovers
+|-damage|p2a: Hydreigon|24/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Lavabo
+|-damage|p1a: Lavabo|41/100
+|move|p1a: Lavabo|Recover|p1a: Lavabo
+|-heal|p1a: Lavabo|91/100
+|
+|-heal|p1a: Lavabo|97/100|[from] item: Leftovers
+|-damage|p2a: Hydreigon|12/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Lavabo
+|-damage|p1a: Lavabo|59/100
+|cant|p1a: Lavabo|flinch
+|
+|-heal|p1a: Lavabo|65/100|[from] item: Leftovers
+|-damage|p2a: Hydreigon|0 fnt|[from] psn
+|faint|p2a: Hydreigon
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|23
+|
+|switch|p1a: Soin|Clefable, F, shiny|100/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Soin
+|-immune|p1a: Soin
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Soin
+|move|p1a: Soin|Moonblast|p2a: Dragapult|[miss]
+|-miss|p1a: Soin|p2a: Dragapult
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Soin|[from]lockedmove
+|-damage|p1a: Soin|24/100
+|-damage|p2a: Dragapult|91/100|[from] item: Life Orb
+|move|p1a: Soin|Moonblast|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|2/100
+|
+|-heal|p1a: Soin|30/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: Soin|Moonlight|p1a: Soin
+|-heal|p1a: Soin|80/100
+|
+|-heal|p1a: Soin|86/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Soin
+|move|p1a: Soin|Moonblast|p2a: Dragapult|[miss]
+|-miss|p1a: Soin|p2a: Dragapult
+|
+|-heal|p1a: Soin|92/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Soin|[from]lockedmove
+|-damage|p1a: Soin|0 fnt
+|-damage|p2a: Dragapult|0 fnt|[from] item: Life Orb
+|faint|p1a: Soin
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|switch|p1a: Corviknight|Corviknight, F, shiny|94/100
+|-item|p2a: Aegislash|Air Balloon
+|-damage|p1a: Corviknight|82/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|turn|29
+|
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|move|p1a: Corviknight|Defog|p2a: Aegislash
+|-unboost|p2a: Aegislash|evasion|1
+|-sideend|p1: L-Ghost|Spikes|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: L-Ghost|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|
+|-heal|p1a: Corviknight|88/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p1a: Lavabo|Gastrodon-East, F, shiny|65/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Close Combat|p1a: Lavabo
+|-crit|p1a: Lavabo
+|-damage|p1a: Lavabo|0 fnt
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|faint|p1a: Lavabo
+|
+|upkeep
+|
+|switch|p1a: Régé-PP|Ditto|100/100
+|-transform|p1a: Régé-PP|p2a: Aegislash|[from] ability: Imposter
+|turn|31
+|
+|switch|p2a: Bisharp|Bisharp, F|91/100
+|move|p1a: Régé-PP|Shadow Sneak|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|62/100
+|
+|upkeep
+|turn|32
+|
+|switch|p1a: Corviknight|Corviknight, F, shiny|88/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Bisharp|Throat Chop|p1a: Corviknight
+|-damage|p1a: Corviknight|51/100
+|-start|p1a: Corviknight|Throat Chop|[silent]
+|-damage|p2a: Bisharp|52/100|[from] item: Life Orb
+|
+|-heal|p1a: Corviknight|57/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-end|p1a: Corviknight|Throat Chop|[silent]
+|upkeep
+|turn|34
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Corviknight
+|-damage|p1a: Corviknight|28/100
+|-start|p1a: Corviknight|Throat Chop|[silent]
+|-damage|p2a: Bisharp|42/100|[from] item: Life Orb
+|move|p1a: Corviknight|Body Press|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|-heal|p1a: Corviknight|34/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|turn|35
+|
+|switch|p1a: Corayon|Corsola-Galar, M|100/100
+|move|p2a: Hawlucha|Close Combat|p1a: Corayon
+|-immune|p1a: Corayon
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Hawlucha|Throat Chop|p1a: Corayon
+|-supereffective|p1a: Corayon
+|-damage|p1a: Corayon|76/100
+|-start|p1a: Corayon|Throat Chop|[silent]
+|move|p1a: Corayon|Night Shade|p2a: Hawlucha
+|-damage|p2a: Hawlucha|70/100
+|
+|upkeep
+|turn|37
+|
+|move|p2a: Hawlucha|Throat Chop|p1a: Corayon
+|-supereffective|p1a: Corayon
+|-damage|p1a: Corayon|54/100
+|move|p1a: Corayon|Night Shade|p2a: Hawlucha
+|-damage|p2a: Hawlucha|40/100
+|
+|-end|p1a: Corayon|Throat Chop|[silent]
+|upkeep
+|turn|38
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Corayon|Strength Sap|p2a: Hawlucha
+|-unboost|p2a: Hawlucha|atk|1
+|-heal|p1a: Corayon|100/100
+|
+|upkeep
+|turn|39
+|
+|move|p2a: Hawlucha|Throat Chop|p1a: Corayon
+|-supereffective|p1a: Corayon
+|-damage|p1a: Corayon|66/100
+|-start|p1a: Corayon|Throat Chop|[silent]
+|move|p1a: Corayon|Night Shade|p2a: Hawlucha
+|-damage|p2a: Hawlucha|9/100
+|
+|upkeep
+|turn|40
+|
+|move|p2a: Hawlucha|Throat Chop|p1a: Corayon
+|-supereffective|p1a: Corayon
+|-damage|p1a: Corayon|30/100
+|move|p1a: Corayon|Night Shade|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|-end|p1a: Corayon|Throat Chop|[silent]
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|-item|p2a: Aegislash|Air Balloon
+|turn|41
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Claw|p1a: Corayon
+|-supereffective|p1a: Corayon
+|-damage|p1a: Corayon|0 fnt
+|faint|p1a: Corayon
+|
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, F, shiny|34/100
+|-ability|p1a: Corviknight|Pressure
+|turn|42
+|
+|move|p2a: Aegislash|Close Combat|p1a: Corviknight
+|-damage|p1a: Corviknight|7/100
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|57/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p1a: Corviknight|63/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|44
+|
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|move|p1a: Corviknight|Drill Peck|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|63/100
+|-enditem|p2a: Aegislash|Air Balloon
+|
+|upkeep
+|turn|45
+|
+|move|p2a: Aegislash|Close Combat|p1a: Corviknight
+|-damage|p1a: Corviknight|14/100
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|move|p1a: Corviknight|Drill Peck|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|11/100
+|
+|-heal|p1a: Corviknight|20/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|move|p2a: Aegislash|Shadow Claw|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Régé-PP|Ditto|100/100
+|-transform|p1a: Régé-PP|p2a: Aegislash|[from] ability: Imposter
+|turn|47
+|
+|move|p1a: Régé-PP|Shadow Sneak|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|win|L-Ghost
+|raw|L-Ghost's rating: 1587 → 1605(+18 for winning)
+|raw|simondl995's rating: 1548 → 1531(-17 for losing)

@@ -1,0 +1,260 @@
+|ScrapeTime|2020-01-02-05:35:43
+|j|☆beergoggles
+|j|☆dripfather
+|player|p1|beergoggles|130|1297
+|player|p2|dripfather|1|1357
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pincurchin, F|
+|poke|p1|Hawlucha, M|
+|poke|p1|Cloyster, M|
+|poke|p1|Indeedee, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Excadrill, F|
+|poke|p2|Durant, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Seismitoad, M|
+|poke|p2|Aegislash, F|
+|poke|p2|Clefable, M|
+|poke|p2|Dragapult, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dripfather)
+|
+|start
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|switch|p2a: Durant|Durant, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p2a: Durant|Superpower|p1a: Excadrill|[miss]
+|-miss|p2a: Durant|p1a: Excadrill
+|move|p1a: Excadrill|Rock Tomb|p2a: Durant
+|-damage|p2a: Durant|78/100
+|-unboost|p2a: Durant|spe|1
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|-item|p2a: Aegislash|Air Balloon
+|move|p1a: Excadrill|Earthquake|p2a: Aegislash
+|-immune|p2a: Aegislash
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Excadrill|Stealth Rock|p2a: Aegislash
+|-sidestart|p2: dripfather|move: Stealth Rock
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Close Combat|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-enditem|p1a: Excadrill|Focus Sash
+|-damage|p1a: Excadrill|1/100
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Aegislash|Shadow Sneak|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|5
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Indeedee|Trick|p2a: Clefable
+|-activate|p1a: Indeedee|move: Trick|[of] p2a: Clefable
+|-item|p2a: Clefable|Choice Scarf|[from] move: Trick
+|-item|p1a: Indeedee|Life Orb|[from] move: Trick
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Indeedee|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|38/100
+|-damage|p1a: Indeedee|91/100|[from] item: Life Orb
+|move|p2a: Clefable|Moonblast|p1a: Indeedee
+|-damage|p1a: Indeedee|32/100
+|-unboost|p1a: Indeedee|spa|1
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Indeedee|Psychic|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-damage|p1a: Indeedee|22/100|[from] item: Life Orb
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|8
+|
+|move|p1a: Indeedee|Psychic|p2a: Rotom
+|-damage|p2a: Rotom|54/100
+|-damage|p1a: Indeedee|12/100|[from] item: Life Orb
+|move|p2a: Rotom|Volt Switch|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100|[from]move: Volt Switch
+|-damage|p2a: Aegislash|94/100|[from] Stealth Rock
+|-item|p2a: Aegislash|Air Balloon
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|9
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|move|p1a: Cinderace|Pyro Ball|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|66/100
+|-damage|p1a: Cinderace|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Seismitoad|72/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|10
+|
+|switch|p1a: Dustpan|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Dustpan
+|move|p2a: Seismitoad|Stealth Rock|p1a: Dustpan
+|-sidestart|p1: beergoggles|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|78/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Seismitoad|Earthquake|p1a: Dustpan
+|-supereffective|p1a: Dustpan
+|-damage|p1a: Dustpan|15/100
+|move|p1a: Dustpan|Memento|p2a: Seismitoad
+|-unboost|p2a: Seismitoad|atk|2
+|-unboost|p2a: Seismitoad|spa|2
+|faint|p1a: Dustpan
+|
+|-heal|p2a: Seismitoad|84/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Broom|Hawlucha, M|100/100
+|-damage|p1a: Broom|88/100|[from] Stealth Rock
+|-enditem|p1a: Broom|Electric Seed
+|-boost|p1a: Broom|def|1
+|turn|12
+|
+|switch|p2a: Aegislash|Aegislash, F|94/100
+|-damage|p2a: Aegislash|88/100|[from] Stealth Rock
+|-item|p2a: Aegislash|Air Balloon
+|move|p1a: Broom|Encore||[still]
+|-fail|p1a: Broom
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Broom|Swords Dance|p1a: Broom
+|-boost|p1a: Broom|atk|2
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|
+|upkeep
+|turn|14
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Broom
+|-damage|p1a: Broom|55/100
+|move|p1a: Broom|Brave Bird|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|-enditem|p2a: Aegislash|Air Balloon
+|-damage|p1a: Broom|30/100|[from] Recoil
+|faint|p2a: Aegislash
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, M|84/100
+|-damage|p2a: Seismitoad|78/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Broom|Drain Punch|p2a: Seismitoad
+|-damage|p2a: Seismitoad|31/100
+|-heal|p1a: Broom|63/100|[from] drain|[of] p2a: Seismitoad
+|move|p2a: Seismitoad|Scald|p1a: Broom
+|-damage|p1a: Broom|22/100
+|
+|-heal|p2a: Seismitoad|37/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Broom|Brave Bird|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p1a: Broom|0 fnt|[from] Recoil
+|faint|p2a: Dragapult
+|faint|p1a: Broom
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|54/100
+|switch|p1a: Cinderace|Cinderace, F|91/100
+|-damage|p1a: Cinderace|66/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Cinderace|Zen Headbutt|p2a: Rotom
+|-damage|p2a: Rotom|20/100
+|-damage|p1a: Cinderace|56/100|[from] item: Life Orb
+|move|p2a: Rotom|Volt Switch|p1a: Cinderace
+|-damage|p1a: Cinderace|17/100
+|
+|switch|p2a: Durant|Durant, F|78/100|[from]move: Volt Switch
+|-damage|p2a: Durant|66/100|[from] Stealth Rock
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Durant|First Impression|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-damage|p2a: Durant|56/100|[from] item: Life Orb
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|-damage|p1a: Cloyster|76/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Durant|Superpower|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|-unboost|p2a: Durant|atk|1
+|-unboost|p2a: Durant|def|1
+|-damage|p2a: Durant|46/100|[from] item: Life Orb
+|faint|p1a: Cloyster
+|
+|win|dripfather
+|c|☆dripfather|gg
+|raw|beergoggles's rating: 1297 → 1276(-21 for losing)
+|raw|dripfather's rating: 1357 → 1374(+17 for winning)
+|l|☆dripfather

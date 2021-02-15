@@ -1,0 +1,464 @@
+|ScrapeTime|2020-01-01-19:39:02
+|j|☆Adrianix243
+|j|☆deinthusiast
+|player|p1|Adrianix243|ingo|1067
+|player|p2|deinthusiast|benga|1070
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Dracozolt|
+|poke|p1|Clefable, M|
+|poke|p1|Pelipper, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Toxtricity, M|
+|poke|p2|Umbreon, F|
+|poke|p2|Gardevoir, M|
+|poke|p2|Dracovish|
+|poke|p2|Charizard, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Toxapex, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Adrianix243)
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Okay|Ferrothorn, M, shiny|100/100
+|turn|1
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Adrianix243|move: Light Screen
+|move|p2a: Okay|Stealth Rock|p1a: Grimmsnarl
+|-sidestart|p1: Adrianix243|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Adrianix243|Reflect
+|move|p2a: Okay|Knock Off|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|97/100
+|-enditem|p1a: Grimmsnarl|Light Clay|[from] move: Knock Off|[of] p2a: Okay
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-damage|p1a: Pelipper|75/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Okay|Leech Seed|p1a: Pelipper
+|-start|p1a: Pelipper|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Pelipper|82/100|[from] item: Leftovers
+|-damage|p1a: Pelipper|69/100|[from] Leech Seed|[of] p2a: Okay
+|upkeep
+|turn|4
+|
+|move|p1a: Pelipper|Hurricane|p2a: Okay
+|-crit|p2a: Okay
+|-damage|p2a: Okay|33/100
+|-start|p2a: Okay|confusion
+|-activate|p2a: Okay|confusion
+|move|p2a: Okay|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|59/100
+|-enditem|p1a: Pelipper|Leftovers|[from] move: Knock Off|[of] p2a: Okay
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|46/100|[from] Leech Seed|[of] p2a: Okay
+|-heal|p2a: Okay|45/100|[silent]
+|upkeep
+|turn|5
+|
+|switch|p2a: OW MY FOOT|Toxapex, M, shiny|100/100
+|move|p1a: Pelipper|Tailwind|p1a: Pelipper
+|-sidestart|p1: Adrianix243|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|34/100|[from] Leech Seed|[of] p2a: OW MY FOOT
+|upkeep
+|turn|6
+|
+|move|p1a: Pelipper|Hurricane|p2a: OW MY FOOT
+|-damage|p2a: OW MY FOOT|62/100
+|move|p2a: OW MY FOOT|Toxic|p1a: Pelipper
+|-status|p1a: Pelipper|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: OW MY FOOT|68/100|[from] item: Black Sludge
+|-damage|p1a: Pelipper|21/100 tox|[from] Leech Seed|[of] p2a: OW MY FOOT
+|-heal|p2a: OW MY FOOT|81/100|[silent]
+|-damage|p1a: Pelipper|15/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p2a: Bruhmbreon|Umbreon, F, shiny|100/100
+|move|p1a: Pelipper|Hurricane|p2a: Bruhmbreon
+|-damage|p2a: Bruhmbreon|73/100
+|
+|-weather|none
+|-heal|p2a: Bruhmbreon|79/100|[from] item: Leftovers
+|-damage|p1a: Pelipper|3/100 tox|[from] Leech Seed|[of] p2a: Bruhmbreon
+|-heal|p2a: Bruhmbreon|89/100|[silent]
+|-damage|p1a: Pelipper|0 fnt|[from] psn
+|faint|p1a: Pelipper
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|turn|8
+|
+|move|p1a: Clefable|Flamethrower|p2a: Bruhmbreon
+|-damage|p2a: Bruhmbreon|77/100
+|move|p2a: Bruhmbreon|Wish|p2a: Bruhmbreon
+|
+|-heal|p2a: Bruhmbreon|83/100|[from] item: Leftovers
+|-sideend|p1: Adrianix243|move: Light Screen
+|-sideend|p1: Adrianix243|move: Tailwind
+|upkeep
+|turn|9
+|
+|switch|p2a: Dracovish|Dracovish, shiny|100/100
+|move|p1a: Clefable|Moonblast|p2a: Dracovish
+|-supereffective|p2a: Dracovish
+|-damage|p2a: Dracovish|17/100
+|-unboost|p2a: Dracovish|spa|1
+|
+|-heal|p2a: Dracovish|78/100|[from] move: Wish|[wisher] Bruhmbreon
+|-sideend|p1: Adrianix243|Reflect
+|upkeep
+|turn|10
+|l|☆Adrianix243
+|inactive|Adrianix243 disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|deinthusiast has 120 seconds left.
+|inactive|Adrianix243 has 30 seconds to reconnect!
+|j|☆Adrianix243
+|inactive|Adrianix243 reconnected and has 105 seconds left.
+|player|p1|Adrianix243|ingo
+|
+|move|p2a: Dracovish|Ice Fang|p1a: Clefable
+|-damage|p1a: Clefable|69/100
+|move|p1a: Clefable|Moonblast|p2a: Dracovish
+|-supereffective|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|-heal|p1a: Clefable|75/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: OW MY FOOT|Toxapex, M, shiny|100/100
+|turn|11
+|l|☆Adrianix243
+|inactive|Adrianix243 disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆Adrianix243
+|inactive|Adrianix243 reconnected and has 85 seconds left.
+|player|p1|Adrianix243|ingo
+|
+|move|p1a: Clefable|Wish|p1a: Clefable
+|move|p2a: OW MY FOOT|Toxic|p1a: Clefable
+|-status|p1a: Clefable|tox
+|
+|-heal|p1a: Clefable|81/100 tox|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|deinthusiast has 120 seconds left.
+|
+|move|p1a: Clefable|Aromatherapy|p1a: Clefable
+|-activate|p1a: Clefable|move: Aromatherapy
+|-curestatus|p1a: Clefable|tox|[msg]
+|move|p2a: OW MY FOOT|Venoshock|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|59/100
+|
+|-heal|p1a: Clefable|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|13
+|inactive|deinthusiast has 120 seconds left.
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|-damage|p1a: Toxtricity|88/100|[from] Stealth Rock
+|move|p2a: OW MY FOOT|Toxic Spikes|p1a: Toxtricity
+|-sidestart|p1: Adrianix243|move: Toxic Spikes
+|
+|upkeep
+|turn|14
+|inactive|deinthusiast has 120 seconds left.
+|
+|switch|p2a: Bruhmbreon|Umbreon, F, shiny|83/100
+|move|p1a: Toxtricity|Shift Gear|p1a: Toxtricity
+|-boost|p1a: Toxtricity|spe|2
+|-boost|p1a: Toxtricity|atk|1
+|
+|-heal|p2a: Bruhmbreon|89/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Bruhmbreon
+|-damage|p2a: Bruhmbreon|58/100
+|-enditem|p1a: Toxtricity|Throat Spray
+|-boost|p1a: Toxtricity|spa|1
+|move|p2a: Bruhmbreon|Foul Play|p1a: Toxtricity
+|-damage|p1a: Toxtricity|35/100
+|
+|-heal|p2a: Bruhmbreon|64/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Adrianix243 has 90 seconds left.
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Bruhmbreon
+|-damage|p2a: Bruhmbreon|17/100
+|move|p2a: Bruhmbreon|Foul Play|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|-heal|p2a: Bruhmbreon|23/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: I hate this|Dragapult, M|100/100
+|-status|p1a: I hate this|psn
+|-damage|p1a: I hate this|88/100 psn|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Bruhmbreon|Protect|p2a: Bruhmbreon
+|-singleturn|p2a: Bruhmbreon|Protect
+|move|p1a: I hate this|U-turn|p2a: Bruhmbreon
+|-activate|p2a: Bruhmbreon|move: Protect
+|
+|-heal|p2a: Bruhmbreon|29/100|[from] item: Leftovers
+|-damage|p1a: I hate this|76/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p2a: E-Girl #69|Gardevoir, M, shiny|100/100
+|move|p1a: I hate this|Dragon Dance|p1a: I hate this
+|-boost|p1a: I hate this|atk|1
+|-boost|p1a: I hate this|spe|1
+|
+|-damage|p1a: I hate this|64/100 psn|[from] psn
+|upkeep
+|turn|19
+|
+|move|p1a: I hate this|Phantom Force||[still]
+|-prepare|p1a: I hate this|Phantom Force|p2a: E-Girl #69
+|move|p2a: E-Girl #69|Moonblast|p1a: I hate this|[miss]
+|-miss|p2a: E-Girl #69|p1a: I hate this
+|
+|-damage|p1a: I hate this|51/100 psn|[from] psn
+|upkeep
+|turn|20
+|
+|move|p1a: I hate this|Phantom Force|p2a: E-Girl #69|[from]lockedmove
+|-supereffective|p2a: E-Girl #69
+|-damage|p2a: E-Girl #69|0 fnt
+|-damage|p1a: I hate this|42/100 psn|[from] item: Life Orb
+|faint|p2a: E-Girl #69
+|
+|-damage|p1a: I hate this|29/100 psn|[from] psn
+|upkeep
+|
+|switch|p2a: Notarapper|Charizard, F|100/100
+|turn|21
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|-status|p1a: Clefable|psn
+|move|p2a: Notarapper|Dragon Tail|p1a: Clefable
+|-immune|p1a: Clefable
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Okay|Ferrothorn, M, shiny|45/100
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: OW MY FOOT|Toxapex, M, shiny|100/100
+|move|p1a: Clefable|Aromatherapy|p1a: Clefable
+|-activate|p1a: Clefable|move: Aromatherapy
+|-curestatus|p1a: Clefable|psn|[msg]
+|-curestatus|p1: I hate this|psn|[msg]
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Clefable|Moonblast|p2a: OW MY FOOT
+|-resisted|p2a: OW MY FOOT
+|-damage|p2a: OW MY FOOT|87/100
+|move|p2a: OW MY FOOT|Toxic Spikes|p1a: Clefable
+|-sidestart|p1: Adrianix243|move: Toxic Spikes
+|
+|-heal|p2a: OW MY FOOT|93/100|[from] item: Black Sludge
+|upkeep
+|turn|25
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|97/100
+|-damage|p1a: Grimmsnarl|85/100|[from] Stealth Rock
+|-status|p1a: Grimmsnarl|tox
+|move|p2a: OW MY FOOT|Toxic Spikes||[still]
+|-fail|p2a: OW MY FOOT
+|
+|-heal|p2a: OW MY FOOT|99/100|[from] item: Black Sludge
+|-damage|p1a: Grimmsnarl|79/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|switch|p2a: Okay|Ferrothorn, M, shiny|45/100
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Adrianix243|Reflect
+|
+|-damage|p1a: Grimmsnarl|66/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Adrianix243|move: Light Screen
+|move|p2a: Okay|Gyro Ball|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|26/100 tox
+|
+|-damage|p1a: Grimmsnarl|8/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|move|p1a: Grimmsnarl|Foul Play|p2a: Okay
+|-damage|p2a: Okay|27/100
+|-damage|p1a: Grimmsnarl|0 fnt|[from] ability: Iron Barbs|[of] p2a: Okay
+|faint|p1a: Grimmsnarl
+|move|p2a: Okay|Gyro Ball|p1: Grimmsnarl|[notarget]
+|-fail|p2a: Okay
+|
+|upkeep
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|-status|p1a: Dracozolt|tox
+|-damage|p1a: Dracozolt|88/100 tox|[from] Stealth Rock
+|turn|29
+|
+|switch|p2a: Bruhmbreon|Umbreon, F, shiny|29/100
+|move|p1a: Dracozolt|Low Kick|p2a: Bruhmbreon
+|-supereffective|p2a: Bruhmbreon
+|-damage|p2a: Bruhmbreon|0 fnt
+|faint|p2a: Bruhmbreon
+|
+|-damage|p1a: Dracozolt|82/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: OW MY FOOT|Toxapex, M, shiny|100/100
+|turn|30
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|-status|p1a: Clefable|tox
+|move|p2a: OW MY FOOT|Venoshock|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|80/100 tox
+|
+|-heal|p1a: Clefable|86/100 tox|[from] item: Leftovers
+|-sideend|p1: Adrianix243|Reflect
+|upkeep
+|turn|31
+|c|☆deinthusiast|wp I think this is gg for me
+|
+|switch|p2a: Notarapper|Charizard, F|100/100
+|move|p1a: Clefable|Aromatherapy|p1a: Clefable
+|-activate|p1a: Clefable|move: Aromatherapy
+|-curestatus|p1a: Clefable|tox|[msg]
+|-curestatus|p1: Dracozolt|tox|[msg]
+|
+|-heal|p1a: Clefable|92/100|[from] item: Leftovers
+|-sideend|p1: Adrianix243|move: Light Screen
+|upkeep
+|turn|32
+|c|☆Adrianix243|Keep going boi
+|inactive|Adrianix243 has 120 seconds left.
+|
+|move|p2a: Notarapper|Thunder Punch|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|58/100
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-heal|p1a: Clefable|64/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|Adrianix243 has 120 seconds left.
+|
+|switch|p1a: I hate this|Dragapult, M|29/100
+|-status|p1a: I hate this|tox
+|-damage|p1a: I hate this|17/100 tox|[from] Stealth Rock
+|move|p2a: Notarapper|Thunder Punch|p1a: I hate this
+|-resisted|p1a: I hate this
+|-damage|p1a: I hate this|3/100 tox
+|
+|-heal|p1a: I hate this|65/100 tox|[from] move: Wish|[wisher] Clefable
+|-damage|p1a: I hate this|59/100 tox|[from] psn
+|upkeep
+|turn|34
+|inactive|Adrianix243 has 120 seconds left.
+|inactive|deinthusiast has 120 seconds left.
+|
+|move|p1a: I hate this|Phantom Force||[still]
+|-prepare|p1a: I hate this|Phantom Force|p2a: Notarapper
+|move|p2a: Notarapper|Thunder Punch|p1a: I hate this|[miss]
+|-miss|p2a: Notarapper|p1a: I hate this
+|
+|-damage|p1a: I hate this|47/100 tox|[from] psn
+|upkeep
+|turn|35
+|inactive|deinthusiast has 120 seconds left.
+|inactive|Adrianix243 has 90 seconds left.
+|
+|switch|p2a: Okay|Ferrothorn, M, shiny|27/100
+|move|p1a: I hate this|Phantom Force|p2a: Okay|[from]lockedmove
+|-damage|p2a: Okay|0 fnt
+|-damage|p1a: I hate this|35/100 tox|[from] ability: Iron Barbs|[of] p2a: Okay
+|-damage|p1a: I hate this|18/100 tox|[from] item: Rocky Helmet|[of] p2a: Okay
+|-damage|p1a: I hate this|9/100 tox|[from] item: Life Orb
+|faint|p2a: Okay
+|
+|-damage|p1a: I hate this|0 fnt|[from] psn
+|faint|p1a: I hate this
+|upkeep
+|inactive|deinthusiast has 120 seconds left.
+|inactive|Adrianix243 has 90 seconds left.
+|
+|switch|p1a: Dracozolt|Dracozolt|82/100
+|switch|p2a: OW MY FOOT|Toxapex, M, shiny|100/100
+|-status|p1a: Dracozolt|tox
+|-damage|p1a: Dracozolt|69/100 tox|[from] Stealth Rock
+|turn|36
+|
+|move|p1a: Dracozolt|Bolt Beak|p2a: OW MY FOOT
+|-supereffective|p2a: OW MY FOOT
+|-damage|p2a: OW MY FOOT|0 fnt
+|faint|p2a: OW MY FOOT
+|
+|-damage|p1a: Dracozolt|63/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Notarapper|Charizard, F|100/100
+|turn|37
+|
+|move|p1a: Dracozolt|Bolt Beak|p2a: Notarapper
+|-supereffective|p2a: Notarapper
+|-damage|p2a: Notarapper|0 fnt
+|faint|p2a: Notarapper
+|
+|win|Adrianix243
+|c|☆Adrianix243|gg
+|c|☆deinthusiast|gg
+|l|☆deinthusiast
+|raw|Adrianix243's rating: 1067 → 1097(+30 for winning)
+|raw|deinthusiast's rating: 1070 → 1050(-20 for losing)

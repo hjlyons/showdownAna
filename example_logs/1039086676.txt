@@ -1,0 +1,509 @@
+|ScrapeTime|2020-01-01-10:25:03
+|j|☆Criminal girls
+|j|☆LeviXypher
+|player|p1|Criminal girls|170|1411
+|player|p2|LeviXypher|70|1357
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Seismitoad, M|
+|poke|p1|Aegislash, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Dragapult, F|
+|poke|p2|Dracozolt|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Polteageist|
+|poke|p2|Rotom-Wash|
+|poke|p2|Cinderace, F|
+|poke|p2|Dhelmise|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|1
+|
+|move|p1a: Dragapult|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Dragapult|91/100|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Dhelmise|Dhelmise|100/100
+|turn|2
+|
+|move|p1a: Dragapult|Fire Blast|p2a: Dhelmise|[miss]
+|-miss|p1a: Dragapult|p2a: Dhelmise
+|move|p2a: Dhelmise|Shadow Claw|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|turn|3
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Rotom|Overheat|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|71/100
+|-unboost|p1a: Rotom|spa|2
+|
+|-heal|p2a: Rotom|77/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Rotom|Volt Switch|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|84/100
+|
+|switch|p2a: Dhelmise|Dhelmise|100/100|[from]move: Volt Switch
+|move|p1a: Rotom|Volt Switch|p2a: Dhelmise
+|-resisted|p2a: Dhelmise
+|-damage|p2a: Dhelmise|95/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|64/100
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|79/100
+|
+|-heal|p1a: Seismitoad|86/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Dhelmise|Dhelmise|95/100
+|move|p1a: Seismitoad|Toxic|p2a: Dhelmise
+|-status|p2a: Dhelmise|tox
+|
+|-heal|p1a: Seismitoad|92/100|[from] item: Leftovers
+|-damage|p2a: Dhelmise|89/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|move|p1a: Seismitoad|Protect|p1a: Seismitoad
+|-singleturn|p1a: Seismitoad|Protect
+|move|p2a: Dhelmise|Power Whip|p1a: Seismitoad
+|-activate|p1a: Seismitoad|move: Protect
+|
+|-heal|p1a: Seismitoad|98/100|[from] item: Leftovers
+|-damage|p2a: Dhelmise|77/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Dhelmise|Shadow Claw|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|71/100
+|-damage|p2a: Dhelmise|65/100 tox|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|77/100|[from] item: Leftovers
+|-damage|p2a: Dhelmise|46/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p2a: Cinderace|Cinderace, F|64/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|26/100
+|
+|-heal|p1a: Ferrothorn|83/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Seismitoad|Seismitoad, M|98/100
+|move|p2a: Cinderace|U-turn|p1a: Seismitoad
+|-damage|p1a: Seismitoad|82/100
+|
+|switch|p2a: Dhelmise|Dhelmise|46/100 tox|[from]move: U-turn
+|
+|-heal|p1a: Seismitoad|88/100|[from] item: Leftovers
+|-damage|p2a: Dhelmise|40/100 tox|[from] psn
+|upkeep
+|turn|12
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LeviXypher)
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|83/100
+|move|p2a: Dhelmise|Power Whip|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|70/100
+|-damage|p2a: Dhelmise|28/100 tox|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|77/100|[from] item: Leftovers
+|-damage|p2a: Dhelmise|16/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p2a: Dhelmise|Shadow Claw|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|47/100
+|-damage|p2a: Dhelmise|3/100 tox|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Dhelmise
+|-sidestart|p2: LeviXypher|Spikes
+|
+|-heal|p1a: Ferrothorn|53/100|[from] item: Leftovers
+|-damage|p2a: Dhelmise|0 fnt|[from] psn
+|faint|p2a: Dhelmise
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|26/100
+|-damage|p2a: Cinderace|13/100|[from] Spikes
+|turn|14
+|inactive|Criminal girls has 120 seconds left.
+|
+|switch|p1a: Seismitoad|Seismitoad, M|88/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|55/100
+|
+|-heal|p1a: Seismitoad|61/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Rotom|Rotom-Wash|77/100
+|move|p1a: Seismitoad|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|61/100
+|
+|-heal|p2a: Rotom|67/100|[from] item: Leftovers
+|-heal|p1a: Seismitoad|67/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Seismitoad
+|-status|p1a: Seismitoad|brn
+|move|p1a: Seismitoad|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-heal|p2a: Rotom|74/100 tox|[from] item: Leftovers
+|-heal|p1a: Seismitoad|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|67/100 tox|[from] psn
+|-damage|p1a: Seismitoad|67/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Seismitoad
+|-heal|p1a: Seismitoad|92/100 brn|[from] ability: Water Absorb|[of] p2a: Rotom
+|move|p1a: Seismitoad|Stealth Rock|p2a: Rotom
+|-sidestart|p2: LeviXypher|move: Stealth Rock
+|
+|-heal|p2a: Rotom|74/100 tox|[from] item: Leftovers
+|-heal|p1a: Seismitoad|98/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|61/100 tox|[from] psn
+|-damage|p1a: Seismitoad|92/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|-damage|p2a: Polteageist|88/100|[from] Spikes
+|-damage|p2a: Polteageist|76/100|[from] Stealth Rock
+|move|p1a: Seismitoad|Scald|p2a: Polteageist
+|-damage|p2a: Polteageist|45/100
+|
+|-heal|p1a: Seismitoad|98/100 brn|[from] item: Leftovers
+|-damage|p1a: Seismitoad|92/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p2a: Polteageist|Giga Drain|p1a: Seismitoad
+|-supereffective|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|-heal|p2a: Polteageist|100/100|[from] drain|[of] p1a: Seismitoad
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|turn|20
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|30/100
+|-unboost|p1a: Aegislash|spd|1
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-enditem|p2a: Polteageist|Focus Sash
+|-damage|p2a: Polteageist|1/100
+|
+|-heal|p1a: Aegislash|36/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Polteageist|Shadow Ball|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|85/100
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|71/100
+|-unboost|p1a: Mandibuzz|spd|1
+|move|p1a: Mandibuzz|Knock Off|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|13/100
+|-damage|p2a: Cinderace|1/100|[from] Spikes
+|-damage|p2a: Cinderace|0 fnt|[from] Stealth Rock
+|faint|p2a: Cinderace
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|-damage|p2a: Dracozolt|88/100|[from] Stealth Rock
+|-damage|p2a: Dracozolt|76/100|[from] Spikes
+|turn|23
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|53/100
+|move|p2a: Dracozolt|Bolt Beak|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|10/100
+|-damage|p2a: Dracozolt|63/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|16/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Dracozolt|Bolt Beak|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Dracozolt|51/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat|84/100
+|turn|25
+|
+|move|p2a: Dracozolt|Bolt Beak|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|27/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Dracozolt
+|-status|p2a: Dracozolt|brn
+|
+|-heal|p1a: Rotom|33/100|[from] item: Leftovers
+|-damage|p2a: Dracozolt|44/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p2a: Dracozolt|Bolt Beak|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|2/100
+|move|p1a: Rotom|Volt Switch|p2a: Dracozolt
+|-heal|p2a: Dracozolt|69/100 brn|[from] ability: Volt Absorb|[of] p1a: Rotom
+|
+|-heal|p1a: Rotom|8/100|[from] item: Leftovers
+|-damage|p2a: Dracozolt|63/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p2a: Dracozolt|Bolt Beak|p1a: Rotom
+|-resisted|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-damage|p2a: Dracozolt|57/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, F|36/100
+|turn|28
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Dracozolt|Bolt Beak|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|-unboost|p2a: Dracozolt|atk|1
+|
+|-heal|p1a: Aegislash|42/100|[from] item: Leftovers
+|-damage|p2a: Dracozolt|51/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|move|p1a: Aegislash|King's Shield||[still]
+|-fail|p1a: Aegislash
+|move|p2a: Dracozolt|Bolt Beak|p1a: Aegislash
+|-damage|p1a: Aegislash|26/100
+|
+|-heal|p1a: Aegislash|32/100|[from] item: Leftovers
+|-damage|p2a: Dracozolt|44/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Dracozolt|Bolt Beak|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|-unboost|p2a: Dracozolt|atk|1
+|
+|-heal|p1a: Aegislash|38/100|[from] item: Leftovers
+|-damage|p2a: Dracozolt|38/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p2a: Dracozolt|Bolt Beak|p1a: Aegislash
+|-damage|p1a: Aegislash|17/100
+|move|p1a: Aegislash|Substitute|p1a: Aegislash
+|-fail|p1a: Aegislash|move: Substitute|[weak]
+|
+|-heal|p1a: Aegislash|23/100|[from] item: Leftovers
+|-damage|p2a: Dracozolt|32/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Dracozolt|Bolt Beak|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|-unboost|p2a: Dracozolt|atk|1
+|
+|-heal|p1a: Aegislash|30/100|[from] item: Leftovers
+|-damage|p2a: Dracozolt|26/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p2a: Dracozolt|Bolt Beak|p1a: Aegislash
+|-damage|p1a: Aegislash|13/100
+|move|p1a: Aegislash|Substitute|p1a: Aegislash
+|-fail|p1a: Aegislash|move: Substitute|[weak]
+|
+|-heal|p1a: Aegislash|20/100|[from] item: Leftovers
+|-damage|p2a: Dracozolt|20/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Dracozolt|Bolt Beak|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|-unboost|p2a: Dracozolt|atk|1
+|
+|-heal|p1a: Aegislash|26/100|[from] item: Leftovers
+|-damage|p2a: Dracozolt|13/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|move|p1a: Aegislash|King's Shield||[still]
+|-fail|p1a: Aegislash
+|move|p2a: Dracozolt|Bolt Beak|p1a: Aegislash
+|-damage|p1a: Aegislash|18/100
+|
+|-heal|p1a: Aegislash|25/100|[from] item: Leftovers
+|-damage|p2a: Dracozolt|7/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Dracozolt|Bolt Beak|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|-unboost|p2a: Dracozolt|atk|1
+|
+|-heal|p1a: Aegislash|31/100|[from] item: Leftovers
+|-damage|p2a: Dracozolt|1/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p2a: Dracozolt|Bolt Beak|p1a: Aegislash
+|-damage|p1a: Aegislash|18/100
+|move|p1a: Aegislash|Substitute|p1a: Aegislash
+|-fail|p1a: Aegislash|move: Substitute|[weak]
+|
+|-heal|p1a: Aegislash|24/100|[from] item: Leftovers
+|-damage|p2a: Dracozolt|0 fnt|[from] brn
+|faint|p2a: Dracozolt
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|61/100 tox
+|-damage|p2a: Rotom|49/100 tox|[from] Stealth Rock
+|turn|38
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Rotom|Hydro Pump|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|-heal|p2a: Rotom|55/100 tox|[from] item: Leftovers
+|-heal|p1a: Aegislash|30/100|[from] item: Leftovers
+|-damage|p2a: Rotom|49/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|71/100
+|move|p2a: Rotom|Hydro Pump|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|40/100
+|
+|-heal|p2a: Rotom|55/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|42/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|-heal|p2a: Rotom|49/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|30/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, F|30/100
+|turn|41
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Rotom|Hydro Pump|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|-heal|p2a: Rotom|36/100 tox|[from] item: Leftovers
+|-heal|p1a: Aegislash|36/100|[from] item: Leftovers
+|-damage|p2a: Rotom|11/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Rotom|Hydro Pump|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|-heal|p2a: Rotom|18/100 tox|[from] item: Leftovers
+|-heal|p1a: Aegislash|42/100|[from] item: Leftovers
+|-damage|p2a: Rotom|0 fnt|[from] psn
+|faint|p2a: Rotom
+|
+|win|Criminal girls
+|upkeep
+|raw|Criminal girls's rating: 1411 → 1428(+17 for winning)
+|raw|LeviXypher's rating: 1357 → 1340(-17 for losing)
+|l|☆LeviXypher

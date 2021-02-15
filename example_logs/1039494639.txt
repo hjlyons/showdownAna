@@ -1,0 +1,415 @@
+|ScrapeTime|2020-01-02-04:15:30
+|j|☆XLR8-Desh
+|j|☆KamenRiderDrake
+|player|p1|XLR8-Desh|cynthia|1088
+|player|p2|KamenRiderDrake|shadowtriad|1088
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Kommo-o, F|
+|poke|p1|Eiscue, F|
+|poke|p1|Mimikyu, M|
+|poke|p1|Chandelure, M|
+|poke|p1|Gyarados, F|
+|poke|p1|Alcremie, F|
+|poke|p2|Machamp, M|
+|poke|p2|Espeon, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Cramorant, M|
+|poke|p2|Tyranitar, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|switch|p2a: UZI|Espeon, M, shiny|100/100
+|turn|1
+|
+|move|p1a: Chandelure|Trick|p2a: UZI
+|-activate|p1a: Chandelure|move: Trick|[of] p2a: UZI
+|-item|p2a: UZI|Choice Scarf|[from] move: Trick
+|-item|p1a: Chandelure|Choice Scarf|[from] move: Trick
+|move|p2a: UZI|Trick Room|p2a: UZI
+|-fieldstart|move: Trick Room|[of] p2a: UZI
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: IDONTGETTIRED|Tyranitar, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: IDONTGETTIRED
+|move|p1a: Chandelure|Trick|p2a: IDONTGETTIRED
+|-activate|p1a: Chandelure|move: Trick|[of] p2a: IDONTGETTIRED
+|-item|p2a: IDONTGETTIRED|Choice Scarf|[from] move: Trick
+|-item|p1a: Chandelure|Choice Band|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Chandelure|94/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|move|p2a: IDONTGETTIRED|Crunch|p1a: Gyarados
+|-damage|p1a: Gyarados|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|38/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|move|p2a: IDONTGETTIRED|Crunch|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Alcremie|Alcremie, F|100/100
+|turn|5
+|
+|switch|p2a: HUNCHO|Cramorant, M, shiny|100/100
+|move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+|-boost|p1a: Alcremie|spa|1
+|-boost|p1a: Alcremie|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alcremie|95/100|[from] Sandstorm
+|-damage|p2a: HUNCHO|94/100|[from] Sandstorm
+|-heal|p1a: Alcremie|100/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|move|p2a: HUNCHO|Surf|p1a: Alcremie
+|-damage|p1a: Alcremie|83/100
+|-formechange|p2a: HUNCHO|Cramorant-Gulping|
+|move|p1a: Alcremie|Dazzling Gleam|p2a: HUNCHO
+|-formechange|p2a: HUNCHO|Cramorant|
+|-damage|p1a: Alcremie|59/100|[from] ability: Gulp Missile|[of] p2a: HUNCHO
+|-unboost|p1a: Alcremie|def|1
+|-damage|p2a: HUNCHO|59/100
+|
+|-weather|none
+|-heal|p1a: Alcremie|65/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: HUNCHO|Surf|p1a: Alcremie
+|-damage|p1a: Alcremie|48/100
+|-formechange|p2a: HUNCHO|Cramorant-Gulping|
+|move|p1a: Alcremie|Recover|p1a: Alcremie
+|-heal|p1a: Alcremie|98/100
+|
+|-heal|p1a: Alcremie|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: HUNCHO|Roost|p2a: HUNCHO
+|-heal|p2a: HUNCHO|100/100
+|-singleturn|p2a: HUNCHO|move: Roost
+|move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+|-boost|p1a: Alcremie|spa|1
+|-boost|p1a: Alcremie|spd|1
+|
+|upkeep
+|turn|9
+|
+|move|p2a: HUNCHO|Ice Beam|p1a: Alcremie
+|-damage|p1a: Alcremie|92/100
+|move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+|-boost|p1a: Alcremie|spa|1
+|-boost|p1a: Alcremie|spd|1
+|
+|-heal|p1a: Alcremie|98/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: HUNCHO|Surf|p1a: Alcremie
+|-damage|p1a: Alcremie|89/100
+|move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+|-boost|p1a: Alcremie|spa|1
+|-boost|p1a: Alcremie|spd|1
+|
+|-heal|p1a: Alcremie|95/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: HUNCHO|Surf|p1a: Alcremie
+|-damage|p1a: Alcremie|87/100
+|move|p1a: Alcremie|Dazzling Gleam|p2a: HUNCHO
+|-formechange|p2a: HUNCHO|Cramorant|
+|-damage|p1a: Alcremie|62/100|[from] ability: Gulp Missile|[of] p2a: HUNCHO
+|-unboost|p1a: Alcremie|def|1
+|-damage|p2a: HUNCHO|29/100
+|
+|-heal|p1a: Alcremie|68/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: HUNCHO|Surf|p1a: Alcremie
+|-crit|p1a: Alcremie
+|-damage|p1a: Alcremie|33/100
+|-formechange|p2a: HUNCHO|Cramorant-Gorging|
+|move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+|-boost|p1a: Alcremie|spa|1
+|-boost|p1a: Alcremie|spd|1
+|
+|-heal|p1a: Alcremie|39/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: HUNCHO|Roost|p2a: HUNCHO
+|-heal|p2a: HUNCHO|79/100
+|-singleturn|p2a: HUNCHO|move: Roost
+|move|p1a: Alcremie|Recover|p1a: Alcremie
+|-heal|p1a: Alcremie|89/100
+|
+|-heal|p1a: Alcremie|95/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: HUNCHO|Ice Beam|p1a: Alcremie
+|-damage|p1a: Alcremie|90/100
+|move|p1a: Alcremie|Dazzling Gleam|p2a: HUNCHO
+|-formechange|p2a: HUNCHO|Cramorant|
+|-damage|p1a: Alcremie|65/100|[from] ability: Gulp Missile|[of] p2a: HUNCHO
+|-status|p1a: Alcremie|par
+|-damage|p2a: HUNCHO|1/100
+|
+|-heal|p1a: Alcremie|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: HUNCHO|Surf|p1a: Alcremie
+|-crit|p1a: Alcremie
+|-damage|p1a: Alcremie|39/100 par
+|-formechange|p2a: HUNCHO|Cramorant-Gorging|
+|move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+|-boost|p1a: Alcremie|spa|1
+|-boost|p1a: Alcremie|spd|1
+|
+|-heal|p1a: Alcremie|45/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: HUNCHO|Roost|p2a: HUNCHO
+|-heal|p2a: HUNCHO|51/100
+|-singleturn|p2a: HUNCHO|move: Roost
+|cant|p1a: Alcremie|par
+|
+|-heal|p1a: Alcremie|51/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: HUNCHO|Roost|p2a: HUNCHO
+|-heal|p2a: HUNCHO|100/100
+|-singleturn|p2a: HUNCHO|move: Roost
+|move|p1a: Alcremie|Recover|p1a: Alcremie
+|-heal|p1a: Alcremie|100/100 par
+|
+|upkeep
+|turn|18
+|
+|move|p2a: HUNCHO|Ice Beam|p1a: Alcremie
+|-damage|p1a: Alcremie|97/100 par
+|cant|p1a: Alcremie|par
+|
+|-heal|p1a: Alcremie|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: ANOTHERONE|Machamp, M, shiny|100/100
+|cant|p1a: Alcremie|par
+|
+|upkeep
+|turn|20
+|
+|move|p2a: ANOTHERONE|Poison Jab|p1a: Alcremie
+|-supereffective|p1a: Alcremie
+|-damage|p1a: Alcremie|0 fnt
+|faint|p1a: Alcremie
+|
+|upkeep
+|
+|switch|p1a: Pikaboo|Mimikyu, M, shiny|100/100
+|turn|21
+|
+|move|p1a: Pikaboo|Swords Dance|p1a: Pikaboo
+|-boost|p1a: Pikaboo|atk|2
+|move|p2a: ANOTHERONE|Knock Off|p1a: Pikaboo
+|-activate|p1a: Pikaboo|ability: Disguise
+|-damage|p1a: Pikaboo|100/100
+|-enditem|p1a: Pikaboo|Life Orb|[from] move: Knock Off|[of] p2a: ANOTHERONE
+|detailschange|p1a: Pikaboo|Mimikyu-Busted, M, shiny
+|-damage|p1a: Pikaboo|88/100|[from] ability: Disguise|[of] p1a: Pikaboo
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: IDONTGETTIRED|Tyranitar, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: IDONTGETTIRED
+|move|p1a: Pikaboo|Play Rough|p2a: IDONTGETTIRED
+|-supereffective|p2a: IDONTGETTIRED
+|-damage|p2a: IDONTGETTIRED|0 fnt
+|faint|p2a: IDONTGETTIRED
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pikaboo|82/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: TYLER|Grimmsnarl, M, shiny|100/100
+|turn|23
+|
+|move|p2a: TYLER|Thunder Wave|p1a: Pikaboo
+|-status|p1a: Pikaboo|par
+|move|p1a: Pikaboo|Play Rough|p2a: TYLER
+|-supereffective|p2a: TYLER
+|-damage|p2a: TYLER|0 fnt
+|faint|p2a: TYLER
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pikaboo|76/100 par|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: ANOTHERONE|Machamp, M, shiny|100/100
+|turn|24
+|
+|move|p2a: ANOTHERONE|Poison Jab|p1a: Pikaboo
+|-damage|p1a: Pikaboo|26/100 par
+|move|p1a: Pikaboo|Play Rough|p2a: ANOTHERONE
+|-supereffective|p2a: ANOTHERONE
+|-damage|p2a: ANOTHERONE|0 fnt
+|faint|p2a: ANOTHERONE
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pikaboo|20/100 par|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: HUNCHO|Cramorant, M, shiny|100/100
+|turn|25
+|
+|cant|p1a: Pikaboo|par
+|move|p2a: HUNCHO|Surf|p1a: Pikaboo
+|-damage|p1a: Pikaboo|0 fnt
+|-formechange|p2a: HUNCHO|Cramorant-Gulping|
+|faint|p1a: Pikaboo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: HUNCHO|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Shaniqua|Kommo-o, F, shiny|100/100
+|turn|26
+|
+|move|p1a: Shaniqua|Taunt|p2a: HUNCHO
+|-start|p2a: HUNCHO|move: Taunt
+|move|p2a: HUNCHO|Ice Beam|p1a: Shaniqua
+|-supereffective|p1a: Shaniqua
+|-damage|p1a: Shaniqua|61/100
+|
+|-weather|none
+|upkeep
+|turn|27
+|
+|move|p1a: Shaniqua|Clangorous Soul|p1a: Shaniqua
+|-boost|p1a: Shaniqua|atk|1
+|-boost|p1a: Shaniqua|def|1
+|-boost|p1a: Shaniqua|spa|1
+|-boost|p1a: Shaniqua|spd|1
+|-boost|p1a: Shaniqua|spe|1
+|-damage|p1a: Shaniqua|28/100
+|move|p2a: HUNCHO|Surf|p1a: Shaniqua
+|-resisted|p1a: Shaniqua
+|-damage|p1a: Shaniqua|18/100
+|-enditem|p1a: Shaniqua|Figy Berry|[eat]
+|-heal|p1a: Shaniqua|51/100|[from] item: Figy Berry
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Shaniqua|Drain Punch|p2a: HUNCHO
+|-resisted|p2a: HUNCHO
+|-formechange|p2a: HUNCHO|Cramorant|
+|-damage|p1a: Shaniqua|26/100|[from] ability: Gulp Missile|[of] p2a: HUNCHO
+|-unboost|p1a: Shaniqua|def|1
+|-damage|p2a: HUNCHO|56/100
+|-heal|p1a: Shaniqua|48/100|[from] drain|[of] p2a: HUNCHO
+|-damage|p1a: Shaniqua|32/100|[from] item: Rocky Helmet|[of] p2a: HUNCHO
+|move|p2a: HUNCHO|Ice Beam|p1a: Shaniqua
+|-supereffective|p1a: Shaniqua
+|-damage|p1a: Shaniqua|3/100
+|
+|-end|p2a: HUNCHO|move: Taunt
+|upkeep
+|turn|29
+|
+|move|p1a: Shaniqua|Taunt|p2a: HUNCHO
+|-start|p2a: HUNCHO|move: Taunt
+|move|p2a: HUNCHO|Surf|p1a: Shaniqua
+|-resisted|p1a: Shaniqua
+|-damage|p1a: Shaniqua|0 fnt
+|-formechange|p2a: HUNCHO|Cramorant-Gulping|
+|faint|p1a: Shaniqua
+|
+|upkeep
+|
+|switch|p1a: Chandelure|Chandelure, M|94/100
+|turn|30
+|
+|move|p1a: Chandelure|Trick|p2a: HUNCHO
+|-activate|p1a: Chandelure|move: Trick|[of] p2a: HUNCHO
+|-item|p2a: HUNCHO|Choice Band|[from] move: Trick
+|-item|p1a: Chandelure|Rocky Helmet|[from] move: Trick
+|move|p2a: HUNCHO|Surf|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|11/100
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: HUNCHO
+|-formechange|p2a: HUNCHO|Cramorant|
+|-damage|p1a: Chandelure|0 fnt|[from] ability: Gulp Missile|[of] p2a: HUNCHO
+|-damage|p2a: HUNCHO|24/100
+|faint|p1a: Chandelure
+|move|p2a: HUNCHO|Surf|p1: Chandelure|[notarget]
+|-fail|p2a: HUNCHO
+|-formechange|p2a: HUNCHO|Cramorant-Gorging|
+|
+|-end|p2a: HUNCHO|move: Taunt
+|upkeep
+|
+|switch|p1a: Bungee Gum|Eiscue, F, shiny|100/100
+|turn|32
+|
+|move|p1a: Bungee Gum|Substitute|p1a: Bungee Gum
+|-start|p1a: Bungee Gum|Substitute
+|-damage|p1a: Bungee Gum|76/100
+|move|p2a: HUNCHO|Surf|p1a: Bungee Gum
+|-end|p1a: Bungee Gum|Substitute
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Bungee Gum|Belly Drum|p1a: Bungee Gum
+|-damage|p1a: Bungee Gum|26/100
+|-setboost|p1a: Bungee Gum|atk|6|[from] move: Belly Drum
+|move|p2a: HUNCHO|Surf|p1a: Bungee Gum
+|-damage|p1a: Bungee Gum|0 fnt
+|faint|p1a: Bungee Gum
+|
+|win|KamenRiderDrake
+|raw|XLR8-Desh's rating: 1088 → 1065(-23 for losing)
+|raw|KamenRiderDrake's rating: 1088 → 1114(+26 for winning)
+|l|☆XLR8-Desh
+|c|☆KamenRiderDrake|GG

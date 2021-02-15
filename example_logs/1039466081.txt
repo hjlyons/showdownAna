@@ -1,0 +1,226 @@
+|ScrapeTime|2020-01-02-02:55:20
+|j|☆Mdultime
+|j|☆almighty2797
+|player|p1|Mdultime|2|1135
+|player|p2|almighty2797|marlon|1115
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Ditto|
+|poke|p1|Rotom|
+|poke|p2|Haxorus, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Gyarados, M|
+|poke|p2|Drednaw, M|
+|poke|p2|Corviknight, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: AirAustral|Rotom|100/100
+|switch|p2a: Haxorus|Haxorus, F|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|1
+|-activate|p2a: Haxorus|item: Quick Claw
+|
+|move|p2a: Haxorus|Swords Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|2
+|move|p1a: AirAustral|Trick|p2a: Haxorus
+|-activate|p1a: AirAustral|move: Trick|[of] p2a: Haxorus
+|-item|p2a: Haxorus|Choice Specs|[from] move: Trick
+|-item|p1a: AirAustral|Quick Claw|[from] move: Trick
+|
+|upkeep
+|turn|2
+|
+|move|p1a: AirAustral|Shadow Ball|p2a: Haxorus
+|-damage|p2a: Haxorus|49/100
+|move|p2a: Haxorus|Earthquake|p1a: AirAustral
+|-supereffective|p1a: AirAustral
+|-damage|p1a: AirAustral|0 fnt
+|faint|p1a: AirAustral
+|
+|upkeep
+|
+|switch|p1a: Fildrong|Ditto|100/100
+|-transform|p1a: Fildrong|p2a: Haxorus|[from] ability: Imposter
+|-ability|p1a: Fildrong|Mold Breaker
+|turn|3
+|
+|move|p1a: Fildrong|Poison Jab|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|4
+|
+|switch|p1a: Bras de ferro|Ferrothorn, F|100/100
+|move|p2a: Tyranitar|Stone Edge|p1a: Bras de ferro
+|-resisted|p1a: Bras de ferro
+|-damage|p1a: Bras de ferro|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bras de ferro|88/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Tyranitar|Earthquake|p1a: Bras de ferro
+|-damage|p1a: Bras de ferro|64/100
+|move|p1a: Bras de ferro|Body Press|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bras de ferro|71/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M, shiny|100/100
+|turn|6
+|
+|move|p2a: Excadrill|Iron Head|p1a: Bras de ferro
+|-resisted|p1a: Bras de ferro
+|-damage|p1a: Bras de ferro|54/100
+|-damage|p2a: Excadrill|88/100|[from] ability: Iron Barbs|[of] p1a: Bras de ferro
+|cant|p1a: Bras de ferro|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bras de ferro|60/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Excadrill|Iron Head|p1a: Bras de ferro
+|-resisted|p1a: Bras de ferro
+|-damage|p1a: Bras de ferro|40/100
+|-damage|p2a: Excadrill|76/100|[from] ability: Iron Barbs|[of] p1a: Bras de ferro
+|move|p1a: Bras de ferro|Body Press|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bras de ferro|47/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|turn|8
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Bras de ferro
+|-damage|p1a: Bras de ferro|15/100
+|-damage|p2a: Corviknight|88/100|[from] ability: Iron Barbs|[of] p1a: Bras de ferro
+|-damage|p2a: Corviknight|77/100|[from] Recoil
+|move|p1a: Bras de ferro|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: almighty2797|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|83/100|[from] item: Leftovers
+|-heal|p1a: Bras de ferro|21/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Corviknight|Body Press|p1a: Bras de ferro
+|-supereffective|p1a: Bras de ferro
+|-damage|p1a: Bras de ferro|0 fnt
+|-damage|p2a: Corviknight|71/100|[from] ability: Iron Barbs|[of] p1a: Bras de ferro
+|faint|p1a: Bras de ferro
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|77/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Olivier Giroud|Cinderace, M|100/100
+|turn|10
+|
+|move|p1a: Olivier Giroud|Pyro Ball|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Olivier Giroud|91/100|[from] item: Life Orb
+|faint|p2a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Olivier Giroud|85/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Drednaw|Drednaw, M|100/100
+|-damage|p2a: Drednaw|88/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Olivier Giroud|High Jump Kick|p2a: Drednaw
+|-supereffective|p2a: Drednaw
+|-damage|p2a: Drednaw|0 fnt
+|-damage|p1a: Olivier Giroud|75/100|[from] item: Life Orb
+|faint|p2a: Drednaw
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, M, shiny|100/100
+|-damage|p2a: Gyarados|76/100|[from] Stealth Rock
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Olivier Giroud|atk|1
+|turn|12
+|
+|move|p1a: Olivier Giroud|U-turn|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|64/100
+|-damage|p1a: Olivier Giroud|65/100|[from] item: Life Orb
+|
+|switch|p1a: LaFéeClochette|Hatterene, F|100/100|[from]move: U-turn
+|move|p2a: Gyarados|Earthquake|p1a: LaFéeClochette
+|-crit|p1a: LaFéeClochette
+|-damage|p1a: LaFéeClochette|43/100
+|
+|-heal|p1a: LaFéeClochette|49/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Gyarados|Waterfall|p1a: LaFéeClochette
+|-damage|p1a: LaFéeClochette|0 fnt
+|faint|p1a: LaFéeClochette
+|
+|upkeep
+|
+|switch|p1a: Olivier Giroud|Cinderace, M|65/100
+|turn|14
+|
+|move|p1a: Olivier Giroud|Pyro Ball|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|17/100
+|-damage|p1a: Olivier Giroud|55/100|[from] item: Life Orb
+|move|p2a: Gyarados|Earthquake|p1a: Olivier Giroud
+|-supereffective|p1a: Olivier Giroud
+|-damage|p1a: Olivier Giroud|0 fnt
+|faint|p1a: Olivier Giroud
+|
+|upkeep
+|
+|switch|p1a: Fildrong|Ditto|100/100
+|-transform|p1a: Fildrong|p2a: Gyarados|[from] ability: Imposter
+|-ability|p1a: Fildrong|Intimidate|boost
+|-unboost|p2a: Gyarados|atk|1
+|turn|15
+|
+|move|p1a: Fildrong|Waterfall|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|win|Mdultime

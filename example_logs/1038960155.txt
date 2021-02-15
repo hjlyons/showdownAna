@@ -1,0 +1,422 @@
+|ScrapeTime|2020-01-01-02:24:50
+|j|☆MAGIXCSPR
+|j|☆SroudDuors
+|player|p1|MAGIXCSPR|2|1344
+|player|p2|SroudDuors|elesa|1367
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Sigilyph, F|
+|poke|p1|Sylveon, M|
+|poke|p1|Weavile, F|
+|poke|p1|Centiskorch, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Conkeldurr, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Aegislash, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Golisopod, F|
+|poke|p2|Sylveon, F|
+|poke|p2|Cinderace, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SroudDuors)
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Golisopod|Golisopod, F|100/100
+|turn|1
+|
+|switch|p2a: Sylveon|Sylveon, F, shiny|100/100
+|move|p1a: Dragapult|U-turn|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|90/100
+|
+|switch|p1a: Centiskorch|Centiskorch, F|100/100|[from]move: U-turn
+|
+|-heal|p2a: Sylveon|96/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Centiskorch|Fire Lash|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|82/100
+|-damage|p1a: Centiskorch|84/100|[from] item: Rocky Helmet|[of] p2a: Mandibuzz
+|-unboost|p2a: Mandibuzz|def|1
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Sylveon|Sylveon, M|100/100
+|move|p2a: Mandibuzz|Toxic|p1a: Sylveon
+|-status|p1a: Sylveon|tox
+|
+|-damage|p1a: Sylveon|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p2a: Sylveon|Sylveon, F, shiny|96/100
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|
+|-heal|p2a: Sylveon|100/100|[from] item: Leftovers
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|switch|p1a: Sylveon|Sylveon, M|94/100 tox
+|move|p2a: Sylveon|Hyper Voice|p1a: Sylveon
+|-damage|p1a: Sylveon|68/100 tox
+|
+|-heal|p1a: Sylveon|74/100 tox|[from] item: Leftovers
+|-damage|p1a: Sylveon|68/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p1a: Sylveon|74/100 tox|[from] item: Leftovers
+|-damage|p1a: Sylveon|62/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p1a: Centiskorch|Centiskorch, F|84/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Centiskorch
+|-resisted|p1a: Centiskorch
+|-damage|p1a: Centiskorch|71/100
+|
+|-heal|p1a: Centiskorch|100/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|8
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|82/100
+|move|p1a: Centiskorch|Fire Lash|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|65/100
+|-damage|p1a: Centiskorch|84/100|[from] item: Rocky Helmet|[of] p2a: Mandibuzz
+|-unboost|p2a: Mandibuzz|def|1
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Sylveon|Sylveon, M|62/100 tox
+|move|p2a: Mandibuzz|Toxic|p1a: Sylveon
+|-fail|p1a: Sylveon|tox
+|
+|-heal|p1a: Sylveon|68/100 tox|[from] item: Leftovers
+|-damage|p1a: Sylveon|62/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|68/100 tox|[from] item: Leftovers
+|-damage|p1a: Sylveon|56/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Sylveon|Hyper Voice|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|71/100
+|
+|-heal|p1a: Sylveon|100/100 tox|[from] move: Wish|[wisher] Sylveon
+|-damage|p1a: Sylveon|82/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p1a: Centiskorch|Centiskorch, F|84/100
+|move|p2a: Cinderace|Gunk Shot|p1a: Centiskorch
+|-damage|p1a: Centiskorch|38/100
+|-status|p1a: Centiskorch|psn
+|
+|-damage|p1a: Centiskorch|25/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|move|p2a: Cinderace|Gunk Shot|p1a: Centiskorch|[miss]
+|-miss|p2a: Cinderace|p1a: Centiskorch
+|move|p1a: Centiskorch|Rest|p1a: Centiskorch
+|-status|p1a: Centiskorch|slp|[from] move: Rest
+|-heal|p1a: Centiskorch|100/100 slp|[silent]
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Golisopod|Golisopod, F|100/100
+|cant|p1a: Centiskorch|slp
+|move|p1a: Centiskorch|Sleep Talk|p1a: Centiskorch
+|move|p1a: Centiskorch|Rest|p1a: Centiskorch|[from]Sleep Talk
+|-fail|p1a: Centiskorch|heal
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100 brn
+|move|p2a: Golisopod|Liquidation|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|43/100 brn
+|-damage|p2a: Golisopod|91/100|[from] item: Life Orb
+|
+|-damage|p1a: Conkeldurr|37/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p2a: Sylveon|Sylveon, F, shiny|100/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|56/100
+|-heal|p1a: Conkeldurr|59/100 brn|[from] drain|[of] p2a: Sylveon
+|
+|-heal|p2a: Sylveon|62/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|52/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p1a: Centiskorch|Centiskorch, F|100/100 slp
+|move|p2a: Sylveon|Hyper Voice|p1a: Centiskorch
+|-resisted|p1a: Centiskorch
+|-damage|p1a: Centiskorch|87/100 slp
+|
+|-heal|p2a: Sylveon|69/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|cant|p1a: Centiskorch|slp
+|move|p1a: Centiskorch|Sleep Talk|p1a: Centiskorch
+|move|p1a: Centiskorch|Rest|p1a: Centiskorch|[from]Sleep Talk
+|-fail|p1a: Centiskorch
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Mandibuzz|Taunt|p1a: Centiskorch
+|-start|p1a: Centiskorch|move: Taunt
+|-curestatus|p1a: Centiskorch|slp|[msg]
+|cant|p1a: Centiskorch|move: Taunt|Sleep Talk
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Mandibuzz|Foul Play|p1a: Centiskorch
+|-damage|p1a: Centiskorch|39/100
+|move|p1a: Centiskorch|Fire Lash|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|84/100
+|-damage|p1a: Centiskorch|22/100|[from] item: Rocky Helmet|[of] p2a: Mandibuzz
+|-unboost|p2a: Mandibuzz|def|1
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Cinderace|Cinderace, F|71/100
+|switch|p1a: Conkeldurr|Conkeldurr, M|52/100 brn
+|
+|-damage|p1a: Conkeldurr|46/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|
+|switch|p1a: Centiskorch|Centiskorch, F|22/100
+|turn|23
+|
+|move|p2a: Cinderace|Gunk Shot|p1a: Centiskorch
+|-damage|p1a: Centiskorch|0 fnt
+|faint|p1a: Centiskorch
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|24
+|
+|switch|p2a: Sylveon|Sylveon, F, shiny|69/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Sylveon
+|-damage|p2a: Sylveon|42/100
+|-unboost|p2a: Sylveon|spd|1
+|
+|-heal|p2a: Sylveon|48/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p1a: Sigilyph|Sigilyph, F|100/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Sigilyph
+|-damage|p1a: Sigilyph|37/100
+|
+|-heal|p2a: Sylveon|54/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|move|p1a: Sigilyph|Psychic|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|80/100
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Sigilyph|Shadow Ball|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|32/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Flash Cannon|p1a: Sigilyph
+|-damage|p1a: Sigilyph|0 fnt
+|faint|p1a: Sigilyph
+|
+|upkeep
+|
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|28
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|84/100
+|move|p1a: Weavile|Icicle Crash|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|28/100
+|
+|upkeep
+|turn|29
+|
+|switch|p2a: Golisopod|Golisopod, F|91/100
+|move|p1a: Weavile|Icicle Crash|p2a: Golisopod|[miss]
+|-miss|p1a: Weavile|p2a: Golisopod
+|
+|upkeep
+|turn|30
+|
+|switch|p1a: Sylveon|Sylveon, M|82/100 tox
+|move|p2a: Golisopod|First Impression|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|56/100 tox
+|-damage|p2a: Golisopod|81/100|[from] item: Life Orb
+|
+|-heal|p1a: Sylveon|62/100 tox|[from] item: Leftovers
+|-damage|p1a: Sylveon|56/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|switch|p2a: Cinderace|Cinderace, F|71/100
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|62/100 tox|[from] item: Leftovers
+|-damage|p1a: Sylveon|49/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|switch|p2a: Sylveon|Sylveon, F, shiny|54/100
+|move|p1a: Sylveon|Protect||[still]
+|-fail|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|99/100 tox|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Sylveon|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Sylveon|60/100|[from] item: Leftovers
+|-damage|p1a: Sylveon|82/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|move|p1a: Sylveon|Mystical Fire|p2a: Sylveon
+|-damage|p2a: Sylveon|50/100
+|-unboost|p2a: Sylveon|spa|1
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p1a: Sylveon|88/100 tox|[from] item: Leftovers
+|-heal|p2a: Sylveon|56/100|[from] item: Leftovers
+|-damage|p1a: Sylveon|64/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|move|p1a: Sylveon|Mystical Fire|p2a: Sylveon
+|-damage|p2a: Sylveon|47/100
+|-unboost|p2a: Sylveon|spa|1
+|move|p2a: Sylveon|Hyper Voice|p1a: Sylveon
+|-damage|p1a: Sylveon|49/100 tox
+|
+|-heal|p2a: Sylveon|97/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Sylveon|55/100 tox|[from] item: Leftovers
+|-heal|p2a: Sylveon|100/100|[from] item: Leftovers
+|-damage|p1a: Sylveon|24/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|move|p1a: Sylveon|Hyper Voice|p2a: Sylveon
+|-damage|p2a: Sylveon|81/100
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p1a: Sylveon|30/100 tox|[from] item: Leftovers
+|-heal|p2a: Sylveon|87/100|[from] item: Leftovers
+|-damage|p1a: Sylveon|0 fnt|[from] psn
+|faint|p1a: Sylveon
+|upkeep
+|
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|36
+|
+|switch|p2a: Golisopod|Golisopod, F|81/100
+|move|p1a: Weavile|Icicle Crash|p2a: Golisopod
+|-resisted|p2a: Golisopod
+|-damage|p2a: Golisopod|64/100
+|
+|-heal|p2a: Golisopod|100/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|37
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Golisopod|First Impression|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|56/100
+|-damage|p2a: Golisopod|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|38
+|
+|switch|p2a: Sylveon|Sylveon, F, shiny|87/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Sylveon
+|-damage|p2a: Sylveon|58/100
+|
+|-heal|p2a: Sylveon|64/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Sylveon
+|-damage|p2a: Sylveon|38/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Sylveon|44/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|40
+|
+|switch|p2a: Golisopod|Golisopod, F|91/100
+|move|p1a: Weavile|Icicle Crash|p2a: Golisopod
+|-resisted|p2a: Golisopod
+|-damage|p2a: Golisopod|74/100
+|
+|upkeep
+|turn|41
+|-message|MAGIXCSPR forfeited.
+|
+|win|SroudDuors
+|l|☆MAGIXCSPR
+|raw|MAGIXCSPR's rating: 1344 → 1325(-19 for losing)
+|raw|SroudDuors's rating: 1367 → 1386(+19 for winning)

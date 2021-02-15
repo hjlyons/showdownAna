@@ -1,0 +1,174 @@
+|ScrapeTime|2020-01-01-03:36:43
+|j|‽kliktuplorel
+|j|☆Cubone999
+|player|p1|kliktuplorel|102|1184
+|player|p2|Cubone999|265|1240
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Conkeldurr, M|
+|poke|p1|Hippowdon, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Toxapex, F|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Clefable, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Aegislash, F|
+|poke|p2|Cloyster, M|
+|poke|p2|Mew|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kliktuplorel)
+|
+|move|p1a: Rotom|Volt Switch|p2a: Mew
+|-damage|p2a: Mew|79/100
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100/100|[from]move: Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Mew|Whirlpool|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|88/100
+|-activate|p1a: Hippowdon|move: Whirlpool|[of] p2a: Mew
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|73/100|[from] Sandstorm
+|-heal|p2a: Mew|79/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|94/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|81/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|move|p2a: Mew|Imprison|p2a: Mew
+|-start|p2a: Mew|move: Imprison
+|move|p1a: Hippowdon|Earthquake|p2a: Mew
+|-damage|p2a: Mew|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|49/100|[from] Sandstorm
+|-heal|p2a: Mew|55/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|88/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|75/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|move|p2a: Mew|Transform|p1a: Hippowdon
+|-transform|p2a: Mew|p1a: Hippowdon
+|-endability|p2a: Mew|Synchronize|[from] move: Transform
+|cant|p1a: Hippowdon|move: Imprison|Earthquake
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|81/100|[from] item: Leftovers
+|-heal|p2a: Mew|62/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|69/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|-activate|p1a: Hippowdon|move: Struggle
+|move|p1a: Hippowdon|Struggle|p2a: Mew
+|-damage|p2a: Mew|53/100
+|-damage|p1a: Hippowdon|44/100|[from] recoil
+|move|p2a: Mew|Stealth Rock|p1a: Hippowdon
+|-sidestart|p1: kliktuplorel|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|50/100|[from] item: Leftovers
+|-heal|p2a: Mew|59/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|38/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|move|p2a: Mew|Earthquake|p1a: Hippowdon
+|-damage|p1a: Hippowdon|13/100
+|-activate|p1a: Hippowdon|move: Struggle
+|move|p1a: Hippowdon|Struggle|p2a: Mew
+|-damage|p2a: Mew|51/100
+|-damage|p1a: Hippowdon|0 fnt|[from] recoil
+|faint|p1a: Hippowdon
+|
+|-weather|none
+|-heal|p2a: Mew|57/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|turn|6
+|
+|move|p1a: Mandibuzz|Defog|p2a: Mew
+|-unboost|p2a: Mew|evasion|1
+|-sideend|p1: kliktuplorel|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Mew|Slack Off|p2a: Mew
+|-heal|p2a: Mew|100/100
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Mew
+|-damage|p2a: Mew|75/100
+|move|p2a: Mew|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: kliktuplorel|move: Stealth Rock
+|
+|-heal|p2a: Mew|81/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Mandibuzz|Defog|p2a: Mew
+|-unboost|p2a: Mew|evasion|1
+|-sideend|p1: kliktuplorel|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Mew|Whirlwind|p1a: Mandibuzz
+|drag|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|
+|-heal|p2a: Mew|87/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Mew
+|-damage|p2a: Mew|60/100
+|-unboost|p2a: Mew|spa|1
+|move|p2a: Mew|Stealth Rock|p1a: Grimmsnarl
+|-sidestart|p1: kliktuplorel|move: Stealth Rock
+|
+|-heal|p2a: Mew|66/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Mew
+|-damage|p2a: Mew|40/100
+|-unboost|p2a: Mew|spa|1
+|move|p2a: Mew|Whirlwind|p1a: Grimmsnarl
+|drag|p1a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p1a: Conkeldurr|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Mew|46/100|[from] item: Leftovers
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|11
+|inactive|kliktuplorel has 120 seconds left.
+|inactive|kliktuplorel has 90 seconds left.
+|inactive|kliktuplorel has 60 seconds left.
+|inactive|kliktuplorel has 30 seconds left.
+|inactive|kliktuplorel has 20 seconds left.
+|inactive|kliktuplorel has 15 seconds left.
+|inactive|kliktuplorel has 10 seconds left.
+|inactive|kliktuplorel has 5 seconds left.
+|-message|kliktuplorel lost due to inactivity.
+|
+|win|Cubone999
+|l|‽kliktuplorel
+|raw|kliktuplorel's rating: 1205 → 1183(-22 for losing)
+|raw|Cubone999's rating: 1240 → 1263(+23 for winning)

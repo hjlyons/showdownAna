@@ -1,0 +1,375 @@
+|ScrapeTime|2020-01-02-14:45:12
+|j|☆Jay_Jewelz
+|j|☆Planteus
+|player|p1|Jay_Jewelz|falkner|1076
+|player|p2|Planteus|colress|1076
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Rotom-Fan|
+|poke|p1|Corviknight, M|
+|poke|p1|Togekiss, F|
+|poke|p1|Hawlucha, M|
+|poke|p1|Gyarados, F|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Mew|
+|poke|p2|Cinderace, F|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Ditto|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|switch|p2a: Au revoir Cary OU|Mew|100/100
+|turn|1
+|
+|move|p2a: Au revoir Cary OU|Aura Sphere|p1a: Corviknight
+|-damage|p1a: Corviknight|67/100
+|move|p1a: Corviknight|U-turn|p2a: Au revoir Cary OU
+|-supereffective|p2a: Au revoir Cary OU
+|-damage|p2a: Au revoir Cary OU|70/100
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F, shiny|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Au revoir Cary OU|Aura Sphere|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|70/100
+|move|p1a: Mandibuzz|Knock Off|p2a: Au revoir Cary OU
+|-supereffective|p2a: Au revoir Cary OU
+|-damage|p2a: Au revoir Cary OU|22/100
+|-enditem|p2a: Au revoir Cary OU|Choice Specs|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Au revoir Cary OU|Bug Buzz|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|48/100
+|-enditem|p1a: Mandibuzz|Sitrus Berry|[eat]
+|-heal|p1a: Mandibuzz|73/100|[from] item: Sitrus Berry
+|move|p1a: Mandibuzz|Knock Off|p2a: Au revoir Cary OU
+|-supereffective|p2a: Au revoir Cary OU
+|-damage|p2a: Au revoir Cary OU|0 fnt
+|faint|p2a: Au revoir Cary OU
+|
+|upkeep
+|
+|switch|p2a: Chui trop dark|Corviknight, M|100/100
+|-ability|p2a: Chui trop dark|Unnerve|p1: Jay_Jewelz
+|turn|4
+|
+|move|p2a: Chui trop dark|Iron Head|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|51/100
+|move|p1a: Mandibuzz|Whirlwind|p2a: Chui trop dark
+|drag|p2a: Romain|Cinderace, F|100/100
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Romain|High Jump Kick|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|22/100
+|move|p1a: Mandibuzz|Toxic|p2a: Romain
+|-status|p2a: Romain|tox
+|
+|-damage|p2a: Romain|95/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p2a: Romain|High Jump Kick|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|-heal|p2a: Romain|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Romain|89/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|turn|7
+|
+|move|p2a: Romain|Taunt|p1a: Togekiss
+|-start|p1a: Togekiss|move: Taunt
+|move|p1a: Togekiss|Air Slash|p2a: Romain
+|-damage|p2a: Romain|35/100 tox
+|
+|-heal|p2a: Romain|41/100 tox|[from] item: Leftovers
+|-damage|p2a: Romain|23/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|move|p2a: Romain|U-turn|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|93/100
+|
+|switch|p2a: Chui trop dark|Corviknight, M|100/100|[from]move: U-turn
+|-ability|p2a: Chui trop dark|Unnerve|p1: Jay_Jewelz
+|move|p1a: Togekiss|Air Slash|p2a: Chui trop dark
+|-resisted|p2a: Chui trop dark
+|-damage|p2a: Chui trop dark|82/100
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Togekiss|Air Slash|p2a: Chui trop dark
+|-resisted|p2a: Chui trop dark
+|-damage|p2a: Chui trop dark|62/100
+|cant|p2a: Chui trop dark|flinch
+|
+|-end|p1a: Togekiss|move: Taunt
+|upkeep
+|turn|10
+|
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|move|p2a: Chui trop dark|Iron Head|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|17/100
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Togekiss|Air Slash|p2a: Chui trop dark
+|-resisted|p2a: Chui trop dark
+|-damage|p2a: Chui trop dark|25/100
+|cant|p2a: Chui trop dark|flinch
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Togekiss|Air Slash|p2a: Chui trop dark
+|-resisted|p2a: Chui trop dark
+|-damage|p2a: Chui trop dark|0 fnt
+|faint|p2a: Chui trop dark
+|-enditem|p1a: Togekiss|Salac Berry|[eat]
+|-boost|p1a: Togekiss|spe|1
+|
+|upkeep
+|
+|switch|p2a: Transformer|Ditto|100/100
+|-transform|p2a: Transformer|p1a: Togekiss|[from] ability: Imposter
+|turn|13
+|
+|move|p2a: Transformer|Air Slash|p1a: Togekiss|[miss]
+|-miss|p2a: Transformer|p1a: Togekiss
+|move|p1a: Togekiss|Air Slash|p2a: Transformer|[miss]
+|-miss|p1a: Togekiss|p2a: Transformer
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Transformer|Air Slash|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, F, shiny|100/100
+|turn|15
+|
+|move|p2a: Transformer|Air Slash|p1a: Gyarados
+|-damage|p1a: Gyarados|14/100
+|cant|p1a: Gyarados|flinch
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Transformer|Air Slash|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, M|67/100
+|turn|17
+|
+|move|p2a: Transformer|Air Slash|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|33/100
+|cant|p1a: Corviknight|flinch
+|
+|upkeep
+|turn|18
+|
+|-activate|p2a: Transformer|move: Struggle
+|move|p2a: Transformer|Struggle|p1a: Corviknight
+|-damage|p1a: Corviknight|30/100
+|-damage|p2a: Transformer|75/100|[from] recoil
+|move|p1a: Corviknight|Light Screen|p1a: Corviknight
+|-sidestart|p1: Jay_Jewelz|move: Light Screen
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Romain|Cinderace, F|23/100 tox
+|move|p1a: Corviknight|Reflect|p1a: Corviknight
+|-sidestart|p1: Jay_Jewelz|Reflect
+|
+|-heal|p2a: Romain|29/100 tox|[from] item: Leftovers
+|-damage|p2a: Romain|23/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p2a: Romain|Pyro Ball|p1a: Corviknight|[miss]
+|-miss|p2a: Romain|p1a: Corviknight
+|move|p1a: Corviknight|U-turn|p2a: Romain
+|-resisted|p2a: Romain
+|-damage|p2a: Romain|13/100 tox
+|
+|switch|p1a: Hawlucha|Hawlucha, M, shiny|100/100|[from]move: U-turn
+|
+|-heal|p2a: Romain|19/100 tox|[from] item: Leftovers
+|-damage|p2a: Romain|7/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|move|p2a: Romain|Taunt|p1a: Hawlucha
+|-start|p1a: Hawlucha|move: Taunt
+|cant|p1a: Hawlucha|move: Taunt|Swords Dance
+|
+|-heal|p2a: Romain|13/100 tox|[from] item: Leftovers
+|-damage|p2a: Romain|0 fnt|[from] psn
+|faint|p2a: Romain
+|upkeep
+|
+|switch|p2a: Splurtch|Seismitoad, F|100/100
+|turn|22
+|
+|move|p1a: Hawlucha|Drain Punch|p2a: Splurtch
+|-damage|p2a: Splurtch|67/100
+|move|p2a: Splurtch|Rain Dance|p2a: Splurtch
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Splurtch|73/100|[from] item: Leftovers
+|-sideend|p1: Jay_Jewelz|move: Light Screen
+|upkeep
+|turn|23
+|
+|move|p2a: Splurtch|Liquidation|p1a: Hawlucha
+|-damage|p1a: Hawlucha|55/100
+|move|p1a: Hawlucha|Brave Bird|p2a: Splurtch
+|-damage|p2a: Splurtch|13/100
+|-damage|p1a: Hawlucha|27/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Splurtch|19/100|[from] item: Leftovers
+|-end|p1a: Hawlucha|move: Taunt
+|-sideend|p1: Jay_Jewelz|Reflect
+|upkeep
+|turn|24
+|
+|move|p2a: Splurtch|Liquidation|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Splurtch|25/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|turn|25
+|
+|move|p1a: Rotom|Protect|p1a: Rotom
+|-singleturn|p1a: Rotom|Protect
+|move|p2a: Splurtch|Liquidation|p1a: Rotom
+|-activate|p1a: Rotom|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Splurtch|31/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Splurtch|Liquidation|p1a: Rotom
+|-damage|p1a: Rotom|25/100
+|move|p1a: Rotom|Shadow Ball|p2a: Splurtch
+|-damage|p2a: Splurtch|4/100
+|
+|-weather|none
+|-heal|p2a: Splurtch|10/100|[from] item: Leftovers
+|-heal|p1a: Rotom|32/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Rotom|Protect|p1a: Rotom
+|-singleturn|p1a: Rotom|Protect
+|move|p2a: Splurtch|Liquidation|p1a: Rotom
+|-activate|p1a: Rotom|move: Protect
+|
+|-heal|p1a: Rotom|38/100|[from] item: Leftovers
+|-heal|p2a: Splurtch|16/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Rotom|Shadow Ball|p2a: Splurtch
+|-damage|p2a: Splurtch|0 fnt
+|faint|p2a: Splurtch
+|
+|-heal|p1a: Rotom|44/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Transformer|Ditto|75/100
+|-transform|p2a: Transformer|p1a: Rotom|[from] ability: Imposter
+|turn|29
+|
+|move|p1a: Rotom|Protect|p1a: Rotom
+|-singleturn|p1a: Rotom|Protect
+|move|p2a: Transformer|Thunderbolt|p1a: Rotom
+|-activate|p1a: Rotom|move: Protect
+|
+|-heal|p1a: Rotom|50/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Transformer|Thunderbolt|p1a: Rotom
+|-damage|p1a: Rotom|8/100
+|move|p1a: Rotom|Thunderbolt|p2a: Transformer
+|-damage|p2a: Transformer|45/100
+|
+|-heal|p1a: Rotom|14/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Rotom|Protect|p1a: Rotom
+|-singleturn|p1a: Rotom|Protect
+|move|p2a: Transformer|Thunderbolt|p1a: Rotom
+|-activate|p1a: Rotom|move: Protect
+|
+|-heal|p1a: Rotom|20/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Rotom|Protect||[still]
+|-fail|p1a: Rotom
+|move|p2a: Transformer|Thunderbolt|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, M|30/100
+|turn|33
+|
+|move|p2a: Transformer|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-enditem|p1a: Corviknight|Wacan Berry|[eat]
+|-enditem|p1a: Corviknight|Wacan Berry|[weaken]
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|win|Planteus
+|raw|Jay_Jewelz's rating: 1076 → 1055(-21 for losing)
+|raw|Planteus's rating: 1076 → 1105(+29 for winning)
+|l|☆Jay_Jewelz

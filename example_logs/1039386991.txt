@@ -1,0 +1,265 @@
+|ScrapeTime|2020-01-01-23:46:43
+|j|☆Gen8=Big Trash
+|j|☆beeoi
+|player|p1|Gen8=Big Trash|168|1518
+|player|p2|beeoi|artist|1574
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Mamoswine, M|
+|poke|p1|Ditto|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Ferrothorn, M|
+|poke|p2|Shuckle, F|
+|poke|p2|Obstagoon, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Mimikyu, F|
+|poke|p2|Charizard, F|
+|poke|p2|Toxtricity, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gen8=Big Trash)
+|
+|start
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|switch|p2a: FEBuilder Debugger|Shuckle, F|100/100
+|turn|1
+|
+|move|p1a: Mandibuzz|Taunt|p2a: FEBuilder Debugger
+|-start|p2a: FEBuilder Debugger|move: Taunt
+|-enditem|p2a: FEBuilder Debugger|Mental Herb
+|-end|p2a: FEBuilder Debugger|move: Taunt
+|move|p2a: FEBuilder Debugger|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: Gen8=Big Trash|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Fix Body Press|Obstagoon, M|100/100
+|move|p1a: Mandibuzz|Taunt|p2a: Fix Body Press
+|-start|p2a: Fix Body Press|move: Taunt
+|
+|-status|p2a: Fix Body Press|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|move|p2a: Fix Body Press|Knock Off|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|77/100
+|-enditem|p1a: Mandibuzz|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Fix Body Press
+|move|p1a: Mandibuzz|Defog|p2a: Fix Body Press
+|-unboost|p2a: Fix Body Press|evasion|1
+|-sideend|p1: Gen8=Big Trash|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|-damage|p2a: Fix Body Press|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Fix Body Press|Facade|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|-damage|p2a: Fix Body Press|88/100 brn|[from] brn
+|-end|p2a: Fix Body Press|move: Taunt
+|upkeep
+|turn|5
+|
+|switch|p2a: FEBuilder Debugger|Shuckle, F|100/100
+|move|p1a: Dragapult|Draco Meteor|p2a: FEBuilder Debugger
+|-damage|p2a: FEBuilder Debugger|45/100
+|-unboost|p1a: Dragapult|spa|2
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|77/100
+|move|p2a: FEBuilder Debugger|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: Gen8=Big Trash|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Mandibuzz|Defog|p2a: FEBuilder Debugger
+|-unboost|p2a: FEBuilder Debugger|evasion|1
+|-sideend|p1: Gen8=Big Trash|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: FEBuilder Debugger|Encore|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|Encore
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Fix Body Press|Obstagoon, M|88/100 brn
+|move|p1a: Mandibuzz|Defog|p2a: Fix Body Press
+|-unboost|p2a: Fix Body Press|evasion|1
+|
+|-damage|p2a: Fix Body Press|82/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p2a: Fix Body Press|Knock Off|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|62/100
+|move|p1a: Mandibuzz|Defog|p2a: Fix Body Press
+|-unboost|p2a: Fix Body Press|evasion|1
+|
+|-damage|p2a: Fix Body Press|76/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p2a: FEBuilder Debugger|Shuckle, F|45/100
+|move|p1a: Mandibuzz|Defog|p2a: FEBuilder Debugger
+|-unboost|p2a: FEBuilder Debugger|evasion|1
+|
+|-end|p1a: Mandibuzz|Encore
+|upkeep
+|turn|11
+|
+|move|p1a: Mandibuzz|Taunt|p2a: FEBuilder Debugger
+|-start|p2a: FEBuilder Debugger|move: Taunt
+|cant|p2a: FEBuilder Debugger|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Fix Body Press|Obstagoon, M|76/100 brn
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p2a: Fix Body Press|70/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p2a: BBC Label Punk|Toxtricity, M|100/100
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: FEBuilder Debugger|Shuckle, F|45/100
+|move|p1a: Ferrothorn|Spikes|p2a: FEBuilder Debugger
+|-sidestart|p2: beeoi|Spikes
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|move|p2a: FEBuilder Debugger|Final Gambit|p1a: Mamoswine
+|-damage|p1a: Mamoswine|71/100
+|faint|p2a: FEBuilder Debugger
+|
+|upkeep
+|
+|switch|p2a: Fix Body Press|Obstagoon, M|70/100 brn
+|-damage|p2a: Fix Body Press|58/100 brn|[from] Spikes
+|turn|16
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Fix Body Press|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|67/100
+|-damage|p2a: Fix Body Press|45/100 brn|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p2a: Fix Body Press
+|
+|-damage|p2a: Fix Body Press|39/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Fix Body Press|Fire Punch|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-damage|p2a: Fix Body Press|33/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Fix Body Press|Facade|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|30/100
+|
+|-damage|p2a: Fix Body Press|27/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p2a: Fix Body Press|Facade|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|-damage|p2a: Fix Body Press|21/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|20
+|
+|move|p1a: Dragapult|U-turn|p2a: Fix Body Press
+|-supereffective|p2a: Fix Body Press
+|-damage|p2a: Fix Body Press|0 fnt
+|faint|p2a: Fix Body Press
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p2a: Star of Violence|Mimikyu, F|100/100
+|-damage|p2a: Star of Violence|88/100|[from] Spikes
+|turn|21
+|
+|move|p2a: Star of Violence|Swords Dance|p2a: Star of Violence
+|-boost|p2a: Star of Violence|atk|2
+|move|p1a: Rotom|Will-O-Wisp|p2a: Star of Violence
+|-status|p2a: Star of Violence|brn
+|
+|-damage|p2a: Star of Violence|82/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p2a: Star of Violence|Swords Dance|p2a: Star of Violence
+|-boost|p2a: Star of Violence|atk|2
+|move|p1a: Rotom|Volt Switch|p2a: Star of Violence
+|-activate|p2a: Star of Violence|ability: Disguise
+|-damage|p2a: Star of Violence|82/100 brn
+|detailschange|p2a: Star of Violence|Mimikyu-Busted, F
+|-damage|p2a: Star of Violence|70/100 brn|[from] ability: Disguise|[of] p2a: Star of Violence
+|
+|switch|p1a: Ditto|Ditto|100/100|[from]move: Volt Switch
+|-transform|p1a: Ditto|p2a: Star of Violence|[from] ability: Imposter
+|
+|-damage|p2a: Star of Violence|64/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Ditto|Shadow Sneak|p2a: Star of Violence
+|-supereffective|p2a: Star of Violence
+|-damage|p2a: Star of Violence|0 fnt
+|faint|p2a: Star of Violence
+|
+|upkeep
+|
+|switch|p2a: Christmas Future|Dragapult, M|100/100
+|-damage|p2a: Christmas Future|88/100|[from] Spikes
+|turn|24
+|
+|move|p1a: Ditto|Shadow Sneak|p2a: Christmas Future
+|-supereffective|p2a: Christmas Future
+|-damage|p2a: Christmas Future|0 fnt
+|faint|p2a: Christmas Future
+|
+|upkeep
+|-message|beeoi forfeited.
+|
+|win|Gen8=Big Trash
+|l|☆beeoi
+|raw|Gen8=Big Trash's rating: 1518 → 1541(+23 for winning)
+|raw|beeoi's rating: 1574 → 1551(-23 for losing)

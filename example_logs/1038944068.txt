@@ -1,0 +1,294 @@
+|ScrapeTime|2020-01-01-01:45:09
+|j|☆tekhal
+|j|☆krizzymer
+|player|p1|tekhal|161|1000
+|player|p2|krizzymer|1|1043
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxtricity-Low-Key, M|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Eiscue, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Dracozolt|
+|poke|p2|Togekiss, M|
+|poke|p2|Mamoswine, F|
+|poke|p2|Goodra, M|
+|poke|p2|Sigilyph, M|
+|poke|p2|Aegislash, M|
+|poke|p2|Hydreigon, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Eiscue|Eiscue, M|100/100
+|switch|p2a: Goodra|Goodra, M|100/100
+|turn|1
+|
+|move|p1a: Eiscue|Agility|p1a: Eiscue
+|-boost|p1a: Eiscue|spe|2
+|move|p2a: Goodra|Fire Blast|p1a: Eiscue|[miss]
+|-miss|p2a: Goodra|p1a: Eiscue
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Eiscue|Ice Punch|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|29/100
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Eiscue|spe|1
+|move|p2a: Goodra|Fire Blast|p1a: Eiscue
+|-supereffective|p1a: Eiscue
+|-damage|p1a: Eiscue|12/100
+|
+|-heal|p1a: Eiscue|18/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|move|p1a: Eiscue|Ice Punch|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|89/100
+|-status|p2a: Aegislash|frz
+|
+|-heal|p1a: Eiscue|24/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|cant|p2a: Aegislash|frz
+|move|p1a: Eiscue|Hail|p1a: Eiscue
+|-weather|Hail
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Aegislash|83/100 frz|[from] Hail
+|-heal|p1a: Eiscue|30/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|-curestatus|p2a: Aegislash|frz|[msg]
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Eiscue
+|-activate|p1a: Eiscue|ability: Ice Face
+|-damage|p1a: Eiscue|30/100
+|detailschange|p1a: Eiscue|Eiscue-Noice, M
+|-damage|p2a: Aegislash|73/100|[from] item: Life Orb
+|move|p1a: Eiscue|Liquidation|p2a: Aegislash
+|-damage|p2a: Aegislash|28/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Aegislash|22/100|[from] Hail
+|-heal|p1a: Eiscue|37/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Eiscue|Hail||[still]
+|-fail|p1a: Eiscue
+|move|p2a: Aegislash|Iron Head|p1a: Eiscue
+|-supereffective|p1a: Eiscue
+|-damage|p1a: Eiscue|0 fnt
+|-damage|p2a: Aegislash|12/100|[from] item: Life Orb
+|faint|p1a: Eiscue
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Aegislash|6/100|[from] Hail
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, M, shiny|100/100
+|turn|7
+|
+|move|p2a: Aegislash|Shadow Sneak|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|69/100
+|-damage|p2a: Aegislash|0 fnt|[from] item: Life Orb
+|faint|p2a: Aegislash
+|move|p1a: Corsola|Substitute|p1a: Corsola
+|-start|p1a: Corsola|Substitute
+|-damage|p1a: Corsola|44/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Corsola|38/100|[from] Hail
+|upkeep
+|
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|turn|8
+|
+|move|p2a: Mamoswine|Earthquake|p1a: Corsola
+|-end|p1a: Corsola|Substitute
+|move|p1a: Corsola|Curse|p2a: Mamoswine
+|-start|p2a: Mamoswine|Curse|[of] p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|-weather|none
+|-damage|p2a: Mamoswine|76/100|[from] Curse
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|9
+|
+|move|p1a: Grimmsnarl|Trick|p2a: Mamoswine
+|-activate|p1a: Grimmsnarl|move: Trick|[of] p2a: Mamoswine
+|-item|p2a: Mamoswine|Choice Scarf|[from] move: Trick
+|-item|p1a: Grimmsnarl|Rocky Helmet|[from] move: Trick
+|move|p2a: Mamoswine|Iron Head|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|9/100
+|-damage|p2a: Mamoswine|59/100|[from] item: Rocky Helmet|[of] p1a: Grimmsnarl
+|
+|-damage|p2a: Mamoswine|34/100|[from] Curse
+|upkeep
+|turn|10
+|
+|move|p2a: Mamoswine|Iron Head|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|-damage|p2a: Mamoswine|18/100|[from] item: Rocky Helmet|[of] p1a: Grimmsnarl
+|faint|p1a: Grimmsnarl
+|
+|-damage|p2a: Mamoswine|0 fnt|[from] Curse
+|faint|p2a: Mamoswine
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, M, shiny|100/100
+|switch|p2a: Sigilyph|Sigilyph, M|100/100
+|turn|11
+|
+|move|p2a: Sigilyph|Trick|p1a: Toxtricity
+|-activate|p2a: Sigilyph|move: Trick|[of] p1a: Toxtricity
+|-item|p1a: Toxtricity|Flame Orb|[from] move: Trick
+|-item|p2a: Sigilyph|Assault Vest|[from] move: Trick
+|move|p1a: Toxtricity|Discharge|p2a: Sigilyph
+|-supereffective|p2a: Sigilyph
+|-damage|p2a: Sigilyph|52/100
+|
+|-status|p1a: Toxtricity|brn|[from] item: Flame Orb
+|upkeep
+|turn|12
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Toxtricity|Discharge|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|75/100
+|
+|-damage|p1a: Toxtricity|94/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Hydreigon|Flash Cannon|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|82/100
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Goodra|Goodra, M|29/100
+|move|p1a: Cinderace|Acrobatics|p2a: Goodra
+|-damage|p2a: Goodra|7/100
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Cinderace|spe|1
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Cinderace|U-turn|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Cinderace|spe|1
+|faint|p2a: Goodra
+|
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, M, shiny|94/100 brn|[from]move: U-turn
+|
+|-damage|p1a: Toxtricity|88/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|75/100
+|turn|16
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Toxtricity|[miss]
+|-miss|p2a: Hydreigon|p1a: Toxtricity
+|move|p1a: Toxtricity|Sludge Bomb|p2a: Hydreigon
+|-damage|p2a: Hydreigon|18/100
+|
+|-damage|p1a: Toxtricity|82/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|turn|18
+|
+|switch|p2a: Sigilyph|Sigilyph, M|52/100
+|move|p1a: Dracozolt|Breaking Swipe|p2a: Sigilyph
+|-crit|p2a: Sigilyph
+|-damage|p2a: Sigilyph|0 fnt
+|faint|p2a: Sigilyph
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|18/100
+|turn|19
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Dracozolt|[miss]
+|-miss|p2a: Hydreigon|p1a: Dracozolt
+|move|p1a: Dracozolt|Breaking Swipe|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|turn|20
+|
+|move|p2a: Togekiss|Air Slash|p1a: Dracozolt
+|-resisted|p1a: Dracozolt
+|-damage|p1a: Dracozolt|82/100
+|cant|p1a: Dracozolt|flinch
+|
+|-heal|p1a: Dracozolt|88/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Togekiss|Tri Attack|p1a: Dracozolt
+|-damage|p1a: Dracozolt|60/100
+|-status|p1a: Dracozolt|frz
+|-curestatus|p1a: Dracozolt|frz|[msg]
+|move|p1a: Dracozolt|Bolt Beak|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|23/100
+|
+|-heal|p2a: Togekiss|29/100|[from] item: Leftovers
+|-heal|p1a: Dracozolt|66/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Togekiss|Tri Attack|p1a: Dracozolt
+|-damage|p1a: Dracozolt|40/100
+|move|p1a: Dracozolt|Bolt Beak|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|win|tekhal
+|raw|tekhal's rating: 1000 → 1045(+45 for winning)
+|raw|krizzymer's rating: 1043 → 1024(-19 for losing)
+|l|☆krizzymer

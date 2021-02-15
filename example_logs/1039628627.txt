@@ -1,0 +1,377 @@
+|ScrapeTime|2020-01-02-12:45:50
+|j|☆I liek pink mons
+|j|☆Aayush04
+|player|p1|I liek pink mons|skierf|1211
+|player|p2|Aayush04|palmer|1228
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ditto|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Dugtrio, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Gastrodon, M|
+|poke|p1|Sylveon, F|
+|poke|p2|Dracozolt|
+|poke|p2|Ribombee, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Braviary, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Rotom|[from] ability: Imposter
+|move|p2a: Rotom|Hydro Pump|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|74/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Aayush04)
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Gastrodon|Scald|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|84/100
+|-status|p2a: Dragapult|brn
+|
+|-damage|p2a: Dragapult|78/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Sylveon
+|-immune|p1a: Sylveon
+|
+|-damage|p2a: Dragapult|72/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Excadrill|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: I liek pink mons|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Corviknight|Defog|p2a: Rotom
+|-unboost|p2a: Rotom|evasion|1
+|-sideend|p1: I liek pink mons|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Gastrodon
+|-immune|p1a: Gastrodon
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Dragapult|Dragapult, F|72/100 brn
+|move|p1a: Gastrodon|Scald|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|54/100 brn
+|
+|-damage|p2a: Dragapult|48/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|move|p2a: Dragapult|U-turn|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|91/100
+|
+|switch|p2a: Braviary|Braviary, M|100/100|[from]move: U-turn
+|
+|-heal|p1a: Sylveon|97/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|move|p2a: Braviary|Bulk Up|p2a: Braviary
+|-boost|p2a: Braviary|atk|1
+|-boost|p2a: Braviary|def|1
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Braviary|Brave Bird|p1a: Corsola
+|-damage|p1a: Corsola|59/100
+|-start|p2a: Braviary|Disable|Brave Bird|[from] ability: Cursed Body|[of] p1a: Corsola
+|-damage|p2a: Braviary|87/100|[from] Recoil
+|move|p1a: Corsola|Will-O-Wisp|p2a: Braviary
+|-status|p2a: Braviary|brn
+|
+|-damage|p2a: Braviary|81/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Braviary|Close Combat|p1a: Corsola
+|-immune|p1a: Corsola
+|move|p1a: Corsola|Strength Sap|p2a: Braviary
+|-unboost|p2a: Braviary|atk|1
+|-ability|p2a: Braviary|Defiant
+|-boost|p2a: Braviary|atk|2
+|-heal|p1a: Corsola|100/100
+|
+|-damage|p2a: Braviary|75/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|move|p1a: Corsola|Stealth Rock|p2a: Ribombee
+|-sidestart|p2: Aayush04|move: Stealth Rock
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Ribombee|Sticky Web|p1a: Corviknight
+|-sidestart|p1: I liek pink mons|move: Sticky Web
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|-damage|p2a: Dracozolt|88/100|[from] Stealth Rock
+|move|p1a: Corviknight|Brave Bird|p2a: Dracozolt
+|-resisted|p2a: Dracozolt
+|-damage|p2a: Dracozolt|68/100
+|-damage|p1a: Corviknight|95/100|[from] Recoil
+|
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|-activate|p1a: Gastrodon|move: Sticky Web
+|-unboost|p1a: Gastrodon|spe|1
+|move|p2a: Dracozolt|Low Kick|p1a: Gastrodon
+|-damage|p1a: Gastrodon|74/100
+|
+|-heal|p1a: Gastrodon|81/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Dragapult|Dragapult, F|48/100 brn
+|-damage|p2a: Dragapult|36/100 brn|[from] Stealth Rock
+|move|p1a: Gastrodon|Earth Power|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Gastrodon|87/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Braviary|Braviary, M|75/100 brn
+|turn|19
+|
+|move|p2a: Braviary|Bulk Up|p2a: Braviary
+|-boost|p2a: Braviary|atk|1
+|-boost|p2a: Braviary|def|1
+|move|p1a: Gastrodon|Clear Smog|p2a: Braviary
+|-damage|p2a: Braviary|62/100 brn
+|-clearboost|p2a: Braviary
+|
+|-heal|p1a: Gastrodon|93/100|[from] item: Leftovers
+|-damage|p2a: Braviary|56/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p2a: Braviary|Bulk Up|p2a: Braviary
+|-boost|p2a: Braviary|atk|1
+|-boost|p2a: Braviary|def|1
+|move|p1a: Gastrodon|Scald|p2a: Braviary
+|-damage|p2a: Braviary|26/100 brn
+|
+|-heal|p1a: Gastrodon|99/100|[from] item: Leftovers
+|-damage|p2a: Braviary|20/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p2a: Braviary|Facade|p1a: Gastrodon
+|-damage|p1a: Gastrodon|4/100
+|move|p1a: Gastrodon|Clear Smog|p2a: Braviary
+|-damage|p2a: Braviary|7/100 brn
+|-clearboost|p2a: Braviary
+|
+|-heal|p1a: Gastrodon|10/100|[from] item: Leftovers
+|-damage|p2a: Braviary|0 fnt|[from] brn
+|faint|p2a: Braviary
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|22
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Excadrill|Iron Head|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|85/100
+|
+|-heal|p1a: Corviknight|91/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Dracozolt|Dracozolt|68/100
+|-damage|p2a: Dracozolt|56/100|[from] Stealth Rock
+|move|p1a: Corviknight|Defog|p2a: Dracozolt
+|-unboost|p2a: Dracozolt|evasion|1
+|-sideend|p2: Aayush04|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: I liek pink mons|Sticky Web|[from] move: Defog|[of] p1a: Corviknight
+|
+|-heal|p1a: Corviknight|98/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|move|p2a: Dracozolt|Low Kick|p1a: Dugtrio
+|-damage|p1a: Dugtrio|16/100
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Dracozolt
+|-supereffective|p2a: Dracozolt
+|-damage|p2a: Dracozolt|0 fnt
+|faint|p2a: Dracozolt
+|
+|upkeep
+|
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|turn|26
+|
+|switch|p1a: Corviknight|Corviknight, M|98/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Ribombee|Moonblast|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|82/100
+|
+|-heal|p1a: Corviknight|89/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Ribombee|Stun Spore|p1a: Corviknight
+|-status|p1a: Corviknight|par
+|move|p1a: Corviknight|U-turn|p2a: Ribombee
+|-resisted|p2a: Ribombee
+|-damage|p2a: Ribombee|86/100
+|
+|switch|p1a: Gastrodon|Gastrodon, M|10/100|[from]move: U-turn
+|
+|-heal|p1a: Gastrodon|16/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p1a: Corviknight|Corviknight, M|89/100 par
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Ribombee|Moonblast|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|72/100 par
+|
+|-heal|p1a: Corviknight|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Ribombee|Sticky Web|p1a: Corviknight
+|-sidestart|p1: I liek pink mons|move: Sticky Web
+|move|p1a: Corviknight|Brave Bird|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|-damage|p1a: Corviknight|59/100 par|[from] Recoil
+|faint|p2a: Ribombee
+|
+|-heal|p1a: Corviknight|66/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|30
+|
+|switch|p1a: Sylveon|Sylveon, F|97/100
+|-activate|p1a: Sylveon|move: Sticky Web
+|-unboost|p1a: Sylveon|spe|1
+|move|p2a: Rotom|Trick|p1a: Sylveon
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Sylveon
+|-item|p1a: Sylveon|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Rotom|Volt Switch|p1a: Sylveon
+|-damage|p1a: Sylveon|78/100
+|
+|switch|p2a: Excadrill|Excadrill, M|97/100|[from]move: Volt Switch
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|upkeep
+|turn|32
+|
+|switch|p1a: Corviknight|Corviknight, M|66/100 par
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Excadrill|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: I liek pink mons|move: Stealth Rock
+|
+|-heal|p1a: Corviknight|100/100 par|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|33
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Corviknight|Defog|p2a: Rotom
+|-unboost|p2a: Rotom|evasion|1
+|-sideend|p1: I liek pink mons|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: I liek pink mons|Sticky Web|[from] move: Defog|[of] p1a: Corviknight
+|
+|upkeep
+|turn|34
+|
+|switch|p1a: Gastrodon|Gastrodon, M|16/100
+|move|p2a: Rotom|Volt Switch|p1a: Gastrodon
+|-immune|p1a: Gastrodon
+|
+|-heal|p1a: Gastrodon|22/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|-message|Aayush04 forfeited.
+|
+|win|I liek pink mons
+|l|☆Aayush04
+|raw|I liek pink mons's rating: 1211 → 1237(+26 for winning)
+|raw|Aayush04's rating: 1228 → 1202(-26 for losing)

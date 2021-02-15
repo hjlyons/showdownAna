@@ -1,0 +1,298 @@
+|ScrapeTime|2020-01-01-21:39:22
+|j|☆psydukk++!
+|j|☆Dhdux
+|player|p1|psydukk++!|hilbert-dueldisk|
+|player|p2|Dhdux|nanu|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Runerigus, M|
+|poke|p1|Arctozolt|
+|poke|p1|Dubwool, M|
+|poke|p1|Jellicent, M|
+|poke|p1|Conkeldurr, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Ditto|
+|poke|p2|Toxtricity, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Togekiss, F|
+|poke|p2|Dragapult, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hatterene|Hatterene, F, shiny|100/100
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|turn|1
+|
+|move|p2a: Toxtricity|Sludge Wave|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|c|☆psydukk++!|p sure thatw as a roll
+|
+|switch|p1a: Runerigus|Runerigus, M, shiny|100/100
+|turn|2
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Runerigus|Trick Room|p1a: Runerigus
+|-fieldstart|move: Trick Room|[of] p1a: Runerigus
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Runerigus|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Dhdux|move: Stealth Rock
+|move|p2a: Corviknight|Brave Bird|p1a: Runerigus
+|-damage|p1a: Runerigus|71/100
+|-activate|p2a: Corviknight|ability: Wandering Spirit|Wandering Spirit|Pressure|[of] p1a: Runerigus
+|-ability|p1a: Runerigus|Pressure
+|-damage|p2a: Corviknight|93/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Runerigus|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|5
+|c|☆psydukk++!|mislcick
+|
+|move|p1a: Runerigus|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|move|p2a: Corviknight|Roost||[still]
+|-fail|p2a: Corviknight|heal
+|
+|upkeep
+|turn|6
+|c|☆Dhdux|u good?
+|
+|move|p1a: Runerigus|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|move|p2a: Corviknight|U-turn|p1a: Runerigus
+|-resisted|p1a: Runerigus
+|-damage|p1a: Runerigus|65/100
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from]move: U-turn
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|c|☆psydukk++!|ye i tryna get tr again
+|
+|switch|p1a: Dubwool|Dubwool, M, shiny|100/100
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Dubwool
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Dubwool|[from]lockedmove
+|-immune|p1a: Dubwool
+|move|p1a: Dubwool|Swords Dance|p1a: Dubwool
+|-boost|p1a: Dubwool|atk|2
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dubwool|Last Resort|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|44/100
+|
+|-heal|p2a: Corviknight|50/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Jellicent|Jellicent, M, shiny|100/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|99/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Corviknight|Defog|p1a: Jellicent
+|-unboost|p1a: Jellicent|evasion|1
+|-sideend|p2: Dhdux|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Arctozolt|Arctozolt|100/100
+|move|p2a: Corviknight|Brave Bird|p1a: Arctozolt
+|-resisted|p1a: Arctozolt
+|-damage|p1a: Arctozolt|84/100
+|-damage|p2a: Corviknight|95/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Arctozolt|Icicle Crash|p2a: Seismitoad
+|-damage|p2a: Seismitoad|60/100
+|
+|-heal|p2a: Seismitoad|66/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Jellicent|Jellicent, M, shiny|100/100
+|move|p2a: Seismitoad|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|77/100
+|
+|-heal|p1a: Jellicent|83/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|72/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Seismitoad|[miss]
+|-miss|p1a: Jellicent|p2a: Seismitoad
+|move|p2a: Seismitoad|Stealth Rock|p1a: Jellicent
+|-sidestart|p1: psydukk++!|move: Stealth Rock
+|
+|-heal|p1a: Jellicent|89/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|78/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|16
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|-heal|p1a: Jellicent|95/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Runerigus|Runerigus, M, shiny|65/100
+|-damage|p1a: Runerigus|59/100|[from] Stealth Rock
+|move|p2a: Toxtricity|Sludge Wave|p1a: Runerigus
+|-resisted|p1a: Runerigus
+|-damage|p1a: Runerigus|47/100
+|-status|p1a: Runerigus|psn
+|
+|-damage|p1a: Runerigus|35/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Runerigus|Memento|p2a: Corviknight
+|-unboost|p2a: Corviknight|atk|2
+|-unboost|p2a: Corviknight|spa|2
+|faint|p1a: Runerigus
+|
+|upkeep
+|
+|switch|p1a: Arctozolt|Arctozolt|84/100
+|-damage|p1a: Arctozolt|59/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Arctozolt|[from] ability: Imposter
+|move|p1a: Arctozolt|Bolt Beak|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|24/100
+|
+|upkeep
+|turn|20
+|
+|switch|p2a: Seismitoad|Seismitoad, M|78/100
+|move|p1a: Arctozolt|Bolt Beak|p2a: Seismitoad
+|-immune|p2a: Seismitoad
+|
+|-heal|p2a: Seismitoad|84/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|21
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M, shiny|100/100
+|-damage|p1a: Conkeldurr|94/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Toxic|p1a: Conkeldurr
+|-status|p1a: Conkeldurr|tox
+|
+|-heal|p2a: Seismitoad|90/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|88/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|switch|p2a: Togekiss|Togekiss, F|100/100
+|move|p1a: Conkeldurr|Defog|p2a: Togekiss
+|-unboost|p2a: Togekiss|evasion|1
+|-sideend|p1: psydukk++!|Stealth Rock|[from] move: Defog|[of] p1a: Conkeldurr
+|
+|-damage|p1a: Conkeldurr|76/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|move|p2a: Togekiss|Nasty Plot|p2a: Togekiss
+|-boost|p2a: Togekiss|spa|2
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|11/100
+|
+|-heal|p2a: Togekiss|17/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|58/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|switch|p1a: Jellicent|Jellicent, M, shiny|95/100
+|move|p2a: Togekiss|Air Slash|p1a: Jellicent
+|-damage|p1a: Jellicent|43/100
+|
+|-heal|p2a: Togekiss|23/100|[from] item: Leftovers
+|-heal|p1a: Jellicent|50/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Togekiss|Air Slash|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|-heal|p2a: Togekiss|29/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Arctozolt|Arctozolt|59/100
+|turn|26
+|
+|move|p2a: Togekiss|Air Slash|p1a: Arctozolt
+|-resisted|p1a: Arctozolt
+|-damage|p1a: Arctozolt|27/100
+|move|p1a: Arctozolt|Icicle Crash|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|88/100
+|turn|27
+|-message|psydukk++! forfeited.
+|
+|win|Dhdux
+|l|☆psydukk++!

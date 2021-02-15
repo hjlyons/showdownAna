@@ -1,0 +1,395 @@
+|ScrapeTime|2020-01-01-02:44:40
+|j|☆nithnith
+|j|☆Ctrl G-Max
+|player|p1|nithnith|cynthia-gen4|1272
+|player|p2|Ctrl G-Max|188|1346
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Centiskorch, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Reuniclus, M|
+|poke|p1|Clefable, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Lucario, M|
+|poke|p2|Lapras, M|
+|poke|p2|Diggersby, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ctrl G-Max)
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Lapras|Lapras, M|100/100
+|turn|1
+|
+|move|p2a: Lapras|Whirlpool|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|96/100
+|-activate|p1a: Ferrothorn|move: Whirlpool|[of] p2a: Lapras
+|move|p1a: Ferrothorn|Leech Seed|p2a: Lapras
+|-start|p2a: Lapras|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p2a: Lapras|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|88/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|move|p2a: Lapras|Perish Song|p2a: Lapras
+|-start|p1a: Ferrothorn|perish3|[silent]
+|-start|p2a: Lapras|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Lapras
+|-sidestart|p2: Ctrl G-Max|move: Stealth Rock
+|
+|-heal|p2a: Lapras|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|-damage|p2a: Lapras|82/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|-damage|p1a: Ferrothorn|88/100|[from] move: Whirlpool|[partiallytrapped]
+|-start|p2a: Lapras|perish3
+|-start|p1a: Ferrothorn|perish3
+|upkeep
+|turn|3
+|
+|move|p2a: Lapras|Protect|p2a: Lapras
+|-singleturn|p2a: Lapras|Protect
+|move|p1a: Ferrothorn|Seed Bomb|p2a: Lapras
+|-activate|p2a: Lapras|move: Protect
+|
+|-heal|p2a: Lapras|88/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|-damage|p2a: Lapras|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|-damage|p1a: Ferrothorn|88/100|[from] move: Whirlpool|[partiallytrapped]
+|-start|p2a: Lapras|perish2
+|-start|p1a: Ferrothorn|perish2
+|upkeep
+|turn|4
+|
+|move|p2a: Lapras|Protect||[still]
+|-fail|p2a: Lapras
+|move|p1a: Ferrothorn|Seed Bomb|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|43/100
+|
+|-heal|p2a: Lapras|49/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|-damage|p2a: Lapras|37/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|-damage|p1a: Ferrothorn|88/100|[from] move: Whirlpool|[partiallytrapped]
+|-start|p2a: Lapras|perish1
+|-start|p1a: Ferrothorn|perish1
+|upkeep
+|turn|5
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Ferrothorn|Seed Bomb|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|83/100
+|
+|-heal|p1a: Ferrothorn|94/100|[from] item: Leftovers
+|-end|p1a: Ferrothorn|Whirlpool|[partiallytrapped]|[silent]
+|-start|p1a: Ferrothorn|perish0
+|upkeep
+|faint|p1a: Ferrothorn
+|
+|switch|p1a: Centiskorch|Centiskorch, F|100/100
+|turn|6
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: Ctrl G-Max|Stealth Rock|[silent]
+|-sidestart|p1: nithnith|Stealth Rock|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Centiskorch|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|43/100
+|-enditem|p2a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Centiskorch
+|
+|upkeep
+|turn|7
+|c|☆nithnith|nice gimmick
+|
+|move|p2a: Cinderace|U-turn|p1a: Centiskorch
+|-resisted|p1a: Centiskorch
+|-damage|p1a: Centiskorch|86/100
+|c|☆Ctrl G-Max|its not a gimmick. its a very viable and effective strategy. You should try it in the future
+|inactive|Ctrl G-Max has 120 seconds left.
+|
+|switch|p2a: Diggersby|Diggersby, F|100/100|[from]move: U-turn
+|move|p1a: Centiskorch|Fire Lash|p2a: Diggersby
+|-crit|p2a: Diggersby
+|-damage|p2a: Diggersby|34/100
+|-unboost|p2a: Diggersby|def|1
+|
+|upkeep
+|turn|8
+|c|☆nithnith|gimmick doesnt mean bad thing
+|c|☆Ctrl G-Max|touche
+|c|☆nithnith|its a gimmick bc if im aware of it im not gonna fall for that trap
+|inactive|nithnith has 120 seconds left.
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|-damage|p1a: Corsola|88/100|[from] Stealth Rock
+|move|p2a: Diggersby|Earthquake|p1a: Corsola
+|-damage|p1a: Corsola|44/100
+|-damage|p2a: Diggersby|24/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|c|☆Ctrl G-Max|thats the thing
+|c|☆Ctrl G-Max|it doesnt matter
+|inactive|Ctrl G-Max has 120 seconds left.
+|c|☆Ctrl G-Max|because perish song is a good move in itself
+|
+|move|p2a: Diggersby|Earthquake|p1a: Corsola
+|-damage|p1a: Corsola|1/100
+|-damage|p2a: Diggersby|14/100|[from] item: Life Orb
+|move|p1a: Corsola|Strength Sap|p2a: Diggersby
+|-unboost|p2a: Diggersby|atk|1
+|-heal|p1a: Corsola|66/100
+|
+|upkeep
+|turn|10
+|inactive|Ctrl G-Max has 120 seconds left.
+|c|☆nithnith|thank the lord
+|
+|switch|p2a: Cinderace|Cinderace, M|43/100
+|move|p1a: Corsola|Strength Sap|p2a: Cinderace
+|-unboost|p2a: Cinderace|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Corsola
+|-damage|p1a: Corsola|79/100
+|move|p1a: Corsola|Night Shade|p2a: Cinderace
+|-damage|p2a: Cinderace|10/100
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Corsola
+|-damage|p1a: Corsola|51/100
+|move|p1a: Corsola|Strength Sap|p2a: Cinderace
+|-unboost|p2a: Cinderace|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Corsola
+|-damage|p1a: Corsola|77/100
+|-start|p2a: Cinderace|Disable|Pyro Ball|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Night Shade|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|14
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Grimmsnarl|Taunt|p1a: Clefable
+|-start|p1a: Clefable|move: Taunt
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Grimmsnarl|Trick|p1a: Clefable
+|-activate|p2a: Grimmsnarl|move: Trick|[of] p1a: Clefable
+|-item|p1a: Clefable|Lagging Tail|[from] move: Trick
+|-item|p2a: Grimmsnarl|Life Orb|[from] move: Trick
+|move|p1a: Clefable|Moonblast|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|31/100
+|-unboost|p2a: Grimmsnarl|spa|1
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Clefable
+|-damage|p1a: Clefable|60/100
+|-unboost|p1a: Clefable|spa|1
+|-damage|p2a: Grimmsnarl|21/100|[from] item: Life Orb
+|move|p1a: Clefable|Flamethrower|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|7/100
+|
+|-end|p1a: Clefable|move: Taunt
+|upkeep
+|turn|17
+|
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Clefable
+|-damage|p1a: Clefable|19/100
+|-unboost|p1a: Clefable|spa|1
+|-damage|p2a: Grimmsnarl|0 fnt|[from] item: Life Orb
+|faint|p2a: Grimmsnarl
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|69/100
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|18
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|70/100|[from] Sandstorm
+|-heal|p2a: Dragapult|76/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Tyranitar
+|-damage|p1a: Tyranitar|71/100
+|-damage|p1a: Tyranitar|55/100
+|-hitcount|p1a: Tyranitar|2
+|move|p1a: Tyranitar|Ice Punch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|70/100|[from] Sandstorm
+|-heal|p2a: Dragapult|76/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Lapras|Lapras, M|37/100
+|move|p1a: Tyranitar|Ice Punch|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lapras|27/100|[from] Sandstorm
+|-heal|p2a: Lapras|33/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Lapras|Protect|p2a: Lapras
+|-singleturn|p2a: Lapras|Protect
+|move|p1a: Tyranitar|Stone Edge|p2a: Lapras
+|-activate|p2a: Lapras|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lapras|27/100|[from] Sandstorm
+|-heal|p2a: Lapras|33/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Lucario|Lucario, M|100/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Lucario|[miss]
+|-miss|p1a: Tyranitar|p2a: Lucario
+|
+|-weather|none
+|upkeep
+|turn|23
+|
+|switch|p1a: Corsola|Corsola-Galar, M|77/100
+|-damage|p1a: Corsola|65/100|[from] Stealth Rock
+|move|p2a: Lucario|Flash Cannon|p1a: Corsola
+|-damage|p1a: Corsola|26/100
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Lucario|Flash Cannon|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|upkeep
+|
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|turn|25
+|
+|move|p2a: Lucario|Flash Cannon|p1a: Reuniclus
+|-damage|p1a: Reuniclus|50/100
+|move|p1a: Reuniclus|Psychic|p2a: Lucario
+|-damage|p2a: Lucario|19/100
+|
+|-heal|p1a: Reuniclus|56/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Lucario|Flash Cannon|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, F|69/100
+|turn|27
+|
+|move|p2a: Lucario|Flash Cannon|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Centiskorch|Centiskorch, F|86/100
+|turn|28
+|
+|switch|p2a: Lapras|Lapras, M|33/100
+|move|p1a: Centiskorch|Fire Lash|p2a: Lapras
+|-damage|p2a: Lapras|14/100
+|-unboost|p2a: Lapras|def|1
+|
+|-heal|p2a: Lapras|20/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Centiskorch|Fire Lash|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|upkeep
+|
+|switch|p2a: Diggersby|Diggersby, F|14/100
+|turn|30
+|
+|move|p2a: Diggersby|Earthquake|p1a: Centiskorch
+|-damage|p1a: Centiskorch|0 fnt
+|-damage|p2a: Diggersby|4/100|[from] item: Life Orb
+|faint|p1a: Centiskorch
+|
+|upkeep
+|c|☆Ctrl G-Max|gg
+|
+|switch|p1a: Tyranitar|Tyranitar, F|55/100
+|-damage|p1a: Tyranitar|42/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|31
+|c|☆nithnith|gg
+|
+|move|p2a: Diggersby|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-damage|p2a: Diggersby|0 fnt|[from] item: Life Orb
+|faint|p1a: Tyranitar
+|faint|p2a: Diggersby
+|
+|win|Ctrl G-Max
+|l|☆nithnith
+|raw|nithnith's rating: 1272 → 1252(-20 for losing)
+|raw|Ctrl G-Max's rating: 1346 → 1362(+16 for winning)

@@ -1,0 +1,453 @@
+|ScrapeTime|2020-01-01-19:55:15
+|j|‽kliktuplorel
+|j|☆Baba-rhum
+|player|p1|kliktuplorel|102|1261
+|player|p2|Baba-rhum|winona|1290
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Conkeldurr, M|
+|poke|p1|Hippowdon, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Toxapex, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Togekiss, M|
+|poke|p2|Toxtricity, M|
+|poke|p2|Obstagoon, M|
+|poke|p2|Jellicent, M|
+|poke|p2|Kommo-o, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kliktuplorel)
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|c|☆Baba-rhum|stall in its purest form
+|
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Hippowdon|[miss]
+|-miss|p2a: Jellicent|p1a: Hippowdon
+|move|p1a: Hippowdon|Stealth Rock|p2a: Jellicent
+|-sidestart|p2: Baba-rhum|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|94/100|[from] Sandstorm
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Jellicent|Taunt|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|94/100|[from] Sandstorm
+|-damage|p1a: Grimmsnarl|94/100|[from] Sandstorm
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|-heal|p1a: Grimmsnarl|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Grimmsnarl
+|-status|p1a: Grimmsnarl|brn
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Jellicent
+|-damage|p2a: Jellicent|85/100
+|-unboost|p2a: Jellicent|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|78/100|[from] Sandstorm
+|-damage|p1a: Grimmsnarl|94/100 brn|[from] Sandstorm
+|-heal|p2a: Jellicent|85/100|[from] item: Leftovers
+|-heal|p1a: Grimmsnarl|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|89/100
+|-unboost|p2a: Ferrothorn|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Grimmsnarl|88/100 brn|[from] Sandstorm
+|-heal|p1a: Grimmsnarl|94/100 brn|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|95/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|88/100 brn|[from] brn
+|-end|p1a: Grimmsnarl|move: Taunt
+|upkeep
+|turn|5
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Toxapex
+|-start|p1a: Toxapex|move: Leech Seed
+|
+|-weather|none
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p1a: Toxapex|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|6
+|
+|move|p1a: Toxapex|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|91/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Toxapex|[miss]
+|-miss|p2a: Ferrothorn|p1a: Toxapex
+|
+|-heal|p1a: Toxapex|94/100|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|97/100|[from] item: Leftovers
+|-damage|p1a: Toxapex|82/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|7
+|
+|move|p1a: Toxapex|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|94/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Toxapex
+|-damage|p1a: Toxapex|58/100
+|
+|-heal|p1a: Toxapex|64/100|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|99/100|[from] item: Leftovers
+|-damage|p1a: Toxapex|52/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|8
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Rotom
+|-sidestart|p1: kliktuplorel|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Rotom|Overheat|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|-damage|p2a: Kommo-o|94/100|[from] Stealth Rock
+|move|p1a: Rotom|Overheat|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|66/100
+|-unboost|p1a: Rotom|spa|2
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-damage|p1a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|32/100
+|-enditem|p2a: Kommo-o|Throat Spray
+|-boost|p2a: Kommo-o|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kommo-o|26/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Kommo-o|Clanging Scales|p1a: Hippowdon
+|-damage|p1a: Hippowdon|25/100
+|-unboost|p2a: Kommo-o|def|1
+|move|p1a: Hippowdon|Whirlwind|p2a: Kommo-o
+|drag|p2a: Togekiss|Togekiss, M|100/100
+|-damage|p2a: Togekiss|76/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Togekiss|70/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|32/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Toxapex|Toxapex, F|85/100
+|-damage|p1a: Toxapex|73/100|[from] Stealth Rock
+|move|p2a: Togekiss|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Togekiss|64/100|[from] Sandstorm
+|-damage|p1a: Toxapex|19/100|[from] Sandstorm
+|-heal|p1a: Toxapex|25/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|c|☆Baba-rhum|lol
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|88/100 brn
+|-damage|p1a: Grimmsnarl|75/100 brn|[from] Stealth Rock
+|move|p2a: Togekiss|Air Slash|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|17/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Togekiss|57/100|[from] Sandstorm
+|-damage|p1a: Grimmsnarl|11/100 brn|[from] Sandstorm
+|-heal|p1a: Grimmsnarl|17/100 brn|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|11/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Togekiss|Air Slash|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, F|58/100
+|-damage|p1a: Toxapex|46/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Togekiss|Air Slash|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Rotom|Overheat|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Obstagoon|Obstagoon, M|100/100
+|-damage|p2a: Obstagoon|88/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Rotom|Overheat|p2a: Obstagoon
+|-damage|p2a: Obstagoon|57/100
+|-unboost|p1a: Rotom|spa|2
+|move|p2a: Obstagoon|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|34/100
+|-enditem|p1a: Rotom|Choice Scarf|[from] move: Knock Off|[of] p2a: Obstagoon
+|
+|-status|p2a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|19
+|
+|switch|p1a: Hippowdon|Hippowdon, F|32/100
+|-damage|p1a: Hippowdon|25/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Obstagoon|Facade|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Obstagoon|51/100 brn|[from] Sandstorm
+|-damage|p2a: Obstagoon|45/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p1a: Conkeldurr|94/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Obstagoon|Obstruct|p2a: Obstagoon
+|-singleturn|p2a: Obstagoon|Protect
+|move|p1a: Conkeldurr|Mach Punch|p2a: Obstagoon
+|-activate|p2a: Obstagoon|move: Protect
+|-unboost|p1a: Conkeldurr|def|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Obstagoon|38/100 brn|[from] Sandstorm
+|-damage|p1a: Conkeldurr|88/100|[from] Sandstorm
+|-damage|p2a: Obstagoon|32/100 brn|[from] brn
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|21
+|
+|switch|p2a: Jellicent|Jellicent, M|85/100
+|-damage|p2a: Jellicent|72/100|[from] Stealth Rock
+|move|p1a: Conkeldurr|Mach Punch|p2a: Jellicent
+|-immune|p2a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|66/100|[from] Sandstorm
+|-damage|p1a: Conkeldurr|82/100 brn|[from] Sandstorm
+|-heal|p2a: Jellicent|72/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|76/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p2a: Jellicent|Taunt|p1a: Conkeldurr
+|-start|p1a: Conkeldurr|move: Taunt
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|10/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Jellicent|4/100|[from] Sandstorm
+|-damage|p1a: Conkeldurr|70/100 brn|[from] Sandstorm
+|-heal|p2a: Jellicent|10/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|64/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Jellicent|Strength Sap|p1a: Mandibuzz
+|-unboost|p1a: Mandibuzz|atk|1
+|-heal|p2a: Jellicent|51/100
+|
+|-weather|none
+|-heal|p2a: Jellicent|58/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|28/100
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Mandibuzz
+|-status|p1a: Mandibuzz|brn
+|
+|-heal|p2a: Jellicent|34/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|94/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|18/100
+|move|p2a: Jellicent|Strength Sap|p1a: Mandibuzz
+|-unboost|p1a: Mandibuzz|atk|1
+|-heal|p2a: Jellicent|46/100
+|
+|-heal|p2a: Jellicent|52/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|88/100 brn|[from] brn
+|upkeep
+|turn|26
+|inactive|Baba-rhum has 120 seconds left.
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|37/100
+|move|p2a: Jellicent|Night Shade|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|65/100 brn
+|
+|-heal|p2a: Jellicent|43/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|58/100 brn|[from] brn
+|upkeep
+|turn|27
+|inactive|Baba-rhum has 120 seconds left.
+|
+|switch|p2a: Obstagoon|Obstagoon, M|32/100 brn
+|-damage|p2a: Obstagoon|20/100 brn|[from] Stealth Rock
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p2a: Obstagoon|14/100 brn|[from] brn
+|-damage|p1a: Mandibuzz|94/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p2a: Obstagoon|Facade|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|37/100 brn
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|87/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p2a: Obstagoon|8/100 brn|[from] brn
+|-damage|p1a: Mandibuzz|81/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|move|p2a: Obstagoon|Facade|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|24/100 brn
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|74/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p2a: Obstagoon|2/100 brn|[from] brn
+|-damage|p1a: Mandibuzz|68/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p2a: Obstagoon|Facade|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|19/100 brn
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|70/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p2a: Obstagoon|0 fnt|[from] brn
+|faint|p2a: Obstagoon
+|-damage|p1a: Mandibuzz|63/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|-damage|p2a: Toxtricity|88/100|[from] Stealth Rock
+|-item|p2a: Toxtricity|Air Balloon
+|turn|31
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|64/100 brn
+|-damage|p1a: Conkeldurr|58/100 brn|[from] Stealth Rock
+|move|p2a: Toxtricity|Shift Gear|p2a: Toxtricity
+|-boost|p2a: Toxtricity|spe|2
+|-boost|p2a: Toxtricity|atk|1
+|
+|-damage|p1a: Conkeldurr|52/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p2a: Toxtricity|Gunk Shot|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|63/100 brn
+|turn|33
+|
+|move|p2a: Toxtricity|Wild Charge|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|-damage|p2a: Toxtricity|68/100|[from] Recoil
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat|34/100
+|-damage|p1a: Rotom|9/100|[from] Stealth Rock
+|turn|34
+|c|☆Baba-rhum|gg
+|
+|move|p2a: Toxtricity|Drain Punch|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-heal|p2a: Toxtricity|72/100|[from] drain|[of] p1a: Rotom
+|faint|p1a: Rotom
+|
+|win|Baba-rhum
+|l|‽kliktuplorel

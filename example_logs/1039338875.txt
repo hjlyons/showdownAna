@@ -1,0 +1,356 @@
+|ScrapeTime|2020-01-01-22:06:43
+|j|☆awin_ph
+|j|☆Yoyo22
+|player|p1|awin_ph|iris-gen5bw2|
+|player|p2|Yoyo22|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Excadrill, F|
+|poke|p1|Tyranitar, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Haxorus, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Seismitoad, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Hawlucha, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Pelipper, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|move|p2a: Pelipper|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|92/100
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100|[from]move: U-turn
+|move|p1a: Hatterene|Psychic|p2a: Seismitoad
+|-damage|p2a: Seismitoad|40/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|46/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Seismitoad|Earthquake|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|52/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Seismitoad|Poison Jab|p1a: Rotom
+|-damage|p1a: Rotom|82/100
+|-status|p1a: Rotom|psn
+|move|p1a: Rotom|Will-O-Wisp|p2a: Seismitoad
+|-status|p2a: Seismitoad|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|58/100 brn|[from] item: Leftovers
+|-heal|p1a: Rotom|88/100 psn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|52/100 brn|[from] brn
+|-damage|p1a: Rotom|75/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Pelipper|[miss]
+|-miss|p1a: Rotom|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|82/100 psn|[from] item: Leftovers
+|-damage|p1a: Rotom|69/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|83/100
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100|[from]move: Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Seismitoad
+|-damage|p1a: Seismitoad|40/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Seismitoad|Stealth Rock|p2a: Dragapult
+|-sidestart|p2: Yoyo22|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|46/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-damage|p2a: Pelipper|76/100|[from] Stealth Rock
+|move|p1a: Seismitoad|Toxic|p2a: Pelipper
+|-status|p2a: Pelipper|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|52/100|[from] item: Leftovers
+|-damage|p2a: Pelipper|69/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Rotom|Rotom-Wash|69/100 psn
+|move|p2a: Pelipper|Hurricane|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|44/100 psn
+|-start|p1a: Rotom|confusion
+|
+|-weather|none
+|-heal|p1a: Rotom|50/100 psn|[from] item: Leftovers
+|-damage|p2a: Pelipper|57/100 tox|[from] psn
+|-damage|p1a: Rotom|37/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|-activate|p1a: Rotom|confusion
+|move|p1a: Rotom|Hydro Pump|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-heal|p1a: Rotom|44/100 psn|[from] item: Leftovers
+|-damage|p1a: Rotom|31/100 psn|[from] psn
+|upkeep
+|c|☆awin_ph|hahahahaha
+|c|☆awin_ph|NOOB
+|
+|switch|p2a: Dragapult|Dragapult, F|83/100
+|-damage|p2a: Dragapult|71/100|[from] Stealth Rock
+|turn|10
+|c|☆awin_ph|ur so bad
+|
+|switch|p1a: Hatterene|Hatterene, F|92/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|42/100
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Dragapult|Shadow Ball|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|65/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|switch|p2a: Seismitoad|Seismitoad, F|52/100 brn
+|-damage|p2a: Seismitoad|46/100 brn|[from] Stealth Rock
+|move|p1a: Tyranitar|Crunch|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|-damage|p2a: Hawlucha|88/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p1a: Hatterene|Hatterene, F|42/100
+|move|p2a: Hawlucha|Close Combat|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|27/100
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|-enditem|p2a: Hawlucha|White Herb
+|-clearnegativeboost|p2a: Hawlucha|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hawlucha|82/100|[from] Sandstorm
+|-damage|p1a: Hatterene|21/100|[from] Sandstorm
+|upkeep
+|turn|14
+|c|☆Yoyo22|Assumed
+|c|☆Yoyo22|but need to get rid of herb to be able to damage it
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hawlucha|76/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|turn|15
+|
+|switch|p1a: Rotom|Rotom-Wash|31/100 psn
+|move|p2a: Hawlucha|Close Combat|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|faint|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hawlucha|70/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|16
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p2a: Grimmsnarl|88/100|[from] Stealth Rock
+|-item|p1a: Haxorus|Choice Scarf|[from] ability: Frisk|[of] p2a: Grimmsnarl|[identify]
+|move|p1a: Haxorus|Dragon Claw|p2a: Grimmsnarl
+|-immune|p2a: Grimmsnarl
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Haxorus|94/100|[from] Sandstorm
+|-damage|p2a: Grimmsnarl|82/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|move|p2a: Grimmsnarl|Bulk Up|p2a: Grimmsnarl
+|-boost|p2a: Grimmsnarl|atk|1
+|-boost|p2a: Grimmsnarl|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Grimmsnarl|76/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|move|p1a: Excadrill|Iron Head|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-damage|p1a: Excadrill|91/100|[from] item: Life Orb
+|faint|p2a: Grimmsnarl
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, M|70/100
+|-damage|p2a: Hawlucha|57/100|[from] Stealth Rock
+|turn|19
+|c|☆awin_ph|ez
+|
+|switch|p1a: Haxorus|Haxorus, M|94/100
+|-ability|p1a: Haxorus|Mold Breaker
+|move|p2a: Hawlucha|Close Combat|p1a: Haxorus
+|-damage|p1a: Haxorus|25/100
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|
+|upkeep
+|turn|20
+|c|☆Yoyo22|Fuck mold breaker
+|
+|switch|p2a: Pelipper|Pelipper, F|57/100 tox
+|-damage|p2a: Pelipper|32/100 tox|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Haxorus|Outrage|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|65/100
+|-damage|p2a: Dragapult|53/100|[from] Stealth Rock
+|turn|21
+|c|☆awin_ph|bouta fuck yo ass
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|faint|p1a: Haxorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, F|52/100
+|turn|22
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Seismitoad
+|-damage|p1a: Seismitoad|17/100
+|move|p1a: Seismitoad|Toxic|p2a: Dragapult
+|-status|p2a: Dragapult|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|23/100|[from] item: Leftovers
+|-damage|p2a: Dragapult|47/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|switch|p1a: Tyranitar|Tyranitar, F|90/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Dragapult|Shadow Ball|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|79/100
+|-unboost|p1a: Tyranitar|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|41/100 tox|[from] Sandstorm
+|-damage|p2a: Dragapult|29/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|64/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, M|57/100
+|-damage|p2a: Hawlucha|45/100|[from] Stealth Rock
+|turn|25
+|c|☆Yoyo22|Gg
+|c|☆awin_ph|gg
+|
+|move|p2a: Hawlucha|Close Combat|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hawlucha|39/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|91/100
+|turn|26
+|
+|move|p1a: Excadrill|Rock Slide|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|-damage|p1a: Excadrill|81/100|[from] item: Life Orb
+|faint|p2a: Hawlucha
+|
+|win|awin_ph

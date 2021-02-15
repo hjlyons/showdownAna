@@ -1,0 +1,351 @@
+|ScrapeTime|2020-01-01-21:51:02
+|j|☆shawsy97
+|j|☆Eilewynn
+|player|p1|shawsy97|2|1496
+|player|p2|Eilewynn|hoopster|1392
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Xatu, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Galvantula, M|
+|poke|p1|Durant, F|
+|poke|p2|Indeedee, M|
+|poke|p2|Hawlucha, F|
+|poke|p2|Vanilluxe, F|
+|poke|p2|Avalugg, F|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Dragapult, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|switch|p2a: Avalugg|Avalugg, F|100/100
+|turn|1
+|
+|move|p1a: Galvantula|Thunder|p2a: Avalugg|[miss]
+|-miss|p1a: Galvantula|p2a: Avalugg
+|move|p2a: Avalugg|Rapid Spin|p1a: Galvantula
+|-damage|p1a: Galvantula|78/100
+|-boost|p2a: Avalugg|spe|1
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Galvantula|Thunder|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|55/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|move|p2a: Dragapult|Fire Blast|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|76/100
+|-damage|p2a: Dragapult|45/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Dragapult|Draco Meteor|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|50/100
+|-unboost|p2a: Dragapult|spa|2
+|-damage|p2a: Dragapult|35/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Dragapult|U-turn|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|35/100
+|-damage|p2a: Dragapult|25/100|[from] item: Life Orb
+|
+|switch|p2a: Avalugg|Avalugg, F|100/100|[from]move: U-turn
+|move|p1a: Excadrill|Stealth Rock|p2a: Avalugg
+|-sidestart|p2: Eilewynn|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Xatu|Xatu, M|100/100
+|move|p2a: Avalugg|Body Press|p1a: Xatu
+|-resisted|p1a: Xatu
+|-damage|p1a: Xatu|92/100
+|-damage|p2a: Avalugg|84/100|[from] item: Rocky Helmet|[of] p1a: Xatu
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Xatu|Psychic|p2a: Avalugg
+|-damage|p2a: Avalugg|38/100
+|move|p2a: Avalugg|Rapid Spin|p1a: Xatu
+|-damage|p1a: Xatu|79/100
+|-damage|p2a: Avalugg|21/100|[from] item: Rocky Helmet|[of] p1a: Xatu
+|-sideend|p2: Eilewynn|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Avalugg
+|-boost|p2a: Avalugg|spe|1
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|move|p1a: Xatu|Psychic|p2a: Corsola
+|-damage|p2a: Corsola|87/100
+|-start|p1a: Xatu|Disable|Psychic|[from] ability: Cursed Body|[of] p2a: Corsola
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Xatu|Roost|p1a: Xatu
+|-heal|p1a: Xatu|100/100
+|-singleturn|p1a: Xatu|move: Roost
+|move|p2a: Corsola|Hex|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|57/100
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Dragapult|Dragapult, F|25/100
+|move|p1a: Xatu|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|17/100
+|
+|switch|p1a: Durant|Durant, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Durant|First Impression|p2a: Indeedee
+|-activate|p2a: Indeedee|move: Psychic Terrain
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Hydreigon|Hydreigon, F|76/100
+|switch|p2a: Vanilluxe|Vanilluxe, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Hydreigon|70/100|[from] Hail
+|upkeep
+|turn|13
+|
+|move|p2a: Vanilluxe|Blizzard|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|turn|14
+|
+|switch|p2a: Dragapult|Dragapult, F|17/100
+|move|p1a: Conkeldurr|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Conkeldurr|94/100|[from] Hail
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|turn|15
+|
+|switch|p1a: Xatu|Xatu, M|57/100
+|move|p2a: Hawlucha|Brave Bird|p1a: Xatu
+|-damage|p1a: Xatu|5/100
+|-damage|p2a: Hawlucha|84/100|[from] item: Rocky Helmet|[of] p1a: Xatu
+|-damage|p2a: Hawlucha|65/100|[from] Recoil
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Hawlucha|59/100|[from] Hail
+|-damage|p1a: Xatu|0 fnt|[from] Hail
+|faint|p1a: Xatu
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|switch|p1a: Durant|Durant, F|100/100
+|turn|16
+|
+|move|p1a: Durant|Iron Head|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, F|87/100
+|turn|17
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|94/100
+|move|p2a: Corsola|Strength Sap|p1a: Conkeldurr
+|-unboost|p1a: Conkeldurr|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Galvantula|Galvantula, M|78/100
+|move|p2a: Corsola|Stealth Rock|p1a: Galvantula
+|-sidestart|p1: shawsy97|move: Stealth Rock
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Galvantula|Thunder|p2a: Corsola
+|-damage|p2a: Corsola|66/100
+|-start|p1a: Galvantula|Disable|Thunder|[from] ability: Cursed Body|[of] p2a: Corsola
+|move|p2a: Corsola|Will-O-Wisp|p1a: Galvantula
+|-status|p1a: Galvantula|brn
+|
+|-damage|p1a: Galvantula|72/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p1a: Excadrill|Excadrill, M|35/100
+|-damage|p1a: Excadrill|32/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Corsola|Strength Sap|p1a: Excadrill
+|-unboost|p1a: Excadrill|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|upkeep
+|turn|21
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|94/100
+|-damage|p1a: Conkeldurr|88/100|[from] Stealth Rock
+|move|p2a: Corsola|Will-O-Wisp|p1a: Conkeldurr|[miss]
+|-miss|p2a: Corsola|p1a: Conkeldurr
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Conkeldurr|Earthquake|p2a: Corsola
+|-damage|p2a: Corsola|71/100
+|move|p2a: Corsola|Strength Sap|p1a: Conkeldurr
+|-unboost|p1a: Conkeldurr|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Conkeldurr|Earthquake|p2a: Corsola
+|-damage|p2a: Corsola|82/100
+|-start|p1a: Conkeldurr|Disable|Earthquake|[from] ability: Cursed Body|[of] p2a: Corsola
+|move|p2a: Corsola|Will-O-Wisp|p1a: Conkeldurr|[miss]
+|-miss|p2a: Corsola|p1a: Conkeldurr
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Corsola
+|-damage|p2a: Corsola|67/100
+|move|p2a: Corsola|Will-O-Wisp|p1a: Conkeldurr
+|-status|p1a: Conkeldurr|brn
+|
+|-damage|p1a: Conkeldurr|82/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Corsola
+|-damage|p2a: Corsola|45/100
+|move|p2a: Corsola|Strength Sap|p1a: Conkeldurr
+|-unboost|p1a: Conkeldurr|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-damage|p1a: Conkeldurr|76/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|switch|p1a: Galvantula|Galvantula, M|72/100 brn
+|-damage|p1a: Galvantula|47/100 brn|[from] Stealth Rock
+|switch|p2a: Avalugg|Avalugg, F|21/100
+|
+|-damage|p1a: Galvantula|41/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p1a: Galvantula|Volt Switch|p2a: Avalugg
+|-damage|p2a: Avalugg|0 fnt
+|faint|p2a: Avalugg
+|
+|switch|p1a: Excadrill|Excadrill, M|32/100|[from]move: Volt Switch
+|-damage|p1a: Excadrill|29/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|turn|28
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Eilewynn)
+|
+|move|p1a: Excadrill|Stealth Rock|p2a: Corsola
+|-sidestart|p2: Eilewynn|move: Stealth Rock
+|move|p2a: Corsola|Strength Sap|p1a: Excadrill
+|-unboost|p1a: Excadrill|atk|1
+|
+|upkeep
+|turn|29
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|76/100 brn
+|-damage|p1a: Conkeldurr|70/100 brn|[from] Stealth Rock
+|move|p2a: Corsola|Will-O-Wisp|p1a: Conkeldurr
+|-fail|p1a: Conkeldurr|brn
+|
+|-damage|p1a: Conkeldurr|64/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p1a: Conkeldurr|Earthquake|p2a: Corsola
+|-damage|p2a: Corsola|57/100
+|move|p2a: Corsola|Strength Sap|p1a: Conkeldurr
+|-unboost|p1a: Conkeldurr|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-damage|p1a: Conkeldurr|58/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p1a: Conkeldurr|Earthquake|p2a: Corsola
+|-damage|p2a: Corsola|71/100
+|move|p2a: Corsola|Will-O-Wisp|p1a: Conkeldurr
+|-fail|p1a: Conkeldurr|brn
+|
+|-damage|p1a: Conkeldurr|52/100 brn|[from] brn
+|upkeep
+|turn|32
+|inactive|shawsy97 has 120 seconds left.
+|inactive|shawsy97 has 90 seconds left.
+|inactive|shawsy97 has 60 seconds left.
+|inactive|shawsy97 has 30 seconds left.
+|inactive|shawsy97 has 20 seconds left.
+|inactive|shawsy97 has 15 seconds left.
+|inactive|shawsy97 has 10 seconds left.
+|inactive|shawsy97 has 5 seconds left.
+|-message|shawsy97 lost due to inactivity.
+|
+|win|Eilewynn
+|raw|shawsy97's rating: 1516 → 1489(-27 for losing)
+|raw|Eilewynn's rating: 1392 → 1419(+27 for winning)

@@ -1,0 +1,392 @@
+|ScrapeTime|2020-01-01-03:25:23
+|j|☆bombbob12345
+|j|☆IceBlueLugia
+|player|p1|bombbob12345|170|1151
+|player|p2|IceBlueLugia|101|1195
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Mimikyu, F|
+|poke|p1|Falinks|
+|poke|p1|Seismitoad, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Dragapult, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by IceBlueLugia)
+|
+|move|p1a: Seismitoad|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: IceBlueLugia|move: Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Seismitoad
+|-sidestart|p1: bombbob12345|Spikes
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|88/100|[from] Spikes
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Ferrothorn|Spikes|p1a: Excadrill
+|-sidestart|p1: bombbob12345|Spikes
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Excadrill|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|53/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Excadrill
+|-start|p1a: Excadrill|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|59/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|76/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|72/100|[silent]
+|upkeep
+|turn|4
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|-damage|p2a: Corsola|88/100|[from] Stealth Rock
+|move|p1a: Excadrill|Rapid Spin|p2a: Corsola
+|-immune|p2a: Corsola
+|
+|-damage|p1a: Excadrill|63/100|[from] Leech Seed|[of] p2a: Corsola
+|-heal|p2a: Corsola|100/100|[silent]
+|upkeep
+|turn|5
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|84/100|[from] Spikes
+|move|p2a: Corsola|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: bombbob12345|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Dragapult|Shadow Ball|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|78/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|switch|p1a: Excadrill|Excadrill, M|63/100
+|-damage|p1a: Excadrill|46/100|[from] Spikes
+|-damage|p1a: Excadrill|43/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Tyranitar|Crunch|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|-damage|p1a: Mimikyu|88/100|[from] Stealth Rock
+|-damage|p1a: Mimikyu|72/100|[from] Spikes
+|turn|8
+|inactive|bombbob12345 has 120 seconds left.
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Tyranitar|Crunch|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|72/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|-damage|p1a: Mimikyu|59/100|[from] ability: Disguise|[of] p1a: Mimikyu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mimikyu|53/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|move|p1a: Mimikyu|Play Rough|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p1a: Mimikyu|44/100|[from] item: Life Orb
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mimikyu|38/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|turn|10
+|inactive|bombbob12345 has 120 seconds left.
+|
+|move|p2a: Excadrill|Earthquake|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|-weather|none
+|-heal|p2a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|-damage|p1a: Seismitoad|84/100|[from] Spikes
+|-damage|p1a: Seismitoad|78/100|[from] Stealth Rock
+|turn|11
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|72/100
+|-damage|p2a: Ferrothorn|66/100|[from] Stealth Rock
+|move|p1a: Seismitoad|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|59/100
+|-status|p2a: Ferrothorn|brn
+|
+|-heal|p1a: Seismitoad|84/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|65/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|59/100 brn|[from] brn
+|upkeep
+|turn|12
+|inactive|bombbob12345 has 120 seconds left.
+|
+|move|p1a: Seismitoad|Earthquake|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|24/100 brn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Seismitoad
+|-start|p1a: Seismitoad|move: Leech Seed
+|
+|-heal|p1a: Seismitoad|90/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|30/100 brn|[from] item: Leftovers
+|-damage|p1a: Seismitoad|78/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|45/100 brn|[silent]
+|-damage|p2a: Ferrothorn|39/100 brn|[from] brn
+|upkeep
+|turn|13
+|inactive|bombbob12345 has 120 seconds left.
+|
+|move|p1a: Seismitoad|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|12/100 brn
+|move|p2a: Ferrothorn|Spikes|p1a: Seismitoad
+|-sidestart|p1: bombbob12345|Spikes
+|
+|-heal|p1a: Seismitoad|84/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|18/100 brn|[from] item: Leftovers
+|-damage|p1a: Seismitoad|71/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|32/100 brn|[silent]
+|-damage|p2a: Ferrothorn|26/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Seismitoad|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Seismitoad|77/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Seismitoad
+|-damage|p1a: Seismitoad|21/100
+|move|p1a: Seismitoad|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|44/100
+|
+|-heal|p1a: Seismitoad|27/100|[from] item: Leftovers
+|-damage|p1a: Seismitoad|15/100|[from] Leech Seed|[of] p2a: Dragapult
+|-heal|p2a: Dragapult|60/100|[silent]
+|upkeep
+|turn|16
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|78/100
+|-damage|p1a: Dragapult|53/100|[from] Spikes
+|-damage|p1a: Dragapult|41/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Dragapult|Shadow Ball|p2a: Rotom
+|-damage|p2a: Rotom|31/100
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Rotom|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|24/100
+|
+|switch|p2a: Dragapult|Dragapult, M|60/100|[from]move: Volt Switch
+|-damage|p2a: Dragapult|48/100|[from] Stealth Rock
+|move|p1a: Dragapult|Shadow Ball|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|31/100
+|-damage|p2a: Rotom|18/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Dragapult|[miss]
+|-miss|p2a: Rotom|p1a: Dragapult
+|move|p1a: Dragapult|Shadow Ball|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|turn|20
+|c|☆bombbob12345|you actually have a scarf rotom wash, insane megamind
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Excadrill
+|-damage|p2a: Excadrill|30/100
+|move|p2a: Excadrill|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Excadrill|36/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Falinks|Falinks|100/100
+|-damage|p1a: Falinks|95/100|[from] Stealth Rock
+|-damage|p1a: Falinks|70/100|[from] Spikes
+|turn|21
+|
+|move|p2a: Excadrill|Earthquake|p1a: Falinks
+|-damage|p1a: Falinks|11/100
+|-enditem|p1a: Falinks|Mago Berry|[eat]
+|-heal|p1a: Falinks|44/100|[from] item: Mago Berry
+|move|p1a: Falinks|Throat Chop|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|-damage|p2a: Corsola|88/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Falinks|Throat Chop|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|64/100
+|-start|p2a: Corsola|Throat Chop|[silent]
+|move|p2a: Corsola|Strength Sap|p1a: Falinks
+|-unboost|p1a: Falinks|atk|1
+|-ability|p1a: Falinks|Defiant
+|-boost|p1a: Falinks|atk|2
+|-heal|p2a: Corsola|100/100
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Falinks|No Retreat|p1a: Falinks
+|-boost|p1a: Falinks|atk|1
+|-boost|p1a: Falinks|def|1
+|-boost|p1a: Falinks|spa|1
+|-boost|p1a: Falinks|spd|1
+|-boost|p1a: Falinks|spe|1
+|-start|p1a: Falinks|move: No Retreat
+|move|p2a: Corsola|Will-O-Wisp|p1a: Falinks
+|-status|p1a: Falinks|brn
+|
+|-damage|p1a: Falinks|38/100 brn|[from] brn
+|-end|p2a: Corsola|Throat Chop|[silent]
+|upkeep
+|turn|24
+|c|☆IceBlueLugia|oh
+|
+|move|p1a: Falinks|Throat Chop|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|75/100
+|-start|p1a: Falinks|Disable|Throat Chop|[from] ability: Cursed Body|[of] p2a: Corsola
+|-start|p2a: Corsola|Throat Chop|[silent]
+|move|p2a: Corsola|Hex|p1a: Falinks
+|-damage|p1a: Falinks|3/100 brn
+|
+|-damage|p1a: Falinks|0 fnt|[from] brn
+|faint|p1a: Falinks
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|-damage|p1a: Cinderace|76/100|[from] Stealth Rock
+|-damage|p1a: Cinderace|51/100|[from] Spikes
+|turn|25
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Corsola|[miss]
+|-miss|p1a: Cinderace|p2a: Corsola
+|move|p2a: Corsola|Strength Sap|p1a: Cinderace
+|-unboost|p1a: Cinderace|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-end|p2a: Corsola|Throat Chop|[silent]
+|upkeep
+|turn|26
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Corsola
+|-damage|p2a: Corsola|81/100
+|move|p2a: Corsola|Hex|p1a: Cinderace
+|-damage|p1a: Cinderace|26/100
+|
+|upkeep
+|turn|27
+|c|☆IceBlueLugia|gg
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Corsola|[miss]
+|-miss|p1a: Cinderace|p2a: Corsola
+|move|p2a: Corsola|Hex|p1a: Cinderace
+|-damage|p1a: Cinderace|1/100
+|-enditem|p1a: Cinderace|Aguav Berry|[eat]
+|-heal|p1a: Cinderace|34/100|[from] item: Aguav Berry
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Corsola|[miss]
+|-miss|p1a: Cinderace|p2a: Corsola
+|move|p2a: Corsola|Hex|p1a: Cinderace
+|-damage|p1a: Cinderace|11/100
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Corsola
+|-damage|p2a: Corsola|52/100
+|move|p2a: Corsola|Hex|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|win|IceBlueLugia
+|raw|bombbob12345's rating: 1151 → 1131(-20 for losing)
+|raw|IceBlueLugia's rating: 1219 → 1239(+20 for winning)
+|l|☆IceBlueLugia
+|j|☆IceBlueLugia
+|player|p2|IceBlueLugia|101
+|l|☆bombbob12345

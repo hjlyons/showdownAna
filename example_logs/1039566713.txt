@@ -1,0 +1,176 @@
+|ScrapeTime|2020-01-02-08:14:38
+|j|☆ghostlymisa
+|j|☆stunna4vegas
+|player|p1|ghostlymisa|ethan|1538
+|player|p2|stunna4vegas|2|1583
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aegislash, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Kommo-o, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Obstagoon, M|
+|poke|p1|Dragapult, M|
+|poke|p2|Clefable, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Ditto|
+|poke|p2|Cinderace, M|
+|poke|p2|Obstagoon, M|
+|poke|p2|Dracovish|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Obstagoon|Obstagoon, M, shiny|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ghostlymisa)
+|
+|move|p1a: Obstagoon|Obstruct|p1a: Obstagoon
+|-singleturn|p1a: Obstagoon|Protect
+|move|p2a: Cinderace|U-turn|p1a: Obstagoon
+|-activate|p1a: Obstagoon|move: Protect
+|-unboost|p2a: Cinderace|def|2
+|
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|move|p2a: Cinderace|U-turn|p1a: Obstagoon
+|-supereffective|p1a: Obstagoon
+|-damage|p1a: Obstagoon|56/100 brn
+|
+|switch|p2a: Obstagoon|Obstagoon, M|100/100|[from]move: U-turn
+|move|p1a: Obstagoon|Facade|p2a: Obstagoon
+|-damage|p2a: Obstagoon|7/100
+|
+|-damage|p1a: Obstagoon|50/100 brn|[from] brn
+|-status|p2a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Obstagoon|Obstruct||[still]
+|-fail|p1a: Obstagoon
+|
+|-damage|p1a: Obstagoon|44/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F, shiny|100/100
+|move|p2a: Cinderace|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|87/100
+|
+|switch|p2a: Clefable|Clefable, F, shiny|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Excadrill|Excadrill, M, shiny|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Clefable|Flamethrower|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-enditem|p1a: Excadrill|Focus Sash
+|-damage|p1a: Excadrill|1/100
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Ditto|Ditto, shiny|100/100
+|-transform|p2a: Ditto|p1a: Excadrill|[from] ability: Imposter
+|-ability|p2a: Ditto|Mold Breaker
+|move|p1a: Excadrill|Stealth Rock|p2a: Ditto
+|-sidestart|p2: stunna4vegas|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Aegislash|Aegislash, M, shiny|100/100
+|move|p2a: Ditto|Earthquake|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|14/100
+|
+|-heal|p1a: Aegislash|21/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|switch|p1a: Mandibuzz|Mandibuzz, F, shiny|87/100
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: stunna4vegas|Stealth Rock|[silent]
+|-sidestart|p1: ghostlymisa|Stealth Rock|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Mandibuzz|Foul Play|p2a: Cinderace
+|-damage|p2a: Cinderace|33/100
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Cinderace|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|74/100
+|
+|switch|p2a: Clefable|Clefable, F, shiny|100/100|[from]move: U-turn
+|move|p1a: Mandibuzz|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|94/100
+|
+|switch|p1a: Excadrill|Excadrill, M, shiny|1/100|[from]move: U-turn
+|-damage|p1a: Excadrill|0 fnt|[from] Stealth Rock
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, M, shiny|21/100
+|-damage|p1a: Aegislash|14/100|[from] Stealth Rock
+|turn|11
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Flash Cannon|p2a: Dracovish
+|-resisted|p2a: Dracovish
+|-damage|p2a: Dracovish|68/100
+|
+|-heal|p1a: Aegislash|21/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Cinderace|Cinderace, M|33/100
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield||[still]
+|-fail|p1a: Aegislash
+|
+|-heal|p1a: Aegislash|27/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|14
+|-message|ghostlymisa forfeited.
+|
+|win|stunna4vegas
+|l|☆ghostlymisa
+|raw|ghostlymisa's rating: 1538 → 1520(-18 for losing)
+|raw|stunna4vegas's rating: 1583 → 1600(+17 for winning)

@@ -1,0 +1,237 @@
+|ScrapeTime|2020-01-02-04:55:37
+|j|☆OTLance
+|j|☆markrekapture
+|player|p1|OTLance|veteran|1304
+|player|p2|markrekapture|doctor|1291
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Barraskewda, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Polteageist|
+|poke|p1|Ditto|
+|poke|p2|Hydreigon, M|
+|poke|p2|Aegislash, F|
+|poke|p2|Milotic, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Hippowdon, M|
+|poke|p2|Conkeldurr, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by OTLance)
+|
+|start
+|switch|p1a: Ditto|Ditto|100/100
+|switch|p2a: Milotic|Milotic, M|100/100
+|-transform|p1a: Ditto|p2a: Milotic|[from] ability: Imposter
+|turn|1
+|
+|move|p1a: Ditto|Hypnosis|p2a: Milotic|[miss]
+|-miss|p1a: Ditto|p2a: Milotic
+|move|p2a: Milotic|Hypnosis|p1a: Ditto
+|-status|p1a: Ditto|slp|[from] move: Hypnosis
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|cant|p1a: Ditto|slp
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-crit|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|4
+|
+|switch|p2a: Milotic|Milotic, M|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Milotic
+|-damage|p2a: Milotic|65/100
+|
+|-heal|p2a: Milotic|71/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Polteageist|Polteageist|100/100
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|
+|upkeep
+|turn|7
+|inactive|OTLance has 120 seconds left.
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-enditem|p1a: Polteageist|Focus Sash
+|-damage|p1a: Polteageist|1/100
+|-ability|p1a: Polteageist|Weak Armor|boost
+|-unboost|p1a: Polteageist|def|1
+|-boost|p1a: Polteageist|spe|2
+|move|p1a: Polteageist|Shadow Ball|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|8
+|
+|move|p1a: Polteageist|Giga Drain|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|22/100
+|-heal|p1a: Polteageist|64/100|[from] drain|[of] p2a: Hippowdon
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Polteageist|58/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|78/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Polteageist|Giga Drain|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|-heal|p1a: Polteageist|100/100|[from] drain|[of] p2a: Hippowdon
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Polteageist|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|10
+|
+|move|p1a: Polteageist|Shadow Ball|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Polteageist|88/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Milotic|Milotic, M|100/100
+|turn|11
+|
+|move|p1a: Polteageist|Giga Drain|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|11/100
+|-heal|p1a: Polteageist|100/100|[from] drain|[of] p2a: Milotic
+|move|p2a: Milotic|Scald|p1a: Polteageist
+|-damage|p1a: Polteageist|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Polteageist|47/100|[from] Sandstorm
+|-damage|p2a: Milotic|5/100|[from] Sandstorm
+|-heal|p2a: Milotic|11/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|move|p1a: Polteageist|Giga Drain|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|65/100
+|-heal|p1a: Polteageist|69/100|[from] drain|[of] p2a: Hydreigon
+|
+|-weather|none
+|-heal|p2a: Hydreigon|71/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Polteageist|Shadow Ball|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|17/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|-heal|p2a: Hydreigon|23/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|turn|14
+|
+|move|p1a: Barraskewda|Waterfall|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|turn|15
+|
+|move|p1a: Barraskewda|Waterfall|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|47/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Barraskewda
+|-damage|p1a: Barraskewda|5/100
+|-heal|p2a: Conkeldurr|78/100|[from] drain|[of] p1a: Barraskewda
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|16
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|-damage|p2a: Conkeldurr|72/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|17
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|8/100 brn
+|move|p2a: Conkeldurr|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|12/100
+|
+|-damage|p2a: Conkeldurr|2/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|-message|markrekapture forfeited.
+|
+|win|OTLance
+|l|☆markrekapture
+|raw|OTLance's rating: 1304 → 1324(+20 for winning)
+|raw|markrekapture's rating: 1291 → 1267(-24 for losing)

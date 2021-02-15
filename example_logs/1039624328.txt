@@ -1,0 +1,192 @@
+|ScrapeTime|2020-01-02-12:25:58
+|j|☆supreyes
+|j|☆PTYellow1
+|player|p1|supreyes|ryuki|1223
+|player|p2|PTYellow1|69|1209
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Dracovish|
+|poke|p1|Excadrill, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Hydreigon, F|
+|poke|p2|Toxtricity, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Sylveon, M|
+|poke|p2|Flygon, F|
+|poke|p2|Conkeldurr, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Parsec|Toxtricity, F|100/100
+|turn|1
+|
+|switch|p2a: Garth|Seismitoad, M|100/100
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Garth|Toxic|p1a: Dragapult|[miss]
+|-miss|p2a: Garth|p1a: Dragapult
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Garth
+|-damage|p2a: Garth|61/100
+|-damage|p2a: Garth|24/100
+|-hitcount|p2a: Garth|2
+|move|p2a: Garth|Toxic|p1a: Dragapult
+|-status|p1a: Dragapult|tox
+|
+|-heal|p2a: Garth|30/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p2a: Garth|Protect|p2a: Garth
+|-singleturn|p2a: Garth|Protect
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Garth
+|
+|-heal|p1a: Dragapult|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Garth|36/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|88/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Garth|[from]lockedmove
+|-damage|p2a: Garth|0 fnt
+|faint|p2a: Garth
+|
+|-heal|p1a: Dragapult|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Dragapult|76/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Clementine|Sylveon, M|100/100
+|turn|6
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Clementine
+|move|p2a: Clementine|Hyper Voice|p1a: Dragapult|[miss]
+|-miss|p2a: Clementine|p1a: Dragapult
+|
+|-heal|p1a: Dragapult|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Dragapult|58/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|move|p2a: Clementine|Protect|p2a: Clementine
+|-singleturn|p2a: Clementine|Protect
+|move|p1a: Dragapult|Phantom Force|p2a: Clementine|[from]lockedmove
+|-activate|p2a: Clementine|move: Phantom Force|[broken]
+|-damage|p2a: Clementine|0 fnt
+|faint|p2a: Clementine
+|
+|-heal|p1a: Dragapult|64/100 tox|[from] item: Leftovers
+|-damage|p1a: Dragapult|33/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|turn|8
+|c|☆supreyes|nique clementine xd
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|50/100
+|-damage|p2a: Conkeldurr|0 fnt
+|-hitcount|p2a: Conkeldurr|2
+|faint|p2a: Conkeldurr
+|
+|-heal|p1a: Dragapult|39/100 tox|[from] item: Leftovers
+|-damage|p1a: Dragapult|2/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Noel|Cinderace, F|100/100
+|turn|9
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|move|p2a: Noel|Sucker Punch||[still]
+|-fail|p2a: Noel
+|
+|upkeep
+|turn|10
+|c|☆supreyes|g
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Noel
+|-supereffective|p2a: Noel
+|-damage|p2a: Noel|0 fnt
+|faint|p2a: Noel
+|
+|upkeep
+|c|☆supreyes|g
+|c|☆PTYellow1|gg
+|
+|switch|p2a: Parsec|Toxtricity, F|100/100
+|turn|11
+|
+|move|p2a: Parsec|Boomburst|p1a: Dracovish
+|-damage|p1a: Dracovish|24/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Parsec
+|-damage|p2a: Parsec|7/100
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Parsec|Boomburst|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|81/100
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Akiza|Flygon, F|100/100
+|move|p1a: Corviknight|U-turn|p2a: Akiza
+|-damage|p2a: Akiza|79/100
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Akiza
+|-supereffective|p2a: Akiza
+|-damage|p2a: Akiza|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|faint|p2a: Akiza
+|
+|upkeep
+|
+|switch|p2a: Parsec|Toxtricity, F|7/100
+|turn|15
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Parsec
+|-damage|p2a: Parsec|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|faint|p2a: Parsec
+|
+|win|supreyes
+|l|☆PTYellow1
+|raw|supreyes's rating: 1223 → 1247(+24 for winning)
+|raw|PTYellow1's rating: 1209 → 1185(-24 for losing)

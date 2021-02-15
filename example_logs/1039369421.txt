@@ -1,0 +1,255 @@
+|ScrapeTime|2020-01-01-23:10:55
+|j|☆lolSwSh
+|j|☆The first rule
+|player|p1|lolSwSh|clown|1566
+|player|p2|The first rule|cynthia-gen4|1591
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Excadrill, M|
+|poke|p1|Orbeetle, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Clefable, M|
+|poke|p1|Sigilyph, M|
+|poke|p1|Dugtrio, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Barraskewda, F|
+|poke|p2|Mantine, F|
+|poke|p2|Toxtricity, F|
+|poke|p2|Hydreigon, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lolSwSh)
+|
+|start
+|switch|p1a: Orbeetle|Orbeetle, M|100/100
+|switch|p2a: Barraskewda|Barraskewda, F, shiny|100/100
+|-item|p2a: Barraskewda|Life Orb|[from] ability: Frisk|[of] p1a: Orbeetle|[identify]
+|turn|1
+|
+|move|p2a: Barraskewda|Crunch|p1a: Orbeetle
+|-supereffective|p1a: Orbeetle
+|-damage|p1a: Orbeetle|22/100
+|-damage|p2a: Barraskewda|91/100|[from] item: Life Orb
+|move|p1a: Orbeetle|Sticky Web|p2a: Barraskewda
+|-sidestart|p2: The first rule|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Barraskewda|Crunch|p1a: Orbeetle
+|-supereffective|p1a: Orbeetle
+|-crit|p1a: Orbeetle
+|-damage|p1a: Orbeetle|0 fnt
+|-damage|p2a: Barraskewda|81/100|[from] item: Life Orb
+|faint|p1a: Orbeetle
+|
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|turn|3
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|-activate|p2a: Toxtricity|move: Sticky Web
+|-unboost|p2a: Toxtricity|spe|1
+|move|p1a: Clefable|Flamethrower|p2a: Toxtricity
+|-damage|p2a: Toxtricity|50/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Toxtricity|Boomburst|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Toxtricity|Boomburst|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|77/100
+|-damage|p2a: Toxtricity|40/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxtricity|34/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|move|p2a: Toxtricity|Volt Switch|p1a: Excadrill
+|-immune|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxtricity|28/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Toxtricity|Boomburst|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|53/100
+|-damage|p2a: Toxtricity|18/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxtricity|12/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|-boost|p1a: Excadrill|spe|1
+|-damage|p1a: Excadrill|43/100|[from] item: Life Orb
+|faint|p2a: Toxtricity
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, F, shiny|81/100
+|-activate|p2a: Barraskewda|move: Sticky Web
+|-unboost|p2a: Barraskewda|spe|1
+|turn|9
+|
+|move|p2a: Barraskewda|Aqua Jet|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-damage|p2a: Barraskewda|71/100|[from] item: Life Orb
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Barraskewda|65/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Sigilyph|Sigilyph, M|100/100
+|turn|10
+|inactive|The first rule has 120 seconds left.
+|
+|switch|p2a: Pelipper|Pelipper, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Sigilyph|Air Slash|p2a: Pelipper
+|-damage|p2a: Pelipper|39/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M, shiny|100/100
+|-activate|p2a: Ferrothorn|move: Sticky Web
+|-unboost|p2a: Ferrothorn|spe|1
+|move|p1a: Sigilyph|Air Slash|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|71/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|77/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Sigilyph|Air Slash|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|47/100
+|cant|p2a: Ferrothorn|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|53/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|The first rule has 120 seconds left.
+|
+|move|p1a: Sigilyph|Heat Wave|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|2/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Sigilyph
+|-sidestart|p1: lolSwSh|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|8/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Sigilyph|Air Slash|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|The first rule has 120 seconds left.
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|15
+|
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|move|p1a: Sigilyph|Air Slash|p2a: Hydreigon|[miss]
+|-miss|p1a: Sigilyph|p2a: Hydreigon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|switch|p1a: Tyranitar|Tyranitar, F|77/100
+|-damage|p1a: Tyranitar|64/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Hydreigon|Dark Pulse|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|94/100|[from] Sandstorm
+|-heal|p2a: Hydreigon|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Hydreigon|Flash Cannon|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|94/100|[from] Sandstorm
+|-heal|p2a: Hydreigon|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|94/100|[from] Sandstorm
+|-heal|p2a: Hydreigon|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|-damage|p1a: Dugtrio|94/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Dugtrio|Stone Edge|p2a: Hydreigon
+|-damage|p2a: Hydreigon|30/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|24/100|[from] Sandstorm
+|-heal|p2a: Hydreigon|30/100|[from] item: Leftovers
+|upkeep
+|-message|lolSwSh forfeited.
+|
+|win|The first rule
+|l|☆lolSwSh
+|raw|lolSwSh's rating: 1566 → 1547(-19 for losing)
+|raw|The first rule's rating: 1591 → 1610(+19 for winning)

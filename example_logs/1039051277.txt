@@ -1,0 +1,404 @@
+|ScrapeTime|2020-01-01-07:35:17
+|j|☆BobusWombous
+|j|☆James Garden
+|player|p1|BobusWombous|59|1241
+|player|p2|James Garden|linebacker|1273
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Galvantula, M|
+|poke|p1|Crawdaunt, M|
+|poke|p1|Weavile, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Gyarados, M|
+|poke|p1|Flygon, F|
+|poke|p2|Aegislash, M|
+|poke|p2|Hydreigon, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Mantine, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Weavile|Weavile, F|100/100
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by James Garden)
+|
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Weavile|Throat Chop|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|-unboost|p1a: Weavile|atk|1
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Weavile|Throat Chop|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|87/100
+|-start|p2a: Tyranitar|Throat Chop|[silent]
+|-damage|p1a: Weavile|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weavile|84/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|93/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Mantine|Mantine, F|100/100
+|move|p1a: Weavile|Low Kick|p2a: Mantine
+|-resisted|p2a: Mantine
+|-damage|p2a: Mantine|86/100
+|-damage|p1a: Weavile|75/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weavile|68/100|[from] Sandstorm
+|-damage|p2a: Mantine|80/100|[from] Sandstorm
+|-heal|p2a: Mantine|86/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|move|p2a: Mantine|Scald|p1a: Crawdaunt
+|-resisted|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|78/100
+|-status|p1a: Crawdaunt|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Crawdaunt|72/100 brn|[from] Sandstorm
+|-damage|p2a: Mantine|80/100|[from] Sandstorm
+|-heal|p2a: Mantine|86/100|[from] item: Leftovers
+|-damage|p1a: Crawdaunt|66/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Tyranitar|Tyranitar, M|93/100
+|move|p1a: Crawdaunt|Knock Off|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|74/100
+|-enditem|p2a: Tyranitar|Leftovers|[from] move: Knock Off|[of] p1a: Crawdaunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Crawdaunt|60/100 brn|[from] Sandstorm
+|-damage|p1a: Crawdaunt|54/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Crawdaunt|Knock Off|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|60/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Crawdaunt
+|-sidestart|p1: BobusWombous|move: Stealth Rock
+|
+|-weather|none
+|-damage|p1a: Crawdaunt|48/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Crawdaunt|Knock Off|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|45/100
+|move|p2a: Tyranitar|Earthquake|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|
+|upkeep
+|
+|switch|p1a: Flygon|Flygon, F|100/100
+|-damage|p1a: Flygon|95/100|[from] Stealth Rock
+|turn|8
+|inactive|James Garden has 120 seconds left.
+|
+|switch|p2a: Mantine|Mantine, F|86/100
+|move|p1a: Flygon|Dragon Dance|p1a: Flygon
+|-boost|p1a: Flygon|atk|1
+|-boost|p1a: Flygon|spe|1
+|
+|-heal|p2a: Mantine|92/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Flygon|Dragon Dance|p1a: Flygon
+|-boost|p1a: Flygon|atk|1
+|-boost|p1a: Flygon|spe|1
+|move|p2a: Mantine|Haze|p2a: Mantine
+|-clearallboost
+|
+|-heal|p2a: Mantine|98/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Flygon|Dragon Claw|p2a: Hatterene
+|-immune|p2a: Hatterene
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Flygon|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|37/100
+|-damage|p1a: Flygon|85/100|[from] item: Life Orb
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-heal|p2a: Hatterene|43/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|move|p2a: Hatterene|Draining Kiss|p1a: Hatterene
+|-damage|p1a: Hatterene|69/100
+|-heal|p2a: Hatterene|54/100|[from] drain|[of] p1a: Hatterene
+|
+|-heal|p2a: Hatterene|60/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|James Garden has 120 seconds left.
+|
+|move|p2a: Hatterene|Psychic|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|50/100
+|move|p1a: Hatterene|Dark Pulse|p2a: Hatterene
+|-damage|p2a: Hatterene|29/100
+|
+|-heal|p2a: Hatterene|35/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|move|p1a: Hatterene|Giga Drain|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|89/100
+|-heal|p1a: Hatterene|58/100|[from] drain|[of] p2a: Aegislash
+|
+|-heal|p2a: Aegislash|95/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|
+|-heal|p2a: Aegislash|100/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|16
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|-damage|p1a: Galvantula|76/100|[from] Stealth Rock
+|turn|17
+|inactive|James Garden has 120 seconds left.
+|
+|-formechange|p2a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Galvantula|Thunder|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Galvantula|Thunder|p2a: Aegislash
+|-crit|p2a: Aegislash
+|-damage|p2a: Aegislash|32/100
+|-status|p2a: Aegislash|par
+|-damage|p1a: Galvantula|66/100|[from] item: Life Orb
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|-heal|p2a: Aegislash|38/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Flygon|Flygon, F|85/100
+|-damage|p1a: Flygon|79/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p2a: Mantine|Mantine, F|98/100
+|move|p1a: Flygon|Dragon Claw|p2a: Mantine
+|-damage|p2a: Mantine|56/100
+|-damage|p1a: Flygon|69/100|[from] item: Life Orb
+|
+|-heal|p2a: Mantine|62/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Flygon|Dragon Claw|p2a: Mantine
+|-damage|p2a: Mantine|18/100
+|-damage|p1a: Flygon|59/100|[from] item: Life Orb
+|move|p2a: Mantine|Roost|p2a: Mantine
+|-heal|p2a: Mantine|68/100
+|-singleturn|p2a: Mantine|move: Roost
+|
+|-heal|p2a: Mantine|74/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Flygon|Dragon Claw|p2a: Mantine
+|-damage|p2a: Mantine|32/100
+|-damage|p1a: Flygon|49/100|[from] item: Life Orb
+|move|p2a: Mantine|Scald|p1a: Flygon
+|-damage|p1a: Flygon|17/100
+|
+|-heal|p2a: Mantine|38/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Hatterene|Hatterene, F|35/100
+|move|p1a: Flygon|Dragon Claw|p2a: Hatterene
+|-immune|p2a: Hatterene
+|
+|-heal|p2a: Hatterene|41/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Flygon|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-damage|p1a: Flygon|7/100|[from] item: Life Orb
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|24
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|faint|p1a: Flygon
+|
+|upkeep
+|
+|switch|p1a: Weavile|Weavile, F|68/100
+|-damage|p1a: Weavile|44/100|[from] Stealth Rock
+|turn|25
+|
+|switch|p2a: Tyranitar|Tyranitar, M|45/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Weavile|Icicle Crash|p2a: Tyranitar
+|-damage|p2a: Tyranitar|2/100
+|-damage|p1a: Weavile|34/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weavile|28/100|[from] Sandstorm
+|upkeep
+|turn|26
+|
+|move|p1a: Weavile|Throat Chop|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p1a: Weavile|18/100|[from] item: Life Orb
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weavile|12/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|turn|27
+|
+|move|p2a: Excadrill|Iron Head|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-damage|p1a: Gyarados|76/100|[from] Stealth Rock
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|turn|28
+|
+|move|p2a: Excadrill|Iron Head|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|57/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|51/100|[from] Sandstorm
+|-heal|p1a: Gyarados|57/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: Mantine|Mantine, F|38/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-weather|none
+|-heal|p1a: Gyarados|63/100|[from] item: Leftovers
+|-heal|p2a: Mantine|44/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Gyarados|Ice Fang|p2a: Mantine
+|-crit|p2a: Mantine
+|-damage|p2a: Mantine|0 fnt
+|faint|p2a: Mantine
+|
+|-heal|p1a: Gyarados|69/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, M|38/100 par
+|turn|31
+|
+|move|p1a: Gyarados|Waterfall|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|-heal|p1a: Gyarados|75/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|32
+|
+|move|p1a: Gyarados|Ice Fang|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-heal|p1a: Gyarados|81/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|turn|33
+|
+|move|p1a: Gyarados|Waterfall|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|win|BobusWombous
+|raw|BobusWombous's rating: 1241 → 1269(+28 for winning)
+|raw|James Garden's rating: 1273 → 1246(-27 for losing)
+|l|☆James Garden
+|c|☆BobusWombous|gg

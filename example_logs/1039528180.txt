@@ -1,0 +1,421 @@
+|ScrapeTime|2020-01-02-05:55:14
+|j|☆Flippersjosh
+|j|☆0xYx0
+|player|p1|Flippersjosh|lucas-gen4pt|1251
+|player|p2|0xYx0|lillie|1188
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ninetales, M|
+|poke|p1|Shiftry, M|
+|poke|p1|Dugtrio, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Dragapult, M|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Gastrodon-East, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Clefable, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Excadrill, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ninetales|Ninetales, M, shiny|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Flippersjosh)
+|
+|move|p2a: Rotom|Trick|p1a: Ninetales
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Ninetales
+|-item|p1a: Ninetales|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Heat Rock|[from] move: Trick
+|move|p1a: Ninetales|Mystical Fire|p2a: Rotom
+|-resisted|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|66/100
+|-unboost|p2a: Rotom|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Dugtrio|Dugtrio, M, shiny|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Dugtrio
+|-immune|p1a: Dugtrio
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|move|p1a: Dugtrio|Memento|p2a: Corsola
+|-unboost|p2a: Corsola|atk|2
+|-unboost|p2a: Corsola|spa|2
+|faint|p1a: Dugtrio
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|Flippersjosh has 120 seconds left.
+|
+|switch|p1a: Shiftry|Shiftry, M|100/100
+|turn|4
+|
+|move|p1a: Shiftry|Throat Chop|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|55/100
+|-start|p1a: Shiftry|Disable|Throat Chop|[from] ability: Cursed Body|[of] p2a: Corsola
+|-start|p2a: Corsola|Throat Chop|[silent]
+|-damage|p1a: Shiftry|91/100|[from] item: Life Orb
+|move|p2a: Corsola|Will-O-Wisp|p1a: Shiftry|[miss]
+|-miss|p2a: Corsola|p1a: Shiftry
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|inactive|Flippersjosh has 120 seconds left.
+|
+|move|p1a: Shiftry|Solar Blade||[still]
+|-prepare|p1a: Shiftry|Solar Blade|p2a: Corsola
+|-anim|p1a: Shiftry|Solar Blade|p2a: Corsola
+|-damage|p2a: Corsola|21/100
+|-damage|p1a: Shiftry|81/100|[from] item: Life Orb
+|move|p2a: Corsola|Strength Sap|p1a: Shiftry
+|-unboost|p1a: Shiftry|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Corsola|Throat Chop|[silent]
+|upkeep
+|turn|6
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Corsola|Will-O-Wisp|p1a: Hatterene
+|move|p1a: Hatterene|Will-O-Wisp|p2a: Corsola|[from]Magic Bounce
+|-status|p2a: Corsola|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|80/100
+|-unboost|p2a: Hydreigon|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Hydreigon|86/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|61/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|
+|-weather|none
+|-heal|p2a: Hydreigon|68/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|56/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p2a: Hydreigon|74/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|62/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|49/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|-heal|p1a: Hatterene|81/100|[from] drain|[of] p2a: Hydreigon
+|
+|-heal|p2a: Hydreigon|55/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|87/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|61/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-heal|p1a: Hatterene|100/100|[from] drain|[of] p2a: Hydreigon
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|12
+|
+|move|p2a: Clefable|Aromatherapy|p2a: Clefable
+|-activate|p2a: Clefable|move: Aromatherapy
+|-curestatus|p2: Corsola|brn|[msg]
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Rotom|Rotom-Heat|66/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|42/100
+|-unboost|p2a: Rotom|spa|1
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Rotom|Trick|p1a: Hatterene
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Hatterene
+|-item|p1a: Hatterene|Heat Rock|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|move|p1a: Hatterene|Mystical Fire|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|20/100
+|-unboost|p2a: Rotom|spa|1
+|
+|-heal|p2a: Rotom|26/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Hatterene|Mystical Fire|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|20/100
+|-unboost|p2a: Excadrill|spa|1
+|
+|-heal|p2a: Excadrill|26/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Flippersjosh has 120 seconds left.
+|
+|switch|p2a: Gastrodon|Gastrodon-East, F|100/100
+|switch|p1a: Ninetales|Ninetales, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Gastrodon
+|-status|p2a: Gastrodon|brn
+|move|p2a: Gastrodon|Scald|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|71/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p1a: Shiftry|Shiftry, M|81/100
+|move|p2a: Gastrodon|Scald|p1a: Shiftry
+|-resisted|p1a: Shiftry
+|-damage|p1a: Shiftry|70/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gastrodon|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p1a: Shiftry|Growth|p1a: Shiftry
+|-boost|p1a: Shiftry|atk|2
+|-boost|p1a: Shiftry|spa|2
+|move|p2a: Gastrodon|Clear Smog|p1a: Shiftry
+|-supereffective|p1a: Shiftry
+|-crit|p1a: Shiftry
+|-damage|p1a: Shiftry|15/100
+|-clearboost|p1a: Shiftry
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gastrodon|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p1a: Shiftry|Growth|p1a: Shiftry
+|-boost|p1a: Shiftry|atk|2
+|-boost|p1a: Shiftry|spa|2
+|move|p2a: Gastrodon|Clear Smog|p1a: Shiftry
+|-supereffective|p1a: Shiftry
+|-damage|p1a: Shiftry|0 fnt
+|-clearboost|p1a: Shiftry
+|faint|p1a: Shiftry
+|
+|-weather|none
+|-heal|p2a: Gastrodon|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|21
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Flippersjosh|Reflect
+|move|p2a: Gastrodon|Clear Smog|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|85/100
+|-clearboost|p1a: Grimmsnarl
+|
+|-heal|p2a: Gastrodon|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Flippersjosh|move: Light Screen
+|move|p2a: Gastrodon|Scald|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|76/100
+|-status|p1a: Grimmsnarl|brn
+|
+|-heal|p2a: Gastrodon|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|70/100 brn|[from] brn
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Gastrodon|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|90/100
+|
+|-heal|p2a: Gastrodon|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|65/100
+|move|p2a: Gastrodon|Scald|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p2a: Gastrodon|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|switch|p2a: Corsola|Corsola-Galar, F|94/100
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Corsola|Night Shade|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|40/100
+|move|p2a: Corsola|Night Shade|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|15/100
+|-enditem|p1a: Dragapult|Liechi Berry|[eat]
+|-boost|p1a: Dragapult|atk|1
+|move|p2a: Corsola|Night Shade|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-sideend|p1: Flippersjosh|Reflect
+|upkeep
+|turn|29
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Corsola
+|move|p2a: Corsola|Night Shade|p1a: Dragapult|[miss]
+|-miss|p2a: Corsola|p1a: Dragapult
+|
+|-sideend|p1: Flippersjosh|move: Light Screen
+|upkeep
+|turn|30
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Corsola|[from]lockedmove
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|26/100
+|turn|31
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-hitcount|p2a: Rotom|1
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|32
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Clefable
+|move|p2a: Clefable|Dazzling Gleam|p1a: Dragapult|[miss]
+|-miss|p2a: Clefable|p1a: Dragapult
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Clefable|[from]lockedmove
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Gastrodon|Gastrodon-East, F|94/100 brn
+|turn|34
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Gastrodon
+|-damage|p2a: Gastrodon|33/100 brn
+|-damage|p2a: Gastrodon|0 fnt
+|-hitcount|p2a: Gastrodon|2
+|faint|p2a: Gastrodon
+|
+|upkeep
+|-message|0xYx0 forfeited.
+|
+|win|Flippersjosh
+|l|☆0xYx0

@@ -1,0 +1,229 @@
+|ScrapeTime|2020-01-01-11:25:04
+|j|☆oh Lucy
+|j|☆Myaku
+|player|p1|oh Lucy|tuberf|1312
+|player|p2|Myaku|39|1320
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Weezing-Galar, F|
+|poke|p1|Sylveon, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Haxorus, M|
+|poke|p1|Bisharp, M|
+|poke|p2|Toxtricity, M|
+|poke|p2|Hydreigon, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Bisharp, M|
+|poke|p2|Mimikyu, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p1a: Haxorus|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-enditem|p2a: Excadrill|Focus Sash
+|-damage|p2a: Excadrill|1/100
+|-damage|p1a: Haxorus|91/100|[from] item: Life Orb
+|move|p2a: Excadrill|Rock Tomb|p1a: Haxorus
+|-damage|p1a: Haxorus|61/100
+|-unboost|p1a: Haxorus|spe|1
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Excadrill|Earthquake|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|faint|p1a: Haxorus
+|
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|turn|3
+|
+|switch|p2a: Mimikyu|Mimikyu, F|100/100
+|move|p1a: Conkeldurr|Earthquake|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F
+|-damage|p2a: Mimikyu|88/100|[from] ability: Disguise|[of] p2a: Mimikyu
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|move|p2a: Mimikyu|Play Rough|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|85/100
+|-damage|p2a: Mimikyu|78/100|[from] item: Life Orb
+|
+|-heal|p1a: Weezing|91/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|move|p1a: Weezing|Fire Blast|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|22/100
+|-status|p2a: Bisharp|brn
+|
+|-heal|p1a: Weezing|97/100|[from] item: Black Sludge
+|-damage|p2a: Bisharp|16/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p2a: Bisharp|Iron Head|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|56/100
+|-damage|p2a: Bisharp|6/100 brn|[from] item: Life Orb
+|cant|p1a: Weezing|flinch
+|
+|-heal|p1a: Weezing|62/100|[from] item: Black Sludge
+|-damage|p2a: Bisharp|0 fnt|[from] brn
+|faint|p2a: Bisharp
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|7
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|move|p1a: Weezing|Strange Steam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|-heal|p1a: Weezing|68/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|move|p2a: Dragapult|Disable|p1a: Weezing
+|-start|p1a: Weezing|Disable|Strange Steam
+|cant|p1a: Weezing|Disable|Strange Steam
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|-heal|p1a: Weezing|74/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|63/100
+|
+|-heal|p2a: Dragapult|69/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: Bisharp|Throat Chop|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|75/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Dragapult|Disable|p1a: Bisharp
+|-start|p1a: Bisharp|Disable|Throat Chop
+|cant|p1a: Bisharp|Disable|Throat Chop
+|
+|-heal|p2a: Dragapult|81/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|56/100
+|move|p1a: Bisharp|Iron Head|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|62/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Bisharp
+|move|p1a: Bisharp|Iron Head|p2a: Dragapult|[miss]
+|-miss|p1a: Bisharp|p2a: Dragapult
+|
+|-heal|p2a: Dragapult|68/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Bisharp|[from]lockedmove
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|58/100
+|move|p1a: Bisharp|Iron Head|p2a: Dragapult
+|-damage|p2a: Dragapult|8/100
+|
+|-heal|p2a: Dragapult|14/100|[from] item: Leftovers
+|-end|p1a: Bisharp|Disable
+|upkeep
+|turn|15
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Bisharp|Throat Chop|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-crit|p2a: Hydreigon
+|-damage|p2a: Hydreigon|61/100
+|-start|p2a: Hydreigon|Throat Chop|[silent]
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100 brn
+|move|p2a: Hydreigon|U-turn|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|94/100 brn
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100|[from]move: U-turn
+|
+|-damage|p1a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|18
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Rotom
+|-damage|p1a: Rotom|1/100
+|move|p1a: Rotom|Hydro Pump|p2a: Toxtricity|[miss]
+|-miss|p1a: Rotom|p2a: Toxtricity
+|
+|upkeep
+|turn|19
+|-message|oh Lucy forfeited.
+|
+|win|Myaku
+|l|☆oh Lucy
+|raw|oh Lucy's rating: 1312 → 1293(-19 for losing)
+|raw|Myaku's rating: 1321 → 1340(+19 for winning)

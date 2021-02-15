@@ -1,0 +1,460 @@
+|ScrapeTime|2020-01-02-10:55:12
+|j|☆2020inteleon
+|j|☆argl
+|player|p1|2020inteleon|pokemaniac|1100
+|player|p2|argl|169|1128
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tyranitar, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Seismitoad, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Cinderace, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Robinson|Ferrothorn, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|move|p2a: Robinson|Gyro Ball|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|11/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Tyranitar|Protect|p1a: Tyranitar
+|-singleturn|p1a: Tyranitar|Protect
+|move|p2a: Robinson|Power Whip|p1a: Tyranitar
+|-activate|p1a: Tyranitar|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Tyranitar|Crunch|p2a: Robinson
+|-damage|p2a: Robinson|58/100
+|-damage|p1a: Tyranitar|0 fnt|[from] ability: Iron Barbs|[of] p2a: Robinson
+|faint|p1a: Tyranitar
+|move|p2a: Robinson|Power Whip|p1: Tyranitar|[notarget]
+|-fail|p2a: Robinson
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: rotom porno|Rotom-Heat|100/100
+|turn|4
+|
+|switch|p2a: Jean-Pierre|Tyranitar, F|100/100
+|move|p1a: rotom porno|Overheat|p2a: Jean-Pierre
+|-resisted|p2a: Jean-Pierre
+|-damage|p2a: Jean-Pierre|92/100
+|-unboost|p1a: rotom porno|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: rotom porno|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Jean-Pierre|Crunch|p1a: Seismitoad
+|-damage|p1a: Seismitoad|74/100
+|-damage|p2a: Jean-Pierre|75/100|[from] item: Rocky Helmet|[of] p1a: Seismitoad
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|move|p1a: Seismitoad|Stealth Rock|p2a: Jean-Pierre
+|-sidestart|p2: argl|move: Stealth Rock
+|move|p2a: Jean-Pierre|Crunch|p1a: Seismitoad
+|-damage|p1a: Seismitoad|46/100
+|-damage|p2a: Jean-Pierre|59/100|[from] item: Rocky Helmet|[of] p1a: Seismitoad
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Seismitoad|Scald|p2a: Jean-Pierre
+|-supereffective|p2a: Jean-Pierre
+|-damage|p2a: Jean-Pierre|39/100
+|move|p2a: Jean-Pierre|Crunch|p1a: Seismitoad
+|-damage|p1a: Seismitoad|21/100
+|-damage|p2a: Jean-Pierre|23/100|[from] item: Rocky Helmet|[of] p1a: Seismitoad
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Seismitoad|Earthquake|p2a: Jean-Pierre
+|-supereffective|p2a: Jean-Pierre
+|-damage|p2a: Jean-Pierre|0 fnt
+|faint|p2a: Jean-Pierre
+|
+|upkeep
+|
+|switch|p2a: Thalès|Hydreigon, F|100/100
+|-damage|p2a: Thalès|88/100|[from] Stealth Rock
+|turn|9
+|
+|move|p2a: Thalès|Dark Pulse|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: rotom porno|Rotom-Heat|94/100
+|turn|10
+|
+|move|p2a: Thalès|Dark Pulse|p1a: rotom porno
+|-damage|p1a: rotom porno|36/100
+|move|p1a: rotom porno|Volt Switch|p2a: Thalès
+|-resisted|p2a: Thalès
+|-damage|p2a: Thalès|72/100
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Thalès|Dark Pulse|p1a: Excadrill
+|-damage|p1a: Excadrill|50/100
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Thalès|Dark Pulse|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|13
+|
+|move|p2a: Thalès|Dark Pulse|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|turn|14
+|
+|move|p2a: Thalès|Dark Pulse|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|89/100
+|move|p1a: Mandibuzz|Foul Play|p2a: Thalès
+|-resisted|p2a: Thalès
+|-damage|p2a: Thalès|55/100
+|
+|-heal|p1a: Mandibuzz|95/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Laurent|Cinderace, F|100/100
+|move|p1a: Mandibuzz|Toxic|p2a: Laurent
+|-status|p2a: Laurent|tox
+|
+|-heal|p1a: Mandibuzz|100/100|[from] item: Leftovers
+|-damage|p2a: Laurent|95/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|move|p2a: Laurent|Court Change|p2a: Laurent
+|-sideend|p2: argl|Stealth Rock|[silent]
+|-sidestart|p1: 2020inteleon|Stealth Rock|[silent]
+|-activate|p2a: Laurent|move: Court Change
+|move|p1a: Mandibuzz|Roost||[still]
+|-fail|p1a: Mandibuzz|heal
+|
+|-damage|p2a: Laurent|83/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p2a: Laurent|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|84/100
+|
+|switch|p2a: Frédéric|Dragapult, F|100/100|[from]move: U-turn
+|move|p1a: Mandibuzz|Foul Play|p2a: Frédéric
+|-supereffective|p2a: Frédéric
+|-damage|p2a: Frédéric|16/100
+|
+|-heal|p1a: Mandibuzz|90/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Frédéric|Draco Meteor|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|35/100
+|-unboost|p2a: Frédéric|spa|2
+|move|p1a: Mandibuzz|Toxic|p2a: Frédéric
+|-status|p2a: Frédéric|tox
+|
+|-heal|p1a: Mandibuzz|41/100|[from] item: Leftovers
+|-damage|p2a: Frédéric|10/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p2a: Frédéric|Draco Meteor|p1a: Mandibuzz|[miss]
+|-miss|p2a: Frédéric|p1a: Mandibuzz
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|92/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Mandibuzz|98/100|[from] item: Leftovers
+|-damage|p2a: Frédéric|0 fnt|[from] psn
+|faint|p2a: Frédéric
+|upkeep
+|
+|switch|p2a: Thalès|Hydreigon, F|55/100
+|turn|20
+|
+|move|p2a: Thalès|Fire Blast|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|77/100
+|move|p1a: Mandibuzz|Toxic|p2a: Thalès
+|-status|p2a: Thalès|tox
+|
+|-heal|p1a: Mandibuzz|83/100|[from] item: Leftovers
+|-damage|p2a: Thalès|49/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p2a: Robinson|Ferrothorn, F|58/100
+|move|p1a: Mandibuzz|Defog|p2a: Robinson
+|-unboost|p2a: Robinson|evasion|1
+|-sideend|p1: 2020inteleon|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|-heal|p1a: Mandibuzz|89/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: rotom porno|Rotom-Heat|36/100
+|move|p2a: Robinson|Knock Off|p1a: rotom porno
+|-damage|p1a: rotom porno|10/100
+|-enditem|p1a: rotom porno|Choice Scarf|[from] move: Knock Off|[of] p2a: Robinson
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Laurent|Cinderace, F|83/100 tox
+|move|p1a: rotom porno|Overheat|p2a: Laurent
+|-resisted|p2a: Laurent
+|-damage|p2a: Laurent|40/100 tox
+|-unboost|p1a: rotom porno|spa|2
+|
+|-damage|p2a: Laurent|34/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|move|p2a: Laurent|Pyro Ball|p1a: rotom porno
+|-resisted|p1a: rotom porno
+|-damage|p1a: rotom porno|0 fnt
+|faint|p1a: rotom porno
+|
+|-damage|p2a: Laurent|22/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|89/100
+|turn|25
+|
+|move|p2a: Laurent|Pyro Ball|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|24/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|74/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Mandibuzz|80/100|[from] item: Leftovers
+|-damage|p2a: Laurent|4/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|move|p2a: Laurent|Pyro Ball|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|16/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|66/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Mandibuzz|72/100|[from] item: Leftovers
+|-damage|p2a: Laurent|0 fnt|[from] psn
+|faint|p2a: Laurent
+|upkeep
+|
+|switch|p2a: Philippe-Philippe|Excadrill, M|100/100
+|-ability|p2a: Philippe-Philippe|Mold Breaker
+|turn|27
+|
+|move|p2a: Philippe-Philippe|Iron Head|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|40/100
+|move|p1a: Mandibuzz|Foul Play|p2a: Philippe-Philippe
+|-damage|p2a: Philippe-Philippe|24/100
+|
+|-heal|p2a: Philippe-Philippe|30/100|[from] item: Leftovers
+|-heal|p1a: Mandibuzz|46/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Robinson|Ferrothorn, F|58/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|96/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Mandibuzz|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Robinson
+|-damage|p2a: Robinson|40/100
+|-damage|p1a: Mandibuzz|88/100|[from] ability: Iron Barbs|[of] p2a: Robinson
+|-damage|p1a: Mandibuzz|72/100|[from] item: Rocky Helmet|[of] p2a: Robinson
+|move|p2a: Robinson|Knock Off|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|63/100
+|-enditem|p1a: Mandibuzz|Leftovers|[from] move: Knock Off|[of] p2a: Robinson
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Robinson|Gyro Ball|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|72/100
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Robinson
+|-damage|p2a: Robinson|21/100
+|-damage|p1a: Mandibuzz|60/100|[from] ability: Iron Barbs|[of] p2a: Robinson
+|-damage|p1a: Mandibuzz|43/100|[from] item: Rocky Helmet|[of] p2a: Robinson
+|move|p2a: Robinson|Gyro Ball|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|18/100
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|68/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Robinson|Gyro Ball|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|44/100
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|94/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Robinson|Gyro Ball|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|64/100
+|
+|upkeep
+|turn|34
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Robinson
+|-damage|p2a: Robinson|3/100
+|-damage|p1a: Mandibuzz|52/100|[from] ability: Iron Barbs|[of] p2a: Robinson
+|-damage|p1a: Mandibuzz|35/100|[from] item: Rocky Helmet|[of] p2a: Robinson
+|move|p2a: Robinson|Gyro Ball|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|11/100
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|61/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Robinson|Gyro Ball|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|32/100
+|
+|upkeep
+|turn|36
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|83/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Robinson|Gyro Ball|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|57/100
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Robinson|Power Whip|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|71/100
+|
+|upkeep
+|turn|38
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Robinson
+|-damage|p2a: Robinson|0 fnt
+|-damage|p1a: Mandibuzz|59/100|[from] ability: Iron Barbs|[of] p2a: Robinson
+|-damage|p1a: Mandibuzz|43/100|[from] item: Rocky Helmet|[of] p2a: Robinson
+|faint|p2a: Robinson
+|
+|upkeep
+|
+|switch|p2a: Thalès|Hydreigon, F|49/100 tox
+|turn|39
+|
+|move|p2a: Thalès|Surf|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|24/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|74/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p2a: Thalès|43/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|move|p2a: Thalès|Surf|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|56/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p2a: Thalès|31/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|switch|p2a: Philippe-Philippe|Excadrill, M|30/100
+|-ability|p2a: Philippe-Philippe|Mold Breaker
+|move|p1a: Mandibuzz|Foul Play|p2a: Philippe-Philippe
+|-damage|p2a: Philippe-Philippe|0 fnt
+|faint|p2a: Philippe-Philippe
+|
+|upkeep
+|-message|argl forfeited.
+|
+|win|2020inteleon
+|l|☆argl
+|raw|2020inteleon's rating: 1100 → 1127(+27 for winning)
+|raw|argl's rating: 1129 → 1102(-27 for losing)

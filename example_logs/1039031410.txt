@@ -1,0 +1,384 @@
+|ScrapeTime|2020-01-01-06:15:31
+|j|☆minggongzero
+|j|☆m_melons
+|player|p1|minggongzero|102|1449
+|player|p2|m_melons|178|1425
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Bisharp, M|
+|poke|p1|Ludicolo, M|
+|poke|p1|Dracovish|
+|poke|p1|Seismitoad, F|
+|poke|p1|Frosmoth, F|
+|poke|p2|Bisharp, M|
+|poke|p2|Hawlucha, F|
+|poke|p2|Mimikyu, M|
+|poke|p2|Gardevoir, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Rotom-Wash|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by m_melons)
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-ability|p2a: Gardevoir|Drizzle|[from] ability: Trace|[of] p1a: Pelipper
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Frosmoth|Frosmoth, F|100/100
+|move|p2a: Gardevoir|Energy Ball|p1a: Frosmoth
+|-resisted|p1a: Frosmoth
+|-damage|p1a: Frosmoth|90/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+|-boost|p1a: Frosmoth|spa|1
+|-boost|p1a: Frosmoth|spd|1
+|-boost|p1a: Frosmoth|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Frosmoth|Bug Buzz|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|42/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Frosmoth
+|-start|p1a: Frosmoth|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|48/100|[from] item: Leftovers
+|-damage|p1a: Frosmoth|78/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|58/100|[silent]
+|upkeep
+|turn|5
+|
+|switch|p1a: Ludicolo|Ludicolo, M|100/100
+|move|p2a: Ferrothorn|Protect||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|64/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|move|p1a: Ludicolo|Knock Off|p2a: Hawlucha
+|-resisted|p2a: Hawlucha
+|-damage|p2a: Hawlucha|87/100
+|-enditem|p2a: Hawlucha|Sitrus Berry|[from] move: Knock Off|[of] p1a: Ludicolo
+|-damage|p1a: Ludicolo|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Ludicolo|Ice Beam|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|-damage|p1a: Ludicolo|81/100|[from] item: Life Orb
+|faint|p2a: Hawlucha
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-ability|p2a: Gardevoir|Swift Swim|[from] ability: Trace|[of] p1a: Ludicolo
+|turn|8
+|
+|switch|p1a: Frosmoth|Frosmoth, F|78/100
+|move|p2a: Gardevoir|Moonblast|p1a: Frosmoth
+|-damage|p1a: Frosmoth|42/100
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|move|p2a: Gardevoir|Moonblast|p1a: Frosmoth
+|-damage|p1a: Frosmoth|12/100
+|move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+|-boost|p1a: Frosmoth|spa|1
+|-boost|p1a: Frosmoth|spd|1
+|-boost|p1a: Frosmoth|spe|1
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Frosmoth|Bug Buzz|p2a: Gardevoir
+|-damage|p2a: Gardevoir|52/100
+|move|p2a: Gardevoir|Moonblast|p1a: Frosmoth
+|-damage|p1a: Frosmoth|0 fnt
+|faint|p1a: Frosmoth
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|11
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|43/100
+|
+|-heal|p2a: Rotom|50/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|64/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|28/100
+|-damage|p1a: Dracovish|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|35/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|2/100
+|-damage|p1a: Dracovish|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Dracovish
+|-start|p1a: Dracovish|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|8/100|[from] item: Leftovers
+|-damage|p1a: Dracovish|63/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|20/100|[silent]
+|upkeep
+|turn|14
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Ferrothorn|Protect||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|26/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Pelipper|Hurricane|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|50/100
+|turn|16
+|
+|switch|p2a: Gardevoir|Gardevoir, M|52/100
+|-ability|p2a: Gardevoir|Drizzle|[from] ability: Trace|[of] p1a: Pelipper
+|switch|p1a: Ludicolo|Ludicolo, M|81/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|switch|p2a: Rotom|Rotom-Wash|50/100
+|move|p1a: Ludicolo|Giga Drain|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-heal|p1a: Ludicolo|100/100|[from] drain|[of] p2a: Rotom
+|-damage|p1a: Ludicolo|91/100|[from] item: Life Orb
+|faint|p2a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Gardevoir|Gardevoir, M|52/100
+|-ability|p2a: Gardevoir|Swift Swim|[from] ability: Trace|[of] p1a: Ludicolo
+|turn|18
+|
+|move|p2a: Gardevoir|Moonblast|p1a: Ludicolo
+|-damage|p1a: Ludicolo|36/100
+|move|p1a: Ludicolo|Giga Drain|p2a: Gardevoir
+|-damage|p2a: Gardevoir|23/100
+|-heal|p1a: Ludicolo|50/100|[from] drain|[of] p2a: Gardevoir
+|-damage|p1a: Ludicolo|40/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|move|p2a: Gardevoir|Moonblast|p1a: Ludicolo
+|-damage|p1a: Ludicolo|0 fnt
+|faint|p1a: Ludicolo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|turn|20
+|
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|move|p1a: Bisharp|Sucker Punch||[still]
+|-fail|p1a: Bisharp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|move|p1a: Bisharp|Throat Chop|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|-start|p2a: Mimikyu|Throat Chop|[silent]
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M
+|-damage|p2a: Mimikyu|88/100|[from] ability: Disguise|[of] p2a: Mimikyu
+|
+|-weather|none
+|upkeep
+|turn|22
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Mimikyu|Play Rough|p1a: Seismitoad
+|-damage|p1a: Seismitoad|25/100
+|-damage|p2a: Mimikyu|78/100|[from] item: Life Orb
+|
+|-heal|p1a: Seismitoad|31/100|[from] item: Leftovers
+|-end|p2a: Mimikyu|Throat Chop|[silent]
+|upkeep
+|turn|23
+|
+|move|p2a: Mimikyu|Play Rough|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|-damage|p2a: Mimikyu|68/100|[from] item: Life Orb
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|24
+|
+|move|p2a: Mimikyu|Play Rough|p1a: Pelipper
+|-damage|p1a: Pelipper|22/100
+|-damage|p2a: Mimikyu|58/100|[from] item: Life Orb
+|move|p1a: Pelipper|U-turn|p2a: Mimikyu
+|-resisted|p2a: Mimikyu
+|-damage|p2a: Mimikyu|55/100
+|
+|switch|p1a: Dracovish|Dracovish|63/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Dracovish
+|-damage|p1a: Dracovish|10/100
+|-damage|p2a: Mimikyu|45/100|[from] item: Life Orb
+|move|p1a: Dracovish|Fishious Rend|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M, shiny|100/100
+|turn|26
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|73/100
+|-start|p2a: Bisharp|Throat Chop|[silent]
+|move|p2a: Bisharp|Iron Head|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|46/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|28
+|
+|move|p1a: Bisharp|Iron Head|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|47/100
+|move|p2a: Bisharp|Iron Head|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|-weather|RainDance|[upkeep]
+|-end|p2a: Bisharp|Throat Chop|[silent]
+|upkeep
+|
+|switch|p1a: Pelipper|Pelipper, F|22/100
+|turn|29
+|
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|72/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|30
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Pelipper
+|-damage|p1a: Pelipper|10/100
+|move|p1a: Pelipper|Scald|p2a: Bisharp
+|-crit|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Gardevoir|Gardevoir, M|23/100
+|-ability|p2a: Gardevoir|Drizzle|[from] ability: Trace|[of] p1a: Pelipper
+|turn|31
+|
+|move|p2a: Gardevoir|Moonblast|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|10/100
+|turn|32
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|win|minggongzero
+|l|☆m_melons
+|raw|minggongzero's rating: 1449 → 1468(+19 for winning)
+|raw|m_melons's rating: 1426 → 1407(-19 for losing)

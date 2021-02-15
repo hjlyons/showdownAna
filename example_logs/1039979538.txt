@@ -1,0 +1,112 @@
+|ScrapeTime|2020-01-03-01:14:26
+|j|☆MegaBrunx
+|j|☆BelgianToast
+|player|p1|MegaBrunx|127|1186
+|player|p2|BelgianToast|hilda-dueldisk|1242
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gastrodon, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Toxtricity, F|
+|poke|p1|Cloyster, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Rotom-Heat|
+|poke|p2|Dragapult, M|
+|poke|p2|Hydreigon, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Clefable, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Toxtricity|Toxtricity, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Toxtricity
+|move|p1a: Toxtricity|Toxic|p2a: Dragapult
+|-status|p2a: Dragapult|tox
+|
+|-damage|p2a: Dragapult|95/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p1a: Toxtricity|Protect|p1a: Toxtricity
+|-singleturn|p1a: Toxtricity|Protect
+|move|p2a: Dragapult|Phantom Force|p1a: Toxtricity|[from]lockedmove
+|-activate|p1a: Toxtricity|move: Phantom Force|[broken]
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|-damage|p2a: Dragapult|83/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|turn|3
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Hydreigon
+|-sidestart|p2: BelgianToast|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|76/100
+|
+|-heal|p2a: Hydreigon|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|-heal|p2a: Hydreigon|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Dragapult|U-turn|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|-damage|p1a: Dragapult|91/100|[from] item: Life Orb
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100|[from]move: U-turn
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|63/100
+|
+|-heal|p2a: Hydreigon|69/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Dragapult|Dragapult, M|91/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Hydreigon|75/100|[from] item: Leftovers
+|upkeep
+|-message|MegaBrunx forfeited.
+|
+|win|BelgianToast
+|l|☆MegaBrunx
+|raw|MegaBrunx's rating: 1186 → 1165(-21 for losing)
+|raw|BelgianToast's rating: 1242 → 1263(+21 for winning)

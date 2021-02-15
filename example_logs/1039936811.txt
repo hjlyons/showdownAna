@@ -1,0 +1,92 @@
+|ScrapeTime|2020-01-02-23:45:21
+|j|☆Risingsun2287
+|j|☆MONKNAVE
+|player|p1|Risingsun2287|ethan|1119
+|player|p2|MONKNAVE|265|1076
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Umbreon, M|
+|poke|p1|Jolteon, F|
+|poke|p1|Sylveon, M|
+|poke|p1|Vaporeon, F|
+|poke|p1|Flareon, F|
+|poke|p1|Espeon, M|
+|poke|p2|Mudsdale, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Scrafty, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Coalossal, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MONKNAVE)
+|
+|start
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|1
+|
+|switch|p1a: Espeon|Espeon, M|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Espeon
+|move|p1a: Espeon|Leech Seed|p2a: Ferrothorn|[from]Magic Bounce
+|-immune|p2a: Ferrothorn
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|88/100
+|
+|upkeep
+|turn|3
+|inactive|MONKNAVE has 120 seconds left.
+|
+|switch|p1a: Flareon|Flareon, F|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Flareon
+|-start|p1a: Flareon|move: Leech Seed
+|
+|-damage|p1a: Flareon|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-status|p1a: Flareon|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|inactive|MONKNAVE has 120 seconds left.
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Flareon|Superpower|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-damage|p1a: Flareon|76/100 tox|[from] Leech Seed|[of] p2a: Ferrothorn
+|-damage|p1a: Flareon|70/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p2a: Coalossal|Coalossal, F|100/100
+|move|p1a: Flareon|Superpower|p2a: Coalossal
+|-supereffective|p2a: Coalossal
+|-damage|p2a: Coalossal|3/100
+|-unboost|p1a: Flareon|atk|1
+|-unboost|p1a: Flareon|def|1
+|
+|-damage|p1a: Flareon|58/100 tox|[from] Leech Seed|[of] p2a: Coalossal
+|-heal|p2a: Coalossal|13/100|[silent]
+|-damage|p1a: Flareon|46/100 tox|[from] psn
+|upkeep
+|turn|6
+|-message|MONKNAVE forfeited.
+|
+|win|Risingsun2287
+|l|☆MONKNAVE

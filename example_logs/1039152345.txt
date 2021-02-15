@@ -1,0 +1,370 @@
+|ScrapeTime|2020-01-01-14:55:10
+|j|☆Simone campione
+|j|☆bynev
+|player|p1|Simone campione|nate|1255
+|player|p2|bynev|2|1280
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Barraskewda, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Toxtricity-Low-Key, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Aegislash, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Mimikyu, F|
+|poke|p2|Rotom-Wash|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: couille|Ferrothorn, F|100/100
+|turn|1
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|move|p2a: couille|Gyro Ball|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: couille|Spikes|p1a: Cinderace
+|-sidestart|p1: Simone campione|Spikes
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: pretty <3|Hatterene, F, shiny|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: pretty <3
+|-damage|p2a: pretty <3|36/100
+|
+|-heal|p2a: pretty <3|42/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: casse couille|Rotom-Wash|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: casse couille
+|-resisted|p2a: casse couille
+|-damage|p2a: casse couille|80/100
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, M|100/100
+|-damage|p1a: Toxtricity|88/100|[from] Spikes
+|move|p2a: casse couille|Thunder|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|57/100
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Toxtricity|Snarl|p2a: casse couille|[miss]
+|-miss|p1a: Toxtricity|p2a: casse couille
+|move|p2a: casse couille|Volt Switch|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|37/100
+|
+|switch|p2a: couille|Ferrothorn, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Toxtricity|Snarl|p2a: couille
+|-damage|p2a: couille|84/100
+|-unboost|p2a: couille|spa|1
+|-enditem|p1a: Toxtricity|Throat Spray
+|-boost|p1a: Toxtricity|spa|1
+|move|p2a: couille|Stealth Rock|p1a: Toxtricity
+|-sidestart|p1: Simone campione|move: Stealth Rock
+|
+|-heal|p2a: couille|90/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Toxtricity|Boomburst|p2a: couille
+|-resisted|p2a: couille
+|-damage|p2a: couille|60/100
+|move|p2a: couille|Gyro Ball|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|-heal|p2a: couille|66/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|-damage|p1a: Cinderace|76/100|[from] Stealth Rock
+|-damage|p1a: Cinderace|63/100|[from] Spikes
+|turn|9
+|
+|switch|p2a: casse couille|Rotom-Wash|80/100
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p1: Simone campione|Spikes|[silent]
+|-sidestart|p2: bynev|Spikes|[silent]
+|-sideend|p1: Simone campione|Stealth Rock|[silent]
+|-sidestart|p2: bynev|Stealth Rock|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|
+|-heal|p1a: Cinderace|69/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|move|p2a: casse couille|Hydro Pump|p1a: Aegislash
+|-damage|p1a: Aegislash|71/100
+|
+|upkeep
+|turn|11
+|
+|move|p2a: casse couille|Will-O-Wisp|p1a: Aegislash
+|-status|p1a: Aegislash|brn
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|-damage|p1a: Aegislash|65/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: casse couille|Thunder|p1a: Aegislash
+|-damage|p1a: Aegislash|34/100 brn
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|-damage|p1a: Aegislash|27/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Sneak|p2a: casse couille
+|-damage|p2a: casse couille|57/100
+|move|p2a: casse couille|Thunder|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|82/100
+|turn|14
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|57/100
+|move|p2a: casse couille|Will-O-Wisp||[still]
+|-fail|p2a: casse couille
+|
+|-heal|p1a: Dragapult|63/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: casse couille|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|switch|p2a: PiKa 陰莖陰莖|Mimikyu, F|100/100|[from]move: Volt Switch
+|-damage|p2a: PiKa 陰莖陰莖|88/100|[from] Spikes
+|-damage|p2a: PiKa 陰莖陰莖|76/100|[from] Stealth Rock
+|
+|-heal|p1a: Dragapult|69/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: PiKa 陰莖陰莖
+|move|p2a: PiKa 陰莖陰莖|Swords Dance|p2a: PiKa 陰莖陰莖
+|-boost|p2a: PiKa 陰莖陰莖|atk|2
+|
+|-heal|p1a: Dragapult|75/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Dragapult|Phantom Force|p2a: PiKa 陰莖陰莖|[from]lockedmove
+|-activate|p2a: PiKa 陰莖陰莖|ability: Disguise
+|-damage|p2a: PiKa 陰莖陰莖|76/100
+|detailschange|p2a: PiKa 陰莖陰莖|Mimikyu-Busted, F
+|-damage|p2a: PiKa 陰莖陰莖|63/100|[from] ability: Disguise|[of] p2a: PiKa 陰莖陰莖
+|move|p2a: PiKa 陰莖陰莖|Swords Dance|p2a: PiKa 陰莖陰莖
+|-boost|p2a: PiKa 陰莖陰莖|atk|2
+|
+|-heal|p1a: Dragapult|81/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: PiKa 陰莖陰莖|Shadow Sneak|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|-damage|p2a: PiKa 陰莖陰莖|53/100|[from] item: Life Orb
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: PiKa 陰莖陰莖
+|
+|-heal|p1a: Dragapult|87/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: couille|Ferrothorn, F|66/100
+|-damage|p2a: couille|54/100|[from] Spikes
+|-damage|p2a: couille|48/100|[from] Stealth Rock
+|move|p1a: Dragapult|Phantom Force|p2a: couille|[from]lockedmove
+|-damage|p2a: couille|3/100
+|-damage|p1a: Dragapult|74/100|[from] ability: Iron Barbs|[of] p2a: couille
+|
+|-heal|p1a: Dragapult|80/100|[from] item: Leftovers
+|-heal|p2a: couille|9/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: couille
+|move|p2a: couille|Gyro Ball|p1a: Dragapult|[miss]
+|-miss|p2a: couille|p1a: Dragapult
+|
+|-heal|p1a: Dragapult|86/100|[from] item: Leftovers
+|-heal|p2a: couille|16/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Dragapult|Phantom Force|p2a: couille|[from]lockedmove
+|-damage|p2a: couille|0 fnt
+|-damage|p1a: Dragapult|74/100|[from] ability: Iron Barbs|[of] p2a: couille
+|faint|p2a: couille
+|
+|-heal|p1a: Dragapult|80/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: PiKa 陰莖陰莖|Mimikyu-Busted, F|53/100
+|-damage|p2a: PiKa 陰莖陰莖|41/100|[from] Spikes
+|-damage|p2a: PiKa 陰莖陰莖|29/100|[from] Stealth Rock
+|turn|22
+|
+|switch|p1a: Cinderace|Cinderace, F|69/100
+|move|p2a: PiKa 陰莖陰莖|Shadow Sneak|p1a: Cinderace
+|-damage|p1a: Cinderace|46/100
+|-damage|p2a: PiKa 陰莖陰莖|19/100|[from] item: Life Orb
+|
+|-heal|p1a: Cinderace|52/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: PiKa 陰莖陰莖|[miss]
+|-miss|p1a: Cinderace|p2a: PiKa 陰莖陰莖
+|move|p2a: PiKa 陰莖陰莖|Shadow Claw|p1a: Cinderace
+|-damage|p1a: Cinderace|13/100
+|-damage|p2a: PiKa 陰莖陰莖|9/100|[from] item: Life Orb
+|
+|-heal|p1a: Cinderace|19/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Cinderace|Sucker Punch|p2a: PiKa 陰莖陰莖
+|-damage|p2a: PiKa 陰莖陰莖|0 fnt
+|faint|p2a: PiKa 陰莖陰莖
+|
+|-heal|p1a: Cinderace|25/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dracool|Dragapult, F, shiny|100/100
+|-damage|p2a: Dracool|88/100|[from] Spikes
+|-damage|p2a: Dracool|76/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Cinderace|Sucker Punch|p2a: Dracool
+|-supereffective|p2a: Dracool
+|-damage|p2a: Dracool|30/100
+|move|p2a: Dracool|Dragon Pulse|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|26
+|
+|move|p2a: Dracool|Dragon Pulse|p1a: Pelipper
+|-damage|p1a: Pelipper|17/100
+|move|p1a: Pelipper|Hurricane|p2a: Dracool
+|-damage|p2a: Dracool|0 fnt
+|faint|p2a: Dracool
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Pelipper|23/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: pretty <3|Hatterene, F, shiny|42/100
+|-damage|p2a: pretty <3|30/100|[from] Stealth Rock
+|-damage|p2a: pretty <3|17/100|[from] Spikes
+|turn|27
+|
+|move|p1a: Pelipper|Hurricane|p2a: pretty <3
+|-damage|p2a: pretty <3|0 fnt
+|faint|p2a: pretty <3
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Pelipper|30/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: casse couille|Rotom-Wash|57/100
+|-damage|p2a: casse couille|45/100|[from] Stealth Rock
+|turn|28
+|
+|move|p2a: casse couille|Volt Switch|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|switch|p2a: PAVAAAARRRRDDDDD|Cinderace, M|100/100|[from]move: Volt Switch
+|-damage|p2a: PAVAAAARRRRDDDDD|88/100|[from] Spikes
+|-damage|p2a: PAVAAAARRRRDDDDD|63/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|turn|29
+|
+|move|p1a: Barraskewda|Liquidation|p2a: PAVAAAARRRRDDDDD
+|-supereffective|p2a: PAVAAAARRRRDDDDD
+|-crit|p2a: PAVAAAARRRRDDDDD
+|-damage|p2a: PAVAAAARRRRDDDDD|0 fnt
+|-damage|p1a: Barraskewda|91/100|[from] item: Life Orb
+|faint|p2a: PAVAAAARRRRDDDDD
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: casse couille|Rotom-Wash|45/100
+|-damage|p2a: casse couille|33/100|[from] Stealth Rock
+|turn|30
+|
+|move|p1a: Barraskewda|Close Combat|p2a: casse couille
+|-damage|p2a: casse couille|0 fnt
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|-damage|p1a: Barraskewda|81/100|[from] item: Life Orb
+|faint|p2a: casse couille
+|
+|win|Simone campione
+|raw|Simone campione's rating: 1255 → 1282(+27 for winning)
+|raw|bynev's rating: 1280 → 1253(-27 for losing)

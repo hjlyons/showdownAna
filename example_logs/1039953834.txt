@@ -1,0 +1,202 @@
+|ScrapeTime|2020-01-03-00:25:14
+|j|☆Ruhdndei
+|j|☆MoiDelFenix
+|player|p1|Ruhdndei|169|1000
+|player|p2|MoiDelFenix|157|1047
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cherrim, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Seismitoad, M|
+|poke|p1|Hippowdon, M|
+|poke|p1|Lucario, M|
+|poke|p1|Crustle, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Toxtricity, M|
+|poke|p2|Frosmoth, M|
+|poke|p2|Dracovish|
+|poke|p2|Conkeldurr, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MoiDelFenix)
+|
+|start
+|switch|p1a: Crustle|Crustle, M|100/100
+|switch|p2a: Frosmoth|Frosmoth, M|100/100
+|turn|1
+|
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|move|p1a: Crustle|Shell Smash|p1a: Crustle
+|-unboost|p1a: Crustle|def|1
+|-unboost|p1a: Crustle|spd|1
+|-boost|p1a: Crustle|atk|2
+|-boost|p1a: Crustle|spa|2
+|-boost|p1a: Crustle|spe|2
+|
+|upkeep
+|turn|2
+|inactive|Ruhdndei has 120 seconds left.
+|inactive|Ruhdndei has 90 seconds left.
+|inactive|Ruhdndei has 60 seconds left.
+|
+|move|p1a: Crustle|Rock Blast|p2a: Frosmoth
+|-supereffective|p2a: Frosmoth
+|-enditem|p2a: Frosmoth|Focus Sash
+|-damage|p2a: Frosmoth|1/100
+|-supereffective|p2a: Frosmoth
+|-damage|p2a: Frosmoth|0 fnt
+|-hitcount|p2a: Frosmoth|2
+|faint|p2a: Frosmoth
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|turn|3
+|inactive|Ruhdndei has 60 seconds left.
+|
+|move|p1a: Crustle|Earthquake|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|45/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Crustle
+|-damage|p1a: Crustle|33/100
+|-heal|p2a: Conkeldurr|68/100|[from] drain|[of] p1a: Crustle
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|inactive|Ruhdndei has 30 seconds left.
+|
+|move|p1a: Crustle|Earthquake|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|9/100 brn
+|move|p2a: Conkeldurr|Drain Punch|p1a: Crustle
+|-damage|p1a: Crustle|0 fnt
+|-heal|p2a: Conkeldurr|21/100 brn|[from] drain|[of] p1a: Crustle
+|faint|p1a: Crustle
+|
+|-damage|p2a: Conkeldurr|15/100 brn|[from] brn
+|upkeep
+|inactive|Ruhdndei has 30 seconds left this turn.
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|turn|5
+|
+|move|p1a: Lucario|Extreme Speed|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|6
+|inactive|Ruhdndei has 30 seconds left.
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|upkeep
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|7
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dracovish|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|turn|8
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p1a: Seismitoad|Earth Power|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Grimmsnarl|36/100|[from] Sandstorm
+|-heal|p2a: Grimmsnarl|42/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Seismitoad|Earth Power|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|turn|10
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Seismitoad
+|-damage|p1a: Seismitoad|26/100
+|-damage|p2a: Toxtricity|91/100|[from] item: Life Orb
+|move|p1a: Seismitoad|Earth Power|p2a: Toxtricity
+|-supereffective|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|11
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Cinderace|High Jump Kick|p1a: Rotom
+|-damage|p1a: Rotom|42/100
+|-damage|p2a: Cinderace|91/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|move|p2a: Cinderace|High Jump Kick|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-damage|p2a: Cinderace|81/100|[from] item: Life Orb
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Cherrim|Cherrim, F|100/100
+|turn|13
+|inactive|Ruhdndei has 90 seconds left.
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Cherrim
+|-supereffective|p1a: Cherrim
+|-damage|p1a: Cherrim|0 fnt
+|-damage|p2a: Cinderace|71/100|[from] item: Life Orb
+|faint|p1a: Cherrim
+|
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, M|26/100
+|turn|14
+|
+|move|p2a: Cinderace|High Jump Kick|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|-damage|p2a: Cinderace|61/100|[from] item: Life Orb
+|faint|p1a: Seismitoad
+|
+|win|MoiDelFenix
+|l|☆Ruhdndei
+|raw|Ruhdndei's rating: 1000 → 1000(+0 for losing)
+|raw|MoiDelFenix's rating: 1047 → 1076(+29 for winning)

@@ -1,0 +1,245 @@
+|ScrapeTime|2020-01-02-23:18:00
+|j|☆Storm Zone
+|j|☆Birbwithahat
+|player|p1|Storm Zone|zinnia|1495
+|player|p2|Birbwithahat|lucas|1455
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Noivern, M|
+|poke|p1|Bewear, M|
+|poke|p1|Sandaconda, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Steelix, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Hawlucha, F|
+|poke|p2|Kommo-o, M|
+|poke|p2|Gyarados, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Aegislash, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Birbwithahat)
+|
+|start
+|switch|p1a: Jabba|Sandaconda, M|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p2a: Excadrill|Stealth Rock|p1a: Jabba
+|-sidestart|p1: Storm Zone|move: Stealth Rock
+|move|p1a: Jabba|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-enditem|p2a: Excadrill|Focus Sash
+|-damage|p2a: Excadrill|1/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Dracula|Noivern, M|100/100
+|move|p2a: Excadrill|Earthquake|p1a: Dracula
+|-immune|p1a: Dracula
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Dracula|Defog|p2a: Excadrill
+|-unboost|p2a: Excadrill|evasion|1
+|-sideend|p1: Storm Zone|Stealth Rock|[from] move: Defog|[of] p1a: Dracula
+|move|p2a: Excadrill|Rock Tomb|p1a: Dracula
+|-supereffective|p1a: Dracula
+|-damage|p1a: Dracula|43/100
+|-unboost|p1a: Dracula|spe|1
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Excadrill|Stealth Rock|p1a: Dracula
+|-sidestart|p1: Storm Zone|move: Stealth Rock
+|move|p1a: Dracula|Draco Meteor|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-unboost|p1a: Dracula|spa|2
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|turn|5
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Dracula|Hurricane|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|22/100
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Tectonix|Steelix, M|100/100
+|-damage|p1a: Tectonix|97/100|[from] Stealth Rock
+|move|p2a: Hawlucha|Close Combat|p1a: Tectonix
+|-supereffective|p1a: Tectonix
+|-damage|p1a: Tectonix|0 fnt
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|-enditem|p2a: Hawlucha|White Herb
+|-clearnegativeboost|p2a: Hawlucha|[silent]
+|faint|p1a: Tectonix
+|
+|upkeep
+|
+|switch|p1a: Jabba|Sandaconda, M|100/100
+|-damage|p1a: Jabba|94/100|[from] Stealth Rock
+|turn|7
+|
+|move|p2a: Hawlucha|Brave Bird|p1a: Jabba
+|-damage|p1a: Jabba|7/100
+|-weather|Sandstorm|[from] ability: Sand Spit|[of] p1a: Jabba
+|-damage|p2a: Hawlucha|0 fnt|[from] Recoil
+|faint|p2a: Hawlucha
+|move|p1a: Jabba|Facade|p2: Hawlucha|[notarget]
+|-fail|p1a: Jabba
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jabba|13/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|turn|8
+|
+|move|p2a: Aegislash|Autotomize|p2a: Aegislash
+|-boost|p2a: Aegislash|spe|2
+|-start|p2a: Aegislash|Autotomize
+|move|p1a: Jabba|Earthquake|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|10/100
+|-enditem|p2a: Aegislash|Weakness Policy
+|-boost|p2a: Aegislash|atk|2
+|-boost|p2a: Aegislash|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Jabba|19/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Iron Head|p1a: Jabba
+|-damage|p1a: Jabba|0 fnt
+|faint|p1a: Jabba
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Phantom|Rotom-Wash|100/100
+|-damage|p1a: Phantom|88/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Phantom|Volt Switch|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|switch|p1a: Love|Bewear, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Love|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Love|88/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|11
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Love
+|-start|p1a: Love|move: Taunt
+|move|p1a: Love|Double-Edge|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|20/100
+|-damage|p1a: Love|65/100|[from] Recoil
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Birbwithahat|Reflect
+|move|p1a: Love|Double-Edge|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-damage|p1a: Love|59/100|[from] Recoil
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|turn|13
+|
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|67/100
+|-enditem|p2a: Kommo-o|Throat Spray
+|-boost|p2a: Kommo-o|spa|1
+|move|p1a: Love|Double-Edge|p2a: Kommo-o
+|-damage|p2a: Kommo-o|33/100
+|-damage|p1a: Love|52/100|[from] Recoil
+|
+|-end|p1a: Love|move: Taunt
+|upkeep
+|turn|14
+|
+|move|p2a: Kommo-o|Flamethrower|p1a: Love
+|-damage|p1a: Love|0 fnt
+|faint|p1a: Love
+|
+|upkeep
+|
+|switch|p1a: Calamity|Hatterene, F, shiny|100/100
+|-damage|p1a: Calamity|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Kommo-o|Flash Cannon|p1a: Calamity
+|-supereffective|p1a: Calamity
+|-damage|p1a: Calamity|19/100
+|move|p1a: Calamity|Draining Kiss|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|-heal|p1a: Calamity|41/100|[from] drain|[of] p2a: Kommo-o
+|faint|p2a: Kommo-o
+|
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|turn|16
+|
+|switch|p1a: Phantom|Rotom-Wash|88/100
+|-damage|p1a: Phantom|76/100|[from] Stealth Rock
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Phantom|Volt Switch|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|win|Storm Zone
+|l|☆Birbwithahat
+|raw|Storm Zone's rating: 1511 → 1528(+17 for winning)
+|raw|Birbwithahat's rating: 1455 → 1439(-16 for losing)
+|l|☆Storm Zone

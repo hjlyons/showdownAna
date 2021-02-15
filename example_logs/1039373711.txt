@@ -1,0 +1,141 @@
+|ScrapeTime|2020-01-01-23:14:24
+|j|☆Pardo71
+|j|☆AngelIncarnate
+|player|p1|Pardo71|red|1080
+|player|p2|AngelIncarnate|collector|1051
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Eiscue, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Toxtricity-Low-Key, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Toxapex, M|
+|poke|p2|Clefable, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Hydreigon, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|1
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Pardo71|Reflect
+|move|p2a: Hydreigon|U-turn|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|91/100
+|
+|switch|p2a: Clefable|Clefable, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Corviknight|Corviknight, F, shiny|100/100
+|move|p2a: Clefable|Flamethrower|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|31/100
+|
+|-heal|p1a: Corviknight|38/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|c|☆Pardo71|nice one
+|
+|switch|p1a: Toxapex|Toxapex, M, shiny|100/100
+|move|p2a: Clefable|Flamethrower|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|86/100
+|
+|-heal|p1a: Toxapex|92/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|move|p2a: Clefable|Thunderbolt|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|29/100
+|-status|p1a: Toxapex|par
+|move|p1a: Toxapex|Scald|p2a: Clefable
+|-damage|p2a: Clefable|83/100
+|
+|-heal|p1a: Toxapex|35/100 par|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M, shiny|91/100
+|move|p2a: Clefable|Moonblast|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M, shiny|100/100
+|turn|6
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Clefable
+|-damage|p2a: Clefable|49/100
+|move|p2a: Clefable|Moonblast|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, F, shiny|100/100
+|turn|7
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Toxtricity|Overdrive|p2a: Excadrill
+|-immune|p2a: Excadrill
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Excadrill|Earthquake|p1a: Toxtricity
+|-supereffective|p1a: Toxtricity
+|-crit|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|-sideend|p1: Pardo71|Reflect
+|upkeep
+|
+|switch|p1a: Eiscue|Eiscue, M, shiny|100/100
+|turn|9
+|
+|move|p2a: Excadrill|Earthquake|p1a: Eiscue
+|-damage|p1a: Eiscue|41/100
+|-enditem|p1a: Eiscue|Sitrus Berry|[eat]
+|-heal|p1a: Eiscue|65/100|[from] item: Sitrus Berry
+|move|p1a: Eiscue|Belly Drum|p1a: Eiscue
+|-damage|p1a: Eiscue|16/100
+|-setboost|p1a: Eiscue|atk|6|[from] move: Belly Drum
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Excadrill|Earthquake|p1a: Eiscue
+|-damage|p1a: Eiscue|0 fnt
+|faint|p1a: Eiscue
+|
+|upkeep
+|-message|Pardo71 forfeited.
+|
+|win|AngelIncarnate
+|l|☆Pardo71

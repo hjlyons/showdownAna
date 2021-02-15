@@ -1,0 +1,362 @@
+|ScrapeTime|2020-01-01-13:55:36
+|j|☆Doraka
+|j|☆taw
+|player|p1|Doraka|135|1400
+|player|p2|taw|alder|1375
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Aegislash, F|
+|poke|p1|Dracovish|
+|poke|p1|Cinderace, M|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Toxtricity, F|
+|poke|p2|Clefable, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Dugtrio, M|
+|poke|p2|Dracovish|
+|poke|p2|Hydreigon, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|1
+|
+|move|p2a: Cinderace|U-turn|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|90/100
+|
+|switch|p2a: Clefable|Clefable, F|100/100|[from]move: U-turn
+|move|p1a: Conkeldurr|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|57/100
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|move|p2a: Clefable|Moonblast|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|83/100
+|
+|-heal|p1a: Aegislash|89/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Flash Cannon|p2a: Dugtrio
+|-damage|p2a: Dugtrio|26/100
+|
+|-heal|p1a: Aegislash|95/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Aegislash|Shadow Sneak|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|-heal|p1a: Aegislash|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|5
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|76/100
+|
+|-heal|p2a: Hydreigon|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|-heal|p2a: Hydreigon|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Dracovish|Outrage|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|move|p2a: Hydreigon|Dark Pulse|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|-heal|p2a: Hydreigon|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|8
+|
+|move|p1a: Cinderace|U-turn|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|43/100
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|90/100 brn|[from]move: U-turn
+|move|p2a: Hydreigon|Dark Pulse|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|43/100 brn
+|
+|-heal|p2a: Hydreigon|49/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|37/100 brn|[from] brn
+|upkeep
+|turn|9
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Doraka)
+|
+|switch|p2a: Clefable|Clefable, F|57/100
+|move|p1a: Conkeldurr|Mach Punch|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|36/100
+|
+|-damage|p1a: Conkeldurr|31/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Clefable|Flamethrower|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, F|100/100
+|turn|11
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|12
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|13
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Cinderace
+|-status|p2a: Cinderace|par
+|
+|upkeep
+|turn|14
+|
+|cant|p2a: Cinderace|par
+|move|p1a: Grimmsnarl|Darkest Lariat|p2a: Cinderace
+|-damage|p2a: Cinderace|38/100 par
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Grimmsnarl|Sucker Punch|p2a: Cinderace
+|-crit|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|16
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|76/100
+|
+|-heal|p2a: Corviknight|82/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|88/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Corviknight|[miss]
+|-miss|p1a: Cinderace|p2a: Corviknight
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|63/100
+|
+|-heal|p2a: Corviknight|69/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|44/100
+|
+|-heal|p2a: Corviknight|50/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|25/100
+|
+|-heal|p2a: Corviknight|31/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Cinderace|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-activate|p2a: Corviknight|move: Substitute|[damage]
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100|[from]move: U-turn
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|81/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|87/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|
+|-heal|p2a: Corviknight|93/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|69/100
+|move|p1a: Aegislash|Shadow Ball|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|
+|-heal|p2a: Corviknight|75/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Aegislash|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|75/100
+|
+|-heal|p2a: Corviknight|81/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Aegislash|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|56/100
+|
+|-heal|p2a: Corviknight|62/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Aegislash|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|77/100
+|
+|-heal|p2a: Corviknight|83/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Aegislash|Flash Cannon|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|72/100
+|
+|-heal|p2a: Corviknight|78/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Aegislash|Flash Cannon|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|65/100
+|
+|-heal|p2a: Corviknight|71/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|-damage|p2a: Corviknight|44/100|[from] Recoil
+|faint|p1a: Aegislash
+|
+|-heal|p2a: Corviknight|50/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|30
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Corviknight
+|-status|p2a: Corviknight|par
+|move|p2a: Corviknight|Brave Bird|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|-damage|p2a: Corviknight|18/100 par|[from] Recoil
+|faint|p1a: Grimmsnarl
+|
+|-heal|p2a: Corviknight|24/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|31
+|
+|move|p1a: Cinderace|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|22/100 par
+|move|p2a: Corviknight|Brave Bird|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-damage|p2a: Corviknight|0 fnt|[from] Recoil
+|faint|p1a: Cinderace
+|faint|p2a: Corviknight
+|
+|win|taw
+|l|☆Doraka
+|raw|Doraka's rating: 1400 → 1379(-21 for losing)
+|raw|taw's rating: 1375 → 1397(+22 for winning)

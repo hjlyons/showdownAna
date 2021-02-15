@@ -1,0 +1,810 @@
+|ScrapeTime|2020-01-01-17:46:24
+|j|☆gainzbourge
+|j|☆Sart2
+|player|p1|gainzbourge|blue|1202
+|player|p2|Sart2|156|1235
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Arcanine, F|
+|poke|p1|Salazzle, F|
+|poke|p1|Bisharp, F|
+|poke|p1|Whimsicott, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Rhydon, F|
+|poke|p2|Clefable, F|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Seismitoad, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gainzbourge)
+|
+|start
+|switch|p1a: Rhydon|Rhydon, F, shiny|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|1
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Rhydon|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: Sart2|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Whimsicott|Whimsicott, M, shiny|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Whimsicott
+|-sidestart|p1: gainzbourge|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Whimsicott|Leech Seed|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Whimsicott|Substitute|p1a: Whimsicott
+|-start|p1a: Whimsicott|Substitute
+|-damage|p1a: Whimsicott|76/100
+|move|p2a: Seismitoad|Toxic||[still]
+|-fail|p2a: Seismitoad
+|
+|-heal|p1a: Whimsicott|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Whimsicott|Leech Seed|p2a: Corviknight
+|-start|p2a: Corviknight|move: Leech Seed
+|
+|-heal|p1a: Whimsicott|88/100|[from] item: Leftovers
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|-damage|p2a: Corviknight|82/100|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|100/100|[silent]
+|upkeep
+|turn|6
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|71/100
+|move|p2a: Corviknight|U-turn|p1a: Whimsicott
+|-activate|p1a: Whimsicott|move: Substitute|[damage]
+|
+|switch|p2a: Clefable|Clefable, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Whimsicott|Stun Spore|p2a: Clefable
+|-status|p2a: Clefable|par
+|cant|p2a: Clefable|par
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Rhydon|Rhydon, F, shiny|100/100
+|-damage|p1a: Rhydon|94/100|[from] Stealth Rock
+|move|p2a: Clefable|Moonblast|p1a: Rhydon
+|-damage|p1a: Rhydon|61/100
+|-unboost|p1a: Rhydon|spa|1
+|
+|upkeep
+|turn|9
+|
+|cant|p2a: Clefable|par
+|move|p1a: Rhydon|Poison Jab|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|41/100 par
+|
+|-heal|p2a: Clefable|47/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|move|p1a: Rhydon|Poison Jab|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|83/100
+|-status|p2a: Seismitoad|psn
+|
+|-heal|p2a: Seismitoad|89/100 psn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|77/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p1a: Whimsicott|Whimsicott, M, shiny|100/100
+|-damage|p1a: Whimsicott|88/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Earthquake|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|73/100
+|
+|-heal|p1a: Whimsicott|79/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|83/100 psn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|70/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p2a: Clefable|Clefable, F|47/100 par
+|move|p1a: Whimsicott|Substitute|p1a: Whimsicott
+|-start|p1a: Whimsicott|Substitute
+|-damage|p1a: Whimsicott|55/100
+|
+|-heal|p1a: Whimsicott|61/100|[from] item: Leftovers
+|-heal|p2a: Clefable|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|32/100 par
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p1a: Whimsicott|67/100|[from] item: Leftovers
+|-heal|p2a: Clefable|39/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Bisharp|Bisharp, F, shiny|100/100
+|-damage|p1a: Bisharp|95/100|[from] Stealth Rock
+|move|p2a: Clefable|Moonblast|p1a: Bisharp
+|-damage|p1a: Bisharp|39/100
+|
+|-heal|p2a: Clefable|89/100 par|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Clefable|95/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|-damage|p2a: Conkeldurr|94/100|[from] Stealth Rock
+|move|p1a: Bisharp|Iron Head|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|45/100
+|-damage|p1a: Bisharp|29/100|[from] item: Life Orb
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|16
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|move|p2a: Conkeldurr|Mach Punch|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|-heal|p1a: Dragapult|94/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|39/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p2a: Clefable|Clefable, F|95/100 par
+|move|p1a: Dragapult|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|83/100 par
+|
+|switch|p1a: Bisharp|Bisharp, F, shiny|29/100|[from]move: U-turn
+|-damage|p1a: Bisharp|23/100|[from] Stealth Rock
+|
+|-heal|p2a: Clefable|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Bisharp|Iron Head|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|87/100
+|-damage|p1a: Bisharp|13/100|[from] item: Life Orb
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Rotom|Volt Switch|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|switch|p2a: Clefable|Clefable, F|90/100 par|[from]move: Volt Switch
+|
+|-heal|p2a: Clefable|96/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rhydon|Rhydon, F, shiny|61/100
+|-damage|p1a: Rhydon|55/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p2a: Corviknight|Corviknight, F|71/100
+|-damage|p2a: Corviknight|59/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Rhydon|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-heal|p2a: Corviknight|65/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Corviknight|U-turn|p1a: Rhydon
+|-damage|p1a: Rhydon|48/100
+|
+|switch|p2a: Seismitoad|Seismitoad, F|70/100 psn|[from]move: U-turn
+|-damage|p2a: Seismitoad|64/100 psn|[from] Stealth Rock
+|move|p1a: Rhydon|Thunder Punch|p2a: Seismitoad
+|-immune|p2a: Seismitoad
+|
+|-heal|p2a: Seismitoad|70/100 psn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|58/100 psn|[from] psn
+|upkeep
+|turn|22
+|
+|switch|p1a: Whimsicott|Whimsicott, M, shiny|67/100
+|-damage|p1a: Whimsicott|55/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Earthquake|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|40/100
+|
+|-heal|p1a: Whimsicott|46/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|64/100 psn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|52/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|switch|p2a: Clefable|Clefable, F|96/100 par
+|move|p1a: Whimsicott|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|74/100 par
+|-unboost|p2a: Clefable|spa|1
+|
+|-heal|p1a: Whimsicott|52/100|[from] item: Leftovers
+|-heal|p2a: Clefable|80/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|59/100 par
+|-unboost|p2a: Clefable|spa|1
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p1a: Whimsicott|58/100|[from] item: Leftovers
+|-heal|p2a: Clefable|65/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|44/100 par
+|cant|p2a: Clefable|par
+|
+|-heal|p2a: Clefable|94/100 par|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Whimsicott|64/100|[from] item: Leftovers
+|-heal|p2a: Clefable|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: Arcanine|Arcanine, F, shiny|100/100
+|-damage|p1a: Arcanine|75/100|[from] Stealth Rock
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Clefable|atk|1
+|cant|p2a: Clefable|par
+|
+|-heal|p1a: Arcanine|82/100|[from] item: Leftovers
+|-heal|p2a: Clefable|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Arcanine|Snarl|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|94/100 par
+|-unboost|p2a: Clefable|spa|1
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p1a: Arcanine|88/100|[from] item: Leftovers
+|-heal|p2a: Clefable|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Seismitoad|Seismitoad, F|52/100 psn
+|-damage|p2a: Seismitoad|46/100 psn|[from] Stealth Rock
+|move|p1a: Arcanine|Will-O-Wisp|p2a: Seismitoad|[miss]
+|-miss|p1a: Arcanine|p2a: Seismitoad
+|
+|-heal|p2a: Seismitoad|93/100 psn|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Arcanine|94/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|99/100 psn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|87/100 psn|[from] psn
+|upkeep
+|turn|29
+|
+|switch|p1a: Dragapult|Dragapult, M|94/100
+|-damage|p1a: Dragapult|82/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|36/100
+|
+|-heal|p1a: Dragapult|42/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|93/100 psn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|81/100 psn|[from] psn
+|upkeep
+|turn|30
+|
+|switch|p2a: Clefable|Clefable, F|99/100 par
+|move|p1a: Dragapult|Dragon Darts|p2a: Clefable
+|-immune|p2a: Clefable
+|
+|-heal|p1a: Dragapult|48/100|[from] item: Leftovers
+|-heal|p2a: Clefable|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Clefable
+|move|p2a: Clefable|Thunder Wave|p1a: Dragapult|[miss]
+|-miss|p2a: Clefable|p1a: Dragapult
+|
+|-heal|p1a: Dragapult|54/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Clefable|[from]lockedmove
+|-damage|p2a: Clefable|60/100 par
+|move|p2a: Clefable|Thunder Wave|p1a: Dragapult
+|-status|p1a: Dragapult|par
+|
+|-heal|p1a: Dragapult|60/100 par|[from] item: Leftovers
+|-heal|p2a: Clefable|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p1a: Rhydon|Rhydon, F, shiny|48/100
+|-damage|p1a: Rhydon|42/100|[from] Stealth Rock
+|cant|p2a: Clefable|par
+|
+|-heal|p2a: Clefable|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p2a: Seismitoad|Seismitoad, F|81/100 psn
+|-damage|p2a: Seismitoad|75/100 psn|[from] Stealth Rock
+|move|p1a: Rhydon|Poison Jab|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|64/100 psn
+|
+|-heal|p2a: Seismitoad|70/100 psn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|58/100 psn|[from] psn
+|upkeep
+|turn|35
+|
+|move|p2a: Seismitoad|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|10/100
+|move|p1a: Rhydon|Earthquake|p2a: Seismitoad
+|-damage|p2a: Seismitoad|14/100 psn
+|
+|-heal|p2a: Seismitoad|20/100 psn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|8/100 psn|[from] psn
+|upkeep
+|turn|36
+|
+|switch|p1a: Whimsicott|Whimsicott, M, shiny|64/100
+|-damage|p1a: Whimsicott|52/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Toxic|p1a: Whimsicott
+|-status|p1a: Whimsicott|tox
+|
+|-heal|p1a: Whimsicott|58/100 tox|[from] item: Leftovers
+|-heal|p2a: Seismitoad|14/100 psn|[from] item: Leftovers
+|-damage|p1a: Whimsicott|52/100 tox|[from] psn
+|-damage|p2a: Seismitoad|2/100 psn|[from] psn
+|upkeep
+|turn|37
+|
+|switch|p2a: Clefable|Clefable, F|72/100 par
+|move|p1a: Whimsicott|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|52/100 par
+|
+|-heal|p1a: Whimsicott|58/100 tox|[from] item: Leftovers
+|-heal|p2a: Clefable|58/100 par|[from] item: Leftovers
+|-damage|p1a: Whimsicott|46/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|38/100 par
+|-unboost|p2a: Clefable|spa|1
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p1a: Whimsicott|52/100 tox|[from] item: Leftovers
+|-heal|p2a: Clefable|44/100 par|[from] item: Leftovers
+|-damage|p1a: Whimsicott|33/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|23/100 par
+|cant|p2a: Clefable|par
+|
+|-heal|p2a: Clefable|73/100 par|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Whimsicott|40/100 tox|[from] item: Leftovers
+|-heal|p2a: Clefable|79/100 par|[from] item: Leftovers
+|-damage|p1a: Whimsicott|15/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|move|p1a: Whimsicott|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|59/100 par
+|-unboost|p2a: Clefable|spa|1
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p1a: Whimsicott|21/100 tox|[from] item: Leftovers
+|-heal|p2a: Clefable|65/100 par|[from] item: Leftovers
+|-damage|p1a: Whimsicott|0 fnt|[from] psn
+|faint|p1a: Whimsicott
+|upkeep
+|
+|switch|p1a: Arcanine|Arcanine, F, shiny|94/100
+|-damage|p1a: Arcanine|69/100|[from] Stealth Rock
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Clefable|atk|1
+|turn|41
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Arcanine|Snarl|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|100/100 par|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Arcanine|75/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p1a: Arcanine|Flamethrower|p2a: Clefable
+|-damage|p2a: Clefable|65/100 par
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p1a: Arcanine|82/100|[from] item: Leftovers
+|-heal|p2a: Clefable|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|move|p1a: Arcanine|Flamethrower|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|64/100
+|
+|-heal|p2a: Hydreigon|100/100|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Arcanine|88/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p1a: Arcanine|Protect|p1a: Arcanine
+|-singleturn|p1a: Arcanine|Protect
+|move|p2a: Hydreigon|Dark Pulse|p1a: Arcanine
+|-activate|p1a: Arcanine|move: Protect
+|
+|-heal|p1a: Arcanine|94/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Arcanine
+|-damage|p1a: Arcanine|47/100
+|move|p1a: Arcanine|Snarl|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|91/100
+|-unboost|p2a: Hydreigon|spa|1
+|
+|-heal|p1a: Arcanine|53/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|move|p1a: Arcanine|Protect|p1a: Arcanine
+|-singleturn|p1a: Arcanine|Protect
+|move|p2a: Hydreigon|Dark Pulse|p1a: Arcanine
+|-activate|p1a: Arcanine|move: Protect
+|
+|-heal|p1a: Arcanine|60/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Arcanine
+|-damage|p1a: Arcanine|30/100
+|cant|p1a: Arcanine|flinch
+|
+|-heal|p1a: Arcanine|36/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|move|p1a: Arcanine|Protect|p1a: Arcanine
+|-singleturn|p1a: Arcanine|Protect
+|move|p2a: Hydreigon|Dark Pulse|p1a: Arcanine
+|-activate|p1a: Arcanine|move: Protect
+|
+|-heal|p1a: Arcanine|42/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Arcanine
+|-damage|p1a: Arcanine|11/100
+|move|p1a: Arcanine|Snarl|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|81/100
+|-unboost|p2a: Hydreigon|spa|1
+|
+|-heal|p1a: Arcanine|17/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|39/100 brn
+|-damage|p2a: Conkeldurr|32/100 brn|[from] Stealth Rock
+|move|p1a: Arcanine|Protect||[still]
+|-fail|p1a: Arcanine
+|
+|-heal|p1a: Arcanine|23/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|26/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|move|p1a: Arcanine|Protect|p1a: Arcanine
+|-singleturn|p1a: Arcanine|Protect
+|move|p2a: Conkeldurr|Earthquake|p1a: Arcanine
+|-activate|p1a: Arcanine|move: Protect
+|
+|-heal|p1a: Arcanine|30/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|20/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|move|p1a: Arcanine|Flamethrower|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|-heal|p1a: Arcanine|36/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|81/100
+|-damage|p2a: Hydreigon|68/100|[from] Stealth Rock
+|turn|53
+|
+|move|p1a: Arcanine|Protect|p1a: Arcanine
+|-singleturn|p1a: Arcanine|Protect
+|move|p2a: Hydreigon|Draco Meteor|p1a: Arcanine
+|-activate|p1a: Arcanine|move: Protect
+|
+|-heal|p1a: Arcanine|42/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|switch|p1a: Rhydon|Rhydon, F, shiny|10/100
+|-damage|p1a: Rhydon|4/100|[from] Stealth Rock
+|move|p2a: Hydreigon|Draco Meteor|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|faint|p1a: Rhydon
+|
+|upkeep
+|
+|switch|p1a: Salazzle|Salazzle, F, shiny|100/100
+|-damage|p1a: Salazzle|76/100|[from] Stealth Rock
+|turn|55
+|
+|switch|p2a: Seismitoad|Seismitoad, F|2/100 psn
+|-damage|p2a: Seismitoad|0 fnt|[from] Stealth Rock
+|faint|p2a: Seismitoad
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|51/100
+|
+|-heal|p1a: Salazzle|57/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|68/100
+|-damage|p2a: Hydreigon|56/100|[from] Stealth Rock
+|turn|56
+|c|☆gainzbourge|what a nice stall battle!
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|move|p1a: Salazzle|Toxic|p2a: Hydreigon
+|-status|p2a: Hydreigon|tox
+|
+|-heal|p1a: Salazzle|63/100|[from] item: Black Sludge
+|-damage|p2a: Hydreigon|50/100 tox|[from] psn
+|upkeep
+|turn|57
+|c|☆Sart2|neither of these teams are stall
+|c|☆gainzbourge|y
+|
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Hydreigon|Dark Pulse|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|-heal|p1a: Salazzle|70/100|[from] item: Black Sludge
+|-damage|p2a: Hydreigon|38/100 tox|[from] psn
+|upkeep
+|turn|58
+|c|☆gainzbourge|but turns out funny
+|
+|switch|p1a: Arcanine|Arcanine, F, shiny|42/100
+|-damage|p1a: Arcanine|17/100|[from] Stealth Rock
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Hydreigon|atk|1
+|move|p2a: Hydreigon|Dark Pulse|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|-damage|p2a: Hydreigon|19/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Salazzle|Salazzle, F, shiny|70/100
+|-damage|p1a: Salazzle|45/100|[from] Stealth Rock
+|turn|59
+|
+|switch|p2a: Rotom|Rotom-Heat|87/100
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|20/100
+|
+|-heal|p1a: Salazzle|26/100|[from] item: Black Sludge
+|upkeep
+|turn|60
+|
+|move|p1a: Salazzle|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|move|p2a: Rotom|Volt Switch|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|
+|switch|p2a: Corviknight|Corviknight, F|65/100|[from]move: Volt Switch
+|-damage|p2a: Corviknight|53/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|
+|-heal|p1a: Salazzle|32/100|[from] item: Black Sludge
+|-heal|p2a: Corviknight|59/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|8/100
+|move|p2a: Corviknight|Defog|p1a: Salazzle
+|-sideend|p1: gainzbourge|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: Sart2|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-heal|p1a: Salazzle|14/100|[from] item: Black Sludge
+|-heal|p2a: Corviknight|65/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|move|p1a: Salazzle|Fire Blast|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-heal|p1a: Salazzle|20/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|72/100 par
+|turn|63
+|
+|move|p1a: Salazzle|Fire Blast|p2a: Clefable
+|-damage|p2a: Clefable|41/100 par
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p1a: Salazzle|26/100|[from] item: Black Sludge
+|-heal|p2a: Clefable|47/100 par|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|move|p1a: Salazzle|Fire Blast|p2a: Clefable
+|-damage|p2a: Clefable|16/100 par
+|move|p2a: Clefable|Moonblast|p1a: Salazzle
+|-resisted|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Substitute|[damage]
+|
+|-heal|p2a: Clefable|66/100 par|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Salazzle|32/100|[from] item: Black Sludge
+|-heal|p2a: Clefable|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|move|p1a: Salazzle|Fire Blast|p2a: Clefable
+|-damage|p2a: Clefable|37/100 par
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p1a: Salazzle|39/100|[from] item: Black Sludge
+|-heal|p2a: Clefable|43/100 par|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Salazzle|Fire Blast|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|93/100 par|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Salazzle|45/100|[from] item: Black Sludge
+|-heal|p2a: Clefable|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|move|p1a: Salazzle|Fire Blast|p2a: Clefable
+|-damage|p2a: Clefable|65/100 par
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p1a: Salazzle|51/100|[from] item: Black Sludge
+|-heal|p2a: Clefable|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Clefable|Moonblast|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|-heal|p2a: Clefable|100/100 par|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Salazzle|57/100|[from] item: Black Sludge
+|upkeep
+|turn|69
+|
+|move|p1a: Salazzle|Fire Blast|p2a: Clefable|[miss]
+|-miss|p1a: Salazzle|p2a: Clefable
+|cant|p2a: Clefable|par
+|
+|-heal|p1a: Salazzle|63/100|[from] item: Black Sludge
+|upkeep
+|turn|70
+|
+|move|p1a: Salazzle|Toxic||[still]
+|-fail|p1a: Salazzle
+|move|p2a: Clefable|Moonblast|p1a: Salazzle
+|-resisted|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Substitute|[damage]
+|
+|-heal|p1a: Salazzle|70/100|[from] item: Black Sludge
+|upkeep
+|turn|71
+|
+|move|p1a: Salazzle|Toxic||[still]
+|-fail|p1a: Salazzle
+|move|p2a: Clefable|Moonblast|p1a: Salazzle
+|-resisted|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|
+|-heal|p1a: Salazzle|76/100|[from] item: Black Sludge
+|upkeep
+|turn|72
+|
+|switch|p1a: Dragapult|Dragapult, M|60/100 par
+|move|p2a: Clefable|Thunder Wave|p1a: Dragapult
+|-fail|p1a: Dragapult|par
+|
+|-heal|p1a: Dragapult|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|73
+|
+|cant|p1a: Dragapult|par
+|move|p2a: Clefable|Moonblast|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Salazzle|Salazzle, F, shiny|76/100
+|turn|74
+|c|☆gainzbourge|gg
+|c|☆Sart2|gg
+|-message|gainzbourge forfeited.
+|
+|win|Sart2
+|l|☆gainzbourge
+|raw|gainzbourge's rating: 1202 → 1179(-23 for losing)
+|raw|Sart2's rating: 1235 → 1258(+23 for winning)

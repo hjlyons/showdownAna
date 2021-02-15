@@ -1,0 +1,290 @@
+|ScrapeTime|2020-01-02-03:24:46
+|j|☆Shunosaurus
+|j|☆ISBL_Micc
+|player|p1|Shunosaurus|50|
+|player|p2|ISBL_Micc|108|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cramorant, M|
+|poke|p1|Roserade, F|
+|poke|p1|Jellicent, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Cloyster, F|
+|poke|p1|Claydol|
+|poke|p2|Heliolisk, M|
+|poke|p2|Mew|
+|poke|p2|Sylveon, M|
+|poke|p2|Milotic, F|
+|poke|p2|Salazzle, F|
+|poke|p2|Dragapult, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆Shunosaurus|good luck have fun micceas
+|c|☆ISBL_Micc|hf
+|
+|start
+|switch|p1a: clay doll|Claydol|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|j| dawnmidst
+|
+|move|p2a: Mew|Taunt|p1a: clay doll
+|-start|p1a: clay doll|move: Taunt
+|cant|p1a: clay doll|move: Taunt|Nasty Plot
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Mew|Psychic Fangs|p1a: clay doll
+|-resisted|p1a: clay doll
+|-damage|p1a: clay doll|85/100
+|move|p1a: clay doll|Shadow Ball|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|64/100
+|-unboost|p2a: Mew|spd|1
+|
+|-heal|p2a: Mew|70/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|c|☆Shunosaurus|damn I am literally crying rn
+|
+|switch|p2a: Milotic|Milotic, F|100/100
+|move|p1a: clay doll|Rapid Spin|p2a: Milotic
+|-damage|p2a: Milotic|96/100
+|-boost|p1a: clay doll|spe|1
+|
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|-end|p1a: clay doll|move: Taunt
+|upkeep
+|turn|4
+|
+|move|p1a: clay doll|Nasty Plot|p1a: clay doll
+|-boost|p1a: clay doll|spa|2
+|move|p2a: Milotic|Scald|p1a: clay doll
+|-supereffective|p1a: clay doll
+|-enditem|p1a: clay doll|Passho Berry|[eat]
+|-enditem|p1a: clay doll|Passho Berry|[weaken]
+|-damage|p1a: clay doll|58/100
+|-status|p1a: clay doll|brn
+|
+|-damage|p1a: clay doll|52/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: clay doll|Earth Power|p2a: Milotic
+|-damage|p2a: Milotic|51/100
+|move|p2a: Milotic|Haze|p2a: Milotic
+|-clearallboost
+|
+|-heal|p2a: Milotic|57/100|[from] item: Leftovers
+|-damage|p1a: clay doll|46/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: gamer|Roserade, F|100/100
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|
+|upkeep
+|turn|7
+|c|☆Shunosaurus|gaming rn
+|
+|move|p1a: gamer|Spikes|p2a: Milotic
+|-sidestart|p2: ISBL_Micc|Spikes
+|move|p2a: Milotic|Ice Beam|p1a: gamer
+|-supereffective|p1a: gamer
+|-damage|p1a: gamer|51/100
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Spikes
+|move|p1a: gamer|Toxic Spikes|p2a: Dragapult
+|-sidestart|p2: ISBL_Micc|move: Toxic Spikes
+|
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|69/100
+|move|p1a: gamer|Sleep Powder||[still]
+|-fail|p1a: gamer
+|
+|-heal|p2a: Dragapult|75/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: clay doll|Claydol|46/100 brn
+|move|p2a: Dragapult|Dragon Darts|p1a: clay doll
+|-damage|p1a: clay doll|18/100 brn
+|-damage|p1a: clay doll|0 fnt
+|-hitcount|p1a: clay doll|2
+|faint|p1a: clay doll
+|
+|-heal|p2a: Dragapult|81/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: UB:12-Giant Clam|Cloyster, F|100/100
+|turn|11
+|
+|switch|p2a: Milotic|Milotic, F|100/100
+|-status|p2a: Milotic|psn
+|-damage|p2a: Milotic|88/100 psn|[from] Spikes
+|move|p1a: UB:12-Giant Clam|Icicle Spear|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|84/100 psn
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|80/100 psn
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|76/100 psn
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|71/100 psn
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|67/100 psn
+|-hitcount|p2a: Milotic|5
+|
+|-heal|p2a: Milotic|73/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|61/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|move|p1a: UB:12-Giant Clam|Shell Smash|p1a: UB:12-Giant Clam
+|-unboost|p1a: UB:12-Giant Clam|def|1
+|-unboost|p1a: UB:12-Giant Clam|spd|1
+|-boost|p1a: UB:12-Giant Clam|atk|2
+|-boost|p1a: UB:12-Giant Clam|spa|2
+|-boost|p1a: UB:12-Giant Clam|spe|2
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100 psn
+|
+|-damage|p2a: Milotic|88/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|move|p1a: UB:12-Giant Clam|Pin Missile|p2a: Milotic
+|-damage|p2a: Milotic|77/100 psn
+|-damage|p2a: Milotic|67/100 psn
+|-damage|p2a: Milotic|55/100 psn
+|-damage|p2a: Milotic|44/100 psn
+|-damage|p2a: Milotic|32/100 psn
+|-hitcount|p2a: Milotic|5
+|move|p2a: Milotic|Haze|p2a: Milotic
+|-clearallboost
+|
+|-heal|p2a: Milotic|38/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|25/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|move|p1a: UB:12-Giant Clam|Shell Smash|p1a: UB:12-Giant Clam
+|-unboost|p1a: UB:12-Giant Clam|def|1
+|-unboost|p1a: UB:12-Giant Clam|spd|1
+|-boost|p1a: UB:12-Giant Clam|atk|2
+|-boost|p1a: UB:12-Giant Clam|spa|2
+|-boost|p1a: UB:12-Giant Clam|spe|2
+|move|p2a: Milotic|Scald|p1a: UB:12-Giant Clam
+|-resisted|p1a: UB:12-Giant Clam
+|-damage|p1a: UB:12-Giant Clam|41/100
+|
+|-heal|p2a: Milotic|31/100 psn|[from] item: Leftovers
+|-damage|p2a: Milotic|19/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|move|p1a: UB:12-Giant Clam|Pin Missile|p2a: Milotic
+|-damage|p2a: Milotic|9/100 psn
+|-damage|p2a: Milotic|0 fnt
+|-hitcount|p2a: Milotic|2
+|faint|p2a: Milotic
+|
+|upkeep
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|-damage|p2a: Sylveon|88/100|[from] Spikes
+|-status|p2a: Sylveon|psn
+|turn|16
+|
+|move|p1a: UB:12-Giant Clam|Icicle Spear|p2a: Sylveon
+|-damage|p2a: Sylveon|60/100 psn
+|-damage|p2a: Sylveon|32/100 psn
+|-damage|p2a: Sylveon|1/100 psn
+|-damage|p2a: Sylveon|0 fnt
+|-hitcount|p2a: Sylveon|4
+|faint|p2a: Sylveon
+|
+|upkeep
+|c|☆ISBL_Micc|gg
+|c|☆Shunosaurus|gg
+|c|☆Shunosaurus|good job ub 12 giant clam
+|
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|-sideend|p2: ISBL_Micc|move: Toxic Spikes|[of] p2a: Salazzle
+|-damage|p2a: Salazzle|88/100|[from] Spikes
+|turn|17
+|
+|move|p1a: UB:12-Giant Clam|Rock Blast|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|44/100
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|-hitcount|p2a: Salazzle|2
+|faint|p2a: Salazzle
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|81/100
+|-damage|p2a: Dragapult|69/100|[from] Spikes
+|turn|18
+|
+|move|p1a: UB:12-Giant Clam|Icicle Spear|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|14/100
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-hitcount|p2a: Dragapult|2
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Mew|Mew|70/100
+|-damage|p2a: Mew|58/100|[from] Spikes
+|turn|19
+|
+|move|p1a: UB:12-Giant Clam|Pin Missile|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|34/100
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|10/100
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|-hitcount|p2a: Mew|3
+|faint|p2a: Mew
+|
+|upkeep
+|
+|switch|p2a: Heliolisk|Heliolisk, M|100/100
+|-damage|p2a: Heliolisk|88/100|[from] Spikes
+|turn|20
+|
+|move|p1a: UB:12-Giant Clam|Icicle Spear|p2a: Heliolisk
+|-damage|p2a: Heliolisk|36/100
+|-damage|p2a: Heliolisk|0 fnt
+|-hitcount|p2a: Heliolisk|2
+|faint|p2a: Heliolisk
+|
+|win|Shunosaurus
+|l|☆ISBL_Micc
+|c|☆Shunosaurus|epic style

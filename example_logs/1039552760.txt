@@ -1,0 +1,265 @@
+|ScrapeTime|2020-01-02-07:25:43
+|j|☆Endlich fuhrt FBT
+|j|☆Lake Vavor
+|player|p1|Endlich fuhrt FBT|brycen|1000
+|player|p2|Lake Vavor|lucas|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hawlucha, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Dugtrio, M|
+|poke|p1|Cinderace, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Dracovish|
+|poke|p2|Corviknight, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Gyarados, F|
+|poke|p2|Ferrothorn, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Endlich fuhrt FBT)
+|
+|start
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|move|p1a: Indeedee|Trick|p2a: Ferrothorn
+|-activate|p1a: Indeedee|move: Trick|[of] p2a: Ferrothorn
+|-item|p2a: Ferrothorn|Choice Specs|[from] move: Trick
+|-item|p1a: Indeedee|Leftovers|[from] move: Trick
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Indeedee
+|-sidestart|p1: Endlich fuhrt FBT|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p1: Endlich fuhrt FBT|Stealth Rock|[silent]
+|-sidestart|p2: Lake Vavor|Stealth Rock|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Cinderace
+|-sidestart|p1: Endlich fuhrt FBT|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Gyarados|Gyarados, F, shiny|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|63/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|30/100
+|move|p2a: Gyarados|Waterfall|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|-damage|p1a: Dugtrio|94/100|[from] Stealth Rock
+|turn|6
+|
+|move|p1a: Dugtrio|Stone Edge|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M, shiny|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|7
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|59/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Dugtrio
+|-start|p1a: Dugtrio|move: Leech Seed
+|
+|-damage|p1a: Dugtrio|82/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|68/100|[silent]
+|upkeep
+|turn|8
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p1a: Grimmsnarl|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|move: Leech Seed
+|
+|-damage|p1a: Grimmsnarl|76/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|85/100|[silent]
+|upkeep
+|turn|9
+|
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Endlich fuhrt FBT|Reflect
+|
+|-damage|p1a: Grimmsnarl|63/100|[from] Leech Seed|[of] p2a: Corviknight
+|-heal|p2a: Corviknight|100/100|[silent]
+|upkeep
+|turn|10
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Endlich fuhrt FBT|move: Light Screen
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|76/100
+|
+|-damage|p1a: Grimmsnarl|51/100|[from] Leech Seed|[of] p2a: Corviknight
+|-heal|p2a: Corviknight|90/100|[silent]
+|upkeep
+|turn|11
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-damage|p1a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p1a: Indeedee|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Indeedee|Hyper Voice|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|69/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p1a: Indeedee|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|Lake Vavor has 120 seconds left.
+|
+|move|p1a: Indeedee|Hyper Voice|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|46/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Indeedee|Hyper Voice|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|22/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|72/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Indeedee|Psychic|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|16
+|
+|move|p1a: Indeedee|Hyper Voice|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|48/100
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|23/100
+|
+|-sideend|p1: Endlich fuhrt FBT|Reflect
+|upkeep
+|turn|17
+|
+|move|p1a: Indeedee|Hyper Voice|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-sideend|p1: Endlich fuhrt FBT|move: Light Screen
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M, shiny|85/100
+|-damage|p2a: Ferrothorn|79/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|51/100
+|-damage|p1a: Grimmsnarl|38/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|-damage|p1a: Hawlucha|88/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-damage|p1a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|switch|p1a: Hawlucha|Hawlucha, F|88/100
+|-damage|p1a: Hawlucha|76/100|[from] Stealth Rock
+|-enditem|p1a: Hawlucha|Psychic Seed
+|-boost|p1a: Hawlucha|spd|1
+|turn|20
+|
+|move|p1a: Hawlucha|Fire Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|10/100
+|-damage|p1a: Hawlucha|63/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Hawlucha
+|-crit|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+|-message|Endlich fuhrt FBT forfeited.
+|
+|win|Lake Vavor
+|l|☆Endlich fuhrt FBT
+|raw|Endlich fuhrt FBT's rating: 1000 → 1000(+0 for losing)
+|raw|Lake Vavor's rating: 1000 → 1040(+40 for winning)

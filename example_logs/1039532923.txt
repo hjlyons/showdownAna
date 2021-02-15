@@ -1,0 +1,293 @@
+|ScrapeTime|2020-01-02-06:02:24
+|j|☆mkkmkm
+|j|‽Ministery of weird
+|player|p1|mkkmkm|180|1000
+|player|p2|Ministery of weird|mira|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Shuckle, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Toxtricity-Low-Key, M|
+|poke|p1|Dracozolt|
+|poke|p1|Rotom-Wash|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Aegislash, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Dracozolt|
+|poke|p2|Hattrem, F|
+|poke|p2|Drifblim, F|
+|poke|p2|Appletun, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Excadrill|Excadrill, F, shiny|100/100
+|switch|p2a: Hattrem|Hattrem, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|move|p1a: Excadrill|Earthquake|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|15/100
+|-enditem|p2a: Aegislash|Weakness Policy
+|-boost|p2a: Aegislash|atk|2
+|-boost|p2a: Aegislash|spa|2
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: GOD|Shuckle, M, shiny|100/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: GOD
+|-damage|p1a: GOD|74/100
+|
+|-heal|p1a: GOD|80/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Aegislash|Steel Beam|p1a: GOD
+|-supereffective|p1a: GOD
+|-damage|p1a: GOD|0 fnt
+|-damage|p2a: Aegislash|0 fnt|[from] mindblown
+|faint|p2a: Aegislash
+|faint|p1a: GOD
+|
+|upkeep
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|switch|p1a: Rotom|Rotom-Wash, shiny|100/100
+|turn|4
+|
+|move|p1a: Rotom|Volt Switch|p2a: Dracozolt
+|-immune|p2a: Dracozolt|[from] ability: Volt Absorb
+|move|p2a: Dracozolt|Rock Blast|p1a: Rotom
+|-damage|p1a: Rotom|90/100
+|-damage|p1a: Rotom|79/100
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|64/100
+|-hitcount|p1a: Rotom|3
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Excadrill|Excadrill, F, shiny|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Dracozolt|Rock Blast|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|98/100
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|95/100
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|92/100
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|90/100
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|87/100
+|-hitcount|p1a: Excadrill|5
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Drifblim|Drifblim, F|100/100
+|move|p1a: Excadrill|Earthquake|p2a: Drifblim
+|-immune|p2a: Drifblim
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Excadrill|Rock Slide|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|54/100
+|-enditem|p2a: Drifblim|Weakness Policy
+|-boost|p2a: Drifblim|atk|2
+|-boost|p2a: Drifblim|spa|2
+|move|p2a: Drifblim|Calm Mind|p2a: Drifblim
+|-boost|p2a: Drifblim|spa|1
+|-boost|p2a: Drifblim|spd|1
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Drifblim|Shadow Ball|p1a: Excadrill
+|-crit|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|9
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Drifblim|[miss]
+|-miss|p1a: Grimmsnarl|p2a: Drifblim
+|move|p2a: Drifblim|Thunder|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|54/100
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: mkkmkm|move: Light Screen
+|move|p2a: Drifblim|Thunder|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|32/100
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Drifblim
+|-status|p2a: Drifblim|par
+|move|p2a: Drifblim|Thunder|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|10/100
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: mkkmkm|Reflect
+|cant|p2a: Drifblim|par
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Drifblim|Shadow Ball|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: NA AIM|Dracozolt, shiny|100/100
+|turn|14
+|
+|move|p1a: NA AIM|Bolt Beak|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|faint|p2a: Drifblim
+|
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|15
+|
+|switch|p1a: Rotom|Rotom-Wash, shiny|64/100
+|move|p2a: Seismitoad|Substitute|p2a: Seismitoad
+|-start|p2a: Seismitoad|Substitute
+|-damage|p2a: Seismitoad|76/100
+|
+|-heal|p2a: Seismitoad|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Rotom|Trick||[still]
+|-fail|p1a: Rotom
+|move|p2a: Seismitoad|Drain Punch|p1a: Rotom
+|-damage|p1a: Rotom|48/100
+|-heal|p2a: Seismitoad|86/100|[from] drain|[of] p1a: Rotom
+|
+|-heal|p2a: Seismitoad|92/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: NA AIM|Dracozolt, shiny|100/100
+|move|p2a: Seismitoad|Drain Punch|p1a: NA AIM
+|-damage|p1a: NA AIM|87/100
+|-heal|p2a: Seismitoad|98/100|[from] drain|[of] p1a: NA AIM
+|
+|-heal|p2a: Seismitoad|100/100|[from] item: Leftovers
+|-sideend|p1: mkkmkm|move: Light Screen
+|upkeep
+|turn|18
+|
+|move|p1a: NA AIM|Outrage|p2a: Seismitoad
+|-end|p2a: Seismitoad|Substitute
+|move|p2a: Seismitoad|Earthquake|p1a: NA AIM
+|-supereffective|p1a: NA AIM
+|-crit|p1a: NA AIM
+|-damage|p1a: NA AIM|0 fnt
+|faint|p1a: NA AIM
+|
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, M|100/100
+|turn|19
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Seismitoad
+|-damage|p2a: Seismitoad|3/100
+|move|p2a: Seismitoad|Substitute|p2a: Seismitoad
+|-fail|p2a: Seismitoad|move: Substitute|[weak]
+|
+|-heal|p2a: Seismitoad|9/100|[from] item: Leftovers
+|-sideend|p1: mkkmkm|Reflect
+|upkeep
+|turn|20
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|turn|21
+|
+|move|p2a: Dracozolt|Rock Blast|p1a: Toxtricity
+|-damage|p1a: Toxtricity|90/100
+|-damage|p1a: Toxtricity|78/100
+|-crit|p1a: Toxtricity
+|-damage|p1a: Toxtricity|60/100
+|-damage|p1a: Toxtricity|49/100
+|-hitcount|p1a: Toxtricity|4
+|move|p1a: Toxtricity|Boomburst|p2a: Dracozolt
+|-damage|p2a: Dracozolt|0 fnt
+|faint|p2a: Dracozolt
+|
+|upkeep
+|
+|switch|p2a: Hattrem|Hattrem, F|100/100
+|turn|22
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Hattrem
+|-damage|p2a: Hattrem|18/100
+|move|p2a: Hattrem|Psychic|p1a: Toxtricity
+|-supereffective|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash, shiny|48/100
+|turn|23
+|
+|move|p1a: Rotom|Thunderbolt|p2a: Hattrem
+|-damage|p2a: Hattrem|0 fnt
+|faint|p2a: Hattrem
+|
+|upkeep
+|
+|switch|p2a: Appletun|Appletun, M|100/100
+|turn|24
+|
+|move|p1a: Rotom|Thunderbolt|p2a: Appletun
+|-resisted|p2a: Appletun
+|-damage|p2a: Appletun|91/100
+|move|p2a: Appletun|Apple Acid|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|win|Ministery of weird
+|raw|mkkmkm's rating: 1000 → 1000(+0 for losing)
+|raw|Ministery of weird's rating: 1000 → 1040(+40 for winning)
+|l|☆mkkmkm

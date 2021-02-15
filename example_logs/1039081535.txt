@@ -1,0 +1,366 @@
+|ScrapeTime|2020-01-01-09:55:09
+|j|☆maxtheknife
+|j|☆Hutch00
+|player|p1|maxtheknife|theroyal|1545
+|player|p2|Hutch00|mina|1526
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aegislash, F|
+|poke|p1|Crawdaunt, M|
+|poke|p1|Mew|
+|poke|p1|Lucario, M|
+|poke|p1|Bisharp, F|
+|poke|p1|Dragapult, F|
+|poke|p2|Jellicent, F|
+|poke|p2|Mimikyu, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Weavile, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|1
+|
+|move|p2a: Weavile|Low Kick|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|96/100
+|move|p1a: Mew|Stealth Rock|p2a: Weavile
+|-sidestart|p2: Hutch00|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|-damage|p2a: Mandibuzz|75/100|[from] Stealth Rock
+|move|p1a: Mew|Self-Destruct|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|49/100
+|faint|p1a: Mew
+|
+|-heal|p2a: Mandibuzz|55/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|turn|3
+|
+|move|p1a: Crawdaunt|Swords Dance|p1a: Crawdaunt
+|-boost|p1a: Crawdaunt|atk|2
+|move|p2a: Mandibuzz|U-turn|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|68/100
+|
+|switch|p2a: Mimikyu|Mimikyu, M|100/100|[from]move: U-turn
+|-damage|p2a: Mimikyu|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|-item|p1a: Aegislash|Air Balloon
+|move|p2a: Mimikyu|Play Rough|p1a: Aegislash|[miss]
+|-miss|p2a: Mimikyu|p1a: Aegislash
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|55/100
+|-damage|p2a: Mandibuzz|30/100|[from] Stealth Rock
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Iron Head|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|4/100
+|
+|-heal|p2a: Mandibuzz|10/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Aegislash|Iron Head|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|7
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: Hutch00|Stealth Rock|[silent]
+|-sidestart|p1: maxtheknife|Stealth Rock|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Aegislash|Close Combat|p2a: Cinderace
+|-damage|p2a: Cinderace|33/100
+|-unboost|p1a: Aegislash|def|1
+|-unboost|p1a: Aegislash|spd|1
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Aegislash|Shadow Sneak|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|9
+|
+|move|p1a: Aegislash|Shadow Sneak|p2a: Weavile
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|79/100
+|move|p2a: Weavile|Throat Chop|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|-enditem|p1a: Aegislash|Air Balloon
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|-damage|p1a: Lucario|98/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|move|p1a: Lucario|Bullet Punch|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|92/100
+|-damage|p1a: Lucario|88/100|[from] item: Life Orb
+|
+|-heal|p2a: Jellicent|98/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|-damage|p1a: Bisharp|95/100|[from] Stealth Rock
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Bisharp
+|-status|p1a: Bisharp|brn
+|
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|-damage|p1a: Bisharp|89/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Weavile|Weavile, F|79/100
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Bisharp|Iron Head|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|-damage|p1a: Bisharp|79/100 brn|[from] item: Life Orb
+|faint|p2a: Weavile
+|
+|-damage|p1a: Bisharp|73/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|13
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Ferrothorn|Leech Seed|p1a: Bisharp
+|-start|p1a: Bisharp|move: Leech Seed
+|
+|-damage|p1a: Bisharp|61/100 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-damage|p1a: Bisharp|55/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|26/100 brn
+|
+|-damage|p1a: Bisharp|14/100 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-damage|p1a: Bisharp|8/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Bisharp|Throat Chop|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-damage|p1a: Bisharp|0 fnt|[from] Leech Seed|[of] p2a: Ferrothorn
+|faint|p1a: Bisharp
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, M|88/100
+|-damage|p1a: Lucario|85/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|move|p1a: Lucario|Swords Dance|p1a: Lucario
+|-boost|p1a: Lucario|atk|2
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Lucario|Earthquake|p2a: Jellicent
+|-damage|p2a: Jellicent|40/100
+|-damage|p1a: Lucario|75/100|[from] item: Life Orb
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Lucario
+|-status|p1a: Lucario|brn
+|
+|-heal|p2a: Jellicent|46/100|[from] item: Leftovers
+|-damage|p1a: Lucario|69/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p1a: Lucario|Swords Dance|p1a: Lucario
+|-boost|p1a: Lucario|atk|2
+|move|p2a: Jellicent|Recover|p2a: Jellicent
+|-heal|p2a: Jellicent|96/100
+|
+|-heal|p2a: Jellicent|100/100|[from] item: Leftovers
+|-damage|p1a: Lucario|63/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Lucario|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|66/100
+|-damage|p1a: Lucario|53/100 brn|[from] item: Life Orb
+|
+|-heal|p2a: Ferrothorn|72/100|[from] item: Leftovers
+|-damage|p1a: Lucario|47/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|move|p1a: Lucario|Close Combat|p2a: Jellicent
+|-immune|p2a: Jellicent
+|
+|-damage|p1a: Lucario|41/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p1a: Lucario|Earthquake|p2a: Jellicent
+|-damage|p2a: Jellicent|52/100
+|-damage|p1a: Lucario|31/100 brn|[from] item: Life Orb
+|move|p2a: Jellicent|Scald|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|-heal|p2a: Jellicent|59/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|22
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|72/100
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|63/100
+|
+|-heal|p1a: Dragapult|69/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|78/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|75/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|84/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Mimikyu|Mimikyu, M|88/100
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|50/100
+|
+|-heal|p1a: Dragapult|56/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|84/100
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Ferrothorn
+|
+|-heal|p1a: Dragapult|62/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|91/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Ferrothorn|[from]lockedmove
+|-damage|p2a: Ferrothorn|54/100
+|-damage|p1a: Dragapult|50/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|56/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|60/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|31/100
+|move|p2a: Ferrothorn|Leech Seed||[still]
+|-fail|p2a: Ferrothorn
+|
+|-heal|p1a: Dragapult|37/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|66/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|43/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|73/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Dragapult|[miss]
+|-miss|p2a: Ferrothorn|p1a: Dragapult
+|
+|-heal|p1a: Dragapult|49/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|79/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Ferrothorn|[from]lockedmove
+|-damage|p2a: Ferrothorn|26/100
+|-damage|p1a: Dragapult|37/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Ferrothorn|32/100|[from] item: Leftovers
+|upkeep
+|c|☆maxtheknife|gg
+|c|☆Hutch00|gg
+|c|☆Hutch00|i like the team
+|c|☆maxtheknife|Thanks
+|c|☆maxtheknife|i just got it off a friend lol
+|-message|maxtheknife forfeited.
+|
+|win|Hutch00
+|l|☆maxtheknife
+|raw|maxtheknife's rating: 1545 → 1524(-21 for losing)
+|raw|Hutch00's rating: 1518 → 1539(+21 for winning)

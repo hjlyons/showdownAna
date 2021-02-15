@@ -1,0 +1,295 @@
+|ScrapeTime|2020-01-01-19:01:17
+|j|☆Kingstar2041
+|j|☆lodbrok92
+|player|p1|Kingstar2041|170|1101
+|player|p2|lodbrok92|274|1081
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Dracovish|
+|poke|p1|Aegislash, F|
+|poke|p1|Mantine, F|
+|poke|p1|Gardevoir, F|
+|poke|p1|Vileplume, F|
+|poke|p2|Rillaboom, M|
+|poke|p2|Coalossal, F|
+|poke|p2|Golisopod, F|
+|poke|p2|Weavile, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Dragapult, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|turn|1
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Corviknight|[miss]
+|-miss|p1a: Cinderace|p2a: Corviknight
+|move|p2a: Corviknight|Brave Bird|p1a: Cinderace
+|-damage|p1a: Cinderace|40/100
+|-damage|p2a: Corviknight|85/100|[from] Recoil
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Coalossal|Coalossal, F|100/100
+|move|p1a: Cinderace|U-turn|p2a: Coalossal
+|-resisted|p2a: Coalossal
+|-damage|p2a: Coalossal|93/100
+|
+|switch|p1a: Dracovish|Dracovish|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Corviknight|Corviknight, M|85/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Corviknight
+|-damage|p2a: Corviknight|19/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Golisopod|Golisopod, F|100/100
+|turn|5
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|move|p2a: Golisopod|First Impression|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|92/100
+|
+|-heal|p1a: Aegislash|98/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Coalossal|Coalossal, F|93/100
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|-heal|p1a: Aegislash|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Coalossal|Fire Blast|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|upkeep
+|turn|8
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Sacred Sword|p2a: Coalossal
+|-supereffective|p2a: Coalossal
+|-damage|p2a: Coalossal|4/100
+|-enditem|p2a: Coalossal|Weakness Policy
+|-boost|p2a: Coalossal|atk|2
+|-boost|p2a: Coalossal|spa|2
+|move|p2a: Coalossal|Fire Blast|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|40/100
+|turn|9
+|
+|move|p1a: Cinderace|U-turn|p2a: Coalossal
+|-resisted|p2a: Coalossal
+|-damage|p2a: Coalossal|0 fnt
+|faint|p2a: Coalossal
+|
+|switch|p1a: Dracovish|Dracovish|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p2a: Golisopod|Golisopod, F|100/100
+|turn|10
+|
+|switch|p1a: Mantine|Mantine, F|100/100
+|move|p2a: Golisopod|First Impression|p1a: Mantine
+|-resisted|p1a: Mantine
+|-damage|p1a: Mantine|68/100
+|
+|-heal|p1a: Mantine|75/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Weavile|Weavile, M|100/100
+|move|p1a: Mantine|Air Slash|p2a: Weavile
+|-damage|p2a: Weavile|72/100
+|
+|-heal|p1a: Mantine|81/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|move|p2a: Weavile|Icicle Crash|p1a: Dracovish
+|-damage|p1a: Dracovish|41/100
+|-damage|p2a: Weavile|62/100|[from] item: Life Orb
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Golisopod|Golisopod, F|100/100
+|move|p1a: Dracovish|Outrage|p2a: Golisopod
+|-damage|p2a: Golisopod|66/100
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Golisopod|First Impression|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|upkeep
+|
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|turn|15
+|
+|switch|p2a: Weavile|Weavile, M|62/100
+|move|p1a: Vileplume|Giga Drain|p2a: Weavile
+|-damage|p2a: Weavile|10/100
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Mantine|Mantine, F|81/100
+|move|p2a: Weavile|Icicle Crash|p1a: Mantine
+|-damage|p1a: Mantine|12/100
+|-damage|p2a: Weavile|0 fnt|[from] item: Life Orb
+|faint|p2a: Weavile
+|
+|-heal|p1a: Mantine|18/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|turn|17
+|
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|move|p2a: Rillaboom|Knock Off|p1a: Vileplume
+|-damage|p1a: Vileplume|59/100
+|-enditem|p1a: Vileplume|Big Root|[from] move: Knock Off|[of] p2a: Rillaboom
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Rillaboom|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|15/100
+|move|p1a: Vileplume|Sludge Wave|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|29/100
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Rillaboom|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|40/100
+|turn|20
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|upkeep
+|
+|switch|p2a: Golisopod|Golisopod, F|66/100
+|turn|21
+|
+|switch|p1a: Mantine|Mantine, F|18/100
+|move|p2a: Golisopod|Aqua Jet|p1a: Mantine
+|-heal|p1a: Mantine|43/100|[from] ability: Water Absorb|[of] p2a: Golisopod
+|
+|-heal|p1a: Mantine|49/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Golisopod|Sucker Punch||[still]
+|-fail|p2a: Golisopod
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|99/100
+|-singleturn|p1a: Mantine|move: Roost
+|
+|-heal|p1a: Mantine|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Mantine|Air Slash|p2a: Dragapult
+|-damage|p2a: Dragapult|70/100
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: Mantine|Air Slash|p2a: Dragapult
+|-damage|p2a: Dragapult|42/100
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Mantine
+|-damage|p1a: Mantine|50/100
+|-damage|p1a: Mantine|0 fnt
+|-hitcount|p1a: Mantine|2
+|faint|p1a: Mantine
+|
+|upkeep
+|
+|switch|p1a: Gardevoir|Gardevoir, F|100/100
+|-ability|p1a: Gardevoir|Infiltrator|[from] ability: Trace|[of] p2a: Dragapult
+|turn|26
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Gardevoir
+|move|p1a: Gardevoir|Moonblast|p2a: Dragapult|[miss]
+|-miss|p1a: Gardevoir|p2a: Dragapult
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Gardevoir|[from]lockedmove
+|-supereffective|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|40/100
+|turn|28
+|
+|move|p2a: Dragapult|Sucker Punch|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|win|lodbrok92
+|l|☆Kingstar2041
+|raw|Kingstar2041's rating: 1101 → 1073(-28 for losing)
+|raw|lodbrok92's rating: 1059 → 1094(+35 for winning)

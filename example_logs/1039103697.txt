@@ -1,0 +1,519 @@
+|ScrapeTime|2020-01-01-11:49:19
+|j|☆pokebinh
+|j|☆Juleserdaigle
+|player|p1|pokebinh|lyra|1093
+|player|p2|Juleserdaigle|benga|1133
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Appletun, M|
+|poke|p1|Dracovish|
+|poke|p1|Galvantula, M|
+|poke|p1|Aegislash, M|
+|poke|p1|Mew|
+|poke|p1|Tyranitar, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Dracovish|
+|poke|p2|Barraskewda, M|
+|poke|p2|Gastrodon, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Grimmsnarl, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Galvantula|Galvantula, M, shiny|100/100
+|switch|p2a: Gotapan|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Gotapan
+|turn|1
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|move|p1a: Galvantula|Sticky Web|p2a: Gastrodon
+|-sidestart|p2: Juleserdaigle|move: Sticky Web
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Appletun|Appletun, M|100/100
+|move|p2a: Gastrodon|Earth Power|p1a: Appletun
+|-resisted|p1a: Appletun
+|-damage|p1a: Appletun|86/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p2a: Gastrodon|Ice Beam|p1a: Appletun
+|-supereffective|p1a: Appletun
+|-damage|p1a: Appletun|7/100
+|-enditem|p1a: Appletun|Starf Berry|[eat]
+|-boost|p1a: Appletun|spa|4
+|move|p1a: Appletun|Body Press|p2a: Gastrodon
+|-damage|p2a: Gastrodon|89/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gastrodon|95/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Gastrodon|Scald|p1a: Appletun
+|-resisted|p1a: Appletun
+|-damage|p1a: Appletun|0 fnt
+|faint|p1a: Appletun
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Juleserdaigle)
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|turn|5
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Gastrodon|Earth Power|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p2a: Pied+Lego|Dracovish|100/100
+|-activate|p2a: Pied+Lego|move: Sticky Web
+|-unboost|p2a: Pied+Lego|spe|1
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Sacred Sword|p2a: Pied+Lego
+|-damage|p2a: Pied+Lego|59/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Pied+Lego|Fishious Rend|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|-unboost|p2a: Pied+Lego|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|-activate|p2a: Gastrodon|move: Sticky Web
+|-unboost|p2a: Gastrodon|spe|1
+|switch|p1a: Dracovish|Dracovish|100/100
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|move|p1a: Dracovish|Crunch|p2a: Gastrodon
+|-damage|p2a: Gastrodon|75/100
+|move|p2a: Gastrodon|Ice Beam|p1a: Dracovish
+|-damage|p1a: Dracovish|84/100
+|
+|-heal|p2a: Gastrodon|81/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-activate|p2a: Grimmsnarl|move: Sticky Web
+|-unboost|p2a: Grimmsnarl|spe|1
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Aegislash
+|-status|p1a: Aegislash|par
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Juleserdaigle|Reflect
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Sacred Sword|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|53/100
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Gotapan|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Gotapan
+|move|p1a: Aegislash|Sacred Sword|p2a: Gotapan
+|-resisted|p2a: Gotapan
+|-damage|p2a: Gotapan|87/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|cant|p1a: Aegislash|par
+|move|p2a: Gotapan|Hurricane|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|70/100 par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Gotapan|Hurricane|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|switch|p2a: Pied+Lego|Dracovish|59/100
+|-activate|p2a: Pied+Lego|move: Sticky Web
+|-unboost|p2a: Pied+Lego|spe|1
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: Juleserdaigle|Reflect
+|upkeep
+|turn|17
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Pied+Lego|Fishious Rend|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|-unboost|p2a: Pied+Lego|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|cant|p1a: Aegislash|par
+|move|p2a: Pied+Lego|Fishious Rend|p1a: Aegislash
+|-damage|p1a: Aegislash|25/100 par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Pied+Lego|Fishious Rend|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|-unboost|p2a: Pied+Lego|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Sneak|p2a: Pied+Lego
+|-damage|p2a: Pied+Lego|0 fnt
+|faint|p2a: Pied+Lego
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Gotapan|Pelipper, M|87/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Gotapan
+|turn|21
+|
+|move|p1a: Aegislash|Shadow Sneak|p2a: Gotapan
+|-damage|p2a: Gotapan|34/100
+|move|p2a: Gotapan|Hurricane|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|22
+|
+|switch|p2a: PC Feu ??|Ferrothorn, F|100/100
+|-activate|p2a: PC Feu ??|move: Sticky Web
+|-unboost|p2a: PC Feu ??|spe|1
+|move|p1a: Tyranitar|Rock Slide|p2a: PC Feu ??
+|-resisted|p2a: PC Feu ??
+|-damage|p2a: PC Feu ??|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: PC Feu ??|94/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|pokebinh has 120 seconds left.
+|
+|switch|p1a: Mew|Mew|100/100
+|move|p2a: PC Feu ??|Stealth Rock|p1a: Mew
+|-sidestart|p1: pokebinh|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|94/100|[from] Sandstorm
+|-heal|p1a: Mew|100/100|[from] item: Leftovers
+|-heal|p2a: PC Feu ??|99/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Mew|Cosmic Power|p1a: Mew
+|-boost|p1a: Mew|def|1
+|-boost|p1a: Mew|spd|1
+|move|p2a: PC Feu ??|Leech Seed|p1a: Mew
+|-start|p1a: Mew|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|94/100|[from] Sandstorm
+|-heal|p1a: Mew|100/100|[from] item: Leftovers
+|-heal|p2a: PC Feu ??|100/100|[from] item: Leftovers
+|-damage|p1a: Mew|88/100|[from] Leech Seed|[of] p2a: PC Feu ??
+|upkeep
+|turn|25
+|
+|move|p1a: Mew|Cosmic Power|p1a: Mew
+|-boost|p1a: Mew|def|1
+|-boost|p1a: Mew|spd|1
+|move|p2a: PC Feu ??|Spikes|p1a: Mew
+|-sidestart|p1: pokebinh|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|82/100|[from] Sandstorm
+|-heal|p1a: Mew|88/100|[from] item: Leftovers
+|-damage|p1a: Mew|76/100|[from] Leech Seed|[of] p2a: PC Feu ??
+|upkeep
+|turn|26
+|
+|move|p1a: Mew|Cosmic Power|p1a: Mew
+|-boost|p1a: Mew|def|1
+|-boost|p1a: Mew|spd|1
+|move|p2a: PC Feu ??|Spikes|p1a: Mew
+|-sidestart|p1: pokebinh|Spikes
+|
+|-weather|none
+|-heal|p1a: Mew|82/100|[from] item: Leftovers
+|-damage|p1a: Mew|70/100|[from] Leech Seed|[of] p2a: PC Feu ??
+|upkeep
+|turn|27
+|
+|move|p1a: Mew|Cosmic Power|p1a: Mew
+|-boost|p1a: Mew|def|1
+|-boost|p1a: Mew|spd|1
+|move|p2a: PC Feu ??|Spikes|p1a: Mew
+|-sidestart|p1: pokebinh|Spikes
+|
+|-heal|p1a: Mew|76/100|[from] item: Leftovers
+|-damage|p1a: Mew|63/100|[from] Leech Seed|[of] p2a: PC Feu ??
+|upkeep
+|turn|28
+|
+|move|p1a: Mew|Cosmic Power|p1a: Mew
+|-boost|p1a: Mew|def|1
+|-boost|p1a: Mew|spd|1
+|move|p2a: PC Feu ??|Power Whip|p1a: Mew
+|-damage|p1a: Mew|53/100
+|
+|-heal|p1a: Mew|59/100|[from] item: Leftovers
+|-damage|p1a: Mew|47/100|[from] Leech Seed|[of] p2a: PC Feu ??
+|upkeep
+|turn|29
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|53/100
+|-activate|p2a: Grimmsnarl|move: Sticky Web
+|-unboost|p2a: Grimmsnarl|spe|1
+|move|p1a: Mew|Cosmic Power|p1a: Mew
+|-boost|p1a: Mew|def|1
+|-boost|p1a: Mew|spd|1
+|
+|-heal|p1a: Mew|53/100|[from] item: Leftovers
+|-damage|p1a: Mew|41/100|[from] Leech Seed|[of] p2a: Grimmsnarl
+|-heal|p2a: Grimmsnarl|66/100|[silent]
+|upkeep
+|turn|30
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Mew
+|-status|p1a: Mew|par
+|-activate|p1a: Mew|ability: Synchronize
+|-status|p2a: Grimmsnarl|par
+|move|p1a: Mew|Body Press|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|-heal|p1a: Mew|47/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gotapan|Pelipper, M|34/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Gotapan
+|turn|31
+|
+|move|p2a: Gotapan|U-turn|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|43/100 par
+|
+|switch|p2a: Gastrodon|Gastrodon, M|81/100|[from]move: U-turn
+|-activate|p2a: Gastrodon|move: Sticky Web
+|-unboost|p2a: Gastrodon|spe|1
+|move|p1a: Mew|Stored Power|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Mew|50/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, M|100/100
+|-activate|p2a: Barraskewda|move: Sticky Web
+|-unboost|p2a: Barraskewda|spe|1
+|turn|32
+|c|☆pokebinh|if mew down then i will lose
+|
+|move|p2a: Barraskewda|Liquidation|p1a: Mew
+|-damage|p1a: Mew|25/100 par
+|move|p1a: Mew|Rest|p1a: Mew
+|-status|p1a: Mew|slp|[from] move: Rest
+|-heal|p1a: Mew|100/100 slp|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Mew|88/100 slp|[from] Leech Seed|[of] p2a: Barraskewda
+|upkeep
+|turn|33
+|c|☆Juleserdaigle|Yes
+|
+|move|p2a: Barraskewda|Liquidation|p1a: Mew
+|-damage|p1a: Mew|66/100 slp
+|cant|p1a: Mew|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Mew|73/100 slp|[from] item: Leftovers
+|-damage|p1a: Mew|60/100 slp|[from] Leech Seed|[of] p2a: Barraskewda
+|upkeep
+|turn|34
+|c|☆pokebinh|please no crit
+|
+|move|p2a: Barraskewda|Liquidation|p1a: Mew
+|-damage|p1a: Mew|39/100 slp
+|cant|p1a: Mew|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Mew|45/100 slp|[from] item: Leftovers
+|-damage|p1a: Mew|32/100 slp|[from] Leech Seed|[of] p2a: Barraskewda
+|upkeep
+|turn|35
+|
+|move|p2a: Barraskewda|Liquidation|p1a: Mew
+|-damage|p1a: Mew|11/100 slp
+|-curestatus|p1a: Mew|slp|[msg]
+|move|p1a: Mew|Stored Power|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|faint|p2a: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Mew|17/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gotapan|Pelipper, M|34/100
+|turn|36
+|
+|move|p1a: Mew|Rest|p1a: Mew
+|-status|p1a: Mew|slp|[from] move: Rest
+|-heal|p1a: Mew|100/100 slp|[silent]
+|move|p2a: Gotapan|U-turn|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|96/100 slp
+|
+|switch|p2a: PC Feu ??|Ferrothorn, F|100/100|[from]move: U-turn
+|-activate|p2a: PC Feu ??|move: Sticky Web
+|-unboost|p2a: PC Feu ??|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Mew|100/100 slp|[from] item: Leftovers
+|-damage|p1a: Mew|88/100 slp|[from] Leech Seed|[of] p2a: PC Feu ??
+|upkeep
+|turn|37
+|
+|cant|p1a: Mew|slp
+|move|p2a: PC Feu ??|Power Whip|p1a: Mew
+|-damage|p1a: Mew|79/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Mew|85/100 slp|[from] item: Leftovers
+|-damage|p1a: Mew|73/100 slp|[from] Leech Seed|[of] p2a: PC Feu ??
+|upkeep
+|turn|38
+|
+|cant|p1a: Mew|slp
+|move|p2a: PC Feu ??|Power Whip|p1a: Mew
+|-damage|p1a: Mew|65/100 slp
+|
+|-weather|none
+|-heal|p1a: Mew|71/100 slp|[from] item: Leftovers
+|-damage|p1a: Mew|58/100 slp|[from] Leech Seed|[of] p2a: PC Feu ??
+|upkeep
+|turn|39
+|
+|-curestatus|p1a: Mew|slp|[msg]
+|move|p1a: Mew|Body Press|p2a: PC Feu ??
+|-supereffective|p2a: PC Feu ??
+|-damage|p2a: PC Feu ??|18/100
+|-damage|p1a: Mew|46/100|[from] ability: Iron Barbs|[of] p2a: PC Feu ??
+|move|p2a: PC Feu ??|Power Whip|p1a: Mew
+|-damage|p1a: Mew|37/100
+|
+|-heal|p1a: Mew|43/100|[from] item: Leftovers
+|-heal|p2a: PC Feu ??|24/100|[from] item: Leftovers
+|-damage|p1a: Mew|31/100|[from] Leech Seed|[of] p2a: PC Feu ??
+|-heal|p2a: PC Feu ??|38/100|[silent]
+|upkeep
+|turn|40
+|
+|move|p1a: Mew|Body Press|p2a: PC Feu ??
+|-supereffective|p2a: PC Feu ??
+|-damage|p2a: PC Feu ??|0 fnt
+|-damage|p1a: Mew|19/100|[from] ability: Iron Barbs|[of] p2a: PC Feu ??
+|faint|p2a: PC Feu ??
+|
+|-heal|p1a: Mew|25/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gotapan|Pelipper, M|34/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Gotapan
+|turn|41
+|
+|move|p1a: Mew|Body Press|p2a: Gotapan
+|-resisted|p2a: Gotapan
+|-damage|p2a: Gotapan|6/100
+|move|p2a: Gotapan|Hurricane|p1a: Mew
+|-damage|p1a: Mew|19/100
+|-start|p1a: Mew|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Mew|25/100|[from] item: Leftovers
+|-damage|p1a: Mew|13/100|[from] Leech Seed|[of] p2a: Gotapan
+|-heal|p2a: Gotapan|21/100|[silent]
+|upkeep
+|turn|42
+|c|☆pokebinh|i miss click
+|
+|-activate|p1a: Mew|confusion
+|move|p1a: Mew|Stored Power|p2a: Gotapan
+|-damage|p2a: Gotapan|0 fnt
+|faint|p2a: Gotapan
+|
+|win|pokebinh
+|raw|pokebinh's rating: 1093 → 1122(+29 for winning)
+|raw|Juleserdaigle's rating: 1133 → 1105(-28 for losing)

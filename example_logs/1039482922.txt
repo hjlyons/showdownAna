@@ -1,0 +1,270 @@
+|ScrapeTime|2020-01-02-03:44:26
+|j|☆XHtishen
+|j|☆haaappy
+|player|p1|XHtishen|lady-gen4|1413
+|player|p2|haaappy|101|1412
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aegislash, F|
+|poke|p1|Clefable, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Dracozolt|
+|poke|p1|Rotom-Heat|
+|poke|p2|Araquanid, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Mimikyu, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Ferrothorn, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| hero
+|
+|start
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|switch|p2a: Araquanid|Araquanid, F, shiny|100/100
+|turn|1
+|l| hero
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Head Smash|p2a: Araquanid|[miss]
+|-miss|p1a: Aegislash|p2a: Araquanid
+|move|p2a: Araquanid|Sticky Web|p1a: Aegislash
+|-sidestart|p1: XHtishen|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M, shiny|100/100
+|move|p1a: Aegislash|Head Smash|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|73/100
+|-damage|p1a: Aegislash|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Aegislash|69/100|[from] Recoil
+|
+|-heal|p2a: Ferrothorn|79/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Cinderace
+|-status|p1a: Cinderace|par
+|
+|-heal|p2a: Ferrothorn|85/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Araquanid|Araquanid, F, shiny|100/100
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p1: XHtishen|Sticky Web|[silent]
+|-sidestart|p2: haaappy|Sticky Web|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Cinderace|U-turn|p2a: Araquanid
+|-damage|p2a: Araquanid|74/100
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100|[from]move: U-turn
+|move|p2a: Araquanid|Liquidation|p1a: Dracozolt
+|-resisted|p1a: Dracozolt
+|-damage|p1a: Dracozolt|64/100
+|
+|-heal|p2a: Araquanid|80/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Dracozolt|Earthquake|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|56/100
+|move|p2a: Araquanid|Lunge|p1a: Dracozolt
+|-damage|p1a: Dracozolt|25/100
+|-unboost|p1a: Dracozolt|atk|1
+|
+|-heal|p2a: Araquanid|62/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Aegislash|Aegislash, F|69/100
+|switch|p2a: Rotom|Rotom-Wash, shiny|100/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100 par
+|move|p2a: Rotom|Will-O-Wisp||[still]
+|-fail|p2a: Rotom
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Araquanid|Araquanid, F, shiny|62/100
+|-activate|p2a: Araquanid|move: Sticky Web
+|-unboost|p2a: Araquanid|spe|1
+|move|p1a: Cinderace|U-turn|p2a: Araquanid
+|-damage|p2a: Araquanid|39/100
+|
+|switch|p1a: Clefable|Clefable, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Araquanid|45/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Clefable|Moonblast|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M, shiny|100/100
+|-activate|p2a: Excadrill|move: Sticky Web
+|-unboost|p2a: Excadrill|spe|1
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|11
+|
+|move|p1a: Clefable|Flamethrower|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|10/100
+|-status|p2a: Excadrill|brn
+|move|p2a: Excadrill|Rapid Spin|p1a: Clefable
+|-damage|p1a: Clefable|88/100
+|-sideend|p2: haaappy|Sticky Web|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-boost|p2a: Excadrill|spe|1
+|
+|-damage|p2a: Excadrill|4/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Excadrill|Iron Head|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|30/100
+|move|p1a: Clefable|Moonblast|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|13
+|
+|move|p2a: Dragapult|Fire Blast|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100 par
+|turn|14
+|
+|switch|p2a: Rotom|Rotom-Wash, shiny|100/100
+|move|p1a: Cinderace|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|69/100
+|
+|switch|p1a: Dracozolt|Dracozolt|25/100|[from]move: U-turn
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Dracozolt
+|-resisted|p1a: Dracozolt
+|-damage|p1a: Dracozolt|0 fnt
+|faint|p1a: Dracozolt
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|16
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M, shiny|85/100
+|move|p1a: Excadrill|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|52/100
+|
+|-heal|p2a: Ferrothorn|58/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|l|☆XHtishen
+|player|p1|
+|j|☆XHtishen
+|player|p1|XHtishen|lady-gen4
+|
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Excadrill
+|-sidestart|p1: XHtishen|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|64/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|54/100
+|-damage|p1a: Excadrill|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-sideend|p1: XHtishen|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|50/100
+|
+|-heal|p1a: Excadrill|56/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|60/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Excadrill|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Excadrill|62/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash, shiny|69/100
+|turn|20
+|
+|move|p1a: Excadrill|Earthquake|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-heal|p1a: Excadrill|68/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|21
+|
+|move|p1a: Excadrill|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Excadrill|74/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Mimikyu|Mimikyu, F|100/100
+|turn|22
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Excadrill
+|-damage|p1a: Excadrill|40/100
+|move|p1a: Excadrill|Iron Head|p2a: Mimikyu
+|-supereffective|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|win|XHtishen
+|raw|XHtishen's rating: 1413 → 1433(+20 for winning)
+|raw|haaappy's rating: 1413 → 1393(-20 for losing)
+|l|☆haaappy

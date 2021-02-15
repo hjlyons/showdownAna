@@ -1,0 +1,409 @@
+|ScrapeTime|2020-01-01-22:18:32
+|j|☆Polo90p
+|j|☆Blade0203
+|player|p1|Polo90p|dragontamer|1074
+|player|p2|Blade0203|hilbert-dueldisk|1121
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Inteleon, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Ditto|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Hawlucha, F|
+|poke|p1|Corsola-Galar, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Aegislash, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Rotom-Heat|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Blade0203)
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|turn|1
+|
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Blade0203|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|move|p1a: Ferrothorn|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|96/100
+|-damage|p1a: Ferrothorn|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-enditem|p2a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|90/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Corviknight|Body Press|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|2/100
+|-damage|p2a: Corviknight|83/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Corviknight
+|-start|p2a: Corviknight|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|8/100|[from] item: Leftovers
+|-damage|p2a: Corviknight|71/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|23/100|[silent]
+|upkeep
+|turn|4
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|-damage|p2a: Conkeldurr|94/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Conkeldurr
+|-sidestart|p2: Blade0203|Spikes
+|
+|-heal|p1a: Ferrothorn|29/100|[from] item: Leftovers
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Conkeldurr|82/100 brn|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-damage|p2a: Conkeldurr|76/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Unnerve|p2: Blade0203
+|turn|6
+|
+|move|p1a: Corviknight|Air Slash|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-crit|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|8/100 brn
+|-damage|p1a: Corviknight|91/100|[from] item: Life Orb
+|cant|p2a: Conkeldurr|flinch
+|
+|-damage|p2a: Conkeldurr|2/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Corviknight
+|-damage|p1a: Corviknight|69/100
+|move|p1a: Corviknight|Steel Wing|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|-damage|p1a: Corviknight|59/100|[from] item: Life Orb
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p1a: Inteleon|Inteleon, M|100/100
+|move|p2a: Rotom|Overheat|p1a: Inteleon
+|-resisted|p1a: Inteleon
+|-damage|p1a: Inteleon|46/100
+|-unboost|p2a: Rotom|spa|2
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Inteleon|Hydro Pump|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|move|p2a: Hydreigon|Draco Meteor|p1a: Hawlucha
+|-damage|p1a: Hawlucha|12/100
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Hawlucha|High Jump Kick|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|-damage|p2a: Aegislash|88/100|[from] Spikes
+|-damage|p2a: Aegislash|82/100|[from] Stealth Rock
+|turn|12
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|-heal|p2a: Aegislash|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ditto|Ditto, shiny|100/100
+|-transform|p1a: Ditto|p2a: Aegislash|[from] ability: Imposter
+|turn|13
+|
+|-formechange|p2a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Ditto|Shadow Sneak|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|-unboost|p1a: Ditto|atk|1
+|
+|-heal|p2a: Aegislash|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Ditto|Shadow Sneak|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|66/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|2/100
+|
+|-heal|p2a: Aegislash|72/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|-formechange|p2a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Ditto|Shadow Sneak|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|-unboost|p1a: Ditto|atk|1
+|
+|-heal|p2a: Aegislash|78/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Ditto|Shadow Sneak|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|60/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|-heal|p2a: Aegislash|66/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|turn|17
+|
+|move|p2a: Aegislash|Iron Head|p1a: Corsola
+|-crit|p1a: Corsola
+|-damage|p1a: Corsola|25/100
+|-ability|p1a: Corsola|Weak Armor|boost
+|-unboost|p1a: Corsola|def|1
+|-boost|p1a: Corsola|spe|2
+|move|p1a: Corsola|Will-O-Wisp|p2a: Aegislash
+|-status|p2a: Aegislash|brn
+|
+|-heal|p1a: Corsola|31/100|[from] item: Leftovers
+|-heal|p2a: Aegislash|72/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|66/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p1a: Corsola|Strength Sap|p2a: Aegislash
+|-unboost|p2a: Aegislash|atk|1
+|-heal|p1a: Corsola|100/100
+|move|p2a: Aegislash|Iron Head|p1a: Corsola
+|-damage|p1a: Corsola|75/100
+|-ability|p1a: Corsola|Weak Armor|boost
+|-unboost|p1a: Corsola|def|1
+|-boost|p1a: Corsola|spe|2
+|
+|-heal|p1a: Corsola|82/100|[from] item: Leftovers
+|-heal|p2a: Aegislash|72/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|66/100 brn|[from] brn
+|upkeep
+|turn|19
+|inactive|Polo90p has 120 seconds left.
+|
+|-formechange|p2a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Corsola|Night Shade|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|
+|-heal|p1a: Corsola|88/100|[from] item: Leftovers
+|-heal|p2a: Aegislash|72/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|66/100 brn|[from] brn
+|upkeep
+|turn|20
+|inactive|Polo90p has 120 seconds left.
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|54/100
+|-ability|p1a: Corsola|Weak Armor|boost
+|-unboost|p1a: Corsola|def|1
+|-boost|p1a: Corsola|spe|2
+|move|p1a: Corsola|Night Shade|p2a: Aegislash
+|-damage|p2a: Aegislash|35/100 brn
+|
+|-heal|p1a: Corsola|60/100|[from] item: Leftovers
+|-heal|p2a: Aegislash|41/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|35/100 brn|[from] brn
+|upkeep
+|turn|21
+|inactive|Polo90p has 120 seconds left.
+|
+|move|p2a: Aegislash|Shadow Sneak|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|15/100
+|-ability|p1a: Corsola|Weak Armor|boost
+|-unboost|p1a: Corsola|def|1
+|move|p1a: Corsola|Strength Sap|p2a: Aegislash
+|-unboost|p2a: Aegislash|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|-heal|p2a: Aegislash|41/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|35/100 brn|[from] brn
+|upkeep
+|turn|22
+|inactive|Polo90p has 120 seconds left.
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|88/100|[from] Spikes
+|-damage|p2a: Excadrill|85/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Corsola|Strength Sap|p2a: Excadrill
+|-unboost|p2a: Excadrill|atk|1
+|
+|upkeep
+|turn|23
+|inactive|Polo90p has 120 seconds left.
+|
+|move|p1a: Corsola|Will-O-Wisp|p2a: Excadrill
+|-status|p2a: Excadrill|brn
+|move|p2a: Excadrill|Earthquake|p1a: Corsola
+|-damage|p1a: Corsola|36/100
+|-ability|p1a: Corsola|Weak Armor|boost
+|-unboost|p1a: Corsola|def|1
+|
+|-heal|p1a: Corsola|42/100|[from] item: Leftovers
+|-damage|p2a: Excadrill|79/100 brn|[from] brn
+|upkeep
+|turn|24
+|inactive|Polo90p has 120 seconds left.
+|
+|switch|p1a: Corviknight|Corviknight, F|59/100
+|-ability|p1a: Corviknight|Unnerve|p2: Blade0203
+|move|p2a: Excadrill|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|
+|-damage|p2a: Excadrill|73/100 brn|[from] brn
+|upkeep
+|turn|25
+|inactive|Polo90p has 120 seconds left.
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Corviknight
+|-damage|p1a: Corviknight|52/100
+|move|p1a: Corviknight|Revenge|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-crit|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-damage|p1a: Corviknight|42/100|[from] item: Life Orb
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, F|71/100
+|-damage|p2a: Corviknight|58/100|[from] Stealth Rock
+|turn|26
+|
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|move|p1a: Corviknight|Revenge|p2a: Corviknight
+|-damage|p2a: Corviknight|53/100
+|-damage|p1a: Corviknight|33/100|[from] item: Life Orb
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|45/100
+|-damage|p1a: Corviknight|30/100|[from] Recoil
+|-damage|p1a: Corviknight|20/100|[from] item: Life Orb
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|95/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Corviknight|Air Slash|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|87/100
+|-damage|p1a: Corviknight|10/100|[from] item: Life Orb
+|cant|p2a: Corviknight|flinch
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Corviknight|Air Slash|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|74/100
+|-damage|p1a: Corviknight|0 fnt|[from] item: Life Orb
+|faint|p1a: Corviknight
+|move|p2a: Corviknight|Body Press|p1: Corviknight|[notarget]
+|-fail|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Inteleon|Inteleon, M|46/100
+|turn|30
+|
+|move|p1a: Inteleon|Ice Beam|p2a: Corviknight
+|-damage|p2a: Corviknight|35/100
+|move|p2a: Corviknight|Body Press|p1a: Inteleon
+|-damage|p1a: Inteleon|0 fnt
+|faint|p1a: Inteleon
+|
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, M|42/100
+|turn|31
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|-damage|p2a: Corviknight|24/100|[from] Recoil
+|faint|p1a: Corsola
+|
+|win|Blade0203
+|l|☆Polo90p
+|raw|Polo90p's rating: 1055 → 1042(-13 for losing)
+|raw|Blade0203's rating: 1150 → 1168(+18 for winning)

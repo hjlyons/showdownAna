@@ -1,0 +1,346 @@
+|ScrapeTime|2020-01-01-05:55:58
+|j|☆Monograk
+|j|☆Spotthefake
+|player|p1|Monograk|10|1000
+|player|p2|Spotthefake|lance|1045
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corviknight, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Falinks|
+|poke|p1|Runerigus, F|
+|poke|p1|Coalossal, M|
+|poke|p1|Ferrothorn, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Togekiss, M|
+|poke|p2|Dracozolt|
+|poke|p2|Hydreigon, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Spotthefake)
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|turn|1
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Togekiss
+|-start|p2a: Togekiss|move: Taunt
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|19/100
+|-damage|p2a: Togekiss|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Monograk|move: Light Screen
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|-damage|p2a: Togekiss|81/100|[from] item: Life Orb
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|turn|3
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Unnerve|p1: Monograk
+|move|p1a: Ferrothorn|Spikes|p2a: Corviknight
+|-sidestart|p2: Spotthefake|Spikes
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Corviknight|Defog|p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|evasion|1
+|-sideend|p1: Monograk|move: Light Screen
+|-sideend|p2: Spotthefake|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Ferrothorn|Leech Seed|p2a: Corviknight
+|-start|p2a: Corviknight|move: Leech Seed
+|
+|-damage|p2a: Corviknight|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|5
+|
+|switch|p1a: Coalossal|Coalossal, M|100/100
+|move|p2a: Corviknight|Body Press|p1a: Coalossal
+|-supereffective|p1a: Coalossal
+|-damage|p1a: Coalossal|67/100
+|
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|-damage|p2a: Corviknight|82/100|[from] Leech Seed|[of] p1a: Coalossal
+|-heal|p1a: Coalossal|79/100|[silent]
+|upkeep
+|turn|6
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Corviknight|Body Press|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|65/100
+|-damage|p2a: Corviknight|70/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p2a: Corviknight|76/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|71/100|[from] item: Leftovers
+|-damage|p2a: Corviknight|63/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|85/100|[silent]
+|upkeep
+|turn|7
+|inactive|Monograk has 120 seconds left.
+|
+|move|p2a: Corviknight|Body Press|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|49/100
+|-damage|p2a: Corviknight|51/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Corviknight
+|-sidestart|p2: Spotthefake|Spikes
+|
+|-heal|p2a: Corviknight|57/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|55/100|[from] item: Leftovers
+|-damage|p2a: Corviknight|45/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|69/100|[silent]
+|upkeep
+|turn|8
+|inactive|Monograk has 120 seconds left.
+|
+|switch|p1a: Runerigus|Runerigus, F|100/100
+|move|p2a: Corviknight|Defog|p1a: Runerigus
+|-unboost|p1a: Runerigus|evasion|1
+|-sideend|p2: Spotthefake|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|
+|-heal|p2a: Corviknight|51/100|[from] item: Leftovers
+|-damage|p2a: Corviknight|39/100|[from] Leech Seed|[of] p1a: Runerigus
+|upkeep
+|turn|9
+|inactive|Monograk has 120 seconds left.
+|inactive|Spotthefake has 120 seconds left.
+|
+|move|p2a: Corviknight|Taunt|p1a: Runerigus
+|-start|p1a: Runerigus|move: Taunt
+|cant|p1a: Runerigus|move: Taunt|Stealth Rock
+|
+|-heal|p2a: Corviknight|45/100|[from] item: Leftovers
+|-damage|p2a: Corviknight|32/100|[from] Leech Seed|[of] p1a: Runerigus
+|upkeep
+|turn|10
+|inactive|Monograk has 120 seconds left.
+|inactive|Spotthefake has 120 seconds left.
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Runerigus|Body Press|p2a: Seismitoad
+|-damage|p2a: Seismitoad|67/100
+|
+|-heal|p2a: Seismitoad|73/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|Monograk has 120 seconds left.
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|69/100
+|move|p2a: Seismitoad|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|61/100
+|
+|-heal|p2a: Seismitoad|79/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|67/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|75/100
+|
+|-heal|p1a: Ferrothorn|73/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Coalossal|Coalossal, M|79/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Coalossal
+|-resisted|p1a: Coalossal
+|-damage|p1a: Coalossal|66/100
+|-ability|p1a: Coalossal|Steam Engine|boost
+|-boost|p1a: Coalossal|spe|6
+|-damage|p2a: Cinderace|65/100|[from] item: Life Orb
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Corviknight|Corviknight, M|32/100
+|-ability|p2a: Corviknight|Unnerve|p1: Monograk
+|move|p1a: Coalossal|Stone Edge|p2a: Corviknight|[miss]
+|-miss|p1a: Coalossal|p2a: Corviknight
+|
+|-heal|p2a: Corviknight|38/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Coalossal|Flare Blitz|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Coalossal|54/100|[from] Recoil
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|16
+|
+|move|p2a: Hydreigon|Hydro Pump|p1a: Coalossal|[miss]
+|-miss|p2a: Hydreigon|p1a: Coalossal
+|move|p1a: Coalossal|Stone Edge|p2a: Hydreigon|[miss]
+|-miss|p1a: Coalossal|p2a: Hydreigon
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|73/100
+|move|p2a: Hydreigon|Hydro Pump|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|60/100
+|
+|-heal|p1a: Ferrothorn|66/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Cinderace|Cinderace, M|65/100
+|move|p1a: Ferrothorn|Spikes|p2a: Cinderace
+|-sidestart|p2: Spotthefake|Spikes
+|
+|-heal|p1a: Ferrothorn|72/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Spotthefake has 120 seconds left.
+|inactive|Spotthefake has 90 seconds left.
+|
+|switch|p1a: Coalossal|Coalossal, M|54/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Coalossal
+|-resisted|p1a: Coalossal
+|-damage|p1a: Coalossal|42/100
+|-ability|p1a: Coalossal|Steam Engine|boost
+|-boost|p1a: Coalossal|spe|6
+|-damage|p2a: Cinderace|55/100|[from] item: Life Orb
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Coalossal
+|-damage|p1a: Coalossal|21/100
+|-damage|p2a: Cinderace|45/100|[from] item: Life Orb
+|move|p1a: Coalossal|Stone Edge|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|21
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Coalossal
+|-damage|p1a: Coalossal|0 fnt
+|faint|p1a: Coalossal
+|
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|72/100
+|turn|22
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|42/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Hydreigon
+|-start|p2a: Hydreigon|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|48/100|[from] item: Leftovers
+|-damage|p2a: Hydreigon|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|59/100|[silent]
+|upkeep
+|turn|23
+|
+|switch|p2a: Togekiss|Togekiss, M|81/100
+|switch|p1a: Falinks|Falinks|100/100
+|
+|upkeep
+|turn|24
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|59/100
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|43/100
+|-damage|p2a: Togekiss|71/100|[from] item: Life Orb
+|
+|-heal|p1a: Ferrothorn|49/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Togekiss|Nasty Plot|p2a: Togekiss
+|-boost|p2a: Togekiss|spa|2
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|-heal|p1a: Ferrothorn|56/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|-damage|p2a: Dracozolt|88/100|[from] Spikes
+|turn|26
+|
+|switch|p1a: Runerigus|Runerigus, F|100/100
+|move|p2a: Dracozolt|Low Kick|p1a: Runerigus
+|-immune|p1a: Runerigus
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: Seismitoad|Seismitoad, F|79/100
+|-damage|p2a: Seismitoad|66/100|[from] Spikes
+|move|p1a: Runerigus|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: Spotthefake|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|72/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Seismitoad|Scald|p1a: Runerigus
+|-supereffective|p1a: Runerigus
+|-damage|p1a: Runerigus|51/100
+|move|p1a: Runerigus|Body Press|p2a: Seismitoad
+|-damage|p2a: Seismitoad|37/100
+|
+|-heal|p2a: Seismitoad|43/100|[from] item: Leftovers
+|-heal|p1a: Runerigus|57/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|56/100
+|move|p2a: Seismitoad|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|48/100
+|
+|-heal|p2a: Seismitoad|49/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|54/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|-message|Spotthefake forfeited.
+|
+|win|Monograk
+|l|☆Spotthefake
+|raw|Monograk's rating: 1000 → 1045(+45 for winning)
+|raw|Spotthefake's rating: 1045 → 1026(-19 for losing)

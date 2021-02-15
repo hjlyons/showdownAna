@@ -1,0 +1,261 @@
+|ScrapeTime|2020-01-01-21:35:06
+|j|☆diaperbabe29
+|j|☆WB0
+|player|p1|diaperbabe29|8|1728
+|player|p2|WB0|102|1542
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Clefable, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Kommo-o, M|
+|poke|p1|Rotom-Mow|
+|poke|p1|Gastrodon-East, M|
+|poke|p1|Ditto|
+|poke|p2|Mew|
+|poke|p2|Kommo-o, M|
+|poke|p2|Gyarados, M|
+|poke|p2|Hawlucha, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Dragapult, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ditto|Ditto|100/100
+|switch|p2a: Mew|Mew|100/100
+|-transform|p1a: Ditto|p2a: Mew|[from] ability: Imposter
+|turn|1
+|
+|move|p1a: Ditto|Stealth Rock|p2a: Mew
+|-sidestart|p2: WB0|move: Stealth Rock
+|move|p2a: Mew|Stealth Rock|p1a: Ditto
+|-sidestart|p1: diaperbabe29|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Mew|Taunt|p1a: Corviknight
+|-start|p1a: Corviknight|move: Taunt
+|
+|-heal|p1a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Mew|Self-Destruct|p1a: Corviknight
+|-enditem|p2a: Mew|Normal Gem|[from] gem|[move] Self-Destruct
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|67/100
+|faint|p2a: Mew
+|move|p1a: Corviknight|U-turn|p2: Mew|[notarget]
+|-fail|p1a: Corviknight
+|
+|-heal|p1a: Corviknight|73/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|turn|4
+|
+|switch|p1a: Gastrodon|Gastrodon-East, M|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|
+|-heal|p2a: Rotom|82/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Rotom|Dark Pulse|p1a: Gastrodon
+|-damage|p1a: Gastrodon|68/100
+|move|p1a: Gastrodon|Scald|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|7/100
+|
+|-heal|p2a: Rotom|13/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|74/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Rotom|Dark Pulse|p1a: Gastrodon
+|-damage|p1a: Gastrodon|39/100
+|cant|p1a: Gastrodon|flinch
+|
+|-heal|p2a: Rotom|20/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|45/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Rotom|Overheat|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|2/100
+|-unboost|p2a: Rotom|spa|2
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|52/100
+|
+|-heal|p2a: Rotom|26/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|58/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Rotom|Dark Pulse|p1a: Gastrodon
+|-damage|p1a: Gastrodon|41/100
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|91/100
+|
+|-heal|p2a: Rotom|32/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|97/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Rotom|Dark Pulse|p1a: Gastrodon
+|-crit|p1a: Gastrodon
+|-damage|p1a: Gastrodon|70/100
+|move|p1a: Gastrodon|Scald|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-heal|p1a: Gastrodon|76/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-damage|p2a: Gyarados|76/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-heal|p1a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Gyarados|Waterfall|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|60/100
+|cant|p1a: Rotom|flinch
+|
+|-heal|p1a: Rotom|66/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Gyarados|Waterfall|p1a: Rotom
+|-resisted|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|12/100
+|move|p1a: Rotom|Volt Switch|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-enditem|p2a: Gyarados|Wacan Berry|[eat]
+|-enditem|p2a: Gyarados|Wacan Berry|[weaken]
+|-damage|p2a: Gyarados|21/100
+|
+|switch|p1a: Ditto|Ditto|100/100|[from]move: Volt Switch
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Gyarados|[from] ability: Imposter
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Ditto|Waterfall|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|-ability|p1a: Ditto|Moxie|boost
+|-boost|p1a: Ditto|atk|1
+|
+|upkeep
+|
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|-damage|p2a: Kommo-o|94/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|61/100
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Kommo-o|Poison Jab|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|9/100
+|move|p1a: Clefable|Moonblast|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|-damage|p2a: Hawlucha|88/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, F|73/100
+|-damage|p1a: Corviknight|61/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|turn|17
+|
+|move|p2a: Hawlucha|Taunt|p1a: Corviknight
+|-start|p1a: Corviknight|move: Taunt
+|move|p1a: Corviknight|Brave Bird|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|-damage|p1a: Corviknight|39/100|[from] Recoil
+|faint|p2a: Hawlucha
+|
+|-heal|p1a: Corviknight|45/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: Corviknight|Brave Bird|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|1/100
+|-damage|p1a: Corviknight|23/100|[from] Recoil
+|
+|-heal|p1a: Corviknight|29/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Dragapult|Flamethrower|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-damage|p2a: Dragapult|0 fnt|[from] item: Life Orb
+|faint|p1a: Corviknight
+|faint|p2a: Dragapult
+|
+|win|diaperbabe29
+|l|☆WB0

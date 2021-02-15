@@ -1,0 +1,297 @@
+|ScrapeTime|2020-01-01-01:36:31
+|j|☆KingBlonder
+|j|☆SHASHINO
+|player|p1|KingBlonder|265|1260
+|player|p2|SHASHINO|aromalady|1297
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, F|
+|poke|p1|Aegislash, M|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Pelipper, F|
+|poke|p1|Golurk|
+|poke|p1|Ferrothorn, M|
+|poke|p2|Bisharp, F|
+|poke|p2|Mamoswine, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Gyarados, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Togekiss, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|switch|p2a: Circé|Mamoswine, F|100/100
+|turn|1
+|
+|switch|p2a: Beaumont|Dragapult, M|100/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Beaumont
+|-immune|p2a: Beaumont
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|move|p2a: Beaumont|Draco Meteor|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|-unboost|p2a: Beaumont|spa|2
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|turn|3
+|
+|switch|p2a: Calypso|Togekiss, F|100/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Calypso
+|-resisted|p2a: Calypso
+|-damage|p2a: Calypso|75/100
+|
+|-heal|p2a: Calypso|81/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Aegislash|Aegislash, M, shiny|100/100
+|move|p2a: Calypso|Nasty Plot|p2a: Calypso
+|-boost|p2a: Calypso|spa|2
+|
+|-heal|p2a: Calypso|87/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Calypso|Flamethrower|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|39/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Flash Cannon|p2a: Calypso
+|-supereffective|p2a: Calypso
+|-damage|p2a: Calypso|27/100
+|
+|-heal|p2a: Calypso|33/100|[from] item: Leftovers
+|-heal|p1a: Aegislash|46/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Calypso|Flamethrower|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|-heal|p2a: Calypso|40/100|[from] item: Leftovers
+|-heal|p1a: Aegislash|52/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Calypso|Substitute|p2a: Calypso
+|-start|p2a: Calypso|Substitute
+|-damage|p2a: Calypso|15/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Calypso|21/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Calypso|Air Slash|p1a: Pelipper
+|-damage|p1a: Pelipper|16/100
+|move|p1a: Pelipper|Scald|p2a: Calypso
+|-crit|p2a: Calypso
+|-end|p2a: Calypso|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Calypso|27/100|[from] item: Leftovers
+|-heal|p1a: Pelipper|22/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Calypso|Air Slash|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Calypso|33/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Golurk|Golurk|100/100
+|turn|10
+|
+|move|p2a: Calypso|Substitute|p2a: Calypso
+|-start|p2a: Calypso|Substitute
+|-damage|p2a: Calypso|8/100
+|move|p1a: Golurk|Ice Punch|p2a: Calypso
+|-supereffective|p2a: Calypso
+|-end|p2a: Calypso|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Calypso|14/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Calypso|Air Slash|p1a: Golurk
+|-damage|p1a: Golurk|34/100
+|cant|p1a: Golurk|flinch
+|
+|-weather|none
+|-heal|p2a: Calypso|21/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Calypso|Air Slash|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|
+|-heal|p2a: Calypso|27/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|turn|13
+|
+|move|p1a: Hydreigon|Fire Blast|p2a: Calypso
+|-damage|p2a: Calypso|0 fnt
+|faint|p2a: Calypso
+|
+|upkeep
+|
+|switch|p2a: Circé|Mamoswine, F|100/100
+|turn|14
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Circé|Icicle Spear|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|93/100
+|-damage|p1a: Ferrothorn|86/100
+|-hitcount|p1a: Ferrothorn|2
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Circé|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: KingBlonder|move: Stealth Rock
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Circé
+|-sidestart|p2: SHASHINO|move: Stealth Rock
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Beaumont|Dragapult, M|100/100
+|-damage|p2a: Beaumont|88/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Beaumont
+|-start|p2a: Beaumont|move: Leech Seed
+|
+|-damage|p2a: Beaumont|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|97/100|[silent]
+|upkeep
+|turn|17
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Beaumont|Fire Blast|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-damage|p2a: Beaumont|64/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|18
+|
+|switch|p1a: Aegislash|Aegislash, M, shiny|52/100
+|-damage|p1a: Aegislash|46/100|[from] Stealth Rock
+|move|p2a: Beaumont|Fire Blast|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p2a: Circé|Mamoswine, F|100/100
+|-damage|p2a: Circé|88/100|[from] Stealth Rock
+|move|p1a: Hydreigon|Dark Pulse|p2a: Circé
+|-damage|p2a: Circé|9/100
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Circé|Ice Shard|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|43/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Circé
+|-damage|p2a: Circé|0 fnt
+|faint|p2a: Circé
+|
+|upkeep
+|
+|switch|p2a: Tallis|Bisharp, F, shiny|100/100
+|-damage|p2a: Tallis|95/100|[from] Stealth Rock
+|turn|21
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p2a: Tallis|Swords Dance|p2a: Tallis
+|-boost|p2a: Tallis|atk|2
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Tallis|Throat Chop|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|29/100
+|-damage|p2a: Tallis|82/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Tallis|66/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|-start|p1a: Ferrothorn|Throat Chop|[silent]
+|move|p1a: Ferrothorn|Leech Seed|p2a: Tallis
+|-start|p2a: Tallis|move: Leech Seed
+|
+|-damage|p2a: Tallis|54/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|39/100|[silent]
+|upkeep
+|turn|23
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Tallis|Swords Dance|p2a: Tallis
+|-boost|p2a: Tallis|atk|2
+|
+|-damage|p2a: Tallis|41/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|48/100|[silent]
+|-end|p1a: Ferrothorn|Throat Chop|[silent]
+|upkeep
+|turn|24
+|
+|move|p1a: Ferrothorn|Protect||[still]
+|-fail|p1a: Ferrothorn
+|move|p2a: Tallis|Throat Chop|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Tallis|29/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Tallis|13/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|43/100
+|-damage|p1a: Hydreigon|31/100|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Tallis|Sucker Punch|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|win|SHASHINO
+|l|☆KingBlonder
+|raw|KingBlonder's rating: 1260 → 1238(-22 for losing)
+|raw|SHASHINO's rating: 1297 → 1319(+22 for winning)

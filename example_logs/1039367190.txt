@@ -1,0 +1,328 @@
+|ScrapeTime|2020-01-01-23:06:51
+|j|☆4G3NC N33T
+|j|☆ubnvueni0
+|player|p1|4G3NC N33T|burglar|1322
+|player|p2|ubnvueni0|benga|1322
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Golurk|
+|poke|p1|Golisopod, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Toxtricity-Low-Key, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Sirfetch'd, M|
+|poke|p2|Aegislash, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Chandelure, M|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Rotom-Mow|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 4G3NC N33T)
+|
+|start
+|switch|p1a: 00Pod|Golisopod, M, shiny|100/100
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|-item|p2a: Aegislash|Air Balloon
+|turn|1
+|
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: 00Pod|Sucker Punch||[still]
+|-fail|p1a: 00Pod
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|switch|p1a: 00Buzz|Mandibuzz, F|100/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: 00Ferra|Ferrothorn, F|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: 00Ferra
+|-status|p1a: 00Ferra|brn
+|
+|-damage|p1a: 00Ferra|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Rotom|Volt Switch|p1a: 00Ferra
+|-resisted|p1a: 00Ferra
+|-damage|p1a: 00Ferra|83/100 brn
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M, shiny|100/100|[from]move: Volt Switch
+|move|p1a: 00Ferra|Stealth Rock|p2a: Conkeldurr
+|-sidestart|p2: ubnvueni0|move: Stealth Rock
+|
+|-heal|p1a: 00Ferra|89/100 brn|[from] item: Leftovers
+|-damage|p1a: 00Ferra|83/100 brn|[from] brn
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|switch|p1a: 00Tric|Toxtricity-Low-Key, M|100/100
+|move|p2a: Conkeldurr|Earthquake|p1a: 00Tric
+|-supereffective|p1a: 00Tric
+|-damage|p1a: 00Tric|0 fnt
+|faint|p1a: 00Tric
+|
+|-damage|p2a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: 00Fetch|Sirfetch'd, M|100/100
+|turn|6
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|-damage|p2a: Aegislash|94/100|[from] Stealth Rock
+|-item|p2a: Aegislash|Air Balloon
+|move|p1a: 00Fetch|Close Combat|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|-enditem|p2a: Aegislash|Air Balloon
+|-unboost|p1a: 00Fetch|def|1
+|-unboost|p1a: 00Fetch|spd|1
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M, shiny|94/100 brn
+|-damage|p2a: Conkeldurr|88/100 brn|[from] Stealth Rock
+|turn|7
+|
+|move|p1a: 00Fetch|Close Combat|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|3/100 brn
+|-unboost|p1a: 00Fetch|def|1
+|-unboost|p1a: 00Fetch|spd|1
+|move|p2a: Conkeldurr|Drain Punch|p1a: 00Fetch
+|-damage|p1a: 00Fetch|0 fnt
+|-heal|p2a: Conkeldurr|36/100 brn|[from] drain|[of] p1a: 00Fetch
+|faint|p1a: 00Fetch
+|
+|-damage|p2a: Conkeldurr|29/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: 00Pod|Golisopod, M, shiny|100/100
+|turn|8
+|
+|move|p1a: 00Pod|First Impression|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p1a: 00Ferra|Ferrothorn, F|83/100 brn
+|move|p2a: Rotom|Volt Switch|p1a: 00Ferra
+|-resisted|p1a: 00Ferra
+|-damage|p1a: 00Ferra|72/100 brn
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from]move: Volt Switch
+|
+|-heal|p1a: 00Ferra|78/100 brn|[from] item: Leftovers
+|-damage|p1a: 00Ferra|72/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: 00Ferra|Protect|p1a: 00Ferra
+|-singleturn|p1a: 00Ferra|Protect
+|move|p2a: Cinderace|U-turn|p1a: 00Ferra
+|-activate|p1a: 00Ferra|move: Protect
+|
+|-heal|p1a: 00Ferra|78/100 brn|[from] item: Leftovers
+|-damage|p1a: 00Ferra|72/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p1a: 00Buzz|Mandibuzz, F|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: 00Buzz
+|-damage|p1a: 00Buzz|57/100
+|-status|p1a: 00Buzz|brn
+|
+|-heal|p1a: 00Buzz|64/100 brn|[from] item: Leftovers
+|-damage|p1a: 00Buzz|57/100 brn|[from] brn
+|upkeep
+|turn|12
+|inactive|4G3NC N33T has 120 seconds left.
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: 00Buzz
+|-damage|p1a: 00Buzz|13/100 brn
+|move|p1a: 00Buzz|Foul Play|p2a: Cinderace
+|-damage|p2a: Cinderace|69/100
+|
+|-heal|p1a: 00Buzz|19/100 brn|[from] item: Leftovers
+|-damage|p1a: 00Buzz|13/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Cinderace|U-turn|p1a: 00Buzz
+|-damage|p1a: 00Buzz|0 fnt
+|faint|p1a: 00Buzz
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from]move: U-turn
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|
+|upkeep
+|inactive|4G3NC N33T has 120 seconds left.
+|
+|switch|p1a: 00Pod|Golisopod, M, shiny|100/100
+|turn|14
+|
+|switch|p2a: Rotom|Rotom-Mow|88/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|move|p1a: 00Pod|First Impression|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|69/100
+|turn|15
+|
+|switch|p1a: 00Ferra|Ferrothorn, F|72/100 brn
+|move|p2a: Cinderace|Pyro Ball|p1a: 00Ferra
+|-supereffective|p1a: 00Ferra
+|-damage|p1a: 00Ferra|0 fnt
+|faint|p1a: 00Ferra
+|
+|upkeep
+|
+|switch|p1a: 00Pod|Golisopod, M, shiny|100/100
+|turn|16
+|
+|move|p1a: 00Pod|Aqua Jet|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|inactive|ubnvueni0 has 120 seconds left.
+|
+|switch|p2a: Dragapult|Dragapult, F|88/100
+|-damage|p2a: Dragapult|76/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p1a: 00Lurk|Golurk|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: 00Lurk
+|-supereffective|p1a: 00Lurk
+|-damage|p1a: 00Lurk|47/100
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: 00Lurk
+|-supereffective|p1a: 00Lurk
+|-damage|p1a: 00Lurk|0 fnt
+|faint|p1a: 00Lurk
+|
+|upkeep
+|
+|switch|p1a: 00Pod|Golisopod, M, shiny|100/100
+|turn|19
+|
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|-damage|p2a: Chandelure|76/100|[from] Stealth Rock
+|move|p1a: 00Pod|Sucker Punch||[still]
+|-fail|p1a: 00Pod
+|
+|upkeep
+|turn|20
+|
+|move|p1a: 00Pod|Sucker Punch||[still]
+|-fail|p1a: 00Pod
+|move|p2a: Chandelure|Trick|p1a: 00Pod
+|-activate|p2a: Chandelure|move: Trick|[of] p1a: 00Pod
+|-item|p1a: 00Pod|Choice Scarf|[from] move: Trick
+|-item|p2a: Chandelure|Choice Band|[from] move: Trick
+|
+|upkeep
+|turn|21
+|
+|move|p1a: 00Pod|Sucker Punch||[still]
+|-fail|p1a: 00Pod
+|move|p2a: Chandelure|Trick|p1a: 00Pod
+|-activate|p2a: Chandelure|move: Trick|[of] p1a: 00Pod
+|-item|p1a: 00Pod|Choice Band|[from] move: Trick
+|-item|p2a: Chandelure|Choice Scarf|[from] move: Trick
+|
+|upkeep
+|turn|22
+|
+|move|p1a: 00Pod|Sucker Punch||[still]
+|-fail|p1a: 00Pod
+|move|p2a: Chandelure|Trick|p1a: 00Pod
+|-activate|p2a: Chandelure|move: Trick|[of] p1a: 00Pod
+|-item|p1a: 00Pod|Choice Scarf|[from] move: Trick
+|-item|p2a: Chandelure|Choice Band|[from] move: Trick
+|
+|upkeep
+|turn|23
+|
+|move|p1a: 00Pod|Sucker Punch||[still]
+|-fail|p1a: 00Pod
+|move|p2a: Chandelure|Trick|p1a: 00Pod
+|-activate|p2a: Chandelure|move: Trick|[of] p1a: 00Pod
+|-item|p1a: 00Pod|Choice Band|[from] move: Trick
+|-item|p2a: Chandelure|Choice Scarf|[from] move: Trick
+|
+|upkeep
+|turn|24
+|
+|move|p1a: 00Pod|Aqua Jet|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|76/100
+|-damage|p2a: Dragapult|64/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: 00Pod|Aqua Jet|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|43/100
+|move|p2a: Dragapult|Shadow Ball|p1a: 00Pod
+|-damage|p1a: 00Pod|64/100
+|
+|upkeep
+|turn|26
+|
+|move|p1a: 00Pod|Aqua Jet|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|23/100
+|move|p2a: Dragapult|Shadow Ball|p1a: 00Pod
+|-damage|p1a: 00Pod|26/100
+|
+|upkeep
+|turn|27
+|
+|move|p1a: 00Pod|Aqua Jet|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|1/100
+|move|p2a: Dragapult|Shadow Ball|p1a: 00Pod
+|-damage|p1a: 00Pod|0 fnt
+|faint|p1a: 00Pod
+|
+|win|ubnvueni0
+|raw|4G3NC N33T's rating: 1302 → 1283(-19 for losing)
+|raw|ubnvueni0's rating: 1322 → 1341(+19 for winning)
+|l|☆4G3NC N33T

@@ -1,0 +1,141 @@
+|ScrapeTime|2020-01-01-08:12:31
+|j|☆Stoutie
+|j|☆Sin Tori
+|player|p1|Stoutie|47|1040
+|player|p2|Sin Tori|101|1040
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Inteleon, M|
+|poke|p1|Toxtricity, M|
+|poke|p1|Appletun, M|
+|poke|p1|Centiskorch, M|
+|poke|p1|Obstagoon, M|
+|poke|p1|Corviknight, F|
+|poke|p2|Crawdaunt, F|
+|poke|p2|Frosmoth, M|
+|poke|p2|Torkoal, F|
+|poke|p2|Duraludon, M|
+|poke|p2|Hitmonchan, M|
+|poke|p2|Xatu, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Sin Tori)
+|
+|switch|p2a: Duraludon|Duraludon, M|100/100
+|move|p1a: Toxtricity|Toxic|p2a: Duraludon
+|-immune|p2a: Duraludon
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Toxtricity|Protect|p1a: Toxtricity
+|-singleturn|p1a: Toxtricity|Protect
+|move|p2a: Duraludon|Mirror Coat|p1a: Toxtricity
+|-activate|p1a: Toxtricity|move: Protect
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Duraludon
+|-resisted|p2a: Duraludon
+|-crit|p2a: Duraludon
+|-damage|p2a: Duraludon|26/100
+|move|p2a: Duraludon|Draco Meteor|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|-unboost|p2a: Duraludon|spa|2
+|-damage|p2a: Duraludon|16/100|[from] item: Life Orb
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|switch|p1a: Inteleon|Inteleon, M|100/100
+|turn|4
+|
+|switch|p2a: Frosmoth|Frosmoth, M|100/100
+|move|p1a: Inteleon|Ice Beam|p2a: Frosmoth
+|-resisted|p2a: Frosmoth
+|-damage|p2a: Frosmoth|86/100
+|
+|-heal|p2a: Frosmoth|92/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Inteleon|Air Slash|p2a: Frosmoth
+|-supereffective|p2a: Frosmoth
+|-damage|p2a: Frosmoth|47/100
+|move|p2a: Frosmoth|Substitute|p2a: Frosmoth
+|-start|p2a: Frosmoth|Substitute
+|-damage|p2a: Frosmoth|23/100
+|
+|-heal|p2a: Frosmoth|29/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Inteleon|Air Slash|p2a: Frosmoth
+|-supereffective|p2a: Frosmoth
+|-end|p2a: Frosmoth|Substitute
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|
+|-heal|p2a: Frosmoth|35/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Inteleon|Snipe Shot|p2a: Frosmoth
+|-damage|p2a: Frosmoth|11/100
+|move|p2a: Frosmoth|Weather Ball|p1a: Inteleon
+|-damage|p1a: Inteleon|71/100
+|
+|-heal|p2a: Frosmoth|17/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Inteleon|Snipe Shot|p2a: Frosmoth
+|-crit|p2a: Frosmoth
+|-damage|p2a: Frosmoth|0 fnt
+|faint|p2a: Frosmoth
+|
+|upkeep
+|
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100
+|turn|9
+|
+|move|p1a: Inteleon|Air Slash|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|51/100
+|move|p2a: Crawdaunt|Dragon Dance|p2a: Crawdaunt
+|-boost|p2a: Crawdaunt|atk|1
+|-boost|p2a: Crawdaunt|spe|1
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Inteleon|Air Slash|p2a: Crawdaunt
+|-crit|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|upkeep
+|-message|Sin Tori forfeited.
+|
+|win|Stoutie
+|l|☆Sin Tori
+|raw|Stoutie's rating: 1040 → 1074(+34 for winning)
+|raw|Sin Tori's rating: 1040 → 1024(-16 for losing)

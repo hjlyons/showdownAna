@@ -1,0 +1,354 @@
+|ScrapeTime|2020-01-01-03:14:54
+|j|☆GIGAZU
+|j|☆Ctrl G-Max
+|player|p1|GIGAZU|166|1378
+|player|p2|Ctrl G-Max|188|1384
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Eiscue, M|
+|poke|p1|Toxtricity, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Aegislash, M|
+|poke|p1|Excadrill, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Lucario, M|
+|poke|p2|Lapras, M|
+|poke|p2|Diggersby, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ctrl G-Max)
+|inactive|GIGAZU also wants the timer to be on.
+|
+|start
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|
+|switch|p2a: Lapras|Lapras, M|100/100
+|move|p1a: Excadrill|Iron Head|p2a: Lapras
+|-damage|p2a: Lapras|75/100
+|
+|-heal|p2a: Lapras|81/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Lapras|Whirlpool|p1a: Grimmsnarl|[miss]
+|-miss|p2a: Lapras|p1a: Grimmsnarl
+|
+|-heal|p2a: Lapras|87/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Lapras
+|-start|p2a: Lapras|move: Taunt
+|move|p2a: Lapras|Whirlpool|p1a: Grimmsnarl|[miss]
+|-miss|p2a: Lapras|p1a: Grimmsnarl
+|
+|-heal|p2a: Lapras|93/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: GIGAZU|move: Light Screen
+|move|p2a: Lapras|Whirlpool|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|95/100
+|-activate|p1a: Grimmsnarl|move: Whirlpool|[of] p2a: Lapras
+|
+|-heal|p2a: Lapras|99/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|82/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: GIGAZU|Reflect
+|move|p2a: Lapras|Freeze-Dry|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|69/100
+|
+|-heal|p2a: Lapras|100/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|56/100|[from] move: Whirlpool|[partiallytrapped]
+|-end|p2a: Lapras|move: Taunt
+|upkeep
+|turn|6
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Lapras
+|-start|p2a: Lapras|move: Taunt
+|cant|p2a: Lapras|move: Taunt|Perish Song
+|
+|-damage|p1a: Grimmsnarl|44/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Lapras
+|-damage|p2a: Lapras|76/100
+|-unboost|p2a: Lapras|spa|1
+|move|p2a: Lapras|Freeze-Dry|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|35/100
+|-status|p1a: Grimmsnarl|frz
+|
+|-heal|p2a: Lapras|82/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|23/100 frz|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|8
+|
+|-curestatus|p1a: Grimmsnarl|frz|[msg]
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Lapras
+|-damage|p2a: Lapras|57/100
+|-unboost|p2a: Lapras|spa|1
+|move|p2a: Lapras|Freeze-Dry|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|16/100
+|
+|-heal|p2a: Lapras|63/100|[from] item: Leftovers
+|-end|p1a: Grimmsnarl|Whirlpool|[partiallytrapped]
+|-end|p2a: Lapras|move: Taunt
+|upkeep
+|turn|9
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p1: GIGAZU|Light Screen|[silent]
+|-sidestart|p2: Ctrl G-Max|Light Screen|[silent]
+|-sideend|p1: GIGAZU|Reflect|[silent]
+|-sidestart|p2: Ctrl G-Max|Reflect|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Toxtricity|Shift Gear|p1a: Toxtricity
+|-boost|p1a: Toxtricity|spe|2
+|-boost|p1a: Toxtricity|atk|1
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Cinderace
+|-damage|p2a: Cinderace|63/100
+|-enditem|p1a: Toxtricity|Throat Spray
+|-boost|p1a: Toxtricity|spa|1
+|move|p2a: Cinderace|Pyro Ball|p1a: Toxtricity
+|-damage|p1a: Toxtricity|4/100
+|
+|-sideend|p2: Ctrl G-Max|move: Light Screen
+|upkeep
+|turn|12
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-sideend|p2: Ctrl G-Max|Reflect
+|upkeep
+|
+|switch|p2a: Diggersby|Diggersby, F|100/100
+|turn|13
+|
+|move|p2a: Diggersby|Quick Attack|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|-damage|p2a: Diggersby|91/100|[from] item: Life Orb
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|16/100
+|turn|14
+|
+|move|p2a: Diggersby|Quick Attack|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|-damage|p2a: Diggersby|81/100|[from] item: Life Orb
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Eiscue|Eiscue, M|100/100
+|turn|15
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p1a: Eiscue|Belly Drum|p1a: Eiscue
+|-damage|p1a: Eiscue|51/100
+|-setboost|p1a: Eiscue|atk|6|[from] move: Belly Drum
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Grimmsnarl|Trick|p1a: Eiscue
+|-activate|p2a: Grimmsnarl|move: Trick|[of] p1a: Eiscue
+|-item|p1a: Eiscue|Lagging Tail|[from] move: Trick
+|-item|p2a: Grimmsnarl|Heavy-Duty Boots|[from] move: Trick
+|move|p1a: Eiscue|Icicle Crash|p2a: Grimmsnarl
+|-crit|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Lucario|Lucario, M|100/100
+|turn|17
+|
+|move|p2a: Lucario|Aura Sphere|p1a: Eiscue
+|-supereffective|p1a: Eiscue
+|-damage|p1a: Eiscue|0 fnt
+|faint|p1a: Eiscue
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|18
+|
+|switch|p2a: Lapras|Lapras, M|63/100
+|move|p1a: Excadrill|Earthquake|p2a: Lapras
+|-damage|p2a: Lapras|27/100
+|
+|-heal|p2a: Lapras|33/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Lapras|Protect|p2a: Lapras
+|-singleturn|p2a: Lapras|Protect
+|move|p1a: Excadrill|Earthquake|p2a: Lapras
+|-activate|p2a: Lapras|move: Protect
+|
+|-heal|p2a: Lapras|39/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Excadrill|Earthquake|p2a: Lapras
+|-damage|p2a: Lapras|8/100
+|move|p2a: Lapras|Freeze-Dry|p1a: Excadrill
+|-damage|p1a: Excadrill|75/100
+|
+|-heal|p2a: Lapras|14/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Excadrill|Stealth Rock|p2a: Lapras
+|-sidestart|p2: Ctrl G-Max|move: Stealth Rock
+|move|p2a: Lapras|Whirlpool|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|48/100
+|-activate|p1a: Excadrill|move: Whirlpool|[of] p2a: Lapras
+|
+|-heal|p2a: Lapras|20/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|36/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|22
+|
+|move|p2a: Lapras|Protect|p2a: Lapras
+|-singleturn|p2a: Lapras|Protect
+|move|p1a: Excadrill|Earthquake|p2a: Lapras
+|-activate|p2a: Lapras|move: Protect
+|
+|-heal|p2a: Lapras|26/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|23/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|23
+|
+|move|p2a: Lapras|Protect|p2a: Lapras
+|-singleturn|p2a: Lapras|Protect
+|move|p1a: Excadrill|Earthquake|p2a: Lapras
+|-activate|p2a: Lapras|move: Protect
+|
+|-heal|p2a: Lapras|32/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|11/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|24
+|
+|move|p1a: Excadrill|Earthquake|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|-end|p1a: Excadrill|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|
+|switch|p2a: Lucario|Lucario, M|100/100
+|-damage|p2a: Lucario|98/100|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Lucario|Vacuum Wave|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|turn|26
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Sacred Sword|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Hydreigon
+|
+|-heal|p2a: Dragapult|99/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Hydreigon|[from]lockedmove
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|74/100
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|49/100
+|
+|-heal|p2a: Dragapult|100/100|[from] item: Leftovers
+|-heal|p1a: Hydreigon|55/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-crit|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|-hitcount|p1a: Hydreigon|1
+|faint|p1a: Hydreigon
+|
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|turn|30
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Aegislash
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Aegislash|[from]lockedmove
+|-supereffective|p1a: Aegislash
+|-crit|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|win|Ctrl G-Max
+|raw|GIGAZU's rating: 1379 → 1359(-20 for losing)
+|raw|Ctrl G-Max's rating: 1384 → 1404(+20 for winning)
+|l|☆GIGAZU
+|c|☆Ctrl G-Max|gg

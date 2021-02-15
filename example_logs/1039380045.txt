@@ -1,0 +1,155 @@
+|ScrapeTime|2020-01-01-23:35:19
+|j|☆gainzbourge
+|j|☆RaikouLover
+|player|p1|gainzbourge|blue|1145
+|player|p2|RaikouLover|278|1129
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxicroak, M|
+|poke|p1|Crawdaunt, F|
+|poke|p1|Shedinja|
+|poke|p1|Cinderace, F|
+|poke|p1|Pelipper, F|
+|poke|p1|Raichu, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Barraskewda, F|
+|poke|p2|Dracovish|
+|poke|p2|Noivern, F|
+|poke|p2|Lanturn, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RaikouLover)
+|inactive|gainzbourge has 120 seconds left.
+|
+|start
+|switch|p1a: Raichu|Raichu, F|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|switch|p2a: Lanturn|Lanturn, M|100/100
+|move|p1a: Raichu|Volt Switch|p2a: Lanturn
+|-immune|p2a: Lanturn|[from] ability: Volt Absorb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Shedinja|Shedinja, shiny|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Toxicroak|Toxicroak, M, shiny|100/100
+|-item|p1a: Toxicroak|Air Balloon
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Toxicroak
+|-sidestart|p1: gainzbourge|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Noivern|Noivern, F|100/100
+|move|p1a: Toxicroak|Brick Break|p2a: Noivern
+|-resisted|p2a: Noivern
+|-crit|p2a: Noivern
+|-damage|p2a: Noivern|66/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Noivern|72/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Noivern|Hurricane|p1a: Toxicroak
+|-supereffective|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|-enditem|p1a: Toxicroak|Air Balloon
+|faint|p1a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Noivern|79/100|[from] item: Leftovers
+|upkeep
+|inactive|gainzbourge has 120 seconds left.
+|
+|switch|p1a: Pelipper|Pelipper, F, shiny|100/100
+|-damage|p1a: Pelipper|76/100|[from] Stealth Rock
+|turn|6
+|
+|move|p2a: Noivern|Hurricane|p1a: Pelipper
+|-damage|p1a: Pelipper|13/100
+|-start|p1a: Pelipper|confusion
+|-activate|p1a: Pelipper|confusion
+|move|p1a: Pelipper|Hurricane|p2a: Noivern
+|-damage|p2a: Noivern|31/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Noivern|37/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|gainzbourge has 120 seconds left.
+|
+|move|p2a: Noivern|Hurricane|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Noivern|43/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Raichu|Raichu, F|100/100
+|-damage|p1a: Raichu|88/100|[from] Stealth Rock
+|turn|8
+|
+|move|p2a: Noivern|Roost|p2a: Noivern
+|-heal|p2a: Noivern|93/100
+|-singleturn|p2a: Noivern|move: Roost
+|move|p1a: Raichu|Nuzzle|p2a: Noivern
+|-resisted|p2a: Noivern
+|-damage|p2a: Noivern|90/100
+|-status|p2a: Noivern|par
+|
+|-weather|none
+|-heal|p1a: Raichu|94/100|[from] item: Leftovers
+|-heal|p2a: Noivern|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Lanturn|Lanturn, M|100/100
+|move|p1a: Raichu|Wish|p1a: Raichu
+|
+|-heal|p1a: Raichu|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Crawdaunt|Crawdaunt, F, shiny|100/100
+|-damage|p1a: Crawdaunt|88/100|[from] Stealth Rock
+|move|p2a: Lanturn|Volt Switch|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100|[from]move: Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|gainzbourge forfeited.
+|
+|win|RaikouLover
+|l|☆gainzbourge
+|raw|gainzbourge's rating: 1145 → 1120(-25 for losing)
+|raw|RaikouLover's rating: 1150 → 1175(+25 for winning)

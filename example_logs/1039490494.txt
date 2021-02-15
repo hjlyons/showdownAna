@@ -1,0 +1,269 @@
+|ScrapeTime|2020-01-02-03:54:36
+|j|☆Zen151
+|j|☆Serenas
+|player|p1|Zen151|dawn|1000
+|player|p2|Serenas|265|1048
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dracovish|
+|poke|p1|Cinderace, F|
+|poke|p1|Polteageist|
+|poke|p1|Alcremie, F|
+|poke|p1|Dusclops, M|
+|poke|p1|Appletun, M|
+|poke|p2|Mudsdale, M|
+|poke|p2|Dracozolt|
+|poke|p2|Araquanid, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Eldegoss, M|
+|poke|p2|Togekiss, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Drace|Dracovish, shiny|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Drace
+|-status|p1a: Drace|par
+|cant|p1a: Drace|par
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Togekiss|Togekiss, F|100/100
+|move|p1a: Drace|Fishious Rend|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|upkeep
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|turn|3
+|
+|switch|p1a: Dutch|Appletun, M, shiny|100/100
+|move|p2a: Dracozolt|Bolt Beak|p1a: Dutch
+|-resisted|p1a: Dutch
+|-damage|p1a: Dutch|63/100
+|
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Serenas)
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p1a: Dutch|Recycle||[still]
+|-fail|p1a: Dutch
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Dutch
+|-supereffective|p1a: Dutch
+|-damage|p1a: Dutch|0 fnt
+|faint|p1a: Dutch
+|
+|upkeep
+|
+|switch|p1a: Clopper|Dusclops, M, shiny|100/100
+|-ability|p1a: Clopper|Pressure
+|turn|6
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Clopper
+|-start|p1a: Clopper|move: Taunt
+|cant|p1a: Clopper|move: Taunt|Will-O-Wisp
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Athel|Cinderace, F, shiny|100/100
+|move|p2a: Grimmsnarl|Sucker Punch||[still]
+|-fail|p2a: Grimmsnarl
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Athel
+|-status|p1a: Athel|par
+|move|p1a: Athel|Pyro Ball|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|16/100
+|
+|-heal|p2a: Grimmsnarl|22/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Mudsdale|Mudsdale, M|100/100
+|move|p1a: Athel|Pyro Ball|p2a: Mudsdale
+|-crit|p2a: Mudsdale
+|-damage|p2a: Mudsdale|48/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|
+|-heal|p2a: Mudsdale|54/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Athel|Pyro Ball|p2a: Mudsdale
+|-damage|p2a: Mudsdale|30/100
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|move|p2a: Mudsdale|Rest|p2a: Mudsdale
+|-status|p2a: Mudsdale|slp|[from] move: Rest
+|-heal|p2a: Mudsdale|100/100 slp|[silent]
+|
+|upkeep
+|turn|11
+|
+|cant|p1a: Athel|par
+|cant|p2a: Mudsdale|slp
+|move|p2a: Mudsdale|Sleep Talk|p2a: Mudsdale
+|move|p2a: Mudsdale|Body Press|p1a: Athel|[from]Sleep Talk
+|-damage|p1a: Athel|31/100 par
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Athel|U-turn|p2a: Mudsdale
+|-damage|p2a: Mudsdale|93/100 slp
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|c|☆Zen151|i'm bound to lose this one
+|
+|switch|p1a: Drace|Dracovish, shiny|100/100 par|[from]move: U-turn
+|cant|p2a: Mudsdale|slp
+|move|p2a: Mudsdale|Sleep Talk|p2a: Mudsdale
+|move|p2a: Mudsdale|Bulldoze|p1a: Drace|[from]Sleep Talk
+|-damage|p1a: Drace|72/100 par
+|-unboost|p1a: Drace|spe|1
+|
+|-heal|p2a: Mudsdale|99/100 slp|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Drace|Fishious Rend|p2a: Mudsdale
+|-supereffective|p2a: Mudsdale
+|-damage|p2a: Mudsdale|49/100 slp
+|-ability|p2a: Mudsdale|Stamina|boost
+|-boost|p2a: Mudsdale|def|1
+|-curestatus|p2a: Mudsdale|slp|[msg]
+|move|p2a: Mudsdale|Body Press|p1a: Drace
+|-damage|p1a: Drace|0 fnt
+|faint|p1a: Drace
+|
+|-heal|p2a: Mudsdale|55/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Jasmine|Polteageist, shiny|100/100
+|turn|14
+|
+|move|p1a: Jasmine|Shell Smash|p1a: Jasmine
+|-unboost|p1a: Jasmine|def|1
+|-unboost|p1a: Jasmine|spd|1
+|-boost|p1a: Jasmine|atk|2
+|-boost|p1a: Jasmine|spa|2
+|-boost|p1a: Jasmine|spe|2
+|move|p2a: Mudsdale|Rest|p2a: Mudsdale
+|-status|p2a: Mudsdale|slp|[from] move: Rest
+|-heal|p2a: Mudsdale|100/100 slp|[silent]
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Jasmine|Shell Smash|p1a: Jasmine
+|-unboost|p1a: Jasmine|def|1
+|-unboost|p1a: Jasmine|spd|1
+|-boost|p1a: Jasmine|atk|2
+|-boost|p1a: Jasmine|spa|2
+|-boost|p1a: Jasmine|spe|2
+|cant|p2a: Mudsdale|slp
+|move|p2a: Mudsdale|Sleep Talk|p2a: Mudsdale
+|move|p2a: Mudsdale|Body Press|p1a: Jasmine|[from]Sleep Talk
+|-immune|p1a: Jasmine
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Jasmine|Stored Power|p2a: Mudsdale
+|-damage|p2a: Mudsdale|0 fnt
+|faint|p2a: Mudsdale
+|
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|22/100
+|turn|17
+|
+|move|p2a: Grimmsnarl|Sucker Punch|p1a: Jasmine
+|-supereffective|p1a: Jasmine
+|-enditem|p1a: Jasmine|Focus Sash
+|-damage|p1a: Jasmine|1/100
+|-ability|p1a: Jasmine|Weak Armor|boost
+|-unboost|p1a: Jasmine|def|1
+|-boost|p1a: Jasmine|spe|2
+|move|p1a: Jasmine|Stored Power|p2a: Grimmsnarl
+|-immune|p2a: Grimmsnarl
+|
+|-heal|p2a: Grimmsnarl|28/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|c|☆Zen151|nooo TT-TT lol I screwed up
+|
+|move|p2a: Grimmsnarl|Sucker Punch|p1a: Jasmine
+|-supereffective|p1a: Jasmine
+|-damage|p1a: Jasmine|0 fnt
+|faint|p1a: Jasmine
+|
+|-heal|p2a: Grimmsnarl|34/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Cremilla|Alcremie, F, shiny|100/100
+|turn|19
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Cremilla
+|-status|p1a: Cremilla|par
+|move|p1a: Cremilla|Draining Kiss|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|turn|20
+|
+|move|p2a: Dracozolt|Bolt Beak|p1a: Cremilla
+|-damage|p1a: Cremilla|0 fnt
+|faint|p1a: Cremilla
+|
+|upkeep
+|
+|switch|p1a: Athel|Cinderace, F, shiny|31/100 par
+|turn|21
+|
+|move|p2a: Dracozolt|Bolt Beak|p1a: Athel
+|-damage|p1a: Athel|0 fnt
+|faint|p1a: Athel
+|
+|upkeep
+|
+|switch|p1a: Clopper|Dusclops, M, shiny|100/100
+|-ability|p1a: Clopper|Pressure
+|turn|22
+|
+|move|p2a: Dracozolt|Bolt Beak|p1a: Clopper
+|-damage|p1a: Clopper|0 fnt
+|faint|p1a: Clopper
+|
+|win|Serenas
+|raw|Zen151's rating: 1000 → 1000(+0 for losing)
+|raw|Serenas's rating: 1049 → 1077(+28 for winning)

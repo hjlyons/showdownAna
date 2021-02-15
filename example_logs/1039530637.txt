@@ -1,0 +1,257 @@
+|ScrapeTime|2020-01-02-05:54:39
+|j|☆Storm Zone
+|j|☆sidzekrom
+|player|p1|Storm Zone|zinnia|1464
+|player|p2|sidzekrom|290|1411
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cloyster, M|
+|poke|p1|Galvantula, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Obstagoon, M|
+|poke|p1|Espeon, M|
+|poke|p1|Charizard, M|
+|poke|p2|Clefable, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Aegislash, M|
+|poke|p2|Chandelure, M|
+|poke|p2|Crawdaunt, M|
+|poke|p2|Excadrill, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Storm Zone)
+|
+|start
+|switch|p1a: Impaler|Excadrill, M|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Impaler|Mold Breaker
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p1a: Impaler|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-enditem|p2a: Excadrill|Focus Sash
+|-damage|p2a: Excadrill|1/100
+|move|p2a: Excadrill|Rapid Spin|p1a: Impaler
+|-resisted|p1a: Impaler
+|-damage|p1a: Impaler|88/100
+|-boost|p2a: Excadrill|spe|1
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Impaler|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|turn|3
+|
+|move|p1a: Impaler|Earthquake|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|20/100
+|move|p2a: Crawdaunt|Knock Off|p1a: Impaler
+|-damage|p1a: Impaler|0 fnt
+|-enditem|p1a: Impaler|Choice Scarf|[from] move: Knock Off|[of] p2a: Crawdaunt
+|faint|p1a: Impaler
+|
+|upkeep
+|
+|switch|p1a: Tarantula|Galvantula, M|100/100
+|turn|4
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Tarantula|Sticky Web|p2a: Dragapult
+|-sidestart|p2: sidzekrom|move: Sticky Web
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: Tarantula|Thunder|p2a: Dragapult|[miss]
+|-miss|p1a: Tarantula|p2a: Dragapult
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Tarantula
+|-damage|p1a: Tarantula|10/100
+|-damage|p1a: Tarantula|0 fnt
+|-hitcount|p1a: Tarantula|2
+|-damage|p2a: Dragapult|91/100|[from] item: Life Orb
+|faint|p1a: Tarantula
+|
+|upkeep
+|
+|switch|p1a: Spike|Cloyster, M|100/100
+|turn|7
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Spike
+|-damage|p1a: Spike|60/100
+|-damage|p1a: Spike|18/100
+|-hitcount|p1a: Spike|2
+|-damage|p2a: Dragapult|81/100|[from] item: Life Orb
+|move|p1a: Spike|Icicle Spear|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|52/100
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|23/100
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-hitcount|p2a: Dragapult|3
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Crawdaunt|Crawdaunt, M|20/100
+|-activate|p2a: Crawdaunt|move: Sticky Web
+|-unboost|p2a: Crawdaunt|spe|1
+|turn|8
+|
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Spike
+|-resisted|p1a: Spike
+|-damage|p1a: Spike|1/100
+|move|p1a: Spike|Rock Blast|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|9/100
+|-damage|p2a: Crawdaunt|0 fnt
+|-hitcount|p2a: Crawdaunt|2
+|faint|p2a: Crawdaunt
+|
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|-activate|p2a: Aegislash|move: Sticky Web
+|-unboost|p2a: Aegislash|spe|1
+|turn|9
+|
+|move|p1a: Spike|Liquidation|p2a: Aegislash
+|-damage|p2a: Aegislash|73/100
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|
+|-heal|p2a: Aegislash|80/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Spike|Liquidation|p2a: Aegislash
+|-damage|p2a: Aegislash|50/100
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|
+|-heal|p2a: Aegislash|56/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Spike|Liquidation|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|-unboost|p1a: Spike|atk|1
+|
+|-heal|p2a: Aegislash|62/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Spike
+|-damage|p1a: Spike|0 fnt
+|faint|p1a: Spike
+|
+|-heal|p2a: Aegislash|68/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Predator|Obstagoon, M|100/100
+|turn|13
+|
+|-formechange|p2a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Predator|Knock Off|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|-unboost|p1a: Predator|atk|1
+|
+|-heal|p2a: Aegislash|74/100|[from] item: Leftovers
+|-status|p1a: Predator|brn|[from] item: Flame Orb
+|upkeep
+|turn|14
+|
+|move|p1a: Predator|Knock Off|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|8/100
+|-enditem|p2a: Aegislash|Leftovers|[from] move: Knock Off|[of] p1a: Predator
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Sacred Sword|p1a: Predator
+|-supereffective|p1a: Predator
+|-damage|p1a: Predator|0 fnt
+|faint|p1a: Predator
+|
+|upkeep
+|
+|switch|p1a: Sage|Charizard, M|100/100
+|turn|15
+|
+|move|p2a: Aegislash|Shadow Sneak|p1a: Sage
+|-damage|p1a: Sage|3/100
+|move|p1a: Sage|Hurricane|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|-activate|p2a: Chandelure|move: Sticky Web
+|-unboost|p2a: Chandelure|spe|1
+|turn|16
+|
+|move|p1a: Sage|Hurricane|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|-activate|p2a: Clefable|move: Sticky Web
+|-unboost|p2a: Clefable|spe|1
+|turn|17
+|
+|switch|p1a: Athena|Espeon, M|100/100
+|move|p2a: Clefable|Ice Beam|p1a: Athena
+|-crit|p1a: Athena
+|-damage|p1a: Athena|36/100
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Athena|Psyshock|p2a: Clefable
+|-damage|p2a: Clefable|53/100
+|move|p2a: Clefable|Moonblast|p1a: Athena
+|-damage|p1a: Athena|0 fnt
+|faint|p1a: Athena
+|
+|upkeep
+|
+|switch|p1a: Sage|Charizard, M|3/100
+|turn|19
+|
+|move|p1a: Sage|Overheat|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-unboost|p1a: Sage|spa|2
+|faint|p2a: Clefable
+|
+|win|Storm Zone

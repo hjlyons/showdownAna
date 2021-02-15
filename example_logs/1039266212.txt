@@ -1,0 +1,404 @@
+|ScrapeTime|2020-01-01-19:36:46
+|j|☆LeDebut1234
+|j|☆JKL#dsasadatesda
+|player|p1|LeDebut1234|266|1070
+|player|p2|JKL#dsasadatesda|acetrainer-gen4dp|1030
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corviknight, F|
+|poke|p1|Seismitoad, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Ditto|
+|poke|p1|Dragapult, F|
+|poke|p1|Aegislash, F|
+|poke|p2|Mr. Mime-Galar, F|
+|poke|p2|Morgrem, M|
+|poke|p2|Cursola, M|
+|poke|p2|Trapinch, F|
+|poke|p2|Inteleon, M|
+|poke|p2|Corviknight, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ditto|Ditto|100/100
+|switch|p2a: Inteleon|Inteleon, M|100/100
+|-transform|p1a: Ditto|p2a: Inteleon|[from] ability: Imposter
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JKL#dsasadatesda)
+|
+|move|p1a: Ditto|Dark Pulse|p2a: Inteleon
+|-damage|p2a: Inteleon|55/100
+|move|p2a: Inteleon|Dark Pulse|p1a: Ditto
+|-damage|p1a: Ditto|23/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Morgrem|Morgrem, M|100/100
+|move|p1a: Ditto|Dark Pulse|p2a: Morgrem
+|-resisted|p2a: Morgrem
+|-damage|p2a: Morgrem|94/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|move|p2a: Morgrem|Substitute|p2a: Morgrem
+|-start|p2a: Morgrem|Substitute
+|-damage|p2a: Morgrem|69/100
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Morgrem|Metronome|p2a: Morgrem
+|move|p2a: Morgrem|Water Gun|p1a: Aegislash|[from]Metronome
+|-damage|p1a: Aegislash|94/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Solar Blade||[still]
+|-prepare|p1a: Aegislash|Solar Blade|p2a: Morgrem
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Morgrem|Metronome|p2a: Morgrem
+|move|p2a: Morgrem|Gastro Acid||[from]Metronome|[still]
+|-fail|p2a: Morgrem
+|move|p1a: Aegislash|Solar Blade|p2a: Morgrem|[from]lockedmove
+|-end|p2a: Morgrem|Substitute
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Morgrem|Substitute|p2a: Morgrem
+|-start|p2a: Morgrem|Substitute
+|-damage|p2a: Morgrem|44/100
+|move|p1a: Aegislash|Solar Blade||[still]
+|-prepare|p1a: Aegislash|Solar Blade|p2a: Morgrem
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Morgrem|Metronome|p2a: Morgrem
+|move|p2a: Morgrem|Sticky Web|p1a: Aegislash|[from]Metronome
+|-sidestart|p1: LeDebut1234|move: Sticky Web
+|move|p1a: Aegislash|Solar Blade|p2a: Morgrem|[from]lockedmove
+|-end|p2a: Morgrem|Substitute
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Morgrem|Metronome|p2a: Morgrem
+|move|p2a: Morgrem|Venoshock|p1a: Aegislash|[from]Metronome
+|-immune|p1a: Aegislash
+|move|p1a: Aegislash|Solar Blade||[still]
+|-prepare|p1a: Aegislash|Solar Blade|p2a: Morgrem
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Morgrem|Metronome|p2a: Morgrem
+|move|p2a: Morgrem|Psychic|p1a: Aegislash|[from]Metronome
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|74/100
+|move|p1a: Aegislash|Solar Blade|p2a: Morgrem|[from]lockedmove
+|-crit|p2a: Morgrem
+|-damage|p2a: Morgrem|0 fnt
+|faint|p2a: Morgrem
+|
+|upkeep
+|
+|switch|p2a: Trapinch|Trapinch, F|100/100
+|turn|10
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|-activate|p1a: Seismitoad|move: Sticky Web
+|-unboost|p1a: Seismitoad|spe|1
+|move|p2a: Trapinch|Earthquake|p1a: Seismitoad
+|-damage|p1a: Seismitoad|69/100
+|
+|-heal|p1a: Seismitoad|75/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Mr. Mime|Mr. Mime-Galar, F|100/100
+|move|p1a: Seismitoad|Scald|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|78/100
+|-status|p2a: Mr. Mime|brn
+|
+|-heal|p1a: Seismitoad|81/100|[from] item: Leftovers
+|-damage|p2a: Mr. Mime|72/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Mr. Mime|Freeze-Dry|p1a: Seismitoad
+|-supereffective|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-damage|p2a: Mr. Mime|66/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|13
+|
+|switch|p2a: Cursola|Cursola, M|100/100
+|move|p1a: Cinderace|Blaze Kick|p2a: Cursola
+|-damage|p2a: Cursola|53/100
+|-ability|p2a: Cursola|Perish Body
+|-start|p2a: Cursola|perish3
+|-start|p1a: Cinderace|perish3
+|
+|-heal|p2a: Cursola|59/100|[from] item: Leftovers
+|-start|p1a: Cinderace|perish3
+|-start|p2a: Cursola|perish3
+|upkeep
+|turn|14
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Cursola|[miss]
+|-miss|p1a: Cinderace|p2a: Cursola
+|move|p2a: Cursola|Strength Sap|p1a: Cinderace
+|-unboost|p1a: Cinderace|atk|1
+|-heal|p2a: Cursola|100/100
+|
+|-start|p1a: Cinderace|perish2
+|-start|p2a: Cursola|perish2
+|upkeep
+|turn|15
+|
+|switch|p2a: Trapinch|Trapinch, F|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Trapinch
+|-damage|p2a: Trapinch|48/100
+|
+|-start|p1a: Cinderace|perish1
+|upkeep
+|turn|16
+|
+|move|p2a: Trapinch|Protect|p2a: Trapinch
+|-singleturn|p2a: Trapinch|Protect
+|move|p1a: Cinderace|Pyro Ball|p2a: Trapinch
+|-activate|p2a: Trapinch|move: Protect
+|
+|-start|p1a: Cinderace|perish0
+|faint|p1a: Cinderace
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|17
+|
+|switch|p2a: Cursola|Cursola, M|100/100
+|move|p1a: Corviknight|U-turn|p2a: Cursola
+|-resisted|p2a: Cursola
+|-damage|p2a: Cursola|92/100
+|-ability|p2a: Cursola|Perish Body
+|-start|p2a: Cursola|perish3
+|-start|p1a: Corviknight|perish3
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from]move: U-turn
+|-activate|p1a: Dragapult|move: Sticky Web
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|
+|-heal|p2a: Cursola|99/100|[from] item: Leftovers
+|-start|p2a: Cursola|perish3
+|upkeep
+|turn|18
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Cursola
+|-damage|p2a: Cursola|42/100
+|-unboost|p1a: Dragapult|spa|2
+|-damage|p1a: Dragapult|91/100|[from] item: Life Orb
+|move|p2a: Cursola|Strength Sap|p1a: Dragapult
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|-heal|p2a: Cursola|100/100
+|
+|-start|p2a: Cursola|perish2
+|upkeep
+|turn|19
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dragapult|Draco Meteor|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|88/100
+|-unboost|p1a: Dragapult|spa|2
+|-damage|p1a: Dragapult|81/100|[from] item: Life Orb
+|
+|-heal|p2a: Corviknight|95/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Dragapult|Fire Blast|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|74/100
+|-damage|p1a: Dragapult|71/100|[from] item: Life Orb
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|49/100
+|
+|-heal|p2a: Corviknight|55/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|-unboost|p1a: Dragapult|spa|2
+|-damage|p1a: Dragapult|61/100|[from] item: Life Orb
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|61/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Dragapult|Fire Blast|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|47/100
+|-status|p2a: Corviknight|brn
+|-damage|p1a: Dragapult|52/100|[from] item: Life Orb
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|22/100 brn
+|
+|-heal|p2a: Corviknight|29/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|22/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-activate|p2a: Corviknight|move: Substitute|[damage]
+|-damage|p1a: Dragapult|42/100|[from] item: Life Orb
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|72/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|78/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|72/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p1a: Dragapult|Fire Blast|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-activate|p2a: Corviknight|move: Substitute|[damage]
+|-damage|p1a: Dragapult|32/100|[from] item: Life Orb
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|78/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|72/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|switch|p1a: Aegislash|Aegislash, F|74/100
+|-activate|p1a: Aegislash|move: Sticky Web
+|-unboost|p1a: Aegislash|spe|1
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|78/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|72/100 brn|[from] brn
+|upkeep
+|turn|26
+|inactive|LeDebut1234 has 120 seconds left.
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Iron Head|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|78/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|72/100 brn|[from] brn
+|upkeep
+|turn|27
+|inactive|LeDebut1234 has 120 seconds left.
+|
+|move|p1a: Aegislash|Iron Head|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|44/100 brn
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|19/100 brn
+|
+|-heal|p2a: Corviknight|25/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|19/100 brn|[from] brn
+|upkeep
+|turn|28
+|inactive|LeDebut1234 has 120 seconds left.
+|
+|move|p1a: Aegislash|Iron Head|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-activate|p2a: Corviknight|move: Substitute|[damage]
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|69/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|75/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|69/100 brn|[from] brn
+|upkeep
+|turn|29
+|inactive|LeDebut1234 has 120 seconds left.
+|
+|move|p1a: Aegislash|Iron Head|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-activate|p2a: Corviknight|move: Substitute|[damage]
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|75/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|69/100 brn|[from] brn
+|upkeep
+|turn|30
+|inactive|LeDebut1234 has 120 seconds left.
+|
+|move|p1a: Aegislash|Iron Head|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-activate|p2a: Corviknight|move: Substitute|[damage]
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|75/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|69/100 brn|[from] brn
+|upkeep
+|turn|31
+|inactive|LeDebut1234 has 120 seconds left.
+|
+|move|p1a: Aegislash|Iron Head|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-activate|p2a: Corviknight|move: Substitute|[damage]
+|move|p2a: Corviknight|Brave Bird|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|-damage|p2a: Corviknight|53/100 brn|[from] Recoil
+|faint|p1a: Aegislash
+|
+|-heal|p2a: Corviknight|59/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|53/100 brn|[from] brn
+|upkeep
+|inactive|LeDebut1234 has 120 seconds left.
+|-message|LeDebut1234 forfeited.
+|
+|win|JKL#dsasadatesda
+|l|☆LeDebut1234

@@ -1,0 +1,270 @@
+|ScrapeTime|2020-01-02-10:35:39
+|j|☆djcjeknfjd
+|j|☆bagregalix
+|player|p1|djcjeknfjd|101|1077
+|player|p2|bagregalix|163|1105
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mew|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Bisharp, F|
+|poke|p1|Lucario, M|
+|poke|p1|Crawdaunt, M|
+|poke|p1|Mimikyu, F|
+|poke|p2|Aegislash, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Gastrodon-East, M|
+|poke|p2|Ferrothorn, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|turn|1
+|
+|move|p1a: Mew|Thunder Wave|p2a: Aegislash
+|-status|p2a: Aegislash|par
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|38/100
+|-enditem|p1a: Mew|Red Card|[of] p2a: Aegislash
+|drag|p2a: Dragapult|Dragapult, M, shiny|100/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: djcjeknfjd|move: Light Screen
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|cant|p2a: Ferrothorn|move: Taunt|Leech Seed
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: djcjeknfjd|Reflect
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|55/100
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Lucario
+|-resisted|p1a: Lucario
+|-damage|p1a: Lucario|75/100
+|
+|-end|p2a: Ferrothorn|move: Taunt
+|upkeep
+|turn|7
+|
+|move|p1a: Lucario|Swords Dance|p1a: Lucario
+|-boost|p1a: Lucario|atk|2
+|move|p2a: Ferrothorn|Leech Seed|p1a: Lucario
+|-start|p1a: Lucario|move: Leech Seed
+|
+|-damage|p1a: Lucario|62/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|8
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Lucario|Close Combat|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-damage|p1a: Lucario|50/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|9
+|
+|switch|p2a: Corsola|Corsola-Galar, F, shiny|100/100
+|move|p1a: Lucario|Meteor Mash|p2a: Corsola
+|-damage|p2a: Corsola|20/100
+|-start|p1a: Lucario|Disable|Meteor Mash|[from] ability: Cursed Body|[of] p2a: Corsola
+|-damage|p1a: Lucario|40/100|[from] item: Life Orb
+|
+|-damage|p1a: Lucario|27/100|[from] Leech Seed|[of] p2a: Corsola
+|-heal|p2a: Corsola|31/100|[silent]
+|upkeep
+|turn|10
+|
+|move|p2a: Corsola|Protect|p2a: Corsola
+|-singleturn|p2a: Corsola|Protect
+|move|p1a: Lucario|Bullet Punch|p2a: Corsola
+|-activate|p2a: Corsola|move: Protect
+|
+|-damage|p1a: Lucario|15/100|[from] Leech Seed|[of] p2a: Corsola
+|-heal|p2a: Corsola|42/100|[silent]
+|-sideend|p1: djcjeknfjd|move: Light Screen
+|upkeep
+|turn|11
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|55/100
+|move|p2a: Corsola|Strength Sap|p1a: Grimmsnarl
+|-unboost|p1a: Grimmsnarl|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100 par
+|move|p1a: Grimmsnarl|Taunt|p2a: Aegislash
+|-start|p2a: Aegislash|move: Taunt
+|
+|-sideend|p1: djcjeknfjd|Reflect
+|upkeep
+|turn|13
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: djcjeknfjd|Reflect
+|cant|p2a: Aegislash|par
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: djcjeknfjd|move: Light Screen
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Flash Cannon|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|17/100
+|
+|-end|p2a: Aegislash|move: Taunt
+|upkeep
+|turn|15
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|83/100 par
+|-unboost|p2a: Aegislash|spa|1
+|move|p2a: Aegislash|Flash Cannon|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|turn|16
+|
+|-formechange|p2a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Dragapult|Dragapult, M, shiny|100/100
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p1a: Bisharp|91/100|[from] item: Life Orb
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, F, shiny|100/100
+|turn|19
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-damage|p1a: Bisharp|81/100|[from] item: Life Orb
+|faint|p2a: Corsola
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by djcjeknfjd)
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|20
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Bisharp|68/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Bisharp|52/100|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|-damage|p1a: Bisharp|42/100|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|-sideend|p1: djcjeknfjd|Reflect
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|21
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-damage|p1a: Bisharp|32/100|[from] item: Life Orb
+|faint|p2a: Cinderace
+|
+|-sideend|p1: djcjeknfjd|move: Light Screen
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, F|83/100 par
+|turn|22
+|
+|cant|p2a: Aegislash|par
+|move|p1a: Bisharp|Sucker Punch||[still]
+|-fail|p1a: Bisharp
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|-damage|p1a: Bisharp|22/100|[from] item: Life Orb
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Gastrodon|Gastrodon-East, M, shiny|100/100
+|turn|24
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|-damage|p1a: Bisharp|12/100|[from] item: Life Orb
+|faint|p2a: Gastrodon
+|
+|win|djcjeknfjd
+|raw|djcjeknfjd's rating: 1077 → 1108(+31 for winning)
+|raw|bagregalix's rating: 1105 → 1078(-27 for losing)
+|l|☆bagregalix

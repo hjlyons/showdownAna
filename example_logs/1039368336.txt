@@ -1,0 +1,400 @@
+|ScrapeTime|2020-01-01-23:11:05
+|j|☆Asuma123
+|j|☆hiidenmice
+|player|p1|Asuma123|gambler|1173
+|player|p2|hiidenmice|169|1125
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Seismitoad, F|
+|poke|p1|Sylveon, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Conkeldurr, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Sylveon, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Hydreigon, F|
+|poke|p2|Toxapex, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|turn|1
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Hydreigon|U-turn|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|-status|p1a: Hydreigon|psn
+|
+|-damage|p1a: Hydreigon|88/100 psn|[from] psn
+|upkeep
+|turn|2
+|
+|move|p1a: Hydreigon|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|95/100
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M, shiny|100/100|[from]move: U-turn
+|move|p2a: Toxapex|Scald|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|80/100
+|-status|p1a: Conkeldurr|brn
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p1a: Conkeldurr|74/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Conkeldurr|Earthquake|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-damage|p1a: Conkeldurr|68/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Conkeldurr|Facade|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-damage|p1a: Conkeldurr|62/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p2a: Toxapex|Baneful Bunker||[still]
+|-fail|p2a: Toxapex
+|move|p1a: Conkeldurr|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|4/100
+|
+|-heal|p2a: Toxapex|10/100|[from] item: Black Sludge
+|-damage|p1a: Conkeldurr|56/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Conkeldurr|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-damage|p1a: Conkeldurr|50/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|7
+|
+|switch|p1a: Corviknight|Corviknight, F, shiny|100/100
+|move|p2a: Hydreigon|Draco Meteor|p1a: Corviknight|[miss]
+|-miss|p2a: Hydreigon|p1a: Corviknight
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Hydreigon|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|96/100
+|-damage|p2a: Hydreigon|91/100|[from] item: Life Orb
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from]move: U-turn
+|move|p1a: Corviknight|U-turn|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|91/100
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Cinderace|U-turn|p1a: Seismitoad
+|-damage|p1a: Seismitoad|85/100
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|move|p1a: Seismitoad|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|83/100
+|
+|-heal|p1a: Seismitoad|91/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Seismitoad
+|-immune|p1a: Seismitoad
+|move|p1a: Seismitoad|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-heal|p1a: Seismitoad|97/100|[from] item: Leftovers
+|-damage|p2a: Rotom|77/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Seismitoad
+|-immune|p1a: Seismitoad
+|move|p1a: Seismitoad|Stealth Rock|p2a: Rotom
+|-sidestart|p2: hiidenmice|move: Stealth Rock
+|
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|-damage|p2a: Rotom|65/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p2a: Cinderace|Cinderace, M|91/100
+|-damage|p2a: Cinderace|66/100|[from] Stealth Rock
+|move|p1a: Seismitoad|Scald|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|91/100
+|-damage|p2a: Hydreigon|78/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Seismitoad
+|-damage|p1a: Seismitoad|9/100
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|68/100|[from] item: Life Orb
+|move|p1a: Seismitoad|Toxic|p2a: Hydreigon
+|-status|p2a: Hydreigon|tox
+|
+|-heal|p1a: Seismitoad|15/100|[from] item: Leftovers
+|-damage|p2a: Hydreigon|62/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-crit|p1a: Sylveon
+|-damage|p1a: Sylveon|80/100
+|-damage|p2a: Hydreigon|52/100 tox|[from] item: Life Orb
+|
+|-heal|p1a: Sylveon|86/100|[from] item: Leftovers
+|-damage|p2a: Hydreigon|40/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|move|p2a: Hydreigon|U-turn|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|75/100
+|-damage|p2a: Hydreigon|30/100 tox|[from] item: Life Orb
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from]move: U-turn
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Sylveon|Hyper Voice|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Sylveon|81/100|[from] item: Leftovers
+|upkeep
+|c|☆Asuma123|Are you thinking?
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|-damage|p2a: Sylveon|88/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|87/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Corviknight|Corviknight, F, shiny|96/100
+|move|p2a: Sylveon|Mystical Fire|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|72/100
+|-ability|p1a: Corviknight|Mirror Armor
+|-unboost|p2a: Sylveon|spa|1
+|
+|-heal|p1a: Corviknight|100/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p2a: Sylveon|99/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Corviknight|Iron Head|p2a: Sylveon
+|-supereffective|p2a: Sylveon
+|-damage|p2a: Sylveon|56/100
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|62/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Rotom|Rotom-Wash|65/100 tox
+|-damage|p2a: Rotom|52/100 tox|[from] Stealth Rock
+|move|p1a: Corviknight|Iron Head|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|44/100 tox
+|
+|-heal|p2a: Rotom|100/100 tox|[from] move: Wish|[wisher] Sylveon
+|-damage|p2a: Rotom|94/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p1a: Seismitoad|Seismitoad, F|15/100
+|move|p2a: Rotom|Shadow Ball|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-damage|p2a: Rotom|82/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M, shiny|50/100 brn
+|turn|21
+|
+|move|p2a: Rotom|Shadow Ball|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|5/100 brn
+|move|p1a: Conkeldurr|Facade|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-damage|p1a: Conkeldurr|0 fnt|[from] brn
+|faint|p1a: Conkeldurr
+|upkeep
+|
+|switch|p2a: Sylveon|Sylveon, M|62/100
+|switch|p1a: Corviknight|Corviknight, F, shiny|100/100
+|-damage|p2a: Sylveon|50/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Corviknight|Iron Head|p2a: Sylveon
+|-supereffective|p2a: Sylveon
+|-damage|p2a: Sylveon|10/100
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|16/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Corviknight|Iron Head|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p2a: Sylveon|66/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p2a: Sylveon|72/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Corviknight|U-turn|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|65/100
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100|[from]move: U-turn
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|72/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|move|p2a: Sylveon|Hyper Voice|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|71/100
+|
+|-heal|p2a: Sylveon|100/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|26
+|
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: Hydreigon|Hydreigon, F|30/100 tox
+|-damage|p2a: Hydreigon|18/100 tox|[from] Stealth Rock
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|
+|-heal|p2a: Hydreigon|79/100 tox|[from] move: Wish|[wisher] Sylveon
+|-damage|p2a: Hydreigon|72/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|63/100 tox|[from] item: Life Orb
+|faint|p1a: Rotom
+|
+|-damage|p2a: Hydreigon|50/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|88/100 psn
+|turn|29
+|
+|move|p1a: Hydreigon|U-turn|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|13/100 tox
+|
+|switch|p1a: Corviknight|Corviknight, F, shiny|100/100|[from]move: U-turn
+|move|p2a: Hydreigon|Draco Meteor|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|86/100
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|4/100 tox|[from] item: Life Orb
+|
+|-heal|p1a: Corviknight|92/100|[from] item: Leftovers
+|-damage|p2a: Hydreigon|0 fnt|[from] psn
+|faint|p2a: Hydreigon
+|upkeep
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|-damage|p2a: Sylveon|88/100|[from] Stealth Rock
+|turn|30
+|
+|move|p1a: Corviknight|Iron Head|p2a: Sylveon
+|-supereffective|p2a: Sylveon
+|-crit|p2a: Sylveon
+|-damage|p2a: Sylveon|24/100
+|cant|p2a: Sylveon|flinch
+|
+|-heal|p1a: Corviknight|99/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|30/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Corviknight|Iron Head|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|36/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Corviknight|Iron Head|p2a: Sylveon
+|-supereffective|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|faint|p2a: Sylveon
+|
+|win|Asuma123
+|c|☆Asuma123|G
+|l|☆hiidenmice
+|raw|Asuma123's rating: 1151 → 1174(+23 for winning)
+|raw|hiidenmice's rating: 1126 → 1103(-23 for losing)

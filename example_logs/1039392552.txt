@@ -1,0 +1,316 @@
+|ScrapeTime|2020-01-02-00:01:00
+|j|☆Thedenskog
+|j|☆Didn't have
+|player|p1|Thedenskog|1|1168
+|player|p2|Didn't have|101|1124
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Cloyster, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Excadrill, M|
+|poke|p1|Greedent, F|
+|poke|p1|Clefable, M|
+|poke|p2|Vileplume, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Charizard, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Leafeon, M|
+|poke|p2|Haxorus, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Greedent|Greedent, F|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|move|p1a: Greedent|Stuff Cheeks|p1a: Greedent
+|-enditem|p1a: Greedent|Maranga Berry|[eat]
+|-boost|p1a: Greedent|spd|1
+|-boost|p1a: Greedent|def|2
+|move|p2a: Torkoal|Stealth Rock|p1a: Greedent
+|-sidestart|p1: Thedenskog|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Charizard|Charizard, F|100/100
+|move|p1a: Greedent|Stockpile|p1a: Greedent
+|-start|p1a: Greedent|stockpile1
+|-boost|p1a: Greedent|def|1
+|-boost|p1a: Greedent|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|88/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|turn|3
+|
+|move|p2a: Charizard|Flamethrower|p1a: Greedent
+|-damage|p1a: Greedent|52/100
+|move|p1a: Greedent|Stockpile|p1a: Greedent
+|-start|p1a: Greedent|stockpile2
+|-boost|p1a: Greedent|def|1
+|-boost|p1a: Greedent|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|76/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|turn|4
+|
+|move|p2a: Charizard|Flamethrower|p1a: Greedent
+|-damage|p1a: Greedent|14/100
+|move|p1a: Greedent|Rest|p1a: Greedent
+|-status|p1a: Greedent|slp|[from] move: Rest
+|-heal|p1a: Greedent|100/100 slp|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|63/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|turn|5
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|cant|p1a: Greedent|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p2a: Grimmsnarl|Thunder Wave||[still]
+|-fail|p2a: Grimmsnarl
+|cant|p1a: Greedent|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Greedent
+|-damage|p1a: Greedent|92/100 slp
+|-unboost|p1a: Greedent|spa|1
+|-curestatus|p1a: Greedent|slp|[msg]
+|move|p1a: Greedent|Stockpile|p1a: Greedent
+|-start|p1a: Greedent|stockpile3
+|-boost|p1a: Greedent|def|1
+|-boost|p1a: Greedent|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Greedent
+|-status|p1a: Greedent|par
+|move|p1a: Greedent|Stockpile||[still]
+|-fail|p1a: Greedent
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Didn't have|Reflect
+|move|p1a: Greedent|Body Press|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|44/100
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Greedent
+|-damage|p1a: Greedent|85/100 par
+|-unboost|p1a: Greedent|spa|1
+|cant|p1a: Greedent|par
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Greedent
+|-crit|p1a: Greedent
+|-damage|p1a: Greedent|50/100 par
+|-unboost|p1a: Greedent|spa|1
+|move|p1a: Greedent|Body Press|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|12
+|
+|move|p2a: Torkoal|Lava Plume|p1a: Greedent
+|-damage|p1a: Greedent|32/100 par
+|cant|p1a: Greedent|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p2a: Torkoal|Lava Plume|p1a: Greedent
+|-damage|p1a: Greedent|15/100 par
+|cant|p1a: Greedent|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|move|p2a: Torkoal|Lava Plume|p1a: Greedent
+|-damage|p1a: Greedent|0 fnt
+|faint|p1a: Greedent
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Dragapult|Hydro Pump|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|42/100
+|move|p2a: Torkoal|Earth Power|p1a: Dragapult
+|-damage|p1a: Dragapult|52/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|switch|p2a: Leafeon|Leafeon, M|100/100
+|move|p1a: Dragapult|Hydro Pump|p2a: Leafeon|[miss]
+|-miss|p1a: Dragapult|p2a: Leafeon
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: Didn't have|Reflect
+|upkeep
+|turn|17
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|move|p2a: Leafeon|Swords Dance|p2a: Leafeon
+|-boost|p2a: Leafeon|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p2a: Leafeon|Double-Edge|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-damage|p2a: Leafeon|83/100|[from] Recoil
+|faint|p1a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Leafeon|89/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|-item|p1a: Excadrill|Air Balloon
+|turn|19
+|
+|move|p2a: Leafeon|Solar Blade||[still]
+|-prepare|p2a: Leafeon|Solar Blade|p1a: Excadrill
+|-anim|p2a: Leafeon|Solar Blade|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-enditem|p1a: Excadrill|Air Balloon
+|faint|p1a: Excadrill
+|
+|-weather|none
+|-heal|p2a: Leafeon|95/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|turn|20
+|
+|switch|p2a: Torkoal|Torkoal, M|42/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Clefable|Flamethrower|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|8/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|
+|move|p1a: Clefable|Moonblast|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Charizard|Charizard, F|63/100
+|turn|22
+|
+|move|p2a: Charizard|Flamethrower|p1a: Clefable
+|-damage|p1a: Clefable|11/100
+|move|p1a: Clefable|Moonblast|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|25/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|13/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|turn|23
+|
+|move|p2a: Charizard|Flamethrower|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|0 fnt|[from] ability: Solar Power|[of] p2a: Charizard
+|faint|p2a: Charizard
+|upkeep
+|
+|switch|p2a: Vileplume|Vileplume, F|100/100
+|switch|p1a: Cloyster|Cloyster, F|100/100
+|-damage|p1a: Cloyster|76/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Vileplume|Solar Beam||[still]
+|-prepare|p2a: Vileplume|Solar Beam|p1a: Cloyster
+|-anim|p2a: Vileplume|Solar Beam|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|52/100
+|-damage|p1a: Dragapult|40/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Dragapult|Flamethrower|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Leafeon|Leafeon, M|95/100
+|turn|26
+|
+|move|p2a: Leafeon|Solar Blade||[still]
+|-prepare|p2a: Leafeon|Solar Blade|p1a: Dragapult
+|-anim|p2a: Leafeon|Solar Blade|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|win|Didn't have
+|raw|Thedenskog's rating: 1168 → 1140(-28 for losing)
+|raw|Didn't have's rating: 1124 → 1152(+28 for winning)

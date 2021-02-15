@@ -1,0 +1,340 @@
+|ScrapeTime|2020-01-01-12:07:56
+|j|☆Finwae
+|j|☆TrainerSai
+|player|p1|Finwae|102|1106
+|player|p2|TrainerSai|ethan|1054
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Barraskewda, M|
+|poke|p1|Dracovish|
+|poke|p1|Dugtrio, F|
+|poke|p1|Hatterene, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Polteageist|
+|poke|p2|Ditto|
+|poke|p2|Clefable, F|
+|poke|p2|Dracozolt|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TrainerSai)
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|move|p2a: Dragapult|Thunderbolt|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|turn|2
+|
+|move|p2a: Dragapult|Thunderbolt|p1a: Dugtrio
+|-immune|p1a: Dugtrio
+|move|p1a: Dugtrio|Shadow Claw|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|22/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p2a: Dragapult|Thunderbolt|p1a: Dugtrio
+|-immune|p1a: Dugtrio
+|move|p1a: Dugtrio|Shadow Claw|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Dugtrio|[from] ability: Imposter
+|turn|4
+|inactive|TrainerSai has 120 seconds left.
+|
+|move|p2a: Ditto|Sucker Punch|p1a: Dugtrio
+|-damage|p1a: Dugtrio|39/100
+|move|p1a: Dugtrio|Shadow Claw|p2a: Ditto
+|-damage|p2a: Ditto|35/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Ditto|Sucker Punch|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|turn|6
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Cinderace
+|-sidestart|p2: TrainerSai|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: TrainerSai|Stealth Rock|[silent]
+|-sidestart|p1: Finwae|Stealth Rock|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|turn|9
+|
+|move|p2a: Dracozolt|Fire Fang|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|93/100
+|-status|p1a: Dracovish|brn
+|move|p1a: Dracovish|Fishious Rend|p2a: Dracozolt
+|-resisted|p2a: Dracozolt
+|-damage|p2a: Dracozolt|85/100
+|
+|-damage|p1a: Dracovish|87/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p2a: Ditto|Ditto|35/100
+|-transform|p2a: Ditto|p1a: Dracovish|[from] ability: Imposter
+|move|p1a: Dracovish|Fishious Rend|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|19/100
+|
+|-damage|p1a: Dracovish|81/100 brn|[from] brn
+|upkeep
+|turn|11
+|inactive|Finwae has 120 seconds left.
+|
+|move|p2a: Ditto|Earthquake|p1a: Dracovish
+|-damage|p1a: Dracovish|48/100 brn
+|move|p1a: Dracovish|Fishious Rend|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|11/100
+|
+|-damage|p1a: Dracovish|42/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|-damage|p1a: Dracovish|36/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Dracozolt|Dracozolt|85/100
+|turn|13
+|inactive|Finwae has 120 seconds left.
+|
+|move|p2a: Dracozolt|Earthquake|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|88/100
+|-enditem|p2a: Clefable|Life Orb|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Finwae has 120 seconds left.
+|
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|-damage|p1a: Barraskewda|88/100|[from] Stealth Rock
+|move|p2a: Clefable|Fire Blast|p1a: Barraskewda
+|-resisted|p1a: Barraskewda
+|-damage|p1a: Barraskewda|51/100
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|move|p1a: Barraskewda|Liquidation|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|-damage|p1a: Barraskewda|41/100|[from] item: Life Orb
+|faint|p2a: Polteageist
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|88/100
+|turn|17
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Clefable|Moonblast|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|81/100
+|
+|-heal|p1a: Ferrothorn|87/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Clefable|Fire Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|94/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|99/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Clefable|Moonblast|p1a: Hatterene
+|-damage|p1a: Hatterene|55/100
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Clefable
+|-damage|p2a: Clefable|47/100
+|
+|-heal|p1a: Hatterene|61/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Clefable|Moonblast|p1a: Hatterene
+|-damage|p1a: Hatterene|15/100
+|-unboost|p1a: Hatterene|spa|1
+|move|p1a: Hatterene|Giga Drain|p2a: Clefable
+|-damage|p2a: Clefable|22/100
+|-heal|p1a: Hatterene|30/100|[from] drain|[of] p2a: Clefable
+|
+|-heal|p1a: Hatterene|36/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Clefable|Moonblast|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|switch|p1a: Barraskewda|Barraskewda, M|41/100
+|-damage|p1a: Barraskewda|29/100|[from] Stealth Rock
+|turn|28
+|
+|move|p1a: Barraskewda|Liquidation|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-damage|p1a: Barraskewda|19/100|[from] item: Life Orb
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Dracozolt|Dracozolt|85/100
+|turn|29
+|
+|move|p2a: Dracozolt|Bolt Beak|p1a: Barraskewda
+|-supereffective|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|win|TrainerSai
+|l|☆Finwae
+|raw|Finwae's rating: 1106 → 1077(-29 for losing)
+|raw|TrainerSai's rating: 1054 → 1091(+37 for winning)

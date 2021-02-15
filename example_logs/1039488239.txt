@@ -1,0 +1,313 @@
+|ScrapeTime|2020-01-02-03:55:28
+|j|☆Iwbco
+|j|☆OTLance
+|player|p1|Iwbco|101|1275
+|player|p2|OTLance|veteran|1286
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxtricity, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Shuckle, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Hatterene, F|
+|poke|p2|Barraskewda, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Polteageist|
+|poke|p2|Cinderace, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|1
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Cinderace|High Jump Kick|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|-status|p2a: Cinderace|psn
+|-damage|p2a: Cinderace|50/100 psn|[from] highjumpkick
+|
+|-damage|p2a: Cinderace|38/100 psn|[from] psn
+|upkeep
+|turn|2
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Cinderace|High Jump Kick|p1a: Dragapult
+|-immune|p1a: Dragapult
+|-damage|p2a: Cinderace|0 fnt|[from] highjumpkick
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|3
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|75/100
+|
+|-heal|p2a: Corviknight|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Hatterene|Mystical Fire|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|
+|-heal|p2a: Corviknight|88/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Hatterene
+|-damage|p1a: Hatterene|22/100
+|-damage|p2a: Corviknight|71/100|[from] Recoil
+|move|p1a: Hatterene|Mystical Fire|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|8/100
+|-unboost|p2a: Corviknight|spa|1
+|
+|-heal|p2a: Corviknight|14/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|64/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|70/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|45/100
+|move|p1a: Toxapex|Scald|p2a: Corviknight
+|-activate|p2a: Corviknight|move: Substitute|[damage]
+|
+|-heal|p2a: Corviknight|52/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Toxapex|Scald|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|67/100
+|-damage|p2a: Corviknight|92/100|[from] Recoil
+|move|p1a: Toxapex|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|78/100
+|
+|-heal|p2a: Corviknight|85/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|73/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|38/100
+|-damage|p2a: Corviknight|76/100|[from] Recoil
+|move|p1a: Toxapex|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|62/100
+|
+|-heal|p2a: Corviknight|68/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|45/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|10/100
+|-damage|p2a: Corviknight|59/100|[from] Recoil
+|move|p1a: Toxapex|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|46/100
+|-status|p2a: Corviknight|brn
+|
+|-heal|p2a: Corviknight|52/100 brn|[from] item: Leftovers
+|-heal|p1a: Toxapex|16/100|[from] item: Black Sludge
+|-damage|p2a: Corviknight|46/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Corviknight|Brave Bird|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-heal|p2a: Corviknight|52/100 brn|[from] item: Leftovers
+|-heal|p1a: Toxapex|22/100|[from] item: Black Sludge
+|-damage|p2a: Corviknight|46/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|5/100
+|-damage|p2a: Corviknight|41/100 brn|[from] Recoil
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|55/100
+|
+|-heal|p2a: Corviknight|48/100 brn|[from] item: Leftovers
+|-heal|p1a: Toxapex|62/100|[from] item: Black Sludge
+|-damage|p2a: Corviknight|41/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|-heal|p2a: Corviknight|48/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|41/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|79/100
+|-damage|p2a: Corviknight|36/100 brn|[from] Recoil
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Corviknight|42/100 brn|[from] item: Leftovers
+|-heal|p1a: Toxapex|85/100|[from] item: Black Sludge
+|-damage|p2a: Corviknight|36/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|86/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Toxapex|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|73/100 brn
+|
+|-heal|p2a: Corviknight|80/100 brn|[from] item: Leftovers
+|-heal|p1a: Toxapex|92/100|[from] item: Black Sludge
+|-damage|p2a: Corviknight|73/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Polteageist
+|-crit|p2a: Polteageist
+|-enditem|p2a: Polteageist|Focus Sash
+|-damage|p2a: Polteageist|1/100
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Shuckle|Shuckle, M|100/100
+|move|p2a: Polteageist|Stored Power|p1a: Shuckle
+|-ability|p1a: Shuckle|Sturdy
+|-damage|p1a: Shuckle|1/100
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Polteageist|Giga Drain|p1a: Shuckle
+|-damage|p1a: Shuckle|0 fnt
+|-heal|p2a: Polteageist|1/100|[from] drain|[of] p1a: Shuckle
+|faint|p1a: Shuckle
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by OTLance)
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|22
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|turn|23
+|
+|move|p2a: Polteageist|Stored Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|24
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Hatterene|Hatterene, F|22/100
+|turn|25
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|turn|26
+|
+|move|p2a: Polteageist|Stored Power|p1a: Toxtricity
+|-supereffective|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|win|OTLance
+|l|☆Iwbco
+|raw|Iwbco's rating: 1275 → 1251(-24 for losing)
+|raw|OTLance's rating: 1286 → 1311(+25 for winning)

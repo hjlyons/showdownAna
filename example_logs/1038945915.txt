@@ -1,0 +1,261 @@
+|ScrapeTime|2020-01-01-01:42:40
+|j|☆Wolfy47
+|j|☆Remona
+|player|p1|Wolfy47|volkner|1066
+|player|p2|Remona|lady-gen4|1091
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Excadrill, M|
+|poke|p1|Sylveon, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Lucario, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Morpeko, M|
+|poke|p2|Barbaracle, M|
+|poke|p2|Hippowdon, M|
+|poke|p2|Sigilyph, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Gastrodon-East, M|
+|poke|p2|Excadrill, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Morpeko|Morpeko, M|100/100
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|turn|1
+|
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Morpeko|Fake Out|p2a: Hippowdon
+|-damage|p2a: Hippowdon|88/100
+|-damage|p1a: Morpeko|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Morpeko|85/100|[from] Sandstorm
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|2
+|
+|move|p1a: Morpeko|Taunt|p2a: Hippowdon
+|-start|p2a: Hippowdon|move: Taunt
+|cant|p2a: Hippowdon|move: Taunt|Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Morpeko|78/100|[from] Sandstorm
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|3
+|
+|move|p1a: Morpeko|Protect|p1a: Morpeko
+|-singleturn|p1a: Morpeko|Protect
+|move|p2a: Hippowdon|Earthquake|p1a: Morpeko
+|-activate|p1a: Morpeko|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Morpeko|72/100|[from] Sandstorm
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|4
+|
+|switch|p2a: Barbaracle|Barbaracle, M|100/100
+|move|p1a: Morpeko|Aura Wheel|p2a: Barbaracle
+|-damage|p2a: Barbaracle|47/100
+|-boost|p1a: Morpeko|spe|1
+|-damage|p1a: Morpeko|62/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Morpeko|56/100|[from] Sandstorm
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|5
+|
+|switch|p2a: Gastrodon|Gastrodon-East, M|100/100
+|move|p1a: Morpeko|Aura Wheel|p2a: Gastrodon
+|-immune|p2a: Gastrodon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Morpeko|50/100|[from] Sandstorm
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|6
+|
+|move|p1a: Morpeko|Aura Wheel|p2a: Gastrodon
+|-damage|p2a: Gastrodon|25/100
+|-boost|p1a: Morpeko|spe|1
+|-damage|p1a: Morpeko|40/100|[from] item: Life Orb
+|move|p2a: Gastrodon|Earth Power|p1a: Morpeko
+|-supereffective|p1a: Morpeko
+|-damage|p1a: Morpeko|0 fnt
+|faint|p1a: Morpeko
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|turn|7
+|
+|move|p1a: Sylveon|Calm Mind|p1a: Sylveon
+|-boost|p1a: Sylveon|spa|1
+|-boost|p1a: Sylveon|spd|1
+|move|p2a: Gastrodon|Scald|p1a: Sylveon
+|-damage|p1a: Sylveon|83/100
+|-status|p1a: Sylveon|brn
+|-enditem|p1a: Sylveon|Red Card|[of] p2a: Gastrodon
+|drag|p2a: Sigilyph|Sigilyph, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sylveon|77/100 brn|[from] Sandstorm
+|-damage|p1a: Sylveon|71/100 brn|[from] brn
+|-status|p2a: Sigilyph|brn|[from] item: Flame Orb
+|upkeep
+|turn|8
+|
+|move|p2a: Sigilyph|Cosmic Power|p2a: Sigilyph
+|-boost|p2a: Sigilyph|def|1
+|-boost|p2a: Sigilyph|spd|1
+|move|p1a: Sylveon|Hyper Voice|p2a: Sigilyph
+|-damage|p2a: Sigilyph|41/100 brn
+|
+|-weather|none
+|-damage|p1a: Sylveon|65/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p2a: Sigilyph|Stored Power|p1a: Sylveon
+|-damage|p1a: Sylveon|53/100 brn
+|move|p1a: Sylveon|Hyper Voice|p2a: Sigilyph
+|-damage|p2a: Sigilyph|0 fnt
+|faint|p2a: Sigilyph
+|
+|-damage|p1a: Sylveon|47/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Hippowdon|Hippowdon, M|88/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|10
+|
+|move|p1a: Sylveon|Hyper Voice|p2a: Hippowdon
+|-damage|p2a: Hippowdon|1/100
+|move|p2a: Hippowdon|Stealth Rock|p1a: Sylveon
+|-sidestart|p1: Wolfy47|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sylveon|41/100 brn|[from] Sandstorm
+|-damage|p1a: Sylveon|35/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Sylveon|Hyper Voice|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sylveon|29/100 brn|[from] Sandstorm
+|-damage|p1a: Sylveon|23/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|turn|12
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Sylveon|Mystical Fire|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|26/100
+|-ability|p2a: Corviknight|Mirror Armor
+|-unboost|p1a: Sylveon|spa|1
+|-enditem|p2a: Corviknight|Sitrus Berry|[eat]
+|-heal|p2a: Corviknight|51/100|[from] item: Sitrus Berry
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sylveon|16/100 brn|[from] Sandstorm
+|-damage|p1a: Sylveon|10/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Sylveon|Mystical Fire|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|54/100
+|-ability|p2a: Corviknight|Mirror Armor
+|-unboost|p1a: Sylveon|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sylveon|4/100 brn|[from] Sandstorm
+|-damage|p1a: Sylveon|0 fnt|[from] brn
+|faint|p1a: Sylveon
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Corviknight
+|-status|p2a: Corviknight|brn
+|move|p2a: Corviknight|Body Press|p1a: Rotom
+|-damage|p1a: Rotom|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|54/100|[from] Sandstorm
+|-heal|p1a: Rotom|60/100|[from] item: Leftovers
+|-damage|p2a: Corviknight|48/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Rotom|Thunderbolt|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|54/100|[from] Sandstorm
+|-heal|p1a: Rotom|60/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|turn|16
+|
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|move|p1a: Rotom|Hydro Pump|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-enditem|p2a: Excadrill|Focus Sash
+|-damage|p2a: Excadrill|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|54/100|[from] Sandstorm
+|-heal|p1a: Rotom|60/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|-damage|p1a: Lucario|98/100|[from] Stealth Rock
+|turn|18
+|-message|Remona forfeited.
+|
+|win|Wolfy47
+|l|☆Remona
+|raw|Wolfy47's rating: 1066 → 1098(+32 for winning)
+|raw|Remona's rating: 1091 → 1066(-25 for losing)

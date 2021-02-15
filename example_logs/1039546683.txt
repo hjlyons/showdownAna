@@ -1,0 +1,210 @@
+|ScrapeTime|2020-01-02-06:54:46
+|j|☆bigsmellyclaws
+|j|☆RudyRudy
+|player|p1|bigsmellyclaws|102|1424
+|player|p2|RudyRudy|66|1375
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Crawdaunt, M|
+|poke|p1|Togekiss, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Flareon, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Bisharp, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Grimmsnarl|Bulk Up|p2a: Grimmsnarl
+|-boost|p2a: Grimmsnarl|atk|1
+|-boost|p2a: Grimmsnarl|def|1
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Grimmsnarl|Sucker Punch|p1a: Excadrill
+|-damage|p1a: Excadrill|39/100
+|move|p1a: Excadrill|Iron Head|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-crit|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|-heal|p1a: Excadrill|45/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ellison|Dragapult, F|100/100
+|turn|3
+|
+|move|p2a: Ellison|Will-O-Wisp|p1a: Excadrill
+|-status|p1a: Excadrill|brn
+|move|p1a: Excadrill|Earthquake|p2a: Ellison
+|-damage|p2a: Ellison|63/100
+|
+|-heal|p2a: Ellison|69/100|[from] item: Leftovers
+|-heal|p1a: Excadrill|51/100 brn|[from] item: Leftovers
+|-damage|p1a: Excadrill|45/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Ellison|Hex|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-heal|p2a: Ellison|76/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|5
+|
+|switch|p2a: Flareon|Flareon, F|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Flareon
+|-damage|p2a: Flareon|66/100
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|move|p2a: Flareon|Wish|p2a: Flareon
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Flareon|Protect|p2a: Flareon
+|-singleturn|p2a: Flareon|Protect
+|move|p1a: Crawdaunt|Dragon Dance|p1a: Crawdaunt
+|-boost|p1a: Crawdaunt|atk|1
+|-boost|p1a: Crawdaunt|spe|1
+|
+|-heal|p2a: Flareon|100/100|[from] move: Wish|[wisher] Flareon
+|upkeep
+|turn|8
+|
+|move|p1a: Crawdaunt|Dragon Dance|p1a: Crawdaunt
+|-boost|p1a: Crawdaunt|atk|1
+|-boost|p1a: Crawdaunt|spe|1
+|move|p2a: Flareon|Will-O-Wisp|p1a: Crawdaunt
+|-status|p1a: Crawdaunt|brn
+|
+|-damage|p1a: Crawdaunt|95/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Crawdaunt|Dragon Dance|p1a: Crawdaunt
+|-boost|p1a: Crawdaunt|atk|1
+|-boost|p1a: Crawdaunt|spe|1
+|
+|-damage|p1a: Crawdaunt|89/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Crawdaunt|Knock Off|p2a: Seismitoad
+|-damage|p2a: Seismitoad|19/100
+|-enditem|p2a: Seismitoad|Leftovers|[from] move: Knock Off|[of] p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|79/100 brn|[from] item: Life Orb
+|move|p2a: Seismitoad|Earthquake|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|29/100 brn
+|
+|-damage|p1a: Crawdaunt|23/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Crawdaunt|Knock Off|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-damage|p1a: Crawdaunt|13/100 brn|[from] item: Life Orb
+|faint|p2a: Seismitoad
+|
+|-damage|p1a: Crawdaunt|7/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|turn|12
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Crawdaunt
+|-resisted|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|
+|upkeep
+|
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|turn|13
+|
+|switch|p2a: Flareon|Flareon, F|100/100
+|move|p1a: Togekiss|Substitute|p1a: Togekiss
+|-start|p1a: Togekiss|Substitute
+|-damage|p1a: Togekiss|75/100
+|
+|-heal|p1a: Togekiss|82/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|move|p2a: Flareon|Flare Blitz|p1a: Togekiss
+|-end|p1a: Togekiss|Substitute
+|-damage|p2a: Flareon|93/100|[from] Recoil|[of] p1a: Togekiss
+|
+|-heal|p1a: Togekiss|88/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|move|p2a: Flareon|Flare Blitz|p1a: Togekiss
+|-damage|p1a: Togekiss|29/100
+|-damage|p2a: Flareon|74/100|[from] Recoil
+|
+|-heal|p1a: Togekiss|35/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Togekiss|Air Slash|p2a: Flareon|[miss]
+|-miss|p1a: Togekiss|p2a: Flareon
+|move|p2a: Flareon|Flare Blitz|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|-damage|p2a: Flareon|64/100|[from] Recoil
+|faint|p1a: Togekiss
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|17
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Flareon
+|-damage|p2a: Flareon|2/100
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: Flareon|Wish|p2a: Flareon
+|
+|upkeep
+|turn|18
+|-message|bigsmellyclaws forfeited.
+|
+|win|RudyRudy
+|l|☆bigsmellyclaws
+|raw|bigsmellyclaws's rating: 1424 → 1402(-22 for losing)
+|raw|RudyRudy's rating: 1376 → 1399(+23 for winning)

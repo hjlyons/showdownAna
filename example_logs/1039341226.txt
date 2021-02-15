@@ -1,0 +1,333 @@
+|ScrapeTime|2020-01-01-22:15:42
+|j|☆EmperorPalpatine66
+|j|☆ElYayoPaco
+|player|p1|EmperorPalpatine66|dawn|1249
+|player|p2|ElYayoPaco|drayden|1225
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Weavile, F|
+|poke|p1|Reuniclus, F|
+|poke|p1|Gyarados, M|
+|poke|p1|Cursola, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Cinderace, F|
+|poke|p2|Duraludon, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Hawlucha, F|
+|poke|p2|Gengar, F|
+|poke|p2|Milotic, F|
+|poke|p2|Turtonator, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|move|p1a: Cinderace|High Jump Kick|p2a: Tyranitar|[miss]
+|-miss|p1a: Cinderace|p2a: Tyranitar
+|-damage|p1a: Cinderace|51/100|[from] highjumpkick
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cinderace|45/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|move|p1a: Cinderace|High Jump Kick|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p1a: Cinderace|35/100|[from] item: Life Orb
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cinderace|29/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Milotic|Milotic, F|100/100
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by EmperorPalpatine66)
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Milotic|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|89/100
+|-status|p1a: Toxapex|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-damage|p1a: Toxapex|83/100 brn|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|89/100 brn|[from] item: Leftovers
+|-damage|p1a: Toxapex|83/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Toxapex|Toxic|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gengar|94/100|[from] Sandstorm
+|-damage|p1a: Toxapex|77/100 brn|[from] Sandstorm
+|-heal|p2a: Gengar|100/100|[from] item: Black Sludge
+|-heal|p1a: Toxapex|83/100 brn|[from] item: Leftovers
+|-damage|p1a: Toxapex|77/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|76/100
+|move|p1a: Toxapex|Scald|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|
+|-weather|none
+|-heal|p2a: Gengar|82/100|[from] item: Black Sludge
+|-heal|p1a: Toxapex|83/100 brn|[from] item: Leftovers
+|-damage|p1a: Toxapex|77/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p2a: Gengar|Disable|p1a: Toxapex
+|-start|p1a: Toxapex|Disable|Scald
+|cant|p1a: Toxapex|Disable|Scald
+|
+|-heal|p2a: Gengar|88/100|[from] item: Black Sludge
+|-heal|p1a: Toxapex|83/100 brn|[from] item: Leftovers
+|-damage|p1a: Toxapex|77/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|63/100
+|move|p1a: Toxapex|Toxic Spikes|p2a: Gengar
+|-sidestart|p2: ElYayoPaco|move: Toxic Spikes
+|
+|-heal|p2a: Gengar|69/100|[from] item: Black Sludge
+|-heal|p1a: Toxapex|83/100 brn|[from] item: Leftovers
+|-damage|p1a: Toxapex|77/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|43/100 brn
+|move|p1a: Toxapex|Toxic Spikes|p2a: Gengar
+|-sidestart|p2: ElYayoPaco|move: Toxic Spikes
+|
+|-heal|p2a: Gengar|75/100|[from] item: Black Sludge
+|-heal|p1a: Toxapex|49/100 brn|[from] item: Leftovers
+|-damage|p1a: Toxapex|43/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|7/100 brn
+|-unboost|p1a: Toxapex|spd|1
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|57/100 brn
+|
+|-heal|p2a: Gengar|81/100|[from] item: Black Sludge
+|-heal|p1a: Toxapex|63/100 brn|[from] item: Leftovers
+|-damage|p1a: Toxapex|57/100 brn|[from] brn
+|-end|p1a: Toxapex|Disable
+|upkeep
+|turn|10
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|8/100 brn
+|move|p1a: Toxapex|Scald|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|
+|-heal|p2a: Gengar|88/100|[from] item: Black Sludge
+|-heal|p1a: Toxapex|14/100 brn|[from] item: Leftovers
+|-damage|p1a: Toxapex|8/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p1a: Cinderace|Cinderace, F|29/100
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|63/100
+|
+|-heal|p2a: Gengar|69/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|move|p1a: Cinderace|Iron Head|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|-damage|p1a: Cinderace|19/100|[from] item: Life Orb
+|move|p2a: Gengar|Shadow Ball|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-heal|p2a: Gengar|75/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|13
+|
+|switch|p2a: Turtonator|Turtonator, F|100/100
+|-status|p2a: Turtonator|tox
+|move|p1a: Weavile|Swords Dance|p1a: Weavile
+|-boost|p1a: Weavile|atk|2
+|
+|-damage|p2a: Turtonator|94/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p1a: Weavile|Throat Chop|p2a: Turtonator
+|-damage|p2a: Turtonator|29/100 tox
+|-damage|p1a: Weavile|84/100|[from] item: Rocky Helmet|[of] p2a: Turtonator
+|-start|p2a: Turtonator|Throat Chop|[silent]
+|-damage|p1a: Weavile|74/100|[from] item: Life Orb
+|move|p2a: Turtonator|Rapid Spin|p1a: Weavile
+|-damage|p1a: Weavile|62/100
+|-sideend|p2: ElYayoPaco|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Turtonator
+|-boost|p2a: Turtonator|spe|1
+|
+|-damage|p2a: Turtonator|17/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|move|p1a: Weavile|Ice Shard|p2a: Turtonator
+|-damage|p2a: Turtonator|0 fnt
+|-damage|p1a: Weavile|52/100|[from] item: Life Orb
+|faint|p2a: Turtonator
+|
+|upkeep
+|
+|switch|p2a: Duraludon|Duraludon, F|100/100
+|turn|16
+|
+|move|p1a: Weavile|Icicle Crash|p2a: Duraludon|[miss]
+|-miss|p1a: Weavile|p2a: Duraludon
+|move|p2a: Duraludon|Flash Cannon|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|-damage|p2a: Duraludon|91/100|[from] item: Life Orb
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|switch|p1a: Cursola|Cursola, F|100/100
+|turn|17
+|
+|move|p2a: Duraludon|Thunder Wave|p1a: Cursola
+|-status|p1a: Cursola|par
+|move|p1a: Cursola|Earth Power|p2a: Duraludon
+|-supereffective|p2a: Duraludon
+|-damage|p2a: Duraludon|0 fnt
+|faint|p2a: Duraludon
+|
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|turn|18
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|cant|p1a: Cursola|par
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Hawlucha|Sky Attack||[still]
+|-prepare|p2a: Hawlucha|Sky Attack|p1a: Cursola
+|-enditem|p2a: Hawlucha|Power Herb
+|-anim|p2a: Hawlucha|Sky Attack|p1a: Cursola
+|-enditem|p1a: Cursola|Focus Sash
+|-damage|p1a: Cursola|1/100 par
+|-ability|p1a: Cursola|Weak Armor|boost
+|-unboost|p1a: Cursola|def|1
+|-boost|p1a: Cursola|spe|2
+|cant|p1a: Cursola|flinch
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Cursola
+|-damage|p1a: Cursola|0 fnt
+|faint|p1a: Cursola
+|
+|upkeep
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|turn|21
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Reuniclus
+|-damage|p1a: Reuniclus|8/100
+|move|p1a: Reuniclus|Psychic|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|-heal|p1a: Reuniclus|14/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, F|75/100
+|turn|22
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|-heal|p2a: Gengar|81/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Gengar|atk|1
+|turn|23
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|35/100
+|-unboost|p1a: Gyarados|spd|1
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-heal|p1a: Gyarados|41/100|[from] item: Leftovers
+|-heal|p2a: Gengar|87/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|move|p1a: Gyarados|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|-heal|p1a: Gyarados|47/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Milotic|Milotic, F|100/100
+|turn|25
+|
+|move|p1a: Gyarados|Power Whip|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|win|EmperorPalpatine66
+|l|☆ElYayoPaco
+|raw|EmperorPalpatine66's rating: 1274 → 1296(+22 for winning)
+|raw|ElYayoPaco's rating: 1225 → 1204(-21 for losing)

@@ -1,0 +1,243 @@
+|ScrapeTime|2020-01-02-13:54:24
+|j|☆caagle
+|j|☆please do not die
+|player|p1|caagle|169|1576
+|player|p2|please do not die|riley|1561
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pincurchin, M|
+|poke|p1|Togekiss, M|
+|poke|p1|Hawlucha, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Dracozolt|
+|poke|p1|Seismitoad, F|
+|poke|p2|Aegislash, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Cloyster, M|
+|poke|p2|Obstagoon, F|
+|poke|p2|Cinderace, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|switch|p2a: Obstagoon|Obstagoon, F|100/100
+|turn|1
+|
+|move|p2a: Obstagoon|Knock Off|p1a: Seismitoad
+|-damage|p1a: Seismitoad|71/100
+|-enditem|p1a: Seismitoad|Leftovers|[from] move: Knock Off|[of] p2a: Obstagoon
+|move|p1a: Seismitoad|Stealth Rock|p2a: Obstagoon
+|-sidestart|p2: please do not die|move: Stealth Rock
+|
+|-status|p2a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|move|p2a: Obstagoon|Facade|p1a: Seismitoad
+|-damage|p1a: Seismitoad|8/100
+|move|p1a: Seismitoad|Earthquake|p2a: Obstagoon
+|-damage|p2a: Obstagoon|63/100 brn
+|
+|-damage|p2a: Obstagoon|56/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: Seismitoad|Protect|p1a: Seismitoad
+|-singleturn|p1a: Seismitoad|Protect
+|move|p2a: Obstagoon|Knock Off|p1a: Seismitoad
+|-activate|p1a: Seismitoad|move: Protect
+|
+|-damage|p2a: Obstagoon|50/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Obstagoon|Knock Off|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-damage|p2a: Obstagoon|44/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|turn|5
+|
+|switch|p1a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|-damage|p2a: Aegislash|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Claw|p1a: Pincurchin
+|-damage|p1a: Pincurchin|22/100
+|move|p1a: Pincurchin|Discharge|p2a: Aegislash
+|-damage|p2a: Aegislash|7/100
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|-item|p1a: Excadrill|Air Balloon
+|move|p2a: Aegislash|Shadow Claw|p1a: Excadrill
+|-damage|p1a: Excadrill|3/100
+|-enditem|p1a: Excadrill|Air Balloon
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Excadrill|Earthquake|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|9
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|turn|10
+|
+|move|p1a: Dracozolt|Bolt Beak|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|11
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by caagle)
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Togekiss
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|13
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Togekiss|[from]lockedmove
+|-damage|p1a: Togekiss|0 fnt
+|-damage|p2a: Dragapult|78/100|[from] item: Life Orb
+|faint|p1a: Togekiss
+|
+|upkeep
+|
+|switch|p1a: Pincurchin|Pincurchin, M|22/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|14
+|
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: Pincurchin|Memento|p2a: Dragapult
+|-unboost|p2a: Dragapult|atk|2
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Pincurchin
+|
+|upkeep
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|-enditem|p1a: Hawlucha|Electric Seed
+|-boost|p1a: Hawlucha|def|1
+|turn|15
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Hawlucha
+|-damage|p1a: Hawlucha|69/100
+|-damage|p1a: Hawlucha|37/100
+|-hitcount|p1a: Hawlucha|2
+|-damage|p2a: Dragapult|69/100|[from] item: Life Orb
+|move|p1a: Hawlucha|Acrobatics|p2a: Dragapult
+|-damage|p2a: Dragapult|5/100
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Dracozolt
+|-supereffective|p1a: Dracozolt
+|-damage|p1a: Dracozolt|15/100
+|-supereffective|p1a: Dracozolt
+|-damage|p1a: Dracozolt|0 fnt
+|-hitcount|p1a: Dracozolt|2
+|-damage|p2a: Dragapult|0 fnt|[from] item: Life Orb
+|faint|p1a: Dracozolt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|switch|p1a: Hawlucha|Hawlucha, M|37/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Hawlucha|Close Combat|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|-damage|p2a: Cloyster|76/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Hawlucha|Close Combat|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|faint|p2a: Cloyster
+|
+|upkeep
+|
+|switch|p2a: Obstagoon|Obstagoon, F|44/100 brn
+|-damage|p2a: Obstagoon|32/100 brn|[from] Stealth Rock
+|turn|19
+|c|☆caagle|gg
+|
+|move|p1a: Hawlucha|Close Combat|p2a: Obstagoon
+|-supereffective|p2a: Obstagoon
+|-damage|p2a: Obstagoon|0 fnt
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|faint|p2a: Obstagoon
+|
+|win|caagle
+|raw|caagle's rating: 1576 → 1595(+19 for winning)
+|raw|please do not die's rating: 1561 → 1542(-19 for losing)

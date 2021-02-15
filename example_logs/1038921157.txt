@@ -1,0 +1,364 @@
+|ScrapeTime|2020-01-01-00:45:36
+|j|☆flyingpidgeys
+|j|☆deuda
+|player|p1|flyingpidgeys|285|1000
+|player|p2|deuda|137|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxapex, F|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Roserade, F|
+|poke|p2|Gothitelle, M|
+|poke|p2|Gyarados, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Galvantula, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Gothitelle|Gothitelle, M|100/100
+|turn|1
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Gothitelle
+|-start|p2a: Gothitelle|move: Taunt
+|cant|p2a: Gothitelle|move: Taunt|Trick
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: flyingpidgeys|move: Light Screen
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: flyingpidgeys|Reflect
+|move|p2a: Excadrill|Iron Head|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|40/100
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Corsola|Corsola-Galar, F, shiny|100/100
+|move|p2a: Excadrill|Stealth Rock|p1a: Corsola
+|-sidestart|p1: flyingpidgeys|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Gothitelle|Gothitelle, M|100/100
+|move|p1a: Corsola|Stealth Rock|p2a: Gothitelle
+|-sidestart|p2: deuda|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Gothitelle|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|86/100
+|-unboost|p1a: Corsola|spd|1
+|move|p1a: Corsola|Will-O-Wisp|p2a: Gothitelle
+|-status|p2a: Gothitelle|brn
+|
+|-damage|p2a: Gothitelle|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p2a: Gothitelle|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|64/100
+|move|p1a: Corsola|Night Shade|p2a: Gothitelle
+|-damage|p2a: Gothitelle|59/100 brn
+|
+|-damage|p2a: Gothitelle|53/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Corsola|Night Shade|p2a: Tyranitar
+|-damage|p2a: Tyranitar|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|58/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|switch|p2a: Gothitelle|Gothitelle, M|53/100 brn
+|-damage|p2a: Gothitelle|40/100 brn|[from] Stealth Rock
+|move|p1a: Corsola|Will-O-Wisp|p2a: Gothitelle
+|-fail|p2a: Gothitelle|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gothitelle|34/100 brn|[from] Sandstorm
+|-damage|p1a: Corsola|52/100|[from] Sandstorm
+|-damage|p2a: Gothitelle|28/100 brn|[from] brn
+|-sideend|p1: flyingpidgeys|move: Light Screen
+|upkeep
+|turn|10
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|40/100
+|-damage|p1a: Grimmsnarl|28/100|[from] Stealth Rock
+|move|p2a: Gothitelle|Trick|p1a: Grimmsnarl
+|-activate|p2a: Gothitelle|move: Trick|[of] p1a: Grimmsnarl
+|-item|p1a: Grimmsnarl|Choice Scarf|[from] move: Trick
+|-item|p2a: Gothitelle|Light Clay|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Grimmsnarl|21/100|[from] Sandstorm
+|-damage|p2a: Gothitelle|22/100 brn|[from] Sandstorm
+|-damage|p2a: Gothitelle|16/100 brn|[from] brn
+|-sideend|p1: flyingpidgeys|Reflect
+|upkeep
+|turn|11
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Gothitelle
+|-damage|p2a: Gothitelle|0 fnt
+|faint|p2a: Gothitelle
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Grimmsnarl|15/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Roserade|Roserade, F|100/100
+|-damage|p2a: Roserade|88/100|[from] Stealth Rock
+|turn|12
+|
+|move|p2a: Roserade|Sleep Powder|p1a: Grimmsnarl|[miss]
+|-miss|p2a: Roserade|p1a: Grimmsnarl
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Roserade
+|-resisted|p2a: Roserade
+|-damage|p2a: Roserade|50/100
+|-unboost|p2a: Roserade|spa|1
+|
+|-weather|none
+|-heal|p2a: Roserade|56/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|move|p2a: Roserade|Sludge Bomb|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|-heal|p2a: Roserade|62/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, F, shiny|52/100
+|-damage|p1a: Corsola|39/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Roserade|Sludge Bomb|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|29/100
+|-status|p1a: Corsola|psn
+|move|p1a: Corsola|Strength Sap|p2a: Roserade
+|-unboost|p2a: Roserade|atk|1
+|-heal|p1a: Corsola|69/100 psn
+|
+|-heal|p2a: Roserade|68/100|[from] item: Black Sludge
+|-damage|p1a: Corsola|57/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p2a: Tyranitar|Tyranitar, F|63/100
+|-damage|p2a: Tyranitar|50/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Corsola|Strength Sap|p2a: Tyranitar
+|-unboost|p2a: Tyranitar|atk|1
+|-heal|p1a: Corsola|100/100 psn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|94/100 psn|[from] Sandstorm
+|-damage|p1a: Corsola|82/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p1a: Toxapex|Toxapex, F, shiny|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Tyranitar|Crunch|p1a: Toxapex
+|-damage|p1a: Toxapex|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|52/100|[from] Sandstorm
+|-heal|p1a: Toxapex|58/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|-damage|p2a: Galvantula|76/100|[from] Stealth Rock
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Galvantula|70/100|[from] Sandstorm
+|-damage|p1a: Toxapex|94/100|[from] Sandstorm
+|-heal|p2a: Galvantula|76/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p2a: Galvantula|Thunder|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|22/100
+|move|p1a: Toxapex|Toxic|p2a: Galvantula
+|-status|p2a: Galvantula|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Galvantula|70/100 tox|[from] Sandstorm
+|-damage|p1a: Toxapex|15/100|[from] Sandstorm
+|-heal|p2a: Galvantula|76/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|22/100|[from] item: Black Sludge
+|-damage|p2a: Galvantula|70/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|switch|p1a: Corsola|Corsola-Galar, F, shiny|82/100 psn
+|-damage|p1a: Corsola|70/100 psn|[from] Stealth Rock
+|move|p2a: Galvantula|Thunder|p1a: Corsola
+|-damage|p1a: Corsola|34/100 psn
+|
+|-weather|none
+|-heal|p2a: Galvantula|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Galvantula|63/100 tox|[from] psn
+|-damage|p1a: Corsola|22/100 psn|[from] psn
+|upkeep
+|turn|20
+|
+|move|p2a: Galvantula|Thunder|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|-heal|p2a: Galvantula|70/100 tox|[from] item: Leftovers
+|-damage|p2a: Galvantula|51/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|turn|21
+|
+|move|p2a: Galvantula|Thunder|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|14/100
+|move|p1a: Corviknight|Defog|p2a: Galvantula
+|-unboost|p2a: Galvantula|evasion|1
+|-sideend|p2: deuda|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: flyingpidgeys|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|
+|-heal|p2a: Galvantula|57/100 tox|[from] item: Leftovers
+|-heal|p1a: Corviknight|20/100|[from] item: Leftovers
+|-damage|p2a: Galvantula|33/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|move|p2a: Galvantula|Thunder|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-heal|p2a: Galvantula|39/100 tox|[from] item: Leftovers
+|-damage|p2a: Galvantula|9/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|23
+|
+|move|p2a: Galvantula|Bug Buzz|p1a: Hatterene
+|-damage|p1a: Hatterene|58/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p2a: Galvantula|15/100 tox|[from] item: Leftovers
+|-heal|p1a: Hatterene|64/100|[from] item: Leftovers
+|-damage|p2a: Galvantula|0 fnt|[from] psn
+|faint|p2a: Galvantula
+|upkeep
+|
+|switch|p2a: Roserade|Roserade, F|68/100
+|turn|24
+|
+|move|p2a: Roserade|Sludge Bomb|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-heal|p2a: Roserade|74/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|25
+|
+|move|p1a: Dragapult|Fire Blast|p2a: Roserade|[miss]
+|-miss|p1a: Dragapult|p2a: Roserade
+|move|p2a: Roserade|Sleep Powder|p1a: Dragapult
+|-status|p1a: Dragapult|slp|[from] move: Sleep Powder
+|
+|-heal|p2a: Roserade|81/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|switch|p2a: Tyranitar|Tyranitar, F|50/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|cant|p1a: Dragapult|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|95/100 slp|[from] Sandstorm
+|upkeep
+|turn|27
+|
+|switch|p1a: Toxapex|Toxapex, F, shiny|55/100
+|move|p2a: Tyranitar|Crunch|p1a: Toxapex
+|-damage|p1a: Toxapex|9/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|3/100|[from] Sandstorm
+|-heal|p1a: Toxapex|9/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|
+|move|p2a: Tyranitar|Crunch|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|95/100 slp
+|turn|29
+|
+|-curestatus|p1a: Dragapult|slp|[msg]
+|move|p1a: Dragapult|Shadow Ball|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|35/100
+|move|p2a: Tyranitar|Crunch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|win|deuda
+|raw|flyingpidgeys's rating: 1000 → 1000(+0 for losing)
+|raw|deuda's rating: 1000 → 1040(+40 for winning)
+|l|☆flyingpidgeys

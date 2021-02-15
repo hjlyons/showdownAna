@@ -1,0 +1,436 @@
+|ScrapeTime|2020-01-03-00:31:16
+|j|☆Androggo
+|j|☆theevilcookie173
+|player|p1|Androggo|102|1140
+|player|p2|theevilcookie173|265|1105
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corviknight, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Dracovish|
+|poke|p1|Dragapult, F|
+|poke|p1|Toxtricity, F|
+|poke|p1|Ferrothorn, F|
+|poke|p2|Dugtrio, F|
+|poke|p2|Drampa, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Appletun, F|
+|poke|p2|Duraludon, M|
+|poke|p2|Gyarados, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by theevilcookie173)
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Drampa|Drampa, F|100/100
+|turn|1
+|
+|move|p2a: Drampa|Flamethrower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|16/100
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Drampa
+|-sidestart|p2: theevilcookie173|move: Stealth Rock
+|
+|-damage|p1a: Ferrothorn|10/100 brn|[from] brn
+|upkeep
+|turn|2
+|-activate|p2a: Drampa|item: Quick Claw
+|
+|move|p2a: Drampa|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|3
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Dragapult|Draco Meteor|p2a: Rotom
+|-damage|p2a: Rotom|4/100
+|-unboost|p1a: Dragapult|spa|2
+|
+|-heal|p2a: Rotom|10/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Rotom|[miss]
+|-miss|p1a: Dragapult|p2a: Rotom
+|move|p2a: Rotom|Discharge|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|80/100
+|-status|p1a: Dragapult|par
+|
+|-heal|p2a: Rotom|16/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|-damage|p2a: Gyarados|76/100|[from] Stealth Rock
+|-ability|p2a: Gyarados|Intimidate|boost
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|turn|6
+|
+|switch|p1a: Toxtricity|Toxtricity, F|100/100
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Gyarados|Waterfall|p1a: Toxtricity
+|-crit|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|-damage|p2a: Gyarados|66/100|[from] item: Life Orb
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|8
+|
+|move|p1a: Dracovish|Outrage|p2a: Gyarados
+|-damage|p2a: Gyarados|14/100
+|move|p2a: Gyarados|Ice Fang|p1a: Dracovish
+|-damage|p1a: Dracovish|58/100
+|-damage|p2a: Gyarados|5/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Dracovish|Outrage|p2a: Gyarados|[from]lockedmove
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|upkeep
+|
+|switch|p2a: Duraludon|Duraludon, M|100/100
+|-damage|p2a: Duraludon|94/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Dracovish|Outrage|p2a: Duraludon|[from]lockedmove
+|-damage|p2a: Duraludon|58/100
+|-damage|p1a: Dracovish|42/100|[from] item: Rocky Helmet|[of] p2a: Duraludon
+|-start|p1a: Dracovish|confusion|[fatigue]
+|move|p2a: Duraludon|Draco Meteor|p1a: Dracovish
+|-supereffective|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|-unboost|p2a: Duraludon|spa|2
+|faint|p1a: Dracovish
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|11
+|
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|-damage|p2a: Dugtrio|94/100|[from] Stealth Rock
+|-item|p2a: Dugtrio|Air Balloon
+|move|p1a: Excadrill|Earthquake|p2a: Dugtrio
+|-immune|p2a: Dugtrio
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Dugtrio|Stealth Rock|p1a: Excadrill
+|-sidestart|p1: Androggo|move: Stealth Rock
+|move|p1a: Excadrill|Rapid Spin|p2a: Dugtrio
+|-damage|p2a: Dugtrio|44/100
+|-enditem|p2a: Dugtrio|Air Balloon
+|-sideend|p1: Androggo|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Excadrill|Earthquake|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|upkeep
+|
+|switch|p2a: Appletun|Appletun, F|100/100
+|-damage|p2a: Appletun|88/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Excadrill|Iron Head|p2a: Appletun
+|-damage|p2a: Appletun|52/100
+|move|p2a: Appletun|Leech Seed|p1a: Excadrill
+|-start|p1a: Excadrill|move: Leech Seed
+|
+|-heal|p2a: Appletun|59/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|88/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|69/100|[silent]
+|upkeep
+|turn|15
+|
+|move|p2a: Appletun|Protect|p2a: Appletun
+|-singleturn|p2a: Appletun|Protect
+|move|p1a: Excadrill|Iron Head|p2a: Appletun
+|-activate|p2a: Appletun|move: Protect
+|
+|-heal|p2a: Appletun|75/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|76/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|86/100|[silent]
+|upkeep
+|turn|16
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Appletun|Giga Drain|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|94/100
+|-heal|p2a: Appletun|89/100|[from] drain|[of] p1a: Corviknight
+|
+|-heal|p2a: Appletun|95/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Corviknight|Taunt|p2a: Appletun
+|-start|p2a: Appletun|move: Taunt
+|cant|p2a: Appletun|move: Taunt|Leech Seed
+|
+|-heal|p2a: Appletun|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Duraludon|Duraludon, M|58/100
+|-damage|p2a: Duraludon|52/100|[from] Stealth Rock
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Duraludon|Thunder Wave|p1a: Corviknight
+|-status|p1a: Corviknight|par
+|move|p1a: Corviknight|Taunt|p2a: Duraludon
+|-start|p2a: Duraludon|move: Taunt
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Duraludon|Dark Pulse|p1a: Corviknight
+|-damage|p1a: Corviknight|74/100 par
+|cant|p1a: Corviknight|flinch
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Duraludon|Dark Pulse|p1a: Corviknight
+|-damage|p1a: Corviknight|57/100 par
+|cant|p1a: Corviknight|flinch
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Duraludon|Dark Pulse|p1a: Corviknight
+|-damage|p1a: Corviknight|37/100 par
+|-enditem|p1a: Corviknight|Sitrus Berry|[eat]
+|-heal|p1a: Corviknight|62/100 par|[from] item: Sitrus Berry
+|move|p1a: Corviknight|Brave Bird|p2a: Duraludon
+|-resisted|p2a: Duraludon
+|-damage|p2a: Duraludon|31/100
+|-damage|p1a: Corviknight|46/100 par|[from] item: Rocky Helmet|[of] p2a: Duraludon
+|-damage|p1a: Corviknight|40/100 par|[from] Recoil
+|
+|-end|p2a: Duraludon|move: Taunt
+|upkeep
+|turn|23
+|
+|move|p2a: Duraludon|Dark Pulse|p1a: Corviknight
+|-damage|p1a: Corviknight|21/100 par
+|cant|p1a: Corviknight|flinch
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Duraludon|Dark Pulse|p1a: Corviknight
+|-damage|p1a: Corviknight|2/100 par
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|52/100 par
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Duraludon|Dark Pulse|p1a: Corviknight
+|-damage|p1a: Corviknight|34/100 par
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|84/100 par
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Duraludon|Dark Pulse|p1a: Corviknight
+|-damage|p1a: Corviknight|66/100 par
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Duraludon|Dark Pulse|p1a: Corviknight
+|-damage|p1a: Corviknight|46/100 par
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Duraludon|Dark Pulse|p1a: Corviknight
+|-damage|p1a: Corviknight|27/100 par
+|cant|p1a: Corviknight|flinch
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Duraludon|Dark Pulse|p1a: Corviknight
+|-damage|p1a: Corviknight|9/100 par
+|cant|p1a: Corviknight|par
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Duraludon|Dark Pulse|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|76/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|31
+|
+|switch|p2a: Appletun|Appletun, F|100/100
+|-damage|p2a: Appletun|88/100|[from] Stealth Rock
+|move|p1a: Excadrill|Earthquake|p2a: Appletun
+|-resisted|p2a: Appletun
+|-damage|p2a: Appletun|63/100
+|
+|-heal|p2a: Appletun|69/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Excadrill|Iron Head|p2a: Appletun
+|-damage|p2a: Appletun|33/100
+|cant|p2a: Appletun|flinch
+|
+|-heal|p2a: Appletun|39/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p2a: Appletun|Protect|p2a: Appletun
+|-singleturn|p2a: Appletun|Protect
+|move|p1a: Excadrill|Iron Head|p2a: Appletun
+|-activate|p2a: Appletun|move: Protect
+|
+|-heal|p2a: Appletun|46/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Excadrill|Iron Head|p2a: Appletun
+|-damage|p2a: Appletun|5/100
+|move|p2a: Appletun|Leech Seed|p1a: Excadrill
+|-start|p1a: Excadrill|move: Leech Seed
+|
+|-heal|p2a: Appletun|11/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|63/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|22/100|[silent]
+|upkeep
+|turn|35
+|
+|move|p2a: Appletun|Protect|p2a: Appletun
+|-singleturn|p2a: Appletun|Protect
+|move|p1a: Excadrill|Iron Head|p2a: Appletun
+|-activate|p2a: Appletun|move: Protect
+|
+|-heal|p2a: Appletun|28/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|51/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|39/100|[silent]
+|upkeep
+|turn|36
+|
+|switch|p2a: Duraludon|Duraludon, M|31/100
+|-damage|p2a: Duraludon|25/100|[from] Stealth Rock
+|move|p1a: Excadrill|Iron Head|p2a: Duraludon
+|-resisted|p2a: Duraludon
+|-damage|p2a: Duraludon|8/100
+|-damage|p1a: Excadrill|34/100|[from] item: Rocky Helmet|[of] p2a: Duraludon
+|
+|-damage|p1a: Excadrill|22/100|[from] Leech Seed|[of] p2a: Duraludon
+|-heal|p2a: Duraludon|21/100|[silent]
+|upkeep
+|turn|37
+|
+|move|p1a: Excadrill|Earthquake|p2a: Duraludon
+|-supereffective|p2a: Duraludon
+|-damage|p2a: Duraludon|0 fnt
+|faint|p2a: Duraludon
+|
+|upkeep
+|
+|switch|p2a: Appletun|Appletun, F|39/100
+|-damage|p2a: Appletun|26/100|[from] Stealth Rock
+|turn|38
+|
+|move|p1a: Excadrill|Iron Head|p2a: Appletun
+|-damage|p2a: Appletun|0 fnt
+|faint|p2a: Appletun
+|
+|upkeep
+|
+|switch|p2a: Drampa|Drampa, F|100/100
+|-damage|p2a: Drampa|88/100|[from] Stealth Rock
+|turn|39
+|
+|move|p1a: Excadrill|Earthquake|p2a: Drampa
+|-damage|p2a: Drampa|34/100
+|-ability|p2a: Drampa|Berserk|boost
+|-boost|p2a: Drampa|spa|1
+|move|p2a: Drampa|Flamethrower|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|80/100 par
+|turn|40
+|-activate|p2a: Drampa|item: Quick Claw
+|
+|move|p2a: Drampa|Ice Beam|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|win|theevilcookie173
+|l|☆Androggo
+|raw|Androggo's rating: 1118 → 1092(-26 for losing)
+|raw|theevilcookie173's rating: 1105 → 1131(+26 for winning)

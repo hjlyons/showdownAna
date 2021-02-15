@@ -1,0 +1,386 @@
+|ScrapeTime|2020-01-01-16:25:14
+|j|☆TheKoopaKing
+|j|☆Brave24
+|player|p1|TheKoopaKing|artist|1092
+|player|p2|Brave24|170|1127
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Clefable, F|
+|poke|p1|Gyarados, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Avalugg, F|
+|poke|p2|Thievul, M|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Mr. Mime-Galar, M|
+|poke|p2|Runerigus, M|
+|poke|p2|Perrserker, M|
+|poke|p2|Coalossal, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Paul Position|Toxapex, F|100/100
+|switch|p2a: Perrserker|Perrserker, M|100/100
+|turn|1
+|
+|move|p2a: Perrserker|Iron Head|p1a: Paul Position
+|-resisted|p1a: Paul Position
+|-damage|p1a: Paul Position|88/100
+|move|p1a: Paul Position|Scald|p2a: Perrserker
+|-damage|p2a: Perrserker|83/100
+|-status|p2a: Perrserker|brn
+|
+|-heal|p1a: Paul Position|95/100|[from] item: Black Sludge
+|-damage|p2a: Perrserker|77/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p2a: Perrserker|Curse|p2a: Perrserker
+|-unboost|p2a: Perrserker|spe|1
+|-boost|p2a: Perrserker|atk|1
+|-boost|p2a: Perrserker|def|1
+|move|p1a: Paul Position|Scald|p2a: Perrserker
+|-damage|p2a: Perrserker|59/100 brn
+|
+|-heal|p1a: Paul Position|100/100|[from] item: Black Sludge
+|-damage|p2a: Perrserker|53/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Coalossal|Coalossal, M|100/100
+|move|p1a: Paul Position|Haze|p1a: Paul Position
+|-clearallboost
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Paul Position|Scald|p2a: Coalossal
+|-supereffective|p2a: Coalossal
+|-damage|p2a: Coalossal|44/100
+|-ability|p2a: Coalossal|Steam Engine|boost
+|-boost|p2a: Coalossal|spe|6
+|-enditem|p2a: Coalossal|Weakness Policy
+|-boost|p2a: Coalossal|atk|2
+|-boost|p2a: Coalossal|spa|2
+|move|p2a: Coalossal|Earthquake|p1a: Paul Position
+|-supereffective|p1a: Paul Position
+|-damage|p1a: Paul Position|35/100
+|
+|-heal|p1a: Paul Position|41/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p1a: Léviator|Gyarados, M, shiny|100/100
+|-ability|p1a: Léviator|Intimidate|boost
+|-unboost|p2a: Coalossal|atk|1
+|move|p2a: Coalossal|Earthquake|p1a: Léviator
+|-immune|p1a: Léviator
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Coalossal|Stone Edge|p1a: Léviator|[miss]
+|-miss|p2a: Coalossal|p1a: Léviator
+|move|p1a: Léviator|Waterfall|p2a: Coalossal
+|-supereffective|p2a: Coalossal
+|-damage|p2a: Coalossal|0 fnt
+|faint|p2a: Coalossal
+|
+|upkeep
+|
+|switch|p2a: Mr. Mime|Mr. Mime-Galar, M|100/100
+|turn|7
+|
+|move|p2a: Mr. Mime|Freeze-Dry|p1a: Léviator
+|-supereffective|p1a: Léviator
+|-damage|p1a: Léviator|0 fnt
+|faint|p1a: Léviator
+|
+|upkeep
+|
+|switch|p1a: Paul Position|Toxapex, F|74/100
+|turn|8
+|
+|move|p2a: Mr. Mime|Freeze-Dry|p1a: Paul Position
+|-supereffective|p1a: Paul Position
+|-damage|p1a: Paul Position|27/100
+|move|p1a: Paul Position|Toxic|p2a: Mr. Mime
+|-status|p2a: Mr. Mime|tox
+|
+|-heal|p1a: Paul Position|33/100|[from] item: Black Sludge
+|-damage|p2a: Mr. Mime|94/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|move|p2a: Mr. Mime|Freeze-Dry|p1a: Paul Position
+|-supereffective|p1a: Paul Position
+|-damage|p1a: Paul Position|0 fnt
+|faint|p1a: Paul Position
+|
+|-damage|p2a: Mr. Mime|82/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Scofield|Excadrill, F|100/100
+|turn|10
+|
+|move|p2a: Mr. Mime|Freeze-Dry|p1a: Scofield
+|-damage|p1a: Scofield|64/100
+|move|p1a: Scofield|Iron Head|p2a: Mr. Mime
+|-supereffective|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|
+|upkeep
+|
+|switch|p2a: Runerigus|Runerigus, M|100/100
+|turn|11
+|
+|switch|p1a: Ray Charles|Clefable, F|100/100
+|move|p2a: Runerigus|Stealth Rock|p1a: Ray Charles
+|-sidestart|p1: TheKoopaKing|move: Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Perrserker|Perrserker, M|53/100 brn
+|move|p1a: Ray Charles|Moonblast|p2a: Perrserker
+|-resisted|p2a: Perrserker
+|-damage|p2a: Perrserker|37/100 brn
+|
+|-damage|p2a: Perrserker|31/100 brn|[from] brn
+|upkeep
+|turn|13
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Brave24)
+|
+|switch|p1a: DarmanitanCounter|Avalugg, F, shiny|100/100
+|-damage|p1a: DarmanitanCounter|76/100|[from] Stealth Rock
+|move|p2a: Perrserker|Rest|p2a: Perrserker
+|-status|p2a: Perrserker|slp|[from] move: Rest
+|-heal|p2a: Perrserker|100/100 slp|[silent]
+|-enditem|p2a: Perrserker|Chesto Berry|[eat]
+|-curestatus|p2a: Perrserker|slp|[msg]
+|
+|-heal|p1a: DarmanitanCounter|82/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Perrserker|Curse|p2a: Perrserker
+|-unboost|p2a: Perrserker|spe|1
+|-boost|p2a: Perrserker|atk|1
+|-boost|p2a: Perrserker|def|1
+|move|p1a: DarmanitanCounter|Rapid Spin|p2a: Perrserker
+|-resisted|p2a: Perrserker
+|-damage|p2a: Perrserker|96/100
+|-sideend|p1: TheKoopaKing|Stealth Rock|[from] move: Rapid Spin|[of] p1a: DarmanitanCounter
+|-boost|p1a: DarmanitanCounter|spe|1
+|
+|-heal|p1a: DarmanitanCounter|88/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: DarmanitanCounter|Superpower|p2a: Perrserker
+|-supereffective|p2a: Perrserker
+|-damage|p2a: Perrserker|52/100
+|-unboost|p1a: DarmanitanCounter|atk|1
+|-unboost|p1a: DarmanitanCounter|def|1
+|move|p2a: Perrserker|Curse|p2a: Perrserker
+|-unboost|p2a: Perrserker|spe|1
+|-boost|p2a: Perrserker|atk|1
+|-boost|p2a: Perrserker|def|1
+|
+|-heal|p1a: DarmanitanCounter|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|TheKoopaKing has 120 seconds left.
+|
+|move|p1a: DarmanitanCounter|Superpower|p2a: Perrserker
+|-supereffective|p2a: Perrserker
+|-damage|p2a: Perrserker|32/100
+|-unboost|p1a: DarmanitanCounter|atk|1
+|-unboost|p1a: DarmanitanCounter|def|1
+|move|p2a: Perrserker|Rest|p2a: Perrserker
+|-status|p2a: Perrserker|slp|[from] move: Rest
+|-heal|p2a: Perrserker|100/100 slp|[silent]
+|
+|-heal|p1a: DarmanitanCounter|99/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|TheKoopaKing has 120 seconds left.
+|
+|switch|p1a: Zéphyr Vitesse|Dragapult, M, shiny|100/100
+|cant|p2a: Perrserker|slp
+|move|p2a: Perrserker|Sleep Talk|p2a: Perrserker
+|move|p2a: Perrserker|Rest|p2a: Perrserker|[from]Sleep Talk
+|-fail|p2a: Perrserker|heal
+|
+|upkeep
+|turn|18
+|inactive|TheKoopaKing has 120 seconds left.
+|
+|move|p1a: Zéphyr Vitesse|Substitute|p1a: Zéphyr Vitesse
+|-start|p1a: Zéphyr Vitesse|Substitute
+|-damage|p1a: Zéphyr Vitesse|76/100
+|cant|p2a: Perrserker|slp
+|move|p2a: Perrserker|Sleep Talk|p2a: Perrserker
+|move|p2a: Perrserker|Iron Head|p1a: Zéphyr Vitesse|[from]Sleep Talk
+|-end|p1a: Zéphyr Vitesse|Substitute
+|
+|-heal|p1a: Zéphyr Vitesse|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|TheKoopaKing has 120 seconds left.
+|
+|move|p1a: Zéphyr Vitesse|Dragon Dance|p1a: Zéphyr Vitesse
+|-boost|p1a: Zéphyr Vitesse|atk|1
+|-boost|p1a: Zéphyr Vitesse|spe|1
+|-curestatus|p2a: Perrserker|slp|[msg]
+|move|p2a: Perrserker|Iron Head|p1a: Zéphyr Vitesse
+|-damage|p1a: Zéphyr Vitesse|0 fnt
+|faint|p1a: Zéphyr Vitesse
+|
+|upkeep
+|inactive|TheKoopaKing has 120 seconds left.
+|
+|switch|p1a: Scofield|Excadrill, F|64/100
+|turn|20
+|
+|move|p1a: Scofield|Swords Dance|p1a: Scofield
+|-boost|p1a: Scofield|atk|2
+|move|p2a: Perrserker|Iron Head|p1a: Scofield
+|-resisted|p1a: Scofield
+|-damage|p1a: Scofield|1/100
+|
+|upkeep
+|turn|21
+|inactive|TheKoopaKing has 120 seconds left.
+|
+|move|p1a: Scofield|Earthquake|p2a: Perrserker
+|-supereffective|p2a: Perrserker
+|-damage|p2a: Perrserker|0 fnt
+|faint|p2a: Perrserker
+|
+|upkeep
+|
+|switch|p2a: Runerigus|Runerigus, M|100/100
+|turn|22
+|
+|move|p1a: Scofield|Iron Head|p2a: Runerigus
+|-damage|p2a: Runerigus|32/100
+|-activate|p1a: Scofield|ability: Wandering Spirit|Wandering Spirit|Sand Rush|[of] p2a: Runerigus
+|move|p2a: Runerigus|Earthquake|p1a: Scofield
+|-supereffective|p1a: Scofield
+|-damage|p1a: Scofield|0 fnt
+|faint|p1a: Scofield
+|
+|-heal|p2a: Runerigus|38/100|[from] item: Leftovers
+|upkeep
+|inactive|TheKoopaKing has 120 seconds left.
+|
+|switch|p1a: Ray Charles|Clefable, F|100/100
+|turn|23
+|
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Ray Charles|Calm Mind|p1a: Ray Charles
+|-boost|p1a: Ray Charles|spa|1
+|-boost|p1a: Ray Charles|spd|1
+|
+|upkeep
+|turn|24
+|inactive|TheKoopaKing has 120 seconds left.
+|
+|move|p2a: Weezing|Taunt|p1a: Ray Charles
+|-start|p1a: Ray Charles|move: Taunt
+|move|p1a: Ray Charles|Moonblast|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|67/100
+|
+|upkeep
+|turn|25
+|inactive|TheKoopaKing has 120 seconds left.
+|
+|move|p2a: Weezing|Sludge Bomb|p1a: Ray Charles
+|-supereffective|p1a: Ray Charles
+|-damage|p1a: Ray Charles|64/100
+|-status|p1a: Ray Charles|psn
+|move|p1a: Ray Charles|Moonblast|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|36/100
+|
+|-damage|p1a: Ray Charles|52/100 psn|[from] psn
+|upkeep
+|turn|26
+|
+|move|p2a: Weezing|Sludge Bomb|p1a: Ray Charles
+|-supereffective|p1a: Ray Charles
+|-damage|p1a: Ray Charles|14/100 psn
+|move|p1a: Ray Charles|Moonblast|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|7/100
+|
+|-damage|p1a: Ray Charles|2/100 psn|[from] psn
+|-end|p1a: Ray Charles|move: Taunt
+|upkeep
+|turn|27
+|
+|move|p2a: Weezing|Sludge Bomb|p1a: Ray Charles
+|-supereffective|p1a: Ray Charles
+|-damage|p1a: Ray Charles|0 fnt
+|faint|p1a: Ray Charles
+|
+|upkeep
+|
+|switch|p1a: DarmanitanCounter|Avalugg, F, shiny|99/100
+|turn|28
+|
+|move|p2a: Weezing|Memento|p1a: DarmanitanCounter
+|-unboost|p1a: DarmanitanCounter|atk|2
+|-unboost|p1a: DarmanitanCounter|spa|2
+|faint|p2a: Weezing
+|move|p1a: DarmanitanCounter|Avalanche|p2: Weezing|[notarget]
+|-fail|p1a: DarmanitanCounter
+|
+|-heal|p1a: DarmanitanCounter|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Thievul|Thievul, M|100/100
+|turn|29
+|
+|move|p2a: Thievul|Snarl|p1a: DarmanitanCounter
+|-damage|p1a: DarmanitanCounter|61/100
+|-unboost|p1a: DarmanitanCounter|spa|1
+|-enditem|p2a: Thievul|Throat Spray
+|-boost|p2a: Thievul|spa|1
+|move|p1a: DarmanitanCounter|Superpower|p2a: Thievul
+|-supereffective|p2a: Thievul
+|-damage|p2a: Thievul|38/100
+|-unboost|p1a: DarmanitanCounter|atk|1
+|-unboost|p1a: DarmanitanCounter|def|1
+|
+|-heal|p1a: DarmanitanCounter|67/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Thievul|Dark Pulse|p1a: DarmanitanCounter
+|-damage|p1a: DarmanitanCounter|0 fnt
+|faint|p1a: DarmanitanCounter
+|
+|win|Brave24
+|raw|TheKoopaKing's rating: 1093 → 1071(-22 for losing)
+|raw|Brave24's rating: 1127 → 1150(+23 for winning)
+|l|☆TheKoopaKing
+|j|☆TheKoopaKing
+|player|p1|TheKoopaKing|artist

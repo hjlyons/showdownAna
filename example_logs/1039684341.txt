@@ -1,0 +1,323 @@
+|ScrapeTime|2020-01-02-15:17:05
+|j|☆AGWolfy
+|j|☆Poised Teams
+|player|p1|AGWolfy|169|
+|player|p2|Poised Teams|238|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Excadrill, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Aegislash, F|
+|poke|p1|Togedemaru, M|
+|poke|p1|Bisharp, M|
+|poke|p1|Corviknight, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Bisharp, M|
+|poke|p2|Crawdaunt, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆Poised Teams|ugh
+|c|☆Poised Teams|hmm
+|
+|start
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F, shiny|100/100
+|move|p1a: Excadrill|Stealth Rock|p2a: Mandibuzz
+|-sidestart|p2: Poised Teams|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Mandibuzz|Foul Play|p1a: Excadrill
+|-enditem|p1a: Excadrill|Focus Sash
+|-damage|p1a: Excadrill|1/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Excadrill|Iron Head|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|56/100
+|move|p2a: Mandibuzz|Foul Play|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Togedemaru|Togedemaru, M|100/100
+|-item|p1a: Togedemaru|Air Balloon
+|turn|4
+|
+|move|p1a: Togedemaru|Nuzzle|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|46/100
+|-status|p2a: Mandibuzz|par
+|cant|p2a: Mandibuzz|par
+|
+|upkeep
+|turn|5
+|c|☆AGWolfy|damn i thought you would switch
+|
+|move|p1a: Togedemaru|Zing Zap|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|9/100 par
+|cant|p2a: Mandibuzz|par
+|
+|upkeep
+|turn|6
+|c|☆Poised Teams|ugh
+|c|☆AGWolfy|wow
+|
+|move|p1a: Togedemaru|Zing Zap|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|turn|7
+|
+|move|p1a: Togedemaru|Spiky Shield|p1a: Togedemaru
+|-singleturn|p1a: Togedemaru|move: Protect
+|move|p2a: Bisharp|Throat Chop|p1a: Togedemaru
+|-activate|p1a: Togedemaru|move: Protect
+|-damage|p2a: Bisharp|82/100|[from] Spiky Shield|[of] p1a: Togedemaru
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Togedemaru|Nuzzle|p2a: Bisharp
+|-damage|p2a: Bisharp|70/100
+|-status|p2a: Bisharp|par
+|move|p2a: Bisharp|Throat Chop|p1a: Togedemaru
+|-damage|p1a: Togedemaru|26/100
+|-enditem|p1a: Togedemaru|Air Balloon
+|-start|p1a: Togedemaru|Throat Chop|[silent]
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Togedemaru|Spiky Shield|p1a: Togedemaru
+|-singleturn|p1a: Togedemaru|move: Protect
+|cant|p2a: Bisharp|par
+|
+|-end|p1a: Togedemaru|Throat Chop|[silent]
+|upkeep
+|turn|10
+|
+|move|p1a: Togedemaru|U-turn|p2a: Bisharp
+|-damage|p2a: Bisharp|46/100 par
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100|[from]move: U-turn
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Bisharp|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: AGWolfy|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Hydreigon|Hydreigon, F, shiny|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-start|p1a: Corviknight|Substitute
+|-damage|p1a: Corviknight|76/100
+|
+|-heal|p1a: Corviknight|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Hydreigon|Fire Blast|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-end|p1a: Corviknight|Substitute
+|move|p1a: Corviknight|Brave Bird|p2a: Hydreigon
+|-damage|p2a: Hydreigon|44/100
+|-damage|p1a: Corviknight|70/100|[from] Recoil
+|
+|-heal|p1a: Corviknight|76/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Hydreigon|Fire Blast|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|25/100
+|move|p1a: Corviknight|Brave Bird|p2a: Hydreigon
+|-damage|p2a: Hydreigon|5/100
+|-damage|p1a: Corviknight|14/100|[from] Recoil
+|
+|-heal|p1a: Corviknight|20/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Hydreigon|Fire Blast|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Togedemaru|Togedemaru, M|26/100
+|-damage|p1a: Togedemaru|20/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Hydreigon|Fire Blast|p1a: Togedemaru
+|-supereffective|p1a: Togedemaru
+|-damage|p1a: Togedemaru|0 fnt
+|faint|p1a: Togedemaru
+|
+|upkeep
+|c|☆AGWolfy|wow its faster
+|c|☆Poised Teams|yep
+|c|☆Poised Teams|scarf
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|-damage|p1a: Bisharp|95/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-damage|p1a: Bisharp|85/100|[from] item: Life Orb
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|46/100 par
+|-damage|p2a: Bisharp|40/100 par|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|cant|p2a: Bisharp|par
+|
+|upkeep
+|turn|18
+|
+|cant|p2a: Bisharp|par
+|move|p1a: Bisharp|Throat Chop|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|-damage|p1a: Bisharp|75/100|[from] item: Life Orb
+|faint|p2a: Bisharp
+|
+|upkeep
+|c|☆AGWolfy|...
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|-damage|p2a: Grimmsnarl|88/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Poised Teams|Reflect
+|move|p1a: Bisharp|Iron Head|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-damage|p1a: Bisharp|65/100|[from] item: Life Orb
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100
+|-damage|p2a: Crawdaunt|88/100|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Bisharp|Sucker Punch||[still]
+|-fail|p1a: Bisharp
+|move|p2a: Crawdaunt|Swords Dance|p2a: Crawdaunt
+|-boost|p2a: Crawdaunt|atk|2
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Crawdaunt
+|-resisted|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|55/100
+|-damage|p1a: Bisharp|55/100|[from] item: Life Orb
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|-damage|p2a: Crawdaunt|45/100|[from] item: Life Orb
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|-damage|p1a: Aegislash|94/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Crawdaunt|Knock Off|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|-unboost|p2a: Crawdaunt|atk|1
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Crawdaunt|Knock Off|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|-enditem|p1a: Aegislash|Life Orb|[from] move: Knock Off|[of] p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|36/100|[from] item: Life Orb
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|95/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Crawdaunt|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|11/100
+|-damage|p2a: Crawdaunt|23/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Crawdaunt|7/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Rocky Helmet|[from] move: Knock Off|[of] p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt|[from] item: Life Orb
+|faint|p2a: Crawdaunt
+|move|p1a: Ferrothorn|Gyro Ball|p2: Crawdaunt|[notarget]
+|-fail|p1a: Ferrothorn
+|
+|upkeep
+|c|☆Poised Teams|gg
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|25
+|c|☆AGWolfy|gg
+|
+|move|p2a: Tyranitar|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|win|Poised Teams
+|c|☆Poised Teams|toge is sturdy right?
+|c|☆AGWolfy|im actually surprised that knock off killed aegi
+|c|☆AGWolfy|yes
+|c|☆Poised Teams|nah i knew it would kill
+|c|☆Poised Teams|adaptability
+|c|☆Poised Teams|!dt adaptability
+|raw|Adaptability This Pokemon's same-type attack bonus (STAB) is 2 instead of 1.5. 
+
+|c|☆AGWolfy|oh yeah
+|c|☆Poised Teams|it's a monster
+|c|☆Poised Teams|you saw how it brought down corv at +4 xD
+|c|☆AGWolfy|is it the azumaril for dark types?

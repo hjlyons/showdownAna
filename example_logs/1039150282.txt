@@ -1,0 +1,158 @@
+|ScrapeTime|2020-01-01-14:45:20
+|j|☆Magikarp2405
+|j|☆TioMate
+|player|p1|Magikarp2405|unknown|1053
+|player|p2|TioMate|52|1061
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aegislash, M|
+|poke|p1|Hawlucha, M|
+|poke|p1|Aromatisse, F|
+|poke|p1|Lucario, F|
+|poke|p1|Charizard, M|
+|poke|p1|Seismitoad, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Bellossom, F|
+|poke|p2|Cherrim, F|
+|poke|p2|Centiskorch, F|
+|poke|p2|Ninetales, M|
+|poke|p2|Arcanine, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TioMate)
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Torkoal|Yawn|p1a: Seismitoad
+|-start|p1a: Seismitoad|move: Yawn|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Seismitoad|Hydro Pump|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|60/100
+|move|p2a: Torkoal|Stealth Rock|p1a: Seismitoad
+|-sidestart|p1: Magikarp2405|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Seismitoad|move: Yawn|[silent]
+|-status|p1a: Seismitoad|slp
+|upkeep
+|turn|3
+|
+|switch|p2a: Sun|Bellossom, F|100/100
+|cant|p1a: Seismitoad|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Aromatisse|Aromatisse, F|100/100
+|-damage|p1a: Aromatisse|88/100|[from] Stealth Rock
+|move|p2a: Sun|Quiver Dance|p2a: Sun
+|-boost|p2a: Sun|spa|1
+|-boost|p2a: Sun|spd|1
+|-boost|p2a: Sun|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Aromatisse|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Sun|Quiver Dance|p2a: Sun
+|-boost|p2a: Sun|spa|1
+|-boost|p2a: Sun|spd|1
+|-boost|p2a: Sun|spe|1
+|move|p1a: Aromatisse|Aromatherapy|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Aromatherapy
+|-curestatus|p1: Seismitoad|slp|[msg]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Aromatisse|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Charizard|Charizard, M|100/100
+|-damage|p1a: Charizard|50/100|[from] Stealth Rock
+|move|p2a: Sun|Giga Drain|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|32/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Lampião de fogo|Centiskorch, F|100/100
+|move|p1a: Charizard|Flamethrower|p2a: Lampião de fogo
+|-start|p2a: Lampião de fogo|ability: Flash Fire
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|-damage|p1a: Seismitoad|94/100|[from] Stealth Rock
+|move|p2a: Lampião de fogo|Knock Off|p1a: Seismitoad
+|-damage|p1a: Seismitoad|69/100
+|-enditem|p1a: Seismitoad|Leftovers|[from] move: Knock Off|[of] p2a: Lampião de fogo
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|-end|p2a: Lampião de fogo|ability: Flash Fire|[silent]
+|switch|p2a: Sun|Bellossom, F|100/100
+|move|p1a: Seismitoad|Hydro Pump|p2a: Sun
+|-resisted|p2a: Sun
+|-damage|p2a: Sun|82/100
+|
+|-heal|p2a: Sun|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Sun|Giga Drain|p1a: Seismitoad
+|-supereffective|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|-heal|p2a: Sun|100/100|[from] drain|[of] p1a: Seismitoad
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Charizard|Charizard, M|32/100
+|-damage|p1a: Charizard|0 fnt|[from] Stealth Rock
+|faint|p1a: Charizard
+|l|☆Magikarp2405
+|inactive|Magikarp2405 disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|Magikarp2405 has 30 seconds to reconnect!
+|inactive|Magikarp2405 has 20 seconds to reconnect!
+|inactive|Magikarp2405 has 15 seconds to reconnect!
+|inactive|Magikarp2405 has 10 seconds to reconnect!
+|j|☆Magikarp2405
+|inactive|Magikarp2405 reconnected and has 95 seconds left.
+|player|p1|Magikarp2405|unknown
+|inactive|Magikarp2405 has 90 seconds left.
+|-message|Magikarp2405 forfeited.
+|
+|win|TioMate
+|l|☆Magikarp2405
+|raw|Magikarp2405's rating: 1053 → 1036(-17 for losing)
+|raw|TioMate's rating: 1061 → 1091(+30 for winning)

@@ -1,0 +1,326 @@
+|ScrapeTime|2020-01-02-06:15:19
+|j|☆party train
+|j|☆Le Renonc
+|player|p1|party train|253|1040
+|player|p2|Le Renonc|unknown|1040
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, M|
+|poke|p1|Sylveon, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Seismitoad, F|
+|poke|p1|Rotom-Wash|
+|poke|p2|Hatterene, F|
+|poke|p2|Bisharp, M|
+|poke|p2|Appletun, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Rotom-Wash|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| Holbrooh
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|move|p2a: Rotom|Trick|p1a: Seismitoad
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Seismitoad
+|-item|p1a: Seismitoad|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|move|p1a: Seismitoad|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-damage|p2a: Rotom|95/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Seismitoad
+|-status|p1a: Seismitoad|brn
+|move|p1a: Seismitoad|Toxic|p2a: Rotom
+|-fail|p2a: Rotom|tox
+|
+|-heal|p2a: Rotom|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|89/100 tox|[from] psn
+|-damage|p1a: Seismitoad|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Rotom|Trick|p2a: Hatterene
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Hatterene
+|-item|p2a: Hatterene|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Appletun|Appletun, F|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Appletun
+|-resisted|p2a: Appletun
+|-damage|p2a: Appletun|94/100
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100|[from]move: Volt Switch
+|
+|-heal|p2a: Appletun|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Appletun|Leech Seed|p1a: Sylveon
+|-start|p1a: Sylveon|move: Leech Seed
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-damage|p1a: Sylveon|88/100|[from] Leech Seed|[of] p2a: Appletun
+|upkeep
+|turn|7
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Sylveon|Hyper Voice|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|77/100
+|
+|-heal|p1a: Sylveon|100/100|[from] move: Wish|[wisher] Sylveon
+|-damage|p1a: Sylveon|88/100|[from] Leech Seed|[of] p2a: Cinderace
+|-heal|p2a: Cinderace|91/100|[silent]
+|upkeep
+|turn|8
+|
+|switch|p1a: Seismitoad|Seismitoad, F|94/100 brn
+|move|p2a: Cinderace|Taunt|p1a: Seismitoad
+|-start|p1a: Seismitoad|move: Taunt
+|
+|-damage|p1a: Seismitoad|88/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+|
+|switch|p2a: Appletun|Appletun, F|100/100
+|move|p1a: Seismitoad|Scald|p2a: Appletun
+|-resisted|p2a: Appletun
+|-damage|p2a: Appletun|94/100
+|-status|p2a: Appletun|brn
+|
+|-heal|p2a: Appletun|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Seismitoad|82/100 brn|[from] brn
+|-damage|p2a: Appletun|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Appletun|Apple Acid|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|94/100
+|-unboost|p1a: Corviknight|spd|1
+|
+|-heal|p1a: Corviknight|99/100|[from] item: Leftovers
+|-heal|p2a: Appletun|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Appletun|94/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Corviknight|U-turn|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|68/100 brn
+|
+|switch|p1a: Seismitoad|Seismitoad, F|82/100 brn|[from]move: U-turn
+|move|p2a: Appletun|Leech Seed|p1a: Seismitoad
+|-start|p1a: Seismitoad|move: Leech Seed
+|
+|-heal|p2a: Appletun|74/100 brn|[from] item: Leftovers
+|-damage|p1a: Seismitoad|70/100 brn|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|87/100 brn|[silent]
+|-damage|p1a: Seismitoad|64/100 brn|[from] brn
+|-damage|p2a: Appletun|80/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Appletun|Apple Acid|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|78/100
+|-unboost|p1a: Hydreigon|spd|1
+|
+|-heal|p2a: Appletun|87/100 brn|[from] item: Leftovers
+|-damage|p2a: Appletun|80/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|-damage|p1a: Hydreigon|68/100|[from] item: Life Orb
+|faint|p2a: Appletun
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by party train)
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|14
+|
+|switch|p1a: Corviknight|Corviknight, F|99/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Hatterene|Mystical Fire|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|57/100
+|-unboost|p1a: Corviknight|spa|1
+|
+|-heal|p1a: Corviknight|63/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Seismitoad|Seismitoad, F|64/100 brn
+|move|p2a: Hatterene|Mystical Fire|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|49/100 brn
+|-unboost|p1a: Seismitoad|spa|1
+|
+|-damage|p1a: Seismitoad|43/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p2a: Rotom|Rotom-Wash|89/100 tox
+|move|p1a: Seismitoad|Stealth Rock|p2a: Rotom
+|-sidestart|p2: Le Renonc|move: Stealth Rock
+|
+|-heal|p2a: Rotom|95/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|89/100 tox|[from] psn
+|-damage|p1a: Seismitoad|36/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p1a: Hydreigon|Hydreigon, M|68/100
+|move|p2a: Rotom|Volt Switch|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-crit|p1a: Hydreigon
+|-damage|p1a: Hydreigon|45/100
+|
+|switch|p2a: Cinderace|Cinderace, M|91/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Seismitoad|Seismitoad, F|36/100 brn
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: Le Renonc|Stealth Rock|[silent]
+|-sidestart|p1: party train|Stealth Rock|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|
+|-damage|p1a: Seismitoad|30/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|switch|p2a: Rotom|Rotom-Wash|89/100 tox
+|move|p1a: Seismitoad|Stealth Rock|p2a: Rotom
+|-sidestart|p2: Le Renonc|move: Stealth Rock
+|
+|-heal|p2a: Rotom|95/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|89/100 tox|[from] psn
+|-damage|p1a: Seismitoad|24/100 brn|[from] brn
+|upkeep
+|turn|20
+|inactive|Le Renonc has 120 seconds left.
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|move|p1a: Seismitoad|Stealth Rock||[still]
+|-fail|p1a: Seismitoad
+|
+|-damage|p1a: Seismitoad|18/100 brn|[from] brn
+|upkeep
+|turn|21
+|l| Holbrooh
+|inactive|Le Renonc has 120 seconds left.
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|-heal|p1a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Bisharp
+|-status|p2a: Bisharp|brn
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|-heal|p1a: Rotom|99/100|[from] item: Leftovers
+|-damage|p2a: Bisharp|89/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Bisharp|[miss]
+|-miss|p1a: Rotom|p2a: Bisharp
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|-damage|p2a: Bisharp|83/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p1a: Seismitoad|Seismitoad, F|18/100 brn
+|-damage|p1a: Seismitoad|12/100 brn|[from] Stealth Rock
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|
+|-damage|p1a: Seismitoad|6/100 brn|[from] brn
+|-damage|p2a: Bisharp|77/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-damage|p2a: Bisharp|71/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, F|63/100
+|-damage|p1a: Corviknight|51/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|turn|26
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-damage|p2a: Bisharp|65/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|27
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-damage|p2a: Bisharp|59/100 brn|[from] brn
+|upkeep
+|-message|party train forfeited.
+|
+|win|Le Renonc
+|l|☆party train

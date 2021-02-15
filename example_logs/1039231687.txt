@@ -1,0 +1,277 @@
+|ScrapeTime|2020-01-01-18:25:38
+|j|☆rossopowa
+|j|☆Cool and Smart
+|player|p1|rossopowa|265|1315
+|player|p2|Cool and Smart|burnet|1317
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gengar, F|
+|poke|p1|Tsareena, F|
+|poke|p1|Dracovish|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Pelipper, F|
+|poke|p1|Barraskewda, M|
+|poke|p2|Runerigus, M|
+|poke|p2|Avalugg, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Milotic, M|
+|poke|p2|Salazzle, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by rossopowa)
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|move|p1a: Pelipper|Hurricane|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Cool and Smart has 120 seconds left.
+|
+|switch|p2a: Milotic|Milotic, M|100/100
+|move|p1a: Pelipper|Hurricane|p2a: Milotic
+|-damage|p2a: Milotic|82/100
+|-start|p2a: Milotic|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Milotic|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|-activate|p2a: Milotic|confusion
+|move|p2a: Milotic|Scald|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|72/100
+|move|p1a: Pelipper|U-turn|p2a: Milotic
+|-damage|p2a: Milotic|79/100
+|
+|switch|p1a: Tsareena|Tsareena, F|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Milotic|85/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Dragapult|Dragapult, M|82/100
+|move|p1a: Tsareena|Trop Kick|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|57/100
+|-unboost|p2a: Dragapult|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragapult|64/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Tsareena|[miss]
+|-miss|p2a: Dragapult|p1a: Tsareena
+|move|p1a: Tsareena|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|48/100
+|
+|switch|p1a: Barraskewda|Barraskewda, M|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Dragapult|54/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Milotic|Milotic, M|85/100
+|move|p1a: Barraskewda|Throat Chop|p2a: Milotic
+|-damage|p2a: Milotic|41/100
+|-start|p2a: Milotic|Throat Chop|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Milotic|47/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Tsareena|Tsareena, F|100/100
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|97/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|-end|p2a: Milotic|Throat Chop|[silent]
+|upkeep
+|turn|8
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Tsareena|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|87/100
+|-damage|p1a: Tsareena|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|switch|p1a: Gengar|Gengar, F|100/100|[from]move: U-turn
+|
+|-weather|none
+|-heal|p2a: Ferrothorn|93/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Gengar|Nasty Plot|p1a: Gengar
+|-boost|p1a: Gengar|spa|2
+|move|p2a: Ferrothorn|Leech Seed|p1a: Gengar
+|-start|p1a: Gengar|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|99/100|[from] item: Leftovers
+|-damage|p1a: Gengar|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|10
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Gengar|Focus Blast|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-damage|p1a: Gengar|76/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|11
+|
+|switch|p2a: Dragapult|Dragapult, M|54/100
+|move|p1a: Gengar|Shadow Ball|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|c|☆Cool and Smart|that was too risky
+|c|☆Cool and Smart|good play
+|inactive|Cool and Smart has 120 seconds left.
+|
+|switch|p2a: Salazzle|Salazzle, F, shiny|100/100
+|turn|12
+|
+|switch|p1a: Pelipper|Pelipper, F|72/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Salazzle|Protect||[still]
+|-fail|p2a: Salazzle
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p2a: Salazzle|Toxic|p1a: Pelipper
+|-status|p1a: Pelipper|tox
+|move|p1a: Pelipper|U-turn|p2a: Salazzle
+|-resisted|p2a: Salazzle
+|-damage|p2a: Salazzle|98/100
+|
+|switch|p1a: Dracovish|Dracovish|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Salazzle|100/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p2a: Salazzle|Protect|p2a: Salazzle
+|-singleturn|p2a: Salazzle|Protect
+|move|p1a: Dracovish|Fishious Rend|p2a: Salazzle
+|-activate|p2a: Salazzle|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|switch|p2a: Milotic|Milotic, M|100/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|18/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Milotic|24/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|17
+|
+|switch|p1a: Tsareena|Tsareena, F|88/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Tsareena
+|-immune|p1a: Tsareena
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Tsareena|Trop Kick|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|move|p1a: Tsareena|High Jump Kick|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|45/100
+|-damage|p1a: Tsareena|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Spikes|p1a: Tsareena
+|-sidestart|p1: rossopowa|Spikes
+|
+|-weather|none
+|-heal|p2a: Ferrothorn|51/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Tsareena|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|46/100
+|-damage|p1a: Tsareena|63/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-sideend|p1: rossopowa|Spikes|[from] move: Rapid Spin|[of] p1a: Tsareena
+|-boost|p1a: Tsareena|spe|1
+|move|p2a: Ferrothorn|Spikes|p1a: Tsareena
+|-sidestart|p1: rossopowa|Spikes
+|
+|-heal|p2a: Ferrothorn|52/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Runerigus|Runerigus, M|100/100
+|move|p1a: Tsareena|Rapid Spin|p2a: Runerigus
+|-immune|p2a: Runerigus
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|52/100
+|move|p1a: Tsareena|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|38/100
+|-damage|p1a: Tsareena|51/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-message|Cool and Smart forfeited.
+|
+|win|rossopowa
+|l|☆Cool and Smart
+|raw|rossopowa's rating: 1315 → 1335(+20 for winning)
+|raw|Cool and Smart's rating: 1317 → 1297(-20 for losing)

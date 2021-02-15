@@ -1,0 +1,260 @@
+|ScrapeTime|2020-01-02-01:25:18
+|j|☆BigChurizo
+|j|☆lizeyu
+|player|p1|BigChurizo|265|1180
+|player|p2|lizeyu|164|1221
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinccino, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Clefable, F|
+|poke|p1|Gyarados, M|
+|poke|p1|Dracovish|
+|poke|p2|Hydreigon, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Toxapex, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cinccino|Cinccino, M|100/100
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|1
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Cinccino|Play Rough|p2a: Toxapex|[miss]
+|-miss|p1a: Cinccino|p2a: Toxapex
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Mandibuz|Mandibuzz, F, shiny|100/100
+|move|p2a: Toxapex|Toxic|p1a: Mandibuz
+|-status|p1a: Mandibuz|tox
+|
+|-damage|p1a: Mandibuz|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Mandibuz|Knock Off|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p1a: Mandibuz|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Mandibuz|88/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p1a: Mandibuz|Knock Off|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|80/100
+|-enditem|p2a: Toxapex|Black Sludge|[from] move: Knock Off|[of] p1a: Mandibuz
+|move|p2a: Toxapex|Scald|p1a: Mandibuz
+|-damage|p1a: Mandibuz|74/100 tox
+|
+|-heal|p1a: Mandibuz|80/100 tox|[from] item: Leftovers
+|-damage|p1a: Mandibuz|62/100 tox|[from] psn
+|upkeep
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lizeyu)
+|
+|switch|p1a: Cinccino|Cinccino, M|100/100
+|move|p2a: Toxapex|Toxic|p1a: Cinccino
+|-status|p1a: Cinccino|tox
+|
+|-damage|p1a: Cinccino|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Cinccino|Tail Slap|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-damage|p1a: Cinccino|82/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|move|p1a: Cinccino|Tail Slap|p2a: Toxapex|[miss]
+|-miss|p1a: Cinccino|p2a: Toxapex
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-damage|p1a: Cinccino|63/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Toxapex|Scald|p1a: Clefable
+|-damage|p1a: Clefable|84/100
+|-status|p1a: Clefable|brn
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Clefable|Trick|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|upkeep
+|turn|10
+|inactive|lizeyu has 120 seconds left.
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Clefable|Trick|p2a: Rotom
+|-activate|p1a: Clefable|move: Trick|[of] p2a: Rotom
+|-item|p2a: Rotom|Flame Orb|[from] move: Trick
+|-item|p1a: Clefable|Heavy-Duty Boots|[from] move: Trick
+|
+|upkeep
+|turn|11
+|inactive|lizeyu has 120 seconds left.
+|
+|move|p2a: Rotom|Overheat|p1a: Clefable
+|-damage|p1a: Clefable|42/100 brn
+|-unboost|p2a: Rotom|spa|2
+|move|p1a: Clefable|Aromatherapy|p1a: Clefable
+|-activate|p1a: Clefable|move: Aromatherapy
+|-curestatus|p1a: Clefable|brn|[msg]
+|-curestatus|p1: Mandibuz|tox|[msg]
+|-curestatus|p1: Cinccino|tox|[msg]
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Rotom|Volt Switch|p1a: Clefable
+|-damage|p1a: Clefable|29/100
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100|[from]move: Volt Switch
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|79/100
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|move|p2a: Toxapex|Scald|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|92/100
+|-status|p1a: Gyarados|brn
+|
+|-damage|p1a: Gyarados|86/100 brn|[from] brn
+|upkeep
+|turn|14
+|inactive|lizeyu has 120 seconds left.
+|
+|switch|p1a: Clefable|Clefable, F|79/100
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Seismitoad|Stealth Rock|p1a: Clefable
+|-sidestart|p1: BigChurizo|move: Stealth Rock
+|move|p1a: Clefable|Aromatherapy|p1a: Clefable
+|-activate|p1a: Clefable|move: Aromatherapy
+|-curestatus|p1: Gyarados|brn|[msg]
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Seismitoad|Scald|p1a: Clefable
+|-damage|p1a: Clefable|58/100
+|-status|p1a: Clefable|brn
+|move|p1a: Clefable|Moonblast|p2a: Seismitoad
+|-damage|p2a: Seismitoad|51/100
+|
+|-heal|p2a: Seismitoad|57/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Clefable|Moonblast|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|83/100
+|-unboost|p2a: Toxapex|spa|1
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Cinccino|Cinccino, M|63/100
+|-damage|p1a: Cinccino|51/100|[from] Stealth Rock
+|move|p2a: Toxapex|Toxic|p1a: Cinccino
+|-status|p1a: Cinccino|tox
+|
+|-damage|p1a: Cinccino|45/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p1a: Cinccino|Tail Slap|p2a: Toxapex
+|-damage|p2a: Toxapex|74/100
+|-damage|p2a: Toxapex|64/100
+|-damage|p2a: Toxapex|53/100
+|-damage|p2a: Toxapex|44/100
+|-damage|p2a: Toxapex|33/100
+|-hitcount|p2a: Toxapex|5
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|83/100
+|
+|-damage|p1a: Cinccino|32/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Toxapex|Scald|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|74/100
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p1: BigChurizo|Stealth Rock|[silent]
+|-sidestart|p2: lizeyu|Stealth Rock|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Cinderace|Taunt|p2a: Toxapex
+|-start|p2a: Toxapex|move: Taunt
+|cant|p2a: Toxapex|move: Taunt|Toxic
+|
+|upkeep
+|turn|23
+|inactive|lizeyu has 120 seconds left.
+|
+|switch|p1a: Gyarados|Gyarados, M|86/100
+|move|p2a: Toxapex|Scald|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|81/100
+|-status|p1a: Gyarados|brn
+|
+|-damage|p1a: Gyarados|75/100 brn|[from] brn
+|upkeep
+|turn|24
+|-message|BigChurizo forfeited.
+|
+|win|lizeyu
+|l|☆BigChurizo
+|raw|BigChurizo's rating: 1205 → 1181(-24 for losing)
+|raw|lizeyu's rating: 1221 → 1245(+24 for winning)

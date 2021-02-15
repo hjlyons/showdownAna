@@ -1,0 +1,189 @@
+|ScrapeTime|2020-01-01-09:15:43
+|j|☆pokemon deve
+|j|☆meatsho
+|player|p1|pokemon deve|psychic-gen4|1014
+|player|p2|meatsho|swimmerf|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Shuckle, F|
+|poke|p1|Barraskewda, F|
+|poke|p1|Eiscue, F|
+|poke|p1|Perrserker, M|
+|poke|p1|Cinccino, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Dracovish|
+|poke|p2|Arctozolt|
+|poke|p2|Falinks|
+|poke|p2|Dugtrio, M|
+|poke|p2|Charizard, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by meatsho)
+|
+|start
+|switch|p1a: Shuckle|Shuckle, F|100/100
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|turn|1
+|
+|move|p2a: Dugtrio|Stealth Rock|p1a: Shuckle
+|-sidestart|p1: pokemon deve|move: Stealth Rock
+|move|p1a: Shuckle|Power Trick|p1a: Shuckle
+|-start|p1a: Shuckle|Power Trick
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Dugtrio|Protect|p2a: Dugtrio
+|-singleturn|p2a: Dugtrio|Protect
+|move|p1a: Shuckle|Earthquake|p2a: Dugtrio
+|-activate|p2a: Dugtrio|move: Protect
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Dugtrio|Memento|p1a: Shuckle
+|-boost|p1a: Shuckle|atk|2
+|-boost|p1a: Shuckle|spa|2
+|faint|p2a: Dugtrio
+|move|p1a: Shuckle|Earthquake|p2: Dugtrio|[notarget]
+|-fail|p1a: Shuckle
+|
+|upkeep
+|
+|switch|p2a: Falinks|Falinks|100/100
+|turn|4
+|
+|move|p2a: Falinks|No Retreat|p2a: Falinks
+|-boost|p2a: Falinks|atk|1
+|-boost|p2a: Falinks|def|1
+|-boost|p2a: Falinks|spa|1
+|-boost|p2a: Falinks|spd|1
+|-boost|p2a: Falinks|spe|1
+|-start|p2a: Falinks|move: No Retreat
+|move|p1a: Shuckle|Earthquake|p2a: Falinks
+|-damage|p2a: Falinks|23/100
+|-enditem|p2a: Falinks|Aguav Berry|[eat]
+|-heal|p2a: Falinks|56/100|[from] item: Aguav Berry
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Falinks|Close Combat|p1a: Shuckle
+|-damage|p1a: Shuckle|0 fnt
+|-unboost|p2a: Falinks|def|1
+|-unboost|p2a: Falinks|spd|1
+|faint|p1a: Shuckle
+|
+|upkeep
+|
+|switch|p1a: Eiscue|Eiscue, F|100/100
+|-damage|p1a: Eiscue|76/100|[from] Stealth Rock
+|turn|6
+|
+|move|p2a: Falinks|Reversal|p1a: Eiscue
+|-activate|p1a: Eiscue|ability: Ice Face
+|-damage|p1a: Eiscue|76/100
+|detailschange|p1a: Eiscue|Eiscue-Noice, F
+|move|p1a: Eiscue|Belly Drum|p1a: Eiscue
+|-damage|p1a: Eiscue|26/100
+|-setboost|p1a: Eiscue|atk|6|[from] move: Belly Drum
+|
+|-heal|p1a: Eiscue|32/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Eiscue|Zen Headbutt|p2a: Falinks
+|-supereffective|p2a: Falinks
+|-damage|p2a: Falinks|0 fnt
+|faint|p2a: Falinks
+|
+|-heal|p1a: Eiscue|38/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|8
+|
+|move|p2a: Dracovish|Protect|p2a: Dracovish
+|-singleturn|p2a: Dracovish|Protect
+|move|p1a: Eiscue|Icicle Crash|p2a: Dracovish
+|-activate|p2a: Dracovish|move: Protect
+|
+|-heal|p1a: Eiscue|44/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Hatterene|Hatterene, F, shiny|100/100
+|move|p1a: Eiscue|Icicle Crash|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-heal|p1a: Eiscue|51/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Charizard|Charizard, M, shiny|100/100
+|turn|10
+|
+|move|p1a: Eiscue|Liquidation|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|-heal|p1a: Eiscue|57/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Arctozolt|Arctozolt|100/100
+|turn|11
+|
+|move|p1a: Eiscue|Zen Headbutt|p2a: Arctozolt
+|-damage|p2a: Arctozolt|8/100
+|move|p2a: Arctozolt|Icicle Spear|p1a: Eiscue
+|-resisted|p1a: Eiscue
+|-damage|p1a: Eiscue|48/100
+|-resisted|p1a: Eiscue
+|-damage|p1a: Eiscue|38/100
+|-hitcount|p1a: Eiscue|2
+|
+|-heal|p1a: Eiscue|44/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Arctozolt|Protect|p2a: Arctozolt
+|-singleturn|p2a: Arctozolt|Protect
+|move|p1a: Eiscue|Zen Headbutt|p2a: Arctozolt
+|-activate|p2a: Arctozolt|move: Protect
+|
+|-heal|p1a: Eiscue|50/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Eiscue|Zen Headbutt|p2a: Arctozolt
+|-damage|p2a: Arctozolt|0 fnt
+|faint|p2a: Arctozolt
+|
+|-heal|p1a: Eiscue|57/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|14
+|
+|move|p1a: Eiscue|Icicle Crash|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|win|pokemon deve
+|raw|pokemon deve's rating: 1015 → 1051(+36 for winning)
+|raw|meatsho's rating: 1000 → 1000(+0 for losing)
+|c|☆meatsho|gg
+|l|☆meatsho

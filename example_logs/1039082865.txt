@@ -1,0 +1,496 @@
+|ScrapeTime|2020-01-01-10:04:55
+|j|☆BBtesting
+|j|☆P e n e s 5
+|player|p1|BBtesting|scientist-gen4|1000
+|player|p2|P e n e s 5|169|1045
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ribombee, M|
+|poke|p1|Salazzle, F|
+|poke|p1|Kommo-o, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Seismitoad, F|
+|poke|p1|Ditto|
+|poke|p2|Snorlax, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Charizard, M|
+|poke|p2|Togekiss, F|
+|poke|p2|Ninetales, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by P e n e s 5)
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|1
+|
+|move|p2a: Ninetales|Solar Beam||[still]
+|-prepare|p2a: Ninetales|Solar Beam|p1a: Seismitoad
+|-anim|p2a: Ninetales|Solar Beam|p1a: Seismitoad
+|-supereffective|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|turn|2
+|inactive|P e n e s 5 has 120 seconds left.
+|
+|move|p1a: Ribombee|Stun Spore|p2a: Ninetales
+|-status|p2a: Ninetales|par
+|move|p2a: Ninetales|Will-O-Wisp|p1a: Ribombee
+|-status|p1a: Ribombee|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ribombee|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|inactive|BBtesting has 120 seconds left.
+|
+|move|p1a: Ribombee|Sticky Web|p2a: Ninetales
+|-sidestart|p2: P e n e s 5|move: Sticky Web
+|move|p2a: Ninetales|Flamethrower|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|BBtesting has 90 seconds left.
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Ninetales|[from] ability: Imposter
+|turn|4
+|
+|move|p1a: Ditto|Flamethrower|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|69/100 par
+|move|p2a: Ninetales|Will-O-Wisp|p1a: Ditto
+|-immune|p1a: Ditto
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|-activate|p2a: Snorlax|move: Sticky Web
+|-unboost|p2a: Snorlax|spe|1
+|move|p1a: Ditto|Flamethrower|p2a: Snorlax
+|-damage|p2a: Snorlax|89/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Snorlax|96/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|BBtesting has 90 seconds left.
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Snorlax|Body Slam|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|89/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Corviknight|95/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|BBtesting has 90 seconds left.
+|
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|inactive|BBtesting has 90 seconds left.
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: P e n e s 5|Sticky Web|[silent]
+|-sidestart|p1: BBtesting|Sticky Web|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Salazzle|Fire Blast|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|43/100
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|move|p2a: Cinderace|U-turn|p1a: Salazzle
+|-resisted|p1a: Salazzle
+|-damage|p1a: Salazzle|91/100
+|
+|switch|p2a: Ninetales|Ninetales, M|69/100 par|[from]move: U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|66/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Salazzle|72/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|BBtesting has 90 seconds left.
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Salazzle|Fire Blast|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salazzle|66/100|[from] Sandstorm
+|-heal|p1a: Salazzle|72/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|BBtesting has 90 seconds left.
+|
+|move|p1a: Salazzle|Toxic|p2a: Tyranitar
+|-status|p2a: Tyranitar|tox
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salazzle|66/100|[from] Sandstorm
+|-heal|p1a: Salazzle|72/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|88/100 tox|[from] psn
+|upkeep
+|turn|12
+|inactive|BBtesting has 90 seconds left.
+|
+|move|p1a: Salazzle|Fire Blast|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|72/100 tox
+|move|p2a: Tyranitar|Crunch|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salazzle|66/100|[from] Sandstorm
+|-heal|p1a: Salazzle|72/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|79/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|66/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|47/100
+|move|p2a: Tyranitar|Crunch|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salazzle|41/100|[from] Sandstorm
+|-heal|p1a: Salazzle|47/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|72/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|54/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Tyranitar|Crunch|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|-weather|none
+|-heal|p1a: Salazzle|53/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|60/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|36/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|29/100
+|move|p2a: Tyranitar|Crunch|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|
+|-heal|p1a: Salazzle|35/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|42/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|11/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Tyranitar|Crunch|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|-heal|p1a: Salazzle|41/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|17/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|0 fnt|[from] psn
+|faint|p2a: Tyranitar
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, F|100/100
+|turn|17
+|
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|16/100
+|move|p2a: Togekiss|Air Slash|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|
+|-heal|p1a: Salazzle|22/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Salazzle|Toxic|p2a: Togekiss
+|-status|p2a: Togekiss|tox
+|move|p2a: Togekiss|Air Slash|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|faint|p1a: Salazzle
+|
+|-damage|p2a: Togekiss|94/100 tox|[from] psn
+|upkeep
+|inactive|BBtesting has 60 seconds left.
+|
+|switch|p1a: Corviknight|Corviknight, M|95/100
+|turn|19
+|
+|move|p2a: Togekiss|Flamethrower|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|31/100
+|move|p1a: Corviknight|Defog|p2a: Togekiss
+|-unboost|p2a: Togekiss|evasion|1
+|-sideend|p1: BBtesting|Sticky Web|[from] move: Defog|[of] p1a: Corviknight
+|
+|-heal|p2a: Togekiss|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Corviknight|37/100|[from] item: Leftovers
+|-damage|p2a: Togekiss|88/100 tox|[from] psn
+|upkeep
+|turn|20
+|inactive|BBtesting has 60 seconds left.
+|
+|switch|p2a: Ninetales|Ninetales, M|69/100 par
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|inactive|BBtesting has 60 seconds left.
+|
+|move|p1a: Kommo-o|Autotomize|p1a: Kommo-o
+|-boost|p1a: Kommo-o|spe|2
+|-start|p1a: Kommo-o|Autotomize
+|cant|p2a: Ninetales|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|22
+|
+|move|p1a: Kommo-o|Focus Blast|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|-damage|p1a: Kommo-o|91/100|[from] item: Life Orb
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|23
+|
+|move|p1a: Kommo-o|Clanging Scales|p2a: Charizard
+|-damage|p2a: Charizard|6/100
+|-unboost|p1a: Kommo-o|def|1
+|-damage|p1a: Kommo-o|81/100|[from] item: Life Orb
+|move|p2a: Charizard|Dragon Pulse|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|0 fnt|[from] ability: Solar Power|[of] p2a: Charizard
+|faint|p2a: Charizard
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, F|88/100 tox
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Togekiss|[from] ability: Imposter
+|turn|24
+|
+|switch|p2a: Cinderace|Cinderace, M|43/100
+|move|p1a: Ditto|Air Slash|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|turn|25
+|
+|switch|p1a: Corviknight|Corviknight, M|37/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Corviknight|43/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Corviknight|Body Press|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|67/100
+|move|p2a: Snorlax|Body Slam|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|27/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Corviknight|33/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|73/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|BBtesting has 60 seconds left.
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|83/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-weather|none
+|-heal|p1a: Corviknight|89/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|79/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|BBtesting has 60 seconds left.
+|
+|move|p1a: Corviknight|Body Press|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|56/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p1a: Corviknight|95/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|62/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|BBtesting has 60 seconds left.
+|
+|move|p1a: Corviknight|Body Press|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|43/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|49/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|BBtesting has 60 seconds left.
+|
+|move|p1a: Corviknight|Body Press|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|34/100
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|100/100 slp|[silent]
+|
+|upkeep
+|turn|31
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Snorlax|[from] ability: Imposter
+|cant|p2a: Snorlax|slp
+|move|p2a: Snorlax|Sleep Talk|p2a: Snorlax
+|move|p2a: Snorlax|Curse|p2a: Snorlax|[from]Sleep Talk
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Ditto|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|75/100 slp
+|cant|p2a: Snorlax|slp
+|move|p2a: Snorlax|Sleep Talk|p2a: Snorlax
+|move|p2a: Snorlax|Curse|p2a: Snorlax|[from]Sleep Talk
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p2a: Snorlax|81/100 slp|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-curestatus|p2a: Snorlax|slp|[msg]
+|move|p2a: Snorlax|Body Slam|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|60/100
+|-status|p1a: Corviknight|par
+|
+|-heal|p1a: Corviknight|66/100 par|[from] item: Leftovers
+|-heal|p2a: Snorlax|87/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|BBtesting has 60 seconds left.
+|
+|switch|p2a: Togekiss|Togekiss, F|88/100 tox
+|move|p1a: Corviknight|Body Press|p2a: Togekiss
+|-resisted|p2a: Togekiss
+|-damage|p2a: Togekiss|81/100 tox
+|
+|-heal|p2a: Togekiss|87/100 tox|[from] item: Leftovers
+|-heal|p1a: Corviknight|72/100 par|[from] item: Leftovers
+|-damage|p2a: Togekiss|81/100 tox|[from] psn
+|upkeep
+|turn|35
+|inactive|BBtesting has 60 seconds left.
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Togekiss|[from] ability: Imposter
+|move|p2a: Togekiss|Flamethrower|p1a: Ditto
+|-damage|p1a: Ditto|70/100
+|-status|p1a: Ditto|brn
+|
+|-heal|p2a: Togekiss|87/100 tox|[from] item: Leftovers
+|-damage|p1a: Ditto|64/100 brn|[from] brn
+|-damage|p2a: Togekiss|74/100 tox|[from] psn
+|upkeep
+|turn|36
+|inactive|BBtesting has 60 seconds left.
+|
+|switch|p2a: Snorlax|Snorlax, M|87/100
+|move|p1a: Ditto|Air Slash|p2a: Snorlax
+|-damage|p2a: Snorlax|71/100
+|
+|-heal|p2a: Snorlax|77/100|[from] item: Leftovers
+|-damage|p1a: Ditto|58/100 brn|[from] brn
+|upkeep
+|turn|37
+|-message|BBtesting forfeited.
+|
+|win|P e n e s 5
+|raw|BBtesting's rating: 1000 → 1000(+0 for losing)
+|raw|P e n e s 5's rating: 1045 → 1074(+29 for winning)
+|l|☆BBtesting

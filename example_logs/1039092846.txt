@@ -1,0 +1,209 @@
+|ScrapeTime|2020-01-01-10:55:57
+|j|☆Pokemon Master JL
+|j|☆keenakeen
+|player|p1|Pokemon Master JL|2|1050
+|player|p2|keenakeen|1|1061
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Lanturn, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Gardevoir, F|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Mew|
+|poke|p2|Pelipper, F|
+|poke|p2|Ludicolo, M|
+|poke|p2|Dracovish|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Jolteon, M|
+|poke|p2|Seismitoad, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mariana|Lanturn, F|100/100
+|switch|p2a: Bolicano|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Bolicano
+|turn|1
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Mariana|Thunder Wave|p2a: Seismitoad
+|-immune|p2a: Seismitoad
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Seismitoad|Earthquake|p1a: Mariana
+|-supereffective|p1a: Mariana
+|-damage|p1a: Mariana|0 fnt
+|-damage|p2a: Seismitoad|91/100|[from] item: Life Orb
+|faint|p1a: Mariana
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Sarah|Rotom-Wash, shiny|100/100
+|turn|3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Sarah|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Sarah|Reflect|p1a: Sarah
+|-sidestart|p1: Pokemon Master JL|Reflect
+|move|p2a: Ferrothorn|Leech Seed|p1a: Sarah
+|-start|p1a: Sarah|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Sarah|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Nabiki|Ferrothorn, F|100/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Nabiki|[miss]
+|-miss|p2a: Ferrothorn|p1a: Nabiki
+|
+|-weather|none
+|-heal|p2a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Nabiki|Substitute|p1a: Nabiki
+|-start|p1a: Nabiki|Substitute
+|-damage|p1a: Nabiki|75/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Nabiki
+|-immune|p1a: Nabiki
+|
+|-heal|p1a: Nabiki|82/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p2a: Bolicano|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Bolicano
+|move|p1a: Nabiki|Spikes|p2a: Bolicano
+|-sidestart|p2: keenakeen|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Nabiki|88/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Bolicano|Hurricane|p1a: Nabiki
+|-end|p1a: Nabiki|Substitute
+|move|p1a: Nabiki|Spikes|p2a: Bolicano
+|-sidestart|p2: keenakeen|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Nabiki|94/100|[from] item: Leftovers
+|-sideend|p1: Pokemon Master JL|Reflect
+|upkeep
+|turn|9
+|
+|switch|p1a: Sarah|Rotom-Wash, shiny|88/100
+|move|p2a: Bolicano|Hurricane|p1a: Sarah
+|-resisted|p1a: Sarah
+|-damage|p1a: Sarah|70/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Sarah|76/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|95/100 brn
+|-damage|p2a: Ferrothorn|78/100 brn|[from] Spikes
+|move|p1a: Sarah|Will-O-Wisp|p2a: Ferrothorn
+|-fail|p2a: Ferrothorn|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Sarah|82/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|84/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|78/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Sarah|Reflect|p1a: Sarah
+|-sidestart|p1: Pokemon Master JL|Reflect
+|move|p2a: Ferrothorn|Leech Seed|p1a: Sarah
+|-start|p1a: Sarah|move: Leech Seed
+|
+|-weather|none
+|-heal|p1a: Sarah|88/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|84/100 brn|[from] item: Leftovers
+|-damage|p1a: Sarah|76/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|95/100 brn|[silent]
+|-damage|p2a: Ferrothorn|89/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p1a: Legendary|Mew|100/100
+|switch|p2a: Bolicano|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Bolicano
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p1a: Legendary|Thunder Wave|p2a: Bolicano
+|-status|p2a: Bolicano|par
+|move|p2a: Bolicano|Hurricane|p1a: Legendary
+|-damage|p1a: Legendary|71/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Legendary|77/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Legendary|Stealth Rock|p2a: Bolicano
+|-sidestart|p2: keenakeen|move: Stealth Rock
+|move|p2a: Bolicano|Scald||[still]
+|-damage|p1a: Legendary|44/100
+|-status|p1a: Legendary|brn
+|-activate|p1a: Legendary|ability: Synchronize
+|-fail|p1a: Legendary
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Legendary|50/100 brn|[from] item: Leftovers
+|-damage|p1a: Legendary|44/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Legendary|Rest|p1a: Legendary
+|-status|p1a: Legendary|slp|[from] move: Rest
+|-heal|p1a: Legendary|100/100 slp|[silent]
+|move|p2a: Bolicano|Scald|p1a: Legendary
+|-crit|p1a: Legendary
+|-damage|p1a: Legendary|46/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Legendary|52/100 slp|[from] item: Leftovers
+|-sideend|p1: Pokemon Master JL|Reflect
+|upkeep
+|turn|16
+|-message|keenakeen forfeited.
+|
+|win|Pokemon Master JL
+|l|☆keenakeen
+|raw|Pokemon Master JL's rating: 1051 → 1084(+33 for winning)
+|raw|keenakeen's rating: 1062 → 1042(-20 for losing)

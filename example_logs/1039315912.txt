@@ -1,0 +1,293 @@
+|ScrapeTime|2020-01-01-21:14:41
+|j|☆Ricardo2312ElBlue
+|j|☆hariaruna2002
+|player|p1|Ricardo2312ElBlue|blue|1111
+|player|p2|hariaruna2002|lucas|1136
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cloyster, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Mimikyu, M|
+|poke|p1|Toxtricity, F|
+|poke|p1|Togekiss, F|
+|poke|p1|Rapidash-Galar, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Toxtricity, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Togekiss, M|
+|poke|p2|Hippowdon, M|
+|poke|p2|Corsola-Galar, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rapidash|Rapidash-Galar, F|100/100
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|turn|1
+|
+|move|p1a: Rapidash|Zen Headbutt|p2a: Toxtricity
+|-supereffective|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|2
+|
+|move|p2a: Cinderace|Iron Head|p1a: Rapidash
+|-supereffective|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|-damage|p2a: Cinderace|91/100|[from] item: Life Orb
+|faint|p1a: Rapidash
+|
+|upkeep
+|
+|switch|p1a: Cloyster|Cloyster, F|100/100
+|turn|3
+|
+|move|p2a: Cinderace|High Jump Kick|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|2/100
+|-damage|p2a: Cinderace|81/100|[from] item: Life Orb
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|
+|-heal|p1a: Cloyster|8/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Cloyster|Razor Shell|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|74/100
+|-unboost|p2a: Toxapex|def|1
+|
+|-heal|p1a: Cloyster|15/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|80/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|move|p1a: Cloyster|Rock Blast|p2a: Toxapex
+|-damage|p2a: Toxapex|62/100
+|-damage|p2a: Toxapex|44/100
+|-damage|p2a: Toxapex|24/100
+|-damage|p2a: Toxapex|7/100
+|-damage|p2a: Toxapex|0 fnt
+|-hitcount|p2a: Toxapex|5
+|faint|p2a: Toxapex
+|
+|-heal|p1a: Cloyster|21/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|turn|6
+|
+|move|p1a: Cloyster|Icicle Spear|p2a: Corsola
+|-damage|p2a: Corsola|84/100
+|-start|p1a: Cloyster|Disable|Icicle Spear|[from] ability: Cursed Body|[of] p2a: Corsola
+|-damage|p2a: Corsola|68/100
+|-damage|p2a: Corsola|53/100
+|-damage|p2a: Corsola|37/100
+|-damage|p2a: Corsola|22/100
+|-hitcount|p2a: Corsola|5
+|move|p2a: Corsola|Haze|p2a: Corsola
+|-clearallboost
+|
+|-heal|p1a: Cloyster|27/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Cloyster|Rock Blast|p2a: Corsola
+|-damage|p2a: Corsola|17/100
+|-damage|p2a: Corsola|11/100
+|-damage|p2a: Corsola|6/100
+|-damage|p2a: Corsola|1/100
+|-damage|p2a: Corsola|0 fnt
+|-hitcount|p2a: Corsola|5
+|faint|p2a: Corsola
+|
+|-heal|p1a: Cloyster|33/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|turn|8
+|
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|move|p2a: Hippowdon|Rock Slide|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|9
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Hippowdon|[miss]
+|-miss|p1a: Cinderace|p2a: Hippowdon
+|move|p2a: Hippowdon|Stockpile|p2a: Hippowdon
+|-start|p2a: Hippowdon|stockpile1
+|-boost|p2a: Hippowdon|def|1
+|-boost|p2a: Hippowdon|spd|1
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Hippowdon
+|-damage|p2a: Hippowdon|70/100
+|move|p2a: Hippowdon|Stockpile|p2a: Hippowdon
+|-start|p2a: Hippowdon|stockpile2
+|-boost|p2a: Hippowdon|def|1
+|-boost|p2a: Hippowdon|spd|1
+|
+|-heal|p2a: Hippowdon|76/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Hippowdon
+|-damage|p2a: Hippowdon|53/100
+|move|p2a: Hippowdon|Stockpile|p2a: Hippowdon
+|-start|p2a: Hippowdon|stockpile3
+|-boost|p2a: Hippowdon|def|1
+|-boost|p2a: Hippowdon|spd|1
+|
+|-heal|p2a: Hippowdon|59/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Hippowdon
+|-damage|p2a: Hippowdon|39/100
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|89/100
+|
+|-heal|p2a: Hippowdon|95/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|c|☆Ricardo2312ElBlue|Stop pls :¨v
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Hippowdon
+|-damage|p2a: Hippowdon|74/100
+|move|p2a: Hippowdon|Earthquake|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-heal|p2a: Hippowdon|80/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|turn|14
+|
+|move|p1a: Togekiss|Wish|p1a: Togekiss
+|move|p2a: Hippowdon|Rock Slide|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|54/100
+|
+|-heal|p1a: Togekiss|60/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|86/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|move|p2a: Hippowdon|Rock Slide|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|15/100
+|
+|-heal|p1a: Togekiss|65/100|[from] move: Wish|[wisher] Togekiss
+|-heal|p1a: Togekiss|71/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|93/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Togekiss|Wish|p1a: Togekiss
+|move|p2a: Hippowdon|Rock Slide|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|24/100
+|
+|-heal|p1a: Togekiss|30/100|[from] item: Leftovers
+|-heal|p2a: Hippowdon|99/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Togekiss|Air Slash|p2a: Hippowdon|[miss]
+|-miss|p1a: Togekiss|p2a: Hippowdon
+|move|p2a: Hippowdon|Rock Slide|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|-heal|p2a: Hippowdon|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Mimikyu|Mimikyu, M|100/100
+|turn|18
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Hippowdon|Rock Slide|p1a: Mimikyu
+|-crit|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M
+|-damage|p1a: Mimikyu|88/100|[from] ability: Disguise|[of] p1a: Mimikyu
+|
+|-heal|p1a: Mimikyu|94/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Hippowdon|Earthquake|p1a: Mimikyu
+|-damage|p1a: Mimikyu|27/100
+|
+|-heal|p1a: Mimikyu|33/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Mimikyu|Shadow Claw|p2a: Hippowdon
+|-damage|p2a: Hippowdon|79/100
+|move|p2a: Hippowdon|Earthquake|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|-heal|p2a: Hippowdon|85/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, F|100/100
+|turn|21
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Hippowdon
+|-damage|p2a: Hippowdon|59/100
+|-enditem|p1a: Toxtricity|Throat Spray
+|-boost|p1a: Toxtricity|spa|1
+|move|p2a: Hippowdon|Earthquake|p1a: Toxtricity
+|-supereffective|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|win|hariaruna2002
+|l|☆Ricardo2312ElBlue
+|raw|Ricardo2312ElBlue's rating: 1111 → 1086(-25 for losing)
+|raw|hariaruna2002's rating: 1113 → 1138(+25 for winning)

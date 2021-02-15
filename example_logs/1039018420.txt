@@ -1,0 +1,351 @@
+|ScrapeTime|2020-01-01-05:25:15
+|j|☆Mcfetish
+|j|☆lecucked
+|player|p1|Mcfetish|giovanni|1166
+|player|p2|lecucked|252|1200
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Durant, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Dragapult, M|
+|poke|p2|Haxorus, M|
+|poke|p2|Toxicroak, M|
+|poke|p2|Silvally-*|
+|poke|p2|Gengar, M|
+|poke|p2|Mew|
+|poke|p2|Tyranitar, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mcfetish)
+|
+|start
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|
+|move|p2a: Mew|Stealth Rock|p1a: Rotom
+|-sidestart|p1: Mcfetish|move: Stealth Rock
+|move|p1a: Rotom|Trick|p2a: Mew
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Mew
+|-item|p2a: Mew|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Mew|Psychic|p1a: Rotom
+|-damage|p1a: Rotom|64/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Mew
+|-status|p2a: Mew|brn
+|-activate|p2a: Mew|ability: Synchronize
+|-immune|p1a: Rotom
+|
+|-heal|p1a: Rotom|70/100|[from] item: Leftovers
+|-damage|p2a: Mew|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Jared|Gengar, M|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Jared
+|-status|p2a: Jared|brn
+|
+|-heal|p1a: Rotom|76/100|[from] item: Leftovers
+|-damage|p2a: Jared|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Jared|Sludge Wave|p1a: Rotom
+|-damage|p1a: Rotom|9/100
+|-damage|p2a: Jared|84/100 brn|[from] item: Life Orb
+|move|p1a: Rotom|Volt Switch|p2a: Jared
+|-damage|p2a: Jared|46/100 brn
+|-start|p1a: Rotom|Disable|Volt Switch|[from] ability: Cursed Body|[of] p2a: Jared
+|
+|switch|p1a: Durant|Durant, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Durant|88/100|[from] Stealth Rock
+|
+|-damage|p2a: Jared|40/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Mongrol|Silvally-Steel, shiny|100/100
+|move|p1a: Durant|First Impression|p2a: Mongrol
+|-resisted|p2a: Mongrol
+|-damage|p2a: Mongrol|75/100
+|-damage|p1a: Durant|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Durant|Superpower|p2a: Mongrol
+|-supereffective|p2a: Mongrol
+|-damage|p2a: Mongrol|0 fnt
+|-unboost|p1a: Durant|atk|1
+|-unboost|p1a: Durant|def|1
+|-damage|p1a: Durant|69/100|[from] item: Life Orb
+|faint|p2a: Mongrol
+|
+|upkeep
+|
+|switch|p2a: Haxorus|Haxorus, M, shiny|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|7
+|
+|switch|p1a: Rotom|Rotom-Heat|9/100
+|-damage|p1a: Rotom|0 fnt|[from] Stealth Rock
+|faint|p1a: Rotom
+|move|p2a: Haxorus|Outrage|p1: Rotom|[notarget]
+|-fail|p2a: Haxorus
+|
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|-damage|p1a: Corsola|88/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p2a: Jared|Gengar, M|40/100 brn
+|move|p1a: Corsola|Strength Sap|p2a: Jared
+|-unboost|p2a: Jared|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|-damage|p2a: Jared|34/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p1a: Grimmsnarl|88/100|[from] Stealth Rock
+|move|p2a: Jared|Shadow Ball|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|62/100
+|-damage|p2a: Jared|24/100 brn|[from] item: Life Orb
+|
+|-heal|p1a: Grimmsnarl|69/100|[from] item: Leftovers
+|-damage|p2a: Jared|18/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Grimmsnarl|Substitute|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|Substitute
+|-damage|p1a: Grimmsnarl|44/100
+|move|p2a: Jared|Sludge Wave|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-end|p1a: Grimmsnarl|Substitute
+|-damage|p2a: Jared|8/100 brn|[from] item: Life Orb
+|
+|-heal|p1a: Grimmsnarl|50/100|[from] item: Leftovers
+|-damage|p2a: Jared|2/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Grimmsnarl|Substitute|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|Substitute
+|-damage|p1a: Grimmsnarl|25/100
+|move|p2a: Jared|Sludge Wave|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-end|p1a: Grimmsnarl|Substitute
+|-damage|p2a: Jared|0 fnt|[from] item: Life Orb
+|faint|p2a: Jared
+|
+|-heal|p1a: Grimmsnarl|31/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Haxorus|Haxorus, M, shiny|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|12
+|
+|move|p2a: Haxorus|Earthquake|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|-damage|p1a: Corsola|88/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p2a: The expert|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: The expert
+|move|p1a: Corsola|Substitute|p1a: Corsola
+|-start|p1a: Corsola|Substitute
+|-damage|p1a: Corsola|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|57/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|move|p2a: The expert|Dark Pulse|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-end|p1a: Corsola|Substitute
+|move|p1a: Corsola|Strength Sap|p2a: The expert
+|-unboost|p2a: The expert|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|94/100|[from] Sandstorm
+|upkeep
+|turn|15
+|c|☆Mcfetish|?
+|
+|switch|p2a: Mew|Mew|94/100 brn
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p1a: Conkeldurr|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|88/100 brn|[from] Sandstorm
+|-damage|p1a: Conkeldurr|88/100|[from] Sandstorm
+|-damage|p2a: Mew|82/100 brn|[from] brn
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|16
+|
+|move|p2a: Mew|Fire Blast|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|53/100 brn
+|move|p1a: Conkeldurr|Drain Punch|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|50/100 brn
+|-heal|p1a: Conkeldurr|67/100 brn|[from] drain|[of] p2a: Mew
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|44/100 brn|[from] Sandstorm
+|-damage|p1a: Conkeldurr|61/100 brn|[from] Sandstorm
+|-damage|p2a: Mew|38/100 brn|[from] brn
+|-damage|p1a: Conkeldurr|55/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Mew|Fire Blast|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|18/100 brn
+|move|p1a: Conkeldurr|Earthquake|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|-weather|none
+|-damage|p1a: Conkeldurr|12/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: PepeW|Toxicroak, M, shiny|100/100
+|turn|18
+|
+|move|p2a: PepeW|Sucker Punch|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|2/100 brn
+|move|p1a: Conkeldurr|Mach Punch|p2a: PepeW
+|-resisted|p2a: PepeW
+|-damage|p2a: PepeW|71/100
+|
+|-damage|p1a: Conkeldurr|0 fnt|[from] brn
+|faint|p1a: Conkeldurr
+|upkeep
+|
+|switch|p1a: Durant|Durant, F|69/100
+|-damage|p1a: Durant|56/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Durant|Stomping Tantrum|p2a: PepeW
+|-supereffective|p2a: PepeW
+|-damage|p2a: PepeW|0 fnt
+|-damage|p1a: Durant|46/100|[from] item: Life Orb
+|faint|p2a: PepeW
+|
+|upkeep
+|
+|switch|p2a: Haxorus|Haxorus, M, shiny|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|20
+|
+|move|p1a: Durant|Iron Head|p2a: Haxorus|[miss]
+|-miss|p1a: Durant|p2a: Haxorus
+|move|p2a: Haxorus|Outrage|p1a: Durant
+|-resisted|p1a: Durant
+|-damage|p1a: Durant|0 fnt
+|faint|p1a: Durant
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Haxorus
+|-supereffective|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Haxorus
+|
+|upkeep
+|
+|switch|p2a: The expert|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: The expert
+|turn|22
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: The expert
+|-damage|p2a: The expert|81/100
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: The expert|Dark Pulse|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, F|94/100
+|-damage|p1a: Corsola|82/100|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: The expert|Dark Pulse|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|24/100
+|-start|p2a: The expert|Disable|Dark Pulse|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Strength Sap|p2a: The expert
+|-unboost|p2a: The expert|atk|1
+|-heal|p1a: Corsola|99/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|94/100|[from] Sandstorm
+|upkeep
+|turn|24
+|
+|move|p2a: The expert|Ice Beam|p1a: Corsola
+|-damage|p1a: Corsola|76/100
+|move|p1a: Corsola|Night Shade|p2a: The expert
+|-damage|p2a: The expert|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|70/100|[from] Sandstorm
+|upkeep
+|turn|25
+|
+|move|p2a: The expert|Ice Beam|p1a: Corsola
+|-damage|p1a: Corsola|52/100
+|move|p1a: Corsola|Night Shade|p2a: The expert
+|-damage|p2a: The expert|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|46/100|[from] Sandstorm
+|upkeep
+|turn|26
+|
+|move|p2a: The expert|Ice Beam|p1a: Corsola
+|-damage|p1a: Corsola|28/100
+|move|p1a: Corsola|Night Shade|p2a: The expert
+|-damage|p2a: The expert|0 fnt
+|faint|p2a: The expert
+|
+|win|Mcfetish
+|l|☆lecucked

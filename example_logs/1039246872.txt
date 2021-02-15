@@ -1,0 +1,155 @@
+|ScrapeTime|2020-01-01-18:55:49
+|j|☆Apple Pie Lover
+|j|☆batmanex
+|player|p1|Apple Pie Lover|161|1582
+|player|p2|batmanex|2|1544
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Shuckle, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Rapidash-Galar, M|
+|poke|p1|Haxorus, M|
+|poke|p1|Bisharp, M|
+|poke|p1|Chandelure, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Rotom-Wash|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Apple Pie Lover)
+|
+|start
+|switch|p1a: Shuckle|Shuckle, M, shiny|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|move|p2a: Rotom|Trick|p1a: Shuckle
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Shuckle
+|-item|p1a: Shuckle|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Mental Herb|[from] move: Trick
+|move|p1a: Shuckle|Sticky Web|p2a: Rotom
+|-sidestart|p2: batmanex|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Grimmsnarl
+|-status|p1a: Grimmsnarl|brn
+|
+|-damage|p1a: Grimmsnarl|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Apple Pie Lover|Reflect
+|move|p2a: Rotom|Volt Switch|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|69/100 brn
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100|[from]move: Volt Switch
+|
+|-damage|p1a: Grimmsnarl|62/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: Bisharp|Bisharp, M, shiny|100/100
+|move|p2a: Mandibuzz|Defog|p1a: Bisharp
+|-unboost|p1a: Bisharp|evasion|1
+|-ability|p1a: Bisharp|Defiant
+|-boost|p1a: Bisharp|atk|2
+|-sideend|p1: Apple Pie Lover|Reflect
+|-sideend|p2: batmanex|Sticky Web|[from] move: Defog|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Bisharp|Iron Head|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|44/100
+|cant|p2a: Mandibuzz|flinch
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Bisharp|Iron Head|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|7
+|
+|switch|p1a: Shuckle|Shuckle, M, shiny|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Shuckle
+|-status|p1a: Shuckle|brn
+|
+|-damage|p1a: Shuckle|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Shuckle|Sticky Web|p2a: Toxapex
+|-sidestart|p2: batmanex|move: Sticky Web
+|
+|-damage|p1a: Shuckle|88/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p1a: Rapidash|Rapidash-Galar, M|100/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Rapidash
+|-sidestart|p1: Apple Pie Lover|move: Toxic Spikes
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-activate|p2a: Tyranitar|move: Sticky Web
+|-unboost|p2a: Tyranitar|spe|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Rapidash|Swords Dance|p1a: Rapidash
+|-boost|p1a: Rapidash|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rapidash|95/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|move|p1a: Rapidash|Low Kick|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p1a: Rapidash|85/100|[from] item: Life Orb
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rapidash|79/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|12
+|
+|move|p1a: Rapidash|Zen Headbutt|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-damage|p1a: Rapidash|69/100|[from] item: Life Orb
+|faint|p2a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rapidash|63/100|[from] Sandstorm
+|upkeep
+|-message|batmanex forfeited.
+|
+|win|Apple Pie Lover
+|l|☆batmanex

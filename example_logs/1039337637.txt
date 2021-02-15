@@ -1,0 +1,148 @@
+|ScrapeTime|2020-01-01-22:05:53
+|j|☆DjowBucaras
+|j|☆Barbar3d
+|player|p1|DjowBucaras|hilbert-dueldisk|1090
+|player|p2|Barbar3d|pokefanf-gen4|1112
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Froslass, F|
+|poke|p1|Bisharp, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Seismitoad, M|
+|poke|p1|Togekiss, F|
+|poke|p1|Dhelmise|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Indeedee, M|
+|poke|p2|Obstagoon, M|
+|poke|p2|Hawlucha, F|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Seismitoad, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆DjowBucaras|gl hf
+|
+|start
+|switch|p1a: Froslass|Froslass, F, shiny|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Barbar3d|move: Light Screen
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Rotom|Trick|p2a: Seismitoad
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Seismitoad
+|-item|p2a: Seismitoad|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Seismitoad
+|-sidestart|p1: DjowBucaras|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Seismitoad|Toxic|p2a: Indeedee
+|-status|p2a: Indeedee|tox
+|
+|-damage|p2a: Indeedee|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p1a: Dhelmise|Dhelmise, shiny|100/100
+|-damage|p1a: Dhelmise|88/100|[from] Stealth Rock
+|move|p2a: Indeedee|Psychic|p1a: Dhelmise
+|-damage|p1a: Dhelmise|17/100
+|
+|-damage|p2a: Indeedee|82/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p2a: Obstagoon|Obstagoon, M|100/100
+|switch|p1a: Bisharp|Bisharp, F, shiny|100/100
+|-damage|p1a: Bisharp|95/100|[from] Stealth Rock
+|
+|-status|p2a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|
+|switch|p1a: Dhelmise|Dhelmise, shiny|17/100
+|-damage|p1a: Dhelmise|4/100|[from] Stealth Rock
+|move|p2a: Obstagoon|Knock Off|p1a: Dhelmise
+|-supereffective|p1a: Dhelmise
+|-damage|p1a: Dhelmise|0 fnt
+|-enditem|p1a: Dhelmise|Assault Vest|[from] move: Knock Off|[of] p2a: Obstagoon
+|faint|p1a: Dhelmise
+|
+|-damage|p2a: Obstagoon|94/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Rotom|Overheat|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|87/100
+|-unboost|p1a: Rotom|spa|2
+|
+|-heal|p1a: Rotom|82/100|[from] item: Leftovers
+|-sideend|p2: Barbar3d|move: Light Screen
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|-damage|p1a: Seismitoad|94/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Toxic|p1a: Seismitoad
+|-status|p1a: Seismitoad|tox
+|
+|-heal|p1a: Seismitoad|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|94/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p2a: Indeedee|Indeedee, M|82/100 tox
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|switch|p1a: Bisharp|Bisharp, F, shiny|95/100
+|-damage|p1a: Bisharp|89/100|[from] Stealth Rock
+|
+|-damage|p2a: Indeedee|76/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|move|p2a: Indeedee|Mystical Fire|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-crit|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|-damage|p2a: Indeedee|64/100 tox|[from] psn
+|upkeep
+|-message|DjowBucaras forfeited.
+|
+|win|Barbar3d
+|l|☆DjowBucaras
+|raw|DjowBucaras's rating: 1114 → 1087(-27 for losing)
+|raw|Barbar3d's rating: 1083 → 1113(+30 for winning)

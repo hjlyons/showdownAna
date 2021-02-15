@@ -1,0 +1,285 @@
+|ScrapeTime|2020-01-01-00:25:40
+|j|☆laroyboi
+|j|☆nborges
+|player|p1|laroyboi|ash|1356
+|player|p2|nborges|preschooler|1353
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Bronzong|
+|poke|p1|Dracovish|
+|poke|p1|Hatterene, F|
+|poke|p1|Mimikyu, M|
+|poke|p1|Golisopod, M|
+|poke|p1|Drampa, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Vaporeon, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Clefable, F|
+|poke|p2|Mimikyu, F|
+|poke|p2|Flygon, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Bronzong|Bronzong|100/100
+|switch|p2a: Nathan|Ferrothorn, F|100/100
+|turn|1
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Nathan|Leech Seed|p1a: Hatterene
+|move|p1a: Hatterene|Leech Seed|p2a: Nathan|[from]Magic Bounce
+|-immune|p2a: Nathan
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Jf|Vaporeon, M|100/100
+|move|p1a: Hatterene|Future Sight|p2a: Jf
+|-start|p1a: Hatterene|move: Future Sight
+|
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nborges)
+|
+|move|p2a: Jf|Wish|p2a: Jf
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Drampa|Drampa, M|100/100
+|move|p2a: Jf|Scald|p1a: Drampa
+|-resisted|p1a: Drampa
+|-damage|p1a: Drampa|86/100
+|
+|-end|p2a: Jf|move: Future Sight
+|-damage|p2a: Jf|50/100
+|-heal|p2a: Jf|100/100|[from] move: Wish|[wisher] Jf
+|upkeep
+|turn|5
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Nicolas|Torkoal, M, shiny|100/100
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Jf|Vaporeon, M|100/100
+|move|p1a: Hatterene|Future Sight|p2a: Jf
+|-start|p1a: Hatterene|move: Future Sight
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Hatterene|Psychic|p2a: Jf
+|-damage|p2a: Jf|63/100
+|-unboost|p2a: Jf|spd|1
+|move|p2a: Jf|Wish|p2a: Jf
+|
+|-heal|p2a: Jf|70/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|switch|p2a: Elise|Clefable, F|100/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-end|p2a: Elise|move: Future Sight
+|-damage|p2a: Elise|37/100
+|-heal|p2a: Elise|95/100|[from] move: Wish|[wisher] Jf
+|upkeep
+|turn|9
+|inactive|laroyboi has 120 seconds left.
+|
+|move|p1a: Hatterene|Psychic|p2a: Elise
+|-damage|p2a: Elise|45/100
+|move|p2a: Elise|Moonblast|p1a: Hatterene
+|-damage|p1a: Hatterene|38/100
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Hatterene|Psychic|p2a: Elise
+|-damage|p2a: Elise|0 fnt
+|faint|p2a: Elise
+|
+|upkeep
+|
+|switch|p2a: Julien|Mimikyu, F, shiny|100/100
+|turn|11
+|
+|move|p1a: Hatterene|Psychic|p2a: Julien
+|-activate|p2a: Julien|ability: Disguise
+|-damage|p2a: Julien|100/100
+|detailschange|p2a: Julien|Mimikyu-Busted, F, shiny
+|-damage|p2a: Julien|88/100|[from] ability: Disguise|[of] p2a: Julien
+|move|p2a: Julien|Swords Dance|p2a: Julien
+|-boost|p2a: Julien|atk|2
+|
+|upkeep
+|turn|12
+|inactive|laroyboi has 120 seconds left.
+|
+|move|p2a: Julien|Shadow Sneak|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-crit|p1a: Hatterene
+|-enditem|p1a: Hatterene|Kasib Berry|[eat]
+|-enditem|p1a: Hatterene|Kasib Berry|[weaken]
+|-damage|p1a: Hatterene|0 fnt
+|-damage|p2a: Julien|78/100|[from] item: Life Orb
+|faint|p1a: Hatterene
+|
+|-fieldend|move: Trick Room
+|upkeep
+|inactive|laroyboi has 120 seconds left.
+|
+|switch|p1a: Golisopod|Golisopod, M|100/100
+|turn|13
+|
+|move|p1a: Golisopod|First Impression|p2a: Julien
+|-resisted|p2a: Julien
+|-damage|p2a: Julien|46/100
+|move|p2a: Julien|Shadow Claw|p1a: Golisopod
+|-damage|p1a: Golisopod|51/100
+|-damage|p2a: Julien|36/100|[from] item: Life Orb
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Drampa|Drampa, M|86/100
+|move|p2a: Julien|Shadow Claw|p1a: Drampa
+|-immune|p1a: Drampa
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Golisopod|Golisopod, M|51/100
+|move|p2a: Julien|Play Rough|p1a: Golisopod
+|-damage|p1a: Golisopod|0 fnt
+|-damage|p2a: Julien|26/100|[from] item: Life Orb
+|faint|p1a: Golisopod
+|
+|upkeep
+|
+|switch|p1a: Mimikyu|Mimikyu, M|100/100
+|turn|16
+|
+|move|p2a: Julien|Shadow Sneak|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M
+|-damage|p1a: Mimikyu|88/100|[from] ability: Disguise|[of] p1a: Mimikyu
+|-enditem|p1a: Mimikyu|Red Card|[of] p2a: Julien
+|-damage|p2a: Julien|16/100|[from] item: Life Orb
+|drag|p2a: Nicolas|Torkoal, M, shiny|100/100
+|move|p1a: Mimikyu|Trick Room|p1a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p1a: Mimikyu
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Dracovish|Dracovish, shiny|100/100
+|move|p2a: Nicolas|Will-O-Wisp|p1a: Dracovish|[miss]
+|-miss|p2a: Nicolas|p1a: Dracovish
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Jf|Vaporeon, M|70/100
+|move|p1a: Dracovish|Crunch|p2a: Jf
+|-damage|p2a: Jf|30/100
+|
+|-heal|p2a: Jf|36/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Julien|Mimikyu-Busted, F, shiny|16/100
+|move|p1a: Dracovish|Crunch|p2a: Julien
+|-damage|p2a: Julien|0 fnt
+|faint|p2a: Julien
+|
+|upkeep
+|
+|switch|p2a: Nicolas|Torkoal, M, shiny|100/100
+|turn|20
+|
+|move|p2a: Nicolas|Will-O-Wisp|p1a: Dracovish
+|-status|p1a: Dracovish|brn
+|move|p1a: Dracovish|Crunch|p2a: Nicolas
+|-damage|p2a: Nicolas|81/100
+|
+|-damage|p1a: Dracovish|94/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|21
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: Nicolas|Body Press|p1a: Bronzong
+|-damage|p1a: Bronzong|77/100
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Bronzong|Stealth Rock|p2a: Nicolas
+|-sidestart|p2: nborges|move: Stealth Rock
+|move|p2a: Nicolas|Flamethrower|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|57/100
+|
+|upkeep
+|turn|23
+|
+|switch|p1a: Drampa|Drampa, M|86/100
+|move|p2a: Nicolas|Flamethrower|p1a: Drampa
+|-resisted|p1a: Drampa
+|-damage|p1a: Drampa|72/100
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Nicolas|Will-O-Wisp|p1a: Drampa
+|-status|p1a: Drampa|brn
+|move|p1a: Drampa|Ice Beam|p2a: Nicolas
+|-resisted|p2a: Nicolas
+|-damage|p2a: Nicolas|59/100
+|
+|-damage|p1a: Drampa|66/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|switch|p1a: Dracovish|Dracovish, shiny|94/100 brn
+|move|p2a: Nicolas|Body Press|p1a: Dracovish
+|-damage|p1a: Dracovish|73/100 brn
+|
+|-damage|p1a: Dracovish|67/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|switch|p1a: Drampa|Drampa, M|66/100 brn
+|move|p2a: Nicolas|Rapid Spin|p1a: Drampa
+|-damage|p1a: Drampa|55/100 brn
+|-sideend|p2: nborges|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Nicolas
+|-boost|p2a: Nicolas|spe|1
+|
+|-damage|p1a: Drampa|49/100 brn|[from] brn
+|upkeep
+|turn|27
+|-message|laroyboi forfeited.
+|
+|win|nborges
+|l|☆laroyboi
+|raw|laroyboi's rating: 1357 → 1337(-20 for losing)
+|raw|nborges's rating: 1353 → 1373(+20 for winning)

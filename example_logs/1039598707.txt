@@ -1,0 +1,714 @@
+|ScrapeTime|2020-01-02-10:55:40
+|j|☆Kensh
+|j|☆Phrolo
+|player|p1|Kensh|li|1480
+|player|p2|Phrolo|elesa|1542
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Golisopod, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Seismitoad, F|
+|poke|p1|Togekiss, M|
+|poke|p2|Chandelure, F|
+|poke|p2|Dugtrio, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Hawlucha, M|
+|poke|p2|Indeedee-F, F|
+|poke|p2|Rotom-Wash|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Phrolo)
+|
+|start
+|switch|p1a: pod|Golisopod, M, shiny|100/100
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|turn|1
+|
+|move|p1a: pod|First Impression|p2a: Dugtrio
+|-enditem|p2a: Dugtrio|Focus Sash
+|-damage|p2a: Dugtrio|1/100
+|move|p2a: Dugtrio|Stone Edge|p1a: pod
+|-supereffective|p1a: pod
+|-damage|p1a: pod|53/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Dugtrio|Sucker Punch|p1a: pod
+|-damage|p1a: pod|36/100
+|-activate|p1a: pod|ability: Emergency Exit
+|
+|switch|p1a: Smooth Jazz|Seismitoad, F, shiny|100/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Smooth Jazz|Protect||[still]
+|-fail|p1a: Smooth Jazz
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Cinderquil|Cinderace, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Smooth Jazz|Seismitoad, F, shiny|100/100
+|move|p2a: Rotom|Hydro Pump|p1a: Smooth Jazz
+|-immune|p1a: Smooth Jazz|[from] ability: Water Absorb
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Chandelure|Chandelure, F|100/100
+|switch|p1a: Togekiss|Togekiss, M, shiny|100/100
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Togekiss|Shadow Ball|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|27/100
+|-unboost|p2a: Chandelure|spd|1
+|move|p2a: Chandelure|Shadow Ball|p1a: Togekiss
+|-damage|p1a: Togekiss|32/100
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Togekiss|Shadow Ball|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-crit|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|
+|upkeep
+|
+|switch|p2a: Indeedee|Indeedee-F, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|9
+|
+|move|p1a: Togekiss|Shadow Ball|p2a: Indeedee
+|-immune|p2a: Indeedee
+|move|p2a: Indeedee|Psychic|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|upkeep
+|
+|switch|p1a: Cinderquil|Cinderace, F|100/100
+|turn|10
+|
+|switch|p2a: Dugtrio|Dugtrio, F|1/100
+|move|p1a: Cinderquil|Gunk Shot|p2a: Dugtrio
+|-resisted|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|-damage|p1a: Cinderquil|91/100|[from] item: Life Orb
+|faint|p2a: Dugtrio
+|
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|-enditem|p2a: Hawlucha|Psychic Seed
+|-boost|p2a: Hawlucha|spd|1
+|turn|11
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Cinderquil|Pyro Ball|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|-damage|p1a: Cinderquil|81/100|[from] item: Life Orb
+|faint|p2a: Hawlucha
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|12
+|
+|switch|p1a: Smooth Jazz|Seismitoad, F, shiny|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Smooth Jazz
+|-immune|p1a: Smooth Jazz
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Smooth Jazz|Protect||[still]
+|-fail|p1a: Smooth Jazz
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|14
+|
+|move|p1a: Smooth Jazz|Stealth Rock|p2a: Hatterene
+|move|p2a: Hatterene|Stealth Rock|p1a: Smooth Jazz|[from]Magic Bounce
+|-sidestart|p1: Kensh|move: Stealth Rock
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: kel corvidaeknight|Corviknight, M, shiny|100/100
+|-damage|p1a: kel corvidaeknight|88/100|[from] Stealth Rock
+|-ability|p1a: kel corvidaeknight|Pressure
+|move|p2a: Hatterene|Psychic|p1a: kel corvidaeknight
+|-resisted|p1a: kel corvidaeknight
+|-damage|p1a: kel corvidaeknight|71/100
+|
+|-heal|p1a: kel corvidaeknight|77/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Hatterene|Mystical Fire|p1a: kel corvidaeknight
+|-supereffective|p1a: kel corvidaeknight
+|-damage|p1a: kel corvidaeknight|36/100
+|-unboost|p1a: kel corvidaeknight|spa|1
+|move|p1a: kel corvidaeknight|Defog|p2a: Hatterene
+|move|p2a: Hatterene|Defog|p1a: kel corvidaeknight|[from]Magic Bounce
+|-unboost|p1a: kel corvidaeknight|evasion|1
+|-sideend|p1: Kensh|Stealth Rock|[from] move: Defog|[of] p2a: Hatterene
+|
+|-heal|p1a: kel corvidaeknight|43/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Smooth Jazz|Seismitoad, F, shiny|100/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Smooth Jazz
+|-resisted|p1a: Smooth Jazz
+|-damage|p1a: Smooth Jazz|86/100
+|-unboost|p1a: Smooth Jazz|spa|1
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Smooth Jazz|Protect|p1a: Smooth Jazz
+|-singleturn|p1a: Smooth Jazz|Protect
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Smooth Jazz
+|-activate|p1a: Smooth Jazz|move: Protect
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|19
+|
+|switch|p1a: pod|Golisopod, M, shiny|36/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|20
+|
+|move|p1a: pod|First Impression|p2a: Hatterene
+|-damage|p2a: Hatterene|47/100
+|move|p2a: Hatterene|Psychic|p1a: pod
+|-damage|p1a: pod|0 fnt
+|faint|p1a: pod
+|
+|-heal|p2a: Hatterene|53/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Smooth Jazz|Seismitoad, F, shiny|86/100
+|turn|21
+|
+|move|p1a: Smooth Jazz|Protect|p1a: Smooth Jazz
+|-singleturn|p1a: Smooth Jazz|Protect
+|move|p2a: Hatterene|Psychic|p1a: Smooth Jazz
+|-activate|p1a: Smooth Jazz|move: Protect
+|
+|-heal|p2a: Hatterene|59/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: kel corvidaeknight|Corviknight, M, shiny|43/100
+|-ability|p1a: kel corvidaeknight|Pressure
+|move|p2a: Hatterene|Psychic|p1a: kel corvidaeknight
+|-resisted|p1a: kel corvidaeknight
+|-damage|p1a: kel corvidaeknight|25/100
+|
+|-heal|p2a: Hatterene|65/100|[from] item: Leftovers
+|-heal|p1a: kel corvidaeknight|32/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p1a: Smooth Jazz|Seismitoad, F, shiny|86/100
+|move|p2a: Hatterene|Psychic|p1a: Smooth Jazz
+|-damage|p1a: Smooth Jazz|36/100
+|
+|-heal|p2a: Hatterene|71/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|24
+|
+|switch|p1a: Cinderquil|Cinderace, F|81/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-heal|p2a: Hatterene|77/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Hatterene|Psychic|p1a: Cinderquil
+|-damage|p1a: Cinderquil|0 fnt
+|faint|p1a: Cinderquil
+|
+|-heal|p2a: Hatterene|83/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Smooth Jazz|Seismitoad, F, shiny|36/100
+|turn|26
+|
+|move|p1a: Smooth Jazz|Protect|p1a: Smooth Jazz
+|-singleturn|p1a: Smooth Jazz|Protect
+|move|p2a: Hatterene|Psychic|p1a: Smooth Jazz
+|-activate|p1a: Smooth Jazz|move: Protect
+|
+|-heal|p2a: Hatterene|89/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Smooth Jazz|Protect|p1a: Smooth Jazz
+|-singleturn|p1a: Smooth Jazz|Protect
+|move|p2a: Hatterene|Psychic|p1a: Smooth Jazz
+|-activate|p1a: Smooth Jazz|move: Protect
+|
+|-heal|p2a: Hatterene|95/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p1a: scud|Dragapult, M|100/100
+|move|p2a: Hatterene|Dazzling Gleam|p1a: scud
+|-supereffective|p1a: scud
+|-damage|p1a: scud|0 fnt
+|faint|p1a: scud
+|
+|-heal|p2a: Hatterene|100/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: kel corvidaeknight|Corviknight, M, shiny|32/100
+|-ability|p1a: kel corvidaeknight|Pressure
+|turn|29
+|
+|move|p1a: kel corvidaeknight|Roost|p1a: kel corvidaeknight
+|-heal|p1a: kel corvidaeknight|82/100
+|-singleturn|p1a: kel corvidaeknight|move: Roost
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-heal|p1a: kel corvidaeknight|88/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Hatterene|Mystical Fire|p1a: kel corvidaeknight
+|-supereffective|p1a: kel corvidaeknight
+|-damage|p1a: kel corvidaeknight|44/100
+|-unboost|p1a: kel corvidaeknight|spa|1
+|move|p1a: kel corvidaeknight|Bulk Up|p1a: kel corvidaeknight
+|-boost|p1a: kel corvidaeknight|atk|1
+|-boost|p1a: kel corvidaeknight|def|1
+|
+|-heal|p1a: kel corvidaeknight|50/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Hatterene|Mystical Fire|p1a: kel corvidaeknight
+|-supereffective|p1a: kel corvidaeknight
+|-damage|p1a: kel corvidaeknight|7/100
+|-unboost|p1a: kel corvidaeknight|spa|1
+|move|p1a: kel corvidaeknight|Roost|p1a: kel corvidaeknight
+|-heal|p1a: kel corvidaeknight|57/100
+|-singleturn|p1a: kel corvidaeknight|move: Roost
+|
+|-heal|p1a: kel corvidaeknight|63/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p2a: Hatterene|Mystical Fire|p1a: kel corvidaeknight
+|-supereffective|p1a: kel corvidaeknight
+|-damage|p1a: kel corvidaeknight|20/100
+|-unboost|p1a: kel corvidaeknight|spa|1
+|move|p1a: kel corvidaeknight|Roost|p1a: kel corvidaeknight
+|-heal|p1a: kel corvidaeknight|70/100
+|-singleturn|p1a: kel corvidaeknight|move: Roost
+|
+|-heal|p1a: kel corvidaeknight|76/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: kel corvidaeknight|Roost|p1a: kel corvidaeknight
+|-heal|p1a: kel corvidaeknight|100/100
+|-singleturn|p1a: kel corvidaeknight|move: Roost
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|34
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: kel corvidaeknight
+|-status|p1a: kel corvidaeknight|brn
+|move|p1a: kel corvidaeknight|Bulk Up|p1a: kel corvidaeknight
+|-boost|p1a: kel corvidaeknight|atk|1
+|-boost|p1a: kel corvidaeknight|def|1
+|
+|-damage|p1a: kel corvidaeknight|94/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|switch|p2a: Indeedee|Indeedee-F, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: kel corvidaeknight|Roost|p1a: kel corvidaeknight
+|-heal|p1a: kel corvidaeknight|100/100 brn
+|-singleturn|p1a: kel corvidaeknight|move: Roost
+|
+|-damage|p1a: kel corvidaeknight|94/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|move|p1a: kel corvidaeknight|Bulk Up|p1a: kel corvidaeknight
+|-boost|p1a: kel corvidaeknight|atk|1
+|-boost|p1a: kel corvidaeknight|def|1
+|move|p2a: Indeedee|Mystical Fire|p1a: kel corvidaeknight
+|-supereffective|p1a: kel corvidaeknight
+|-damage|p1a: kel corvidaeknight|63/100 brn
+|-unboost|p1a: kel corvidaeknight|spa|1
+|
+|-heal|p1a: kel corvidaeknight|69/100 brn|[from] item: Leftovers
+|-damage|p1a: kel corvidaeknight|63/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p1a: kel corvidaeknight|Bulk Up|p1a: kel corvidaeknight
+|-boost|p1a: kel corvidaeknight|atk|1
+|-boost|p1a: kel corvidaeknight|def|1
+|move|p2a: Indeedee|Mystical Fire|p1a: kel corvidaeknight
+|-supereffective|p1a: kel corvidaeknight
+|-damage|p1a: kel corvidaeknight|33/100 brn
+|-unboost|p1a: kel corvidaeknight|spa|1
+|
+|-heal|p1a: kel corvidaeknight|39/100 brn|[from] item: Leftovers
+|-damage|p1a: kel corvidaeknight|33/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p1a: kel corvidaeknight|Roost|p1a: kel corvidaeknight
+|-heal|p1a: kel corvidaeknight|83/100 brn
+|-singleturn|p1a: kel corvidaeknight|move: Roost
+|move|p2a: Indeedee|Mystical Fire|p1a: kel corvidaeknight
+|-supereffective|p1a: kel corvidaeknight
+|-damage|p1a: kel corvidaeknight|51/100 brn
+|-unboost|p1a: kel corvidaeknight|spa|1
+|
+|-heal|p1a: kel corvidaeknight|57/100 brn|[from] item: Leftovers
+|-damage|p1a: kel corvidaeknight|51/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: kel corvidaeknight|Roost|p1a: kel corvidaeknight
+|-heal|p1a: kel corvidaeknight|100/100 brn
+|-singleturn|p1a: kel corvidaeknight|move: Roost
+|
+|-damage|p1a: kel corvidaeknight|94/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|40
+|
+|move|p2a: Rotom|Volt Switch|p1a: kel corvidaeknight
+|-supereffective|p1a: kel corvidaeknight
+|-damage|p1a: kel corvidaeknight|50/100 brn
+|
+|switch|p2a: Indeedee|Indeedee-F, F|100/100|[from]move: Volt Switch
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: kel corvidaeknight|Bulk Up|p1a: kel corvidaeknight
+|-boost|p1a: kel corvidaeknight|atk|1
+|-boost|p1a: kel corvidaeknight|def|1
+|
+|-heal|p1a: kel corvidaeknight|57/100 brn|[from] item: Leftovers
+|-damage|p1a: kel corvidaeknight|50/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|move|p1a: kel corvidaeknight|Roost|p1a: kel corvidaeknight
+|-heal|p1a: kel corvidaeknight|99/100 brn
+|-singleturn|p1a: kel corvidaeknight|move: Roost
+|move|p2a: Indeedee|Mystical Fire|p1a: kel corvidaeknight
+|-supereffective|p1a: kel corvidaeknight
+|-damage|p1a: kel corvidaeknight|66/100 brn
+|
+|-heal|p1a: kel corvidaeknight|72/100 brn|[from] item: Leftovers
+|-damage|p1a: kel corvidaeknight|66/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|move|p1a: kel corvidaeknight|Bulk Up|p1a: kel corvidaeknight
+|-boost|p1a: kel corvidaeknight|atk|1
+|-boost|p1a: kel corvidaeknight|def|1
+|move|p2a: Indeedee|Mystical Fire|p1a: kel corvidaeknight
+|-supereffective|p1a: kel corvidaeknight
+|-damage|p1a: kel corvidaeknight|31/100 brn
+|
+|-heal|p1a: kel corvidaeknight|37/100 brn|[from] item: Leftovers
+|-damage|p1a: kel corvidaeknight|31/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|move|p1a: kel corvidaeknight|Roost|p1a: kel corvidaeknight
+|-heal|p1a: kel corvidaeknight|81/100 brn
+|-singleturn|p1a: kel corvidaeknight|move: Roost
+|move|p2a: Indeedee|Mystical Fire|p1a: kel corvidaeknight
+|-supereffective|p1a: kel corvidaeknight
+|-damage|p1a: kel corvidaeknight|51/100 brn
+|
+|-heal|p1a: kel corvidaeknight|57/100 brn|[from] item: Leftovers
+|-damage|p1a: kel corvidaeknight|51/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: kel corvidaeknight|Roost|p1a: kel corvidaeknight
+|-heal|p1a: kel corvidaeknight|100/100 brn
+|-singleturn|p1a: kel corvidaeknight|move: Roost
+|
+|-damage|p1a: kel corvidaeknight|94/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|45
+|
+|move|p2a: Rotom|Volt Switch|p1a: kel corvidaeknight
+|-supereffective|p1a: kel corvidaeknight
+|-damage|p1a: kel corvidaeknight|54/100 brn
+|
+|switch|p2a: Indeedee|Indeedee-F, F|100/100|[from]move: Volt Switch
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: kel corvidaeknight|Brave Bird|p2a: Indeedee
+|-damage|p2a: Indeedee|4/100
+|-damage|p1a: kel corvidaeknight|26/100 brn|[from] Recoil
+|
+|-heal|p1a: kel corvidaeknight|33/100 brn|[from] item: Leftovers
+|-heal|p2a: Indeedee|10/100|[from] item: Leftovers
+|-damage|p1a: kel corvidaeknight|26/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|move|p1a: kel corvidaeknight|Roost|p1a: kel corvidaeknight
+|-heal|p1a: kel corvidaeknight|76/100 brn
+|-singleturn|p1a: kel corvidaeknight|move: Roost
+|move|p2a: Indeedee|Mystical Fire|p1a: kel corvidaeknight
+|-supereffective|p1a: kel corvidaeknight
+|-damage|p1a: kel corvidaeknight|45/100 brn
+|
+|-heal|p1a: kel corvidaeknight|52/100 brn|[from] item: Leftovers
+|-heal|p2a: Indeedee|16/100|[from] item: Leftovers
+|-damage|p1a: kel corvidaeknight|45/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: kel corvidaeknight|Roost|p1a: kel corvidaeknight
+|-heal|p1a: kel corvidaeknight|95/100 brn
+|-singleturn|p1a: kel corvidaeknight|move: Roost
+|
+|-heal|p1a: kel corvidaeknight|100/100 brn|[from] item: Leftovers
+|-damage|p1a: kel corvidaeknight|94/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|move|p2a: Rotom|Volt Switch|p1a: kel corvidaeknight
+|-supereffective|p1a: kel corvidaeknight
+|-damage|p1a: kel corvidaeknight|52/100 brn
+|
+|switch|p2a: Indeedee|Indeedee-F, F|16/100|[from]move: Volt Switch
+|move|p1a: kel corvidaeknight|Brave Bird|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p1a: kel corvidaeknight|48/100 brn|[from] Recoil
+|faint|p2a: Indeedee
+|
+|-heal|p1a: kel corvidaeknight|54/100 brn|[from] item: Leftovers
+|-damage|p1a: kel corvidaeknight|48/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|49
+|
+|move|p2a: Rotom|Volt Switch|p1a: kel corvidaeknight
+|-supereffective|p1a: kel corvidaeknight
+|-damage|p1a: kel corvidaeknight|5/100 brn
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100|[from]move: Volt Switch
+|move|p1a: kel corvidaeknight|Roost|p1a: kel corvidaeknight
+|-heal|p1a: kel corvidaeknight|55/100 brn
+|-singleturn|p1a: kel corvidaeknight|move: Roost
+|
+|-heal|p1a: kel corvidaeknight|61/100 brn|[from] item: Leftovers
+|-damage|p1a: kel corvidaeknight|55/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|50
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: kel corvidaeknight|Roost|p1a: kel corvidaeknight
+|-heal|p1a: kel corvidaeknight|100/100 brn
+|-singleturn|p1a: kel corvidaeknight|move: Roost
+|
+|-damage|p1a: kel corvidaeknight|94/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|move|p2a: Rotom|Volt Switch|p1a: kel corvidaeknight
+|-supereffective|p1a: kel corvidaeknight
+|-damage|p1a: kel corvidaeknight|51/100 brn
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100|[from]move: Volt Switch
+|move|p1a: kel corvidaeknight|Brave Bird|p2a: Hatterene
+|-damage|p2a: Hatterene|21/100
+|-damage|p1a: kel corvidaeknight|30/100 brn|[from] Recoil
+|
+|-heal|p1a: kel corvidaeknight|36/100 brn|[from] item: Leftovers
+|-heal|p2a: Hatterene|27/100|[from] item: Leftovers
+|-damage|p1a: kel corvidaeknight|30/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: kel corvidaeknight|Brave Bird|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|55/100
+|-damage|p1a: kel corvidaeknight|21/100 brn|[from] Recoil
+|
+|-heal|p1a: kel corvidaeknight|27/100 brn|[from] item: Leftovers
+|-damage|p1a: kel corvidaeknight|21/100 brn|[from] brn
+|upkeep
+|turn|53
+|c|☆Kensh|ahh dang
+|
+|switch|p1a: Smooth Jazz|Seismitoad, F, shiny|36/100
+|move|p2a: Rotom|Volt Switch|p1a: Smooth Jazz
+|-immune|p1a: Smooth Jazz
+|
+|upkeep
+|turn|54
+|
+|switch|p2a: Hatterene|Hatterene, F|27/100
+|switch|p1a: kel corvidaeknight|Corviknight, M, shiny|21/100 brn
+|-ability|p1a: kel corvidaeknight|Pressure
+|
+|-heal|p1a: kel corvidaeknight|27/100 brn|[from] item: Leftovers
+|-heal|p2a: Hatterene|33/100|[from] item: Leftovers
+|-damage|p1a: kel corvidaeknight|21/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|switch|p2a: Rotom|Rotom-Wash|55/100
+|move|p1a: kel corvidaeknight|Roost|p1a: kel corvidaeknight
+|-heal|p1a: kel corvidaeknight|71/100 brn
+|-singleturn|p1a: kel corvidaeknight|move: Roost
+|
+|-heal|p1a: kel corvidaeknight|77/100 brn|[from] item: Leftovers
+|-damage|p1a: kel corvidaeknight|71/100 brn|[from] brn
+|upkeep
+|turn|56
+|
+|move|p2a: Rotom|Volt Switch|p1a: kel corvidaeknight
+|-supereffective|p1a: kel corvidaeknight
+|-damage|p1a: kel corvidaeknight|26/100 brn
+|
+|switch|p2a: Hatterene|Hatterene, F|33/100|[from]move: Volt Switch
+|move|p1a: kel corvidaeknight|Brave Bird|p2a: Hatterene
+|-damage|p2a: Hatterene|11/100
+|-damage|p1a: kel corvidaeknight|20/100 brn|[from] Recoil
+|
+|-heal|p1a: kel corvidaeknight|26/100 brn|[from] item: Leftovers
+|-heal|p2a: Hatterene|17/100|[from] item: Leftovers
+|-damage|p1a: kel corvidaeknight|20/100 brn|[from] brn
+|upkeep
+|turn|57
+|inactive|Phrolo has 120 seconds left.
+|
+|move|p1a: kel corvidaeknight|Roost|p1a: kel corvidaeknight
+|-heal|p1a: kel corvidaeknight|70/100 brn
+|-singleturn|p1a: kel corvidaeknight|move: Roost
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-heal|p2a: Hatterene|23/100|[from] item: Leftovers
+|-heal|p1a: kel corvidaeknight|76/100 brn|[from] item: Leftovers
+|-damage|p1a: kel corvidaeknight|70/100 brn|[from] brn
+|upkeep
+|turn|58
+|inactive|Phrolo has 120 seconds left.
+|
+|move|p2a: Hatterene|Mystical Fire|p1a: kel corvidaeknight
+|-supereffective|p1a: kel corvidaeknight
+|-damage|p1a: kel corvidaeknight|29/100 brn
+|-unboost|p1a: kel corvidaeknight|spa|1
+|move|p1a: kel corvidaeknight|Brave Bird|p2a: Hatterene
+|-damage|p2a: Hatterene|4/100
+|-damage|p1a: kel corvidaeknight|24/100 brn|[from] Recoil
+|
+|-heal|p2a: Hatterene|10/100|[from] item: Leftovers
+|-heal|p1a: kel corvidaeknight|30/100 brn|[from] item: Leftovers
+|-damage|p1a: kel corvidaeknight|24/100 brn|[from] brn
+|upkeep
+|turn|59
+|
+|switch|p1a: Smooth Jazz|Seismitoad, F, shiny|36/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Smooth Jazz
+|-resisted|p1a: Smooth Jazz
+|-damage|p1a: Smooth Jazz|20/100
+|-unboost|p1a: Smooth Jazz|spa|1
+|
+|-heal|p2a: Hatterene|16/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|move|p1a: Smooth Jazz|Protect|p1a: Smooth Jazz
+|-singleturn|p1a: Smooth Jazz|Protect
+|move|p2a: Hatterene|Psychic|p1a: Smooth Jazz
+|-activate|p1a: Smooth Jazz|move: Protect
+|
+|-heal|p2a: Hatterene|22/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|move|p2a: Hatterene|Psychic|p1a: Smooth Jazz
+|-damage|p1a: Smooth Jazz|0 fnt
+|faint|p1a: Smooth Jazz
+|
+|-heal|p2a: Hatterene|28/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: kel corvidaeknight|Corviknight, M, shiny|24/100 brn
+|-ability|p1a: kel corvidaeknight|Pressure
+|turn|62
+|c|☆Phrolo|Gg man
+|c|☆Kensh|gg wp
+|
+|move|p1a: kel corvidaeknight|Brave Bird|p2a: Hatterene
+|-damage|p2a: Hatterene|9/100
+|-damage|p1a: kel corvidaeknight|19/100 brn|[from] Recoil
+|move|p2a: Hatterene|Mystical Fire|p1a: kel corvidaeknight
+|-supereffective|p1a: kel corvidaeknight
+|-damage|p1a: kel corvidaeknight|0 fnt
+|faint|p1a: kel corvidaeknight
+|
+|win|Phrolo
+|raw|Kensh's rating: 1480 → 1463(-17 for losing)
+|raw|Phrolo's rating: 1542 → 1559(+17 for winning)
+|l|☆Kensh

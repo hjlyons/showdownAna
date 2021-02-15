@@ -1,0 +1,504 @@
+|ScrapeTime|2020-01-02-11:16:03
+|j|☆Aaron Har
+|j|☆HAX GOD LOL
+|player|p1|Aaron Har|acetrainer|1262
+|player|p2|HAX GOD LOL|brycenman|1286
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Torkoal, M|
+|poke|p1|Ninetales, F|
+|poke|p1|Shiftry, M|
+|poke|p1|Bellossom, M|
+|poke|p1|Alcremie, F|
+|poke|p1|Salazzle, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Togekiss, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Rotom-Heat|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|switch|p2a: Crimson|Toxapex, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Aaron Har)
+|
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|move|p2a: Crimson|Scald|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-damage|p1a: Salazzle|74/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Salazzle|80/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|switch|p2a: Apocalypse|Hydreigon, M|100/100
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Salazzle|62/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|move|p2a: Apocalypse|Earth Power|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|move|p1a: Salazzle|Toxic|p2a: Apocalypse
+|-status|p2a: Apocalypse|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Salazzle|68/100|[from] item: Black Sludge
+|-damage|p2a: Apocalypse|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p1a: Bellossom|Bellossom, M|100/100
+|move|p2a: Apocalypse|Earth Power|p1a: Bellossom
+|-resisted|p1a: Bellossom
+|-damage|p1a: Bellossom|80/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Bellossom|86/100|[from] item: Leftovers
+|-damage|p2a: Apocalypse|82/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Bellossom|Sleep Powder|p2a: Rotom
+|-status|p2a: Rotom|slp|[from] move: Sleep Powder
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Bellossom|92/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Alcremie|Alcremie, F|100/100
+|cant|p2a: Rotom|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|cant|p2a: Rotom|slp
+|move|p1a: Alcremie|Mystical Fire|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|82/100 slp
+|-unboost|p2a: Rotom|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|cant|p2a: Rotom|slp
+|move|p1a: Alcremie|Mystical Fire|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|63/100 slp
+|-unboost|p2a: Rotom|spa|1
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|switch|p1a: Salazzle|Salazzle, F|68/100
+|-curestatus|p2a: Rotom|slp|[msg]
+|move|p2a: Rotom|Volt Switch|p1a: Salazzle
+|-damage|p1a: Salazzle|31/100
+|
+|switch|p2a: Apocalypse|Hydreigon, M|82/100 tox|[from]move: Volt Switch
+|
+|-heal|p1a: Salazzle|37/100|[from] item: Black Sludge
+|-damage|p2a: Apocalypse|76/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p1a: Alcremie|Alcremie, F|100/100
+|move|p2a: Apocalypse|Dark Pulse|p1a: Alcremie
+|-resisted|p1a: Alcremie
+|-damage|p1a: Alcremie|86/100
+|
+|-heal|p1a: Alcremie|92/100|[from] item: Leftovers
+|-damage|p2a: Apocalypse|63/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p2a: Crimson|Toxapex, M, shiny|100/100
+|move|p1a: Alcremie|Mystical Fire|p2a: Crimson
+|-resisted|p2a: Crimson
+|-damage|p2a: Crimson|94/100
+|-unboost|p2a: Crimson|spa|1
+|
+|-heal|p1a: Alcremie|98/100|[from] item: Leftovers
+|-heal|p2a: Crimson|100/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|switch|p1a: Salazzle|Salazzle, F|37/100
+|move|p2a: Crimson|Scald|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-damage|p1a: Salazzle|2/100
+|
+|-heal|p1a: Salazzle|8/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|move|p1a: Salazzle|Toxic|p2a: Crimson
+|-status|p2a: Crimson|tox
+|move|p2a: Crimson|Scald|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|faint|p1a: Salazzle
+|
+|-damage|p2a: Crimson|94/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|14
+|
+|move|p2a: Crimson|Scald|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|88/100
+|move|p1a: Torkoal|Stealth Rock|p2a: Crimson
+|-sidestart|p2: HAX GOD LOL|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Crimson|100/100 tox|[from] item: Black Sludge
+|-damage|p2a: Crimson|88/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|move|p2a: Crimson|Recover|p2a: Crimson
+|-heal|p2a: Crimson|100/100 tox
+|move|p1a: Torkoal|Earth Power|p2a: Crimson
+|-supereffective|p2a: Crimson
+|-damage|p2a: Crimson|72/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Crimson|78/100 tox|[from] item: Black Sludge
+|-damage|p2a: Crimson|60/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p2a: Apocalypse|Hydreigon, M|63/100 tox
+|-damage|p2a: Apocalypse|51/100 tox|[from] Stealth Rock
+|move|p1a: Torkoal|Lava Plume|p2a: Apocalypse
+|-resisted|p2a: Apocalypse
+|-damage|p2a: Apocalypse|32/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Apocalypse|26/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|switch|p1a: Alcremie|Alcremie, F|98/100
+|move|p2a: Apocalypse|Earth Power|p1a: Alcremie
+|-damage|p1a: Alcremie|77/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Alcremie|83/100|[from] item: Leftovers
+|-damage|p2a: Apocalypse|13/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p1a: Shiftry|Shiftry, M|100/100
+|move|p2a: Apocalypse|Earth Power|p1a: Shiftry
+|-resisted|p1a: Shiftry
+|-damage|p1a: Shiftry|76/100
+|
+|-weather|none
+|-damage|p2a: Apocalypse|0 fnt|[from] psn
+|faint|p2a: Apocalypse
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|63/100
+|-damage|p2a: Rotom|38/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Rotom|Overheat|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|22/100
+|-unboost|p2a: Rotom|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p1a: Ninetales|Mystical Fire|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|10/100
+|-unboost|p2a: Rotom|spa|1
+|move|p2a: Rotom|Overheat|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Shiftry|Shiftry, M|76/100
+|turn|21
+|inactive|HAX GOD LOL has 120 seconds left.
+|
+|move|p1a: Shiftry|Dark Pulse|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Furry|Cinderace, F|100/100
+|turn|22
+|
+|move|p1a: Shiftry|Growth|p1a: Shiftry
+|-boost|p1a: Shiftry|atk|2
+|-boost|p1a: Shiftry|spa|2
+|move|p2a: Furry|U-turn|p1a: Shiftry
+|-supereffective|p1a: Shiftry
+|-crit|p1a: Shiftry
+|-damage|p1a: Shiftry|0 fnt
+|faint|p1a: Shiftry
+|inactive|HAX GOD LOL has 120 seconds left.
+|
+|switch|p2a: Keess|Togekiss, F|100/100|[from]move: U-turn
+|-damage|p2a: Keess|75/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Keess|82/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Alcremie|Alcremie, F|83/100
+|turn|23
+|
+|move|p2a: Keess|Nasty Plot|p2a: Keess
+|-boost|p2a: Keess|spa|2
+|move|p1a: Alcremie|Mystical Fire|p2a: Keess
+|-damage|p2a: Keess|54/100
+|-unboost|p2a: Keess|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Keess|60/100|[from] item: Leftovers
+|-heal|p1a: Alcremie|89/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Keess|Air Slash|p1a: Alcremie
+|-damage|p1a: Alcremie|57/100
+|cant|p1a: Alcremie|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Keess|66/100|[from] item: Leftovers
+|-heal|p1a: Alcremie|63/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Keess|Air Slash|p1a: Alcremie
+|-damage|p1a: Alcremie|27/100
+|cant|p1a: Alcremie|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Keess|72/100|[from] item: Leftovers
+|-heal|p1a: Alcremie|33/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|HAX GOD LOL has 120 seconds left.
+|
+|move|p2a: Keess|Air Slash|p1a: Alcremie
+|-damage|p1a: Alcremie|0 fnt
+|faint|p1a: Alcremie
+|
+|-weather|none
+|-heal|p2a: Keess|78/100|[from] item: Leftovers
+|upkeep
+|l|☆Aaron Har
+|inactive|Aaron Har disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆Aaron Har
+|inactive|Aaron Har reconnected and has 120 seconds left.
+|player|p1|Aaron Har|acetrainer
+|
+|switch|p1a: Torkoal|Torkoal, M|88/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|27
+|
+|move|p2a: Keess|Air Slash|p1a: Torkoal
+|-damage|p1a: Torkoal|13/100
+|move|p1a: Torkoal|Lava Plume|p2a: Keess
+|-damage|p2a: Keess|43/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Keess|50/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Keess|Air Slash|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Keess|56/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Bellossom|Bellossom, M|92/100
+|turn|29
+|
+|move|p1a: Bellossom|Sleep Powder|p2a: Keess
+|-status|p2a: Keess|slp|[from] move: Sleep Powder
+|cant|p2a: Keess|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Bellossom|98/100|[from] item: Leftovers
+|-heal|p2a: Keess|62/100 slp|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Bellossom|Quiver Dance|p1a: Bellossom
+|-boost|p1a: Bellossom|spa|1
+|-boost|p1a: Bellossom|spd|1
+|-boost|p1a: Bellossom|spe|1
+|cant|p2a: Keess|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Bellossom|100/100|[from] item: Leftovers
+|-heal|p2a: Keess|68/100 slp|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Bellossom|Quiver Dance|p1a: Bellossom
+|-boost|p1a: Bellossom|spa|1
+|-boost|p1a: Bellossom|spd|1
+|-boost|p1a: Bellossom|spe|1
+|cant|p2a: Keess|slp
+|
+|-weather|none
+|-heal|p2a: Keess|74/100 slp|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Bellossom|Quiver Dance|p1a: Bellossom
+|-boost|p1a: Bellossom|spa|1
+|-boost|p1a: Bellossom|spd|1
+|-boost|p1a: Bellossom|spe|1
+|-curestatus|p2a: Keess|slp|[msg]
+|move|p2a: Keess|Air Slash|p1a: Bellossom
+|-supereffective|p1a: Bellossom
+|-damage|p1a: Bellossom|52/100
+|
+|-heal|p1a: Bellossom|59/100|[from] item: Leftovers
+|-heal|p2a: Keess|80/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Bellossom|Sleep Powder|p2a: Keess
+|-status|p2a: Keess|slp|[from] move: Sleep Powder
+|cant|p2a: Keess|slp
+|
+|-heal|p1a: Bellossom|65/100|[from] item: Leftovers
+|-heal|p2a: Keess|86/100 slp|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p2a: Furry|Cinderace, F|100/100
+|move|p1a: Bellossom|Giga Drain|p2a: Furry
+|-resisted|p2a: Furry
+|-damage|p2a: Furry|42/100
+|-heal|p1a: Bellossom|95/100|[from] drain|[of] p2a: Furry
+|
+|-heal|p1a: Bellossom|100/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Bellossom|Giga Drain|p2a: Furry
+|-resisted|p2a: Furry
+|-damage|p2a: Furry|0 fnt
+|faint|p2a: Furry
+|
+|upkeep
+|
+|switch|p2a: Crimson|Toxapex, M, shiny|93/100 tox
+|-damage|p2a: Crimson|80/100 tox|[from] Stealth Rock
+|turn|36
+|inactive|HAX GOD LOL has 120 seconds left.
+|
+|move|p1a: Bellossom|Giga Drain|p2a: Crimson
+|-damage|p2a: Crimson|29/100 tox
+|move|p2a: Crimson|Toxic|p1a: Bellossom
+|-status|p1a: Bellossom|tox
+|
+|-heal|p2a: Crimson|35/100 tox|[from] item: Black Sludge
+|-damage|p1a: Bellossom|94/100 tox|[from] psn
+|-damage|p2a: Crimson|29/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|switch|p2a: Keess|Togekiss, F|86/100 slp
+|-damage|p2a: Keess|61/100 slp|[from] Stealth Rock
+|move|p1a: Bellossom|Giga Drain|p2a: Keess
+|-resisted|p2a: Keess
+|-damage|p2a: Keess|23/100 slp
+|-heal|p1a: Bellossom|100/100 tox|[from] drain|[of] p2a: Keess
+|
+|-heal|p2a: Keess|29/100 slp|[from] item: Leftovers
+|-damage|p1a: Bellossom|88/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|move|p1a: Bellossom|Giga Drain|p2a: Keess
+|-resisted|p2a: Keess
+|-damage|p2a: Keess|0 fnt
+|-heal|p1a: Bellossom|100/100 tox|[from] drain|[of] p2a: Keess
+|faint|p2a: Keess
+|
+|-damage|p1a: Bellossom|82/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Gojira|Tyranitar, M|100/100
+|-damage|p2a: Gojira|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gojira
+|turn|39
+|
+|move|p1a: Bellossom|Giga Drain|p2a: Gojira
+|-supereffective|p2a: Gojira
+|-damage|p2a: Gojira|0 fnt
+|-heal|p1a: Bellossom|100/100 tox|[from] drain|[of] p2a: Gojira
+|faint|p2a: Gojira
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bellossom|94/100 tox|[from] Sandstorm
+|-heal|p1a: Bellossom|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Bellossom|76/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Crimson|Toxapex, M, shiny|62/100 tox
+|-damage|p2a: Crimson|50/100 tox|[from] Stealth Rock
+|turn|40
+|
+|move|p1a: Bellossom|Giga Drain|p2a: Crimson
+|-damage|p2a: Crimson|0 fnt
+|-heal|p1a: Bellossom|100/100 tox|[from] drain|[of] p2a: Crimson
+|faint|p2a: Crimson
+|
+|win|Aaron Har
+|raw|Aaron Har's rating: 1262 → 1289(+27 for winning)
+|raw|HAX GOD LOL's rating: 1286 → 1259(-27 for losing)
+|l|☆HAX GOD LOL

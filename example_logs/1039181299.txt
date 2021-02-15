@@ -1,0 +1,506 @@
+|ScrapeTime|2020-01-01-16:25:30
+|j|☆Musechrant
+|j|☆Algometeo
+|player|p1|Musechrant|256|1015
+|player|p2|Algometeo|102|1008
+|teamsize|p1|6
+|teamsize|p2|1
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Centiskorch, M|
+|poke|p1|Rillaboom, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Aegislash, M|
+|poke|p1|Obstagoon, M|
+|poke|p1|Mamoswine, F|
+|poke|p2|Shuckle, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Shuckle|Shuckle, F|100/100
+|turn|1
+|
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|move|p2a: Shuckle|Power Split|p1a: Rotom
+|-activate|p2a: Shuckle|move: Power Split|[of] p1a: Rotom
+|
+|upkeep
+|turn|2
+|c|☆Algometeo|Nasty plot
+|c|☆Algometeo|0_0
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Shuckle
+|-supereffective|p2a: Shuckle
+|-damage|p2a: Shuckle|41/100
+|move|p2a: Shuckle|Acupressure|p2a: Shuckle
+|-boost|p2a: Shuckle|evasion|2
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Shuckle|[miss]
+|-miss|p1a: Rotom|p2a: Shuckle
+|move|p2a: Shuckle|Rest|p2a: Shuckle
+|-status|p2a: Shuckle|slp|[from] move: Rest
+|-heal|p2a: Shuckle|100/100 slp|[silent]
+|-enditem|p2a: Shuckle|Chesto Berry|[eat]
+|-curestatus|p2a: Shuckle|slp|[msg]
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Shuckle
+|-supereffective|p2a: Shuckle
+|-damage|p2a: Shuckle|44/100
+|move|p2a: Shuckle|Acupressure|p2a: Shuckle
+|-boost|p2a: Shuckle|spe|2
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Shuckle|[miss]
+|-miss|p1a: Rotom|p2a: Shuckle
+|move|p2a: Shuckle|Acupressure|p2a: Shuckle
+|-boost|p2a: Shuckle|atk|2
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Shuckle|[miss]
+|-miss|p1a: Rotom|p2a: Shuckle
+|move|p2a: Shuckle|Acupressure|p2a: Shuckle
+|-boost|p2a: Shuckle|spd|2
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Shuckle
+|-supereffective|p2a: Shuckle
+|-damage|p2a: Shuckle|14/100
+|move|p2a: Shuckle|Rest|p2a: Shuckle
+|-status|p2a: Shuckle|slp|[from] move: Rest
+|-heal|p2a: Shuckle|100/100 slp|[silent]
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Shuckle|[miss]
+|-miss|p1a: Rotom|p2a: Shuckle
+|cant|p2a: Shuckle|slp
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Shuckle
+|-supereffective|p2a: Shuckle
+|-damage|p2a: Shuckle|73/100 slp
+|cant|p2a: Shuckle|slp
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Rotom|Volt Switch|p2a: Shuckle|[miss]
+|-miss|p1a: Rotom|p2a: Shuckle
+|-curestatus|p2a: Shuckle|slp|[msg]
+|move|p2a: Shuckle|Acupressure|p2a: Shuckle
+|-boost|p2a: Shuckle|evasion|2
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|move|p2a: Shuckle|Acupressure|p2a: Shuckle
+|-boost|p2a: Shuckle|spa|2
+|
+|upkeep
+|turn|12
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Sacred Sword|p2a: Shuckle
+|-damage|p2a: Shuckle|55/100
+|move|p2a: Shuckle|Power Split|p1a: Aegislash
+|-activate|p2a: Shuckle|move: Power Split|[of] p1a: Aegislash
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Aegislash|Sacred Sword|p2a: Shuckle
+|-damage|p2a: Shuckle|43/100
+|move|p2a: Shuckle|Acupressure|p2a: Shuckle
+|-boost|p2a: Shuckle|spa|2
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Aegislash|Sacred Sword|p2a: Shuckle
+|-damage|p2a: Shuckle|32/100
+|move|p2a: Shuckle|Acupressure|p2a: Shuckle
+|-boost|p2a: Shuckle|atk|2
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Aegislash|Sacred Sword|p2a: Shuckle
+|-damage|p2a: Shuckle|22/100
+|move|p2a: Shuckle|Rest|p2a: Shuckle
+|-status|p2a: Shuckle|slp|[from] move: Rest
+|-heal|p2a: Shuckle|100/100 slp|[silent]
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Aegislash|Sacred Sword|p2a: Shuckle
+|-damage|p2a: Shuckle|90/100 slp
+|cant|p2a: Shuckle|slp
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Centiskorch|Centiskorch, M|100/100
+|cant|p2a: Shuckle|slp
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Centiskorch|Fire Lash|p2a: Shuckle|[miss]
+|-miss|p1a: Centiskorch|p2a: Shuckle
+|-curestatus|p2a: Shuckle|slp|[msg]
+|move|p2a: Shuckle|Acupressure|p2a: Shuckle
+|-boost|p2a: Shuckle|def|2
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Centiskorch|Fire Lash|p2a: Shuckle
+|-damage|p2a: Shuckle|79/100
+|-unboost|p2a: Shuckle|def|1
+|move|p2a: Shuckle|Rollout|p1a: Centiskorch
+|-supereffective|p1a: Centiskorch
+|-damage|p1a: Centiskorch|0 fnt
+|faint|p1a: Centiskorch
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|20
+|
+|move|p1a: Rotom|Thunderbolt|p2a: Shuckle|[miss]
+|-miss|p1a: Rotom|p2a: Shuckle
+|move|p2a: Shuckle|Rollout|p1a: Rotom|[from]lockedmove
+|-damage|p1a: Rotom|40/100
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Rotom|Thunderbolt|p2a: Shuckle|[miss]
+|-miss|p1a: Rotom|p2a: Shuckle
+|move|p2a: Shuckle|Rollout|p1a: Rotom|[from]lockedmove
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|turn|22
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Shuckle|Rollout|p1a: Aegislash|[from]lockedmove
+|-activate|p1a: Aegislash|move: Protect
+|-unboost|p2a: Shuckle|atk|1
+|
+|upkeep
+|turn|23
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Sacred Sword|p2a: Shuckle
+|-damage|p2a: Shuckle|61/100
+|move|p2a: Shuckle|Acupressure|p2a: Shuckle
+|-boost|p2a: Shuckle|evasion|2
+|
+|upkeep
+|turn|24
+|
+|switch|p1a: Obstagoon|Obstagoon, M|100/100
+|move|p2a: Shuckle|Acupressure|p2a: Shuckle
+|-boost|p2a: Shuckle|spe|2
+|
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|25
+|
+|move|p1a: Obstagoon|Parting Shot|p2a: Shuckle
+|-unboost|p2a: Shuckle|atk|1
+|-unboost|p2a: Shuckle|spa|1
+|
+|switch|p1a: Mamoswine|Mamoswine, F|100/100|[from]move: Parting Shot
+|move|p2a: Shuckle|Power Split|p1a: Mamoswine
+|-activate|p2a: Shuckle|move: Power Split|[of] p1a: Mamoswine
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Shuckle|Acupressure|p2a: Shuckle
+|-boost|p2a: Shuckle|atk|2
+|move|p1a: Mamoswine|Avalanche|p2a: Shuckle
+|-damage|p2a: Shuckle|51/100
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Obstagoon|Obstagoon, M|100/100 brn
+|move|p2a: Shuckle|Acupressure|p2a: Shuckle
+|-boost|p2a: Shuckle|spe|2
+|
+|-damage|p1a: Obstagoon|94/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p1a: Obstagoon|Iron Tail|p2a: Shuckle|[miss]
+|-miss|p1a: Obstagoon|p2a: Shuckle
+|move|p2a: Shuckle|Acupressure|p2a: Shuckle
+|-boost|p2a: Shuckle|atk|2
+|
+|-damage|p1a: Obstagoon|88/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|move|p1a: Obstagoon|Parting Shot|p2a: Shuckle|[miss]
+|-miss|p1a: Obstagoon|p2a: Shuckle
+|move|p2a: Shuckle|Rest|p2a: Shuckle
+|-status|p2a: Shuckle|slp|[from] move: Rest
+|-heal|p2a: Shuckle|100/100 slp|[silent]
+|
+|-damage|p1a: Obstagoon|82/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p1a: Obstagoon|Parting Shot|p2a: Shuckle
+|-unboost|p2a: Shuckle|atk|1
+|-unboost|p2a: Shuckle|spa|1
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100|[from]move: Parting Shot
+|cant|p2a: Shuckle|slp
+|
+|upkeep
+|turn|31
+|
+|switch|p1a: Obstagoon|Obstagoon, M|82/100 brn
+|cant|p2a: Shuckle|slp
+|
+|-damage|p1a: Obstagoon|76/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p1a: Obstagoon|Parting Shot|p2a: Shuckle|[miss]
+|-miss|p1a: Obstagoon|p2a: Shuckle
+|-curestatus|p2a: Shuckle|slp|[msg]
+|move|p2a: Shuckle|Rollout|p1a: Obstagoon
+|-damage|p1a: Obstagoon|34/100 brn
+|
+|-damage|p1a: Obstagoon|27/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p1a: Obstagoon|Obstruct|p1a: Obstagoon
+|-singleturn|p1a: Obstagoon|Protect
+|move|p2a: Shuckle|Rollout|p1a: Obstagoon|[from]lockedmove
+|-activate|p1a: Obstagoon|move: Protect
+|-unboost|p2a: Shuckle|def|2
+|
+|-damage|p1a: Obstagoon|21/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|move|p1a: Obstagoon|Parting Shot|p2a: Shuckle|[miss]
+|-miss|p1a: Obstagoon|p2a: Shuckle
+|move|p2a: Shuckle|Acupressure|p2a: Shuckle
+|-boost|p2a: Shuckle|accuracy|2
+|
+|-damage|p1a: Obstagoon|15/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|move|p1a: Obstagoon|Parting Shot|p2a: Shuckle|[miss]
+|-miss|p1a: Obstagoon|p2a: Shuckle
+|move|p2a: Shuckle|Acupressure|p2a: Shuckle
+|-boost|p2a: Shuckle|spa|2
+|
+|-damage|p1a: Obstagoon|9/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|move|p1a: Obstagoon|Parting Shot|p2a: Shuckle
+|-unboost|p2a: Shuckle|atk|1
+|-unboost|p2a: Shuckle|spa|1
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100|[from]move: Parting Shot
+|move|p2a: Shuckle|Acupressure|p2a: Shuckle
+|-boost|p2a: Shuckle|atk|2
+|
+|upkeep
+|turn|37
+|
+|move|p2a: Shuckle|Acupressure|p2a: Shuckle
+|-boost|p2a: Shuckle|def|2
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Sacred Sword|p2a: Shuckle
+|-damage|p2a: Shuckle|84/100
+|
+|upkeep
+|turn|38
+|
+|move|p2a: Shuckle|Acupressure|p2a: Shuckle
+|-boost|p2a: Shuckle|spa|2
+|move|p1a: Aegislash|Sacred Sword|p2a: Shuckle
+|-damage|p2a: Shuckle|66/100
+|
+|upkeep
+|turn|39
+|
+|move|p2a: Shuckle|Acupressure|p2a: Shuckle
+|-boost|p2a: Shuckle|def|2
+|move|p1a: Aegislash|Sacred Sword|p2a: Shuckle
+|-damage|p2a: Shuckle|49/100
+|
+|upkeep
+|turn|40
+|
+|move|p2a: Shuckle|Rest|p2a: Shuckle
+|-status|p2a: Shuckle|slp|[from] move: Rest
+|-heal|p2a: Shuckle|100/100 slp|[silent]
+|move|p1a: Aegislash|Sacred Sword|p2a: Shuckle
+|-damage|p2a: Shuckle|82/100 slp
+|
+|upkeep
+|turn|41
+|
+|cant|p2a: Shuckle|slp
+|move|p1a: Aegislash|Sacred Sword|p2a: Shuckle
+|-damage|p2a: Shuckle|65/100 slp
+|
+|upkeep
+|turn|42
+|
+|cant|p2a: Shuckle|slp
+|move|p1a: Aegislash|Sacred Sword|p2a: Shuckle
+|-damage|p2a: Shuckle|48/100 slp
+|
+|upkeep
+|turn|43
+|
+|-curestatus|p2a: Shuckle|slp|[msg]
+|move|p2a: Shuckle|Rest|p2a: Shuckle
+|-status|p2a: Shuckle|slp|[from] move: Rest
+|-heal|p2a: Shuckle|100/100 slp|[silent]
+|move|p1a: Aegislash|Sacred Sword|p2a: Shuckle
+|-damage|p2a: Shuckle|85/100 slp
+|
+|upkeep
+|turn|44
+|
+|cant|p2a: Shuckle|slp
+|move|p1a: Aegislash|Sacred Sword|p2a: Shuckle
+|-damage|p2a: Shuckle|68/100 slp
+|
+|upkeep
+|turn|45
+|
+|cant|p2a: Shuckle|slp
+|move|p1a: Aegislash|Sacred Sword|p2a: Shuckle
+|-damage|p2a: Shuckle|51/100 slp
+|
+|upkeep
+|turn|46
+|
+|-curestatus|p2a: Shuckle|slp|[msg]
+|move|p2a: Shuckle|Acupressure|p2a: Shuckle
+|-boost|p2a: Shuckle|spa|1
+|move|p1a: Aegislash|Sacred Sword|p2a: Shuckle
+|-damage|p2a: Shuckle|33/100
+|
+|upkeep
+|turn|47
+|
+|move|p2a: Shuckle|Rest|p2a: Shuckle
+|-status|p2a: Shuckle|slp|[from] move: Rest
+|-heal|p2a: Shuckle|100/100 slp|[silent]
+|move|p1a: Aegislash|Sacred Sword|p2a: Shuckle
+|-damage|p2a: Shuckle|83/100 slp
+|
+|upkeep
+|turn|48
+|
+|cant|p2a: Shuckle|slp
+|move|p1a: Aegislash|Sacred Sword|p2a: Shuckle
+|-damage|p2a: Shuckle|68/100 slp
+|
+|upkeep
+|turn|49
+|
+|cant|p2a: Shuckle|slp
+|move|p1a: Aegislash|Sacred Sword|p2a: Shuckle
+|-damage|p2a: Shuckle|50/100 slp
+|
+|upkeep
+|turn|50
+|
+|-curestatus|p2a: Shuckle|slp|[msg]
+|move|p2a: Shuckle|Rest|p2a: Shuckle
+|-status|p2a: Shuckle|slp|[from] move: Rest
+|-heal|p2a: Shuckle|100/100 slp|[silent]
+|move|p1a: Aegislash|Sacred Sword|p2a: Shuckle
+|-damage|p2a: Shuckle|82/100 slp
+|
+|upkeep
+|turn|51
+|
+|cant|p2a: Shuckle|slp
+|move|p1a: Aegislash|Sacred Sword|p2a: Shuckle
+|-damage|p2a: Shuckle|66/100 slp
+|
+|upkeep
+|turn|52
+|
+|cant|p2a: Shuckle|slp
+|move|p1a: Aegislash|Sacred Sword|p2a: Shuckle
+|-damage|p2a: Shuckle|50/100 slp
+|
+|upkeep
+|turn|53
+|
+|-curestatus|p2a: Shuckle|slp|[msg]
+|move|p2a: Shuckle|Acupressure|p2a: Shuckle
+|-boost|p2a: Shuckle|def|2
+|move|p1a: Aegislash|Sacred Sword|p2a: Shuckle
+|-damage|p2a: Shuckle|34/100
+|
+|upkeep
+|turn|54
+|
+|move|p2a: Shuckle|Rest|p2a: Shuckle
+|-status|p2a: Shuckle|slp|[from] move: Rest
+|-heal|p2a: Shuckle|100/100 slp|[silent]
+|move|p1a: Aegislash|Sacred Sword|p2a: Shuckle
+|-damage|p2a: Shuckle|85/100 slp
+|
+|upkeep
+|turn|55
+|-message|Musechrant forfeited.
+|
+|win|Algometeo
+|l|☆Musechrant
+|raw|Musechrant's rating: 1015 → 1003(-12 for losing)
+|raw|Algometeo's rating: 1008 → 1047(+39 for winning)

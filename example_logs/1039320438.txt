@@ -1,0 +1,265 @@
+|ScrapeTime|2020-01-01-21:24:38
+|j|☆gta-zees
+|j|☆laddergod83
+|player|p1|gta-zees|cheren|1589
+|player|p2|laddergod83|proton|1525
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Dracovish|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Cursola, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Umbreon, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by laddergod83)
+|
+|start
+|switch|p1a: Dracovish|Dracovish|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|79/100
+|
+|switch|p2a: Umbreon|Umbreon, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Dragapult|U-turn|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|78/100
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100|[from]move: U-turn
+|move|p2a: Umbreon|Yawn|p1a: Conkeldurr
+|-start|p1a: Conkeldurr|move: Yawn|[of] p2a: Umbreon
+|
+|-heal|p2a: Umbreon|84/100|[from] item: Leftovers
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Conkeldurr|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|6/100
+|
+|-damage|p1a: Conkeldurr|94/100 brn|[from] brn
+|-end|p1a: Conkeldurr|move: Yawn|[silent]
+|upkeep
+|turn|4
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|84/100
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Umbreon|Umbreon, M|84/100
+|switch|p1a: Dragapult|Dragapult, F|79/100
+|
+|-heal|p2a: Umbreon|90/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Dragapult|U-turn|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|67/100
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|94/100 brn|[from]move: U-turn
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|73/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Conkeldurr|Earthquake|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|-damage|p1a: Conkeldurr|82/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p2a: Rotom|Volt Switch|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|36/100 brn
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100|[from]move: Volt Switch
+|move|p1a: Conkeldurr|Earthquake|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-damage|p1a: Conkeldurr|29/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|9
+|
+|switch|p1a: Dragapult|Dragapult, F|79/100
+|move|p2a: Rotom|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|57/100
+|
+|switch|p2a: Umbreon|Umbreon, M|73/100|[from]move: Volt Switch
+|
+|-heal|p2a: Umbreon|79/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Dragapult|U-turn|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|57/100
+|
+|switch|p1a: Dracovish|Dracovish|100/100|[from]move: U-turn
+|move|p2a: Umbreon|Foul Play|p1a: Dracovish
+|-damage|p1a: Dracovish|60/100
+|
+|-heal|p2a: Umbreon|63/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|29/100 brn
+|move|p2a: Umbreon|Protect||[still]
+|-fail|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|70/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|23/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Dragapult|Dragapult, M|6/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-damage|p1a: Conkeldurr|17/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|84/100
+|move|p2a: Dragapult|Thunderbolt|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|30/100
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|switch|p1a: Cursola|Cursola, F|100/100
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Umbreon|Umbreon, M|70/100
+|move|p1a: Cursola|Shadow Ball|p2a: Umbreon
+|-resisted|p2a: Umbreon
+|-damage|p2a: Umbreon|54/100
+|-unboost|p2a: Umbreon|spd|1
+|
+|-heal|p2a: Umbreon|60/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|30/100
+|move|p2a: Umbreon|Foul Play|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|23/100
+|
+|-heal|p2a: Umbreon|66/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|73/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|72/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Dragapult|Dragapult, M|6/100
+|move|p1a: Mandibuzz|Foul Play|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|c|☆laddergod83|lol
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|19
+|
+|move|p2a: Rotom|Volt Switch|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|33/100
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100|[from]move: Volt Switch
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|83/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|17/100 brn
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Conkeldurr
+|-sidestart|p1: gta-zees|move: Stealth Rock
+|
+|-damage|p1a: Conkeldurr|11/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Conkeldurr|Drain Punch|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-damage|p1a: Conkeldurr|4/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Rotom
+|-damage|p2a: Rotom|15/100
+|-heal|p1a: Conkeldurr|34/100 brn|[from] drain|[of] p2a: Rotom
+|
+|-damage|p1a: Conkeldurr|27/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-damage|p1a: Conkeldurr|21/100 brn|[from] brn
+|upkeep
+|c|☆laddergod83|fucking nson of bitch
+|-message|laddergod83 forfeited.
+|
+|win|gta-zees
+|l|☆laddergod83
+|c|☆gta-zees|Lol

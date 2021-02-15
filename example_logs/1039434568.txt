@@ -1,0 +1,262 @@
+|ScrapeTime|2020-01-02-01:36:43
+|j|☆Ihwar
+|j|☆VenomBoner0
+|player|p1|Ihwar|rosa|1000
+|player|p2|VenomBoner0|1|1055
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Dracovish|
+|poke|p1|Cinderace, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Toxtricity-Low-Key, M|
+|poke|p1|Tyranitar, F|
+|poke|p2|Appletun, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Duraludon, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Inteleon, M|
+|poke|p2|Centiskorch, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by VenomBoner0)
+|
+|start
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|move|p2a: Grimmsnarl|Trick|p1a: Corsola
+|-activate|p2a: Grimmsnarl|move: Trick|[of] p1a: Corsola
+|-item|p1a: Corsola|Choice Scarf|[from] move: Trick
+|-item|p2a: Grimmsnarl|Eviolite|[from] move: Trick
+|move|p1a: Corsola|Will-O-Wisp|p2a: Grimmsnarl
+|-status|p2a: Grimmsnarl|brn
+|
+|-damage|p2a: Grimmsnarl|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Dracovish|[miss]
+|-miss|p2a: Grimmsnarl|p1a: Dracovish
+|
+|-damage|p2a: Grimmsnarl|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Dracovish
+|-status|p1a: Dracovish|par
+|cant|p1a: Dracovish|par
+|
+|-damage|p2a: Grimmsnarl|82/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Grimmsnarl|Play Rough|p1a: Dracovish
+|-supereffective|p1a: Dracovish
+|-damage|p1a: Dracovish|45/100 par
+|move|p1a: Dracovish|Fishious Rend|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|18/100 brn
+|
+|-damage|p2a: Grimmsnarl|11/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, M|100/100
+|move|p2a: Grimmsnarl|Play Rough|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|86/100
+|
+|-damage|p2a: Grimmsnarl|5/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Toxtricity|Hyper Voice|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|7
+|
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: Toxtricity|Volt Switch|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|76/100
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Centiskorch|Centiskorch, F|100/100
+|move|p1a: Corsola|Will-O-Wisp|p2a: Centiskorch
+|-start|p2a: Centiskorch|ability: Flash Fire
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Centiskorch|Substitute|p2a: Centiskorch
+|-start|p2a: Centiskorch|Substitute
+|-damage|p2a: Centiskorch|75/100
+|
+|-heal|p2a: Centiskorch|82/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Centiskorch|Coil|p2a: Centiskorch
+|-boost|p2a: Centiskorch|atk|1
+|-boost|p2a: Centiskorch|def|1
+|-boost|p2a: Centiskorch|accuracy|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Centiskorch|75/100|[from] Sandstorm
+|-heal|p2a: Centiskorch|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Tyranitar|Earthquake|p2a: Centiskorch
+|-end|p2a: Centiskorch|Substitute
+|-damage|p1a: Tyranitar|91/100|[from] item: Life Orb
+|move|p2a: Centiskorch|Leech Life|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-heal|p2a: Centiskorch|100/100|[from] drain|[of] p1a: Tyranitar
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Centiskorch|94/100|[from] Sandstorm
+|-heal|p2a: Centiskorch|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|turn|12
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Centiskorch
+|-supereffective|p2a: Centiskorch
+|-crit|p2a: Centiskorch
+|-damage|p2a: Centiskorch|0 fnt
+|-damage|p1a: Corviknight|67/100|[from] Recoil
+|faint|p2a: Centiskorch
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Duraludon|Duraludon, M|100/100
+|turn|13
+|
+|switch|p1a: Dracovish|Dracovish|45/100 par
+|move|p2a: Duraludon|Stealth Rock|p1a: Dracovish
+|-sidestart|p1: Ihwar|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dracovish|38/100 par|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|move|p2a: Duraludon|Dragon Pulse|p1a: Dracovish
+|-supereffective|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|-damage|p1a: Cinderace|76/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Cinderace|Zen Headbutt|p2a: Duraludon
+|-resisted|p2a: Duraludon
+|-damage|p2a: Duraludon|87/100
+|-damage|p1a: Cinderace|66/100|[from] item: Life Orb
+|move|p2a: Duraludon|Dragon Pulse|p1a: Cinderace
+|-damage|p1a: Cinderace|1/100
+|
+|-heal|p2a: Duraludon|93/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Cinderace|Blaze Kick|p2a: Duraludon
+|-damage|p2a: Duraludon|23/100
+|-damage|p1a: Cinderace|0 fnt|[from] item: Life Orb
+|faint|p1a: Cinderace
+|move|p2a: Duraludon|Dragon Pulse|p1: Cinderace|[notarget]
+|-fail|p2a: Duraludon
+|
+|-heal|p2a: Duraludon|29/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, M|67/100
+|-damage|p1a: Corviknight|55/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Duraludon|Steel Beam|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|21/100
+|-damage|p2a: Duraludon|0 fnt|[from] mindblown
+|faint|p2a: Duraludon
+|-enditem|p1a: Corviknight|Aguav Berry|[eat]
+|-heal|p1a: Corviknight|54/100|[from] item: Aguav Berry
+|move|p1a: Corviknight|Iron Head|p2: Duraludon|[notarget]
+|-fail|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Inteleon|Inteleon, M|100/100
+|turn|18
+|
+|move|p2a: Inteleon|Hydro Pump|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, M|86/100
+|-damage|p1a: Toxtricity|74/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Inteleon|Hydro Pump|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|-damage|p1a: Corsola|88/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Inteleon|Hydro Pump|p1a: Corsola
+|-damage|p1a: Corsola|43/100
+|move|p1a: Corsola|Reflect|p1a: Corsola
+|-sidestart|p1: Ihwar|Reflect
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Inteleon|Hydro Pump|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|win|VenomBoner0
+|l|☆Ihwar
+|raw|Ihwar's rating: 1000 → 1000(+0 for losing)
+|raw|VenomBoner0's rating: 1056 → 1082(+26 for winning)

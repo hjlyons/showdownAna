@@ -1,0 +1,334 @@
+|ScrapeTime|2020-01-02-00:25:42
+|j|☆ImaYEETyou
+|j|☆jRAndomWeeb
+|player|p1|ImaYEETyou|257|
+|player|p2|jRAndomWeeb|223|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxtricity, F|
+|poke|p1|Cinccino, F|
+|poke|p1|Seismitoad, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Gyarados, M|
+|poke|p2|Toxtricity, M|
+|poke|p2|Cinccino, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Gyarados, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cinccino|Cinccino, F|100/100
+|switch|p2a: Cinccino|Cinccino, F|100/100
+|turn|1
+|
+|move|p2a: Cinccino|Tail Slap|p1a: Cinccino
+|-crit|p1a: Cinccino
+|-damage|p1a: Cinccino|70/100
+|-damage|p1a: Cinccino|51/100
+|-damage|p1a: Cinccino|29/100
+|-damage|p1a: Cinccino|10/100
+|-damage|p1a: Cinccino|0 fnt
+|-hitcount|p1a: Cinccino|5
+|faint|p1a: Cinccino
+|
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Cinccino|atk|1
+|turn|2
+|
+|move|p2a: Cinccino|Tail Slap|p1a: Gyarados
+|-damage|p1a: Gyarados|94/100
+|-damage|p1a: Gyarados|86/100
+|-damage|p1a: Gyarados|79/100
+|-damage|p1a: Gyarados|72/100
+|-damage|p1a: Gyarados|65/100
+|-hitcount|p1a: Gyarados|5
+|move|p1a: Gyarados|Substitute|p1a: Gyarados
+|-start|p1a: Gyarados|Substitute
+|-damage|p1a: Gyarados|40/100
+|
+|-heal|p1a: Gyarados|46/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-immune|p1a: Gyarados
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-heal|p1a: Gyarados|53/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Gyarados|Power Whip|p1a: Gyarados|[miss]
+|-miss|p2a: Gyarados|p1a: Gyarados
+|
+|-heal|p1a: Gyarados|59/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Gyarados|Power Whip|p1a: Gyarados
+|-end|p1a: Gyarados|Substitute
+|
+|-heal|p1a: Gyarados|65/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Gyarados|Power Whip|p2a: Gyarados
+|-crit|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|-heal|p1a: Gyarados|71/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|turn|7
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|move|p2a: Toxtricity|Wild Charge|p1a: Excadrill
+|-immune|p1a: Excadrill
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Excadrill|Rock Tomb|p2a: Toxtricity
+|-damage|p2a: Toxtricity|65/100
+|-unboost|p2a: Toxtricity|spe|1
+|move|p2a: Toxtricity|Shift Gear|p2a: Toxtricity
+|-boost|p2a: Toxtricity|spe|2
+|-boost|p2a: Toxtricity|atk|1
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Toxtricity|Throat Chop|p1a: Excadrill
+|-crit|p1a: Excadrill
+|-damage|p1a: Excadrill|34/100
+|-start|p1a: Excadrill|Throat Chop|[silent]
+|move|p1a: Excadrill|Earthquake|p2a: Toxtricity
+|-supereffective|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|turn|10
+|
+|move|p1a: Excadrill|Earthquake|p2a: Seismitoad
+|-damage|p2a: Seismitoad|34/100
+|move|p2a: Seismitoad|Earth Power|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-enditem|p1a: Excadrill|Shuca Berry|[eat]
+|-enditem|p1a: Excadrill|Shuca Berry|[weaken]
+|-damage|p1a: Excadrill|0 fnt
+|-damage|p2a: Seismitoad|24/100|[from] item: Life Orb
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, M|71/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Seismitoad|atk|1
+|turn|11
+|
+|move|p2a: Seismitoad|Sludge Wave|p1a: Gyarados
+|-damage|p1a: Gyarados|42/100
+|-damage|p2a: Seismitoad|14/100|[from] item: Life Orb
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-heal|p1a: Gyarados|48/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Seismitoad|Sludge Wave|p1a: Gyarados
+|-damage|p1a: Gyarados|17/100
+|-damage|p2a: Seismitoad|4/100|[from] item: Life Orb
+|
+|-heal|p1a: Gyarados|24/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Gyarados|Waterfall|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-heal|p1a: Gyarados|30/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Cinccino|Cinccino, F|100/100
+|turn|14
+|
+|move|p2a: Cinccino|Rock Blast|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|15/100
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|-hitcount|p1a: Gyarados|2
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|turn|15
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Seismitoad|Surf|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|54/100
+|-damage|p1a: Seismitoad|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p1a: Seismitoad|Focus Blast|p2a: Tyranitar|[miss]
+|-miss|p1a: Seismitoad|p2a: Tyranitar
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p2a: Tyranitar|Crunch|p1a: Seismitoad
+|-damage|p1a: Seismitoad|22/100
+|move|p1a: Seismitoad|Focus Blast|p2a: Tyranitar|[miss]
+|-miss|p1a: Seismitoad|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p2a: Tyranitar|Crunch|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|turn|19
+|
+|switch|p2a: Cinccino|Cinccino, F|100/100
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|-weather|none
+|upkeep
+|turn|20
+|
+|move|p2a: Cinccino|Bullet Seed|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|88/100
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|76/100
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|62/100
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|48/100
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|35/100
+|-hitcount|p1a: Tyranitar|5
+|move|p1a: Tyranitar|Stone Edge|p2a: Cinccino|[miss]
+|-miss|p1a: Tyranitar|p2a: Cinccino
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Cinccino|Bullet Seed|p1a: Tyranitar|[miss]
+|-miss|p2a: Cinccino|p1a: Tyranitar
+|move|p1a: Tyranitar|Stone Edge|p2a: Cinccino|[miss]
+|-miss|p1a: Tyranitar|p2a: Cinccino
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Cinccino|Bullet Seed|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|22/100
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|10/100
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-hitcount|p1a: Tyranitar|3
+|faint|p1a: Tyranitar
+|
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, F|100/100
+|turn|23
+|
+|switch|p2a: Tyranitar|Tyranitar, F|54/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Toxtricity|Shift Gear|p1a: Toxtricity
+|-boost|p1a: Toxtricity|spe|2
+|-boost|p1a: Toxtricity|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxtricity|94/100|[from] Sandstorm
+|upkeep
+|turn|24
+|
+|move|p1a: Toxtricity|Wild Charge|p2a: Tyranitar
+|-damage|p2a: Tyranitar|7/100
+|-damage|p1a: Toxtricity|79/100|[from] Recoil
+|move|p2a: Tyranitar|Stone Edge|p1a: Toxtricity|[miss]
+|-miss|p2a: Tyranitar|p1a: Toxtricity
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxtricity|73/100|[from] Sandstorm
+|upkeep
+|turn|25
+|
+|move|p1a: Toxtricity|Throat Chop|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxtricity|66/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|turn|26
+|
+|move|p2a: Excadrill|Earthquake|p1a: Toxtricity
+|-supereffective|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|win|jRAndomWeeb

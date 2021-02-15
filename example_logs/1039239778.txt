@@ -1,0 +1,612 @@
+|ScrapeTime|2020-01-01-18:42:27
+|j|☆TigerRadley
+|j|☆Truebeliever
+|player|p1|TigerRadley|263|1125
+|player|p2|Truebeliever|64|1098
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ninjask, M|
+|poke|p1|Weavile, M|
+|poke|p1|Ribombee, F|
+|poke|p1|Salazzle, F|
+|poke|p1|Espeon, F|
+|poke|p1|Excadrill, M|
+|poke|p2|Espeon, F|
+|poke|p2|Bewear, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Sableye, M|
+|poke|p2|Alcremie, F|
+|poke|p2|Dracozolt|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TigerRadley)
+|
+|start
+|switch|p1a: Weavile|Weavile, M|100/100
+|switch|p2a: Bauble|Sableye, M|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|1
+|
+|move|p1a: Weavile|Throat Chop|p2a: Bauble
+|-damage|p2a: Bauble|29/100
+|-start|p2a: Bauble|Throat Chop|[silent]
+|move|p2a: Bauble|Knock Off|p1a: Weavile
+|-resisted|p1a: Weavile
+|-crit|p1a: Weavile
+|-damage|p1a: Weavile|64/100
+|-enditem|p1a: Weavile|Choice Band|[from] move: Knock Off|[of] p2a: Bauble
+|
+|-heal|p2a: Bauble|36/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Roosevelt|Bewear, M|100/100
+|move|p1a: Weavile|Throat Chop|p2a: Roosevelt
+|-resisted|p2a: Roosevelt
+|-damage|p2a: Roosevelt|92/100
+|-start|p2a: Roosevelt|Throat Chop|[silent]
+|
+|-heal|p2a: Roosevelt|98/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Weavile|Brick Break|p2a: Roosevelt
+|-supereffective|p2a: Roosevelt
+|-damage|p2a: Roosevelt|79/100
+|move|p2a: Roosevelt|Body Slam|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|-heal|p2a: Roosevelt|85/100|[from] item: Leftovers
+|-end|p2a: Roosevelt|Throat Chop|[silent]
+|upkeep
+|
+|switch|p1a: Ribombee|Ribombee, F, shiny|100/100
+|turn|4
+|
+|switch|p2a: Sol|Espeon, F|100/100
+|move|p1a: Ribombee|Moonblast|p2a: Sol
+|-damage|p2a: Sol|72/100
+|
+|-heal|p2a: Sol|78/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Ace|Cinderace, M|100/100
+|move|p1a: Ribombee|U-turn|p2a: Ace
+|-resisted|p2a: Ace
+|-damage|p2a: Ace|92/100
+|
+|switch|p1a: Salazzle|Salazzle, F, shiny|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Ace|U-turn|p1a: Salazzle
+|-resisted|p1a: Salazzle
+|-damage|p1a: Salazzle|92/100
+|
+|switch|p2a: Sol|Espeon, F|78/100|[from]move: U-turn
+|move|p1a: Salazzle|Toxic|p2a: Sol
+|move|p2a: Sol|Toxic|p1a: Salazzle|[from]Magic Bounce
+|-immune|p1a: Salazzle
+|
+|-heal|p1a: Salazzle|98/100|[from] item: Black Sludge
+|-heal|p2a: Sol|84/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Sol|Psyshock|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|76/100
+|
+|-heal|p1a: Excadrill|82/100|[from] item: Leftovers
+|-heal|p2a: Sol|90/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Roosevelt|Bewear, M|85/100
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|
+|-heal|p1a: Excadrill|88/100|[from] item: Leftovers
+|-heal|p2a: Roosevelt|91/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Excadrill|Earthquake|p2a: Roosevelt
+|-damage|p2a: Roosevelt|13/100
+|move|p2a: Roosevelt|Drain Punch|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-heal|p2a: Roosevelt|49/100|[from] drain|[of] p1a: Excadrill
+|faint|p1a: Excadrill
+|
+|-heal|p2a: Roosevelt|55/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Espeon|Espeon, F|100/100
+|turn|10
+|
+|switch|p2a: Bon|Alcremie, F|100/100
+|move|p1a: Espeon|Psychic|p2a: Bon
+|-damage|p2a: Bon|65/100
+|
+|-heal|p2a: Bon|71/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|move|p2a: Bon|Mystical Fire|p1a: Espeon
+|-damage|p1a: Espeon|81/100
+|-unboost|p1a: Espeon|spa|1
+|
+|-heal|p1a: Espeon|87/100|[from] item: Leftovers
+|-heal|p2a: Bon|77/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|move|p2a: Bon|Mystical Fire|p1a: Espeon
+|-damage|p1a: Espeon|74/100
+|-unboost|p1a: Espeon|spa|1
+|
+|-heal|p1a: Espeon|80/100|[from] item: Leftovers
+|-heal|p2a: Bon|83/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|move|p2a: Bon|Mystical Fire|p1a: Espeon
+|-damage|p1a: Espeon|67/100
+|-unboost|p1a: Espeon|spa|1
+|
+|-heal|p1a: Espeon|73/100|[from] item: Leftovers
+|-heal|p2a: Bon|89/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Espeon|Psychic|p2a: Bon
+|-damage|p2a: Bon|53/100
+|move|p2a: Bon|Mystical Fire|p1a: Espeon
+|-damage|p1a: Espeon|62/100
+|-unboost|p1a: Espeon|spa|1
+|
+|-heal|p1a: Espeon|68/100|[from] item: Leftovers
+|-heal|p2a: Bon|59/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Espeon|Psychic|p2a: Bon
+|-damage|p2a: Bon|36/100
+|move|p2a: Bon|Mystical Fire|p1a: Espeon
+|-crit|p1a: Espeon
+|-damage|p1a: Espeon|28/100
+|-unboost|p1a: Espeon|spa|1
+|
+|-heal|p1a: Espeon|34/100|[from] item: Leftovers
+|-heal|p2a: Bon|42/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Espeon|Morning Sun|p1a: Espeon
+|-heal|p1a: Espeon|84/100
+|move|p2a: Bon|Recover|p2a: Bon
+|-heal|p2a: Bon|92/100
+|
+|-heal|p1a: Espeon|89/100|[from] item: Leftovers
+|-heal|p2a: Bon|98/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Salazzle|Salazzle, F, shiny|98/100
+|move|p2a: Bon|Mystical Fire|p1a: Salazzle
+|-resisted|p1a: Salazzle
+|-damage|p1a: Salazzle|81/100
+|-unboost|p1a: Salazzle|spa|1
+|
+|-heal|p1a: Salazzle|87/100|[from] item: Black Sludge
+|-heal|p2a: Bon|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Olio|Dracozolt|100/100
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|62/100
+|
+|-heal|p1a: Salazzle|68/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p1a: Salazzle|Toxic|p2a: Olio
+|-status|p2a: Olio|tox
+|move|p2a: Olio|Bolt Beak|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|
+|-heal|p1a: Salazzle|75/100|[from] item: Black Sludge
+|-damage|p2a: Olio|94/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Olio|Bolt Beak|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|-heal|p1a: Salazzle|81/100|[from] item: Black Sludge
+|-damage|p2a: Olio|82/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p2a: Bon|Alcremie, F|100/100
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|56/100
+|
+|-heal|p1a: Salazzle|62/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|move|p1a: Salazzle|Toxic|p2a: Bon
+|-status|p2a: Bon|tox
+|move|p2a: Bon|Aromatherapy|p2a: Bon
+|-activate|p2a: Bon|move: Aromatherapy
+|-curestatus|p2a: Bon|tox|[msg]
+|-curestatus|p2: Olio|tox|[msg]
+|
+|-heal|p1a: Salazzle|68/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|switch|p2a: Sol|Espeon, F|90/100
+|move|p1a: Salazzle|Flamethrower|p2a: Sol
+|-damage|p2a: Sol|73/100
+|-status|p2a: Sol|brn
+|
+|-heal|p1a: Salazzle|74/100|[from] item: Black Sludge
+|-heal|p2a: Sol|79/100 brn|[from] item: Leftovers
+|-damage|p2a: Sol|73/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Sol|Psyshock|p1a: Salazzle
+|-activate|p1a: Salazzle|move: Protect
+|
+|-heal|p1a: Salazzle|80/100|[from] item: Black Sludge
+|-heal|p2a: Sol|79/100 brn|[from] item: Leftovers
+|-damage|p2a: Sol|73/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Salazzle|Flamethrower|p2a: Sol
+|-damage|p2a: Sol|57/100 brn
+|move|p2a: Sol|Psyshock|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|
+|-heal|p1a: Salazzle|87/100|[from] item: Black Sludge
+|-heal|p2a: Sol|63/100 brn|[from] item: Leftovers
+|-damage|p2a: Sol|57/100 brn|[from] brn
+|upkeep
+|turn|26
+|c|☆Truebeliever|Bitch move
+|
+|move|p1a: Salazzle|Protect|p1a: Salazzle
+|-singleturn|p1a: Salazzle|Protect
+|move|p2a: Sol|Calm Mind|p2a: Sol
+|-boost|p2a: Sol|spa|1
+|-boost|p2a: Sol|spd|1
+|
+|-heal|p1a: Salazzle|93/100|[from] item: Black Sludge
+|-heal|p2a: Sol|63/100 brn|[from] item: Leftovers
+|-damage|p2a: Sol|57/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|switch|p1a: Ninjask|Ninjask, M, shiny|100/100
+|move|p2a: Sol|Morning Sun|p2a: Sol
+|-heal|p2a: Sol|100/100 brn
+|
+|-damage|p2a: Sol|95/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|switch|p2a: Olio|Dracozolt|82/100
+|move|p1a: Ninjask|Swords Dance|p1a: Ninjask
+|-boost|p1a: Ninjask|atk|2
+|
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|turn|29
+|
+|move|p1a: Ninjask|Leech Life|p2a: Olio
+|-damage|p2a: Olio|20/100
+|move|p2a: Olio|Bolt Beak|p1a: Ninjask
+|-supereffective|p1a: Ninjask
+|-enditem|p1a: Ninjask|Focus Sash
+|-damage|p1a: Ninjask|1/100
+|
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|turn|30
+|
+|move|p1a: Ninjask|Leech Life|p2a: Olio
+|-damage|p2a: Olio|0 fnt
+|-heal|p1a: Ninjask|13/100|[from] drain|[of] p2a: Olio
+|faint|p2a: Olio
+|
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|
+|switch|p2a: Ace|Cinderace, M|92/100
+|turn|31
+|
+|move|p1a: Ninjask|Acrobatics|p2a: Ace
+|-damage|p2a: Ace|0 fnt
+|faint|p2a: Ace
+|
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|
+|switch|p2a: Bauble|Sableye, M|36/100
+|turn|32
+|
+|move|p2a: Bauble|Will-O-Wisp|p1a: Ninjask
+|-status|p1a: Ninjask|brn
+|move|p1a: Ninjask|Leech Life|p2a: Bauble
+|-damage|p2a: Bauble|0 fnt
+|-heal|p1a: Ninjask|33/100 brn|[from] drain|[of] p2a: Bauble
+|faint|p2a: Bauble
+|
+|-damage|p1a: Ninjask|27/100 brn|[from] brn
+|-ability|p1a: Ninjask|Speed Boost|boost
+|-boost|p1a: Ninjask|spe|1
+|upkeep
+|
+|switch|p2a: Roosevelt|Bewear, M|55/100
+|turn|33
+|
+|move|p1a: Ninjask|Acrobatics|p2a: Roosevelt
+|-supereffective|p2a: Roosevelt
+|-damage|p2a: Roosevelt|15/100
+|move|p2a: Roosevelt|Body Slam|p1a: Ninjask
+|-damage|p1a: Ninjask|0 fnt
+|faint|p1a: Ninjask
+|
+|-heal|p2a: Roosevelt|21/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ribombee|Ribombee, F, shiny|100/100
+|turn|34
+|
+|switch|p2a: Bon|Alcremie, F|100/100
+|move|p1a: Ribombee|Moonblast|p2a: Bon
+|-damage|p2a: Bon|70/100
+|-unboost|p2a: Bon|spa|1
+|
+|-heal|p2a: Bon|76/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Ribombee|U-turn|p2a: Bon
+|-resisted|p2a: Bon
+|-damage|p2a: Bon|66/100
+|
+|switch|p1a: Salazzle|Salazzle, F, shiny|93/100|[from]move: U-turn
+|move|p2a: Bon|Mystical Fire|p1a: Salazzle
+|-resisted|p1a: Salazzle
+|-damage|p1a: Salazzle|83/100
+|-unboost|p1a: Salazzle|spa|1
+|
+|-heal|p1a: Salazzle|89/100|[from] item: Black Sludge
+|-heal|p2a: Bon|72/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p1a: Salazzle|Flamethrower|p2a: Bon
+|-damage|p2a: Bon|55/100
+|move|p2a: Bon|Aromatherapy|p2a: Bon
+|-activate|p2a: Bon|move: Aromatherapy
+|-curestatus|p2: Sol|brn|[msg]
+|
+|-heal|p1a: Salazzle|95/100|[from] item: Black Sludge
+|-heal|p2a: Bon|61/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p1a: Salazzle|Flamethrower|p2a: Bon
+|-damage|p2a: Bon|45/100
+|-status|p2a: Bon|brn
+|move|p2a: Bon|Recover|p2a: Bon
+|-heal|p2a: Bon|95/100 brn
+|
+|-heal|p1a: Salazzle|100/100|[from] item: Black Sludge
+|-heal|p2a: Bon|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Bon|94/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|switch|p1a: Espeon|Espeon, F|89/100
+|move|p2a: Bon|Aromatherapy|p2a: Bon
+|-activate|p2a: Bon|move: Aromatherapy
+|-curestatus|p2a: Bon|brn|[msg]
+|
+|-heal|p1a: Espeon|95/100|[from] item: Leftovers
+|-heal|p2a: Bon|100/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p1a: Espeon|Psychic|p2a: Bon
+|-damage|p2a: Bon|65/100
+|move|p2a: Bon|Mystical Fire|p1a: Espeon
+|-damage|p1a: Espeon|75/100
+|-unboost|p1a: Espeon|spa|1
+|
+|-heal|p1a: Espeon|81/100|[from] item: Leftovers
+|-heal|p2a: Bon|71/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|switch|p2a: Sol|Espeon, F|95/100
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|
+|-heal|p1a: Espeon|87/100|[from] item: Leftovers
+|-heal|p2a: Sol|100/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p1a: Espeon|Hyper Voice|p2a: Sol
+|-damage|p2a: Sol|77/100
+|move|p2a: Sol|Calm Mind|p2a: Sol
+|-boost|p2a: Sol|spa|1
+|-boost|p2a: Sol|spd|1
+|
+|-heal|p1a: Espeon|93/100|[from] item: Leftovers
+|-heal|p2a: Sol|83/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|move|p2a: Sol|Calm Mind|p2a: Sol
+|-boost|p2a: Sol|spa|1
+|-boost|p2a: Sol|spd|1
+|
+|-heal|p1a: Espeon|99/100|[from] item: Leftovers
+|-heal|p2a: Sol|89/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p1a: Espeon|Hyper Voice|p2a: Sol
+|-damage|p2a: Sol|73/100
+|move|p2a: Sol|Calm Mind|p2a: Sol
+|-boost|p2a: Sol|spa|1
+|-boost|p2a: Sol|spd|1
+|
+|-heal|p1a: Espeon|100/100|[from] item: Leftovers
+|-heal|p2a: Sol|79/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|switch|p1a: Ribombee|Ribombee, F, shiny|100/100
+|move|p2a: Sol|Calm Mind|p2a: Sol
+|-boost|p2a: Sol|spa|1
+|-boost|p2a: Sol|spd|1
+|
+|-heal|p2a: Sol|85/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|c|☆Truebeliever|You’re doomed
+|
+|move|p1a: Ribombee|Moonblast|p2a: Sol
+|-damage|p2a: Sol|74/100
+|move|p2a: Sol|Psyshock|p1a: Ribombee
+|-enditem|p1a: Ribombee|Focus Sash
+|-damage|p1a: Ribombee|1/100
+|
+|-heal|p2a: Sol|80/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|move|p1a: Ribombee|U-turn|p2a: Sol
+|-supereffective|p2a: Sol
+|-damage|p2a: Sol|39/100
+|
+|switch|p1a: Espeon|Espeon, F|100/100|[from]move: U-turn
+|move|p2a: Sol|Psyshock|p1a: Espeon
+|-resisted|p1a: Espeon
+|-damage|p1a: Espeon|10/100
+|
+|-heal|p1a: Espeon|16/100|[from] item: Leftovers
+|-heal|p2a: Sol|45/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|move|p1a: Espeon|Psychic|p2a: Sol
+|-resisted|p2a: Sol
+|-damage|p2a: Sol|39/100
+|move|p2a: Sol|Morning Sun|p2a: Sol
+|-heal|p2a: Sol|89/100
+|
+|-heal|p1a: Espeon|22/100|[from] item: Leftovers
+|-heal|p2a: Sol|95/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|move|p1a: Espeon|Morning Sun|p1a: Espeon
+|-heal|p1a: Espeon|71/100
+|move|p2a: Sol|Psyshock|p1a: Espeon
+|-resisted|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|-heal|p2a: Sol|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ribombee|Ribombee, F, shiny|1/100
+|turn|49
+|
+|move|p1a: Ribombee|U-turn|p2a: Sol
+|-supereffective|p2a: Sol
+|-damage|p2a: Sol|61/100
+|
+|switch|p1a: Salazzle|Salazzle, F, shiny|100/100|[from]move: U-turn
+|move|p2a: Sol|Morning Sun|p2a: Sol
+|-heal|p2a: Sol|100/100
+|
+|upkeep
+|turn|50
+|
+|move|p1a: Salazzle|Flamethrower|p2a: Sol
+|-damage|p2a: Sol|92/100
+|move|p2a: Sol|Psyshock|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|faint|p1a: Salazzle
+|
+|-heal|p2a: Sol|98/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ribombee|Ribombee, F, shiny|1/100
+|turn|51
+|
+|move|p1a: Ribombee|U-turn|p2a: Sol
+|-supereffective|p2a: Sol
+|-damage|p2a: Sol|60/100
+|move|p2a: Sol|Psyshock|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|win|Truebeliever
+|l|☆TigerRadley
+|raw|TigerRadley's rating: 1151 → 1124(-27 for losing)
+|raw|Truebeliever's rating: 1121 → 1148(+27 for winning)

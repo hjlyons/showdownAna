@@ -1,0 +1,185 @@
+|ScrapeTime|2020-01-01-23:18:31
+|j|☆Kayleee
+|j|☆Imsobaked
+|player|p1|Kayleee|138|1524
+|player|p2|Imsobaked|hiker-gen4|1499
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Quagsire, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Eldegoss, F|
+|poke|p1|Corsola-Galar, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Sylveon, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Rotom-Wash|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆Kayleee|/log Kayleee made this room hidden.
+|
+|start
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Toxapex|Toxic Spikes|p2a: Rotom
+|-sidestart|p2: Imsobaked|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Rotom|Trick|p1a: Toxapex
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Toxapex
+|-item|p1a: Toxapex|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Black Sludge|[from] move: Trick
+|move|p1a: Toxapex|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-damage|p2a: Rotom|88/100 tox|[from] item: Black Sludge
+|-damage|p2a: Rotom|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|switch|p1a: Quagsire|Quagsire, F|100/100
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Corviknight|Defog|p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|evasion|1
+|-sideend|p2: Imsobaked|Toxic Spikes|[from] move: Defog|[of] p2a: Corviknight
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Corviknight|Body Press|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|67/100
+|-damage|p2a: Corviknight|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|75/100
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|73/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Corviknight|Body Press|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|41/100
+|-damage|p2a: Corviknight|62/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Corviknight
+|-start|p2a: Corviknight|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|47/100|[from] item: Leftovers
+|-damage|p2a: Corviknight|50/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|60/100|[silent]
+|upkeep
+|turn|7
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|move|p1a: Ferrothorn|Spikes|p2a: Hydreigon
+|-sidestart|p2: Imsobaked|Spikes
+|
+|-heal|p1a: Ferrothorn|66/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|76/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-activate|p2a: Hydreigon|move: Substitute|[damage]
+|
+|-heal|p2a: Hydreigon|82/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|73/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Quagsire|Quagsire, F|100/100
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|-heal|p2a: Hydreigon|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Quagsire
+|-damage|p1a: Quagsire|68/100
+|move|p1a: Quagsire|Ice Punch|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|
+|-heal|p2a: Hydreigon|94/100|[from] item: Leftovers
+|-heal|p1a: Quagsire|74/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Quagsire
+|-damage|p1a: Quagsire|43/100
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|93/100
+|
+|-heal|p2a: Hydreigon|99/100|[from] item: Leftovers
+|-heal|p1a: Quagsire|99/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Rotom|Rotom-Wash|82/100 tox
+|move|p1a: Quagsire|Ice Punch|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|73/100 tox
+|
+|-damage|p2a: Rotom|61/100 tox|[from] item: Black Sludge
+|-heal|p1a: Quagsire|100/100|[from] item: Leftovers
+|-damage|p2a: Rotom|54/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|switch|p1a: Eldegoss|Eldegoss, F|100/100
+|move|p2a: Rotom|Thunderbolt|p1a: Eldegoss
+|-resisted|p1a: Eldegoss
+|-damage|p1a: Eldegoss|89/100
+|
+|-damage|p2a: Rotom|42/100 tox|[from] item: Black Sludge
+|-heal|p1a: Eldegoss|95/100|[from] item: Leftovers
+|-damage|p2a: Rotom|30/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Rotom|Trick|p1a: Toxapex
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Toxapex
+|-item|p1a: Toxapex|Black Sludge|[from] move: Trick
+|-item|p2a: Rotom|Choice Scarf|[from] move: Trick
+|
+|-damage|p2a: Rotom|11/100 tox|[from] psn
+|upkeep
+|turn|15
+|-message|Imsobaked forfeited.
+|
+|win|Kayleee
+|l|☆Imsobaked
+|raw|Kayleee's rating: 1501 → 1521(+20 for winning)
+|raw|Imsobaked's rating: 1499 → 1479(-20 for losing)
+|c|☆Kayleee|/log Kayleee made this room public.

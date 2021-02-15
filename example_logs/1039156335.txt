@@ -1,0 +1,431 @@
+|ScrapeTime|2020-01-01-15:15:34
+|j|☆TioMate
+|j|☆JacarandaLovah
+|player|p1|TioMate|52|1099
+|player|p2|JacarandaLovah|twins-gen4dp|1114
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Torkoal, M|
+|poke|p1|Bellossom, F|
+|poke|p1|Cherrim, M|
+|poke|p1|Centiskorch, F|
+|poke|p1|Ninetales, M|
+|poke|p1|Arcanine, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Polteageist|
+|poke|p2|Gyarados, M|
+|poke|p2|Dugtrio, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TioMate)
+|inactive|JacarandaLovah has 120 seconds left.
+|inactive|JacarandaLovah has 90 seconds left.
+|inactive|JacarandaLovah has 60 seconds left.
+|inactive|JacarandaLovah has 30 seconds left.
+|
+|start
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|inactive|JacarandaLovah has 90 seconds left.
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Torkoal
+|-start|p1a: Torkoal|move: Taunt
+|cant|p1a: Torkoal|move: Taunt|Yawn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|JacarandaLovah has 90 seconds left.
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: JacarandaLovah|move: Light Screen
+|move|p1a: Torkoal|Body Press|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|60/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: JacarandaLovah|Reflect
+|move|p1a: Torkoal|Body Press|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|36/100
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Torkoal|move: Taunt
+|upkeep
+|turn|4
+|inactive|JacarandaLovah has 90 seconds left.
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|move|p1a: Torkoal|Body Press|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|90/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|inactive|JacarandaLovah has 90 seconds left.
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Torkoal|Yawn|p2a: Gyarados
+|-start|p2a: Gyarados|move: Yawn|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|inactive|JacarandaLovah has 90 seconds left.
+|
+|move|p2a: Gyarados|Earthquake|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|45/100
+|move|p1a: Torkoal|Stealth Rock|p2a: Gyarados
+|-sidestart|p2: JacarandaLovah|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Gyarados|move: Yawn|[silent]
+|-status|p2a: Gyarados|slp
+|upkeep
+|-enditem|p2a: Gyarados|Lum Berry|[eat]
+|-curestatus|p2a: Gyarados|slp|[msg]
+|turn|7
+|inactive|JacarandaLovah has 90 seconds left.
+|
+|move|p2a: Gyarados|Waterfall|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|8/100
+|move|p1a: Torkoal|Yawn|p2a: Gyarados
+|-start|p2a: Gyarados|move: Yawn|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p1a: Sun|Bellossom, F|100/100
+|move|p2a: Gyarados|Earthquake|p1a: Sun
+|-resisted|p1a: Sun
+|-damage|p1a: Sun|69/100
+|
+|-weather|none
+|-heal|p1a: Sun|75/100|[from] item: Leftovers
+|-end|p2a: Gyarados|move: Yawn|[silent]
+|-status|p2a: Gyarados|slp
+|upkeep
+|turn|9
+|inactive|JacarandaLovah has 90 seconds left.
+|
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|move|p1a: Sun|Strength Sap|p2a: Weezing
+|-unboost|p2a: Weezing|atk|1
+|-heal|p1a: Sun|100/100
+|
+|-heal|p2a: Weezing|94/100|[from] item: Black Sludge
+|-sideend|p2: JacarandaLovah|move: Light Screen
+|upkeep
+|turn|10
+|
+|switch|p1a: Raposo|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Raposo
+|move|p2a: Weezing|Defog|p1a: Raposo
+|-unboost|p1a: Raposo|evasion|1
+|-sideend|p2: JacarandaLovah|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Weezing|99/100|[from] item: Black Sludge
+|-sideend|p2: JacarandaLovah|Reflect
+|upkeep
+|turn|11
+|inactive|JacarandaLovah has 60 seconds left.
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|36/100
+|move|p1a: Raposo|Fire Blast|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|turn|12
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Raposo
+|-supereffective|p1a: Raposo
+|-damage|p1a: Raposo|0 fnt
+|faint|p1a: Raposo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Sun|Bellossom, F|100/100
+|turn|13
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Sun|Giga Drain|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|96/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Lampião de fogo|Centiskorch, F|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Lampião de fogo
+|-sidestart|p1: TioMate|move: Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|15
+|inactive|JacarandaLovah has 60 seconds left.
+|inactive|JacarandaLovah has 30 seconds left.
+|
+|switch|p2a: Gyarados|Gyarados, M|90/100 slp
+|move|p1a: Lampião de fogo|Fire Lash|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|70/100 slp
+|-unboost|p2a: Gyarados|def|1
+|
+|upkeep
+|turn|16
+|inactive|JacarandaLovah has 30 seconds left.
+|
+|switch|p1a: Catioro|Arcanine, M|100/100
+|-damage|p1a: Catioro|76/100|[from] Stealth Rock
+|cant|p2a: Gyarados|slp
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Catioro|Flare Blitz|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|5/100 slp
+|-damage|p1a: Catioro|53/100|[from] Recoil
+|-damage|p1a: Catioro|43/100|[from] item: Life Orb
+|-curestatus|p2a: Gyarados|slp|[msg]
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Catioro|Extreme Speed|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|-damage|p1a: Catioro|34/100|[from] item: Life Orb
+|faint|p2a: Gyarados
+|
+|upkeep
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|turn|19
+|
+|move|p1a: Catioro|Extreme Speed|p2a: Dugtrio
+|-damage|p2a: Dugtrio|7/100
+|-damage|p1a: Catioro|24/100|[from] item: Life Orb
+|move|p2a: Dugtrio|Earthquake|p1a: Catioro
+|-supereffective|p1a: Catioro
+|-damage|p1a: Catioro|0 fnt
+|faint|p1a: Catioro
+|
+|upkeep
+|
+|switch|p1a: Torkoal|Torkoal, M|8/100
+|-damage|p1a: Torkoal|0 fnt|[from] Stealth Rock
+|faint|p1a: Torkoal
+|
+|switch|p1a: Sun|Bellossom, F|100/100
+|-damage|p1a: Sun|88/100|[from] Stealth Rock
+|turn|20
+|inactive|JacarandaLovah has 60 seconds left.
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Sun
+|-resisted|p1a: Sun
+|-damage|p1a: Sun|61/100
+|move|p1a: Sun|Strength Sap|p2a: Dugtrio
+|-unboost|p2a: Dugtrio|atk|1
+|-heal|p1a: Sun|100/100
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Weezing|Weezing-Galar, F|99/100
+|move|p1a: Sun|Giga Drain|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|81/100
+|
+|-heal|p2a: Weezing|87/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|move|p1a: Sun|Quiver Dance|p1a: Sun
+|-boost|p1a: Sun|spa|1
+|-boost|p1a: Sun|spd|1
+|-boost|p1a: Sun|spe|1
+|move|p2a: Weezing|Strange Steam|p1a: Sun
+|-damage|p1a: Sun|81/100
+|
+|-heal|p1a: Sun|87/100|[from] item: Leftovers
+|-heal|p2a: Weezing|93/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|move|p1a: Sun|Quiver Dance|p1a: Sun
+|-boost|p1a: Sun|spa|1
+|-boost|p1a: Sun|spd|1
+|-boost|p1a: Sun|spe|1
+|move|p2a: Weezing|Will-O-Wisp|p1a: Sun
+|-status|p1a: Sun|brn
+|
+|-heal|p1a: Sun|93/100 brn|[from] item: Leftovers
+|-heal|p2a: Weezing|99/100|[from] item: Black Sludge
+|-damage|p1a: Sun|87/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Sun|Quiver Dance|p1a: Sun
+|-boost|p1a: Sun|spa|1
+|-boost|p1a: Sun|spd|1
+|-boost|p1a: Sun|spe|1
+|
+|-heal|p1a: Sun|93/100 brn|[from] item: Leftovers
+|-damage|p1a: Sun|87/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Sun|Strength Sap|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|atk|1
+|-heal|p1a: Sun|100/100 brn
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Sun
+|-damage|p1a: Sun|59/100 brn
+|
+|-heal|p1a: Sun|65/100 brn|[from] item: Leftovers
+|-damage|p1a: Sun|59/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p1a: Sun|Strength Sap|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|atk|1
+|-heal|p1a: Sun|100/100 brn
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Sun
+|-damage|p1a: Sun|69/100 brn
+|
+|-heal|p1a: Sun|75/100 brn|[from] item: Leftovers
+|-damage|p1a: Sun|69/100 brn|[from] brn
+|upkeep
+|turn|27
+|inactive|JacarandaLovah has 30 seconds left.
+|
+|move|p1a: Sun|Strength Sap|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|atk|1
+|-heal|p1a: Sun|100/100 brn
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Sun
+|-damage|p1a: Sun|79/100 brn
+|
+|-heal|p1a: Sun|85/100 brn|[from] item: Leftovers
+|-damage|p1a: Sun|79/100 brn|[from] brn
+|upkeep
+|turn|28
+|inactive|JacarandaLovah has 30 seconds left.
+|inactive|JacarandaLovah has 20 seconds left.
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|move|p1a: Sun|Strength Sap|p2a: Polteageist
+|-unboost|p2a: Polteageist|atk|1
+|-heal|p1a: Sun|100/100 brn
+|
+|-damage|p1a: Sun|94/100 brn|[from] brn
+|upkeep
+|turn|29
+|inactive|JacarandaLovah has 30 seconds left this turn.
+|inactive|JacarandaLovah has 20 seconds left.
+|
+|move|p1a: Sun|Giga Drain|p2a: Polteageist
+|-crit|p2a: Polteageist
+|-enditem|p2a: Polteageist|Focus Sash
+|-damage|p2a: Polteageist|1/100
+|-heal|p1a: Sun|100/100 brn|[from] drain|[of] p2a: Polteageist
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|-damage|p1a: Sun|94/100 brn|[from] brn
+|upkeep
+|turn|30
+|inactive|JacarandaLovah has 30 seconds left this turn.
+|inactive|JacarandaLovah has 20 seconds left.
+|
+|move|p1a: Sun|Moonblast|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|
+|-heal|p1a: Sun|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Sun|94/100 brn|[from] brn
+|upkeep
+|inactive|JacarandaLovah has 25 seconds left this turn.
+|inactive|JacarandaLovah has 20 seconds left.
+|
+|switch|p2a: Dugtrio|Dugtrio, M|7/100
+|turn|31
+|inactive|JacarandaLovah has 30 seconds left this turn.
+|
+|move|p2a: Dugtrio|Sucker Punch|p1a: Sun
+|-damage|p1a: Sun|69/100 brn
+|move|p1a: Sun|Giga Drain|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|-heal|p1a: Sun|71/100 brn|[from] drain|[of] p2a: Dugtrio
+|faint|p2a: Dugtrio
+|
+|-heal|p1a: Sun|77/100 brn|[from] item: Leftovers
+|-damage|p1a: Sun|71/100 brn|[from] brn
+|upkeep
+|inactive|JacarandaLovah has 30 seconds left this turn.
+|inactive|JacarandaLovah has 20 seconds left.
+|inactive|JacarandaLovah has 15 seconds left.
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|32
+|inactive|JacarandaLovah has 25 seconds left this turn.
+|
+|move|p1a: Sun|Strength Sap|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|atk|1
+|-heal|p1a: Sun|100/100 brn
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Sun
+|-damage|p1a: Sun|60/100 brn
+|
+|-heal|p1a: Sun|66/100 brn|[from] item: Leftovers
+|-damage|p1a: Sun|60/100 brn|[from] brn
+|upkeep
+|turn|33
+|inactive|JacarandaLovah has 30 seconds left.
+|c|☆JacarandaLovah|boring
+|c|☆JacarandaLovah|gg
+|-message|JacarandaLovah forfeited.
+|
+|win|TioMate
+|inactive|JacarandaLovah has 30 seconds left this turn.
+|l|☆JacarandaLovah
+|raw|TioMate's rating: 1099 → 1125(+26 for winning)
+|raw|JacarandaLovah's rating: 1114 → 1088(-26 for losing)

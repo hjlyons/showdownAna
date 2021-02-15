@@ -1,0 +1,244 @@
+|ScrapeTime|2020-01-02-15:38:57
+|j|☆cpez914
+|j|☆WWWLUCIFERCOM
+|player|p1|cpez914|n|1109
+|player|p2|WWWLUCIFERCOM|lass-gen4dp|1149
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aegislash, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Gyarados, F|
+|poke|p1|Toxtricity, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Clefable, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Dracovish|
+|poke|p2|Kommo-o, M|
+|poke|p2|Hatterene, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by WWWLUCIFERCOM)
+|
+|start
+|switch|p1a: Gyarados|Gyarados, F, shiny|100/100
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|40/100
+|cant|p1a: Gyarados|flinch
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|3
+|
+|move|p2a: Excadrill|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|34/100
+|cant|p1a: Hatterene|flinch
+|
+|-heal|p1a: Hatterene|40/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Excadrill|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|5
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|move|p2a: Excadrill|Earthquake|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Dragapult|Disable|p2a: Excadrill
+|-start|p2a: Excadrill|Disable|Earthquake
+|cant|p2a: Excadrill|Disable|Earthquake
+|
+|-heal|p1a: Dragapult|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|63/100
+|move|p2a: Excadrill|Iron Head|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|69/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Excadrill
+|-status|p2a: Excadrill|brn
+|move|p2a: Excadrill|Iron Head|p1a: Dragapult
+|-damage|p1a: Dragapult|44/100
+|
+|-heal|p1a: Dragapult|50/100|[from] item: Leftovers
+|-damage|p2a: Excadrill|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|25/100
+|
+|-heal|p1a: Dragapult|31/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Hatterene
+|move|p2a: Hatterene|Will-O-Wisp|p1a: Dragapult|[from]Magic Bounce|[miss]
+|-miss|p2a: Hatterene|p1a: Dragapult
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p1a: Dragapult|37/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Dragapult|Disable|p2a: Hatterene
+|move|p2a: Hatterene|Disable|p1a: Dragapult|[from]Magic Bounce
+|-start|p1a: Dragapult|Disable|Disable
+|move|p2a: Hatterene|Draining Kiss|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|43/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Dragapult|Hex|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|61/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-heal|p2a: Hatterene|95/100|[from] drain|[of] p1a: Dragapult
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Hatterene|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, F, shiny|100/100
+|turn|13
+|
+|move|p1a: Aegislash|Substitute|p1a: Aegislash
+|-start|p1a: Aegislash|Substitute
+|-damage|p1a: Aegislash|75/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-end|p1a: Aegislash|Substitute
+|
+|-heal|p1a: Aegislash|82/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Hatterene|Mystical Fire|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|-heal|p1a: Aegislash|88/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|27/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|-heal|p2a: Hatterene|33/100|[from] item: Leftovers
+|upkeep
+|inactive|cpez914 has 120 seconds left.
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|turn|16
+|
+|switch|p2a: Excadrill|Excadrill, M|94/100 brn
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Toxtricity|Sludge Wave|p2a: Excadrill
+|-immune|p2a: Excadrill
+|
+|-damage|p2a: Excadrill|88/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Excadrill|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|69/100
+|
+|-damage|p2a: Excadrill|82/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p2a: Excadrill|Iron Head|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|23/100
+|move|p1a: Clefable|Flamethrower|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|19
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|turn|20
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|win|WWWLUCIFERCOM
+|c|☆WWWLUCIFERCOM|gg
+|raw|cpez914's rating: 1109 → 1087(-22 for losing)
+|raw|WWWLUCIFERCOM's rating: 1149 → 1171(+22 for winning)

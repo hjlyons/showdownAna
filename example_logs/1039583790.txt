@@ -1,0 +1,189 @@
+|ScrapeTime|2020-01-02-09:45:29
+|j|☆GnarTheYordle
+|j|☆cashxd420
+|player|p1|GnarTheYordle|23|1351
+|player|p2|cashxd420|li|1289
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Crawdaunt, M|
+|poke|p1|Aegislash, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Mantine, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Ferrothorn, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Espeon, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Salazzle, F|
+|poke|p2|Ferrothorn, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|move|p2a: Salazzle|Toxic|p1a: Pelipper
+|-status|p1a: Pelipper|tox
+|move|p1a: Pelipper|Scald|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|94/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: GnarTheYordle|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|-damage|p1a: Aegislash|94/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Scald|p1a: Aegislash
+|-damage|p1a: Aegislash|67/100
+|-status|p1a: Aegislash|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Aegislash|61/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Seismitoad|Earthquake|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|13/100 brn
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Aegislash|6/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Sneak|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Aegislash|0 fnt|[from] brn
+|faint|p1a: Aegislash
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|6
+|
+|move|p2a: Seismitoad|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|77/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|84/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|turn|7
+|
+|move|p2a: Excadrill|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|54/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Excadrill
+|-damage|p2a: Excadrill|40/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|61/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Espeon|Espeon, M|100/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Espeon
+|-damage|p2a: Espeon|20/100
+|
+|-weather|none
+|-heal|p2a: Espeon|26/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|67/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Espeon|Shadow Ball|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|43/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|-heal|p1a: Ferrothorn|49/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|10
+|
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|move|p1a: Ferrothorn|Power Whip|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|35/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|55/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Tyranitar|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|19/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|25/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|40/100
+|turn|12
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|14/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|21/100|[from] item: Leftovers
+|upkeep
+|-message|cashxd420 forfeited.
+|
+|win|GnarTheYordle
+|l|☆cashxd420
+|raw|GnarTheYordle's rating: 1352 → 1368(+16 for winning)
+|raw|cashxd420's rating: 1289 → 1269(-20 for losing)

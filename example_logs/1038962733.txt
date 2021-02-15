@@ -1,0 +1,325 @@
+|ScrapeTime|2020-01-01-02:35:14
+|j|☆soft boys
+|j|☆gradbad
+|player|p1|soft boys|pokekid|1077
+|player|p2|gradbad|169|1022
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pincurchin, F|
+|poke|p1|Snom, M|
+|poke|p1|Pyukumuku, M|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Hitmontop, M|
+|poke|p1|Slurpuff, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Dracovish|
+|poke|p2|Barraskewda, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Jolteon, M|
+|poke|p2|Excadrill, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Snom|Snom, M|100/100
+|switch|p2a: KODIRECT|Excadrill, F|100/100
+|-ability|p2a: KODIRECT|Mold Breaker
+|turn|1
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|move|p2a: KODIRECT|Stealth Rock|p1a: Corsola
+|-sidestart|p1: soft boys|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: KODIRECT|Rapid Spin|p1a: Corsola
+|-immune|p1a: Corsola
+|move|p1a: Corsola|Will-O-Wisp|p2a: KODIRECT
+|-status|p2a: KODIRECT|brn
+|
+|-damage|p2a: KODIRECT|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: KODIRECT|Iron Head|p1a: Corsola
+|-damage|p1a: Corsola|85/100
+|-start|p2a: KODIRECT|Disable|Iron Head|[from] ability: Cursed Body|[of] p1a: Corsola
+|cant|p1a: Corsola|flinch
+|
+|-damage|p2a: KODIRECT|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: KODIRECT|Earthquake|p1a: Corsola
+|-crit|p1a: Corsola
+|-damage|p1a: Corsola|56/100
+|move|p1a: Corsola|Stealth Rock|p2a: KODIRECT
+|-sidestart|p2: gradbad|move: Stealth Rock
+|
+|-damage|p2a: KODIRECT|82/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: SERÀRI1|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: SERÀRI1
+|move|p1a: Corsola|Strength Sap|p2a: SERÀRI1
+|-unboost|p2a: SERÀRI1|atk|1
+|-heal|p1a: Corsola|94/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p2a: SERÀRI1|U-turn|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|92/100
+|-start|p2a: SERÀRI1|Disable|U-turn|[from] ability: Cursed Body|[of] p1a: Corsola
+|
+|switch|p2a: IMUU|Jolteon, M|100/100|[from]move: U-turn
+|-damage|p2a: IMUU|88/100|[from] Stealth Rock
+|move|p1a: Corsola|Night Shade|p2a: IMUU
+|-damage|p2a: IMUU|51/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|-damage|p1a: Hitmontop|94/100|[from] Stealth Rock
+|move|p2a: IMUU|Shadow Ball|p1a: Hitmontop
+|-damage|p1a: Hitmontop|69/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p2a: SERÀRI1|Pelipper, F|100/100
+|move|p1a: Hitmontop|Fake Out|p2a: SERÀRI1
+|-damage|p2a: SERÀRI1|87/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p1a: Hitmontop|Rapid Spin|p2a: SERÀRI1
+|-damage|p2a: SERÀRI1|69/100
+|-sideend|p1: soft boys|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Hitmontop
+|-boost|p1a: Hitmontop|spe|1
+|move|p2a: SERÀRI1|Hurricane|p1a: Hitmontop
+|-supereffective|p1a: Hitmontop
+|-damage|p1a: Hitmontop|17/100
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|switch|p1a: Pincurchin|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|-enditem|p1a: Pincurchin|Electric Seed
+|-boost|p1a: Pincurchin|def|1
+|move|p2a: SERÀRI1|U-turn|p1a: Pincurchin
+|-damage|p1a: Pincurchin|94/100
+|
+|switch|p2a: KODIRECT|Excadrill, F|82/100 brn|[from]move: U-turn
+|-damage|p2a: KODIRECT|79/100 brn|[from] Stealth Rock
+|-ability|p2a: KODIRECT|Mold Breaker
+|
+|-damage|p2a: KODIRECT|73/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: KODIRECT|Rapid Spin|p1a: Pincurchin
+|-damage|p1a: Pincurchin|87/100
+|-sideend|p2: gradbad|Stealth Rock|[from] move: Rapid Spin|[of] p2a: KODIRECT
+|-boost|p2a: KODIRECT|spe|1
+|move|p1a: Pincurchin|Liquidation|p2a: KODIRECT
+|-supereffective|p2a: KODIRECT
+|-damage|p2a: KODIRECT|0 fnt
+|faint|p2a: KODIRECT
+|
+|upkeep
+|
+|switch|p2a: CANCERENFER|Ferrothorn, F|100/100
+|turn|12
+|
+|switch|p1a: Corsola|Corsola-Galar, M|92/100
+|move|p2a: CANCERENFER|Knock Off|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|62/100
+|-start|p2a: CANCERENFER|Disable|Knock Off|[from] ability: Cursed Body|[of] p1a: Corsola
+|-enditem|p1a: Corsola|Eviolite|[from] move: Knock Off|[of] p2a: CANCERENFER
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Corsola|Stealth Rock|p2a: CANCERENFER
+|-sidestart|p2: gradbad|move: Stealth Rock
+|move|p2a: CANCERENFER|Leech Seed|p1a: Corsola
+|-start|p1a: Corsola|move: Leech Seed
+|
+|-damage|p1a: Corsola|50/100|[from] Leech Seed|[of] p2a: CANCERENFER
+|upkeep
+|turn|14
+|
+|move|p1a: Corsola|Will-O-Wisp|p2a: CANCERENFER
+|-status|p2a: CANCERENFER|brn
+|move|p2a: CANCERENFER|Gyro Ball|p1a: Corsola
+|-damage|p1a: Corsola|39/100
+|
+|-damage|p1a: Corsola|27/100|[from] Leech Seed|[of] p2a: CANCERENFER
+|-damage|p2a: CANCERENFER|94/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|15
+|
+|move|p2a: CANCERENFER|Protect|p2a: CANCERENFER
+|-singleturn|p2a: CANCERENFER|Protect
+|move|p1a: Corsola|Strength Sap|p2a: CANCERENFER
+|-activate|p2a: CANCERENFER|move: Protect
+|
+|-heal|p2a: CANCERENFER|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Corsola|14/100|[from] Leech Seed|[of] p2a: CANCERENFER
+|-damage|p2a: CANCERENFER|94/100 brn|[from] brn
+|-end|p2a: CANCERENFER|Disable
+|upkeep
+|turn|16
+|
+|move|p1a: Corsola|Strength Sap|p2a: CANCERENFER
+|-unboost|p2a: CANCERENFER|atk|1
+|-heal|p1a: Corsola|84/100
+|move|p2a: CANCERENFER|Knock Off|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|73/100
+|
+|-heal|p2a: CANCERENFER|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Corsola|61/100|[from] Leech Seed|[of] p2a: CANCERENFER
+|-damage|p2a: CANCERENFER|94/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p1a: Slurpuff|Slurpuff, M|100/100
+|move|p2a: CANCERENFER|Protect||[still]
+|-fail|p2a: CANCERENFER
+|
+|-heal|p2a: CANCERENFER|100/100 brn|[from] item: Leftovers
+|-damage|p2a: CANCERENFER|94/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p1a: Slurpuff|Substitute|p1a: Slurpuff
+|-start|p1a: Slurpuff|Substitute
+|-damage|p1a: Slurpuff|75/100
+|move|p2a: CANCERENFER|Gyro Ball|p1a: Slurpuff
+|-supereffective|p1a: Slurpuff
+|-end|p1a: Slurpuff|Substitute
+|
+|-heal|p2a: CANCERENFER|100/100 brn|[from] item: Leftovers
+|-damage|p2a: CANCERENFER|94/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p1a: Slurpuff|Substitute|p1a: Slurpuff
+|-start|p1a: Slurpuff|Substitute
+|-damage|p1a: Slurpuff|50/100
+|-enditem|p1a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p1a: Slurpuff|75/100|[from] item: Sitrus Berry
+|move|p2a: CANCERENFER|Gyro Ball|p1a: Slurpuff
+|-supereffective|p1a: Slurpuff
+|-end|p1a: Slurpuff|Substitute
+|
+|-heal|p2a: CANCERENFER|100/100 brn|[from] item: Leftovers
+|-damage|p2a: CANCERENFER|94/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p1a: Slurpuff|Flamethrower|p2a: CANCERENFER
+|-supereffective|p2a: CANCERENFER
+|-damage|p2a: CANCERENFER|0 fnt
+|faint|p2a: CANCERENFER
+|
+|upkeep
+|
+|switch|p2a: SERÀRI1|Pelipper, F|69/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: SERÀRI1
+|turn|21
+|
+|move|p1a: Slurpuff|Substitute|p1a: Slurpuff
+|-start|p1a: Slurpuff|Substitute
+|-damage|p1a: Slurpuff|50/100
+|move|p2a: SERÀRI1|Roost|p2a: SERÀRI1
+|-heal|p2a: SERÀRI1|100/100
+|-singleturn|p2a: SERÀRI1|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|
+|move|p1a: Slurpuff|Calm Mind|p1a: Slurpuff
+|-boost|p1a: Slurpuff|spa|1
+|-boost|p1a: Slurpuff|spd|1
+|move|p2a: SERÀRI1|Hurricane|p1a: Slurpuff
+|-end|p1a: Slurpuff|Substitute
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|move|p1a: Slurpuff|Dazzling Gleam|p2a: SERÀRI1
+|-damage|p2a: SERÀRI1|30/100
+|move|p2a: SERÀRI1|Hurricane|p1a: Slurpuff
+|-damage|p1a: Slurpuff|17/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|
+|move|p1a: Slurpuff|Dazzling Gleam|p2a: SERÀRI1
+|-damage|p2a: SERÀRI1|0 fnt
+|faint|p2a: SERÀRI1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: IMUU|Jolteon, M|51/100
+|-damage|p2a: IMUU|39/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Slurpuff|Dazzling Gleam|p2a: IMUU
+|-damage|p2a: IMUU|0 fnt
+|faint|p2a: IMUU
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: JMPALEPOISSON|Barraskewda, F|100/100
+|-damage|p2a: JMPALEPOISSON|88/100|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Slurpuff|Dazzling Gleam|p2a: JMPALEPOISSON
+|-damage|p2a: JMPALEPOISSON|0 fnt
+|faint|p2a: JMPALEPOISSON
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Slurpuff|Dazzling Gleam|p2a: Dracovish
+|-supereffective|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|win|soft boys

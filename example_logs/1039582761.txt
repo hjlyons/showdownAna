@@ -1,0 +1,353 @@
+|ScrapeTime|2020-01-02-09:35:00
+|j|☆Elder Lost at Sea
+|j|☆gerda1234567890
+|player|p1|Elder Lost at Sea|170|1182
+|player|p2|gerda1234567890|101|1133
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tyranitar, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Sandaconda, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Araquanid, M|
+|poke|p1|Togekiss, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Arcanine, F|
+|poke|p2|Milotic, F|
+|poke|p2|Togekiss, M|
+|poke|p2|Toxicroak, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gerda1234567890)
+|
+|start
+|switch|p1a: Sandaconda|Sandaconda, F|100/100
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|turn|1
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|move|p2a: Togekiss|Yawn|p1a: Togekiss
+|-start|p1a: Togekiss|move: Yawn|[of] p2a: Togekiss
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|c|☆Elder Lost at Sea|meta af
+|
+|move|p1a: Tyranitar|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|39/100
+|move|p2a: Tyranitar|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|move|p1a: Tyranitar|Earthquake|p2a: Togekiss
+|-immune|p2a: Togekiss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Togekiss|94/100|[from] Sandstorm
+|-heal|p2a: Togekiss|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|move|p2a: Togekiss|Fire Blast|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-crit|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Togekiss|94/100|[from] Sandstorm
+|-heal|p2a: Togekiss|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|36/100
+|turn|6
+|
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|6/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Togekiss|[miss]
+|-miss|p1a: Tyranitar|p2a: Togekiss
+|
+|-weather|none
+|upkeep
+|turn|7
+|c|☆Elder Lost at Sea|............\
+|
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|upkeep
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|turn|8
+|
+|move|p1a: Togekiss|Air Slash|p2a: Togekiss
+|-damage|p2a: Togekiss|65/100
+|move|p2a: Togekiss|Yawn|p1a: Togekiss
+|-start|p1a: Togekiss|move: Yawn|[of] p2a: Togekiss
+|
+|-heal|p2a: Togekiss|71/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Sandaconda|Sandaconda, F|100/100
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Milotic|Milotic, F|100/100
+|move|p1a: Sandaconda|Zen Headbutt|p2a: Milotic
+|-damage|p2a: Milotic|72/100
+|-damage|p1a: Sandaconda|84/100|[from] item: Rocky Helmet|[of] p2a: Milotic
+|
+|-heal|p1a: Sandaconda|90/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Araquanid|Araquanid, M, shiny|100/100
+|move|p2a: Milotic|Ice Beam|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|92/100
+|
+|-heal|p1a: Araquanid|98/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|move|p1a: Araquanid|Sticky Web|p2a: Milotic
+|-sidestart|p2: gerda1234567890|move: Sticky Web
+|
+|-heal|p1a: Araquanid|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Arcanine|Arcanine, F|100/100
+|-activate|p2a: Arcanine|move: Sticky Web
+|-unboost|p2a: Arcanine|spe|1
+|move|p1a: Araquanid|Leech Life|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|86/100
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Arcanine|Wild Charge|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|43/100
+|-damage|p2a: Arcanine|71/100|[from] Recoil
+|move|p1a: Araquanid|Liquidation|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|-heal|p1a: Araquanid|49/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|39/100
+|-activate|p2a: Tyranitar|move: Sticky Web
+|-unboost|p2a: Tyranitar|spe|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|15
+|
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|-activate|p2a: Toxicroak|move: Sticky Web
+|-unboost|p2a: Toxicroak|spe|1
+|move|p1a: Araquanid|Liquidation|p2a: Toxicroak
+|-immune|p2a: Toxicroak|[from] ability: Dry Skin
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxicroak|94/100|[from] Sandstorm
+|-damage|p1a: Araquanid|43/100|[from] Sandstorm
+|-heal|p1a: Araquanid|49/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|move|p2a: Toxicroak|Gunk Shot|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxicroak|88/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Sandaconda|Sandaconda, F|90/100
+|turn|17
+|
+|switch|p2a: Tyranitar|Tyranitar, F|39/100
+|-activate|p2a: Tyranitar|move: Sticky Web
+|-unboost|p2a: Tyranitar|spe|1
+|move|p1a: Sandaconda|Coil|p1a: Sandaconda
+|-boost|p1a: Sandaconda|atk|1
+|-boost|p1a: Sandaconda|def|1
+|-boost|p1a: Sandaconda|accuracy|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Sandaconda|96/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Milotic|Milotic, F|100/100
+|-activate|p2a: Milotic|move: Sticky Web
+|-unboost|p2a: Milotic|spe|1
+|move|p1a: Sandaconda|Earthquake|p2a: Milotic
+|-damage|p2a: Milotic|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|18/100|[from] Sandstorm
+|-heal|p1a: Sandaconda|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Sandaconda|Earthquake|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-activate|p2a: Dragapult|move: Sticky Web
+|-fail|p2a: Dragapult|unboost|[from] ability: Clear Body|[of] p2a: Dragapult
+|turn|20
+|
+|move|p2a: Dragapult|U-turn|p1a: Sandaconda
+|-damage|p1a: Sandaconda|86/100
+|-weather|Sandstorm|[from] ability: Sand Spit|[of] p1a: Sandaconda
+|-damage|p2a: Dragapult|91/100|[from] item: Life Orb
+|
+|switch|p2a: Togekiss|Togekiss, M|71/100|[from]move: U-turn
+|move|p1a: Sandaconda|Earthquake|p2a: Togekiss
+|-immune|p2a: Togekiss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Togekiss|65/100|[from] Sandstorm
+|-heal|p2a: Togekiss|71/100|[from] item: Leftovers
+|-heal|p1a: Sandaconda|92/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Togekiss|Yawn|p1a: Sandaconda
+|-start|p1a: Sandaconda|move: Yawn|[of] p2a: Togekiss
+|move|p1a: Sandaconda|Zen Headbutt|p2a: Togekiss
+|-damage|p2a: Togekiss|22/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Togekiss|16/100|[from] Sandstorm
+|-heal|p2a: Togekiss|22/100|[from] item: Leftovers
+|-heal|p1a: Sandaconda|98/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Toxicroak|Toxicroak, M|88/100
+|-activate|p2a: Toxicroak|move: Sticky Web
+|-unboost|p2a: Toxicroak|spe|1
+|move|p1a: Sandaconda|Fire Fang|p2a: Toxicroak
+|-damage|p2a: Toxicroak|22/100
+|-damage|p1a: Sandaconda|81/100|[from] item: Rocky Helmet|[of] p2a: Toxicroak
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxicroak|15/100|[from] Sandstorm
+|-heal|p1a: Sandaconda|87/100|[from] item: Leftovers
+|-end|p1a: Sandaconda|move: Yawn|[silent]
+|-status|p1a: Sandaconda|slp
+|upkeep
+|turn|23
+|
+|move|p2a: Toxicroak|Rain Dance|p2a: Toxicroak
+|-weather|RainDance
+|cant|p1a: Sandaconda|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxicroak|28/100|[from] ability: Dry Skin
+|-heal|p1a: Sandaconda|93/100 slp|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: Sandaconda
+|-damage|p1a: Sandaconda|74/100 slp
+|-heal|p2a: Toxicroak|39/100|[from] drain|[of] p1a: Sandaconda
+|-weather|Sandstorm|[from] ability: Sand Spit|[of] p1a: Sandaconda
+|-curestatus|p1a: Sandaconda|slp|[msg]
+|move|p1a: Sandaconda|Earthquake|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Sandaconda|80/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|91/100
+|-activate|p2a: Dragapult|move: Sticky Web
+|-fail|p2a: Dragapult|unboost|[from] ability: Clear Body|[of] p2a: Dragapult
+|turn|25
+|
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: Sandaconda|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Sandaconda|86/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, M|22/100
+|turn|26
+|
+|move|p2a: Togekiss|Yawn|p1a: Sandaconda
+|-start|p1a: Sandaconda|move: Yawn|[of] p2a: Togekiss
+|move|p1a: Sandaconda|Fire Fang|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Sandaconda|92/100|[from] item: Leftovers
+|upkeep
+|c|☆Elder Lost at Sea|gg
+|
+|switch|p2a: Tyranitar|Tyranitar, F|39/100
+|-activate|p2a: Tyranitar|move: Sticky Web
+|-unboost|p2a: Tyranitar|spe|1
+|turn|27
+|-message|gerda1234567890 forfeited.
+|
+|win|Elder Lost at Sea
+|c|☆Elder Lost at Sea|sandaconda op
+|l|☆gerda1234567890
+|raw|Elder Lost at Sea's rating: 1182 → 1203(+21 for winning)
+|raw|gerda1234567890's rating: 1133 → 1112(-21 for losing)

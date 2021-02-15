@@ -1,0 +1,216 @@
+|ScrapeTime|2020-01-01-22:45:03
+|j|☆ZONE EpochPhaile
+|j|☆enfrom
+|player|p1|ZONE EpochPhaile|170|1070
+|player|p2|enfrom|169|1063
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corviknight, F|
+|poke|p1|Golisopod, F|
+|poke|p1|Aegislash, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Rotom-Heat|
+|poke|p2|Corviknight, M|
+|poke|p2|Aegislash, M|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Gengar, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Aegislash|Aegislash, M, shiny|100/100
+|turn|1
+|
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Aegislash
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Aegislash|[from]lockedmove
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|turn|3
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Grimmsnarl|Dazzling Gleam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|91/100
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Grimmsnarl|Drain Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|58/100
+|-damage|p2a: Grimmsnarl|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Grimmsnarl|71/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Grimmsnarl
+|-sidestart|p2: enfrom|move: Stealth Rock
+|
+|-heal|p2a: Grimmsnarl|78/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|move|p2a: Grimmsnarl|Drain Punch|p1a: Aegislash
+|-immune|p1a: Aegislash
+|
+|-heal|p2a: Grimmsnarl|84/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Grimmsnarl|Darkest Lariat|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|39/100
+|-enditem|p1a: Aegislash|Weakness Policy
+|-boost|p1a: Aegislash|atk|2
+|-boost|p1a: Aegislash|spa|2
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Flash Cannon|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M, shiny|100/100
+|-damage|p2a: Conkeldurr|94/100|[from] Stealth Rock
+|turn|7
+|
+|move|p1a: Aegislash|Shadow Ball|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash, shiny|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|turn|8
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Rotom|Dark Pulse|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Rotom|Dark Pulse|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|1/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Purple Booty|Gengar, F, shiny|100/100
+|-damage|p2a: Purple Booty|88/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Aegislash|Shadow Sneak|p2a: Purple Booty
+|-supereffective|p2a: Purple Booty
+|-damage|p2a: Purple Booty|0 fnt
+|faint|p2a: Purple Booty
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|turn|11
+|
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|63/100
+|move|p1a: Aegislash|Shadow Ball|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|
+|-heal|p2a: Corviknight|69/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Aegislash|Shadow Sneak|p2a: Corviknight
+|-damage|p2a: Corviknight|36/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|86/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|92/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Corviknight|Air Slash|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|-heal|p2a: Corviknight|98/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|turn|14
+|c|☆ZONE EpochPhaile|Gg
+|
+|move|p1a: Rotom|Trick|p2a: Corviknight
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Corviknight
+|-item|p2a: Corviknight|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|73/100
+|
+|upkeep
+|turn|15
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by enfrom)
+|
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-fail|p2a: Corviknight|move: Substitute
+|move|p1a: Rotom|Volt Switch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|
+|switch|p1a: Golisopod|Golisopod, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|48/100
+|move|p1a: Golisopod|Liquidation|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|
+|upkeep
+|turn|17
+|-message|enfrom forfeited.
+|
+|win|ZONE EpochPhaile
+|l|☆enfrom
+|raw|ZONE EpochPhaile's rating: 1070 → 1099(+29 for winning)
+|raw|enfrom's rating: 1064 → 1044(-20 for losing)

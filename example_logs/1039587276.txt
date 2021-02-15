@@ -1,0 +1,323 @@
+|ScrapeTime|2020-01-02-10:05:53
+|j|☆proto homo
+|j|☆Baguette'd
+|player|p1|proto homo|114|1383
+|player|p2|Baguette'd|baker|1438
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Bisharp, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Clefable, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Dracozolt|
+|poke|p2|Clefable, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Rotom-Heat|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by proto homo)
+|inactive|Baguette'd has 120 seconds left.
+|inactive|Baguette'd has 90 seconds left.
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Seismitoad|Seismitoad, F, shiny|100/100
+|turn|1
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Rotom|Trick|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Rotom|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|79/100
+|
+|switch|p2a: Tyranitar|Tyranitar, M, shiny|100/100|[from]move: Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Dragapult|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|76/100
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cinderace|95/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Cinderace|High Jump Kick|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cinderace|89/100|[from] Sandstorm
+|-heal|p2a: Clefable|91/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Seismitoad|Seismitoad, F, shiny|100/100
+|move|p1a: Cinderace|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|84/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Seismitoad|90/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Clefable|Clefable, M|91/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|83/100
+|-enditem|p2a: Clefable|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Rotom|Hydro Pump|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|9
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Dracozolt|[miss]
+|-miss|p1a: Rotom|p2a: Dracozolt
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Dracozolt|Substitute|p2a: Dracozolt
+|-start|p2a: Dracozolt|Substitute
+|-damage|p2a: Dracozolt|76/100
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Dracozolt|Fire Fang|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|37/100
+|-damage|p2a: Dracozolt|63/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Power Whip|p2a: Dracozolt
+|-resisted|p2a: Dracozolt
+|-activate|p2a: Dracozolt|move: Substitute|[damage]
+|
+|-heal|p1a: Ferrothorn|43/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Dracozolt|Fire Fang|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Ferrothorn|49/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Dragapult|Dragapult, M|79/100
+|move|p2a: Dracozolt|Fire Fang|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|60/100
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Clefable
+|-damage|p2a: Clefable|54/100
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, M, shiny|76/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Clefable|Moonblast|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|80/100
+|-unboost|p2a: Rotom|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|74/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|move|p2a: Rotom|Volt Switch|p1a: Clefable
+|-damage|p1a: Clefable|86/100
+|
+|switch|p2a: Seismitoad|Seismitoad, F, shiny|90/100|[from]move: Volt Switch
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Seismitoad|96/100|[from] item: Leftovers
+|-heal|p1a: Clefable|92/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|49/100
+|move|p2a: Seismitoad|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|96/100|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Seismitoad|100/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Clefable|Clefable, M|54/100
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|
+|-weather|none
+|upkeep
+|turn|20
+|
+|switch|p2a: Rotom|Rotom-Heat|74/100
+|move|p1a: Bisharp|Iron Head|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|56/100
+|-damage|p1a: Bisharp|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Bisharp|Sucker Punch||[still]
+|-fail|p1a: Bisharp
+|move|p2a: Rotom|Will-O-Wisp|p1a: Bisharp|[miss]
+|-miss|p2a: Rotom|p1a: Bisharp
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Excadrill|Excadrill, F, shiny|100/100
+|-item|p2a: Excadrill|Air Balloon
+|switch|p1a: Cinderace|Cinderace, M|89/100
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Clefable|Clefable, M|54/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Clefable
+|-damage|p2a: Clefable|9/100
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Cinderace|Pyro Ball|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: Seismitoad|Seismitoad, F, shiny|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|80/100
+|
+|-heal|p2a: Seismitoad|86/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Cinderace|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|71/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100|[from]move: U-turn
+|move|p2a: Seismitoad|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|91/100
+|
+|-heal|p2a: Seismitoad|77/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|97/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p2a: Dracozolt|Dracozolt|63/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Dracozolt
+|-damage|p2a: Dracozolt|38/100
+|-enditem|p2a: Dracozolt|Magnet|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|proto homo has 120 seconds left.
+|inactive|Baguette'd has 120 seconds left.
+|
+|switch|p2a: Rotom|Rotom-Heat|56/100
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|
+|upkeep
+|turn|29
+|inactive|proto homo has 120 seconds left.
+|
+|switch|p2a: Seismitoad|Seismitoad, F, shiny|77/100
+|move|p1a: Rotom|Trick|p2a: Seismitoad
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Seismitoad
+|-item|p2a: Seismitoad|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|30
+|inactive|proto homo has 120 seconds left.
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Seismitoad|Toxic|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|
+|upkeep
+|turn|31
+|inactive|proto homo has 120 seconds left.
+|-message|Baguette'd forfeited.
+|
+|win|proto homo
+|l|☆Baguette'd
+|raw|proto homo's rating: 1383 → 1406(+23 for winning)
+|raw|Baguette'd's rating: 1438 → 1415(-23 for losing)

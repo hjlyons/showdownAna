@@ -1,0 +1,592 @@
+|ScrapeTime|2020-01-01-15:45:40
+|j|☆Darkeyes71
+|j|☆pokepuffz
+|player|p1|Darkeyes71|blackbelt-gen4dp|1150
+|player|p2|pokepuffz|84|1157
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxapex, F|
+|poke|p1|Tyranitar, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Whimsicott, M|
+|poke|p1|Chandelure, M|
+|poke|p2|Dugtrio, F|
+|poke|p2|Durant, M|
+|poke|p2|Rotom-Mow|
+|poke|p2|Hydreigon, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Milotic, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|1
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Hydreigon|Dark Pulse|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|move|p1a: Tyranitar|Crunch|p2a: Corviknight
+|-damage|p2a: Corviknight|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|78/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Tyranitar|Crunch|p2a: Corviknight
+|-damage|p2a: Corviknight|50/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|99/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Tyranitar|Fire Punch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|60/100
+|move|p2a: Corviknight|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|69/100
+|
+|switch|p2a: Dugtrio|Dugtrio, F|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|6
+|
+|switch|p2a: Hydreigon|Hydreigon, F|94/100
+|switch|p1a: Whimsicott|Whimsicott, M|100/100
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Whimsicott|Substitute|p1a: Whimsicott
+|-start|p1a: Whimsicott|Substitute
+|-damage|p1a: Whimsicott|75/100
+|move|p2a: Hydreigon|U-turn|p1a: Whimsicott
+|-crit|p1a: Whimsicott
+|-end|p1a: Whimsicott|Substitute
+|
+|switch|p2a: Corviknight|Corviknight, M|60/100|[from]move: U-turn
+|
+|-heal|p1a: Whimsicott|82/100|[from] item: Leftovers
+|-heal|p2a: Corviknight|66/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Whimsicott|Leech Seed|p2a: Corviknight
+|-start|p2a: Corviknight|move: Leech Seed
+|move|p2a: Corviknight|Brave Bird|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|-damage|p2a: Corviknight|44/100|[from] Recoil
+|faint|p1a: Whimsicott
+|
+|-heal|p2a: Corviknight|51/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|9
+|
+|move|p1a: Excadrill|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: pokepuffz|move: Stealth Rock
+|move|p2a: Corviknight|U-turn|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|89/100
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100|[from]move: U-turn
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|move|p2a: Rotom|Leaf Storm|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|62/100
+|-unboost|p2a: Rotom|spa|2
+|
+|-heal|p2a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Hydreigon|Hydreigon, F|94/100
+|-damage|p2a: Hydreigon|82/100|[from] Stealth Rock
+|move|p1a: Chandelure|Shadow Ball|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|56/100
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Hydreigon|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|95/100
+|
+|switch|p2a: Corviknight|Corviknight, M|51/100|[from]move: U-turn
+|-damage|p2a: Corviknight|38/100|[from] Stealth Rock
+|
+|-heal|p2a: Corviknight|44/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|switch|p1a: Chandelure|Chandelure, M|62/100
+|move|p2a: Corviknight|Defog|p1a: Chandelure
+|-unboost|p1a: Chandelure|evasion|1
+|-sideend|p2: pokepuffz|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-heal|p2a: Corviknight|51/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Hydreigon|Hydreigon, F|56/100
+|move|p1a: Chandelure|Fire Blast|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|24/100
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Hydreigon|Dark Pulse|p1a: Corviknight
+|-damage|p1a: Corviknight|64/100
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Corviknight|Corviknight, M|51/100
+|switch|p1a: Chandelure|Chandelure, M|62/100
+|
+|-heal|p2a: Corviknight|57/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Milotic|Milotic, M|100/100
+|move|p1a: Chandelure|Shadow Ball|p2a: Milotic
+|-damage|p2a: Milotic|78/100
+|
+|-heal|p2a: Milotic|84/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Milotic|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|92/100
+|
+|-heal|p2a: Milotic|90/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|99/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|move|p1a: Toxapex|Toxic Spikes|p2a: Rotom
+|-sidestart|p2: pokepuffz|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|move|p2a: Rotom|Volt Switch|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|62/100
+|
+|switch|p2a: Corviknight|Corviknight, M|57/100|[from]move: Volt Switch
+|move|p1a: Toxapex|Toxic Spikes|p2a: Corviknight
+|-sidestart|p2: pokepuffz|move: Toxic Spikes
+|
+|-heal|p2a: Corviknight|63/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|69/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|move|p2a: Corviknight|Defog|p1a: Toxapex
+|-unboost|p1a: Toxapex|evasion|1
+|-sideend|p2: pokepuffz|Toxic Spikes|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Toxapex|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|50/100
+|
+|-heal|p2a: Corviknight|57/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|75/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|move|p2a: Corviknight|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|69/100
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100|[from]move: U-turn
+|move|p1a: Toxapex|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|90/100
+|-status|p2a: Rotom|brn
+|
+|-heal|p2a: Rotom|96/100 brn|[from] item: Leftovers
+|-heal|p1a: Toxapex|75/100|[from] item: Black Sludge
+|-damage|p2a: Rotom|90/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|25/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|75/100
+|
+|-heal|p2a: Rotom|96/100 brn|[from] item: Leftovers
+|-heal|p1a: Toxapex|81/100|[from] item: Black Sludge
+|-damage|p2a: Rotom|90/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p1a: Chandelure|Chandelure, M|62/100
+|move|p2a: Rotom|Thunderbolt|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|-heal|p2a: Rotom|96/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|90/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|89/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|25
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Toxapex
+|-status|p1a: Toxapex|brn
+|
+|-heal|p2a: Rotom|96/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|90/100 brn|[from] brn
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p2a: Rotom|Volt Switch|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|55/100 brn
+|
+|switch|p2a: Corviknight|Corviknight, M|57/100|[from]move: Volt Switch
+|move|p1a: Toxapex|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|43/100
+|
+|-heal|p2a: Corviknight|49/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|61/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|55/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|99/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100 brn
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p2a: Corviknight|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|89/100 brn
+|
+|switch|p2a: Rotom|Rotom-Mow|90/100 brn|[from]move: U-turn
+|move|p1a: Toxapex|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|79/100 brn
+|
+|-heal|p2a: Rotom|85/100 brn|[from] item: Leftovers
+|-heal|p1a: Toxapex|95/100 brn|[from] item: Black Sludge
+|-damage|p2a: Rotom|79/100 brn|[from] brn
+|-damage|p1a: Toxapex|89/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|switch|p1a: Excadrill|Excadrill, M|89/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Rotom|Thunderbolt|p1a: Excadrill
+|-immune|p1a: Excadrill
+|
+|-heal|p2a: Rotom|85/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|79/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100 brn
+|move|p2a: Rotom|Will-O-Wisp|p1a: Toxapex
+|-fail|p1a: Toxapex|brn
+|
+|-heal|p2a: Rotom|85/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|79/100 brn|[from] brn
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p2a: Rotom|Leaf Storm|p1a: Toxapex
+|-damage|p1a: Toxapex|57/100 brn
+|-unboost|p2a: Rotom|spa|2
+|move|p1a: Toxapex|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|69/100 brn
+|
+|-heal|p2a: Rotom|75/100 brn|[from] item: Leftovers
+|-heal|p1a: Toxapex|63/100 brn|[from] item: Black Sludge
+|-damage|p2a: Rotom|69/100 brn|[from] brn
+|-damage|p1a: Toxapex|57/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p2a: Rotom|Volt Switch|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|35/100 brn
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from]move: Volt Switch
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|85/100 brn
+|
+|-heal|p1a: Toxapex|91/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|85/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p2a: Corviknight|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|79/100 brn
+|
+|switch|p2a: Rotom|Rotom-Mow|69/100 brn|[from]move: U-turn
+|move|p1a: Toxapex|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|57/100 brn
+|
+|-heal|p2a: Rotom|63/100 brn|[from] item: Leftovers
+|-heal|p1a: Toxapex|86/100 brn|[from] item: Black Sludge
+|-damage|p2a: Rotom|57/100 brn|[from] brn
+|-damage|p1a: Toxapex|79/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|31/100 brn
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|81/100 brn
+|
+|-heal|p2a: Rotom|63/100 brn|[from] item: Leftovers
+|-heal|p1a: Toxapex|88/100 brn|[from] item: Black Sludge
+|-damage|p2a: Rotom|57/100 brn|[from] brn
+|-damage|p1a: Toxapex|81/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|switch|p1a: Corviknight|Corviknight, F|64/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Rotom|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-heal|p2a: Rotom|63/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|57/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|89/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|36
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100 brn
+|move|p2a: Rotom|Will-O-Wisp|p1a: Toxapex|[miss]
+|-miss|p2a: Rotom|p1a: Toxapex
+|
+|-heal|p2a: Rotom|63/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|57/100 brn|[from] brn
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|switch|p1a: Excadrill|Excadrill, M|89/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Rotom|Thunderbolt|p1a: Excadrill
+|-immune|p1a: Excadrill
+|
+|-heal|p2a: Rotom|63/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|57/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p1a: Excadrill|Earthquake|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Durant|Durant, M|100/100
+|turn|39
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100 brn
+|move|p2a: Durant|Entrainment|p1a: Toxapex
+|-endability|p1a: Toxapex|Regenerator|[from] move: Entrainment
+|-ability|p1a: Toxapex|Truant|[from] move: Entrainment
+|
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|cant|p2a: Durant|ability: Truant
+|move|p1a: Toxapex|Scald|p2a: Durant
+|-damage|p2a: Durant|63/100
+|-enditem|p2a: Durant|Eject Button
+|
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|
+|-heal|p1a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|move|p2a: Dugtrio|Protect|p2a: Dugtrio
+|-singleturn|p2a: Dugtrio|Protect
+|cant|p1a: Toxapex|ability: Truant
+|
+|-heal|p1a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|move|p2a: Dugtrio|Hone Claws|p2a: Dugtrio
+|-boost|p2a: Dugtrio|atk|1
+|-boost|p2a: Dugtrio|accuracy|1
+|move|p1a: Toxapex|Scald|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|34/100
+|
+|-heal|p1a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|move|p2a: Dugtrio|Hone Claws|p2a: Dugtrio
+|-boost|p2a: Dugtrio|atk|1
+|-boost|p2a: Dugtrio|accuracy|1
+|cant|p1a: Toxapex|ability: Truant
+|
+|-heal|p1a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|move|p2a: Dugtrio|Protect|p2a: Dugtrio
+|-singleturn|p2a: Dugtrio|Protect
+|move|p1a: Toxapex|Scald|p2a: Dugtrio
+|-activate|p2a: Dugtrio|move: Protect
+|
+|-heal|p1a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|move|p2a: Dugtrio|Hone Claws|p2a: Dugtrio
+|-boost|p2a: Dugtrio|atk|1
+|-boost|p2a: Dugtrio|accuracy|1
+|cant|p1a: Toxapex|ability: Truant
+|
+|-heal|p1a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|move|p2a: Dugtrio|Protect|p2a: Dugtrio
+|-singleturn|p2a: Dugtrio|Protect
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|move|p2a: Dugtrio|Hone Claws|p2a: Dugtrio
+|-boost|p2a: Dugtrio|atk|1
+|-boost|p2a: Dugtrio|accuracy|1
+|cant|p1a: Toxapex|ability: Truant
+|
+|-heal|p1a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|move|p2a: Dugtrio|Protect|p2a: Dugtrio
+|-singleturn|p2a: Dugtrio|Protect
+|move|p1a: Toxapex|Scald|p2a: Dugtrio
+|-activate|p2a: Dugtrio|move: Protect
+|
+|-heal|p1a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|move|p2a: Dugtrio|Hone Claws|p2a: Dugtrio
+|-boost|p2a: Dugtrio|atk|1
+|-boost|p2a: Dugtrio|accuracy|1
+|cant|p1a: Toxapex|ability: Truant
+|
+|-heal|p1a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|upkeep
+|-message|Darkeyes71 forfeited.
+|
+|win|pokepuffz
+|l|☆Darkeyes71
+|raw|Darkeyes71's rating: 1151 → 1126(-25 for losing)
+|raw|pokepuffz's rating: 1157 → 1182(+25 for winning)

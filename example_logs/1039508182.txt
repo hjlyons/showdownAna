@@ -1,0 +1,615 @@
+|ScrapeTime|2020-01-02-04:55:32
+|j|☆Sir Fresh
+|j|☆Wacko Taco Gang
+|player|p1|Sir Fresh|92|1463
+|player|p2|Wacko Taco Gang|benga|1439
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aegislash, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Milotic, F|
+|poke|p1|Roserade, F|
+|poke|p2|Drakloak, F|
+|poke|p2|Doublade, M|
+|poke|p2|Mareanie, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Clefable, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Sabo|Cinderace, M|100/100
+|switch|p2a: Drakloak|Drakloak, F|100/100
+|turn|1
+|
+|move|p1a: Sabo|U-turn|p2a: Drakloak
+|-resisted|p2a: Drakloak
+|-damage|p2a: Drakloak|87/100
+|
+|switch|p1a: Katara|Milotic, F|100/100|[from]move: U-turn
+|move|p2a: Drakloak|Substitute|p2a: Drakloak
+|-start|p2a: Drakloak|Substitute
+|-damage|p2a: Drakloak|62/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Drakloak|Will-O-Wisp|p1a: Katara
+|-status|p1a: Katara|brn
+|move|p1a: Katara|Ice Beam|p2a: Drakloak
+|-supereffective|p2a: Drakloak
+|-end|p2a: Drakloak|Substitute
+|
+|-damage|p1a: Katara|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Drakloak|Disable|p1a: Katara
+|-start|p1a: Katara|Disable|Ice Beam
+|cant|p1a: Katara|Disable|Ice Beam
+|
+|-damage|p1a: Katara|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Drakloak|Hex|p1a: Katara
+|-damage|p1a: Katara|67/100 brn
+|move|p1a: Katara|Scald|p2a: Drakloak
+|-resisted|p2a: Drakloak
+|-damage|p2a: Drakloak|47/100
+|
+|-damage|p1a: Katara|61/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p2a: Drakloak|Substitute|p2a: Drakloak
+|-start|p2a: Drakloak|Substitute
+|-damage|p2a: Drakloak|22/100
+|move|p1a: Katara|Scald|p2a: Drakloak
+|-resisted|p2a: Drakloak
+|-activate|p2a: Drakloak|move: Substitute|[damage]
+|
+|-damage|p1a: Katara|55/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p2a: Drakloak|Hex|p1a: Katara
+|-damage|p1a: Katara|30/100 brn
+|move|p1a: Katara|Recover|p1a: Katara
+|-heal|p1a: Katara|80/100 brn
+|
+|-damage|p1a: Katara|74/100 brn|[from] brn
+|-end|p1a: Katara|Disable
+|upkeep
+|turn|7
+|
+|move|p2a: Drakloak|Hex|p1a: Katara
+|-damage|p1a: Katara|51/100 brn
+|move|p1a: Katara|Scald|p2a: Drakloak
+|-resisted|p2a: Drakloak
+|-end|p2a: Drakloak|Substitute
+|
+|-damage|p1a: Katara|45/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p2a: Drakloak|Disable|p1a: Katara
+|-start|p1a: Katara|Disable|Scald
+|move|p1a: Katara|Ice Beam|p2a: Drakloak
+|-supereffective|p2a: Drakloak
+|-damage|p2a: Drakloak|0 fnt
+|faint|p2a: Drakloak
+|
+|-damage|p1a: Katara|39/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|9
+|
+|switch|p1a: Ruby|Roserade, F|100/100
+|move|p2a: Clefable|Thunderbolt|p1a: Ruby
+|-resisted|p1a: Ruby
+|-damage|p1a: Ruby|88/100
+|
+|-heal|p1a: Ruby|94/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Ruby|Sludge Bomb|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ruby|88/100|[from] Sandstorm
+|-heal|p1a: Ruby|94/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|switch|p1a: Katara|Milotic, F|39/100 brn
+|move|p2a: Tyranitar|Stealth Rock|p1a: Katara
+|-sidestart|p1: Sir Fresh|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Katara|32/100 brn|[from] Sandstorm
+|-damage|p1a: Katara|26/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Tyranitar|Crunch|p1a: Katara
+|-damage|p1a: Katara|3/100 brn
+|-damage|p2a: Tyranitar|70/100|[from] item: Rocky Helmet|[of] p1a: Katara
+|move|p1a: Katara|Recover|p1a: Katara
+|-heal|p1a: Katara|53/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Katara|47/100 brn|[from] Sandstorm
+|-damage|p1a: Katara|41/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Katara|Recover|p1a: Katara
+|-heal|p1a: Katara|91/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Katara|85/100 brn|[from] Sandstorm
+|-damage|p1a: Katara|79/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Katara|Recover|p1a: Katara
+|-heal|p1a: Katara|100/100 brn
+|move|p2a: Clefable|Moonblast|p1a: Katara
+|-damage|p1a: Katara|61/100 brn
+|
+|-weather|none
+|-damage|p1a: Katara|55/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Katara|Recover|p1a: Katara
+|-heal|p1a: Katara|100/100 brn
+|move|p2a: Clefable|Thunderbolt|p1a: Katara
+|-supereffective|p1a: Katara
+|-damage|p1a: Katara|46/100 brn
+|
+|-damage|p1a: Katara|40/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Katara|Recover|p1a: Katara
+|-heal|p1a: Katara|90/100 brn
+|move|p2a: Clefable|Moonblast|p1a: Katara
+|-damage|p1a: Katara|50/100 brn
+|
+|-damage|p1a: Katara|44/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p1a: Ruby|Roserade, F|94/100
+|-damage|p1a: Ruby|81/100|[from] Stealth Rock
+|move|p2a: Clefable|Thunderbolt|p1a: Ruby
+|-resisted|p1a: Ruby
+|-damage|p1a: Ruby|67/100
+|
+|-heal|p1a: Ruby|74/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|switch|p2a: Tyranitar|Tyranitar, F|70/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Ruby|Leech Seed|p2a: Tyranitar
+|-start|p2a: Tyranitar|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ruby|67/100|[from] Sandstorm
+|-heal|p1a: Ruby|74/100|[from] item: Black Sludge
+|-damage|p2a: Tyranitar|58/100|[from] Leech Seed|[of] p1a: Ruby
+|-heal|p1a: Ruby|87/100|[silent]
+|upkeep
+|turn|19
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|move|p1a: Ruby|Giga Drain|p2a: Excadrill
+|-damage|p2a: Excadrill|56/100
+|-heal|p1a: Ruby|100/100|[from] drain|[of] p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ruby|94/100|[from] Sandstorm
+|-heal|p1a: Ruby|100/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|switch|p1a: Katara|Milotic, F|44/100 brn
+|-damage|p1a: Katara|32/100 brn|[from] Stealth Rock
+|move|p2a: Excadrill|Earthquake|p1a: Katara
+|-damage|p1a: Katara|0 fnt
+|-damage|p2a: Excadrill|46/100|[from] item: Life Orb
+|faint|p1a: Katara
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Gawain|Corviknight, M|100/100
+|-damage|p1a: Gawain|88/100|[from] Stealth Rock
+|turn|21
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Gawain|Bulk Up|p1a: Gawain
+|-boost|p1a: Gawain|atk|1
+|-boost|p1a: Gawain|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gawain|94/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Clefable|Fire Blast|p1a: Gawain
+|-supereffective|p1a: Gawain
+|-crit|p1a: Gawain
+|-damage|p1a: Gawain|5/100
+|move|p1a: Gawain|Bulk Up|p1a: Gawain
+|-boost|p1a: Gawain|atk|1
+|-boost|p1a: Gawain|def|1
+|
+|-weather|none
+|-heal|p1a: Gawain|11/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Clefable|Thunderbolt|p1a: Gawain
+|-supereffective|p1a: Gawain
+|-damage|p1a: Gawain|0 fnt
+|faint|p1a: Gawain
+|
+|upkeep
+|
+|switch|p1a: Sabo|Cinderace, M|100/100
+|-damage|p1a: Sabo|76/100|[from] Stealth Rock
+|turn|24
+|
+|switch|p2a: Mareanie|Mareanie, F|100/100
+|move|p1a: Sabo|Court Change|p1a: Sabo
+|-sideend|p1: Sir Fresh|Stealth Rock|[silent]
+|-sidestart|p2: Wacko Taco Gang|Stealth Rock|[silent]
+|-activate|p1a: Sabo|move: Court Change
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Sabo|U-turn|p2a: Mareanie
+|-resisted|p2a: Mareanie
+|-damage|p2a: Mareanie|92/100
+|
+|switch|p1a: Ruby|Roserade, F|100/100|[from]move: U-turn
+|move|p2a: Mareanie|Scald|p1a: Ruby
+|-resisted|p1a: Ruby
+|-damage|p1a: Ruby|95/100
+|
+|-heal|p1a: Ruby|100/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|switch|p2a: Tyranitar|Tyranitar, F|58/100
+|-damage|p2a: Tyranitar|46/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Ruby|Sludge Bomb|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ruby|94/100|[from] Sandstorm
+|-heal|p1a: Ruby|100/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|move|p2a: Tyranitar|Stealth Rock|p1a: Ruby
+|-sidestart|p1: Sir Fresh|move: Stealth Rock
+|move|p1a: Ruby|Giga Drain|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ruby|94/100|[from] Sandstorm
+|-heal|p1a: Ruby|100/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|46/100
+|-damage|p2a: Excadrill|43/100|[from] Stealth Rock
+|turn|28
+|
+|move|p2a: Excadrill|Earthquake|p1a: Ruby
+|-damage|p1a: Ruby|0 fnt
+|-damage|p2a: Excadrill|33/100|[from] item: Life Orb
+|faint|p1a: Ruby
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Link|Aegislash, M|100/100
+|-damage|p1a: Link|94/100|[from] Stealth Rock
+|turn|29
+|
+|switch|p2a: Mareanie|Mareanie, F|100/100
+|-damage|p2a: Mareanie|88/100|[from] Stealth Rock
+|-formechange|p1a: Link|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Link|Shadow Sneak|p2a: Mareanie
+|-damage|p2a: Mareanie|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mareanie|63/100|[from] Sandstorm
+|upkeep
+|turn|30
+|
+|-formechange|p1a: Link|Aegislash||[from] ability: Stance Change
+|move|p1a: Link|King's Shield|p1a: Link
+|-singleturn|p1a: Link|Protect
+|move|p2a: Mareanie|Recover|p2a: Mareanie
+|-heal|p2a: Mareanie|100/100
+|
+|-weather|none
+|upkeep
+|turn|31
+|
+|move|p1a: Link|Swords Dance|p1a: Link
+|-boost|p1a: Link|atk|2
+|move|p2a: Mareanie|Toxic Spikes|p1a: Link
+|-sidestart|p1: Sir Fresh|move: Toxic Spikes
+|
+|upkeep
+|turn|32
+|
+|-formechange|p1a: Link|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Link|Shadow Sneak|p2a: Mareanie
+|-damage|p2a: Mareanie|65/100
+|move|p2a: Mareanie|Haze|p2a: Mareanie
+|-clearallboost
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Link|Swords Dance|p1a: Link
+|-boost|p1a: Link|atk|2
+|move|p2a: Mareanie|Scald|p1a: Link
+|-damage|p1a: Link|70/100
+|
+|upkeep
+|turn|34
+|
+|move|p1a: Link|Iron Head|p2a: Mareanie
+|-resisted|p2a: Mareanie
+|-damage|p2a: Mareanie|30/100
+|move|p2a: Mareanie|Recover|p2a: Mareanie
+|-heal|p2a: Mareanie|80/100
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Link|Iron Head|p2a: Mareanie
+|-resisted|p2a: Mareanie
+|-damage|p2a: Mareanie|48/100
+|move|p2a: Mareanie|Haze|p2a: Mareanie
+|-clearallboost
+|
+|upkeep
+|turn|36
+|
+|move|p1a: Link|Swords Dance|p1a: Link
+|-boost|p1a: Link|atk|2
+|move|p2a: Mareanie|Recover|p2a: Mareanie
+|-heal|p2a: Mareanie|98/100
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Link|Iron Head|p2a: Mareanie
+|-resisted|p2a: Mareanie
+|-damage|p2a: Mareanie|61/100
+|cant|p2a: Mareanie|flinch
+|
+|upkeep
+|turn|38
+|
+|move|p1a: Link|Iron Head|p2a: Mareanie
+|-resisted|p2a: Mareanie
+|-damage|p2a: Mareanie|28/100
+|move|p2a: Mareanie|Haze|p2a: Mareanie
+|-clearallboost
+|
+|upkeep
+|turn|39
+|
+|move|p1a: Link|Swords Dance|p1a: Link
+|-boost|p1a: Link|atk|2
+|move|p2a: Mareanie|Recover|p2a: Mareanie
+|-heal|p2a: Mareanie|78/100
+|
+|upkeep
+|turn|40
+|
+|move|p1a: Link|Iron Head|p2a: Mareanie
+|-resisted|p2a: Mareanie
+|-damage|p2a: Mareanie|41/100
+|move|p2a: Mareanie|Haze|p2a: Mareanie
+|-clearallboost
+|
+|upkeep
+|turn|41
+|
+|move|p1a: Link|Swords Dance|p1a: Link
+|-boost|p1a: Link|atk|2
+|move|p2a: Mareanie|Recover|p2a: Mareanie
+|-heal|p2a: Mareanie|91/100
+|
+|upkeep
+|turn|42
+|
+|move|p1a: Link|Iron Head|p2a: Mareanie
+|-resisted|p2a: Mareanie
+|-damage|p2a: Mareanie|58/100
+|cant|p2a: Mareanie|flinch
+|
+|upkeep
+|turn|43
+|
+|switch|p2a: Excadrill|Excadrill, F|33/100
+|-damage|p2a: Excadrill|30/100|[from] Stealth Rock
+|move|p1a: Link|Iron Head|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|44
+|
+|-formechange|p1a: Link|Aegislash||[from] ability: Stance Change
+|move|p1a: Link|King's Shield|p1a: Link
+|-singleturn|p1a: Link|Protect
+|move|p2a: Clefable|Fire Blast|p1a: Link
+|-activate|p1a: Link|move: Protect
+|
+|upkeep
+|turn|45
+|
+|move|p2a: Clefable|Fire Blast|p1a: Link
+|-supereffective|p1a: Link
+|-damage|p1a: Link|2/100
+|-enditem|p1a: Link|Weakness Policy
+|-boost|p1a: Link|atk|2
+|-boost|p1a: Link|spa|2
+|-formechange|p1a: Link|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Link|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Doublade|Doublade, M|100/100
+|-damage|p2a: Doublade|95/100|[from] Stealth Rock
+|turn|46
+|
+|move|p1a: Link|Shadow Sneak|p2a: Doublade
+|-supereffective|p2a: Doublade
+|-damage|p2a: Doublade|19/100
+|move|p2a: Doublade|Shadow Sneak|p1a: Link
+|-supereffective|p1a: Link
+|-damage|p1a: Link|0 fnt
+|faint|p1a: Link
+|
+|upkeep
+|
+|switch|p1a: Sabo|Cinderace, M|76/100
+|-status|p1a: Sabo|psn
+|-damage|p1a: Sabo|51/100 psn|[from] Stealth Rock
+|turn|47
+|
+|switch|p2a: Mareanie|Mareanie, F|91/100
+|-damage|p2a: Mareanie|78/100|[from] Stealth Rock
+|move|p1a: Sabo|Pyro Ball|p2a: Mareanie
+|-resisted|p2a: Mareanie
+|-damage|p2a: Mareanie|58/100
+|
+|-damage|p1a: Sabo|38/100 psn|[from] psn
+|upkeep
+|turn|48
+|
+|move|p1a: Sabo|Pyro Ball|p2a: Mareanie
+|-resisted|p2a: Mareanie
+|-damage|p2a: Mareanie|38/100
+|move|p2a: Mareanie|Recover|p2a: Mareanie
+|-heal|p2a: Mareanie|88/100
+|
+|-damage|p1a: Sabo|26/100 psn|[from] psn
+|upkeep
+|turn|49
+|
+|move|p1a: Sabo|Pyro Ball|p2a: Mareanie
+|-resisted|p2a: Mareanie
+|-damage|p2a: Mareanie|58/100
+|-status|p2a: Mareanie|brn
+|move|p2a: Mareanie|Toxic Spikes|p1a: Sabo
+|-sidestart|p1: Sir Fresh|move: Toxic Spikes
+|
+|-damage|p1a: Sabo|14/100 psn|[from] psn
+|-damage|p2a: Mareanie|52/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|move|p1a: Sabo|Pyro Ball|p2a: Mareanie
+|-resisted|p2a: Mareanie
+|-damage|p2a: Mareanie|19/100 brn
+|move|p2a: Mareanie|Recover|p2a: Mareanie
+|-heal|p2a: Mareanie|69/100 brn
+|
+|-damage|p1a: Sabo|1/100 psn|[from] psn
+|-damage|p2a: Mareanie|63/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|move|p1a: Sabo|Pyro Ball|p2a: Mareanie
+|-resisted|p2a: Mareanie
+|-damage|p2a: Mareanie|32/100 brn
+|move|p2a: Mareanie|Toxic Spikes||[still]
+|-fail|p2a: Mareanie
+|
+|-damage|p1a: Sabo|0 fnt|[from] psn
+|faint|p1a: Sabo
+|-damage|p2a: Mareanie|26/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Medeus|Dragapult, M|100/100
+|-damage|p1a: Medeus|88/100|[from] Stealth Rock
+|-status|p1a: Medeus|tox
+|-enditem|p1a: Medeus|Lum Berry|[eat]
+|-curestatus|p1a: Medeus|tox|[msg]
+|turn|52
+|
+|move|p1a: Medeus|Thunderbolt|p2a: Mareanie
+|-supereffective|p2a: Mareanie
+|-damage|p2a: Mareanie|0 fnt
+|faint|p2a: Mareanie
+|
+|upkeep
+|
+|switch|p2a: Doublade|Doublade, M|19/100
+|-damage|p2a: Doublade|13/100|[from] Stealth Rock
+|turn|53
+|
+|move|p2a: Doublade|Shadow Sneak|p1a: Medeus
+|-supereffective|p1a: Medeus
+|-damage|p1a: Medeus|24/100
+|move|p1a: Medeus|Phantom Force||[still]
+|-prepare|p1a: Medeus|Phantom Force|p2a: Doublade
+|
+|upkeep
+|turn|54
+|
+|move|p2a: Doublade|Shadow Sneak|p1a: Medeus
+|-supereffective|p1a: Medeus
+|-damage|p1a: Medeus|0 fnt
+|faint|p1a: Medeus
+|
+|win|Wacko Taco Gang
+|raw|Sir Fresh's rating: 1463 → 1441(-22 for losing)
+|raw|Wacko Taco Gang's rating: 1424 → 1446(+22 for winning)
+|l|☆Sir Fresh

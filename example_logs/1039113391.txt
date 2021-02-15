@@ -1,0 +1,359 @@
+|ScrapeTime|2020-01-01-12:34:49
+|j|☆kbsigrichocobite
+|j|☆Spacepod
+|player|p1|kbsigrichocobite|rocketgrunt|1152
+|player|p2|Spacepod|165|1126
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Dracovish|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Aegislash, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Eiscue, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Clefable, M|
+|poke|p2|Hawlucha, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Eiscue|Eiscue, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kbsigrichocobite)
+|
+|move|p1a: Eiscue|Substitute|p1a: Eiscue
+|-start|p1a: Eiscue|Substitute
+|-damage|p1a: Eiscue|75/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Eiscue
+|-sidestart|p1: kbsigrichocobite|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|inactive|Spacepod has 120 seconds left.
+|
+|move|p1a: Eiscue|Belly Drum|p1a: Eiscue
+|-damage|p1a: Eiscue|25/100
+|-setboost|p1a: Eiscue|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Eiscue|Sitrus Berry|[eat]
+|-heal|p1a: Eiscue|50/100|[from] item: Sitrus Berry
+|move|p2a: Ferrothorn|Knock Off|p1a: Eiscue
+|-activate|p1a: Eiscue|move: Substitute|[damage]
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Eiscue|Icicle Crash|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|25/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Eiscue
+|-end|p1a: Eiscue|Substitute
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Eiscue|Icicle Crash|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, M, shiny|100/100
+|turn|5
+|
+|move|p2a: Hawlucha|Brave Bird|p1a: Eiscue
+|-activate|p1a: Eiscue|ability: Ice Face
+|-damage|p1a: Eiscue|50/100
+|detailschange|p1a: Eiscue|Eiscue-Noice, M
+|move|p1a: Eiscue|Icicle Crash|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|upkeep
+|c|☆Spacepod|huh
+|c|☆Spacepod|would u look at that one
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|turn|6
+|
+|move|p1a: Eiscue|Icicle Crash|p2a: Corviknight
+|-damage|p2a: Corviknight|1/100
+|move|p2a: Corviknight|Iron Head|p1a: Eiscue
+|-supereffective|p1a: Eiscue
+|-damage|p1a: Eiscue|0 fnt
+|faint|p1a: Eiscue
+|
+|-heal|p2a: Corviknight|8/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|-damage|p1a: Cinderace|76/100|[from] Stealth Rock
+|turn|7
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p1: kbsigrichocobite|Stealth Rock|[silent]
+|-sidestart|p2: Spacepod|Stealth Rock|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Seismitoad|Earthquake|p1a: Mandibuzz
+|-immune|p1a: Mandibuzz
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Mandibuzz|Knock Off|p2a: Seismitoad
+|-damage|p2a: Seismitoad|76/100
+|-enditem|p2a: Seismitoad|Leftovers|[from] move: Knock Off|[of] p1a: Mandibuzz
+|move|p2a: Seismitoad|Ice Punch|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|64/100
+|-damage|p2a: Seismitoad|60/100|[from] item: Rocky Helmet|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|10
+|inactive|Spacepod has 120 seconds left.
+|
+|move|p1a: Mandibuzz|Toxic|p2a: Seismitoad
+|-status|p2a: Seismitoad|tox
+|move|p2a: Seismitoad|Ice Punch|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|31/100
+|-damage|p2a: Seismitoad|43/100 tox|[from] item: Rocky Helmet|[of] p1a: Mandibuzz
+|
+|-damage|p2a: Seismitoad|37/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|81/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|-item|p1a: Aegislash|Air Balloon
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|upkeep
+|turn|13
+|inactive|Spacepod has 120 seconds left.
+|
+|move|p2a: Clefable|Aromatherapy|p2a: Clefable
+|-activate|p2a: Clefable|move: Aromatherapy
+|-curestatus|p2: Seismitoad|tox|[msg]
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Clefable
+|-damage|p2a: Clefable|74/100
+|
+|-heal|p2a: Clefable|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|14
+|inactive|Spacepod has 120 seconds left.
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Seismitoad|Seismitoad, M|37/100
+|-damage|p2a: Seismitoad|31/100|[from] Stealth Rock
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Flash Cannon|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|10/100
+|-unboost|p2a: Seismitoad|spd|1
+|
+|-heal|p2a: Seismitoad|58/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|16
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Seismitoad|Earthquake|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|81/100
+|move|p2a: Seismitoad|Earthquake|p1a: Mandibuzz
+|-immune|p1a: Mandibuzz
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Foul Play|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|74/100
+|
+|upkeep
+|turn|19
+|inactive|Spacepod has 120 seconds left.
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|66/100
+|-damage|p2a: Hydreigon|64/100|[from] item: Life Orb
+|move|p1a: Mandibuzz|Toxic|p2a: Hydreigon
+|-status|p2a: Hydreigon|tox
+|
+|-damage|p2a: Hydreigon|58/100 tox|[from] psn
+|upkeep
+|turn|20
+|inactive|kbsigrichocobite has 120 seconds left.
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Mandibuzz|Knock Off|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|87/100
+|-enditem|p2a: Clefable|Leftovers|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|21
+|inactive|kbsigrichocobite has 120 seconds left.
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|move|p2a: Clefable|Moonblast|p1a: Dracovish
+|-supereffective|p1a: Dracovish
+|-damage|p1a: Dracovish|17/100
+|-unboost|p1a: Dracovish|spa|1
+|
+|upkeep
+|turn|22
+|inactive|kbsigrichocobite has 120 seconds left.
+|
+|switch|p2a: Seismitoad|Seismitoad, M|58/100
+|-damage|p2a: Seismitoad|51/100|[from] Stealth Rock
+|move|p1a: Dracovish|Outrage|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|87/100
+|turn|23
+|
+|move|p1a: Dracovish|Outrage|p2a: Clefable|[from]lockedmove
+|-immune|p2a: Clefable
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|upkeep
+|turn|24
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|-item|p1a: Aegislash|Air Balloon
+|move|p2a: Clefable|Aromatherapy|p2a: Clefable
+|-activate|p2a: Clefable|move: Aromatherapy
+|-curestatus|p2: Hydreigon|tox|[msg]
+|
+|-heal|p2a: Clefable|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|25
+|
+|move|p2a: Clefable|Flamethrower|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|70/100
+|-enditem|p1a: Aegislash|Air Balloon
+|-status|p1a: Aegislash|brn
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Close Combat|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|88/100
+|-unboost|p1a: Aegislash|def|1
+|-unboost|p1a: Aegislash|spd|1
+|
+|-damage|p1a: Aegislash|64/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|switch|p1a: Dracovish|Dracovish|17/100
+|move|p2a: Clefable|Moonblast|p1a: Dracovish
+|-supereffective|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|upkeep
+|inactive|kbsigrichocobite has 120 seconds left.
+|
+|switch|p1a: Cinderace|Cinderace, M|76/100
+|turn|27
+|inactive|Spacepod has 120 seconds left.
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Clefable
+|-damage|p2a: Clefable|21/100
+|move|p2a: Clefable|Moonblast|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|52/100
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Clefable|Moonblast|p1a: Hatterene
+|-damage|p1a: Hatterene|65/100
+|
+|upkeep
+|turn|29
+|inactive|Spacepod has 120 seconds left.
+|
+|move|p2a: Clefable|Wish|p2a: Clefable
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|30
+|inactive|Spacepod has 120 seconds left.
+|
+|move|p1a: Hatterene|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|inactive|Spacepod has 120 seconds left.
+|c|☆kbsigrichocobite|Gg
+|
+|switch|p2a: Corviknight|Corviknight, F|8/100
+|-damage|p2a: Corviknight|0 fnt|[from] Stealth Rock
+|faint|p2a: Corviknight
+|
+|switch|p2a: Hydreigon|Hydreigon, M|58/100
+|-damage|p2a: Hydreigon|45/100|[from] Stealth Rock
+|turn|31
+|
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|win|kbsigrichocobite
+|raw|kbsigrichocobite's rating: 1152 → 1175(+23 for winning)
+|raw|Spacepod's rating: 1126 → 1103(-23 for losing)
+|l|☆Spacepod

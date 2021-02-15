@@ -1,0 +1,690 @@
+|ScrapeTime|2020-01-01-13:25:10
+|j|☆Black Jack gugugu
+|j|☆HY VINO
+|player|p1|Black Jack gugugu|9|
+|player|p2|HY VINO|101|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Seismitoad, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Barraskewda, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Dracovish|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Ditto|
+|poke|p2|Excadrill, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Dragapult, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| XPSH
+|l|☆Black Jack gugugu
+|player|p1|
+|j|☆Black Jack gugugu
+|player|p1|Black Jack gugugu|9
+|
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|c|☆Black Jack gugugu|t
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Dragapult|Flamethrower|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|91/100
+|-status|p1a: Mandibuzz|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Mandibuzz|85/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Mandibuzz|U-turn|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|98/100
+|
+|switch|p1a: Dracovish|Dracovish|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|1/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|7/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Toxapex|Baneful Bunker||[still]
+|-fail|p2a: Toxapex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|13/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|c|☆HY VINO|这啥啊
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Seismitoad|Liquidation|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|40/100
+|-damage|p1a: Seismitoad|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|c|☆Black Jack gugugu|雨天的鱼龙，咬度惊人
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Seismitoad|[from] ability: Imposter
+|move|p1a: Seismitoad|Liquidation|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|-damage|p1a: Seismitoad|81/100|[from] item: Life Orb
+|faint|p2a: Ditto
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆Black Jack gugugu|我不是储水
+|c|☆Black Jack gugugu|忘记……告诉你了……
+|c|☆HY VINO|去世
+|c|☆Black Jack gugugu|微微
+|
+|switch|p2a: Toxapex|Toxapex, F|47/100
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|94/100 brn
+|move|p2a: Toxapex|Baneful Bunker||[still]
+|-fail|p2a: Toxapex
+|
+|-weather|none
+|-heal|p2a: Toxapex|53/100|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p2a: Toxapex|Toxic Spikes|p1a: Ferrothorn
+|-sidestart|p1: Black Jack gugugu|move: Toxic Spikes
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: HY VINO|move: Stealth Rock
+|
+|-heal|p2a: Toxapex|59/100|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Toxapex|Toxic Spikes|p1a: Ferrothorn
+|-sidestart|p1: Black Jack gugugu|move: Toxic Spikes
+|move|p1a: Ferrothorn|Leech Seed|p2a: Toxapex
+|-start|p2a: Toxapex|move: Leech Seed
+|
+|-heal|p2a: Toxapex|65/100|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|53/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|98/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|80/100
+|
+|-heal|p2a: Excadrill|86/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Excadrill|Stealth Rock|p1a: Pelipper
+|-sidestart|p1: Black Jack gugugu|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Excadrill|92/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Pelipper|Scald|p2a: Mandibuzz
+|-crit|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|54/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Pelipper|Hurricane|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|70/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p2a: Mandibuzz|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|84/100
+|-enditem|p1a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p2a: Mandibuzz
+|move|p1a: Pelipper|Scald|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|34/100
+|-status|p2a: Mandibuzz|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Mandibuzz|28/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|78/100 brn
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Pelipper|U-turn|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|68/100 brn
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|85/100 brn|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Mandibuzz|62/100 brn|[from] brn
+|-damage|p1a: Mandibuzz|79/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p1a: Mandibuzz|Defog|p2a: Mandibuzz
+|-unboost|p2a: Mandibuzz|evasion|1
+|-sideend|p2: HY VINO|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|-sideend|p1: Black Jack gugugu|Toxic Spikes|[from] move: Defog|[of] p1a: Mandibuzz
+|-sideend|p1: Black Jack gugugu|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Mandibuzz|Knock Off|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|75/100 brn
+|-enditem|p1a: Mandibuzz|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Mandibuzz|56/100 brn|[from] brn
+|-damage|p1a: Mandibuzz|69/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p1a: Mandibuzz|U-turn|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|53/100 brn
+|
+|switch|p1a: Pelipper|Pelipper, M|84/100|[from]move: U-turn
+|move|p2a: Mandibuzz|Toxic|p1a: Pelipper
+|-status|p1a: Pelipper|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Mandibuzz|47/100 brn|[from] brn
+|-damage|p1a: Pelipper|78/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|switch|p2a: Toxapex|Toxapex, F|86/100
+|move|p1a: Pelipper|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|83/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|94/100 brn|[from]move: U-turn
+|
+|-weather|none
+|-heal|p2a: Toxapex|89/100|[from] item: Black Sludge
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p2a: Dragapult|Dragapult, M|40/100
+|switch|p1a: Mandibuzz|Mandibuzz, F|69/100 brn
+|
+|-damage|p1a: Mandibuzz|63/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|switch|p2a: Rotom|Rotom-Heat|98/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Mandibuzz|94/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|switch|p1a: Seismitoad|Seismitoad, M|81/100
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Seismitoad|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|13/100
+|-damage|p1a: Seismitoad|71/100|[from] item: Life Orb
+|move|p2a: Toxapex|Scald|p1a: Seismitoad
+|-damage|p1a: Seismitoad|51/100
+|
+|-heal|p2a: Toxapex|20/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Seismitoad|Liquidation|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|-status|p1a: Seismitoad|psn
+|
+|-heal|p2a: Toxapex|26/100|[from] item: Black Sludge
+|-damage|p1a: Seismitoad|38/100 psn|[from] psn
+|upkeep
+|turn|25
+|c|☆Black Jack gugugu|t
+|
+|switch|p1a: Pelipper|Pelipper, M|78/100 tox
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|switch|p2a: Mandibuzz|Mandibuzz, F|47/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Mandibuzz|41/100 brn|[from] brn
+|-damage|p1a: Pelipper|71/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|91/100 brn
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Pelipper|U-turn|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|81/100 brn
+|
+|switch|p1a: Dracovish|Dracovish|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Mandibuzz|75/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|40/100
+|turn|28
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|94/100 brn
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Ferrothorn
+|-fail|p1a: Ferrothorn|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|move|p2a: Dragapult|Flamethrower|p1a: Barraskewda
+|-resisted|p1a: Barraskewda
+|-damage|p1a: Barraskewda|86/100
+|
+|-weather|none
+|upkeep
+|turn|30
+|
+|switch|p1a: Pelipper|Pelipper, M|71/100 tox
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Dragapult|Will-O-Wisp||[still]
+|-fail|p2a: Dragapult
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|65/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|94/100 brn
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Ferrothorn
+|-fail|p1a: Ferrothorn|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Ferrothorn
+|-fail|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Dragapult
+|-sidestart|p2: HY VINO|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Ferrothorn
+|-fail|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Dragapult
+|-damage|p2a: Dragapult|6/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|34
+|c| XPSH|??????
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|94/100 brn
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Mandibuzz
+|-fail|p1a: Mandibuzz|brn
+|
+|-weather|none
+|-damage|p1a: Mandibuzz|88/100 brn|[from] brn
+|upkeep
+|turn|35
+|c|☆Black Jack gugugu|自暴自弃了吗？
+|
+|move|p2a: Dragapult|Flamethrower|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|68/100 brn
+|move|p1a: Mandibuzz|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|2/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|94/100 brn|[from]move: U-turn
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|68/100 brn
+|move|p2a: Dragapult|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|46/100 brn
+|
+|-damage|p1a: Mandibuzz|40/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p2a: Dragapult|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|14/100 brn
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|64/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Mandibuzz|58/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p2a: Dragapult|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|26/100 brn
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|76/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Mandibuzz|70/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|move|p2a: Dragapult|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|35/100 brn
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|85/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Mandibuzz|79/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|move|p2a: Dragapult|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|39/100 brn
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|89/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Mandibuzz|83/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|move|p2a: Dragapult|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|35/100 brn
+|move|p1a: Mandibuzz|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|switch|p1a: Pelipper|Pelipper, M|65/100 tox|[from]move: U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|59/100 tox|[from] psn
+|upkeep
+|c|☆Black Jack gugugu|节拍器还行
+|
+|switch|p2a: Excadrill|Excadrill, F|92/100
+|-damage|p2a: Excadrill|89/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|42
+|c|☆HY VINO|还手滑了
+|
+|switch|p2a: Toxapex|Toxapex, F|59/100
+|-damage|p2a: Toxapex|47/100|[from] Stealth Rock
+|move|p1a: Pelipper|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|43/100
+|
+|switch|p1a: Dracovish|Dracovish|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|50/100|[from] item: Black Sludge
+|upkeep
+|turn|43
+|
+|switch|p1a: Barraskewda|Barraskewda, M|86/100
+|move|p2a: Toxapex|Baneful Bunker||[still]
+|-fail|p2a: Toxapex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|56/100|[from] item: Black Sludge
+|upkeep
+|turn|44
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Barraskewda|Drill Run|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|-status|p1a: Barraskewda|psn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|62/100|[from] item: Black Sludge
+|-damage|p1a: Barraskewda|74/100 psn|[from] psn
+|upkeep
+|turn|45
+|
+|move|p1a: Barraskewda|Liquidation|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|26/100
+|-unboost|p2a: Toxapex|def|1
+|-damage|p1a: Barraskewda|64/100 psn|[from] item: Life Orb
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|76/100
+|
+|-weather|none
+|-heal|p2a: Toxapex|82/100|[from] item: Black Sludge
+|-damage|p1a: Barraskewda|52/100 psn|[from] psn
+|upkeep
+|turn|46
+|
+|switch|p1a: Pelipper|Pelipper, M|59/100 tox
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Toxapex|Scald|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|42/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|89/100|[from] item: Black Sludge
+|-damage|p1a: Pelipper|35/100 tox|[from] psn
+|upkeep
+|turn|47
+|
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|86/100 tox
+|-singleturn|p1a: Pelipper|move: Roost
+|move|p2a: Toxapex|Scald|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|69/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|95/100|[from] item: Black Sludge
+|-damage|p1a: Pelipper|57/100 tox|[from] psn
+|upkeep
+|turn|48
+|
+|switch|p2a: Rotom|Rotom-Heat|98/100
+|-damage|p2a: Rotom|73/100|[from] Stealth Rock
+|move|p1a: Pelipper|Scald|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|38/100 tox|[from] psn
+|upkeep
+|c|☆Black Jack gugugu|本来我想说读的漂亮
+|
+|switch|p2a: Excadrill|Excadrill, F|89/100
+|-damage|p2a: Excadrill|86/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|49
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|94/100 brn
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Excadrill|93/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|move|p2a: Excadrill|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|34/100 brn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Excadrill
+|-start|p2a: Excadrill|move: Leech Seed
+|
+|-weather|none
+|-heal|p2a: Excadrill|99/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|41/100 brn|[from] item: Leftovers
+|-damage|p2a: Excadrill|86/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|54/100 brn|[silent]
+|-damage|p1a: Ferrothorn|48/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|switch|p1a: Pelipper|Pelipper, M|38/100 tox
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Excadrill|Iron Head|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|5/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Excadrill|92/100|[from] item: Leftovers
+|-damage|p2a: Excadrill|80/100|[from] Leech Seed|[of] p1a: Pelipper
+|-heal|p1a: Pelipper|19/100 tox|[silent]
+|-damage|p1a: Pelipper|13/100 tox|[from] psn
+|upkeep
+|turn|52
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|switch|p1a: Mandibuzz|Mandibuzz, F|35/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|-damage|p1a: Mandibuzz|29/100 brn|[from] brn
+|upkeep
+|turn|53
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|79/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Toxapex|Scald|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|59/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p1a: Mandibuzz|53/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|switch|p2a: Excadrill|Excadrill, F|80/100
+|-damage|p2a: Excadrill|77/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Excadrill|83/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|94/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|move|p1a: Mandibuzz|Foul Play|p2a: Excadrill
+|-crit|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|none
+|-damage|p1a: Mandibuzz|88/100 brn|[from] brn
+|upkeep
+|c| XPSH|gg
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|turn|56
+|-message|HY VINO forfeited.
+|
+|win|Black Jack gugugu
+|l|☆HY VINO

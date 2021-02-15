@@ -1,0 +1,194 @@
+|ScrapeTime|2020-01-02-01:05:43
+|j|☆dukeofass
+|j|☆ALBERGUE
+|player|p1|dukeofass|petrel|1088
+|player|p2|ALBERGUE|steven|1067
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corviknight, M|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Quagsire, F|
+|poke|p1|Ribombee, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Arcanine, F|
+|poke|p2|Dracovish|
+|poke|p2|Morpeko, F|
+|poke|p2|Whimsicott, F|
+|poke|p2|Gastrodon-East, F|
+|poke|p2|Coalossal, F|
+|poke|p2|Conkeldurr, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|switch|p2a: Whimsicott|Whimsicott, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ALBERGUE)
+|
+|move|p2a: Whimsicott|Taunt|p1a: Ribombee
+|-start|p1a: Ribombee|move: Taunt
+|cant|p1a: Ribombee|move: Taunt|Trick
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Coalossal|Coalossal, F|100/100
+|move|p1a: Ribombee|Bug Buzz|p2a: Coalossal
+|-resisted|p2a: Coalossal
+|-damage|p2a: Coalossal|89/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Arcanine|Arcanine, F, shiny|100/100
+|move|p2a: Coalossal|Ancient Power|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|40/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Arcanine|Close Combat|p2a: Coalossal
+|-supereffective|p2a: Coalossal
+|-damage|p2a: Coalossal|20/100
+|-unboost|p1a: Arcanine|def|1
+|-unboost|p1a: Arcanine|spd|1
+|-damage|p1a: Arcanine|30/100|[from] item: Life Orb
+|move|p2a: Coalossal|Ancient Power|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|upkeep
+|
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|turn|5
+|
+|move|p1a: Ribombee|Moonblast|p2a: Coalossal
+|-resisted|p2a: Coalossal
+|-damage|p2a: Coalossal|8/100
+|-unboost|p2a: Coalossal|spa|1
+|move|p2a: Coalossal|Ancient Power|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|38/100
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Ribombee|Moonblast|p2a: Coalossal
+|-resisted|p2a: Coalossal
+|-damage|p2a: Coalossal|0 fnt
+|faint|p2a: Coalossal
+|
+|upkeep
+|
+|switch|p2a: Whimsicott|Whimsicott, F|100/100
+|turn|7
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|move|p2a: Whimsicott|Taunt|p1a: Corsola
+|-start|p1a: Corsola|move: Taunt
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Morpeko|Morpeko, F|100/100
+|move|p1a: Corsola|Scald|p2a: Morpeko
+|-damage|p2a: Morpeko|63/100
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|9
+|
+|move|p2a: Morpeko|Crunch|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|35/100
+|-start|p2a: Morpeko|Disable|Crunch|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Scald|p2a: Morpeko
+|-damage|p2a: Morpeko|22/100
+|-status|p2a: Morpeko|brn
+|
+|-damage|p2a: Morpeko|16/100 brn|[from] brn
+|-end|p1a: Corsola|move: Taunt
+|-formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|10
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|move|p1a: Corsola|Strength Sap|p2a: Dracovish
+|-unboost|p2a: Dracovish|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Whimsicott|Whimsicott, F|100/100
+|move|p1a: Corsola|Scald|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|88/100
+|-status|p2a: Whimsicott|brn
+|
+|-damage|p2a: Whimsicott|82/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Whimsicott|Taunt|p1a: Corsola
+|-start|p1a: Corsola|move: Taunt
+|move|p1a: Corsola|Hex|p2a: Whimsicott
+|-damage|p2a: Whimsicott|24/100 brn
+|
+|-damage|p2a: Whimsicott|17/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Whimsicott|Giga Drain|p1a: Corsola
+|-damage|p1a: Corsola|85/100
+|-heal|p2a: Whimsicott|25/100 brn|[from] drain|[of] p1a: Corsola
+|move|p1a: Corsola|Scald|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|13/100 brn
+|
+|-damage|p2a: Whimsicott|7/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: ALBERGUE|move: Tailwind
+|move|p1a: Corsola|Hex|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|-end|p1a: Corsola|move: Taunt
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|15
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Corsola
+|-damage|p1a: Corsola|8/100
+|-start|p2a: Dracovish|Disable|Fishious Rend|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Strength Sap|p2a: Dracovish
+|-unboost|p2a: Dracovish|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|upkeep
+|turn|16
+|-message|ALBERGUE forfeited.
+|
+|win|dukeofass
+|l|☆ALBERGUE
+|c|☆dukeofass|yikes
+|raw|dukeofass's rating: 1088 → 1115(+27 for winning)
+|raw|ALBERGUE's rating: 1095 → 1071(-24 for losing)

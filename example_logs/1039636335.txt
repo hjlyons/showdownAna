@@ -1,0 +1,221 @@
+|ScrapeTime|2020-01-02-13:05:43
+|j|☆Hellysoldier
+|j|☆nickerrrr
+|player|p1|Hellysoldier|165|1085
+|player|p2|nickerrrr|candice|1138
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Butterfree, F|
+|poke|p1|Crustle, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Ditto|
+|poke|p1|Excadrill, M|
+|poke|p1|Dracovish|
+|poke|p2|Dragapult, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Ditto|
+|poke|p2|Rotom-Wash|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Crustle|Crustle, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|move|p1a: Crustle|Shell Smash|p1a: Crustle
+|-unboost|p1a: Crustle|def|1
+|-unboost|p1a: Crustle|spd|1
+|-boost|p1a: Crustle|atk|2
+|-boost|p1a: Crustle|spa|2
+|-boost|p1a: Crustle|spe|2
+|move|p2a: Tyranitar|Stealth Rock|p1a: Crustle
+|-sidestart|p1: Hellysoldier|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nickerrrr)
+|
+|move|p1a: Crustle|Shell Smash|p1a: Crustle
+|-unboost|p1a: Crustle|def|1
+|-unboost|p1a: Crustle|spd|1
+|-boost|p1a: Crustle|atk|2
+|-boost|p1a: Crustle|spa|2
+|-boost|p1a: Crustle|spe|2
+|move|p2a: Tyranitar|Stone Edge|p1a: Crustle|[miss]
+|-miss|p2a: Tyranitar|p1a: Crustle
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Crustle|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Crustle|[from] ability: Imposter
+|turn|4
+|inactive|nickerrrr has 120 seconds left.
+|
+|move|p2a: Ditto|Stone Edge|p1a: Crustle
+|-supereffective|p1a: Crustle
+|-ability|p1a: Crustle|Sturdy
+|-damage|p1a: Crustle|1/100
+|-enditem|p1a: Crustle|Salac Berry|[eat]
+|-boost|p1a: Crustle|spe|1
+|move|p1a: Crustle|Earthquake|p2a: Ditto
+|-ability|p2a: Ditto|Sturdy
+|-damage|p2a: Ditto|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|inactive|nickerrrr has 120 seconds left.
+|
+|move|p2a: Ditto|Stone Edge|p1a: Crustle|[miss]
+|-miss|p2a: Ditto|p1a: Crustle
+|move|p1a: Crustle|Earthquake|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|6
+|
+|move|p1a: Crustle|Stone Edge|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|turn|7
+|
+|move|p1a: Crustle|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|nickerrrr has 120 seconds left.
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|8
+|
+|move|p1a: Crustle|X-Scissor|p2a: Rotom
+|-damage|p2a: Rotom|14/100
+|move|p2a: Rotom|Hydro Pump|p1a: Crustle
+|-supereffective|p1a: Crustle
+|-damage|p1a: Crustle|0 fnt
+|faint|p1a: Crustle
+|
+|-weather|none
+|-heal|p2a: Rotom|20/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Rotom|[from] ability: Imposter
+|turn|9
+|
+|move|p1a: Ditto|Volt Switch|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Hatterene|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|10
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Hatterene
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Dragapult|[miss]
+|-miss|p1a: Hatterene|p2a: Dragapult
+|
+|-heal|p1a: Hatterene|99/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Hatterene|[from]lockedmove
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|-damage|p2a: Dragapult|91/100|[from] item: Life Orb
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|12
+|
+|move|p2a: Dragapult|Fire Blast|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-crit|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-damage|p2a: Dragapult|81/100|[from] item: Life Orb
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|-damage|p1a: Dracovish|88/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Dracovish
+|-supereffective|p1a: Dracovish
+|-damage|p1a: Dracovish|26/100
+|-supereffective|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|-hitcount|p1a: Dracovish|2
+|-damage|p2a: Dragapult|71/100|[from] item: Life Orb
+|faint|p1a: Dracovish
+|
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|88/100
+|-damage|p1a: Ditto|76/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Dragapult|[from] ability: Imposter
+|turn|14
+|
+|move|p1a: Ditto|Dragon Darts|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|12/100
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-hitcount|p2a: Dragapult|2
+|faint|p2a: Dragapult
+|
+|win|Hellysoldier
+|raw|Hellysoldier's rating: 1085 → 1116(+31 for winning)
+|raw|nickerrrr's rating: 1138 → 1109(-29 for losing)
+|l|☆nickerrrr

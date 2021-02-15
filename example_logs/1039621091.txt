@@ -1,0 +1,199 @@
+|ScrapeTime|2020-01-02-12:15:43
+|j|☆Centre s novo
+|j|☆Seradykio
+|player|p1|Centre s novo|170|1000
+|player|p2|Seradykio|misty|1030
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Gyarados, M|
+|poke|p1|Togekiss, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Tyranitar, F|
+|poke|p1|Corsola-Galar, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Gyarados, F|
+|poke|p2|Silvally-*|
+|poke|p2|Rotom-Mow|
+|poke|p2|Gengar, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|turn|1
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Rotom|Trick|p2a: Tyranitar
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Tyranitar
+|-item|p2a: Tyranitar|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Assault Vest|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|move|p2a: Tyranitar|Rock Slide|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|22/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|94/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Rotom|Leaf Storm|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|60/100
+|-unboost|p2a: Rotom|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|88/100|[from] Sandstorm
+|-damage|p1a: Dragapult|54/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|move|p1a: Dragapult|Dragon Pulse|p2a: Tyranitar
+|-damage|p2a: Tyranitar|79/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Tyranitar|Crunch|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|switch|p1a: Rotom|Rotom-Heat|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|88/100|[from] Sandstorm
+|-damage|p2a: Gyarados|94/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|switch|p2a: Rotom|Rotom-Mow|88/100
+|move|p1a: Rotom|Discharge|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|71/100|[from] Sandstorm
+|-damage|p1a: Rotom|82/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|switch|p2a: Tyranitar|Tyranitar, M|79/100
+|move|p1a: Rotom|Overheat|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|64/100
+|-unboost|p1a: Rotom|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|76/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|switch|p1a: Gyarados|Gyarados, M|22/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|move|p2a: Tyranitar|Earthquake|p1a: Gyarados
+|-immune|p1a: Gyarados
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|switch|p2a: Rotom|Rotom-Mow|71/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Rotom|Leaf Storm|p1a: Gyarados|[miss]
+|-miss|p2a: Rotom|p1a: Gyarados
+|move|p1a: Gyarados|Crunch|p2a: Rotom
+|-damage|p2a: Rotom|5/100
+|-damage|p1a: Gyarados|12/100|[from] item: Life Orb
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Gyarados|Gyarados, F|94/100
+|move|p1a: Gyarados|Crunch|p2a: Gyarados
+|-damage|p2a: Gyarados|19/100
+|-damage|p1a: Gyarados|2/100|[from] item: Life Orb
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Rotom|Rotom-Mow|5/100
+|move|p1a: Gyarados|Waterfall|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-damage|p1a: Gyarados|0 fnt|[from] item: Life Orb
+|faint|p2a: Rotom
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, F|19/100
+|switch|p1a: Tyranitar|Tyranitar, F|83/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|15
+|
+|move|p2a: Gyarados|Waterfall|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|16/100
+|move|p1a: Tyranitar|Crunch|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Silvally|Silvally-Fairy, shiny|100/100
+|turn|16
+|-message|Centre s novo forfeited.
+|
+|win|Seradykio
+|l|☆Centre s novo
+|raw|Centre s novo's rating: 1000 → 1000(+0 for losing)
+|raw|Seradykio's rating: 1030 → 1062(+32 for winning)

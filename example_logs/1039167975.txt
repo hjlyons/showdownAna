@@ -1,0 +1,1438 @@
+|ScrapeTime|2020-01-01-16:05:46
+|j|☆ItHenrique
+|j|☆Rekbeth
+|player|p1|ItHenrique|ghetsis|1316
+|player|p2|Rekbeth|worker-gen4|1305
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Hydreigon, M|
+|poke|p1|Dugtrio, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Arcanine, F|
+|poke|p2|Cloyster, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Shuckle, F|
+|poke|p2|Dracovish|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ItHenrique)
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|turn|1
+|
+|move|p1a: Hydreigon|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|96/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100|[from]move: U-turn
+|move|p2a: Toxapex|Toxic|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Hatterene
+|move|p2a: Hatterene|Stealth Rock|p1a: Ferrothorn|[from]Magic Bounce
+|-sidestart|p1: ItHenrique|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Arcanine|Arcanine, F|100/100
+|-damage|p1a: Arcanine|76/100|[from] Stealth Rock
+|move|p2a: Hatterene|Mystical Fire|p1a: Arcanine
+|-start|p1a: Arcanine|ability: Flash Fire
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|move|p1a: Arcanine|Flare Blitz|p2a: Dracovish
+|-resisted|p2a: Dracovish
+|-damage|p2a: Dracovish|67/100
+|-status|p2a: Dracovish|brn
+|-damage|p1a: Arcanine|64/100|[from] Recoil
+|
+|-damage|p2a: Dracovish|61/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|-end|p1a: Arcanine|ability: Flash Fire|[silent]
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Dracovish|Fishious Rend|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|72/100
+|-damage|p2a: Dracovish|48/100 brn|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Dracovish|38/100 brn|[from] item: Life Orb
+|
+|-heal|p1a: Ferrothorn|79/100|[from] item: Leftovers
+|-damage|p2a: Dracovish|32/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|11/100
+|
+|-heal|p2a: Hatterene|17/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|85/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Hatterene|Mystical Fire|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|6/100
+|-unboost|p1a: Ferrothorn|spa|1
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-heal|p1a: Ferrothorn|13/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Yeet Cannon|Cloyster, F|100/100
+|turn|8
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Yeet Cannon|Shell Smash|p2a: Yeet Cannon
+|-unboost|p2a: Yeet Cannon|def|1
+|-unboost|p2a: Yeet Cannon|spd|1
+|-boost|p2a: Yeet Cannon|atk|2
+|-boost|p2a: Yeet Cannon|spa|2
+|-boost|p2a: Yeet Cannon|spe|2
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Yeet Cannon|Rock Blast|p1a: Toxapex
+|-damage|p1a: Toxapex|79/100
+|-damage|p1a: Toxapex|70/100
+|-damage|p1a: Toxapex|62/100
+|-damage|p1a: Toxapex|51/100
+|-damage|p1a: Toxapex|42/100
+|-hitcount|p1a: Toxapex|5
+|-enditem|p1a: Toxapex|Eject Button
+|
+|switch|p1a: Arcanine|Arcanine, F|64/100
+|-damage|p1a: Arcanine|39/100|[from] Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Arcanine|Extreme Speed|p2a: Yeet Cannon
+|-damage|p2a: Yeet Cannon|51/100
+|move|p2a: Yeet Cannon|Rock Blast|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|-hitcount|p1a: Arcanine|1
+|faint|p1a: Arcanine
+|
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, M|75/100
+|-damage|p1a: Toxapex|63/100|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Yeet Cannon|Rock Blast|p1a: Toxapex
+|-damage|p1a: Toxapex|53/100
+|-damage|p1a: Toxapex|44/100
+|-damage|p1a: Toxapex|34/100
+|-damage|p1a: Toxapex|24/100
+|-damage|p1a: Toxapex|15/100
+|-hitcount|p1a: Toxapex|5
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Yeet Cannon|Rock Blast|p1a: Toxapex
+|-damage|p1a: Toxapex|10/100
+|-damage|p1a: Toxapex|5/100
+|-damage|p1a: Toxapex|0 fnt
+|-hitcount|p1a: Toxapex|3
+|faint|p1a: Toxapex
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Dragapult|Hex|p2a: Yeet Cannon
+|-damage|p2a: Yeet Cannon|0 fnt
+|faint|p2a: Yeet Cannon
+|
+|-heal|p1a: Dragapult|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|32/100 brn
+|turn|14
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|13/100
+|-damage|p1a: Ferrothorn|6/100|[from] Stealth Rock
+|move|p2a: Dracovish|Ice Fang|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Dracovish|20/100 brn|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Dracovish|10/100 brn|[from] item: Life Orb
+|faint|p1a: Ferrothorn
+|
+|-damage|p2a: Dracovish|4/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Hydreigon|U-turn|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|switch|p1a: Dugtrio|Dugtrio, M|100/100|[from]move: U-turn
+|-damage|p1a: Dugtrio|94/100|[from] Stealth Rock
+|
+|upkeep
+|c|☆Rekbeth|!weak dugtrio
+|html|Dugtrio (ignoring abilities):Weaknesses: Grass, Ice, WaterResistances: Poison, RockImmunities: Electric
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|16
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Shuckle|Shuckle, F|100/100
+|turn|17
+|
+|move|p1a: Dugtrio|Memento|p2a: Shuckle
+|-boost|p2a: Shuckle|atk|2
+|-boost|p2a: Shuckle|spa|2
+|faint|p1a: Dugtrio
+|move|p2a: Shuckle|Shell Smash|p2a: Shuckle
+|-boost|p2a: Shuckle|def|1
+|-boost|p2a: Shuckle|spd|1
+|-unboost|p2a: Shuckle|atk|2
+|-unboost|p2a: Shuckle|spa|2
+|-unboost|p2a: Shuckle|spe|2
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|94/100
+|-damage|p1a: Dragapult|82/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|57/100
+|move|p2a: Shuckle|Toxic||[still]
+|-fail|p2a: Shuckle
+|
+|-heal|p1a: Dragapult|63/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Shuckle
+|-status|p2a: Shuckle|brn
+|move|p2a: Shuckle|Shell Smash|p2a: Shuckle
+|-boost|p2a: Shuckle|def|1
+|-boost|p2a: Shuckle|spd|1
+|-unboost|p2a: Shuckle|atk|2
+|-unboost|p2a: Shuckle|spa|2
+|-unboost|p2a: Shuckle|spe|2
+|
+|-heal|p1a: Dragapult|69/100|[from] item: Leftovers
+|-damage|p2a: Shuckle|94/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p1a: Dragapult|Hex|p2a: Shuckle
+|-damage|p2a: Shuckle|76/100 brn
+|move|p2a: Shuckle|Shell Smash|p2a: Shuckle
+|-boost|p2a: Shuckle|def|1
+|-boost|p2a: Shuckle|spd|1
+|-unboost|p2a: Shuckle|atk|2
+|-unboost|p2a: Shuckle|spa|2
+|-unboost|p2a: Shuckle|spe|2
+|
+|-heal|p1a: Dragapult|75/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|76/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-fail|p1a: Dragapult|move: Substitute
+|move|p2a: Shuckle|Shell Smash|p2a: Shuckle
+|-boost|p2a: Shuckle|def|1
+|-boost|p2a: Shuckle|spd|1
+|-unboost|p2a: Shuckle|atk|2
+|-unboost|p2a: Shuckle|spa|2
+|-unboost|p2a: Shuckle|spe|0
+|
+|-heal|p1a: Dragapult|81/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|76/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Shuckle
+|-fail|p2a: Shuckle|brn
+|move|p2a: Shuckle|Shell Smash|p2a: Shuckle
+|-boost|p2a: Shuckle|def|1
+|-boost|p2a: Shuckle|spd|1
+|-unboost|p2a: Shuckle|atk|0
+|-unboost|p2a: Shuckle|spa|0
+|-unboost|p2a: Shuckle|spe|0
+|
+|-heal|p1a: Dragapult|87/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|76/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Shuckle
+|-fail|p2a: Shuckle|brn
+|move|p2a: Shuckle|Shell Smash|p2a: Shuckle
+|-boost|p2a: Shuckle|def|1
+|-boost|p2a: Shuckle|spd|1
+|-unboost|p2a: Shuckle|atk|0
+|-unboost|p2a: Shuckle|spa|0
+|-unboost|p2a: Shuckle|spe|0
+|
+|-heal|p1a: Dragapult|93/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|76/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p1a: Dragapult|Disable|p2a: Shuckle
+|-start|p2a: Shuckle|Disable|Shell Smash
+|move|p2a: Shuckle|Toxic||[still]
+|-fail|p2a: Shuckle
+|
+|-heal|p1a: Dragapult|99/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|76/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Dragapult|Disable||[still]
+|-fail|p1a: Dragapult
+|move|p2a: Shuckle|Toxic||[still]
+|-fail|p2a: Shuckle
+|
+|-heal|p1a: Dragapult|100/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|76/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Shuckle
+|-fail|p2a: Shuckle|brn
+|move|p2a: Shuckle|Toxic||[still]
+|-fail|p2a: Shuckle
+|
+|-heal|p2a: Shuckle|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|76/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p1a: Dragapult|Disable||[still]
+|-fail|p1a: Dragapult
+|move|p2a: Shuckle|Rest|p2a: Shuckle
+|-status|p2a: Shuckle|slp|[from] move: Rest
+|-heal|p2a: Shuckle|100/100 slp|[silent]
+|
+|-end|p2a: Shuckle|Disable
+|upkeep
+|turn|28
+|
+|switch|p1a: Hydreigon|Hydreigon, M|88/100
+|-damage|p1a: Hydreigon|76/100|[from] Stealth Rock
+|cant|p2a: Shuckle|slp
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Hydreigon|U-turn|p2a: Shuckle
+|-damage|p2a: Shuckle|98/100 slp
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from]move: U-turn
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|cant|p2a: Shuckle|slp
+|
+|-heal|p1a: Dragapult|94/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|69/100
+|-curestatus|p2a: Shuckle|slp|[msg]
+|move|p2a: Shuckle|Toxic||[still]
+|-fail|p2a: Shuckle
+|
+|-heal|p1a: Dragapult|75/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Dragapult|Disable|p2a: Shuckle
+|-start|p2a: Shuckle|Disable|Toxic
+|cant|p2a: Shuckle|Disable|Toxic
+|
+|-heal|p1a: Dragapult|81/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Dragapult|Disable||[still]
+|-fail|p1a: Dragapult
+|move|p2a: Shuckle|Shell Smash|p2a: Shuckle
+|-boost|p2a: Shuckle|def|0
+|-boost|p2a: Shuckle|spd|0
+|-unboost|p2a: Shuckle|atk|0
+|-unboost|p2a: Shuckle|spa|0
+|-unboost|p2a: Shuckle|spe|0
+|
+|-heal|p1a: Dragapult|87/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p1a: Hydreigon|Hydreigon, M|76/100
+|-damage|p1a: Hydreigon|64/100|[from] Stealth Rock
+|move|p2a: Shuckle|Shell Smash|p2a: Shuckle
+|-boost|p2a: Shuckle|def|0
+|-boost|p2a: Shuckle|spd|0
+|-unboost|p2a: Shuckle|atk|0
+|-unboost|p2a: Shuckle|spa|0
+|-unboost|p2a: Shuckle|spe|0
+|
+|upkeep
+|turn|34
+|
+|move|p1a: Hydreigon|U-turn|p2a: Shuckle
+|-damage|p2a: Shuckle|98/100
+|
+|switch|p1a: Dragapult|Dragapult, F|87/100|[from]move: U-turn
+|-damage|p1a: Dragapult|75/100|[from] Stealth Rock
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|75/100
+|-activate|p1a: Dragapult|move: Infestation|[of] p2a: Shuckle
+|
+|-heal|p1a: Dragapult|81/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|100/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|68/100|[from] move: Infestation|[partiallytrapped]
+|-end|p2a: Shuckle|Disable
+|upkeep
+|turn|35
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|43/100
+|move|p2a: Shuckle|Shell Smash|p2a: Shuckle
+|-boost|p2a: Shuckle|def|0
+|-boost|p2a: Shuckle|spd|0
+|-unboost|p2a: Shuckle|atk|0
+|-unboost|p2a: Shuckle|spa|0
+|-unboost|p2a: Shuckle|spe|0
+|
+|-heal|p1a: Dragapult|49/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Shuckle
+|-status|p2a: Shuckle|brn
+|move|p2a: Shuckle|Shell Smash|p2a: Shuckle
+|-boost|p2a: Shuckle|def|0
+|-boost|p2a: Shuckle|spd|0
+|-unboost|p2a: Shuckle|atk|0
+|-unboost|p2a: Shuckle|spa|0
+|-unboost|p2a: Shuckle|spe|0
+|
+|-heal|p1a: Dragapult|55/100|[from] item: Leftovers
+|-damage|p2a: Shuckle|94/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p1a: Dragapult|Disable|p2a: Shuckle
+|-start|p2a: Shuckle|Disable|Shell Smash
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p1a: Dragapult|61/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|94/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p1a: Dragapult|Disable||[still]
+|-fail|p1a: Dragapult
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p1a: Dragapult|67/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|94/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|move|p1a: Dragapult|Disable||[still]
+|-fail|p1a: Dragapult
+|move|p2a: Shuckle|Rest|p2a: Shuckle
+|-status|p2a: Shuckle|slp|[from] move: Rest
+|-heal|p2a: Shuckle|100/100 slp|[silent]
+|
+|-heal|p1a: Dragapult|73/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|switch|p1a: Hydreigon|Hydreigon, M|64/100
+|-damage|p1a: Hydreigon|51/100|[from] Stealth Rock
+|cant|p2a: Shuckle|slp
+|
+|-end|p2a: Shuckle|Disable
+|upkeep
+|turn|41
+|
+|move|p1a: Hydreigon|U-turn|p2a: Shuckle
+|-damage|p2a: Shuckle|98/100 slp
+|
+|switch|p1a: Dragapult|Dragapult, F|73/100|[from]move: U-turn
+|-damage|p1a: Dragapult|61/100|[from] Stealth Rock
+|cant|p2a: Shuckle|slp
+|
+|-heal|p1a: Dragapult|67/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|42/100
+|-curestatus|p2a: Shuckle|slp|[msg]
+|move|p2a: Shuckle|Shell Smash|p2a: Shuckle
+|-boost|p2a: Shuckle|def|0
+|-boost|p2a: Shuckle|spd|0
+|-unboost|p2a: Shuckle|atk|0
+|-unboost|p2a: Shuckle|spa|0
+|-unboost|p2a: Shuckle|spe|0
+|
+|-heal|p1a: Dragapult|48/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Shuckle
+|-status|p2a: Shuckle|brn
+|move|p2a: Shuckle|Shell Smash|p2a: Shuckle
+|-boost|p2a: Shuckle|def|0
+|-boost|p2a: Shuckle|spd|0
+|-unboost|p2a: Shuckle|atk|0
+|-unboost|p2a: Shuckle|spa|0
+|-unboost|p2a: Shuckle|spe|0
+|
+|-heal|p1a: Dragapult|54/100|[from] item: Leftovers
+|-damage|p2a: Shuckle|94/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-fail|p1a: Dragapult|move: Substitute
+|move|p2a: Shuckle|Shell Smash|p2a: Shuckle
+|-boost|p2a: Shuckle|def|0
+|-boost|p2a: Shuckle|spd|0
+|-unboost|p2a: Shuckle|atk|0
+|-unboost|p2a: Shuckle|spa|0
+|-unboost|p2a: Shuckle|spe|0
+|
+|-heal|p1a: Dragapult|60/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|94/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|move|p1a: Dragapult|Disable|p2a: Shuckle
+|-start|p2a: Shuckle|Disable|Shell Smash
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p1a: Dragapult|66/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|94/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|move|p1a: Dragapult|Hex|p2a: Shuckle
+|-damage|p2a: Shuckle|85/100 brn
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p1a: Dragapult|72/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|91/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|85/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|move|p1a: Dragapult|Disable||[still]
+|-fail|p1a: Dragapult
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p1a: Dragapult|78/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|91/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|85/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-fail|p1a: Dragapult|move: Substitute
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p1a: Dragapult|84/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|91/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|85/100 brn|[from] brn
+|-end|p2a: Shuckle|Disable
+|upkeep
+|turn|49
+|
+|move|p1a: Dragapult|Disable|p2a: Shuckle
+|-start|p2a: Shuckle|Disable|Infestation
+|cant|p2a: Shuckle|Disable|Infestation
+|
+|-heal|p1a: Dragapult|90/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|91/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|85/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-fail|p1a: Dragapult|move: Substitute
+|move|p2a: Shuckle|Shell Smash|p2a: Shuckle
+|-boost|p2a: Shuckle|def|0
+|-boost|p2a: Shuckle|spd|0
+|-unboost|p2a: Shuckle|atk|0
+|-unboost|p2a: Shuckle|spa|0
+|-unboost|p2a: Shuckle|spe|0
+|
+|-heal|p1a: Dragapult|96/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|91/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|85/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|move|p1a: Dragapult|Disable||[still]
+|-fail|p1a: Dragapult
+|move|p2a: Shuckle|Rest|p2a: Shuckle
+|-status|p2a: Shuckle|slp|[from] move: Rest
+|-heal|p2a: Shuckle|100/100 slp|[silent]
+|
+|-heal|p1a: Dragapult|100/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|switch|p1a: Hydreigon|Hydreigon, M|51/100
+|-damage|p1a: Hydreigon|39/100|[from] Stealth Rock
+|cant|p2a: Shuckle|slp
+|
+|-end|p2a: Shuckle|Disable
+|upkeep
+|turn|53
+|
+|move|p1a: Hydreigon|U-turn|p2a: Shuckle
+|-damage|p2a: Shuckle|98/100 slp
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from]move: U-turn
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|cant|p2a: Shuckle|slp
+|
+|-heal|p1a: Dragapult|94/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|69/100
+|-curestatus|p2a: Shuckle|slp|[msg]
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p1a: Dragapult|75/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Shuckle
+|-status|p2a: Shuckle|brn
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p1a: Dragapult|81/100|[from] item: Leftovers
+|-damage|p2a: Shuckle|94/100 brn|[from] brn
+|upkeep
+|turn|56
+|
+|move|p1a: Dragapult|Disable|p2a: Shuckle
+|-start|p2a: Shuckle|Disable|Infestation
+|cant|p2a: Shuckle|Disable|Infestation
+|
+|-heal|p1a: Dragapult|87/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|94/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|move|p1a: Dragapult|Disable||[still]
+|-fail|p1a: Dragapult
+|move|p2a: Shuckle|Rest|p2a: Shuckle
+|-status|p2a: Shuckle|slp|[from] move: Rest
+|-heal|p2a: Shuckle|100/100 slp|[silent]
+|
+|-heal|p1a: Dragapult|93/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|switch|p1a: Hydreigon|Hydreigon, M|39/100
+|-damage|p1a: Hydreigon|27/100|[from] Stealth Rock
+|cant|p2a: Shuckle|slp
+|
+|upkeep
+|turn|59
+|
+|move|p1a: Hydreigon|U-turn|p2a: Shuckle
+|-damage|p2a: Shuckle|98/100 slp
+|
+|switch|p1a: Dragapult|Dragapult, F|93/100|[from]move: U-turn
+|-damage|p1a: Dragapult|81/100|[from] Stealth Rock
+|cant|p2a: Shuckle|slp
+|
+|-heal|p1a: Dragapult|87/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|100/100 slp|[from] item: Leftovers
+|-end|p2a: Shuckle|Disable
+|upkeep
+|turn|60
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|62/100
+|-curestatus|p2a: Shuckle|slp|[msg]
+|move|p2a: Shuckle|Shell Smash|p2a: Shuckle
+|-boost|p2a: Shuckle|def|0
+|-boost|p2a: Shuckle|spd|0
+|-unboost|p2a: Shuckle|atk|0
+|-unboost|p2a: Shuckle|spa|0
+|-unboost|p2a: Shuckle|spe|0
+|
+|-heal|p1a: Dragapult|68/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Shuckle|[miss]
+|-miss|p1a: Dragapult|p2a: Shuckle
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p1a: Dragapult|74/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|move|p1a: Dragapult|Disable|p2a: Shuckle
+|-start|p2a: Shuckle|Disable|Infestation
+|cant|p2a: Shuckle|Disable|Infestation
+|
+|-heal|p1a: Dragapult|80/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Shuckle
+|-status|p2a: Shuckle|brn
+|move|p2a: Shuckle|Shell Smash|p2a: Shuckle
+|-boost|p2a: Shuckle|def|0
+|-boost|p2a: Shuckle|spd|0
+|-unboost|p2a: Shuckle|atk|0
+|-unboost|p2a: Shuckle|spa|0
+|-unboost|p2a: Shuckle|spe|0
+|
+|-heal|p1a: Dragapult|86/100|[from] item: Leftovers
+|-damage|p2a: Shuckle|94/100 brn|[from] brn
+|upkeep
+|turn|64
+|
+|move|p1a: Dragapult|Disable||[still]
+|-fail|p1a: Dragapult
+|move|p2a: Shuckle|Rest|p2a: Shuckle
+|-status|p2a: Shuckle|slp|[from] move: Rest
+|-heal|p2a: Shuckle|100/100 slp|[silent]
+|
+|-heal|p1a: Dragapult|92/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|switch|p1a: Hydreigon|Hydreigon, M|27/100
+|-damage|p1a: Hydreigon|14/100|[from] Stealth Rock
+|cant|p2a: Shuckle|slp
+|
+|-end|p2a: Shuckle|Disable
+|upkeep
+|turn|66
+|
+|move|p1a: Hydreigon|U-turn|p2a: Shuckle
+|-damage|p2a: Shuckle|98/100 slp
+|
+|switch|p1a: Dragapult|Dragapult, F|92/100|[from]move: U-turn
+|-damage|p1a: Dragapult|80/100|[from] Stealth Rock
+|cant|p2a: Shuckle|slp
+|
+|-heal|p1a: Dragapult|86/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|61/100
+|-curestatus|p2a: Shuckle|slp|[msg]
+|move|p2a: Shuckle|Toxic||[still]
+|-fail|p2a: Shuckle
+|
+|-heal|p1a: Dragapult|67/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Shuckle
+|-status|p2a: Shuckle|brn
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p1a: Dragapult|73/100|[from] item: Leftovers
+|-damage|p2a: Shuckle|94/100 brn|[from] brn
+|upkeep
+|turn|69
+|
+|move|p1a: Dragapult|Disable|p2a: Shuckle
+|-start|p2a: Shuckle|Disable|Infestation
+|move|p2a: Shuckle|Rest|p2a: Shuckle
+|-status|p2a: Shuckle|slp|[from] move: Rest
+|-heal|p2a: Shuckle|100/100 slp|[silent]
+|
+|-heal|p1a: Dragapult|79/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|switch|p1a: Hydreigon|Hydreigon, M|14/100
+|-damage|p1a: Hydreigon|2/100|[from] Stealth Rock
+|cant|p2a: Shuckle|slp
+|
+|upkeep
+|turn|71
+|
+|move|p1a: Hydreigon|U-turn|p2a: Shuckle
+|-damage|p2a: Shuckle|98/100 slp
+|
+|switch|p1a: Dragapult|Dragapult, F|79/100|[from]move: U-turn
+|-damage|p1a: Dragapult|66/100|[from] Stealth Rock
+|cant|p2a: Shuckle|slp
+|
+|-heal|p1a: Dragapult|72/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|48/100
+|-curestatus|p2a: Shuckle|slp|[msg]
+|move|p2a: Shuckle|Shell Smash|p2a: Shuckle
+|-boost|p2a: Shuckle|def|0
+|-boost|p2a: Shuckle|spd|0
+|-unboost|p2a: Shuckle|atk|0
+|-unboost|p2a: Shuckle|spa|0
+|-unboost|p2a: Shuckle|spe|0
+|
+|-heal|p1a: Dragapult|53/100|[from] item: Leftovers
+|-end|p2a: Shuckle|Disable
+|upkeep
+|turn|73
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Shuckle
+|-status|p2a: Shuckle|brn
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p1a: Dragapult|59/100|[from] item: Leftovers
+|-damage|p2a: Shuckle|94/100 brn|[from] brn
+|upkeep
+|turn|74
+|
+|move|p1a: Dragapult|Disable|p2a: Shuckle
+|-start|p2a: Shuckle|Disable|Infestation
+|cant|p2a: Shuckle|Disable|Infestation
+|
+|-heal|p1a: Dragapult|65/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|94/100 brn|[from] brn
+|upkeep
+|turn|75
+|
+|move|p1a: Dragapult|Disable||[still]
+|-fail|p1a: Dragapult
+|move|p2a: Shuckle|Rest|p2a: Shuckle
+|-status|p2a: Shuckle|slp|[from] move: Rest
+|-heal|p2a: Shuckle|100/100 slp|[silent]
+|
+|-heal|p1a: Dragapult|71/100|[from] item: Leftovers
+|upkeep
+|turn|76
+|
+|switch|p1a: Hydreigon|Hydreigon, M|2/100
+|-damage|p1a: Hydreigon|0 fnt|[from] Stealth Rock
+|faint|p1a: Hydreigon
+|cant|p2a: Shuckle|slp
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|71/100
+|-damage|p1a: Dragapult|59/100|[from] Stealth Rock
+|turn|77
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|34/100
+|cant|p2a: Shuckle|slp
+|
+|-heal|p1a: Dragapult|40/100|[from] item: Leftovers
+|-end|p2a: Shuckle|Disable
+|upkeep
+|turn|78
+|
+|move|p1a: Dragapult|Hex|p2a: Shuckle
+|-damage|p2a: Shuckle|91/100 slp
+|-curestatus|p2a: Shuckle|slp|[msg]
+|move|p2a: Shuckle|Shell Smash|p2a: Shuckle
+|-boost|p2a: Shuckle|def|0
+|-boost|p2a: Shuckle|spd|0
+|-unboost|p2a: Shuckle|atk|0
+|-unboost|p2a: Shuckle|spa|0
+|-unboost|p2a: Shuckle|spe|0
+|
+|-heal|p1a: Dragapult|46/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|97/100|[from] item: Leftovers
+|upkeep
+|turn|79
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Shuckle
+|-status|p2a: Shuckle|brn
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p1a: Dragapult|52/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|94/100 brn|[from] brn
+|upkeep
+|turn|80
+|
+|move|p1a: Dragapult|Disable|p2a: Shuckle
+|-start|p2a: Shuckle|Disable|Infestation
+|move|p2a: Shuckle|Rest|p2a: Shuckle
+|-status|p2a: Shuckle|slp|[from] move: Rest
+|-heal|p2a: Shuckle|100/100 slp|[silent]
+|
+|-heal|p1a: Dragapult|58/100|[from] item: Leftovers
+|upkeep
+|turn|81
+|
+|move|p1a: Dragapult|Will-O-Wisp||[still]
+|-fail|p1a: Dragapult
+|cant|p2a: Shuckle|slp
+|
+|-heal|p1a: Dragapult|64/100|[from] item: Leftovers
+|upkeep
+|turn|82
+|
+|move|p1a: Dragapult|Disable||[still]
+|-fail|p1a: Dragapult
+|cant|p2a: Shuckle|slp
+|
+|-heal|p1a: Dragapult|70/100|[from] item: Leftovers
+|upkeep
+|turn|83
+|
+|move|p1a: Dragapult|Hex|p2a: Shuckle
+|-damage|p2a: Shuckle|91/100 slp
+|-curestatus|p2a: Shuckle|slp|[msg]
+|move|p2a: Shuckle|Toxic||[still]
+|-fail|p2a: Shuckle
+|
+|-heal|p1a: Dragapult|76/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|97/100|[from] item: Leftovers
+|-end|p2a: Shuckle|Disable
+|upkeep
+|turn|84
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Shuckle
+|-status|p2a: Shuckle|brn
+|move|p2a: Shuckle|Rest|p2a: Shuckle
+|-status|p2a: Shuckle|slp|[from] move: Rest
+|-heal|p2a: Shuckle|100/100 slp|[silent]
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|85
+|inactive|Rekbeth has 120 seconds left.
+|
+|move|p1a: Dragapult|Hex|p2a: Shuckle
+|-damage|p2a: Shuckle|90/100 slp
+|cant|p2a: Shuckle|slp
+|
+|-heal|p1a: Dragapult|88/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|96/100 slp|[from] item: Leftovers
+|upkeep
+|turn|86
+|inactive|Rekbeth has 120 seconds left.
+|
+|move|p1a: Dragapult|Disable|p2a: Shuckle
+|-start|p2a: Shuckle|Disable|Rest
+|cant|p2a: Shuckle|slp
+|
+|-heal|p1a: Dragapult|94/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|87
+|
+|move|p1a: Dragapult|Hex|p2a: Shuckle
+|-damage|p2a: Shuckle|90/100 slp
+|-curestatus|p2a: Shuckle|slp|[msg]
+|move|p2a: Shuckle|Toxic||[still]
+|-fail|p2a: Shuckle
+|
+|-heal|p1a: Dragapult|99/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|96/100|[from] item: Leftovers
+|upkeep
+|turn|88
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Shuckle
+|-status|p2a: Shuckle|brn
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p1a: Dragapult|100/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|94/100 brn|[from] brn
+|upkeep
+|turn|89
+|inactive|Rekbeth has 120 seconds left.
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Shuckle|[miss]
+|-miss|p1a: Dragapult|p2a: Shuckle
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p2a: Shuckle|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|94/100 brn|[from] brn
+|-end|p2a: Shuckle|Disable
+|upkeep
+|turn|90
+|inactive|Rekbeth has 120 seconds left.
+|
+|move|p1a: Dragapult|Disable|p2a: Shuckle
+|-start|p2a: Shuckle|Disable|Infestation
+|cant|p2a: Shuckle|Disable|Infestation
+|
+|-heal|p2a: Shuckle|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|94/100 brn|[from] brn
+|upkeep
+|turn|91
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Shuckle
+|-fail|p2a: Shuckle|brn
+|move|p2a: Shuckle|Rest|p2a: Shuckle
+|-status|p2a: Shuckle|slp|[from] move: Rest
+|-heal|p2a: Shuckle|100/100 slp|[silent]
+|
+|upkeep
+|turn|92
+|
+|move|p1a: Dragapult|Hex|p2a: Shuckle
+|-damage|p2a: Shuckle|91/100 slp
+|cant|p2a: Shuckle|slp
+|
+|-heal|p2a: Shuckle|98/100 slp|[from] item: Leftovers
+|upkeep
+|turn|93
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-fail|p1a: Dragapult|move: Substitute
+|cant|p2a: Shuckle|slp
+|
+|-heal|p2a: Shuckle|100/100 slp|[from] item: Leftovers
+|-end|p2a: Shuckle|Disable
+|upkeep
+|turn|94
+|
+|move|p1a: Dragapult|Disable|p2a: Shuckle
+|-start|p2a: Shuckle|Disable|Rest
+|-curestatus|p2a: Shuckle|slp|[msg]
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|upkeep
+|turn|95
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Shuckle
+|-status|p2a: Shuckle|brn
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-damage|p2a: Shuckle|94/100 brn|[from] brn
+|upkeep
+|turn|96
+|inactive|ItHenrique has 120 seconds left.
+|
+|move|p1a: Dragapult|Hex|p2a: Shuckle
+|-damage|p2a: Shuckle|85/100 brn
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p2a: Shuckle|91/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|85/100 brn|[from] brn
+|upkeep
+|turn|97
+|inactive|ItHenrique has 120 seconds left.
+|
+|move|p1a: Dragapult|Disable||[still]
+|-fail|p1a: Dragapult
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p2a: Shuckle|91/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|85/100 brn|[from] brn
+|-end|p2a: Shuckle|Disable
+|upkeep
+|turn|98
+|inactive|ItHenrique has 120 seconds left.
+|
+|move|p1a: Dragapult|Hex|p2a: Shuckle
+|-damage|p2a: Shuckle|75/100 brn
+|move|p2a: Shuckle|Rest|p2a: Shuckle
+|-status|p2a: Shuckle|slp|[from] move: Rest
+|-heal|p2a: Shuckle|100/100 slp|[silent]
+|
+|upkeep
+|turn|99
+|inactive|ItHenrique has 120 seconds left.
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-fail|p1a: Dragapult|move: Substitute
+|cant|p2a: Shuckle|slp
+|
+|upkeep
+|turn|100
+|
+|move|p1a: Dragapult|Hex|p2a: Shuckle
+|-damage|p2a: Shuckle|91/100 slp
+|cant|p2a: Shuckle|slp
+|
+|-heal|p2a: Shuckle|98/100 slp|[from] item: Leftovers
+|upkeep
+|turn|101
+|
+|move|p1a: Dragapult|Disable|p2a: Shuckle
+|-start|p2a: Shuckle|Disable|Rest
+|-curestatus|p2a: Shuckle|slp|[msg]
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p2a: Shuckle|100/100|[from] item: Leftovers
+|upkeep
+|turn|102
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Shuckle|[miss]
+|-miss|p1a: Dragapult|p2a: Shuckle
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|upkeep
+|turn|103
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Shuckle
+|-status|p2a: Shuckle|brn
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-damage|p2a: Shuckle|94/100 brn|[from] brn
+|upkeep
+|turn|104
+|
+|move|p1a: Dragapult|Hex|p2a: Shuckle
+|-damage|p2a: Shuckle|84/100 brn
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p2a: Shuckle|90/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|84/100 brn|[from] brn
+|-end|p2a: Shuckle|Disable
+|upkeep
+|turn|105
+|
+|move|p1a: Dragapult|Disable|p2a: Shuckle
+|-start|p2a: Shuckle|Disable|Infestation
+|cant|p2a: Shuckle|Disable|Infestation
+|
+|-heal|p2a: Shuckle|90/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|84/100 brn|[from] brn
+|upkeep
+|turn|106
+|
+|move|p1a: Dragapult|Hex|p2a: Shuckle
+|-damage|p2a: Shuckle|73/100 brn
+|move|p2a: Shuckle|Rest|p2a: Shuckle
+|-status|p2a: Shuckle|slp|[from] move: Rest
+|-heal|p2a: Shuckle|100/100 slp|[silent]
+|
+|upkeep
+|turn|107
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-fail|p1a: Dragapult|move: Substitute
+|cant|p2a: Shuckle|slp
+|
+|upkeep
+|turn|108
+|
+|move|p1a: Dragapult|Disable||[still]
+|-fail|p1a: Dragapult
+|cant|p2a: Shuckle|slp
+|
+|-end|p2a: Shuckle|Disable
+|upkeep
+|turn|109
+|
+|move|p1a: Dragapult|Disable|p2a: Shuckle
+|-start|p2a: Shuckle|Disable|Rest
+|-curestatus|p2a: Shuckle|slp|[msg]
+|cant|p2a: Shuckle|Disable|Rest
+|
+|upkeep
+|turn|110
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Shuckle
+|-status|p2a: Shuckle|brn
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-damage|p2a: Shuckle|94/100 brn|[from] brn
+|upkeep
+|turn|111
+|
+|move|p1a: Dragapult|Hex|p2a: Shuckle
+|-damage|p2a: Shuckle|85/100 brn
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p2a: Shuckle|91/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|85/100 brn|[from] brn
+|upkeep
+|turn|112
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Shuckle
+|-fail|p2a: Shuckle|brn
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p2a: Shuckle|91/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|85/100 brn|[from] brn
+|-end|p2a: Shuckle|Disable
+|upkeep
+|turn|113
+|
+|move|p1a: Dragapult|Disable|p2a: Shuckle
+|-start|p2a: Shuckle|Disable|Infestation
+|cant|p2a: Shuckle|Disable|Infestation
+|
+|-heal|p2a: Shuckle|91/100 brn|[from] item: Leftovers
+|-damage|p2a: Shuckle|85/100 brn|[from] brn
+|upkeep
+|turn|114
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Shuckle
+|-fail|p2a: Shuckle|brn
+|move|p2a: Shuckle|Rest|p2a: Shuckle
+|-status|p2a: Shuckle|slp|[from] move: Rest
+|-heal|p2a: Shuckle|100/100 slp|[silent]
+|
+|upkeep
+|turn|115
+|
+|move|p1a: Dragapult|Hex|p2a: Shuckle
+|-damage|p2a: Shuckle|91/100 slp
+|cant|p2a: Shuckle|slp
+|
+|-heal|p2a: Shuckle|98/100 slp|[from] item: Leftovers
+|upkeep
+|turn|116
+|
+|move|p1a: Dragapult|Disable||[still]
+|-fail|p1a: Dragapult
+|cant|p2a: Shuckle|slp
+|
+|-heal|p2a: Shuckle|100/100 slp|[from] item: Leftovers
+|-end|p2a: Shuckle|Disable
+|upkeep
+|turn|117
+|
+|move|p1a: Dragapult|Will-O-Wisp||[still]
+|-fail|p1a: Dragapult
+|-curestatus|p2a: Shuckle|slp|[msg]
+|move|p2a: Shuckle|Shell Smash|p2a: Shuckle
+|-boost|p2a: Shuckle|def|0
+|-boost|p2a: Shuckle|spd|0
+|-unboost|p2a: Shuckle|atk|0
+|-unboost|p2a: Shuckle|spa|0
+|-unboost|p2a: Shuckle|spe|0
+|
+|upkeep
+|turn|118
+|
+|move|p1a: Dragapult|Disable|p2a: Shuckle
+|-start|p2a: Shuckle|Disable|Shell Smash
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|upkeep
+|turn|119
+|
+|move|p1a: Dragapult|Hex|p2a: Shuckle
+|-damage|p2a: Shuckle|95/100
+|move|p2a: Shuckle|Toxic||[still]
+|-fail|p2a: Shuckle
+|
+|-heal|p2a: Shuckle|100/100|[from] item: Leftovers
+|upkeep
+|turn|120
+|c|☆Rekbeth|Goodbye old friend, and may the force be with you
+|c|☆ItHenrique|The epic battle that anime don't show right?
+|
+|-activate|p1a: Dragapult|move: Struggle
+|move|p1a: Dragapult|Struggle|p2a: Shuckle
+|-damage|p2a: Shuckle|99/100
+|-damage|p1a: Dragapult|76/100|[from] recoil
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|100/100|[from] item: Leftovers
+|upkeep
+|turn|121
+|c|☆Rekbeth|Lmao
+|inactive|Rekbeth has 90 seconds left.
+|
+|-activate|p1a: Dragapult|move: Struggle
+|move|p1a: Dragapult|Struggle|p2a: Shuckle
+|-damage|p2a: Shuckle|99/100
+|-damage|p1a: Dragapult|57/100|[from] recoil
+|move|p2a: Shuckle|Toxic||[still]
+|-fail|p2a: Shuckle
+|
+|-heal|p1a: Dragapult|63/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|100/100|[from] item: Leftovers
+|-end|p2a: Shuckle|Disable
+|upkeep
+|turn|122
+|inactive|Rekbeth has 90 seconds left.
+|c|☆Rekbeth|It was a good attempt, but between Rest and your disable i wasnt gonna struggle first
+|c|☆ItHenrique|Cya mate
+|c|☆Rekbeth|And had toxy left
+|
+|-activate|p1a: Dragapult|move: Struggle
+|move|p1a: Dragapult|Struggle|p2a: Shuckle
+|-damage|p2a: Shuckle|99/100
+|-damage|p1a: Dragapult|38/100|[from] recoil
+|move|p2a: Shuckle|Infestation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p1a: Dragapult|44/100|[from] item: Leftovers
+|-heal|p2a: Shuckle|100/100|[from] item: Leftovers
+|upkeep
+|turn|123
+|
+|-activate|p1a: Dragapult|move: Struggle
+|move|p1a: Dragapult|Struggle|p2a: Shuckle
+|-damage|p2a: Shuckle|99/100
+|-damage|p1a: Dragapult|19/100|[from] recoil
+|move|p2a: Shuckle|Rest|p2a: Shuckle
+|-status|p2a: Shuckle|slp|[from] move: Rest
+|-heal|p2a: Shuckle|100/100 slp|[silent]
+|
+|-heal|p1a: Dragapult|25/100|[from] item: Leftovers
+|upkeep
+|turn|124
+|c|☆Rekbeth|Gg
+|c|☆ItHenrique|It was fun
+|inactive|ItHenrique has 120 seconds left.
+|
+|-activate|p1a: Dragapult|move: Struggle
+|move|p1a: Dragapult|Struggle|p2a: Shuckle
+|-damage|p2a: Shuckle|99/100 slp
+|-damage|p1a: Dragapult|0 fnt|[from] recoil
+|faint|p1a: Dragapult
+|
+|win|Rekbeth
+|raw|ItHenrique's rating: 1316 → 1296(-20 for losing)
+|raw|Rekbeth's rating: 1306 → 1326(+20 for winning)

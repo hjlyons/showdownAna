@@ -1,0 +1,364 @@
+|ScrapeTime|2020-01-02-00:04:52
+|j|☆hiiroG
+|j|☆Lupe12
+|player|p1|hiiroG|alder|1292
+|player|p2|Lupe12|2|1234
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Torkoal, M|
+|poke|p1|Shiftry, M|
+|poke|p1|Arcanine, M|
+|poke|p1|Quagsire, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Hydreigon, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Braviary, M|
+|poke|p2|Dracovish|
+|poke|p2|Dragapult, M|
+|poke|p2|Togekiss, F|
+|poke|p2|Ferrothorn, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hiiroG)
+|l|☆Lupe12
+|inactive|Lupe12 disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆Lupe12
+|inactive|Lupe12 reconnected and has 130 seconds left.
+|player|p2|Lupe12|2
+|
+|start
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: Braviary|Braviary, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|move|p2a: Braviary|Bulk Up|p2a: Braviary
+|-boost|p2a: Braviary|atk|1
+|-boost|p2a: Braviary|def|1
+|move|p1a: Torkoal|Lava Plume|p2a: Braviary
+|-damage|p2a: Braviary|51/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Braviary|Brave Bird|p1a: Torkoal
+|-damage|p1a: Torkoal|47/100
+|-damage|p2a: Braviary|34/100|[from] Recoil
+|-enditem|p2a: Braviary|Sitrus Berry|[eat]
+|-heal|p2a: Braviary|59/100|[from] item: Sitrus Berry
+|move|p1a: Torkoal|Lava Plume|p2a: Braviary
+|-damage|p2a: Braviary|10/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Braviary|atk|1
+|move|p2a: Braviary|Close Combat|p1a: Arcanine
+|-damage|p1a: Arcanine|41/100
+|-unboost|p2a: Braviary|def|1
+|-unboost|p2a: Braviary|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Arcanine|Extreme Speed|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|5
+|
+|switch|p1a: Quagsire|Quagsire, M|100/100
+|move|p2a: Dracovish|Substitute|p2a: Dracovish
+|-start|p2a: Dracovish|Substitute
+|-damage|p2a: Dracovish|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p2a: Dracovish|Crunch|p1a: Quagsire
+|-damage|p1a: Quagsire|78/100
+|move|p1a: Quagsire|Earthquake|p2a: Dracovish
+|-end|p2a: Dracovish|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Quagsire|84/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Togekiss|Togekiss, F, shiny|100/100
+|move|p1a: Quagsire|Earthquake|p2a: Togekiss
+|-immune|p2a: Togekiss
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Quagsire|91/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Togekiss|Air Slash|p1a: Quagsire
+|-damage|p1a: Quagsire|41/100
+|move|p1a: Quagsire|Toxic|p2a: Togekiss
+|-status|p2a: Togekiss|tox
+|
+|-weather|none
+|-heal|p1a: Quagsire|48/100|[from] item: Leftovers
+|-damage|p2a: Togekiss|94/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p1a: Torkoal|Torkoal, M|47/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|21/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Togekiss|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Togekiss|88/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|move|p2a: Togekiss|Air Slash|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Togekiss|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Togekiss|76/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|11
+|
+|switch|p2a: Dracovish|Dracovish|76/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Dracovish
+|-resisted|p2a: Dracovish
+|-damage|p2a: Dracovish|42/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p1a: Quagsire|Quagsire, M|48/100
+|move|p2a: Dracovish|Substitute|p2a: Dracovish
+|-start|p2a: Dracovish|Substitute
+|-damage|p2a: Dracovish|18/100
+|-enditem|p2a: Dracovish|Liechi Berry|[eat]
+|-boost|p2a: Dracovish|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Quagsire|54/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Dracovish|Crunch|p1a: Quagsire
+|-damage|p1a: Quagsire|22/100
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|73/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Quagsire|79/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Quagsire
+|-heal|p1a: Quagsire|100/100|[from] ability: Water Absorb|[of] p2a: Dracovish
+|move|p1a: Quagsire|Earthquake|p2a: Dracovish
+|-end|p2a: Dracovish|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|switch|p2a: Togekiss|Togekiss, F, shiny|76/100 tox
+|move|p1a: Quagsire|Scald|p2a: Togekiss
+|-damage|p2a: Togekiss|68/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Togekiss|75/100 tox|[from] item: Leftovers
+|-damage|p2a: Togekiss|68/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p1a: Arcanine|Arcanine, M|41/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Togekiss|atk|1
+|move|p2a: Togekiss|Air Slash|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|-weather|none
+|-heal|p2a: Togekiss|75/100 tox|[from] item: Leftovers
+|-damage|p2a: Togekiss|62/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|17
+|l|☆Lupe12
+|inactive|Lupe12 disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆Lupe12
+|inactive|Lupe12 reconnected and has 125 seconds left.
+|player|p2|Lupe12|2
+|inactive|Lupe12 has 120 seconds left.
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|44/100
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Shiftry|Shiftry, M|100/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Shiftry
+|-damage|p1a: Shiftry|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|-enditem|p2a: Dragapult|White Herb
+|-clearnegativeboost|p2a: Dragapult|[silent]
+|faint|p1a: Shiftry
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|19
+|
+|move|p1a: Cinderace|Sucker Punch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|18/100
+|turn|20
+|
+|switch|p1a: Quagsire|Quagsire, M|100/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Quagsire
+|-immune|p1a: Quagsire|[from] ability: Water Absorb
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Quagsire|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|94/100
+|
+|-heal|p2a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Hydreigon
+|-start|p1a: Hydreigon|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p1a: Hydreigon|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|23
+|
+|switch|p2a: Dracovish|Dracovish|18/100
+|move|p1a: Hydreigon|Fire Blast|p2a: Dracovish
+|-resisted|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, F, shiny|62/100 tox
+|turn|24
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Togekiss|Air Slash|p1a: Cinderace
+|-damage|p1a: Cinderace|50/100
+|
+|-heal|p2a: Togekiss|68/100 tox|[from] item: Leftovers
+|-damage|p2a: Togekiss|62/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-crit|p2a: Cinderace
+|-damage|p2a: Cinderace|6/100
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Quagsire|Quagsire, M|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Quagsire
+|-resisted|p1a: Quagsire
+|-damage|p1a: Quagsire|47/100
+|
+|-heal|p1a: Quagsire|53/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Quagsire
+|-resisted|p1a: Quagsire
+|-damage|p1a: Quagsire|7/100
+|-status|p1a: Quagsire|brn
+|move|p1a: Quagsire|Scald|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-heal|p1a: Quagsire|14/100 brn|[from] item: Leftovers
+|-damage|p1a: Quagsire|7/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, F, shiny|62/100 tox
+|turn|28
+|
+|move|p2a: Togekiss|Air Slash|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|faint|p1a: Quagsire
+|
+|-heal|p2a: Togekiss|68/100 tox|[from] item: Leftovers
+|-damage|p2a: Togekiss|62/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|50/100
+|turn|29
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|30
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|win|hiiroG
+|l|☆Lupe12
+|raw|hiiroG's rating: 1292 → 1313(+21 for winning)
+|raw|Lupe12's rating: 1234 → 1213(-21 for losing)

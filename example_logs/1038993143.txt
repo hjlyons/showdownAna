@@ -1,0 +1,214 @@
+|ScrapeTime|2020-01-01-03:56:31
+|j|☆RyceCycle
+|j|☆Captain Maybe
+|player|p1|RyceCycle|212|1289
+|player|p2|Captain Maybe|30|1318
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dracovish|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Rotom-Heat|
+|poke|p2|Toxtricity, M|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Corviknight, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RyceCycle)
+|
+|start
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|switch|p2a: Bulwark|Corviknight, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|-ability|p2a: Bulwark|Pressure
+|turn|1
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Bulwark|U-turn|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|90/100
+|
+|switch|p2a: Dirt|Conkeldurr, M|100/100|[from]move: U-turn
+|
+|-status|p2a: Dirt|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|move|p1a: Rotom|Trick|p2a: Dirt
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Dirt
+|-item|p2a: Dirt|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Flame Orb|[from] move: Trick
+|move|p2a: Dirt|Earthquake|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|
+|-damage|p2a: Dirt|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Lysithea|Hatterene, F|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Lysithea
+|-damage|p2a: Lysithea|65/100
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100|[from]move: Volt Switch
+|-ability|p1a: Excadrill|Mold Breaker
+|
+|-heal|p2a: Lysithea|71/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Rotom|Rotom-Heat|90/100
+|move|p2a: Lysithea|Mystical Fire|p1a: Rotom
+|-resisted|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|69/100
+|-unboost|p1a: Rotom|spa|1
+|
+|-heal|p2a: Lysithea|77/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Phlarts|Seismitoad, M|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Phlarts
+|-immune|p2a: Phlarts
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Rotom|Trick|p2a: Phlarts
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Phlarts
+|-item|p2a: Phlarts|Flame Orb|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|move|p2a: Phlarts|Stealth Rock|p1a: Rotom
+|-sidestart|p1: RyceCycle|move: Stealth Rock
+|
+|-heal|p1a: Rotom|75/100|[from] item: Leftovers
+|-status|p2a: Phlarts|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Phlarts|Toxic|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p2a: Phlarts|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p2a: Lysithea|Hatterene, F|77/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Lysithea
+|move|p2a: Lysithea|Stealth Rock||[from]Magic Bounce|[still]
+|-fail|p2a: Lysithea
+|
+|-heal|p2a: Lysithea|83/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Lysithea|Mystical Fire|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|18/100
+|-unboost|p1a: Ferrothorn|spa|1
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Lysithea
+|-supereffective|p2a: Lysithea
+|-damage|p2a: Lysithea|47/100
+|
+|-heal|p2a: Lysithea|53/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|24/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Lysithea|Draining Kiss|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|14/100
+|-heal|p2a: Lysithea|61/100|[from] drain|[of] p1a: Ferrothorn
+|-damage|p2a: Lysithea|48/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Lysithea
+|-supereffective|p2a: Lysithea
+|-damage|p2a: Lysithea|10/100
+|
+|-heal|p2a: Lysithea|16/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|21/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Lysithea|Mystical Fire|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-heal|p2a: Lysithea|22/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|12
+|
+|switch|p2a: Phlarts|Seismitoad, M|94/100 brn
+|move|p1a: Excadrill|Rapid Spin|p2a: Phlarts
+|-damage|p2a: Phlarts|82/100 brn
+|-sideend|p1: RyceCycle|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|
+|-damage|p2a: Phlarts|76/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Phlarts|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|33/100
+|
+|-damage|p2a: Phlarts|70/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Excadrill|Earthquake|p2a: Phlarts
+|-damage|p2a: Phlarts|0 fnt
+|faint|p2a: Phlarts
+|
+|upkeep
+|
+|switch|p2a: Azuregos|Dragapult, F|100/100
+|turn|15
+|
+|move|p1a: Excadrill|Earthquake|p2a: Azuregos
+|-damage|p2a: Azuregos|0 fnt
+|faint|p2a: Azuregos
+|
+|upkeep
+|
+|switch|p2a: Dirt|Conkeldurr, M|94/100 brn
+|turn|16
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Dirt|Mach Punch|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|-damage|p2a: Dirt|88/100 brn|[from] brn
+|upkeep
+|turn|17
+|-message|Captain Maybe forfeited.
+|
+|win|RyceCycle
+|l|☆Captain Maybe
+|raw|RyceCycle's rating: 1289 → 1315(+26 for winning)
+|raw|Captain Maybe's rating: 1299 → 1274(-25 for losing)

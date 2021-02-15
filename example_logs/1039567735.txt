@@ -1,0 +1,276 @@
+|ScrapeTime|2020-01-02-08:24:43
+|j|☆NotThePinkReaper
+|j|☆OmegaTowel
+|player|p1|NotThePinkReaper|77|1294
+|player|p2|OmegaTowel|lance|1293
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Centiskorch, M|
+|poke|p1|Seismitoad, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Mamoswine, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Rotom-Wash|
+|poke|p2|Dracovish|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Gengar, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Centiskorch|Centiskorch, M|100/100
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|turn|1
+|
+|switch|p2a: Seismitoad|Seismitoad, F, shiny|100/100
+|move|p1a: Centiskorch|Knock Off|p2a: Seismitoad
+|-damage|p2a: Seismitoad|82/100
+|-enditem|p2a: Seismitoad|Leftovers|[from] move: Knock Off|[of] p1a: Centiskorch
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Seismitoad|Stealth Rock|p1a: Centiskorch
+|-sidestart|p1: NotThePinkReaper|move: Stealth Rock
+|move|p1a: Centiskorch|Fire Lash|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|71/100
+|-unboost|p2a: Seismitoad|def|1
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Seismitoad|Scald|p1a: Centiskorch
+|-supereffective|p1a: Centiskorch
+|-damage|p1a: Centiskorch|67/100
+|move|p1a: Centiskorch|Fire Lash|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|55/100
+|-unboost|p2a: Seismitoad|def|1
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Seismitoad|Scald|p1a: Centiskorch
+|-supereffective|p1a: Centiskorch
+|-damage|p1a: Centiskorch|33/100
+|move|p1a: Centiskorch|Leech Life|p2a: Seismitoad
+|-damage|p2a: Seismitoad|12/100
+|-heal|p1a: Centiskorch|55/100|[from] drain|[of] p2a: Seismitoad
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Seismitoad|Scald|p1a: Centiskorch
+|-supereffective|p1a: Centiskorch
+|-damage|p1a: Centiskorch|24/100
+|move|p1a: Centiskorch|Leech Life|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-heal|p1a: Centiskorch|29/100|[from] drain|[of] p2a: Seismitoad
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|turn|6
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Centiskorch
+|-damage|p1a: Centiskorch|0 fnt
+|faint|p1a: Centiskorch
+|
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|7
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|92/100
+|-enditem|p2a: Conkeldurr|Assault Vest|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Conkeldurr|Ice Punch|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|75/100
+|-damage|p2a: Conkeldurr|79/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Conkeldurr
+|-sidestart|p2: OmegaTowel|move: Stealth Rock
+|
+|-heal|p1a: Ferrothorn|81/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Conkeldurr|Drain Punch|p1a: Rotom
+|-damage|p1a: Rotom|47/100
+|-heal|p2a: Conkeldurr|94/100|[from] drain|[of] p1a: Rotom
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Conkeldurr
+|-status|p2a: Conkeldurr|brn
+|move|p2a: Conkeldurr|Ice Punch|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|40/100
+|
+|-damage|p2a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|-damage|p2a: Grimmsnarl|88/100|[from] Stealth Rock
+|move|p1a: Rotom|Hydro Pump|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|47/100
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Grimmsnarl
+|-status|p2a: Grimmsnarl|brn
+|move|p2a: Grimmsnarl|Darkest Lariat|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|4/100
+|-enditem|p1a: Rotom|Wiki Berry|[eat]
+|-heal|p1a: Rotom|37/100|[from] item: Wiki Berry
+|-damage|p2a: Grimmsnarl|37/100 brn|[from] item: Life Orb
+|
+|-damage|p2a: Grimmsnarl|31/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Rotom|Discharge|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|-damage|p2a: Gengar|88/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|-damage|p1a: Mamoswine|88/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Mamoswine|Icicle Crash|p2a: Corviknight
+|-damage|p2a: Corviknight|36/100
+|-damage|p1a: Mamoswine|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Mamoswine|Superpower|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Mamoswine|61/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-unboost|p1a: Mamoswine|atk|1
+|-unboost|p1a: Mamoswine|def|1
+|-damage|p1a: Mamoswine|51/100|[from] item: Life Orb
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|88/100 brn
+|-damage|p2a: Conkeldurr|82/100 brn|[from] Stealth Rock
+|turn|17
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|81/100
+|-damage|p1a: Ferrothorn|75/100|[from] Stealth Rock
+|move|p2a: Conkeldurr|Drain Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|39/100
+|-heal|p2a: Conkeldurr|98/100 brn|[from] drain|[of] p1a: Ferrothorn
+|-damage|p2a: Conkeldurr|85/100 brn|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|45/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|79/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p2a: Conkeldurr|Drain Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|6/100
+|-heal|p2a: Conkeldurr|96/100 brn|[from] drain|[of] p1a: Ferrothorn
+|-damage|p2a: Conkeldurr|84/100 brn|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Power Whip|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|52/100 brn
+|
+|-heal|p1a: Ferrothorn|12/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|46/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p2a: Conkeldurr|Ice Punch|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Conkeldurr|34/100 brn|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-damage|p2a: Conkeldurr|28/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|-damage|p1a: Seismitoad|94/100|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Seismitoad|Earth Power|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish, shiny|100/100
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Seismitoad
+|-immune|p1a: Seismitoad|[from] ability: Water Absorb
+|move|p1a: Seismitoad|Earth Power|p2a: Dracovish
+|-damage|p2a: Dracovish|55/100
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Gengar|Gengar, M|88/100
+|-damage|p2a: Gengar|76/100|[from] Stealth Rock
+|move|p1a: Seismitoad|Earth Power|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+|c|☆NotThePinkReaper|gg
+|-message|OmegaTowel forfeited.
+|
+|win|NotThePinkReaper
+|raw|NotThePinkReaper's rating: 1294 → 1319(+25 for winning)
+|raw|OmegaTowel's rating: 1293 → 1268(-25 for losing)
+|l|☆OmegaTowel

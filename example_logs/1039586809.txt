@@ -1,0 +1,774 @@
+|ScrapeTime|2020-01-02-10:06:00
+|j|☆joker957
+|j|☆mjboy
+|player|p1|joker957|ghetsis-gen5bw|1452
+|player|p2|mjboy|7|1448
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Obstagoon, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Clefable, M|
+|poke|p1|Dugtrio, M|
+|poke|p2|Lapras, F|
+|poke|p2|Gengar, M|
+|poke|p2|Quagsire, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Flygon, M|
+|poke|p2|Rotom-Mow|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| Rasphere
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|turn|1
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Rotom|Leaf Storm|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|59/100
+|-unboost|p2a: Rotom|spa|2
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|move|p1a: Cinderace|U-turn|p2a: Quagsire
+|-damage|p2a: Quagsire|82/100
+|
+|switch|p1a: Obstagoon|Obstagoon, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Quagsire|89/100|[from] item: Leftovers
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Obstagoon|Knock Off|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|81/100
+|-enditem|p2a: Mandibuzz|Leftovers|[from] move: Knock Off|[of] p1a: Obstagoon
+|
+|-damage|p1a: Obstagoon|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Obstagoon|Facade|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|30/100
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|80/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Obstagoon|88/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: Obstagoon|Parting Shot|p2a: Mandibuzz
+|-unboost|p2a: Mandibuzz|atk|1
+|-unboost|p2a: Mandibuzz|spa|1
+|
+|switch|p1a: Clefable|Clefable, M|100/100|[from]move: Parting Shot
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Mandibuzz|Knock Off|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|92/100
+|-enditem|p1a: Clefable|Leftovers|[from] move: Knock Off|[of] p2a: Mandibuzz
+|move|p1a: Clefable|Stealth Rock|p2a: Mandibuzz
+|-sidestart|p2: mjboy|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Mandibuzz|Defog|p1a: Clefable
+|-unboost|p1a: Clefable|evasion|1
+|-sideend|p2: mjboy|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|move|p1a: Clefable|Moonblast|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|48/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|98/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Clefable|Moonblast|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|50/100
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|99/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Clefable|Moonblast|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|54/100
+|-unboost|p2a: Mandibuzz|spa|1
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Clefable|Moonblast|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|74/100
+|-unboost|p2a: Gengar|spa|1
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Obstagoon|Obstagoon, M|88/100 brn
+|move|p2a: Gengar|Sludge Bomb|p1a: Obstagoon
+|-damage|p1a: Obstagoon|39/100 brn
+|-damage|p2a: Gengar|64/100|[from] item: Life Orb
+|
+|-damage|p1a: Obstagoon|33/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Gengar|Dazzling Gleam|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|91/100
+|-damage|p2a: Gengar|54/100|[from] item: Life Orb
+|
+|-heal|p1a: Toxapex|97/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|switch|p2a: Lapras|Lapras, F|100/100
+|move|p1a: Toxapex|Toxic|p2a: Lapras
+|-status|p2a: Lapras|tox
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p2a: Lapras|94/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Lapras|Whirlpool|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-heal|p2a: Lapras|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Lapras|88/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Lapras|Whirlpool|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|95/100
+|-activate|p1a: Rotom|move: Whirlpool|[of] p2a: Lapras
+|
+|-heal|p2a: Lapras|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Lapras|76/100 tox|[from] psn
+|-damage|p1a: Rotom|83/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|16
+|
+|move|p2a: Lapras|Protect|p2a: Lapras
+|-singleturn|p2a: Lapras|Protect
+|move|p1a: Rotom|Volt Switch|p2a: Lapras
+|-activate|p2a: Lapras|move: Protect
+|
+|-heal|p2a: Lapras|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Lapras|58/100 tox|[from] psn
+|-damage|p1a: Rotom|70/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|17
+|
+|switch|p2a: Quagsire|Quagsire, M|89/100
+|move|p1a: Rotom|Volt Switch|p2a: Quagsire
+|-immune|p2a: Quagsire
+|
+|-heal|p2a: Quagsire|95/100|[from] item: Leftovers
+|-end|p1a: Rotom|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|turn|18
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Quagsire|Earth Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|67/100
+|
+|-heal|p2a: Quagsire|100/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|73/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|switch|p2a: Lapras|Lapras, F|58/100 tox
+|move|p1a: Toxapex|Toxic|p2a: Lapras
+|-fail|p2a: Lapras|tox
+|
+|-heal|p2a: Lapras|64/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|79/100|[from] item: Black Sludge
+|-damage|p2a: Lapras|58/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Lapras|Life Dew|p2a: Lapras
+|-heal|p2a: Lapras|83/100 tox
+|
+|-heal|p2a: Lapras|89/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|86/100|[from] item: Black Sludge
+|-damage|p2a: Lapras|77/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|move|p2a: Lapras|Whirlpool|p1a: Toxapex|[miss]
+|-miss|p2a: Lapras|p1a: Toxapex
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|-heal|p2a: Lapras|83/100 tox|[from] item: Leftovers
+|-damage|p2a: Lapras|65/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|switch|p2a: Gengar|Gengar, M|54/100
+|move|p1a: Toxapex|Baneful Bunker||[still]
+|-fail|p1a: Toxapex
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Lapras|Lapras, F|65/100 tox
+|move|p1a: Toxapex|Baneful Bunker||[still]
+|-fail|p1a: Toxapex
+|
+|-heal|p2a: Lapras|71/100 tox|[from] item: Leftovers
+|-damage|p2a: Lapras|65/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Lapras|Life Dew|p2a: Lapras
+|-heal|p2a: Lapras|90/100 tox
+|
+|-heal|p2a: Lapras|96/100 tox|[from] item: Leftovers
+|-damage|p2a: Lapras|84/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|move|p2a: Lapras|Whirlpool|p1a: Toxapex|[miss]
+|-miss|p2a: Lapras|p1a: Toxapex
+|move|p1a: Toxapex|Scald|p2a: Lapras
+|-heal|p2a: Lapras|100/100 tox|[from] ability: Water Absorb|[of] p1a: Toxapex
+|
+|-damage|p2a: Lapras|82/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Lapras|Whirlpool|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-heal|p2a: Lapras|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Lapras|64/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|move|p1a: Toxapex|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|91/100
+|-status|p2a: Rotom|brn
+|
+|-damage|p2a: Rotom|85/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Rotom|Leaf Storm|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-damage|p2a: Rotom|79/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|switch|p2a: Lapras|Lapras, F|64/100 tox
+|move|p1a: Toxapex|Recover||[still]
+|-fail|p1a: Toxapex|heal
+|
+|-heal|p2a: Lapras|70/100 tox|[from] item: Leftovers
+|-damage|p2a: Lapras|64/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|switch|p1a: Rotom|Rotom-Wash|70/100
+|move|p2a: Lapras|Life Dew|p2a: Lapras
+|-heal|p2a: Lapras|89/100 tox
+|
+|-heal|p2a: Lapras|95/100 tox|[from] item: Leftovers
+|-damage|p2a: Lapras|83/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|move|p2a: Lapras|Protect|p2a: Lapras
+|-singleturn|p2a: Lapras|Protect
+|move|p1a: Rotom|Trick|p2a: Lapras
+|-activate|p2a: Lapras|move: Protect
+|
+|-heal|p2a: Lapras|89/100 tox|[from] item: Leftovers
+|-damage|p2a: Lapras|71/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|switch|p2a: Rotom|Rotom-Mow|79/100 brn
+|move|p1a: Rotom|Trick|p2a: Rotom
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Rotom
+|-item|p2a: Rotom|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Choice Scarf|[from] move: Trick
+|
+|-damage|p2a: Rotom|73/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Rotom|Leaf Storm|p1a: Toxapex
+|-damage|p1a: Toxapex|55/100
+|-unboost|p2a: Rotom|spa|2
+|
+|-heal|p1a: Toxapex|61/100|[from] item: Black Sludge
+|-damage|p2a: Rotom|67/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|switch|p2a: Lapras|Lapras, F|71/100 tox
+|move|p1a: Toxapex|Scald|p2a: Lapras
+|-heal|p2a: Lapras|96/100 tox|[from] ability: Water Absorb|[of] p1a: Toxapex
+|
+|-heal|p2a: Lapras|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|68/100|[from] item: Black Sludge
+|-damage|p2a: Lapras|94/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|move|p2a: Lapras|Whirlpool|p1a: Toxapex|[miss]
+|-miss|p2a: Lapras|p1a: Toxapex
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|-heal|p2a: Lapras|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Lapras|88/100 tox|[from] psn
+|upkeep
+|turn|36
+|c|☆mjboy|Broooo !!!!!!!!!!!!
+|
+|switch|p1a: Rotom|Rotom-Wash|70/100
+|move|p2a: Lapras|Whirlpool|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|64/100
+|-activate|p1a: Rotom|move: Whirlpool|[of] p2a: Lapras
+|
+|-heal|p2a: Lapras|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Lapras|76/100 tox|[from] psn
+|-damage|p1a: Rotom|52/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|37
+|
+|move|p2a: Lapras|Protect|p2a: Lapras
+|-singleturn|p2a: Lapras|Protect
+|move|p1a: Rotom|Trick|p2a: Lapras
+|-activate|p2a: Lapras|move: Protect
+|
+|-heal|p2a: Lapras|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Lapras|58/100 tox|[from] psn
+|-damage|p1a: Rotom|39/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|38
+|
+|switch|p2a: Rotom|Rotom-Mow|67/100 brn
+|move|p1a: Rotom|Trick|p2a: Rotom
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Rotom
+|-item|p2a: Rotom|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Choice Scarf|[from] move: Trick
+|
+|-damage|p2a: Rotom|61/100 brn|[from] brn
+|-end|p1a: Rotom|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|turn|39
+|
+|switch|p1a: Cinderace|Cinderace, M|59/100
+|move|p2a: Rotom|Leaf Storm|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|17/100
+|-unboost|p2a: Rotom|spa|2
+|
+|-damage|p2a: Rotom|55/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-damage|p2a: Quagsire|68/100
+|-status|p2a: Quagsire|brn
+|
+|-heal|p2a: Quagsire|75/100 brn|[from] item: Leftovers
+|-damage|p2a: Quagsire|68/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|move|p1a: Cinderace|U-turn|p2a: Quagsire
+|-damage|p2a: Quagsire|51/100 brn
+|
+|switch|p1a: Dugtrio|Dugtrio, M|100/100|[from]move: U-turn
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|100/100 brn
+|
+|-damage|p2a: Quagsire|94/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Quagsire
+|-damage|p2a: Quagsire|62/100 brn
+|move|p2a: Quagsire|Scald|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|14/100
+|-status|p1a: Dugtrio|brn
+|
+|-heal|p2a: Quagsire|68/100 brn|[from] item: Leftovers
+|-damage|p1a: Dugtrio|8/100 brn|[from] brn
+|-damage|p2a: Quagsire|62/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Quagsire
+|-damage|p2a: Quagsire|47/100 brn
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|97/100 brn
+|
+|-heal|p2a: Quagsire|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Dugtrio|2/100 brn|[from] brn
+|-damage|p2a: Quagsire|94/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|move|p1a: Dugtrio|Reversal|p2a: Quagsire
+|-damage|p2a: Quagsire|74/100 brn
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|100/100 brn
+|
+|-damage|p1a: Dugtrio|0 fnt|[from] brn
+|faint|p1a: Dugtrio
+|-damage|p2a: Quagsire|94/100 brn|[from] brn
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by joker957)
+|
+|switch|p1a: Clefable|Clefable, M|92/100
+|turn|45
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|54/100
+|move|p1a: Clefable|Moonblast|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|3/100
+|-unboost|p2a: Mandibuzz|spa|1
+|
+|upkeep
+|turn|46
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|53/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Clefable|Moonblast|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|3/100
+|-unboost|p2a: Mandibuzz|spa|1
+|
+|upkeep
+|turn|47
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|53/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Clefable|Moonblast|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|5/100
+|
+|upkeep
+|turn|48
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|55/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Clefable|Moonblast|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|9/100
+|
+|upkeep
+|turn|49
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|59/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Clefable|Moonblast|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|9/100
+|
+|upkeep
+|turn|50
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|59/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Clefable|Moonblast|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-crit|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, M|54/100
+|turn|51
+|
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Gengar|Sludge Bomb|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|upkeep
+|turn|52
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Gengar|Psychic|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|-damage|p2a: Gengar|44/100|[from] item: Life Orb
+|faint|p1a: Toxapex
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|17/100
+|turn|53
+|
+|switch|p2a: Quagsire|Quagsire, M|94/100 brn
+|move|p1a: Cinderace|Sucker Punch||[still]
+|-fail|p1a: Cinderace
+|
+|-heal|p2a: Quagsire|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Quagsire|94/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|move|p1a: Cinderace|U-turn|p2a: Quagsire
+|-damage|p2a: Quagsire|77/100 brn
+|
+|switch|p1a: Clefable|Clefable, M|92/100|[from]move: U-turn
+|move|p2a: Quagsire|Earth Power|p1a: Clefable
+|-damage|p1a: Clefable|76/100
+|
+|-heal|p2a: Quagsire|83/100 brn|[from] item: Leftovers
+|-damage|p2a: Quagsire|77/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|switch|p2a: Lapras|Lapras, F|58/100 tox
+|move|p1a: Clefable|Stealth Rock|p2a: Lapras
+|-sidestart|p2: mjboy|move: Stealth Rock
+|
+|-heal|p2a: Lapras|64/100 tox|[from] item: Leftovers
+|-damage|p2a: Lapras|58/100 tox|[from] psn
+|upkeep
+|turn|56
+|
+|move|p2a: Lapras|Whirlpool|p1a: Clefable
+|-damage|p1a: Clefable|68/100
+|-activate|p1a: Clefable|move: Whirlpool|[of] p2a: Lapras
+|move|p1a: Clefable|Moonblast|p2a: Lapras
+|-damage|p2a: Lapras|35/100 tox
+|-unboost|p2a: Lapras|spa|1
+|
+|-heal|p2a: Lapras|42/100 tox|[from] item: Leftovers
+|-damage|p2a: Lapras|29/100 tox|[from] psn
+|upkeep
+|turn|57
+|
+|move|p2a: Lapras|Life Dew|p2a: Lapras
+|-heal|p2a: Lapras|54/100 tox
+|move|p1a: Clefable|Moonblast|p2a: Lapras
+|-damage|p2a: Lapras|30/100 tox
+|
+|-heal|p2a: Lapras|36/100 tox|[from] item: Leftovers
+|-damage|p2a: Lapras|18/100 tox|[from] psn
+|upkeep
+|turn|58
+|
+|move|p2a: Lapras|Perish Song|p2a: Lapras
+|-start|p1a: Clefable|perish3|[silent]
+|-start|p2a: Lapras|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Clefable|Moonblast|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|-end|p1a: Clefable|Whirlpool|[partiallytrapped]|[silent]
+|-start|p1a: Clefable|perish3
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, M|44/100
+|-damage|p2a: Gengar|32/100|[from] Stealth Rock
+|turn|59
+|
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Gengar|Sludge Bomb|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|-start|p1a: Clefable|perish2
+|upkeep
+|turn|60
+|
+|switch|p1a: Rotom|Rotom-Wash|39/100
+|move|p2a: Gengar|Sludge Bomb|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-damage|p2a: Gengar|22/100|[from] item: Life Orb
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|17/100
+|turn|61
+|
+|switch|p2a: Quagsire|Quagsire, M|77/100 brn
+|-damage|p2a: Quagsire|71/100 brn|[from] Stealth Rock
+|move|p1a: Cinderace|U-turn|p2a: Quagsire
+|-damage|p2a: Quagsire|55/100 brn
+|
+|switch|p1a: Obstagoon|Obstagoon, M|33/100 brn|[from]move: U-turn
+|
+|-heal|p2a: Quagsire|61/100 brn|[from] item: Leftovers
+|-damage|p1a: Obstagoon|27/100 brn|[from] brn
+|-damage|p2a: Quagsire|55/100 brn|[from] brn
+|upkeep
+|turn|62
+|
+|move|p1a: Obstagoon|Knock Off|p2a: Quagsire
+|-damage|p2a: Quagsire|14/100 brn
+|-enditem|p2a: Quagsire|Leftovers|[from] move: Knock Off|[of] p1a: Obstagoon
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|64/100 brn
+|
+|-damage|p1a: Obstagoon|21/100 brn|[from] brn
+|-damage|p2a: Quagsire|58/100 brn|[from] brn
+|upkeep
+|turn|63
+|
+|move|p1a: Obstagoon|Facade|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|faint|p2a: Quagsire
+|
+|-damage|p1a: Obstagoon|15/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Mow|55/100 brn
+|-damage|p2a: Rotom|43/100 brn|[from] Stealth Rock
+|turn|64
+|
+|move|p1a: Obstagoon|Obstruct|p1a: Obstagoon
+|-singleturn|p1a: Obstagoon|Protect
+|move|p2a: Rotom|Volt Switch|p1a: Obstagoon
+|-activate|p1a: Obstagoon|move: Protect
+|
+|-damage|p2a: Rotom|37/100 brn|[from] brn
+|-damage|p1a: Obstagoon|9/100 brn|[from] brn
+|upkeep
+|turn|65
+|
+|move|p2a: Rotom|Volt Switch|p1a: Obstagoon
+|-damage|p1a: Obstagoon|0 fnt
+|faint|p1a: Obstagoon
+|
+|switch|p2a: Flygon|Flygon, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Flygon|94/100|[from] Stealth Rock
+|
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, M|68/100
+|turn|66
+|
+|move|p2a: Flygon|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|22/100
+|move|p1a: Clefable|Moonblast|p2a: Flygon
+|-supereffective|p2a: Flygon
+|-crit|p2a: Flygon
+|-damage|p2a: Flygon|0 fnt
+|faint|p2a: Flygon
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Mow|37/100 brn
+|-damage|p2a: Rotom|24/100 brn|[from] Stealth Rock
+|turn|67
+|
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Rotom|Volt Switch|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|-damage|p2a: Rotom|18/100 brn|[from] brn
+|upkeep
+|turn|68
+|
+|move|p2a: Rotom|Volt Switch|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|switch|p2a: Gengar|Gengar, M|22/100|[from]move: Volt Switch
+|-damage|p2a: Gengar|10/100|[from] Stealth Rock
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|17/100
+|turn|69
+|
+|move|p1a: Cinderace|Sucker Punch|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-start|p1a: Cinderace|Disable|Sucker Punch|[from] ability: Cursed Body|[of] p2a: Gengar
+|faint|p2a: Gengar
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Mow|18/100 brn
+|-damage|p2a: Rotom|6/100 brn|[from] Stealth Rock
+|turn|70
+|
+|move|p2a: Rotom|Volt Switch|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|win|mjboy
+|raw|joker957's rating: 1452 → 1432(-20 for losing)
+|raw|mjboy's rating: 1448 → 1468(+20 for winning)
+|l|☆joker957

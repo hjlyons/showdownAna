@@ -1,0 +1,267 @@
+|ScrapeTime|2020-01-02-00:35:24
+|j|☆Crauce
+|j|☆Kepepe
+|player|p1|Crauce|1|1197
+|player|p2|Kepepe|170|1179
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, M|
+|poke|p1|Gastrodon, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Clefable, F|
+|poke|p1|Dugtrio, M|
+|poke|p2|Turtonator, F|
+|poke|p2|Shuckle, M|
+|poke|p2|Bisharp, F|
+|poke|p2|Lapras, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Excadrill, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kepepe)
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Shuckle|Shuckle, M|100/100
+|turn|1
+|
+|move|p1a: Ferrothorn|Leech Seed|p2a: Shuckle
+|-start|p2a: Shuckle|move: Leech Seed
+|move|p2a: Shuckle|Encore|p1a: Ferrothorn
+|-start|p1a: Ferrothorn|Encore
+|
+|-damage|p2a: Shuckle|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|2
+|
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|move|p2a: Shuckle|Sticky Web|p1a: Dugtrio
+|-sidestart|p1: Crauce|move: Sticky Web
+|
+|-damage|p2a: Shuckle|76/100|[from] Leech Seed|[of] p1a: Dugtrio
+|upkeep
+|turn|3
+|
+|move|p1a: Dugtrio|Rock Slide|p2a: Shuckle
+|-supereffective|p2a: Shuckle
+|-damage|p2a: Shuckle|52/100
+|move|p2a: Shuckle|Infestation|p1a: Dugtrio
+|-damage|p1a: Dugtrio|99/100
+|-activate|p1a: Dugtrio|move: Infestation|[of] p2a: Shuckle
+|
+|-damage|p2a: Shuckle|40/100|[from] Leech Seed|[of] p1a: Dugtrio
+|-heal|p1a: Dugtrio|100/100|[silent]
+|-damage|p1a: Dugtrio|88/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Shuckle
+|-damage|p2a: Shuckle|17/100
+|-enditem|p2a: Shuckle|Figy Berry|[eat]
+|-heal|p2a: Shuckle|50/100|[from] item: Figy Berry
+|move|p2a: Shuckle|Power Split|p1a: Dugtrio
+|-activate|p2a: Shuckle|move: Power Split|[of] p1a: Dugtrio
+|
+|-damage|p2a: Shuckle|38/100|[from] Leech Seed|[of] p1a: Dugtrio
+|-heal|p1a: Dugtrio|100/100|[silent]
+|-damage|p1a: Dugtrio|88/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|move|p1a: Dugtrio|Rock Slide|p2a: Shuckle
+|-supereffective|p2a: Shuckle
+|-damage|p2a: Shuckle|23/100
+|move|p2a: Shuckle|Infestation|p1a: Dugtrio
+|-damage|p1a: Dugtrio|83/100
+|
+|-damage|p2a: Shuckle|11/100|[from] Leech Seed|[of] p1a: Dugtrio
+|-heal|p1a: Dugtrio|98/100|[silent]
+|-damage|p1a: Dugtrio|85/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|move|p1a: Dugtrio|Rock Slide|p2a: Shuckle
+|-supereffective|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|faint|p2a: Shuckle
+|
+|-end|p1a: Dugtrio|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|turn|7
+|
+|switch|p1a: Gastrodon|Gastrodon, F|100/100
+|-activate|p1a: Gastrodon|move: Sticky Web
+|-unboost|p1a: Gastrodon|spe|1
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Lapras|Lapras, M|100/100
+|move|p1a: Gastrodon|Counter||[still]
+|-fail|p1a: Gastrodon
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-activate|p1a: Ferrothorn|move: Sticky Web
+|-unboost|p1a: Ferrothorn|spe|1
+|move|p2a: Lapras|Freeze-Dry|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|65/100
+|
+|-heal|p1a: Ferrothorn|71/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Turtonator|Turtonator, F|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Turtonator
+|-start|p2a: Turtonator|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|77/100|[from] item: Leftovers
+|-damage|p2a: Turtonator|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|86/100|[silent]
+|upkeep
+|turn|11
+|
+|switch|p2a: Lapras|Lapras, M|100/100
+|switch|p1a: Clefable|Clefable, F|100/100
+|-activate|p1a: Clefable|move: Sticky Web
+|-unboost|p1a: Clefable|spe|1
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Lapras|Hydro Pump|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|86/100
+|-activate|p1a: Ferrothorn|move: Sticky Web
+|-unboost|p1a: Ferrothorn|spe|1
+|turn|13
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Ferrothorn|Leech Seed|p2a: Excadrill
+|-start|p2a: Excadrill|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|93/100|[from] item: Leftovers
+|-damage|p2a: Excadrill|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|14
+|
+|move|p2a: Excadrill|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|68/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Excadrill
+|-damage|p2a: Excadrill|28/100
+|
+|-heal|p1a: Ferrothorn|74/100|[from] item: Leftovers
+|-damage|p2a: Excadrill|15/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|87/100|[silent]
+|upkeep
+|turn|15
+|
+|switch|p2a: Turtonator|Turtonator, F|88/100
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Mandibuzz|Knock Off|p2a: Turtonator
+|-damage|p2a: Turtonator|62/100
+|-enditem|p2a: Turtonator|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Mandibuzz
+|move|p2a: Turtonator|Shell Smash|p2a: Turtonator
+|-unboost|p2a: Turtonator|def|1
+|-unboost|p2a: Turtonator|spd|1
+|-boost|p2a: Turtonator|atk|2
+|-boost|p2a: Turtonator|spa|2
+|-boost|p2a: Turtonator|spe|2
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Turtonator|Shell Smash|p2a: Turtonator
+|-unboost|p2a: Turtonator|def|1
+|-unboost|p2a: Turtonator|spd|1
+|-boost|p2a: Turtonator|atk|2
+|-boost|p2a: Turtonator|spa|2
+|-boost|p2a: Turtonator|spe|2
+|move|p1a: Mandibuzz|U-turn|p2a: Turtonator
+|-resisted|p2a: Turtonator
+|-damage|p2a: Turtonator|50/100
+|
+|switch|p1a: Gastrodon|Gastrodon, F|100/100|[from]move: U-turn
+|-activate|p1a: Gastrodon|move: Sticky Web
+|-unboost|p1a: Gastrodon|spe|1
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Turtonator|Fire Blast|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-crit|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|
+|upkeep
+|
+|switch|p1a: Dugtrio|Dugtrio, M|85/100
+|-activate|p1a: Dugtrio|move: Sticky Web
+|-unboost|p1a: Dugtrio|spe|1
+|turn|19
+|
+|move|p1a: Dugtrio|Sucker Punch||[still]
+|-fail|p1a: Dugtrio
+|move|p2a: Turtonator|Shell Smash|p2a: Turtonator
+|-unboost|p2a: Turtonator|def|1
+|-unboost|p2a: Turtonator|spd|1
+|-boost|p2a: Turtonator|atk|2
+|-boost|p2a: Turtonator|spa|2
+|-boost|p2a: Turtonator|spe|2
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Dugtrio|Sucker Punch|p2a: Turtonator
+|-damage|p2a: Turtonator|2/100
+|move|p2a: Turtonator|Earthquake|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|turn|21
+|c|☆Kepepe|WEAK
+|
+|move|p2a: Turtonator|Fire Blast|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|-message|Crauce forfeited.
+|
+|win|Kepepe
+|l|☆Crauce
+|raw|Crauce's rating: 1197 → 1170(-27 for losing)
+|raw|Kepepe's rating: 1179 → 1205(+26 for winning)

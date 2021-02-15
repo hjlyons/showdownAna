@@ -1,0 +1,332 @@
+|ScrapeTime|2020-01-01-06:35:56
+|j|☆Daimnik Bis
+|j|☆Moero
+|player|p1|Daimnik Bis|janitor|1536
+|player|p2|Moero|190|1570
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Bisharp, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Malamar, M|
+|poke|p1|Ribombee, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Rotom-Mow|
+|poke|p2|Lucario, F|
+|poke|p2|Chandelure, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Morpeko, M|
+|poke|p2|Mimikyu, F|
+|poke|p2|Mandibuzz, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Sticky Web|Ribombee, M|100/100
+|switch|p2a: Lucario|Lucario, F|100/100
+|turn|1
+|
+|move|p1a: Sticky Web|Sticky Web|p2a: Lucario
+|-sidestart|p2: Moero|move: Sticky Web
+|move|p2a: Lucario|Flash Cannon|p1a: Sticky Web
+|-supereffective|p1a: Sticky Web
+|-crit|p1a: Sticky Web
+|-enditem|p1a: Sticky Web|Focus Sash
+|-damage|p1a: Sticky Web|1/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Motostoke FC|Cinderace, M|100/100
+|move|p2a: Lucario|Vacuum Wave|p1a: Motostoke FC
+|-damage|p1a: Motostoke FC|71/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Motostoke FC|Court Change|p1a: Motostoke FC
+|-sideend|p2: Moero|Sticky Web|[silent]
+|-sidestart|p1: Daimnik Bis|Sticky Web|[silent]
+|-activate|p1a: Motostoke FC|move: Court Change
+|move|p2a: Lucario|Psychic|p1a: Motostoke FC
+|-damage|p1a: Motostoke FC|33/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Motostoke FC|Pyro Ball|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-enditem|p2a: Lucario|Focus Sash
+|-damage|p2a: Lucario|1/100
+|-status|p2a: Lucario|brn
+|move|p2a: Lucario|Nasty Plot|p2a: Lucario
+|-boost|p2a: Lucario|spa|2
+|
+|-damage|p2a: Lucario|0 fnt|[from] brn
+|faint|p2a: Lucario
+|upkeep
+|
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|turn|5
+|
+|move|p1a: Motostoke FC|Sucker Punch|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|38/100
+|move|p2a: Chandelure|Shadow Ball|p1a: Motostoke FC
+|-damage|p1a: Motostoke FC|0 fnt
+|faint|p1a: Motostoke FC
+|
+|-heal|p2a: Chandelure|44/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: u know me|Dragapult, M|100/100
+|-activate|p1a: u know me|move: Sticky Web
+|-fail|p1a: u know me|unboost|[from] ability: Clear Body|[of] p1a: u know me
+|turn|6
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: u know me|Shadow Ball|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|86/100
+|
+|-heal|p2a: Mandibuzz|92/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Sticky Web|Ribombee, M|1/100
+|-activate|p1a: Sticky Web|move: Sticky Web
+|-unboost|p1a: Sticky Web|spe|1
+|move|p2a: Mandibuzz|U-turn|p1a: Sticky Web
+|-resisted|p1a: Sticky Web
+|-damage|p1a: Sticky Web|0 fnt
+|faint|p1a: Sticky Web
+|
+|switch|p2a: Mimikyu|Mimikyu, F|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p1a: zrrrrr|Rotom-Mow|100/100
+|turn|8
+|
+|switch|p2a: Chandelure|Chandelure, M|44/100
+|move|p1a: zrrrrr|Volt Switch|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|
+|switch|p1a: Checkmate.|Bisharp, M|100/100|[from]move: Volt Switch
+|-activate|p1a: Checkmate.|move: Sticky Web
+|-unboost|p1a: Checkmate.|spe|1
+|-ability|p1a: Checkmate.|Defiant
+|-boost|p1a: Checkmate.|atk|2
+|
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|9
+|
+|switch|p1a: zrrrrr|Rotom-Mow|100/100
+|move|p2a: Seismitoad|Earth Power|p1a: zrrrrr
+|-immune|p1a: zrrrrr|[from] ability: Levitate
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: zrrrrr|Volt Switch|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|upkeep
+|turn|11
+|
+|move|p1a: zrrrrr|Nasty Plot|p1a: zrrrrr
+|-boost|p1a: zrrrrr|spa|2
+|move|p2a: Seismitoad|Stealth Rock|p1a: zrrrrr
+|-sidestart|p1: Daimnik Bis|move: Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|92/100
+|move|p1a: zrrrrr|Volt Switch|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|14/100
+|
+|switch|p1a: u know me|Dragapult, M|100/100|[from]move: Volt Switch
+|-activate|p1a: u know me|move: Sticky Web
+|-fail|p1a: u know me|unboost|[from] ability: Clear Body|[of] p1a: u know me
+|-damage|p1a: u know me|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Mandibuzz|20/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: u know me|Shadow Ball|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|4/100
+|-unboost|p2a: Mandibuzz|spd|1
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|54/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-heal|p2a: Mandibuzz|60/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: zrrrrr|Rotom-Mow|100/100
+|-damage|p1a: zrrrrr|88/100|[from] Stealth Rock
+|move|p2a: Mandibuzz|U-turn|p1a: zrrrrr
+|-supereffective|p1a: zrrrrr
+|-damage|p1a: zrrrrr|62/100
+|
+|switch|p2a: Morpeko|Morpeko, M|100/100|[from]move: U-turn
+|
+|-heal|p1a: zrrrrr|68/100|[from] item: Leftovers
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|15
+|
+|move|p2a: Morpeko|Aura Wheel|p1a: zrrrrr
+|-damage|p1a: zrrrrr|2/100
+|-boost|p2a: Morpeko|spe|1
+|-damage|p2a: Morpeko|91/100|[from] item: Life Orb
+|move|p1a: zrrrrr|Volt Switch|p2a: Morpeko
+|-resisted|p2a: Morpeko
+|-damage|p2a: Morpeko|57/100
+|
+|switch|p1a: Checkmate.|Bisharp, M|100/100|[from]move: Volt Switch
+|-activate|p1a: Checkmate.|move: Sticky Web
+|-unboost|p1a: Checkmate.|spe|1
+|-ability|p1a: Checkmate.|Defiant
+|-boost|p1a: Checkmate.|atk|2
+|-damage|p1a: Checkmate.|95/100|[from] Stealth Rock
+|
+|-heal|p1a: Checkmate.|100/100|[from] item: Leftovers
+|-formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|16
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Checkmate.|Sucker Punch||[still]
+|-fail|p1a: Checkmate.
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: zrrrrr|Rotom-Mow|2/100
+|-damage|p1a: zrrrrr|0 fnt|[from] Stealth Rock
+|faint|p1a: zrrrrr
+|move|p2a: Seismitoad|Earth Power|p1: zrrrrr|[notarget]
+|-fail|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: OBJECTION!|Malamar, M|100/100
+|-activate|p1a: OBJECTION!|move: Sticky Web
+|-boost|p1a: OBJECTION!|spe|1
+|-damage|p1a: OBJECTION!|88/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p2a: Mimikyu|Mimikyu, F|100/100
+|move|p1a: OBJECTION!|Superpower|p2a: Mimikyu
+|-immune|p2a: Mimikyu
+|
+|upkeep
+|turn|19
+|
+|move|p1a: OBJECTION!|Throat Chop|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|-start|p2a: Mimikyu|Throat Chop|[silent]
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F
+|-damage|p2a: Mimikyu|88/100|[from] ability: Disguise|[of] p2a: Mimikyu
+|move|p2a: Mimikyu|Play Rough|p1a: OBJECTION!
+|-supereffective|p1a: OBJECTION!
+|-damage|p1a: OBJECTION!|0 fnt
+|-damage|p2a: Mimikyu|78/100|[from] item: Life Orb
+|faint|p1a: OBJECTION!
+|
+|upkeep
+|
+|switch|p1a: Checkmate.|Bisharp, M|100/100
+|-damage|p1a: Checkmate.|95/100|[from] Stealth Rock
+|-activate|p1a: Checkmate.|move: Sticky Web
+|-unboost|p1a: Checkmate.|spe|1
+|-ability|p1a: Checkmate.|Defiant
+|-boost|p1a: Checkmate.|atk|2
+|turn|20
+|
+|move|p2a: Mimikyu|Play Rough|p1a: Checkmate.
+|-damage|p1a: Checkmate.|49/100
+|-damage|p2a: Mimikyu|68/100|[from] item: Life Orb
+|move|p1a: Checkmate.|Substitute|p1a: Checkmate.
+|-start|p1a: Checkmate.|Substitute
+|-damage|p1a: Checkmate.|24/100
+|
+|-heal|p1a: Checkmate.|30/100|[from] item: Leftovers
+|-end|p2a: Mimikyu|Throat Chop|[silent]
+|upkeep
+|turn|21
+|
+|move|p1a: Checkmate.|Sucker Punch|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|-heal|p1a: Checkmate.|36/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|22
+|
+|move|p2a: Seismitoad|Earth Power|p1a: Checkmate.
+|-supereffective|p1a: Checkmate.
+|-end|p1a: Checkmate.|Substitute
+|move|p1a: Checkmate.|Throat Chop|p2a: Seismitoad
+|-damage|p2a: Seismitoad|35/100
+|-start|p2a: Seismitoad|Throat Chop|[silent]
+|
+|-heal|p2a: Seismitoad|41/100|[from] item: Leftovers
+|-heal|p1a: Checkmate.|42/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Checkmate.|Sucker Punch||[still]
+|-fail|p1a: Checkmate.
+|
+|-heal|p2a: Seismitoad|47/100|[from] item: Leftovers
+|-heal|p1a: Checkmate.|48/100|[from] item: Leftovers
+|-end|p2a: Seismitoad|Throat Chop|[silent]
+|upkeep
+|turn|24
+|
+|move|p2a: Seismitoad|Earth Power|p1a: Checkmate.
+|-supereffective|p1a: Checkmate.
+|-damage|p1a: Checkmate.|0 fnt
+|faint|p1a: Checkmate.
+|
+|-heal|p2a: Seismitoad|53/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: u know me|Dragapult, M|88/100
+|-damage|p1a: u know me|76/100|[from] Stealth Rock
+|-activate|p1a: u know me|move: Sticky Web
+|-fail|p1a: u know me|unboost|[from] ability: Clear Body|[of] p1a: u know me
+|turn|25
+|-message|Daimnik Bis forfeited.
+|
+|win|Moero
+|l|☆Daimnik Bis
+|raw|Daimnik Bis's rating: 1536 → 1518(-18 for losing)
+|raw|Moero's rating: 1570 → 1588(+18 for winning)

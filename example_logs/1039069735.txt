@@ -1,0 +1,198 @@
+|ScrapeTime|2020-01-01-08:55:21
+|j|☆test the new year
+|j|☆Blasco jzjzjz
+|player|p1|test the new year|mallow|1264
+|player|p2|Blasco jzjzjz|bugcatcher|1196
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Kommo-o, M|
+|poke|p1|Toxtricity, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Obstagoon, F|
+|poke|p1|Rillaboom, F|
+|poke|p2|Cramorant, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Indeedee, M|
+|poke|p2|Toxtricity-Low-Key, M|
+|poke|p2|Claydol|
+|poke|p2|Conkeldurr, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|switch|p2a: Zoy un Pelipper|Cramorant, F|100/100
+|turn|1
+|
+|move|p1a: Rillaboom|U-turn|p2a: Zoy un Pelipper
+|-resisted|p2a: Zoy un Pelipper
+|-damage|p2a: Zoy un Pelipper|82/100
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100|[from]move: U-turn
+|move|p2a: Zoy un Pelipper|Ice Beam|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|31/100
+|
+|-heal|p2a: Zoy un Pelipper|89/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Dragapult|Thunderbolt|p2a: Zoy un Pelipper
+|-supereffective|p2a: Zoy un Pelipper
+|-damage|p2a: Zoy un Pelipper|0 fnt
+|faint|p2a: Zoy un Pelipper
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F, shiny|100/100
+|turn|3
+|
+|switch|p1a: Kommo-o|Kommo-o, M, shiny|100/100
+|move|p2a: Conkeldurr|Ice Punch|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|55/100
+|
+|-heal|p1a: Kommo-o|61/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Kommo-o|Stealth Rock|p2a: Conkeldurr
+|-sidestart|p2: Blasco jzjzjz|move: Stealth Rock
+|move|p2a: Conkeldurr|Ice Punch|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|21/100
+|
+|-heal|p1a: Kommo-o|27/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Kommo-o|Body Press|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|62/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|-heal|p2a: Conkeldurr|73/100|[from] drain|[of] p1a: Kommo-o
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, F|100/100
+|turn|6
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|5/100
+|move|p2a: Conkeldurr|Rock Slide|p1a: Toxtricity
+|-damage|p1a: Toxtricity|50/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: DragQueen|Dragapult, F|100/100
+|-damage|p2a: DragQueen|88/100|[from] Stealth Rock
+|move|p1a: Toxtricity|Boomburst|p2a: DragQueen
+|-immune|p2a: DragQueen
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Obstagoon|Obstagoon, F|100/100
+|move|p2a: DragQueen|Shadow Ball|p1a: Obstagoon
+|-immune|p1a: Obstagoon
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Duki|Toxtricity-Low-Key, M|100/100
+|-damage|p2a: Duki|88/100|[from] Stealth Rock
+|move|p1a: Obstagoon|Knock Off|p2a: Duki
+|-damage|p2a: Duki|28/100
+|-enditem|p2a: Duki|Assault Vest|[from] move: Knock Off|[of] p1a: Obstagoon
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Obstagoon|Facade|p2a: Duki
+|-damage|p2a: Duki|0 fnt
+|faint|p2a: Duki
+|
+|upkeep
+|
+|switch|p2a: Claydol|Claydol, shiny|100/100
+|-damage|p2a: Claydol|94/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Obstagoon|Knock Off|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|21/100
+|-enditem|p2a: Claydol|Leftovers|[from] move: Knock Off|[of] p1a: Obstagoon
+|move|p2a: Claydol|Rapid Spin|p1a: Obstagoon
+|-damage|p1a: Obstagoon|93/100
+|-sideend|p2: Blasco jzjzjz|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Claydol
+|-boost|p2a: Claydol|spe|1
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Obstagoon|Knock Off|p2a: Claydol
+|-supereffective|p2a: Claydol
+|-damage|p2a: Claydol|0 fnt
+|faint|p2a: Claydol
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F, shiny|5/100
+|turn|13
+|
+|switch|p1a: Dragapult|Dragapult, M|31/100
+|move|p2a: Conkeldurr|Mach Punch|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Dragapult|Thunderbolt|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|switch|p2a: DragQueen|Dragapult, F|88/100
+|turn|15
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: DragQueen
+|-supereffective|p2a: DragQueen
+|-damage|p2a: DragQueen|0 fnt
+|faint|p2a: DragQueen
+|
+|upkeep
+|
+|switch|p2a: Pitufo violeta|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Pitufo violeta
+|turn|16
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Pitufo violeta
+|-damage|p2a: Pitufo violeta|28/100
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: Pitufo violeta|Shadow Ball|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|-message|Blasco jzjzjz forfeited.
+|
+|win|test the new year
+|l|☆Blasco jzjzjz
+|raw|test the new year's rating: 1264 → 1284(+20 for winning)
+|raw|Blasco jzjzjz's rating: 1196 → 1176(-20 for losing)

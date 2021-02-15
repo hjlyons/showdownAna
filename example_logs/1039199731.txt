@@ -1,0 +1,261 @@
+|ScrapeTime|2020-01-01-17:04:46
+|j|☆Pavijo28
+|j|☆PunkPalkia
+|player|p1|Pavijo28|102|1749
+|player|p2|PunkPalkia|29|1727
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Mimikyu, F|
+|poke|p1|Jellicent, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Arctozolt|
+|poke|p1|Diggersby, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Clefable, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| horadobos
+|j| erikchair
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pavijo28)
+|j| Kre_Xi
+|
+|start
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|move|p2a: Excadrill|Earthquake|p1a: Indeedee
+|-damage|p1a: Indeedee|13/100
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Indeedee|Mystical Fire|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|88/100
+|-unboost|p2a: Seismitoad|spa|1
+|
+|-heal|p2a: Seismitoad|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Seismitoad|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|76/100
+|
+|-heal|p1a: Hatterene|82/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|j| TheLindomar
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|88/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|75/100
+|-heal|p1a: Hatterene|100/100|[from] drain|[of] p2a: Cinderace
+|
+|-fieldend|move: Psychic Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|j| Stall is coming
+|j| amimec
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Hatterene
+|-damage|p1a: Hatterene|57/100
+|move|p1a: Hatterene|Psychic|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-heal|p1a: Hatterene|63/100|[from] item: Leftovers
+|upkeep
+|j| Arnaud senju vgc
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|7
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|move|p2a: Excadrill|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|62/100
+|
+|-heal|p1a: Jellicent|68/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|-heal|p1a: Jellicent|75/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Indeedee|Indeedee, M|13/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Clefable|Thunderbolt|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|upkeep
+|j| Babby Yoda
+|
+|switch|p1a: Arctozolt|Arctozolt|100/100
+|turn|10
+|j| gueladio
+|
+|switch|p2a: Seismitoad|Seismitoad, M|99/100
+|move|p1a: Arctozolt|Freeze-Dry|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-damage|p1a: Arctozolt|91/100|[from] item: Life Orb
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|turn|11
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Arctozolt|Icicle Spear|p2a: Excadrill
+|-damage|p2a: Excadrill|79/100
+|-damage|p2a: Excadrill|56/100
+|-damage|p2a: Excadrill|34/100
+|-crit|p2a: Excadrill
+|-damage|p2a: Excadrill|3/100
+|-damage|p2a: Excadrill|0 fnt
+|-hitcount|p2a: Excadrill|5
+|-damage|p1a: Arctozolt|81/100|[from] item: Life Orb
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|turn|12
+|
+|move|p1a: Arctozolt|Bolt Beak|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|-damage|p1a: Arctozolt|71/100|[from] item: Life Orb
+|faint|p2a: Mandibuzz
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|13
+|j| o9ko
+|j| myjava
+|
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Mimikyu
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|14
+|
+|switch|p1a: Diggersby|Diggersby, M|100/100
+|move|p2a: Dragapult|Phantom Force|p1a: Diggersby|[from]lockedmove
+|-immune|p1a: Diggersby
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Diggersby
+|-damage|p1a: Diggersby|62/100
+|-damage|p1a: Diggersby|27/100
+|-hitcount|p1a: Diggersby|2
+|-damage|p2a: Dragapult|91/100|[from] item: Life Orb
+|move|p1a: Diggersby|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Diggersby|33/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|16
+|
+|move|p2a: Clefable|Moonblast|p1a: Diggersby
+|-damage|p1a: Diggersby|0 fnt
+|faint|p1a: Diggersby
+|
+|upkeep
+|j| Pheooo
+|
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|turn|17
+|
+|move|p2a: Clefable|Moonblast|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|-damage|p1a: Mimikyu|88/100|[from] ability: Disguise|[of] p1a: Mimikyu
+|move|p1a: Mimikyu|Trick Room|p1a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p1a: Mimikyu
+|
+|upkeep
+|turn|18
+|j| soral_a_raison
+|j| blvckcooper
+|
+|move|p2a: Clefable|Moonblast|p1a: Mimikyu
+|-damage|p1a: Mimikyu|28/100
+|-unboost|p1a: Mimikyu|spa|1
+|move|p1a: Mimikyu|Play Rough|p2a: Clefable
+|-damage|p2a: Clefable|45/100
+|-unboost|p2a: Clefable|atk|1
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Arctozolt|Arctozolt|71/100
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|95/100
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Arctozolt|Bolt Beak|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-damage|p1a: Arctozolt|61/100|[from] item: Life Orb
+|faint|p2a: Clefable
+|
+|win|Pavijo28
+|raw|Pavijo28's rating: 1749 → 1768(+19 for winning)
+|raw|PunkPalkia's rating: 1727 → 1708(-19 for losing)
+|l|☆PunkPalkia
+|l| erikchair

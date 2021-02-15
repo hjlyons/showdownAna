@@ -1,0 +1,334 @@
+|ScrapeTime|2020-01-01-02:05:21
+|j|☆Sealx♬
+|j|☆NubKnightZ
+|player|p1|Sealx♬|hilbert-dueldisk|1402
+|player|p2|NubKnightZ|1|1364
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Hydreigon, M|
+|poke|p1|Mew|
+|poke|p1|Polteageist|
+|poke|p1|Bisharp, F|
+|poke|p1|Toxtricity, M|
+|poke|p2|Jellicent, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Clefable, F|
+|poke|p2|Quagsire, M|
+|poke|p2|Tyranitar, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| kevmao
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|move|p2a: Dragapult|U-turn|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|73/100
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Mew|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: NubKnightZ|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|67/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Mew|Spikes|p2a: Clefable
+|-sidestart|p2: NubKnightZ|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|60/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|move|p1a: Mew|Taunt|p2a: Clefable
+|-start|p2a: Clefable|move: Taunt
+|move|p2a: Clefable|Moonblast|p1a: Mew
+|-damage|p1a: Mew|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|9/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|move|p1a: Mew|Spikes|p2a: Clefable
+|-sidestart|p2: NubKnightZ|Spikes
+|move|p2a: Clefable|Thunderbolt|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|turn|5
+|
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|-damage|p2a: Quagsire|84/100|[from] Spikes
+|-damage|p2a: Quagsire|78/100|[from] Stealth Rock
+|move|p1a: Bisharp|Iron Head|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-crit|p2a: Quagsire
+|-damage|p2a: Quagsire|49/100
+|-damage|p1a: Bisharp|91/100|[from] item: Life Orb
+|
+|-weather|none
+|-heal|p2a: Quagsire|55/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|100/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|76/100
+|
+|-heal|p1a: Hydreigon|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|47/100
+|move|p2a: Clefable|Moonblast|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-end|p1a: Hydreigon|Substitute
+|
+|-heal|p1a: Hydreigon|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|-damage|p2a: Dragapult|72/100|[from] Spikes
+|move|p1a: Hydreigon|Flash Cannon|p2a: Dragapult
+|-damage|p2a: Dragapult|34/100
+|
+|-heal|p1a: Hydreigon|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Dragapult|Fire Blast|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|64/100
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Clefable|Clefable, F|47/100
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Clefable
+|-status|p2a: Clefable|par
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Clefable
+|-start|p2a: Clefable|move: Taunt
+|cant|p2a: Clefable|move: Taunt|Moonlight
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Sealx♬|move: Light Screen
+|move|p2a: Clefable|Moonblast|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|21/100
+|-unboost|p1a: Grimmsnarl|spa|1
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Sealx♬|Reflect
+|move|p2a: Clefable|Moonblast|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|-end|p2a: Clefable|move: Taunt
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|94/100
+|turn|15
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|-heal|p1a: Hydreigon|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|34/100
+|-damage|p2a: Dragapult|21/100|[from] Stealth Rock
+|-damage|p2a: Dragapult|5/100|[from] Spikes
+|turn|16
+|
+|switch|p1a: Bisharp|Bisharp, F|91/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|19/100
+|-unboost|p2a: Dragapult|spa|2
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p1a: Bisharp|9/100|[from] item: Life Orb
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|78/100|[from] Spikes
+|turn|18
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Bisharp
+|-sidestart|p1: Sealx♬|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|84/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|24/100
+|-damage|p1a: Bisharp|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-start|p2a: Ferrothorn|Throat Chop|[silent]
+|faint|p1a: Bisharp
+|move|p2a: Ferrothorn|Leech Seed|p1: Bisharp|[notarget]
+|-fail|p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|30/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|99/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|63/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Hydreigon
+|-end|p1a: Hydreigon|Substitute
+|
+|-heal|p1a: Hydreigon|69/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|37/100|[from] item: Leftovers
+|-sideend|p1: Sealx♬|move: Light Screen
+|-end|p2a: Ferrothorn|Throat Chop|[silent]
+|upkeep
+|turn|21
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|
+|-heal|p1a: Hydreigon|75/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|43/100|[from] item: Leftovers
+|-sideend|p1: Sealx♬|Reflect
+|upkeep
+|turn|22
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Hydreigon|81/100|[from] item: Leftovers
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Sealx♬)
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-damage|p2a: Tyranitar|72/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|23
+|
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|57/100
+|move|p2a: Tyranitar|Iron Tail|p1a: Hydreigon
+|-end|p1a: Hydreigon|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|50/100|[from] Sandstorm
+|-heal|p1a: Hydreigon|57/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|78/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|32/100
+|move|p2a: Tyranitar|Iron Tail|p1a: Hydreigon
+|-damage|p1a: Hydreigon|20/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|13/100|[from] Sandstorm
+|-heal|p1a: Hydreigon|20/100|[from] item: Leftovers
+|-heal|p2a: Tyranitar|38/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|13/100|[from] Sandstorm
+|-heal|p1a: Hydreigon|20/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|-damage|p2a: Quagsire|84/100|[from] Spikes
+|-damage|p2a: Quagsire|78/100|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Quagsire
+|-damage|p2a: Quagsire|27/100
+|cant|p2a: Quagsire|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|13/100|[from] Sandstorm
+|-heal|p1a: Hydreigon|20/100|[from] item: Leftovers
+|-heal|p2a: Quagsire|33/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|-message|NubKnightZ forfeited.
+|
+|win|Sealx♬
+|l|☆NubKnightZ
+|raw|Sealx♬'s rating: 1424 → 1441(+17 for winning)
+|raw|NubKnightZ's rating: 1364 → 1347(-17 for losing)

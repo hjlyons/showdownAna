@@ -1,0 +1,282 @@
+|ScrapeTime|2020-01-01-19:12:24
+|j|☆Lino14
+|j|☆Nicowhaat1234
+|player|p1|Lino14|marshal|1403
+|player|p2|Nicowhaat1234|ghetsis|1454
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corviknight, F|
+|poke|p1|Gyarados, M|
+|poke|p1|Ditto|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Chandelure, F|
+|poke|p1|Dracozolt|
+|poke|p2|Clefable, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Jellicent, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Cinderace, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆Nicowhaat1234|gl hf
+|
+|start
+|switch|p1a: Chandelure|Chandelure, F, shiny|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|turn|2
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Gyarados
+|-damage|p1a: Gyarados|47/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-heal|p1a: Gyarados|53/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-heal|p1a: Gyarados|59/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Gyarados|Crunch|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|56/100
+|-damage|p1a: Gyarados|47/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|def|1
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|14/100
+|
+|-heal|p1a: Gyarados|20/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|62/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Gyarados|Crunch|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Gyarados|26/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|68/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Gyarados|Crunch|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|2/100
+|-damage|p1a: Gyarados|14/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|def|1
+|move|p2a: Ferrothorn|Leech Seed|p1a: Gyarados
+|-start|p1a: Gyarados|move: Leech Seed
+|
+|-heal|p1a: Gyarados|20/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|8/100|[from] item: Leftovers
+|-damage|p1a: Gyarados|7/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|20/100|[silent]
+|upkeep
+|turn|7
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|move|p2a: Ferrothorn|Protect||[still]
+|-fail|p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|26/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|move|p1a: Conkeldurr|Ice Punch|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|84/100
+|-damage|p1a: Conkeldurr|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Jellicent|90/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Gyarados|Gyarados, M|7/100
+|move|p2a: Jellicent|Strength Sap|p1a: Gyarados
+|-unboost|p1a: Gyarados|atk|1
+|-heal|p2a: Jellicent|100/100
+|
+|-heal|p1a: Gyarados|13/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Gyarados|Crunch|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|68/100
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Gyarados
+|-status|p1a: Gyarados|brn
+|
+|-heal|p1a: Gyarados|20/100 brn|[from] item: Leftovers
+|-heal|p2a: Jellicent|75/100|[from] item: Leftovers
+|-damage|p1a: Gyarados|13/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|26/100
+|move|p1a: Gyarados|Crunch|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|18/100
+|-damage|p1a: Gyarados|1/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p1a: Gyarados|7/100 brn|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|24/100|[from] item: Leftovers
+|-damage|p1a: Gyarados|1/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Gyarados|Crunch|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Gyarados|7/100 brn|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|31/100|[from] item: Leftovers
+|-damage|p1a: Gyarados|1/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Gyarados|Crunch|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|22/100
+|-damage|p1a: Gyarados|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p1a: Gyarados
+|move|p2a: Ferrothorn|Stealth Rock|p1: Gyarados
+|-sidestart|p1: Lino14|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|29/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|turn|14
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Corviknight|Brave Bird|p2a: Clefable
+|-damage|p2a: Clefable|41/100
+|-damage|p1a: Corviknight|68/100|[from] Recoil
+|
+|-heal|p1a: Corviknight|74/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|91/100
+|move|p1a: Corviknight|Brave Bird|p2a: Clefable
+|-damage|p2a: Clefable|25/100
+|-damage|p1a: Corviknight|52/100|[from] Recoil
+|
+|-heal|p1a: Corviknight|58/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Clefable|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|91/100
+|-damage|p1a: Conkeldurr|85/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Clefable|Moonblast|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|-damage|p1a: Dracozolt|88/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|29/100
+|move|p1a: Dracozolt|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|8/100
+|
+|-heal|p2a: Ferrothorn|14/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Dracozolt|Earthquake|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|20/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dracozolt|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|upkeep
+|turn|21
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Corviknight|[from] ability: Imposter
+|-ability|p1a: Ditto|Pressure
+|move|p2a: Corviknight|U-turn|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|85/100
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|upkeep
+|
+|switch|p1a: Dracozolt|Dracozolt|88/100
+|-damage|p1a: Dracozolt|76/100|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Dracozolt|Bolt Beak|p2a: Cinderace
+|-damage|p2a: Cinderace|1/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Dracozolt
+|-resisted|p1a: Dracozolt
+|-damage|p1a: Dracozolt|0 fnt
+|faint|p1a: Dracozolt
+|
+|win|Nicowhaat1234
+|l|☆Lino14
+|raw|Lino14's rating: 1404 → 1384(-20 for losing)
+|raw|Nicowhaat1234's rating: 1420 → 1440(+20 for winning)

@@ -1,0 +1,309 @@
+|ScrapeTime|2020-01-01-23:05:00
+|j|☆cheesemonkey321
+|j|☆Yoyoshi24
+|player|p1|cheesemonkey321|waiter-gen4|1188
+|player|p2|Yoyoshi24|21|1148
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Drednaw, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Toxtricity, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Seismitoad, M|
+|poke|p2|Hawlucha, M|
+|poke|p2|Gastrodon, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Dracovish|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Ferrothorn, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: La Rain Trop Cheat|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: La Rain Trop Cheat
+|turn|1
+|
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Hawlucha
+|-start|p2a: Hawlucha|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Hawlucha|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|2
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Hawlucha|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|3
+|
+|move|p2a: Hawlucha|Close Combat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Hawlucha|63/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|-enditem|p2a: Hawlucha|White Herb
+|-clearnegativeboost|p2a: Hawlucha|[silent]
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|turn|4
+|
+|move|p2a: Hawlucha|Close Combat|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|faint|p1a: Seismitoad
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Drednaw|Drednaw, M|100/100
+|turn|5
+|
+|move|p2a: Hawlucha|Close Combat|p1a: Drednaw
+|-supereffective|p1a: Drednaw
+|-damage|p1a: Drednaw|0 fnt
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|faint|p1a: Drednaw
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|turn|6
+|
+|move|p2a: Hawlucha|Close Combat|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|28/100
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|move|p1a: Toxtricity|Boomburst|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|7
+|
+|move|p2a: Dracovish|Outrage|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Pelipper|Pelipper, F, shiny|100/100
+|turn|8
+|
+|move|p2a: Dracovish|Outrage|p1a: Pelipper|[from]lockedmove
+|-damage|p1a: Pelipper|44/100
+|move|p1a: Pelipper|Knock Off|p2a: Dracovish
+|-crit|p2a: Dracovish
+|-damage|p2a: Dracovish|55/100
+|-enditem|p2a: Dracovish|Choice Scarf|[from] move: Knock Off|[of] p1a: Pelipper
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|move|p2a: Dracovish|Outrage|p1a: Pelipper|[from]lockedmove
+|-damage|p1a: Pelipper|0 fnt
+|-start|p2a: Dracovish|confusion|[fatigue]
+|faint|p1a: Pelipper
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|turn|10
+|
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|76/100
+|-activate|p2a: Dracovish|confusion
+|-damage|p2a: Dracovish|42/100|[from] confusion
+|
+|-heal|p1a: Hydreigon|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|-end|p2a: Dracovish|confusion
+|move|p2a: Dracovish|Outrage|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-end|p1a: Hydreigon|Substitute
+|
+|-heal|p1a: Hydreigon|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|63/100
+|move|p2a: Dracovish|Outrage|p1a: Hydreigon|[from]lockedmove
+|-supereffective|p1a: Hydreigon
+|-end|p1a: Hydreigon|Substitute
+|
+|-heal|p1a: Hydreigon|69/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|44/100
+|move|p2a: Dracovish|Outrage|p1a: Hydreigon|[from]lockedmove
+|-supereffective|p1a: Hydreigon
+|-end|p1a: Hydreigon|Substitute
+|-start|p2a: Dracovish|confusion|[fatigue]
+|
+|-heal|p1a: Hydreigon|50/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|25/100
+|-activate|p2a: Dracovish|confusion
+|move|p2a: Dracovish|Outrage|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-end|p1a: Hydreigon|Substitute
+|
+|-heal|p1a: Hydreigon|32/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|-heal|p1a: Hydreigon|38/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|turn|16
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Gastrodon
+|-damage|p2a: Gastrodon|43/100
+|cant|p2a: Gastrodon|flinch
+|
+|-heal|p1a: Hydreigon|44/100|[from] item: Leftovers
+|-heal|p2a: Gastrodon|49/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Gastrodon|Protect|p2a: Gastrodon
+|-singleturn|p2a: Gastrodon|Protect
+|move|p1a: Hydreigon|Dark Pulse|p2a: Gastrodon
+|-activate|p2a: Gastrodon|move: Protect
+|
+|-heal|p1a: Hydreigon|50/100|[from] item: Leftovers
+|-heal|p2a: Gastrodon|55/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|25/100
+|move|p2a: Gastrodon|Clear Smog|p1a: Hydreigon
+|-activate|p1a: Hydreigon|move: Substitute|[damage]
+|
+|-heal|p1a: Hydreigon|31/100|[from] item: Leftovers
+|-heal|p2a: Gastrodon|61/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|move|p2a: Gastrodon|Earth Power|p1a: Hydreigon
+|-immune|p1a: Hydreigon|[from] ability: Levitate
+|
+|-heal|p1a: Hydreigon|37/100|[from] item: Leftovers
+|-heal|p2a: Gastrodon|67/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|-heal|p1a: Hydreigon|44/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|turn|21
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|37/100
+|move|p2a: Mandibuzz|Knock Off|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-activate|p1a: Hydreigon|move: Substitute|[damage]
+|
+|-heal|p1a: Hydreigon|50/100|[from] item: Leftovers
+|-heal|p2a: Mandibuzz|43/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|move|p2a: Mandibuzz|Knock Off|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-end|p1a: Hydreigon|Substitute
+|
+|-heal|p1a: Hydreigon|56/100|[from] item: Leftovers
+|-heal|p2a: Mandibuzz|49/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|-heal|p1a: Hydreigon|62/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: LeStallCestLaVie|Ferrothorn, F|100/100
+|turn|24
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: LeStallCestLaVie
+|-damage|p2a: LeStallCestLaVie|0 fnt
+|faint|p2a: LeStallCestLaVie
+|
+|-heal|p1a: Hydreigon|68/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: La Rain Trop Cheat|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: La Rain Trop Cheat
+|turn|25
+|-message|Yoyoshi24 forfeited.
+|
+|win|cheesemonkey321
+|l|☆Yoyoshi24
+|raw|cheesemonkey321's rating: 1162 → 1188(+26 for winning)
+|raw|Yoyoshi24's rating: 1175 → 1149(-26 for losing)

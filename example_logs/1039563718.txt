@@ -1,0 +1,342 @@
+|ScrapeTime|2020-01-02-08:15:35
+|j|☆BenisxDDDD
+|j|☆TestSubject88
+|player|p1|BenisxDDDD|169|1377
+|player|p2|TestSubject88|wally|1422
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Vanilluxe, F|
+|poke|p1|Eiscue, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Gyarados, F|
+|poke|p1|Hatterene, F|
+|poke|p2|Obstagoon, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Gengar, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Clefable, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BenisxDDDD)
+|inactive|TestSubject88 has 120 seconds left.
+|inactive|TestSubject88 has 90 seconds left.
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|1
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Seismitoad
+|-immune|p2a: Seismitoad
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Seismitoad
+|-start|p2a: Seismitoad|move: Taunt
+|cant|p2a: Seismitoad|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: BenisxDDDD|Reflect
+|move|p2a: Seismitoad|Scald|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|75/100
+|-status|p1a: Grimmsnarl|brn
+|
+|-damage|p1a: Grimmsnarl|69/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Obstagoon|Obstagoon, M|100/100
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: BenisxDDDD|move: Light Screen
+|
+|-damage|p1a: Grimmsnarl|63/100 brn|[from] brn
+|-status|p2a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Grimmsnarl|Taunt|p2a: Gengar
+|-start|p2a: Gengar|move: Taunt
+|
+|-damage|p1a: Grimmsnarl|57/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p2a: Obstagoon|Obstagoon, M|100/100 brn
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Obstagoon
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Obstagoon
+|
+|-damage|p2a: Obstagoon|94/100 brn|[from] brn
+|-damage|p1a: Grimmsnarl|51/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Seismitoad
+|-immune|p2a: Seismitoad
+|
+|-damage|p1a: Grimmsnarl|45/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p2a: Obstagoon|Obstagoon, M|94/100 brn
+|switch|p1a: Eiscue|Eiscue, F|100/100
+|
+|-damage|p2a: Obstagoon|88/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Eiscue|Belly Drum|p1a: Eiscue
+|-damage|p1a: Eiscue|50/100
+|-setboost|p1a: Eiscue|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Eiscue|Sitrus Berry|[eat]
+|-heal|p1a: Eiscue|75/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Eiscue|Icicle Crash|p2a: Seismitoad
+|-damage|p2a: Seismitoad|9/100
+|cant|p2a: Seismitoad|flinch
+|
+|-heal|p2a: Seismitoad|15/100|[from] item: Leftovers
+|-sideend|p1: BenisxDDDD|Reflect
+|upkeep
+|turn|11
+|
+|move|p1a: Eiscue|Icicle Crash|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-sideend|p1: BenisxDDDD|move: Light Screen
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, F|100/100
+|turn|12
+|
+|move|p2a: Gengar|Focus Blast|p1a: Eiscue
+|-supereffective|p1a: Eiscue
+|-damage|p1a: Eiscue|0 fnt
+|-damage|p2a: Gengar|91/100|[from] item: Life Orb
+|faint|p1a: Eiscue
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|13
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Clefable
+|move|p2a: Clefable|Moonblast|p1a: Dragapult|[miss]
+|-miss|p2a: Clefable|p1a: Dragapult
+|
+|-heal|p1a: Dragapult|88/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Clefable|[from]lockedmove
+|-damage|p2a: Clefable|58/100
+|move|p2a: Clefable|Moonblast|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|94/100|[from] item: Leftovers
+|-heal|p2a: Clefable|64/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|70/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Clefable|Moonblast|p1a: Hatterene
+|-damage|p1a: Hatterene|67/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-heal|p2a: Clefable|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|18
+|
+|move|p1a: Hatterene|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|42/100
+|-damage|p1a: Hatterene|57/100|[from] item: Life Orb
+|move|p2a: Clefable|Moonblast|p1a: Hatterene
+|-damage|p1a: Hatterene|23/100
+|
+|-heal|p2a: Clefable|48/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Hatterene|Draining Kiss|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|54/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Hatterene|Psychic|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|74/100
+|-damage|p1a: Hatterene|13/100|[from] item: Life Orb
+|
+|-heal|p2a: Corviknight|80/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Hatterene|Mystical Fire|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|19/100
+|-unboost|p2a: Corviknight|spa|1
+|-damage|p1a: Hatterene|3/100|[from] item: Life Orb
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|69/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|76/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|22
+|
+|move|p2a: Corviknight|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|switch|p2a: Obstagoon|Obstagoon, M|88/100 brn|[from]move: U-turn
+|
+|-damage|p2a: Obstagoon|82/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Vanilluxe|Vanilluxe, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|23
+|
+|move|p2a: Obstagoon|Facade|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|0 fnt
+|faint|p1a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Obstagoon|76/100 brn|[from] Hail
+|-damage|p2a: Obstagoon|70/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|45/100 brn
+|turn|24
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: BenisxDDDD|Reflect
+|move|p2a: Obstagoon|Bulk Up|p2a: Obstagoon
+|-boost|p2a: Obstagoon|atk|1
+|-boost|p2a: Obstagoon|def|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Obstagoon|64/100 brn|[from] Hail
+|-damage|p1a: Grimmsnarl|39/100 brn|[from] Hail
+|-damage|p2a: Obstagoon|58/100 brn|[from] brn
+|-damage|p1a: Grimmsnarl|33/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: BenisxDDDD|move: Light Screen
+|move|p2a: Obstagoon|Bulk Up|p2a: Obstagoon
+|-boost|p2a: Obstagoon|atk|1
+|-boost|p2a: Obstagoon|def|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Obstagoon|52/100 brn|[from] Hail
+|-damage|p1a: Grimmsnarl|27/100 brn|[from] Hail
+|-damage|p2a: Obstagoon|45/100 brn|[from] brn
+|-damage|p1a: Grimmsnarl|21/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Obstagoon
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Obstagoon
+|move|p2a: Obstagoon|Bulk Up|p2a: Obstagoon
+|-boost|p2a: Obstagoon|atk|1
+|-boost|p2a: Obstagoon|def|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Obstagoon|39/100 brn|[from] Hail
+|-damage|p1a: Grimmsnarl|14/100 brn|[from] Hail
+|-damage|p2a: Obstagoon|33/100 brn|[from] brn
+|-damage|p1a: Grimmsnarl|8/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p1a: Grimmsnarl|Reflect||[still]
+|-fail|p1a: Grimmsnarl
+|move|p2a: Obstagoon|Facade|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|-weather|none
+|-damage|p2a: Obstagoon|27/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|94/100
+|turn|28
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Obstagoon
+|-damage|p2a: Obstagoon|18/100 brn
+|-damage|p2a: Obstagoon|8/100 brn
+|-hitcount|p2a: Obstagoon|2
+|move|p2a: Obstagoon|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-start|p2a: Obstagoon|Disable|Knock Off|[from] ability: Cursed Body|[of] p1a: Dragapult
+|-enditem|p1a: Dragapult|Leftovers|[from] move: Knock Off|[of] p2a: Obstagoon
+|faint|p1a: Dragapult
+|
+|-damage|p2a: Obstagoon|2/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|turn|29
+|
+|move|p2a: Obstagoon|Facade|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|win|TestSubject88
+|raw|BenisxDDDD's rating: 1377 → 1360(-17 for losing)
+|raw|TestSubject88's rating: 1422 → 1439(+17 for winning)
+|l|☆BenisxDDDD

@@ -1,0 +1,69 @@
+|ScrapeTime|2020-01-02-13:15:43
+|j|☆megadicc 2193
+|j|☆megapesce 294
+|player|p1|megadicc 2193|2|
+|player|p2|megapesce 294|12|
+|teamsize|p1|1
+|teamsize|p2|3
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Silvally-*|
+|poke|p2|Obstagoon, M|
+|poke|p2|Carkol, F|
+|poke|p2|Toxapex, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Silvally|Silvally-Psychic|100/100
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|turn|1
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|9/100
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|15/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|l|☆megadicc 2193
+|player|p1|
+|j|☆megadicc 2193
+|player|p1|megadicc 2193|2
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|switch|p2a: Obstagoon|Obstagoon, M|100/100
+|turn|3
+|
+|move|p2a: Obstagoon|Obstruct|p2a: Obstagoon
+|-singleturn|p2a: Obstagoon|Protect
+|move|p1a: Silvally|Multi-Attack|p2a: Obstagoon
+|-activate|p2a: Obstagoon|move: Protect
+|-unboost|p1a: Silvally|def|2
+|
+|-status|p2a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|move|p2a: Obstagoon|Knock Off|p1a: Silvally
+|-supereffective|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|win|megapesce 294

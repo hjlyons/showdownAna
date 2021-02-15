@@ -1,0 +1,346 @@
+|ScrapeTime|2020-01-01-16:55:10
+|j|☆Dapesa
+|j|☆TyranitarHero
+|player|p1|Dapesa|121|1426
+|player|p2|TyranitarHero|red|1423
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Crawdaunt, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Hydreigon, F|
+|poke|p1|Bisharp, F|
+|poke|p1|Togekiss, F|
+|poke|p1|Excadrill, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Dracovish|
+|poke|p2|Hydreigon, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Sylveon, F|
+|poke|p2|Clefable, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TyranitarHero)
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Excadrill
+|-damage|p2a: Excadrill|50/100
+|move|p2a: Excadrill|Stealth Rock|p1a: Hydreigon
+|-sidestart|p1: Dapesa|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|-damage|p1a: Crawdaunt|88/100|[from] Stealth Rock
+|switch|p2a: Sylveon|Sylveon, F, shiny|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Crawdaunt|Crabhammer|p2a: Sylveon|[miss]
+|-miss|p1a: Crawdaunt|p2a: Sylveon
+|move|p2a: Sylveon|Hyper Voice|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|
+|upkeep
+|c|☆Dapesa|oof
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|4
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Sylveon
+|-damage|p2a: Sylveon|87/100
+|-sideend|p1: Dapesa|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|move|p2a: Sylveon|Mystical Fire|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|56/100
+|-unboost|p1a: Excadrill|spa|1
+|
+|-heal|p1a: Excadrill|63/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|93/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Excadrill|Iron Head|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p1a: Excadrill|69/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|99/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Excadrill|Earthquake|p2a: Sylveon
+|-damage|p2a: Sylveon|55/100
+|move|p2a: Sylveon|Mystical Fire|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|23/100
+|-unboost|p1a: Excadrill|spa|1
+|
+|-heal|p1a: Excadrill|29/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|61/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Excadrill|Stealth Rock|p2a: Sylveon
+|-sidestart|p2: TyranitarHero|move: Stealth Rock
+|
+|-heal|p1a: Excadrill|35/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|67/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Excadrill|Iron Head|p2a: Sylveon
+|-supereffective|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|faint|p2a: Sylveon
+|
+|-heal|p1a: Excadrill|41/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Excadrill|Earthquake|p2a: Dracovish
+|-crit|p2a: Dracovish
+|-damage|p2a: Dracovish|22/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|turn|10
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|11
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Clefable|Moonblast|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|72/100
+|-unboost|p1a: Rotom|spa|1
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|move|p1a: Rotom|Volt Switch|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|78/100
+|
+|switch|p1a: Togekiss|Togekiss, F|100/100|[from]move: Volt Switch
+|
+|-heal|p2a: Hydreigon|84/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|59/100
+|move|p1a: Togekiss|Air Slash|p2a: Hydreigon
+|-damage|p2a: Hydreigon|52/100
+|
+|-heal|p2a: Hydreigon|58/100|[from] item: Leftovers
+|-heal|p1a: Togekiss|65/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|33/100
+|move|p1a: Togekiss|Thunder Wave||[still]
+|-fail|p1a: Togekiss
+|
+|-heal|p2a: Hydreigon|39/100|[from] item: Leftovers
+|-heal|p1a: Togekiss|72/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|30/100
+|move|p1a: Togekiss|Air Slash|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|
+|-heal|p2a: Hydreigon|45/100|[from] item: Leftovers
+|-heal|p1a: Togekiss|37/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|-heal|p2a: Hydreigon|51/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|turn|17
+|
+|switch|p2a: Toxapex|Toxapex, M, shiny|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Toxapex
+|-damage|p2a: Toxapex|24/100
+|-start|p2a: Toxapex|Throat Chop|[silent]
+|-damage|p1a: Bisharp|91/100|[from] item: Life Orb
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|30/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|-damage|p1a: Bisharp|81/100|[from] item: Life Orb
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|50/100
+|-damage|p2a: Excadrill|47/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|20
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|move|p2a: Excadrill|Earthquake|p1a: Hydreigon
+|-damage|p1a: Hydreigon|38/100
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Hydreigon|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|92/100
+|
+|switch|p1a: Bisharp|Bisharp, F|81/100|[from]move: U-turn
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Bisharp|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-damage|p1a: Bisharp|71/100|[from] item: Life Orb
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|47/100
+|-damage|p2a: Excadrill|44/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|23
+|
+|switch|p1a: Rotom|Rotom-Heat|72/100
+|move|p2a: Excadrill|Earthquake|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|38/100
+|turn|24
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|2/100
+|-unboost|p1a: Hydreigon|spa|2
+|move|p2a: Excadrill|Earthquake|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, F|71/100
+|turn|25
+|
+|move|p1a: Bisharp|Sucker Punch||[still]
+|-fail|p1a: Bisharp
+|move|p2a: Excadrill|Stealth Rock|p1a: Bisharp
+|-sidestart|p1: Dapesa|move: Stealth Rock
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Bisharp|Sucker Punch||[still]
+|-fail|p1a: Bisharp
+|move|p2a: Excadrill|Stealth Rock||[still]
+|-fail|p2a: Excadrill
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-damage|p1a: Bisharp|61/100|[from] item: Life Orb
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|51/100
+|-damage|p2a: Hydreigon|39/100|[from] Stealth Rock
+|turn|28
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|26/100
+|cant|p1a: Bisharp|flinch
+|
+|-heal|p2a: Hydreigon|45/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|c|☆Dapesa|wow
+|c|☆Dapesa|rip my luck
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|win|TyranitarHero
+|l|☆TyranitarHero

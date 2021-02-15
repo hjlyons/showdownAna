@@ -1,0 +1,177 @@
+|ScrapeTime|2020-01-01-10:35:49
+|j|☆tempo40
+|j|☆nborges
+|player|p1|tempo40|cynthia|1324
+|player|p2|nborges|preschooler|1357
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Excadrill, F|
+|poke|p1|Hitmonlee, M|
+|poke|p1|Indeedee, M|
+|poke|p1|Hawlucha, M|
+|poke|p1|Polteageist|
+|poke|p1|Kommo-o, F|
+|poke|p2|Sylveon, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Dragapult, F|
+|poke|p2|Barraskewda, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Eiscue, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|switch|p2a: Rotom|Rotom-Heat, shiny|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tempo40)
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Excadrill|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: nborges|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Polteageist|Polteageist|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Polteageist
+|-sidestart|p1: tempo40|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|move|p2a: Seismitoad|Toxic|p1a: Polteageist
+|-status|p1a: Polteageist|tox
+|
+|-damage|p1a: Polteageist|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p1a: Polteageist|Giga Drain|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-heal|p1a: Polteageist|100/100 tox|[from] drain|[of] p2a: Seismitoad
+|faint|p2a: Seismitoad
+|
+|-damage|p1a: Polteageist|88/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat, shiny|100/100
+|turn|5
+|
+|move|p1a: Polteageist|Stored Power|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-damage|p1a: Polteageist|70/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|-damage|p2a: Sylveon|88/100|[from] Stealth Rock
+|turn|6
+|
+|move|p1a: Polteageist|Stored Power|p2a: Sylveon
+|-damage|p2a: Sylveon|8/100
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|14/100|[from] item: Leftovers
+|-damage|p1a: Polteageist|45/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Polteageist|Shadow Ball|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p2a: Sylveon|64/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p2a: Sylveon|70/100|[from] item: Leftovers
+|-damage|p1a: Polteageist|15/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|move|p2a: Sylveon|Protect||[still]
+|-fail|p2a: Sylveon
+|move|p1a: Polteageist|Stored Power|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|faint|p2a: Sylveon
+|
+|-damage|p1a: Polteageist|0 fnt|[from] psn
+|faint|p1a: Polteageist
+|upkeep
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|switch|p2a: Eiscue|Eiscue, M|100/100
+|-damage|p1a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-damage|p2a: Eiscue|75/100|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Indeedee|Psychic|p2a: Eiscue
+|-damage|p2a: Eiscue|0 fnt
+|faint|p2a: Eiscue
+|
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, F|100/100
+|-damage|p2a: Barraskewda|88/100|[from] Stealth Rock
+|turn|10
+|
+|move|p2a: Barraskewda|Crunch|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p2a: Barraskewda|78/100|[from] item: Life Orb
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|-damage|p1a: Hawlucha|88/100|[from] Stealth Rock
+|-enditem|p1a: Hawlucha|Psychic Seed
+|-boost|p1a: Hawlucha|spd|1
+|turn|11
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|faint|p2a: Barraskewda
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Dragapult
+|-damage|p2a: Dragapult|23/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Hawlucha
+|-damage|p1a: Hawlucha|38/100
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|win|tempo40
+|raw|tempo40's rating: 1324 → 1346(+22 for winning)
+|raw|nborges's rating: 1357 → 1335(-22 for losing)

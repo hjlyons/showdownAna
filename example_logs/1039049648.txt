@@ -1,0 +1,190 @@
+|ScrapeTime|2020-01-01-07:25:55
+|j|☆Toxichica
+|j|☆BobusWombous
+|player|p1|Toxichica|beauty|1256
+|player|p2|BobusWombous|59|1244
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Dubwool, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Pyukumuku, M|
+|poke|p1|Goodra, F|
+|poke|p1|Hatterene, F|
+|poke|p2|Galvantula, M|
+|poke|p2|Crawdaunt, F|
+|poke|p2|Weavile, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Gyarados, M|
+|poke|p2|Flygon, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Toxichica)
+|
+|start
+|switch|p1a: Thick|Hatterene, F|100/100
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100
+|turn|1
+|
+|switch|p1a: personal toy|Pyukumuku, M|100/100
+|move|p2a: Crawdaunt|Knock Off|p1a: personal toy
+|-damage|p1a: personal toy|8/100
+|-damage|p2a: Crawdaunt|84/100|[from] item: Rocky Helmet|[of] p1a: personal toy
+|-enditem|p1a: personal toy|Rocky Helmet|[from] move: Knock Off|[of] p2a: Crawdaunt
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Crawdaunt|Knock Off|p1a: personal toy
+|-damage|p1a: personal toy|0 fnt
+|-damage|p2a: Crawdaunt|75/100|[from] ability: Innards Out|[of] p1a: personal toy
+|faint|p1a: personal toy
+|
+|upkeep
+|
+|switch|p1a: V.I.H|Toxapex, F|100/100
+|turn|3
+|
+|move|p1a: V.I.H|Baneful Bunker|p1a: V.I.H
+|-singleturn|p1a: V.I.H|move: Protect
+|move|p2a: Crawdaunt|Knock Off|p1a: V.I.H
+|-activate|p1a: V.I.H|move: Protect
+|-status|p2a: Crawdaunt|psn
+|
+|-damage|p2a: Crawdaunt|63/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|move|p2a: Crawdaunt|Knock Off|p1a: V.I.H
+|-damage|p1a: V.I.H|36/100
+|-enditem|p1a: V.I.H|Binding Band|[from] move: Knock Off|[of] p2a: Crawdaunt
+|move|p1a: V.I.H|Toxic Spikes|p2a: Crawdaunt
+|-sidestart|p2: BobusWombous|move: Toxic Spikes
+|
+|-damage|p2a: Crawdaunt|50/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|move|p1a: V.I.H|Baneful Bunker|p1a: V.I.H
+|-singleturn|p1a: V.I.H|move: Protect
+|move|p2a: Crawdaunt|Knock Off|p1a: V.I.H
+|-activate|p1a: V.I.H|move: Protect
+|
+|-damage|p2a: Crawdaunt|38/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|move|p2a: Crawdaunt|Knock Off|p1a: V.I.H
+|-damage|p1a: V.I.H|0 fnt
+|faint|p1a: V.I.H
+|
+|-damage|p2a: Crawdaunt|26/100 psn|[from] psn
+|upkeep
+|
+|switch|p1a: Hard Toy|Corsola-Galar, M|100/100
+|turn|7
+|
+|move|p2a: Crawdaunt|Knock Off|p1a: Hard Toy
+|-supereffective|p1a: Hard Toy
+|-damage|p1a: Hard Toy|0 fnt
+|-enditem|p1a: Hard Toy|Eviolite|[from] move: Knock Off|[of] p2a: Crawdaunt
+|faint|p1a: Hard Toy
+|
+|-damage|p2a: Crawdaunt|13/100 psn|[from] psn
+|upkeep
+|
+|switch|p1a: Anahole|Dubwool, M|100/100
+|turn|8
+|
+|move|p1a: Anahole|Rest|p1a: Anahole
+|-fail|p1a: Anahole|heal
+|move|p2a: Crawdaunt|Knock Off|p1a: Anahole
+|-damage|p1a: Anahole|47/100
+|-enditem|p1a: Anahole|Leftovers|[from] move: Knock Off|[of] p2a: Crawdaunt
+|
+|-damage|p2a: Crawdaunt|1/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|move|p1a: Anahole|Cotton Guard|p1a: Anahole
+|-boost|p1a: Anahole|def|3
+|move|p2a: Crawdaunt|Knock Off|p1a: Anahole
+|-damage|p1a: Anahole|34/100
+|
+|-damage|p2a: Crawdaunt|0 fnt|[from] psn
+|faint|p2a: Crawdaunt
+|upkeep
+|
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|-status|p2a: Galvantula|psn
+|turn|10
+|
+|switch|p1a: Thick|Hatterene, F|100/100
+|move|p2a: Galvantula|Thunder|p1a: Thick
+|-damage|p1a: Thick|39/100
+|-status|p1a: Thick|par
+|-damage|p2a: Galvantula|91/100 psn|[from] item: Life Orb
+|
+|-heal|p1a: Thick|45/100 par|[from] item: Leftovers
+|-damage|p2a: Galvantula|78/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|move|p1a: Thick|Protect|p1a: Thick
+|-singleturn|p1a: Thick|Protect
+|move|p2a: Galvantula|Thunder|p1a: Thick
+|-activate|p1a: Thick|move: Protect
+|
+|-heal|p1a: Thick|51/100 par|[from] item: Leftovers
+|-damage|p2a: Galvantula|66/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p1a: Mom|Goodra, F|100/100
+|move|p2a: Galvantula|Thunder|p1a: Mom
+|-resisted|p1a: Mom
+|-damage|p1a: Mom|80/100
+|-damage|p2a: Galvantula|56/100 psn|[from] item: Life Orb
+|
+|-heal|p1a: Mom|86/100|[from] item: Leftovers
+|-damage|p2a: Galvantula|43/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|move|p2a: Galvantula|Sticky Web|p1a: Mom
+|-sidestart|p1: Toxichica|move: Sticky Web
+|move|p1a: Mom|Earthquake|p2a: Galvantula
+|-damage|p2a: Galvantula|4/100 psn
+|
+|-heal|p1a: Mom|92/100|[from] item: Leftovers
+|-damage|p2a: Galvantula|0 fnt|[from] psn
+|faint|p2a: Galvantula
+|upkeep
+|
+|switch|p2a: Flygon|Flygon, M|100/100
+|turn|14
+|
+|move|p2a: Flygon|Dragon Claw|p1a: Mom
+|-supereffective|p1a: Mom
+|-damage|p1a: Mom|0 fnt
+|-damage|p2a: Flygon|91/100|[from] item: Life Orb
+|faint|p1a: Mom
+|
+|upkeep
+|-message|Toxichica forfeited.
+|
+|win|BobusWombous
+|l|☆Toxichica
+|raw|Toxichica's rating: 1256 → 1230(-26 for losing)
+|raw|BobusWombous's rating: 1244 → 1270(+26 for winning)

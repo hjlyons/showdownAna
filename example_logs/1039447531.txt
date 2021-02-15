@@ -1,0 +1,398 @@
+|ScrapeTime|2020-01-02-02:11:02
+|j|☆reniclas
+|j|☆shadowvz96
+|player|p1|reniclas|cheren|1112
+|player|p2|shadowvz96|266|1098
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Reuniclus, M|
+|poke|p1|Clefable, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Gastrodon-East, M|
+|poke|p2|Snorlax, M|
+|poke|p2|Drifblim, M|
+|poke|p2|Kingler, M|
+|poke|p2|Umbreon, M|
+|poke|p2|Bronzong|
+|poke|p2|Pelipper, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|switch|p2a: Pelipper|Pelipper, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|-activate|p2a: Pelipper|item: Quick Claw
+|
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: shadowvz96|move: Tailwind
+|move|p1a: Mandibuzz|Knock Off|p2a: Pelipper
+|-damage|p2a: Pelipper|74/100
+|-enditem|p2a: Pelipper|Quick Claw|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Drifblim|Drifblim, M, shiny|100/100
+|move|p1a: Mandibuzz|Knock Off|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|33/100
+|-enditem|p2a: Drifblim|Flame Orb|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p2a: Drifblim|Thunder|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|65/100
+|-status|p1a: Mandibuzz|par
+|move|p1a: Mandibuzz|Knock Off|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|-damage|p1a: Mandibuzz|40/100 par|[from] ability: Aftermath|[of] p2a: Drifblim
+|faint|p2a: Drifblim
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Kingler|Kingler, M, shiny|100/100
+|turn|4
+|
+|move|p2a: Kingler|Brick Break|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|19/100 par
+|cant|p1a: Mandibuzz|par
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: shadowvz96|move: Tailwind
+|upkeep
+|turn|5
+|
+|move|p2a: Kingler|Knock Off|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|5/100 par
+|-enditem|p1a: Mandibuzz|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Kingler
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|55/100 par
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|move|p2a: Kingler|Crabhammer|p1a: Mandibuzz|[miss]
+|-miss|p2a: Kingler|p1a: Mandibuzz
+|move|p1a: Mandibuzz|Knock Off|p2a: Kingler
+|-damage|p2a: Kingler|71/100
+|-enditem|p2a: Kingler|Wacan Berry|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Kingler|Crabhammer|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|15/100 par
+|move|p1a: Mandibuzz|Knock Off|p2a: Kingler
+|-damage|p2a: Kingler|53/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Kingler|Crabhammer|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|switch|p1a: Gastrodon|Gastrodon-East, M|100/100
+|turn|9
+|
+|switch|p2a: Umbreon|Umbreon, M, shiny|100/100
+|move|p1a: Gastrodon|Scald|p2a: Umbreon
+|-damage|p2a: Umbreon|87/100
+|-status|p2a: Umbreon|brn
+|-activate|p2a: Umbreon|ability: Synchronize
+|-status|p1a: Gastrodon|brn
+|
+|-heal|p2a: Umbreon|93/100 brn|[from] item: Leftovers
+|-damage|p2a: Umbreon|87/100 brn|[from] brn
+|-damage|p1a: Gastrodon|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|move|p1a: Gastrodon|Earthquake|p2a: Umbreon
+|-damage|p2a: Umbreon|76/100 brn
+|
+|-heal|p2a: Umbreon|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Umbreon|76/100 brn|[from] brn
+|-damage|p1a: Gastrodon|88/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p2a: Pelipper|Pelipper, M, shiny|74/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|switch|p1a: Clefable|Clefable, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Pelipper|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|12
+|
+|move|p1a: Clefable|Thunderbolt|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Snorlax|Snorlax, M, shiny|100/100
+|turn|13
+|
+|move|p1a: Clefable|Moonblast|p2a: Snorlax
+|-damage|p2a: Snorlax|74/100
+|-unboost|p2a: Snorlax|spa|1
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Snorlax|Darkest Lariat|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|10/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Snorlax
+|-damage|p2a: Snorlax|35/100
+|-unboost|p1a: Dragapult|spa|2
+|-enditem|p2a: Snorlax|Sitrus Berry|[eat]
+|-heal|p2a: Snorlax|60/100|[from] item: Sitrus Berry
+|move|p2a: Snorlax|Darkest Lariat|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Gastrodon|Gastrodon-East, M|88/100 brn
+|turn|16
+|
+|move|p1a: Gastrodon|Scald|p2a: Snorlax
+|-damage|p2a: Snorlax|50/100
+|-status|p2a: Snorlax|brn
+|move|p2a: Snorlax|Recycle|p2a: Snorlax
+|-item|p2a: Snorlax|Sitrus Berry|[from] move: Recycle
+|-enditem|p2a: Snorlax|Sitrus Berry|[eat]
+|-heal|p2a: Snorlax|75/100 brn|[from] item: Sitrus Berry
+|
+|-damage|p1a: Gastrodon|82/100 brn|[from] brn
+|-damage|p2a: Snorlax|69/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p1a: Gastrodon|Clear Smog|p2a: Snorlax
+|-damage|p2a: Snorlax|63/100 brn
+|-clearboost|p2a: Snorlax
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-damage|p1a: Gastrodon|76/100 brn|[from] brn
+|-damage|p2a: Snorlax|57/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p1a: Gastrodon|Clear Smog|p2a: Snorlax
+|-damage|p2a: Snorlax|53/100 brn
+|-clearboost|p2a: Snorlax
+|move|p2a: Snorlax|Darkest Lariat|p1a: Gastrodon
+|-damage|p1a: Gastrodon|66/100 brn
+|
+|-damage|p1a: Gastrodon|60/100 brn|[from] brn
+|-damage|p2a: Snorlax|47/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p1a: Gastrodon|Clear Smog|p2a: Snorlax
+|-damage|p2a: Snorlax|42/100 brn
+|-clearboost|p2a: Snorlax
+|move|p2a: Snorlax|Recycle|p2a: Snorlax
+|-item|p2a: Snorlax|Sitrus Berry|[from] move: Recycle
+|-enditem|p2a: Snorlax|Sitrus Berry|[eat]
+|-heal|p2a: Snorlax|67/100 brn|[from] item: Sitrus Berry
+|
+|-damage|p1a: Gastrodon|54/100 brn|[from] brn
+|-damage|p2a: Snorlax|61/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p1a: Reuniclus|Reuniclus, M, shiny|100/100
+|switch|p2a: Bronzong|Bronzong, shiny|100/100
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|move|p2a: Bronzong|Block|p1a: Reuniclus
+|-activate|p1a: Reuniclus|trapped
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|move|p2a: Bronzong|Iron Defense|p2a: Bronzong
+|-boost|p2a: Bronzong|def|2
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Reuniclus|Focus Blast|p2a: Bronzong
+|-damage|p2a: Bronzong|40/100
+|-unboost|p2a: Bronzong|spd|1
+|move|p2a: Bronzong|Iron Defense|p2a: Bronzong
+|-boost|p2a: Bronzong|def|2
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Reuniclus|Focus Blast|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|upkeep
+|c|☆shadowvz96|dang
+|c|☆shadowvz96|gg
+|c|☆shadowvz96|new team :(
+|
+|switch|p2a: Kingler|Kingler, M, shiny|53/100
+|turn|25
+|
+|move|p2a: Kingler|Knock Off|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|48/100
+|-enditem|p1a: Reuniclus|Leftovers|[from] move: Knock Off|[of] p2a: Kingler
+|move|p1a: Reuniclus|Stored Power|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+|
+|upkeep
+|
+|switch|p2a: Umbreon|Umbreon, M, shiny|76/100 brn
+|turn|26
+|
+|move|p2a: Umbreon|Foul Play|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|37/100
+|move|p1a: Reuniclus|Focus Blast|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|11/100 brn
+|
+|-heal|p2a: Umbreon|18/100 brn|[from] item: Leftovers
+|-damage|p2a: Umbreon|11/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|87/100
+|
+|-heal|p2a: Umbreon|18/100 brn|[from] item: Leftovers
+|-damage|p2a: Umbreon|11/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|switch|p2a: Snorlax|Snorlax, M, shiny|61/100 brn
+|move|p1a: Reuniclus|Focus Blast|p2a: Snorlax|[miss]
+|-miss|p1a: Reuniclus|p2a: Snorlax
+|
+|-heal|p2a: Snorlax|99/100 brn|[from] move: Wish|[wisher] Umbreon
+|-damage|p2a: Snorlax|92/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|move|p1a: Reuniclus|Stored Power|p2a: Snorlax
+|-damage|p2a: Snorlax|57/100 brn
+|move|p2a: Snorlax|Darkest Lariat|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|70/100
+|
+|-damage|p2a: Snorlax|51/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|move|p2a: Snorlax|Recycle|p2a: Snorlax
+|-item|p2a: Snorlax|Sitrus Berry|[from] move: Recycle
+|
+|-damage|p2a: Snorlax|45/100 brn|[from] brn
+|upkeep
+|-enditem|p2a: Snorlax|Sitrus Berry|[eat]
+|-heal|p2a: Snorlax|70/100 brn|[from] item: Sitrus Berry
+|turn|31
+|
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-damage|p2a: Snorlax|63/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p1a: Reuniclus|Stored Power|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|upkeep
+|
+|switch|p2a: Umbreon|Umbreon, M, shiny|11/100 brn
+|turn|33
+|
+|move|p2a: Umbreon|Foul Play|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|58/100
+|move|p1a: Reuniclus|Focus Blast|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|faint|p2a: Umbreon
+|
+|win|reniclas
+|c|☆reniclas|gg
+|c|☆shadowvz96|GGGGGG
+|raw|reniclas's rating: 1112 → 1136(+24 for winning)
+|raw|shadowvz96's rating: 1099 → 1075(-24 for losing)
+|l|☆reniclas

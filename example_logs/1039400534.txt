@@ -1,0 +1,178 @@
+|ScrapeTime|2020-01-02-00:16:32
+|j|☆Nago_nago
+|j|☆szexdfcghvb
+|player|p1|Nago_nago|rocketgruntf|1049
+|player|p2|szexdfcghvb|ghetsis-gen5bw|1030
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Crawdaunt, F|
+|poke|p1|Jolteon, F|
+|poke|p1|Gastrodon, M|
+|poke|p1|Appletun, M|
+|poke|p1|Centiskorch, F|
+|poke|p1|Lucario, F|
+|poke|p2|Pincurchin, F|
+|poke|p2|Drifblim, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Hawlucha, M|
+|poke|p2|Bisharp, F|
+|poke|p2|Cinderace, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Jolteon|Jolteon, F|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by szexdfcghvb)
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Jolteon|Volt Switch|p2a: Seismitoad
+|-immune|p2a: Seismitoad
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Appletun|Appletun, M|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Appletun
+|-sidestart|p1: Nago_nago|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Pincurchin|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|move|p1a: Appletun|Leech Seed|p2a: Pincurchin
+|-start|p2a: Pincurchin|move: Leech Seed
+|
+|-damage|p2a: Pincurchin|88/100|[from] Leech Seed|[of] p1a: Appletun
+|upkeep
+|turn|4
+|
+|move|p1a: Appletun|Protect|p1a: Appletun
+|-singleturn|p1a: Appletun|Protect
+|move|p2a: Pincurchin|Memento|p1a: Appletun
+|-activate|p1a: Appletun|move: Protect
+|
+|-heal|p2a: Pincurchin|94/100|[from] item: Leftovers
+|-damage|p2a: Pincurchin|82/100|[from] Leech Seed|[of] p1a: Appletun
+|upkeep
+|turn|5
+|
+|switch|p1a: Jolteon|Jolteon, F|100/100
+|-damage|p1a: Jolteon|88/100|[from] Stealth Rock
+|move|p2a: Pincurchin|Memento|p1a: Jolteon
+|-unboost|p1a: Jolteon|atk|2
+|-unboost|p1a: Jolteon|spa|2
+|faint|p2a: Pincurchin
+|
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|-enditem|p2a: Hawlucha|Electric Seed
+|-boost|p2a: Hawlucha|def|1
+|turn|6
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Jolteon|Volt Switch|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|11/100
+|
+|switch|p1a: Appletun|Appletun, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Appletun|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Appletun|Protect|p1a: Appletun
+|-singleturn|p1a: Appletun|Protect
+|move|p2a: Hawlucha|Roost|p2a: Hawlucha
+|-heal|p2a: Hawlucha|61/100
+|-singleturn|p2a: Hawlucha|move: Roost
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|8
+|
+|move|p2a: Hawlucha|Roost|p2a: Hawlucha
+|-heal|p2a: Hawlucha|100/100
+|-singleturn|p2a: Hawlucha|move: Roost
+|move|p1a: Appletun|Leech Seed|p2a: Hawlucha
+|-start|p2a: Hawlucha|move: Leech Seed
+|
+|-damage|p2a: Hawlucha|88/100|[from] Leech Seed|[of] p1a: Appletun
+|-heal|p1a: Appletun|98/100|[silent]
+|upkeep
+|turn|9
+|
+|move|p2a: Hawlucha|Roost|p2a: Hawlucha
+|-heal|p2a: Hawlucha|100/100
+|-singleturn|p2a: Hawlucha|move: Roost
+|move|p1a: Appletun|Apple Acid|p2a: Hawlucha
+|-damage|p2a: Hawlucha|63/100
+|-unboost|p2a: Hawlucha|spd|1
+|
+|-damage|p2a: Hawlucha|51/100|[from] Leech Seed|[of] p1a: Appletun
+|-heal|p1a: Appletun|100/100|[silent]
+|upkeep
+|turn|10
+|
+|move|p1a: Appletun|Protect|p1a: Appletun
+|-singleturn|p1a: Appletun|Protect
+|move|p2a: Hawlucha|Acrobatics|p1a: Appletun
+|-activate|p1a: Appletun|move: Protect
+|
+|-damage|p2a: Hawlucha|38/100|[from] Leech Seed|[of] p1a: Appletun
+|upkeep
+|turn|11
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Appletun
+|-supereffective|p1a: Appletun
+|-damage|p1a: Appletun|0 fnt
+|faint|p1a: Appletun
+|
+|upkeep
+|j| KaiTakasu
+|
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|-damage|p1a: Crawdaunt|88/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Hawlucha
+|-crit|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|upkeep
+|l|☆szexdfcghvb
+|inactive|szexdfcghvb disconnected and has a minute to reconnect!
+|player|p2|
+|c|☆Nago_nago|Shale se emperro
+|c| KaiTakasu|Jsjsjsjsjsjsjsss
+|inactive|szexdfcghvb has 30 seconds to reconnect!
+|c|☆Nago_nago|Al fin haces algo bueno kisama
+|c|☆Nago_nago|Entras y se va
+|inactive|szexdfcghvb has 20 seconds to reconnect!
+|c| KaiTakasu|Es lo que hace un panini oko??
+|inactive|szexdfcghvb has 15 seconds to reconnect!
+|c|☆Nago_nago|Eres peor que un arma quimica...
+|inactive|szexdfcghvb has 10 seconds to reconnect!
+|inactive|szexdfcghvb has 5 seconds to reconnect!
+|-message|szexdfcghvb lost due to inactivity.
+|
+|win|Nago_nago
+|l|☆Nago_nago
+|raw|Nago_nago's rating: 1049 → 1079(+30 for winning)
+|raw|szexdfcghvb's rating: 1017 → 1006(-11 for losing)

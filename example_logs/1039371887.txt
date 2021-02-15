@@ -1,0 +1,325 @@
+|ScrapeTime|2020-01-01-23:14:59
+|j|☆Based Calc Lord
+|j|☆VampireStyle
+|player|p1|Based Calc Lord|blue|1330
+|player|p2|VampireStyle|dragontamer|1340
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Excadrill, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Bisharp, M|
+|poke|p1|Gyarados, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Clefable, M|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Eldegoss, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Sylveon, M|
+|poke|p2|Pyukumuku, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|move|p1a: Excadrill|Stealth Rock|p2a: Corsola
+|-sidestart|p2: VampireStyle|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Corsola|Stealth Rock|p1a: Grimmsnarl
+|-sidestart|p1: Based Calc Lord|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|-damage|p2a: Sylveon|88/100|[from] Stealth Rock
+|move|p1a: Grimmsnarl|Taunt|p2a: Sylveon
+|-start|p2a: Sylveon|move: Taunt
+|
+|-heal|p2a: Sylveon|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Based Calc Lord|move: Light Screen
+|move|p2a: Sylveon|Hyper Voice|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|55/100
+|
+|-heal|p2a: Sylveon|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Based Calc Lord|Reflect
+|move|p2a: Sylveon|Hyper Voice|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|7/100
+|
+|-heal|p2a: Sylveon|100/100|[from] item: Leftovers
+|-end|p2a: Sylveon|move: Taunt
+|upkeep
+|turn|6
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Sylveon|Hyper Voice|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|85/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|-damage|p2a: Corsola|88/100|[from] Stealth Rock
+|move|p1a: Excadrill|Steel Beam|p2a: Corsola
+|-damage|p2a: Corsola|69/100
+|-damage|p1a: Excadrill|35/100|[from] mindblown
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Excadrill|Steel Beam|p2a: Corsola
+|-damage|p2a: Corsola|48/100
+|-damage|p1a: Excadrill|0 fnt|[from] mindblown
+|faint|p1a: Excadrill
+|move|p2a: Corsola|Will-O-Wisp|p1: Excadrill|[notarget]
+|-fail|p2a: Corsola
+|
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|-damage|p1a: Bisharp|95/100|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|
+|upkeep
+|
+|switch|p2a: Pyukumuku|Pyukumuku, F|100/100
+|-damage|p2a: Pyukumuku|88/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Pyukumuku|Soak|p1a: Bisharp
+|-start|p1a: Bisharp|typechange|Water
+|
+|-heal|p2a: Pyukumuku|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Pyukumuku|Toxic|p1a: Clefable
+|-status|p1a: Clefable|tox
+|
+|-heal|p2a: Pyukumuku|99/100|[from] item: Leftovers
+|-sideend|p1: Based Calc Lord|move: Light Screen
+|upkeep
+|turn|12
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|-damage|p2a: Sylveon|88/100|[from] Stealth Rock
+|move|p1a: Clefable|Moonblast|p2a: Sylveon
+|-crit|p2a: Sylveon
+|-damage|p2a: Sylveon|30/100
+|
+|-heal|p2a: Sylveon|37/100|[from] item: Leftovers
+|-sideend|p1: Based Calc Lord|Reflect
+|upkeep
+|turn|13
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|7/100
+|-damage|p1a: Grimmsnarl|0 fnt|[from] Stealth Rock
+|faint|p1a: Grimmsnarl
+|move|p2a: Sylveon|Protect||[still]
+|-fail|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|43/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, M|95/100
+|-damage|p1a: Bisharp|89/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p2a: Pyukumuku|Pyukumuku, F|99/100
+|-damage|p2a: Pyukumuku|88/100|[from] Stealth Rock
+|move|p1a: Bisharp|Throat Chop|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|44/100
+|-start|p2a: Pyukumuku|Throat Chop|[silent]
+|
+|-heal|p2a: Pyukumuku|50/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|7/100
+|move|p2a: Pyukumuku|Recover|p2a: Pyukumuku
+|-heal|p2a: Pyukumuku|57/100
+|
+|-heal|p2a: Pyukumuku|63/100|[from] item: Leftovers
+|-end|p2a: Pyukumuku|Throat Chop|[silent]
+|upkeep
+|turn|16
+|
+|move|p2a: Pyukumuku|Protect|p2a: Pyukumuku
+|-singleturn|p2a: Pyukumuku|Protect
+|move|p1a: Bisharp|Iron Head|p2a: Pyukumuku
+|-activate|p2a: Pyukumuku|move: Protect
+|
+|-heal|p2a: Pyukumuku|69/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Bisharp|Iron Head|p2a: Pyukumuku
+|-resisted|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|48/100
+|cant|p2a: Pyukumuku|flinch
+|
+|-heal|p2a: Pyukumuku|54/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|move|p2a: Pyukumuku|Protect||[still]
+|-fail|p2a: Pyukumuku
+|
+|-heal|p2a: Pyukumuku|60/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Pyukumuku|Protect|p2a: Pyukumuku
+|-singleturn|p2a: Pyukumuku|Protect
+|move|p1a: Dragapult|Shadow Ball|p2a: Pyukumuku
+|-activate|p2a: Pyukumuku|move: Protect
+|
+|-heal|p2a: Pyukumuku|66/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dragapult|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|46/100
+|
+|-heal|p2a: Corviknight|52/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|11/100
+|-unboost|p2a: Corviknight|spd|1
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|61/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|67/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|3/100
+|-unboost|p2a: Corviknight|spd|1
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|53/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|59/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|24
+|
+|switch|p1a: Clefable|Clefable, M|100/100 tox
+|move|p2a: Dragapult|Shadow Ball|p1a: Clefable
+|-damage|p1a: Clefable|62/100 tox
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Clefable
+|-damage|p1a: Clefable|24/100 tox
+|move|p1a: Clefable|Moonblast|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Sylveon|Sylveon, M|43/100
+|-damage|p2a: Sylveon|30/100|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Clefable|Moonblast|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|faint|p2a: Sylveon
+|
+|upkeep
+|
+|switch|p2a: Pyukumuku|Pyukumuku, F|66/100
+|-damage|p2a: Pyukumuku|54/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Clefable|Moonblast|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|14/100
+|move|p2a: Pyukumuku|Soak|p1a: Clefable
+|-start|p1a: Clefable|typechange|Water
+|
+|-heal|p2a: Pyukumuku|20/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Pyukumuku|Protect|p2a: Pyukumuku
+|-singleturn|p2a: Pyukumuku|Protect
+|move|p1a: Clefable|Moonblast|p2a: Pyukumuku
+|-activate|p2a: Pyukumuku|move: Protect
+|
+|-heal|p2a: Pyukumuku|26/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Clefable|Moonblast|p2a: Pyukumuku
+|-damage|p2a: Pyukumuku|0 fnt
+|faint|p2a: Pyukumuku
+|
+|upkeep
+|-message|VampireStyle forfeited.
+|
+|win|Based Calc Lord
+|l|☆VampireStyle
+|raw|Based Calc Lord's rating: 1330 → 1349(+19 for winning)
+|raw|VampireStyle's rating: 1320 → 1300(-20 for losing)

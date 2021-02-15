@@ -1,0 +1,297 @@
+|ScrapeTime|2020-01-01-12:25:38
+|j|☆soft boys
+|j|☆Riccati
+|player|p1|soft boys|pokekid|1100
+|player|p2|Riccati|169|1073
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pincurchin, F|
+|poke|p1|Snom, F|
+|poke|p1|Pyukumuku, F|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Hitmontop, M|
+|poke|p1|Slurpuff, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Barraskewda, F|
+|poke|p2|Drednaw, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Crawdaunt, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|move|p2a: Pelipper|Knock Off|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|82/100
+|-start|p2a: Pelipper|Disable|Knock Off|[from] ability: Cursed Body|[of] p1a: Corsola
+|-enditem|p1a: Corsola|Eviolite|[from] move: Knock Off|[of] p2a: Pelipper
+|move|p1a: Corsola|Will-O-Wisp|p2a: Pelipper
+|-status|p2a: Pelipper|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p2a: Pelipper|Scald|p1a: Corsola
+|-crit|p1a: Corsola
+|-damage|p1a: Corsola|32/100
+|move|p1a: Corsola|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: Riccati|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Pelipper|Scald|p1a: Corsola
+|-damage|p1a: Corsola|1/100
+|move|p1a: Corsola|Strength Sap|p2a: Pelipper
+|-unboost|p2a: Pelipper|atk|1
+|-heal|p1a: Corsola|39/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|82/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: Pincurchin|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|-enditem|p1a: Pincurchin|Electric Seed
+|-boost|p1a: Pincurchin|def|1
+|move|p2a: Pelipper|Scald|p1a: Pincurchin
+|-damage|p1a: Pincurchin|47/100
+|-status|p1a: Pincurchin|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|76/100 brn|[from] brn
+|-damage|p1a: Pincurchin|41/100 brn|[from] brn
+|-end|p2a: Pelipper|Disable
+|upkeep
+|turn|5
+|
+|move|p2a: Pelipper|Scald|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|faint|p1a: Pincurchin
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|70/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Snom|Snom, F|100/100
+|turn|6
+|
+|move|p2a: Pelipper|Knock Off|p1a: Snom
+|-damage|p1a: Snom|89/100
+|-enditem|p1a: Snom|Focus Sash|[from] move: Knock Off|[of] p2a: Pelipper
+|move|p1a: Snom|Mirror Coat||[still]
+|-fail|p1a: Snom
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|63/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|100/100 brn
+|-singleturn|p2a: Pelipper|move: Roost
+|move|p1a: Snom|Struggle Bug|p2a: Pelipper
+|-damage|p2a: Pelipper|77/100 brn
+|-unboost|p2a: Pelipper|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|71/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p2a: Pelipper|U-turn|p1a: Snom
+|-damage|p1a: Snom|82/100
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100|[from]move: U-turn
+|-damage|p2a: Seismitoad|95/100|[from] Stealth Rock
+|move|p1a: Snom|Icy Wind|p2a: Seismitoad
+|-damage|p2a: Seismitoad|74/100
+|-unboost|p2a: Seismitoad|spe|1
+|
+|-weather|none
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|9
+|
+|switch|p1a: Pyukumuku|Pyukumuku, F|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Pyukumuku
+|-sidestart|p1: soft boys|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Pyukumuku|Toxic|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Ferrothorn|Knock Off|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|86/100
+|-enditem|p1a: Pyukumuku|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|move|p1a: Pyukumuku|Soak|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|typechange|Water
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Pyukumuku|Toxic|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Pelipper|Pelipper, F|71/100 brn
+|-damage|p2a: Pelipper|46/100 brn|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Pyukumuku|Toxic||[still]
+|-fail|p1a: Pyukumuku
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|40/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|-damage|p1a: Hitmontop|94/100|[from] Stealth Rock
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|90/100 brn
+|-singleturn|p2a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|84/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Hitmontop|Rapid Spin|p2a: Pelipper
+|-damage|p2a: Pelipper|67/100 brn
+|-sideend|p1: soft boys|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Hitmontop
+|-boost|p1a: Hitmontop|spe|1
+|move|p2a: Pelipper|Scald|p1a: Hitmontop
+|-damage|p1a: Hitmontop|69/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|61/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p1a: Slurpuff|Slurpuff, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Slurpuff|Substitute|p1a: Slurpuff
+|-start|p1a: Slurpuff|Substitute
+|-damage|p1a: Slurpuff|75/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Slurpuff
+|-resisted|p1a: Slurpuff
+|-activate|p1a: Slurpuff|move: Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|switch|p2a: Drednaw|Drednaw, M|100/100
+|-damage|p2a: Drednaw|88/100|[from] Stealth Rock
+|move|p1a: Slurpuff|Calm Mind|p1a: Slurpuff
+|-boost|p1a: Slurpuff|spa|1
+|-boost|p1a: Slurpuff|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|move|p2a: Drednaw|Liquidation|p1a: Slurpuff
+|-end|p1a: Slurpuff|Substitute
+|-damage|p2a: Drednaw|78/100|[from] item: Life Orb
+|move|p1a: Slurpuff|Substitute|p1a: Slurpuff
+|-start|p1a: Slurpuff|Substitute
+|-damage|p1a: Slurpuff|50/100
+|-enditem|p1a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p1a: Slurpuff|75/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p2a: Drednaw|Liquidation|p1a: Slurpuff
+|-end|p1a: Slurpuff|Substitute
+|-damage|p2a: Drednaw|68/100|[from] item: Life Orb
+|move|p1a: Slurpuff|Calm Mind|p1a: Slurpuff
+|-boost|p1a: Slurpuff|spa|1
+|-boost|p1a: Slurpuff|spd|1
+|
+|-weather|none
+|upkeep
+|turn|21
+|
+|move|p1a: Slurpuff|Dazzling Gleam|p2a: Drednaw
+|-damage|p2a: Drednaw|0 fnt
+|faint|p2a: Drednaw
+|
+|upkeep
+|
+|switch|p2a: Pelipper|Pelipper, F|61/100 brn
+|-damage|p2a: Pelipper|36/100 brn|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|22
+|
+|move|p1a: Slurpuff|Substitute|p1a: Slurpuff
+|-start|p1a: Slurpuff|Substitute
+|-damage|p1a: Slurpuff|50/100
+|move|p2a: Pelipper|U-turn|p1a: Slurpuff
+|-resisted|p1a: Slurpuff
+|-activate|p1a: Slurpuff|move: Substitute|[damage]
+|
+|switch|p2a: Barraskewda|Barraskewda, F|100/100|[from]move: U-turn
+|-damage|p2a: Barraskewda|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|move|p2a: Barraskewda|Waterfall|p1a: Slurpuff
+|-end|p1a: Slurpuff|Substitute
+|move|p1a: Slurpuff|Dazzling Gleam|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|faint|p2a: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|Riccati forfeited.
+|
+|win|soft boys
+|l|☆Riccati
+|raw|soft boys's rating: 1101 → 1124(+23 for winning)
+|raw|Riccati's rating: 1073 → 1054(-19 for losing)

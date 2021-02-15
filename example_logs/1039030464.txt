@@ -1,0 +1,399 @@
+|ScrapeTime|2020-01-01-06:15:01
+|j|☆AsumaTest
+|j|☆A 4 Glory player
+|player|p1|AsumaTest|gambler|1350
+|player|p2|A 4 Glory player|red|1308
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Seismitoad, F|
+|poke|p1|Sylveon, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Conkeldurr, M|
+|poke|p2|Toxtricity-Low-Key, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Dracovish|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Clefable, M|
+|poke|p2|Conkeldurr, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| C1K
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|1
+|
+|move|p1a: Hydreigon|U-turn|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|90/100
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100|[from]move: U-turn
+|move|p2a: Cinderace|High Jump Kick|p1a: Seismitoad
+|-damage|p1a: Seismitoad|69/100
+|
+|-heal|p1a: Seismitoad|75/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Cinderace|U-turn|p1a: Seismitoad
+|-damage|p1a: Seismitoad|58/100
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100|[from]move: U-turn
+|move|p1a: Seismitoad|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|90/100
+|
+|-heal|p1a: Seismitoad|64/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|97/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M, shiny|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Conkeldurr
+|-sidestart|p1: AsumaTest|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Conkeldurr|Facade|p2a: Clefable
+|-damage|p2a: Clefable|10/100
+|
+|-damage|p1a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Toxtricity|Toxtricity-Low-Key, M|100/100
+|move|p1a: Conkeldurr|Mach Punch|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|71/100
+|
+|-damage|p1a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Excadrill|Excadrill, M, shiny|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Toxtricity|Boomburst|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|42/100
+|
+|-heal|p1a: Excadrill|49/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Excadrill|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|68/100
+|
+|-heal|p1a: Excadrill|55/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|74/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M, shiny|88/100 brn
+|-damage|p1a: Conkeldurr|82/100 brn|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Conkeldurr
+|-start|p1a: Conkeldurr|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|81/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|70/100 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|95/100|[silent]
+|-damage|p1a: Conkeldurr|64/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Conkeldurr|Drain Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|11/100
+|-heal|p1a: Conkeldurr|99/100 brn|[from] drain|[of] p2a: Ferrothorn
+|-damage|p1a: Conkeldurr|87/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Power Whip|p1a: Conkeldurr|[miss]
+|-miss|p2a: Ferrothorn|p1a: Conkeldurr
+|
+|-heal|p2a: Ferrothorn|17/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|75/100 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|32/100|[silent]
+|-damage|p1a: Conkeldurr|69/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|38/100
+|-heal|p1a: Conkeldurr|99/100 brn|[from] drain|[of] p2a: Conkeldurr
+|
+|-damage|p1a: Conkeldurr|87/100 brn|[from] Leech Seed|[of] p2a: Conkeldurr
+|-heal|p2a: Conkeldurr|51/100|[silent]
+|-damage|p1a: Conkeldurr|81/100 brn|[from] brn
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|11
+|
+|switch|p1a: Corviknight|Corviknight, F, shiny|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|move|p2a: Conkeldurr|Drain Punch|p1a: Corviknight
+|-damage|p1a: Corviknight|35/100
+|-heal|p2a: Conkeldurr|77/100 brn|[from] drain|[of] p1a: Corviknight
+|
+|-heal|p1a: Corviknight|41/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|71/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Cinderace|Cinderace, M|90/100
+|move|p1a: Corviknight|U-turn|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|81/100
+|
+|switch|p1a: Seismitoad|Seismitoad, F|64/100|[from]move: U-turn
+|-damage|p1a: Seismitoad|58/100|[from] Stealth Rock
+|
+|-heal|p1a: Seismitoad|64/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Cinderace|High Jump Kick|p1a: Seismitoad
+|-damage|p1a: Seismitoad|34/100
+|move|p1a: Seismitoad|Earth Power|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|2/100
+|
+|-heal|p1a: Seismitoad|40/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Cinderace|U-turn|p1a: Seismitoad
+|-damage|p1a: Seismitoad|23/100
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|32/100|[from]move: U-turn
+|move|p1a: Seismitoad|Earth Power|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|8/100
+|
+|-heal|p1a: Seismitoad|29/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|15/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Seismitoad|Earth Power|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Seismitoad|35/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity-Low-Key, M|71/100
+|turn|16
+|
+|switch|p1a: Corviknight|Corviknight, F, shiny|41/100
+|-damage|p1a: Corviknight|29/100|[from] Stealth Rock
+|move|p2a: Toxtricity|Boomburst|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M, shiny|55/100
+|-damage|p1a: Excadrill|52/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|17
+|
+|switch|p2a: Cinderace|Cinderace, M|2/100
+|move|p1a: Excadrill|Earthquake|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-heal|p1a: Excadrill|58/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|71/100 brn
+|turn|18
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|-damage|p1a: Sylveon|88/100|[from] Stealth Rock
+|move|p2a: Conkeldurr|Earthquake|p1a: Sylveon
+|-damage|p1a: Sylveon|18/100
+|
+|-heal|p1a: Sylveon|24/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|65/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|switch|p2a: Clefable|Clefable, M|10/100
+|move|p1a: Sylveon|Protect||[still]
+|-fail|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|30/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Sylveon|Hyper Voice|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|-heal|p1a: Sylveon|37/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity-Low-Key, M|71/100
+|turn|21
+|
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Toxtricity|Boomburst|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|-heal|p1a: Sylveon|43/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by A 4 Glory player)
+|inactive|AsumaTest has 120 seconds left.
+|inactive|AsumaTest has 90 seconds left.
+|
+|switch|p1a: Excadrill|Excadrill, M, shiny|58/100
+|-damage|p1a: Excadrill|55/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Toxtricity|Boomburst|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|23
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|move|p1a: Hydreigon|Draco Meteor|p2a: Dracovish
+|-supereffective|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|faint|p2a: Dracovish
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|65/100 brn
+|turn|24
+|
+|switch|p1a: Seismitoad|Seismitoad, F|35/100
+|-damage|p1a: Seismitoad|29/100|[from] Stealth Rock
+|move|p2a: Conkeldurr|Drain Punch|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|-heal|p2a: Conkeldurr|79/100 brn|[from] drain|[of] p1a: Seismitoad
+|faint|p1a: Seismitoad
+|
+|-damage|p2a: Conkeldurr|73/100 brn|[from] brn
+|upkeep
+|inactive|AsumaTest has 120 seconds left.
+|
+|switch|p1a: Sylveon|Sylveon, F|43/100
+|-damage|p1a: Sylveon|30/100|[from] Stealth Rock
+|turn|25
+|
+|switch|p2a: Toxtricity|Toxtricity-Low-Key, M|71/100
+|move|p1a: Sylveon|Hyper Voice|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|54/100
+|
+|-heal|p1a: Sylveon|36/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Toxtricity|Boomburst|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|-heal|p1a: Sylveon|42/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|AsumaTest has 120 seconds left.
+|inactive|AsumaTest has 90 seconds left.
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M, shiny|81/100 brn
+|-damage|p1a: Conkeldurr|75/100 brn|[from] Stealth Rock
+|move|p2a: Toxtricity|Boomburst|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|inactive|AsumaTest has 60 seconds left.
+|
+|switch|p1a: Hydreigon|Hydreigon, M|88/100
+|-damage|p1a: Hydreigon|76/100|[from] Stealth Rock
+|turn|28
+|inactive|AsumaTest has 60 seconds left.
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|73/100 brn
+|turn|29
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|35/100 brn
+|-unboost|p1a: Hydreigon|spa|2
+|move|p2a: Conkeldurr|Earthquake|p1a: Hydreigon
+|-immune|p1a: Hydreigon|[from] ability: Levitate
+|
+|-damage|p2a: Conkeldurr|29/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-damage|p2a: Conkeldurr|23/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Sylveon|Sylveon, F|42/100
+|-damage|p1a: Sylveon|30/100|[from] Stealth Rock
+|turn|31
+|
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Conkeldurr|Mach Punch|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|-heal|p1a: Sylveon|36/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|17/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|14/100
+|move|p1a: Sylveon|Hyper Voice|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|win|AsumaTest
+|raw|AsumaTest's rating: 1350 → 1368(+18 for winning)
+|raw|A 4 Glory player's rating: 1308 → 1290(-18 for losing)
+|l|☆A 4 Glory player

@@ -1,0 +1,200 @@
+|ScrapeTime|2020-01-01-12:45:25
+|j|☆TrainerSai
+|j|☆sandwichmasta
+|player|p1|TrainerSai|ethan|1069
+|player|p2|sandwichmasta|workerice|1091
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Polteageist|
+|poke|p1|Ditto|
+|poke|p1|Clefable, M|
+|poke|p1|Dracozolt|
+|poke|p2|Machamp, M|
+|poke|p2|Mudsdale, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Toxtricity, F|
+|poke|p2|Mimikyu, M|
+|poke|p2|Cinderace, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TrainerSai)
+|
+|start
+|switch|p1a: Polteageist|Polteageist|100/100
+|switch|p2a: Riff|Toxtricity, F|100/100
+|turn|1
+|
+|move|p2a: Riff|Volt Switch|p1a: Polteageist
+|-damage|p1a: Polteageist|61/100
+|
+|switch|p2a: Swole|Machamp, M|100/100|[from]move: Volt Switch
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|-enditem|p1a: Polteageist|White Herb
+|-clearnegativeboost|p1a: Polteageist|[silent]
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Polteageist|Stored Power|p2a: Swole
+|-supereffective|p2a: Swole
+|-damage|p2a: Swole|0 fnt
+|faint|p2a: Swole
+|
+|upkeep
+|
+|switch|p2a: Pika|Mimikyu, M|100/100
+|turn|3
+|
+|move|p1a: Polteageist|Shadow Ball|p2a: Pika
+|-activate|p2a: Pika|ability: Disguise
+|-damage|p2a: Pika|100/100
+|detailschange|p2a: Pika|Mimikyu-Busted, M
+|-damage|p2a: Pika|88/100|[from] ability: Disguise|[of] p2a: Pika
+|move|p2a: Pika|Shadow Claw|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|-damage|p2a: Pika|78/100|[from] item: Life Orb
+|faint|p1a: Polteageist
+|
+|upkeep
+|inactive|TrainerSai has 120 seconds left.
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|turn|4
+|
+|move|p1a: Dracozolt|Earthquake|p2a: Pika
+|-damage|p2a: Pika|10/100
+|move|p2a: Pika|Play Rough|p1a: Dracozolt
+|-supereffective|p1a: Dracozolt
+|-damage|p1a: Dracozolt|0 fnt
+|-damage|p2a: Pika|0 fnt|[from] item: Life Orb
+|faint|p1a: Dracozolt
+|faint|p2a: Pika
+|
+|upkeep
+|
+|switch|p2a: Jackass|Mudsdale, F|100/100
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|5
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Jackass
+|-damage|p2a: Jackass|50/100
+|-ability|p2a: Jackass|Stamina|boost
+|-boost|p2a: Jackass|def|1
+|-unboost|p2a: Jackass|spd|1
+|move|p2a: Jackass|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: TrainerSai|move: Stealth Rock
+|
+|-heal|p2a: Jackass|56/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Jackass|Protect|p2a: Jackass
+|-singleturn|p2a: Jackass|Protect
+|move|p1a: Dragapult|Shadow Ball|p2a: Jackass
+|-activate|p2a: Jackass|move: Protect
+|
+|-heal|p2a: Jackass|62/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Jackass
+|-damage|p2a: Jackass|0 fnt
+|faint|p2a: Jackass
+|
+|upkeep
+|
+|switch|p2a: Draghos|Dragapult, F|100/100
+|turn|8
+|
+|move|p2a: Draghos|Dragon Darts|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-hitcount|p1a: Dragapult|1
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Draghos|[from] ability: Imposter
+|turn|9
+|
+|move|p1a: Ditto|Dragon Darts|p2a: Draghos
+|-supereffective|p2a: Draghos
+|-crit|p2a: Draghos
+|-damage|p2a: Draghos|7/100
+|-supereffective|p2a: Draghos
+|-damage|p2a: Draghos|0 fnt
+|-hitcount|p2a: Draghos|2
+|faint|p2a: Draghos
+|
+|upkeep
+|
+|switch|p2a: Bugs|Cinderace, M|100/100
+|turn|10
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Bugs|Sucker Punch||[still]
+|-fail|p2a: Bugs
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Bugs|Sucker Punch||[still]
+|-fail|p2a: Bugs
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p1: TrainerSai|Stealth Rock|[silent]
+|-sidestart|p2: sandwichmasta|Stealth Rock|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Bugs|Sucker Punch|p1a: Cinderace
+|-damage|p1a: Cinderace|52/100
+|move|p1a: Cinderace|High Jump Kick|p2a: Bugs
+|-damage|p2a: Bugs|44/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Bugs|Sucker Punch|p1a: Cinderace
+|-damage|p1a: Cinderace|1/100
+|move|p1a: Cinderace|High Jump Kick|p2a: Bugs
+|-crit|p2a: Bugs
+|-damage|p2a: Bugs|0 fnt
+|faint|p2a: Bugs
+|
+|upkeep
+|
+|switch|p2a: Riff|Toxtricity, F|100/100
+|-damage|p2a: Riff|88/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Riff
+|-damage|p2a: Riff|0 fnt
+|faint|p2a: Riff
+|
+|win|TrainerSai
+|raw|TrainerSai's rating: 1047 → 1084(+37 for winning)
+|raw|sandwichmasta's rating: 1091 → 1065(-26 for losing)
+|l|☆sandwichmasta

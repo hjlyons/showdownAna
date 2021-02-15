@@ -1,0 +1,789 @@
+|ScrapeTime|2020-01-02-03:15:02
+|j|☆TheDirtyRed
+|j|☆huangjunbo123
+|player|p1|TheDirtyRed|cyclistf|1355
+|player|p2|huangjunbo123|sage|1411
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxapex, M|
+|poke|p1|Toxtricity, F|
+|poke|p1|Hydreigon, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Clefable, M|
+|poke|p1|Conkeldurr, M|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Dugtrio, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Clefable, F|
+|poke|p2|Salazzle, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|77/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Hydreigon
+|-sidestart|p1: TheDirtyRed|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|94/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|83/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Tyranitar|Thunder Wave|p1a: Corviknight
+|-status|p1a: Corviknight|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|89/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Tyranitar|Fire Blast|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|49/100 par
+|cant|p1a: Corviknight|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|95/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|55/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Tyranitar|Fire Blast|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|71/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|77/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|switch|p1a: Corviknight|Corviknight, M|55/100 par
+|-damage|p1a: Corviknight|42/100 par|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|
+|-weather|none
+|-heal|p1a: Corviknight|49/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|cant|p1a: Corviknight|par
+|
+|-heal|p1a: Corviknight|55/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Salazzle|Substitute|p2a: Salazzle
+|-start|p2a: Salazzle|Substitute
+|-damage|p2a: Salazzle|76/100
+|move|p1a: Corviknight|U-turn|p2a: Salazzle
+|-resisted|p2a: Salazzle
+|-activate|p2a: Salazzle|move: Substitute|[damage]
+|
+|switch|p1a: Toxtricity|Toxtricity, F|100/100|[from]move: U-turn
+|-damage|p1a: Toxtricity|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Salazzle|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Salazzle|Toxic|p1a: Toxtricity
+|-status|p1a: Toxtricity|tox
+|move|p1a: Toxtricity|Boomburst|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|-damage|p1a: Toxtricity|82/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|turn|9
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Toxtricity
+|-supereffective|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, M|55/100 par
+|-damage|p1a: Corviknight|42/100 par|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|turn|10
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Corviknight|Defog|p2a: Tyranitar
+|-unboost|p2a: Tyranitar|evasion|1
+|-sideend|p1: TheDirtyRed|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Corviknight|49/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Conkeldurr
+|-sidestart|p1: TheDirtyRed|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Conkeldurr|94/100|[from] Sandstorm
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|12
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|move|p1a: Conkeldurr|Earthquake|p2a: Corsola
+|-damage|p2a: Corsola|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Conkeldurr|88/100 brn|[from] Sandstorm
+|-damage|p2a: Corsola|57/100|[from] Sandstorm
+|-damage|p1a: Conkeldurr|82/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p1a: Corviknight|Corviknight, M|49/100 par
+|-damage|p1a: Corviknight|36/100 par|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Corsola|Strength Sap|p1a: Corviknight
+|-unboost|p1a: Corviknight|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Corsola|94/100|[from] Sandstorm
+|-heal|p1a: Corviknight|42/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|cant|p1a: Corviknight|par
+|move|p2a: Corsola|Night Shade|p1a: Corviknight
+|-damage|p1a: Corviknight|17/100 par
+|
+|-weather|none
+|-heal|p1a: Corviknight|24/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|74/100 par
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Corviknight|80/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Tyranitar|Fire Blast|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|36/100 par
+|move|p1a: Corviknight|Defog|p2a: Tyranitar
+|-unboost|p2a: Tyranitar|evasion|1
+|-sideend|p1: TheDirtyRed|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Corviknight|42/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Toxapex
+|-sidestart|p1: TheDirtyRed|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|94/100|[from] Sandstorm
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|switch|p1a: Corviknight|Corviknight, M|42/100 par
+|-damage|p1a: Corviknight|30/100 par|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Corviknight|36/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|86/100 par
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-weather|none
+|-heal|p1a: Corviknight|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Tyranitar|Fire Blast|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|52/100 par
+|cant|p1a: Corviknight|par
+|
+|-heal|p1a: Corviknight|58/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Tyranitar|Fire Blast|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|78/100
+|-status|p1a: Toxapex|brn
+|
+|-heal|p1a: Toxapex|84/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|78/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|switch|p1a: Corviknight|Corviknight, M|58/100 par
+|-damage|p1a: Corviknight|45/100 par|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|
+|-heal|p1a: Corviknight|52/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|cant|p1a: Corviknight|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Corviknight|58/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Tyranitar|Stone Edge|p1a: Corviknight
+|-damage|p1a: Corviknight|25/100 par
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|75/100 par
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Corviknight|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|cant|p1a: Corviknight|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Corviknight|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|27
+|
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Clefable|Thunder Wave|p2a: Clefable
+|-status|p2a: Clefable|par
+|
+|-weather|none
+|upkeep
+|turn|28
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100 brn
+|-damage|p1a: Toxapex|88/100 brn|[from] Stealth Rock
+|cant|p2a: Clefable|par
+|
+|-heal|p1a: Toxapex|94/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|88/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Toxapex|94/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|88/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|33/100 brn
+|move|p1a: Toxapex|Scald|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|23/100
+|
+|-heal|p1a: Toxapex|39/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|33/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, M|87/100 par
+|-damage|p1a: Corviknight|75/100 par|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|turn|32
+|
+|switch|p2a: Clefable|Clefable, F|100/100 par
+|move|p1a: Corviknight|Defog|p2a: Clefable
+|-unboost|p2a: Clefable|evasion|1
+|-sideend|p1: TheDirtyRed|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|
+|-heal|p1a: Corviknight|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|cant|p1a: Corviknight|par
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-heal|p1a: Corviknight|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Corviknight|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|65/100 par
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-heal|p1a: Corviknight|93/100 par|[from] item: Leftovers
+|-heal|p2a: Clefable|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|35
+|c|☆huangjunbo123|1
+|
+|move|p1a: Corviknight|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|36/100 par
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p1a: Corviknight|99/100 par|[from] item: Leftovers
+|-heal|p2a: Clefable|42/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|cant|p1a: Corviknight|par
+|
+|-heal|p2a: Clefable|92/100 par|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Corviknight|100/100 par|[from] item: Leftovers
+|-heal|p2a: Clefable|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|cant|p1a: Corviknight|par
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|cant|p1a: Corviknight|par
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|upkeep
+|turn|39
+|
+|cant|p1a: Corviknight|par
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|upkeep
+|turn|40
+|
+|move|p1a: Corviknight|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|65/100 par
+|cant|p2a: Clefable|flinch
+|
+|-heal|p2a: Clefable|100/100 par|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|41
+|
+|move|p1a: Corviknight|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|65/100 par
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|72/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p1a: Corviknight|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|33/100 par
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-heal|p2a: Clefable|83/100 par|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Clefable|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p1a: Corviknight|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|54/100 par
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|60/100 par|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|cant|p1a: Corviknight|par
+|cant|p2a: Clefable|par
+|
+|-heal|p2a: Clefable|100/100 par|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|45
+|
+|move|p1a: Corviknight|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|62/100 par
+|cant|p2a: Clefable|par
+|
+|-heal|p2a: Clefable|68/100 par|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Corviknight|Iron Head|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|74/100 par|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|move|p1a: Corviknight|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|38/100 par
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Corviknight|Iron Head|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|94/100 par|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Clefable|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|move|p1a: Corviknight|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|63/100 par
+|cant|p2a: Clefable|flinch
+|
+|-heal|p2a: Clefable|69/100 par|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Corviknight|Iron Head|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|cant|p1a: Corviknight|par
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|move|p1a: Corviknight|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|75/100 par
+|
+|switch|p1a: Clefable|Clefable, M|100/100|[from]move: U-turn
+|cant|p2a: Clefable|par
+|
+|-heal|p2a: Clefable|100/100 par|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|53
+|
+|move|p1a: Clefable|Wish|p1a: Clefable
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|32/100
+|
+|-heal|p1a: Clefable|39/100|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100 par
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|upkeep
+|turn|55
+|
+|move|p1a: Corviknight|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|64/100 par
+|cant|p2a: Clefable|flinch
+|
+|-heal|p2a: Clefable|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|cant|p1a: Corviknight|par
+|
+|-heal|p2a: Clefable|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|move|p1a: Corviknight|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|38/100 par
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|58
+|c|☆TheDirtyRed|Is magic guard just bugged against pressure?
+|
+|cant|p2a: Clefable|par
+|move|p1a: Corviknight|Defog|p2a: Clefable
+|-unboost|p2a: Clefable|evasion|1
+|
+|-heal|p2a: Clefable|94/100 par|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Clefable|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|cant|p1a: Corviknight|par
+|cant|p2a: Clefable|par
+|
+|-heal|p2a: Clefable|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|move|p1a: Corviknight|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|60/100 par
+|move|p2a: Clefable|Moonblast|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|56/100 par
+|
+|-heal|p1a: Corviknight|62/100 par|[from] item: Leftovers
+|-heal|p2a: Clefable|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100 par
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Clefable|Moonblast|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|53/100 par
+|
+|-heal|p1a: Corviknight|59/100 par|[from] item: Leftovers
+|-heal|p2a: Clefable|73/100 par|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|cant|p1a: Corviknight|par
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-heal|p1a: Corviknight|66/100 par|[from] item: Leftovers
+|-heal|p2a: Clefable|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|cant|p1a: Corviknight|par
+|move|p2a: Clefable|Moonblast|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|7/100 par
+|
+|-heal|p1a: Corviknight|13/100 par|[from] item: Leftovers
+|-heal|p2a: Clefable|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|move|p1a: Corviknight|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|48/100 par
+|cant|p2a: Clefable|flinch
+|
+|-heal|p1a: Corviknight|20/100 par|[from] item: Leftovers
+|-heal|p2a: Clefable|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|cant|p1a: Corviknight|par
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p1a: Corviknight|26/100 par|[from] item: Leftovers
+|-heal|p2a: Clefable|60/100 par|[from] item: Leftovers
+|upkeep
+|turn|66
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|76/100 par
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Clefable|Moonblast|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|22/100 par
+|
+|-heal|p2a: Clefable|100/100 par|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Corviknight|28/100 par|[from] item: Leftovers
+|upkeep
+|turn|67
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|78/100 par
+|-singleturn|p1a: Corviknight|move: Roost
+|cant|p2a: Clefable|par
+|
+|-heal|p1a: Corviknight|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|move|p1a: Corviknight|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|65/100 par
+|move|p2a: Clefable|Moonblast|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|28/100 par
+|
+|-heal|p1a: Corviknight|34/100 par|[from] item: Leftovers
+|-heal|p2a: Clefable|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|84/100 par
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Clefable|Moonblast|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|33/100 par
+|
+|-heal|p1a: Corviknight|39/100 par|[from] item: Leftovers
+|-heal|p2a: Clefable|77/100 par|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|cant|p1a: Corviknight|par
+|move|p2a: Clefable|Moonblast|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-heal|p2a: Clefable|83/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|82/100 brn
+|turn|71
+|
+|move|p1a: Conkeldurr|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|39/100 par
+|move|p2a: Clefable|Moonblast|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|-heal|p2a: Clefable|45/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, M|39/100
+|turn|72
+|l|☆huangjunbo123
+|player|p2|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TheDirtyRed)
+|j|☆huangjunbo123
+|inactive|huangjunbo123 reconnected and has 135 seconds left.
+|player|p2|huangjunbo123|sage
+|inactive|huangjunbo123 has 120 seconds left.
+|
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|38/100 par
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-heal|p2a: Clefable|44/100 par|[from] item: Leftovers
+|upkeep
+|inactive|TheDirtyRed has 120 seconds left.
+|
+|switch|p1a: Hydreigon|Hydreigon, M|94/100
+|turn|73
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|29/100 par
+|cant|p2a: Clefable|par
+|
+|-heal|p2a: Clefable|35/100 par|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|22/100 par
+|move|p2a: Clefable|Moonblast|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|win|huangjunbo123

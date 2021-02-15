@@ -1,0 +1,223 @@
+|ScrapeTime|2020-01-01-04:55:15
+|j|☆blizzardq
+|j|☆gachasr
+|player|p1|blizzardq|pryce|1388
+|player|p2|gachasr|170|1319
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Conkeldurr, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Aegislash, M|
+|poke|p1|Seismitoad, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Clefable, F|
+|poke|p2|Mew|
+|poke|p2|Dragapult, M|
+|poke|p2|Passimian, M|
+|poke|p2|Hydreigon, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Rotom-Heat|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆blizzardq|glhf
+|
+|start
+|switch|p1a: pillars|Conkeldurr, M|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|
+|switch|p1a: wanda|Clefable, F|100/100
+|move|p2a: Mew|Stealth Rock|p1a: wanda
+|-sidestart|p1: blizzardq|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Mew|Spikes|p1a: wanda
+|-sidestart|p1: blizzardq|Spikes
+|move|p1a: wanda|Moonblast|p2a: Mew
+|-damage|p2a: Mew|49/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: wanda|Moonblast|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|64/100
+|-unboost|p2a: Excadrill|spa|1
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Excadrill|Iron Head|p1a: wanda
+|-supereffective|p1a: wanda
+|-damage|p1a: wanda|11/100
+|move|p1a: wanda|Flamethrower|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|5
+|
+|switch|p1a: ribbit|Seismitoad, M|100/100
+|-damage|p1a: ribbit|88/100|[from] Spikes
+|-damage|p1a: ribbit|82/100|[from] Stealth Rock
+|move|p2a: Rotom|Volt Switch|p1a: ribbit
+|-immune|p1a: ribbit
+|
+|-heal|p1a: ribbit|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Mew|Mew|49/100
+|move|p1a: ribbit|Toxic|p2a: Mew
+|-status|p2a: Mew|tox
+|-activate|p2a: Mew|ability: Synchronize
+|-status|p1a: ribbit|tox
+|
+|-heal|p1a: ribbit|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Mew|42/100 tox|[from] psn
+|-damage|p1a: ribbit|88/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|move|p2a: Mew|Taunt|p1a: ribbit
+|-start|p1a: ribbit|move: Taunt
+|cant|p1a: ribbit|move: Taunt|Stealth Rock
+|
+|-heal|p1a: ribbit|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Mew|30/100 tox|[from] psn
+|-damage|p1a: ribbit|82/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|move|p2a: Mew|Aura Sphere|p1a: ribbit
+|-damage|p1a: ribbit|59/100 tox
+|move|p1a: ribbit|Earth Power|p2a: Mew
+|-damage|p2a: Mew|4/100 tox
+|
+|-heal|p1a: ribbit|65/100 tox|[from] item: Leftovers
+|-damage|p2a: Mew|0 fnt|[from] psn
+|faint|p2a: Mew
+|-damage|p1a: ribbit|47/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|9
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: ribbit
+|-damage|p1a: ribbit|0 fnt
+|faint|p1a: ribbit
+|
+|upkeep
+|
+|switch|p1a: caw caw|Corviknight, M|100/100
+|-damage|p1a: caw caw|88/100|[from] Stealth Rock
+|-ability|p1a: caw caw|Pressure
+|turn|10
+|
+|switch|p2a: Passimian|Passimian, M|100/100
+|move|p1a: caw caw|Defog|p2a: Passimian
+|-unboost|p2a: Passimian|evasion|1
+|-ability|p2a: Passimian|Defiant
+|-boost|p2a: Passimian|atk|2
+|-sideend|p1: blizzardq|Spikes|[from] move: Defog|[of] p1a: caw caw
+|-sideend|p1: blizzardq|Stealth Rock|[from] move: Defog|[of] p1a: caw caw
+|
+|-heal|p1a: caw caw|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Passimian|Close Combat|p1a: caw caw
+|-damage|p1a: caw caw|3/100
+|-unboost|p2a: Passimian|def|1
+|-unboost|p2a: Passimian|spd|1
+|-damage|p2a: Passimian|91/100|[from] item: Life Orb
+|move|p1a: caw caw|U-turn|p2a: Passimian
+|-resisted|p2a: Passimian
+|-damage|p2a: Passimian|79/100
+|
+|switch|p1a: pillars|Conkeldurr, M|100/100|[from]move: U-turn
+|
+|-status|p1a: pillars|brn|[from] item: Flame Orb
+|upkeep
+|turn|12
+|
+|move|p2a: Passimian|Close Combat|p1a: pillars
+|-damage|p1a: pillars|0 fnt
+|-unboost|p2a: Passimian|def|1
+|-unboost|p2a: Passimian|spd|1
+|-damage|p2a: Passimian|69/100|[from] item: Life Orb
+|faint|p1a: pillars
+|
+|upkeep
+|
+|switch|p1a: gen 8 game name|Aegislash, M|100/100
+|turn|13
+|
+|move|p1a: gen 8 game name|King's Shield|p1a: gen 8 game name
+|-singleturn|p1a: gen 8 game name|Protect
+|move|p2a: Passimian|Taunt|p1a: gen 8 game name
+|-start|p1a: gen 8 game name|move: Taunt
+|
+|upkeep
+|turn|14
+|
+|-formechange|p1a: gen 8 game name|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: gen 8 game name|Shadow Sneak|p2a: Passimian
+|-damage|p2a: Passimian|15/100
+|move|p2a: Passimian|U-turn|p1a: gen 8 game name
+|-resisted|p1a: gen 8 game name
+|-crit|p1a: gen 8 game name
+|-damage|p1a: gen 8 game name|61/100
+|-damage|p2a: Passimian|5/100|[from] item: Life Orb
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100|[from]move: U-turn
+|
+|-heal|p1a: gen 8 game name|67/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: gen 8 game name|Shadow Sneak|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|87/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: gen 8 game name
+|-supereffective|p1a: gen 8 game name
+|-damage|p1a: gen 8 game name|0 fnt
+|faint|p1a: gen 8 game name
+|
+|upkeep
+|
+|switch|p1a: purrsuit lmao|Dragapult, M|100/100
+|turn|16
+|c|☆gachasr|gg
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: purrsuit lmao
+|-supereffective|p1a: purrsuit lmao
+|-damage|p1a: purrsuit lmao|0 fnt
+|faint|p1a: purrsuit lmao
+|
+|upkeep
+|c|☆blizzardq|gg
+|-message|blizzardq forfeited.
+|
+|win|gachasr
+|raw|blizzardq's rating: 1366 → 1344(-22 for losing)
+|raw|gachasr's rating: 1319 → 1342(+23 for winning)
+|l|☆blizzardq

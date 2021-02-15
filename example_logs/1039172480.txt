@@ -1,0 +1,198 @@
+|ScrapeTime|2020-01-01-15:55:33
+|j|☆Mauricioelanime2
+|j|☆pev
+|player|p1|Mauricioelanime2|proton|1226
+|player|p2|pev|135|1200
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Polteageist|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Reuniclus, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Cinderace, M|
+|poke|p2|Dracovish|
+|poke|p2|Togekiss, F|
+|poke|p2|Orbeetle, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Clefable, F|
+|poke|p2|Toxtricity, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Orbeetle|Orbeetle, F, shiny|100/100
+|turn|1
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Orbeetle
+|-start|p2a: Orbeetle|move: Taunt
+|cant|p2a: Orbeetle|move: Taunt|Sticky Web
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Mauricioelanime2|move: Light Screen
+|move|p2a: Orbeetle|Bug Buzz|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|86/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: mr fish|Dracovish|100/100
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Mauricioelanime2|Reflect
+|
+|upkeep
+|turn|4
+|
+|move|p2a: mr fish|Fishious Rend|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|45/100
+|move|p1a: Grimmsnarl|Spirit Break|p2a: mr fish
+|-supereffective|p2a: mr fish
+|-damage|p2a: mr fish|33/100
+|-unboost|p2a: mr fish|spa|1
+|
+|upkeep
+|turn|5
+|
+|move|p2a: mr fish|Fishious Rend|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|6/100
+|move|p1a: Grimmsnarl|Spirit Break|p2a: mr fish
+|-supereffective|p2a: mr fish
+|-damage|p2a: mr fish|0 fnt
+|faint|p2a: mr fish
+|
+|upkeep
+|
+|switch|p2a: yeeted|Toxtricity, F|100/100
+|turn|6
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: yeeted|Overdrive|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|92/100
+|-enditem|p2a: yeeted|Throat Spray
+|-boost|p2a: yeeted|spa|1
+|
+|upkeep
+|turn|7
+|
+|move|p2a: yeeted|Boomburst|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|75/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: yeeted
+|-sidestart|p2: pev|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Orbeetle|Orbeetle, F, shiny|100/100
+|-damage|p2a: Orbeetle|75/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Orbeetle
+|-start|p2a: Orbeetle|move: Leech Seed
+|
+|-heal|p2a: Orbeetle|82/100|[from] item: Leftovers
+|-damage|p2a: Orbeetle|69/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|86/100|[silent]
+|upkeep
+|turn|9
+|
+|switch|p1a: Polteageist|Polteageist|100/100
+|move|p2a: Orbeetle|Sticky Web|p1a: Polteageist
+|-sidestart|p1: Mauricioelanime2|move: Sticky Web
+|
+|-heal|p2a: Orbeetle|75/100|[from] item: Leftovers
+|-damage|p2a: Orbeetle|63/100|[from] Leech Seed|[of] p1a: Polteageist
+|-sideend|p1: Mauricioelanime2|move: Light Screen
+|upkeep
+|turn|10
+|
+|switch|p2a: pink ball|Clefable, F|100/100
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|-enditem|p1a: Polteageist|White Herb
+|-clearnegativeboost|p1a: Polteageist|[silent]
+|
+|-sideend|p1: Mauricioelanime2|Reflect
+|upkeep
+|turn|11
+|
+|move|p1a: Polteageist|Stored Power|p2a: pink ball
+|-damage|p2a: pink ball|10/100
+|move|p2a: pink ball|Calm Mind|p2a: pink ball
+|-boost|p2a: pink ball|spa|1
+|-boost|p2a: pink ball|spd|1
+|
+|-heal|p2a: pink ball|16/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Polteageist|Shadow Ball|p2a: pink ball
+|-damage|p2a: pink ball|0 fnt
+|faint|p2a: pink ball
+|
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M, shiny|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Polteageist|Stored Power|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|switch|p2a: yeeted|Toxtricity, F|100/100
+|-damage|p2a: yeeted|88/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Polteageist|Stored Power|p2a: yeeted
+|-supereffective|p2a: yeeted
+|-damage|p2a: yeeted|0 fnt
+|faint|p2a: yeeted
+|
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, F|100/100
+|-damage|p2a: Togekiss|76/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Polteageist|Stored Power|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|upkeep
+|
+|switch|p2a: Orbeetle|Orbeetle, F, shiny|63/100
+|-damage|p2a: Orbeetle|38/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Polteageist|Shadow Ball|p2a: Orbeetle
+|-supereffective|p2a: Orbeetle
+|-damage|p2a: Orbeetle|0 fnt
+|faint|p2a: Orbeetle
+|
+|win|Mauricioelanime2
+|l|☆pev
+|raw|Mauricioelanime2's rating: 1226 → 1249(+23 for winning)
+|raw|pev's rating: 1200 → 1177(-23 for losing)
+|c|☆Mauricioelanime2|gg

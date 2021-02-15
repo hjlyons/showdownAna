@@ -1,0 +1,870 @@
+|ScrapeTime|2020-01-02-03:44:29
+|j|☆WalmartPrices
+|j|☆Gato pobre
+|player|p1|WalmartPrices|265|1122
+|player|p2|Gato pobre|lucas|1143
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxapex, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Clefable, F|
+|poke|p1|Toxtricity, M|
+|poke|p1|Conkeldurr, F|
+|poke|p2|Galvantula, M|
+|poke|p2|Dracovish|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Chandelure, F|
+|poke|p2|Corviknight, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|switch|p2a: loto|Chandelure, F, shiny|100/100
+|turn|1
+|
+|move|p2a: loto|Shadow Ball|p1a: Toxtricity
+|-damage|p1a: Toxtricity|24/100
+|-unboost|p1a: Toxtricity|spd|1
+|move|p1a: Toxtricity|Snarl|p2a: loto
+|-supereffective|p2a: loto
+|-enditem|p2a: loto|Focus Sash
+|-damage|p2a: loto|1/100
+|-unboost|p2a: loto|spa|1
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: loto|Shadow Ball|p1a: Clefable
+|-damage|p1a: Clefable|82/100
+|-unboost|p1a: Clefable|spd|1
+|
+|-heal|p1a: Clefable|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: eustaquio|Toxapex, M|100/100
+|move|p1a: Clefable|Moonblast|p2a: eustaquio
+|-resisted|p2a: eustaquio
+|-damage|p2a: eustaquio|88/100
+|-unboost|p2a: eustaquio|spa|1
+|
+|-heal|p1a: Clefable|94/100|[from] item: Leftovers
+|-heal|p2a: eustaquio|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: eustaquio|Toxic|p1a: Toxapex
+|-immune|p1a: Toxapex
+|
+|-heal|p2a: eustaquio|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Fierrothorn|Ferrothorn, M|100/100
+|move|p1a: Toxapex|Scald|p2a: Fierrothorn
+|-resisted|p2a: Fierrothorn
+|-damage|p2a: Fierrothorn|94/100
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Clefable|Clefable, F|94/100
+|move|p2a: Fierrothorn|Leech Seed|p1a: Clefable
+|-start|p1a: Clefable|move: Leech Seed
+|
+|-heal|p1a: Clefable|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Clefable|Wish|p1a: Clefable
+|move|p2a: Fierrothorn|Toxic|p1a: Clefable
+|-status|p1a: Clefable|tox
+|
+|-heal|p1a: Clefable|100/100 tox|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by WalmartPrices)
+|
+|switch|p1a: Toxtricity|Toxtricity, M|24/100
+|move|p2a: Fierrothorn|Stealth Rock|p1a: Toxtricity
+|-sidestart|p1: WalmartPrices|move: Stealth Rock
+|
+|-heal|p1a: Toxtricity|92/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|9
+|
+|move|p1a: Toxtricity|Volt Switch|p2a: Fierrothorn
+|-resisted|p2a: Fierrothorn
+|-damage|p2a: Fierrothorn|75/100
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Conkeldurr|94/100|[from] Stealth Rock
+|move|p2a: Fierrothorn|Leech Seed|p1a: Conkeldurr
+|-start|p1a: Conkeldurr|move: Leech Seed
+|
+|-damage|p1a: Conkeldurr|82/100|[from] Leech Seed|[of] p2a: Fierrothorn
+|-heal|p2a: Fierrothorn|90/100|[silent]
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|10
+|
+|move|p2a: Fierrothorn|Protect|p2a: Fierrothorn
+|-singleturn|p2a: Fierrothorn|Protect
+|move|p1a: Conkeldurr|Close Combat|p2a: Fierrothorn
+|-activate|p2a: Fierrothorn|move: Protect
+|
+|-damage|p1a: Conkeldurr|69/100 brn|[from] Leech Seed|[of] p2a: Fierrothorn
+|-heal|p2a: Fierrothorn|100/100|[silent]
+|-damage|p1a: Conkeldurr|63/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p2a: loto|Chandelure, F, shiny|1/100
+|move|p1a: Conkeldurr|Mach Punch|p2a: loto
+|-immune|p2a: loto
+|
+|-damage|p1a: Conkeldurr|50/100 brn|[from] Leech Seed|[of] p2a: loto
+|-heal|p2a: loto|18/100|[silent]
+|-damage|p1a: Conkeldurr|44/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|move|p2a: loto|Energy Ball|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|70/100
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: eustaquio|Toxapex, M|100/100
+|move|p1a: Hydreigon|U-turn|p2a: eustaquio
+|-resisted|p2a: eustaquio
+|-damage|p2a: eustaquio|95/100
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|44/100 brn|[from]move: U-turn
+|-damage|p1a: Conkeldurr|38/100 brn|[from] Stealth Rock
+|
+|-heal|p2a: eustaquio|100/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|32/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: eustaquio|Baneful Bunker|p2a: eustaquio
+|-singleturn|p2a: eustaquio|move: Protect
+|move|p1a: Conkeldurr|Earthquake|p2a: eustaquio
+|-activate|p2a: eustaquio|move: Protect
+|
+|-damage|p1a: Conkeldurr|25/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p2a: pio pio|Corviknight, M|100/100
+|move|p1a: Conkeldurr|Earthquake|p2a: pio pio
+|-immune|p2a: pio pio
+|
+|-damage|p1a: Conkeldurr|19/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p1a: Clefable|Clefable, F|100/100 tox
+|switch|p2a: eustaquio|Toxapex, M|100/100
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Clefable|Wish|p1a: Clefable
+|move|p2a: eustaquio|Ice Beam|p1a: Clefable
+|-damage|p1a: Clefable|92/100 tox
+|
+|-heal|p1a: Clefable|98/100 tox|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Fierrothorn|Ferrothorn, M|100/100
+|move|p1a: Clefable|Thunder Wave|p2a: Fierrothorn
+|-status|p2a: Fierrothorn|par
+|
+|-heal|p1a: Clefable|100/100 tox|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|19
+|
+|move|p1a: Clefable|Wish|p1a: Clefable
+|move|p2a: Fierrothorn|Leech Seed|p1a: Clefable
+|-start|p1a: Clefable|move: Leech Seed
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|19/100 brn
+|-damage|p1a: Conkeldurr|13/100 brn|[from] Stealth Rock
+|cant|p2a: Fierrothorn|par
+|
+|-heal|p1a: Conkeldurr|69/100 brn|[from] move: Wish|[wisher] Clefable
+|-damage|p1a: Conkeldurr|63/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p2a: Fierrothorn|Protect|p2a: Fierrothorn
+|-singleturn|p2a: Fierrothorn|Protect
+|move|p1a: Conkeldurr|Earthquake|p2a: Fierrothorn
+|-activate|p2a: Fierrothorn|move: Protect
+|
+|-damage|p1a: Conkeldurr|56/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p2a: pio pio|Corviknight, M|100/100
+|move|p1a: Conkeldurr|Mach Punch|p2a: pio pio
+|-damage|p2a: pio pio|73/100
+|
+|-heal|p2a: pio pio|79/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|50/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: pio pio
+|-damage|p2a: pio pio|53/100
+|move|p2a: pio pio|Roost|p2a: pio pio
+|-heal|p2a: pio pio|100/100
+|-singleturn|p2a: pio pio|move: Roost
+|
+|-damage|p1a: Conkeldurr|44/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p1a: Conkeldurr|Facade|p2a: pio pio
+|-resisted|p2a: pio pio
+|-damage|p2a: pio pio|69/100
+|move|p2a: pio pio|Bulk Up|p2a: pio pio
+|-boost|p2a: pio pio|atk|1
+|-boost|p2a: pio pio|def|1
+|
+|-heal|p2a: pio pio|75/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|38/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: pio pio|Bulk Up|p2a: pio pio
+|-boost|p2a: pio pio|atk|1
+|-boost|p2a: pio pio|def|1
+|
+|-heal|p2a: pio pio|82/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|move|p2a: pio pio|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|80/100
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: pio pio|88/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|87/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|switch|p2a: Fierrothorn|Ferrothorn, M|100/100 par
+|move|p1a: Toxapex|Scald|p2a: Fierrothorn
+|-resisted|p2a: Fierrothorn
+|-damage|p2a: Fierrothorn|94/100 par
+|
+|-heal|p1a: Toxapex|93/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|
+|switch|p1a: Clefable|Clefable, F|100/100 tox
+|move|p2a: Fierrothorn|Leech Seed|p1a: Clefable
+|-start|p1a: Clefable|move: Leech Seed
+|
+|upkeep
+|turn|29
+|
+|switch|p2a: pio pio|Corviknight, M|88/100
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-heal|p2a: pio pio|94/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: pio pio|Iron Head|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|47/100 tox
+|move|p1a: Clefable|Thunder Wave|p2a: pio pio
+|-status|p2a: pio pio|par
+|
+|-heal|p1a: Clefable|97/100 tox|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Clefable|100/100 tox|[from] item: Leftovers
+|-heal|p2a: pio pio|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Clefable|Wish|p1a: Clefable
+|cant|p2a: pio pio|par
+|
+|-heal|p2a: pio pio|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|38/100 brn
+|-damage|p1a: Conkeldurr|31/100 brn|[from] Stealth Rock
+|move|p2a: pio pio|Iron Head|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|5/100 brn
+|
+|-heal|p1a: Conkeldurr|61/100 brn|[from] move: Wish|[wisher] Clefable
+|-damage|p1a: Conkeldurr|55/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p1a: Conkeldurr|Close Combat|p2a: pio pio
+|-damage|p2a: pio pio|18/100 par
+|-unboost|p1a: Conkeldurr|def|1
+|-unboost|p1a: Conkeldurr|spd|1
+|move|p2a: pio pio|Bulk Up|p2a: pio pio
+|-boost|p2a: pio pio|atk|1
+|-boost|p2a: pio pio|def|1
+|
+|-heal|p2a: pio pio|24/100 par|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|49/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|switch|p2a: loto|Chandelure, F, shiny|18/100
+|move|p1a: Conkeldurr|Mach Punch|p2a: loto
+|-immune|p2a: loto
+|
+|-damage|p1a: Conkeldurr|42/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|move|p2a: loto|Energy Ball|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|70/100
+|-damage|p1a: Hydreigon|58/100|[from] Stealth Rock
+|turn|36
+|
+|switch|p2a: eustaquio|Toxapex, M|100/100
+|move|p1a: Hydreigon|Draco Meteor|p2a: eustaquio
+|-damage|p2a: eustaquio|53/100
+|-unboost|p1a: Hydreigon|spa|2
+|
+|-heal|p2a: eustaquio|59/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|switch|p1a: Clefable|Clefable, F|100/100 tox
+|move|p2a: eustaquio|Recover|p2a: eustaquio
+|-heal|p2a: eustaquio|100/100
+|
+|upkeep
+|turn|38
+|
+|switch|p2a: pio pio|Corviknight, M|24/100 par
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-heal|p2a: pio pio|30/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|switch|p1a: Hydreigon|Hydreigon, F|58/100
+|-damage|p1a: Hydreigon|45/100|[from] Stealth Rock
+|move|p2a: pio pio|Roost|p2a: pio pio
+|-heal|p2a: pio pio|80/100 par
+|-singleturn|p2a: pio pio|move: Roost
+|
+|-heal|p1a: Hydreigon|100/100|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: pio pio|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|switch|p2a: eustaquio|Toxapex, M|100/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: eustaquio
+|-damage|p2a: eustaquio|71/100
+|
+|-heal|p2a: eustaquio|77/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|switch|p1a: Toxtricity|Toxtricity, M|92/100
+|-damage|p1a: Toxtricity|79/100|[from] Stealth Rock
+|switch|p2a: pio pio|Corviknight, M|87/100 par
+|
+|-heal|p2a: pio pio|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|switch|p2a: Fierrothorn|Ferrothorn, M|94/100 par
+|move|p1a: Toxtricity|Snarl|p2a: Fierrothorn
+|-damage|p2a: Fierrothorn|69/100 par
+|-unboost|p2a: Fierrothorn|spa|1
+|
+|upkeep
+|turn|43
+|
+|move|p1a: Toxtricity|Snarl|p2a: Fierrothorn
+|-damage|p2a: Fierrothorn|41/100 par
+|-unboost|p2a: Fierrothorn|spa|1
+|move|p2a: Fierrothorn|Leech Seed|p1a: Toxtricity
+|-start|p1a: Toxtricity|move: Leech Seed
+|
+|-damage|p1a: Toxtricity|67/100|[from] Leech Seed|[of] p2a: Fierrothorn
+|-heal|p2a: Fierrothorn|54/100 par|[silent]
+|upkeep
+|turn|44
+|
+|move|p2a: Fierrothorn|Protect|p2a: Fierrothorn
+|-singleturn|p2a: Fierrothorn|Protect
+|move|p1a: Toxtricity|Snarl|p2a: Fierrothorn
+|-activate|p2a: Fierrothorn|move: Protect
+|
+|-damage|p1a: Toxtricity|54/100|[from] Leech Seed|[of] p2a: Fierrothorn
+|-heal|p2a: Fierrothorn|66/100 par|[silent]
+|upkeep
+|turn|45
+|
+|switch|p1a: Clefable|Clefable, F|100/100 tox
+|switch|p2a: eustaquio|Toxapex, M|100/100
+|
+|upkeep
+|turn|46
+|
+|switch|p2a: Pajero|Galvantula, M, shiny|100/100
+|move|p1a: Clefable|Thunder Wave|p2a: Pajero
+|-immune|p2a: Pajero
+|
+|upkeep
+|turn|47
+|
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Pajero|Sticky Web|p1a: Clefable
+|-sidestart|p1: WalmartPrices|move: Sticky Web
+|
+|upkeep
+|turn|48
+|
+|move|p2a: Pajero|Thunder|p1a: Clefable
+|-damage|p1a: Clefable|69/100 tox
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-heal|p1a: Clefable|75/100 tox|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|move|p2a: Pajero|Thunder|p1a: Clefable
+|-damage|p1a: Clefable|41/100 tox
+|move|p1a: Clefable|Moonblast|p2a: Pajero
+|-damage|p2a: Pajero|45/100
+|
+|-heal|p1a: Clefable|91/100 tox|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Clefable|97/100 tox|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|move|p2a: Pajero|Volt Switch|p1a: Clefable
+|-damage|p1a: Clefable|77/100 tox
+|
+|switch|p2a: pio pio|Corviknight, M|93/100 par|[from]move: Volt Switch
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-heal|p1a: Clefable|83/100 tox|[from] item: Leftovers
+|-heal|p2a: pio pio|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|switch|p1a: Toxtricity|Toxtricity, M|54/100
+|-damage|p1a: Toxtricity|42/100|[from] Stealth Rock
+|-activate|p1a: Toxtricity|move: Sticky Web
+|-unboost|p1a: Toxtricity|spe|1
+|move|p2a: pio pio|Bulk Up|p2a: pio pio
+|-boost|p2a: pio pio|atk|1
+|-boost|p2a: pio pio|def|1
+|
+|-heal|p1a: Toxtricity|100/100|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: pio pio|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|switch|p2a: Fierrothorn|Ferrothorn, M|66/100 par
+|move|p1a: Toxtricity|Boomburst|p2a: Fierrothorn
+|-resisted|p2a: Fierrothorn
+|-damage|p2a: Fierrothorn|32/100 par
+|
+|upkeep
+|turn|53
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Fierrothorn
+|-resisted|p2a: Fierrothorn
+|-damage|p2a: Fierrothorn|0 fnt
+|faint|p2a: Fierrothorn
+|
+|upkeep
+|c|☆WalmartPrices|ok thats one
+|c|☆WalmartPrices|lol
+|
+|switch|p2a: loto|Chandelure, F, shiny|18/100
+|turn|54
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|-activate|p1a: Toxapex|move: Sticky Web
+|-unboost|p1a: Toxapex|spe|1
+|move|p2a: loto|Flamethrower|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|69/100
+|
+|-heal|p1a: Toxapex|75/100|[from] item: Black Sludge
+|upkeep
+|turn|55
+|
+|switch|p2a: eustaquio|Toxapex, M|100/100
+|move|p1a: Toxapex|Scald|p2a: eustaquio
+|-resisted|p2a: eustaquio
+|-damage|p2a: eustaquio|95/100
+|-status|p2a: eustaquio|brn
+|
+|-heal|p2a: eustaquio|100/100 brn|[from] item: Leftovers
+|-heal|p1a: Toxapex|81/100|[from] item: Black Sludge
+|-damage|p2a: eustaquio|94/100 brn|[from] brn
+|upkeep
+|turn|56
+|
+|move|p2a: eustaquio|Ice Beam|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|76/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|-heal|p2a: eustaquio|100/100 brn|[from] item: Leftovers
+|-damage|p2a: eustaquio|94/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|switch|p1a: Clefable|Clefable, F|83/100 tox
+|-activate|p1a: Clefable|move: Sticky Web
+|-unboost|p1a: Clefable|spe|1
+|move|p2a: eustaquio|Ice Beam|p1a: Clefable
+|-damage|p1a: Clefable|75/100 tox
+|
+|-heal|p1a: Clefable|81/100 tox|[from] item: Leftovers
+|-heal|p2a: eustaquio|100/100 brn|[from] item: Leftovers
+|-damage|p2a: eustaquio|94/100 brn|[from] brn
+|upkeep
+|turn|58
+|
+|switch|p2a: pio pio|Corviknight, M|100/100 par
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-heal|p1a: Clefable|87/100 tox|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: pio pio|Iron Head|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|78/100
+|
+|-heal|p1a: Corviknight|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|60
+|
+|move|p1a: Corviknight|Defog|p2a: pio pio
+|-ability|p2a: pio pio|Mirror Armor
+|-unboost|p1a: Corviknight|evasion|1
+|-sideend|p1: WalmartPrices|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: WalmartPrices|Sticky Web|[from] move: Defog|[of] p1a: Corviknight
+|move|p2a: pio pio|Bulk Up|p2a: pio pio
+|-boost|p2a: pio pio|atk|1
+|-boost|p2a: pio pio|def|1
+|
+|upkeep
+|turn|61
+|
+|move|p1a: Corviknight|U-turn|p2a: pio pio
+|-resisted|p2a: pio pio
+|-damage|p2a: pio pio|99/100 par
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100|[from]move: U-turn
+|move|p2a: pio pio|Bulk Up|p2a: pio pio
+|-boost|p2a: pio pio|atk|1
+|-boost|p2a: pio pio|def|1
+|
+|-heal|p2a: pio pio|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|move|p1a: Toxtricity|Overdrive|p2a: pio pio
+|-supereffective|p2a: pio pio
+|-damage|p2a: pio pio|0 fnt
+|faint|p2a: pio pio
+|
+|upkeep
+|c|☆WalmartPrices|thats 2
+|
+|switch|p2a: loto|Chandelure, F, shiny|18/100
+|turn|63
+|c|☆Gato pobre|ya puedes callarte a la verga puta toxica?
+|
+|move|p2a: loto|Flamethrower|p1a: Toxtricity
+|-damage|p1a: Toxtricity|16/100
+|move|p1a: Toxtricity|Overdrive|p2a: loto
+|-damage|p2a: loto|0 fnt
+|faint|p2a: loto
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|64
+|
+|switch|p1a: Clefable|Clefable, F|87/100 tox
+|move|p2a: Dracovish|Fishious Rend|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|turn|65
+|
+|switch|p2a: eustaquio|Toxapex, M|100/100 brn
+|move|p1a: Hydreigon|Draco Meteor|p2a: eustaquio
+|-damage|p2a: eustaquio|50/100 brn
+|-unboost|p1a: Hydreigon|spa|2
+|
+|-heal|p2a: eustaquio|57/100 brn|[from] item: Leftovers
+|-damage|p2a: eustaquio|50/100 brn|[from] brn
+|upkeep
+|turn|66
+|
+|move|p2a: eustaquio|Baneful Bunker|p2a: eustaquio
+|-singleturn|p2a: eustaquio|move: Protect
+|move|p1a: Hydreigon|Draco Meteor|p2a: eustaquio
+|-activate|p2a: eustaquio|move: Protect
+|
+|-heal|p2a: eustaquio|57/100 brn|[from] item: Leftovers
+|-damage|p2a: eustaquio|50/100 brn|[from] brn
+|upkeep
+|turn|67
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: eustaquio
+|-damage|p2a: eustaquio|25/100 brn
+|-unboost|p1a: Hydreigon|spa|2
+|move|p2a: eustaquio|Recover|p2a: eustaquio
+|-heal|p2a: eustaquio|76/100 brn
+|
+|-heal|p2a: eustaquio|82/100 brn|[from] item: Leftovers
+|-damage|p2a: eustaquio|76/100 brn|[from] brn
+|upkeep
+|turn|68
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: eustaquio
+|-damage|p2a: eustaquio|57/100 brn
+|-unboost|p1a: Hydreigon|spa|2
+|move|p2a: eustaquio|Ice Beam|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|69/100
+|
+|-heal|p2a: eustaquio|63/100 brn|[from] item: Leftovers
+|-damage|p2a: eustaquio|57/100 brn|[from] brn
+|upkeep
+|turn|69
+|
+|switch|p1a: Toxtricity|Toxtricity, M|16/100
+|move|p2a: eustaquio|Ice Beam|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|-heal|p2a: eustaquio|63/100 brn|[from] item: Leftovers
+|-damage|p2a: eustaquio|57/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|70
+|
+|move|p1a: Corviknight|Iron Head|p2a: eustaquio
+|-resisted|p2a: eustaquio
+|-damage|p2a: eustaquio|47/100 brn
+|move|p2a: eustaquio|Recover|p2a: eustaquio
+|-heal|p2a: eustaquio|97/100 brn
+|
+|-heal|p2a: eustaquio|100/100 brn|[from] item: Leftovers
+|-damage|p2a: eustaquio|94/100 brn|[from] brn
+|upkeep
+|turn|71
+|
+|move|p1a: Corviknight|U-turn|p2a: eustaquio
+|-resisted|p2a: eustaquio
+|-damage|p2a: eustaquio|88/100 brn
+|
+|switch|p1a: Hydreigon|Hydreigon, F|69/100|[from]move: U-turn
+|move|p2a: eustaquio|Ice Beam|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|42/100
+|
+|-heal|p2a: eustaquio|95/100 brn|[from] item: Leftovers
+|-damage|p2a: eustaquio|88/100 brn|[from] brn
+|upkeep
+|turn|72
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: eustaquio
+|-resisted|p2a: eustaquio
+|-damage|p2a: eustaquio|77/100 brn
+|-unboost|p2a: eustaquio|spd|1
+|move|p2a: eustaquio|Ice Beam|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|14/100
+|
+|-heal|p2a: eustaquio|83/100 brn|[from] item: Leftovers
+|-damage|p2a: eustaquio|77/100 brn|[from] brn
+|upkeep
+|turn|73
+|
+|move|p2a: eustaquio|Baneful Bunker|p2a: eustaquio
+|-singleturn|p2a: eustaquio|move: Protect
+|move|p1a: Hydreigon|Flash Cannon|p2a: eustaquio
+|-activate|p2a: eustaquio|move: Protect
+|
+|-heal|p2a: eustaquio|83/100 brn|[from] item: Leftovers
+|-damage|p2a: eustaquio|77/100 brn|[from] brn
+|upkeep
+|turn|74
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: eustaquio
+|-resisted|p2a: eustaquio
+|-damage|p2a: eustaquio|62/100 brn
+|move|p2a: eustaquio|Ice Beam|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-heal|p2a: eustaquio|68/100 brn|[from] item: Leftovers
+|-damage|p2a: eustaquio|62/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|turn|75
+|
+|move|p1a: Toxapex|Scald|p2a: eustaquio
+|-resisted|p2a: eustaquio
+|-damage|p2a: eustaquio|52/100 brn
+|move|p2a: eustaquio|Recover|p2a: eustaquio
+|-heal|p2a: eustaquio|100/100 brn
+|
+|-damage|p2a: eustaquio|94/100 brn|[from] brn
+|upkeep
+|turn|76
+|
+|move|p1a: Toxapex|Scald|p2a: eustaquio
+|-resisted|p2a: eustaquio
+|-damage|p2a: eustaquio|85/100 brn
+|move|p2a: eustaquio|Ice Beam|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|95/100
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|-heal|p2a: eustaquio|91/100 brn|[from] item: Leftovers
+|-damage|p2a: eustaquio|85/100 brn|[from] brn
+|upkeep
+|turn|77
+|
+|move|p1a: Toxapex|Scald|p2a: eustaquio
+|-resisted|p2a: eustaquio
+|-damage|p2a: eustaquio|74/100 brn
+|move|p2a: eustaquio|Ice Beam|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|95/100
+|-status|p1a: Toxapex|frz
+|
+|-heal|p1a: Toxapex|100/100 frz|[from] item: Black Sludge
+|-heal|p2a: eustaquio|81/100 brn|[from] item: Leftovers
+|-damage|p2a: eustaquio|74/100 brn|[from] brn
+|upkeep
+|turn|78
+|
+|switch|p2a: Pajero|Galvantula, M, shiny|45/100
+|-curestatus|p1a: Toxapex|frz|[from] move: Scald
+|move|p1a: Toxapex|Scald|p2a: Pajero
+|-damage|p2a: Pajero|15/100
+|
+|upkeep
+|turn|79
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Pajero|Thunder|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|upkeep
+|turn|80
+|
+|move|p2a: Pajero|Thunder|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|16/100
+|move|p1a: Toxapex|Scald|p2a: Pajero
+|-damage|p2a: Pajero|0 fnt
+|faint|p2a: Pajero
+|
+|-heal|p1a: Toxapex|22/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|81
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|82
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Corviknight
+|-damage|p1a: Corviknight|14/100
+|move|p1a: Corviknight|Iron Head|p2a: Dracovish
+|-resisted|p2a: Dracovish
+|-damage|p2a: Dracovish|88/100
+|
+|-heal|p1a: Corviknight|20/100|[from] item: Leftovers
+|upkeep
+|turn|83
+|c|☆Gato pobre|por puta
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|win|Gato pobre
+|c|☆WalmartPrices|suck u mumma
+|raw|WalmartPrices's rating: 1122 → 1099(-23 for losing)
+|raw|Gato pobre's rating: 1143 → 1166(+23 for winning)
+|l|☆WalmartPrices

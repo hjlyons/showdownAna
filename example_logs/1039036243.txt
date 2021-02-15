@@ -1,0 +1,171 @@
+|ScrapeTime|2020-01-01-06:24:45
+|j|☆Zd169
+|j|☆DreWanSki
+|player|p1|Zd169|lucas|1000
+|player|p2|DreWanSki|veteran|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Reuniclus, M|
+|poke|p1|Bisharp, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Mamoswine, F|
+|poke|p2|Clefable, F|
+|poke|p2|Machoke, F|
+|poke|p2|Togetic, F|
+|poke|p2|Sableye, M|
+|poke|p2|Grimmsnarl, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| yuvid
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Machoke|Machoke, F|100/100
+|turn|1
+|
+|move|p2a: Machoke|Bulk Up|p2a: Machoke
+|-boost|p2a: Machoke|atk|1
+|-boost|p2a: Machoke|def|1
+|move|p1a: Ferrothorn|Leech Seed|p2a: Machoke
+|-start|p2a: Machoke|move: Leech Seed
+|
+|-damage|p2a: Machoke|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|2
+|
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|move|p2a: Machoke|Knock Off|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|54/100
+|-enditem|p1a: Reuniclus|Leftovers|[from] move: Knock Off|[of] p2a: Machoke
+|
+|-damage|p2a: Machoke|76/100|[from] Leech Seed|[of] p1a: Reuniclus
+|-heal|p1a: Reuniclus|63/100|[silent]
+|upkeep
+|turn|3
+|
+|move|p2a: Machoke|Metronome|p2a: Machoke
+|move|p2a: Machoke|Sunny Day|p2a: Machoke|[from]Metronome
+|-weather|SunnyDay
+|move|p1a: Reuniclus|Acid Armor|p1a: Reuniclus
+|-boost|p1a: Reuniclus|def|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Machoke|64/100|[from] Leech Seed|[of] p1a: Reuniclus
+|-heal|p1a: Reuniclus|72/100|[silent]
+|upkeep
+|turn|4
+|
+|move|p2a: Machoke|Metronome|p2a: Machoke
+|move|p2a: Machoke|Role Play|p1a: Reuniclus|[from]Metronome
+|-endability|p2a: Machoke|Guts|[from] move: Role Play
+|-ability|p2a: Machoke|Magic Guard|[from] move: Role Play|[of] p1a: Reuniclus
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Machoke|Metronome|p2a: Machoke
+|move|p2a: Machoke|Thunderbolt|p1a: Reuniclus|[from]Metronome
+|-damage|p1a: Reuniclus|65/100
+|move|p1a: Reuniclus|Stored Power|p2a: Machoke
+|-supereffective|p2a: Machoke
+|-damage|p2a: Machoke|0 fnt
+|faint|p2a: Machoke
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Sableye|Sableye, M|100/100
+|turn|6
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Sableye|Calm Mind|p2a: Sableye
+|-boost|p2a: Sableye|spa|1
+|-boost|p2a: Sableye|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Togetic|Togetic, F|100/100
+|move|p1a: Grimmsnarl|Substitute|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|Substitute
+|-damage|p1a: Grimmsnarl|76/100
+|
+|-weather|none
+|-heal|p1a: Grimmsnarl|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|move|p2a: Togetic|Ancient Power|p1a: Grimmsnarl
+|-activate|p1a: Grimmsnarl|move: Substitute|[damage]
+|
+|-heal|p1a: Grimmsnarl|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Togetic
+|-damage|p2a: Togetic|63/100
+|-unboost|p2a: Togetic|spa|1
+|move|p2a: Togetic|Ancient Power|p1a: Grimmsnarl
+|-activate|p1a: Grimmsnarl|move: Substitute|[damage]
+|
+|-heal|p1a: Grimmsnarl|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|move|p2a: Togetic|Ancient Power|p1a: Grimmsnarl
+|-end|p1a: Grimmsnarl|Substitute
+|
+|-heal|p1a: Grimmsnarl|99/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Grimmsnarl|Substitute|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|Substitute
+|-damage|p1a: Grimmsnarl|75/100
+|move|p2a: Togetic|Tri Attack|p1a: Grimmsnarl
+|-crit|p1a: Grimmsnarl
+|-activate|p1a: Grimmsnarl|move: Substitute|[damage]
+|
+|-heal|p1a: Grimmsnarl|81/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|c|☆DreWanSki|bruh
+|c|☆DreWanSki|come on
+|c|☆DreWanSki|i got a troll/shit team
+|c|☆DreWanSki|and ur try harding me
+|c|☆DreWanSki|D:
+|c|☆DreWanSki|suck a willy lol
+|c|☆DreWanSki|bye
+|c|☆Zd169|Sorry
+|-message|DreWanSki forfeited.
+|
+|win|Zd169
+|l|☆DreWanSki
+|raw|Zd169's rating: 1000 → 1040(+40 for winning)
+|raw|DreWanSki's rating: 1000 → 1000(+0 for losing)

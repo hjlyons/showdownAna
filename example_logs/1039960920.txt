@@ -1,0 +1,1429 @@
+|ScrapeTime|2020-01-03-00:58:24
+|j|☆PC-104-1N18
+|j|☆info wars 3
+|player|p1|PC-104-1N18|170|1436
+|player|p2|info wars 3|boarder|1492
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Dracovish|
+|poke|p1|Aegislash, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Salazzle, F|
+|poke|p2|Aegislash, F|
+|poke|p2|Obstagoon, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Mimikyu, F|
+|poke|p2|Mandibuzz, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by info wars 3)
+|inactive|PC-104-1N18 has 120 seconds left.
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Mimikyu|Mimikyu, F|100/100
+|turn|1
+|
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Salazzle|[miss]
+|-miss|p1a: Ferrothorn|p2a: Salazzle
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Salazzle|Toxic|p1a: Mandibuzz
+|-status|p1a: Mandibuzz|tox
+|
+|-damage|p1a: Mandibuzz|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Salazzle|Substitute|p2a: Salazzle
+|-start|p2a: Salazzle|Substitute
+|-damage|p2a: Salazzle|76/100
+|move|p1a: Mandibuzz|U-turn|p2a: Salazzle
+|-resisted|p2a: Salazzle
+|-activate|p2a: Salazzle|move: Substitute|[damage]
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from]move: U-turn
+|
+|-heal|p2a: Salazzle|82/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|switch|p2a: Mimikyu|Mimikyu, F|100/100
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|-damage|p2a: Mimikyu|91/100|[from] item: Life Orb
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Mimikyu
+|
+|-heal|p1a: Dragapult|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Obstagoon|Obstagoon, F|100/100
+|move|p1a: Dragapult|Phantom Force|p2a: Obstagoon|[from]lockedmove
+|-immune|p2a: Obstagoon
+|
+|-heal|p1a: Dragapult|94/100|[from] item: Leftovers
+|-status|p2a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Obstagoon|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|69/100
+|-damage|p2a: Obstagoon|88/100 brn|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p2a: Obstagoon
+|
+|-damage|p2a: Obstagoon|82/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p2a: Obstagoon|Fire Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Obstagoon|70/100 brn|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-damage|p2a: Obstagoon|64/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|9
+|
+|move|p2a: Obstagoon|Obstruct|p2a: Obstagoon
+|-singleturn|p2a: Obstagoon|Protect
+|move|p1a: Dracovish|Fishious Rend|p2a: Obstagoon
+|-activate|p2a: Obstagoon|move: Protect
+|-unboost|p1a: Dracovish|def|2
+|
+|-damage|p2a: Obstagoon|58/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|71/100
+|
+|-heal|p2a: Toxapex|77/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|move|p2a: Toxapex|Toxic|p1a: Aegislash
+|-immune|p1a: Aegislash
+|
+|-heal|p2a: Toxapex|84/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|switch|p2a: Salazzle|Salazzle, F|82/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|upkeep
+|
+|switch|p2a: Mimikyu|Mimikyu, F|91/100
+|turn|13
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|move|p1a: Toxapex|Scald|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|91/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F
+|-damage|p2a: Mimikyu|78/100|[from] ability: Disguise|[of] p2a: Mimikyu
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Mimikyu|Play Rough|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|54/100
+|-damage|p2a: Mimikyu|68/100|[from] item: Life Orb
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Toxapex|61/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|move|p1a: Toxapex|Scald|p2a: Aegislash
+|-damage|p2a: Aegislash|88/100
+|-status|p2a: Aegislash|brn
+|
+|-heal|p1a: Toxapex|67/100|[from] item: Black Sludge
+|-damage|p2a: Aegislash|81/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|28/100
+|move|p1a: Toxapex|Scald|p2a: Aegislash
+|-damage|p2a: Aegislash|50/100 brn
+|
+|-heal|p1a: Toxapex|34/100|[from] item: Black Sludge
+|-damage|p2a: Aegislash|44/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|94/100 tox
+|move|p2a: Aegislash|Shadow Ball|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|80/100 tox
+|
+|-damage|p1a: Mandibuzz|74/100 tox|[from] psn
+|-damage|p2a: Aegislash|38/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|-formechange|p2a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Mandibuzz|U-turn|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|-unboost|p1a: Mandibuzz|atk|1
+|
+|-damage|p1a: Mandibuzz|62/100 tox|[from] psn
+|-damage|p2a: Aegislash|32/100 brn|[from] brn
+|upkeep
+|turn|20
+|inactive|info wars 3 has 120 seconds left.
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 tox
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Mandibuzz|82/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|move|p1a: Mandibuzz|U-turn|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|95/100
+|
+|switch|p1a: Toxapex|Toxapex, M|68/100|[from]move: U-turn
+|move|p2a: Mandibuzz|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|53/100
+|-enditem|p1a: Toxapex|Black Sludge|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Aegislash|Aegislash, F|32/100 brn
+|move|p1a: Toxapex|Scald|p2a: Aegislash
+|-damage|p2a: Aegislash|19/100 brn
+|
+|-damage|p2a: Aegislash|13/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|10/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|60/100
+|
+|-damage|p2a: Aegislash|6/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p2a: Obstagoon|Obstagoon, F|58/100 brn
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|-damage|p2a: Obstagoon|52/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p2a: Obstagoon|Facade|p1a: Toxapex
+|-damage|p1a: Toxapex|49/100
+|move|p1a: Toxapex|Scald|p2a: Obstagoon
+|-damage|p2a: Obstagoon|31/100 brn
+|
+|-damage|p2a: Obstagoon|25/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|82/100 tox
+|move|p2a: Obstagoon|Knock Off|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|60/100 tox
+|-enditem|p1a: Mandibuzz|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Obstagoon
+|
+|-damage|p2a: Obstagoon|19/100 brn|[from] brn
+|-damage|p1a: Mandibuzz|54/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|move|p2a: Obstagoon|Facade|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|-damage|p2a: Obstagoon|13/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|94/100
+|turn|28
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|95/100
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|69/100
+|
+|-heal|p1a: Dragapult|75/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|73/100
+|-damage|p2a: Mandibuzz|51/100
+|-hitcount|p2a: Mandibuzz|2
+|move|p2a: Mandibuzz|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|81/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|move|p2a: Mandibuzz|Knock Off|p1a: Dracovish
+|-damage|p1a: Dracovish|77/100
+|-enditem|p1a: Dracovish|Choice Scarf|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|31
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|67/100
+|
+|-heal|p2a: Toxapex|73/100|[from] item: Black Sludge
+|upkeep
+|turn|32
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|move|p2a: Toxapex|Scald|p1a: Aegislash
+|-damage|p1a: Aegislash|84/100
+|-status|p1a: Aegislash|brn
+|
+|-heal|p2a: Toxapex|79/100|[from] item: Black Sludge
+|-damage|p1a: Aegislash|78/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|14/100
+|move|p2a: Toxapex|Scald|p1a: Aegislash
+|-damage|p1a: Aegislash|41/100 brn
+|
+|-heal|p2a: Toxapex|21/100|[from] item: Black Sludge
+|-damage|p1a: Aegislash|35/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|switch|p1a: Dragapult|Dragapult, F|81/100
+|move|p2a: Toxapex|Baneful Bunker||[still]
+|-fail|p2a: Toxapex
+|
+|-heal|p1a: Dragapult|87/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|27/100|[from] item: Black Sludge
+|upkeep
+|turn|35
+|
+|switch|p2a: Mimikyu|Mimikyu-Busted, F|68/100
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|62/100
+|
+|-heal|p1a: Dragapult|68/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|switch|p1a: Toxapex|Toxapex, M|82/100
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Toxapex
+|-damage|p1a: Toxapex|70/100
+|-damage|p2a: Mimikyu|58/100|[from] item: Life Orb
+|
+|upkeep
+|turn|37
+|
+|switch|p2a: Toxapex|Toxapex, F|60/100
+|move|p1a: Toxapex|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|52/100
+|
+|-heal|p2a: Toxapex|59/100|[from] item: Black Sludge
+|upkeep
+|turn|38
+|
+|move|p1a: Toxapex|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|52/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|upkeep
+|turn|39
+|
+|move|p1a: Toxapex|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|93/100
+|move|p2a: Toxapex|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|63/100
+|-status|p1a: Toxapex|brn
+|
+|-heal|p2a: Toxapex|99/100|[from] item: Black Sludge
+|-damage|p1a: Toxapex|56/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|move|p2a: Toxapex|Toxic||[still]
+|-fail|p2a: Toxapex
+|move|p1a: Toxapex|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|92/100
+|
+|-heal|p2a: Toxapex|99/100|[from] item: Black Sludge
+|-damage|p1a: Toxapex|50/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|move|p2a: Toxapex|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|44/100 brn
+|move|p1a: Toxapex|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|92/100
+|
+|-heal|p2a: Toxapex|98/100|[from] item: Black Sludge
+|-damage|p1a: Toxapex|37/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|87/100 brn
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p1a: Toxapex|81/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|51/100
+|move|p1a: Toxapex|Scald|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|40/100
+|
+|-damage|p1a: Toxapex|75/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|90/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Toxapex|Toxic|p2a: Mandibuzz
+|-status|p2a: Mandibuzz|tox
+|
+|-damage|p2a: Mandibuzz|84/100 tox|[from] psn
+|-damage|p1a: Toxapex|69/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|switch|p1a: Dracovish|Dracovish|77/100
+|
+|upkeep
+|turn|46
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100 brn
+|move|p2a: Toxapex|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|93/100 brn
+|
+|-damage|p1a: Toxapex|87/100 brn|[from] brn
+|upkeep
+|turn|47
+|c|☆info wars 3|u have no.black.sludge
+|c|☆info wars 3|u cant win
+|
+|move|p1a: Toxapex|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|93/100
+|move|p2a: Toxapex|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|80/100 brn
+|
+|-heal|p2a: Toxapex|99/100|[from] item: Black Sludge
+|-damage|p1a: Toxapex|74/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|move|p2a: Toxapex|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|63/100 brn
+|move|p1a: Toxapex|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|93/100
+|
+|-heal|p2a: Toxapex|99/100|[from] item: Black Sludge
+|-damage|p1a: Toxapex|57/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|move|p2a: Toxapex|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|51/100 brn
+|move|p1a: Toxapex|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|92/100
+|
+|-heal|p2a: Toxapex|98/100|[from] item: Black Sludge
+|-damage|p1a: Toxapex|45/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|95/100 brn
+|move|p2a: Toxapex|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|88/100 brn
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p1a: Toxapex|81/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Toxapex|Scald|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-damage|p1a: Toxapex|75/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|move|p2a: Toxapex|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|69/100 brn
+|move|p1a: Toxapex|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|94/100
+|
+|-heal|p2a: Toxapex|99/100|[from] item: Black Sludge
+|-damage|p1a: Toxapex|62/100 brn|[from] brn
+|upkeep
+|turn|53
+|
+|move|p1a: Toxapex|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|94/100
+|move|p2a: Toxapex|Toxic||[still]
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|99/100|[from] item: Black Sludge
+|-damage|p1a: Toxapex|56/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100 brn
+|move|p2a: Toxapex|Toxic||[still]
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|move|p2a: Toxapex|Toxic||[still]
+|-fail|p2a: Toxapex
+|move|p1a: Toxapex|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|93/100
+|
+|-heal|p2a: Toxapex|99/100|[from] item: Black Sludge
+|-damage|p1a: Toxapex|88/100 brn|[from] brn
+|upkeep
+|turn|56
+|
+|move|p2a: Toxapex|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|81/100 brn
+|move|p1a: Toxapex|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|93/100
+|-status|p2a: Toxapex|brn
+|
+|-heal|p2a: Toxapex|99/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|93/100 brn|[from] brn
+|-damage|p1a: Toxapex|75/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|switch|p1a: Aegislash|Aegislash, M|35/100 brn
+|move|p2a: Toxapex|Toxic||[still]
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|99/100 brn|[from] item: Black Sludge
+|-damage|p1a: Aegislash|29/100 brn|[from] brn
+|-damage|p2a: Toxapex|93/100 brn|[from] brn
+|upkeep
+|turn|58
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|30/100 brn
+|move|p2a: Toxapex|Scald|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|-heal|p2a: Toxapex|36/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|30/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|68/100
+|turn|59
+|
+|switch|p2a: Mimikyu|Mimikyu-Busted, F|58/100
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|43/100
+|
+|-heal|p1a: Dragapult|49/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|-damage|p2a: Mimikyu|48/100|[from] item: Life Orb
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Mimikyu
+|
+|-heal|p1a: Dragapult|55/100|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|switch|p2a: Obstagoon|Obstagoon, F|13/100 brn
+|move|p1a: Dragapult|Phantom Force|p2a: Obstagoon|[from]lockedmove
+|-immune|p2a: Obstagoon
+|
+|-heal|p1a: Dragapult|61/100|[from] item: Leftovers
+|-damage|p2a: Obstagoon|7/100 brn|[from] brn
+|upkeep
+|turn|62
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|36/100
+|move|p2a: Obstagoon|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|42/100|[from] item: Leftovers
+|-damage|p2a: Obstagoon|1/100 brn|[from] brn
+|upkeep
+|turn|63
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Obstagoon
+|-damage|p2a: Obstagoon|0 fnt
+|-hitcount|p2a: Obstagoon|1
+|faint|p2a: Obstagoon
+|
+|-heal|p1a: Dragapult|48/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, F|6/100 brn
+|turn|64
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100 brn
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|58/100 brn
+|
+|-damage|p2a: Aegislash|0 fnt|[from] brn
+|faint|p2a: Aegislash
+|-damage|p1a: Toxapex|51/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, F|63/100 brn
+|turn|65
+|
+|switch|p1a: Dracovish|Dracovish|77/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100 brn
+|
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|66
+|
+|move|p1a: Dracovish|Psychic Fangs|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|54/100 brn
+|move|p2a: Toxapex|Toxic|p1a: Dracovish
+|-status|p1a: Dracovish|tox
+|
+|-heal|p2a: Toxapex|60/100 brn|[from] item: Black Sludge
+|-damage|p1a: Dracovish|71/100 tox|[from] psn
+|-damage|p2a: Toxapex|54/100 brn|[from] brn
+|upkeep
+|turn|67
+|
+|move|p1a: Dracovish|Psychic Fangs|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|12/100 brn
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|62/100 brn
+|
+|-heal|p2a: Toxapex|68/100 brn|[from] item: Black Sludge
+|-damage|p1a: Dracovish|58/100 tox|[from] psn
+|-damage|p2a: Toxapex|62/100 brn|[from] brn
+|upkeep
+|turn|68
+|
+|switch|p1a: Dragapult|Dragapult, F|48/100
+|move|p2a: Toxapex|Baneful Bunker||[still]
+|-fail|p2a: Toxapex
+|
+|-heal|p1a: Dragapult|54/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|68/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|62/100 brn|[from] brn
+|upkeep
+|turn|69
+|
+|switch|p2a: Mimikyu|Mimikyu-Busted, F|48/100
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|29/100
+|
+|-heal|p1a: Dragapult|35/100|[from] item: Leftovers
+|upkeep
+|turn|70
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|-damage|p2a: Mimikyu|38/100|[from] item: Life Orb
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Mimikyu
+|
+|-heal|p1a: Dragapult|41/100|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|switch|p2a: Toxapex|Toxapex, F|95/100 brn
+|move|p1a: Dragapult|Phantom Force|p2a: Toxapex|[from]lockedmove
+|-damage|p2a: Toxapex|63/100 brn
+|
+|-heal|p1a: Dragapult|47/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|70/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|63/100 brn|[from] brn
+|upkeep
+|turn|72
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|84/100 tox
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|22/100
+|
+|-heal|p1a: Dragapult|28/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|78/100 tox|[from] psn
+|upkeep
+|turn|73
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|59/100 tox
+|-damage|p2a: Mandibuzz|36/100 tox
+|-hitcount|p2a: Mandibuzz|2
+|move|p2a: Mandibuzz|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|34/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|23/100 tox|[from] psn
+|upkeep
+|turn|74
+|
+|switch|p2a: Mimikyu|Mimikyu-Busted, F|38/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Mimikyu
+|-immune|p2a: Mimikyu
+|
+|-heal|p1a: Dragapult|40/100|[from] item: Leftovers
+|upkeep
+|turn|75
+|
+|switch|p1a: Toxapex|Toxapex, M|85/100 brn
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Toxapex
+|-damage|p1a: Toxapex|73/100 brn
+|-damage|p2a: Mimikyu|28/100|[from] item: Life Orb
+|
+|-damage|p1a: Toxapex|67/100 brn|[from] brn
+|upkeep
+|turn|76
+|
+|switch|p1a: Dracovish|Dracovish|58/100 tox
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|
+|-damage|p1a: Dracovish|52/100 tox|[from] psn
+|upkeep
+|turn|77
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Dracovish
+|-crit|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|-damage|p2a: Mimikyu|18/100|[from] item: Life Orb
+|faint|p1a: Dracovish
+|
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, M|99/100 brn
+|turn|78
+|
+|switch|p2a: Toxapex|Toxapex, F|97/100 brn
+|move|p1a: Toxapex|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|89/100 brn
+|
+|-heal|p2a: Toxapex|95/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|-damage|p2a: Toxapex|89/100 brn|[from] brn
+|upkeep
+|turn|79
+|
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|move|p2a: Toxapex|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|87/100 brn
+|
+|-heal|p2a: Toxapex|95/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|80/100 brn|[from] brn
+|-damage|p2a: Toxapex|89/100 brn|[from] brn
+|upkeep
+|turn|80
+|
+|switch|p2a: Mimikyu|Mimikyu-Busted, F|18/100
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p1a: Toxapex|74/100 brn|[from] brn
+|upkeep
+|turn|81
+|
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|move|p1a: Toxapex|Toxic|p2a: Mimikyu
+|-status|p2a: Mimikyu|tox
+|
+|-damage|p2a: Mimikyu|12/100 tox|[from] psn
+|-damage|p1a: Toxapex|68/100 brn|[from] brn
+|upkeep
+|turn|82
+|
+|move|p2a: Mimikyu|Play Rough|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|38/100 brn
+|-damage|p2a: Mimikyu|2/100 tox|[from] item: Life Orb
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: Mimikyu|0 fnt|[from] psn
+|faint|p2a: Mimikyu
+|-damage|p1a: Toxapex|31/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|turn|83
+|
+|move|p2a: Toxapex|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|25/100 brn
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|75/100 brn
+|
+|-damage|p1a: Toxapex|69/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|84
+|
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|move|p2a: Toxapex|Toxic||[still]
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|63/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|85
+|
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|move|p2a: Toxapex|Toxic||[still]
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|56/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|86
+|
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|move|p2a: Toxapex|Toxic||[still]
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|50/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|87
+|c|☆info wars 3|ur a scrub
+|
+|move|p2a: Toxapex|Toxic||[still]
+|-fail|p2a: Toxapex
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|99/100 brn
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|88
+|
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|move|p2a: Toxapex|Toxic||[still]
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|88/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|89
+|
+|move|p2a: Toxapex|Toxic||[still]
+|-fail|p2a: Toxapex
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|81/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|90
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|75/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|91
+|
+|move|p2a: Toxapex|Baneful Bunker||[still]
+|-fail|p2a: Toxapex
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|69/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|92
+|
+|move|p2a: Toxapex|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|62/100 brn
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|56/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|93
+|
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|move|p2a: Toxapex|Toxic||[still]
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|50/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|94
+|
+|move|p2a: Toxapex|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|43/100 brn
+|move|p1a: Toxapex|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|88/100 brn
+|
+|-heal|p2a: Toxapex|94/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|36/100 brn|[from] brn
+|-damage|p2a: Toxapex|88/100 brn|[from] brn
+|upkeep
+|turn|95
+|
+|move|p2a: Toxapex|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|29/100 brn
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|79/100 brn
+|
+|-heal|p2a: Toxapex|94/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|73/100 brn|[from] brn
+|-damage|p2a: Toxapex|88/100 brn|[from] brn
+|upkeep
+|turn|96
+|
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|move|p2a: Toxapex|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|66/100 brn
+|
+|-heal|p2a: Toxapex|94/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|59/100 brn|[from] brn
+|-damage|p2a: Toxapex|88/100 brn|[from] brn
+|upkeep
+|turn|97
+|inactive|info wars 3 has 120 seconds left.
+|
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|move|p2a: Toxapex|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|53/100 brn
+|
+|-heal|p2a: Toxapex|94/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|47/100 brn|[from] brn
+|-damage|p2a: Toxapex|88/100 brn|[from] brn
+|upkeep
+|turn|98
+|inactive|info wars 3 has 120 seconds left.
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|97/100 brn
+|
+|-heal|p2a: Toxapex|94/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|90/100 brn|[from] brn
+|-damage|p2a: Toxapex|88/100 brn|[from] brn
+|upkeep
+|turn|99
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|94/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|84/100 brn|[from] brn
+|-damage|p2a: Toxapex|88/100 brn|[from] brn
+|upkeep
+|turn|100
+|
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100 brn
+|
+|-damage|p1a: Toxapex|78/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|101
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|72/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|102
+|
+|move|p2a: Toxapex|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|65/100 brn
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|58/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|103
+|
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|move|p2a: Toxapex|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|52/100 brn
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|46/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|104
+|inactive|info wars 3 has 90 seconds left.
+|
+|move|p2a: Toxapex|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|39/100 brn
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|89/100 brn
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|83/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|105
+|inactive|info wars 3 has 90 seconds left.
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Toxapex|Scald|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|76/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|106
+|
+|move|p2a: Toxapex|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|69/100 brn
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|63/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|107
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|57/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|108
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|23/100 tox
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: Mandibuzz|17/100 tox|[from] psn
+|-damage|p1a: Toxapex|50/100 brn|[from] brn
+|upkeep
+|turn|109
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|67/100 tox
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Toxapex|Scald|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|57/100 tox
+|
+|-damage|p2a: Mandibuzz|45/100 tox|[from] psn
+|-damage|p1a: Toxapex|44/100 brn|[from] brn
+|upkeep
+|turn|110
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|95/100 tox
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|94/100 brn
+|
+|-damage|p2a: Mandibuzz|77/100 tox|[from] psn
+|-damage|p1a: Toxapex|88/100 brn|[from] brn
+|upkeep
+|turn|111
+|inactive|info wars 3 has 60 seconds left.
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p1a: Toxapex|82/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|112
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|77/100 tox
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: Mandibuzz|71/100 tox|[from] psn
+|-damage|p1a: Toxapex|75/100 brn|[from] brn
+|upkeep
+|turn|113
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|move|p1a: Toxapex|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|93/100 brn
+|
+|-heal|p2a: Toxapex|99/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|69/100 brn|[from] brn
+|-damage|p2a: Toxapex|93/100 brn|[from] brn
+|upkeep
+|turn|114
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|71/100 tox
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: Mandibuzz|64/100 tox|[from] psn
+|-damage|p1a: Toxapex|63/100 brn|[from] brn
+|upkeep
+|turn|115
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100 tox
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: Mandibuzz|88/100 tox|[from] psn
+|-damage|p1a: Toxapex|57/100 brn|[from] brn
+|upkeep
+|turn|116
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|move|p1a: Toxapex|Toxic||[still]
+|-fail|p1a: Toxapex
+|
+|-damage|p1a: Toxapex|50/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|117
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|88/100 tox
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: Mandibuzz|82/100 tox|[from] psn
+|-damage|p1a: Toxapex|44/100 brn|[from] brn
+|upkeep
+|turn|118
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|94/100 brn
+|
+|-damage|p1a: Toxapex|88/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|119
+|inactive|info wars 3 has 30 seconds left.
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|82/100 tox
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: Mandibuzz|76/100 tox|[from] psn
+|-damage|p1a: Toxapex|82/100 brn|[from] brn
+|upkeep
+|turn|120
+|inactive|info wars 3 has 30 seconds left.
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100 tox
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: Mandibuzz|88/100 tox|[from] psn
+|-damage|p1a: Toxapex|75/100 brn|[from] brn
+|upkeep
+|turn|121
+|inactive|info wars 3 has 30 seconds left.
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p1a: Toxapex|69/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|122
+|inactive|info wars 3 has 30 seconds left this turn.
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|88/100 tox
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: Mandibuzz|82/100 tox|[from] psn
+|-damage|p1a: Toxapex|63/100 brn|[from] brn
+|upkeep
+|turn|123
+|inactive|info wars 3 has 30 seconds left this turn.
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100 tox
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: Mandibuzz|88/100 tox|[from] psn
+|-damage|p1a: Toxapex|57/100 brn|[from] brn
+|upkeep
+|turn|124
+|inactive|info wars 3 has 30 seconds left this turn.
+|inactive|info wars 3 has 20 seconds left.
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p1a: Toxapex|50/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|125
+|inactive|info wars 3 has 25 seconds left this turn.
+|inactive|info wars 3 has 20 seconds left.
+|
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100 brn
+|move|p2a: Toxapex|Scald|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|93/100 brn
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|87/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|126
+|inactive|info wars 3 has 25 seconds left this turn.
+|inactive|info wars 3 has 20 seconds left.
+|inactive|info wars 3 has 15 seconds left.
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|88/100 tox
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: Mandibuzz|82/100 tox|[from] psn
+|-damage|p1a: Toxapex|81/100 brn|[from] brn
+|upkeep
+|turn|127
+|inactive|info wars 3 has 20 seconds left this turn.
+|inactive|info wars 3 has 15 seconds left.
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100 tox
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Toxapex|Toxic|p2a: Mandibuzz
+|-fail|p2a: Mandibuzz|tox
+|
+|-damage|p2a: Mandibuzz|88/100 tox|[from] psn
+|-damage|p1a: Toxapex|75/100 brn|[from] brn
+|upkeep
+|turn|128
+|inactive|info wars 3 has 20 seconds left this turn.
+|inactive|info wars 3 has 15 seconds left.
+|inactive|info wars 3 has 10 seconds left.
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|switch|p1a: Dragapult|Dragapult, F|40/100
+|
+|-heal|p1a: Dragapult|46/100|[from] item: Leftovers
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|129
+|inactive|info wars 3 has 15 seconds left this turn.
+|inactive|info wars 3 has 10 seconds left.
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|21/100
+|move|p2a: Toxapex|Toxic||[still]
+|-fail|p2a: Toxapex
+|
+|-heal|p1a: Dragapult|27/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|130
+|inactive|info wars 3 has 15 seconds left this turn.
+|inactive|info wars 3 has 10 seconds left.
+|inactive|info wars 3 has 5 seconds left.
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|88/100 tox
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|
+|-heal|p1a: Dragapult|33/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|82/100 tox|[from] psn
+|upkeep
+|turn|131
+|inactive|info wars 3 has 10 seconds left this turn.
+|inactive|info wars 3 has 5 seconds left.
+|c|☆PC-104-1N18|gg thx for playing
+|-message|info wars 3 lost due to inactivity.
+|
+|win|PC-104-1N18
+|l|☆info wars 3
+|raw|PC-104-1N18's rating: 1436 → 1458(+22 for winning)
+|raw|info wars 3's rating: 1473 → 1451(-22 for losing)

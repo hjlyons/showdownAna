@@ -1,0 +1,319 @@
+|ScrapeTime|2020-01-01-12:12:34
+|j|☆Brighteyes Hope
+|j|☆Reyamm
+|player|p1|Brighteyes Hope|parasollady|1132
+|player|p2|Reyamm|linebacker|1088
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Togekiss, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Snorlax, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Mimikyu, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Gyarados, M|
+|poke|p2|Dugtrio, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Togekiss, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Stella|Toxapex, F|100/100
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Reyamm)
+|
+|move|p2a: Dugtrio|Stealth Rock|p1a: Stella
+|-sidestart|p1: Brighteyes Hope|move: Stealth Rock
+|move|p1a: Stella|Liquidation|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-enditem|p2a: Dugtrio|Focus Sash
+|-damage|p2a: Dugtrio|1/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Stella|Baneful Bunker|p1a: Stella
+|-singleturn|p1a: Stella|move: Protect
+|move|p2a: Dugtrio|Reversal|p1a: Stella
+|-activate|p1a: Stella|move: Protect
+|-status|p2a: Dugtrio|psn
+|
+|-damage|p2a: Dugtrio|0 fnt|[from] psn
+|faint|p2a: Dugtrio
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|turn|3
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Stella|Toxic|p2a: Gyarados
+|-status|p2a: Gyarados|tox
+|
+|-damage|p2a: Gyarados|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Stella|Venoshock|p2a: Gyarados
+|-damage|p2a: Gyarados|65/100 tox
+|
+|-damage|p2a: Gyarados|53/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p1a: Stella|Baneful Bunker|p1a: Stella
+|-singleturn|p1a: Stella|move: Protect
+|move|p2a: Gyarados|Power Whip|p1a: Stella
+|-activate|p1a: Stella|move: Protect
+|
+|-damage|p2a: Gyarados|35/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p2a: Gyarados|Power Whip|p1a: Stella
+|-damage|p1a: Stella|45/100
+|move|p1a: Stella|Venoshock|p2a: Gyarados
+|-damage|p2a: Gyarados|6/100 tox
+|
+|-heal|p1a: Stella|51/100|[from] item: Black Sludge
+|-damage|p2a: Gyarados|0 fnt|[from] psn
+|faint|p2a: Gyarados
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|7
+|
+|switch|p1a: Struggle|Excadrill, M|100/100
+|-damage|p1a: Struggle|97/100|[from] Stealth Rock
+|-ability|p1a: Struggle|Mold Breaker
+|move|p2a: Ferrothorn|Leech Seed|p1a: Struggle|[miss]
+|-miss|p2a: Ferrothorn|p1a: Struggle
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Struggle|Hone Claws|p1a: Struggle
+|-boost|p1a: Struggle|atk|1
+|-boost|p1a: Struggle|accuracy|1
+|move|p2a: Ferrothorn|Power Whip|p1a: Struggle|[miss]
+|-miss|p2a: Ferrothorn|p1a: Struggle
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Struggle|Hone Claws|p1a: Struggle
+|-boost|p1a: Struggle|atk|1
+|-boost|p1a: Struggle|accuracy|1
+|move|p2a: Ferrothorn|Leech Seed|p1a: Struggle
+|-start|p1a: Struggle|move: Leech Seed
+|
+|-damage|p1a: Struggle|85/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|10
+|
+|move|p1a: Struggle|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|88/100
+|-damage|p1a: Struggle|73/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-end|p1a: Struggle|Leech Seed|[from] move: Rapid Spin|[of] p1a: Struggle
+|-sideend|p1: Brighteyes Hope|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Struggle
+|-boost|p1a: Struggle|spe|1
+|move|p2a: Ferrothorn|Power Whip|p1a: Struggle|[miss]
+|-miss|p2a: Ferrothorn|p1a: Struggle
+|
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Struggle|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|25/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Struggle
+|-damage|p1a: Struggle|34/100
+|
+|-heal|p2a: Ferrothorn|31/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|move|p1a: Struggle|Earthquake|p2a: Togekiss
+|-immune|p2a: Togekiss
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Struggle|Iron Head|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|upkeep
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|turn|14
+|
+|move|p1a: Struggle|Iron Head|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|51/100
+|-ability|p2a: Mandibuzz|Weak Armor|boost
+|-unboost|p2a: Mandibuzz|def|1
+|-boost|p2a: Mandibuzz|spe|2
+|move|p2a: Mandibuzz|Foul Play|p1a: Struggle
+|-damage|p1a: Struggle|0 fnt
+|faint|p1a: Struggle
+|
+|-heal|p2a: Mandibuzz|57/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Sky|Togekiss, F|100/100
+|turn|15
+|
+|move|p2a: Mandibuzz|U-turn|p1a: Sky
+|-resisted|p1a: Sky
+|-damage|p1a: Sky|97/100
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from]move: U-turn
+|move|p1a: Sky|Ancient Power|p2a: Dragapult
+|-damage|p2a: Dragapult|73/100
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Dragapult|Thunderbolt|p1a: Sky
+|-supereffective|p1a: Sky
+|-damage|p1a: Sky|20/100
+|-enditem|p1a: Sky|Weakness Policy
+|-boost|p1a: Sky|atk|2
+|-boost|p1a: Sky|spa|2
+|move|p1a: Sky|Draining Kiss|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-heal|p1a: Sky|76/100|[from] drain|[of] p2a: Dragapult
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|31/100
+|turn|17
+|
+|move|p1a: Sky|Ancient Power|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|14/100
+|-boost|p1a: Sky|atk|1
+|-boost|p1a: Sky|def|1
+|-boost|p1a: Sky|spa|1
+|-boost|p1a: Sky|spd|1
+|-boost|p1a: Sky|spe|1
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Sky
+|-supereffective|p1a: Sky
+|-damage|p1a: Sky|0 fnt
+|faint|p1a: Sky
+|
+|-heal|p2a: Ferrothorn|20/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Koji|Snorlax, M|100/100
+|turn|18
+|
+|move|p1a: Koji|Curse|p1a: Koji
+|-unboost|p1a: Koji|spe|1
+|-boost|p1a: Koji|atk|1
+|-boost|p1a: Koji|def|1
+|move|p2a: Ferrothorn|Leech Seed|p1a: Koji
+|-start|p1a: Koji|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|27/100|[from] item: Leftovers
+|-damage|p1a: Koji|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|49/100|[silent]
+|upkeep
+|turn|19
+|
+|move|p1a: Koji|Brick Break|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Koji|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Koji|82/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|57/100
+|turn|20
+|
+|move|p2a: Mandibuzz|Foul Play|p1a: Koji
+|-damage|p1a: Koji|34/100
+|move|p1a: Koji|Ice Punch|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|14/100
+|-ability|p2a: Mandibuzz|Weak Armor|boost
+|-unboost|p2a: Mandibuzz|def|1
+|-boost|p2a: Mandibuzz|spe|2
+|
+|-heal|p2a: Mandibuzz|20/100|[from] item: Leftovers
+|-heal|p1a: Koji|40/100|[from] item: Leftovers
+|-damage|p1a: Koji|28/100|[from] Leech Seed|[of] p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|36/100|[silent]
+|upkeep
+|turn|21
+|
+|move|p2a: Mandibuzz|Foul Play|p1a: Koji
+|-damage|p1a: Koji|0 fnt
+|faint|p1a: Koji
+|
+|-heal|p2a: Mandibuzz|42/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Stella|Toxapex, F|84/100
+|turn|22
+|
+|move|p2a: Mandibuzz|Foul Play|p1a: Stella
+|-damage|p1a: Stella|71/100
+|move|p1a: Stella|Toxic|p2a: Mandibuzz
+|-status|p2a: Mandibuzz|tox
+|
+|-heal|p2a: Mandibuzz|48/100 tox|[from] item: Leftovers
+|-heal|p1a: Stella|77/100|[from] item: Black Sludge
+|-damage|p2a: Mandibuzz|42/100 tox|[from] psn
+|upkeep
+|turn|23
+|c|☆Reyamm|gg
+|
+|move|p2a: Mandibuzz|Foul Play|p1a: Stella
+|-damage|p1a: Stella|63/100
+|move|p1a: Stella|Venoshock|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|18/100 tox
+|
+|-heal|p2a: Mandibuzz|25/100 tox|[from] item: Leftovers
+|-heal|p1a: Stella|69/100|[from] item: Black Sludge
+|-damage|p2a: Mandibuzz|12/100 tox|[from] psn
+|upkeep
+|turn|24
+|c|☆Brighteyes Hope|good game ^^
+|
+|move|p2a: Mandibuzz|Foul Play|p1a: Stella
+|-damage|p1a: Stella|54/100
+|move|p1a: Stella|Venoshock|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|win|Brighteyes Hope
+|raw|Brighteyes Hope's rating: 1132 → 1154(+22 for winning)
+|raw|Reyamm's rating: 1088 → 1068(-20 for losing)
+|l|☆Reyamm

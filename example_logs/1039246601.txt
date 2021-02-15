@@ -1,0 +1,244 @@
+|ScrapeTime|2020-01-01-18:55:26
+|j|☆vcvcc
+|j|☆Stargazed*FIR
+|player|p1|vcvcc|drayden|1235
+|player|p2|Stargazed*FIR|2|1205
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Conkeldurr, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Togekiss, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Gigalith, F|
+|poke|p1|Rotom-Wash|
+|poke|p2|Pelipper, F|
+|poke|p2|Barraskewda, M|
+|poke|p2|Dracovish|
+|poke|p2|Seismitoad, M|
+|poke|p2|Ludicolo, M|
+|poke|p2|Dragapult, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Gigalith|Gigalith, F|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|turn|1
+|
+|move|p2a: Pelipper|U-turn|p1a: Gigalith
+|-damage|p1a: Gigalith|94/100
+|
+|switch|p2a: Ludicolo|Ludicolo, M|100/100|[from]move: U-turn
+|move|p1a: Gigalith|Stealth Rock|p2a: Ludicolo
+|-sidestart|p2: Stargazed*FIR|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ludicolo|95/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|move|p2a: Ludicolo|Ice Beam|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|27/100
+|-damage|p2a: Ludicolo|85/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Togekiss|21/100|[from] Sandstorm
+|-damage|p2a: Ludicolo|79/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-damage|p2a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Togekiss|Grass Knot|p2a: Pelipper
+|-damage|p2a: Pelipper|45/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Gigalith|Gigalith, F|94/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|96/100
+|-singleturn|p2a: Pelipper|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pelipper|89/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|move|p2a: Pelipper|U-turn|p1a: Gigalith
+|-damage|p1a: Gigalith|87/100
+|
+|switch|p2a: Dracovish|Dracovish|100/100|[from]move: U-turn
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|move|p1a: Gigalith|Stone Edge|p2a: Dracovish|[miss]
+|-miss|p1a: Gigalith|p2a: Dracovish
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dracovish|82/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Gigalith
+|-supereffective|p1a: Gigalith
+|-damage|p1a: Gigalith|0 fnt
+|faint|p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dracovish|76/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|turn|7
+|
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Dracovish|Fishious Rend|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-enditem|p1a: Excadrill|Focus Sash
+|-damage|p1a: Excadrill|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dracovish|69/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|switch|p2a: Pelipper|Pelipper, F|89/100
+|-damage|p2a: Pelipper|65/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Excadrill|Iron Head|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|32/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p1a: Excadrill|Iron Head|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|1/100
+|move|p2a: Pelipper|U-turn|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|switch|p2a: Barraskewda|Barraskewda, M|100/100|[from]move: U-turn
+|-damage|p2a: Barraskewda|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|10
+|
+|move|p2a: Barraskewda|Crunch|p1a: Rotom
+|-damage|p1a: Rotom|42/100
+|move|p1a: Rotom|Discharge|p2a: Barraskewda
+|-supereffective|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|faint|p2a: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Ludicolo|Ludicolo, M|79/100
+|-damage|p2a: Ludicolo|66/100|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Ludicolo|Giga Drain|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-heal|p2a: Ludicolo|83/100|[from] drain|[of] p1a: Rotom
+|-damage|p2a: Ludicolo|73/100|[from] item: Life Orb
+|faint|p1a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Togekiss|Togekiss, M|21/100
+|turn|12
+|
+|move|p2a: Ludicolo|Ice Beam|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|-damage|p2a: Ludicolo|63/100|[from] item: Life Orb
+|faint|p1a: Togekiss
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|turn|13
+|
+|move|p2a: Ludicolo|Hydro Pump|p1a: Conkeldurr|[miss]
+|-miss|p2a: Ludicolo|p1a: Conkeldurr
+|move|p1a: Conkeldurr|Close Combat|p2a: Ludicolo
+|-damage|p2a: Ludicolo|0 fnt
+|-unboost|p1a: Conkeldurr|def|1
+|-unboost|p1a: Conkeldurr|spd|1
+|faint|p2a: Ludicolo
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|69/100
+|-damage|p2a: Dracovish|57/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100 brn
+|turn|15
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Dracovish
+|-damage|p2a: Dracovish|16/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|29/100 brn
+|
+|-weather|none
+|-damage|p1a: Conkeldurr|23/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Conkeldurr|Mach Punch|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-damage|p1a: Conkeldurr|17/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Dragapult|Thunderbolt|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|win|Stargazed*FIR
+|l|☆vcvcc
+|raw|vcvcc's rating: 1258 → 1229(-29 for losing)
+|raw|Stargazed*FIR's rating: 1205 → 1234(+29 for winning)

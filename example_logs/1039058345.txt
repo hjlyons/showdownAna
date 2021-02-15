@@ -1,0 +1,678 @@
+|ScrapeTime|2020-01-01-08:02:29
+|j|☆Agentfusca
+|j|☆LimeBacon
+|player|p1|Agentfusca|170|1216
+|player|p2|LimeBacon|73|1298
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxtricity, F|
+|poke|p1|Ribombee, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Polteageist|
+|poke|p2|Duraludon, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Milotic, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Agentfusca)
+|
+|start
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|switch|p2a: Ganon|Grimmsnarl, M|100/100
+|turn|1
+|
+|move|p2a: Ganon|Taunt|p1a: Corviknight
+|-start|p1a: Corviknight|move: Taunt
+|move|p1a: Corviknight|Iron Head|p2a: Ganon
+|-supereffective|p2a: Ganon
+|-damage|p2a: Ganon|12/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Square tyranitar|Duraludon, M|100/100
+|move|p1a: Corviknight|Iron Head|p2a: Square tyranitar
+|-resisted|p2a: Square tyranitar
+|-damage|p2a: Square tyranitar|87/100
+|
+|-heal|p2a: Square tyranitar|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Square tyranitar|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: Agentfusca|move: Stealth Rock
+|
+|-heal|p2a: Square tyranitar|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Round duraludon|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Round duraludon
+|move|p1a: Dragapult|Draco Meteor|p2a: Round duraludon
+|-damage|p2a: Round duraludon|70/100
+|-unboost|p1a: Dragapult|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|95/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|move|p2a: Round duraludon|Crunch|p1a: Corviknight
+|-damage|p1a: Corviknight|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Corviknight|62/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Corviknight|Defog|p2a: Round duraludon
+|-unboost|p2a: Round duraludon|evasion|1
+|-sideend|p1: Agentfusca|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|move|p2a: Round duraludon|Flamethrower|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Corviknight|32/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Square tyranitar|Duraludon, M|99/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|82/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Square tyranitar|100/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|88/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Square tyranitar|Thunder Wave|p1a: Cinderace
+|-status|p1a: Cinderace|par
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|switch|p2a: Sports illustrated|Milotic, M|100/100
+|move|p1a: Cinderace|High Jump Kick|p2a: Sports illustrated
+|-damage|p2a: Sports illustrated|49/100
+|-damage|p1a: Cinderace|91/100 par|[from] item: Life Orb
+|
+|-heal|p2a: Sports illustrated|55/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Dragapult|Dragapult, M|95/100
+|move|p2a: Sports illustrated|Rest|p2a: Sports illustrated
+|-status|p2a: Sports illustrated|slp|[from] move: Rest
+|-heal|p2a: Sports illustrated|100/100 slp|[silent]
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Dragapult|Thunderbolt|p2a: Sports illustrated
+|-supereffective|p2a: Sports illustrated
+|-damage|p2a: Sports illustrated|45/100 slp
+|cant|p2a: Sports illustrated|slp
+|move|p2a: Sports illustrated|Sleep Talk|p2a: Sports illustrated
+|move|p2a: Sports illustrated|Scald|p1a: Dragapult|[from]Sleep Talk
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|75/100
+|
+|-heal|p2a: Sports illustrated|51/100 slp|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Gurren lagann|Excadrill, M|100/100
+|-ability|p2a: Gurren lagann|Mold Breaker
+|move|p1a: Dragapult|Thunderbolt|p2a: Gurren lagann
+|-immune|p2a: Gurren lagann
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Corviknight|Corviknight, F|88/100
+|move|p2a: Gurren lagann|Swords Dance|p2a: Gurren lagann
+|-boost|p2a: Gurren lagann|atk|2
+|
+|-heal|p1a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Square tyranitar|Duraludon, M|100/100
+|move|p1a: Corviknight|Iron Head|p2a: Square tyranitar
+|-resisted|p2a: Square tyranitar
+|-damage|p2a: Square tyranitar|88/100
+|
+|-heal|p2a: Square tyranitar|95/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|LimeBacon has 120 seconds left.
+|
+|switch|p1a: Cinderace|Cinderace, M|91/100 par
+|move|p2a: Square tyranitar|Thunder Wave|p1a: Cinderace|[miss]
+|-miss|p2a: Square tyranitar|p1a: Cinderace
+|
+|-heal|p2a: Square tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|LimeBacon has 120 seconds left.
+|
+|switch|p2a: Sports illustrated|Milotic, M|51/100 slp
+|cant|p1a: Cinderace|par
+|
+|-heal|p2a: Sports illustrated|57/100 slp|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Toxtricity|Toxtricity, F|100/100
+|cant|p2a: Sports illustrated|slp
+|move|p2a: Sports illustrated|Sleep Talk|p2a: Sports illustrated
+|move|p2a: Sports illustrated|Scald|p1a: Toxtricity|[from]Sleep Talk
+|-damage|p1a: Toxtricity|53/100
+|
+|-heal|p2a: Sports illustrated|63/100 slp|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|LimeBacon has 120 seconds left.
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Sports illustrated
+|-damage|p2a: Sports illustrated|0 fnt
+|faint|p2a: Sports illustrated
+|
+|upkeep
+|
+|switch|p2a: Gurren lagann|Excadrill, M|100/100
+|-ability|p2a: Gurren lagann|Mold Breaker
+|turn|19
+|inactive|LimeBacon has 120 seconds left.
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|move|p2a: Gurren lagann|Iron Head|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|83/100
+|
+|-heal|p1a: Corviknight|89/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|LimeBacon has 120 seconds left.
+|
+|switch|p2a: Square tyranitar|Duraludon, M|100/100
+|move|p1a: Corviknight|Iron Head|p2a: Square tyranitar
+|-resisted|p2a: Square tyranitar
+|-damage|p2a: Square tyranitar|88/100
+|
+|-heal|p2a: Square tyranitar|94/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|95/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|LimeBacon has 120 seconds left.
+|
+|switch|p1a: Cinderace|Cinderace, M|91/100 par
+|move|p2a: Square tyranitar|Thunderbolt|p1a: Cinderace
+|-damage|p1a: Cinderace|51/100 par
+|
+|-heal|p2a: Square tyranitar|99/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|LimeBacon has 120 seconds left.
+|
+|switch|p2a: Sock theif|Rotom-Wash|100/100
+|cant|p1a: Cinderace|par
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Sock theif|Nasty Plot|p2a: Sock theif
+|-boost|p2a: Sock theif|spa|2
+|move|p1a: Cinderace|Pyro Ball|p2a: Sock theif
+|-resisted|p2a: Sock theif
+|-damage|p2a: Sock theif|43/100
+|-damage|p1a: Cinderace|41/100 par|[from] item: Life Orb
+|
+|-heal|p2a: Sock theif|49/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|LimeBacon has 120 seconds left.
+|
+|move|p1a: Cinderace|Sucker Punch|p2a: Sock theif
+|-damage|p2a: Sock theif|8/100
+|-damage|p1a: Cinderace|31/100 par|[from] item: Life Orb
+|move|p2a: Sock theif|Hydro Pump|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-heal|p2a: Sock theif|14/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|75/100
+|turn|25
+|
+|switch|p2a: Round duraludon|Tyranitar, F|70/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Round duraludon
+|move|p1a: Dragapult|Draco Meteor|p2a: Round duraludon
+|-damage|p2a: Round duraludon|42/100
+|-unboost|p1a: Dragapult|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|69/100|[from] Sandstorm
+|upkeep
+|turn|26
+|inactive|LimeBacon has 120 seconds left.
+|
+|switch|p1a: Corviknight|Corviknight, F|95/100
+|move|p2a: Round duraludon|Ice Punch|p1a: Corviknight
+|-damage|p1a: Corviknight|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Corviknight|80/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|LimeBacon has 120 seconds left.
+|
+|switch|p2a: Square tyranitar|Duraludon, M|99/100
+|move|p1a: Corviknight|Iron Head|p2a: Square tyranitar
+|-resisted|p2a: Square tyranitar
+|-damage|p2a: Square tyranitar|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Square tyranitar|94/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|86/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|LimeBacon has 120 seconds left.
+|
+|switch|p1a: Dragapult|Dragapult, M|69/100
+|move|p2a: Square tyranitar|Thunder Wave|p1a: Dragapult
+|-status|p1a: Dragapult|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|63/100 par|[from] Sandstorm
+|-heal|p2a: Square tyranitar|99/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|LimeBacon has 120 seconds left.
+|
+|switch|p2a: Ganon|Grimmsnarl, M|12/100
+|cant|p1a: Dragapult|par
+|
+|-weather|none
+|upkeep
+|turn|30
+|inactive|LimeBacon has 120 seconds left.
+|
+|switch|p1a: Corviknight|Corviknight, F|86/100
+|move|p2a: Ganon|Reflect|p2a: Ganon
+|-sidestart|p2: LimeBacon|Reflect
+|
+|-heal|p1a: Corviknight|92/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|LimeBacon has 120 seconds left.
+|
+|switch|p2a: Square tyranitar|Duraludon, M|99/100
+|move|p1a: Corviknight|Brave Bird|p2a: Square tyranitar
+|-resisted|p2a: Square tyranitar
+|-damage|p2a: Square tyranitar|91/100
+|-damage|p1a: Corviknight|90/100|[from] Recoil
+|
+|-heal|p2a: Square tyranitar|97/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|96/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|LimeBacon has 120 seconds left.
+|
+|switch|p1a: Dragapult|Dragapult, M|63/100 par
+|move|p2a: Square tyranitar|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: Agentfusca|move: Stealth Rock
+|
+|-heal|p2a: Square tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|LimeBacon has 120 seconds left.
+|
+|switch|p2a: Ganon|Grimmsnarl, M|12/100
+|move|p1a: Dragapult|Flamethrower|p2a: Ganon
+|-damage|p2a: Ganon|0 fnt
+|faint|p2a: Ganon
+|
+|upkeep
+|
+|switch|p2a: Round duraludon|Tyranitar, F|42/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Round duraludon
+|turn|34
+|
+|switch|p1a: Corviknight|Corviknight, F|96/100
+|-damage|p1a: Corviknight|84/100|[from] Stealth Rock
+|move|p2a: Round duraludon|Crunch|p1a: Corviknight
+|-damage|p1a: Corviknight|46/100
+|-ability|p1a: Corviknight|Mirror Armor
+|-unboost|p2a: Round duraludon|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Corviknight|52/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|inactive|LimeBacon has 120 seconds left.
+|
+|switch|p2a: Square tyranitar|Duraludon, M|100/100
+|move|p1a: Corviknight|Iron Head|p2a: Square tyranitar
+|-resisted|p2a: Square tyranitar
+|-damage|p2a: Square tyranitar|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Square tyranitar|99/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|58/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|inactive|LimeBacon has 120 seconds left.
+|
+|switch|p1a: Toxtricity|Toxtricity, F|53/100
+|-damage|p1a: Toxtricity|41/100|[from] Stealth Rock
+|move|p2a: Square tyranitar|Thunderbolt|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|21/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxtricity|15/100|[from] Sandstorm
+|-heal|p2a: Square tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|inactive|LimeBacon has 120 seconds left.
+|
+|switch|p2a: Round duraludon|Tyranitar, F|42/100
+|move|p1a: Toxtricity|Boomburst|p2a: Round duraludon
+|-resisted|p2a: Round duraludon
+|-damage|p2a: Round duraludon|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxtricity|8/100|[from] Sandstorm
+|-sideend|p2: LimeBacon|Reflect
+|upkeep
+|turn|38
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Round duraludon
+|-resisted|p2a: Round duraludon
+|-damage|p2a: Round duraludon|13/100
+|move|p2a: Round duraludon|Crunch|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, F|58/100
+|-damage|p1a: Corviknight|46/100|[from] Stealth Rock
+|turn|39
+|
+|switch|p2a: Square tyranitar|Duraludon, M|100/100
+|move|p1a: Corviknight|Defog|p2a: Square tyranitar
+|-unboost|p2a: Square tyranitar|evasion|1
+|-sideend|p1: Agentfusca|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|
+|-heal|p1a: Corviknight|52/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|move|p2a: Square tyranitar|Stealth Rock|p1a: Ribombee
+|-sidestart|p1: Agentfusca|move: Stealth Rock
+|
+|upkeep
+|turn|41
+|
+|move|p1a: Ribombee|Moonblast|p2a: Square tyranitar
+|-damage|p2a: Square tyranitar|16/100
+|-unboost|p2a: Square tyranitar|spa|1
+|move|p2a: Square tyranitar|Flash Cannon|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|9/100
+|
+|-heal|p2a: Square tyranitar|22/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|switch|p2a: Sock theif|Rotom-Wash|14/100
+|move|p1a: Ribombee|Moonblast|p2a: Sock theif
+|-damage|p2a: Sock theif|0 fnt
+|faint|p2a: Sock theif
+|
+|upkeep
+|
+|switch|p2a: Gurren lagann|Excadrill, M|100/100
+|-ability|p2a: Gurren lagann|Mold Breaker
+|turn|43
+|
+|switch|p1a: Corviknight|Corviknight, F|52/100
+|-damage|p1a: Corviknight|40/100|[from] Stealth Rock
+|move|p2a: Gurren lagann|Iron Head|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|21/100
+|
+|-heal|p1a: Corviknight|28/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|switch|p2a: Square tyranitar|Duraludon, M|22/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|78/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p2a: Square tyranitar|29/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|84/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p2a: Square tyranitar|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|30/100
+|move|p1a: Corviknight|Defog|p2a: Square tyranitar
+|-unboost|p2a: Square tyranitar|evasion|1
+|-sideend|p1: Agentfusca|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|
+|-heal|p2a: Square tyranitar|35/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|36/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|switch|p1a: Dragapult|Dragapult, M|63/100 par
+|move|p2a: Square tyranitar|Thunderbolt|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|45/100 par
+|
+|-heal|p2a: Square tyranitar|41/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|switch|p2a: Round duraludon|Tyranitar, F|13/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Round duraludon
+|move|p1a: Dragapult|Flamethrower|p2a: Round duraludon
+|-resisted|p2a: Round duraludon
+|-damage|p2a: Round duraludon|6/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|39/100 par|[from] Sandstorm
+|upkeep
+|turn|48
+|
+|move|p1a: Dragapult|Flamethrower|p2a: Round duraludon
+|-resisted|p2a: Round duraludon
+|-damage|p2a: Round duraludon|0 fnt
+|faint|p2a: Round duraludon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|34/100 par|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Gurren lagann|Excadrill, M|100/100
+|-ability|p2a: Gurren lagann|Mold Breaker
+|turn|49
+|
+|switch|p1a: Corviknight|Corviknight, F|36/100
+|move|p2a: Gurren lagann|Iron Head|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Corviknight|22/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|move|p2a: Gurren lagann|Iron Head|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|5/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|55/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Corviknight|61/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|switch|p2a: Square tyranitar|Duraludon, M|41/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-weather|none
+|-heal|p2a: Square tyranitar|47/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|switch|p1a: Dragapult|Dragapult, M|34/100 par
+|move|p2a: Square tyranitar|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: Agentfusca|move: Stealth Rock
+|
+|-heal|p2a: Square tyranitar|53/100|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|move|p2a: Square tyranitar|Flash Cannon|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Square tyranitar|60/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|turn|54
+|
+|move|p2a: Square tyranitar|Thunder Wave|p1a: Corviknight
+|-status|p1a: Corviknight|par
+|move|p1a: Corviknight|Defog|p2a: Square tyranitar
+|-unboost|p2a: Square tyranitar|evasion|1
+|-sideend|p1: Agentfusca|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|
+|-heal|p2a: Square tyranitar|66/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|move|p2a: Square tyranitar|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: Agentfusca|move: Stealth Rock
+|move|p1a: Corviknight|Iron Head|p2a: Square tyranitar
+|-resisted|p2a: Square tyranitar
+|-damage|p2a: Square tyranitar|53/100
+|
+|-heal|p2a: Square tyranitar|60/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|move|p2a: Square tyranitar|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|46/100 par
+|move|p1a: Corviknight|Defog|p2a: Square tyranitar
+|-unboost|p2a: Square tyranitar|evasion|1
+|-sideend|p1: Agentfusca|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|
+|-heal|p2a: Square tyranitar|66/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|move|p2a: Square tyranitar|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: Agentfusca|move: Stealth Rock
+|cant|p1a: Corviknight|par
+|
+|-heal|p2a: Square tyranitar|72/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|move|p2a: Square tyranitar|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-heal|p2a: Square tyranitar|78/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ribombee|Ribombee, M|9/100
+|-damage|p1a: Ribombee|0 fnt|[from] Stealth Rock
+|faint|p1a: Ribombee
+|
+|switch|p1a: Polteageist|Polteageist|100/100
+|-damage|p1a: Polteageist|88/100|[from] Stealth Rock
+|turn|59
+|
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|move|p2a: Square tyranitar|Thunder Wave|p1a: Polteageist|[miss]
+|-miss|p2a: Square tyranitar|p1a: Polteageist
+|
+|-heal|p2a: Square tyranitar|84/100|[from] item: Leftovers
+|upkeep
+|turn|60
+|c|☆LimeBacon|I lost of that
+|c|☆LimeBacon|Gg
+|
+|move|p1a: Polteageist|Shadow Ball|p2a: Square tyranitar
+|-crit|p2a: Square tyranitar
+|-damage|p2a: Square tyranitar|0 fnt
+|faint|p2a: Square tyranitar
+|
+|upkeep
+|
+|switch|p2a: Gurren lagann|Excadrill, M|100/100
+|-ability|p2a: Gurren lagann|Mold Breaker
+|turn|61
+|
+|move|p1a: Polteageist|Shadow Ball|p2a: Gurren lagann
+|-damage|p2a: Gurren lagann|0 fnt
+|faint|p2a: Gurren lagann
+|
+|win|Agentfusca
+|raw|Agentfusca's rating: 1216 → 1247(+31 for winning)
+|raw|LimeBacon's rating: 1298 → 1267(-31 for losing)
+|l|☆LimeBacon

@@ -1,0 +1,324 @@
+|ScrapeTime|2020-01-02-04:34:31
+|j|☆hiiroG
+|j|☆Podim1
+|player|p1|hiiroG|alder|1393
+|player|p2|Podim1|278|1381
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Torkoal, M|
+|poke|p1|Whimsicott, F|
+|poke|p1|Seismitoad, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Dragapult, M|
+|poke|p2|Bisharp, M|
+|poke|p2|Weavile, M|
+|poke|p2|Aegislash, M|
+|poke|p2|Mew|
+|poke|p2|Seismitoad, F|
+|poke|p2|Turtonator, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hiiroG)
+|
+|move|p1a: Cinderace|U-turn|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|47/100
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100|[from]move: U-turn
+|move|p2a: Mew|Earth Power|p1a: Mandibuzz
+|-immune|p1a: Mandibuzz
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Mew|Spikes|p1a: Mandibuzz
+|-sidestart|p1: hiiroG|Spikes
+|move|p1a: Mandibuzz|Foul Play|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+|
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|3
+|
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-damage|p1a: Torkoal|88/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Weavile|Icicle Crash|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|72/100
+|-damage|p2a: Weavile|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Torkoal|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: Podim1|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|-damage|p1a: Seismitoad|88/100|[from] Spikes
+|move|p2a: Seismitoad|Stealth Rock|p1a: Seismitoad
+|-sidestart|p1: hiiroG|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Seismitoad|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Seismitoad|Toxic|p2a: Seismitoad
+|-status|p2a: Seismitoad|tox
+|move|p2a: Seismitoad|Power Whip|p1a: Seismitoad|[miss]
+|-miss|p2a: Seismitoad|p1a: Seismitoad
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Seismitoad|99/100|[from] item: Leftovers
+|-damage|p2a: Seismitoad|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p1a: Whimsicott|Whimsicott, F|100/100
+|-damage|p1a: Whimsicott|88/100|[from] Spikes
+|-damage|p1a: Whimsicott|76/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Toxic|p1a: Whimsicott
+|-status|p1a: Whimsicott|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Seismitoad|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Whimsicott|70/100 tox|[from] psn
+|-damage|p2a: Seismitoad|88/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|-damage|p2a: Aegislash|94/100|[from] Stealth Rock
+|-item|p2a: Aegislash|Air Balloon
+|move|p1a: Whimsicott|Giga Drain|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|78/100
+|-heal|p1a: Whimsicott|80/100 tox|[from] drain|[of] p2a: Aegislash
+|-enditem|p2a: Aegislash|Air Balloon
+|-damage|p1a: Whimsicott|70/100 tox|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Whimsicott|58/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Iron Head|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|62/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Foul Play|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|64/100
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|move|p1a: Mandibuzz|Foul Play|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|switch|p2a: Weavile|Weavile, M|91/100
+|-damage|p2a: Weavile|66/100|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|turn|12
+|
+|move|p2a: Weavile|Throat Chop|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|42/100
+|-start|p1a: Mandibuzz|Throat Chop|[silent]
+|-damage|p2a: Weavile|56/100|[from] item: Life Orb
+|move|p1a: Mandibuzz|Defog|p2a: Weavile
+|-unboost|p2a: Weavile|evasion|1
+|-sideend|p2: Podim1|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|-sideend|p1: hiiroG|Spikes|[from] move: Defog|[of] p1a: Mandibuzz
+|-sideend|p1: hiiroG|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Torkoal|Torkoal, M|72/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Weavile|Icicle Crash|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|57/100
+|-damage|p2a: Weavile|46/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|move|p2a: Weavile|Throat Chop|p1a: Torkoal
+|-damage|p1a: Torkoal|26/100
+|-start|p1a: Torkoal|Throat Chop|[silent]
+|-damage|p2a: Weavile|36/100|[from] item: Life Orb
+|move|p1a: Torkoal|Lava Plume|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Turtonator|Turtonator, F|100/100
+|turn|15
+|
+|move|p2a: Turtonator|Shell Smash|p2a: Turtonator
+|-unboost|p2a: Turtonator|def|1
+|-unboost|p2a: Turtonator|spd|1
+|-boost|p2a: Turtonator|atk|2
+|-boost|p2a: Turtonator|spa|2
+|-boost|p2a: Turtonator|spe|2
+|move|p1a: Torkoal|Stealth Rock|p2a: Turtonator
+|-sidestart|p2: Podim1|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Torkoal|Throat Chop|[silent]
+|upkeep
+|turn|16
+|
+|move|p2a: Turtonator|Shell Smash|p2a: Turtonator
+|-unboost|p2a: Turtonator|def|1
+|-unboost|p2a: Turtonator|spd|1
+|-boost|p2a: Turtonator|atk|2
+|-boost|p2a: Turtonator|spa|2
+|-boost|p2a: Turtonator|spe|2
+|move|p1a: Torkoal|Body Press|p2a: Turtonator
+|-damage|p2a: Turtonator|40/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p2a: Turtonator|Dragon Pulse|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|18
+|
+|move|p1a: Cinderace|Sucker Punch|p2a: Turtonator
+|-damage|p2a: Turtonator|0 fnt
+|faint|p2a: Turtonator
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, M|78/100
+|-damage|p2a: Aegislash|72/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Cinderace|Sucker Punch|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|32/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Close Combat|p1a: Cinderace
+|-damage|p1a: Cinderace|32/100
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|move|p1a: Cinderace|Sucker Punch|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, F|88/100 tox
+|-damage|p2a: Seismitoad|82/100 tox|[from] Stealth Rock
+|turn|21
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|42/100
+|move|p2a: Seismitoad|Scald|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|28/100
+|
+|-heal|p2a: Seismitoad|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|82/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Seismitoad
+|-damage|p2a: Seismitoad|64/100 tox
+|move|p2a: Seismitoad|Toxic|p1a: Mandibuzz
+|-status|p1a: Mandibuzz|tox
+|
+|-heal|p2a: Seismitoad|70/100 tox|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|22/100 tox|[from] psn
+|-damage|p2a: Seismitoad|58/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Seismitoad
+|-damage|p2a: Seismitoad|37/100 tox
+|move|p2a: Seismitoad|Power Whip|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|12/100 tox
+|
+|-heal|p2a: Seismitoad|43/100 tox|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|0 fnt|[from] psn
+|faint|p1a: Mandibuzz
+|-damage|p2a: Seismitoad|25/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Whimsicott|Whimsicott, F|58/100 tox
+|turn|24
+|
+|move|p1a: Whimsicott|Giga Drain|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-heal|p1a: Whimsicott|77/100 tox|[from] drain|[of] p2a: Seismitoad
+|-damage|p1a: Whimsicott|67/100 tox|[from] item: Life Orb
+|faint|p2a: Seismitoad
+|
+|win|hiiroG
+|raw|hiiroG's rating: 1373 → 1393(+20 for winning)
+|raw|Podim1's rating: 1381 → 1361(-20 for losing)
+|l|☆Podim1

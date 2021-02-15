@@ -1,0 +1,319 @@
+|ScrapeTime|2020-01-01-23:44:25
+|j|☆Linken-Skywalker
+|j|☆Expert Cain
+|player|p1|Linken-Skywalker|52|1302
+|player|p2|Expert Cain|257|1314
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Durant, F|
+|poke|p1|Dugtrio, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Tyranitar, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Dragapult, M|
+|poke|p2|Obstagoon, F|
+|poke|p2|Toxtricity, F|
+|poke|p2|Frosmoth, F|
+|poke|p2|Hitmontop, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Cinderace, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Durant|Durant, F|100/100
+|switch|p2a: Obstagoon|Obstagoon, F|100/100
+|turn|1
+|
+|move|p2a: Obstagoon|Obstruct|p2a: Obstagoon
+|-singleturn|p2a: Obstagoon|Protect
+|move|p1a: Durant|Entrainment|p2a: Obstagoon
+|-activate|p2a: Obstagoon|move: Protect
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Obstagoon|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|85/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Obstagoon|Parting Shot|p1a: Rotom
+|-unboost|p1a: Rotom|atk|1
+|-unboost|p1a: Rotom|spa|1
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100|[from]move: Parting Shot
+|move|p1a: Rotom|Will-O-Wisp|p2a: Seismitoad
+|-status|p2a: Seismitoad|brn
+|
+|-damage|p2a: Seismitoad|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Rotom|Thief|p2a: Seismitoad
+|-damage|p2a: Seismitoad|89/100 brn
+|-item|p1a: Rotom|Leftovers|[from] move: Thief|[of] p2a: Seismitoad
+|move|p2a: Seismitoad|Stealth Rock|p1a: Rotom
+|-sidestart|p1: Linken-Skywalker|move: Stealth Rock
+|
+|-heal|p1a: Rotom|91/100|[from] item: Leftovers
+|-damage|p2a: Seismitoad|83/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Toxic|p1a: Dragapult
+|-status|p1a: Dragapult|tox
+|
+|-damage|p1a: Dragapult|82/100 tox|[from] psn
+|-damage|p2a: Seismitoad|77/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Dragapult|Draco Meteor|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-damage|p1a: Dragapult|70/100 tox|[from] psn
+|-damage|p2a: Seismitoad|71/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p2a: Frosmoth|Frosmoth, F|100/100
+|move|p1a: Dragapult|Draco Meteor|p2a: Frosmoth
+|-damage|p2a: Frosmoth|74/100
+|-unboost|p1a: Dragapult|spa|2
+|
+|-damage|p1a: Dragapult|52/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Durant|Durant, F|100/100
+|-damage|p1a: Durant|88/100|[from] Stealth Rock
+|move|p2a: Frosmoth|Giga Drain|p1a: Durant
+|-resisted|p1a: Durant
+|-damage|p1a: Durant|78/100
+|-heal|p2a: Frosmoth|79/100|[from] drain|[of] p1a: Durant
+|-enditem|p1a: Durant|Eject Button
+|
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|-damage|p1a: Dugtrio|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Dugtrio|Stone Edge|p2a: Frosmoth
+|-supereffective|p2a: Frosmoth
+|-crit|p2a: Frosmoth
+|-damage|p2a: Frosmoth|0 fnt
+|faint|p2a: Frosmoth
+|
+|upkeep
+|
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Dugtrio|atk|1
+|turn|10
+|
+|switch|p1a: Durant|Durant, F|78/100
+|-damage|p1a: Durant|66/100|[from] Stealth Rock
+|move|p2a: Hitmontop|Bulk Up|p2a: Hitmontop
+|-boost|p2a: Hitmontop|atk|1
+|-boost|p2a: Hitmontop|def|1
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Hitmontop|Sucker Punch||[still]
+|-fail|p2a: Hitmontop
+|move|p1a: Durant|Entrainment|p2a: Hitmontop
+|-endability|p2a: Hitmontop|Intimidate|[from] move: Entrainment
+|-ability|p2a: Hitmontop|Truant|[from] move: Entrainment
+|
+|upkeep
+|turn|12
+|
+|cant|p1a: Durant|ability: Truant
+|cant|p2a: Hitmontop|ability: Truant
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Durant|Entrainment||[still]
+|-fail|p1a: Durant
+|move|p2a: Hitmontop|Close Combat|p1a: Durant
+|-damage|p1a: Durant|10/100
+|-unboost|p2a: Hitmontop|def|1
+|-unboost|p2a: Hitmontop|spd|1
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Dugtrio|Dugtrio, F|94/100
+|-damage|p1a: Dugtrio|88/100|[from] Stealth Rock
+|cant|p2a: Hitmontop|ability: Truant
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Dugtrio|Protect|p1a: Dugtrio
+|-singleturn|p1a: Dugtrio|Protect
+|move|p2a: Hitmontop|Sucker Punch||[still]
+|-fail|p2a: Hitmontop
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Dugtrio|Hone Claws|p1a: Dugtrio
+|-boost|p1a: Dugtrio|atk|1
+|-boost|p1a: Dugtrio|accuracy|1
+|cant|p2a: Hitmontop|ability: Truant
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Dugtrio|Protect|p1a: Dugtrio
+|-singleturn|p1a: Dugtrio|Protect
+|move|p2a: Hitmontop|Bulk Up|p2a: Hitmontop
+|-boost|p2a: Hitmontop|atk|1
+|-boost|p2a: Hitmontop|def|1
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Dugtrio|Hone Claws|p1a: Dugtrio
+|-boost|p1a: Dugtrio|atk|1
+|-boost|p1a: Dugtrio|accuracy|1
+|cant|p2a: Hitmontop|ability: Truant
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Dugtrio|Protect|p1a: Dugtrio
+|-singleturn|p1a: Dugtrio|Protect
+|move|p2a: Hitmontop|Close Combat|p1a: Dugtrio
+|-activate|p1a: Dugtrio|move: Protect
+|
+|upkeep
+|turn|20
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Linken-Skywalker)
+|
+|move|p1a: Dugtrio|Hone Claws|p1a: Dugtrio
+|-boost|p1a: Dugtrio|atk|1
+|-boost|p1a: Dugtrio|accuracy|1
+|cant|p2a: Hitmontop|ability: Truant
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Dugtrio|Protect|p1a: Dugtrio
+|-singleturn|p1a: Dugtrio|Protect
+|move|p2a: Hitmontop|Bulk Up|p2a: Hitmontop
+|-boost|p2a: Hitmontop|atk|1
+|-boost|p2a: Hitmontop|def|1
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Dugtrio|Hone Claws|p1a: Dugtrio
+|-boost|p1a: Dugtrio|atk|1
+|-boost|p1a: Dugtrio|accuracy|1
+|cant|p2a: Hitmontop|ability: Truant
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Dugtrio|Protect|p1a: Dugtrio
+|-singleturn|p1a: Dugtrio|Protect
+|move|p2a: Hitmontop|Sucker Punch||[still]
+|-fail|p2a: Hitmontop
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Dugtrio|Hone Claws|p1a: Dugtrio
+|-boost|p1a: Dugtrio|atk|1
+|-boost|p1a: Dugtrio|accuracy|1
+|cant|p2a: Hitmontop|ability: Truant
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Dugtrio|Protect|p1a: Dugtrio
+|-singleturn|p1a: Dugtrio|Protect
+|move|p2a: Hitmontop|Bulk Up|p2a: Hitmontop
+|-boost|p2a: Hitmontop|atk|1
+|-boost|p2a: Hitmontop|def|1
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Dugtrio|Hone Claws|p1a: Dugtrio
+|-boost|p1a: Dugtrio|atk|1
+|-boost|p1a: Dugtrio|accuracy|1
+|cant|p2a: Hitmontop|ability: Truant
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Dugtrio|Protect|p1a: Dugtrio
+|-singleturn|p1a: Dugtrio|Protect
+|move|p2a: Hitmontop|Sucker Punch||[still]
+|-fail|p2a: Hitmontop
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Hitmontop
+|-damage|p2a: Hitmontop|37/100
+|cant|p2a: Hitmontop|ability: Truant
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Dugtrio|Protect|p1a: Dugtrio
+|-singleturn|p1a: Dugtrio|Protect
+|move|p2a: Hitmontop|Bulk Up|p2a: Hitmontop
+|-boost|p2a: Hitmontop|atk|1
+|-boost|p2a: Hitmontop|def|1
+|
+|upkeep
+|turn|30
+|
+|cant|p2a: Hitmontop|ability: Truant
+|move|p1a: Dugtrio|Earthquake|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|faint|p2a: Hitmontop
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|31
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Dugtrio
+|-damage|p1a: Dugtrio|27/100
+|move|p1a: Dugtrio|Earthquake|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|-message|Expert Cain forfeited.
+|
+|win|Linken-Skywalker
+|l|☆Expert Cain

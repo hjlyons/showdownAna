@@ -1,0 +1,468 @@
+|ScrapeTime|2020-01-03-01:56:50
+|j|☆AsanOshimi
+|j|☆Matt_Web
+|player|p1|AsanOshimi|291|1314
+|player|p2|Matt_Web|169|1228
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mew|
+|poke|p1|Crawdaunt, F|
+|poke|p1|Lucario, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Bisharp, F|
+|poke|p1|Aegislash, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Ditto|
+|poke|p2|Polteageist|
+|poke|p2|Seismitoad, F|
+|poke|p2|Ferrothorn, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p2a: Excadrill|Shadow Claw|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|52/100
+|move|p1a: Mew|Stealth Rock|p2a: Excadrill
+|-sidestart|p2: Matt_Web|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-damage|p2a: Ditto|88/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Mew|[from] ability: Imposter
+|move|p1a: Mew|Spikes|p2a: Ditto
+|-sidestart|p2: Matt_Web|Spikes
+|
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AsanOshimi)
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|move|p2a: Ditto|Taunt|p1a: Bisharp
+|-start|p1a: Bisharp|move: Taunt
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|-damage|p2a: Seismitoad|82/100|[from] Spikes
+|move|p1a: Bisharp|Throat Chop|p2a: Seismitoad
+|-crit|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-damage|p1a: Bisharp|91/100|[from] item: Life Orb
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|88/100|[from] Spikes
+|-damage|p2a: Ferrothorn|82/100|[from] Stealth Rock
+|turn|5
+|
+|switch|p1a: Mew|Mew|52/100
+|move|p2a: Ferrothorn|Body Press|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|39/100
+|
+|-heal|p2a: Ferrothorn|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Mew|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|cant|p2a: Ferrothorn|move: Taunt|Leech Seed
+|
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-damage|p2a: Excadrill|85/100|[from] Spikes
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Mew|Spikes|p2a: Excadrill
+|-sidestart|p2: Matt_Web|Spikes
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|-item|p1a: Aegislash|Air Balloon
+|move|p2a: Excadrill|Rapid Spin|p1a: Aegislash
+|-immune|p1a: Aegislash
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|94/100
+|-damage|p2a: Ferrothorn|88/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|72/100|[from] Spikes
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|-heal|p2a: Ferrothorn|78/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Iron Head|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|52/100
+|-damage|p1a: Aegislash|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Aegislash
+|-start|p1a: Aegislash|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|58/100|[from] item: Leftovers
+|-damage|p1a: Aegislash|76/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|68/100|[silent]
+|upkeep
+|turn|11
+|
+|switch|p1a: Mew|Mew|39/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Mew
+|-sidestart|p1: AsanOshimi|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|74/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Mew|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Matt_Web|Spikes
+|move|p2a: Ferrothorn|Body Press|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|26/100
+|
+|-heal|p2a: Ferrothorn|81/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Mew|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|move|p2a: Ferrothorn|Body Press|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|12/100
+|
+|-heal|p2a: Ferrothorn|87/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Mew|Rock Tomb|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|83/100
+|-unboost|p2a: Ferrothorn|spe|1
+|move|p2a: Ferrothorn|Body Press|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|-heal|p2a: Ferrothorn|89/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|-damage|p1a: Lucario|98/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Lucario|Swords Dance|p1a: Lucario
+|-boost|p1a: Lucario|atk|2
+|move|p2a: Ferrothorn|Body Press|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|-heal|p2a: Ferrothorn|95/100|[from] item: Leftovers
+|-end|p2a: Ferrothorn|move: Taunt
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p2a: Grimmsnarl|88/100|[from] Stealth Rock
+|-damage|p2a: Grimmsnarl|63/100|[from] Spikes
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|63/100
+|
+|-heal|p1a: Dragapult|69/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Dragapult
+|-start|p1a: Dragapult|move: Taunt
+|cant|p1a: Dragapult|move: Taunt|Dragon Dance
+|
+|-heal|p1a: Dragapult|75/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Grimmsnarl
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Dragapult|[miss]
+|-miss|p2a: Grimmsnarl|p1a: Dragapult
+|
+|-heal|p1a: Dragapult|81/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Matt_Web|Reflect
+|move|p1a: Dragapult|Phantom Force|p2a: Grimmsnarl|[from]lockedmove
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|49/100
+|
+|-heal|p1a: Dragapult|87/100|[from] item: Leftovers
+|-end|p1a: Dragapult|move: Taunt
+|upkeep
+|turn|20
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Dragapult
+|-start|p1a: Dragapult|move: Taunt
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Grimmsnarl
+|
+|-heal|p1a: Dragapult|93/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Grimmsnarl|[from]lockedmove
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|35/100
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|99/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Grimmsnarl|Reflect||[still]
+|-fail|p2a: Grimmsnarl
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Grimmsnarl
+|
+|-heal|p1a: Dragapult|100/100|[from] item: Leftovers
+|-end|p1a: Dragapult|move: Taunt
+|upkeep
+|turn|23
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Grimmsnarl|[from]lockedmove
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|21/100
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|18/100
+|
+|-heal|p1a: Dragapult|24/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Dragapult
+|-start|p1a: Dragapult|move: Taunt
+|cant|p1a: Dragapult|move: Taunt|Dragon Dance
+|
+|-heal|p1a: Dragapult|30/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Grimmsnarl
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Dragapult|[miss]
+|-miss|p2a: Grimmsnarl|p1a: Dragapult
+|
+|-heal|p1a: Dragapult|36/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Grimmsnarl|[from]lockedmove
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|6/100
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-sideend|p2: Matt_Web|Reflect
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, F|91/100
+|-damage|p1a: Bisharp|85/100|[from] Stealth Rock
+|turn|27
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Matt_Web|Reflect
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Matt_Web|move: Light Screen
+|move|p1a: Bisharp|Iron Head|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-damage|p1a: Bisharp|75/100|[from] item: Life Orb
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|88/100
+|-damage|p2a: Ditto|63/100|[from] Spikes
+|-damage|p2a: Ditto|51/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Bisharp|[from] ability: Imposter
+|turn|29
+|
+|move|p2a: Ditto|Sucker Punch|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|32/100
+|move|p1a: Bisharp|Sucker Punch||[still]
+|-fail|p1a: Bisharp
+|
+|upkeep
+|turn|30
+|
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|-damage|p1a: Crawdaunt|88/100|[from] Stealth Rock
+|move|p2a: Ditto|Sucker Punch||[still]
+|-fail|p2a: Ditto
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Ditto|Sucker Punch||[still]
+|-fail|p2a: Ditto
+|move|p1a: Crawdaunt|Swords Dance|p1a: Crawdaunt
+|-boost|p1a: Crawdaunt|atk|2
+|
+|upkeep
+|turn|32
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|95/100
+|-damage|p2a: Ferrothorn|70/100|[from] Spikes
+|-damage|p2a: Ferrothorn|64/100|[from] Stealth Rock
+|move|p1a: Crawdaunt|Swords Dance|p1a: Crawdaunt
+|-boost|p1a: Crawdaunt|atk|2
+|
+|-heal|p2a: Ferrothorn|70/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Crawdaunt|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|21/100
+|-damage|p1a: Crawdaunt|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|66/100|[from] item: Life Orb
+|move|p2a: Ferrothorn|Leech Seed|p1a: Crawdaunt
+|-start|p1a: Crawdaunt|move: Leech Seed
+|
+|-damage|p1a: Crawdaunt|54/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|30/100|[silent]
+|upkeep
+|turn|34
+|
+|move|p1a: Crawdaunt|Swords Dance|p1a: Crawdaunt
+|-boost|p1a: Crawdaunt|atk|2
+|move|p2a: Ferrothorn|Body Press|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|
+|-sideend|p2: Matt_Web|Reflect
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, M|76/100
+|-damage|p1a: Aegislash|70/100|[from] Stealth Rock
+|-item|p1a: Aegislash|Air Balloon
+|turn|35
+|
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|move|p2a: Ferrothorn|Leech Seed|p1a: Aegislash
+|-start|p1a: Aegislash|move: Leech Seed
+|
+|-damage|p1a: Aegislash|57/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|40/100|[silent]
+|-sideend|p2: Matt_Web|move: Light Screen
+|upkeep
+|turn|36
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Iron Head|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|11/100
+|-damage|p1a: Aegislash|45/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Spikes|p1a: Aegislash
+|-sidestart|p1: AsanOshimi|Spikes
+|
+|-damage|p1a: Aegislash|33/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|21/100|[silent]
+|upkeep
+|turn|37
+|
+|move|p1a: Aegislash|Iron Head|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Aegislash|20/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|85/100
+|-damage|p2a: Excadrill|82/100|[from] Stealth Rock
+|-damage|p2a: Excadrill|57/100|[from] Spikes
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|38
+|
+|move|p1a: Aegislash|Shadow Sneak|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|51/100
+|-damage|p2a: Ditto|38/100|[from] Stealth Rock
+|-damage|p2a: Ditto|13/100|[from] Spikes
+|-transform|p2a: Ditto|p1a: Aegislash|[from] ability: Imposter
+|turn|39
+|
+|move|p2a: Ditto|Shadow Sneak|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|-enditem|p1a: Aegislash|Air Balloon
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, F|32/100
+|-damage|p1a: Bisharp|26/100|[from] Stealth Rock
+|-damage|p1a: Bisharp|14/100|[from] Spikes
+|turn|40
+|
+|move|p2a: Ditto|Shadow Sneak|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|win|Matt_Web
+|l|☆AsanOshimi

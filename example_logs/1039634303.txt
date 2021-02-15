@@ -1,0 +1,414 @@
+|ScrapeTime|2020-01-02-13:05:46
+|j|☆Evol NocTali
+|j|☆FNTK
+|player|p1|Evol NocTali|169|1214
+|player|p2|FNTK|gentleman-gen4|1164
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxapex, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Gyarados, F|
+|poke|p1|Kommo-o, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Mew|
+|poke|p2|Hawlucha, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Dracozolt|
+|poke|p2|Bisharp, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|turn|1
+|
+|move|p2a: Hawlucha|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|92/100
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|move|p1a: Toxapex|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-heal|p1a: Toxapex|98/100|[from] item: Black Sludge
+|-damage|p2a: Rotom|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Rotom|Hydro Pump|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-damage|p2a: Rotom|82/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|turn|3
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|move|p1a: Kommo-o|Clanging Scales|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|42/100
+|-unboost|p1a: Kommo-o|def|1
+|
+|-heal|p2a: Conkeldurr|48/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Kommo-o
+|-damage|p1a: Kommo-o|54/100
+|move|p1a: Kommo-o|Clanging Scales|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|-unboost|p1a: Kommo-o|def|1
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|turn|5
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Hawlucha|Close Combat|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|79/100
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|-enditem|p2a: Hawlucha|White Herb
+|-clearnegativeboost|p2a: Hawlucha|[silent]
+|
+|-heal|p1a: Toxapex|85/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|move|p2a: Hawlucha|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|76/100
+|
+|switch|p2a: Rotom|Rotom-Wash|82/100 tox|[from]move: U-turn
+|move|p1a: Toxapex|Toxic|p2a: Rotom
+|-fail|p2a: Rotom|tox
+|
+|-heal|p1a: Toxapex|82/100|[from] item: Black Sludge
+|-damage|p2a: Rotom|76/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Rotom|Thunderbolt|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|84/100
+|
+|-heal|p1a: Ferrothorn|90/100|[from] item: Leftovers
+|-damage|p2a: Rotom|63/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Bisharp
+|-start|p2a: Bisharp|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|96/100|[from] item: Leftovers
+|-damage|p2a: Bisharp|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|9
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Bisharp|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Evol NocTali|move: Stealth Rock
+|
+|-damage|p2a: Bisharp|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|10
+|
+|switch|p1a: Kommo-o|Kommo-o, F|54/100
+|-damage|p1a: Kommo-o|48/100|[from] Stealth Rock
+|move|p2a: Bisharp|Taunt|p1a: Kommo-o
+|-start|p1a: Kommo-o|move: Taunt
+|
+|-damage|p2a: Bisharp|64/100|[from] Leech Seed|[of] p1a: Kommo-o
+|-heal|p1a: Kommo-o|62/100|[silent]
+|upkeep
+|turn|11
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Kommo-o|Aura Sphere|p2a: Cinderace
+|-damage|p2a: Cinderace|55/100
+|
+|-heal|p2a: Cinderace|61/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Cinderace|High Jump Kick|p1a: Kommo-o
+|-damage|p1a: Kommo-o|22/100
+|move|p1a: Kommo-o|Clanging Scales|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-unboost|p1a: Kommo-o|def|1
+|faint|p2a: Cinderace
+|
+|-end|p1a: Kommo-o|move: Taunt
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|turn|13
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Hawlucha|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|46/100
+|-damage|p2a: Hawlucha|86/100|[from] Recoil
+|
+|-heal|p1a: Toxapex|52/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p2a: Hawlucha|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|13/100
+|-damage|p2a: Hawlucha|73/100|[from] Recoil
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|64/100
+|
+|-heal|p1a: Toxapex|69/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|move|p2a: Hawlucha|Encore|p1a: Toxapex
+|-start|p1a: Toxapex|Encore
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Hawlucha|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|92/100
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100|[from]move: U-turn
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Dracozolt|Bolt Beak|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|59/100
+|-damage|p2a: Dracozolt|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|65/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Dracozolt|Fire Fang|p1a: Ferrothorn|[miss]
+|-miss|p2a: Dracozolt|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Dracozolt
+|-start|p2a: Dracozolt|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|72/100|[from] item: Leftovers
+|-damage|p2a: Dracozolt|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|85/100|[silent]
+|upkeep
+|turn|19
+|
+|switch|p2a: Rotom|Rotom-Wash|63/100 tox
+|move|p1a: Ferrothorn|Protect||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|91/100|[from] item: Leftovers
+|-damage|p2a: Rotom|57/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p2a: Rotom|Trick|p1a: Ferrothorn
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Ferrothorn
+|-item|p1a: Ferrothorn|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|move|p1a: Ferrothorn|Leech Seed|p2a: Rotom
+|-start|p2a: Rotom|move: Leech Seed
+|
+|-heal|p2a: Rotom|63/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|51/100 tox|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|99/100|[silent]
+|-damage|p2a: Rotom|38/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p1a: Kommo-o|Kommo-o, F|22/100
+|-damage|p1a: Kommo-o|16/100|[from] Stealth Rock
+|move|p2a: Rotom|Volt Switch|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|switch|p2a: Hawlucha|Hawlucha, M|73/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|switch|p1a: Mew|Mew|100/100
+|-damage|p1a: Mew|88/100|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: Hawlucha|U-turn|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|46/100
+|
+|switch|p2a: Bisharp|Bisharp, F|64/100|[from]move: U-turn
+|move|p1a: Mew|Aura Sphere|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, M|73/100
+|turn|23
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Hawlucha|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|43/100
+|-damage|p2a: Hawlucha|58/100|[from] Recoil
+|
+|-heal|p1a: Toxapex|49/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|move|p2a: Hawlucha|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|42/100
+|
+|switch|p2a: Rotom|Rotom-Wash|38/100 tox|[from]move: U-turn
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|92/100
+|
+|-heal|p2a: Rotom|44/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|98/100|[from] item: Black Sludge
+|-damage|p2a: Rotom|38/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|99/100
+|-damage|p1a: Ferrothorn|93/100|[from] Stealth Rock
+|move|p2a: Rotom|Thunderbolt|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|76/100
+|
+|-heal|p2a: Rotom|44/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|32/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|54/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Rotom
+|-sidestart|p2: FNTK|move: Stealth Rock
+|
+|-heal|p2a: Rotom|38/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|20/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Rotom|Volt Switch|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|49/100
+|
+|switch|p2a: Dracozolt|Dracozolt|76/100|[from]move: Volt Switch
+|-damage|p2a: Dracozolt|64/100|[from] Stealth Rock
+|
+|-heal|p1a: Toxapex|55/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|54/100
+|-damage|p1a: Ferrothorn|47/100|[from] Stealth Rock
+|move|p2a: Dracozolt|Bolt Beak|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|7/100
+|-damage|p2a: Dracozolt|51/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Dracozolt|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|turn|30
+|
+|switch|p2a: Rotom|Rotom-Wash|20/100 tox
+|-damage|p2a: Rotom|7/100 tox|[from] Stealth Rock
+|move|p1a: Gyarados|Earthquake|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|-heal|p2a: Rotom|13/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|7/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-heal|p2a: Rotom|13/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|1/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Mew|Mew|46/100
+|-damage|p1a: Mew|34/100|[from] Stealth Rock
+|turn|32
+|
+|move|p1a: Mew|Agility|p1a: Mew
+|-boost|p1a: Mew|spe|2
+|move|p2a: Rotom|Thunderbolt|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|-heal|p2a: Rotom|7/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|0 fnt|[from] psn
+|faint|p2a: Rotom
+|upkeep
+|c|☆FNTK|Gg
+|
+|switch|p1a: Toxapex|Toxapex, M|88/100
+|switch|p2a: Dracozolt|Dracozolt|51/100
+|-damage|p2a: Dracozolt|39/100|[from] Stealth Rock
+|-damage|p1a: Toxapex|76/100|[from] Stealth Rock
+|turn|33
+|c|☆Evol NocTali|Gg
+|
+|move|p2a: Dracozolt|Bolt Beak|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|win|FNTK
+|l|☆Evol NocTali
+|raw|Evol NocTali's rating: 1214 → 1185(-29 for losing)
+|raw|FNTK's rating: 1164 → 1193(+29 for winning)

@@ -1,0 +1,307 @@
+|ScrapeTime|2020-01-02-10:55:57
+|j|☆danceswithdragons
+|j|☆Realest Red Da God
+|player|p1|danceswithdragons|238|1575
+|player|p2|Realest Red Da God|162|1440
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Seismitoad, F|
+|poke|p1|Gengar, F|
+|poke|p1|Chandelure, M|
+|poke|p1|Dracozolt|
+|poke|p1|Corviknight, M|
+|poke|p1|Clefable, F|
+|poke|p2|Morpeko, M|
+|poke|p2|Clefable, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Rotom-Heat|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| Kohlrausch
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Realest Red Da God)
+|
+|move|p1a: Seismitoad|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Realest Red Da God|move: Stealth Rock
+|move|p2a: Ferrothorn|Power Whip|p1a: Seismitoad
+|-supereffective|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|turn|2
+|
+|move|p1a: Dracozolt|Substitute|p1a: Dracozolt
+|-start|p1a: Dracozolt|Substitute
+|-damage|p1a: Dracozolt|76/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Dracozolt
+|-resisted|p1a: Dracozolt
+|-activate|p1a: Dracozolt|move: Substitute|[damage]
+|
+|-heal|p1a: Dracozolt|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Dracozolt|Fire Fang|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|18/100
+|-damage|p1a: Dracozolt|69/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Dracozolt
+|-resisted|p1a: Dracozolt
+|-end|p1a: Dracozolt|Substitute
+|
+|-heal|p1a: Dracozolt|75/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|24/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Dracozolt|Substitute|p1a: Dracozolt
+|-start|p1a: Dracozolt|Substitute
+|-damage|p1a: Dracozolt|51/100
+|
+|-heal|p1a: Dracozolt|57/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Clefable
+|-immune|p1a: Clefable
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|move|p1a: Chandelure|Fire Blast|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|53/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Dracozolt|Dracozolt|57/100
+|move|p2a: Rotom|Shadow Ball|p1a: Dracozolt
+|-damage|p1a: Dracozolt|28/100
+|-unboost|p1a: Dracozolt|spd|1
+|
+|-heal|p1a: Dracozolt|34/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Clefable
+|-damage|p1a: Clefable|73/100
+|
+|switch|p2a: Corviknight|Corviknight, M|94/100|[from]move: Volt Switch
+|-damage|p2a: Corviknight|82/100|[from] Stealth Rock
+|
+|-heal|p2a: Corviknight|88/100|[from] item: Leftovers
+|-heal|p1a: Clefable|79/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Dracozolt|Dracozolt|34/100
+|move|p2a: Corviknight|Defog|p1a: Dracozolt
+|-unboost|p1a: Dracozolt|evasion|1
+|-sideend|p2: Realest Red Da God|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|-heal|p1a: Dracozolt|40/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Corviknight|Body Press|p1a: Dracozolt
+|-damage|p1a: Dracozolt|16/100
+|move|p1a: Dracozolt|Bolt Beak|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|12/100
+|
+|-heal|p2a: Corviknight|18/100|[from] item: Leftovers
+|-heal|p1a: Dracozolt|22/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|move|p2a: Corviknight|Brave Bird|p1a: Chandelure
+|-damage|p1a: Chandelure|51/100
+|-damage|p2a: Corviknight|6/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|13/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|53/100
+|turn|14
+|
+|switch|p1a: Clefable|Clefable, F|79/100
+|move|p2a: Rotom|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|46/100
+|
+|-heal|p1a: Clefable|52/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Rotom|Volt Switch|p1a: Clefable
+|-damage|p1a: Clefable|24/100
+|
+|switch|p2a: Clefable|Clefable, M|100/100|[from]move: Volt Switch
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-heal|p1a: Clefable|30/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|-heal|p1a: Clefable|80/100|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Clefable|87/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Clefable|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|60/100
+|move|p1a: Clefable|Thunder Wave|p2a: Clefable
+|-status|p2a: Clefable|par
+|
+|-heal|p1a: Clefable|66/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|24/100
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-heal|p1a: Clefable|72/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|30/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Chandelure|Chandelure, M|51/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Chandelure
+|-start|p1a: Chandelure|move: Leech Seed
+|
+|-heal|p1a: Chandelure|100/100|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Ferrothorn|36/100|[from] item: Leftovers
+|-damage|p1a: Chandelure|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|45/100|[silent]
+|upkeep
+|turn|20
+|
+|switch|p1a: Dracozolt|Dracozolt|22/100
+|move|p2a: Ferrothorn|Protect||[still]
+|-fail|p2a: Ferrothorn
+|
+|-heal|p1a: Dracozolt|28/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|52/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Dracozolt|Fire Fang|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Dracozolt|16/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Dracozolt|22/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|88/100
+|turn|22
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Dracozolt
+|-damage|p1a: Dracozolt|0 fnt
+|faint|p1a: Dracozolt
+|
+|upkeep
+|
+|switch|p1a: Chandelure|Chandelure, M|88/100
+|turn|23
+|
+|switch|p2a: Rotom|Rotom-Heat|53/100
+|move|p1a: Chandelure|Shadow Ball|p2a: Rotom
+|-damage|p2a: Rotom|24/100
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Morpeko|Morpeko, M|100/100
+|turn|25
+|
+|switch|p1a: Clefable|Clefable, F|72/100
+|move|p2a: Morpeko|Aura Wheel|p1a: Clefable
+|-damage|p1a: Clefable|4/100
+|-boost|p2a: Morpeko|spe|1
+|
+|-heal|p1a: Clefable|10/100|[from] item: Leftovers
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|26
+|
+|move|p2a: Morpeko|Aura Wheel|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|-boost|p2a: Morpeko|spe|1
+|faint|p1a: Clefable
+|
+|-formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, F|100/100
+|turn|27
+|
+|move|p2a: Morpeko|Aura Wheel|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-boost|p2a: Morpeko|spe|1
+|faint|p1a: Gengar
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|-message|danceswithdragons forfeited.
+|
+|win|Realest Red Da God
+|l|☆danceswithdragons
+|raw|danceswithdragons's rating: 1575 → 1547(-28 for losing)
+|raw|Realest Red Da God's rating: 1440 → 1467(+27 for winning)

@@ -1,0 +1,261 @@
+|ScrapeTime|2020-01-02-11:06:04
+|j|☆erkikemelo
+|j|☆shoujos
+|player|p1|erkikemelo|169|1209
+|player|p2|shoujos|caitlin|1164
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pincurchin, F|
+|poke|p1|Slurpuff, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Mr. Mime-Galar, F|
+|poke|p1|Roserade, M|
+|poke|p1|Bisharp, F|
+|poke|p2|Polteageist|
+|poke|p2|Eiscue, F|
+|poke|p2|Jellicent, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Orbeetle, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Pincurchin|Pincurchin, F|100/100
+|switch|p2a: uf-HO|Orbeetle, F|100/100
+|-item|p1a: Pincurchin|Air Balloon|[from] ability: Frisk|[of] p2a: uf-HO|[identify]
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|-item|p1a: Pincurchin|Air Balloon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by erkikemelo)
+|
+|move|p2a: uf-HO|Trick|p1a: Pincurchin
+|-activate|p2a: uf-HO|move: Trick|[of] p1a: Pincurchin
+|-item|p1a: Pincurchin|Choice Scarf|[from] move: Trick
+|-item|p2a: uf-HO|Air Balloon
+|-item|p2a: uf-HO|Air Balloon|[from] move: Trick
+|move|p1a: Pincurchin|Toxic Spikes|p2a: uf-HO
+|-sidestart|p2: shoujos|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Mr. Mime|Mr. Mime-Galar, F|100/100
+|move|p2a: uf-HO|Sticky Web|p1a: Mr. Mime
+|-sidestart|p1: erkikemelo|move: Sticky Web
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Mr. Mime|Rapid Spin|p2a: uf-HO
+|-damage|p2a: uf-HO|95/100
+|-enditem|p2a: uf-HO|Air Balloon
+|-sideend|p1: erkikemelo|Sticky Web|[from] move: Rapid Spin|[of] p1a: Mr. Mime
+|-boost|p1a: Mr. Mime|spe|1
+|move|p2a: uf-HO|Trick|p1a: Mr. Mime
+|-activate|p2a: uf-HO|move: Trick|[of] p1a: Mr. Mime
+|-enditem|p1a: Mr. Mime|Heavy-Duty Boots|[silent]|[from] move: Trick
+|-item|p2a: uf-HO|Heavy-Duty Boots|[from] move: Trick
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Mr. Mime|Encore|p2a: uf-HO
+|-start|p2a: uf-HO|Encore
+|move|p2a: uf-HO|Trick|p1a: Mr. Mime
+|-activate|p2a: uf-HO|move: Trick|[of] p1a: Mr. Mime
+|-item|p1a: Mr. Mime|Heavy-Duty Boots|[from] move: Trick
+|-enditem|p2a: uf-HO|Heavy-Duty Boots|[silent]|[from] move: Trick
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Mr. Mime|Freeze-Dry|p2a: uf-HO
+|-damage|p2a: uf-HO|71/100
+|move|p2a: uf-HO|Trick|p1a: Mr. Mime
+|-activate|p2a: uf-HO|move: Trick|[of] p1a: Mr. Mime
+|-enditem|p1a: Mr. Mime|Heavy-Duty Boots|[silent]|[from] move: Trick
+|-item|p2a: uf-HO|Heavy-Duty Boots|[from] move: Trick
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|switch|p2a: SPILL THE TEA SIS|Polteageist, shiny|100/100
+|-status|p2a: SPILL THE TEA SIS|psn
+|move|p1a: Mr. Mime|Freeze-Dry|p2a: SPILL THE TEA SIS
+|-damage|p2a: SPILL THE TEA SIS|66/100 psn
+|
+|-damage|p2a: SPILL THE TEA SIS|54/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|move|p1a: Mr. Mime|Freeze-Dry|p2a: SPILL THE TEA SIS
+|-damage|p2a: SPILL THE TEA SIS|21/100 psn
+|move|p2a: SPILL THE TEA SIS|Shell Smash|p2a: SPILL THE TEA SIS
+|-unboost|p2a: SPILL THE TEA SIS|def|1
+|-unboost|p2a: SPILL THE TEA SIS|spd|1
+|-boost|p2a: SPILL THE TEA SIS|atk|2
+|-boost|p2a: SPILL THE TEA SIS|spa|2
+|-boost|p2a: SPILL THE TEA SIS|spe|2
+|
+|-damage|p2a: SPILL THE TEA SIS|9/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|move|p2a: SPILL THE TEA SIS|Shadow Ball|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|34/100
+|
+|-heal|p1a: Bisharp|40/100|[from] item: Leftovers
+|-damage|p2a: SPILL THE TEA SIS|0 fnt|[from] psn
+|faint|p2a: SPILL THE TEA SIS
+|upkeep
+|
+|switch|p2a: *BOOM* to FREEDOM|Jellicent, F|100/100
+|-status|p2a: *BOOM* to FREEDOM|psn
+|turn|9
+|
+|move|p1a: Bisharp|Substitute|p1a: Bisharp
+|-start|p1a: Bisharp|Substitute
+|-damage|p1a: Bisharp|15/100
+|move|p2a: *BOOM* to FREEDOM|Scald|p1a: Bisharp
+|-end|p1a: Bisharp|Substitute
+|
+|-heal|p1a: Bisharp|21/100|[from] item: Leftovers
+|-damage|p2a: *BOOM* to FREEDOM|88/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p1a: Roserade|Roserade, M|100/100
+|move|p2a: *BOOM* to FREEDOM|Scald|p1a: Roserade
+|-resisted|p1a: Roserade
+|-damage|p1a: Roserade|81/100
+|
+|-heal|p2a: *BOOM* to FREEDOM|94/100 psn|[from] item: Leftovers
+|-damage|p2a: *BOOM* to FREEDOM|82/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p2a: uf-HO|Orbeetle, F|71/100
+|-item|p1a: Roserade|Expert Belt|[from] ability: Frisk|[of] p2a: uf-HO|[identify]
+|move|p1a: Roserade|Venoshock|p2a: uf-HO
+|-damage|p2a: uf-HO|39/100
+|
+|upkeep
+|turn|12
+|
+|move|p2a: uf-HO|Future Sight|p1a: Roserade
+|-start|p2a: uf-HO|move: Future Sight
+|move|p1a: Roserade|Shadow Ball|p2a: uf-HO
+|-supereffective|p2a: uf-HO
+|-damage|p2a: uf-HO|0 fnt
+|faint|p2a: uf-HO
+|
+|upkeep
+|
+|switch|p2a: snatch my ICE wig|Eiscue, F|100/100
+|-status|p2a: snatch my ICE wig|psn
+|turn|13
+|
+|move|p1a: Roserade|Giga Drain|p2a: snatch my ICE wig
+|-damage|p2a: snatch my ICE wig|54/100 psn
+|-heal|p1a: Roserade|100/100|[from] drain|[of] p2a: snatch my ICE wig
+|move|p2a: snatch my ICE wig|Belly Drum|p2a: snatch my ICE wig
+|-damage|p2a: snatch my ICE wig|4/100 psn
+|-setboost|p2a: snatch my ICE wig|atk|6|[from] move: Belly Drum
+|-enditem|p2a: snatch my ICE wig|Sitrus Berry|[eat]
+|-heal|p2a: snatch my ICE wig|29/100 psn|[from] item: Sitrus Berry
+|
+|-damage|p2a: snatch my ICE wig|17/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|move|p1a: Roserade|Giga Drain|p2a: snatch my ICE wig
+|-damage|p2a: snatch my ICE wig|0 fnt
+|faint|p2a: snatch my ICE wig
+|
+|-end|p1a: Roserade|move: Future Sight
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|22/100
+|upkeep
+|
+|switch|p2a: TRANS RIGHTS!!!!!!|Hatterene, F|100/100
+|-status|p2a: TRANS RIGHTS!!!!!!|psn
+|turn|15
+|
+|move|p1a: Roserade|Venoshock|p2a: TRANS RIGHTS!!!!!!
+|-supereffective|p2a: TRANS RIGHTS!!!!!!
+|-damage|p2a: TRANS RIGHTS!!!!!!|0 fnt
+|faint|p2a: TRANS RIGHTS!!!!!!
+|
+|upkeep
+|
+|switch|p2a: mind games baby|Grimmsnarl, M, shiny|100/100
+|-status|p2a: mind games baby|psn
+|turn|16
+|
+|move|p2a: mind games baby|Fake Out|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|-damage|p2a: mind games baby|88/100 psn|[from] psn
+|upkeep
+|
+|switch|p1a: Pincurchin|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|17
+|
+|move|p2a: mind games baby|Taunt|p1a: Pincurchin
+|-start|p1a: Pincurchin|move: Taunt
+|move|p1a: Pincurchin|Zing Zap|p2a: mind games baby
+|-damage|p2a: mind games baby|34/100 psn
+|
+|-heal|p2a: mind games baby|40/100 psn|[from] item: Leftovers
+|-damage|p2a: mind games baby|27/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|move|p2a: mind games baby|Play Rough|p1a: Pincurchin
+|-damage|p1a: Pincurchin|43/100
+|move|p1a: Pincurchin|Zing Zap|p2a: mind games baby
+|-damage|p2a: mind games baby|0 fnt
+|faint|p2a: mind games baby
+|
+|upkeep
+|
+|switch|p2a: *BOOM* to FREEDOM|Jellicent, F|82/100 psn
+|turn|19
+|
+|move|p2a: *BOOM* to FREEDOM|Scald|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|faint|p1a: Pincurchin
+|
+|-heal|p2a: *BOOM* to FREEDOM|88/100 psn|[from] item: Leftovers
+|-damage|p2a: *BOOM* to FREEDOM|76/100 psn|[from] psn
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|20
+|
+|move|p1a: Dragapult|Hex|p2a: *BOOM* to FREEDOM
+|-supereffective|p2a: *BOOM* to FREEDOM
+|-damage|p2a: *BOOM* to FREEDOM|0 fnt
+|faint|p2a: *BOOM* to FREEDOM
+|
+|win|erkikemelo
+|raw|erkikemelo's rating: 1210 → 1231(+21 for winning)
+|raw|shoujos's rating: 1164 → 1142(-22 for losing)
+|l|☆shoujos

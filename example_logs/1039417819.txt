@@ -1,0 +1,267 @@
+|ScrapeTime|2020-01-02-01:05:52
+|j|☆Muk Masters
+|j|☆notregestered
+|player|p1|Muk Masters|bruno|1456
+|player|p2|notregestered|1|1502
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Cinderace, F|
+|poke|p1|Dugtrio, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Lucario, M|
+|poke|p1|Sylveon, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Clefable, M|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Centiskorch, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Avalugg, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Centiskorch|Centiskorch, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by notregestered)
+|
+|move|p1a: Cinderace|U-turn|p2a: Centiskorch
+|-resisted|p2a: Centiskorch
+|-damage|p2a: Centiskorch|87/100
+|
+|switch|p1a: Dugtrio|Dugtrio, F|100/100|[from]move: U-turn
+|move|p2a: Centiskorch|Knock Off|p1a: Dugtrio
+|-damage|p1a: Dugtrio|36/100
+|-enditem|p1a: Dugtrio|Focus Sash|[from] move: Knock Off|[of] p2a: Centiskorch
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Dugtrio|Stone Edge|p2a: Centiskorch
+|-supereffective|p2a: Centiskorch
+|-damage|p2a: Centiskorch|0 fnt
+|faint|p2a: Centiskorch
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|3
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-enditem|p2a: Excadrill|Focus Sash
+|-damage|p2a: Excadrill|1/100
+|move|p2a: Excadrill|Stealth Rock|p1a: Dugtrio
+|-sidestart|p1: Muk Masters|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Dugtrio|Reversal|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|inactive|notregestered has 120 seconds left.
+|
+|switch|p2a: Avalugg|Avalugg, M|100/100
+|turn|5
+|inactive|notregestered has 120 seconds left.
+|
+|move|p1a: Dugtrio|Reversal|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-damage|p2a: Avalugg|81/100
+|move|p2a: Avalugg|Avalanche|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|6
+|inactive|notregestered has 120 seconds left.
+|
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p1: Muk Masters|Stealth Rock|[silent]
+|-sidestart|p2: notregestered|Stealth Rock|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Avalugg|Body Press|p1a: Cinderace
+|-damage|p1a: Cinderace|47/100
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Avalugg|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|97/100
+|-damage|p2a: Avalugg|68/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-sideend|p2: notregestered|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Avalugg
+|-boost|p2a: Avalugg|spe|1
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Conkeldurr
+|-sidestart|p2: notregestered|move: Stealth Rock
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|
+|move|p2a: Conkeldurr|Drain Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|27/100
+|-damage|p2a: Conkeldurr|88/100 brn|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Conkeldurr
+|-start|p2a: Conkeldurr|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|33/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|76/100 brn|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|48/100|[silent]
+|-damage|p2a: Conkeldurr|70/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|88/100
+|-enditem|p2a: Clefable|Life Orb|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|53/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Clefable|Wish|p2a: Clefable
+|move|p1a: Ferrothorn|Power Whip|p2a: Clefable
+|-damage|p2a: Clefable|44/100
+|
+|-heal|p1a: Ferrothorn|59/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|70/100 brn
+|-damage|p2a: Conkeldurr|64/100 brn|[from] Stealth Rock
+|move|p1a: Ferrothorn|Power Whip|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|28/100 brn
+|
+|-heal|p2a: Conkeldurr|74/100 brn|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Ferrothorn|65/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|68/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Conkeldurr|Drain Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-heal|p2a: Conkeldurr|95/100 brn|[from] drain|[of] p1a: Ferrothorn
+|-damage|p2a: Conkeldurr|83/100 brn|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-damage|p2a: Conkeldurr|77/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Sylveon|Sylveon, M|100/100
+|turn|14
+|
+|switch|p2a: Avalugg|Avalugg, M|68/100
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|upkeep
+|turn|15
+|inactive|notregestered has 120 seconds left.
+|
+|move|p1a: Sylveon|Calm Mind|p1a: Sylveon
+|-boost|p1a: Sylveon|spa|1
+|-boost|p1a: Sylveon|spd|1
+|move|p2a: Avalugg|Avalanche|p1a: Sylveon
+|-damage|p1a: Sylveon|81/100
+|
+|-heal|p1a: Sylveon|100/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|16
+|inactive|notregestered has 120 seconds left.
+|
+|move|p1a: Sylveon|Calm Mind|p1a: Sylveon
+|-boost|p1a: Sylveon|spa|1
+|-boost|p1a: Sylveon|spd|1
+|move|p2a: Avalugg|Avalanche|p1a: Sylveon
+|-damage|p1a: Sylveon|82/100
+|
+|-heal|p1a: Sylveon|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|notregestered has 120 seconds left.
+|
+|move|p1a: Sylveon|Calm Mind|p1a: Sylveon
+|-boost|p1a: Sylveon|spa|1
+|-boost|p1a: Sylveon|spd|1
+|move|p2a: Avalugg|Avalanche|p1a: Sylveon
+|-damage|p1a: Sylveon|70/100
+|
+|-heal|p1a: Sylveon|76/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|move|p2a: Avalugg|Avalanche|p1a: Sylveon
+|-damage|p1a: Sylveon|56/100
+|
+|-heal|p1a: Sylveon|62/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Sylveon|Hyper Voice|p2a: Avalugg
+|-damage|p2a: Avalugg|0 fnt
+|faint|p2a: Avalugg
+|
+|-heal|p1a: Sylveon|100/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|77/100 brn
+|-damage|p2a: Conkeldurr|71/100 brn|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Sylveon|Hyper Voice|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Dragapult|Hex|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|-message|notregestered forfeited.
+|
+|win|Muk Masters
+|l|☆notregestered
+|raw|Muk Masters's rating: 1456 → 1479(+23 for winning)
+|raw|notregestered's rating: 1502 → 1479(-23 for losing)

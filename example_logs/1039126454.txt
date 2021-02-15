@@ -1,0 +1,240 @@
+|ScrapeTime|2020-01-01-13:26:12
+|j|☆ChingChangChew
+|j|☆vcdestruiuomeuovo
+|player|p1|ChingChangChew|1|1317
+|player|p2|vcdestruiuomeuovo|161|1281
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Excadrill, F|
+|poke|p1|Barraskewda, F|
+|poke|p1|Clefable, F|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Dracovish|
+|poke|p1|Pelipper, F|
+|poke|p2|Mew|
+|poke|p2|Bisharp, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Gyarados, F|
+|poke|p2|Cloyster, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|
+|move|p2a: Mew|Taunt|p1a: Corsola
+|-start|p1a: Corsola|move: Taunt
+|cant|p1a: Corsola|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Mew|Stealth Rock|p1a: Clefable
+|-sidestart|p1: ChingChangChew|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Mew|Taunt|p1a: Clefable
+|-start|p1a: Clefable|move: Taunt
+|move|p1a: Clefable|Moonblast|p2a: Mew
+|-damage|p2a: Mew|40/100
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Mew|Self-Destruct|p1a: Clefable
+|-damage|p1a: Clefable|36/100
+|faint|p2a: Mew
+|move|p1a: Clefable|Moonblast|p2: Mew|[notarget]
+|-fail|p1a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|turn|5
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|-damage|p1a: Corsola|88/100|[from] Stealth Rock
+|move|p2a: Bisharp|Iron Head|p1a: Corsola
+|-damage|p1a: Corsola|52/100
+|-damage|p2a: Bisharp|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|-start|p2a: Bisharp|Disable|Throat Chop|[from] ability: Cursed Body|[of] p1a: Corsola
+|-damage|p2a: Bisharp|81/100|[from] item: Life Orb
+|faint|p1a: Corsola
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|7
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|move|p1a: Excadrill|Rapid Spin|p2a: Gyarados
+|-damage|p2a: Gyarados|78/100
+|-sideend|p1: ChingChangChew|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Excadrill|Iron Head|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|51/100
+|cant|p2a: Gyarados|flinch
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Excadrill|Iron Head|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|24/100
+|move|p2a: Gyarados|Waterfall|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|upkeep
+|
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|turn|10
+|
+|move|p1a: Barraskewda|Liquidation|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|11
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ChingChangChew)
+|
+|switch|p1a: Clefable|Clefable, F|36/100
+|move|p2a: Dragapult|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|4/100
+|-damage|p2a: Dragapult|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Dragapult|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|-damage|p2a: Dragapult|81/100|[from] item: Life Orb
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|13
+|
+|move|p2a: Dragapult|Thunderbolt|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|-damage|p2a: Dragapult|71/100|[from] item: Life Orb
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|turn|14
+|
+|move|p1a: Barraskewda|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|turn|15
+|
+|move|p1a: Barraskewda|Crunch|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|79/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Barraskewda
+|-crit|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|-heal|p2a: Conkeldurr|100/100|[from] drain|[of] p1a: Barraskewda
+|faint|p1a: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|16
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Cloyster|Cloyster, F|100/100
+|turn|17
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|31/100
+|move|p2a: Cloyster|Icicle Spear|p1a: Dracovish
+|-damage|p1a: Dracovish|89/100
+|-damage|p1a: Dracovish|79/100
+|-damage|p1a: Dracovish|68/100
+|-damage|p1a: Dracovish|57/100
+|-damage|p1a: Dracovish|45/100
+|-hitcount|p1a: Dracovish|5
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-crit|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|81/100
+|turn|19
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|-damage|p2a: Bisharp|71/100|[from] item: Life Orb
+|faint|p1a: Dracovish
+|
+|win|vcdestruiuomeuovo
+|raw|ChingChangChew's rating: 1317 → 1293(-24 for losing)
+|raw|vcdestruiuomeuovo's rating: 1252 → 1281(+29 for winning)

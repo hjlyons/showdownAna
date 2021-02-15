@@ -1,0 +1,215 @@
+|ScrapeTime|2020-01-01-12:56:25
+|j|☆TrainerSai
+|j|☆Yamicranchitako
+|player|p1|TrainerSai|ethan|1084
+|player|p2|Yamicranchitako|2|1086
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Polteageist|
+|poke|p1|Ditto|
+|poke|p1|Clefable, F|
+|poke|p1|Hydreigon, F|
+|poke|p2|Hawlucha, F|
+|poke|p2|Indeedee, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Weezing-Galar, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TrainerSai)
+|
+|start
+|switch|p1a: Polteageist|Polteageist|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Hydreigon|[miss]
+|-miss|p2a: Dragapult|p1a: Hydreigon
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|move|p1a: Hydreigon|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-activate|p2a: Dragapult|move: Substitute|[damage]
+|
+|switch|p1a: Clefable|Clefable, F|100/100|[from]move: U-turn
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Clefable
+|-status|p1a: Clefable|brn
+|move|p1a: Clefable|Moonblast|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Dragapult|Disable||[still]
+|-fail|p2a: Dragapult
+|
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Weezing
+|-damage|p2a: Weezing|25/100
+|
+|-heal|p2a: Weezing|31/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|54/100
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Clefable|Clefable, F|100/100 brn
+|move|p2a: Mandibuzz|Foul Play|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|91/100 brn
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Mandibuzz|U-turn|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|85/100 brn
+|
+|switch|p2a: Indeedee|Indeedee, M|100/100|[from]move: U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Clefable|Thunderbolt|p2a: Indeedee
+|-damage|p2a: Indeedee|52/100
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Indeedee|Psychic|p1a: Clefable
+|-damage|p1a: Clefable|4/100 brn
+|move|p1a: Clefable|Moonblast|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p2a: Hawlucha|Psychic Seed
+|-boost|p2a: Hawlucha|spd|1
+|turn|11
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|12
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Dragapult|Thunderbolt|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|15/100
+|-status|p2a: Hawlucha|par
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Polteageist|Polteageist|100/100
+|move|p2a: Hawlucha|Acrobatics|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Hawlucha|[from] ability: Imposter
+|turn|14
+|
+|move|p1a: Ditto|Acrobatics|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|15
+|
+|move|p1a: Ditto|Acrobatics|p2a: Seismitoad
+|-damage|p2a: Seismitoad|63/100
+|move|p2a: Seismitoad|Toxic|p1a: Ditto
+|-status|p1a: Ditto|tox
+|
+|-heal|p2a: Seismitoad|69/100|[from] item: Leftovers
+|-damage|p1a: Ditto|94/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Seismitoad|Protect||[still]
+|-fail|p2a: Seismitoad
+|
+|-heal|p2a: Seismitoad|75/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|94/100
+|turn|18
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Dragapult
+|
+|upkeep
+|-message|Yamicranchitako forfeited.
+|
+|win|TrainerSai
+|l|☆Yamicranchitako
+|raw|TrainerSai's rating: 1084 → 1112(+28 for winning)
+|raw|Yamicranchitako's rating: 1086 → 1063(-23 for losing)

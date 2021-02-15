@@ -1,0 +1,440 @@
+|ScrapeTime|2020-01-02-11:06:16
+|j|☆erkikemelo
+|j|☆Raveur
+|player|p1|erkikemelo|169|1231
+|player|p2|Raveur|80|1255
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pincurchin, F|
+|poke|p1|Slurpuff, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Mr. Mime-Galar, M|
+|poke|p1|Roserade, M|
+|poke|p1|Bisharp, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Clefable, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Cinderace, M|
+|poke|p2|Toxapex, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Raveur)
+|inactive|Raveur has 120 seconds left.
+|
+|start
+|switch|p1a: Pincurchin|Pincurchin, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|-item|p1a: Pincurchin|Air Balloon
+|turn|1
+|inactive|Raveur has 120 seconds left.
+|
+|move|p2a: Rotom|Trick|p1a: Pincurchin
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Pincurchin
+|-item|p1a: Pincurchin|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Air Balloon
+|-item|p2a: Rotom|Air Balloon|[from] move: Trick
+|move|p1a: Pincurchin|Zing Zap|p2a: Rotom
+|-damage|p2a: Rotom|50/100
+|-enditem|p2a: Rotom|Air Balloon
+|
+|upkeep
+|turn|2
+|inactive|Raveur has 120 seconds left.
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|
+|upkeep
+|turn|3
+|inactive|Raveur has 120 seconds left.
+|
+|switch|p2a: Rotom|Rotom-Wash|50/100
+|move|p1a: Dragapult|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|33/100
+|
+|switch|p1a: Pincurchin|Pincurchin, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Pincurchin|Sucker Punch|p2a: Rotom
+|-damage|p2a: Rotom|9/100
+|move|p2a: Rotom|Volt Switch|p1a: Pincurchin
+|-resisted|p1a: Pincurchin
+|-crit|p1a: Pincurchin
+|-damage|p1a: Pincurchin|74/100
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100|[from]move: Volt Switch
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Mr. Mime|Mr. Mime-Galar, M|100/100
+|move|p2a: Excadrill|Earthquake|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|switch|p1a: Pincurchin|Pincurchin, F|74/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|6
+|
+|move|p1a: Pincurchin|Sucker Punch|p2a: Excadrill
+|-damage|p2a: Excadrill|68/100
+|move|p2a: Excadrill|Earthquake|p1a: Pincurchin
+|-supereffective|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|faint|p1a: Pincurchin
+|
+|upkeep
+|
+|switch|p1a: Slurpuff|Slurpuff, F|100/100
+|-enditem|p1a: Slurpuff|Electric Seed
+|-boost|p1a: Slurpuff|def|1
+|turn|7
+|
+|move|p1a: Slurpuff|Flamethrower|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|2/100
+|move|p2a: Excadrill|Earthquake|p1a: Slurpuff
+|-damage|p1a: Slurpuff|55/100
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Slurpuff|Flamethrower|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|89/100
+|
+|-heal|p2a: Toxapex|96/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|move|p1a: Slurpuff|Calm Mind|p1a: Slurpuff
+|-boost|p1a: Slurpuff|spa|1
+|-boost|p1a: Slurpuff|spd|1
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|move|p1a: Slurpuff|Psychic|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|59/100
+|move|p2a: Toxapex|Scald|p1a: Slurpuff
+|-damage|p1a: Slurpuff|31/100
+|-status|p1a: Slurpuff|brn
+|
+|-heal|p2a: Toxapex|65/100|[from] item: Black Sludge
+|-damage|p1a: Slurpuff|25/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|11
+|
+|move|p1a: Slurpuff|Calm Mind|p1a: Slurpuff
+|-boost|p1a: Slurpuff|spa|1
+|-boost|p1a: Slurpuff|spd|1
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-damage|p1a: Slurpuff|19/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Slurpuff|Psychic|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|33/100
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|39/100|[from] item: Black Sludge
+|-damage|p1a: Slurpuff|13/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p2a: Rotom|Rotom-Wash|9/100
+|move|p1a: Slurpuff|Psychic|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-damage|p1a: Slurpuff|6/100 brn|[from] brn
+|upkeep
+|inactive|Raveur has 120 seconds left.
+|
+|switch|p2a: Toxapex|Toxapex, M|72/100
+|turn|14
+|
+|move|p1a: Slurpuff|Psychic|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|31/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|81/100
+|
+|-heal|p2a: Toxapex|87/100|[from] item: Black Sludge
+|-damage|p1a: Slurpuff|0 fnt|[from] brn
+|faint|p1a: Slurpuff
+|upkeep
+|
+|switch|p1a: Roserade|Roserade, M|100/100
+|turn|15
+|
+|move|p1a: Roserade|Extrasensory|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|10/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Roserade
+|-sidestart|p1: erkikemelo|move: Toxic Spikes
+|
+|-heal|p2a: Toxapex|17/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|switch|p2a: Excadrill|Excadrill, F|2/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Roserade|Shadow Ball|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|17
+|
+|move|p2a: Cinderace|U-turn|p1a: Roserade
+|-damage|p1a: Roserade|56/100
+|
+|switch|p2a: Toxapex|Toxapex, M|50/100|[from]move: U-turn
+|move|p1a: Roserade|Venoshock|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|36/100
+|
+|-heal|p2a: Toxapex|42/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Roserade|Shadow Ball|p2a: Cinderace
+|-damage|p2a: Cinderace|58/100
+|-unboost|p2a: Cinderace|spd|1
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-status|p1a: Dragapult|psn
+|turn|20
+|
+|move|p1a: Dragapult|Thunderbolt|p2a: Cinderace
+|-damage|p2a: Cinderace|6/100
+|move|p2a: Cinderace|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|86/100 psn
+|
+|switch|p2a: Clefable|Clefable, F|100/100|[from]move: U-turn
+|
+|-damage|p1a: Dragapult|74/100 psn|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|move|p2a: Clefable|Moonblast|p1a: Bisharp
+|-damage|p1a: Bisharp|17/100
+|-unboost|p1a: Bisharp|spa|1
+|-ability|p1a: Bisharp|Defiant
+|-boost|p1a: Bisharp|atk|2
+|
+|-heal|p1a: Bisharp|23/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Bisharp|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|-heal|p1a: Bisharp|29/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|23
+|
+|move|p1a: Bisharp|Sucker Punch||[still]
+|-fail|p1a: Bisharp
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|-heal|p1a: Bisharp|35/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Bisharp|[miss]
+|-miss|p2a: Dragapult|p1a: Bisharp
+|move|p1a: Bisharp|Iron Head|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|-heal|p1a: Bisharp|42/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Cinderace|Cinderace, M|6/100
+|move|p1a: Bisharp|Iron Head|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-heal|p1a: Bisharp|48/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|75/100
+|turn|26
+|
+|move|p1a: Bisharp|Iron Head|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|48/100
+|cant|p2a: Toxapex|flinch
+|
+|-heal|p1a: Bisharp|54/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|54/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|switch|p1a: Dragapult|Dragapult, F|74/100 psn
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|60/100|[from] item: Black Sludge
+|-damage|p1a: Dragapult|62/100 psn|[from] psn
+|upkeep
+|turn|28
+|
+|move|p1a: Dragapult|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|14/100
+|-status|p2a: Toxapex|par
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|64/100 par
+|
+|-heal|p2a: Toxapex|70/100 par|[from] item: Black Sludge
+|-damage|p1a: Dragapult|49/100 psn|[from] psn
+|upkeep
+|turn|29
+|
+|switch|p1a: Bisharp|Bisharp, M|54/100
+|cant|p2a: Toxapex|par
+|
+|-heal|p1a: Bisharp|60/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|76/100 par|[from] item: Black Sludge
+|upkeep
+|turn|30
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|cant|p2a: Toxapex|par
+|
+|-heal|p1a: Bisharp|66/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|82/100 par|[from] item: Black Sludge
+|upkeep
+|turn|31
+|
+|move|p1a: Bisharp|Iron Head|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|56/100 par
+|cant|p2a: Toxapex|par
+|
+|-heal|p1a: Bisharp|72/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|62/100 par|[from] item: Black Sludge
+|upkeep
+|turn|32
+|
+|move|p1a: Bisharp|Iron Head|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|38/100 par
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Bisharp|78/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|44/100 par|[from] item: Black Sludge
+|upkeep
+|turn|33
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|94/100 par
+|
+|-heal|p1a: Bisharp|84/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|99/100 par|[from] item: Black Sludge
+|upkeep
+|turn|34
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Bisharp|90/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|100/100 par|[from] item: Black Sludge
+|upkeep
+|turn|35
+|
+|move|p1a: Bisharp|Substitute|p1a: Bisharp
+|-start|p1a: Bisharp|Substitute
+|-damage|p1a: Bisharp|65/100
+|cant|p2a: Toxapex|par
+|
+|-heal|p1a: Bisharp|71/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Toxapex|Scald|p1a: Bisharp
+|-activate|p1a: Bisharp|move: Substitute|[damage]
+|
+|-heal|p1a: Bisharp|77/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|switch|p2a: Dragapult|Dragapult, M|88/100
+|move|p1a: Bisharp|Iron Head|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Bisharp|83/100|[from] item: Leftovers
+|upkeep
+|-message|Raveur forfeited.
+|
+|win|erkikemelo
+|l|☆Raveur
+|raw|erkikemelo's rating: 1231 → 1258(+27 for winning)
+|raw|Raveur's rating: 1255 → 1229(-26 for losing)

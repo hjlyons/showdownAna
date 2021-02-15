@@ -1,0 +1,312 @@
+|ScrapeTime|2020-01-03-01:04:42
+|j|☆GalarianBlackDash
+|j|☆Pikachu563
+|player|p1|GalarianBlackDash|169|1359
+|player|p2|Pikachu563|167|1412
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Espeon, F|
+|poke|p1|Vikavolt, M|
+|poke|p1|Toxtricity, M|
+|poke|p1|Hitmonchan, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Corviknight, F|
+|poke|p2|Sirfetch'd, F|
+|poke|p2|Reuniclus, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GalarianBlackDash)
+|
+|start
+|switch|p1a: Vikavolt|Vikavolt, M|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Vikavolt
+|-damage|p1a: Vikavolt|64/100
+|-damage|p1a: Vikavolt|27/100
+|-hitcount|p1a: Vikavolt|2
+|move|p1a: Vikavolt|Sticky Web|p2a: Dragapult
+|-sidestart|p2: Pikachu563|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Vikavolt
+|-damage|p1a: Vikavolt|0 fnt
+|-hitcount|p1a: Vikavolt|1
+|faint|p1a: Vikavolt
+|
+|upkeep
+|
+|switch|p1a: Tychan|Hitmonchan, M|100/100
+|turn|3
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Tychan|Ice Punch|p2a: Corviknight
+|-damage|p2a: Corviknight|87/100
+|
+|-heal|p2a: Corviknight|93/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|move|p2a: Corviknight|Defog|p1a: Toxtricity
+|-unboost|p1a: Toxtricity|evasion|1
+|-sideend|p2: Pikachu563|Sticky Web|[from] move: Defog|[of] p2a: Corviknight
+|
+|-heal|p2a: Corviknight|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|move|p1a: Toxtricity|Boomburst|p2a: Reuniclus
+|-damage|p2a: Reuniclus|64/100
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Espeon|Espeon, F|100/100
+|move|p2a: Reuniclus|Psychic|p1a: Espeon
+|-resisted|p1a: Espeon
+|-damage|p1a: Espeon|85/100
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Espeon|Shadow Ball|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|33/100
+|move|p2a: Reuniclus|Shadow Ball|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|47/100
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Espeon|Shadow Ball|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|9
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Corsola
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Corsola|[from]lockedmove
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|32/100
+|move|p1a: Corsola|Will-O-Wisp|p2a: Dragapult
+|-status|p2a: Dragapult|brn
+|
+|-damage|p2a: Dragapult|95/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Corsola
+|move|p1a: Corsola|Strength Sap|p2a: Dragapult|[miss]
+|-miss|p1a: Corsola|p2a: Dragapult
+|
+|-damage|p2a: Dragapult|89/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Corsola|[from]lockedmove
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|-damage|p2a: Dragapult|83/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Tychan|Hitmonchan, M|100/100
+|turn|13
+|
+|switch|p2a: Corviknight|Corviknight, F|99/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Tychan|Ice Punch|p2a: Corviknight
+|-damage|p2a: Corviknight|85/100
+|
+|-heal|p2a: Corviknight|91/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|switch|p2a: Dragapult|Dragapult, F|83/100 brn
+|
+|-damage|p2a: Dragapult|77/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Toxtricity
+|-damage|p1a: Toxtricity|74/100
+|-damage|p1a: Toxtricity|43/100
+|-hitcount|p1a: Toxtricity|2
+|move|p1a: Toxtricity|Snarl|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|4/100 brn
+|-unboost|p2a: Dragapult|spa|1
+|
+|-damage|p2a: Dragapult|0 fnt|[from] brn
+|faint|p2a: Dragapult
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|16
+|
+|switch|p1a: Tychan|Hitmonchan, M|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Tychan
+|-damage|p1a: Tychan|80/100
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Sirfetch'd|Close Combat|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-unboost|p2a: Sirfetch'd|def|1
+|-unboost|p2a: Sirfetch'd|spd|1
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, M|43/100
+|turn|18
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Toxtricity|Boomburst|p2a: Rotom
+|-damage|p2a: Rotom|12/100
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Corviknight|Corviknight, F|91/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Toxtricity|Boomburst|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|58/100
+|
+|-heal|p2a: Corviknight|65/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Tychan|Hitmonchan, M|80/100
+|move|p2a: Corviknight|Brave Bird|p1a: Tychan
+|-supereffective|p1a: Tychan
+|-damage|p1a: Tychan|0 fnt
+|-damage|p2a: Corviknight|45/100|[from] Recoil
+|faint|p1a: Tychan
+|
+|-heal|p2a: Corviknight|51/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, M|43/100
+|turn|21
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Toxtricity|Volt Switch|p2a: Seismitoad
+|-immune|p2a: Seismitoad
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Espeon|Espeon, F|47/100
+|move|p2a: Seismitoad|Earth Power|p1a: Espeon
+|-damage|p1a: Espeon|30/100
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Espeon|Grass Knot|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|100/100
+|turn|24
+|
+|switch|p1a: Toxtricity|Toxtricity, M|43/100
+|move|p2a: Sirfetch'd|First Impression|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|1/100
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: Rotom|Rotom-Heat|12/100
+|move|p1a: Toxtricity|Volt Switch|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|switch|p1a: Espeon|Espeon, F|30/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|100/100
+|turn|26
+|
+|move|p2a: Sirfetch'd|First Impression|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, M|1/100
+|turn|27
+|
+|switch|p2a: Corviknight|Corviknight, F|51/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Toxtricity|Overdrive|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|100/100
+|turn|28
+|inactive|GalarianBlackDash has 120 seconds left.
+|inactive|GalarianBlackDash has 90 seconds left.
+|inactive|GalarianBlackDash has 60 seconds left.
+|inactive|GalarianBlackDash has 30 seconds left.
+|c|☆Pikachu563|Can you just click a move
+|inactive|GalarianBlackDash has 20 seconds left.
+|inactive|GalarianBlackDash has 15 seconds left.
+|inactive|GalarianBlackDash has 10 seconds left.
+|inactive|GalarianBlackDash has 5 seconds left.
+|-message|GalarianBlackDash lost due to inactivity.
+|
+|win|Pikachu563
+|raw|GalarianBlackDash's rating: 1359 → 1343(-16 for losing)
+|raw|Pikachu563's rating: 1430 → 1446(+16 for winning)

@@ -1,0 +1,314 @@
+|ScrapeTime|2020-01-01-07:05:17
+|j|☆AYAYAdam
+|j|☆KKirby
+|player|p1|AYAYAdam|caitlin|
+|player|p2|KKirby|102|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Morpeko, M|
+|poke|p1|Clefable, F|
+|poke|p1|Gyarados, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Dragapult, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Obstagoon, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Rotom-Wash|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: MOLE|Excadrill, F|100/100
+|switch|p2a: Bolt Kick|Cinderace, M|100/100
+|-ability|p1a: MOLE|Mold Breaker
+|turn|1
+|
+|move|p2a: Bolt Kick|U-turn|p1a: MOLE
+|-resisted|p1a: MOLE
+|-damage|p1a: MOLE|84/100
+|
+|switch|p2a: BIRD|Corviknight, M|100/100|[from]move: U-turn
+|-ability|p2a: BIRD|Pressure
+|move|p1a: MOLE|Stealth Rock|p2a: BIRD
+|-sidestart|p2: KKirby|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: GHOST|Rotom-Wash|100/100
+|move|p2a: BIRD|U-turn|p1a: GHOST
+|-damage|p1a: GHOST|81/100
+|
+|switch|p2a: SeismiGOAT|Seismitoad, M|100/100|[from]move: U-turn
+|-damage|p2a: SeismiGOAT|94/100|[from] Stealth Rock
+|
+|-heal|p2a: SeismiGOAT|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: FISH|Gyarados, M|100/100
+|move|p2a: SeismiGOAT|Toxic|p1a: FISH
+|-status|p1a: FISH|tox
+|
+|-damage|p1a: FISH|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p2a: BIRD|Corviknight, M|100/100
+|-damage|p2a: BIRD|88/100|[from] Stealth Rock
+|-ability|p2a: BIRD|Pressure
+|move|p1a: FISH|Power Whip|p2a: BIRD
+|-resisted|p2a: BIRD
+|-damage|p2a: BIRD|81/100
+|
+|-heal|p1a: FISH|100/100 tox|[from] item: Leftovers
+|-heal|p2a: BIRD|87/100|[from] item: Leftovers
+|-damage|p1a: FISH|88/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p1a: RAT|Morpeko, M|100/100
+|move|p2a: BIRD|Defog|p1a: RAT
+|-unboost|p1a: RAT|evasion|1
+|-sideend|p2: KKirby|Stealth Rock|[from] move: Defog|[of] p2a: BIRD
+|
+|-heal|p2a: BIRD|93/100|[from] item: Leftovers
+|-formechange|p1a: RAT|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|6
+|
+|switch|p2a: GOON GANG|Obstagoon, F|100/100
+|move|p1a: RAT|Aura Wheel|p2a: GOON GANG
+|-resisted|p2a: GOON GANG
+|-damage|p2a: GOON GANG|64/100
+|-boost|p1a: RAT|spe|1
+|
+|-status|p2a: GOON GANG|brn|[from] item: Flame Orb
+|-formechange|p1a: RAT|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|7
+|
+|switch|p2a: SeismiGOAT|Seismitoad, M|100/100
+|move|p1a: RAT|Aura Wheel|p2a: SeismiGOAT
+|-immune|p2a: SeismiGOAT
+|
+|-formechange|p1a: RAT|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|8
+|
+|switch|p1a: TREBLE|Clefable, F|100/100
+|move|p2a: SeismiGOAT|Earthquake|p1a: TREBLE
+|-damage|p1a: TREBLE|64/100
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Bolt Kick|Cinderace, M|100/100
+|move|p1a: TREBLE|Moonblast|p2a: Bolt Kick
+|-resisted|p2a: Bolt Kick
+|-crit|p2a: Bolt Kick
+|-damage|p2a: Bolt Kick|34/100
+|
+|upkeep
+|turn|10
+|c|☆KKirby|Hax already smh
+|
+|switch|p1a: FISH|Gyarados, M|88/100 tox
+|move|p2a: Bolt Kick|Pyro Ball|p1a: FISH
+|-resisted|p1a: FISH
+|-damage|p1a: FISH|55/100 tox
+|
+|-heal|p1a: FISH|61/100 tox|[from] item: Leftovers
+|-damage|p1a: FISH|55/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p1a: GHOST|Rotom-Wash|81/100
+|move|p2a: Bolt Kick|U-turn|p1a: GHOST
+|-damage|p1a: GHOST|53/100
+|
+|switch|p2a: SeismiGOAT|Seismitoad, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: TREBLE|Clefable, F|64/100
+|move|p2a: SeismiGOAT|Stealth Rock|p1a: TREBLE
+|-sidestart|p1: AYAYAdam|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|move|p2a: SeismiGOAT|Earthquake|p1a: TREBLE
+|-damage|p1a: TREBLE|29/100
+|move|p1a: TREBLE|Moonblast|p2a: SeismiGOAT
+|-crit|p2a: SeismiGOAT
+|-damage|p2a: SeismiGOAT|19/100
+|
+|-heal|p2a: SeismiGOAT|25/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: SeismiGOAT|Earthquake|p1a: TREBLE
+|-damage|p1a: TREBLE|0 fnt
+|faint|p1a: TREBLE
+|
+|-heal|p2a: SeismiGOAT|31/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: MOLE|Excadrill, F|84/100
+|-damage|p1a: MOLE|81/100|[from] Stealth Rock
+|-ability|p1a: MOLE|Mold Breaker
+|turn|15
+|
+|switch|p2a: BIRD|Corviknight, M|93/100
+|-ability|p2a: BIRD|Pressure
+|move|p1a: MOLE|Earthquake|p2a: BIRD
+|-immune|p2a: BIRD
+|
+|-heal|p2a: BIRD|99/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: MOLE|Stealth Rock|p2a: BIRD
+|-sidestart|p2: KKirby|move: Stealth Rock
+|move|p2a: BIRD|U-turn|p1a: MOLE
+|-resisted|p1a: MOLE
+|-damage|p1a: MOLE|72/100
+|
+|switch|p2a: Bolt Kick|Cinderace, M|34/100|[from]move: U-turn
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: FISH|Gyarados, M|55/100 tox
+|-damage|p1a: FISH|30/100 tox|[from] Stealth Rock
+|move|p2a: Bolt Kick|Pyro Ball|p1a: FISH
+|-resisted|p1a: FISH
+|-damage|p1a: FISH|0 fnt
+|faint|p1a: FISH
+|
+|upkeep
+|
+|switch|p1a: GHOST|Rotom-Wash|53/100
+|-damage|p1a: GHOST|40/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p2a: SeismiGOAT|Seismitoad, M|31/100
+|-damage|p2a: SeismiGOAT|25/100|[from] Stealth Rock
+|move|p1a: GHOST|Shadow Ball|p2a: SeismiGOAT
+|-damage|p2a: SeismiGOAT|0 fnt
+|faint|p2a: SeismiGOAT
+|
+|upkeep
+|
+|switch|p2a: GOON GANG|Obstagoon, F|64/100 brn
+|-damage|p2a: GOON GANG|52/100 brn|[from] Stealth Rock
+|turn|19
+|
+|switch|p1a: SERF|Dragapult, M|100/100
+|-damage|p1a: SERF|88/100|[from] Stealth Rock
+|move|p2a: GOON GANG|Knock Off|p1a: SERF
+|-supereffective|p1a: SERF
+|-damage|p1a: SERF|0 fnt
+|-enditem|p1a: SERF|Leftovers|[from] move: Knock Off|[of] p2a: GOON GANG
+|faint|p1a: SERF
+|
+|-damage|p2a: GOON GANG|46/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: RAT|Morpeko, M|100/100
+|-damage|p1a: RAT|88/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p2a: RoTomorrow|Rotom-Wash|100/100
+|-damage|p2a: RoTomorrow|88/100|[from] Stealth Rock
+|move|p1a: RAT|Aura Wheel|p2a: RoTomorrow
+|-damage|p2a: RoTomorrow|3/100
+|-boost|p1a: RAT|spe|1
+|
+|-formechange|p1a: RAT|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|21
+|
+|move|p1a: RAT|Aura Wheel|p2a: RoTomorrow
+|-damage|p2a: RoTomorrow|0 fnt
+|-boost|p1a: RAT|spe|1
+|faint|p2a: RoTomorrow
+|
+|-formechange|p1a: RAT|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|
+|switch|p2a: Pult Up|Dragapult, F|100/100
+|-damage|p2a: Pult Up|88/100|[from] Stealth Rock
+|turn|22
+|
+|switch|p1a: MOLE|Excadrill, F|72/100
+|-damage|p1a: MOLE|69/100|[from] Stealth Rock
+|-ability|p1a: MOLE|Mold Breaker
+|move|p2a: Pult Up|Substitute|p2a: Pult Up
+|-start|p2a: Pult Up|Substitute
+|-damage|p2a: Pult Up|63/100
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Pult Up|Dragon Dance|p2a: Pult Up
+|-boost|p2a: Pult Up|atk|1
+|-boost|p2a: Pult Up|spe|1
+|move|p1a: MOLE|Iron Head|p2a: Pult Up
+|-end|p2a: Pult Up|Substitute
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Pult Up|Phantom Force||[still]
+|-prepare|p2a: Pult Up|Phantom Force|p1a: MOLE
+|move|p1a: MOLE|Earthquake|p2a: Pult Up|[miss]
+|-miss|p1a: MOLE|p2a: Pult Up
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Pult Up|Phantom Force|p1a: MOLE|[from]lockedmove
+|-damage|p1a: MOLE|0 fnt
+|faint|p1a: MOLE
+|
+|upkeep
+|
+|switch|p1a: GHOST|Rotom-Wash|40/100
+|-damage|p1a: GHOST|28/100|[from] Stealth Rock
+|turn|26
+|c|☆KKirby|Gg
+|
+|move|p2a: Pult Up|Dragon Darts|p1a: GHOST
+|-damage|p1a: GHOST|0 fnt
+|-hitcount|p1a: GHOST|1
+|faint|p1a: GHOST
+|
+|upkeep
+|
+|switch|p1a: RAT|Morpeko, M|88/100
+|-damage|p1a: RAT|76/100|[from] Stealth Rock
+|turn|27
+|
+|move|p2a: Pult Up|Dragon Darts|p1a: RAT
+|-damage|p1a: RAT|0 fnt
+|-hitcount|p1a: RAT|1
+|faint|p1a: RAT
+|
+|win|KKirby
+|l|☆AYAYAdam

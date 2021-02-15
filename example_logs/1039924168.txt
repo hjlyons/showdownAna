@@ -1,0 +1,310 @@
+|ScrapeTime|2020-01-02-23:21:24
+|j|☆Goldenaircraft
+|j|☆supraahero
+|player|p1|Goldenaircraft|hilbert|1083
+|player|p2|supraahero|pokekid|1108
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Stonjourner, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Hydreigon, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Seismitoad, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Hawlucha, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Gyarados, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by supraahero)
+|
+|start
+|switch|p1a: Stonjourner|Stonjourner, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Grimmsnarl|Taunt|p1a: Seismitoad
+|-start|p1a: Seismitoad|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: supraahero|Reflect
+|move|p1a: Seismitoad|Scald|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|73/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: supraahero|move: Light Screen
+|move|p1a: Seismitoad|Scald|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|57/100
+|-status|p2a: Grimmsnarl|brn
+|
+|-damage|p2a: Grimmsnarl|50/100 brn|[from] brn
+|-end|p1a: Seismitoad|move: Taunt
+|upkeep
+|turn|4
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Seismitoad|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|91/100
+|
+|-heal|p2a: Ferrothorn|97/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Cinderace
+|-start|p1a: Cinderace|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p1a: Cinderace|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|6
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Cinderace|Pyro Ball|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cinderace|82/100|[from] Sandstorm
+|-damage|p1a: Cinderace|70/100|[from] Leech Seed|[of] p2a: Tyranitar
+|-heal|p2a: Tyranitar|98/100|[silent]
+|upkeep
+|turn|7
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p2: supraahero|Light Screen|[silent]
+|-sidestart|p1: Goldenaircraft|Light Screen|[silent]
+|-sideend|p2: supraahero|Reflect|[silent]
+|-sidestart|p1: Goldenaircraft|Reflect|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cinderace|64/100|[from] Sandstorm
+|-damage|p1a: Cinderace|52/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|8
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|98/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|94/100|[from] Sandstorm
+|-heal|p1a: Hydreigon|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|76/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Hydreigon
+|-sidestart|p1: Goldenaircraft|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|69/100|[from] Sandstorm
+|-heal|p1a: Hydreigon|76/100|[from] item: Leftovers
+|-sideend|p1: Goldenaircraft|Reflect
+|upkeep
+|turn|10
+|
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|move|p2a: Tyranitar|Flamethrower|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-activate|p1a: Hydreigon|move: Substitute|[damage]
+|
+|-weather|none
+|-heal|p1a: Hydreigon|82/100|[from] item: Leftovers
+|-sideend|p1: Goldenaircraft|move: Light Screen
+|upkeep
+|turn|11
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|6/100
+|move|p2a: Tyranitar|Flamethrower|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-activate|p1a: Hydreigon|move: Substitute|[damage]
+|
+|-heal|p1a: Hydreigon|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|32/100
+|
+|-heal|p1a: Hydreigon|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|39/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Hydreigon|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|50/100 brn
+|turn|14
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|-heal|p1a: Hydreigon|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|6/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|15
+|c|☆supraahero|gg
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|94/100|[from] Sandstorm
+|-heal|p1a: Hydreigon|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|turn|16
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Hydreigon
+|-end|p1a: Hydreigon|Substitute
+|move|p1a: Hydreigon|Dark Pulse|p2a: Excadrill
+|-damage|p2a: Excadrill|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|94/100|[from] Sandstorm
+|-heal|p1a: Hydreigon|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Hydreigon
+|-damage|p1a: Hydreigon|64/100
+|cant|p1a: Hydreigon|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|58/100|[from] Sandstorm
+|-heal|p1a: Hydreigon|64/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Excadrill|Iron Head|p1a: Hydreigon
+|-damage|p1a: Hydreigon|11/100
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-fail|p1a: Hydreigon|move: Substitute|[weak]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|4/100|[from] Sandstorm
+|-heal|p1a: Hydreigon|11/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Excadrill|Iron Head|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-weather|none
+|upkeep
+|inactive|Goldenaircraft has 120 seconds left.
+|
+|switch|p1a: Cinderace|Cinderace, F|52/100
+|turn|20
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|turn|21
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Dragapult|Thunderbolt|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|9/100
+|move|p2a: Gyarados|Substitute|p2a: Gyarados
+|-fail|p2a: Gyarados|move: Substitute|[weak]
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Dragapult|Thunderbolt|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|-ability|p2a: Hawlucha|Mold Breaker
+|turn|24
+|
+|move|p1a: Dragapult|Thunderbolt|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|27/100
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Dragapult|Thunderbolt|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|win|Goldenaircraft
+|c|☆supraahero|sad
+|c|☆supraahero|real sad
+|c|☆Goldenaircraft|Gg
+|c|☆Goldenaircraft|ik bro
+|c|☆supraahero|yeah
+|c|☆supraahero|:/
+|c|☆Goldenaircraft|I made him scarf
+|c|☆supraahero|youre real bad no life
+|c|☆supraahero|yeah
+|raw|Goldenaircraft's rating: 1059 → 1095(+36 for winning)
+|raw|supraahero's rating: 1108 → 1079(-29 for losing)
+|c|☆Goldenaircraft|how?
+|c|☆supraahero|that youre a no life lol
+|l|☆supraahero

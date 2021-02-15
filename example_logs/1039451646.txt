@@ -1,0 +1,208 @@
+|ScrapeTime|2020-01-02-02:14:55
+|j|☆Elquesillo
+|j|☆lajifei1
+|player|p1|Elquesillo|148|1569
+|player|p2|lajifei1|nate|1503
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dracovish|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Kommo-o, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Cinderace, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Clefable, M|
+|poke|p2|Bisharp, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Cloyster, M|
+|poke|p2|Dragapult, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lajifei1)
+|
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|turn|1
+|
+|move|p1a: Cinderace|U-turn|p2a: Cloyster
+|-damage|p2a: Cloyster|81/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100|[from]move: U-turn
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Cloyster|Icicle Spear|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|87/100
+|-damage|p1a: Ferrothorn|71/100
+|-damage|p1a: Ferrothorn|56/100
+|-damage|p1a: Ferrothorn|43/100
+|-damage|p1a: Ferrothorn|29/100
+|-hitcount|p1a: Ferrothorn|5
+|move|p1a: Ferrothorn|Body Press|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|5/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Cloyster|Icicle Spear|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|14/100
+|-damage|p1a: Ferrothorn|0 fnt
+|-hitcount|p1a: Ferrothorn|2
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|turn|4
+|
+|move|p2a: Cloyster|Rock Blast|p1a: Corsola
+|-damage|p1a: Corsola|89/100
+|-damage|p1a: Corsola|78/100
+|-damage|p1a: Corsola|68/100
+|-damage|p1a: Corsola|58/100
+|-damage|p1a: Corsola|47/100
+|-hitcount|p1a: Corsola|5
+|cant|p1a: Corsola|flinch
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Cloyster|Icicle Spear|p1a: Corsola
+|-damage|p1a: Corsola|30/100
+|-start|p2a: Cloyster|Disable|Icicle Spear|[from] ability: Cursed Body|[of] p1a: Corsola
+|-damage|p1a: Corsola|15/100
+|-damage|p1a: Corsola|0 fnt
+|-hitcount|p1a: Corsola|3
+|faint|p1a: Corsola
+|
+|upkeep
+|
+|switch|p1a: atmosphere|Dracovish|100/100
+|turn|6
+|
+|move|p2a: Cloyster|Rock Blast|p1a: atmosphere
+|-damage|p1a: atmosphere|83/100
+|-damage|p1a: atmosphere|67/100
+|-damage|p1a: atmosphere|51/100
+|-damage|p1a: atmosphere|35/100
+|-damage|p1a: atmosphere|17/100
+|-hitcount|p1a: atmosphere|5
+|move|p1a: atmosphere|Crunch|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|7
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: atmosphere
+|-damage|p1a: atmosphere|0 fnt
+|faint|p1a: atmosphere
+|
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|turn|8
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Kommo-o|Belly Drum|p1a: Kommo-o
+|-damage|p1a: Kommo-o|50/100
+|-setboost|p1a: Kommo-o|atk|6|[from] move: Belly Drum
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Kommo-o|Substitute|p1a: Kommo-o
+|-start|p1a: Kommo-o|Substitute
+|-damage|p1a: Kommo-o|25/100
+|-enditem|p1a: Kommo-o|Salac Berry|[eat]
+|-boost|p1a: Kommo-o|spe|1
+|move|p2a: Clefable|Moonblast|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-end|p1a: Kommo-o|Substitute
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Kommo-o|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|turn|11
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|5/100
+|move|p1a: Kommo-o|Drain Punch|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|-heal|p1a: Kommo-o|51/100|[from] drain|[of] p2a: Bisharp
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|12
+|
+|move|p1a: Kommo-o|Drain Punch|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-heal|p1a: Kommo-o|100/100|[from] drain|[of] p2a: Grimmsnarl
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|13
+|
+|move|p1a: Kommo-o|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|turn|14
+|
+|move|p1a: Kommo-o|Drain Punch|p2a: Corviknight
+|-damage|p2a: Corviknight|13/100
+|move|p2a: Corviknight|Iron Head|p1a: Kommo-o
+|-damage|p1a: Kommo-o|77/100
+|
+|-heal|p2a: Corviknight|19/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Kommo-o|Drain Punch|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-heal|p1a: Kommo-o|89/100|[from] drain|[of] p2a: Corviknight
+|faint|p2a: Corviknight
+|
+|win|Elquesillo
+|l|☆lajifei1
+|raw|Elquesillo's rating: 1545 → 1563(+18 for winning)
+|raw|lajifei1's rating: 1503 → 1486(-17 for losing)

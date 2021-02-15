@@ -1,0 +1,195 @@
+|ScrapeTime|2020-01-02-11:05:52
+|j|☆Zololl
+|j|☆Lay the Bizarre
+|player|p1|Zololl|pokemonranger-gen4|1239
+|player|p2|Lay the Bizarre|121|1168
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Togekiss, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Hydreigon, M|
+|poke|p1|Quagsire, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Chandelure, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Dugtrio, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Seismitoad, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Zololl)
+|
+|move|p2a: Hydreigon|U-turn|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|84/100
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100|[from]move: U-turn
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|71/100
+|-unboost|p2a: Cinderace|spa|1
+|
+|-heal|p1a: Grimmsnarl|90/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Cinderace
+|-status|p2a: Cinderace|par
+|move|p2a: Cinderace|Pyro Ball|p1a: Grimmsnarl|[miss]
+|-miss|p2a: Cinderace|p1a: Grimmsnarl
+|
+|-heal|p1a: Grimmsnarl|96/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Cinderace
+|-start|p2a: Cinderace|move: Taunt
+|move|p2a: Cinderace|Pyro Ball|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|4/100
+|
+|-heal|p1a: Grimmsnarl|10/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Swish|Rotom-Wash|100/100
+|move|p2a: Cinderace|U-turn|p1a: Swish
+|-damage|p1a: Swish|72/100
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100|[from]move: U-turn
+|
+|-status|p1a: Swish|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Swish
+|-damage|p1a: Swish|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|faint|p1a: Swish
+|
+|upkeep
+|
+|switch|p1a: Drache|Hydreigon, M|100/100
+|turn|6
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Drache|Nasty Plot|p1a: Drache
+|-boost|p1a: Drache|spa|2
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Drache|Draco Meteor|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-unboost|p1a: Drache|spa|2
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|8
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|10/100
+|move|p2a: Hydreigon|U-turn|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|switch|p2a: Cinderace|Cinderace, F|71/100 par|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p1a: Brezzy|Togekiss, F|100/100
+|turn|9
+|
+|move|p1a: Brezzy|Nasty Plot|p1a: Brezzy
+|-boost|p1a: Brezzy|spa|2
+|move|p2a: Cinderace|Pyro Ball|p1a: Brezzy
+|-damage|p1a: Brezzy|24/100
+|
+|-heal|p1a: Brezzy|30/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Brezzy|Air Slash|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-heal|p1a: Brezzy|36/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|11
+|
+|move|p2a: Hydreigon|Earth Power|p1a: Brezzy
+|-immune|p1a: Brezzy
+|move|p1a: Brezzy|Air Slash|p2a: Hydreigon
+|-damage|p2a: Hydreigon|17/100
+|
+|-heal|p1a: Brezzy|42/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|c|☆Lay the Bizarre|shit
+|c|☆Lay the Bizarre|mis click
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|move|p1a: Brezzy|Ancient Power|p2a: Corsola
+|-damage|p2a: Corsola|74/100
+|
+|-heal|p1a: Brezzy|48/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Brezzy|Ancient Power|p2a: Corsola
+|-damage|p2a: Corsola|44/100
+|-boost|p1a: Brezzy|atk|1
+|-boost|p1a: Brezzy|def|1
+|-boost|p1a: Brezzy|spa|1
+|-boost|p1a: Brezzy|spd|1
+|-boost|p1a: Brezzy|spe|1
+|move|p2a: Corsola|Night Shade|p1a: Brezzy
+|-damage|p1a: Brezzy|16/100
+|
+|-heal|p1a: Brezzy|22/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Brezzy|Air Slash|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|
+|-heal|p1a: Brezzy|28/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|turn|15
+|
+|move|p1a: Brezzy|Air Slash|p2a: Dugtrio
+|-enditem|p2a: Dugtrio|Focus Sash
+|-damage|p2a: Dugtrio|1/100
+|cant|p2a: Dugtrio|flinch
+|
+|-heal|p1a: Brezzy|35/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|-message|Lay the Bizarre forfeited.
+|
+|win|Zololl
+|l|☆Lay the Bizarre
+|raw|Zololl's rating: 1239 → 1259(+20 for winning)
+|raw|Lay the Bizarre's rating: 1168 → 1148(-20 for losing)

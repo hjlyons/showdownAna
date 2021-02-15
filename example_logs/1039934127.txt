@@ -1,0 +1,588 @@
+|ScrapeTime|2020-01-02-23:45:03
+|j|☆Gnirks_Flo
+|j|☆Diet Dr. Chepper
+|player|p1|Gnirks_Flo|92|1669
+|player|p2|Diet Dr. Chepper|hilbert|1533
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Toxtricity, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Seismitoad, F|
+|poke|p1|Clefable, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Dugtrio, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Seismitoad, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Grimmsnarl|Trick|p1a: Corviknight
+|-activate|p2a: Grimmsnarl|move: Trick|[of] p1a: Corviknight
+|-item|p1a: Corviknight|Choice Band|[from] move: Trick
+|-item|p2a: Grimmsnarl|Leftovers|[from] move: Trick
+|move|p1a: Corviknight|Iron Head|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|14/100
+|
+|-heal|p2a: Grimmsnarl|21/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Corviknight|Iron Head|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|94/100
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Seismitoad
+|-damage|p1a: Seismitoad|46/100
+|-unboost|p1a: Seismitoad|spd|1
+|move|p1a: Seismitoad|Toxic|p2a: Dragapult
+|-status|p2a: Dragapult|tox
+|
+|-heal|p1a: Seismitoad|52/100|[from] item: Leftovers
+|-damage|p2a: Dragapult|95/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p1a: Seismitoad|Protect|p1a: Seismitoad
+|-singleturn|p1a: Seismitoad|Protect
+|move|p2a: Dragapult|Shadow Ball|p1a: Seismitoad
+|-activate|p1a: Seismitoad|move: Protect
+|
+|-heal|p1a: Seismitoad|58/100|[from] item: Leftovers
+|-damage|p2a: Dragapult|83/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Corviknight|Body Press|p1a: Corviknight
+|-damage|p1a: Corviknight|85/100
+|move|p1a: Corviknight|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|96/100
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Seismitoad|[miss]
+|-miss|p1a: Cinderace|p2a: Seismitoad
+|
+|upkeep
+|turn|10
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gnirks_Flo)
+|
+|move|p1a: Cinderace|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|85/100
+|
+|switch|p1a: Seismitoad|Seismitoad, F|58/100|[from]move: U-turn
+|move|p2a: Seismitoad|Stealth Rock|p1a: Seismitoad
+|-sidestart|p1: Gnirks_Flo|move: Stealth Rock
+|
+|-heal|p1a: Seismitoad|64/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|91/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Seismitoad|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: Diet Dr. Chepper|move: Stealth Rock
+|move|p2a: Seismitoad|Toxic|p1a: Seismitoad
+|-status|p1a: Seismitoad|tox
+|
+|-heal|p1a: Seismitoad|70/100 tox|[from] item: Leftovers
+|-heal|p2a: Seismitoad|97/100|[from] item: Leftovers
+|-damage|p1a: Seismitoad|64/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|move|p1a: Seismitoad|Toxic|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-heal|p1a: Seismitoad|70/100 tox|[from] item: Leftovers
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|-damage|p1a: Seismitoad|58/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|switch|p1a: Corviknight|Corviknight, F|85/100
+|-damage|p1a: Corviknight|73/100|[from] Stealth Rock
+|move|p2a: Corviknight|Defog|p1a: Corviknight
+|-ability|p1a: Corviknight|Mirror Armor
+|-unboost|p2a: Corviknight|evasion|1
+|-sideend|p1: Gnirks_Flo|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: Diet Dr. Chepper|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Corviknight|Body Press|p1a: Corviknight
+|-damage|p1a: Corviknight|56/100
+|move|p1a: Corviknight|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|96/100
+|
+|switch|p1a: Clefable|Clefable, F|100/100|[from]move: U-turn
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Corviknight|Iron Head|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|44/100
+|move|p1a: Clefable|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|50/100
+|
+|-heal|p2a: Corviknight|56/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Corviknight|Corviknight, F|56/100
+|move|p2a: Corviknight|Iron Head|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|42/100
+|
+|-heal|p2a: Corviknight|62/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Rotom|Rotom-Heat|94/100
+|move|p1a: Corviknight|U-turn|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|85/100
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Corviknight|Corviknight, F|62/100
+|move|p1a: Dragapult|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|56/100
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Corviknight|62/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Seismitoad|Seismitoad, M|97/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|75/100
+|
+|-heal|p2a: Seismitoad|81/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Cinderace|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|65/100
+|
+|switch|p1a: Seismitoad|Seismitoad, F|58/100 tox|[from]move: U-turn
+|move|p2a: Seismitoad|Stealth Rock|p1a: Seismitoad
+|-sidestart|p1: Gnirks_Flo|move: Stealth Rock
+|
+|-heal|p1a: Seismitoad|64/100 tox|[from] item: Leftovers
+|-heal|p2a: Seismitoad|71/100|[from] item: Leftovers
+|-damage|p1a: Seismitoad|58/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p2a: Corviknight|Corviknight, F|62/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Diet Dr. Chepper|move: Stealth Rock
+|
+|-heal|p1a: Seismitoad|64/100 tox|[from] item: Leftovers
+|-heal|p2a: Corviknight|68/100|[from] item: Leftovers
+|-damage|p1a: Seismitoad|52/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|move|p1a: Seismitoad|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|52/100
+|move|p2a: Corviknight|Iron Head|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|43/100 tox
+|
+|-heal|p1a: Seismitoad|49/100 tox|[from] item: Leftovers
+|-heal|p2a: Corviknight|58/100|[from] item: Leftovers
+|-damage|p1a: Seismitoad|31/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Corviknight|Defog|p1a: Cinderace
+|-unboost|p1a: Cinderace|evasion|1
+|-sideend|p1: Gnirks_Flo|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: Diet Dr. Chepper|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-heal|p2a: Corviknight|64/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Seismitoad|Seismitoad, M|71/100
+|move|p1a: Cinderace|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|56/100
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Seismitoad|62/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Seismitoad
+|-damage|p2a: Seismitoad|36/100
+|-damage|p2a: Seismitoad|7/100
+|-hitcount|p2a: Seismitoad|2
+|move|p2a: Seismitoad|Toxic|p1a: Dragapult
+|-status|p1a: Dragapult|tox
+|
+|-heal|p2a: Seismitoad|13/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|95/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|21/100
+|
+|-heal|p2a: Grimmsnarl|27/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Cinderace
+|-status|p1a: Cinderace|par
+|cant|p1a: Cinderace|par
+|
+|-heal|p2a: Grimmsnarl|33/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Seismitoad|Seismitoad, M|13/100
+|cant|p1a: Cinderace|par
+|
+|-heal|p2a: Seismitoad|19/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|cant|p1a: Cinderace|par
+|move|p2a: Seismitoad|Earthquake|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|10/100 par
+|
+|-heal|p2a: Seismitoad|25/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Cinderace|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|8/100
+|
+|switch|p1a: Clefable|Clefable, F|44/100|[from]move: U-turn
+|move|p2a: Seismitoad|Stealth Rock|p1a: Clefable
+|-sidestart|p1: Gnirks_Flo|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|15/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p2a: Corviknight|Corviknight, F|64/100
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|93/100
+|
+|-heal|p2a: Corviknight|71/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p1a: Corviknight|Corviknight, F|42/100
+|-damage|p1a: Corviknight|29/100|[from] Stealth Rock
+|move|p2a: Corviknight|Iron Head|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|19/100
+|
+|-heal|p2a: Corviknight|77/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p2a: Corviknight|Body Press|p1a: Corviknight
+|-damage|p1a: Corviknight|3/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|53/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|83/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p2a: Rotom|Rotom-Heat|85/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|35
+|
+|switch|p1a: Dragapult|Dragapult, M|95/100 tox
+|-damage|p1a: Dragapult|82/100 tox|[from] Stealth Rock
+|move|p2a: Rotom|Overheat|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|52/100 tox
+|-unboost|p2a: Rotom|spa|2
+|
+|-damage|p1a: Dragapult|46/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|switch|p2a: Corviknight|Corviknight, F|83/100
+|move|p1a: Dragapult|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|76/100
+|
+|switch|p1a: Seismitoad|Seismitoad, F|31/100 tox|[from]move: U-turn
+|-damage|p1a: Seismitoad|25/100 tox|[from] Stealth Rock
+|
+|-heal|p1a: Seismitoad|31/100 tox|[from] item: Leftovers
+|-heal|p2a: Corviknight|83/100|[from] item: Leftovers
+|-damage|p1a: Seismitoad|25/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|switch|p2a: Seismitoad|Seismitoad, M|15/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: Diet Dr. Chepper|move: Stealth Rock
+|
+|-heal|p1a: Seismitoad|31/100 tox|[from] item: Leftovers
+|-heal|p2a: Seismitoad|21/100|[from] item: Leftovers
+|-damage|p1a: Seismitoad|19/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|
+|-heal|p2a: Seismitoad|27/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p1a: Corviknight|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|12/100
+|
+|switch|p1a: Clefable|Clefable, F|93/100|[from]move: U-turn
+|move|p2a: Seismitoad|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|54/100
+|
+|-heal|p2a: Seismitoad|18/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|100/100
+|move|p2a: Seismitoad|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|59/100
+|
+|-heal|p2a: Seismitoad|24/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p1a: Clefable|Moonblast|p2a: Seismitoad
+|-crit|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|85/100
+|turn|42
+|
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|100/100
+|
+|upkeep
+|turn|43
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|38/100
+|move|p1a: Clefable|Moonblast|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|54/100
+|
+|upkeep
+|turn|44
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|46/100 tox
+|-damage|p1a: Dragapult|34/100 tox|[from] Stealth Rock
+|turn|45
+|
+|switch|p2a: Corviknight|Corviknight, F|83/100
+|-damage|p2a: Corviknight|70/100|[from] Stealth Rock
+|move|p1a: Dragapult|Dragon Darts|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|56/100
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|41/100
+|-hitcount|p2a: Corviknight|2
+|
+|-heal|p2a: Corviknight|47/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|28/100 tox|[from] psn
+|upkeep
+|turn|46
+|
+|switch|p1a: Toxtricity|Toxtricity, F|100/100
+|-damage|p1a: Toxtricity|88/100|[from] Stealth Rock
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|97/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|switch|p2a: Dragapult|Dragapult, F|83/100 tox
+|-damage|p2a: Dragapult|70/100 tox|[from] Stealth Rock
+|move|p1a: Toxtricity|Boomburst|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-damage|p2a: Dragapult|64/100 tox|[from] psn
+|upkeep
+|turn|48
+|
+|switch|p1a: Corviknight|Corviknight, F|88/100
+|-damage|p1a: Corviknight|76/100|[from] Stealth Rock
+|move|p2a: Dragapult|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|72/100
+|
+|switch|p2a: Rotom|Rotom-Heat|54/100|[from]move: U-turn
+|
+|upkeep
+|turn|49
+|
+|move|p2a: Rotom|Overheat|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|3/100
+|-unboost|p2a: Rotom|spa|2
+|move|p1a: Corviknight|U-turn|p2a: Rotom
+|-resisted|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|41/100
+|
+|switch|p1a: Toxtricity|Toxtricity, F|88/100|[from]move: U-turn
+|-damage|p1a: Toxtricity|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|50
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|33/100
+|-damage|p2a: Grimmsnarl|20/100|[from] Stealth Rock
+|move|p1a: Toxtricity|Sludge Wave|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|-damage|p2a: Dugtrio|94/100|[from] Stealth Rock
+|turn|51
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Toxtricity
+|-supereffective|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|28/100 tox
+|-damage|p1a: Dragapult|15/100 tox|[from] Stealth Rock
+|turn|52
+|
+|move|p2a: Dugtrio|Sucker Punch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|10/100 par
+|turn|53
+|
+|move|p2a: Dugtrio|Sucker Punch|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, F|19/100 tox
+|-damage|p1a: Seismitoad|13/100 tox|[from] Stealth Rock
+|turn|54
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, F|3/100
+|-damage|p1a: Corviknight|0 fnt|[from] Stealth Rock
+|faint|p1a: Corviknight
+|
+|win|Diet Dr. Chepper
+|raw|Gnirks_Flo's rating: 1669 → 1642(-27 for losing)
+|raw|Diet Dr. Chepper's rating: 1533 → 1560(+27 for winning)

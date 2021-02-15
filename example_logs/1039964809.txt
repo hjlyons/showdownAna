@@ -1,0 +1,373 @@
+|ScrapeTime|2020-01-03-00:48:47
+|j|☆Wyralith
+|j|☆dallyranks
+|player|p1|Wyralith|ariana|1462
+|player|p2|dallyranks|ingo|1419
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mew|
+|poke|p1|Crawdaunt, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Bisharp, M|
+|poke|p1|Hydreigon, M|
+|poke|p1|Excadrill, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Seismitoad, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Mimikyu, M|
+|poke|p2|Aegislash, M|
+|poke|p2|Noivern, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Wyralith)
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Noivern|Noivern, F|100/100
+|turn|1
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Mew|Stealth Rock|p2a: Mandibuzz
+|-sidestart|p2: dallyranks|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|move|p2a: Mandibuzz|Knock Off|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|85/100
+|-enditem|p1a: Bisharp|Life Orb|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Mandibuzz|Defog|p1a: Bisharp
+|-unboost|p1a: Bisharp|evasion|1
+|-ability|p1a: Bisharp|Defiant
+|-boost|p1a: Bisharp|atk|2
+|-sideend|p2: dallyranks|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|66/100
+|-start|p2a: Mandibuzz|Throat Chop|[silent]
+|move|p2a: Mandibuzz|Knock Off|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|75/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Bisharp|Iron Head|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|turn|6
+|
+|move|p2a: Mimikyu|Drain Punch|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|-damage|p2a: Mimikyu|91/100|[from] item: Life Orb
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|7
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Excadrill|Iron Head|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|86/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Mew|Mew|100/100
+|move|p2a: Seismitoad|Scald|p1a: Mew
+|-damage|p1a: Mew|75/100
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Mew|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: dallyranks|move: Stealth Rock
+|move|p2a: Seismitoad|Stealth Rock|p1a: Mew
+|-sidestart|p1: Wyralith|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Mew|Spikes|p2a: Seismitoad
+|-sidestart|p2: dallyranks|Spikes
+|move|p2a: Seismitoad|Rest|p2a: Seismitoad
+|-status|p2a: Seismitoad|slp|[from] move: Rest
+|-heal|p2a: Seismitoad|100/100 slp|[silent]
+|-enditem|p2a: Seismitoad|Chesto Berry|[eat]
+|-curestatus|p2a: Seismitoad|slp|[msg]
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|-damage|p2a: Aegislash|88/100|[from] Spikes
+|-damage|p2a: Aegislash|82/100|[from] Stealth Rock
+|move|p1a: Mew|Spikes|p2a: Aegislash
+|-sidestart|p2: dallyranks|Spikes
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Mew|Spikes|p2a: Aegislash
+|-sidestart|p2: dallyranks|Spikes
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|-damage|p1a: Crawdaunt|88/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p2a: Noivern|Noivern, F|100/100
+|-damage|p2a: Noivern|75/100|[from] Stealth Rock
+|move|p1a: Crawdaunt|Swords Dance|p1a: Crawdaunt
+|-boost|p1a: Crawdaunt|atk|2
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Noivern
+|-resisted|p2a: Noivern
+|-damage|p2a: Noivern|33/100
+|-damage|p1a: Crawdaunt|78/100|[from] item: Life Orb
+|move|p2a: Noivern|Draco Meteor|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|-unboost|p2a: Noivern|spa|2
+|faint|p1a: Crawdaunt
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p2a: Aegislash|Aegislash, M|82/100
+|-damage|p2a: Aegislash|76/100|[from] Stealth Rock
+|-damage|p2a: Aegislash|51/100|[from] Spikes
+|move|p1a: Dragapult|Dragon Darts|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|39/100
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|25/100
+|-hitcount|p2a: Aegislash|2
+|-damage|p1a: Dragapult|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|29/100
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Aegislash
+|
+|upkeep
+|turn|17
+|
+|-formechange|p2a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Dragapult|Phantom Force|p2a: Aegislash|[from]lockedmove
+|-activate|p2a: Aegislash|move: Phantom Force|[broken]
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|-damage|p1a: Dragapult|19/100|[from] item: Life Orb
+|faint|p2a: Aegislash
+|
+|upkeep
+|inactive|dallyranks has 120 seconds left.
+|
+|switch|p2a: Mimikyu|Mimikyu, M|91/100
+|-damage|p2a: Mimikyu|66/100|[from] Spikes
+|-damage|p2a: Mimikyu|53/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p2a: Mimikyu|43/100|[from] item: Life Orb
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|19
+|inactive|dallyranks has 120 seconds left.
+|
+|move|p1a: Excadrill|Iron Head|p2a: Mimikyu
+|-supereffective|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|-damage|p2a: Rotom|75/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|move|p2a: Rotom|Overheat|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|38/100
+|-unboost|p2a: Rotom|spa|2
+|
+|upkeep
+|turn|21
+|inactive|dallyranks has 120 seconds left.
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|-damage|p2a: Seismitoad|76/100|[from] Spikes
+|-damage|p2a: Seismitoad|70/100|[from] Stealth Rock
+|move|p1a: Hydreigon|Dark Pulse|p2a: Seismitoad
+|-damage|p2a: Seismitoad|24/100
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|inactive|dallyranks has 120 seconds left.
+|
+|switch|p2a: Noivern|Noivern, F|33/100
+|-damage|p2a: Noivern|8/100|[from] Stealth Rock
+|turn|23
+|inactive|dallyranks has 120 seconds left.
+|
+|move|p2a: Noivern|Draco Meteor|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|-unboost|p2a: Noivern|spa|2
+|faint|p1a: Hydreigon
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|97/100
+|-damage|p1a: Excadrill|94/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|24
+|inactive|dallyranks has 90 seconds left.
+|
+|move|p2a: Noivern|Draco Meteor|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|74/100
+|-unboost|p2a: Noivern|spa|2
+|move|p1a: Excadrill|Earthquake|p2a: Noivern
+|-immune|p2a: Noivern
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Noivern|Draco Meteor|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|59/100
+|-unboost|p2a: Noivern|spa|2
+|move|p1a: Excadrill|Earthquake|p2a: Noivern
+|-immune|p2a: Noivern
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Noivern|Draco Meteor|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|50/100
+|move|p1a: Excadrill|Earthquake|p2a: Noivern
+|-immune|p2a: Noivern
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Noivern|Draco Meteor|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|39/100
+|move|p1a: Excadrill|Earthquake|p2a: Noivern
+|-immune|p2a: Noivern
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Noivern|Draco Meteor|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|30/100
+|move|p1a: Excadrill|Earthquake|p2a: Noivern
+|-immune|p2a: Noivern
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Noivern|Draco Meteor|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|21/100
+|move|p1a: Excadrill|Earthquake|p2a: Noivern
+|-immune|p2a: Noivern
+|
+|upkeep
+|turn|30
+|inactive|dallyranks has 120 seconds left.
+|
+|-activate|p2a: Noivern|move: Struggle
+|move|p2a: Noivern|Struggle|p1a: Excadrill
+|-damage|p1a: Excadrill|12/100
+|-damage|p2a: Noivern|0 fnt|[from] recoil
+|faint|p2a: Noivern
+|move|p1a: Excadrill|Earthquake|p2: Noivern|[notarget]
+|-fail|p1a: Excadrill
+|
+|upkeep
+|inactive|dallyranks has 120 seconds left.
+|
+|switch|p2a: Rotom|Rotom-Heat|75/100
+|-damage|p2a: Rotom|50/100|[from] Stealth Rock
+|turn|31
+|
+|move|p1a: Excadrill|Earthquake|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|win|Wyralith
+|l|☆dallyranks
+|c|☆Wyralith|gg
+|raw|Wyralith's rating: 1462 → 1479(+17 for winning)
+|raw|dallyranks's rating: 1419 → 1402(-17 for losing)

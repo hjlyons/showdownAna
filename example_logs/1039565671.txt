@@ -1,0 +1,119 @@
+|ScrapeTime|2020-01-02-08:15:11
+|j|☆Eleku
+|j|☆maompmomorfos
+|player|p1|Eleku|101|1099
+|player|p2|maompmomorfos|giovanni|1063
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gyarados, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Clefable, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Dragapult, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Sandaconda, M|
+|poke|p2|Dugtrio, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Heliolisk, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p2a: Excadrill|Earthquake|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by maompmomorfos)
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|turn|2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Gyarados|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|cant|p2a: Ferrothorn|move: Taunt|Leech Seed
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Ferrothorn|Power Whip|p1a: Gyarados|[miss]
+|-miss|p2a: Ferrothorn|p1a: Gyarados
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Gyarados|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p1a: Gyarados|91/100|[from] item: Life Orb
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|84/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Heliolisk|Heliolisk, M|100/100
+|turn|6
+|
+|move|p1a: Gyarados|Earthquake|p2a: Heliolisk
+|-supereffective|p2a: Heliolisk
+|-damage|p2a: Heliolisk|0 fnt
+|-damage|p1a: Gyarados|75/100|[from] item: Life Orb
+|faint|p2a: Heliolisk
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|68/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Sandaconda|Sandaconda, M|100/100
+|turn|7
+|
+|move|p1a: Gyarados|Waterfall|p2a: Sandaconda
+|-supereffective|p2a: Sandaconda
+|-damage|p2a: Sandaconda|0 fnt
+|-damage|p1a: Gyarados|59/100|[from] item: Life Orb
+|faint|p2a: Sandaconda
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|52/100|[from] Sandstorm
+|upkeep
+|-message|maompmomorfos forfeited.
+|
+|win|Eleku
+|l|☆maompmomorfos
+|raw|Eleku's rating: 1099 → 1122(+23 for winning)
+|raw|maompmomorfos's rating: 1063 → 1046(-17 for losing)

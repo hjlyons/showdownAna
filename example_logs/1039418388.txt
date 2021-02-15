@@ -1,0 +1,419 @@
+|ScrapeTime|2020-01-02-01:10:43
+|j|☆Rhuodent
+|j|☆dynamax blows
+|player|p1|Rhuodent|2|
+|player|p2|dynamax blows|scientist|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Stunfisk-Galar, F|
+|poke|p1|Flygon, M|
+|poke|p1|Frosmoth, F|
+|poke|p1|Pelipper, F|
+|poke|p1|Inteleon, F|
+|poke|p1|Aegislash, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Dracozolt|
+|poke|p2|Gastrodon, M|
+|poke|p2|Coalossal, M|
+|poke|p2|Araquanid, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆dynamax blows|hf
+|c|☆Rhuodent|i got link
+|c|☆Rhuodent|also gl
+|j| Lilburr
+|j| Trap House Dugtrio
+|
+|start
+|switch|p1a: Four-Eyes|Flygon, M|100/100
+|switch|p2a: Dragon's Dream|Dragapult, M|100/100
+|turn|1
+|
+|switch|p2a: California King Be|Hatterene, F|100/100
+|move|p1a: Four-Eyes|Outrage|p2a: California King Be
+|-immune|p2a: California King Be
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Cupcakes|Stunfisk-Galar, F|100/100
+|move|p2a: California King Be|Trick Room|p2a: California King Be
+|-fieldstart|move: Trick Room|[of] p2a: California King Be
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Bug-Eaten|Araquanid, M|100/100
+|move|p1a: Cupcakes|Protect||[still]
+|-fail|p1a: Cupcakes
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Cupcakes|Stealth Rock|p2a: Bug-Eaten
+|-sidestart|p2: dynamax blows|move: Stealth Rock
+|move|p2a: Bug-Eaten|Substitute|p2a: Bug-Eaten
+|-start|p2a: Bug-Eaten|Substitute
+|-damage|p2a: Bug-Eaten|76/100
+|
+|-heal|p2a: Bug-Eaten|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Cupcakes|Protect|p1a: Cupcakes
+|-singleturn|p1a: Cupcakes|Protect
+|move|p2a: Bug-Eaten|Liquidation|p1a: Cupcakes
+|-activate|p1a: Cupcakes|move: Protect
+|
+|-heal|p2a: Bug-Eaten|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Peeko|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Peeko
+|move|p2a: Bug-Eaten|Liquidation|p1a: Peeko
+|-resisted|p1a: Peeko
+|-damage|p1a: Peeko|59/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Bug-Eaten|94/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|move|p1a: Peeko|Hurricane|p2a: Bug-Eaten
+|-supereffective|p2a: Bug-Eaten
+|-end|p2a: Bug-Eaten|Substitute
+|move|p2a: Bug-Eaten|Liquidation|p1a: Peeko
+|-resisted|p1a: Peeko
+|-damage|p1a: Peeko|17/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Bug-Eaten|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|-damage|p2a: Dracozolt|88/100|[from] Stealth Rock
+|move|p1a: Peeko|Roost|p1a: Peeko
+|-heal|p1a: Peeko|67/100
+|-singleturn|p1a: Peeko|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|switch|p1a: Cupcakes|Stunfisk-Galar, F|100/100
+|move|p2a: Dracozolt|Outrage|p1a: Cupcakes
+|-resisted|p1a: Cupcakes
+|-damage|p1a: Cupcakes|74/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cupcakes|81/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|l| Lilburr
+|
+|move|p2a: Dracozolt|Outrage|p1a: Cupcakes|[from]lockedmove
+|-resisted|p1a: Cupcakes
+|-damage|p1a: Cupcakes|53/100
+|move|p1a: Cupcakes|Earthquake|p2a: Dracozolt
+|-supereffective|p2a: Dracozolt
+|-crit|p2a: Dracozolt
+|-damage|p2a: Dracozolt|4/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cupcakes|59/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Cupcakes|Protect|p1a: Cupcakes
+|-singleturn|p1a: Cupcakes|Protect
+|move|p2a: Dracozolt|Outrage|p1a: Cupcakes|[from]lockedmove
+|-activate|p1a: Cupcakes|move: Protect
+|-start|p2a: Dracozolt|confusion|[fatigue]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cupcakes|65/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Cupcakes|Sucker Punch|p2a: Dracozolt
+|-damage|p2a: Dracozolt|0 fnt
+|faint|p2a: Dracozolt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Cupcakes|72/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Bug-Eaten|Araquanid, M|100/100
+|-damage|p2a: Bug-Eaten|76/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Bug-Eaten|Substitute|p2a: Bug-Eaten
+|-start|p2a: Bug-Eaten|Substitute
+|-damage|p2a: Bug-Eaten|51/100
+|move|p1a: Cupcakes|Earthquake|p2a: Bug-Eaten
+|-resisted|p2a: Bug-Eaten
+|-activate|p2a: Bug-Eaten|move: Substitute|[damage]
+|
+|-weather|none
+|-heal|p2a: Bug-Eaten|57/100|[from] item: Leftovers
+|-heal|p1a: Cupcakes|78/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|j| Raihan's OnlyFans
+|c| Raihan's OnlyFans|Dorime
+|
+|move|p1a: Cupcakes|Sucker Punch|p2a: Bug-Eaten
+|-end|p2a: Bug-Eaten|Substitute
+|move|p2a: Bug-Eaten|Liquidation|p1a: Cupcakes
+|-supereffective|p1a: Cupcakes
+|-damage|p1a: Cupcakes|0 fnt
+|faint|p1a: Cupcakes
+|
+|-heal|p2a: Bug-Eaten|63/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Peeko|Pelipper, F|67/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Peeko
+|turn|15
+|
+|switch|p2a: The Sun|Coalossal, M|100/100
+|-damage|p2a: The Sun|76/100|[from] Stealth Rock
+|move|p1a: Peeko|U-turn|p2a: The Sun
+|-resisted|p2a: The Sun
+|-damage|p2a: The Sun|73/100
+|
+|switch|p1a: Gex|Inteleon, F|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|switch|p2a: Geb|Gastrodon, M|100/100
+|-damage|p2a: Geb|94/100|[from] Stealth Rock
+|move|p1a: Gex|Substitute|p1a: Gex
+|-start|p1a: Gex|Substitute
+|-damage|p1a: Gex|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Geb|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Gex|Shadow Ball|p2a: Geb
+|-damage|p2a: Geb|77/100
+|move|p2a: Geb|Earth Power|p1a: Gex
+|-end|p1a: Gex|Substitute
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Geb|83/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Gex|Shadow Ball|p2a: Geb
+|-damage|p2a: Geb|52/100
+|move|p2a: Geb|Recover|p2a: Geb
+|-heal|p2a: Geb|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|move|p1a: Gex|Shadow Ball|p2a: Geb
+|-damage|p2a: Geb|66/100
+|move|p2a: Geb|Earth Power|p1a: Gex
+|-damage|p1a: Gex|37/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Geb|72/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Wincon Sr.|Frosmoth, F|100/100
+|move|p2a: Geb|Protect||[still]
+|-fail|p2a: Geb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Geb|78/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: The Sun|Coalossal, M|73/100
+|-damage|p2a: The Sun|48/100|[from] Stealth Rock
+|move|p1a: Wincon Sr.|Quiver Dance|p1a: Wincon Sr.
+|-boost|p1a: Wincon Sr.|spa|1
+|-boost|p1a: Wincon Sr.|spd|1
+|-boost|p1a: Wincon Sr.|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|
+|switch|p1a: Arbiter's Grounds|Aegislash, F|100/100
+|-item|p1a: Arbiter's Grounds|Air Balloon
+|move|p2a: The Sun|Explosion|p1a: Arbiter's Grounds
+|-immune|p1a: Arbiter's Grounds
+|faint|p2a: The Sun
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Dragon's Dream|Dragapult, M|100/100
+|-damage|p2a: Dragon's Dream|88/100|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: Dragon's Dream|Shadow Ball|p1a: Arbiter's Grounds
+|-supereffective|p1a: Arbiter's Grounds
+|-damage|p1a: Arbiter's Grounds|9/100
+|-enditem|p1a: Arbiter's Grounds|Air Balloon
+|-unboost|p1a: Arbiter's Grounds|spd|1
+|-formechange|p1a: Arbiter's Grounds|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Arbiter's Grounds|Shadow Claw|p2a: Dragon's Dream
+|-supereffective|p2a: Dragon's Dream
+|-damage|p2a: Dragon's Dream|0 fnt
+|faint|p2a: Dragon's Dream
+|
+|upkeep
+|
+|switch|p2a: Geb|Gastrodon, M|78/100
+|-damage|p2a: Geb|72/100|[from] Stealth Rock
+|turn|24
+|
+|switch|p1a: Wincon Sr.|Frosmoth, F|100/100
+|move|p2a: Geb|Recover|p2a: Geb
+|-heal|p2a: Geb|100/100
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: Bug-Eaten|Araquanid, M|63/100
+|-damage|p2a: Bug-Eaten|39/100|[from] Stealth Rock
+|move|p1a: Wincon Sr.|Giga Drain|p2a: Bug-Eaten
+|-damage|p2a: Bug-Eaten|18/100
+|
+|-heal|p2a: Bug-Eaten|24/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: Gex|Inteleon, F|37/100
+|move|p2a: Bug-Eaten|Liquidation|p1a: Gex
+|-resisted|p1a: Gex
+|-damage|p1a: Gex|0 fnt
+|faint|p1a: Gex
+|
+|-heal|p2a: Bug-Eaten|30/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Four-Eyes|Flygon, M|100/100
+|turn|27
+|
+|move|p1a: Four-Eyes|U-turn|p2a: Bug-Eaten
+|-damage|p2a: Bug-Eaten|7/100
+|
+|switch|p1a: Arbiter's Grounds|Aegislash, F|9/100|[from]move: U-turn
+|move|p2a: Bug-Eaten|Liquidation|p1a: Arbiter's Grounds
+|-damage|p1a: Arbiter's Grounds|0 fnt
+|faint|p1a: Arbiter's Grounds
+|
+|-heal|p2a: Bug-Eaten|13/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Wincon Sr.|Frosmoth, F|100/100
+|turn|28
+|
+|move|p1a: Wincon Sr.|Giga Drain|p2a: Bug-Eaten
+|-damage|p2a: Bug-Eaten|0 fnt
+|faint|p2a: Bug-Eaten
+|
+|upkeep
+|
+|switch|p2a: California King Be|Hatterene, F|100/100
+|-damage|p2a: California King Be|88/100|[from] Stealth Rock
+|turn|29
+|
+|move|p1a: Wincon Sr.|Quiver Dance|p1a: Wincon Sr.
+|-boost|p1a: Wincon Sr.|spa|1
+|-boost|p1a: Wincon Sr.|spd|1
+|-boost|p1a: Wincon Sr.|spe|1
+|move|p2a: California King Be|Nuzzle|p1a: Wincon Sr.
+|-damage|p1a: Wincon Sr.|92/100
+|-status|p1a: Wincon Sr.|par
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Wincon Sr.|Quiver Dance|p1a: Wincon Sr.
+|-boost|p1a: Wincon Sr.|spa|1
+|-boost|p1a: Wincon Sr.|spd|1
+|-boost|p1a: Wincon Sr.|spe|1
+|move|p2a: California King Be|Trick Room|p2a: California King Be
+|-fieldstart|move: Trick Room|[of] p2a: California King Be
+|
+|upkeep
+|turn|31
+|
+|move|p2a: California King Be|Psychic|p1a: Wincon Sr.
+|-damage|p1a: Wincon Sr.|74/100 par
+|-unboost|p1a: Wincon Sr.|spd|1
+|cant|p1a: Wincon Sr.|par
+|
+|upkeep
+|turn|32
+|
+|move|p2a: California King Be|Psychic|p1a: Wincon Sr.
+|-damage|p1a: Wincon Sr.|48/100 par
+|move|p1a: Wincon Sr.|Quiver Dance|p1a: Wincon Sr.
+|-boost|p1a: Wincon Sr.|spa|1
+|-boost|p1a: Wincon Sr.|spd|1
+|-boost|p1a: Wincon Sr.|spe|1
+|
+|upkeep
+|turn|33
+|
+|move|p2a: California King Be|Psychic|p1a: Wincon Sr.
+|-damage|p1a: Wincon Sr.|31/100 par
+|move|p1a: Wincon Sr.|Giga Drain|p2a: California King Be
+|-damage|p2a: California King Be|17/100
+|-heal|p1a: Wincon Sr.|72/100 par|[from] drain|[of] p2a: California King Be
+|
+|upkeep
+|turn|34
+|
+|move|p2a: California King Be|Psychic|p1a: Wincon Sr.
+|-damage|p1a: Wincon Sr.|54/100 par
+|-unboost|p1a: Wincon Sr.|spd|1
+|move|p1a: Wincon Sr.|Giga Drain|p2a: California King Be
+|-damage|p2a: California King Be|0 fnt
+|-heal|p1a: Wincon Sr.|64/100 par|[from] drain|[of] p2a: California King Be
+|faint|p2a: California King Be
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p2a: Geb|Gastrodon, M|100/100
+|-damage|p2a: Geb|94/100|[from] Stealth Rock
+|turn|35
+|c|☆dynamax blows|gg
+|c|☆Rhuodent|gg
+|
+|move|p1a: Wincon Sr.|Giga Drain|p2a: Geb
+|-supereffective|p2a: Geb
+|-damage|p2a: Geb|0 fnt
+|-heal|p1a: Wincon Sr.|100/100 par|[from] drain|[of] p2a: Geb
+|faint|p2a: Geb
+|
+|win|Rhuodent
+|l|☆dynamax blows

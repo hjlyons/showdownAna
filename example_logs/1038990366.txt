@@ -1,0 +1,759 @@
+|ScrapeTime|2020-01-01-04:04:24
+|j|☆ZeroEx97
+|j|☆Whimmi
+|player|p1|ZeroEx97|92|1246
+|player|p2|Whimmi|plasmagruntf|1228
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Copperajah, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Cloyster, F|
+|poke|p1|Snorlax, M|
+|poke|p1|Scrafty, M|
+|poke|p2|Whimsicott, M|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Eldegoss, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| Machete616
+|
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|1
+|
+|move|p2a: Cinderace|Shadow Ball|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|66/100
+|move|p1a: Dragapult|Draco Meteor|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|turn|2
+|
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|move|p2a: Corsola|Stealth Rock|p1a: Weezing
+|-sidestart|p1: ZeroEx97|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|l| Machete616
+|
+|move|p1a: Weezing|Defog|p2a: Corsola
+|-unboost|p2a: Corsola|evasion|1
+|-sideend|p1: ZeroEx97|Stealth Rock|[from] move: Defog|[of] p1a: Weezing
+|move|p2a: Corsola|Night Shade|p1a: Weezing
+|-damage|p1a: Weezing|70/100
+|
+|-heal|p1a: Weezing|76/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|move|p1a: Weezing|Will-O-Wisp|p2a: Corsola
+|-status|p2a: Corsola|brn
+|move|p2a: Corsola|Will-O-Wisp|p1a: Weezing
+|-status|p1a: Weezing|brn
+|
+|-heal|p1a: Weezing|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Weezing|76/100 brn|[from] brn
+|-damage|p2a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Dragapult|Dragapult, F|66/100
+|move|p2a: Corsola|Night Shade|p1a: Dragapult
+|-damage|p1a: Dragapult|35/100
+|
+|-damage|p2a: Corsola|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p2a: Whimmy|Whimsicott, M|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Whimmy
+|-damage|p2a: Whimmy|55/100
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|move|p2a: Whimmy|Substitute|p2a: Whimmy
+|-start|p2a: Whimmy|Substitute
+|-damage|p2a: Whimmy|30/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Whimmy|Cotton Guard|p2a: Whimmy
+|-boost|p2a: Whimmy|def|3
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Whimmy|Cotton Guard|p2a: Whimmy
+|-boost|p2a: Whimmy|def|3
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Whimmy|Rest|p2a: Whimmy
+|-status|p2a: Whimmy|slp|[from] move: Rest
+|-heal|p2a: Whimmy|100/100 slp|[silent]
+|-enditem|p2a: Whimmy|Lum Berry|[eat]
+|-curestatus|p2a: Whimmy|slp|[msg]
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Whimmy|Moonblast|p1a: Snorlax
+|-damage|p1a: Snorlax|88/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Whimmy|Moonblast|p1a: Snorlax
+|-damage|p1a: Snorlax|77/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Whimmy|Moonblast|p1a: Snorlax
+|-damage|p1a: Snorlax|64/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Whimmy|Moonblast|p1a: Snorlax
+|-damage|p1a: Snorlax|53/100
+|move|p1a: Snorlax|Body Slam|p2a: Whimmy
+|-end|p2a: Whimmy|Substitute
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Whimmy|Substitute|p2a: Whimmy
+|-start|p2a: Whimmy|Substitute
+|-damage|p2a: Whimmy|75/100
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|100/100 slp|[silent]
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|cant|p1a: Snorlax|slp
+|move|p1a: Snorlax|Sleep Talk|p1a: Snorlax
+|move|p1a: Snorlax|Curse|p1a: Snorlax|[from]Sleep Talk
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|cant|p1a: Snorlax|slp
+|move|p1a: Snorlax|Sleep Talk|p1a: Snorlax
+|move|p1a: Snorlax|Rest|p1a: Snorlax|[from]Sleep Talk
+|-fail|p1a: Snorlax|heal
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Toxapex|Toxic Spikes|p1a: Snorlax
+|-sidestart|p1: ZeroEx97|move: Toxic Spikes
+|-curestatus|p1a: Snorlax|slp|[msg]
+|move|p1a: Snorlax|Body Slam|p2a: Toxapex
+|-damage|p2a: Toxapex|81/100
+|
+|-heal|p2a: Toxapex|88/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|switch|p1a: Weezing|Weezing-Galar, M|76/100 brn
+|move|p2a: Toxapex|Toxic Spikes|p1a: Weezing
+|-sidestart|p1: ZeroEx97|move: Toxic Spikes
+|
+|-heal|p1a: Weezing|82/100 brn|[from] item: Black Sludge
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|-damage|p1a: Weezing|76/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p2a: Corsola|Corsola-Galar, F|88/100 brn
+|move|p1a: Weezing|Defog|p2a: Corsola
+|-unboost|p2a: Corsola|evasion|1
+|-sideend|p1: ZeroEx97|Toxic Spikes|[from] move: Defog|[of] p1a: Weezing
+|
+|-heal|p1a: Weezing|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Weezing|76/100 brn|[from] brn
+|-damage|p2a: Corsola|82/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p1a: Weezing|Strange Steam|p2a: Corsola
+|-damage|p2a: Corsola|67/100 brn
+|move|p2a: Corsola|Stealth Rock|p1a: Weezing
+|-sidestart|p1: ZeroEx97|move: Stealth Rock
+|
+|-heal|p1a: Weezing|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Weezing|76/100 brn|[from] brn
+|-damage|p2a: Corsola|61/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p1a: Weezing|Defog|p2a: Corsola
+|-unboost|p2a: Corsola|evasion|1
+|-sideend|p1: ZeroEx97|Stealth Rock|[from] move: Defog|[of] p1a: Weezing
+|move|p2a: Corsola|Night Shade|p1a: Weezing
+|-damage|p1a: Weezing|46/100 brn
+|
+|-heal|p1a: Weezing|52/100 brn|[from] item: Black Sludge
+|-damage|p1a: Weezing|46/100 brn|[from] brn
+|-damage|p2a: Corsola|55/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|switch|p1a: Dragapult|Dragapult, F|35/100
+|move|p2a: Corsola|Strength Sap|p1a: Dragapult
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|-heal|p2a: Corsola|100/100 brn
+|
+|-damage|p2a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p2a: Whimmy|Whimsicott, M|75/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Whimmy
+|-damage|p2a: Whimmy|27/100
+|-unboost|p2a: Whimmy|spd|1
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Whimmy|Rest|p2a: Whimmy
+|-status|p2a: Whimmy|slp|[from] move: Rest
+|-heal|p2a: Whimmy|100/100 slp|[silent]
+|move|p1a: Dragapult|Shadow Ball|p2a: Whimmy
+|-damage|p2a: Whimmy|35/100 slp
+|
+|upkeep
+|turn|26
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|58/100
+|
+|-heal|p2a: Toxapex|64/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|switch|p1a: Copperajah|Copperajah, F|100/100
+|move|p2a: Toxapex|Toxic|p1a: Copperajah
+|-immune|p1a: Copperajah
+|
+|-heal|p2a: Toxapex|70/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|
+|switch|p2a: Eldegoss|Eldegoss, F|100/100
+|move|p1a: Copperajah|Earthquake|p2a: Eldegoss
+|-resisted|p2a: Eldegoss
+|-damage|p2a: Eldegoss|78/100
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Eldegoss|Leech Seed|p1a: Copperajah
+|-start|p1a: Copperajah|move: Leech Seed
+|move|p1a: Copperajah|Heat Crash|p2a: Eldegoss
+|-supereffective|p2a: Eldegoss
+|-damage|p2a: Eldegoss|0 fnt
+|-damage|p1a: Copperajah|84/100|[from] item: Rocky Helmet|[of] p2a: Eldegoss
+|faint|p2a: Eldegoss
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|30
+|
+|switch|p1a: Weezing|Weezing-Galar, M|46/100 brn
+|move|p2a: Dragapult|Flamethrower|p1a: Weezing
+|-damage|p1a: Weezing|13/100 brn
+|
+|-heal|p1a: Weezing|19/100 brn|[from] item: Black Sludge
+|-damage|p1a: Weezing|13/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p2a: Dragapult|Flamethrower|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|upkeep
+|
+|switch|p1a: Scrafty|Scrafty, M|100/100
+|turn|32
+|
+|move|p2a: Dragapult|U-turn|p1a: Scrafty
+|-damage|p1a: Scrafty|82/100
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100|[from]move: U-turn
+|move|p1a: Scrafty|Dragon Dance|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|spe|1
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Scrafty|Zen Headbutt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|57/100
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|63/100|[from] item: Black Sludge
+|upkeep
+|turn|34
+|
+|switch|p1a: Copperajah|Copperajah, F|84/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Copperajah
+|-sidestart|p1: ZeroEx97|move: Toxic Spikes
+|
+|-heal|p2a: Toxapex|70/100|[from] item: Black Sludge
+|upkeep
+|turn|35
+|
+|switch|p2a: Corsola|Corsola-Galar, F|94/100 brn
+|move|p1a: Copperajah|Earthquake|p2a: Corsola
+|-damage|p2a: Corsola|68/100 brn
+|-start|p1a: Copperajah|Disable|Earthquake|[from] ability: Cursed Body|[of] p2a: Corsola
+|
+|-damage|p2a: Corsola|62/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|switch|p1a: Dragapult|Dragapult, F|35/100
+|-status|p1a: Dragapult|psn
+|move|p2a: Corsola|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: ZeroEx97|move: Stealth Rock
+|
+|-damage|p1a: Dragapult|23/100 psn|[from] psn
+|-damage|p2a: Corsola|55/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Dragapult|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|35/100
+|
+|-heal|p2a: Toxapex|41/100|[from] item: Black Sludge
+|-damage|p1a: Dragapult|10/100 psn|[from] psn
+|upkeep
+|turn|38
+|
+|switch|p2a: Whimmy|Whimsicott, M|35/100 slp
+|move|p1a: Dragapult|Thunderbolt|p2a: Whimmy
+|-resisted|p2a: Whimmy
+|-damage|p2a: Whimmy|17/100 slp
+|
+|-damage|p1a: Dragapult|0 fnt|[from] psn
+|faint|p1a: Dragapult
+|upkeep
+|
+|switch|p1a: Scrafty|Scrafty, M|82/100
+|-status|p1a: Scrafty|psn
+|-damage|p1a: Scrafty|77/100 psn|[from] Stealth Rock
+|turn|39
+|
+|cant|p2a: Whimmy|slp
+|move|p1a: Scrafty|Dragon Dance|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|spe|1
+|
+|-damage|p1a: Scrafty|64/100 psn|[from] psn
+|upkeep
+|turn|40
+|
+|cant|p2a: Whimmy|slp
+|move|p1a: Scrafty|Throat Chop|p2a: Whimmy
+|-resisted|p2a: Whimmy
+|-damage|p2a: Whimmy|0 fnt
+|faint|p2a: Whimmy
+|-ability|p1a: Scrafty|Moxie|boost
+|-boost|p1a: Scrafty|atk|1
+|
+|-damage|p1a: Scrafty|52/100 psn|[from] psn
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|74/100
+|turn|41
+|
+|move|p1a: Scrafty|Zen Headbutt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|22/100
+|cant|p2a: Toxapex|flinch
+|
+|-heal|p2a: Toxapex|28/100|[from] item: Black Sludge
+|-damage|p1a: Scrafty|40/100 psn|[from] psn
+|upkeep
+|turn|42
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Scrafty|Zen Headbutt|p2a: Dragapult
+|-damage|p2a: Dragapult|33/100
+|
+|-damage|p1a: Scrafty|28/100 psn|[from] psn
+|upkeep
+|turn|43
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|-enditem|p2a: Dragapult|White Herb
+|-clearnegativeboost|p2a: Dragapult|[silent]
+|faint|p1a: Scrafty
+|
+|upkeep
+|
+|switch|p1a: Copperajah|Copperajah, F|84/100
+|-damage|p1a: Copperajah|78/100|[from] Stealth Rock
+|turn|44
+|
+|move|p2a: Dragapult|Flamethrower|p1a: Copperajah
+|-supereffective|p1a: Copperajah
+|-damage|p1a: Copperajah|39/100
+|move|p1a: Copperajah|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, F|55/100 brn
+|turn|45
+|
+|move|p2a: Corsola|Strength Sap|p1a: Copperajah
+|-unboost|p1a: Copperajah|atk|1
+|-heal|p2a: Corsola|100/100 brn
+|move|p1a: Copperajah|Heavy Slam|p2a: Corsola
+|-damage|p2a: Corsola|66/100 brn
+|
+|-damage|p2a: Corsola|60/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|move|p2a: Corsola|Strength Sap|p1a: Copperajah
+|-unboost|p1a: Copperajah|atk|1
+|-heal|p2a: Corsola|100/100 brn
+|move|p1a: Copperajah|Earthquake|p2a: Corsola
+|-crit|p2a: Corsola
+|-damage|p2a: Corsola|60/100 brn
+|-start|p1a: Copperajah|Disable|Earthquake|[from] ability: Cursed Body|[of] p2a: Corsola
+|
+|-damage|p2a: Corsola|54/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|-damage|p1a: Snorlax|88/100|[from] Stealth Rock
+|move|p2a: Corsola|Strength Sap|p1a: Snorlax
+|-unboost|p1a: Snorlax|atk|1
+|-heal|p2a: Corsola|100/100 brn
+|
+|-damage|p2a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|move|p2a: Corsola|Will-O-Wisp|p1a: Snorlax
+|-status|p1a: Snorlax|brn
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-damage|p2a: Corsola|88/100 brn|[from] brn
+|-damage|p1a: Snorlax|82/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|switch|p2a: Toxapex|Toxapex, M|61/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p2a: Toxapex|67/100|[from] item: Black Sludge
+|-damage|p1a: Snorlax|76/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|move|p1a: Snorlax|Body Slam|p2a: Toxapex
+|-damage|p2a: Toxapex|58/100
+|
+|-heal|p2a: Toxapex|64/100|[from] item: Black Sludge
+|-damage|p1a: Snorlax|70/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|move|p2a: Toxapex|Toxic Spikes|p1a: Snorlax
+|-sidestart|p1: ZeroEx97|move: Toxic Spikes
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|100/100 slp|[silent]
+|
+|-heal|p2a: Toxapex|70/100|[from] item: Black Sludge
+|upkeep
+|turn|52
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|cant|p1a: Snorlax|slp
+|move|p1a: Snorlax|Sleep Talk|p1a: Snorlax
+|move|p1a: Snorlax|Body Slam|p2a: Toxapex|[from]Sleep Talk
+|-damage|p2a: Toxapex|81/100
+|
+|-heal|p2a: Toxapex|87/100|[from] item: Black Sludge
+|upkeep
+|turn|53
+|
+|switch|p1a: Copperajah|Copperajah, F|39/100
+|-damage|p1a: Copperajah|33/100|[from] Stealth Rock
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|93/100|[from] item: Black Sludge
+|upkeep
+|turn|54
+|
+|switch|p2a: Corsola|Corsola-Galar, F|88/100 brn
+|move|p1a: Copperajah|Heavy Slam|p2a: Corsola
+|-damage|p2a: Corsola|38/100 brn
+|-start|p1a: Copperajah|Disable|Heavy Slam|[from] ability: Cursed Body|[of] p2a: Corsola
+|
+|-damage|p2a: Corsola|32/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|move|p2a: Corsola|Strength Sap|p1a: Copperajah
+|-unboost|p1a: Copperajah|atk|1
+|-heal|p2a: Corsola|100/100 brn
+|move|p1a: Copperajah|Earthquake|p2a: Corsola
+|-damage|p2a: Corsola|83/100 brn
+|
+|-damage|p2a: Corsola|77/100 brn|[from] brn
+|upkeep
+|turn|56
+|
+|switch|p1a: Snorlax|Snorlax, M|100/100 slp
+|-damage|p1a: Snorlax|88/100 slp|[from] Stealth Rock
+|move|p2a: Corsola|Will-O-Wisp||[still]
+|-fail|p2a: Corsola
+|
+|-damage|p2a: Corsola|71/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|switch|p1a: Cloyster|Cloyster, F|100/100
+|-status|p1a: Cloyster|tox
+|-damage|p1a: Cloyster|76/100 tox|[from] Stealth Rock
+|move|p2a: Corsola|Strength Sap|p1a: Cloyster
+|-unboost|p1a: Cloyster|atk|1
+|-heal|p2a: Corsola|100/100 brn
+|-enditem|p1a: Cloyster|White Herb
+|-clearnegativeboost|p1a: Cloyster|[silent]
+|
+|-damage|p1a: Cloyster|69/100 tox|[from] psn
+|-damage|p2a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|58
+|
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|move|p2a: Corsola|Strength Sap|p1a: Cloyster
+|-unboost|p1a: Cloyster|atk|1
+|-heal|p2a: Corsola|100/100 brn
+|
+|-damage|p1a: Cloyster|57/100 tox|[from] psn
+|-damage|p2a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|59
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Cloyster|Liquidation|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|83/100
+|-unboost|p2a: Toxapex|def|1
+|
+|-heal|p2a: Toxapex|89/100|[from] item: Black Sludge
+|-damage|p1a: Cloyster|38/100 tox|[from] psn
+|upkeep
+|turn|60
+|
+|move|p1a: Cloyster|Liquidation|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|63/100
+|-unboost|p2a: Toxapex|def|1
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-damage|p1a: Cloyster|13/100 tox|[from] psn
+|upkeep
+|turn|61
+|
+|switch|p2a: Corsola|Corsola-Galar, F|94/100 brn
+|move|p1a: Cloyster|Liquidation|p2a: Corsola
+|-damage|p2a: Corsola|56/100 brn
+|-start|p1a: Cloyster|Disable|Liquidation|[from] ability: Cursed Body|[of] p2a: Corsola
+|-unboost|p2a: Corsola|def|1
+|
+|-damage|p1a: Cloyster|0 fnt|[from] psn
+|faint|p1a: Cloyster
+|-damage|p2a: Corsola|50/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Copperajah|Copperajah, F|33/100
+|-damage|p1a: Copperajah|27/100|[from] Stealth Rock
+|turn|62
+|
+|move|p2a: Corsola|Strength Sap|p1a: Copperajah
+|-unboost|p1a: Copperajah|atk|1
+|-heal|p2a: Corsola|100/100 brn
+|move|p1a: Copperajah|Heavy Slam|p2a: Corsola
+|-damage|p2a: Corsola|55/100 brn
+|-start|p1a: Copperajah|Disable|Heavy Slam|[from] ability: Cursed Body|[of] p2a: Corsola
+|
+|-damage|p2a: Corsola|49/100 brn|[from] brn
+|upkeep
+|turn|63
+|
+|move|p2a: Corsola|Strength Sap|p1a: Copperajah
+|-unboost|p1a: Copperajah|atk|1
+|-heal|p2a: Corsola|100/100 brn
+|move|p1a: Copperajah|Earthquake|p2a: Corsola
+|-damage|p2a: Corsola|81/100 brn
+|
+|-damage|p2a: Corsola|75/100 brn|[from] brn
+|upkeep
+|turn|64
+|
+|move|p1a: Copperajah|Earthquake|p2a: Corsola
+|-damage|p2a: Corsola|55/100 brn
+|move|p2a: Corsola|Night Shade|p1a: Copperajah
+|-damage|p1a: Copperajah|5/100
+|
+|-damage|p2a: Corsola|49/100 brn|[from] brn
+|upkeep
+|turn|65
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ZeroEx97)
+|
+|move|p1a: Copperajah|Earthquake|p2a: Corsola
+|-damage|p2a: Corsola|28/100 brn
+|move|p2a: Corsola|Strength Sap|p1a: Copperajah
+|-unboost|p1a: Copperajah|atk|1
+|-heal|p2a: Corsola|89/100 brn
+|
+|-damage|p2a: Corsola|83/100 brn|[from] brn
+|-end|p1a: Copperajah|Disable
+|upkeep
+|turn|66
+|
+|move|p1a: Copperajah|Heavy Slam|p2a: Corsola
+|-damage|p2a: Corsola|55/100 brn
+|-start|p1a: Copperajah|Disable|Heavy Slam|[from] ability: Cursed Body|[of] p2a: Corsola
+|move|p2a: Corsola|Night Shade|p1a: Copperajah
+|-damage|p1a: Copperajah|0 fnt
+|faint|p1a: Copperajah
+|
+|-damage|p2a: Corsola|49/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Snorlax|Snorlax, M|88/100 slp
+|-damage|p1a: Snorlax|76/100 slp|[from] Stealth Rock
+|turn|67
+|
+|cant|p1a: Snorlax|slp
+|move|p1a: Snorlax|Sleep Talk|p1a: Snorlax
+|move|p1a: Snorlax|Body Slam|p2a: Corsola|[from]Sleep Talk
+|-immune|p2a: Corsola
+|move|p2a: Corsola|Strength Sap|p1a: Snorlax
+|-unboost|p1a: Snorlax|atk|1
+|-heal|p2a: Corsola|100/100 brn
+|
+|-damage|p2a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|68
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-curestatus|p1a: Snorlax|slp|[msg]
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|upkeep
+|turn|69
+|inactiveoff|Battle timer is now OFF.
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Whimmi)
+|inactive|ZeroEx97 has 120 seconds left.
+|c|☆Whimmi|Haze And T spikes Out PP You, Dumb But Stall Win :0
+|inactive|ZeroEx97 has 90 seconds left.
+|inactive|ZeroEx97 has 60 seconds left.
+|inactive|ZeroEx97 has 30 seconds left.
+|inactive|ZeroEx97 has 20 seconds left.
+|inactive|ZeroEx97 has 15 seconds left.
+|inactive|ZeroEx97 has 10 seconds left.
+|inactive|ZeroEx97 has 5 seconds left.
+|-message|ZeroEx97 lost due to inactivity.
+|
+|win|Whimmi
+|raw|ZeroEx97's rating: 1246 → 1220(-26 for losing)
+|raw|Whimmi's rating: 1228 → 1255(+27 for winning)
+|j| guluguluga

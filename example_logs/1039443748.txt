@@ -1,0 +1,250 @@
+|ScrapeTime|2020-01-02-01:58:36
+|j|☆Kronkz
+|j|☆Rengarzero
+|player|p1|Kronkz|nate|1501
+|player|p2|Rengarzero|hilbert|1565
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, F|
+|poke|p1|Aegislash, F|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Clefable, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Seismitoad, F|
+|poke|p2|Snorlax, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Sylveon, M|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Mandibuzz, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|move|p1a: Hydreigon|Draco Meteor|p2a: Sylveon
+|-immune|p2a: Sylveon
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Hydreigon|U-turn|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|89/100
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100|[from]move: U-turn
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Mandibuzz|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|98/100
+|-damage|p2a: Mandibuzz|72/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100 brn|[from]move: U-turn
+|
+|-damage|p2a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Seismitoad
+|-damage|p1a: Seismitoad|54/100
+|-heal|p2a: Conkeldurr|100/100 brn|[from] drain|[of] p1a: Seismitoad
+|
+|-heal|p1a: Seismitoad|60/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Seismitoad|Protect|p1a: Seismitoad
+|-singleturn|p1a: Seismitoad|Protect
+|move|p2a: Conkeldurr|Facade|p1a: Seismitoad
+|-activate|p1a: Seismitoad|move: Protect
+|
+|-heal|p1a: Seismitoad|66/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p1a: Corviknight|Corviknight, M|98/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Conkeldurr|Drain Punch|p1a: Corviknight
+|-damage|p1a: Corviknight|48/100
+|-heal|p2a: Conkeldurr|100/100 brn|[from] drain|[of] p1a: Corviknight
+|-damage|p2a: Conkeldurr|84/100 brn|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|-damage|p2a: Conkeldurr|78/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p2a: Conkeldurr|Drain Punch|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-heal|p2a: Conkeldurr|100/100 brn|[from] drain|[of] p1a: Corviknight
+|-damage|p2a: Conkeldurr|84/100 brn|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|faint|p1a: Corviknight
+|
+|-damage|p2a: Conkeldurr|78/100 brn|[from] brn
+|upkeep
+|c|☆Kronkz|max speed lol
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|turn|9
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|switch|p2a: Mandibuzz|Mandibuzz, F|72/100
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Seismitoad|Seismitoad, F|66/100
+|move|p2a: Mandibuzz|Knock Off|p1a: Seismitoad
+|-damage|p1a: Seismitoad|49/100
+|-enditem|p1a: Seismitoad|Leftovers|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Mandibuzz|U-turn|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|94/100
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Seismitoad|Stealth Rock|p1a: Clefable
+|-sidestart|p1: Kronkz|move: Stealth Rock
+|move|p1a: Clefable|Moonblast|p2a: Seismitoad
+|-damage|p2a: Seismitoad|35/100
+|-unboost|p2a: Seismitoad|spa|1
+|
+|-heal|p2a: Seismitoad|41/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Clefable|Moonblast|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-heal|p2a: Seismitoad|47/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|move|p1a: Clefable|Moonblast|p2a: Sylveon
+|-damage|p2a: Sylveon|64/100
+|
+|-heal|p2a: Sylveon|71/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Clefable|Moonblast|p2a: Sylveon
+|-damage|p2a: Sylveon|29/100
+|-unboost|p2a: Sylveon|spa|1
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|35/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Clefable|Moonblast|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p2a: Sylveon|85/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p2a: Sylveon|91/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|-damage|p1a: Aegislash|94/100|[from] Stealth Rock
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|97/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Seismitoad|Seismitoad, M|47/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Iron Head|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-crit|p2a: Seismitoad
+|-damage|p2a: Seismitoad|8/100
+|
+|-heal|p2a: Seismitoad|56/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p2a: Seismitoad|62/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Seismitoad|Seismitoad, F|49/100
+|-damage|p1a: Seismitoad|43/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Earthquake|p1a: Seismitoad
+|-damage|p1a: Seismitoad|20/100
+|
+|-heal|p2a: Seismitoad|68/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Seismitoad|Earthquake|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-heal|p2a: Seismitoad|74/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Hydreigon|Dark Pulse|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-heal|p2a: Seismitoad|80/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|72/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|60/100
+|
+|upkeep
+|turn|23
+|-message|Kronkz forfeited.
+|
+|win|Rengarzero
+|l|☆Kronkz
+|raw|Kronkz's rating: 1501 → 1485(-16 for losing)
+|raw|Rengarzero's rating: 1565 → 1581(+16 for winning)

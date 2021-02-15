@@ -1,0 +1,137 @@
+|ScrapeTime|2020-01-02-12:26:47
+|j|☆MikNaes
+|j|☆I liek pink mons
+|player|p1|MikNaes|linebacker|1212
+|player|p2|I liek pink mons|skierf|1184
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxapex, M|
+|poke|p1|Gastrodon, F|
+|poke|p1|Cloyster, M|
+|poke|p1|Aegislash, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Espeon, M|
+|poke|p2|Ditto|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Dugtrio, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Sylveon, M|
+|poke|p2|Gastrodon, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MikNaes)
+|
+|start
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|turn|1
+|
+|switch|p1a: Espeon|Espeon, M|100/100
+|move|p2a: Corsola|Will-O-Wisp|p1a: Espeon
+|move|p1a: Espeon|Will-O-Wisp|p2a: Corsola|[from]Magic Bounce
+|-status|p2a: Corsola|brn
+|
+|-damage|p2a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Espeon|Psychic|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|81/100
+|-unboost|p2a: Corviknight|spd|1
+|
+|-heal|p2a: Corviknight|87/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Espeon|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|55/100
+|-unboost|p2a: Corviknight|spd|1
+|move|p2a: Corviknight|U-turn|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|41/100
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|upkeep
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|turn|5
+|
+|switch|p2a: Corsola|Corsola-Galar, M|94/100 brn
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|
+|-damage|p2a: Corsola|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Gastrodon|Gastrodon, F|100/100
+|move|p2a: Corsola|Will-O-Wisp|p1a: Gastrodon
+|-status|p1a: Gastrodon|brn
+|
+|-damage|p1a: Gastrodon|94/100 brn|[from] brn
+|-damage|p2a: Corsola|82/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Gastrodon|Earth Power|p2a: Corsola
+|-damage|p2a: Corsola|53/100 brn
+|move|p2a: Corsola|Stealth Rock|p1a: Gastrodon
+|-sidestart|p1: MikNaes|move: Stealth Rock
+|
+|-damage|p1a: Gastrodon|88/100 brn|[from] brn
+|-damage|p2a: Corsola|47/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p1a: Gastrodon|Earth Power|p2a: Corsola
+|-damage|p2a: Corsola|16/100 brn
+|-start|p1a: Gastrodon|Disable|Earth Power|[from] ability: Cursed Body|[of] p2a: Corsola
+|move|p2a: Corsola|Strength Sap|p1a: Gastrodon
+|-unboost|p1a: Gastrodon|atk|1
+|-heal|p2a: Corsola|63/100 brn
+|
+|-damage|p1a: Gastrodon|82/100 brn|[from] brn
+|-damage|p2a: Corsola|57/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|move|p1a: Gastrodon|Scald|p2a: Gastrodon
+|-ability|p2a: Gastrodon|Storm Drain|boost
+|-boost|p2a: Gastrodon|spa|1
+|
+|-damage|p1a: Gastrodon|76/100 brn|[from] brn
+|upkeep
+|turn|10
+|-message|MikNaes forfeited.
+|
+|win|I liek pink mons
+|l|☆MikNaes
+|raw|MikNaes's rating: 1212 → 1185(-27 for losing)
+|raw|I liek pink mons's rating: 1184 → 1211(+27 for winning)

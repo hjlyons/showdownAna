@@ -1,0 +1,268 @@
+|ScrapeTime|2020-01-03-00:44:52
+|j|☆Jeddeth
+|j|☆NexoHater
+|player|p1|Jeddeth|cheren-gen5bw2|1040
+|player|p2|NexoHater|ghetsis|1024
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Munchlax, M|
+|poke|p1|Butterfree, F|
+|poke|p1|Greedent, M|
+|poke|p1|Perrserker, M|
+|poke|p1|Falinks|
+|poke|p1|Claydol|
+|poke|p2|Cinderace, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Rotom-Wash|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Gyroid|Claydol|100/100
+|switch|p2a: Taupinette|Excadrill, M|100/100
+|-ability|p2a: Taupinette|Mold Breaker
+|turn|1
+|
+|move|p2a: Taupinette|Stealth Rock|p1a: Gyroid
+|-sidestart|p1: Jeddeth|move: Stealth Rock
+|move|p1a: Gyroid|Stealth Rock|p2a: Taupinette
+|-sidestart|p2: NexoHater|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Taupinette|Iron Head|p1a: Gyroid
+|-damage|p1a: Gyroid|53/100
+|move|p1a: Gyroid|Rapid Spin|p2a: Taupinette
+|-resisted|p2a: Taupinette
+|-crit|p2a: Taupinette
+|-damage|p2a: Taupinette|94/100
+|-sideend|p1: Jeddeth|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Gyroid
+|-boost|p1a: Gyroid|spe|1
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Poncho|Munchlax, M|100/100
+|move|p2a: Taupinette|Iron Head|p1a: Poncho
+|-damage|p1a: Poncho|53/100
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Taupinette|Earth Power|p1a: Poncho
+|-damage|p1a: Poncho|45/100
+|move|p1a: Poncho|Earthquake|p2a: Taupinette
+|-supereffective|p2a: Taupinette
+|-damage|p2a: Taupinette|14/100
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Nesquik|Cinderace, M|100/100
+|move|p1a: Poncho|Whirlpool|p2a: Nesquik
+|-supereffective|p2a: Nesquik
+|-damage|p2a: Nesquik|89/100
+|-activate|p2a: Nesquik|move: Whirlpool|[of] p1a: Poncho
+|
+|-damage|p2a: Nesquik|77/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|move|p2a: Nesquik|High Jump Kick|p1a: Poncho
+|-supereffective|p1a: Poncho
+|-damage|p1a: Poncho|0 fnt
+|faint|p1a: Poncho
+|
+|-end|p2a: Nesquik|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|
+|switch|p1a: Gyroid|Claydol|53/100
+|turn|7
+|
+|switch|p2a: Électroménager|Rotom-Wash|100/100
+|-damage|p2a: Électroménager|88/100|[from] Stealth Rock
+|move|p1a: Gyroid|Trick Room|p1a: Gyroid
+|-fieldstart|move: Trick Room|[of] p1a: Gyroid
+|
+|-heal|p2a: Électroménager|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Gyroid|Psychic|p2a: Électroménager
+|-damage|p2a: Électroménager|72/100
+|move|p2a: Électroménager|Hydro Pump|p1a: Gyroid|[miss]
+|-miss|p2a: Électroménager|p1a: Gyroid
+|
+|-heal|p2a: Électroménager|78/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Filbert|Greedent, M|100/100
+|move|p2a: Électroménager|Hydro Pump|p1a: Filbert
+|-damage|p1a: Filbert|63/100
+|
+|-heal|p2a: Électroménager|84/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Filbert|Body Slam|p2a: Électroménager
+|-damage|p2a: Électroménager|44/100
+|move|p2a: Électroménager|Volt Switch|p1a: Filbert
+|-damage|p1a: Filbert|37/100
+|-enditem|p1a: Filbert|Sitrus Berry|[eat]
+|-heal|p1a: Filbert|62/100|[from] item: Sitrus Berry
+|-heal|p1a: Filbert|96/100|[from] ability: Cheek Pouch
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Grimmsnarl|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Filbert|Body Slam|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|40/100
+|-status|p2a: Grimmsnarl|par
+|move|p2a: Grimmsnarl|Darkest Lariat|p1a: Filbert
+|-damage|p1a: Filbert|51/100
+|-damage|p2a: Grimmsnarl|30/100 par|[from] item: Life Orb
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|12
+|
+|move|p2a: Grimmsnarl|Darkest Lariat|p1a: Filbert
+|-damage|p1a: Filbert|4/100
+|-damage|p2a: Grimmsnarl|20/100 par|[from] item: Life Orb
+|move|p1a: Filbert|Body Slam|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Dragapute|Dragapult, F|100/100
+|-damage|p2a: Dragapute|88/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Dragapute|Flamethrower|p1a: Filbert
+|-damage|p1a: Filbert|0 fnt
+|faint|p1a: Filbert
+|
+|upkeep
+|
+|switch|p1a: Gyroid|Claydol|53/100
+|turn|14
+|
+|switch|p2a: Électroménager|Rotom-Wash|44/100
+|-damage|p2a: Électroménager|31/100|[from] Stealth Rock
+|move|p1a: Gyroid|Trick Room|p1a: Gyroid
+|-fieldstart|move: Trick Room|[of] p1a: Gyroid
+|
+|-heal|p2a: Électroménager|37/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Gyroid|Psychic|p2a: Électroménager
+|-damage|p2a: Électroménager|10/100
+|move|p2a: Électroménager|Hydro Pump|p1a: Gyroid
+|-supereffective|p1a: Gyroid
+|-damage|p1a: Gyroid|0 fnt
+|faint|p1a: Gyroid
+|
+|-heal|p2a: Électroménager|17/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Punchy|Perrserker, M|100/100
+|turn|16
+|
+|move|p1a: Punchy|Iron Head|p2a: Électroménager
+|-resisted|p2a: Électroménager
+|-damage|p2a: Électroménager|0 fnt
+|faint|p2a: Électroménager
+|
+|upkeep
+|
+|switch|p2a: Nesquik|Cinderace, M|77/100
+|turn|17
+|
+|move|p1a: Punchy|Iron Head|p2a: Nesquik
+|-resisted|p2a: Nesquik
+|-damage|p2a: Nesquik|10/100
+|move|p2a: Nesquik|Pyro Ball|p1a: Punchy
+|-supereffective|p1a: Punchy
+|-damage|p1a: Punchy|0 fnt
+|faint|p1a: Punchy
+|
+|upkeep
+|
+|switch|p1a: Mothra|Butterfree, F|100/100
+|turn|18
+|
+|move|p1a: Mothra|Hurricane|p2a: Nesquik
+|-damage|p2a: Nesquik|0 fnt
+|faint|p2a: Nesquik
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|turn|19
+|
+|move|p1a: Mothra|Sleep Powder|p2a: Corviknight
+|-status|p2a: Corviknight|slp|[from] move: Sleep Powder
+|cant|p2a: Corviknight|slp
+|
+|-heal|p2a: Corviknight|94/100 slp|[from] item: Leftovers
+|upkeep
+|turn|20
+|c|☆NexoHater|Wow t nul
+|c|☆NexoHater|Joue criss
+|
+|move|p1a: Mothra|Quiver Dance|p1a: Mothra
+|-boost|p1a: Mothra|spa|1
+|-boost|p1a: Mothra|spd|1
+|-boost|p1a: Mothra|spe|1
+|-curestatus|p2a: Corviknight|slp|[msg]
+|move|p2a: Corviknight|Brave Bird|p1a: Mothra
+|-supereffective|p1a: Mothra
+|-damage|p1a: Mothra|0 fnt
+|-damage|p2a: Corviknight|73/100|[from] Recoil
+|faint|p1a: Mothra
+|
+|-heal|p2a: Corviknight|79/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Noble 6|Falinks|100/100
+|turn|21
+|
+|move|p1a: Noble 6|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|22/100
+|-unboost|p1a: Noble 6|def|1
+|-unboost|p1a: Noble 6|spd|1
+|-damage|p1a: Noble 6|91/100|[from] item: Life Orb
+|move|p2a: Corviknight|Brave Bird|p1a: Noble 6
+|-supereffective|p1a: Noble 6
+|-damage|p1a: Noble 6|0 fnt
+|-damage|p2a: Corviknight|2/100|[from] Recoil
+|faint|p1a: Noble 6
+|
+|win|NexoHater
+|raw|Jeddeth's rating: 1040 → 1023(-17 for losing)
+|raw|NexoHater's rating: 1025 → 1062(+37 for winning)
+|l|☆Jeddeth

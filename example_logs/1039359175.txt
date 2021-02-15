@@ -1,0 +1,202 @@
+|ScrapeTime|2020-01-01-22:44:32
+|j|☆Typical409
+|j|☆Asuma123
+|player|p1|Typical409|266|1056
+|player|p2|Asuma123|gambler|1106
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Torkoal, M|
+|poke|p1|Shiftry, F|
+|poke|p1|Heliolisk, M|
+|poke|p1|Espeon, M|
+|poke|p1|Vileplume, F|
+|poke|p1|Excadrill, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Sylveon, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Conkeldurr, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Typical409)
+|
+|start
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|move|p2a: Hydreigon|U-turn|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|96/100
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100|[from]move: U-turn
+|move|p1a: Torkoal|Eruption|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|67/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Seismitoad|73/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Seismitoad|Earth Power|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|26/100
+|move|p1a: Torkoal|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: Asuma123|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Seismitoad|79/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Heliolisk|Heliolisk, M|100/100
+|move|p2a: Seismitoad|Earth Power|p1a: Heliolisk
+|-supereffective|p1a: Heliolisk
+|-damage|p1a: Heliolisk|30/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Heliolisk|17/100|[from] ability: Solar Power|[of] p1a: Heliolisk
+|-heal|p2a: Seismitoad|85/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Heliolisk|Grass Knot|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Heliolisk|5/100|[from] ability: Solar Power|[of] p1a: Heliolisk
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M, shiny|100/100
+|-damage|p2a: Conkeldurr|94/100|[from] Stealth Rock
+|turn|5
+|
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|move|p2a: Conkeldurr|Mach Punch|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|86/100
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|move|p1a: Vileplume|Growth|p1a: Vileplume
+|-boost|p1a: Vileplume|atk|2
+|-boost|p1a: Vileplume|spa|2
+|move|p2a: Conkeldurr|Facade|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Heliolisk|Heliolisk, M|5/100
+|turn|7
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Heliolisk
+|-supereffective|p1a: Heliolisk
+|-damage|p1a: Heliolisk|0 fnt
+|faint|p1a: Heliolisk
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Conkeldurr|82/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|8
+|
+|move|p1a: Excadrill|Earthquake|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|39/100 brn
+|move|p2a: Conkeldurr|Drain Punch|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-heal|p2a: Conkeldurr|83/100 brn|[from] drain|[of] p1a: Excadrill
+|faint|p1a: Excadrill
+|
+|-weather|none
+|-damage|p2a: Conkeldurr|77/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Espeon|Espeon, M|100/100
+|turn|9
+|
+|switch|p2a: Corviknight|Corviknight, F, shiny|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|move|p1a: Espeon|Sunny Day|p1a: Espeon
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Espeon|Weather Ball|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|27/100
+|move|p2a: Corviknight|U-turn|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|47/100
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100|[from]move: U-turn
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p2a: Hydreigon|U-turn|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-crit|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M, shiny|77/100 brn|[from]move: U-turn
+|-damage|p2a: Conkeldurr|71/100 brn|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Conkeldurr|65/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Shiftry|Shiftry, F|100/100
+|turn|12
+|
+|move|p1a: Shiftry|Growth|p1a: Shiftry
+|-boost|p1a: Shiftry|atk|2
+|-boost|p1a: Shiftry|spa|2
+|move|p2a: Conkeldurr|Drain Punch|p1a: Shiftry
+|-supereffective|p1a: Shiftry
+|-damage|p1a: Shiftry|0 fnt
+|-heal|p2a: Conkeldurr|100/100 brn|[from] drain|[of] p1a: Shiftry
+|faint|p1a: Shiftry
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Torkoal|Torkoal, M|26/100
+|turn|13
+|-message|Typical409 forfeited.
+|
+|win|Asuma123
+|l|☆Typical409
+|raw|Typical409's rating: 1056 → 1040(-16 for losing)
+|raw|Asuma123's rating: 1106 → 1128(+22 for winning)

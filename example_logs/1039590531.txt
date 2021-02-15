@@ -1,0 +1,371 @@
+|ScrapeTime|2020-01-02-10:15:33
+|j|☆Mr important
+|j|☆Maykel171
+|player|p1|Mr important|1|1110
+|player|p2|Maykel171|1|1088
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Centiskorch, F|
+|poke|p1|Hippowdon, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Bewear, F|
+|poke|p1|Rotom-Wash|
+|poke|p2|Dragapult, F|
+|poke|p2|Ditto|
+|poke|p2|Ludicolo, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Tyranitar, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mr important)
+|
+|start
+|switch|p1a: Bewear|Bewear, F, shiny|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Bewear|Drain Punch|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|95/100|[from] Sandstorm
+|-damage|p1a: Bewear|94/100|[from] Sandstorm
+|-heal|p2a: Dragapult|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F, shiny|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|95/100|[from] Sandstorm
+|-heal|p2a: Dragapult|100/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|77/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Tyranitar
+|-start|p2a: Tyranitar|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|83/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|97/100|[silent]
+|upkeep
+|turn|4
+|
+|move|p2a: Tyranitar|Flamethrower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|29/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|26/100
+|-damage|p1a: Ferrothorn|13/100|[from] item: Rocky Helmet|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|19/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|13/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|33/100|[silent]
+|upkeep
+|turn|5
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Tyranitar|Flamethrower|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-weather|none
+|-heal|p1a: Ferrothorn|39/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|1/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|54/100|[silent]
+|upkeep
+|turn|6
+|
+|switch|p1a: Centiskorch|Centiskorch, F|100/100
+|move|p2a: Tyranitar|Flamethrower|p1a: Centiskorch
+|-start|p1a: Centiskorch|ability: Flash Fire
+|
+|-damage|p2a: Tyranitar|0 fnt|[from] Leech Seed|[of] p1a: Centiskorch
+|faint|p2a: Tyranitar
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|turn|7
+|
+|move|p2a: Excadrill|Earthquake|p1a: Centiskorch
+|-damage|p1a: Centiskorch|31/100
+|move|p1a: Centiskorch|Fire Lash|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-damage|p1a: Centiskorch|14/100|[from] item: Rocky Helmet|[of] p2a: Excadrill
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Ditto|Ditto, shiny|100/100
+|-transform|p2a: Ditto|p1a: Centiskorch|[from] ability: Imposter
+|turn|8
+|inactive|Maykel171 has 120 seconds left.
+|
+|-end|p1a: Centiskorch|ability: Flash Fire|[silent]
+|switch|p1a: Hippowdon|Hippowdon, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Ditto|Fire Lash|p1a: Hippowdon
+|-damage|p1a: Hippowdon|73/100
+|-unboost|p1a: Hippowdon|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ditto|94/100|[from] Sandstorm
+|-heal|p2a: Ditto|100/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|79/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|Maykel171 has 120 seconds left.
+|
+|move|p2a: Ditto|Knock Off|p1a: Hippowdon
+|-damage|p1a: Hippowdon|49/100
+|-enditem|p1a: Hippowdon|Leftovers|[from] move: Knock Off|[of] p2a: Ditto
+|move|p1a: Hippowdon|Stealth Rock|p2a: Ditto
+|-sidestart|p2: Maykel171|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ditto|94/100|[from] Sandstorm
+|-heal|p2a: Ditto|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|Maykel171 has 120 seconds left.
+|
+|move|p2a: Ditto|Crunch|p1a: Hippowdon
+|-damage|p1a: Hippowdon|26/100
+|move|p1a: Hippowdon|Whirlwind|p2a: Ditto
+|drag|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|82/100|[from] Sandstorm
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|82/100|[from] Sandstorm
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Bewear|Bewear, F, shiny|94/100
+|turn|12
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Bewear
+|-immune|p1a: Bewear
+|move|p1a: Bewear|Darkest Lariat|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|none
+|upkeep
+|inactive|Maykel171 has 120 seconds left.
+|
+|switch|p2a: Ditto|Ditto, shiny|100/100
+|-damage|p2a: Ditto|88/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Bewear|[from] ability: Imposter
+|turn|13
+|inactive|Maykel171 has 120 seconds left.
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Ditto|Close Combat|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|-heal|p2a: Ditto|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Ditto
+|-crit|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Ditto
+|
+|upkeep
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F, shiny|54/100
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p2a: Hatterene|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|60/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Hatterene|Mystical Fire|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-heal|p2a: Hatterene|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash, shiny|100/100
+|turn|17
+|
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p2a: Hatterene|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Rotom|Dark Pulse|p2a: Hatterene
+|-damage|p2a: Hatterene|86/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|75/100
+|-unboost|p1a: Rotom|spa|1
+|
+|-heal|p2a: Hatterene|92/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-heal|p2a: Hatterene|98/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|20
+|
+|move|p1a: Dragapult|U-turn|p2a: Hatterene
+|-damage|p2a: Hatterene|78/100
+|
+|switch|p1a: Centiskorch|Centiskorch, F|14/100|[from]move: U-turn
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Centiskorch
+|-resisted|p1a: Centiskorch
+|-damage|p1a: Centiskorch|0 fnt
+|faint|p1a: Centiskorch
+|
+|-heal|p2a: Hatterene|84/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Bewear|Bewear, F, shiny|94/100
+|turn|21
+|
+|move|p1a: Bewear|Darkest Lariat|p2a: Hatterene
+|-damage|p2a: Hatterene|31/100
+|move|p2a: Hatterene|Psychic|p1a: Bewear
+|-supereffective|p1a: Bewear
+|-damage|p1a: Bewear|0 fnt
+|faint|p1a: Bewear
+|
+|-heal|p2a: Hatterene|37/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|22
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|switch|p2a: Ludicolo|Ludicolo, F, shiny|100/100
+|-damage|p2a: Ludicolo|88/100|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Ludicolo
+|-damage|p2a: Ludicolo|47/100
+|move|p2a: Ludicolo|Leech Seed|p1a: Dragapult
+|-start|p1a: Dragapult|move: Leech Seed
+|
+|-heal|p2a: Ludicolo|53/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|88/100|[from] Leech Seed|[of] p2a: Ludicolo
+|-heal|p2a: Ludicolo|63/100|[silent]
+|upkeep
+|turn|24
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Ludicolo
+|-damage|p2a: Ludicolo|27/100
+|move|p2a: Ludicolo|Rain Dance|p2a: Ludicolo
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ludicolo|33/100|[from] ability: Rain Dish
+|-heal|p2a: Ludicolo|39/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|76/100|[from] Leech Seed|[of] p2a: Ludicolo
+|-heal|p2a: Ludicolo|50/100|[silent]
+|upkeep
+|turn|25
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Ludicolo
+|-damage|p2a: Ludicolo|12/100
+|move|p2a: Ludicolo|Giga Drain|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|59/100
+|-heal|p2a: Ludicolo|19/100|[from] drain|[of] p1a: Dragapult
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ludicolo|25/100|[from] ability: Rain Dish
+|-heal|p2a: Ludicolo|32/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|47/100|[from] Leech Seed|[of] p2a: Ludicolo
+|-heal|p2a: Ludicolo|42/100|[silent]
+|upkeep
+|turn|26
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Ludicolo
+|-damage|p2a: Ludicolo|3/100
+|move|p2a: Ludicolo|Giga Drain|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|24/100
+|-heal|p2a: Ludicolo|13/100|[from] drain|[of] p1a: Dragapult
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ludicolo|19/100|[from] ability: Rain Dish
+|-heal|p2a: Ludicolo|25/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|12/100|[from] Leech Seed|[of] p2a: Ludicolo
+|-heal|p2a: Ludicolo|36/100|[silent]
+|upkeep
+|turn|27
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Ludicolo
+|-damage|p2a: Ludicolo|0 fnt
+|faint|p2a: Ludicolo
+|
+|win|Mr important
+|raw|Mr important's rating: 1110 → 1134(+24 for winning)
+|raw|Maykel171's rating: 1088 → 1066(-22 for losing)
+|l|☆Mr important

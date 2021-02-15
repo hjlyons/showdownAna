@@ -1,0 +1,318 @@
+|ScrapeTime|2020-01-01-22:25:26
+|j|☆deacancheese
+|j|☆Hi there m9!
+|player|p1|deacancheese|hoopster|1211
+|player|p2|Hi there m9!|56|1245
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Togekiss, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Gastrodon-East, M|
+|poke|p1|Goodra, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Obstagoon, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Clefable, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Excadrill, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hi there m9!)
+|
+|move|p1a: Cinderace|High Jump Kick|p2a: Cinderace
+|-damage|p2a: Cinderace|46/100
+|move|p2a: Cinderace|U-turn|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|83/100
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Obstagoon|Obstagoon, F|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Obstagoon
+|-immune|p1a: Obstagoon
+|
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Obstagoon|Knock Off|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|64/100
+|-enditem|p2a: Clefable|Life Orb|[from] move: Knock Off|[of] p1a: Obstagoon
+|
+|-damage|p1a: Obstagoon|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: Gastrodon|Gastrodon-East, M|100/100
+|move|p2a: Clefable|Moonblast|p1a: Gastrodon
+|-damage|p1a: Gastrodon|64/100
+|
+|-heal|p1a: Gastrodon|70/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|100/100
+|move|p1a: Gastrodon|Scald|p2a: Clefable
+|-damage|p2a: Clefable|68/100
+|
+|-heal|p1a: Gastrodon|76/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Clefable|Moonblast|p1a: Gastrodon
+|-damage|p1a: Gastrodon|42/100
+|move|p1a: Gastrodon|Sludge Wave|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|18/100
+|
+|-heal|p1a: Gastrodon|48/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|68/100
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|98/100
+|
+|-heal|p1a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Gastrodon|Scald|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|15/100
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Excadrill|Earthquake|p1a: Gastrodon
+|-damage|p1a: Gastrodon|32/100
+|move|p1a: Gastrodon|Scald|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-heal|p1a: Gastrodon|39/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|10
+|
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Togekiss
+|-damage|p1a: Togekiss|53/100
+|-unboost|p1a: Togekiss|spd|1
+|
+|-heal|p1a: Togekiss|59/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Obstagoon|Obstagoon, F|94/100 brn
+|move|p2a: Dragapult|Shadow Ball|p1a: Obstagoon
+|-immune|p1a: Obstagoon
+|
+|-damage|p1a: Obstagoon|88/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Clefable|Clefable, F|68/100
+|move|p1a: Obstagoon|Knock Off|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|46/100
+|
+|-damage|p1a: Obstagoon|82/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Obstagoon|Facade|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|-damage|p1a: Obstagoon|76/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|46/100
+|turn|14
+|
+|switch|p1a: Gastrodon|Gastrodon-East, M|39/100
+|move|p2a: Cinderace|High Jump Kick|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|83/100
+|turn|15
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|65/100
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Obstagoon|Obstagoon, F|76/100 brn
+|turn|17
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Obstagoon|Knock Off|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|64/100
+|-enditem|p2a: Hydreigon|Choice Scarf|[from] move: Knock Off|[of] p1a: Obstagoon
+|
+|-damage|p1a: Obstagoon|70/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p1a: Obstagoon|Facade|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-damage|p1a: Obstagoon|64/100 brn|[from] brn
+|upkeep
+|inactive|Hi there m9! has 120 seconds left.
+|
+|switch|p2a: Cinderace|Cinderace, M|46/100
+|turn|19
+|
+|switch|p1a: Togekiss|Togekiss, F|59/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|20
+|
+|move|p2a: Cinderace|U-turn|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|85/100
+|
+|switch|p2a: Dragapult|Dragapult, F|65/100|[from]move: U-turn
+|move|p1a: Excadrill|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|46/100
+|turn|21
+|
+|switch|p1a: Goodra|Goodra, F|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|59/100
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Goodra|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|66/100
+|
+|-heal|p2a: Hatterene|72/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p1a: Excadrill|Excadrill, M|85/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-heal|p2a: Hatterene|78/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Obstagoon|Obstagoon, F|64/100 brn
+|move|p2a: Hatterene|Mystical Fire|p1a: Obstagoon
+|-damage|p1a: Obstagoon|29/100 brn
+|-unboost|p1a: Obstagoon|spa|1
+|
+|-heal|p2a: Hatterene|84/100|[from] item: Leftovers
+|-damage|p1a: Obstagoon|23/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Obstagoon
+|-supereffective|p1a: Obstagoon
+|-damage|p1a: Obstagoon|0 fnt
+|faint|p1a: Obstagoon
+|
+|-heal|p2a: Hatterene|90/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Goodra|Goodra, F|59/100
+|turn|26
+|
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|18/100
+|move|p1a: Goodra|Power Whip|p2a: Hatterene
+|-damage|p2a: Hatterene|50/100
+|
+|-heal|p2a: Hatterene|56/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|
+|-heal|p2a: Hatterene|62/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|85/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|28
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Hatterene
+|-damage|p2a: Hatterene|43/100
+|-boost|p1a: Excadrill|spe|1
+|move|p2a: Hatterene|Mystical Fire|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|win|Hi there m9!
+|l|☆deacancheese
+|raw|deacancheese's rating: 1211 → 1188(-23 for losing)
+|raw|Hi there m9!'s rating: 1245 → 1267(+22 for winning)

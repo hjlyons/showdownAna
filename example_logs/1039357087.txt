@@ -1,0 +1,197 @@
+|ScrapeTime|2020-01-01-22:45:31
+|j|☆w683
+|j|☆SubSpooky
+|player|p1|w683|sabrina|1060
+|player|p2|SubSpooky|marlon|1073
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Drapion, M|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Ditto|
+|poke|p1|Excadrill, F|
+|poke|p1|Toxtricity, M|
+|poke|p1|Gastrodon, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Toxicroak, M|
+|poke|p2|Toxtricity, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Barraskewda, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Menace|Corsola-Galar, F|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|move|p2a: Pelipper|U-turn|p1a: Menace
+|-resisted|p1a: Menace
+|-damage|p1a: Menace|97/100
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100|[from]move: U-turn
+|move|p1a: Menace|Stealth Rock|p2a: Toxtricity
+|-sidestart|p2: SubSpooky|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Toxtricity|Thunder|p1a: Menace
+|-damage|p1a: Menace|57/100
+|-start|p2a: Toxtricity|Disable|Thunder|[from] ability: Cursed Body|[of] p1a: Menace
+|-status|p1a: Menace|par
+|move|p1a: Menace|Will-O-Wisp|p2a: Toxtricity|[miss]
+|-miss|p1a: Menace|p2a: Toxtricity
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Barraskewda|Barraskewda, F|100/100
+|-damage|p2a: Barraskewda|88/100|[from] Stealth Rock
+|move|p1a: Menace|Strength Sap|p2a: Barraskewda
+|-unboost|p2a: Barraskewda|atk|1
+|-heal|p1a: Menace|100/100 par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p2a: Barraskewda|Psychic Fangs|p1a: Menace
+|-damage|p1a: Menace|79/100 par
+|cant|p1a: Menace|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Menace|Will-O-Wisp|p2a: Rotom
+|-status|p2a: Rotom|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Rotom|82/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p2a: Rotom|Volt Switch|p1a: Menace
+|-damage|p1a: Menace|67/100 par
+|
+|switch|p2a: Barraskewda|Barraskewda, F|88/100|[from]move: Volt Switch
+|-damage|p2a: Barraskewda|76/100|[from] Stealth Rock
+|move|p1a: Menace|Strength Sap|p2a: Barraskewda
+|-unboost|p2a: Barraskewda|atk|1
+|-heal|p1a: Menace|100/100 par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p2a: Barraskewda|Liquidation|p1a: Menace
+|-damage|p1a: Menace|50/100 par
+|-start|p2a: Barraskewda|Disable|Liquidation|[from] ability: Cursed Body|[of] p1a: Menace
+|move|p1a: Menace|Will-O-Wisp|p2a: Barraskewda
+|-status|p2a: Barraskewda|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Barraskewda|70/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|-damage|p2a: Toxtricity|88/100|[from] Stealth Rock
+|move|p1a: Menace|Strength Sap|p2a: Toxtricity
+|-unboost|p2a: Toxtricity|atk|1
+|-heal|p1a: Menace|100/100 par
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|move|p2a: Toxtricity|Sludge Wave|p1a: Menace
+|-resisted|p1a: Menace
+|-damage|p1a: Menace|83/100 par
+|-start|p2a: Toxtricity|Disable|Sludge Wave|[from] ability: Cursed Body|[of] p1a: Menace
+|move|p1a: Menace|Will-O-Wisp|p2a: Toxtricity
+|-status|p2a: Toxtricity|brn
+|
+|-damage|p2a: Toxtricity|82/100 brn|[from] brn
+|upkeep
+|turn|10
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by w683)
+|
+|switch|p2a: Toxicroak|Toxicroak, M|100/100
+|-damage|p2a: Toxicroak|94/100|[from] Stealth Rock
+|cant|p1a: Menace|par
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|move|p1a: Menace|Strength Sap|p2a: Toxicroak
+|-unboost|p2a: Toxicroak|atk|1
+|-heal|p1a: Menace|100/100 par
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|move|p1a: Menace|Haze|p1a: Menace
+|-clearallboost
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Toxicroak|Gunk Shot|p1a: Menace
+|-resisted|p1a: Menace
+|-damage|p1a: Menace|76/100 par
+|-damage|p2a: Toxicroak|85/100|[from] item: Life Orb
+|move|p1a: Menace|Will-O-Wisp|p2a: Toxicroak
+|-status|p2a: Toxicroak|brn
+|
+|-damage|p2a: Toxicroak|78/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p2a: Barraskewda|Barraskewda, F|70/100 brn
+|-damage|p2a: Barraskewda|58/100 brn|[from] Stealth Rock
+|move|p1a: Menace|Strength Sap|p2a: Barraskewda
+|-unboost|p2a: Barraskewda|atk|1
+|-heal|p1a: Menace|100/100 par
+|
+|-damage|p2a: Barraskewda|52/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Barraskewda|Poison Jab|p1a: Menace
+|-resisted|p1a: Menace
+|-damage|p1a: Menace|95/100 par
+|-start|p2a: Barraskewda|Disable|Poison Jab|[from] ability: Cursed Body|[of] p1a: Menace
+|move|p1a: Menace|Will-O-Wisp|p2a: Barraskewda
+|-fail|p2a: Barraskewda|brn
+|
+|-damage|p2a: Barraskewda|46/100 brn|[from] brn
+|upkeep
+|turn|16
+|-message|SubSpooky forfeited.
+|
+|win|w683
+|l|☆SubSpooky
+|raw|w683's rating: 1089 → 1113(+24 for winning)
+|raw|SubSpooky's rating: 1051 → 1035(-16 for losing)

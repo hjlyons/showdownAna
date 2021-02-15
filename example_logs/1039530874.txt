@@ -1,0 +1,317 @@
+|ScrapeTime|2020-01-02-06:05:51
+|j|☆JJtoClean13
+|j|☆Dwade113
+|player|p1|JJtoClean13|170|1163
+|player|p2|Dwade113|1|1215
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Gallade, M|
+|poke|p1|Arcanine, M|
+|poke|p1|Aegislash, M|
+|poke|p1|Cloyster, F|
+|poke|p1|Vileplume, M|
+|poke|p2|Hydreigon, F|
+|poke|p2|Dracovish|
+|poke|p2|Cinderace, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Excadrill, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dwade113)
+|
+|start
+|switch|p1a: Cloyster|Cloyster, F|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p2a: Excadrill|Iron Head|p1a: Cloyster
+|-crit|p1a: Cloyster
+|-damage|p1a: Cloyster|48/100
+|cant|p1a: Cloyster|flinch
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Excadrill|Iron Head|p1a: Cloyster
+|-damage|p1a: Cloyster|13/100
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|-enditem|p1a: Cloyster|White Herb
+|-clearnegativeboost|p1a: Cloyster|[silent]
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Cloyster|Icicle Spear|p2a: Excadrill
+|-damage|p2a: Excadrill|68/100
+|-damage|p2a: Excadrill|34/100
+|-damage|p2a: Excadrill|0 fnt
+|-hitcount|p2a: Excadrill|3
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|4
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|5
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Cinderace
+|-damage|p2a: Cinderace|48/100
+|move|p2a: Cinderace|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|86/100
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|turn|7
+|
+|switch|p2a: Cinderace|Cinderace, F|48/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Sacred Sword|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|8
+|
+|move|p1a: Aegislash|Iron Head|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|9
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Dracovish|Fishious Rend|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|-unboost|p2a: Dracovish|atk|1
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Sacred Sword|p2a: Corviknight
+|-damage|p2a: Corviknight|26/100
+|
+|-heal|p2a: Corviknight|32/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Corviknight|Iron Head|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|-ability|p2a: Corviknight|Mirror Armor
+|-unboost|p1a: Aegislash|atk|1
+|
+|-heal|p2a: Corviknight|38/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Corviknight|Iron Head|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|82/100
+|cant|p1a: Aegislash|flinch
+|
+|-heal|p2a: Corviknight|44/100|[from] item: Leftovers
+|-heal|p1a: Aegislash|88/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Corviknight|Iron Head|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|70/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Sacred Sword|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-heal|p1a: Aegislash|76/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|16
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield||[still]
+|-fail|p1a: Aegislash
+|
+|-heal|p1a: Aegislash|82/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Dracovish|Crunch|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|28/100
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|-heal|p1a: Aegislash|34/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Aegislash|King's Shield||[still]
+|-fail|p1a: Aegislash
+|
+|-heal|p1a: Aegislash|40/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Gallade|Gallade, M|100/100
+|turn|20
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|move|p1a: Gallade|Drain Punch|p2a: Dracovish
+|-damage|p2a: Dracovish|57/100
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|-damage|p2a: Dracovish|40/100|[from] item: Rocky Helmet|[of] p1a: Gallade
+|faint|p1a: Gallade
+|
+|upkeep
+|
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|turn|22
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Vileplume|Sleep Powder|p2a: Hydreigon
+|-status|p2a: Hydreigon|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|23
+|
+|cant|p2a: Hydreigon|slp
+|move|p1a: Vileplume|Leech Seed|p2a: Hydreigon
+|-start|p2a: Hydreigon|move: Leech Seed
+|
+|-damage|p2a: Hydreigon|88/100 slp|[from] Leech Seed|[of] p1a: Vileplume
+|upkeep
+|turn|24
+|l|☆JJtoClean13
+|inactive|JJtoClean13 disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|JJtoClean13 has 30 seconds to reconnect!
+|j|☆JJtoClean13
+|inactive|JJtoClean13 reconnected and has 100 seconds left.
+|player|p1|JJtoClean13|170
+|
+|cant|p2a: Hydreigon|slp
+|move|p1a: Vileplume|Sludge Bomb|p2a: Hydreigon
+|-damage|p2a: Hydreigon|52/100 slp
+|
+|-damage|p2a: Hydreigon|40/100 slp|[from] Leech Seed|[of] p1a: Vileplume
+|upkeep
+|turn|25
+|
+|-curestatus|p2a: Hydreigon|slp|[msg]
+|move|p2a: Hydreigon|Flamethrower|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|51/100
+|move|p1a: Vileplume|Sludge Bomb|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-heal|p1a: Vileplume|58/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|40/100
+|turn|26
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|upkeep
+|
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|turn|27
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|win|Dwade113
+|raw|JJtoClean13's rating: 1163 → 1142(-21 for losing)
+|raw|Dwade113's rating: 1215 → 1237(+22 for winning)
+|l|☆JJtoClean13
+|c|☆Dwade113|Ggs

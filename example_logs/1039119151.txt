@@ -1,0 +1,379 @@
+|ScrapeTime|2020-01-01-12:56:07
+|j|☆PetitPied
+|j|☆Wormadam-Gold
+|player|p1|PetitPied|infielder|1814
+|player|p2|Wormadam-Gold|ethan-gen2|1664
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Obstagoon, F|
+|poke|p1|Kommo-o, F|
+|poke|p1|Sylveon, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Coalossal, M|
+|poke|p1|Ferrothorn, M|
+|poke|p2|Rhyperior, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Toxtricity, M|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Vaporeon, M|
+|poke|p2|Rotom-Heat|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PetitPied)
+|j| shiitogee
+|
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Rhyperior|Rhyperior, F|100/100
+|turn|1
+|j| KranonV2
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dragapult|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|93/100
+|
+|switch|p1a: Coalossal|Coalossal, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Corviknight|99/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Rhyperior|Rhyperior, F|100/100
+|move|p1a: Coalossal|Stealth Rock|p2a: Rhyperior
+|-sidestart|p2: Wormadam-Gold|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Rhyperior|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|68/100
+|
+|-heal|p1a: Ferrothorn|74/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Rhyperior|Fire Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|5/100
+|-damage|p2a: Rhyperior|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Rhyperior
+|-start|p2a: Rhyperior|move: Leech Seed
+|
+|-heal|p2a: Rhyperior|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|11/100|[from] item: Leftovers
+|-damage|p2a: Rhyperior|82/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|24/100|[silent]
+|upkeep
+|turn|5
+|
+|move|p2a: Rhyperior|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-heal|p2a: Rhyperior|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|turn|6
+|
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|-damage|p2a: Vaporeon|88/100|[from] Stealth Rock
+|move|p1a: Kommo-o|Dragon Dance|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|spe|1
+|
+|-heal|p2a: Vaporeon|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Kommo-o|Dragon Dance|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|spe|1
+|move|p2a: Vaporeon|Haze|p2a: Vaporeon
+|-clearallboost
+|
+|-heal|p2a: Vaporeon|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Kommo-o|Dragon Dance|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|spe|1
+|move|p2a: Vaporeon|Scald|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|83/100
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Kommo-o|Close Combat|p2a: Vaporeon
+|-damage|p2a: Vaporeon|28/100
+|-unboost|p1a: Kommo-o|def|1
+|-unboost|p1a: Kommo-o|spd|1
+|-damage|p1a: Kommo-o|73/100|[from] item: Life Orb
+|move|p2a: Vaporeon|Haze|p2a: Vaporeon
+|-clearallboost
+|
+|-heal|p2a: Vaporeon|34/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Kommo-o|Close Combat|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p2a: Vaporeon|40/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Kommo-o|Close Combat|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|-unboost|p1a: Kommo-o|def|1
+|-unboost|p1a: Kommo-o|spd|1
+|-damage|p1a: Kommo-o|63/100|[from] item: Life Orb
+|faint|p2a: Vaporeon
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p2a: Conkeldurr|94/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|13
+|
+|switch|p2a: Corviknight|Corviknight, M|99/100
+|-damage|p2a: Corviknight|87/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dragapult|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|79/100
+|
+|switch|p1a: Obstagoon|Obstagoon, F|100/100|[from]move: U-turn
+|
+|-heal|p2a: Corviknight|86/100|[from] item: Leftovers
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|14
+|
+|move|p1a: Obstagoon|Bulk Up|p1a: Obstagoon
+|-boost|p1a: Obstagoon|atk|1
+|-boost|p1a: Obstagoon|def|1
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|92/100|[from] item: Leftovers
+|-damage|p1a: Obstagoon|94/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Obstagoon|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|42/100
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Obstagoon
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|17/100
+|
+|-damage|p1a: Obstagoon|88/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Obstagoon|Close Combat|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|-unboost|p1a: Obstagoon|def|1
+|-unboost|p1a: Obstagoon|spd|1
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|67/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-damage|p1a: Obstagoon|82/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p1a: Obstagoon|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|31/100
+|-unboost|p1a: Obstagoon|def|1
+|-unboost|p1a: Obstagoon|spd|1
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|81/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-damage|p1a: Obstagoon|76/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p1a: Coalossal|Coalossal, M|100/100
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|56/100
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Coalossal|Heat Crash|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|
+|upkeep
+|turn|20
+|
+|switch|p2a: Rhyperior|Rhyperior, F|88/100
+|-damage|p2a: Rhyperior|82/100|[from] Stealth Rock
+|move|p1a: Coalossal|Heat Crash|p2a: Rhyperior
+|-resisted|p2a: Rhyperior
+|-damage|p2a: Rhyperior|77/100
+|
+|-heal|p2a: Rhyperior|83/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Sylveon|Sylveon, M|100/100
+|move|p2a: Rhyperior|Earthquake|p1a: Sylveon
+|-damage|p1a: Sylveon|23/100
+|
+|-heal|p2a: Rhyperior|89/100|[from] item: Leftovers
+|-heal|p1a: Sylveon|29/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Rhyperior|Earthquake|p1a: Sylveon
+|-crit|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|faint|p1a: Sylveon
+|
+|-heal|p2a: Rhyperior|95/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, F|63/100
+|turn|23
+|
+|move|p1a: Kommo-o|Dragon Dance|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|spe|1
+|move|p2a: Rhyperior|Earthquake|p1a: Kommo-o
+|-damage|p1a: Kommo-o|3/100
+|
+|-heal|p2a: Rhyperior|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|-damage|p2a: Toxtricity|88/100|[from] Stealth Rock
+|move|p1a: Kommo-o|Close Combat|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|9/100
+|-unboost|p1a: Kommo-o|def|1
+|-unboost|p1a: Kommo-o|spd|1
+|-damage|p1a: Kommo-o|0 fnt|[from] item: Life Orb
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|25
+|
+|move|p1a: Dragapult|U-turn|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|switch|p1a: Obstagoon|Obstagoon, F|76/100 brn|[from]move: U-turn
+|
+|-damage|p1a: Obstagoon|70/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|94/100 brn
+|-damage|p2a: Conkeldurr|88/100 brn|[from] Stealth Rock
+|turn|26
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Conkeldurr|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|22/100
+|
+|-damage|p2a: Conkeldurr|82/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Corviknight
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Corviknight|[from]lockedmove
+|-damage|p2a: Corviknight|32/100
+|move|p2a: Corviknight|Brave Bird|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p2a: Corviknight|27/100|[from] Recoil
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Obstagoon|Obstagoon, F|70/100 brn
+|turn|29
+|
+|move|p1a: Obstagoon|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-unboost|p1a: Obstagoon|def|1
+|-unboost|p1a: Obstagoon|spd|1
+|faint|p2a: Corviknight
+|
+|-damage|p1a: Obstagoon|64/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Rhyperior|Rhyperior, F|100/100
+|-damage|p2a: Rhyperior|94/100|[from] Stealth Rock
+|turn|30
+|
+|move|p1a: Obstagoon|Close Combat|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|46/100
+|-unboost|p1a: Obstagoon|def|1
+|-unboost|p1a: Obstagoon|spd|1
+|move|p2a: Rhyperior|Earthquake|p1a: Obstagoon
+|-damage|p1a: Obstagoon|0 fnt
+|faint|p1a: Obstagoon
+|
+|-heal|p2a: Rhyperior|52/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Coalossal|Coalossal, M|100/100
+|turn|31
+|
+|move|p2a: Rhyperior|Earthquake|p1a: Coalossal
+|-supereffective|p1a: Coalossal
+|-damage|p1a: Coalossal|0 fnt
+|faint|p1a: Coalossal
+|
+|win|Wormadam-Gold
+|l|☆PetitPied
+|c|☆Wormadam-Gold|gg
+|raw|PetitPied's rating: 1814 → 1786(-28 for losing)
+|raw|Wormadam-Gold's rating: 1664 → 1692(+28 for winning)

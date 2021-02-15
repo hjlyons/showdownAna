@@ -1,0 +1,607 @@
+|ScrapeTime|2020-01-02-13:15:08
+|j|☆dldldl
+|j|☆mimi (bitches)
+|player|p1|dldldl|preschooler|1213
+|player|p2|mimi (bitches)|erika-gen1|1226
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Umbreon, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Dugtrio, F|
+|poke|p1|Seismitoad, M|
+|poke|p1|Reuniclus, M|
+|poke|p1|Ferrothorn, M|
+|poke|p2|Flygon, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Goodra, M|
+|poke|p2|Drapion, M|
+|poke|p2|Hatterene, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dldldl)
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|switch|p2a: Flygon|Flygon, F|100/100
+|turn|1
+|
+|move|p2a: Flygon|U-turn|p1a: Seismitoad
+|-crit|p1a: Seismitoad
+|-damage|p1a: Seismitoad|80/100
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100|[from]move: U-turn
+|move|p1a: Seismitoad|Scald|p2a: Hatterene
+|-damage|p2a: Hatterene|75/100
+|
+|-heal|p1a: Seismitoad|86/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|81/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-heal|p2a: Hatterene|87/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Umbreon
+|-damage|p1a: Umbreon|85/100
+|-unboost|p1a: Umbreon|spa|1
+|
+|-heal|p2a: Hatterene|93/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|39/100
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p2a: Hatterene|99/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|45/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|95/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Hatterene|100/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Reuniclus
+|-damage|p1a: Reuniclus|69/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|switch|p2a: Drapion|Drapion, M|100/100
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Drapion|Knock Off|p1a: Corviknight
+|-damage|p1a: Corviknight|77/100
+|-enditem|p1a: Corviknight|Leftovers|[from] move: Knock Off|[of] p2a: Drapion
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Corviknight|Brave Bird|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|81/100
+|-damage|p1a: Corviknight|64/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Corviknight|48/100|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|-damage|p1a: Corviknight|42/100|[from] Recoil
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Corviknight|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|cant|p2a: Ferrothorn|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|92/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Seismitoad|Seismitoad, M|86/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|66/100
+|
+|-heal|p1a: Seismitoad|72/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Seismitoad|Protect|p1a: Seismitoad
+|-singleturn|p1a: Seismitoad|Protect
+|move|p2a: Cinderace|U-turn|p1a: Seismitoad
+|-activate|p1a: Seismitoad|move: Protect
+|
+|-heal|p1a: Seismitoad|78/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Cinderace|U-turn|p1a: Seismitoad
+|-damage|p1a: Seismitoad|61/100
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100|[from]move: U-turn
+|move|p1a: Seismitoad|Scald|p2a: Hatterene
+|-damage|p2a: Hatterene|73/100
+|
+|-heal|p1a: Seismitoad|67/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|79/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Seismitoad|Scald|p2a: Hatterene
+|-damage|p2a: Hatterene|53/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-heal|p2a: Hatterene|59/100|[from] item: Leftovers
+|-heal|p1a: Seismitoad|73/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Seismitoad|Protect|p1a: Seismitoad
+|-singleturn|p1a: Seismitoad|Protect
+|move|p2a: Hatterene|Psychic|p1a: Seismitoad
+|-activate|p1a: Seismitoad|move: Protect
+|
+|-heal|p2a: Hatterene|65/100|[from] item: Leftovers
+|-heal|p1a: Seismitoad|79/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|48/100
+|
+|-heal|p2a: Hatterene|71/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|54/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p2a: Hatterene|77/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|60/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|9/100
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p2a: Hatterene|83/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|15/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|20
+|
+|move|p1a: Umbreon|Moonlight|p1a: Umbreon
+|-heal|p1a: Umbreon|65/100
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|19/100
+|
+|-heal|p1a: Umbreon|69/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p1a: Umbreon|75/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|89/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Drapion|Drapion, M|100/100
+|move|p1a: Umbreon|Protect||[still]
+|-fail|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|81/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Corviknight|Corviknight, F|92/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Drapion|Knock Off|p1a: Corviknight
+|-damage|p1a: Corviknight|75/100
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|81/100
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|44/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Dugtrio
+|-sidestart|p1: dldldl|move: Stealth Rock
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|6/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Dugtrio
+|-start|p1a: Dugtrio|move: Leech Seed
+|
+|-damage|p1a: Dugtrio|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|13/100|[silent]
+|upkeep
+|turn|26
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Hatterene|Hatterene, F|89/100
+|turn|27
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|18/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-heal|p2a: Hatterene|24/100|[from] item: Leftovers
+|-damage|p1a: Dugtrio|76/100|[from] Leech Seed|[of] p2a: Hatterene
+|-heal|p2a: Hatterene|33/100|[silent]
+|upkeep
+|turn|28
+|
+|switch|p1a: Corviknight|Corviknight, F|75/100
+|-damage|p1a: Corviknight|63/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Hatterene|Psychic|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|38/100
+|
+|-heal|p2a: Hatterene|39/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p1a: Umbreon|Umbreon, M|81/100
+|-damage|p1a: Umbreon|68/100|[from] Stealth Rock
+|move|p2a: Hatterene|Mystical Fire|p1a: Umbreon
+|-damage|p1a: Umbreon|52/100
+|-unboost|p1a: Umbreon|spa|1
+|
+|-heal|p2a: Hatterene|45/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|58/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p2a: Hatterene|50/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|64/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|16/100
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p2a: Hatterene|56/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|23/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|32
+|
+|move|p1a: Umbreon|Moonlight|p1a: Umbreon
+|-heal|p1a: Umbreon|73/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-heal|p1a: Umbreon|100/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Hatterene|62/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|54/100
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p2a: Hatterene|68/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|60/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|14/100
+|move|p1a: Umbreon|Foul Play|p2a: Hatterene
+|-damage|p2a: Hatterene|40/100
+|
+|-heal|p1a: Umbreon|64/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Hatterene|46/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|70/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Hatterene|Mystical Fire|p1a: Umbreon
+|-crit|p1a: Umbreon
+|-damage|p1a: Umbreon|47/100
+|-unboost|p1a: Umbreon|spa|1
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p2a: Hatterene|52/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|53/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|100/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Hatterene|58/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|37
+|
+|move|p1a: Umbreon|Foul Play|p2a: Hatterene
+|-damage|p2a: Hatterene|31/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-heal|p2a: Hatterene|37/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|54/100
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-heal|p2a: Hatterene|43/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|60/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p2a: Hatterene|Mystical Fire|p1a: Umbreon
+|-damage|p1a: Umbreon|45/100
+|-unboost|p1a: Umbreon|spa|1
+|move|p1a: Umbreon|Foul Play|p2a: Hatterene
+|-damage|p2a: Hatterene|17/100
+|
+|-heal|p1a: Umbreon|95/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Hatterene|23/100|[from] item: Leftovers
+|-heal|p1a: Umbreon|100/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|switch|p2a: Goodra|Goodra, M|100/100
+|move|p1a: Umbreon|Foul Play|p2a: Goodra
+|-damage|p2a: Goodra|67/100
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Umbreon|spe|1
+|
+|upkeep
+|turn|41
+|
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|move|p2a: Goodra|Sludge Wave|p1a: Umbreon
+|-damage|p1a: Umbreon|80/100
+|-damage|p2a: Goodra|57/100|[from] item: Life Orb
+|
+|-heal|p1a: Umbreon|87/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|42
+|
+|switch|p1a: Corviknight|Corviknight, F|38/100
+|-damage|p1a: Corviknight|26/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Goodra|Draco Meteor|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-unboost|p2a: Goodra|spa|2
+|-damage|p2a: Goodra|47/100|[from] item: Life Orb
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Dugtrio|Dugtrio, F|76/100
+|-damage|p1a: Dugtrio|70/100|[from] Stealth Rock
+|turn|43
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|upkeep
+|
+|switch|p2a: Flygon|Flygon, F|100/100
+|turn|44
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Flygon|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|70/100
+|
+|-heal|p1a: Ferrothorn|76/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|65/100
+|
+|-heal|p1a: Ferrothorn|83/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|switch|p1a: Seismitoad|Seismitoad, M|79/100
+|-damage|p1a: Seismitoad|73/100|[from] Stealth Rock
+|move|p2a: Cinderace|Pyro Ball|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|54/100
+|-status|p1a: Seismitoad|brn
+|
+|-heal|p1a: Seismitoad|60/100 brn|[from] item: Leftovers
+|-damage|p1a: Seismitoad|54/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|move|p2a: Cinderace|U-turn|p1a: Seismitoad
+|-damage|p1a: Seismitoad|39/100 brn
+|
+|switch|p2a: Drapion|Drapion, M|100/100|[from]move: U-turn
+|move|p1a: Seismitoad|Scald|p2a: Drapion
+|-damage|p2a: Drapion|61/100
+|
+|-heal|p2a: Drapion|67/100|[from] item: Leftovers
+|-heal|p1a: Seismitoad|45/100 brn|[from] item: Leftovers
+|-damage|p1a: Seismitoad|39/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|move|p2a: Drapion|Knock Off|p1a: Seismitoad
+|-damage|p1a: Seismitoad|8/100 brn
+|-enditem|p1a: Seismitoad|Leftovers|[from] move: Knock Off|[of] p2a: Drapion
+|move|p1a: Seismitoad|Scald|p2a: Drapion
+|-damage|p2a: Drapion|27/100
+|-status|p2a: Drapion|brn
+|
+|-heal|p2a: Drapion|33/100 brn|[from] item: Leftovers
+|-damage|p2a: Drapion|27/100 brn|[from] brn
+|-damage|p1a: Seismitoad|2/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|move|p2a: Drapion|Poison Jab|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-heal|p2a: Drapion|33/100 brn|[from] item: Leftovers
+|-damage|p2a: Drapion|27/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Dugtrio|Dugtrio, F|70/100
+|-damage|p1a: Dugtrio|64/100|[from] Stealth Rock
+|turn|50
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Drapion
+|-supereffective|p2a: Drapion
+|-damage|p2a: Drapion|0 fnt
+|faint|p2a: Drapion
+|
+|upkeep
+|
+|switch|p2a: Flygon|Flygon, F|100/100
+|turn|51
+|
+|switch|p1a: Reuniclus|Reuniclus, M|69/100
+|move|p2a: Flygon|Earthquake|p1a: Reuniclus
+|-damage|p1a: Reuniclus|25/100
+|
+|upkeep
+|turn|52
+|
+|move|p2a: Flygon|Earthquake|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|83/100
+|-damage|p1a: Ferrothorn|76/100|[from] Stealth Rock
+|turn|53
+|
+|move|p2a: Flygon|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|53/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Flygon
+|-start|p2a: Flygon|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|59/100|[from] item: Leftovers
+|-damage|p2a: Flygon|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|70/100|[silent]
+|upkeep
+|turn|54
+|
+|switch|p2a: Cinderace|Cinderace, F|65/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-crit|p2a: Cinderace
+|-damage|p2a: Cinderace|9/100
+|
+|-heal|p1a: Ferrothorn|76/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Dugtrio|Dugtrio, F|64/100
+|-damage|p1a: Dugtrio|57/100|[from] Stealth Rock
+|turn|56
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Dugtrio
+|-crit|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|upkeep
+|-message|dldldl forfeited.
+|
+|win|mimi (bitches)
+|l|☆dldldl
+|raw|dldldl's rating: 1214 → 1190(-24 for losing)
+|raw|mimi (bitches)'s rating: 1226 → 1250(+24 for winning)

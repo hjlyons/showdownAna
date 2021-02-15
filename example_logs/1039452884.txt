@@ -1,0 +1,211 @@
+|ScrapeTime|2020-01-02-02:18:34
+|j|☆TestyMcTesting
+|j|☆tankkingdaiju
+|player|p1|TestyMcTesting|110|1242
+|player|p2|tankkingdaiju|hilbert|1200
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Obstagoon, M|
+|poke|p1|Orbeetle, F|
+|poke|p1|Xatu, F|
+|poke|p1|Centiskorch, M|
+|poke|p1|Dugtrio, F|
+|poke|p1|Cinderace, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Togekiss, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TestyMcTesting)
+|
+|start
+|switch|p1a: Orbeetle|Orbeetle, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-item|p2a: Grimmsnarl|Light Clay|[from] ability: Frisk|[of] p1a: Orbeetle|[identify]
+|turn|1
+|inactive|tankkingdaiju has 120 seconds left.
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Orbeetle
+|-start|p1a: Orbeetle|move: Taunt
+|cant|p1a: Orbeetle|move: Taunt|Confuse Ray
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Xatu|Xatu, F|100/100
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: tankkingdaiju|move: Light Screen
+|
+|upkeep
+|turn|3
+|inactive|tankkingdaiju has 90 seconds left.
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|move|p1a: Xatu|Trick|p2a: Togekiss
+|-activate|p1a: Xatu|move: Trick|[of] p2a: Togekiss
+|-item|p2a: Togekiss|Choice Scarf|[from] move: Trick
+|-item|p1a: Xatu|Weakness Policy|[from] move: Trick
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Togekiss|Air Slash|p1a: Xatu
+|-damage|p1a: Xatu|53/100
+|cant|p1a: Xatu|flinch
+|
+|upkeep
+|turn|5
+|inactive|tankkingdaiju has 90 seconds left.
+|
+|move|p2a: Togekiss|Air Slash|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|
+|upkeep
+|
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|turn|6
+|
+|move|p2a: Togekiss|Air Slash|p1a: Dugtrio
+|-damage|p1a: Dugtrio|29/100
+|cant|p1a: Dugtrio|flinch
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Togekiss|Air Slash|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|8
+|
+|move|p2a: Togekiss|Air Slash|p1a: Cinderace
+|-damage|p1a: Cinderace|59/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Togekiss
+|-damage|p2a: Togekiss|44/100
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Togekiss|Air Slash|p1a: Cinderace
+|-damage|p1a: Cinderace|18/100
+|cant|p1a: Cinderace|flinch
+|
+|-sideend|p2: tankkingdaiju|move: Light Screen
+|upkeep
+|turn|10
+|
+|move|p1a: Cinderace|Sucker Punch|p2a: Togekiss
+|-resisted|p2a: Togekiss
+|-damage|p2a: Togekiss|33/100
+|move|p2a: Togekiss|Air Slash|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Obstagoon|Obstagoon, M|100/100
+|turn|11
+|
+|move|p1a: Obstagoon|Obstruct|p1a: Obstagoon
+|-singleturn|p1a: Obstagoon|Protect
+|move|p2a: Togekiss|Air Slash|p1a: Obstagoon
+|-activate|p1a: Obstagoon|move: Protect
+|
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|12
+|
+|move|p2a: Togekiss|Air Slash|p1a: Obstagoon
+|-damage|p1a: Obstagoon|64/100 brn
+|cant|p1a: Obstagoon|flinch
+|
+|-damage|p1a: Obstagoon|58/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Togekiss|Air Slash|p1a: Obstagoon
+|-damage|p1a: Obstagoon|19/100 brn
+|cant|p1a: Obstagoon|flinch
+|
+|-damage|p1a: Obstagoon|13/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Togekiss|Air Slash|p1a: Obstagoon
+|-damage|p1a: Obstagoon|0 fnt
+|faint|p1a: Obstagoon
+|
+|upkeep
+|
+|switch|p1a: Centiskorch|Centiskorch, M|100/100
+|turn|15
+|
+|move|p2a: Togekiss|Air Slash|p1a: Centiskorch|[miss]
+|-miss|p2a: Togekiss|p1a: Centiskorch
+|move|p1a: Centiskorch|Fire Lash|p2a: Togekiss
+|-damage|p2a: Togekiss|3/100
+|-unboost|p2a: Togekiss|def|1
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Togekiss|Air Slash|p1a: Centiskorch
+|-supereffective|p1a: Centiskorch
+|-damage|p1a: Centiskorch|34/100
+|move|p1a: Centiskorch|Fire Lash|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|-heal|p1a: Centiskorch|40/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|17
+|
+|switch|p1a: Orbeetle|Orbeetle, F|100/100
+|-item|p2a: Dragapult|Choice Specs|[from] ability: Frisk|[of] p1a: Orbeetle|[identify]
+|move|p2a: Dragapult|Shadow Ball|p1a: Orbeetle
+|-supereffective|p1a: Orbeetle
+|-damage|p1a: Orbeetle|12/100
+|
+|-heal|p1a: Orbeetle|19/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Orbeetle
+|-supereffective|p1a: Orbeetle
+|-damage|p1a: Orbeetle|0 fnt
+|faint|p1a: Orbeetle
+|
+|upkeep
+|
+|switch|p1a: Centiskorch|Centiskorch, M|40/100
+|turn|19
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Centiskorch
+|-crit|p1a: Centiskorch
+|-damage|p1a: Centiskorch|0 fnt
+|faint|p1a: Centiskorch
+|
+|win|tankkingdaiju
+|l|☆TestyMcTesting
+|raw|TestyMcTesting's rating: 1242 → 1214(-28 for losing)
+|raw|tankkingdaiju's rating: 1200 → 1228(+28 for winning)

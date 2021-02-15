@@ -1,0 +1,392 @@
+|ScrapeTime|2020-01-01-16:22:24
+|j|☆Macronthebest
+|j|☆Le s3l
+|player|p1|Macronthebest|265|1215
+|player|p2|Le s3l|acetrainerf|1169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corviknight, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Mimikyu, M|
+|poke|p1|Rillaboom, F|
+|poke|p1|Gyarados, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Togekiss, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Toxapex, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Le s3l)
+|
+|start
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p1a: Excadrill|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: Le s3l|move: Stealth Rock
+|move|p2a: Seismitoad|Stealth Rock|p1a: Excadrill
+|-sidestart|p1: Macronthebest|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Excadrill|Earthquake|p2a: Seismitoad
+|-damage|p2a: Seismitoad|61/100
+|move|p2a: Seismitoad|Hydro Pump|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|19/100
+|
+|-heal|p2a: Seismitoad|67/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Excadrill|Earthquake|p2a: Seismitoad
+|-damage|p2a: Seismitoad|30/100
+|move|p2a: Seismitoad|Earth Power|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-heal|p2a: Seismitoad|36/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-damage|p1a: Gyarados|76/100|[from] Stealth Rock
+|turn|4
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Seismitoad|Toxic|p1a: Gyarados
+|-status|p1a: Gyarados|tox
+|
+|-heal|p2a: Seismitoad|43/100|[from] item: Leftovers
+|-damage|p1a: Gyarados|70/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Gyarados|Power Whip|p2a: Toxapex
+|-damage|p2a: Toxapex|50/100
+|
+|-heal|p2a: Toxapex|57/100|[from] item: Black Sludge
+|-damage|p1a: Gyarados|58/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Stealth Rock
+|move|p2a: Toxapex|Baneful Bunker||[still]
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|63/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Rillaboom|Taunt|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|69/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|-damage|p2a: Mandibuzz|75/100|[from] Stealth Rock
+|move|p1a: Rillaboom|Knock Off|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|66/100
+|-enditem|p2a: Mandibuzz|Leftovers|[from] move: Knock Off|[of] p1a: Rillaboom
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Unnerve|p2: Le s3l
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|move|p2a: Mandibuzz|Defog|p1a: Corviknight
+|-unboost|p1a: Corviknight|evasion|1
+|-sideend|p1: Macronthebest|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|-sideend|p2: Le s3l|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Mandibuzz|Taunt|p1a: Corviknight
+|-start|p1a: Corviknight|move: Taunt
+|move|p1a: Corviknight|U-turn|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|58/100
+|
+|switch|p1a: Mimikyu|Mimikyu, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Mandibuzz|Knock Off|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M
+|-damage|p1a: Mimikyu|88/100|[from] ability: Disguise|[of] p1a: Mimikyu
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Mimikyu|Play Rough|p2a: Toxapex|[miss]
+|-miss|p1a: Mimikyu|p2a: Toxapex
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Mimikyu|Shadow Claw|p2a: Toxapex
+|-damage|p2a: Toxapex|65/100
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|71/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|switch|p1a: Rillaboom|Rillaboom, F|88/100
+|move|p2a: Toxapex|Scald|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|78/100
+|
+|-heal|p2a: Toxapex|77/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|move|p1a: Rillaboom|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|70/100
+|
+|switch|p1a: Corviknight|Corviknight, F|88/100|[from]move: U-turn
+|-ability|p1a: Corviknight|Unnerve|p2: Le s3l
+|move|p2a: Toxapex|Scald|p1a: Corviknight
+|-damage|p1a: Corviknight|72/100
+|
+|-heal|p2a: Toxapex|76/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p1a: Corviknight|Taunt|p2a: Toxapex
+|-start|p2a: Toxapex|move: Taunt
+|move|p2a: Toxapex|Scald|p1a: Corviknight
+|-damage|p1a: Corviknight|54/100
+|
+|-heal|p2a: Toxapex|83/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Mimikyu|Mimikyu-Busted, M|88/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Mimikyu
+|-immune|p1a: Mimikyu
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Toxapex
+|-damage|p2a: Toxapex|91/100
+|
+|-heal|p2a: Toxapex|97/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Toxapex|Scald|p1a: Mimikyu
+|-damage|p1a: Mimikyu|65/100
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|move|p1a: Mimikyu|Shadow Claw|p2a: Toxapex
+|-damage|p2a: Toxapex|69/100
+|move|p2a: Toxapex|Scald|p1a: Mimikyu
+|-damage|p1a: Mimikyu|43/100
+|
+|-heal|p2a: Toxapex|75/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|
+|-heal|p2a: Toxapex|81/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|move|p1a: Mimikyu|Shadow Claw|p2a: Toxapex
+|-damage|p2a: Toxapex|32/100
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|38/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|switch|p1a: Rillaboom|Rillaboom, F|78/100
+|move|p2a: Toxapex|Scald|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|69/100
+|
+|-heal|p2a: Toxapex|44/100|[from] item: Black Sludge
+|upkeep
+|turn|25
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|move|p1a: Rillaboom|Taunt|p2a: Togekiss
+|-start|p2a: Togekiss|move: Taunt
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Corviknight|Corviknight, F|54/100
+|-ability|p1a: Corviknight|Unnerve|p2: Le s3l
+|move|p2a: Togekiss|Air Slash|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|40/100
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Corviknight|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|91/100
+|
+|switch|p1a: Mimikyu|Mimikyu-Busted, M|43/100|[from]move: U-turn
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Rillaboom|Rillaboom, F|69/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Rillaboom
+|-damage|p1a: Rillaboom|5/100
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|turn|30
+|
+|switch|p2a: Toxapex|Toxapex, F|77/100
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|76/100
+|
+|-heal|p1a: Hydreigon|82/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|84/100|[from] item: Black Sludge
+|upkeep
+|turn|31
+|
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Hydreigon|88/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|90/100|[from] item: Black Sludge
+|upkeep
+|turn|32
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|58/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|41/100
+|
+|-heal|p1a: Hydreigon|94/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|91/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Hydreigon|99/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|move|p2a: Mandibuzz|Knock Off|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-activate|p1a: Hydreigon|move: Substitute|[damage]
+|
+|-heal|p1a: Hydreigon|100/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Mandibuzz
+|-crit|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|91/100
+|turn|36
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Hydreigon
+|
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, M|58/100 tox
+|turn|37
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-damage|p1a: Gyarados|52/100 tox|[from] psn
+|upkeep
+|turn|38
+|-message|Macronthebest forfeited.
+|
+|win|Le s3l
+|l|☆Macronthebest
+|raw|Macronthebest's rating: 1215 → 1187(-28 for losing)
+|raw|Le s3l's rating: 1169 → 1197(+28 for winning)

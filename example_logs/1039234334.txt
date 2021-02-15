@@ -1,0 +1,330 @@
+|ScrapeTime|2020-01-01-18:29:07
+|j|☆Sebas4906
+|j|☆Galarian Erwinツ
+|player|p1|Sebas4906|waiter-gen4|1604
+|player|p2|Galarian Erwinツ|tate|1682
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ribombee, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Bisharp, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Falinks|
+|poke|p1|Malamar, M|
+|poke|p2|Snorlax, M|
+|poke|p2|Clefable, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Dracozolt|
+|poke|p2|Dugtrio, M|
+|poke|p2|Corviknight, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| mikmer
+|
+|start
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|switch|p2a: Wildest Dreams|Corviknight, F|100/100
+|-ability|p2a: Wildest Dreams|Pressure
+|turn|1
+|
+|move|p1a: Ribombee|Sticky Web|p2a: Wildest Dreams
+|-sidestart|p2: Galarian Erwinツ|move: Sticky Web
+|move|p2a: Wildest Dreams|Brave Bird|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-enditem|p1a: Ribombee|Focus Sash
+|-damage|p1a: Ribombee|1/100
+|-damage|p2a: Wildest Dreams|79/100|[from] Recoil
+|
+|-heal|p2a: Wildest Dreams|85/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Malamar|Malamar, M|100/100
+|move|p2a: Wildest Dreams|Defog|p1a: Malamar
+|-boost|p1a: Malamar|evasion|1
+|-sideend|p2: Galarian Erwinツ|Sticky Web|[from] move: Defog|[of] p2a: Wildest Dreams
+|
+|-heal|p2a: Wildest Dreams|91/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Bad Blood|Toxapex, M, shiny|100/100
+|move|p1a: Malamar|Superpower|p2a: Bad Blood
+|-resisted|p2a: Bad Blood
+|-damage|p2a: Bad Blood|90/100
+|-damage|p1a: Malamar|84/100|[from] item: Rocky Helmet|[of] p2a: Bad Blood
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Galarian Erwinツ)
+|
+|switch|p1a: Ribombee|Ribombee, F|1/100
+|move|p2a: Bad Blood|Haze|p2a: Bad Blood
+|-clearallboost
+|
+|upkeep
+|turn|5
+|l| mikmer
+|
+|move|p1a: Ribombee|Sticky Web|p2a: Bad Blood
+|-sidestart|p2: Galarian Erwinツ|move: Sticky Web
+|move|p2a: Bad Blood|Toxic Spikes|p1a: Ribombee
+|-sidestart|p1: Sebas4906|move: Toxic Spikes
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Ribombee|Stun Spore|p2a: Bad Blood
+|-status|p2a: Bad Blood|par
+|move|p2a: Bad Blood|Scald|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|7
+|
+|switch|p2a: Gorgeous|Clefable, M|100/100
+|-activate|p2a: Gorgeous|move: Sticky Web
+|-unboost|p2a: Gorgeous|spe|1
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p1: Sebas4906|Toxic Spikes|[silent]
+|-sidestart|p2: Galarian Erwinツ|Toxic Spikes|[silent]
+|-sideend|p2: Galarian Erwinツ|Sticky Web|[silent]
+|-sidestart|p1: Sebas4906|Sticky Web|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Bad Blood|Toxapex, M, shiny|100/100 par
+|-sideend|p2: Galarian Erwinツ|move: Toxic Spikes|[of] p2a: Bad Blood
+|move|p1a: Cinderace|Pyro Ball|p2a: Bad Blood
+|-resisted|p2a: Bad Blood
+|-damage|p2a: Bad Blood|82/100 par
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Cinderace|U-turn|p2a: Bad Blood
+|-resisted|p2a: Bad Blood
+|-damage|p2a: Bad Blood|75/100 par
+|-damage|p1a: Cinderace|84/100|[from] item: Rocky Helmet|[of] p2a: Bad Blood
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from]move: U-turn
+|-activate|p1a: Dragapult|move: Sticky Web
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|move|p2a: Bad Blood|Scald|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|89/100
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Bad Blood
+|-damage|p2a: Bad Blood|8/100 par
+|-unboost|p1a: Dragapult|spa|2
+|cant|p2a: Bad Blood|par
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Cinderace|Cinderace, M|84/100
+|switch|p2a: Gorgeous|Clefable, M|100/100
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Bad Blood|Toxapex, M, shiny|41/100 par
+|move|p1a: Cinderace|U-turn|p2a: Bad Blood
+|-resisted|p2a: Bad Blood
+|-damage|p2a: Bad Blood|34/100 par
+|-damage|p1a: Cinderace|67/100|[from] item: Rocky Helmet|[of] p2a: Bad Blood
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100|[from]move: U-turn
+|-activate|p1a: Bisharp|move: Sticky Web
+|-unboost|p1a: Bisharp|spe|1
+|-ability|p1a: Bisharp|Defiant
+|-boost|p1a: Bisharp|atk|2
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Bad Blood
+|-damage|p2a: Bad Blood|0 fnt
+|-damage|p1a: Bisharp|84/100|[from] item: Rocky Helmet|[of] p2a: Bad Blood
+|-damage|p1a: Bisharp|74/100|[from] item: Life Orb
+|faint|p2a: Bad Blood
+|
+|upkeep
+|c|☆Galarian Erwinツ|That shouldnt work that way
+|
+|switch|p2a: Trouble|Dugtrio, M, shiny|100/100
+|turn|14
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Trouble
+|-enditem|p2a: Trouble|Focus Sash
+|-damage|p2a: Trouble|1/100
+|-damage|p1a: Bisharp|64/100|[from] item: Life Orb
+|move|p2a: Trouble|Earthquake|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|inactive|Sebas4906 has 120 seconds left.
+|
+|switch|p1a: Cinderace|Cinderace, M|67/100
+|turn|15
+|inactive|Sebas4906 has 120 seconds left.
+|
+|move|p1a: Cinderace|Sucker Punch|p2a: Trouble
+|-damage|p2a: Trouble|0 fnt
+|faint|p2a: Trouble
+|
+|upkeep
+|
+|switch|p2a: 22|Dracozolt|100/100
+|turn|16
+|inactive|Sebas4906 has 120 seconds left.
+|
+|move|p1a: Cinderace|Sucker Punch||[still]
+|-fail|p1a: Cinderace
+|move|p2a: 22|Substitute|p2a: 22
+|-start|p2a: 22|Substitute
+|-damage|p2a: 22|75/100
+|
+|-heal|p2a: 22|82/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: 22
+|-resisted|p2a: 22
+|-end|p2a: 22|Substitute
+|move|p2a: 22|Bolt Beak|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-heal|p2a: 22|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|89/100
+|-activate|p1a: Dragapult|move: Sticky Web
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|turn|18
+|inactive|Sebas4906 has 120 seconds left.
+|
+|switch|p2a: Gorgeous|Clefable, M|100/100
+|move|p1a: Dragapult|Draco Meteor|p2a: Gorgeous
+|-immune|p2a: Gorgeous
+|
+|upkeep
+|turn|19
+|inactive|Sebas4906 has 120 seconds left.
+|
+|switch|p1a: Malamar|Malamar, M|84/100
+|-activate|p1a: Malamar|move: Sticky Web
+|-boost|p1a: Malamar|spe|1
+|move|p2a: Gorgeous|Moonblast|p1a: Malamar
+|-supereffective|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|faint|p1a: Malamar
+|
+|upkeep
+|
+|switch|p1a: Falinks|Falinks|100/100
+|-activate|p1a: Falinks|move: Sticky Web
+|-unboost|p1a: Falinks|spe|1
+|-ability|p1a: Falinks|Defiant
+|-boost|p1a: Falinks|atk|2
+|-enditem|p1a: Falinks|White Herb
+|-clearnegativeboost|p1a: Falinks|[silent]
+|turn|20
+|
+|move|p1a: Falinks|No Retreat|p1a: Falinks
+|-boost|p1a: Falinks|atk|1
+|-boost|p1a: Falinks|def|1
+|-boost|p1a: Falinks|spa|1
+|-boost|p1a: Falinks|spd|1
+|-boost|p1a: Falinks|spe|1
+|-start|p1a: Falinks|move: No Retreat
+|move|p2a: Gorgeous|Moonblast|p1a: Falinks
+|-supereffective|p1a: Falinks
+|-damage|p1a: Falinks|19/100
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Gorgeous|Protect|p2a: Gorgeous
+|-singleturn|p2a: Gorgeous|Protect
+|move|p1a: Falinks|Poison Jab|p2a: Gorgeous
+|-activate|p2a: Gorgeous|move: Protect
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Falinks|Poison Jab|p2a: Gorgeous
+|-supereffective|p2a: Gorgeous
+|-damage|p2a: Gorgeous|0 fnt
+|faint|p2a: Gorgeous
+|
+|upkeep
+|
+|switch|p2a: Wildest Dreams|Corviknight, F|91/100
+|-ability|p2a: Wildest Dreams|Pressure
+|turn|23
+|inactive|Galarian Erwinツ has 120 seconds left.
+|c|☆Galarian Erwinツ|Dude i hate that you’ve only won because showdown doesn’t work properly
+|inactive|Sebas4906 has 120 seconds left.
+|c|☆Galarian Erwinツ|your own webs dont benefit you in cartridge
+|inactive|Galarian Erwinツ has 90 seconds left.
+|
+|move|p1a: Falinks|Close Combat|p2a: Wildest Dreams
+|-damage|p2a: Wildest Dreams|0 fnt
+|-unboost|p1a: Falinks|def|1
+|-unboost|p1a: Falinks|spd|1
+|faint|p2a: Wildest Dreams
+|
+|upkeep
+|j| egalvanc
+|inactive|Galarian Erwinツ has 90 seconds left.
+|
+|switch|p2a: 22|Dracozolt|88/100
+|turn|24
+|
+|move|p1a: Falinks|Close Combat|p2a: 22
+|-damage|p2a: 22|0 fnt
+|-unboost|p1a: Falinks|def|1
+|-unboost|p1a: Falinks|spd|1
+|faint|p2a: 22
+|
+|upkeep
+|
+|switch|p2a: Blank Space|Snorlax, M, shiny|100/100
+|turn|25
+|
+|move|p1a: Falinks|Close Combat|p2a: Blank Space
+|-supereffective|p2a: Blank Space
+|-damage|p2a: Blank Space|0 fnt
+|-unboost|p1a: Falinks|def|1
+|-unboost|p1a: Falinks|spd|1
+|faint|p2a: Blank Space
+|
+|win|Sebas4906
+|c|☆Sebas4906|gg
+|raw|Sebas4906's rating: 1604 → 1628(+24 for winning)
+|raw|Galarian Erwinツ's rating: 1682 → 1657(-25 for losing)

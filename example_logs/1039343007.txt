@@ -1,0 +1,267 @@
+|ScrapeTime|2020-01-01-22:15:07
+|j|☆AlphaDoodles
+|j|☆Zoroarkilusionista
+|player|p1|AlphaDoodles|262|1128
+|player|p2|Zoroarkilusionista|shauntal|1147
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Obstagoon, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Seismitoad, F|
+|poke|p1|Toxtricity-Low-Key, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Sandaconda, F|
+|poke|p2|Goodra, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Milotic, F|
+|poke|p2|Cinderace, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|1
+|
+|move|p2a: Cinderace|U-turn|p1a: Seismitoad
+|-damage|p1a: Seismitoad|79/100
+|-damage|p2a: Cinderace|91/100|[from] item: Life Orb
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100|[from]move: U-turn
+|move|p1a: Seismitoad|Stealth Rock|p2a: Hydreigon
+|-sidestart|p2: Zoroarkilusionista|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Hatterene
+|-damage|p1a: Hatterene|54/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Hatterene
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|turn|4
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Rotom
+|-damage|p1a: Rotom|51/100
+|move|p1a: Rotom|Thunder Wave|p2a: Hydreigon
+|-status|p2a: Hydreigon|par
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Rotom|Volt Switch|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|86/100 par
+|
+|switch|p1a: Obstagoon|Obstagoon, F|100/100|[from]move: Volt Switch
+|cant|p2a: Hydreigon|par
+|
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|move|p1a: Obstagoon|Knock Off|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|50/100 par
+|-enditem|p2a: Hydreigon|Choice Specs|[from] move: Knock Off|[of] p1a: Obstagoon
+|move|p2a: Hydreigon|Dark Pulse|p1a: Obstagoon
+|-resisted|p1a: Obstagoon
+|-damage|p1a: Obstagoon|76/100 brn
+|
+|-damage|p1a: Obstagoon|70/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Obstagoon|Facade|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-damage|p1a: Obstagoon|64/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|91/100
+|-damage|p2a: Cinderace|66/100|[from] Stealth Rock
+|turn|8
+|
+|move|p1a: Obstagoon|Obstruct|p1a: Obstagoon
+|-singleturn|p1a: Obstagoon|Protect
+|move|p2a: Cinderace|Pyro Ball|p1a: Obstagoon
+|-activate|p1a: Obstagoon|move: Protect
+|
+|-damage|p1a: Obstagoon|58/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Cinderace|High Jump Kick|p1a: Corviknight
+|-damage|p1a: Corviknight|66/100
+|-damage|p2a: Cinderace|56/100|[from] item: Life Orb
+|
+|-heal|p1a: Corviknight|72/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Seismitoad|Seismitoad, F|79/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|53/100
+|-damage|p2a: Cinderace|46/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: Zoroarkilusionista|Stealth Rock|[silent]
+|-sidestart|p1: AlphaDoodles|Stealth Rock|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Seismitoad|Toxic|p2a: Cinderace
+|-status|p2a: Cinderace|tox
+|
+|-damage|p2a: Cinderace|40/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|move|p2a: Cinderace|High Jump Kick|p1a: Seismitoad
+|-damage|p1a: Seismitoad|15/100
+|-enditem|p1a: Seismitoad|Figy Berry|[eat]
+|-heal|p1a: Seismitoad|48/100|[from] item: Figy Berry
+|-damage|p2a: Cinderace|30/100 tox|[from] item: Life Orb
+|move|p1a: Seismitoad|Stealth Rock|p2a: Cinderace
+|-sidestart|p2: Zoroarkilusionista|move: Stealth Rock
+|
+|-damage|p2a: Cinderace|18/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p2a: Cinderace|High Jump Kick|p1a: Seismitoad|[miss]
+|-miss|p2a: Cinderace|p1a: Seismitoad
+|-damage|p2a: Cinderace|0 fnt|[from] highjumpkick
+|faint|p2a: Cinderace
+|move|p1a: Seismitoad|Liquidation|p2: Cinderace|[notarget]
+|-fail|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p1a: Rotom|Rotom-Heat|51/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Rotom
+|-damage|p1a: Rotom|15/100
+|-damage|p1a: Rotom|0 fnt
+|-hitcount|p1a: Rotom|2
+|-damage|p2a: Dragapult|78/100|[from] item: Life Orb
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Obstagoon|Obstagoon, F|58/100 brn
+|-damage|p1a: Obstagoon|45/100 brn|[from] Stealth Rock
+|turn|15
+|
+|switch|p2a: Sandaconda|Sandaconda, F|100/100
+|-damage|p2a: Sandaconda|94/100|[from] Stealth Rock
+|move|p1a: Obstagoon|Knock Off|p2a: Sandaconda
+|-damage|p2a: Sandaconda|53/100
+|-enditem|p2a: Sandaconda|Leftovers|[from] move: Knock Off|[of] p1a: Obstagoon
+|
+|-damage|p1a: Obstagoon|39/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Obstagoon|Knock Off|p2a: Sandaconda
+|-damage|p2a: Sandaconda|25/100
+|move|p2a: Sandaconda|Earthquake|p1a: Obstagoon
+|-damage|p1a: Obstagoon|0 fnt
+|faint|p1a: Obstagoon
+|
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, M|72/100
+|-damage|p1a: Corviknight|60/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|turn|17
+|
+|move|p2a: Sandaconda|Glare|p1a: Corviknight
+|-status|p1a: Corviknight|par
+|move|p1a: Corviknight|U-turn|p2a: Sandaconda
+|-damage|p2a: Sandaconda|15/100
+|
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, F|100/100|[from]move: U-turn
+|-damage|p1a: Toxtricity|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Sandaconda
+|-damage|p2a: Sandaconda|0 fnt
+|-enditem|p1a: Toxtricity|Throat Spray
+|-boost|p1a: Toxtricity|spa|1
+|faint|p2a: Sandaconda
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|78/100
+|-damage|p2a: Dragapult|66/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Toxtricity
+|-damage|p1a: Toxtricity|34/100
+|-damage|p1a: Toxtricity|0 fnt
+|-hitcount|p1a: Toxtricity|2
+|-damage|p2a: Dragapult|56/100|[from] item: Life Orb
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, F|48/100
+|-damage|p1a: Seismitoad|42/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Seismitoad
+|-damage|p1a: Seismitoad|19/100
+|-damage|p1a: Seismitoad|0 fnt
+|-hitcount|p1a: Seismitoad|2
+|-damage|p2a: Dragapult|47/100|[from] item: Life Orb
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, M|60/100 par
+|-damage|p1a: Corviknight|47/100 par|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|turn|21
+|
+|move|p2a: Dragapult|Fire Blast|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-damage|p2a: Dragapult|37/100|[from] item: Life Orb
+|faint|p1a: Corviknight
+|
+|win|Zoroarkilusionista
+|c|☆AlphaDoodles|gg

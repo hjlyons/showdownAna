@@ -1,0 +1,327 @@
+|ScrapeTime|2020-01-02-02:26:43
+|j|☆Elite 4 Azure
+|j|☆Westeve
+|player|p1|Elite 4 Azure|141|1145
+|player|p2|Westeve|swimmer-gen4dp|1161
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Arctovish|
+|poke|p1|Hatterene, F|
+|poke|p1|Jellicent, M|
+|poke|p1|Pincurchin, M|
+|poke|p1|Scrafty, M|
+|poke|p1|Drapion, F|
+|poke|p2|Clefable, M|
+|poke|p2|Hydreigon, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Dragapult, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Excadrill, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|turn|1
+|
+|move|p2a: Toxapex|Toxic Spikes|p1a: Hatterene
+|move|p1a: Hatterene|Toxic Spikes|p2a: Toxapex|[from]Magic Bounce
+|-sidestart|p2: Westeve|move: Toxic Spikes
+|move|p1a: Hatterene|Psychic|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|2
+|
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|move|p1a: Hatterene|Draining Kiss|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|3
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|move|p2a: Excadrill|Iron Head|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|70/100
+|-damage|p2a: Excadrill|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Jellicent|76/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Excadrill|Rapid Spin|p1a: Jellicent
+|-immune|p1a: Jellicent
+|move|p1a: Jellicent|Trick Room|p1a: Jellicent
+|-fieldstart|move: Trick Room|[of] p1a: Jellicent
+|
+|-heal|p1a: Jellicent|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Jellicent|Whirlpool|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|77/100
+|-activate|p2a: Rotom|move: Whirlpool|[of] p1a: Jellicent
+|
+|-heal|p1a: Jellicent|89/100|[from] item: Leftovers
+|-damage|p2a: Rotom|65/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|move|p1a: Jellicent|Whirlpool|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|43/100
+|move|p2a: Rotom|Volt Switch|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|58/100
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from]move: Volt Switch
+|-status|p2a: Dragapult|psn
+|
+|-heal|p1a: Jellicent|65/100|[from] item: Leftovers
+|-damage|p2a: Dragapult|88/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|move|p1a: Jellicent|Hex|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Jellicent|71/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|-status|p2a: Clefable|psn
+|turn|8
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Clefable|Thunder Wave|p1a: Hatterene
+|move|p1a: Hatterene|Thunder Wave||[from]Magic Bounce|[still]
+|-fail|p1a: Hatterene
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+|
+|move|p2a: Clefable|Wish|p2a: Clefable
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Rotom|Rotom-Heat|43/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|26/100
+|-unboost|p2a: Rotom|spa|1
+|
+|-heal|p2a: Rotom|91/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|11
+|
+|move|p1a: Hatterene|Psychic|p2a: Rotom
+|-damage|p2a: Rotom|36/100
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Hatterene|Psychic|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|91/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|13
+|
+|switch|p1a: Jellicent|Jellicent, M|71/100
+|move|p2a: Excadrill|Rapid Spin|p1a: Jellicent
+|-immune|p1a: Jellicent
+|
+|-heal|p1a: Jellicent|77/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|14
+|
+|move|p2a: Excadrill|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|-damage|p2a: Excadrill|81/100|[from] item: Life Orb
+|faint|p1a: Jellicent
+|
+|upkeep
+|
+|switch|p1a: Scrafty|Scrafty, M|100/100
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|turn|15
+|
+|move|p2a: Excadrill|Earthquake|p1a: Scrafty
+|-damage|p1a: Scrafty|59/100
+|-damage|p2a: Excadrill|71/100|[from] item: Life Orb
+|move|p1a: Scrafty|Drain Punch|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-heal|p1a: Scrafty|97/100|[from] drain|[of] p2a: Excadrill
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|100/100 psn
+|turn|16
+|
+|switch|p1a: Drapion|Drapion, F|100/100
+|move|p2a: Clefable|Moonblast|p1a: Drapion
+|-damage|p1a: Drapion|54/100
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Drapion|Cross Poison|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|52/100 psn
+|move|p2a: Clefable|Thunder Wave|p1a: Drapion
+|-status|p1a: Drapion|par
+|
+|-heal|p2a: Clefable|58/100 psn|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Clefable|Moonblast|p1a: Drapion
+|-damage|p1a: Drapion|5/100 par
+|move|p1a: Drapion|Cross Poison|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|6/100 psn
+|
+|-heal|p2a: Clefable|12/100 psn|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Clefable|Wish|p2a: Clefable
+|cant|p1a: Drapion|par
+|
+|-heal|p2a: Clefable|18/100 psn|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Clefable|Moonblast|p1a: Drapion
+|-damage|p1a: Drapion|0 fnt
+|faint|p1a: Drapion
+|
+|-heal|p2a: Clefable|68/100 psn|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Clefable|74/100 psn|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Arctovish|Arctovish|100/100
+|turn|21
+|
+|move|p2a: Clefable|Thunder Wave|p1a: Arctovish
+|-status|p1a: Arctovish|par
+|cant|p1a: Arctovish|par
+|
+|-heal|p2a: Clefable|80/100 psn|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Clefable|Moonblast|p1a: Arctovish
+|-damage|p1a: Arctovish|72/100 par
+|-unboost|p1a: Arctovish|spa|1
+|move|p1a: Arctovish|Fishious Rend|p2a: Clefable
+|-damage|p2a: Clefable|48/100 psn
+|
+|-heal|p2a: Clefable|54/100 psn|[from] item: Leftovers
+|-heal|p1a: Arctovish|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|60/100 psn|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Hatterene|Mystical Fire|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|100/100 psn|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|25
+|
+|move|p2a: Clefable|Moonblast|p1a: Hatterene
+|-damage|p1a: Hatterene|69/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Clefable
+|-damage|p2a: Clefable|76/100 psn
+|-unboost|p2a: Clefable|spa|1
+|
+|-heal|p2a: Clefable|82/100 psn|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Clefable|Thunder Wave|p1a: Hatterene
+|move|p1a: Hatterene|Thunder Wave||[from]Magic Bounce|[still]
+|-fail|p1a: Hatterene
+|move|p1a: Hatterene|Mystical Fire|p2a: Clefable
+|-damage|p2a: Clefable|57/100 psn
+|-unboost|p2a: Clefable|spa|1
+|
+|-heal|p2a: Clefable|63/100 psn|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Clefable|Wish|p2a: Clefable
+|move|p1a: Hatterene|Mystical Fire|p2a: Clefable
+|-damage|p2a: Clefable|38/100 psn
+|-unboost|p2a: Clefable|spa|1
+|
+|-heal|p2a: Clefable|44/100 psn|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Clefable|Moonblast|p1a: Hatterene
+|-damage|p1a: Hatterene|56/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Clefable
+|-damage|p2a: Clefable|17/100 psn
+|-unboost|p2a: Clefable|spa|1
+|
+|-heal|p2a: Clefable|67/100 psn|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Clefable|73/100 psn|[from] item: Leftovers
+|upkeep
+|turn|29
+|-message|Westeve forfeited.
+|
+|win|Elite 4 Azure
+|raw|Elite 4 Azure's rating: 1145 → 1171(+26 for winning)
+|raw|Westeve's rating: 1161 → 1135(-26 for losing)
+|l|☆Westeve

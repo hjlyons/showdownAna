@@ -1,0 +1,202 @@
+|ScrapeTime|2020-01-01-02:15:16
+|j|☆huh I won
+|j|☆QaQkiller
+|player|p1|huh I won|blue|1119
+|player|p2|QaQkiller|youngcouple-gen4dp|1119
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Barraskewda, F|
+|poke|p1|Pelipper, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Morpeko, M|
+|poke|p1|Indeedee-F, F|
+|poke|p2|Cloyster, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Chandelure, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Toxapex, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Excadrill|Excadrill, M, shiny|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|switch|p2a: Hatterene|Hatterene, F, shiny|100/100
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Indeedee|Indeedee-F, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|switch|p2a: Excadrill|Excadrill, M, shiny|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Excadrill|Stealth Rock|p1a: Indeedee
+|-sidestart|p1: huh I won|move: Stealth Rock
+|move|p1a: Indeedee|Mystical Fire|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|46/100
+|-unboost|p2a: Excadrill|spa|1
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Excadrill|Earthquake|p1a: Indeedee
+|-damage|p1a: Indeedee|28/100
+|move|p1a: Indeedee|Mystical Fire|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Chandelure|Chandelure, M, shiny|100/100
+|turn|5
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|move|p2a: Chandelure|Psychic|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|65/100
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Hatterene|Hatterene, F, shiny|100/100
+|move|p1a: Hatterene|Psyshock|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|32/100
+|
+|-heal|p2a: Hatterene|38/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Hatterene|Shadow Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|2/100
+|-unboost|p1a: Hatterene|spd|1
+|move|p1a: Hatterene|Psyshock|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|switch|p2a: Chandelure|Chandelure, M, shiny|100/100
+|turn|8
+|
+|switch|p1a: Indeedee|Indeedee-F, F|28/100
+|-damage|p1a: Indeedee|15/100|[from] Stealth Rock
+|move|p2a: Chandelure|Psychic|p1a: Indeedee
+|-resisted|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|switch|p1a: Morpeko|Morpeko, M|100/100
+|-damage|p1a: Morpeko|88/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p2a: Toxapex|Toxapex, F, shiny|100/100
+|move|p1a: Morpeko|Aura Wheel|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|35/100
+|-boost|p1a: Morpeko|spe|1
+|
+|-heal|p2a: Toxapex|41/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|10
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Morpeko|Aura Wheel|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|47/100|[from] item: Leftovers
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|11
+|
+|switch|p2a: Chandelure|Chandelure, M, shiny|100/100
+|move|p1a: Morpeko|Aura Wheel|p2a: Chandelure
+|-damage|p2a: Chandelure|7/100
+|-boost|p1a: Morpeko|spe|1
+|
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|12
+|
+|move|p1a: Morpeko|Aura Wheel|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|-boost|p1a: Morpeko|spe|1
+|faint|p2a: Chandelure
+|
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|
+|switch|p2a: Cloyster|Cloyster, M, shiny|100/100
+|turn|13
+|
+|move|p1a: Morpeko|Aura Wheel|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|-boost|p1a: Morpeko|spe|1
+|faint|p2a: Cloyster
+|
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|turn|14
+|
+|move|p1a: Morpeko|Aura Wheel|p2a: Corviknight
+|-damage|p2a: Corviknight|8/100
+|-boost|p1a: Morpeko|spe|1
+|move|p2a: Corviknight|Brave Bird|p1a: Morpeko
+|-resisted|p1a: Morpeko
+|-crit|p1a: Morpeko
+|-damage|p1a: Morpeko|13/100
+|-damage|p2a: Corviknight|0 fnt|[from] Recoil
+|faint|p2a: Corviknight
+|
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, F, shiny|80/100
+|turn|15
+|
+|move|p1a: Morpeko|Aura Wheel|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|-boost|p1a: Morpeko|spe|1
+|faint|p2a: Toxapex
+|
+|win|huh I won
+|l|☆QaQkiller
+|raw|huh I won's rating: 1119 → 1144(+25 for winning)
+|raw|QaQkiller's rating: 1120 → 1095(-25 for losing)

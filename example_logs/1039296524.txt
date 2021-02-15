@@ -1,0 +1,558 @@
+|ScrapeTime|2020-01-01-20:45:11
+|j|☆Howl K
+|j|☆Yeebruder
+|player|p1|Howl K|265|1300
+|player|p2|Yeebruder|167|1289
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Seismitoad, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Togekiss, F|
+|poke|p2|Durant, F|
+|poke|p2|Toxtricity, M|
+|poke|p2|Jellicent, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Clefable, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Howl K)
+|
+|start
+|switch|p1a: Rotom|Rotom-Heat, shiny|100/100
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|turn|1
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Toxtricity|Boomburst|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Dragapult|U-turn|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|87/100
+|
+|switch|p1a: Rotom|Rotom-Heat, shiny|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|move|p1a: Rotom|Discharge|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|73/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Rotom|Volt Switch|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|46/100
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100|[from]move: Volt Switch
+|move|p2a: Toxtricity|Overdrive|p1a: Seismitoad
+|-immune|p1a: Seismitoad
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Yeebruder|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Rotom|Rotom-Heat, shiny|100/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|60/100
+|-enditem|p1a: Rotom|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Rotom|Overheat|p2a: Clefable
+|-damage|p2a: Clefable|42/100
+|-unboost|p1a: Rotom|spa|2
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|92/100
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Rotom|Discharge|p2a: Clefable
+|-damage|p2a: Clefable|54/100
+|-status|p2a: Clefable|par
+|move|p2a: Clefable|Moonblast|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|22/100
+|-unboost|p1a: Rotom|spa|1
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Rotom|Volt Switch|p2a: Clefable
+|-damage|p2a: Clefable|35/100 par
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100|[from]move: Volt Switch
+|cant|p2a: Clefable|par
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Seismitoad|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|74/100
+|
+|-heal|p2a: Ferrothorn|81/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Rotom|Rotom-Heat, shiny|22/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|2/100
+|
+|-heal|p2a: Ferrothorn|87/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Clefable|Clefable, M|35/100 par
+|move|p1a: Rotom|Overheat|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Durant|Durant, F|100/100
+|-damage|p2a: Durant|88/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Durant|Superpower|p1a: Seismitoad
+|-damage|p1a: Seismitoad|41/100
+|-unboost|p2a: Durant|atk|1
+|-unboost|p2a: Durant|def|1
+|
+|-heal|p1a: Seismitoad|47/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|-damage|p2a: Jellicent|88/100|[from] Stealth Rock
+|move|p1a: Seismitoad|Scald|p2a: Jellicent
+|-heal|p2a: Jellicent|100/100|[from] ability: Water Absorb|[of] p1a: Seismitoad
+|
+|-heal|p1a: Seismitoad|53/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Seismitoad|Toxic|p2a: Jellicent
+|-status|p2a: Jellicent|tox
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Seismitoad
+|-status|p1a: Seismitoad|brn
+|
+|-heal|p1a: Seismitoad|59/100 brn|[from] item: Leftovers
+|-damage|p1a: Seismitoad|53/100 brn|[from] brn
+|-damage|p2a: Jellicent|94/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Jellicent|Night Shade|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|75/100
+|
+|-heal|p2a: Jellicent|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|88/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|87/100
+|-damage|p2a: Ferrothorn|81/100|[from] Stealth Rock
+|switch|p1a: Rotom|Rotom-Heat, shiny|2/100
+|
+|-heal|p2a: Ferrothorn|87/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Yeebruder has 120 seconds left.
+|
+|switch|p2a: Jellicent|Jellicent, F|88/100 tox
+|-damage|p2a: Jellicent|76/100 tox|[from] Stealth Rock
+|move|p1a: Rotom|Overheat|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|54/100 tox
+|-unboost|p1a: Rotom|spa|2
+|
+|-heal|p2a: Jellicent|60/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|54/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p1a: Rotom|Volt Switch|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|30/100 tox
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from]move: Volt Switch
+|move|p2a: Jellicent|Strength Sap|p1a: Dragapult
+|-unboost|p1a: Dragapult|atk|1
+|-heal|p2a: Jellicent|91/100 tox
+|
+|-heal|p2a: Jellicent|97/100 tox|[from] item: Leftovers
+|-damage|p2a: Jellicent|85/100 tox|[from] psn
+|upkeep
+|turn|21
+|inactive|Yeebruder has 120 seconds left.
+|
+|move|p1a: Dragapult|Thunderbolt|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|18/100 tox
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Dragapult
+|-status|p1a: Dragapult|brn
+|
+|-heal|p2a: Jellicent|24/100 tox|[from] item: Leftovers
+|-damage|p1a: Dragapult|95/100 brn|[from] brn
+|-damage|p2a: Jellicent|5/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|move|p1a: Dragapult|Thunderbolt|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|faint|p2a: Jellicent
+|
+|-damage|p1a: Dragapult|89/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, M|46/100
+|-damage|p2a: Toxtricity|34/100|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Dragapult|Thunderbolt|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|6/100
+|move|p2a: Toxtricity|Overdrive|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|39/100 brn
+|
+|-damage|p1a: Dragapult|33/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p1a: Dragapult|Thunderbolt|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|-damage|p1a: Dragapult|27/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|87/100
+|-damage|p2a: Ferrothorn|81/100|[from] Stealth Rock
+|turn|25
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Hatterene
+|-damage|p1a: Hatterene|61/100
+|
+|-heal|p2a: Ferrothorn|87/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|67/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|87/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-heal|p1a: Hatterene|73/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|75/100
+|move|p2a: Mandibuzz|U-turn|p1a: Grimmsnarl
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|54/100
+|
+|switch|p2a: Durant|Durant, F|88/100|[from]move: U-turn
+|-damage|p2a: Durant|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Durant|First Impression|p1a: Grimmsnarl|[miss]
+|-miss|p2a: Durant|p1a: Grimmsnarl
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Howl K|Reflect
+|
+|upkeep
+|turn|29
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|87/100
+|-damage|p2a: Ferrothorn|81/100|[from] Stealth Rock
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|par
+|
+|-heal|p2a: Ferrothorn|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p1a: Hatterene|Hatterene, F|73/100
+|cant|p2a: Ferrothorn|par
+|
+|-heal|p2a: Ferrothorn|93/100 par|[from] item: Leftovers
+|-heal|p1a: Hatterene|78/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|31
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|87/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|68/100
+|-unboost|p2a: Mandibuzz|spa|1
+|
+|-heal|p1a: Hatterene|84/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p2a: Mandibuzz|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|72/100
+|-enditem|p1a: Hatterene|Leftovers|[from] move: Knock Off|[of] p2a: Mandibuzz
+|move|p1a: Hatterene|Mystical Fire|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|51/100
+|-unboost|p2a: Mandibuzz|spa|1
+|
+|upkeep
+|turn|33
+|
+|move|p2a: Mandibuzz|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|62/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|32/100
+|-unboost|p2a: Mandibuzz|spa|1
+|
+|upkeep
+|turn|34
+|
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|82/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Togekiss|Fire Blast|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|62/100
+|move|p2a: Mandibuzz|U-turn|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|99/100
+|
+|switch|p2a: Durant|Durant, F|76/100|[from]move: U-turn
+|-damage|p2a: Durant|63/100|[from] Stealth Rock
+|
+|-sideend|p1: Howl K|Reflect
+|upkeep
+|turn|36
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|62/100
+|move|p1a: Togekiss|Fire Blast|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|40/100
+|
+|upkeep
+|turn|37
+|
+|switch|p1a: Seismitoad|Seismitoad, M|53/100 brn
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|90/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Seismitoad|59/100 brn|[from] item: Leftovers
+|-damage|p1a: Seismitoad|53/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p2a: Mandibuzz|U-turn|p1a: Seismitoad
+|-damage|p1a: Seismitoad|45/100 brn
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|93/100 par|[from]move: U-turn
+|-damage|p2a: Ferrothorn|87/100 par|[from] Stealth Rock
+|move|p1a: Seismitoad|Toxic||[still]
+|-fail|p1a: Seismitoad
+|
+|-heal|p1a: Seismitoad|51/100 brn|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|93/100 par|[from] item: Leftovers
+|-damage|p1a: Seismitoad|45/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|switch|p1a: Hatterene|Hatterene, F|62/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Hatterene
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-heal|p2a: Ferrothorn|99/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat, shiny|2/100
+|turn|40
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|90/100
+|move|p1a: Rotom|Overheat|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|55/100
+|-unboost|p1a: Rotom|spa|2
+|
+|upkeep
+|turn|41
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|99/100 par
+|-damage|p2a: Ferrothorn|93/100 par|[from] Stealth Rock
+|move|p1a: Rotom|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|87/100 par
+|
+|switch|p1a: Togekiss|Togekiss, F|99/100|[from]move: Volt Switch
+|
+|-heal|p2a: Ferrothorn|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p1a: Togekiss|Dazzling Gleam|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|77/100 par
+|move|p2a: Ferrothorn|Leech Seed|p1a: Togekiss
+|-start|p1a: Togekiss|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|83/100 par|[from] item: Leftovers
+|-damage|p1a: Togekiss|87/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|94/100 par|[silent]
+|upkeep
+|turn|43
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|54/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Grimmsnarl
+|-sidestart|p1: Howl K|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Howl K|Reflect
+|cant|p2a: Ferrothorn|par
+|
+|-heal|p2a: Ferrothorn|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|switch|p1a: Rotom|Rotom-Heat, shiny|2/100
+|-damage|p1a: Rotom|0 fnt|[from] Stealth Rock
+|faint|p1a: Rotom
+|move|p2a: Ferrothorn|Leech Seed|p1: Rotom|[notarget]
+|-fail|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Togekiss|Togekiss, F|87/100
+|-damage|p1a: Togekiss|62/100|[from] Stealth Rock
+|turn|46
+|inactive|Yeebruder has 120 seconds left.
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|55/100
+|move|p1a: Togekiss|Dazzling Gleam|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|11/100
+|
+|upkeep
+|turn|47
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100 par
+|-damage|p2a: Ferrothorn|94/100 par|[from] Stealth Rock
+|move|p1a: Togekiss|Dazzling Gleam|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|79/100 par
+|
+|-heal|p2a: Ferrothorn|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|54/100
+|-damage|p1a: Grimmsnarl|41/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|91/100 par|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|29/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100 par|[silent]
+|upkeep
+|turn|49
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Howl K|move: Light Screen
+|move|p2a: Ferrothorn|Power Whip|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|3/100
+|
+|-damage|p1a: Grimmsnarl|0 fnt|[from] Leech Seed|[of] p2a: Ferrothorn
+|faint|p1a: Grimmsnarl
+|upkeep
+|
+|switch|p1a: Togekiss|Togekiss, F|62/100
+|-damage|p1a: Togekiss|37/100|[from] Stealth Rock
+|turn|50
+|
+|move|p1a: Togekiss|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|c|☆Yeebruder|gg
+|
+|switch|p2a: Durant|Durant, F|63/100
+|-damage|p2a: Durant|51/100|[from] Stealth Rock
+|turn|51
+|
+|move|p2a: Durant|First Impression|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|22/100
+|move|p1a: Togekiss|Fire Blast|p2a: Durant
+|-supereffective|p2a: Durant
+|-damage|p2a: Durant|0 fnt
+|faint|p2a: Durant
+|
+|-sideend|p1: Howl K|Reflect
+|upkeep
+|c|☆Howl K|gg
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|11/100
+|turn|52
+|
+|move|p1a: Togekiss|Fire Blast|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|win|Howl K

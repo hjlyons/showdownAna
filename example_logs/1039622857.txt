@@ -1,0 +1,275 @@
+|ScrapeTime|2020-01-02-12:14:51
+|j|☆Ronaldcarrasco
+|j|☆Blaxophone
+|player|p1|Ronaldcarrasco|blue|1126
+|player|p2|Blaxophone|102|1169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Inteleon, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Aegislash, F|
+|poke|p1|Kommo-o, F|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Aegislash, F|
+|poke|p2|Arcanine, F|
+|poke|p2|Togekiss, M|
+|poke|p2|Gastrodon, M|
+|poke|p2|Bisharp, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|turn|1
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Conkeldurr|[miss]
+|-miss|p1a: Cinderace|p2a: Conkeldurr
+|move|p2a: Conkeldurr|Drain Punch|p1a: Cinderace
+|-damage|p1a: Cinderace|27/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Arcanine|Arcanine, F|100/100
+|move|p1a: Cinderace|U-turn|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|83/100
+|-damage|p1a: Cinderace|17/100|[from] item: Life Orb
+|
+|switch|p1a: Inteleon|Inteleon, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|move|p1a: Inteleon|Focus Energy|p1a: Inteleon
+|-start|p1a: Inteleon|move: Focus Energy
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Inteleon|Air Slash|p2a: Gastrodon
+|-crit|p2a: Gastrodon
+|-damage|p2a: Gastrodon|64/100
+|move|p2a: Gastrodon|Earth Power|p1a: Inteleon
+|-damage|p1a: Inteleon|36/100
+|
+|-heal|p2a: Gastrodon|70/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Arcanine|Arcanine, F|83/100
+|move|p1a: Inteleon|Air Slash|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-damage|p2a: Arcanine|33/100
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Arcanine|Extreme Speed|p1a: Inteleon
+|-damage|p1a: Inteleon|0 fnt
+|faint|p1a: Inteleon
+|
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|turn|7
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|move|p1a: Kommo-o|Clanging Scales|p2a: Togekiss
+|-immune|p2a: Togekiss
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|move|p2a: Togekiss|Trick|p1a: Aegislash
+|-activate|p2a: Togekiss|move: Trick|[of] p1a: Aegislash
+|-item|p1a: Aegislash|Choice Scarf|[from] move: Trick
+|-item|p2a: Togekiss|Weakness Policy|[from] move: Trick
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Togekiss|Fire Blast|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|45/100
+|-status|p1a: Aegislash|brn
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Flash Cannon|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|11/100
+|-enditem|p2a: Togekiss|Weakness Policy
+|-boost|p2a: Togekiss|atk|2
+|-boost|p2a: Togekiss|spa|2
+|
+|-damage|p1a: Aegislash|39/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|17/100
+|turn|11
+|
+|move|p1a: Cinderace|High Jump Kick|p2a: Togekiss
+|-resisted|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|-damage|p1a: Cinderace|7/100|[from] item: Life Orb
+|faint|p2a: Togekiss
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|turn|12
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|turn|13
+|
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|67/100
+|move|p2a: Bisharp|Iron Head|p1a: Kommo-o
+|-damage|p1a: Kommo-o|40/100
+|
+|-heal|p1a: Kommo-o|46/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|33/100
+|move|p1a: Kommo-o|Aura Sphere|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|-heal|p1a: Kommo-o|39/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|turn|15
+|
+|move|p1a: Kommo-o|Flamethrower|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|42/100
+|-enditem|p2a: Aegislash|Weakness Policy
+|-boost|p2a: Aegislash|atk|2
+|-boost|p2a: Aegislash|spa|2
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|
+|-heal|p1a: Kommo-o|45/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|turn|17
+|
+|move|p2a: Aegislash|Close Combat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Aegislash|30/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|18
+|
+|move|p1a: Grimmsnarl|Sucker Punch|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-crit|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Arcanine|Arcanine, F|33/100
+|turn|19
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Ronaldcarrasco|Reflect
+|move|p2a: Arcanine|Flare Blitz|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|55/100
+|-status|p1a: Grimmsnarl|brn
+|-damage|p2a: Arcanine|15/100|[from] Recoil
+|
+|-damage|p1a: Grimmsnarl|49/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p2a: Gastrodon|Gastrodon, M|70/100
+|move|p1a: Grimmsnarl|Sucker Punch||[still]
+|-fail|p1a: Grimmsnarl
+|
+|-heal|p2a: Gastrodon|76/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|43/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Gastrodon
+|-damage|p2a: Gastrodon|54/100
+|-unboost|p2a: Gastrodon|spa|1
+|move|p2a: Gastrodon|Earth Power|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|15/100 brn
+|
+|-heal|p2a: Gastrodon|60/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|9/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Gastrodon
+|-damage|p2a: Gastrodon|38/100
+|-unboost|p2a: Gastrodon|spa|1
+|move|p2a: Gastrodon|Recover|p2a: Gastrodon
+|-heal|p2a: Gastrodon|88/100
+|
+|-heal|p2a: Gastrodon|94/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|3/100 brn|[from] brn
+|upkeep
+|turn|23
+|-message|Ronaldcarrasco forfeited.
+|
+|win|Blaxophone
+|l|☆Ronaldcarrasco
+|raw|Ronaldcarrasco's rating: 1127 → 1105(-22 for losing)
+|raw|Blaxophone's rating: 1169 → 1191(+22 for winning)

@@ -1,0 +1,275 @@
+|ScrapeTime|2020-01-03-00:25:12
+|j|☆morgreemm
+|j|☆recoil765
+|player|p1|morgreemm|nanu|1370
+|player|p2|recoil765|1|1336
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Bewear, F|
+|poke|p1|Seismitoad, F|
+|poke|p1|Centiskorch, F|
+|poke|p1|Clefable, F|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Toxtricity, F|
+|poke|p2|Ditto|
+|poke|p2|Excadrill, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Kommo-o, M|
+|poke|p2|Cinderace, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by recoil765)
+|
+|start
+|switch|p1a: Bewear|Bewear, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|turn|1
+|
+|move|p1a: Bewear|Close Combat|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-unboost|p1a: Bewear|def|1
+|-unboost|p1a: Bewear|spd|1
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|turn|2
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Toxtricity|Boomburst|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|3
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|recoil765 has 120 seconds left.
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Excadrill|[miss]
+|-miss|p1a: Dragapult|p2a: Excadrill
+|move|p2a: Excadrill|Earthquake|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|88/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Dragapult|Disable|p2a: Excadrill
+|-start|p2a: Excadrill|Disable|Earthquake
+|cant|p2a: Excadrill|Disable|Earthquake
+|
+|-heal|p1a: Dragapult|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Centiskorch|Centiskorch, F|100/100
+|move|p2a: Excadrill|Iron Head|p1a: Centiskorch
+|-resisted|p1a: Centiskorch
+|-damage|p1a: Centiskorch|75/100
+|
+|upkeep
+|turn|7
+|inactive|recoil765 has 120 seconds left.
+|
+|switch|p2a: Cinderace|Cinderace, M, shiny|100/100
+|move|p1a: Centiskorch|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|67/100
+|-enditem|p2a: Cinderace|Choice Band|[from] move: Knock Off|[of] p1a: Centiskorch
+|
+|upkeep
+|turn|8
+|inactive|recoil765 has 120 seconds left.
+|
+|move|p2a: Cinderace|Fire Punch|p1a: Centiskorch
+|-start|p1a: Centiskorch|ability: Flash Fire
+|move|p1a: Centiskorch|Fire Lash|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|36/100
+|-unboost|p2a: Cinderace|def|1
+|
+|upkeep
+|turn|9
+|inactive|recoil765 has 120 seconds left.
+|
+|move|p2a: Cinderace|Zen Headbutt|p1a: Centiskorch
+|-damage|p1a: Centiskorch|45/100
+|move|p1a: Centiskorch|Fire Lash|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|inactive|recoil765 has 120 seconds left.
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Centiskorch|[from] ability: Imposter
+|turn|10
+|
+|move|p2a: Ditto|Knock Off|p1a: Centiskorch
+|-damage|p1a: Centiskorch|16/100
+|-enditem|p1a: Centiskorch|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Ditto
+|move|p1a: Centiskorch|Rest|p1a: Centiskorch
+|-status|p1a: Centiskorch|slp|[from] move: Rest
+|-heal|p1a: Centiskorch|100/100 slp|[silent]
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Kommo-o|Kommo-o, M, shiny|100/100
+|cant|p1a: Centiskorch|slp
+|move|p1a: Centiskorch|Sleep Talk|p1a: Centiskorch
+|move|p1a: Centiskorch|Knock Off|p2a: Kommo-o|[from]Sleep Talk
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|89/100
+|-enditem|p2a: Kommo-o|Salac Berry|[from] move: Knock Off|[of] p1a: Centiskorch
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Kommo-o|Substitute|p2a: Kommo-o
+|-start|p2a: Kommo-o|Substitute
+|-damage|p2a: Kommo-o|64/100
+|cant|p1a: Centiskorch|slp
+|move|p1a: Centiskorch|Sleep Talk|p1a: Centiskorch
+|move|p1a: Centiskorch|Knock Off|p2a: Kommo-o|[from]Sleep Talk
+|-resisted|p2a: Kommo-o
+|-activate|p2a: Kommo-o|move: Substitute|[damage]
+|
+|upkeep
+|turn|13
+|
+|-end|p1a: Centiskorch|ability: Flash Fire|[silent]
+|switch|p1a: Dragapult|Dragapult, M|94/100
+|move|p2a: Kommo-o|Belly Drum|p2a: Kommo-o
+|-damage|p2a: Kommo-o|14/100
+|-setboost|p2a: Kommo-o|atk|6|[from] move: Belly Drum
+|
+|-heal|p1a: Dragapult|99/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Dragapult|Hex|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|-heal|p1a: Dragapult|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Dragapult|[from] ability: Imposter
+|turn|15
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Ditto|Hex|p1a: Clefable
+|-damage|p1a: Clefable|74/100
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Clefable|Flamethrower|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|8/100
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Excadrill|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: morgreemm|move: Stealth Rock
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Excadrill|Iron Head|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|64/100
+|move|p1a: Mandibuzz|Foul Play|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|inactive|recoil765 has 120 seconds left.
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|turn|19
+|
+|move|p1a: Mandibuzz|Defog|p2a: Toxtricity
+|-unboost|p2a: Toxtricity|evasion|1
+|-sideend|p1: morgreemm|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Toxtricity|Overdrive|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|20
+|inactive|recoil765 has 120 seconds left.
+|inactive|recoil765 has 90 seconds left.
+|
+|move|p1a: Dragapult|Disable|p2a: Toxtricity
+|-start|p2a: Toxtricity|Disable|Overdrive
+|cant|p2a: Toxtricity|Disable|Overdrive
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Dragapult|[from] ability: Imposter
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Bewear|Bewear, F|100/100
+|move|p2a: Ditto|Hex|p1a: Bewear
+|-immune|p1a: Bewear
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|move|p1a: Bewear|Darkest Lariat|p2a: Toxtricity
+|-damage|p2a: Toxtricity|43/100
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Bewear|Darkest Lariat|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|upkeep
+|-message|recoil765 forfeited.
+|
+|win|morgreemm
+|l|☆recoil765

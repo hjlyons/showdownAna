@@ -1,0 +1,186 @@
+|ScrapeTime|2020-01-03-00:56:43
+|j|☆Mawiii
+|j|☆Lesebz
+|player|p1|Mawiii|lucas|1263
+|player|p2|Lesebz|105|1232
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Flapple, M|
+|poke|p1|Polteageist|
+|poke|p1|Dracovish|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Frosmoth, M|
+|poke|p1|Stonjourner, M|
+|poke|p2|Ludicolo, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Gyarados, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Hawlucha, F|
+|poke|p2|Mimikyu, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|turn|1
+|
+|move|p2a: Mimikyu|Trick|p1a: Weezing
+|-activate|p2a: Mimikyu|move: Trick|[of] p1a: Weezing
+|-item|p1a: Weezing|Choice Scarf|[from] move: Trick
+|-item|p2a: Mimikyu|Leftovers|[from] move: Trick
+|move|p1a: Weezing|Thunderbolt|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M
+|-damage|p2a: Mimikyu|88/100|[from] ability: Disguise|[of] p2a: Mimikyu
+|
+|-heal|p2a: Mimikyu|94/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|switch|p1a: Stonjourner|Stonjourner, M|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Excadrill|Earthquake|p1a: Stonjourner
+|-supereffective|p1a: Stonjourner
+|-damage|p1a: Stonjourner|35/100
+|move|p1a: Stonjourner|Heat Crash|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-enditem|p2a: Excadrill|Focus Sash
+|-damage|p2a: Excadrill|1/100
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Excadrill|Earthquake|p1a: Stonjourner
+|-supereffective|p1a: Stonjourner
+|-damage|p1a: Stonjourner|0 fnt
+|faint|p1a: Stonjourner
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|5
+|
+|move|p2a: Excadrill|Earthquake|p1a: Dracovish
+|-damage|p1a: Dracovish|42/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|6
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|41/100
+|move|p2a: Pelipper|Hurricane|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|turn|7
+|
+|move|p1a: Weezing|Thunderbolt|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Ludicolo|Ludicolo, F|100/100
+|turn|8
+|
+|switch|p1a: Flapple|Flapple, M, shiny|100/100
+|move|p2a: Ludicolo|Surf|p1a: Flapple
+|-resisted|p1a: Flapple
+|-damage|p1a: Flapple|74/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p2a: Ludicolo|Ice Beam|p1a: Flapple
+|-supereffective|p1a: Flapple
+|-damage|p1a: Flapple|0 fnt
+|faint|p1a: Flapple
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Frosmoth|Frosmoth, M|100/100
+|turn|10
+|
+|move|p2a: Ludicolo|Focus Blast|p1a: Frosmoth
+|-damage|p1a: Frosmoth|76/100
+|move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+|-boost|p1a: Frosmoth|spa|1
+|-boost|p1a: Frosmoth|spd|1
+|-boost|p1a: Frosmoth|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p2a: Mimikyu|Mimikyu-Busted, M|94/100
+|move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+|-boost|p1a: Frosmoth|spa|1
+|-boost|p1a: Frosmoth|spd|1
+|-boost|p1a: Frosmoth|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Mimikyu|99/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Frosmoth
+|-damage|p1a: Frosmoth|44/100
+|move|p1a: Frosmoth|Ice Beam|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Ludicolo|Ludicolo, F|100/100
+|turn|13
+|
+|move|p2a: Ludicolo|Surf|p1a: Frosmoth
+|-damage|p1a: Frosmoth|23/100
+|move|p1a: Frosmoth|Bug Buzz|p2a: Ludicolo
+|-supereffective|p2a: Ludicolo
+|-damage|p2a: Ludicolo|0 fnt
+|faint|p2a: Ludicolo
+|
+|-weather|none
+|upkeep
+|-message|Lesebz forfeited.
+|
+|win|Mawiii
+|l|☆Lesebz
+|raw|Mawiii's rating: 1263 → 1285(+22 for winning)
+|raw|Lesebz's rating: 1209 → 1188(-21 for losing)

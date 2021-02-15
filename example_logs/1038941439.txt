@@ -1,0 +1,259 @@
+|ScrapeTime|2020-01-01-01:34:56
+|j|☆The Last Kid
+|j|☆Gen1nur
+|player|p1|The Last Kid|tate|1390
+|player|p2|Gen1nur|ash|1406
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gengar, F|
+|poke|p1|Seismitoad, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Hydreigon, F|
+|poke|p1|Dugtrio, F|
+|poke|p1|Togekiss, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Cloyster, F|
+|poke|p2|Hatterene, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gen1nur)
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|switch|p2a: Cloyster|Cloyster, F|100/100
+|turn|1
+|
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|move|p1a: Seismitoad|Scald|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|61/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Cloyster|Icicle Spear|p1a: Seismitoad
+|-damage|p1a: Seismitoad|85/100
+|-damage|p1a: Seismitoad|70/100
+|-damage|p1a: Seismitoad|56/100
+|-damage|p1a: Seismitoad|42/100
+|-damage|p1a: Seismitoad|26/100
+|-hitcount|p1a: Seismitoad|5
+|move|p1a: Seismitoad|Toxic|p2a: Cloyster
+|-status|p2a: Cloyster|tox
+|
+|-heal|p1a: Seismitoad|32/100|[from] item: Leftovers
+|-damage|p2a: Cloyster|54/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Cloyster|Icicle Spear|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|86/100
+|-damage|p1a: Ferrothorn|70/100
+|-damage|p1a: Ferrothorn|54/100
+|-damage|p1a: Ferrothorn|38/100
+|-damage|p1a: Ferrothorn|23/100
+|-hitcount|p1a: Ferrothorn|5
+|
+|-heal|p1a: Ferrothorn|29/100|[from] item: Leftovers
+|-damage|p2a: Cloyster|42/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Cloyster|Icicle Spear|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Ferrothorn|36/100|[from] item: Leftovers
+|-damage|p2a: Cloyster|23/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p1a: Ferrothorn|Protect||[still]
+|-fail|p1a: Ferrothorn
+|move|p2a: Cloyster|Icicle Spear|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|20/100
+|-damage|p1a: Ferrothorn|4/100
+|-damage|p1a: Ferrothorn|0 fnt
+|-hitcount|p1a: Ferrothorn|3
+|faint|p1a: Ferrothorn
+|
+|-damage|p2a: Cloyster|0 fnt|[from] psn
+|faint|p2a: Cloyster
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|turn|6
+|
+|move|p1a: Togekiss|Flamethrower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|23/100
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Togekiss
+|-status|p1a: Togekiss|par
+|
+|-heal|p2a: Ferrothorn|29/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Togekiss|Flamethrower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|8
+|
+|move|p1a: Togekiss|Air Slash|p2a: Hatterene
+|-damage|p2a: Hatterene|65/100
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Togekiss|Air Slash|p2a: Hatterene
+|-damage|p2a: Hatterene|39/100
+|cant|p2a: Hatterene|flinch
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Togekiss|Air Slash|p2a: Hatterene
+|-damage|p2a: Hatterene|16/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Hatterene|Psychic|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|-damage|p2a: Hatterene|6/100|[from] item: Life Orb
+|faint|p1a: Togekiss
+|
+|upkeep
+|
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|turn|12
+|
+|move|p1a: Dugtrio|Sucker Punch|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|turn|13
+|
+|switch|p1a: Seismitoad|Seismitoad, M|32/100
+|move|p2a: Mandibuzz|Toxic|p1a: Seismitoad
+|-status|p1a: Seismitoad|tox
+|
+|-heal|p1a: Seismitoad|38/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|32/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Seismitoad|Toxic|p2a: Cinderace
+|-status|p2a: Cinderace|tox
+|
+|-heal|p1a: Seismitoad|38/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|26/100 tox|[from] psn
+|-damage|p2a: Cinderace|95/100 tox|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|15
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-damage|p2a: Cinderace|83/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|turn|16
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|17
+|inactive|The Last Kid has 120 seconds left.
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|
+|upkeep
+|turn|18
+|inactive|The Last Kid has 120 seconds left.
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|3/100
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|-hitcount|p1a: Hydreigon|2
+|faint|p1a: Hydreigon
+|
+|upkeep
+|inactive|The Last Kid has 120 seconds left.
+|
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|turn|19
+|
+|move|p2a: Dragapult|Sucker Punch||[still]
+|-fail|p2a: Dragapult
+|move|p1a: Dugtrio|Memento|p2a: Dragapult
+|-fail|p2a: Dragapult|unboost|[from] ability: Clear Body|[of] p2a: Dragapult
+|faint|p1a: Dugtrio
+|
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, F|100/100
+|turn|20
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Gengar
+|-damage|p1a: Gengar|21/100
+|-enditem|p1a: Gengar|Petaya Berry|[eat]
+|-boost|p1a: Gengar|spa|1
+|-damage|p1a: Gengar|0 fnt
+|-hitcount|p1a: Gengar|2
+|faint|p1a: Gengar
+|
+|win|Gen1nur
+|l|☆The Last Kid
+|raw|The Last Kid's rating: 1390 → 1371(-19 for losing)
+|raw|Gen1nur's rating: 1406 → 1425(+19 for winning)

@@ -1,0 +1,205 @@
+|ScrapeTime|2020-01-02-15:39:00
+|j|☆Garneshs
+|j|☆scf
+|player|p1|Garneshs|265|1123
+|player|p2|scf|265|1094
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Togekiss, M|
+|poke|p1|Shedinja|
+|poke|p1|Excadrill, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Seismitoad, M|
+|poke|p1|Dragapult, M|
+|poke|p2|Toxicroak, F|
+|poke|p2|Chandelure, M|
+|poke|p2|Slurpuff, M|
+|poke|p2|Skuntank, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Eldegoss, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|switch|p2a: Eldegoss|Eldegoss, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Garneshs)
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Shedinja|Shedinja|100/100
+|move|p2a: Rotom|Trick|p1a: Shedinja
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Shedinja
+|-item|p1a: Shedinja|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Focus Sash|[from] move: Trick
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Slurpuff|Slurpuff, M|100/100
+|move|p1a: Shedinja|Shadow Claw|p2a: Slurpuff
+|-damage|p2a: Slurpuff|68/100
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Slurpuff|Sticky Web|p1a: Excadrill
+|-sidestart|p1: Garneshs|move: Sticky Web
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Excadrill|Iron Head|p2a: Slurpuff
+|-supereffective|p2a: Slurpuff
+|-damage|p2a: Slurpuff|0 fnt
+|-damage|p1a: Excadrill|91/100|[from] item: Life Orb
+|faint|p2a: Slurpuff
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|6
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Rotom
+|-damage|p2a: Rotom|69/100
+|-sideend|p1: Garneshs|Sticky Web|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|-damage|p1a: Excadrill|81/100|[from] item: Life Orb
+|move|p2a: Rotom|Hydro Pump|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|turn|7
+|
+|move|p2a: Rotom|Trick|p1a: Seismitoad
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Seismitoad
+|-item|p1a: Seismitoad|Focus Sash|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|move|p1a: Seismitoad|Stealth Rock|p2a: Rotom
+|-sidestart|p2: scf|move: Stealth Rock
+|
+|-heal|p2a: Rotom|76/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Eldegoss|Eldegoss, M|100/100
+|-damage|p2a: Eldegoss|88/100|[from] Stealth Rock
+|move|p1a: Seismitoad|Toxic|p2a: Eldegoss
+|-status|p2a: Eldegoss|tox
+|
+|-damage|p2a: Eldegoss|82/100 tox|[from] psn
+|upkeep
+|turn|9
+|inactive|scf has 120 seconds left.
+|
+|switch|p1a: Shedinja|Shedinja|100/100
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|-damage|p2a: Chandelure|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|10
+|inactive|scf has 120 seconds left.
+|
+|move|p1a: Shedinja|Shadow Claw|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|
+|upkeep
+|
+|switch|p2a: Skuntank|Skuntank, F|100/100
+|-damage|p2a: Skuntank|88/100|[from] Stealth Rock
+|turn|11
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|move|p2a: Skuntank|Toxic|p1a: Togekiss
+|-status|p1a: Togekiss|tox
+|
+|-damage|p1a: Togekiss|94/100 tox|[from] psn
+|upkeep
+|turn|12
+|inactive|scf has 120 seconds left.
+|
+|move|p1a: Togekiss|Aura Sphere|p2a: Skuntank
+|-damage|p2a: Skuntank|48/100
+|move|p2a: Skuntank|Poison Jab|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|-damage|p2a: Skuntank|39/100|[from] item: Life Orb
+|faint|p1a: Togekiss
+|
+|upkeep
+|
+|switch|p1a: Shedinja|Shedinja|100/100
+|turn|13
+|
+|move|p2a: Skuntank|Sucker Punch|p1a: Shedinja
+|-supereffective|p1a: Shedinja
+|-damage|p1a: Shedinja|0 fnt
+|-damage|p2a: Skuntank|29/100|[from] item: Life Orb
+|faint|p1a: Shedinja
+|
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|turn|14
+|
+|switch|p2a: Eldegoss|Eldegoss, M|100/100 tox
+|-damage|p2a: Eldegoss|88/100 tox|[from] Stealth Rock
+|move|p1a: Seismitoad|Earthquake|p2a: Eldegoss
+|-resisted|p2a: Eldegoss
+|-damage|p2a: Eldegoss|70/100 tox
+|
+|-damage|p2a: Eldegoss|64/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Toxicroak|Toxicroak, F|100/100
+|-damage|p2a: Toxicroak|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Toxicroak|100/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Toxicroak
+|-damage|p2a: Toxicroak|18/100
+|-damage|p1a: Cinderace|91/100|[from] item: Life Orb
+|move|p2a: Toxicroak|Earthquake|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|17/100
+|
+|-heal|p2a: Toxicroak|24/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|-message|Garneshs forfeited.
+|
+|win|scf
+|l|☆Garneshs
+|l|☆scf
+|raw|Garneshs's rating: 1092 → 1070(-22 for losing)
+|raw|scf's rating: 1121 → 1144(+23 for winning)
+|j|☆scf
+|player|p2|scf|265

@@ -1,0 +1,218 @@
+|ScrapeTime|2020-01-01-04:15:41
+|j|☆Blub234
+|j|☆Mondymon
+|player|p1|Blub234|265|1316
+|player|p2|Mondymon|skierf-gen4dp|1280
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pincurchin, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Toxtricity, F|
+|poke|p1|Seismitoad, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Tyranitar, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Arcanine, M|
+|poke|p2|Clefable, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Excadrill, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p2a: Excadrill|Earthquake|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Blub234)
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|move|p1a: Mandibuzz|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|99/100
+|
+|switch|p1a: Pincurchin|Pincurchin, F|100/100|[from]move: U-turn
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Pincurchin|Spikes|p2a: Excadrill
+|-sidestart|p2: Mondymon|Spikes
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Excadrill|Rapid Spin|p1a: Seismitoad
+|-damage|p1a: Seismitoad|81/100
+|-sideend|p2: Mondymon|Spikes|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-boost|p2a: Excadrill|spe|1
+|
+|-heal|p1a: Seismitoad|87/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Seismitoad|Earth Power|p2a: Clefable
+|-damage|p2a: Clefable|64/100
+|
+|-heal|p1a: Seismitoad|93/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Toxtricity|Toxtricity, F|100/100
+|move|p2a: Clefable|Moonblast|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|62/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Toxtricity|Boomburst|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|35/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Excadrill|Rock Slide|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|59/100
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|move|p1a: Mandibuzz|Foul Play|p2a: Corviknight
+|-damage|p2a: Corviknight|84/100
+|
+|-heal|p2a: Corviknight|90/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|10
+|
+|move|p1a: Mandibuzz|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|89/100
+|
+|switch|p1a: Pincurchin|Pincurchin, F|100/100|[from]move: U-turn
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|move|p2a: Corviknight|U-turn|p1a: Pincurchin
+|-damage|p1a: Pincurchin|88/100
+|
+|switch|p2a: Excadrill|Excadrill, M|35/100|[from]move: U-turn
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Seismitoad|Seismitoad, F|93/100
+|move|p2a: Excadrill|Earthquake|p1a: Seismitoad
+|-damage|p1a: Seismitoad|35/100
+|
+|-heal|p1a: Seismitoad|41/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|switch|p1a: Mandibuzz|Mandibuzz, F|59/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Dragapult|Outrage|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|14
+|
+|move|p2a: Dragapult|Outrage|p1a: Tyranitar|[from]lockedmove
+|-damage|p1a: Tyranitar|37/100
+|-start|p2a: Dragapult|confusion|[fatigue]
+|move|p1a: Tyranitar|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|35/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|15
+|
+|move|p2a: Excadrill|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, F|41/100
+|turn|16
+|
+|move|p2a: Excadrill|Earthquake|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, F|62/100
+|turn|17
+|
+|move|p2a: Excadrill|Earthquake|p1a: Toxtricity
+|-supereffective|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|-weather|Sandstorm|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|switch|p1a: Pincurchin|Pincurchin, F|88/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|18
+|
+|move|p2a: Excadrill|Earthquake|p1a: Pincurchin
+|-supereffective|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|faint|p1a: Pincurchin
+|
+|win|Mondymon
+|raw|Blub234's rating: 1316 → 1294(-22 for losing)
+|raw|Mondymon's rating: 1280 → 1307(+27 for winning)

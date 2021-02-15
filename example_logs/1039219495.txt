@@ -1,0 +1,165 @@
+|ScrapeTime|2020-01-01-17:51:10
+|j|☆4G3NC Cob
+|j|☆Pr. Mudamaka
+|player|p1|4G3NC Cob|argenta|1484
+|player|p2|Pr. Mudamaka|101|1480
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Kommo-o, M|
+|poke|p1|Cloyster, M|
+|poke|p1|Toxtricity, F|
+|poke|p1|Mew|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Bisharp, F|
+|poke|p2|Dracovish|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Aegislash, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Rotom-Wash|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 4G3NC Cob)
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|move|p1a: Mew|Stealth Rock|p2a: Rotom
+|-sidestart|p2: Pr. Mudamaka|move: Stealth Rock
+|move|p2a: Rotom|Volt Switch|p1a: Mew
+|-damage|p1a: Mew|78/100
+|-enditem|p1a: Mew|Red Card|[of] p2a: Rotom
+|drag|p2a: Aegislash|Aegislash, M|100/100
+|-damage|p2a: Aegislash|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Mew|Taunt|p2a: Aegislash
+|-start|p2a: Aegislash|move: Taunt
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|turn|3
+|
+|move|p1a: Kommo-o|Belly Drum|p1a: Kommo-o
+|-damage|p1a: Kommo-o|50/100
+|-setboost|p1a: Kommo-o|atk|6|[from] move: Belly Drum
+|move|p2a: Aegislash|Shadow Ball|p1a: Kommo-o
+|-immune|p1a: Kommo-o|[from] ability: Bulletproof
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Kommo-o|Substitute|p1a: Kommo-o
+|-start|p1a: Kommo-o|Substitute
+|-damage|p1a: Kommo-o|25/100
+|-enditem|p1a: Kommo-o|Salac Berry|[eat]
+|-boost|p1a: Kommo-o|spe|1
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Kommo-o|Drain Punch|p2a: Rotom
+|-damage|p2a: Rotom|8/100
+|-heal|p1a: Kommo-o|67/100|[from] drain|[of] p2a: Rotom
+|move|p2a: Rotom|Volt Switch|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-activate|p1a: Kommo-o|move: Substitute|[damage]
+|
+|switch|p2a: Aegislash|Aegislash, M|94/100|[from]move: Volt Switch
+|-damage|p2a: Aegislash|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Kommo-o|Earthquake|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|-damage|p2a: Mandibuzz|75/100|[from] Stealth Rock
+|move|p1a: Kommo-o|Earthquake|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Kommo-o|Drain Punch|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|-heal|p1a: Kommo-o|100/100|[from] drain|[of] p2a: Mandibuzz
+|-damage|p1a: Kommo-o|84/100|[from] item: Rocky Helmet|[of] p2a: Mandibuzz
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|-damage|p2a: Conkeldurr|94/100|[from] Stealth Rock
+|turn|9
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Kommo-o
+|-end|p1a: Kommo-o|Substitute
+|move|p1a: Kommo-o|Drain Punch|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|4/100
+|-heal|p1a: Kommo-o|100/100|[from] drain|[of] p2a: Conkeldurr
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Kommo-o
+|-damage|p1a: Kommo-o|78/100
+|move|p1a: Kommo-o|Substitute|p1a: Kommo-o
+|-start|p1a: Kommo-o|Substitute
+|-damage|p1a: Kommo-o|53/100
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Kommo-o
+|-activate|p1a: Kommo-o|move: Substitute|[damage]
+|move|p1a: Kommo-o|Drain Punch|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|-heal|p1a: Kommo-o|55/100|[from] drain|[of] p2a: Conkeldurr
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Kommo-o|Drain Punch|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-heal|p1a: Kommo-o|100/100|[from] drain|[of] p2a: Seismitoad
+|faint|p2a: Seismitoad
+|
+|upkeep
+|-message|Pr. Mudamaka forfeited.
+|
+|win|4G3NC Cob
+|l|☆Pr. Mudamaka

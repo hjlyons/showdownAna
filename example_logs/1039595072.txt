@@ -1,0 +1,284 @@
+|ScrapeTime|2020-01-02-10:35:34
+|j|☆Niktamaire
+|j|☆Hyugonii
+|player|p1|Niktamaire|293|1190
+|player|p2|Hyugonii|iris|1230
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mr. Mime-Galar, M|
+|poke|p1|Dracovish|
+|poke|p1|Hawlucha, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Gastrodon, M|
+|poke|p1|Cinderace, F|
+|poke|p2|Shuckle, F|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Ditto|
+|poke|p2|Bisharp, M|
+|poke|p2|Corviknight, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dracovish|Dracovish|100/100
+|switch|p2a: Shuckle|Shuckle, F|100/100
+|turn|1
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Shuckle
+|-supereffective|p2a: Shuckle
+|-ability|p2a: Shuckle|Sturdy
+|-damage|p2a: Shuckle|1/100
+|move|p2a: Shuckle|Knock Off|p1a: Dracovish
+|-damage|p1a: Dracovish|95/100
+|-enditem|p1a: Dracovish|Choice Band|[from] move: Knock Off|[of] p2a: Shuckle
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Dracovish|Crunch|p2a: Shuckle
+|-damage|p2a: Shuckle|0 fnt
+|faint|p2a: Shuckle
+|
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, M, shiny|100/100
+|turn|3
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|move|p2a: Corsola|Whirlpool|p1a: Gastrodon
+|-ability|p1a: Gastrodon|Storm Drain|boost
+|-boost|p1a: Gastrodon|spa|1
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Ditto|Ditto, shiny|100/100
+|-transform|p2a: Ditto|p1a: Gastrodon|[from] ability: Imposter
+|move|p1a: Gastrodon|Scald|p2a: Ditto
+|-ability|p2a: Ditto|Storm Drain|boost
+|-boost|p2a: Ditto|spa|1
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Ditto|Clear Smog|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|92/100
+|-clearboost|p1a: Gastrodon
+|move|p1a: Gastrodon|Clear Smog|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|94/100
+|-clearboost|p2a: Ditto
+|
+|-heal|p1a: Gastrodon|98/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Corsola|Corsola-Galar, M, shiny|100/100
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Corsola|Will-O-Wisp|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Corsola
+|-sidestart|p2: Hyugonii|move: Stealth Rock
+|
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p2a: Corsola|Whirlpool|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|92/100 brn
+|-activate|p1a: Ferrothorn|move: Whirlpool|[of] p2a: Corsola
+|move|p1a: Ferrothorn|Knock Off|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|86/100
+|-enditem|p2a: Corsola|Eviolite|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|98/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|92/100 brn|[from] brn
+|-damage|p1a: Ferrothorn|79/100 brn|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|move|p2a: Corsola|Night Shade|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|51/100 brn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Corsola|[miss]
+|-miss|p1a: Ferrothorn|p2a: Corsola
+|
+|-heal|p1a: Ferrothorn|57/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|51/100 brn|[from] brn
+|-damage|p1a: Ferrothorn|39/100 brn|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|10
+|
+|move|p2a: Corsola|Night Shade|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|10/100 brn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Corsola
+|-start|p2a: Corsola|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|16/100 brn|[from] item: Leftovers
+|-damage|p2a: Corsola|74/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|28/100 brn|[silent]
+|-damage|p1a: Ferrothorn|22/100 brn|[from] brn
+|-damage|p1a: Ferrothorn|9/100 brn|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|11
+|
+|move|p2a: Corsola|Night Shade|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Mr. Mime|Mr. Mime-Galar, M|100/100
+|turn|12
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|move|p1a: Mr. Mime|Freeze-Dry|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|77/100
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Dracovish|Dracovish|95/100
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Dracovish|Outrage|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|50/100
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Dracovish|Outrage|p2a: Bisharp|[from]lockedmove
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|25/100
+|-start|p1a: Dracovish|confusion|[fatigue]
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|upkeep
+|
+|switch|p1a: Gastrodon|Gastrodon, M|98/100
+|turn|17
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|
+|upkeep
+|
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|turn|18
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Bisharp|Throat Chop|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+|
+|switch|p1a: Mr. Mime|Mr. Mime-Galar, M|100/100
+|turn|19
+|
+|move|p1a: Mr. Mime|Dazzling Gleam|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|switch|p2a: Ditto|Ditto, shiny|94/100
+|-damage|p2a: Ditto|81/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Mr. Mime|[from] ability: Imposter
+|turn|20
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Ditto|Psychic|p1a: Cinderace
+|-damage|p1a: Cinderace|50/100
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Ditto|Psychic|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Mr. Mime|Mr. Mime-Galar, M|100/100
+|turn|22
+|
+|move|p1a: Mr. Mime|Freeze-Dry|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|63/100
+|move|p2a: Ditto|Psychic|p1a: Mr. Mime
+|-resisted|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|71/100
+|
+|upkeep
+|turn|23
+|c|☆Hyugonii|gg
+|
+|move|p1a: Mr. Mime|Freeze-Dry|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|45/100
+|move|p2a: Ditto|Psychic|p1a: Mr. Mime
+|-resisted|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|42/100
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Mr. Mime|Freeze-Dry|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|29/100
+|move|p2a: Ditto|Psychic|p1a: Mr. Mime
+|-resisted|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|12/100
+|
+|upkeep
+|turn|25
+|
+|-activate|p2a: Ditto|move: Struggle
+|move|p2a: Ditto|Struggle|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|-damage|p2a: Ditto|3/100|[from] recoil
+|faint|p1a: Mr. Mime
+|
+|win|Hyugonii
+|raw|Niktamaire's rating: 1190 → 1168(-22 for losing)
+|raw|Hyugonii's rating: 1230 → 1253(+23 for winning)
+|l|☆Niktamaire

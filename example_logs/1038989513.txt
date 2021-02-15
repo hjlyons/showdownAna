@@ -1,0 +1,368 @@
+|ScrapeTime|2020-01-01-03:55:03
+|j|☆ToxicWyvern
+|j|☆saltylegume
+|player|p1|ToxicWyvern|101|1159
+|player|p2|saltylegume|266|1132
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Inteleon, M|
+|poke|p1|Toxtricity, M|
+|poke|p1|Hitmontop, M|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Bisharp, M|
+|poke|p2|Clefable, M|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Dragapult, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|turn|1
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|63/100
+|move|p2a: Conkeldurr|Earthquake|p1a: Toxtricity
+|-supereffective|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|turn|2
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Corsola|Night Shade|p2a: Clefable
+|-damage|p2a: Clefable|75/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Clefable|Moonblast|p1a: Corsola
+|-damage|p1a: Corsola|78/100
+|move|p1a: Corsola|Stealth Rock|p2a: Clefable
+|-sidestart|p2: saltylegume|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Clefable|Moonblast|p1a: Corsola
+|-damage|p1a: Corsola|55/100
+|move|p1a: Corsola|Night Shade|p2a: Clefable
+|-damage|p2a: Clefable|50/100
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Clefable|Moonblast|p1a: Corsola
+|-damage|p1a: Corsola|33/100
+|move|p1a: Corsola|Strength Sap|p2a: Clefable
+|-unboost|p2a: Clefable|atk|1
+|-heal|p1a: Corsola|73/100
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Inteleon|Inteleon, M|100/100
+|move|p2a: Clefable|Moonblast|p1a: Inteleon
+|-damage|p1a: Inteleon|35/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|move|p1a: Inteleon|Snipe Shot|p2a: Bisharp
+|-damage|p2a: Bisharp|11/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|move|p1a: Ferrothorn|Spikes|p2a: Bisharp
+|-sidestart|p2: saltylegume|Spikes
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Bisharp|Night Slash|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|42/100
+|-damage|p2a: Bisharp|0 fnt|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p2a: Bisharp
+|move|p1a: Ferrothorn|Spikes|p2: Bisharp
+|-sidestart|p2: saltylegume|Spikes
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|50/100
+|turn|11
+|
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|99/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|63/100
+|-damage|p2a: Conkeldurr|57/100|[from] Stealth Rock
+|-damage|p2a: Conkeldurr|40/100|[from] Spikes
+|turn|12
+|
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Conkeldurr|atk|1
+|move|p2a: Conkeldurr|Drain Punch|p1a: Hitmontop
+|-damage|p1a: Hitmontop|58/100
+|-heal|p2a: Conkeldurr|56/100|[from] drain|[of] p1a: Hitmontop
+|
+|-heal|p1a: Hitmontop|64/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|-damage|p2a: Corsola|84/100|[from] Spikes
+|-damage|p2a: Corsola|71/100|[from] Stealth Rock
+|move|p1a: Hitmontop|Fake Out|p2a: Corsola
+|-immune|p2a: Corsola
+|
+|-heal|p1a: Hitmontop|70/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|42/100
+|move|p2a: Corsola|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: ToxicWyvern|move: Stealth Rock
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Corsola|Will-O-Wisp|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Knock Off|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|61/100
+|-enditem|p2a: Corsola|Eviolite|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-damage|p1a: Ferrothorn|36/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p2a: Corsola|Night Shade|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|8/100 brn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Corsola
+|-start|p2a: Corsola|move: Leech Seed
+|
+|-damage|p2a: Corsola|49/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|19/100 brn|[silent]
+|-damage|p1a: Ferrothorn|13/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Corsola|Strength Sap|p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|atk|1
+|-heal|p2a: Corsola|100/100
+|move|p1a: Ferrothorn|Spikes|p2a: Corsola
+|-sidestart|p2: saltylegume|Spikes
+|
+|-damage|p2a: Corsola|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|25/100 brn|[silent]
+|-damage|p1a: Ferrothorn|19/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|56/100
+|-damage|p2a: Conkeldurr|50/100|[from] Stealth Rock
+|-damage|p2a: Conkeldurr|25/100|[from] Spikes
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Conkeldurr
+|-crit|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|7/100
+|
+|-damage|p1a: Ferrothorn|13/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p2a: Conkeldurr|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Hitmontop|Hitmontop, M|70/100
+|-damage|p1a: Hitmontop|64/100|[from] Stealth Rock
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Conkeldurr|atk|1
+|turn|20
+|
+|switch|p2a: Corsola|Corsola-Galar, F|88/100
+|-damage|p2a: Corsola|76/100|[from] Stealth Rock
+|-damage|p2a: Corsola|51/100|[from] Spikes
+|move|p1a: Hitmontop|Earthquake|p2a: Corsola
+|-damage|p2a: Corsola|25/100
+|-start|p1a: Hitmontop|Disable|Earthquake|[from] ability: Cursed Body|[of] p2a: Corsola
+|
+|-heal|p1a: Hitmontop|70/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by saltylegume)
+|
+|switch|p1a: Corsola|Corsola-Galar, F|73/100
+|-damage|p1a: Corsola|61/100|[from] Stealth Rock
+|move|p2a: Corsola|Strength Sap|p1a: Corsola
+|-unboost|p1a: Corsola|atk|1
+|-heal|p2a: Corsola|57/100
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|7/100
+|-damage|p2a: Conkeldurr|0 fnt|[from] Stealth Rock
+|faint|p2a: Conkeldurr
+|move|p1a: Corsola|Night Shade|p2: Conkeldurr|[notarget]
+|-fail|p1a: Corsola
+|
+|upkeep
+|inactive|saltylegume has 120 seconds left.
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|-damage|p2a: Hatterene|63/100|[from] Spikes
+|turn|23
+|inactive|saltylegume has 120 seconds left.
+|
+|move|p1a: Corsola|Night Shade|p2a: Hatterene
+|-damage|p2a: Hatterene|32/100
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|upkeep
+|turn|24
+|inactive|saltylegume has 120 seconds left.
+|
+|move|p1a: Corsola|Night Shade|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|inactive|saltylegume has 120 seconds left.
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|-damage|p2a: Dragapult|63/100|[from] Spikes
+|turn|25
+|
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: Corsola|Strength Sap|p2a: Dragapult
+|-fail|p2a: Dragapult|unboost|[from] ability: Clear Body|[of] p2a: Dragapult
+|-heal|p1a: Corsola|100/100
+|
+|upkeep
+|turn|26
+|inactive|saltylegume has 120 seconds left.
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Corsola
+|move|p1a: Corsola|Will-O-Wisp|p2a: Dragapult|[miss]
+|-miss|p1a: Corsola|p2a: Dragapult
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Corsola|[from]lockedmove
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|upkeep
+|
+|switch|p1a: Hitmontop|Hitmontop, M|70/100
+|-damage|p1a: Hitmontop|64/100|[from] Stealth Rock
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-fail|p2a: Dragapult|unboost|[from] ability: Clear Body|[of] p2a: Dragapult
+|turn|28
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Hitmontop
+|move|p1a: Hitmontop|Earthquake|p2a: Dragapult|[miss]
+|-miss|p1a: Hitmontop|p2a: Dragapult
+|
+|-heal|p1a: Hitmontop|70/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Hitmontop|[from]lockedmove
+|-damage|p1a: Hitmontop|0 fnt
+|faint|p1a: Hitmontop
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|30
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Dragapult
+|move|p1a: Dragapult|Dragon Darts|p2a: Dragapult|[miss]
+|-miss|p1a: Dragapult|p2a: Dragapult
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Dragapult|[from]lockedmove
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Inteleon|Inteleon, M|35/100
+|-damage|p1a: Inteleon|22/100|[from] Stealth Rock
+|turn|32
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Inteleon
+|move|p1a: Inteleon|Ice Beam|p2a: Dragapult|[miss]
+|-miss|p1a: Inteleon|p2a: Dragapult
+|
+|upkeep
+|turn|33
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Inteleon|[from]lockedmove
+|-damage|p1a: Inteleon|0 fnt
+|faint|p1a: Inteleon
+|
+|win|saltylegume
+|c|☆ToxicWyvern|gg
+|raw|ToxicWyvern's rating: 1159 → 1132(-27 for losing)
+|raw|saltylegume's rating: 1132 → 1159(+27 for winning)
+|l|☆saltylegume

@@ -1,0 +1,247 @@
+|ScrapeTime|2020-01-01-03:45:08
+|j|☆nadavermelho
+|j|☆Fkuro
+|player|p1|nadavermelho|backpacker|1219
+|player|p2|Fkuro|293|1199
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Barraskewda, M|
+|poke|p1|Gyarados, M|
+|poke|p1|Jolteon, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Ditto|
+|poke|p2|Duraludon, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Gyarados, M|
+|poke|p2|Ditto|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Excadrill, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Seta Chuva|Pelipper, F|100/100
+|switch|p2a: Duraludon|Duraludon, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Seta Chuva
+|turn|1
+|
+|move|p2a: Duraludon|Stealth Rock|p1a: Seta Chuva
+|-sidestart|p1: nadavermelho|move: Stealth Rock
+|move|p1a: Seta Chuva|Hurricane|p2a: Duraludon
+|-resisted|p2a: Duraludon
+|-damage|p2a: Duraludon|67/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Fkuro)
+|
+|move|p2a: Duraludon|Thunderbolt|p1a: Seta Chuva
+|-supereffective|p1a: Seta Chuva
+|-damage|p1a: Seta Chuva|0 fnt
+|faint|p1a: Seta Chuva
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Heart|Barraskewda, M|100/100
+|-damage|p1a: Heart|88/100|[from] Stealth Rock
+|turn|3
+|
+|move|p1a: Heart|Close Combat|p2a: Duraludon
+|-supereffective|p2a: Duraludon
+|-damage|p2a: Duraludon|0 fnt
+|-unboost|p1a: Heart|def|1
+|-unboost|p1a: Heart|spd|1
+|faint|p2a: Duraludon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|turn|4
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|move|p2a: Weezing|Will-O-Wisp|p1a: Corviknight
+|-status|p1a: Corviknight|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Corviknight|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|88/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|move|p1a: Corviknight|Defog|p2a: Gyarados
+|-unboost|p2a: Gyarados|evasion|1
+|-sideend|p1: nadavermelho|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Corviknight|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: JoJolteon|Jolteon, M|100/100
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-item|p2a: Excadrill|Air Balloon
+|move|p1a: JoJolteon|Volt Switch|p2a: Excadrill
+|-immune|p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: JoJolteon|Weather Ball|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-enditem|p2a: Excadrill|Air Balloon
+|faint|p2a: Excadrill
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: JoJolteon|[from] ability: Imposter
+|turn|9
+|
+|move|p2a: Ditto|Shadow Ball|p1a: JoJolteon
+|-damage|p1a: JoJolteon|68/100
+|move|p1a: JoJolteon|Shadow Ball|p2a: Ditto
+|-damage|p2a: Ditto|72/100
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Ctrl+C|Ditto|100/100
+|move|p2a: Ditto|Shadow Ball|p1a: Ctrl+C
+|-immune|p1a: Ctrl+C
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|move|p1a: Ctrl+C|Transform|p2a: Weezing
+|-transform|p1a: Ctrl+C|p2a: Weezing
+|-endability|p1a: Ctrl+C|Imposter|[from] move: Transform
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Ctrl+C|Sludge Wave|p2a: Weezing
+|-damage|p2a: Weezing|59/100
+|move|p2a: Weezing|Sludge Wave|p1a: Ctrl+C
+|-damage|p1a: Ctrl+C|58/100
+|
+|-heal|p2a: Weezing|65/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Ctrl+C|Sludge Wave|p2a: Weezing
+|-damage|p2a: Weezing|25/100
+|move|p2a: Weezing|Sludge Wave|p1a: Ctrl+C
+|-damage|p1a: Ctrl+C|13/100
+|
+|-heal|p2a: Weezing|31/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Ctrl+C|Sludge Wave|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|72/100
+|turn|15
+|
+|switch|p1a: JoJolteon|Jolteon, M|68/100
+|move|p2a: Ditto|Transform|p1a: JoJolteon
+|-transform|p2a: Ditto|p1a: JoJolteon
+|-endability|p2a: Ditto|Imposter|[from] move: Transform
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Ctrl+C|Ditto|13/100
+|move|p2a: Ditto|Shadow Ball|p1a: Ctrl+C
+|-immune|p1a: Ctrl+C
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Corviknight|Corviknight, M|88/100 brn
+|move|p2a: Ditto|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|65/100 brn
+|
+|-heal|p1a: Corviknight|71/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|65/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p2a: Ditto|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|39/100 brn
+|move|p1a: Corviknight|U-turn|p2a: Ditto
+|-damage|p2a: Ditto|54/100
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|upkeep
+|turn|20
+|l|☆Fkuro
+|inactive|Fkuro disconnected and has a minute to reconnect!
+|player|p2|
+|
+|switch|p1a: Corviknight|Corviknight, M|39/100 brn
+|move|p2a: Hydreigon|Draco Meteor|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|91/100|[from] item: Life Orb
+|faint|p1a: Corviknight
+|
+|upkeep
+|inactive|nadavermelho has 120 seconds left.
+|inactive|nadavermelho has 90 seconds left.
+|
+|switch|p1a: Heart|Barraskewda, M|88/100
+|turn|21
+|inactive|Fkuro has 30 seconds to reconnect!
+|inactive|Fkuro has 20 seconds to reconnect!
+|inactive|Fkuro has 15 seconds to reconnect!
+|inactive|Fkuro has 10 seconds to reconnect!
+|inactive|Fkuro has 5 seconds to reconnect!
+|-message|Fkuro lost due to inactivity.
+|
+|win|nadavermelho
+|raw|nadavermelho's rating: 1219 → 1242(+23 for winning)
+|raw|Fkuro's rating: 1199 → 1175(-24 for losing)

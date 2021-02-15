@@ -1,0 +1,434 @@
+|ScrapeTime|2020-01-01-08:54:52
+|j|☆stjudehospital
+|j|☆dooteedoot
+|player|p1|stjudehospital|scientist|1322
+|player|p2|dooteedoot|169|1328
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Appletun, F|
+|poke|p1|Gastrodon, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Hatterene, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Togekiss, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|
+|move|p2a: Seismitoad|Toxic|p1a: Gastrodon
+|-status|p1a: Gastrodon|tox
+|move|p1a: Gastrodon|Earth Power|p2a: Seismitoad
+|-damage|p2a: Seismitoad|67/100
+|
+|-heal|p2a: Seismitoad|73/100|[from] item: Leftovers
+|-damage|p1a: Gastrodon|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|switch|p1a: Appletun|Appletun, F|100/100
+|move|p2a: Seismitoad|Toxic|p1a: Appletun
+|-status|p1a: Appletun|tox
+|
+|-heal|p2a: Seismitoad|79/100|[from] item: Leftovers
+|-damage|p1a: Appletun|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Appletun|Leech Seed|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-heal|p2a: Seismitoad|85/100|[from] item: Leftovers
+|-heal|p1a: Appletun|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Appletun|88/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Cinderace|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|90/100
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Toxapex|97/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-start|p1a: Corviknight|Substitute
+|-damage|p1a: Corviknight|76/100
+|move|p2a: Toxapex|Scald|p1a: Corviknight
+|-activate|p1a: Corviknight|move: Substitute|[damage]
+|
+|-heal|p1a: Corviknight|82/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2a: Toxapex|Scald|p1a: Corviknight
+|-activate|p1a: Corviknight|move: Substitute|[damage]
+|
+|-heal|p1a: Corviknight|88/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Togekiss|Togekiss, F|100/100
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-heal|p1a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Togekiss|Flamethrower|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-end|p1a: Corviknight|Substitute
+|move|p1a: Corviknight|Brave Bird|p2a: Togekiss
+|-damage|p2a: Togekiss|13/100
+|-damage|p1a: Corviknight|71/100|[from] Recoil
+|
+|-heal|p1a: Corviknight|77/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Togekiss|Flamethrower|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|38/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|88/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p1a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Togekiss|Flamethrower|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|55/100
+|-status|p1a: Corviknight|brn
+|move|p1a: Corviknight|Brave Bird|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|-damage|p1a: Corviknight|52/100 brn|[from] Recoil
+|faint|p2a: Togekiss
+|
+|-heal|p1a: Corviknight|58/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|52/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|turn|12
+|
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-start|p1a: Corviknight|Substitute
+|-damage|p1a: Corviknight|27/100 brn
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Corviknight|33/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|27/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|77/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Toxapex|Toxic Spikes|p1a: Corviknight
+|-sidestart|p1: stjudehospital|move: Toxic Spikes
+|
+|-heal|p1a: Corviknight|83/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|77/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-status|p1a: Hatterene|psn
+|move|p2a: Toxapex|Scald|p1a: Hatterene
+|-damage|p1a: Hatterene|83/100 psn
+|
+|-heal|p1a: Hatterene|89/100 psn|[from] item: Leftovers
+|-damage|p1a: Hatterene|77/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Hatterene|Psyshock|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|85/100
+|
+|-heal|p2a: Corviknight|91/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|83/100 psn|[from] item: Leftovers
+|-damage|p1a: Hatterene|71/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|66/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|
+|-heal|p2a: Corviknight|72/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|77/100 psn|[from] item: Leftovers
+|-damage|p1a: Hatterene|64/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Hatterene|Mystical Fire|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|67/100
+|-unboost|p2a: Corviknight|spa|1
+|
+|-heal|p2a: Corviknight|73/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|70/100 psn|[from] item: Leftovers
+|-damage|p1a: Hatterene|58/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|-status|p1a: Corsola|psn
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|-heal|p2a: Corviknight|79/100|[from] item: Leftovers
+|-damage|p1a: Corsola|88/100 psn|[from] psn
+|upkeep
+|turn|19
+|
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|54/100
+|move|p1a: Corsola|Will-O-Wisp||[still]
+|-fail|p1a: Corsola
+|
+|-heal|p2a: Corviknight|60/100|[from] item: Leftovers
+|-damage|p1a: Corsola|76/100 psn|[from] psn
+|upkeep
+|turn|20
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Corsola|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: dooteedoot|move: Stealth Rock
+|
+|-damage|p1a: Corsola|63/100 psn|[from] psn
+|upkeep
+|turn|21
+|
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-fail|p2a: Corviknight|move: Substitute
+|move|p1a: Corsola|Night Shade|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|
+|-damage|p1a: Corsola|51/100 psn|[from] psn
+|upkeep
+|turn|22
+|
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|76/100
+|move|p1a: Corsola|Strength Sap||[still]
+|-fail|p1a: Corsola
+|
+|-heal|p2a: Corviknight|82/100|[from] item: Leftovers
+|-damage|p1a: Corsola|39/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|move|p1a: Corsola|Night Shade|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|
+|-heal|p2a: Corviknight|88/100|[from] item: Leftovers
+|-damage|p1a: Corsola|26/100 psn|[from] psn
+|upkeep
+|turn|24
+|
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|63/100
+|move|p1a: Corsola|Strength Sap||[still]
+|-fail|p1a: Corsola
+|
+|-heal|p2a: Corviknight|69/100|[from] item: Leftovers
+|-damage|p1a: Corsola|14/100 psn|[from] psn
+|upkeep
+|turn|25
+|
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|move|p1a: Corsola|Night Shade|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|
+|-heal|p2a: Corviknight|75/100|[from] item: Leftovers
+|-damage|p1a: Corsola|2/100 psn|[from] psn
+|upkeep
+|turn|26
+|
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|50/100
+|move|p1a: Corsola|Night Shade|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|
+|-heal|p2a: Corviknight|56/100|[from] item: Leftovers
+|-damage|p1a: Corsola|0 fnt|[from] psn
+|faint|p1a: Corsola
+|upkeep
+|
+|switch|p1a: Hatterene|Hatterene, F|58/100 psn
+|turn|27
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Hatterene|Mystical Fire|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|70/100
+|-unboost|p2a: Corviknight|spa|1
+|
+|-heal|p2a: Corviknight|76/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|64/100 psn|[from] item: Leftovers
+|-damage|p1a: Hatterene|52/100 psn|[from] psn
+|upkeep
+|turn|28
+|
+|move|p2a: Corviknight|Body Press|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|37/100 psn
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p2a: Corviknight|82/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|43/100 psn|[from] item: Leftovers
+|-damage|p1a: Hatterene|31/100 psn|[from] psn
+|upkeep
+|turn|29
+|
+|move|p2a: Corviknight|Body Press|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|16/100 psn
+|move|p1a: Hatterene|Mystical Fire|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|35/100
+|-unboost|p2a: Corviknight|spa|1
+|
+|-heal|p2a: Corviknight|41/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|22/100 psn|[from] item: Leftovers
+|-damage|p1a: Hatterene|10/100 psn|[from] psn
+|upkeep
+|turn|30
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|91/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Hatterene|Mystical Fire|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|42/100
+|-unboost|p2a: Corviknight|spa|1
+|
+|-heal|p2a: Corviknight|48/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|16/100 psn|[from] item: Leftovers
+|-damage|p1a: Hatterene|3/100 psn|[from] psn
+|upkeep
+|turn|31
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|98/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Hatterene|Mystical Fire|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|50/100
+|-unboost|p2a: Corviknight|spa|1
+|
+|-heal|p2a: Corviknight|56/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|9/100 psn|[from] item: Leftovers
+|-damage|p1a: Hatterene|0 fnt|[from] psn
+|faint|p1a: Hatterene
+|upkeep
+|
+|switch|p1a: Gastrodon|Gastrodon, M|94/100 tox
+|turn|32
+|
+|move|p2a: Corviknight|Body Press|p1a: Gastrodon
+|-damage|p1a: Gastrodon|32/100 tox
+|move|p1a: Gastrodon|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|35/100
+|
+|-heal|p2a: Corviknight|41/100|[from] item: Leftovers
+|-damage|p1a: Gastrodon|26/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|move|p2a: Corviknight|Body Press|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|
+|-heal|p2a: Corviknight|47/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|34
+|
+|move|p1a: Cinderace|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|46/100
+|
+|switch|p1a: Corviknight|Corviknight, M|77/100 brn|[from]move: U-turn
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|96/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|83/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|77/100 brn|[from] brn
+|upkeep
+|turn|35
+|c|☆stjudehospital|gg
+|-message|stjudehospital forfeited.
+|
+|win|dooteedoot
+|l|☆stjudehospital
+|raw|stjudehospital's rating: 1322 → 1303(-19 for losing)
+|raw|dooteedoot's rating: 1328 → 1347(+19 for winning)

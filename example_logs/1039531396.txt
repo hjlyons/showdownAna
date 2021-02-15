@@ -1,0 +1,203 @@
+|ScrapeTime|2020-01-02-05:56:47
+|j|☆GBL Knights
+|j|☆soMousM
+|player|p1|GBL Knights|acetrainersnowf|1359
+|player|p2|soMousM|pokekid|1383
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gyarados, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Jellicent, M|
+|poke|p1|Hawlucha, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Pincurchin, M|
+|poke|p2|Sirfetch'd, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Snorlax, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Corviknight, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|turn|1
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Gyarados|Power Whip|p2a: Dragapult|[miss]
+|-miss|p1a: Gyarados|p2a: Dragapult
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Dragapult|Thunderbolt|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|52/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Dragapult|Thunderbolt|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|switch|p1a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|4
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Pincurchin|Toxic Spikes|p2a: Seismitoad
+|-sidestart|p2: soMousM|move: Toxic Spikes
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|move|p2a: Seismitoad|Scald|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|87/100
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Gyarados|Power Whip|p2a: Corviknight|[miss]
+|-miss|p1a: Gyarados|p2a: Corviknight
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Pincurchin|Pincurchin, M|100/100
+|move|p2a: Corviknight|Defog|p1a: Pincurchin
+|-unboost|p1a: Pincurchin|evasion|1
+|-sideend|p2: soMousM|Toxic Spikes|[from] move: Defog|[of] p2a: Corviknight
+|-fieldend|move: Electric Terrain
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Pincurchin|Toxic Spikes|p2a: Dragapult
+|-sidestart|p2: soMousM|move: Toxic Spikes
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Gyarados|Gyarados, F|87/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Gyarados
+|-damage|p1a: Gyarados|37/100
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Gyarados|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|29/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|switch|p1a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|11
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Pincurchin
+|-damage|p1a: Pincurchin|32/100
+|move|p1a: Pincurchin|Memento|p2a: Dragapult
+|-unboost|p2a: Dragapult|atk|2
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Pincurchin
+|
+|upkeep
+|
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p1a: Hawlucha|Electric Seed
+|-boost|p1a: Hawlucha|def|1
+|turn|12
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Dragapult|Shadow Ball|p1a: Hawlucha
+|-damage|p1a: Hawlucha|56/100
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Dragapult|Shadow Ball|p1a: Hawlucha
+|-damage|p1a: Hawlucha|15/100
+|-unboost|p1a: Hawlucha|spd|1
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|100/100
+|-status|p2a: Sirfetch'd|psn
+|turn|15
+|
+|move|p2a: Sirfetch'd|First Impression|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|4/100
+|move|p1a: Hawlucha|Acrobatics|p2a: Sirfetch'd
+|-supereffective|p2a: Sirfetch'd
+|-damage|p2a: Sirfetch'd|0 fnt
+|faint|p2a: Sirfetch'd
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|-status|p2a: Seismitoad|psn
+|turn|16
+|
+|move|p1a: Hawlucha|Close Combat|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|17
+|
+|move|p1a: Hawlucha|Close Combat|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|faint|p2a: Rotom
+|
+|upkeep
+|-message|soMousM forfeited.
+|
+|win|GBL Knights
+|l|☆soMousM
+|raw|GBL Knights's rating: 1359 → 1380(+21 for winning)
+|raw|soMousM's rating: 1383 → 1362(-21 for losing)

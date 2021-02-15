@@ -1,0 +1,175 @@
+|ScrapeTime|2020-01-01-06:42:24
+|j|☆szystest
+|j|☆Skootles
+|player|p1|szystest|251|1471
+|player|p2|Skootles|n|1415
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Orbeetle, M|
+|poke|p1|Barraskewda, M|
+|poke|p1|Polteageist|
+|poke|p1|Togekiss, M|
+|poke|p1|Excadrill, M|
+|poke|p2|Haxorus, F|
+|poke|p2|Chandelure, M|
+|poke|p2|Ribombee, F|
+|poke|p2|Mimikyu, M|
+|poke|p2|Mr. Rime, M|
+|poke|p2|Hawlucha, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by szystest)
+|
+|move|p2a: Hawlucha|Close Combat|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-enditem|p1a: Excadrill|Focus Sash
+|-damage|p1a: Excadrill|1/100
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|-enditem|p2a: Hawlucha|White Herb
+|-clearnegativeboost|p2a: Hawlucha|[silent]
+|move|p1a: Excadrill|Rock Tomb|p2a: Hawlucha
+|-damage|p2a: Hawlucha|76/100
+|-unboost|p2a: Hawlucha|spe|1
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|move|p2a: Hawlucha|Acrobatics|p1a: Togekiss
+|-damage|p1a: Togekiss|43/100
+|
+|-heal|p1a: Togekiss|49/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|upkeep
+|
+|switch|p1a: Polteageist|Polteageist|100/100
+|turn|4
+|
+|move|p2a: Hawlucha|Acrobatics|p1a: Polteageist
+|-damage|p1a: Polteageist|3/100
+|-ability|p1a: Polteageist|Weak Armor|boost
+|-unboost|p1a: Polteageist|def|1
+|-boost|p1a: Polteageist|spe|2
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Polteageist|Shadow Ball|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|upkeep
+|
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|turn|6
+|
+|switch|p1a: Orbeetle|Orbeetle, M|100/100
+|-item|p2a: Mimikyu|Life Orb|[from] ability: Frisk|[of] p1a: Orbeetle|[identify]
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Orbeetle
+|-supereffective|p1a: Orbeetle
+|-damage|p1a: Orbeetle|66/100
+|-damage|p2a: Mimikyu|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Mimikyu|Shadow Claw|p1a: Orbeetle
+|-supereffective|p1a: Orbeetle
+|-damage|p1a: Orbeetle|0 fnt
+|-damage|p2a: Mimikyu|81/100|[from] item: Life Orb
+|faint|p1a: Orbeetle
+|
+|upkeep
+|
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|turn|8
+|
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|move|p1a: Barraskewda|Crunch|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|8/100
+|-damage|p1a: Barraskewda|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Barraskewda|Aqua Jet|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|-damage|p1a: Barraskewda|81/100|[from] item: Life Orb
+|faint|p2a: Chandelure
+|
+|upkeep
+|
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|turn|10
+|
+|move|p1a: Barraskewda|Liquidation|p2a: Ribombee
+|-enditem|p2a: Ribombee|Focus Sash
+|-damage|p2a: Ribombee|1/100
+|-damage|p1a: Barraskewda|71/100|[from] item: Life Orb
+|move|p2a: Ribombee|Sticky Web|p1a: Barraskewda
+|-sidestart|p1: szystest|move: Sticky Web
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Barraskewda|Aqua Jet|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|-damage|p1a: Barraskewda|61/100|[from] item: Life Orb
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|switch|p2a: Mimikyu|Mimikyu, M|81/100
+|turn|12
+|
+|move|p1a: Barraskewda|Aqua Jet|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|81/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M
+|-damage|p2a: Mimikyu|68/100|[from] ability: Disguise|[of] p2a: Mimikyu
+|-damage|p1a: Barraskewda|51/100|[from] item: Life Orb
+|move|p2a: Mimikyu|Shadow Claw|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|-damage|p2a: Mimikyu|58/100|[from] item: Life Orb
+|faint|p1a: Barraskewda
+|
+|upkeep
+|-message|szystest forfeited.
+|
+|win|Skootles
+|l|☆szystest
+|raw|szystest's rating: 1471 → 1447(-24 for losing)
+|raw|Skootles's rating: 1415 → 1438(+23 for winning)

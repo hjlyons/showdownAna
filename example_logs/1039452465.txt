@@ -1,0 +1,267 @@
+|ScrapeTime|2020-01-02-02:16:36
+|j|☆hiiroG
+|j|☆wolvenom
+|player|p1|hiiroG|alder|1368
+|player|p2|wolvenom|170|1379
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ninetales, F|
+|poke|p1|Shiftry, F|
+|poke|p1|Seismitoad, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Salazzle, F|
+|poke|p2|Toxicroak, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Dubwool, F|
+|poke|p2|Crawdaunt, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Gyarados, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by wolvenom)
+|
+|start
+|switch|p1a: Ninetales|Ninetales, F, shiny|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Grimmsnarl|Bulk Up|p2a: Grimmsnarl
+|-boost|p2a: Grimmsnarl|atk|1
+|-boost|p2a: Grimmsnarl|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Grimmsnarl
+|-crit|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|3
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Excadrill|Earthquake|p1a: Mandibuzz
+|-immune|p1a: Mandibuzz
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p2a: Excadrill|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: hiiroG|move: Stealth Rock
+|move|p1a: Mandibuzz|Foul Play|p2a: Excadrill
+|-damage|p2a: Excadrill|21/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Excadrill|Rock Tomb|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|67/100
+|-unboost|p1a: Mandibuzz|spe|1
+|move|p1a: Mandibuzz|Defog|p2a: Excadrill
+|-unboost|p2a: Excadrill|evasion|1
+|-sideend|p1: hiiroG|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p2a: Excadrill|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: hiiroG|move: Stealth Rock
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p2a: Excadrill|Rock Tomb|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|66/100
+|-unboost|p1a: Mandibuzz|spe|1
+|move|p1a: Mandibuzz|Foul Play|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100
+|turn|8
+|
+|move|p2a: Crawdaunt|Swords Dance|p2a: Crawdaunt
+|-boost|p2a: Crawdaunt|atk|2
+|move|p1a: Mandibuzz|U-turn|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|64/100
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100|[from]move: U-turn
+|-damage|p1a: Seismitoad|94/100|[from] Stealth Rock
+|
+|-weather|none
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Crawdaunt|Knock Off|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|-enditem|p1a: Seismitoad|Leftovers|[from] move: Knock Off|[of] p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|54/100|[from] item: Life Orb
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Ninetales|Ninetales, F, shiny|100/100
+|-damage|p1a: Ninetales|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|10
+|
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|-damage|p2a: Crawdaunt|44/100|[from] item: Life Orb
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Shiftry|Shiftry, F|100/100
+|-damage|p1a: Shiftry|88/100|[from] Stealth Rock
+|turn|11
+|
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Shiftry
+|-resisted|p1a: Shiftry
+|-damage|p1a: Shiftry|59/100
+|-damage|p2a: Crawdaunt|35/100|[from] item: Life Orb
+|move|p1a: Shiftry|Solar Blade||[still]
+|-prepare|p1a: Shiftry|Solar Blade|p2a: Crawdaunt
+|-anim|p1a: Shiftry|Solar Blade|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|-damage|p1a: Shiftry|49/100|[from] item: Life Orb
+|faint|p2a: Crawdaunt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Toxicroak|Toxicroak, F|100/100
+|turn|12
+|
+|move|p1a: Shiftry|Heat Wave|p2a: Toxicroak
+|-damage|p2a: Toxicroak|22/100
+|-damage|p1a: Shiftry|39/100|[from] item: Life Orb
+|move|p2a: Toxicroak|Poison Jab|p1a: Shiftry
+|-supereffective|p1a: Shiftry
+|-damage|p1a: Shiftry|0 fnt
+|-damage|p2a: Toxicroak|12/100|[from] item: Life Orb
+|faint|p1a: Shiftry
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Toxicroak|0 fnt|[from] ability: Dry Skin|[of] p2a: Toxicroak
+|faint|p2a: Toxicroak
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|switch|p1a: Mandibuzz|Mandibuzz, F|66/100
+|turn|13
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Mandibuzz|Foul Play|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Dubwool|Dubwool, F|100/100
+|turn|14
+|
+|move|p2a: Dubwool|Cotton Guard|p2a: Dubwool
+|-boost|p2a: Dubwool|def|3
+|move|p1a: Mandibuzz|Defog|p2a: Dubwool
+|-unboost|p2a: Dubwool|evasion|1
+|-sideend|p1: hiiroG|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p2a: Dubwool|Body Press|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|30/100
+|move|p1a: Mandibuzz|U-turn|p2a: Dubwool
+|-damage|p2a: Dubwool|98/100
+|
+|switch|p1a: Salazzle|Salazzle, F|100/100|[from]move: U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dubwool|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Salazzle|Toxic|p2a: Dubwool
+|-status|p2a: Dubwool|tox
+|move|p2a: Dubwool|Cotton Guard|p2a: Dubwool
+|-boost|p2a: Dubwool|def|3
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Dubwool|94/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p1a: Salazzle|Substitute|p1a: Salazzle
+|-start|p1a: Salazzle|Substitute
+|-damage|p1a: Salazzle|76/100
+|move|p2a: Dubwool|Rest|p2a: Dubwool
+|-status|p2a: Dubwool|slp|[from] move: Rest
+|-heal|p2a: Dubwool|100/100 slp|[silent]
+|
+|-weather|none
+|-heal|p1a: Salazzle|82/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p1a: Salazzle|Flamethrower|p2a: Dubwool
+|-damage|p2a: Dubwool|35/100 slp
+|cant|p2a: Dubwool|slp
+|move|p2a: Dubwool|Sleep Talk|p2a: Dubwool
+|move|p2a: Dubwool|Body Press|p1a: Salazzle|[from]Sleep Talk
+|-resisted|p1a: Salazzle
+|-end|p1a: Salazzle|Substitute
+|
+|-heal|p1a: Salazzle|88/100|[from] item: Black Sludge
+|-heal|p2a: Dubwool|41/100 slp|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Salazzle|Flamethrower|p2a: Dubwool
+|-damage|p2a: Dubwool|0 fnt
+|faint|p2a: Dubwool
+|
+|win|hiiroG
+|c|☆hiiroG|gg
+|l|☆wolvenom

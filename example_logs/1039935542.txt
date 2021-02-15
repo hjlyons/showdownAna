@@ -1,0 +1,210 @@
+|ScrapeTime|2020-01-02-23:45:17
+|j|☆Aramiel
+|j|☆Corn O Cob
+|player|p1|Aramiel|hilda|1131
+|player|p2|Corn O Cob|130|1087
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Dugtrio, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Dracovish|
+|poke|p1|Toxtricity, F|
+|poke|p2|Gyarados, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Aegislash, M|
+|poke|p2|Rotom-Heat|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Corn O Cob)
+|
+|start
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|1
+|
+|move|p1a: Dugtrio|Stone Edge|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|36/100
+|move|p2a: Rotom|Trick|p1a: Dugtrio
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Dugtrio
+|-item|p1a: Dugtrio|Choice Specs|[from] move: Trick
+|-item|p2a: Rotom|Focus Sash|[from] move: Trick
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|move|p1a: Dugtrio|Stone Edge|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|89/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Cinderace
+|-damage|p1a: Cinderace|29/100
+|
+|upkeep
+|turn|4
+|
+|-formechange|p2a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Cinderace|Pyro Ball|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Rotom|Rotom-Heat|36/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-damage|p1a: Cinderace|19/100|[from] item: Life Orb
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|turn|6
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|inactive|Aramiel has 120 seconds left.
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|7
+|
+|switch|p2a: Aegislash|Aegislash, M|89/100
+|move|p1a: Hatterene|Psychic|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|67/100
+|-unboost|p2a: Aegislash|spd|1
+|
+|upkeep
+|turn|8
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Flash Cannon|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|turn|9
+|
+|-formechange|p2a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Dugtrio|Earthquake|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|move|p1a: Dugtrio|Earthquake|p2a: Gyarados
+|-immune|p2a: Gyarados
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Toxtricity|Toxtricity, F|100/100
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Gyarados|Earthquake|p1a: Toxtricity
+|-supereffective|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|13
+|
+|move|p2a: Gyarados|Bounce||[still]
+|-prepare|p2a: Gyarados|Bounce|p1a: Dragapult
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Gyarados
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Gyarados|Bounce|p1a: Dragapult|[from]lockedmove|[miss]
+|-miss|p2a: Gyarados|p1a: Dragapult
+|move|p1a: Dragapult|Phantom Force|p2a: Gyarados|[from]lockedmove
+|-damage|p2a: Gyarados|25/100
+|-damage|p1a: Dragapult|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Gyarados|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|16
+|
+|move|p2a: Gyarados|Bounce||[still]
+|-prepare|p2a: Gyarados|Bounce|p1a: Dracovish
+|move|p1a: Dracovish|Ice Fang|p2a: Gyarados|[miss]
+|-miss|p1a: Dracovish|p2a: Gyarados
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Gyarados|Bounce|p1a: Dracovish|[from]lockedmove
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|upkeep
+|
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|turn|18
+|
+|move|p2a: Gyarados|Waterfall|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|win|Corn O Cob
+|l|☆Aramiel
+|raw|Aramiel's rating: 1155 → 1127(-28 for losing)
+|raw|Corn O Cob's rating: 1119 → 1146(+27 for winning)

@@ -1,0 +1,270 @@
+|ScrapeTime|2020-01-01-22:36:34
+|j|☆IDKaname1
+|j|☆Silver5310
+|player|p1|IDKaname1|whitney|1051
+|player|p2|Silver5310|rancher|1078
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Dracovish|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Ribombee, M|
+|poke|p1|Corviknight, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Dracozolt|
+|poke|p2|Malamar, M|
+|poke|p2|Grimmsnarl, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|switch|p2a: Gremlin|Grimmsnarl, M|100/100
+|turn|1
+|
+|move|p2a: Gremlin|Trick|p1a: Corsola
+|-activate|p2a: Gremlin|move: Trick|[of] p1a: Corsola
+|-item|p1a: Corsola|Choice Band|[from] move: Trick
+|-item|p2a: Gremlin|Eviolite|[from] move: Trick
+|move|p1a: Corsola|Stealth Rock|p2a: Gremlin
+|-sidestart|p2: Silver5310|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|move|p2a: Gremlin|Taunt|p1a: Ribombee
+|-start|p1a: Ribombee|move: Taunt
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Gremlin|Thunder Wave|p1a: Ribombee
+|-status|p1a: Ribombee|par
+|move|p1a: Ribombee|Moonblast|p2a: Gremlin
+|-supereffective|p2a: Gremlin
+|-damage|p2a: Gremlin|0 fnt
+|faint|p2a: Gremlin
+|
+|upkeep
+|
+|switch|p2a: Sprinty|Cinderace, F|100/100
+|turn|4
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|move|p2a: Sprinty|Pyro Ball|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|86/100
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Sprinty|U-turn|p1a: Dracovish
+|-damage|p1a: Dracovish|61/100
+|
+|switch|p2a: Annoying|Corsola-Galar, F|100/100|[from]move: U-turn
+|-damage|p2a: Annoying|88/100|[from] Stealth Rock
+|move|p1a: Dracovish|Fishious Rend|p2a: Annoying
+|-crit|p2a: Annoying
+|-damage|p2a: Annoying|0 fnt
+|faint|p2a: Annoying
+|
+|upkeep
+|
+|switch|p2a: Bang-Bang|Dragapult, F|100/100
+|-damage|p2a: Bang-Bang|88/100|[from] Stealth Rock
+|turn|6
+|
+|move|p2a: Bang-Bang|Dragon Darts|p1a: Dracovish
+|-supereffective|p1a: Dracovish
+|-damage|p1a: Dracovish|14/100
+|-supereffective|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|-hitcount|p1a: Dracovish|2
+|faint|p1a: Dracovish
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|7
+|
+|move|p2a: Bang-Bang|Sucker Punch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|44/100
+|move|p1a: Dragapult|Draco Meteor|p2a: Bang-Bang
+|-supereffective|p2a: Bang-Bang
+|-damage|p2a: Bang-Bang|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Bang-Bang
+|
+|upkeep
+|
+|switch|p2a: Sprinty|Cinderace, F|100/100
+|turn|8
+|
+|move|p2a: Sprinty|Sucker Punch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|turn|9
+|
+|move|p2a: Sprinty|Pyro Ball|p1a: Corsola
+|-damage|p1a: Corsola|58/100
+|move|p1a: Corsola|Will-O-Wisp|p2a: Sprinty
+|-immune|p2a: Sprinty
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|-item|p2a: Sprinty|Heavy-Duty Boots|[from] ability: Frisk|[of] p1a: Grimmsnarl|[identify]
+|move|p2a: Sprinty|U-turn|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|72/100
+|
+|switch|p2a: Squid|Malamar, M|100/100|[from]move: U-turn
+|-damage|p2a: Squid|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Squid|94/100|[from] item: Leftovers
+|-heal|p1a: Grimmsnarl|78/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Squid|Destiny Bond|p2a: Squid
+|-singlemove|p2a: Squid|Destiny Bond
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|
+|-heal|p2a: Squid|99/100|[from] item: Leftovers
+|-heal|p1a: Grimmsnarl|84/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Squid|Superpower|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|59/100
+|-boost|p2a: Squid|atk|1
+|-boost|p2a: Squid|def|1
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|
+|-heal|p2a: Squid|100/100|[from] item: Leftovers
+|-heal|p1a: Grimmsnarl|65/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Squid|Superpower|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|37/100
+|-boost|p2a: Squid|atk|1
+|-boost|p2a: Squid|def|1
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Squid
+|-supereffective|p2a: Squid
+|-damage|p2a: Squid|12/100
+|-boost|p2a: Squid|spa|1
+|
+|-heal|p2a: Squid|18/100|[from] item: Leftovers
+|-heal|p1a: Grimmsnarl|43/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Squid|Superpower|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|6/100
+|-boost|p2a: Squid|atk|1
+|-boost|p2a: Squid|def|1
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Squid
+|-supereffective|p2a: Squid
+|-damage|p2a: Squid|0 fnt
+|faint|p2a: Squid
+|
+|-heal|p1a: Grimmsnarl|12/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Sprinty|Cinderace, F|100/100
+|turn|15
+|
+|move|p2a: Sprinty|U-turn|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|switch|p2a: Bird... draco?|Dracozolt|100/100|[from]move: U-turn
+|-damage|p2a: Bird... draco?|88/100|[from] Stealth Rock
+|
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, F|58/100
+|turn|16
+|
+|move|p2a: Bird... draco?|Bolt Beak|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|upkeep
+|
+|switch|p1a: Ribombee|Ribombee, M|100/100 par
+|turn|17
+|
+|move|p2a: Bird... draco?|Bolt Beak|p1a: Ribombee|[miss]
+|-miss|p2a: Bird... draco?|p1a: Ribombee
+|-enditem|p2a: Bird... draco?|Blunder Policy
+|-boost|p2a: Bird... draco?|spe|2
+|move|p1a: Ribombee|Moonblast|p2a: Bird... draco?
+|-supereffective|p2a: Bird... draco?
+|-damage|p2a: Bird... draco?|0 fnt
+|faint|p2a: Bird... draco?
+|
+|upkeep
+|
+|switch|p2a: Sprinty|Cinderace, F|100/100
+|turn|18
+|
+|move|p2a: Sprinty|Pyro Ball|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-enditem|p1a: Ribombee|Focus Sash
+|-damage|p1a: Ribombee|1/100 par
+|cant|p1a: Ribombee|par
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Sprinty|U-turn|p1a: Ribombee
+|-resisted|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|upkeep
+|c|☆IDKaname1|gg I can't win
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|20
+|
+|move|p2a: Sprinty|Pyro Ball|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|10/100
+|move|p1a: Corviknight|Brave Bird|p2a: Sprinty
+|-damage|p2a: Sprinty|50/100
+|-damage|p1a: Corviknight|0 fnt|[from] Recoil
+|faint|p1a: Corviknight
+|
+|win|Silver5310
+|l|☆IDKaname1
+|raw|IDKaname1's rating: 1051 → 1035(-16 for losing)
+|raw|Silver5310's rating: 1078 → 1104(+26 for winning)

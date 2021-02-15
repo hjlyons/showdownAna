@@ -1,0 +1,239 @@
+|ScrapeTime|2020-01-03-01:04:29
+|j|☆B00tL3g
+|j|☆scf
+|player|p1|B00tL3g|unknown|1116
+|player|p2|scf|265|1136
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Cofagrigus, M|
+|poke|p1|Crawdaunt, M|
+|poke|p1|Dugtrio, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Araquanid, F|
+|poke|p2|Toxicroak, F|
+|poke|p2|Chandelure, M|
+|poke|p2|Gardevoir, F|
+|poke|p2|Skuntank, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Eldegoss, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|
+|switch|p2a: Eldegoss|Eldegoss, F|100/100
+|move|p1a: Excadrill|Earthquake|p2a: Eldegoss
+|-resisted|p2a: Eldegoss
+|-damage|p2a: Eldegoss|78/100
+|-enditem|p2a: Eldegoss|Red Card|[of] p1a: Excadrill
+|drag|p1a: Araquanid|Araquanid, F|100/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Eldegoss|Leech Seed|p1a: Araquanid
+|-start|p1a: Araquanid|move: Leech Seed
+|move|p1a: Araquanid|Substitute|p1a: Araquanid
+|-start|p1a: Araquanid|Substitute
+|-damage|p1a: Araquanid|76/100
+|
+|-heal|p1a: Araquanid|82/100|[from] item: Leftovers
+|-damage|p1a: Araquanid|69/100|[from] Leech Seed|[of] p2a: Eldegoss
+|-heal|p2a: Eldegoss|89/100|[silent]
+|upkeep
+|turn|3
+|
+|switch|p2a: Toxicroak|Toxicroak, F|100/100
+|move|p1a: Araquanid|Sticky Web|p2a: Toxicroak
+|-sidestart|p2: scf|move: Sticky Web
+|
+|-heal|p1a: Araquanid|76/100|[from] item: Leftovers
+|-damage|p1a: Araquanid|63/100|[from] Leech Seed|[of] p2a: Toxicroak
+|upkeep
+|turn|4
+|
+|switch|p1a: Cofagrigus|Cofagrigus, M|100/100
+|move|p2a: Toxicroak|Substitute|p2a: Toxicroak
+|-start|p2a: Toxicroak|Substitute
+|-damage|p2a: Toxicroak|76/100
+|
+|-heal|p2a: Toxicroak|82/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|move|p2a: Toxicroak|Bulk Up|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|1
+|-boost|p2a: Toxicroak|def|1
+|move|p1a: Cofagrigus|Hex|p2a: Toxicroak
+|-end|p2a: Toxicroak|Substitute
+|
+|-heal|p2a: Toxicroak|88/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by B00tL3g)
+|
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|-activate|p2a: Chandelure|move: Sticky Web
+|-unboost|p2a: Chandelure|spe|1
+|-enditem|p2a: Chandelure|Eject Pack
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Cofagrigus|Haze|p1a: Cofagrigus
+|-clearallboost
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|75/100
+|
+|switch|p2a: Eldegoss|Eldegoss, F|100/100|[from]move: Volt Switch
+|-activate|p2a: Eldegoss|move: Sticky Web
+|-unboost|p2a: Eldegoss|spe|1
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Cofagrigus|Cofagrigus, M|100/100
+|move|p2a: Eldegoss|Leech Seed|p1a: Cofagrigus
+|-start|p1a: Cofagrigus|move: Leech Seed
+|
+|-damage|p1a: Cofagrigus|88/100|[from] Leech Seed|[of] p2a: Eldegoss
+|upkeep
+|turn|9
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|75/100
+|move|p2a: Eldegoss|Light Screen|p2a: Eldegoss
+|-sidestart|p2: scf|move: Light Screen
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Eldegoss
+|-status|p2a: Eldegoss|par
+|cant|p2a: Eldegoss|par
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: B00tL3g|move: Light Screen
+|move|p2a: Eldegoss|Rapid Spin|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|70/100
+|-sideend|p2: scf|Sticky Web|[from] move: Rapid Spin|[of] p2a: Eldegoss
+|-boost|p2a: Eldegoss|spe|1
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: B00tL3g|Reflect
+|cant|p2a: Eldegoss|par
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Eldegoss
+|-damage|p2a: Eldegoss|75/100 par
+|-unboost|p2a: Eldegoss|spa|1
+|move|p2a: Eldegoss|Leech Seed|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|move: Leech Seed
+|
+|-damage|p1a: Grimmsnarl|57/100|[from] Leech Seed|[of] p2a: Eldegoss
+|-heal|p2a: Eldegoss|90/100 par|[silent]
+|-sideend|p2: scf|move: Light Screen
+|upkeep
+|turn|14
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|cant|p2a: Eldegoss|par
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Eldegoss|Leech Seed|p1a: Excadrill
+|-start|p1a: Excadrill|move: Leech Seed
+|
+|-damage|p1a: Excadrill|88/100|[from] Leech Seed|[of] p2a: Eldegoss
+|-heal|p2a: Eldegoss|100/100 par|[silent]
+|upkeep
+|turn|16
+|
+|move|p1a: Excadrill|Iron Head|p2a: Eldegoss
+|-damage|p2a: Eldegoss|26/100 par
+|move|p2a: Eldegoss|Giga Drain|p1a: Excadrill
+|-damage|p1a: Excadrill|79/100
+|-heal|p2a: Eldegoss|32/100 par|[from] drain|[of] p1a: Excadrill
+|
+|-damage|p1a: Excadrill|66/100|[from] Leech Seed|[of] p2a: Eldegoss
+|-heal|p2a: Eldegoss|46/100 par|[silent]
+|upkeep
+|turn|17
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Excadrill|Iron Head|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|74/100
+|
+|-damage|p1a: Excadrill|54/100|[from] Leech Seed|[of] p2a: Rotom
+|-heal|p2a: Rotom|93/100|[silent]
+|upkeep
+|turn|18
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-sideend|p1: B00tL3g|move: Light Screen
+|upkeep
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|turn|19
+|
+|switch|p2a: Eldegoss|Eldegoss, F|79/100 par
+|move|p1a: Crawdaunt|Dragon Dance|p1a: Crawdaunt
+|-boost|p1a: Crawdaunt|atk|1
+|-boost|p1a: Crawdaunt|spe|1
+|
+|-sideend|p1: B00tL3g|Reflect
+|upkeep
+|turn|20
+|
+|move|p1a: Crawdaunt|Knock Off|p2a: Eldegoss
+|-damage|p2a: Eldegoss|26/100 par
+|move|p2a: Eldegoss|Giga Drain|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|12/100
+|-heal|p2a: Eldegoss|63/100 par|[from] drain|[of] p1a: Crawdaunt
+|-enditem|p1a: Crawdaunt|Figy Berry|[eat]
+|-heal|p1a: Crawdaunt|45/100|[from] item: Figy Berry
+|
+|upkeep
+|turn|21
+|-message|B00tL3g forfeited.
+|
+|win|scf
+|l|☆B00tL3g
+|raw|B00tL3g's rating: 1117 → 1091(-26 for losing)
+|raw|scf's rating: 1112 → 1138(+26 for winning)

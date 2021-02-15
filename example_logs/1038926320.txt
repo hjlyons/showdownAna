@@ -1,0 +1,441 @@
+|ScrapeTime|2020-01-01-00:56:31
+|j|☆Eltoras
+|j|☆Aakanch
+|player|p1|Eltoras|blue|1000
+|player|p2|Aakanch|veteran|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Togekiss, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Tyranitar, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Aegislash, F|
+|poke|p2|Dracovish|
+|poke|p2|Ditto|
+|poke|p2|Toxapex, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Gengar, F|
+|poke|p2|Sylveon, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Krillin|Rotom-Wash|100/100
+|switch|p2a: Gengar|Gengar, F|100/100
+|turn|1
+|
+|switch|p1a: Cortos|Mandibuzz, F|100/100
+|move|p2a: Gengar|Shadow Ball|p1a: Cortos
+|-resisted|p1a: Cortos
+|-damage|p1a: Cortos|80/100
+|-unboost|p1a: Cortos|spd|1
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Cortos|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|81/100
+|-enditem|p2a: Toxapex|Black Sludge|[from] move: Knock Off|[of] p1a: Cortos
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Cortos|Roost|p1a: Cortos
+|-heal|p1a: Cortos|100/100
+|-singleturn|p1a: Cortos|move: Roost
+|move|p2a: Toxapex|Toxic Spikes|p1a: Cortos
+|-sidestart|p1: Eltoras|move: Toxic Spikes
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Cortos|Defog|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Cortos|Defog|p2a: Corviknight
+|-unboost|p2a: Corviknight|evasion|1
+|-sideend|p1: Eltoras|Toxic Spikes|[from] move: Defog|[of] p1a: Cortos
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Ganondorf|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Ganondorf
+|move|p2a: Corviknight|U-turn|p1a: Ganondorf
+|-supereffective|p1a: Ganondorf
+|-damage|p1a: Ganondorf|77/100
+|
+|switch|p2a: Dracovish|Dracovish|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dracovish|94/100|[from] Sandstorm
+|-heal|p1a: Ganondorf|83/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Krillin|Rotom-Wash|100/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Krillin
+|-resisted|p1a: Krillin
+|-damage|p1a: Krillin|20/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Krillin|13/100|[from] Sandstorm
+|-damage|p2a: Dracovish|88/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|move|p1a: Krillin|Volt Switch|p2a: Dracovish
+|-damage|p2a: Dracovish|46/100
+|
+|switch|p1a: Arthas|Aegislash, F|100/100|[from]move: Volt Switch
+|move|p2a: Dracovish|Fishious Rend|p1a: Arthas
+|-damage|p1a: Arthas|4/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dracovish|40/100|[from] Sandstorm
+|-heal|p1a: Arthas|10/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Arthas|King's Shield||[still]
+|-fail|p1a: Arthas
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|94/100|[from] Sandstorm
+|-heal|p1a: Arthas|16/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Dwouie|Togekiss, M|100/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Dwouie
+|-sidestart|p1: Eltoras|move: Toxic Spikes
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Dwouie|Substitute|p1a: Dwouie
+|-start|p1a: Dwouie|Substitute
+|-damage|p1a: Dwouie|76/100
+|
+|-heal|p1a: Dwouie|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Sylveon|Sylveon, F|100/100
+|move|p1a: Dwouie|Nasty Plot|p1a: Dwouie
+|-boost|p1a: Dwouie|spa|2
+|
+|-heal|p1a: Dwouie|88/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Dwouie|Air Slash|p2a: Sylveon
+|-damage|p2a: Sylveon|64/100
+|cant|p2a: Sylveon|flinch
+|
+|-heal|p1a: Dwouie|94/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|70/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Dwouie|Air Slash|p2a: Sylveon
+|-damage|p2a: Sylveon|30/100
+|cant|p2a: Sylveon|flinch
+|
+|-heal|p1a: Dwouie|99/100|[from] item: Leftovers
+|-heal|p2a: Sylveon|36/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dwouie|Air Slash|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|63/100
+|
+|-heal|p1a: Dwouie|100/100|[from] item: Leftovers
+|-heal|p2a: Corviknight|70/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Dwouie|Air Slash|p2a: Corviknight|[miss]
+|-miss|p1a: Dwouie|p2a: Corviknight
+|move|p2a: Corviknight|Brave Bird|p1a: Dwouie
+|-end|p1a: Dwouie|Substitute
+|-damage|p2a: Corviknight|63/100|[from] Recoil|[of] p1a: Dwouie
+|
+|-heal|p2a: Corviknight|70/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Dwouie|Substitute|p1a: Dwouie
+|-start|p1a: Dwouie|Substitute
+|-damage|p1a: Dwouie|76/100
+|move|p2a: Corviknight|Brave Bird|p1a: Dwouie
+|-end|p1a: Dwouie|Substitute
+|-damage|p2a: Corviknight|63/100|[from] Recoil|[of] p1a: Dwouie
+|
+|-heal|p1a: Dwouie|82/100|[from] item: Leftovers
+|-heal|p2a: Corviknight|70/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Dwouie|Air Slash|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|31/100
+|cant|p2a: Corviknight|flinch
+|
+|-heal|p1a: Dwouie|88/100|[from] item: Leftovers
+|-heal|p2a: Corviknight|37/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Dwouie|Air Slash|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-heal|p1a: Dwouie|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Dwouie|[from] ability: Imposter
+|turn|20
+|
+|move|p2a: Ditto|Substitute|p2a: Ditto
+|-start|p2a: Ditto|Substitute
+|-damage|p2a: Ditto|75/100
+|move|p1a: Dwouie|Air Slash|p2a: Ditto|[miss]
+|-miss|p1a: Dwouie|p2a: Ditto
+|
+|-heal|p1a: Dwouie|99/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Dwouie|Air Slash|p2a: Gengar
+|-enditem|p2a: Gengar|Focus Sash
+|-damage|p2a: Gengar|1/100
+|-start|p1a: Dwouie|Disable|Air Slash|[from] ability: Cursed Body|[of] p2a: Gengar
+|
+|-heal|p1a: Dwouie|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Gengar|Sludge Wave|p1a: Dwouie
+|-supereffective|p1a: Dwouie
+|-damage|p1a: Dwouie|0 fnt
+|faint|p1a: Dwouie
+|
+|upkeep
+|
+|switch|p1a: Arthas|Aegislash, F|16/100
+|turn|23
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Arthas
+|-supereffective|p1a: Arthas
+|-damage|p1a: Arthas|0 fnt
+|faint|p1a: Arthas
+|
+|upkeep
+|
+|switch|p1a: Krillin|Rotom-Wash|13/100
+|turn|24
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Krillin|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|57/100
+|
+|switch|p1a: Cortos|Mandibuzz, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Cortos|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|43/100
+|move|p2a: Toxapex|Scald|p1a: Cortos
+|-damage|p1a: Cortos|86/100
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Cortos|Defog|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Cortos|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|30/100
+|move|p2a: Toxapex|Scald|p1a: Cortos
+|-damage|p1a: Cortos|72/100
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Krillin|Rotom-Wash|13/100
+|move|p2a: Toxapex|Baneful Bunker||[still]
+|-fail|p2a: Toxapex
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Krillin|Volt Switch|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|upkeep
+|turn|30
+|
+|switch|p2a: Ditto|Ditto|75/100
+|-transform|p2a: Ditto|p1a: Krillin|[from] ability: Imposter
+|move|p1a: Krillin|Volt Switch|p2a: Ditto
+|-damage|p2a: Ditto|38/100
+|
+|switch|p1a: Ganondorf|Tyranitar, M|83/100|[from]move: Volt Switch
+|-status|p1a: Ganondorf|psn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Ganondorf
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ditto|32/100|[from] Sandstorm
+|-heal|p1a: Ganondorf|89/100 psn|[from] item: Leftovers
+|-damage|p1a: Ganondorf|77/100 psn|[from] psn
+|upkeep
+|turn|31
+|
+|move|p2a: Ditto|Hydro Pump|p1a: Ganondorf
+|-supereffective|p1a: Ganondorf
+|-damage|p1a: Ganondorf|36/100 psn
+|move|p1a: Ganondorf|Stealth Rock|p2a: Ditto
+|-sidestart|p2: Aakanch|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ditto|26/100|[from] Sandstorm
+|-heal|p1a: Ganondorf|42/100 psn|[from] item: Leftovers
+|-damage|p1a: Ganondorf|30/100 psn|[from] psn
+|upkeep
+|turn|32
+|
+|switch|p1a: Cortos|Mandibuzz, F|72/100
+|move|p2a: Ditto|Hydro Pump|p1a: Cortos|[miss]
+|-miss|p2a: Ditto|p1a: Cortos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ditto|20/100|[from] Sandstorm
+|upkeep
+|turn|33
+|
+|move|p2a: Ditto|Hydro Pump|p1a: Cortos|[miss]
+|-miss|p2a: Ditto|p1a: Cortos
+|move|p1a: Cortos|Roost|p1a: Cortos
+|-heal|p1a: Cortos|100/100
+|-singleturn|p1a: Cortos|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ditto|15/100|[from] Sandstorm
+|upkeep
+|turn|34
+|
+|move|p2a: Ditto|Hydro Pump|p1a: Cortos
+|-damage|p1a: Cortos|56/100
+|move|p1a: Cortos|Knock Off|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|-enditem|p2a: Ditto|Choice Scarf|[from] move: Knock Off|[of] p1a: Cortos
+|faint|p2a: Ditto
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|40/100
+|-damage|p2a: Dracovish|27/100|[from] Stealth Rock
+|turn|35
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Cortos
+|-damage|p1a: Cortos|0 fnt
+|faint|p1a: Cortos
+|
+|upkeep
+|
+|switch|p1a: Krillin|Rotom-Wash|13/100
+|turn|36
+|
+|move|p1a: Krillin|Volt Switch|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|switch|p1a: Ganondorf|Tyranitar, M|30/100 psn|[from]move: Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Ganondorf
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ganondorf|36/100 psn|[from] item: Leftovers
+|-damage|p1a: Ganondorf|24/100 psn|[from] psn
+|upkeep
+|
+|switch|p2a: Sylveon|Sylveon, F|36/100
+|-damage|p2a: Sylveon|24/100|[from] Stealth Rock
+|turn|37
+|
+|move|p1a: Ganondorf|Earthquake|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|faint|p2a: Sylveon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ganondorf|30/100 psn|[from] item: Leftovers
+|-damage|p1a: Ganondorf|18/100 psn|[from] psn
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|63/100
+|-damage|p2a: Toxapex|51/100|[from] Stealth Rock
+|turn|38
+|
+|move|p1a: Ganondorf|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|5/100
+|move|p2a: Toxapex|Scald|p1a: Ganondorf
+|-supereffective|p1a: Ganondorf
+|-damage|p1a: Ganondorf|4/100 psn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|0 fnt|[from] Sandstorm
+|faint|p2a: Toxapex
+|-heal|p1a: Ganondorf|10/100 psn|[from] item: Leftovers
+|-damage|p1a: Ganondorf|0 fnt|[from] psn
+|faint|p1a: Ganondorf
+|upkeep
+|
+|switch|p1a: Krillin|Rotom-Wash|13/100
+|switch|p2a: Gengar|Gengar, F|1/100
+|-damage|p2a: Gengar|0 fnt|[from] Stealth Rock
+|faint|p2a: Gengar
+|
+|win|Eltoras
+|raw|Eltoras's rating: 1000 → 1040(+40 for winning)
+|raw|Aakanch's rating: 1000 → 1000(+0 for losing)

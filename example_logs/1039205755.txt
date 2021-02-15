@@ -1,0 +1,332 @@
+|ScrapeTime|2020-01-01-17:25:21
+|j|☆JK41
+|j|☆SuperBilly115
+|player|p1|JK41|265|1439
+|player|p2|SuperBilly115|1|1390
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Kommo-o, M|
+|poke|p1|Gyarados, M|
+|poke|p1|Chandelure, F|
+|poke|p1|Seismitoad, F|
+|poke|p1|Vileplume, F|
+|poke|p1|Morpeko, F|
+|poke|p2|Dracovish|
+|poke|p2|Gengar, M|
+|poke|p2|Rotom-Mow|
+|poke|p2|Sylveon, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Toxapex, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Chandelure|Chandelure, F|100/100
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|turn|1
+|
+|move|p2a: Rotom|Volt Switch|p1a: Chandelure
+|-damage|p1a: Chandelure|55/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JK41)
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100|[from]move: Volt Switch
+|move|p1a: Chandelure|Shadow Ball|p2a: Sylveon
+|-damage|p2a: Sylveon|78/100
+|-unboost|p2a: Sylveon|spd|1
+|
+|-heal|p2a: Sylveon|85/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|80/100
+|
+|-heal|p2a: Sylveon|91/100|[from] item: Leftovers
+|-heal|p1a: Vileplume|87/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|move|p1a: Vileplume|Sludge Wave|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|80/100
+|-start|p1a: Vileplume|Disable|Sludge Wave|[from] ability: Cursed Body|[of] p2a: Gengar
+|
+|-heal|p1a: Vileplume|93/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|move|p1a: Vileplume|Sleep Powder|p2a: Rotom
+|-immune|p2a: Rotom
+|
+|-heal|p1a: Vileplume|99/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|move|p2a: Rotom|Trick|p1a: Vileplume
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Vileplume
+|-item|p1a: Vileplume|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Black Sludge|[from] move: Trick
+|move|p1a: Vileplume|Moonblast|p2a: Rotom
+|-damage|p2a: Rotom|59/100
+|-unboost|p2a: Rotom|spa|1
+|
+|-damage|p2a: Rotom|46/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|switch|p2a: Sylveon|Sylveon, M|91/100
+|move|p1a: Vileplume|Moonblast|p2a: Sylveon
+|-crit|p2a: Sylveon
+|-damage|p2a: Sylveon|67/100
+|
+|-heal|p2a: Sylveon|73/100|[from] item: Leftovers
+|-end|p1a: Vileplume|Disable
+|upkeep
+|turn|7
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|79/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Rotom|Rotom-Mow|46/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Rotom
+|-sidestart|p2: SuperBilly115|move: Stealth Rock
+|
+|-heal|p2a: Rotom|100/100|[from] move: Wish|[wisher] Sylveon
+|-damage|p2a: Rotom|88/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|switch|p1a: Vileplume|Vileplume, F|99/100
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|
+|-damage|p2a: Rotom|76/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|move|p2a: Rotom|Volt Switch|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|68/100
+|
+|switch|p2a: Sylveon|Sylveon, M|79/100|[from]move: Volt Switch
+|-damage|p2a: Sylveon|67/100|[from] Stealth Rock
+|move|p1a: Vileplume|Sludge Wave|p2a: Sylveon
+|-supereffective|p2a: Sylveon
+|-damage|p2a: Sylveon|13/100
+|
+|-heal|p2a: Sylveon|20/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Vileplume|Sludge Wave|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p2a: Sylveon|26/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Vileplume|Sludge Wave|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|69/100
+|
+|-heal|p2a: Toxapex|75/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Toxapex|Scald|p1a: Seismitoad
+|-immune|p1a: Seismitoad|[from] ability: Water Absorb
+|
+|-heal|p2a: Toxapex|82/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p1a: Seismitoad|Toxic|p2a: Toxapex
+|-immune|p2a: Toxapex
+|move|p2a: Toxapex|Toxic|p1a: Seismitoad
+|-status|p1a: Seismitoad|tox
+|
+|-heal|p2a: Toxapex|88/100|[from] item: Black Sludge
+|-damage|p1a: Seismitoad|94/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p1a: Vileplume|Vileplume, F|68/100
+|switch|p2a: Rotom|Rotom-Mow|76/100
+|-damage|p2a: Rotom|63/100|[from] Stealth Rock
+|
+|-damage|p2a: Rotom|51/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p2a: Rotom|Volt Switch|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|52/100
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Vileplume|Sludge Wave|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|69/100
+|
+|-heal|p2a: Toxapex|75/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|switch|p1a: Seismitoad|Seismitoad, F|94/100 tox
+|switch|p2a: Sylveon|Sylveon, M|26/100
+|-damage|p2a: Sylveon|13/100|[from] Stealth Rock
+|
+|-heal|p1a: Seismitoad|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Sylveon|19/100|[from] item: Leftovers
+|-damage|p1a: Seismitoad|94/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|move|p1a: Seismitoad|Toxic|p2a: Sylveon
+|-status|p2a: Sylveon|tox
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p1a: Seismitoad|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Sylveon|25/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|88/100 tox|[from] psn
+|-damage|p2a: Sylveon|19/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Gyarados
+|-damage|p1a: Gyarados|60/100
+|
+|-heal|p2a: Sylveon|69/100 tox|[from] move: Wish|[wisher] Sylveon
+|-heal|p2a: Sylveon|75/100 tox|[from] item: Leftovers
+|-damage|p2a: Sylveon|63/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p1a: Gyarados|Waterfall|p2a: Sylveon
+|-damage|p2a: Sylveon|8/100 tox
+|move|p2a: Sylveon|Hyper Voice|p1a: Gyarados
+|-damage|p1a: Gyarados|18/100
+|
+|-heal|p2a: Sylveon|14/100 tox|[from] item: Leftovers
+|-damage|p2a: Sylveon|0 fnt|[from] psn
+|faint|p2a: Sylveon
+|upkeep
+|inactive|SuperBilly115 has 120 seconds left.
+|inactive|SuperBilly115 has 90 seconds left.
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|21
+|
+|switch|p1a: Seismitoad|Seismitoad, F|88/100 tox
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|
+|-heal|p1a: Seismitoad|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|88/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: Seismitoad|Toxic|p2a: Dragapult
+|-status|p2a: Dragapult|tox
+|-enditem|p2a: Dragapult|Lum Berry|[eat]
+|-curestatus|p2a: Dragapult|tox|[msg]
+|
+|-heal|p1a: Seismitoad|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|82/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Seismitoad
+|-damage|p1a: Seismitoad|23/100 tox
+|-damage|p1a: Seismitoad|0 fnt
+|-hitcount|p1a: Seismitoad|2
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Morpeko|Morpeko, F|100/100
+|turn|24
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Morpeko
+|-damage|p1a: Morpeko|0 fnt
+|-hitcount|p1a: Morpeko|1
+|faint|p1a: Morpeko
+|
+|upkeep
+|
+|switch|p1a: Vileplume|Vileplume, F|52/100
+|turn|25
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|-hitcount|p1a: Vileplume|1
+|faint|p1a: Vileplume
+|
+|upkeep
+|
+|switch|p1a: Chandelure|Chandelure, F|55/100
+|turn|26
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|-hitcount|p1a: Chandelure|1
+|faint|p1a: Chandelure
+|
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|turn|27
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|2/100
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|-hitcount|p1a: Kommo-o|2
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, M|18/100
+|turn|28
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|-hitcount|p1a: Gyarados|1
+|faint|p1a: Gyarados
+|
+|win|SuperBilly115
+|l|☆JK41
+|c|☆SuperBilly115|gg
+|raw|JK41's rating: 1439 → 1416(-23 for losing)
+|raw|SuperBilly115's rating: 1391 → 1414(+23 for winning)

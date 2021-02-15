@@ -1,0 +1,214 @@
+|ScrapeTime|2020-01-02-01:14:55
+|j|☆OhShitImIn
+|j|☆schwipper
+|player|p1|OhShitImIn|nanu|
+|player|p2|schwipper|2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Rillaboom, M|
+|poke|p1|Inteleon, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Togedemaru, F|
+|poke|p1|Vikavolt, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Dragapult, M|
+|poke|p2|Bisharp, M|
+|poke|p2|Dugtrio, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|turn|1
+|
+|move|p1a: Dragapult|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|83/100
+|
+|switch|p1a: Rillaboom|Rillaboom, M|100/100|[from]move: U-turn
+|move|p2a: Seismitoad|Stealth Rock|p1a: Rillaboom
+|-sidestart|p1: OhShitImIn|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|89/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Rillaboom|U-turn|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|80/100
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from]move: U-turn
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Rotom
+|-damage|p2a: Rotom|53/100
+|-damage|p2a: Rotom|22/100
+|-hitcount|p2a: Rotom|2
+|move|p2a: Rotom|Will-O-Wisp|p1a: Dragapult
+|-status|p1a: Dragapult|brn
+|
+|-damage|p1a: Dragapult|82/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Cinderace
+|-damage|p1a: Cinderace|62/100
+|
+|switch|p2a: Dugtrio|Dugtrio, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Stealth Rock
+|turn|6
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Rillaboom|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|92/100
+|
+|switch|p1a: Togedemaru|Togedemaru, F|100/100|[from]move: U-turn
+|-damage|p1a: Togedemaru|95/100|[from] Stealth Rock
+|
+|-heal|p2a: Corviknight|98/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Togedemaru|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|94/100
+|
+|switch|p1a: Dragapult|Dragapult, F|82/100 brn|[from]move: U-turn
+|-damage|p1a: Dragapult|70/100 brn|[from] Stealth Rock
+|move|p2a: Corviknight|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|60/100 brn
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100|[from]move: U-turn
+|
+|-damage|p1a: Dragapult|54/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p1a: Dragapult|U-turn|p2a: Bisharp
+|-damage|p2a: Bisharp|84/100
+|
+|switch|p1a: Vikavolt|Vikavolt, M|100/100|[from]move: U-turn
+|-damage|p1a: Vikavolt|76/100|[from] Stealth Rock
+|move|p2a: Bisharp|Throat Chop|p1a: Vikavolt
+|-damage|p1a: Vikavolt|13/100
+|-start|p1a: Vikavolt|Throat Chop|[silent]
+|-damage|p2a: Bisharp|74/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Vikavolt
+|-damage|p1a: Vikavolt|0 fnt
+|-damage|p2a: Bisharp|64/100|[from] item: Life Orb
+|faint|p1a: Vikavolt
+|
+|upkeep
+|
+|switch|p1a: Rillaboom|Rillaboom, M|88/100
+|-damage|p1a: Rillaboom|76/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p2a: Rotom|Rotom-Heat|22/100
+|move|p1a: Rillaboom|U-turn|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|switch|p1a: Inteleon|Inteleon, F|100/100|[from]move: U-turn
+|-damage|p1a: Inteleon|88/100|[from] Stealth Rock
+|
+|upkeep
+|
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|turn|11
+|
+|move|p1a: Inteleon|U-turn|p2a: Dugtrio
+|-damage|p2a: Dugtrio|62/100
+|
+|switch|p1a: Rillaboom|Rillaboom, M|76/100|[from]move: U-turn
+|-damage|p1a: Rillaboom|64/100|[from] Stealth Rock
+|move|p2a: Dugtrio|Earthquake|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|41/100
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Corviknight|Corviknight, F|94/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Rillaboom|Drum Beating|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|80/100
+|-unboost|p2a: Corviknight|spe|1
+|
+|-heal|p2a: Corviknight|86/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Dragapult|Dragapult, F|54/100 brn
+|-damage|p1a: Dragapult|42/100 brn|[from] Stealth Rock
+|move|p2a: Corviknight|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|32/100 brn
+|
+|switch|p2a: Bisharp|Bisharp, M|64/100|[from]move: U-turn
+|
+|-damage|p1a: Dragapult|26/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p2a: Bisharp|54/100|[from] item: Life Orb
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Togedemaru|Togedemaru, F|95/100
+|-damage|p1a: Togedemaru|89/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Togedemaru
+|-damage|p1a: Togedemaru|0 fnt
+|-damage|p2a: Bisharp|44/100|[from] item: Life Orb
+|faint|p1a: Togedemaru
+|
+|upkeep
+|-message|OhShitImIn forfeited.
+|
+|win|schwipper
+|l|☆OhShitImIn

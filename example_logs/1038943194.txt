@@ -1,0 +1,318 @@
+|ScrapeTime|2020-01-01-01:38:45
+|j|☆VeganMark
+|j|☆ZobirisOfficial
+|player|p1|VeganMark|2|1124
+|player|p2|ZobirisOfficial|ghetsis|1137
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Polteageist|
+|poke|p1|Gyarados, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Clefable, F|
+|poke|p2|Shedinja|
+|poke|p2|Cinderace, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Weavile, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Dracovish|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by VeganMark)
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|move|p2a: Rotom|Trick|p1a: Dragapult
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Dragapult
+|-item|p1a: Dragapult|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Life Orb|[from] move: Trick
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Clefable
+|-status|p1a: Clefable|brn
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Rotom|Volt Switch|p1a: Clefable
+|-damage|p1a: Clefable|71/100 brn
+|-damage|p2a: Rotom|91/100|[from] item: Life Orb
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100|[from]move: Volt Switch
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Clefable|Thunderbolt|p2a: Excadrill
+|-immune|p2a: Excadrill
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Excadrill|Rapid Spin|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|92/100
+|-damage|p2a: Excadrill|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-boost|p2a: Excadrill|spe|1
+|-damage|p2a: Excadrill|78/100|[from] item: Life Orb
+|
+|-heal|p1a: Ferrothorn|98/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Rotom|Rotom-Wash|91/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Rotom
+|-start|p2a: Rotom|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p2a: Rotom|78/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|6
+|
+|move|p2a: Rotom|Trick|p1a: Ferrothorn
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Ferrothorn
+|-item|p1a: Ferrothorn|Life Orb|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|move|p1a: Ferrothorn|Body Press|p2a: Rotom
+|-damage|p2a: Rotom|33/100
+|-damage|p1a: Ferrothorn|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Rotom|39/100|[from] item: Leftovers
+|-damage|p2a: Rotom|27/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|7
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Cinderace
+|-status|p2a: Cinderace|par
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|61/100
+|-status|p1a: Dragapult|brn
+|
+|-damage|p1a: Dragapult|55/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Cinderace
+|cant|p2a: Cinderace|par
+|
+|-damage|p1a: Dragapult|49/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Dragapult|Phantom Force|p2a: Weavile|[from]lockedmove
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|82/100
+|
+|-damage|p1a: Dragapult|43/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Weavile|Ice Shard|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|80/100
+|-damage|p2a: Weavile|72/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Weavile|Low Kick|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|11/100
+|-damage|p2a: Weavile|60/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Weavile|50/100|[from] item: Life Orb
+|move|p1a: Ferrothorn|Leech Seed|p2a: Weavile
+|-start|p2a: Weavile|move: Leech Seed
+|
+|-damage|p2a: Weavile|37/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|23/100|[silent]
+|upkeep
+|turn|13
+|
+|switch|p1a: Clefable|Clefable, F|71/100 brn
+|move|p2a: Weavile|Icicle Crash|p1a: Clefable
+|-damage|p1a: Clefable|14/100 brn
+|-damage|p2a: Weavile|27/100|[from] item: Life Orb
+|
+|-damage|p2a: Weavile|15/100|[from] Leech Seed|[of] p1a: Clefable
+|-heal|p1a: Clefable|24/100 brn|[silent]
+|upkeep
+|turn|14
+|
+|move|p2a: Weavile|Icicle Crash|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|-damage|p2a: Weavile|5/100|[from] item: Life Orb
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Weavile|atk|1
+|turn|15
+|
+|switch|p2a: Rotom|Rotom-Wash|27/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-heal|p2a: Rotom|33/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Gyarados|Waterfall|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-damage|p1a: Gyarados|91/100|[from] item: Life Orb
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|17
+|j| veganBoyd
+|
+|move|p1a: Gyarados|Earthquake|p2a: Dracovish
+|-damage|p2a: Dracovish|33/100
+|-damage|p1a: Gyarados|81/100|[from] item: Life Orb
+|move|p2a: Dracovish|Fishious Rend|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|50/100
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Shedinja|Shedinja|100/100
+|move|p1a: Gyarados|Earthquake|p2a: Shedinja
+|-immune|p2a: Shedinja|[from] ability: Wonder Guard
+|
+|upkeep
+|turn|19
+|inactive|VeganMark has 120 seconds left.
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|23/100
+|switch|p2a: Dracovish|Dracovish|33/100
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Dracovish|20/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|21
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, M|50/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Dracovish|atk|1
+|turn|22
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|10/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Shedinja|Shedinja|100/100
+|move|p1a: Gyarados|Waterfall|p2a: Shedinja
+|-immune|p2a: Shedinja|[from] ability: Wonder Guard
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Shedinja|Shadow Sneak|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|switch|p1a: Polteageist|Polteageist|100/100
+|turn|25
+|inactive|ZobirisOfficial has 120 seconds left.
+|inactive|VeganMark has 120 seconds left.
+|
+|move|p2a: Shedinja|Shadow Sneak|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-damage|p1a: Polteageist|32/100
+|-ability|p1a: Polteageist|Weak Armor|boost
+|-unboost|p1a: Polteageist|def|1
+|-boost|p1a: Polteageist|spe|2
+|-enditem|p1a: Polteageist|White Herb
+|-clearnegativeboost|p1a: Polteageist|[silent]
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|
+|upkeep
+|turn|26
+|inactive|VeganMark has 120 seconds left.
+|
+|move|p2a: Shedinja|Shadow Sneak|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-crit|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|43/100 brn
+|turn|27
+|
+|move|p2a: Shedinja|Shadow Sneak|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|win|ZobirisOfficial
+|raw|VeganMark's rating: 1124 → 1100(-24 for losing)
+|raw|ZobirisOfficial's rating: 1137 → 1161(+24 for winning)
+|l|☆VeganMark

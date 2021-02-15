@@ -1,0 +1,379 @@
+|ScrapeTime|2020-01-03-01:16:31
+|j|☆Not_Watermelon
+|j|☆Heehoking
+|player|p1|Not_Watermelon|rosa|1079
+|player|p2|Heehoking|2|1044
+|teamsize|p1|3
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxtricity, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Milotic, F|
+|poke|p2|Dracovish|
+|poke|p2|Toxtricity, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Hydreigon, F|
+|poke|p2|Arcanine, M|
+|poke|p2|Ditto|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|move|p2a: Rotom|Volt Switch|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-crit|p1a: Toxtricity
+|-damage|p1a: Toxtricity|61/100
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100|[from]move: Volt Switch
+|move|p1a: Toxtricity|Boomburst|p2a: Hydreigon
+|-damage|p2a: Hydreigon|1/100
+|
+|-heal|p2a: Hydreigon|7/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Hydreigon|Draco Meteor|p1a: Milotic
+|-damage|p1a: Milotic|66/100
+|-unboost|p2a: Hydreigon|spa|2
+|
+|-heal|p2a: Hydreigon|13/100|[from] item: Leftovers
+|-heal|p1a: Milotic|72/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Hydreigon|U-turn|p1a: Milotic
+|-damage|p1a: Milotic|54/100
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|move|p2a: Rotom|Thunderbolt|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|77/100
+|
+|-heal|p1a: Hydreigon|83/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Hydreigon|Substitute|p1a: Hydreigon
+|-start|p1a: Hydreigon|Substitute
+|-damage|p1a: Hydreigon|58/100
+|move|p2a: Rotom|Hydro Pump|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-end|p1a: Hydreigon|Substitute
+|
+|-heal|p1a: Hydreigon|64/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|move|p2a: Rotom|Hydro Pump|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|36/100
+|
+|-heal|p1a: Hydreigon|42/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-heal|p1a: Hydreigon|48/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Hydreigon|[from] ability: Imposter
+|turn|8
+|
+|switch|p1a: Milotic|Milotic, F|100/100
+|move|p2a: Ditto|Flash Cannon|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|80/100
+|
+|-heal|p1a: Milotic|86/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|move|p1a: Milotic|Haze|p1a: Milotic
+|-clearallboost
+|
+|-heal|p1a: Milotic|92/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Hydreigon|Hydreigon, F|48/100
+|move|p2a: Toxtricity|Thunderbolt|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|20/100
+|
+|-heal|p1a: Hydreigon|26/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Toxtricity
+|-damage|p2a: Toxtricity|32/100
+|cant|p2a: Toxtricity|flinch
+|
+|-heal|p1a: Hydreigon|32/100|[from] item: Leftovers
+|-heal|p2a: Toxtricity|39/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Arcanine|Arcanine, M|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Hydreigon|atk|1
+|move|p1a: Hydreigon|Dark Pulse|p2a: Arcanine
+|-damage|p2a: Arcanine|49/100
+|
+|-heal|p1a: Hydreigon|38/100|[from] item: Leftovers
+|-heal|p2a: Arcanine|55/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|-heal|p1a: Hydreigon|44/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|14
+|
+|switch|p1a: Toxtricity|Toxtricity, M|61/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|-damage|p2a: Dracovish|91/100|[from] item: Life Orb
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|switch|p1a: Milotic|Milotic, F|92/100
+|turn|15
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|42/100
+|-damage|p2a: Dracovish|81/100|[from] item: Life Orb
+|move|p1a: Milotic|Ice Beam|p2a: Dracovish
+|-damage|p2a: Dracovish|52/100
+|
+|-heal|p1a: Milotic|48/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Dracovish|Crunch|p1a: Milotic
+|-damage|p1a: Milotic|16/100
+|-damage|p2a: Dracovish|42/100|[from] item: Life Orb
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|66/100
+|
+|-heal|p1a: Milotic|72/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Dracovish|Outrage|p1a: Milotic
+|-damage|p1a: Milotic|23/100
+|-damage|p2a: Dracovish|32/100|[from] item: Life Orb
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|73/100
+|
+|-heal|p1a: Milotic|79/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Dracovish|Outrage|p1a: Milotic|[from]lockedmove
+|-damage|p1a: Milotic|26/100
+|-damage|p2a: Dracovish|22/100|[from] item: Life Orb
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|76/100
+|
+|-heal|p1a: Milotic|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Dracovish|Outrage|p1a: Milotic|[from]lockedmove
+|-damage|p1a: Milotic|35/100
+|-damage|p2a: Dracovish|12/100|[from] item: Life Orb
+|-start|p2a: Dracovish|confusion|[fatigue]
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|85/100
+|
+|-heal|p1a: Milotic|91/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Toxtricity|Toxtricity, M|39/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100
+|
+|-heal|p2a: Toxtricity|45/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Hydreigon|Hydreigon, F|44/100
+|move|p2a: Toxtricity|Boomburst|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-heal|p2a: Toxtricity|51/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Milotic|Milotic, F|100/100
+|turn|22
+|
+|move|p1a: Milotic|Ice Beam|p2a: Toxtricity
+|-damage|p2a: Toxtricity|17/100
+|move|p2a: Toxtricity|Thunderbolt|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|33/100
+|
+|-heal|p1a: Milotic|39/100|[from] item: Leftovers
+|-heal|p2a: Toxtricity|24/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Milotic|Ice Beam|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|-heal|p1a: Milotic|45/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Milotic|[from] ability: Imposter
+|turn|24
+|
+|move|p2a: Ditto|Scald|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|35/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|85/100
+|
+|-heal|p1a: Milotic|91/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Dracovish|Dracovish|12/100
+|move|p1a: Milotic|Scald|p2a: Dracovish
+|-resisted|p2a: Dracovish
+|-crit|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|-heal|p1a: Milotic|97/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|13/100
+|turn|26
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Milotic
+|-damage|p1a: Milotic|64/100
+|-unboost|p2a: Hydreigon|spa|2
+|move|p1a: Milotic|Ice Beam|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-heal|p1a: Milotic|71/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Milotic|[from] ability: Imposter
+|turn|27
+|
+|move|p2a: Ditto|Ice Beam|p1a: Milotic
+|-resisted|p1a: Milotic
+|-crit|p1a: Milotic
+|-damage|p1a: Milotic|59/100
+|move|p1a: Milotic|Scald|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|88/100
+|
+|-heal|p1a: Milotic|65/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Ditto|Ice Beam|p1a: Milotic
+|-resisted|p1a: Milotic
+|-crit|p1a: Milotic
+|-damage|p1a: Milotic|55/100
+|move|p1a: Milotic|Scald|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|76/100
+|
+|-heal|p1a: Milotic|61/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Ditto|Ice Beam|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|54/100
+|move|p1a: Milotic|Scald|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|63/100
+|-status|p2a: Ditto|brn
+|
+|-heal|p1a: Milotic|60/100|[from] item: Leftovers
+|-damage|p2a: Ditto|57/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p2a: Ditto|Ice Beam|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|52/100
+|move|p1a: Milotic|Ice Beam|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|47/100 brn
+|
+|-heal|p1a: Milotic|58/100|[from] item: Leftovers
+|-damage|p2a: Ditto|41/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p2a: Ditto|Ice Beam|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|51/100
+|move|p1a: Milotic|Scald|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|27/100 brn
+|
+|-heal|p1a: Milotic|57/100|[from] item: Leftovers
+|-damage|p2a: Ditto|21/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|-activate|p2a: Ditto|move: Struggle
+|move|p2a: Ditto|Struggle|p1a: Milotic
+|-damage|p1a: Milotic|55/100
+|-damage|p2a: Ditto|0 fnt|[from] recoil
+|faint|p2a: Ditto
+|
+|win|Not_Watermelon
+|l|☆Heehoking
+|raw|Not_Watermelon's rating: 1079 → 1105(+26 for winning)
+|raw|Heehoking's rating: 1044 → 1029(-15 for losing)

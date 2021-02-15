@@ -1,0 +1,311 @@
+|ScrapeTime|2020-01-01-19:28:59
+|j|☆Chaounne
+|j|☆AntoineB
+|player|p1|Chaounne|hugh|1076
+|player|p2|AntoineB|hoopster|1085
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pincurchin, M|
+|poke|p1|Hawlucha, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Corviknight, F|
+|poke|p1|Dugtrio, F|
+|poke|p2|Sinistea|
+|poke|p2|Rotom-Fan|
+|poke|p2|Crustle, M|
+|poke|p2|Silicobra, M|
+|poke|p2|Basculin, F|
+|poke|p2|Roselia, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Chaounne)
+|
+|start
+|switch|p1a: Pincurchin|Pincurchin, M|100/100
+|switch|p2a: Sinistea|Sinistea|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|1
+|
+|move|p2a: Sinistea|Shell Smash|p2a: Sinistea
+|-unboost|p2a: Sinistea|def|1
+|-unboost|p2a: Sinistea|spd|1
+|-boost|p2a: Sinistea|atk|2
+|-boost|p2a: Sinistea|spa|2
+|-boost|p2a: Sinistea|spe|2
+|move|p1a: Pincurchin|Memento|p2a: Sinistea
+|-unboost|p2a: Sinistea|atk|2
+|-unboost|p2a: Sinistea|spa|2
+|faint|p1a: Pincurchin
+|
+|upkeep
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|-enditem|p1a: Hawlucha|Electric Seed
+|-boost|p1a: Hawlucha|def|1
+|turn|2
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Sinistea|Shell Smash|p2a: Sinistea
+|-unboost|p2a: Sinistea|def|1
+|-unboost|p2a: Sinistea|spd|1
+|-boost|p2a: Sinistea|atk|2
+|-boost|p2a: Sinistea|spa|2
+|-boost|p2a: Sinistea|spe|2
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Hawlucha|Brave Bird|p2a: Sinistea
+|-enditem|p2a: Sinistea|Focus Sash
+|-damage|p2a: Sinistea|1/100
+|-ability|p2a: Sinistea|Weak Armor|boost
+|-unboost|p2a: Sinistea|def|1
+|-boost|p2a: Sinistea|spe|2
+|-damage|p1a: Hawlucha|76/100|[from] Recoil
+|move|p2a: Sinistea|Shell Smash|p2a: Sinistea
+|-unboost|p2a: Sinistea|def|1
+|-unboost|p2a: Sinistea|spd|1
+|-boost|p2a: Sinistea|atk|2
+|-boost|p2a: Sinistea|spa|2
+|-boost|p2a: Sinistea|spe|0
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Sinistea|Shadow Ball|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+|
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|turn|5
+|
+|move|p1a: Dugtrio|Sucker Punch|p2a: Sinistea
+|-supereffective|p2a: Sinistea
+|-damage|p2a: Sinistea|0 fnt
+|faint|p2a: Sinistea
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|switch|p2a: Crustle|Crustle, M|100/100
+|turn|6
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Crustle|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Crustle
+|-damage|p2a: Crustle|73/100
+|-damage|p1a: Corviknight|92/100|[from] Recoil
+|move|p2a: Crustle|Shell Smash|p2a: Crustle
+|-unboost|p2a: Crustle|def|1
+|-unboost|p2a: Crustle|spd|1
+|-boost|p2a: Crustle|atk|2
+|-boost|p2a: Crustle|spa|2
+|-boost|p2a: Crustle|spe|2
+|
+|-heal|p2a: Crustle|79/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|99/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Crustle|Rock Slide|p1a: Corviknight
+|-damage|p1a: Corviknight|52/100
+|move|p1a: Corviknight|Brave Bird|p2a: Crustle
+|-damage|p2a: Crustle|30/100
+|-damage|p1a: Corviknight|38/100|[from] Recoil
+|
+|-heal|p2a: Crustle|36/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|44/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Crustle|Rock Slide|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-heal|p2a: Crustle|42/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|turn|10
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Crustle
+|-damage|p2a: Crustle|0 fnt
+|faint|p2a: Crustle
+|
+|upkeep
+|
+|switch|p2a: Roselia|Roselia, F|100/100
+|turn|11
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Roselia|Giga Drain|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|93/100
+|
+|-heal|p1a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Rotom|Rotom-Fan|100/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|73/100
+|-enditem|p2a: Rotom|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Rotom|Air Slash|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|70/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Rotom
+|-start|p2a: Rotom|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|76/100|[from] item: Leftovers
+|-damage|p2a: Rotom|61/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|85/100|[silent]
+|upkeep
+|turn|14
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Rotom|Air Slash|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|80/100
+|
+|-damage|p2a: Rotom|48/100|[from] Leech Seed|[of] p1a: Rotom
+|-heal|p1a: Rotom|90/100|[silent]
+|upkeep
+|turn|15
+|
+|move|p1a: Rotom|Volt Switch|p2a: Rotom
+|-damage|p2a: Rotom|17/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|85/100|[from]move: Volt Switch
+|move|p2a: Rotom|Shadow Ball|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|62/100
+|
+|-heal|p1a: Ferrothorn|68/100|[from] item: Leftovers
+|-damage|p2a: Rotom|5/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|77/100|[silent]
+|upkeep
+|turn|16
+|
+|move|p2a: Rotom|Air Slash|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|47/100
+|cant|p1a: Ferrothorn|flinch
+|
+|-heal|p1a: Ferrothorn|53/100|[from] item: Leftovers
+|-damage|p2a: Rotom|0 fnt|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|56/100|[silent]
+|faint|p2a: Rotom
+|upkeep
+|
+|switch|p2a: Silicobra|Silicobra, M|100/100
+|turn|17
+|
+|move|p2a: Silicobra|Glare|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|par
+|move|p1a: Ferrothorn|Power Whip|p2a: Silicobra
+|-supereffective|p2a: Silicobra
+|-damage|p2a: Silicobra|14/100
+|-weather|Sandstorm|[from] ability: Sand Spit|[of] p2a: Silicobra
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|62/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Silicobra|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|42/100 par
+|move|p1a: Ferrothorn|Knock Off|p2a: Silicobra
+|-damage|p2a: Silicobra|0 fnt
+|-enditem|p2a: Silicobra|Eviolite|[from] move: Knock Off|[of] p1a: Ferrothorn
+|faint|p2a: Silicobra
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|49/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Basculin|Basculin, F|100/100
+|turn|19
+|
+|move|p2a: Basculin|Ice Fang|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|37/100 par
+|-damage|p2a: Basculin|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Power Whip|p2a: Basculin
+|-supereffective|p2a: Basculin
+|-damage|p2a: Basculin|0 fnt
+|faint|p2a: Basculin
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|43/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Roselia|Roselia, F|100/100
+|turn|20
+|
+|move|p2a: Roselia|Dazzling Gleam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|33/100 par
+|cant|p1a: Ferrothorn|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Roselia|94/100|[from] Sandstorm
+|-heal|p1a: Ferrothorn|39/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Roselia|Dazzling Gleam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|23/100 par
+|move|p1a: Ferrothorn|Knock Off|p2a: Roselia
+|-damage|p2a: Roselia|54/100
+|-enditem|p2a: Roselia|Eviolite|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|none
+|-heal|p1a: Ferrothorn|29/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Roselia|Dazzling Gleam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|18/100 par
+|move|p1a: Ferrothorn|Power Whip|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|27/100
+|
+|-heal|p1a: Ferrothorn|24/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Roselia|Dazzling Gleam|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|14/100 par
+|move|p1a: Ferrothorn|Power Whip|p2a: Roselia
+|-resisted|p2a: Roselia
+|-damage|p2a: Roselia|0 fnt
+|faint|p2a: Roselia
+|
+|win|Chaounne
+|l|☆AntoineB

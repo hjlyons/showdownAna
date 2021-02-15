@@ -1,0 +1,245 @@
+|ScrapeTime|2020-01-03-01:36:41
+|j|☆lrav1567
+|j|☆Andrex_XYZ
+|player|p1|lrav1567|volkner|1064
+|player|p2|Andrex_XYZ|101|1104
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Perrserker, F|
+|poke|p1|Shiftry, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Heliolisk, M|
+|poke|p1|Flapple, M|
+|poke|p2|Barraskewda, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Drednaw, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Hatterene, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|1
+|
+|move|p1a: Hatterene|Mystical Fire|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|2
+|
+|move|p2a: Pelipper|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|91/100
+|
+|switch|p2a: Barraskewda|Barraskewda, F|100/100|[from]move: U-turn
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p2a: Barraskewda|Liquidation|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Heliolisk|Heliolisk, M|100/100
+|turn|4
+|
+|move|p2a: Barraskewda|Liquidation|p1a: Heliolisk
+|-damage|p1a: Heliolisk|0 fnt
+|faint|p1a: Heliolisk
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Flapple|Flapple, M|100/100
+|turn|5
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Flapple|Draco Meteor|p2a: Hatterene
+|-immune|p2a: Hatterene
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p1a: Flapple|Acid Spray|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|73/100
+|-unboost|p2a: Hatterene|spd|2
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Hatterene|79/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Perrserker|Perrserker, F|100/100
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Perrserker
+|-resisted|p1a: Perrserker
+|-damage|p1a: Perrserker|60/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Hatterene|85/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Hatterene|Psychic|p1a: Perrserker
+|-resisted|p1a: Perrserker
+|-damage|p1a: Perrserker|16/100
+|move|p1a: Perrserker|Metal Burst|p2a: Hatterene
+|-damage|p2a: Hatterene|19/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Hatterene|25/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Hatterene|Psychic|p1a: Perrserker
+|-resisted|p1a: Perrserker
+|-damage|p1a: Perrserker|0 fnt
+|faint|p1a: Perrserker
+|
+|-weather|none
+|-heal|p2a: Hatterene|31/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|10
+|
+|move|p1a: Grimmsnarl|Sucker Punch|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|11
+|
+|move|p2a: Pelipper|U-turn|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|89/100
+|
+|switch|p2a: Barraskewda|Barraskewda, F|100/100|[from]move: U-turn
+|move|p1a: Grimmsnarl|Drain Punch|p2a: Barraskewda
+|-damage|p2a: Barraskewda|49/100
+|-heal|p1a: Grimmsnarl|100/100|[from] drain|[of] p2a: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p1a: Grimmsnarl|Sucker Punch|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|faint|p2a: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Drednaw|Drednaw, F|100/100
+|turn|13
+|
+|move|p2a: Drednaw|Stone Edge|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|-damage|p2a: Drednaw|91/100|[from] item: Life Orb
+|faint|p1a: Grimmsnarl
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Flapple|Flapple, M|100/100
+|turn|14
+|
+|move|p2a: Drednaw|Stone Edge|p1a: Flapple|[miss]
+|-miss|p2a: Drednaw|p1a: Flapple
+|move|p1a: Flapple|Energy Ball|p2a: Drednaw
+|-supereffective|p2a: Drednaw
+|-damage|p2a: Drednaw|0 fnt
+|faint|p2a: Drednaw
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|15
+|
+|move|p2a: Dragapult|Fire Blast|p1a: Flapple
+|-damage|p1a: Flapple|59/100
+|move|p1a: Flapple|Draco Meteor|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-unboost|p1a: Flapple|spa|2
+|faint|p2a: Dragapult
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|turn|16
+|
+|move|p1a: Flapple|Acid Spray|p2a: Pelipper
+|-damage|p2a: Pelipper|92/100
+|-unboost|p2a: Pelipper|spd|2
+|move|p2a: Pelipper|Scald|p1a: Flapple
+|-resisted|p1a: Flapple
+|-damage|p1a: Flapple|41/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p1a: Flapple|Acid Spray|p2a: Pelipper
+|-damage|p2a: Pelipper|74/100
+|-unboost|p2a: Pelipper|spd|2
+|move|p2a: Pelipper|Knock Off|p1a: Flapple
+|-damage|p1a: Flapple|26/100
+|-enditem|p1a: Flapple|Blunder Policy|[from] move: Knock Off|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p1a: Flapple|Acid Spray|p2a: Pelipper
+|-damage|p2a: Pelipper|48/100
+|-unboost|p2a: Pelipper|spd|2
+|move|p2a: Pelipper|Scald|p1a: Flapple
+|-resisted|p1a: Flapple
+|-damage|p1a: Flapple|7/100
+|
+|-weather|none
+|upkeep
+|turn|19
+|
+|move|p1a: Flapple|Draco Meteor|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|-unboost|p1a: Flapple|spa|2
+|faint|p2a: Pelipper
+|
+|win|lrav1567
+|l|☆Andrex_XYZ

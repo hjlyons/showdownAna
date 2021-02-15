@@ -1,0 +1,142 @@
+|ScrapeTime|2020-01-01-18:22:29
+|j|☆camelia228
+|j|☆Char11
+|player|p1|camelia228|265|1232
+|player|p2|Char11|265|1203
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Barraskewda, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Noivern, F|
+|poke|p1|Polteageist|
+|poke|p1|Cinderace, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Kommo-o, F|
+|poke|p2|Polteageist|
+|poke|p2|Mew|
+|poke|p2|Bisharp, F|
+|poke|p2|Conkeldurr, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by camelia228)
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|turn|1
+|
+|move|p2a: Conkeldurr|Drain Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|15/100
+|-damage|p2a: Conkeldurr|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Conkeldurr|71/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Conkeldurr|[miss]
+|-miss|p1a: Ferrothorn|p2a: Conkeldurr
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|move|p2a: Conkeldurr|Drain Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-heal|p2a: Conkeldurr|78/100 brn|[from] drain|[of] p1a: Ferrothorn
+|-damage|p2a: Conkeldurr|65/100 brn|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Conkeldurr|49/100 brn|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-damage|p2a: Conkeldurr|43/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Noivern|Noivern, F|100/100
+|turn|3
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p1a: Noivern|Air Slash|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|72/100
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Char11|move: Light Screen
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Toxapex
+|-start|p1a: Toxapex|move: Taunt
+|cant|p1a: Toxapex|move: Taunt|Toxic
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|move|p1a: Toxapex|Venoshock|p2a: Polteageist
+|-resisted|p2a: Polteageist
+|-damage|p2a: Polteageist|97/100
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Polteageist|Giga Drain|p1a: Barraskewda
+|-supereffective|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|-heal|p2a: Polteageist|100/100|[from] drain|[of] p1a: Barraskewda
+|faint|p1a: Barraskewda
+|
+|upkeep
+|
+|switch|p1a: Noivern|Noivern, F|100/100
+|turn|9
+|
+|move|p1a: Noivern|Draco Meteor|p2a: Polteageist
+|-enditem|p2a: Polteageist|Focus Sash
+|-damage|p2a: Polteageist|1/100
+|-unboost|p1a: Noivern|spa|2
+|move|p2a: Polteageist|Stored Power|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|faint|p1a: Noivern
+|
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|turn|10
+|
+|move|p2a: Polteageist|Stored Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|upkeep
+|-message|camelia228 forfeited.
+|
+|win|Char11
+|l|☆camelia228
+|raw|camelia228's rating: 1232 → 1205(-27 for losing)
+|raw|Char11's rating: 1203 → 1231(+28 for winning)

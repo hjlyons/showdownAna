@@ -1,0 +1,381 @@
+|ScrapeTime|2020-01-02-14:38:43
+|j|☆BUMBACLAAT
+|j|☆Hirudinaria
+|player|p1|BUMBACLAAT|200|1623
+|player|p2|Hirudinaria|121|1585
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, F|
+|poke|p1|Rhyperior, M|
+|poke|p1|Clefable, F|
+|poke|p1|Gengar, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Clefable, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Gastrodon-East, M|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Snorlax, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hirudinaria)
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|turn|1
+|
+|switch|p2a: Newton|Corviknight, M|100/100
+|-ability|p2a: Newton|Pressure
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Newton|Body Press|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|75/100
+|move|p1a: Rhyperior|Swords Dance|p1a: Rhyperior
+|-boost|p1a: Rhyperior|atk|2
+|
+|-heal|p1a: Rhyperior|81/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|move|p1a: Rhyperior|Stone Edge|p2a: Corsola|[miss]
+|-miss|p1a: Rhyperior|p2a: Corsola
+|
+|-heal|p1a: Rhyperior|87/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Corsola|Will-O-Wisp|p1a: Clefable
+|-status|p1a: Clefable|brn
+|
+|upkeep
+|turn|5
+|c|☆BUMBACLAAT|right on cue
+|
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|move|p1a: Clefable|Stealth Rock|p2a: Snorlax
+|-sidestart|p2: Hirudinaria|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Rhyperior|Rhyperior, M|87/100
+|move|p2a: Snorlax|Earthquake|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|62/100
+|
+|-heal|p1a: Rhyperior|68/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|-damage|p2a: Corsola|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Corsola|Will-O-Wisp|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Corsola
+|-status|p2a: Corsola|par
+|
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p2a: Newton|Corviknight, M|100/100
+|-damage|p2a: Newton|88/100|[from] Stealth Rock
+|-ability|p2a: Newton|Pressure
+|move|p1a: Ferrothorn|Spikes|p2a: Newton
+|-sidestart|p2: Hirudinaria|Spikes
+|
+|-heal|p2a: Newton|94/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Newton|Defog|p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|evasion|1
+|-sideend|p2: Hirudinaria|Spikes|[from] move: Defog|[of] p2a: Newton
+|-sideend|p2: Hirudinaria|Stealth Rock|[from] move: Defog|[of] p2a: Newton
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Newton
+|-status|p2a: Newton|par
+|
+|-heal|p2a: Newton|99/100 par|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Newton|Body Press|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|66/100 brn
+|-damage|p2a: Newton|88/100 par|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Newton
+|-sidestart|p2: Hirudinaria|Spikes
+|
+|-heal|p2a: Newton|94/100 par|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|72/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|66/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|cant|p2a: Newton|par
+|move|p1a: Ferrothorn|Leech Seed|p2a: Newton
+|-start|p2a: Newton|move: Leech Seed
+|
+|-heal|p2a: Newton|99/100 par|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|72/100 brn|[from] item: Leftovers
+|-damage|p2a: Newton|88/100 par|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|86/100 brn|[silent]
+|-damage|p1a: Ferrothorn|80/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p2a: Corsola|Corsola-Galar, M|88/100 par
+|-damage|p2a: Corsola|76/100 par|[from] Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Corsola
+|-sidestart|p2: Hirudinaria|Spikes
+|
+|-heal|p1a: Ferrothorn|86/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|80/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p1a: Clefable|Clefable, F|100/100 brn
+|cant|p2a: Corsola|par
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Clefable|Stealth Rock|p2a: Corsola
+|-sidestart|p2: Hirudinaria|move: Stealth Rock
+|move|p2a: Corsola|Strength Sap|p1a: Clefable
+|-unboost|p1a: Clefable|atk|1
+|-heal|p2a: Corsola|100/100 par
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Pasteur|Clefable, M|100/100
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Gengar|Gengar, F|100/100
+|move|p2a: Pasteur|Aromatherapy|p2a: Pasteur
+|-activate|p2a: Pasteur|move: Aromatherapy
+|-curestatus|p2: Corsola|par|[msg]
+|-curestatus|p2: Newton|par|[msg]
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|-damage|p2a: Snorlax|84/100|[from] Spikes
+|-damage|p2a: Snorlax|71/100|[from] Stealth Rock
+|move|p1a: Gengar|Substitute|p1a: Gengar
+|-start|p1a: Gengar|Substitute
+|-damage|p1a: Gengar|76/100
+|
+|-heal|p1a: Gengar|82/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p1a: Gengar|Sludge Wave|p2a: Snorlax
+|-damage|p2a: Snorlax|56/100
+|move|p2a: Snorlax|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-end|p1a: Gengar|Substitute
+|
+|-heal|p1a: Gengar|88/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F, shiny|100/100
+|switch|p2a: Newton|Corviknight, M|88/100
+|-damage|p2a: Newton|75/100|[from] Stealth Rock
+|-ability|p2a: Newton|Pressure
+|
+|-heal|p2a: Newton|81/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|80/100 brn
+|move|p2a: Newton|Defog|p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|evasion|1
+|-sideend|p2: Hirudinaria|Spikes|[from] move: Defog|[of] p2a: Newton
+|-sideend|p2: Hirudinaria|Stealth Rock|[from] move: Defog|[of] p2a: Newton
+|
+|-heal|p2a: Newton|87/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|86/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|80/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p2a: Newton|Substitute|p2a: Newton
+|-start|p2a: Newton|Substitute
+|-damage|p2a: Newton|63/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Newton|[miss]
+|-miss|p1a: Ferrothorn|p2a: Newton
+|
+|-heal|p2a: Newton|69/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|86/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|80/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|switch|p1a: Clefable|Clefable, F|100/100 brn
+|move|p2a: Newton|Body Press|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|88/100 brn
+|
+|-heal|p2a: Newton|75/100|[from] item: Leftovers
+|-heal|p1a: Clefable|94/100 brn|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Newton|Roost|p2a: Newton
+|-heal|p2a: Newton|100/100
+|-singleturn|p2a: Newton|move: Roost
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-heal|p1a: Clefable|99/100 brn|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p1a: Rhyperior|Rhyperior, M|68/100
+|move|p2a: Newton|Body Press|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|40/100
+|
+|-heal|p1a: Rhyperior|87/100|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Rhyperior|93/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|switch|p1a: Clefable|Clefable, F|99/100 brn
+|
+|-heal|p1a: Clefable|100/100 brn|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p2a: Newton|Corviknight, M|100/100
+|-ability|p2a: Newton|Pressure
+|move|p1a: Clefable|Stealth Rock|p2a: Newton
+|-sidestart|p2: Hirudinaria|move: Stealth Rock
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Rhyperior|Rhyperior, M|93/100
+|move|p2a: Newton|Defog|p1a: Rhyperior
+|-unboost|p1a: Rhyperior|evasion|1
+|-sideend|p2: Hirudinaria|Stealth Rock|[from] move: Defog|[of] p2a: Newton
+|
+|-heal|p1a: Rhyperior|99/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|move|p1a: Rhyperior|Earthquake|p2a: Corsola
+|-damage|p2a: Corsola|75/100
+|
+|-heal|p1a: Rhyperior|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p1a: Clefable|Clefable, F|100/100 brn
+|move|p2a: Corsola|Night Shade|p1a: Clefable
+|-damage|p1a: Clefable|75/100 brn
+|
+|-heal|p1a: Clefable|81/100 brn|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p2a: Newton|Corviknight, M|100/100
+|-ability|p2a: Newton|Pressure
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-heal|p1a: Clefable|87/100 brn|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|move|p2a: Newton|Body Press|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|76/100
+|
+|-heal|p1a: Rhyperior|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|33
+|
+|switch|p2a: Corsola|Corsola-Galar, M|75/100
+|move|p1a: Rhyperior|Stone Edge|p2a: Corsola
+|-damage|p2a: Corsola|47/100
+|
+|upkeep
+|turn|34
+|
+|switch|p1a: Clefable|Clefable, F|87/100 brn
+|move|p2a: Corsola|Strength Sap|p1a: Clefable
+|-unboost|p1a: Clefable|atk|1
+|-heal|p2a: Corsola|88/100
+|
+|-heal|p1a: Clefable|93/100 brn|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|switch|p2a: Newton|Corviknight, M|100/100
+|-ability|p2a: Newton|Pressure
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-heal|p1a: Clefable|99/100 brn|[from] item: Leftovers
+|upkeep
+|turn|36
+|inactive|Hirudinaria has 120 seconds left.
+|
+|switch|p2a: Toricelli|Toxapex, M|100/100
+|move|p1a: Clefable|Stealth Rock|p2a: Toricelli
+|-sidestart|p2: Hirudinaria|move: Stealth Rock
+|
+|-heal|p1a: Clefable|100/100 brn|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|37
+|c|☆BUMBACLAAT|how big was that stone edge miss now
+|inactive|Hirudinaria has 120 seconds left.
+|l|☆Hirudinaria
+|inactive|Hirudinaria disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|Hirudinaria has 30 seconds to reconnect!
+|inactive|Hirudinaria has 20 seconds to reconnect!
+|inactive|Hirudinaria has 15 seconds to reconnect!
+|inactive|Hirudinaria has 10 seconds to reconnect!
+|inactive|Hirudinaria has 5 seconds to reconnect!
+|-message|Hirudinaria lost due to inactivity.
+|
+|win|BUMBACLAAT
+|raw|BUMBACLAAT's rating: 1623 → 1641(+18 for winning)
+|raw|Hirudinaria's rating: 1585 → 1567(-18 for losing)

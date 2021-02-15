@@ -1,0 +1,268 @@
+|ScrapeTime|2020-01-01-20:25:30
+|j|☆Polo90p
+|j|☆CrimsonXantriss
+|player|p1|Polo90p|dragontamer|1076
+|player|p2|CrimsonXantriss|steven|1054
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Inteleon, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Ditto|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Hawlucha, M|
+|poke|p1|Corsola-Galar, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Ferrothorn, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|1
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Hatterene
+|move|p2a: Hatterene|Stealth Rock|p1a: Ferrothorn|[from]Magic Bounce
+|-sidestart|p1: Polo90p|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|move|p1a: Ferrothorn|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|82/100
+|-enditem|p2a: Hatterene|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Hatterene|Mystical Fire|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Unnerve|p2: CrimsonXantriss
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|turn|4
+|
+|move|p1a: Corviknight|Steel Wing|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|38/100
+|-damage|p1a: Corviknight|78/100|[from] item: Life Orb
+|move|p2a: Hatterene|Mystical Fire|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|10/100
+|-unboost|p1a: Corviknight|spa|1
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Corviknight|Steel Wing|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|92/100
+|-damage|p1a: Corviknight|0 fnt|[from] item: Life Orb
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Inteleon|Inteleon, M|100/100
+|-damage|p1a: Inteleon|88/100|[from] Stealth Rock
+|turn|6
+|
+|move|p1a: Inteleon|Hydro Pump|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|7
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Ferrothorn|[from] ability: Imposter
+|move|p2a: Ferrothorn|Leech Seed|p1a: Ditto
+|-immune|p1a: Ditto
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p1a: Ditto|Stealth Rock|p2a: Grimmsnarl
+|-sidestart|p2: CrimsonXantriss|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|-damage|p1a: Hawlucha|88/100|[from] Stealth Rock
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: CrimsonXantriss|Reflect
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: CrimsonXantriss|move: Light Screen
+|move|p1a: Hawlucha|High Jump Kick|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|79/100
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Hawlucha|Brick Break|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Ditto|Ditto|88/100
+|-damage|p1a: Ditto|76/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Dragapult|[from] ability: Imposter
+|move|p2a: Dragapult|U-turn|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|64/100
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|79/100|[from]move: U-turn
+|-damage|p2a: Grimmsnarl|66/100|[from] Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Grimmsnarl|Sucker Punch|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|-damage|p1a: Corsola|88/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Grimmsnarl|Sucker Punch||[still]
+|-fail|p2a: Grimmsnarl
+|move|p1a: Corsola|Will-O-Wisp|p2a: Grimmsnarl
+|-status|p2a: Grimmsnarl|brn
+|
+|-heal|p1a: Corsola|94/100|[from] item: Leftovers
+|-damage|p2a: Grimmsnarl|60/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p2a: Hatterene|Hatterene, F|38/100
+|-damage|p2a: Hatterene|25/100|[from] Stealth Rock
+|move|p1a: Corsola|Stealth Rock|p2a: Hatterene
+|move|p2a: Hatterene|Stealth Rock||[from]Magic Bounce|[still]
+|-fail|p2a: Hatterene
+|
+|-heal|p1a: Corsola|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|move|p1a: Corsola|Will-O-Wisp|p2a: Seismitoad
+|-status|p2a: Seismitoad|brn
+|
+|-heal|p2a: Seismitoad|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|94/100 brn|[from] brn
+|-sideend|p2: CrimsonXantriss|Reflect
+|upkeep
+|turn|17
+|
+|move|p2a: Seismitoad|Toxic|p1a: Corsola
+|-status|p1a: Corsola|tox
+|move|p1a: Corsola|Stealth Rock||[still]
+|-fail|p1a: Corsola
+|
+|-heal|p2a: Seismitoad|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|94/100 brn|[from] brn
+|-damage|p1a: Corsola|94/100 tox|[from] psn
+|-sideend|p2: CrimsonXantriss|move: Light Screen
+|upkeep
+|turn|18
+|
+|move|p2a: Seismitoad|Scald|p1a: Corsola
+|-damage|p1a: Corsola|74/100 tox
+|move|p1a: Corsola|Strength Sap|p2a: Seismitoad
+|-unboost|p2a: Seismitoad|atk|1
+|-heal|p1a: Corsola|100/100 tox
+|
+|-heal|p2a: Seismitoad|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|94/100 brn|[from] brn
+|-damage|p1a: Corsola|88/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|switch|p2a: Dragapult|Dragapult, M|88/100
+|-damage|p2a: Dragapult|76/100|[from] Stealth Rock
+|move|p1a: Corsola|Strength Sap|p2a: Dragapult
+|-unboost|p2a: Dragapult|atk|1
+|-heal|p1a: Corsola|100/100 tox
+|
+|-damage|p1a: Corsola|82/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|2/100 tox
+|move|p1a: Corsola|Destiny Bond|p1a: Corsola
+|-singlemove|p1a: Corsola|Destiny Bond
+|
+|-heal|p1a: Corsola|9/100 tox|[from] item: Leftovers
+|-damage|p1a: Corsola|0 fnt|[from] psn
+|faint|p1a: Corsola
+|upkeep
+|
+|switch|p1a: Inteleon|Inteleon, M|88/100
+|-damage|p1a: Inteleon|76/100|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Inteleon
+|-damage|p1a: Inteleon|0 fnt
+|faint|p1a: Inteleon
+|
+|upkeep
+|
+|switch|p1a: Hawlucha|Hawlucha, M|88/100
+|-damage|p1a: Hawlucha|76/100|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Hawlucha
+|-damage|p1a: Hawlucha|14/100
+|move|p1a: Hawlucha|Brave Bird|p2a: Dragapult
+|-damage|p2a: Dragapult|7/100
+|-damage|p1a: Hawlucha|0 fnt|[from] Recoil
+|faint|p1a: Hawlucha
+|
+|win|CrimsonXantriss
+|l|☆Polo90p
+|raw|Polo90p's rating: 1057 → 1039(-18 for losing)
+|raw|CrimsonXantriss's rating: 1055 → 1087(+32 for winning)

@@ -1,0 +1,392 @@
+|ScrapeTime|2020-01-02-13:45:23
+|j|☆Khannahr
+|j|☆Siwoxo
+|player|p1|Khannahr|juggler|1117
+|player|p2|Siwoxo|hiker|1086
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Excadrill, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Cloyster, F|
+|poke|p1|Kommo-o, M|
+|poke|p1|Toxtricity, F|
+|poke|p1|Hatterene, F|
+|poke|p2|Pincurchin, M|
+|poke|p2|Hawlucha, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Raichu, M|
+|poke|p2|Mr. Rime, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|switch|p2a: Pincurchin|Pincurchin, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|1
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Excadrill|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Excadrill|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Siwoxo|move: Stealth Rock
+|move|p2a: Corviknight|Reflect|p2a: Corviknight
+|-sidestart|p2: Siwoxo|Reflect
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Corviknight|Light Screen|p2a: Corviknight
+|-sidestart|p2: Siwoxo|move: Light Screen
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Mr. Rime|Mr. Rime, M|100/100
+|-damage|p2a: Mr. Rime|75/100|[from] Stealth Rock
+|-sideend|p2: Siwoxo|Reflect
+|-activate|p2a: Mr. Rime|ability: Screen Cleaner
+|-sideend|p2: Siwoxo|Reflect
+|-sideend|p2: Siwoxo|move: Light Screen
+|-sideend|p2: Siwoxo|Light Screen
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Khannahr|Reflect
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Mr. Rime
+|-status|p2a: Mr. Rime|par
+|cant|p2a: Mr. Rime|par
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|37/100 par
+|-unboost|p2a: Mr. Rime|spa|1
+|move|p2a: Mr. Rime|Rapid Spin|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|96/100
+|-sideend|p2: Siwoxo|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Mr. Rime
+|-boost|p2a: Mr. Rime|spe|1
+|
+|upkeep
+|turn|7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Khannahr)
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|92/100
+|-unboost|p2a: Corviknight|spa|1
+|
+|-heal|p2a: Corviknight|98/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Corviknight
+|-status|p2a: Corviknight|par
+|move|p2a: Corviknight|U-turn|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|90/100
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from]move: U-turn
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|9
+|
+|move|p2a: Dragapult|U-turn|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|74/100
+|
+|switch|p2a: Corviknight|Corviknight, M|98/100 par|[from]move: U-turn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|90/100 par
+|-unboost|p2a: Corviknight|spa|1
+|
+|-heal|p2a: Corviknight|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Khannahr|move: Light Screen
+|cant|p2a: Corviknight|par
+|
+|-heal|p2a: Corviknight|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|move|p2a: Corviknight|U-turn|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|97/100
+|
+|switch|p2a: Mr. Rime|Mr. Rime, M|37/100 par|[from]move: U-turn
+|-sideend|p1: Khannahr|Reflect
+|-activate|p2a: Mr. Rime|ability: Screen Cleaner
+|-sideend|p1: Khannahr|Reflect
+|-sideend|p1: Khannahr|move: Light Screen
+|-sideend|p1: Khannahr|Light Screen
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Kommo-o|Flamethrower|p2a: Mr. Rime
+|-supereffective|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|0 fnt
+|faint|p2a: Mr. Rime
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|13
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|74/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Grimmsnarl
+|-immune|p1a: Grimmsnarl
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Pincurchin
+|-immune|p2a: Pincurchin
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Khannahr|move: Light Screen
+|move|p2a: Pincurchin|Toxic Spikes|p1a: Grimmsnarl
+|-sidestart|p1: Khannahr|move: Toxic Spikes
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Khannahr|Reflect
+|move|p2a: Pincurchin|Zing Zap|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|58/100
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Pincurchin
+|-damage|p2a: Pincurchin|74/100
+|-unboost|p2a: Pincurchin|spa|1
+|move|p2a: Pincurchin|Spikes|p1a: Grimmsnarl
+|-sidestart|p1: Khannahr|Spikes
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Pincurchin
+|-damage|p2a: Pincurchin|48/100
+|-unboost|p2a: Pincurchin|spa|1
+|move|p2a: Pincurchin|Toxic Spikes|p1a: Grimmsnarl
+|-sidestart|p1: Khannahr|move: Toxic Spikes
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Pincurchin
+|-damage|p2a: Pincurchin|21/100
+|-unboost|p2a: Pincurchin|spa|1
+|move|p2a: Pincurchin|Recover|p2a: Pincurchin
+|-heal|p2a: Pincurchin|71/100
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|88/100|[from] Spikes
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Pincurchin|Spikes|p1a: Excadrill
+|-sidestart|p1: Khannahr|Spikes
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100 par
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Excadrill|Rapid Spin|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|95/100 par
+|-sideend|p1: Khannahr|Spikes|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-sideend|p1: Khannahr|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|
+|-heal|p2a: Corviknight|100/100 par|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|22
+|
+|switch|p1a: Kommo-o|Kommo-o, M|97/100
+|cant|p2a: Corviknight|par
+|
+|-sideend|p1: Khannahr|move: Light Screen
+|upkeep
+|turn|23
+|
+|move|p1a: Kommo-o|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|44/100 par
+|move|p2a: Corviknight|Reflect|p2a: Corviknight
+|-sidestart|p2: Siwoxo|Reflect
+|
+|-heal|p2a: Corviknight|50/100 par|[from] item: Leftovers
+|-sideend|p1: Khannahr|Reflect
+|upkeep
+|turn|24
+|
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|64/100
+|-enditem|p1a: Kommo-o|Throat Spray
+|-boost|p1a: Kommo-o|spa|1
+|move|p2a: Corviknight|Light Screen|p2a: Corviknight
+|-sidestart|p2: Siwoxo|move: Light Screen
+|
+|-heal|p2a: Corviknight|57/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Kommo-o|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|26
+|
+|move|p1a: Kommo-o|Clanging Scales|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-unboost|p1a: Kommo-o|def|1
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Pincurchin|Pincurchin, M|71/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|27
+|
+|move|p1a: Kommo-o|Flamethrower|p2a: Pincurchin
+|-damage|p2a: Pincurchin|43/100
+|move|p2a: Pincurchin|Toxic Spikes|p1a: Kommo-o
+|-sidestart|p1: Khannahr|move: Toxic Spikes
+|
+|-sideend|p2: Siwoxo|Reflect
+|upkeep
+|turn|28
+|
+|move|p1a: Kommo-o|Flamethrower|p2a: Pincurchin
+|-damage|p2a: Pincurchin|15/100
+|move|p2a: Pincurchin|Toxic Spikes|p1a: Kommo-o
+|-sidestart|p1: Khannahr|move: Toxic Spikes
+|
+|-sideend|p2: Siwoxo|move: Light Screen
+|upkeep
+|turn|29
+|
+|move|p1a: Kommo-o|Flamethrower|p2a: Pincurchin
+|-damage|p2a: Pincurchin|0 fnt
+|faint|p2a: Pincurchin
+|
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|-enditem|p2a: Hawlucha|Electric Seed
+|-boost|p2a: Hawlucha|def|1
+|turn|30
+|
+|move|p2a: Hawlucha|Brave Bird|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|-damage|p2a: Hawlucha|80/100|[from] Recoil
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|58/100
+|-status|p1a: Grimmsnarl|tox
+|turn|31
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Hawlucha
+|-status|p2a: Hawlucha|par
+|move|p2a: Hawlucha|Brave Bird|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|9/100 tox
+|-damage|p2a: Hawlucha|60/100 par|[from] Recoil
+|
+|-damage|p1a: Grimmsnarl|3/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Khannahr|Reflect
+|move|p2a: Hawlucha|Substitute|p2a: Hawlucha
+|-start|p2a: Hawlucha|Substitute
+|-damage|p2a: Hawlucha|35/100 par
+|
+|-damage|p1a: Grimmsnarl|0 fnt|[from] psn
+|faint|p1a: Grimmsnarl
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|88/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|33
+|
+|move|p2a: Hawlucha|Close Combat|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|12/100
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|move|p1a: Excadrill|Rapid Spin|p2a: Hawlucha
+|-end|p2a: Hawlucha|Substitute
+|-sideend|p1: Khannahr|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|
+|upkeep
+|turn|34
+|
+|move|p1a: Excadrill|Iron Head|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|switch|p2a: Raichu|Raichu, M|100/100
+|turn|35
+|-message|Siwoxo forfeited.
+|
+|win|Khannahr
+|l|☆Siwoxo

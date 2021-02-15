@@ -1,0 +1,192 @@
+|ScrapeTime|2020-01-02-08:54:45
+|j|☆ftgyhug
+|j|☆FUCK2020
+|player|p1|ftgyhug|266|1174
+|player|p2|FUCK2020|benga|1161
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Flygon, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Mimikyu, M|
+|poke|p1|Frosmoth, F|
+|poke|p1|Espeon, M|
+|poke|p1|Heliolisk, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Dugtrio, F|
+|poke|p2|Alcremie, F|
+|poke|p2|Centiskorch, M|
+|poke|p2|Barbaracle, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Heliolisk|Heliolisk, M|100/100
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|turn|1
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Heliolisk
+|-supereffective|p1a: Heliolisk
+|-damage|p1a: Heliolisk|0 fnt
+|faint|p1a: Heliolisk
+|
+|upkeep
+|
+|switch|p1a: Frosmoth|Frosmoth, F|100/100
+|turn|2
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Frosmoth|Giga Drain|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|90/100
+|
+|-heal|p2a: Rotom|97/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Flygon|Flygon, F|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Flygon
+|-status|p1a: Flygon|brn
+|
+|-heal|p2a: Rotom|100/100|[from] item: Leftovers
+|-damage|p1a: Flygon|95/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Flygon|Dragon Dance|p1a: Flygon
+|-boost|p1a: Flygon|atk|1
+|-boost|p1a: Flygon|spe|1
+|move|p2a: Rotom|Shadow Ball|p1a: Flygon
+|-damage|p1a: Flygon|61/100 brn
+|
+|-damage|p1a: Flygon|55/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: Flygon|Dragon Dance|p1a: Flygon
+|-boost|p1a: Flygon|atk|1
+|-boost|p1a: Flygon|spe|1
+|move|p2a: Rotom|Shadow Ball|p1a: Flygon
+|-damage|p1a: Flygon|22/100 brn
+|
+|-damage|p1a: Flygon|16/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Flygon|Stone Edge|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|19/100
+|-damage|p1a: Flygon|6/100 brn|[from] item: Life Orb
+|move|p2a: Rotom|Volt Switch|p1a: Flygon
+|-immune|p1a: Flygon
+|
+|-heal|p2a: Rotom|25/100|[from] item: Leftovers
+|-damage|p1a: Flygon|0 fnt|[from] brn
+|faint|p1a: Flygon
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|7
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Rotom|[miss]
+|-miss|p1a: Cinderace|p2a: Rotom
+|move|p2a: Rotom|Overheat|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|59/100
+|-unboost|p2a: Rotom|spa|2
+|
+|-heal|p2a: Rotom|32/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Centiskorch|Centiskorch, M|100/100
+|turn|9
+|
+|move|p1a: Cinderace|U-turn|p2a: Centiskorch
+|-resisted|p2a: Centiskorch
+|-damage|p2a: Centiskorch|88/100
+|
+|switch|p1a: Frosmoth|Frosmoth, F|100/100|[from]move: U-turn
+|move|p2a: Centiskorch|Coil|p2a: Centiskorch
+|-boost|p2a: Centiskorch|atk|1
+|-boost|p2a: Centiskorch|def|1
+|-boost|p2a: Centiskorch|accuracy|1
+|
+|-heal|p2a: Centiskorch|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Frosmoth|Ice Beam|p2a: Centiskorch
+|-resisted|p2a: Centiskorch
+|-damage|p2a: Centiskorch|78/100
+|move|p2a: Centiskorch|Fire Lash|p1a: Frosmoth
+|-supereffective|p1a: Frosmoth
+|-damage|p1a: Frosmoth|0 fnt
+|faint|p1a: Frosmoth
+|
+|-heal|p2a: Centiskorch|84/100|[from] item: Leftovers
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FUCK2020)
+|
+|switch|p1a: Mimikyu|Mimikyu, M|100/100
+|turn|11
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Centiskorch|Fire Lash|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|-unboost|p1a: Mimikyu|def|1
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M
+|-damage|p1a: Mimikyu|88/100|[from] ability: Disguise|[of] p1a: Mimikyu
+|
+|-heal|p2a: Centiskorch|91/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Mimikyu|Shadow Claw|p2a: Centiskorch
+|-damage|p2a: Centiskorch|43/100
+|move|p2a: Centiskorch|Fire Lash|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|-heal|p2a: Centiskorch|49/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Espeon|Espeon, M|100/100
+|turn|13
+|
+|move|p1a: Espeon|Shadow Ball|p2a: Centiskorch
+|-damage|p2a: Centiskorch|28/100
+|move|p2a: Centiskorch|Leech Life|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|-heal|p2a: Centiskorch|70/100|[from] drain|[of] p1a: Espeon
+|faint|p1a: Espeon
+|
+|-heal|p2a: Centiskorch|76/100|[from] item: Leftovers
+|upkeep
+|-message|ftgyhug forfeited.
+|
+|win|FUCK2020
+|l|☆ftgyhug
+|raw|ftgyhug's rating: 1174 → 1148(-26 for losing)
+|raw|FUCK2020's rating: 1161 → 1187(+26 for winning)

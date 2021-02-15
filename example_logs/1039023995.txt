@@ -1,0 +1,236 @@
+|ScrapeTime|2020-01-01-05:45:14
+|j|☆S A D G I R L 4
+|j|☆Setup-bait
+|player|p1|S A D G I R L 4|169|1294
+|player|p2|Setup-bait|169|1342
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ludicolo, F|
+|poke|p1|Pelipper, F|
+|poke|p1|Jolteon, F|
+|poke|p1|Ditto|
+|poke|p1|Dracovish|
+|poke|p1|Dugtrio, M|
+|poke|p2|Trapinch, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Tsareena, F|
+|poke|p2|Dugtrio, F|
+|poke|p2|Dracovish|
+|poke|p2|Dragapult, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|move|p2a: Dugtrio|Stealth Rock|p1a: Pelipper
+|-sidestart|p1: S A D G I R L 4|move: Stealth Rock
+|move|p1a: Pelipper|Scald|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-enditem|p2a: Dugtrio|Focus Sash
+|-damage|p2a: Dugtrio|1/100
+|-status|p2a: Dugtrio|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Dugtrio|0 fnt|[from] brn
+|faint|p2a: Dugtrio
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|2
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆Setup-bait|Oo
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Dracovish|[from] ability: Imposter
+|turn|3
+|
+|move|p1a: Ditto|Fishious Rend|p2a: Dracovish
+|-resisted|p2a: Dracovish
+|-damage|p2a: Dracovish|55/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|54/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Tsareena|Tsareena, F|100/100
+|move|p1a: Ditto|Fishious Rend|p2a: Tsareena
+|-resisted|p2a: Tsareena
+|-damage|p2a: Tsareena|13/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p1a: Ditto|Fishious Rend|p2a: Tsareena
+|-resisted|p2a: Tsareena
+|-damage|p2a: Tsareena|0 fnt
+|faint|p2a: Tsareena
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|6
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Ludicolo|Ludicolo, F, shiny|100/100
+|-damage|p1a: Ludicolo|88/100|[from] Stealth Rock
+|turn|7
+|c|☆Setup-bait|Hmmm
+|
+|switch|p2a: Dracovish|Dracovish|55/100
+|move|p1a: Ludicolo|Ice Beam|p2a: Dracovish
+|-damage|p2a: Dracovish|12/100
+|-damage|p1a: Ludicolo|78/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: Ludicolo|Ice Beam|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|-damage|p1a: Ludicolo|68/100|[from] item: Life Orb
+|faint|p2a: Dracovish
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Trapinch|Trapinch, M|100/100
+|turn|9
+|
+|move|p2a: Trapinch|First Impression|p1a: Ludicolo
+|-supereffective|p1a: Ludicolo
+|-damage|p1a: Ludicolo|0 fnt
+|-damage|p2a: Trapinch|91/100|[from] item: Life Orb
+|faint|p1a: Ludicolo
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|-damage|p1a: Dracovish|88/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dracovish|Fishious Rend|p2a: Corviknight
+|-damage|p2a: Corviknight|56/100
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Corviknight
+|-damage|p2a: Corviknight|9/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|59/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Corviknight
+|-damage|p2a: Corviknight|11/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|61/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Corviknight
+|-damage|p2a: Corviknight|10/100
+|move|p2a: Corviknight|U-turn|p1a: Dracovish
+|-damage|p1a: Dracovish|77/100
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Dracovish
+|-supereffective|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Dracovish
+|
+|upkeep
+|
+|switch|p1a: Jolteon|Jolteon, F|100/100
+|-damage|p1a: Jolteon|88/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p2a: Corviknight|Corviknight, M|10/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Jolteon|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Jolteon|78/100|[from] item: Life Orb
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|16
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Jolteon
+|-damage|p1a: Jolteon|5/100
+|-unboost|p1a: Jolteon|spd|1
+|move|p1a: Jolteon|Shadow Ball|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p1a: Jolteon|0 fnt|[from] item: Life Orb
+|faint|p2a: Dragapult
+|faint|p1a: Jolteon
+|
+|upkeep
+|
+|switch|p2a: Trapinch|Trapinch, M|91/100
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|-damage|p1a: Dugtrio|94/100|[from] Stealth Rock
+|turn|17
+|c|☆Setup-bait|You got this trappinch
+|c|☆Setup-bait|Ur a good boy
+|c|☆Setup-bait|Who's a good boy
+|
+|move|p2a: Trapinch|First Impression|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|-damage|p2a: Trapinch|81/100|[from] item: Life Orb
+|faint|p1a: Dugtrio
+|
+|win|Setup-bait
+|raw|S A D G I R L 4's rating: 1294 → 1273(-21 for losing)
+|raw|Setup-bait's rating: 1342 → 1359(+17 for winning)
+|c|☆Setup-bait|Yaaaaa
+|l|☆S A D G I R L 4
+|c|☆Setup-bait|Gg

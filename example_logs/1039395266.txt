@@ -1,0 +1,456 @@
+|ScrapeTime|2020-01-02-00:12:31
+|j|☆its the y m c a
+|j|☆DemonGio
+|player|p1|its the y m c a|102|1045
+|player|p2|DemonGio|clay|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Appletun, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Claydol|
+|poke|p1|Alcremie-Rainbow, F|
+|poke|p1|Galvantula, F|
+|poke|p2|Mamoswine, M|
+|poke|p2|Dracovish|
+|poke|p2|Galvantula, F|
+|poke|p2|Sirfetch'd, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Gengar, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Galvantula|Galvantula, F, shiny|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|-ability|p1a: Galvantula|Unnerve|p2: DemonGio
+|turn|1
+|
+|move|p2a: Cinderace|Low Sweep|p1a: Galvantula
+|-resisted|p1a: Galvantula
+|-damage|p1a: Galvantula|85/100
+|-unboost|p1a: Galvantula|spe|1
+|move|p1a: Galvantula|Sticky Web|p2a: Cinderace
+|-sidestart|p2: DemonGio|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Galvantula
+|-supereffective|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|upkeep
+|
+|switch|p1a: Claydol|Claydol, shiny|100/100
+|turn|3
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: DemonGio|Sticky Web|[silent]
+|-sidestart|p1: its the y m c a|Sticky Web|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Claydol|Stealth Rock|p2a: Cinderace
+|-sidestart|p2: DemonGio|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|move|p1a: Claydol|Light Screen|p1a: Claydol
+|-sidestart|p1: its the y m c a|move: Light Screen
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|faint|p1a: Claydol
+|
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, F, shiny|100/100
+|-activate|p1a: Toxapex|move: Sticky Web
+|-unboost|p1a: Toxapex|spe|1
+|turn|6
+|
+|switch|p2a: Galvantula|Galvantula, F, shiny|100/100
+|-damage|p2a: Galvantula|76/100|[from] Stealth Rock
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Dracovish|Dracovish|88/100
+|-damage|p2a: Dracovish|76/100|[from] Stealth Rock
+|move|p1a: Toxapex|Toxic|p2a: Dracovish
+|-status|p2a: Dracovish|tox
+|
+|-damage|p2a: Dracovish|69/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Dracovish|Psychic Fangs|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-damage|p2a: Dracovish|57/100 tox|[from] psn
+|-sideend|p1: its the y m c a|move: Light Screen
+|upkeep
+|turn|9
+|
+|move|p2a: Dracovish|Psychic Fangs|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|42/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|92/100
+|
+|-heal|p1a: Toxapex|98/100|[from] item: Black Sludge
+|-damage|p2a: Dracovish|38/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|move|p2a: Dracovish|Psychic Fangs|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|46/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|96/100
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p2a: Dracovish|13/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Dracovish|Psychic Fangs|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-damage|p2a: Dracovish|0 fnt|[from] psn
+|faint|p2a: Dracovish
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, F|100/100
+|-damage|p2a: Gengar|88/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: Appletun|Appletun, M|100/100
+|-activate|p1a: Appletun|move: Sticky Web
+|-unboost|p1a: Appletun|spe|1
+|move|p2a: Gengar|Psychic|p1a: Appletun
+|-crit|p1a: Appletun
+|-damage|p1a: Appletun|60/100
+|
+|-heal|p2a: Gengar|94/100|[from] item: Black Sludge
+|-heal|p1a: Appletun|66/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Gengar|Sludge Bomb|p1a: Appletun
+|-supereffective|p1a: Appletun
+|-damage|p1a: Appletun|0 fnt
+|faint|p1a: Appletun
+|
+|-heal|p2a: Gengar|100/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|-activate|p1a: Corsola|move: Sticky Web
+|-unboost|p1a: Corsola|spe|1
+|turn|14
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|43/100
+|-unboost|p1a: Corsola|spd|1
+|move|p1a: Corsola|Will-O-Wisp|p2a: Gengar
+|-status|p2a: Gengar|brn
+|
+|-damage|p2a: Gengar|94/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|-heal|p2a: Gengar|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Gengar|94/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, F, shiny|100/100
+|-activate|p1a: Toxapex|move: Sticky Web
+|-unboost|p1a: Toxapex|spe|1
+|turn|16
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Gengar|Psychic|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-heal|p2a: Gengar|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Gengar|94/100 brn|[from] brn
+|upkeep
+|turn|17
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by its the y m c a)
+|
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|-damage|p2a: Mamoswine|88/100|[from] Stealth Rock
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Mamoswine|Amnesia|p2a: Mamoswine
+|-boost|p2a: Mamoswine|spd|2
+|move|p1a: Toxapex|Toxic|p2a: Mamoswine
+|-status|p2a: Mamoswine|tox
+|
+|-damage|p2a: Mamoswine|82/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p2a: Mamoswine|Amnesia|p2a: Mamoswine
+|-boost|p2a: Mamoswine|spd|2
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: Mamoswine|70/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p2a: Mamoswine|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|90/100
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Toxapex|96/100|[from] item: Black Sludge
+|-damage|p2a: Mamoswine|52/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p2a: Galvantula|Galvantula, F, shiny|76/100
+|-damage|p2a: Galvantula|51/100|[from] Stealth Rock
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Galvantula|Thief|p1a: Toxapex
+|-damage|p1a: Toxapex|91/100
+|-item|p2a: Galvantula|Black Sludge|[from] move: Thief|[of] p1a: Toxapex
+|move|p1a: Toxapex|Toxic|p2a: Galvantula
+|-status|p2a: Galvantula|tox
+|
+|-damage|p2a: Galvantula|38/100 tox|[from] item: Black Sludge
+|-damage|p2a: Galvantula|32/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Galvantula|Thunder|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-damage|p2a: Galvantula|20/100 tox|[from] item: Black Sludge
+|-damage|p2a: Galvantula|8/100 tox|[from] psn
+|upkeep
+|turn|24
+|inactive|its the y m c a has 120 seconds left.
+|inactive|DemonGio has 120 seconds left.
+|
+|move|p2a: Galvantula|Thunder|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|22/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|72/100
+|
+|-damage|p2a: Galvantula|0 fnt|[from] item: Black Sludge
+|faint|p2a: Galvantula
+|upkeep
+|inactive|DemonGio has 120 seconds left.
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, M|100/100
+|-damage|p2a: Sirfetch'd|94/100|[from] Stealth Rock
+|turn|25
+|inactive|its the y m c a has 120 seconds left.
+|
+|move|p2a: Sirfetch'd|Brick Break|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|55/100
+|move|p1a: Toxapex|Toxic|p2a: Sirfetch'd
+|-status|p2a: Sirfetch'd|tox
+|
+|-damage|p2a: Sirfetch'd|88/100 tox|[from] psn
+|upkeep
+|turn|26
+|inactive|its the y m c a has 120 seconds left.
+|
+|move|p2a: Sirfetch'd|Night Slash|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|22/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|72/100
+|
+|-damage|p2a: Sirfetch'd|76/100 tox|[from] psn
+|upkeep
+|turn|27
+|inactive|its the y m c a has 120 seconds left.
+|
+|move|p2a: Sirfetch'd|Leaf Blade|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|34/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|84/100
+|
+|-damage|p2a: Sirfetch'd|58/100 tox|[from] psn
+|upkeep
+|turn|28
+|inactive|DemonGio has 120 seconds left.
+|inactive|its the y m c a has 120 seconds left.
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Sirfetch'd|Brave Bird|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-damage|p2a: Sirfetch'd|34/100 tox|[from] psn
+|upkeep
+|turn|29
+|inactive|DemonGio has 120 seconds left.
+|
+|move|p1a: Toxapex|Baneful Bunker||[still]
+|-fail|p1a: Toxapex
+|move|p2a: Sirfetch'd|Leaf Blade|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|46/100
+|
+|-damage|p2a: Sirfetch'd|4/100 tox|[from] psn
+|upkeep
+|turn|30
+|inactive|DemonGio has 120 seconds left.
+|
+|move|p2a: Sirfetch'd|Leaf Blade|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|8/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|58/100
+|
+|-damage|p2a: Sirfetch'd|0 fnt|[from] psn
+|faint|p2a: Sirfetch'd
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, F|94/100 brn
+|-damage|p2a: Gengar|82/100 brn|[from] Stealth Rock
+|turn|31
+|inactive|its the y m c a has 120 seconds left.
+|
+|move|p2a: Gengar|Psychic|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|6/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|56/100
+|
+|-heal|p2a: Gengar|88/100 brn|[from] item: Black Sludge
+|-damage|p2a: Gengar|82/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Gengar|Psychic|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-heal|p2a: Gengar|88/100 brn|[from] item: Black Sludge
+|-damage|p2a: Gengar|82/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p2a: Gengar|Psychic|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|6/100
+|-unboost|p1a: Toxapex|spd|1
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|56/100
+|
+|-heal|p2a: Gengar|88/100 brn|[from] item: Black Sludge
+|-damage|p2a: Gengar|82/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Gengar|Psychic|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-heal|p2a: Gengar|88/100 brn|[from] item: Black Sludge
+|-damage|p2a: Gengar|82/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|move|p2a: Gengar|Psychic|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-heal|p2a: Gengar|88/100 brn|[from] item: Black Sludge
+|-damage|p2a: Gengar|82/100 brn|[from] brn
+|upkeep
+|inactive|its the y m c a has 90 seconds left.
+|
+|switch|p1a: Alcremie|Alcremie-Rainbow, F|100/100
+|-activate|p1a: Alcremie|move: Sticky Web
+|-unboost|p1a: Alcremie|spe|1
+|turn|36
+|
+|move|p2a: Gengar|Sludge Bomb|p1a: Alcremie
+|-supereffective|p1a: Alcremie
+|-damage|p1a: Alcremie|20/100
+|move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+|-boost|p1a: Alcremie|spa|1
+|-boost|p1a: Alcremie|spd|1
+|
+|-heal|p2a: Gengar|88/100 brn|[from] item: Black Sludge
+|-heal|p1a: Alcremie|26/100|[from] item: Leftovers
+|-damage|p2a: Gengar|82/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p1a: Alcremie|Protect|p1a: Alcremie
+|-singleturn|p1a: Alcremie|Protect
+|move|p2a: Gengar|Sludge Bomb|p1a: Alcremie
+|-activate|p1a: Alcremie|move: Protect
+|
+|-heal|p2a: Gengar|88/100 brn|[from] item: Black Sludge
+|-heal|p1a: Alcremie|32/100|[from] item: Leftovers
+|-damage|p2a: Gengar|82/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p2a: Gengar|Sludge Bomb|p1a: Alcremie
+|-supereffective|p1a: Alcremie
+|-damage|p1a: Alcremie|0 fnt
+|faint|p1a: Alcremie
+|
+|win|DemonGio
+|raw|its the y m c a's rating: 1046 → 1027(-19 for losing)
+|raw|DemonGio's rating: 1000 → 1045(+45 for winning)

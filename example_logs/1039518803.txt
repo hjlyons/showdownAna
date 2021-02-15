@@ -1,0 +1,398 @@
+|ScrapeTime|2020-01-02-05:25:30
+|j|☆diaperbabe29
+|j|☆Kdyg565
+|player|p1|diaperbabe29|8|1790
+|player|p2|Kdyg565|guitarist|1538
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Clefable, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Hydreigon, M|
+|poke|p1|Aegislash, M|
+|poke|p1|Seismitoad, M|
+|poke|p1|Conkeldurr, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Corviknight, F|
+|poke|p2|Sirfetch'd, F|
+|poke|p2|Clefable, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Seismitoad, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|1
+|
+|move|p2a: Rotom|Trick|p1a: Seismitoad
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Seismitoad
+|-item|p1a: Seismitoad|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|move|p1a: Seismitoad|Scald|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|52/100
+|
+|-heal|p2a: Rotom|58/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Seismitoad|Scald|p2a: Seismitoad
+|-immune|p2a: Seismitoad|[from] ability: Water Absorb
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Hydreigon
+|-sidestart|p1: diaperbabe29|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Hydreigon|Nasty Plot|p1a: Hydreigon
+|-boost|p1a: Hydreigon|spa|2
+|move|p2a: Seismitoad|Toxic|p1a: Hydreigon
+|-status|p1a: Hydreigon|tox
+|
+|-damage|p1a: Hydreigon|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|64/100
+|-damage|p1a: Hydreigon|84/100 tox|[from] item: Life Orb
+|
+|-heal|p2a: Clefable|70/100|[from] item: Leftovers
+|-damage|p1a: Hydreigon|72/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|-damage|p1a: Aegislash|94/100|[from] Stealth Rock
+|move|p2a: Clefable|Protect||[still]
+|-fail|p2a: Clefable
+|
+|-heal|p2a: Clefable|76/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Seismitoad
+|-damage|p2a: Seismitoad|27/100
+|
+|-heal|p2a: Seismitoad|33/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|move|p1a: Aegislash|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|53/100
+|
+|-heal|p2a: Corviknight|59/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Aegislash|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|10/100
+|move|p2a: Corviknight|U-turn|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|86/100
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Sirfetch'd|Knock Off|p1a: Corviknight
+|-damage|p1a: Corviknight|54/100
+|-enditem|p1a: Corviknight|Leftovers|[from] move: Knock Off|[of] p2a: Sirfetch'd
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Rotom|Rotom-Heat|58/100
+|move|p1a: Corviknight|U-turn|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|52/100
+|
+|switch|p1a: Hydreigon|Hydreigon, M|72/100 tox|[from]move: U-turn
+|-damage|p1a: Hydreigon|60/100 tox|[from] Stealth Rock
+|
+|-heal|p2a: Rotom|58/100|[from] item: Leftovers
+|-damage|p1a: Hydreigon|54/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-damage|p1a: Hydreigon|44/100 tox|[from] item: Life Orb
+|faint|p2a: Rotom
+|
+|-damage|p1a: Hydreigon|32/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|13
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Clefable
+|-damage|p1a: Clefable|64/100
+|
+|-heal|p1a: Clefable|70/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Corviknight|Corviknight, F|10/100
+|move|p1a: Clefable|Moonblast|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-heal|p1a: Clefable|76/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|76/100
+|turn|15
+|
+|switch|p1a: Aegislash|Aegislash, M|86/100
+|-damage|p1a: Aegislash|80/100|[from] Stealth Rock
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|100/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Flash Cannon|p2a: Sirfetch'd
+|-damage|p2a: Sirfetch'd|6/100
+|
+|-heal|p2a: Sirfetch'd|72/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|17
+|
+|switch|p1a: Hydreigon|Hydreigon, M|32/100 tox
+|-damage|p1a: Hydreigon|19/100 tox|[from] Stealth Rock
+|move|p2a: Sirfetch'd|Close Combat|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|-unboost|p2a: Sirfetch'd|def|1
+|-unboost|p2a: Sirfetch'd|spd|1
+|faint|p1a: Hydreigon
+|
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, M|80/100
+|-damage|p1a: Aegislash|74/100|[from] Stealth Rock
+|turn|18
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Sirfetch'd
+|-damage|p2a: Sirfetch'd|0 fnt
+|faint|p2a: Sirfetch'd
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|19
+|
+|switch|p1a: Corviknight|Corviknight, M|54/100
+|-damage|p1a: Corviknight|41/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Dragapult|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, M|76/100
+|turn|20
+|
+|switch|p2a: Clefable|Clefable, F|82/100
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-heal|p1a: Clefable|82/100|[from] item: Leftovers
+|-heal|p2a: Clefable|89/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|switch|p1a: Aegislash|Aegislash, M|74/100
+|-damage|p1a: Aegislash|68/100|[from] Stealth Rock
+|
+|-heal|p1a: Aegislash|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|22
+|
+|switch|p1a: Clefable|Clefable, M|82/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Clefable
+|-damage|p1a: Clefable|50/100
+|
+|-heal|p1a: Clefable|56/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Clefable
+|-damage|p1a: Clefable|21/100
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-heal|p1a: Clefable|27/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Dragapult|Shadow Ball|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|-heal|p1a: Clefable|77/100|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Clefable|83/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Clefable|Clefable, F|89/100
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|66/100
+|
+|-heal|p1a: Clefable|90/100|[from] item: Leftovers
+|-heal|p2a: Clefable|72/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|-damage|p1a: Aegislash|94/100|[from] Stealth Rock
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|78/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Steel Beam|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|-damage|p1a: Aegislash|44/100|[from] steelbeam
+|
+|-heal|p2a: Clefable|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|28
+|
+|switch|p1a: Clefable|Clefable, M|90/100
+|switch|p2a: Seismitoad|Seismitoad, F|33/100
+|
+|-heal|p2a: Seismitoad|39/100|[from] item: Leftovers
+|-heal|p1a: Clefable|96/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|80/100
+|
+|-heal|p1a: Clefable|100/100|[from] item: Leftovers
+|-heal|p2a: Clefable|86/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Clefable|Wish|p1a: Clefable
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|80/100
+|
+|-heal|p1a: Clefable|87/100|[from] item: Leftovers
+|-heal|p2a: Clefable|92/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|switch|p1a: Aegislash|Aegislash, M|44/100
+|-damage|p1a: Aegislash|38/100|[from] Stealth Rock
+|
+|-heal|p1a: Aegislash|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|32
+|
+|switch|p1a: Clefable|Clefable, M|87/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Clefable
+|-damage|p1a: Clefable|51/100
+|
+|-heal|p1a: Clefable|57/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p2a: Clefable|Clefable, F|92/100
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-heal|p1a: Clefable|63/100|[from] item: Leftovers
+|-heal|p2a: Clefable|98/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|-heal|p1a: Clefable|100/100|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Clefable|100/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|-damage|p1a: Aegislash|94/100|[from] Stealth Rock
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Flash Cannon|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Aegislash|Flash Cannon|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|5/100
+|-unboost|p2a: Clefable|spd|1
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|11/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|switch|p2a: Seismitoad|Seismitoad, F|39/100
+|move|p1a: Aegislash|Flash Cannon|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|-message|Kdyg565 forfeited.
+|
+|win|diaperbabe29
+|l|☆Kdyg565
+|raw|diaperbabe29's rating: 1790 → 1798(+8 for winning)
+|raw|Kdyg565's rating: 1538 → 1531(-7 for losing)

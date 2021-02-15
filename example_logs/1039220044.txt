@@ -1,0 +1,425 @@
+|ScrapeTime|2020-01-01-17:58:31
+|j|☆Rammyducklings
+|j|☆Tenebb
+|player|p1|Rammyducklings|265|1238
+|player|p2|Tenebb|2|1284
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dracovish|
+|poke|p1|Dragapult, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Inteleon, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Abomasnow, F|
+|poke|p2|Dracovish|
+|poke|p2|Pelipper, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Barraskewda, F|
+|poke|p2|Corsola-Galar, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dracovish|Dracovish|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Tenebb)
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Ferrothorn|Protect||[still]
+|-fail|p2a: Ferrothorn
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Hatterene|Mystical Fire|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|90/100
+|-unboost|p2a: Pelipper|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|move|p1a: Hatterene|Nuzzle|p2a: Corsola
+|-damage|p2a: Corsola|98/100
+|-status|p2a: Corsola|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Hatterene|Mystical Fire|p2a: Corsola
+|-damage|p2a: Corsola|88/100 par
+|-unboost|p2a: Corsola|spa|1
+|move|p2a: Corsola|Will-O-Wisp|p1a: Hatterene
+|move|p1a: Hatterene|Will-O-Wisp||[from]Magic Bounce|[still]
+|-fail|p1a: Hatterene
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p1a: Hatterene|Mystical Fire|p2a: Corsola
+|-damage|p2a: Corsola|78/100 par
+|-unboost|p2a: Corsola|spa|1
+|move|p2a: Corsola|Night Shade|p1a: Hatterene
+|-damage|p1a: Hatterene|69/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p1a: Hatterene|Giga Drain|p2a: Corsola
+|-damage|p2a: Corsola|57/100 par
+|-heal|p1a: Hatterene|80/100|[from] drain|[of] p2a: Corsola
+|cant|p2a: Corsola|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|inactive|Tenebb has 120 seconds left.
+|
+|move|p1a: Hatterene|Nuzzle|p2a: Corsola
+|-damage|p2a: Corsola|55/100 par
+|-start|p1a: Hatterene|Disable|Nuzzle|[from] ability: Cursed Body|[of] p2a: Corsola
+|move|p2a: Corsola|Night Shade|p1a: Hatterene
+|-damage|p1a: Hatterene|48/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: Hatterene|Mystical Fire|p2a: Corsola
+|-damage|p2a: Corsola|44/100 par
+|-unboost|p2a: Corsola|spa|1
+|move|p2a: Corsola|Night Shade|p1a: Hatterene
+|-damage|p1a: Hatterene|17/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p1a: Hatterene|Giga Drain|p2a: Corsola
+|-damage|p2a: Corsola|23/100 par
+|-heal|p1a: Hatterene|28/100|[from] drain|[of] p2a: Corsola
+|move|p2a: Corsola|Night Shade|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Inteleon|Inteleon, M|100/100
+|turn|10
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Inteleon|Dark Pulse|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|65/100
+|
+|-heal|p2a: Ferrothorn|71/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Ferrothorn|Leech Seed|p1a: Excadrill
+|-start|p1a: Excadrill|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|77/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|90/100|[silent]
+|upkeep
+|turn|12
+|
+|move|p1a: Excadrill|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Tenebb|move: Stealth Rock
+|move|p2a: Ferrothorn|Spikes|p1a: Excadrill
+|-sidestart|p1: Rammyducklings|Spikes
+|
+|-heal|p2a: Ferrothorn|96/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|76/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|13
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|95/100
+|-damage|p1a: Excadrill|63/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-end|p1a: Excadrill|Leech Seed|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-sideend|p1: Rammyducklings|Spikes|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|26/100
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Excadrill|Rock Slide|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|92/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-heal|p2a: Ferrothorn|98/100|[from] item: Leftovers
+|upkeep
+|inactive|Rammyducklings has 120 seconds left.
+|inactive|Rammyducklings has 90 seconds left.
+|inactive|Rammyducklings has 60 seconds left.
+|
+|switch|p1a: Inteleon|Inteleon, M|100/100
+|turn|15
+|
+|move|p1a: Inteleon|Dark Pulse|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|66/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Inteleon
+|-start|p1a: Inteleon|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|72/100|[from] item: Leftovers
+|-damage|p1a: Inteleon|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|82/100|[silent]
+|upkeep
+|turn|16
+|
+|switch|p1a: Abomasnow|Abomasnow, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Ferrothorn|Spikes|p1a: Abomasnow
+|-sidestart|p1: Rammyducklings|Spikes
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|76/100|[from] Hail
+|-heal|p2a: Ferrothorn|82/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Abomasnow|Blizzard|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|76/100|[from] Hail
+|-heal|p2a: Ferrothorn|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Abomasnow|Blizzard|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|50/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|32/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|44/100|[from] Hail
+|-heal|p2a: Ferrothorn|50/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Corsola|Corsola-Galar, M|23/100 par
+|-damage|p2a: Corsola|11/100 par|[from] Stealth Rock
+|move|p1a: Abomasnow|Blizzard|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-start|p1a: Abomasnow|Disable|Blizzard|[from] ability: Cursed Body|[of] p2a: Corsola
+|faint|p2a: Corsola
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|-damage|p1a: Dracovish|88/100|[from] Spikes
+|move|p2a: Hydreigon|Flash Cannon|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|72/100
+|
+|-weather|none
+|-heal|p2a: Hydreigon|94/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|50/100
+|-damage|p2a: Ferrothorn|44/100|[from] Stealth Rock
+|move|p1a: Dracovish|Leech Life|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|30/100
+|-heal|p1a: Dracovish|80/100|[from] drain|[of] p2a: Ferrothorn
+|-damage|p1a: Dracovish|67/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|36/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Abomasnow|Abomasnow, F|32/100
+|-damage|p1a: Abomasnow|19/100|[from] Spikes
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Ferrothorn|Protect||[still]
+|-fail|p2a: Ferrothorn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|30/100|[from] Hail
+|-heal|p2a: Ferrothorn|36/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Pelipper|Pelipper, F|90/100
+|-damage|p2a: Pelipper|65/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Abomasnow|Blizzard|p2a: Pelipper|[miss]
+|-miss|p1a: Abomasnow|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|
+|switch|p1a: Dracovish|Dracovish|67/100
+|-damage|p1a: Dracovish|55/100|[from] Spikes
+|move|p2a: Pelipper|Hurricane|p1a: Dracovish
+|-crit|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Abomasnow|Abomasnow, F|19/100
+|-damage|p1a: Abomasnow|7/100|[from] Spikes
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|25
+|
+|move|p1a: Abomasnow|Ice Shard|p2a: Pelipper
+|-damage|p2a: Pelipper|45/100
+|move|p2a: Pelipper|Hurricane|p1a: Abomasnow|[miss]
+|-miss|p2a: Pelipper|p1a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Pelipper|39/100|[from] Hail
+|upkeep
+|turn|26
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|36/100
+|-damage|p2a: Ferrothorn|30/100|[from] Stealth Rock
+|switch|p1a: Inteleon|Inteleon, M|88/100
+|-damage|p1a: Inteleon|76/100|[from] Spikes
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Inteleon|70/100|[from] Hail
+|-damage|p2a: Ferrothorn|24/100|[from] Hail
+|-heal|p2a: Ferrothorn|30/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Inteleon|Blizzard|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Inteleon|63/100|[from] Hail
+|upkeep
+|
+|switch|p2a: Pelipper|Pelipper, F|39/100
+|-damage|p2a: Pelipper|14/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|28
+|
+|move|p1a: Inteleon|Blizzard|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|turn|29
+|
+|switch|p1a: Abomasnow|Abomasnow, F|7/100
+|-damage|p1a: Abomasnow|0 fnt|[from] Spikes
+|faint|p1a: Abomasnow
+|move|p2a: Dracovish|Fishious Rend|p1: Abomasnow|[notarget]
+|-fail|p2a: Dracovish
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Inteleon|Inteleon, M|63/100
+|-damage|p1a: Inteleon|51/100|[from] Spikes
+|turn|30
+|
+|move|p1a: Inteleon|Dark Pulse|p2a: Dracovish
+|-damage|p2a: Dracovish|40/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Inteleon
+|-resisted|p1a: Inteleon
+|-damage|p1a: Inteleon|0 fnt
+|faint|p1a: Inteleon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Spikes
+|turn|31
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Dracovish
+|-supereffective|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|-hitcount|p2a: Dracovish|1
+|faint|p2a: Dracovish
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Tenebb has 120 seconds left.
+|
+|switch|p2a: Barraskewda|Barraskewda, F|100/100
+|-damage|p2a: Barraskewda|88/100|[from] Stealth Rock
+|turn|32
+|
+|move|p2a: Barraskewda|Liquidation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|21/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Barraskewda
+|-damage|p2a: Barraskewda|16/100
+|-damage|p2a: Barraskewda|0 fnt
+|-hitcount|p2a: Barraskewda|2
+|faint|p2a: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Tenebb has 120 seconds left.
+|
+|switch|p2a: Hydreigon|Hydreigon, F|94/100
+|-damage|p2a: Hydreigon|82/100|[from] Stealth Rock
+|turn|33
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-hitcount|p2a: Hydreigon|1
+|faint|p2a: Hydreigon
+|
+|win|Rammyducklings
+|l|☆Tenebb
+|raw|Rammyducklings's rating: 1238 → 1266(+28 for winning)
+|raw|Tenebb's rating: 1284 → 1256(-28 for losing)
+|c|☆Rammyducklings|gg

@@ -1,0 +1,259 @@
+|ScrapeTime|2020-01-01-08:05:50
+|j|☆Wolffy68
+|j|☆Tapu Glitch
+|player|p1|Wolffy68|101|1265
+|player|p2|Tapu Glitch|lady|1231
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tyranitar, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Bisharp, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Gengar, F|
+|poke|p1|Dracozolt|
+|poke|p2|Tyranitar, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Flygon, F|
+|poke|p2|Clefable, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Dracovish|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Tapu Glitch)
+|
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Yeet|Flygon, F|100/100
+|turn|1
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-ability|p1a: Tyranitar|Unnerve|p2: Tapu Glitch
+|move|p2a: Yeet|Dragon Claw|p1a: Tyranitar
+|-damage|p1a: Tyranitar|65/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Hit Me|Ferrothorn, F|100/100
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Tyranitar|Fire Punch|p2a: Hit Me
+|-supereffective|p2a: Hit Me
+|-crit|p2a: Hit Me
+|-damage|p2a: Hit Me|0 fnt
+|-damage|p1a: Tyranitar|53/100|[from] ability: Iron Barbs|[of] p2a: Hit Me
+|-damage|p1a: Tyranitar|43/100|[from] item: Life Orb
+|faint|p2a: Hit Me
+|
+|upkeep
+|
+|switch|p2a: Yeet|Flygon, F|100/100
+|turn|4
+|
+|move|p2a: Yeet|First Impression|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, F|100/100
+|turn|5
+|
+|switch|p2a: Pursuit was fair|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pursuit was fair
+|move|p1a: Gengar|Shadow Ball|p2a: Pursuit was fair
+|-resisted|p2a: Pursuit was fair
+|-damage|p2a: Pursuit was fair|88/100
+|-unboost|p2a: Pursuit was fair|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|move|p1a: Gengar|Dazzling Gleam|p2a: Pursuit was fair
+|-supereffective|p2a: Pursuit was fair
+|-damage|p2a: Pursuit was fair|37/100
+|move|p2a: Pursuit was fair|Crunch|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|turn|7
+|
+|switch|p2a: Not a Threat|Excadrill, F|100/100
+|move|p1a: Dracozolt|Low Kick|p2a: Not a Threat
+|-supereffective|p2a: Not a Threat
+|-damage|p2a: Not a Threat|0 fnt
+|faint|p2a: Not a Threat
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dracozolt|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Mama Clef|Clefable, F|100/100
+|turn|8
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|move|p2a: Mama Clef|Moonblast|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-crit|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|turn|9
+|
+|switch|p2a: Kill me|Dracovish|100/100
+|move|p1a: Bisharp|Iron Head|p2a: Kill me
+|-resisted|p2a: Kill me
+|-damage|p2a: Kill me|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kill me|72/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Kill me
+|-damage|p2a: Kill me|21/100
+|move|p2a: Kill me|Fishious Rend|p1a: Bisharp
+|-damage|p1a: Bisharp|28/100
+|-damage|p2a: Kill me|11/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kill me|5/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Kill me
+|-damage|p2a: Kill me|0 fnt
+|faint|p2a: Kill me
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Yeet|Flygon, F|100/100
+|turn|12
+|
+|switch|p1a: Dracozolt|Dracozolt|94/100
+|move|p2a: Yeet|Earthquake|p1a: Dracozolt
+|-supereffective|p1a: Dracozolt
+|-damage|p1a: Dracozolt|0 fnt
+|faint|p1a: Dracozolt
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|13
+|
+|switch|p2a: Pursuit was fair|Tyranitar, M|37/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Pursuit was fair
+|move|p1a: Dragapult|Shadow Ball|p2a: Pursuit was fair
+|-resisted|p2a: Pursuit was fair
+|-damage|p2a: Pursuit was fair|22/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|95/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Pursuit was fair
+|-resisted|p2a: Pursuit was fair
+|-damage|p2a: Pursuit was fair|7/100
+|-unboost|p2a: Pursuit was fair|spd|1
+|move|p2a: Pursuit was fair|Fire Blast|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|75/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Pursuit was fair
+|-resisted|p2a: Pursuit was fair
+|-damage|p2a: Pursuit was fair|0 fnt
+|faint|p2a: Pursuit was fair
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|69/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Mama Clef|Clefable, F|100/100
+|turn|16
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Mama Clef
+|-damage|p2a: Mama Clef|53/100
+|move|p2a: Mama Clef|Flamethrower|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|45/100|[from] Sandstorm
+|-heal|p2a: Mama Clef|59/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Mama Clef
+|-damage|p2a: Mama Clef|6/100
+|move|p2a: Mama Clef|Moonblast|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Mama Clef|12/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, F|28/100
+|turn|18
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Mama Clef
+|-resisted|p2a: Mama Clef
+|-damage|p2a: Mama Clef|0 fnt
+|faint|p2a: Mama Clef
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Yeet|Flygon, F|100/100
+|turn|19
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Yeet
+|-damage|p2a: Yeet|32/100
+|move|p2a: Yeet|Earthquake|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|win|Tapu Glitch
+|raw|Wolffy68's rating: 1265 → 1237(-28 for losing)
+|raw|Tapu Glitch's rating: 1231 → 1259(+28 for winning)
+|c|☆Tapu Glitch|g
+|c|☆Tapu Glitch|g
+|l|☆Wolffy68

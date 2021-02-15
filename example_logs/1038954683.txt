@@ -1,0 +1,249 @@
+|ScrapeTime|2020-01-01-02:06:43
+|j|☆blackdragon177
+|j|☆LaxativeCement
+|player|p1|blackdragon177|elesa|1497
+|player|p2|LaxativeCement|lucas|1561
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Sylveon, F|
+|poke|p1|Goodra, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Seismitoad, M|
+|poke|p1|Ninetales, M|
+|poke|p1|Leafeon, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Aegislash, F|
+|poke|p2|Gyarados, M|
+|poke|p2|Conkeldurr, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LaxativeCement)
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|switch|p2a: SHOOTINGSTAR|Excadrill, F|100/100
+|-ability|p2a: SHOOTINGSTAR|Mold Breaker
+|turn|1
+|
+|switch|p2a: Brody|Conkeldurr, M|100/100
+|move|p1a: Seismitoad|Liquidation|p2a: Brody
+|-damage|p2a: Brody|74/100
+|
+|-status|p2a: Brody|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Brody|Drain Punch|p1a: Rotom
+|-damage|p1a: Rotom|52/100
+|-heal|p2a: Brody|92/100 brn|[from] drain|[of] p1a: Rotom
+|
+|-damage|p2a: Brody|86/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: Rotom|Discharge|p2a: Brody
+|-damage|p2a: Brody|53/100 brn
+|move|p2a: Brody|Drain Punch|p1a: Rotom
+|-damage|p1a: Rotom|3/100
+|-heal|p2a: Brody|71/100 brn|[from] drain|[of] p1a: Rotom
+|
+|-damage|p2a: Brody|65/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: Sylveon|Sylveon, F, shiny|100/100
+|move|p2a: Brody|Mach Punch|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|80/100
+|
+|-damage|p2a: Brody|59/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: SLICE EM UP|Aegislash, F|100/100
+|move|p1a: Sylveon|Hyper Voice|p2a: SLICE EM UP
+|-resisted|p2a: SLICE EM UP
+|-damage|p2a: SLICE EM UP|67/100
+|
+|-heal|p2a: SLICE EM UP|73/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Rotom|Rotom-Heat|3/100
+|-formechange|p2a: SLICE EM UP|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: SLICE EM UP|Iron Head|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-heal|p2a: SLICE EM UP|80/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ninetales|Ninetales, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|7
+|
+|switch|p2a: CLEEEAN|Rotom-Wash|100/100
+|move|p1a: Ninetales|Substitute|p1a: Ninetales
+|-start|p1a: Ninetales|Substitute
+|-damage|p1a: Ninetales|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: Ninetales|Solar Beam||[still]
+|-prepare|p1a: Ninetales|Solar Beam|p2a: CLEEEAN
+|-anim|p1a: Ninetales|Solar Beam|p2a: CLEEEAN
+|-supereffective|p2a: CLEEEAN
+|-damage|p2a: CLEEEAN|36/100
+|move|p2a: CLEEEAN|Hydro Pump|p1a: Ninetales|[miss]
+|-miss|p2a: CLEEEAN|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: CLEEEAN|42/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Nesquik|Cinderace, M|100/100
+|move|p1a: Ninetales|Solar Beam||[still]
+|-prepare|p1a: Ninetales|Solar Beam|p2a: Nesquik
+|-anim|p1a: Ninetales|Solar Beam|p2a: Nesquik
+|-resisted|p2a: Nesquik
+|-damage|p2a: Nesquik|78/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p2a: Nesquik|High Jump Kick|p1a: Ninetales
+|-end|p1a: Ninetales|Substitute
+|move|p1a: Ninetales|Flamethrower|p2a: Nesquik
+|-resisted|p2a: Nesquik
+|-damage|p2a: Nesquik|43/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Nesquik|High Jump Kick|p1a: Seismitoad
+|-damage|p1a: Seismitoad|73/100
+|
+|-weather|none
+|-heal|p1a: Seismitoad|79/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Rampage|Gyarados, M|100/100
+|move|p1a: Seismitoad|Earthquake|p2a: Rampage
+|-immune|p2a: Rampage
+|
+|-heal|p1a: Seismitoad|85/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Leafeon|Leafeon, M|100/100
+|move|p2a: Rampage|Power Whip|p1a: Leafeon
+|-resisted|p1a: Leafeon
+|-damage|p1a: Leafeon|81/100
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Brody|Conkeldurr, M|59/100 brn
+|move|p1a: Leafeon|Leaf Blade|p2a: Brody
+|-damage|p2a: Brody|0 fnt
+|faint|p2a: Brody
+|
+|upkeep
+|
+|switch|p2a: SLICE EM UP|Aegislash, F|80/100
+|turn|15
+|
+|switch|p1a: Ninetales|Ninetales, M, shiny|75/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: SLICE EM UP|Swords Dance|p2a: SLICE EM UP
+|-boost|p2a: SLICE EM UP|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: SLICE EM UP|86/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|-formechange|p2a: SLICE EM UP|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: SLICE EM UP|Shadow Sneak|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: SLICE EM UP|92/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Sylveon|Sylveon, F, shiny|80/100
+|turn|17
+|
+|-formechange|p2a: SLICE EM UP|Aegislash||[from] ability: Stance Change
+|move|p2a: SLICE EM UP|King's Shield|p2a: SLICE EM UP
+|-singleturn|p2a: SLICE EM UP|Protect
+|move|p1a: Sylveon|Mystical Fire|p2a: SLICE EM UP
+|-activate|p2a: SLICE EM UP|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: SLICE EM UP|98/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|-formechange|p2a: SLICE EM UP|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: SLICE EM UP|Iron Head|p1a: Sylveon
+|-supereffective|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|faint|p1a: Sylveon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: SLICE EM UP|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Goodra|Goodra, M|100/100
+|turn|19
+|
+|-formechange|p2a: SLICE EM UP|Aegislash||[from] ability: Stance Change
+|move|p2a: SLICE EM UP|King's Shield|p2a: SLICE EM UP
+|-singleturn|p2a: SLICE EM UP|Protect
+|move|p1a: Goodra|Flamethrower|p2a: SLICE EM UP
+|-activate|p2a: SLICE EM UP|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|20
+|
+|move|p1a: Goodra|Flamethrower|p2a: SLICE EM UP
+|-supereffective|p2a: SLICE EM UP
+|-damage|p2a: SLICE EM UP|59/100
+|-formechange|p2a: SLICE EM UP|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: SLICE EM UP|Iron Head|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|
+|-heal|p2a: SLICE EM UP|65/100|[from] item: Leftovers
+|upkeep
+|-message|blackdragon177 forfeited.
+|
+|win|LaxativeCement
+|l|☆blackdragon177
+|raw|blackdragon177's rating: 1497 → 1481(-16 for losing)
+|raw|LaxativeCement's rating: 1561 → 1578(+17 for winning)

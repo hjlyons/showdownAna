@@ -1,0 +1,371 @@
+|ScrapeTime|2020-01-02-08:55:25
+|j|☆Doomfist 1990
+|j|☆lilion2478
+|player|p1|Doomfist 1990|norman|1098
+|player|p2|lilion2478|1|1147
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Arcanine, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Seismitoad, M|
+|poke|p1|Ditto|
+|poke|p1|Clefable, F|
+|poke|p2|Barraskewda, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Dracovish|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Grimmsnarl, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Clefable|Clefable, F|100/100
+|switch|p2a: Fraik|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Fraik
+|turn|1
+|
+|move|p2a: Fraik|Scald|p1a: Clefable
+|-damage|p1a: Clefable|46/100
+|move|p1a: Clefable|Thunder|p2a: Fraik
+|-supereffective|p2a: Fraik
+|-damage|p2a: Fraik|0 fnt
+|faint|p2a: Fraik
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Idofo|Dracovish|100/100
+|turn|2
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Idofo|Fishious Rend|p1a: Seismitoad
+|-immune|p1a: Seismitoad|[from] ability: Water Absorb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Chris|Ferrothorn, F|100/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Chris
+|-sidestart|p2: lilion2478|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Chris|Leech Seed|p1a: Corviknight
+|-start|p1a: Corviknight|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Corviknight|88/100|[from] Leech Seed|[of] p2a: Chris
+|upkeep
+|turn|5
+|
+|move|p1a: Corviknight|U-turn|p2a: Chris
+|-damage|p2a: Chris|90/100
+|-damage|p1a: Corviknight|75/100|[from] ability: Iron Barbs|[of] p2a: Chris
+|
+|switch|p1a: RK9|Arcanine, M|100/100|[from]move: U-turn
+|-ability|p1a: RK9|Intimidate|boost
+|-unboost|p2a: Chris|atk|1
+|move|p2a: Chris|Knock Off|p1a: RK9
+|-damage|p1a: RK9|85/100
+|-enditem|p1a: RK9|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Chris
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Chris|97/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: RK9|Flamethrower|p2a: Chris
+|-supereffective|p2a: Chris
+|-crit|p2a: Chris
+|-damage|p2a: Chris|42/100
+|move|p2a: Chris|Leech Seed|p1a: RK9
+|-start|p1a: RK9|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Chris|48/100|[from] item: Leftovers
+|-damage|p1a: RK9|72/100|[from] Leech Seed|[of] p2a: Chris
+|-heal|p2a: Chris|62/100|[silent]
+|upkeep
+|turn|7
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Chris|Gyro Ball|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|93/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|99/100|[from] item: Leftovers
+|-heal|p2a: Chris|68/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Chris|Leech Seed|p1a: Dragapult
+|-start|p1a: Dragapult|move: Leech Seed
+|
+|-weather|none
+|-heal|p2a: Chris|74/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|88/100|[from] Leech Seed|[of] p2a: Chris
+|-heal|p2a: Chris|85/100|[silent]
+|upkeep
+|turn|9
+|
+|move|p2a: Chris|Protect|p2a: Chris
+|-singleturn|p2a: Chris|Protect
+|move|p1a: Dragapult|Fire Blast|p2a: Chris
+|-activate|p2a: Chris|move: Protect
+|
+|-heal|p2a: Chris|91/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|76/100|[from] Leech Seed|[of] p2a: Chris
+|-heal|p2a: Chris|100/100|[silent]
+|upkeep
+|turn|10
+|
+|switch|p1a: Seismitoad|Seismitoad, M|99/100
+|switch|p2a: Taxidermy recrute|Grimmsnarl, M|100/100
+|-damage|p2a: Taxidermy recrute|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Taxidermy recrute|Reflect|p2a: Taxidermy recrute
+|-sidestart|p2: lilion2478|Reflect
+|move|p1a: Seismitoad|Toxic|p2a: Taxidermy recrute
+|-status|p2a: Taxidermy recrute|tox
+|
+|-damage|p2a: Taxidermy recrute|82/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p1a: Corviknight|Corviknight, M|75/100
+|move|p2a: Taxidermy recrute|Spirit Break|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|59/100
+|-ability|p1a: Corviknight|Mirror Armor
+|-unboost|p2a: Taxidermy recrute|spa|1
+|
+|-heal|p1a: Corviknight|65/100|[from] item: Leftovers
+|-damage|p2a: Taxidermy recrute|69/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p2a: Taxidermy recrute|Taunt|p1a: Corviknight
+|-start|p1a: Corviknight|move: Taunt
+|cant|p1a: Corviknight|move: Taunt|Defog
+|
+|-heal|p1a: Corviknight|71/100|[from] item: Leftovers
+|-damage|p2a: Taxidermy recrute|51/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p2a: Taxidermy recrute|Light Screen|p2a: Taxidermy recrute
+|-sidestart|p2: lilion2478|move: Light Screen
+|move|p1a: Corviknight|Iron Head|p2a: Taxidermy recrute
+|-supereffective|p2a: Taxidermy recrute
+|-damage|p2a: Taxidermy recrute|19/100 tox
+|
+|-heal|p1a: Corviknight|78/100|[from] item: Leftovers
+|-damage|p2a: Taxidermy recrute|0 fnt|[from] psn
+|faint|p2a: Taxidermy recrute
+|upkeep
+|
+|switch|p2a: Idofo|Dracovish|100/100
+|-damage|p2a: Idofo|88/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p1a: RK9|Arcanine, M|72/100
+|-ability|p1a: RK9|Intimidate|boost
+|-unboost|p2a: Idofo|atk|1
+|move|p2a: Idofo|Fishious Rend|p1a: RK9
+|-supereffective|p1a: RK9
+|-damage|p1a: RK9|0 fnt
+|faint|p1a: RK9
+|
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|turn|16
+|
+|switch|p2a: Chris|Ferrothorn, F|100/100
+|-damage|p2a: Chris|94/100|[from] Stealth Rock
+|switch|p1a: Corviknight|Corviknight, M|78/100
+|
+|-heal|p1a: Corviknight|84/100|[from] item: Leftovers
+|-heal|p2a: Chris|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Corviknight|Defog|p2a: Chris
+|-unboost|p2a: Chris|evasion|1
+|-sideend|p2: lilion2478|Reflect
+|-sideend|p2: lilion2478|move: Light Screen
+|-sideend|p2: lilion2478|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|move|p2a: Chris|Leech Seed|p1a: Corviknight
+|-start|p1a: Corviknight|move: Leech Seed
+|
+|-heal|p1a: Corviknight|90/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|78/100|[from] Leech Seed|[of] p2a: Chris
+|upkeep
+|turn|18
+|
+|move|p1a: Corviknight|U-turn|p2a: Chris
+|-damage|p2a: Chris|90/100
+|-damage|p1a: Corviknight|65/100|[from] ability: Iron Barbs|[of] p2a: Chris
+|
+|switch|p1a: Dragapult|Dragapult, F|76/100|[from]move: U-turn
+|move|p2a: Chris|Gyro Ball|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Chris|96/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, F|46/100
+|turn|19
+|
+|move|p1a: Clefable|Flamethrower|p2a: Chris
+|-supereffective|p2a: Chris
+|-damage|p2a: Chris|8/100
+|move|p2a: Chris|Gyro Ball|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-heal|p2a: Chris|14/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|turn|20
+|
+|move|p2a: Chris|Protect|p2a: Chris
+|-singleturn|p2a: Chris|Protect
+|move|p1a: Seismitoad|Earthquake|p2a: Chris
+|-activate|p2a: Chris|move: Protect
+|
+|-heal|p2a: Chris|20/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Seismitoad|Earthquake|p2a: Chris
+|-damage|p2a: Chris|0 fnt
+|faint|p2a: Chris
+|
+|upkeep
+|
+|switch|p2a: Lord-Eralion|Dragapult, F|100/100
+|turn|22
+|
+|move|p2a: Lord-Eralion|Draco Meteor|p1a: Seismitoad
+|-damage|p1a: Seismitoad|19/100
+|-unboost|p2a: Lord-Eralion|spa|2
+|move|p1a: Seismitoad|Stealth Rock|p2a: Lord-Eralion
+|-sidestart|p2: lilion2478|move: Stealth Rock
+|
+|-heal|p1a: Seismitoad|25/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p1a: Corviknight|Corviknight, M|65/100
+|move|p2a: Lord-Eralion|Draco Meteor|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|52/100
+|-unboost|p2a: Lord-Eralion|spa|2
+|
+|-heal|p1a: Corviknight|58/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Idofo|Dracovish|88/100
+|-damage|p2a: Idofo|76/100|[from] Stealth Rock
+|move|p1a: Corviknight|U-turn|p2a: Idofo
+|-damage|p2a: Idofo|60/100
+|
+|switch|p1a: Ditto|Ditto|100/100|[from]move: U-turn
+|-transform|p1a: Ditto|p2a: Idofo|[from] ability: Imposter
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Ditto|Outrage|p2a: Idofo
+|-supereffective|p2a: Idofo
+|-damage|p2a: Idofo|0 fnt
+|faint|p2a: Idofo
+|
+|upkeep
+|
+|switch|p2a: Lord-Eralion|Dragapult, F|100/100
+|-damage|p2a: Lord-Eralion|88/100|[from] Stealth Rock
+|turn|26
+|
+|move|p2a: Lord-Eralion|Draco Meteor|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|-unboost|p2a: Lord-Eralion|spa|2
+|faint|p1a: Ditto
+|
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, M|58/100
+|turn|27
+|
+|switch|p2a: San-Ga|Barraskewda, F|100/100
+|-damage|p2a: San-Ga|88/100|[from] Stealth Rock
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Seismitoad|Seismitoad, M|25/100
+|move|p2a: San-Ga|Close Combat|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|-unboost|p2a: San-Ga|def|1
+|-unboost|p2a: San-Ga|spd|1
+|-damage|p2a: San-Ga|78/100|[from] item: Life Orb
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|turn|29
+|
+|move|p2a: San-Ga|Liquidation|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|32/100
+|-damage|p2a: San-Ga|69/100|[from] item: Life Orb
+|move|p1a: Corviknight|Iron Head|p2a: San-Ga
+|-resisted|p2a: San-Ga
+|-damage|p2a: San-Ga|35/100
+|
+|-heal|p1a: Corviknight|38/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: San-Ga|Liquidation|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-damage|p2a: San-Ga|25/100|[from] item: Life Orb
+|faint|p1a: Corviknight
+|
+|win|lilion2478
+|raw|Doomfist 1990's rating: 1098 → 1077(-21 for losing)
+|raw|lilion2478's rating: 1147 → 1169(+22 for winning)
+|l|☆Doomfist 1990

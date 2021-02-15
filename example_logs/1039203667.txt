@@ -1,0 +1,244 @@
+|ScrapeTime|2020-01-01-17:14:44
+|j|☆Vandan211213
+|j|☆caagle
+|player|p1|Vandan211213|266|1181
+|player|p2|caagle|102|1161
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mandibuzz, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Dracozolt|
+|poke|p1|Gyarados, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Togekiss, M|
+|poke|p2|Pincurchin, F|
+|poke|p2|Togekiss, M|
+|poke|p2|Hawlucha, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Dracozolt|
+|poke|p2|Seismitoad, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Vandan211213)
+|
+|start
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|switch|p2a: Pincurchin|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|1
+|
+|move|p1a: Mandibuzz|Taunt|p2a: Pincurchin
+|-start|p2a: Pincurchin|move: Taunt
+|move|p2a: Pincurchin|Discharge|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|23/100
+|
+|-heal|p1a: Mandibuzz|29/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Mandibuzz|Toxic|p2a: Pincurchin
+|-status|p2a: Pincurchin|tox
+|move|p2a: Pincurchin|Discharge|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|-damage|p2a: Pincurchin|94/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|turn|3
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Dracozolt|Earthquake|p2a: Seismitoad
+|-damage|p2a: Seismitoad|64/100
+|
+|-heal|p2a: Seismitoad|70/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Gyarados
+|-sidestart|p1: Vandan211213|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|76/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Seismitoad|Toxic|p1a: Gyarados
+|-status|p1a: Gyarados|tox
+|
+|-heal|p2a: Seismitoad|82/100|[from] item: Leftovers
+|-damage|p1a: Gyarados|94/100 tox|[from] psn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|inactive|caagle has 120 seconds left.
+|
+|switch|p2a: Pincurchin|Pincurchin, F|94/100 tox
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|move|p1a: Gyarados|Power Whip|p2a: Pincurchin
+|-damage|p2a: Pincurchin|19/100 tox
+|
+|-heal|p1a: Gyarados|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Pincurchin|25/100 tox|[from] item: Leftovers
+|-damage|p1a: Gyarados|88/100 tox|[from] psn
+|-damage|p2a: Pincurchin|19/100 tox|[from] psn
+|upkeep
+|turn|7
+|inactive|caagle has 120 seconds left.
+|
+|switch|p2a: Seismitoad|Seismitoad, M|82/100
+|move|p1a: Gyarados|Waterfall|p2a: Seismitoad
+|-heal|p2a: Seismitoad|100/100|[from] ability: Water Absorb|[of] p1a: Gyarados
+|
+|-heal|p1a: Gyarados|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Gyarados|76/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Gyarados|Power Whip|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-heal|p1a: Gyarados|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Gyarados|58/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|move|p1a: Gyarados|Power Whip|p2a: Togekiss
+|-resisted|p2a: Togekiss
+|-damage|p2a: Togekiss|63/100
+|
+|-heal|p1a: Gyarados|64/100 tox|[from] item: Leftovers
+|-heal|p2a: Togekiss|69/100|[from] item: Leftovers
+|-damage|p1a: Gyarados|34/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Gyarados|Power Whip|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-heal|p1a: Gyarados|40/100 tox|[from] item: Leftovers
+|-damage|p1a: Gyarados|4/100 tox|[from] psn
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|turn|11
+|
+|switch|p2a: Togekiss|Togekiss, M|69/100
+|move|p1a: Gyarados|Waterfall|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-heal|p1a: Gyarados|10/100 tox|[from] item: Leftovers
+|-damage|p1a: Gyarados|0 fnt|[from] psn
+|faint|p1a: Gyarados
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|turn|12
+|
+|move|p2a: Dracozolt|Earthquake|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|-damage|p1a: Togekiss|76/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p2a: Pincurchin|Pincurchin, F|19/100 tox
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|
+|-heal|p1a: Togekiss|82/100|[from] item: Leftovers
+|-heal|p2a: Pincurchin|25/100 tox|[from] item: Leftovers
+|-damage|p2a: Pincurchin|19/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p1a: Togekiss|Dazzling Gleam|p2a: Pincurchin
+|-damage|p2a: Pincurchin|0 fnt
+|faint|p2a: Pincurchin
+|
+|-heal|p1a: Togekiss|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|-item|p2a: Excadrill|Air Balloon
+|turn|15
+|
+|move|p2a: Excadrill|Iron Head|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Dracozolt|Bolt Beak|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|-damage|p1a: Dracozolt|88/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|move|p1a: Dracozolt|Earthquake|p2a: Hawlucha
+|-immune|p2a: Hawlucha
+|
+|upkeep
+|turn|19
+|-message|Vandan211213 forfeited.
+|
+|win|caagle
+|l|☆Vandan211213
+|raw|Vandan211213's rating: 1181 → 1157(-24 for losing)
+|raw|caagle's rating: 1186 → 1211(+25 for winning)

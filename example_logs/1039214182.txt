@@ -1,0 +1,196 @@
+|ScrapeTime|2020-01-01-17:45:22
+|j|☆FlameBigNado
+|j|☆420DonSquadXXX
+|player|p1|FlameBigNado|101|1110
+|player|p2|420DonSquadXXX|morty|1098
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Charizard, M|
+|poke|p1|Chandelure, M|
+|poke|p1|Cherrim, F|
+|poke|p1|Ninetales, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Goodra, F|
+|poke|p2|Obstagoon, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Cinderace, F|
+|poke|p2|Aegislash, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|switch|p2a: Obstagoon|Obstagoon, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FlameBigNado)
+|
+|move|p2a: Obstagoon|Parting Shot|p1a: Ninetales
+|-unboost|p1a: Ninetales|atk|1
+|-unboost|p1a: Ninetales|spa|1
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from]move: Parting Shot
+|move|p1a: Ninetales|Nasty Plot|p1a: Ninetales
+|-boost|p1a: Ninetales|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Goodra|Goodra, F|100/100
+|move|p1a: Ninetales|Energy Ball|p2a: Goodra
+|-ability|p2a: Goodra|Sap Sipper|boost
+|-boost|p2a: Goodra|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Ninetales|Heat Wave|p2a: Goodra|[miss]
+|-miss|p1a: Ninetales|p2a: Goodra
+|move|p2a: Goodra|Acid Spray|p1a: Ninetales
+|-damage|p1a: Ninetales|83/100
+|-unboost|p1a: Ninetales|spd|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Ninetales|Heat Wave|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|84/100
+|move|p2a: Goodra|Acid Spray|p1a: Ninetales
+|-damage|p1a: Ninetales|50/100
+|-unboost|p1a: Ninetales|spd|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p1a: Rotom|Rotom-Heat, shiny|100/100
+|move|p2a: Goodra|Thunderbolt|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|79/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|inactive|420DonSquadXXX has 120 seconds left.
+|
+|move|p1a: Rotom|Trick|p2a: Goodra
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Goodra
+|-item|p2a: Goodra|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Assault Vest|[from] move: Trick
+|move|p2a: Goodra|Acid Spray|p1a: Rotom
+|-damage|p1a: Rotom|66/100
+|-unboost|p1a: Rotom|spd|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p1a: Charizard|Charizard, M|100/100
+|move|p2a: Goodra|Acid Spray|p1a: Charizard
+|-damage|p1a: Charizard|84/100
+|-unboost|p1a: Charizard|spd|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|72/100|[from] ability: Solar Power|[of] p1a: Charizard
+|upkeep
+|turn|8
+|
+|move|p1a: Charizard|Air Slash|p2a: Goodra
+|-damage|p2a: Goodra|42/100
+|-damage|p1a: Charizard|62/100|[from] item: Life Orb
+|move|p2a: Goodra|Acid Spray|p1a: Charizard
+|-damage|p1a: Charizard|28/100
+|-unboost|p1a: Charizard|spd|2
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|move|p1a: Charizard|Air Slash|p2a: Goodra
+|-damage|p2a: Goodra|15/100
+|-damage|p1a: Charizard|18/100|[from] item: Life Orb
+|move|p2a: Goodra|Acid Spray|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|upkeep
+|
+|switch|p1a: Ninetales|Ninetales, M|50/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|10
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Ninetales|Heat Wave|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|65/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p2a: Cinderace|High Jump Kick|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Chandelure|Chandelure, M, shiny|100/100
+|turn|12
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Chandelure|Shadow Ball|p2a: Rotom
+|-damage|p2a: Rotom|14/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rotom|20/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Obstagoon|Obstagoon, F|100/100
+|move|p1a: Chandelure|Shadow Ball|p2a: Obstagoon
+|-immune|p2a: Obstagoon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|switch|p1a: Cherrim|Cherrim, F, shiny|100/100
+|-formechange|p1a: Cherrim|Cherrim-Sunshine|[msg]|[from] ability: Flower Gift
+|move|p2a: Obstagoon|Knock Off|p1a: Cherrim
+|-damage|p1a: Cherrim|32/100
+|-enditem|p1a: Cherrim|Life Orb|[from] move: Knock Off|[of] p2a: Obstagoon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p2a: Obstagoon|Knock Off|p1a: Cherrim
+|-damage|p1a: Cherrim|0 fnt
+|faint|p1a: Cherrim
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|FlameBigNado forfeited.
+|
+|win|420DonSquadXXX
+|l|☆FlameBigNado
+|raw|FlameBigNado's rating: 1110 → 1084(-26 for losing)
+|raw|420DonSquadXXX's rating: 1098 → 1124(+26 for winning)

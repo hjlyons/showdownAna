@@ -1,0 +1,252 @@
+|ScrapeTime|2020-01-01-14:57:04
+|j|☆Acho le Platypus
+|j|☆TioMate
+|player|p1|Acho le Platypus|hiker-gen4|1075
+|player|p2|TioMate|52|1069
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corviknight, M|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Gyarados, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Ludicolo, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Bellossom, F|
+|poke|p2|Cherrim, F|
+|poke|p2|Centiskorch, F|
+|poke|p2|Ninetales, F|
+|poke|p2|Arcanine, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TioMate)
+|
+|move|p1a: Corsola|Stealth Rock|p2a: Torkoal
+|-sidestart|p2: TioMate|move: Stealth Rock
+|move|p2a: Torkoal|Yawn|p1a: Corsola
+|-start|p1a: Corsola|move: Yawn|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Corsola|Will-O-Wisp|p2a: Torkoal
+|-immune|p2a: Torkoal
+|move|p2a: Torkoal|Stealth Rock|p1a: Corsola
+|-sidestart|p1: Acho le Platypus|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Corsola|move: Yawn|[silent]
+|-status|p1a: Corsola|slp
+|upkeep
+|turn|3
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-damage|p1a: Gyarados|76/100|[from] Stealth Rock
+|switch|p2a: Lampião de fogo|Centiskorch, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gyarados|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Gyarados|Aqua Tail|p2a: Lampião de fogo
+|-supereffective|p2a: Lampião de fogo
+|-damage|p2a: Lampião de fogo|52/100
+|move|p2a: Lampião de fogo|Knock Off|p1a: Gyarados
+|-damage|p1a: Gyarados|60/100
+|-enditem|p1a: Gyarados|Leftovers|[from] move: Knock Off|[of] p2a: Lampião de fogo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p2a: Bloom|Cherrim, F|100/100
+|-formechange|p2a: Bloom|Cherrim-Sunshine|[msg]|[from] ability: Flower Gift
+|-damage|p2a: Bloom|88/100|[from] Stealth Rock
+|move|p1a: Gyarados|Aqua Tail|p2a: Bloom
+|-resisted|p2a: Bloom
+|-damage|p2a: Bloom|71/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|-damage|p1a: Cinderace|76/100|[from] Stealth Rock
+|move|p2a: Bloom|Solar Blade||[still]
+|-prepare|p2a: Bloom|Solar Blade|p1a: Cinderace
+|-anim|p2a: Bloom|Solar Blade|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-crit|p1a: Cinderace
+|-damage|p1a: Cinderace|19/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Lampião de fogo|Centiskorch, F|52/100
+|move|p1a: Cinderace|Blast Burn|p2a: Lampião de fogo
+|-start|p2a: Lampião de fogo|ability: Flash Fire
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: Cinderace|Blast Burn|p2a: Lampião de fogo
+|-immune|p2a: Lampião de fogo|[from] ability: Flash Fire
+|move|p2a: Lampião de fogo|Knock Off|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-enditem|p1a: Cinderace|Choice Band|[from] move: Knock Off|[of] p2a: Lampião de fogo
+|faint|p1a: Cinderace
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, F|60/100
+|-damage|p1a: Gyarados|35/100|[from] Stealth Rock
+|turn|9
+|
+|-end|p2a: Lampião de fogo|ability: Flash Fire|[silent]
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-damage|p2a: Torkoal|75/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Gyarados|Aqua Tail|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|53/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p1a: Gyarados|Giga Impact|p2a: Torkoal
+|-damage|p2a: Torkoal|28/100
+|-mustrecharge|p1a: Gyarados
+|move|p2a: Torkoal|Rapid Spin|p1a: Gyarados
+|-damage|p1a: Gyarados|27/100
+|-sideend|p2: TioMate|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Torkoal
+|-boost|p2a: Torkoal|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|cant|p1a: Gyarados|recharge
+|move|p2a: Torkoal|Yawn|p1a: Gyarados
+|-start|p1a: Gyarados|move: Yawn|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p1a: Gyarados|Aqua Tail|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|5/100
+|move|p2a: Torkoal|Body Press|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|12/100
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Gyarados|move: Yawn|[silent]
+|-message|Sleep Clause Mod activated.
+|upkeep
+|turn|13
+|
+|move|p1a: Gyarados|Aqua Tail|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Bloom|Cherrim, F|71/100
+|-formechange|p2a: Bloom|Cherrim-Sunshine|[msg]|[from] ability: Flower Gift
+|turn|14
+|
+|move|p2a: Bloom|Solar Blade||[still]
+|-prepare|p2a: Bloom|Solar Blade|p1a: Gyarados
+|-anim|p2a: Bloom|Solar Blade|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100 slp
+|-damage|p1a: Corsola|88/100 slp|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Bloom|Solar Blade||[still]
+|-prepare|p2a: Bloom|Solar Blade|p1a: Corsola
+|-anim|p2a: Bloom|Solar Blade|p1a: Corsola
+|-damage|p1a: Corsola|44/100 slp
+|-start|p2a: Bloom|Disable|Solar Blade|[from] ability: Cursed Body|[of] p1a: Corsola
+|cant|p1a: Corsola|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|switch|p2a: Lampião de fogo|Centiskorch, F|52/100
+|cant|p1a: Corsola|slp
+|
+|-weather|none
+|upkeep
+|turn|17
+|
+|move|p2a: Lampião de fogo|Knock Off|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|5/100 slp
+|-enditem|p1a: Corsola|Eviolite|[from] move: Knock Off|[of] p2a: Lampião de fogo
+|-curestatus|p1a: Corsola|slp|[msg]
+|move|p1a: Corsola|Stealth Rock|p2a: Lampião de fogo
+|-sidestart|p2: TioMate|move: Stealth Rock
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Lampião de fogo|Fire Lash|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|-start|p2a: Lampião de fogo|Disable|Fire Lash|[from] ability: Cursed Body|[of] p1a: Corsola
+|faint|p1a: Corsola
+|
+|upkeep
+|
+|switch|p1a: Ludicolo|Ludicolo, F|100/100
+|-damage|p1a: Ludicolo|88/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Ludicolo|Brick Break|p2a: Lampião de fogo
+|-resisted|p2a: Lampião de fogo
+|-damage|p2a: Lampião de fogo|45/100
+|move|p2a: Lampião de fogo|Rest|p2a: Lampião de fogo
+|-status|p2a: Lampião de fogo|slp|[from] move: Rest
+|-heal|p2a: Lampião de fogo|100/100 slp|[silent]
+|
+|upkeep
+|turn|20
+|-message|Acho le Platypus forfeited.
+|
+|win|TioMate
+|l|☆Acho le Platypus

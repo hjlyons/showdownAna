@@ -1,0 +1,166 @@
+|ScrapeTime|2020-01-01-02:24:48
+|j|☆ShadowMourne
+|j|☆soft boys
+|player|p1|ShadowMourne|2|1000
+|player|p2|soft boys|pokekid|1048
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Lapras, F|
+|poke|p1|Whimsicott, F|
+|poke|p1|Golurk|
+|poke|p1|Kingler, M|
+|poke|p1|Reuniclus, F|
+|poke|p1|Salazzle, F|
+|poke|p2|Pincurchin, M|
+|poke|p2|Snom, F|
+|poke|p2|Pyukumuku, F|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Hitmontop, M|
+|poke|p2|Slurpuff, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|switch|p2a: Snom|Snom, F|100/100
+|turn|1
+|
+|move|p1a: Salazzle|Fire Blast|p2a: Snom
+|-supereffective|p2a: Snom
+|-enditem|p2a: Snom|Focus Sash
+|-damage|p2a: Snom|1/100
+|move|p2a: Snom|Mirror Coat|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|faint|p1a: Salazzle
+|
+|upkeep
+|
+|switch|p1a: Whimsicott|Whimsicott, F|100/100
+|turn|2
+|
+|move|p1a: Whimsicott|Leech Seed|p2a: Snom
+|-start|p2a: Snom|move: Leech Seed
+|move|p2a: Snom|Struggle Bug|p1a: Whimsicott
+|-damage|p1a: Whimsicott|83/100
+|-unboost|p1a: Whimsicott|spa|1
+|
+|-damage|p2a: Snom|0 fnt|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|84/100|[silent]
+|faint|p2a: Snom
+|upkeep
+|
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|turn|3
+|
+|move|p2a: Hitmontop|Fake Out|p1a: Whimsicott
+|-damage|p1a: Whimsicott|63/100
+|cant|p1a: Whimsicott|flinch
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Whimsicott|Cotton Guard|p1a: Whimsicott
+|-boost|p1a: Whimsicott|def|3
+|move|p2a: Hitmontop|Bullet Punch|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|48/100
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Pyukumuku|Pyukumuku, F|100/100
+|move|p1a: Whimsicott|Leech Seed|p2a: Pyukumuku
+|-start|p2a: Pyukumuku|move: Leech Seed
+|
+|-damage|p2a: Pyukumuku|88/100|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|68/100|[silent]
+|upkeep
+|turn|6
+|
+|move|p1a: Whimsicott|Cotton Guard|p1a: Whimsicott
+|-boost|p1a: Whimsicott|def|3
+|move|p2a: Pyukumuku|Toxic|p1a: Whimsicott
+|-status|p1a: Whimsicott|tox
+|
+|-heal|p2a: Pyukumuku|94/100|[from] item: Leftovers
+|-damage|p2a: Pyukumuku|82/100|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|87/100 tox|[silent]
+|-damage|p1a: Whimsicott|81/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|move|p1a: Whimsicott|Giga Drain|p2a: Hitmontop
+|-damage|p2a: Hitmontop|91/100
+|-heal|p1a: Whimsicott|88/100 tox|[from] drain|[of] p2a: Hitmontop
+|
+|-damage|p1a: Whimsicott|76/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|move|p2a: Hitmontop|Fake Out|p1a: Whimsicott
+|-damage|p1a: Whimsicott|71/100 tox
+|cant|p1a: Whimsicott|flinch
+|
+|-damage|p1a: Whimsicott|53/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|move|p1a: Whimsicott|Stun Spore|p2a: Hitmontop
+|-status|p2a: Hitmontop|par
+|cant|p2a: Hitmontop|par
+|
+|-damage|p1a: Whimsicott|28/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|move|p1a: Whimsicott|Leech Seed|p2a: Hitmontop
+|-start|p2a: Hitmontop|move: Leech Seed
+|move|p2a: Hitmontop|Bullet Punch|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|18/100 tox
+|
+|-damage|p2a: Hitmontop|79/100 par|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|37/100 tox|[silent]
+|-damage|p1a: Whimsicott|7/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|move|p1a: Whimsicott|Giga Drain|p2a: Corsola
+|-damage|p2a: Corsola|93/100
+|-heal|p1a: Whimsicott|13/100 tox|[from] drain|[of] p2a: Corsola
+|-start|p1a: Whimsicott|Disable|Giga Drain|[from] ability: Cursed Body|[of] p2a: Corsola
+|
+|-damage|p1a: Whimsicott|0 fnt|[from] psn
+|faint|p1a: Whimsicott
+|upkeep
+|
+|switch|p1a: Golurk|Golurk|100/100
+|turn|12
+|
+|move|p1a: Golurk|Earthquake|p2a: Corsola
+|-damage|p2a: Corsola|56/100
+|move|p2a: Corsola|Will-O-Wisp|p1a: Golurk
+|-status|p1a: Golurk|brn
+|
+|-damage|p1a: Golurk|95/100 brn|[from] brn
+|upkeep
+|turn|13
+|-message|ShadowMourne forfeited.
+|
+|win|soft boys
+|l|☆ShadowMourne
+|raw|ShadowMourne's rating: 1000 → 1000(+0 for losing)
+|raw|soft boys's rating: 1048 → 1077(+29 for winning)

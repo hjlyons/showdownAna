@@ -1,0 +1,285 @@
+|ScrapeTime|2020-01-01-16:44:58
+|j|☆deeez nuuts
+|j|☆The first rule
+|player|p1|deeez nuuts|2|1441
+|player|p2|The first rule|cynthia-gen4|1463
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Mantine, F|
+|poke|p1|Barraskewda, F|
+|poke|p1|Aegislash, M|
+|poke|p1|Seismitoad, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Barraskewda, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Crawdaunt, F|
+|poke|p2|Conkeldurr, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by deeez nuuts)
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M, shiny|100/100
+|turn|1
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|par
+|cant|p2a: Ferrothorn|par
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: deeez nuuts|Reflect
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Grimmsnarl
+|-sidestart|p1: deeez nuuts|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: deeez nuuts|move: Light Screen
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|30/100
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|-damage|p1a: Barraskewda|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Barraskewda
+|-resisted|p1a: Barraskewda
+|-damage|p1a: Barraskewda|62/100
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Pelipper|Pelipper, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Barraskewda|Close Combat|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|77/100
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Mantine|Mantine, F|100/100
+|-damage|p1a: Mantine|76/100|[from] Stealth Rock
+|move|p2a: Pelipper|U-turn|p1a: Mantine
+|-resisted|p1a: Mantine
+|-damage|p1a: Mantine|72/100
+|
+|switch|p2a: Barraskewda|Barraskewda, M|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p2a: Barraskewda|Crunch|p1a: Mantine
+|-damage|p1a: Mantine|40/100
+|-damage|p2a: Barraskewda|91/100|[from] item: Life Orb
+|move|p1a: Mantine|Hurricane|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|faint|p2a: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|The first rule has 120 seconds left.
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M, shiny|100/100 par
+|turn|8
+|
+|move|p1a: Mantine|Hurricane|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|55/100 par
+|move|p2a: Ferrothorn|Leech Seed|p1a: Mantine
+|-start|p1a: Mantine|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|62/100 par|[from] item: Leftovers
+|-damage|p1a: Mantine|28/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|72/100 par|[silent]
+|upkeep
+|turn|9
+|
+|switch|p1a: Barraskewda|Barraskewda, F|62/100
+|-damage|p1a: Barraskewda|50/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Barraskewda
+|-start|p1a: Barraskewda|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|79/100 par|[from] item: Leftovers
+|-damage|p1a: Barraskewda|38/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|88/100 par|[silent]
+|-sideend|p1: deeez nuuts|Reflect
+|upkeep
+|turn|10
+|
+|move|p1a: Barraskewda|Close Combat|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|3/100 par
+|-damage|p1a: Barraskewda|26/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Barraskewda
+|-resisted|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|9/100 par|[from] item: Leftovers
+|-sideend|p1: deeez nuuts|move: Light Screen
+|upkeep
+|inactive|deeez nuuts has 120 seconds left.
+|inactive|deeez nuuts has 90 seconds left.
+|inactive|deeez nuuts has 60 seconds left.
+|inactive|deeez nuuts has 30 seconds left.
+|inactive|deeez nuuts has 20 seconds left.
+|inactive|deeez nuuts has 15 seconds left.
+|inactive|deeez nuuts has 10 seconds left.
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|-damage|p1a: Seismitoad|95/100|[from] Stealth Rock
+|turn|11
+|inactive|deeez nuuts has 20 seconds left this turn.
+|
+|move|p1a: Seismitoad|Earth Power|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Seismitoad|85/100|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|deeez nuuts has 25 seconds left this turn.
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|turn|12
+|inactive|deeez nuuts has 30 seconds left.
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|30/100
+|-damage|p1a: Grimmsnarl|18/100|[from] Stealth Rock
+|move|p2a: Conkeldurr|Facade|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|-weather|none
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|inactive|deeez nuuts has 30 seconds left this turn.
+|
+|switch|p1a: Mantine|Mantine, F|28/100
+|-damage|p1a: Mantine|3/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Mantine
+|-resisted|p1a: Mantine
+|-damage|p1a: Mantine|0 fnt
+|faint|p1a: Mantine
+|
+|-damage|p2a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-damage|p1a: Pelipper|75/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|14
+|
+|switch|p2a: Pelipper|Pelipper, M, shiny|77/100
+|move|p1a: Pelipper|U-turn|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|74/100
+|inactive|deeez nuuts has 30 seconds left.
+|inactive|deeez nuuts has 20 seconds left.
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100|[from]move: U-turn
+|-damage|p1a: Aegislash|94/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Aegislash|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|deeez nuuts has 30 seconds left this turn.
+|
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|move|p2a: Pelipper|Scald|p1a: Aegislash
+|-damage|p1a: Aegislash|71/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Aegislash|77/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|deeez nuuts has 30 seconds left.
+|
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|move|p2a: Pelipper|Scald|p1a: Aegislash
+|-damage|p1a: Aegislash|46/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Aegislash|52/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Iron Head|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-crit|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Aegislash|59/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100
+|turn|18
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Crawdaunt|Swords Dance|p2a: Crawdaunt
+|-boost|p2a: Crawdaunt|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Aegislash|65/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|The first rule has 120 seconds left.
+|inactive|The first rule has 90 seconds left.
+|
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|deeez nuuts has 30 seconds left.
+|inactive|deeez nuuts has 20 seconds left.
+|inactive|deeez nuuts has 15 seconds left.
+|inactive|deeez nuuts has 10 seconds left.
+|inactive|deeez nuuts has 5 seconds left.
+|-message|deeez nuuts lost due to inactivity.
+|
+|win|The first rule
+|c|☆The first rule|gg
+|raw|deeez nuuts's rating: 1441 → 1422(-19 for losing)
+|raw|The first rule's rating: 1463 → 1482(+19 for winning)

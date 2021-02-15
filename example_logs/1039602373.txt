@@ -1,0 +1,228 @@
+|ScrapeTime|2020-01-02-11:05:57
+|j|☆Armand Lethal
+|j|☆Riccati
+|player|p1|Armand Lethal|1|1093
+|player|p2|Riccati|170|1039
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gengar, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Salazzle, F|
+|poke|p1|Cursola, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Corviknight, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Barraskewda, F|
+|poke|p2|Drednaw, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Crawdaunt, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Gengar|Gengar, M|100/100
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|turn|1
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Gengar|Shadow Ball|p2a: Seismitoad
+|-damage|p2a: Seismitoad|49/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Gengar|Taunt|p2a: Seismitoad
+|-start|p2a: Seismitoad|move: Taunt
+|cant|p2a: Seismitoad|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Gengar|Shadow Ball|p2a: Pelipper
+|-crit|p2a: Pelipper
+|-damage|p2a: Pelipper|17/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, F|100/100
+|turn|5
+|
+|move|p2a: Barraskewda|Waterfall|p1a: Gengar
+|-crit|p1a: Gengar
+|-enditem|p1a: Gengar|Focus Sash
+|-damage|p1a: Gengar|1/100
+|cant|p1a: Gengar|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p2a: Barraskewda|Waterfall|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-start|p2a: Barraskewda|Disable|Waterfall|[from] ability: Cursed Body|[of] p1a: Gengar
+|faint|p1a: Gengar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Cursola|Cursola, M|100/100
+|turn|7
+|
+|switch|p2a: Drednaw|Drednaw, F|100/100
+|move|p1a: Cursola|Stealth Rock|p2a: Drednaw
+|-sidestart|p2: Riccati|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: Cursola|Protect|p1a: Cursola
+|-singleturn|p1a: Cursola|Protect
+|move|p2a: Drednaw|Crunch|p1a: Cursola
+|-activate|p1a: Cursola|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p2a: Drednaw|Liquidation|p1a: Cursola
+|-enditem|p1a: Cursola|Focus Sash
+|-damage|p1a: Cursola|1/100
+|-ability|p1a: Cursola|Perish Body
+|-start|p1a: Cursola|perish3
+|-start|p2a: Drednaw|perish3
+|-damage|p2a: Drednaw|91/100|[from] item: Life Orb
+|move|p1a: Cursola|Strength Sap|p2a: Drednaw
+|-unboost|p2a: Drednaw|atk|1
+|-heal|p1a: Cursola|100/100
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Drednaw|perish3
+|-start|p1a: Cursola|perish3
+|upkeep
+|turn|10
+|
+|move|p1a: Cursola|Protect|p1a: Cursola
+|-singleturn|p1a: Cursola|Protect
+|move|p2a: Drednaw|Crunch|p1a: Cursola
+|-activate|p1a: Cursola|move: Protect
+|
+|-weather|none
+|-start|p2a: Drednaw|perish2
+|-start|p1a: Cursola|perish2
+|upkeep
+|turn|11
+|
+|move|p2a: Drednaw|Crunch|p1a: Cursola
+|-supereffective|p1a: Cursola
+|-damage|p1a: Cursola|15/100
+|-damage|p2a: Drednaw|81/100|[from] item: Life Orb
+|move|p1a: Cursola|Shadow Ball|p2a: Drednaw
+|-damage|p2a: Drednaw|3/100
+|
+|-start|p2a: Drednaw|perish1
+|-start|p1a: Cursola|perish1
+|upkeep
+|turn|12
+|
+|move|p2a: Drednaw|Crunch|p1a: Cursola
+|-supereffective|p1a: Cursola
+|-damage|p1a: Cursola|0 fnt
+|-damage|p2a: Drednaw|0 fnt|[from] item: Life Orb
+|faint|p1a: Cursola
+|faint|p2a: Drednaw
+|
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, F|100/100
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p2a: Barraskewda|88/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p2a: Seismitoad|Seismitoad, M|49/100
+|-damage|p2a: Seismitoad|43/100|[from] Stealth Rock
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Seismitoad|Stealth Rock|p1a: Grimmsnarl
+|-sidestart|p1: Armand Lethal|move: Stealth Rock
+|move|p1a: Grimmsnarl|Darkest Lariat|p2a: Seismitoad
+|-crit|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|cant|p2a: Ferrothorn|move: Taunt|Leech Seed
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|move|p2a: Ferrothorn|Knock Off|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|97/100
+|-enditem|p1a: Grimmsnarl|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|-damage|p2a: Crawdaunt|88/100|[from] Stealth Rock
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|
+|-heal|p2a: Crawdaunt|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|upkeep
+|c|☆Riccati|More luck with critics
+|-message|Riccati forfeited.
+|
+|win|Armand Lethal
+|l|☆Riccati
+|raw|Armand Lethal's rating: 1093 → 1115(+22 for winning)
+|raw|Riccati's rating: 1039 → 1026(-13 for losing)

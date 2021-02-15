@@ -1,0 +1,369 @@
+|ScrapeTime|2020-01-01-09:15:33
+|j|☆smoovBert
+|j|☆JK41
+|player|p1|smoovBert|140|1379
+|player|p2|JK41|169|1364
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, M|
+|poke|p1|Gyarados, F|
+|poke|p1|Tyranitar, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Gengar, M|
+|poke|p1|Rotom-Wash|
+|poke|p2|Boltund, M|
+|poke|p2|Gyarados, F|
+|poke|p2|Chandelure, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Vileplume, M|
+|poke|p2|Morpeko, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Sploosh|Gyarados, F|100/100
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|-ability|p1a: Sploosh|Intimidate|boost
+|-unboost|p2a: Seismitoad|atk|1
+|turn|1
+|
+|move|p1a: Sploosh|Power Whip|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Morpeko|Morpeko, M|100/100
+|turn|2
+|
+|switch|p1a: Zillow|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Zillow
+|move|p2a: Morpeko|Parting Shot|p1a: Zillow
+|-unboost|p1a: Zillow|atk|1
+|-unboost|p1a: Zillow|spa|1
+|
+|switch|p2a: Vileplume|Vileplume, M|100/100|[from]move: Parting Shot
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vileplume|94/100|[from] Sandstorm
+|-heal|p2a: Vileplume|100/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|move|p1a: Zillow|Fire Blast|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|57/100
+|move|p2a: Vileplume|Sleep Powder|p1a: Zillow|[miss]
+|-miss|p2a: Vileplume|p1a: Zillow
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vileplume|51/100|[from] Sandstorm
+|-heal|p2a: Vileplume|57/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|move|p1a: Zillow|Stealth Rock|p2a: Vileplume
+|-sidestart|p2: JK41|move: Stealth Rock
+|move|p2a: Vileplume|Strength Sap|p1a: Zillow
+|-unboost|p1a: Zillow|atk|1
+|-heal|p2a: Vileplume|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vileplume|94/100|[from] Sandstorm
+|-heal|p2a: Vileplume|100/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p1a: Sploosh|Gyarados, F|100/100
+|-ability|p1a: Sploosh|Intimidate|boost
+|-unboost|p2a: Vileplume|atk|1
+|move|p2a: Vileplume|Sleep Powder|p1a: Sploosh
+|-status|p1a: Sploosh|slp|[from] move: Sleep Powder
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sploosh|94/100 slp|[from] Sandstorm
+|-damage|p2a: Vileplume|94/100|[from] Sandstorm
+|-heal|p2a: Vileplume|100/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|cant|p1a: Sploosh|slp
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|switch|p1a: Jerk|Rotom-Wash|100/100
+|move|p2a: Gyarados|Substitute|p2a: Gyarados
+|-start|p2a: Gyarados|Substitute
+|-damage|p2a: Gyarados|76/100
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Jerk|Thunderbolt|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-end|p2a: Gyarados|Substitute
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|-damage|p2a: Vileplume|88/100|[from] Stealth Rock
+|move|p1a: Jerk|Thunderbolt|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|71/100
+|
+|-heal|p2a: Vileplume|78/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|switch|p1a: Sploosh|Gyarados, F|94/100 slp
+|-ability|p1a: Sploosh|Intimidate|boost
+|-unboost|p2a: Vileplume|atk|1
+|move|p2a: Vileplume|Moonblast|p1a: Sploosh
+|-damage|p1a: Sploosh|62/100 slp
+|-unboost|p1a: Sploosh|spa|1
+|
+|-heal|p2a: Vileplume|84/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|cant|p1a: Sploosh|slp
+|move|p2a: Vileplume|Sludge Wave|p1a: Sploosh
+|-damage|p1a: Sploosh|14/100 slp
+|
+|-heal|p2a: Vileplume|90/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|cant|p1a: Sploosh|slp
+|move|p2a: Vileplume|Moonblast|p1a: Sploosh
+|-damage|p1a: Sploosh|0 fnt
+|faint|p1a: Sploosh
+|
+|-heal|p2a: Vileplume|96/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Losung|Hydreigon, M|100/100
+|turn|13
+|
+|move|p1a: Losung|Substitute|p1a: Losung
+|-start|p1a: Losung|Substitute
+|-damage|p1a: Losung|76/100
+|move|p2a: Vileplume|Moonblast|p1a: Losung
+|-supereffective|p1a: Losung
+|-end|p1a: Losung|Substitute
+|
+|-heal|p1a: Losung|82/100|[from] item: Leftovers
+|-heal|p2a: Vileplume|100/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|switch|p1a: Jerk|Rotom-Wash|100/100
+|move|p2a: Vileplume|Moonblast|p1a: Jerk
+|-damage|p1a: Jerk|66/100
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Jerk|Thunder Wave|p2a: Vileplume
+|-status|p2a: Vileplume|par
+|move|p2a: Vileplume|Moonblast|p1a: Jerk
+|-damage|p1a: Jerk|33/100
+|-unboost|p1a: Jerk|spa|1
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Zillow|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Zillow
+|move|p2a: Vileplume|Moonblast|p1a: Zillow
+|-supereffective|p1a: Zillow
+|-damage|p1a: Zillow|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vileplume|94/100 par|[from] Sandstorm
+|-heal|p1a: Zillow|71/100|[from] item: Leftovers
+|-heal|p2a: Vileplume|100/100 par|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|move|p1a: Zillow|Fire Blast|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|32/100 par
+|move|p2a: Vileplume|Sleep Powder|p1a: Zillow
+|-status|p1a: Zillow|slp|[from] move: Sleep Powder
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vileplume|26/100 par|[from] Sandstorm
+|-heal|p1a: Zillow|78/100 slp|[from] item: Leftovers
+|-heal|p2a: Vileplume|32/100 par|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|switch|p2a: Morpeko|Morpeko, M|100/100
+|-damage|p2a: Morpeko|88/100|[from] Stealth Rock
+|cant|p1a: Zillow|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Morpeko|82/100|[from] Sandstorm
+|-heal|p1a: Zillow|84/100 slp|[from] item: Leftovers
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|19
+|
+|move|p2a: Morpeko|Rapid Spin|p1a: Zillow
+|-resisted|p1a: Zillow
+|-damage|p1a: Zillow|75/100 slp
+|-sideend|p2: JK41|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Morpeko
+|-boost|p2a: Morpeko|spe|1
+|-damage|p2a: Morpeko|72/100|[from] item: Life Orb
+|cant|p1a: Zillow|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Morpeko|66/100|[from] Sandstorm
+|-heal|p1a: Zillow|81/100 slp|[from] item: Leftovers
+|-formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|20
+|
+|move|p2a: Morpeko|Aura Wheel|p1a: Zillow
+|-damage|p1a: Zillow|27/100 slp
+|-boost|p2a: Morpeko|spe|1
+|-damage|p2a: Morpeko|56/100|[from] item: Life Orb
+|cant|p1a: Zillow|slp
+|
+|-weather|none
+|-heal|p1a: Zillow|34/100 slp|[from] item: Leftovers
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|21
+|
+|switch|p1a: Prep|Excadrill, M|100/100
+|move|p2a: Morpeko|Parting Shot|p1a: Prep
+|-unboost|p1a: Prep|atk|1
+|-unboost|p1a: Prep|spa|1
+|
+|switch|p2a: Gyarados|Gyarados, F|76/100|[from]move: Parting Shot
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Prep|Rock Slide|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|29/100
+|move|p2a: Gyarados|Waterfall|p1a: Prep
+|-supereffective|p1a: Prep
+|-damage|p1a: Prep|0 fnt
+|faint|p1a: Prep
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|upkeep
+|
+|switch|p1a: Losung|Hydreigon, M|82/100
+|turn|23
+|
+|move|p1a: Losung|Substitute|p1a: Losung
+|-start|p1a: Losung|Substitute
+|-damage|p1a: Losung|57/100
+|move|p2a: Gyarados|Waterfall|p1a: Losung
+|-resisted|p1a: Losung
+|-end|p1a: Losung|Substitute
+|
+|-heal|p1a: Losung|63/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Losung|Nasty Plot|p1a: Losung
+|-boost|p1a: Losung|spa|2
+|move|p2a: Gyarados|Waterfall|p1a: Losung
+|-resisted|p1a: Losung
+|-damage|p1a: Losung|26/100
+|
+|-heal|p1a: Losung|32/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Losung|Dark Pulse|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|-heal|p1a: Losung|38/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Morpeko|Morpeko, M|56/100
+|turn|26
+|
+|move|p2a: Morpeko|Fake Out|p1a: Losung
+|-damage|p1a: Losung|22/100
+|-damage|p2a: Morpeko|46/100|[from] item: Life Orb
+|cant|p1a: Losung|flinch
+|
+|-heal|p1a: Losung|29/100|[from] item: Leftovers
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|27
+|
+|move|p2a: Morpeko|Aura Wheel|p1a: Losung
+|-resisted|p1a: Losung
+|-damage|p1a: Losung|0 fnt
+|-boost|p2a: Morpeko|spe|1
+|-damage|p2a: Morpeko|37/100|[from] item: Life Orb
+|faint|p1a: Losung
+|
+|-formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|
+|switch|p1a: Soldier|Gengar, M|100/100
+|turn|28
+|
+|move|p2a: Morpeko|Aura Wheel|p1a: Soldier
+|-damage|p1a: Soldier|0 fnt
+|-start|p2a: Morpeko|Disable|Aura Wheel|[from] ability: Cursed Body|[of] p1a: Soldier
+|-boost|p2a: Morpeko|spe|1
+|-damage|p2a: Morpeko|27/100|[from] item: Life Orb
+|faint|p1a: Soldier
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|
+|switch|p1a: Jerk|Rotom-Wash|33/100
+|turn|29
+|
+|move|p2a: Morpeko|Parting Shot|p1a: Jerk
+|-unboost|p1a: Jerk|atk|1
+|-unboost|p1a: Jerk|spa|1
+|
+|switch|p2a: Vileplume|Vileplume, M|32/100 par|[from]move: Parting Shot
+|move|p1a: Jerk|Trick|p2a: Vileplume
+|-activate|p1a: Jerk|move: Trick|[of] p2a: Vileplume
+|-item|p2a: Vileplume|Choice Scarf|[from] move: Trick
+|-item|p1a: Jerk|Black Sludge|[from] move: Trick
+|
+|-damage|p1a: Jerk|21/100|[from] item: Black Sludge
+|upkeep
+|turn|30
+|-message|smoovBert forfeited.
+|
+|win|JK41
+|l|☆smoovBert
+|raw|smoovBert's rating: 1379 → 1358(-21 for losing)
+|raw|JK41's rating: 1364 → 1385(+21 for winning)

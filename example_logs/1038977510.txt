@@ -1,0 +1,192 @@
+|ScrapeTime|2020-01-01-03:15:30
+|j|☆Ctrl G-Max
+|j|☆bokubokun
+|player|p1|Ctrl G-Max|188|1365
+|player|p2|bokubokun|266|1349
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Lucario, F|
+|poke|p1|Lapras, M|
+|poke|p1|Diggersby, M|
+|poke|p2|Kommo-o, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Eldegoss, M|
+|poke|p2|Dragapult, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ctrl G-Max)
+|
+|start
+|switch|p1a: Lapras|Lapras, M|100/100
+|switch|p2a: Kommo-o|Kommo-o, F|100/100
+|turn|1
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Kommo-o|Taunt|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Kommo-o|Iron Defense|p2a: Kommo-o
+|-boost|p2a: Kommo-o|def|2
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|53/100
+|-unboost|p2a: Kommo-o|spa|1
+|
+|-heal|p2a: Kommo-o|59/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Kommo-o|Stealth Rock|p1a: Grimmsnarl
+|-sidestart|p1: Ctrl G-Max|move: Stealth Rock
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|14/100
+|-unboost|p2a: Kommo-o|spa|1
+|
+|-heal|p2a: Kommo-o|20/100|[from] item: Leftovers
+|-end|p1a: Grimmsnarl|move: Taunt
+|upkeep
+|turn|4
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|89/100
+|-unboost|p2a: Ferrothorn|spa|1
+|
+|-heal|p2a: Ferrothorn|95/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|cant|p2a: Ferrothorn|move: Taunt|Leech Seed
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Lapras|Lapras, M|100/100
+|-damage|p1a: Lapras|76/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Lapras
+|-damage|p1a: Lapras|58/100
+|
+|-heal|p1a: Lapras|64/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Eldegoss|Eldegoss, M|100/100
+|move|p1a: Lapras|Whirlpool|p2a: Eldegoss
+|-resisted|p2a: Eldegoss
+|-damage|p2a: Eldegoss|95/100
+|-activate|p2a: Eldegoss|move: Whirlpool|[of] p1a: Lapras
+|
+|-heal|p1a: Lapras|70/100|[from] item: Leftovers
+|-heal|p2a: Eldegoss|100/100|[from] item: Leftovers
+|-damage|p2a: Eldegoss|88/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|8
+|
+|move|p1a: Lapras|Freeze-Dry|p2a: Eldegoss
+|-supereffective|p2a: Eldegoss
+|-damage|p2a: Eldegoss|47/100
+|-status|p2a: Eldegoss|frz
+|cant|p2a: Eldegoss|frz
+|
+|-heal|p1a: Lapras|76/100|[from] item: Leftovers
+|-heal|p2a: Eldegoss|54/100 frz|[from] item: Leftovers
+|-damage|p2a: Eldegoss|41/100 frz|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|move|p1a: Lapras|Freeze-Dry|p2a: Eldegoss
+|-supereffective|p2a: Eldegoss
+|-damage|p2a: Eldegoss|2/100 frz
+|cant|p2a: Eldegoss|frz
+|
+|-heal|p1a: Lapras|82/100|[from] item: Leftovers
+|-heal|p2a: Eldegoss|8/100 frz|[from] item: Leftovers
+|-damage|p2a: Eldegoss|0 fnt|[from] move: Whirlpool|[partiallytrapped]
+|faint|p2a: Eldegoss
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|10
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p1a: Grimmsnarl|88/100|[from] Stealth Rock
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Grimmsnarl
+|-status|p1a: Grimmsnarl|brn
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|82/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Grimmsnarl|Trick|p2a: Dragapult
+|-activate|p1a: Grimmsnarl|move: Trick|[of] p2a: Dragapult
+|-item|p2a: Dragapult|Lagging Tail|[from] move: Trick
+|-item|p1a: Grimmsnarl|Leftovers|[from] move: Trick
+|move|p2a: Dragapult|Disable|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|Disable|Trick
+|
+|-heal|p1a: Grimmsnarl|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|82/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Dragapult
+|-status|p2a: Dragapult|par
+|cant|p2a: Dragapult|par
+|
+|-heal|p1a: Grimmsnarl|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|82/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Dragapult
+|-start|p2a: Dragapult|move: Taunt
+|move|p2a: Dragapult|Hex|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|63/100 brn
+|
+|-heal|p1a: Grimmsnarl|69/100 brn|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|63/100 brn|[from] brn
+|upkeep
+|turn|15
+|-message|bokubokun forfeited.
+|
+|win|Ctrl G-Max
+|l|☆bokubokun
+|raw|Ctrl G-Max's rating: 1365 → 1384(+19 for winning)
+|raw|bokubokun's rating: 1349 → 1330(-19 for losing)

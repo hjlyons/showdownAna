@@ -1,0 +1,208 @@
+|ScrapeTime|2020-01-02-12:54:52
+|j|☆yupiyuuuu 3
+|j|☆Hakuryuu42
+|player|p1|yupiyuuuu 3|169|
+|player|p2|Hakuryuu42|269|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aegislash, F|
+|poke|p1|Hydreigon, F|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Barraskewda, F|
+|poke|p1|Cursola, F|
+|poke|p1|Excadrill, M|
+|poke|p2|Toxtricity, F|
+|poke|p2|Rhydon, M|
+|poke|p2|Dracovish|
+|poke|p2|Hydreigon, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Excadrill, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|turn|1
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Toxtricity
+|-damage|p2a: Toxtricity|37/100
+|move|p2a: Toxtricity|Shift Gear|p2a: Toxtricity
+|-boost|p2a: Toxtricity|spe|2
+|-boost|p2a: Toxtricity|atk|1
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Toxtricity|Substitute|p2a: Toxtricity
+|-start|p2a: Toxtricity|Substitute
+|-damage|p2a: Toxtricity|12/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Toxtricity
+|-end|p2a: Toxtricity|Substitute
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Hydreigon
+|-damage|p1a: Hydreigon|43/100
+|-enditem|p2a: Toxtricity|Throat Spray
+|-boost|p2a: Toxtricity|spa|1
+|move|p1a: Hydreigon|U-turn|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|switch|p1a: Barraskewda|Barraskewda, F|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|4
+|
+|move|p1a: Barraskewda|Close Combat|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|4/100
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|move|p2a: Hydreigon|Dragon Dance|p2a: Hydreigon
+|-boost|p2a: Hydreigon|atk|1
+|-boost|p2a: Hydreigon|spe|1
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Hydreigon|Outrage|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|-damage|p2a: Hydreigon|0 fnt|[from] item: Life Orb
+|faint|p1a: Barraskewda
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|switch|p1a: Cursola|Cursola, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|6
+|
+|move|p2a: Tyranitar|Crunch|p1a: Cursola
+|-supereffective|p1a: Cursola
+|-damage|p1a: Cursola|0 fnt
+|-ability|p1a: Cursola|Perish Body
+|-start|p1a: Cursola|perish3
+|-start|p2a: Tyranitar|perish3
+|faint|p1a: Cursola
+|
+|-weather|Sandstorm|[upkeep]
+|-start|p2a: Tyranitar|perish3
+|upkeep
+|
+|switch|p1a: conkelburro|Conkeldurr, F|100/100
+|turn|7
+|
+|move|p2a: Tyranitar|Earthquake|p1a: conkelburro
+|-damage|p1a: conkelburro|68/100
+|move|p1a: conkelburro|Drain Punch|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-heal|p1a: conkelburro|100/100|[from] drain|[of] p2a: Tyranitar
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: conkelburro|94/100|[from] Sandstorm
+|-status|p1a: conkelburro|brn|[from] item: Flame Orb
+|upkeep
+|
+|switch|p2a: MueretePorDios|Dracovish|100/100
+|turn|8
+|
+|move|p2a: MueretePorDios|Fishious Rend|p1a: conkelburro
+|-damage|p1a: conkelburro|6/100 brn
+|move|p1a: conkelburro|Drain Punch|p2a: MueretePorDios
+|-damage|p2a: MueretePorDios|25/100
+|-heal|p1a: conkelburro|40/100 brn|[from] drain|[of] p2a: MueretePorDios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: MueretePorDios|19/100|[from] Sandstorm
+|-damage|p1a: conkelburro|34/100 brn|[from] Sandstorm
+|-damage|p1a: conkelburro|27/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: conkelburro|Mach Punch|p2a: MueretePorDios
+|-damage|p2a: MueretePorDios|0 fnt
+|faint|p2a: MueretePorDios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: conkelburro|21/100 brn|[from] Sandstorm
+|-damage|p1a: conkelburro|15/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Rhydon|Rhydon, M|100/100
+|turn|10
+|
+|move|p1a: conkelburro|Mach Punch|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|69/100
+|move|p2a: Rhydon|Earthquake|p1a: conkelburro
+|-damage|p1a: conkelburro|0 fnt
+|faint|p1a: conkelburro
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|43/100
+|turn|11
+|
+|move|p1a: Hydreigon|Surf|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|turn|12
+|
+|move|p1a: Hydreigon|Surf|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|19/100
+|-enditem|p2a: Excadrill|Weakness Policy
+|-boost|p2a: Excadrill|atk|2
+|-boost|p2a: Excadrill|spa|2
+|move|p2a: Excadrill|Iron Head|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|13
+|
+|move|p2a: Excadrill|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|turn|14
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Sneak|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|win|yupiyuuuu 3
+|l|☆Hakuryuu42

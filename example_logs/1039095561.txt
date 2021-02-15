@@ -1,0 +1,231 @@
+|ScrapeTime|2020-01-01-11:15:57
+|j|☆TeamFourStags
+|j|☆usualranger5
+|player|p1|TeamFourStags|102|1240
+|player|p2|usualranger5|2|1290
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tyranitar, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Vaporeon, M|
+|poke|p1|Clefable, M|
+|poke|p1|Bisharp, M|
+|poke|p2|Diggersby, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Quagsire, M|
+|poke|p2|Copperajah, M|
+|poke|p2|Araquanid, M|
+|poke|p2|Eldegoss, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by usualranger5)
+|inactive|usualranger5 has 120 seconds left.
+|inactive|usualranger5 has 90 seconds left.
+|
+|start
+|switch|p1a: Denver|Tyranitar, M|100/100
+|switch|p2a: Eldegoss|Eldegoss, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Denver
+|turn|1
+|
+|move|p2a: Eldegoss|Leech Seed|p1a: Denver
+|-start|p1a: Denver|move: Leech Seed
+|move|p1a: Denver|Fire Punch|p2a: Eldegoss
+|-supereffective|p2a: Eldegoss
+|-damage|p2a: Eldegoss|45/100
+|-status|p2a: Eldegoss|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Eldegoss|39/100 brn|[from] Sandstorm
+|-heal|p2a: Eldegoss|45/100 brn|[from] item: Leftovers
+|-damage|p1a: Denver|88/100|[from] Leech Seed|[of] p2a: Eldegoss
+|-heal|p2a: Eldegoss|60/100 brn|[silent]
+|-damage|p2a: Eldegoss|54/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|switch|p1a: FairyGodmother|Clefable, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Blue Beetle|Araquanid, M|100/100
+|move|p1a: FairyGodmother|Moonblast|p2a: Blue Beetle
+|-damage|p2a: Blue Beetle|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blue Beetle|55/100|[from] Sandstorm
+|-heal|p2a: Blue Beetle|62/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: FairyGodmother|Thunderbolt|p2a: Blue Beetle
+|-supereffective|p2a: Blue Beetle
+|-damage|p2a: Blue Beetle|13/100
+|move|p2a: Blue Beetle|Liquidation|p1a: FairyGodmother
+|-damage|p1a: FairyGodmother|42/100
+|-unboost|p1a: FairyGodmother|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blue Beetle|7/100|[from] Sandstorm
+|-heal|p2a: Blue Beetle|13/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Henri IV|Vaporeon, M|100/100
+|move|p2a: Blue Beetle|Rest|p2a: Blue Beetle
+|-status|p2a: Blue Beetle|slp|[from] move: Rest
+|-heal|p2a: Blue Beetle|100/100 slp|[silent]
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|switch|p2a: Eldegoss|Eldegoss, F|88/100 brn
+|move|p1a: Henri IV|Wish|p1a: Henri IV
+|
+|-heal|p2a: Eldegoss|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Eldegoss|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p1a: Four|Rotom-Heat, shiny|100/100
+|move|p2a: Eldegoss|Worry Seed|p1a: Four
+|-endability|p1a: Four|Levitate|[from] move: Worry Seed
+|-ability|p1a: Four|Insomnia|[from] move: Worry Seed
+|
+|-heal|p2a: Eldegoss|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Eldegoss|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|move|p1a: Four|Nasty Plot|p1a: Four
+|-boost|p1a: Four|spa|2
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Henri IV|Vaporeon, M|100/100
+|move|p2a: Quagsire|Earthquake|p1a: Henri IV
+|-damage|p1a: Henri IV|78/100
+|
+|-heal|p1a: Henri IV|84/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Henri IV|Yawn|p2a: Quagsire
+|-start|p2a: Quagsire|move: Yawn|[of] p1a: Henri IV
+|move|p2a: Quagsire|Toxic|p1a: Henri IV
+|-status|p1a: Henri IV|tox
+|
+|-heal|p1a: Henri IV|90/100 tox|[from] item: Leftovers
+|-damage|p1a: Henri IV|84/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Henri IV|Wish|p1a: Henri IV
+|
+|-heal|p1a: Henri IV|90/100 tox|[from] item: Leftovers
+|-damage|p1a: Henri IV|78/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p1a: Samurai|Bisharp, M, shiny|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Samurai
+|-resisted|p1a: Samurai
+|-damage|p1a: Samurai|60/100
+|-unboost|p1a: Samurai|spd|1
+|-ability|p1a: Samurai|Defiant
+|-boost|p1a: Samurai|atk|2
+|-damage|p2a: Dragapult|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Samurai|100/100|[from] move: Wish|[wisher] Henri IV
+|upkeep
+|turn|13
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Samurai
+|-status|p1a: Samurai|brn
+|move|p1a: Samurai|Throat Chop|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p1a: Samurai|91/100 brn|[from] item: Life Orb
+|faint|p2a: Dragapult
+|
+|-damage|p1a: Samurai|85/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|turn|14
+|
+|move|p1a: Samurai|Iron Head|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-damage|p2a: Quagsire|91/100
+|-damage|p1a: Samurai|68/100 brn|[from] item: Rocky Helmet|[of] p2a: Quagsire
+|-damage|p1a: Samurai|58/100 brn|[from] item: Life Orb
+|move|p2a: Quagsire|Toxic||[still]
+|-fail|p2a: Quagsire
+|
+|-damage|p1a: Samurai|52/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p1a: Four|Rotom-Heat, shiny|100/100
+|move|p2a: Quagsire|Earthquake|p1a: Four
+|-immune|p1a: Four|[from] ability: Levitate
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Four|Nasty Plot|p1a: Four
+|-boost|p1a: Four|spa|2
+|move|p2a: Quagsire|Toxic|p1a: Four
+|-status|p1a: Four|tox
+|
+|-damage|p1a: Four|95/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p1a: Four|Will-O-Wisp|p2a: Quagsire
+|-status|p2a: Quagsire|brn
+|move|p2a: Quagsire|Scald|p1a: Four
+|-supereffective|p1a: Four
+|-damage|p1a: Four|57/100 tox
+|
+|-damage|p1a: Four|45/100 tox|[from] psn
+|-damage|p2a: Quagsire|85/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p1a: Four|Overheat|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-damage|p2a: Quagsire|56/100 brn
+|-unboost|p1a: Four|spa|2
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|100/100 brn
+|
+|-damage|p1a: Four|27/100 tox|[from] psn
+|-damage|p2a: Quagsire|94/100 brn|[from] brn
+|upkeep
+|turn|19
+|-message|TeamFourStags forfeited.
+|
+|win|usualranger5
+|l|☆TeamFourStags
+|raw|TeamFourStags's rating: 1240 → 1219(-21 for losing)
+|raw|usualranger5's rating: 1290 → 1312(+22 for winning)

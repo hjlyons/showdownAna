@@ -1,0 +1,275 @@
+|ScrapeTime|2020-01-01-20:05:38
+|j|☆neutralzone!!
+|j|☆lawnmowrer
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|player|p1|neutralzone!!|rocketexecutive-gen2|
+|player|p2|lawnmowrer|124|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, M|
+|poke|p1|Hippowdon, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Hatterene, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Chandelure, M|
+|poke|p2|Bisharp, F|
+|poke|p2|Corsola-Galar, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| chibifreak363
+|
+|start
+|switch|p1a: hydrei|Hydreigon, F|100/100
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|turn|1
+|l| chibifreak363
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|move|p1a: hydrei|Dark Pulse|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|76/100
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|switch|p1a: hat|Hatterene, F|100/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: hat
+|-resisted|p1a: hat
+|-damage|p1a: hat|82/100
+|-heal|p2a: Conkeldurr|83/100 brn|[from] drain|[of] p1a: hat
+|
+|-damage|p2a: Conkeldurr|77/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p1a: ferro|Ferrothorn, M|100/100
+|move|p2a: Conkeldurr|Earthquake|p1a: ferro
+|-crit|p1a: ferro
+|-damage|p1a: ferro|40/100
+|
+|-heal|p1a: ferro|46/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|71/100 brn|[from] brn
+|upkeep
+|turn|4
+|j| sasawe
+|
+|move|p1a: ferro|Protect|p1a: ferro
+|-singleturn|p1a: ferro|Protect
+|move|p2a: Conkeldurr|Drain Punch|p1a: ferro
+|-activate|p1a: ferro|move: Protect
+|
+|-heal|p1a: ferro|52/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|65/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p2a: Conkeldurr|Drain Punch|p1a: ferro
+|-supereffective|p1a: ferro
+|-damage|p1a: ferro|0 fnt
+|-heal|p2a: Conkeldurr|87/100 brn|[from] drain|[of] p1a: ferro
+|-damage|p2a: Conkeldurr|75/100 brn|[from] ability: Iron Barbs|[of] p1a: ferro
+|faint|p1a: ferro
+|
+|-damage|p2a: Conkeldurr|69/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: drill|Excadrill, M|100/100
+|-item|p1a: drill|Air Balloon
+|turn|6
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: drill
+|-supereffective|p1a: drill
+|-damage|p1a: drill|4/100
+|-enditem|p1a: drill|Air Balloon
+|move|p1a: drill|Earthquake|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|15/100 brn
+|
+|-damage|p2a: Conkeldurr|8/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p1a: hippo|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: hippo
+|move|p2a: Conkeldurr|Mach Punch|p1a: hippo
+|-damage|p1a: hippo|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|2/100 brn|[from] Sandstorm
+|-heal|p1a: hippo|87/100|[from] item: Leftovers
+|-damage|p2a: Conkeldurr|0 fnt|[from] brn
+|faint|p2a: Conkeldurr
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|turn|8
+|
+|move|p1a: hippo|Stealth Rock|p2a: Corsola
+|-sidestart|p2: lawnmowrer|move: Stealth Rock
+|move|p2a: Corsola|Night Shade|p1a: hippo
+|-damage|p1a: hippo|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Corsola|94/100|[from] Sandstorm
+|-heal|p1a: hippo|70/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: hydrei|Hydreigon, F|100/100
+|move|p2a: Corsola|Night Shade|p1a: hydrei
+|-damage|p1a: hydrei|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: hydrei|64/100|[from] Sandstorm
+|-damage|p2a: Corsola|88/100|[from] Sandstorm
+|-heal|p1a: hydrei|70/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: hydrei|Nasty Plot|p1a: hydrei
+|-boost|p1a: hydrei|spa|2
+|move|p2a: Corsola|Will-O-Wisp|p1a: hydrei
+|-status|p1a: hydrei|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: hydrei|64/100 brn|[from] Sandstorm
+|-damage|p2a: Corsola|82/100|[from] Sandstorm
+|-heal|p1a: hydrei|70/100 brn|[from] item: Leftovers
+|-damage|p1a: hydrei|64/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: hydrei|Dark Pulse|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|2/100
+|move|p2a: Corsola|Night Shade|p1a: hydrei
+|-damage|p1a: hydrei|33/100 brn
+|
+|-weather|none
+|-heal|p1a: hydrei|39/100 brn|[from] item: Leftovers
+|-damage|p1a: hydrei|33/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: hydrei|Dark Pulse|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-start|p1a: hydrei|Disable|Dark Pulse|[from] ability: Cursed Body|[of] p2a: Corsola
+|faint|p2a: Corsola
+|
+|-heal|p1a: hydrei|39/100 brn|[from] item: Leftovers
+|-damage|p1a: hydrei|33/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: hydrei
+|-resisted|p1a: hydrei
+|-damage|p1a: hydrei|5/100 brn
+|-damage|p2a: Bisharp|85/100|[from] item: Life Orb
+|move|p1a: hydrei|Flash Cannon|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-crit|p2a: Bisharp
+|-damage|p2a: Bisharp|21/100
+|
+|-heal|p1a: hydrei|11/100 brn|[from] item: Leftovers
+|-damage|p1a: hydrei|5/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|move|p1a: hydrei|Nasty Plot|p1a: hydrei
+|-boost|p1a: hydrei|spa|2
+|
+|-heal|p1a: hydrei|11/100 brn|[from] item: Leftovers
+|-damage|p1a: hydrei|5/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|move|p1a: hydrei|Nasty Plot|p1a: hydrei
+|-boost|p1a: hydrei|spa|2
+|
+|-heal|p1a: hydrei|11/100 brn|[from] item: Leftovers
+|-damage|p1a: hydrei|5/100 brn|[from] brn
+|-end|p1a: hydrei|Disable
+|upkeep
+|turn|16
+|
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|move|p1a: hydrei|Nasty Plot|p1a: hydrei
+|-boost|p1a: hydrei|spa|0
+|
+|-heal|p1a: hydrei|11/100 brn|[from] item: Leftovers
+|-damage|p1a: hydrei|5/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|move|p1a: hydrei|Nasty Plot|p1a: hydrei
+|-boost|p1a: hydrei|spa|0
+|
+|-heal|p1a: hydrei|11/100 brn|[from] item: Leftovers
+|-damage|p1a: hydrei|5/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p1a: hydrei|Flash Cannon|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|-heal|p1a: hydrei|11/100 brn|[from] item: Leftovers
+|-damage|p1a: hydrei|5/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: hydrei|Dark Pulse|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-heal|p1a: hydrei|11/100 brn|[from] item: Leftovers
+|-damage|p1a: hydrei|5/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|-damage|p2a: Chandelure|76/100|[from] Stealth Rock
+|turn|20
+|c|☆lawnmowrer|well played
+|
+|move|p1a: hydrei|Dark Pulse|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|
+|-heal|p1a: hydrei|11/100 brn|[from] item: Leftovers
+|-damage|p1a: hydrei|5/100 brn|[from] brn
+|upkeep
+|-message|lawnmowrer forfeited.
+|
+|win|neutralzone!!
+|l|☆lawnmowrer

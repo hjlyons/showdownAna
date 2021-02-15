@@ -1,0 +1,255 @@
+|ScrapeTime|2020-01-01-20:55:28
+|j|☆Tezilew
+|j|☆O Man2020
+|player|p1|Tezilew|2|1501
+|player|p2|O Man2020|colress|1513
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Orbeetle, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Toxtricity, F|
+|poke|p1|Hydreigon, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Lucario, F|
+|poke|p2|Roserade, M|
+|poke|p2|Bisharp, F|
+|poke|p2|Sylveon, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Gyarados, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|switch|p2a: Roserade|Roserade, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by O Man2020)
+|c|☆O Man2020|Gl hf
+|
+|move|p2a: Roserade|Sleep Powder|p1a: Excadrill
+|-status|p1a: Excadrill|slp|[from] move: Sleep Powder
+|cant|p1a: Excadrill|slp
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Roserade|Spikes|p1a: Excadrill
+|-sidestart|p1: Tezilew|Spikes
+|-curestatus|p1a: Excadrill|slp|[msg]
+|move|p1a: Excadrill|Rapid Spin|p2a: Roserade
+|-damage|p2a: Roserade|67/100
+|-sideend|p1: Tezilew|Spikes|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|move|p1a: Excadrill|Stealth Rock|p2a: Gyarados
+|-sidestart|p2: O Man2020|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Dragapult|Dragon Darts|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|73/100
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|46/100
+|-enditem|p2a: Excadrill|Sitrus Berry|[eat]
+|-heal|p2a: Excadrill|71/100|[from] item: Sitrus Berry
+|-hitcount|p2a: Excadrill|2
+|-damage|p1a: Dragapult|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Excadrill
+|move|p2a: Excadrill|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: Tezilew|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|move|p1a: Dragapult|Phantom Force|p2a: Bisharp|[from]lockedmove
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|57/100
+|-damage|p1a: Dragapult|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Bisharp|Iron Head|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|67/100
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Excadrill|Rapid Spin|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Excadrill
+|-damage|p1a: Excadrill|15/100
+|move|p1a: Excadrill|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|14/100
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|move|p2a: Dragapult|Shadow Ball|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|68/100
+|
+|-heal|p1a: Hydreigon|74/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|-damage|p2a: Sylveon|88/100|[from] Stealth Rock
+|switch|p1a: Orbeetle|Orbeetle, F|100/100
+|-damage|p1a: Orbeetle|75/100|[from] Stealth Rock
+|-item|p2a: Sylveon|Leftovers|[from] ability: Frisk|[of] p1a: Orbeetle|[identify]
+|
+|-heal|p2a: Sylveon|94/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Orbeetle|Psychic|p2a: Sylveon
+|-damage|p2a: Sylveon|72/100
+|move|p2a: Sylveon|Mystical Fire|p1a: Orbeetle
+|-supereffective|p1a: Orbeetle
+|-damage|p1a: Orbeetle|36/100
+|-unboost|p1a: Orbeetle|spa|1
+|
+|-heal|p2a: Sylveon|78/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Excadrill|Excadrill, F|71/100
+|-damage|p2a: Excadrill|68/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Orbeetle|Psychic|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|55/100
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Dragapult|Dragapult, M|81/100
+|-damage|p1a: Dragapult|69/100|[from] Stealth Rock
+|move|p2a: Excadrill|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, F|100/100
+|-damage|p1a: Lucario|98/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p2a: Dragapult|Dragapult, F|14/100
+|-damage|p2a: Dragapult|2/100|[from] Stealth Rock
+|move|p1a: Lucario|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p1a: Lucario|88/100|[from] item: Life Orb
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Roserade|Roserade, M|67/100
+|-damage|p2a: Roserade|55/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Lucario|Earthquake|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|-damage|p1a: Lucario|78/100|[from] item: Life Orb
+|faint|p2a: Roserade
+|
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-damage|p2a: Gyarados|76/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Lucario|Close Combat|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|35/100
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|-damage|p1a: Lucario|68/100|[from] item: Life Orb
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-heal|p2a: Gyarados|41/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Lucario|Bullet Punch|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|25/100
+|-damage|p1a: Lucario|58/100|[from] item: Life Orb
+|move|p2a: Gyarados|Waterfall|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-heal|p2a: Gyarados|31/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|74/100
+|-damage|p1a: Hydreigon|62/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Gyarados|Ice Fang|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-heal|p2a: Gyarados|37/100|[from] item: Leftovers
+|upkeep
+|-message|Tezilew forfeited.
+|
+|win|O Man2020
+|l|☆Tezilew

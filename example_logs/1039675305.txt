@@ -1,0 +1,129 @@
+|ScrapeTime|2020-01-02-14:46:27
+|j|☆bblossom
+|j|☆LucasBeauMinable
+|player|p1|bblossom|lyra|1224
+|player|p2|LucasBeauMinable|gambler|1231
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aegislash, F|
+|poke|p1|Crawdaunt, M|
+|poke|p1|Mew|
+|poke|p1|Lucario, F|
+|poke|p1|Bisharp, M|
+|poke|p1|Dragapult, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Sylveon, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Braviary, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|-item|p1a: Aegislash|Air Balloon
+|move|p2a: Dragapult|U-turn|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|92/100
+|-enditem|p1a: Aegislash|Air Balloon
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Aegislash
+|-start|p1a: Aegislash|move: Taunt
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Iron Head|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|3
+|
+|move|p2a: Dragapult|Sucker Punch|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, F|100/100
+|turn|4
+|
+|move|p2a: Dragapult|Sucker Punch||[still]
+|-fail|p2a: Dragapult
+|move|p1a: Lucario|Swords Dance|p1a: Lucario
+|-boost|p1a: Lucario|atk|2
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Dragapult|Sucker Punch||[still]
+|-fail|p2a: Dragapult
+|move|p1a: Lucario|Swords Dance|p1a: Lucario
+|-boost|p1a: Lucario|atk|2
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Dragapult|Sucker Punch|p1a: Lucario
+|-resisted|p1a: Lucario
+|-crit|p1a: Lucario
+|-damage|p1a: Lucario|59/100
+|-ability|p1a: Lucario|Justified|boost
+|-boost|p1a: Lucario|atk|1
+|move|p1a: Lucario|Bullet Punch|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p1a: Lucario|49/100|[from] item: Life Orb
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Braviary|Braviary, M, shiny|100/100
+|turn|7
+|
+|move|p1a: Lucario|Bullet Punch|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|-damage|p1a: Lucario|39/100|[from] item: Life Orb
+|faint|p2a: Braviary
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|turn|8
+|
+|move|p1a: Lucario|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|-damage|p1a: Lucario|29/100|[from] item: Life Orb
+|faint|p2a: Corviknight
+|
+|upkeep
+|-message|LucasBeauMinable forfeited.
+|
+|win|bblossom
+|l|☆LucasBeauMinable
+|raw|bblossom's rating: 1194 → 1220(+26 for winning)
+|raw|LucasBeauMinable's rating: 1208 → 1182(-26 for losing)

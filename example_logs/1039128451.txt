@@ -1,0 +1,304 @@
+|ScrapeTime|2020-01-01-13:36:24
+|j|☆argl
+|j|☆Regosi
+|player|p1|argl|169|1149
+|player|p2|Regosi|steven|1182
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tyranitar, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Hawlucha, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Hydreigon, F|
+|poke|p1|Cinderace, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Espeon, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Inteleon, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Robinson|Ferrothorn, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|switch|p1a: Jean-Pierre|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Jean-Pierre
+|move|p2a: Dragapult|Fire Blast|p1a: Jean-Pierre
+|-resisted|p1a: Jean-Pierre
+|-damage|p1a: Jean-Pierre|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|95/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|move|p1a: Jean-Pierre|Crunch|p2a: Corviknight
+|-damage|p2a: Corviknight|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|76/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Corviknight|Iron Head|p1a: Jean-Pierre
+|-supereffective|p1a: Jean-Pierre
+|-damage|p1a: Jean-Pierre|54/100
+|cant|p1a: Jean-Pierre|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Corviknight|Iron Head|p1a: Jean-Pierre
+|-supereffective|p1a: Jean-Pierre
+|-damage|p1a: Jean-Pierre|17/100
+|move|p1a: Jean-Pierre|Superpower|p2a: Corviknight
+|-damage|p2a: Corviknight|53/100
+|-unboost|p1a: Jean-Pierre|atk|1
+|-unboost|p1a: Jean-Pierre|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|59/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Robinson|Ferrothorn, F|100/100
+|move|p2a: Corviknight|Iron Head|p1a: Robinson
+|-resisted|p1a: Robinson
+|-damage|p1a: Robinson|94/100
+|-damage|p2a: Corviknight|47/100|[from] ability: Iron Barbs|[of] p1a: Robinson
+|-damage|p2a: Corviknight|30/100|[from] item: Rocky Helmet|[of] p1a: Robinson
+|
+|-weather|none
+|-heal|p2a: Corviknight|37/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Espeon|Espeon, F, shiny|100/100
+|move|p1a: Robinson|Stealth Rock|p2a: Espeon
+|move|p2a: Espeon|Stealth Rock|p1a: Robinson|[from]Magic Bounce
+|-sidestart|p1: argl|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Espeon|Shadow Ball|p1a: Robinson
+|-damage|p1a: Robinson|57/100
+|move|p1a: Robinson|Knock Off|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|15/100
+|-enditem|p2a: Espeon|Choice Specs|[from] move: Knock Off|[of] p1a: Robinson
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Espeon|Shadow Ball|p1a: Robinson
+|-damage|p1a: Robinson|32/100
+|move|p1a: Robinson|Knock Off|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|95/100
+|turn|9
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Robinson
+|-resisted|p1a: Robinson
+|-damage|p1a: Robinson|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Robinson
+|
+|upkeep
+|
+|switch|p1a: Laurent|Cinderace, F|100/100
+|turn|10
+|
+|switch|p2a: 8th gen cancer|Corsola-Galar, F|100/100
+|move|p1a: Laurent|Court Change|p1a: Laurent
+|-sideend|p1: argl|Stealth Rock|[silent]
+|-sidestart|p2: Regosi|Stealth Rock|[silent]
+|-activate|p1a: Laurent|move: Court Change
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Laurent|Taunt|p2a: 8th gen cancer
+|-start|p2a: 8th gen cancer|move: Taunt
+|cant|p2a: 8th gen cancer|move: Taunt|Strength Sap
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Laurent|Pyro Ball|p2a: 8th gen cancer
+|-damage|p2a: 8th gen cancer|71/100
+|-start|p1a: Laurent|Disable|Pyro Ball|[from] ability: Cursed Body|[of] p2a: 8th gen cancer
+|move|p2a: 8th gen cancer|Night Shade|p1a: Laurent
+|-damage|p1a: Laurent|67/100
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Laurent|U-turn|p2a: 8th gen cancer
+|-resisted|p2a: 8th gen cancer
+|-damage|p2a: 8th gen cancer|66/100
+|
+|switch|p1a: Frédéric|Dragapult, F|100/100|[from]move: U-turn
+|move|p2a: 8th gen cancer|Night Shade|p1a: Frédéric
+|-damage|p1a: Frédéric|69/100
+|
+|-end|p2a: 8th gen cancer|move: Taunt
+|upkeep
+|turn|14
+|
+|move|p1a: Frédéric|Shadow Ball|p2a: 8th gen cancer
+|-supereffective|p2a: 8th gen cancer
+|-damage|p2a: 8th gen cancer|0 fnt
+|-start|p1a: Frédéric|Disable|Shadow Ball|[from] ability: Cursed Body|[of] p2a: 8th gen cancer
+|faint|p2a: 8th gen cancer
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M, shiny|37/100
+|-damage|p2a: Corviknight|24/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|move|p2a: Corviknight|Defog|p1a: Hydreigon
+|-unboost|p1a: Hydreigon|evasion|1
+|-sideend|p2: Regosi|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-heal|p2a: Corviknight|30/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Corviknight|Protect|p2a: Corviknight
+|-singleturn|p2a: Corviknight|Protect
+|move|p1a: Hydreigon|Fire Blast|p2a: Corviknight
+|-activate|p2a: Corviknight|move: Protect
+|
+|-heal|p2a: Corviknight|37/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Inteleon|Inteleon, F|100/100
+|move|p1a: Hydreigon|Fire Blast|p2a: Inteleon
+|-resisted|p2a: Inteleon
+|-damage|p2a: Inteleon|65/100
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Jean-Pierre|Tyranitar, M|17/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Jean-Pierre
+|move|p2a: Inteleon|Ice Beam|p1a: Jean-Pierre
+|-damage|p1a: Jean-Pierre|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Inteleon|59/100|[from] Sandstorm
+|upkeep
+|turn|19
+|
+|move|p2a: Inteleon|Ice Beam|p1a: Jean-Pierre
+|-damage|p1a: Jean-Pierre|0 fnt
+|faint|p1a: Jean-Pierre
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Inteleon|52/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Neo-Philippe|Hawlucha, F|100/100
+|turn|20
+|
+|switch|p2a: Corviknight|Corviknight, M, shiny|37/100
+|move|p1a: Neo-Philippe|Brave Bird|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|6/100
+|-damage|p1a: Neo-Philippe|87/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Neo-Philippe|81/100|[from] Sandstorm
+|-heal|p2a: Corviknight|13/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Corviknight|Protect|p2a: Corviknight
+|-singleturn|p2a: Corviknight|Protect
+|move|p1a: Neo-Philippe|Close Combat|p2a: Corviknight
+|-activate|p2a: Corviknight|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Neo-Philippe|75/100|[from] Sandstorm
+|-heal|p2a: Corviknight|19/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Dragapult|Dragapult, M|95/100
+|move|p1a: Neo-Philippe|Brave Bird|p2a: Dragapult
+|-damage|p2a: Dragapult|22/100
+|-damage|p1a: Neo-Philippe|49/100|[from] Recoil
+|
+|-weather|none
+|upkeep
+|turn|23
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Neo-Philippe
+|-damage|p1a: Neo-Philippe|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Neo-Philippe
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|turn|24
+|
+|switch|p2a: Corviknight|Corviknight, M, shiny|19/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Inteleon|Inteleon, F|52/100
+|turn|25
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Inteleon
+|-damage|p2a: Inteleon|0 fnt
+|faint|p2a: Inteleon
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|22/100
+|turn|26
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|-message|Regosi forfeited.
+|
+|win|argl
+|l|☆Regosi
+|raw|argl's rating: 1149 → 1177(+28 for winning)
+|raw|Regosi's rating: 1182 → 1155(-27 for losing)

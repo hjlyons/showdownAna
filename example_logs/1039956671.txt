@@ -1,0 +1,230 @@
+|ScrapeTime|2020-01-03-00:24:41
+|j|☆Superdois
+|j|☆buckets3
+|player|p1|Superdois|alder|1386
+|player|p2|buckets3|oak-gen1|1329
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Vanilluxe, M|
+|poke|p1|Mew|
+|poke|p1|Bisharp, M|
+|poke|p1|Kommo-o, F|
+|poke|p1|Eiscue, M|
+|poke|p1|Dugtrio, M|
+|poke|p2|Toxtricity, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Dracovish|
+|poke|p2|Corviknight, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Seismitoad, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by buckets3)
+|
+|move|p2a: Dracovish|Crunch|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|57/100
+|-enditem|p1a: Mew|Red Card|[of] p2a: Dracovish
+|drag|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Mew|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: buckets3|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Mew|Taunt|p2a: Seismitoad
+|-start|p2a: Seismitoad|move: Taunt
+|cant|p2a: Seismitoad|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Mew|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|89/100
+|
+|switch|p1a: Vanilluxe|Vanilluxe, M|100/100|[from]move: U-turn
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|move|p2a: Seismitoad|Earthquake|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|61/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Seismitoad|83/100|[from] Hail
+|-heal|p2a: Seismitoad|89/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Vanilluxe|Aurora Veil|p1a: Vanilluxe
+|-sidestart|p1: Superdois|move: Aurora Veil
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|88/100|[from] Hail
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Vanilluxe|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|move|p2a: Ferrothorn|Knock Off|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|48/100
+|-enditem|p1a: Vanilluxe|Light Clay|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ferrothorn|88/100|[from] Hail
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Vanilluxe|Explosion|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|65/100
+|faint|p1a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p1a: Eiscue|Eiscue, M|100/100
+|turn|7
+|
+|move|p1a: Eiscue|Substitute|p1a: Eiscue
+|-start|p1a: Eiscue|Substitute
+|-damage|p1a: Eiscue|75/100
+|move|p2a: Mandibuzz|Taunt|p1a: Eiscue
+|-start|p1a: Eiscue|move: Taunt
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|move|p1a: Eiscue|Icicle Crash|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|20/100
+|cant|p2a: Mandibuzz|flinch
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Eiscue|Icicle Crash|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|turn|10
+|
+|move|p1a: Eiscue|Icicle Crash|p2a: Corviknight
+|-damage|p2a: Corviknight|62/100
+|cant|p2a: Corviknight|flinch
+|
+|-heal|p2a: Corviknight|68/100|[from] item: Leftovers
+|-end|p1a: Eiscue|move: Taunt
+|upkeep
+|turn|11
+|
+|move|p1a: Eiscue|Belly Drum|p1a: Eiscue
+|-damage|p1a: Eiscue|25/100
+|-setboost|p1a: Eiscue|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Eiscue|Salac Berry|[eat]
+|-boost|p1a: Eiscue|spe|1
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|74/100|[from] item: Leftovers
+|-sideend|p1: Superdois|move: Aurora Veil
+|upkeep
+|turn|12
+|
+|move|p1a: Eiscue|Icicle Crash|p2a: Corviknight|[miss]
+|-miss|p1a: Eiscue|p2a: Corviknight
+|move|p2a: Corviknight|Brave Bird|p1a: Eiscue
+|-end|p1a: Eiscue|Substitute
+|-damage|p2a: Corviknight|68/100|[from] Recoil|[of] p1a: Eiscue
+|
+|-heal|p2a: Corviknight|74/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Eiscue|Icicle Crash|p2a: Corviknight
+|-damage|p2a: Corviknight|7/100
+|move|p2a: Corviknight|Brave Bird|p1a: Eiscue
+|-activate|p1a: Eiscue|ability: Ice Face
+|-damage|p1a: Eiscue|25/100
+|detailschange|p1a: Eiscue|Eiscue-Noice, M
+|
+|-heal|p2a: Corviknight|13/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Eiscue|Zen Headbutt|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|94/100
+|-damage|p2a: Ferrothorn|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Eiscue|Icicle Crash|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|14/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Eiscue
+|-damage|p1a: Eiscue|5/100
+|
+|-heal|p2a: Ferrothorn|20/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Eiscue|Icicle Crash|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, F|89/100
+|-damage|p2a: Seismitoad|83/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Eiscue|Icicle Crash|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Eiscue|Icicle Crash|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|upkeep
+|-message|buckets3 forfeited.
+|
+|win|Superdois
+|l|☆buckets3
+|raw|Superdois's rating: 1370 → 1388(+18 for winning)
+|raw|buckets3's rating: 1330 → 1312(-18 for losing)

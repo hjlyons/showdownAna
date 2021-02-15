@@ -1,0 +1,577 @@
+|ScrapeTime|2020-01-02-02:36:57
+|j|☆Bigdogg93
+|j|☆shadowvz96
+|player|p1|Bigdogg93|102|
+|player|p2|shadowvz96|266|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Milotic, F|
+|poke|p1|Eldegoss, M|
+|poke|p1|Torkoal, M|
+|poke|p2|Snorlax, M|
+|poke|p2|Drifblim, F|
+|poke|p2|Kingler, M|
+|poke|p2|Umbreon, M|
+|poke|p2|Bronzong|
+|poke|p2|Pelipper, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: Pelipper|Pelipper, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|-activate|p2a: Pelipper|item: Quick Claw
+|
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: shadowvz96|move: Tailwind
+|move|p1a: Torkoal|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: shadowvz96|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|c|☆shadowvz96|brb
+|
+|switch|p2a: Drifblim|Drifblim, F, shiny|100/100
+|-damage|p2a: Drifblim|76/100|[from] Stealth Rock
+|switch|p1a: Milotic|Milotic, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Drifblim|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|l|☆Bigdogg93
+|player|p1|
+|j|☆Bigdogg93
+|player|p1|Bigdogg93|102
+|
+|move|p2a: Drifblim|Thunder|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|62/100
+|move|p1a: Milotic|Ice Beam|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|faint|p2a: Drifblim
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Snorlax|Snorlax, M, shiny|100/100
+|-damage|p2a: Snorlax|88/100|[from] Stealth Rock
+|turn|4
+|
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|move|p1a: Milotic|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|73/100
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: shadowvz96|move: Tailwind
+|upkeep
+|turn|5
+|
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|move|p1a: Torkoal|Yawn|p2a: Snorlax
+|-start|p2a: Snorlax|move: Yawn|[of] p1a: Torkoal
+|move|p2a: Snorlax|Substitute|p2a: Snorlax
+|-start|p2a: Snorlax|Substitute
+|-damage|p2a: Snorlax|48/100
+|-enditem|p2a: Snorlax|Sitrus Berry|[eat]
+|-heal|p2a: Snorlax|73/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Torkoal|Eruption|p2a: Snorlax
+|-activate|p2a: Snorlax|move: Substitute|[damage]
+|move|p2a: Snorlax|Recycle|p2a: Snorlax
+|-item|p2a: Snorlax|Sitrus Berry|[from] move: Recycle
+|
+|-end|p2a: Snorlax|move: Yawn|[silent]
+|-status|p2a: Snorlax|slp
+|upkeep
+|turn|8
+|
+|move|p1a: Torkoal|Eruption|p2a: Snorlax
+|-end|p2a: Snorlax|Substitute
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Torkoal|Eruption|p2a: Snorlax
+|-damage|p2a: Snorlax|53/100 slp
+|-curestatus|p2a: Snorlax|slp|[msg]
+|move|p2a: Snorlax|Darkest Lariat|p1a: Torkoal
+|-damage|p1a: Torkoal|71/100
+|
+|-heal|p1a: Torkoal|77/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Torkoal|Eruption|p2a: Snorlax
+|-damage|p2a: Snorlax|39/100
+|-enditem|p2a: Snorlax|Sitrus Berry|[eat]
+|-heal|p2a: Snorlax|64/100|[from] item: Sitrus Berry
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p1a: Torkoal|83/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Torkoal|Eruption|p2a: Snorlax
+|-damage|p2a: Snorlax|48/100
+|move|p2a: Snorlax|Recycle|p2a: Snorlax
+|-item|p2a: Snorlax|Sitrus Berry|[from] move: Recycle
+|-enditem|p2a: Snorlax|Sitrus Berry|[eat]
+|-heal|p2a: Snorlax|73/100|[from] item: Sitrus Berry
+|
+|-heal|p1a: Torkoal|89/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Snorlax|Substitute|p2a: Snorlax
+|-start|p2a: Snorlax|Substitute
+|-damage|p2a: Snorlax|48/100
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Excadrill|Hone Claws|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|1
+|-boost|p1a: Excadrill|accuracy|1
+|move|p2a: Snorlax|Recycle|p2a: Snorlax
+|-item|p2a: Snorlax|Sitrus Berry|[from] move: Recycle
+|-enditem|p2a: Snorlax|Sitrus Berry|[eat]
+|-heal|p2a: Snorlax|73/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Excadrill|Hone Claws|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|1
+|-boost|p1a: Excadrill|accuracy|1
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Excadrill|Hone Claws|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|1
+|-boost|p1a: Excadrill|accuracy|1
+|move|p2a: Snorlax|Recycle|p2a: Snorlax
+|-item|p2a: Snorlax|Sitrus Berry|[from] move: Recycle
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Excadrill|Hone Claws|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|1
+|-boost|p1a: Excadrill|accuracy|1
+|move|p2a: Snorlax|Darkest Lariat|p1a: Excadrill
+|-damage|p1a: Excadrill|22/100
+|
+|-heal|p1a: Excadrill|28/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Excadrill|Iron Head|p2a: Snorlax
+|-end|p2a: Snorlax|Substitute
+|move|p2a: Snorlax|Darkest Lariat|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Eldegoss|Eldegoss, M|100/100
+|turn|18
+|
+|move|p1a: Eldegoss|Leech Seed|p2a: Snorlax
+|-start|p2a: Snorlax|move: Leech Seed
+|move|p2a: Snorlax|Darkest Lariat|p1a: Eldegoss
+|-damage|p1a: Eldegoss|34/100
+|
+|-heal|p1a: Eldegoss|40/100|[from] item: Leftovers
+|-damage|p2a: Snorlax|60/100|[from] Leech Seed|[of] p1a: Eldegoss
+|-heal|p1a: Eldegoss|65/100|[silent]
+|upkeep
+|turn|19
+|
+|move|p1a: Eldegoss|Giga Drain|p2a: Snorlax
+|-damage|p2a: Snorlax|46/100
+|-heal|p1a: Eldegoss|80/100|[from] drain|[of] p2a: Snorlax
+|-enditem|p2a: Snorlax|Sitrus Berry|[eat]
+|-heal|p2a: Snorlax|71/100|[from] item: Sitrus Berry
+|move|p2a: Snorlax|Darkest Lariat|p1a: Eldegoss
+|-damage|p1a: Eldegoss|14/100
+|
+|-heal|p1a: Eldegoss|20/100|[from] item: Leftovers
+|-damage|p2a: Snorlax|59/100|[from] Leech Seed|[of] p1a: Eldegoss
+|-heal|p1a: Eldegoss|45/100|[silent]
+|upkeep
+|turn|20
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|move|p2a: Snorlax|Darkest Lariat|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|13/100
+|
+|-damage|p2a: Snorlax|46/100|[from] Leech Seed|[of] p1a: Corsola
+|-heal|p1a: Corsola|38/100|[silent]
+|upkeep
+|turn|21
+|
+|move|p1a: Corsola|Strength Sap|p2a: Snorlax
+|-unboost|p2a: Snorlax|atk|1
+|-heal|p1a: Corsola|100/100
+|move|p2a: Snorlax|Substitute|p2a: Snorlax
+|-start|p2a: Snorlax|Substitute
+|-damage|p2a: Snorlax|21/100
+|
+|-damage|p2a: Snorlax|9/100|[from] Leech Seed|[of] p1a: Corsola
+|upkeep
+|turn|22
+|
+|move|p1a: Corsola|Protect|p1a: Corsola
+|-singleturn|p1a: Corsola|Protect
+|move|p2a: Snorlax|Recycle|p2a: Snorlax
+|-item|p2a: Snorlax|Sitrus Berry|[from] move: Recycle
+|-enditem|p2a: Snorlax|Sitrus Berry|[eat]
+|-heal|p2a: Snorlax|34/100|[from] item: Sitrus Berry
+|
+|-damage|p2a: Snorlax|21/100|[from] Leech Seed|[of] p1a: Corsola
+|upkeep
+|turn|23
+|
+|switch|p2a: Umbreon|Umbreon, M, shiny|100/100
+|-damage|p2a: Umbreon|88/100|[from] Stealth Rock
+|move|p1a: Corsola|Will-O-Wisp|p2a: Umbreon
+|-status|p2a: Umbreon|brn
+|-activate|p2a: Umbreon|ability: Synchronize
+|-status|p1a: Corsola|brn
+|
+|-heal|p2a: Umbreon|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Umbreon|88/100 brn|[from] brn
+|-damage|p1a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p1a: Milotic|Milotic, F|62/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Umbreon|88/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Milotic|Disarming Voice|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|70/100 brn
+|move|p2a: Umbreon|Foul Play|p1a: Milotic
+|-damage|p1a: Milotic|54/100
+|
+|-heal|p2a: Umbreon|100/100 brn|[from] move: Wish|[wisher] Umbreon
+|-damage|p2a: Umbreon|94/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p1a: Milotic|Disarming Voice|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|79/100 brn
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|85/100 brn|[from] item: Leftovers
+|-damage|p2a: Umbreon|79/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|switch|p2a: Snorlax|Snorlax, M, shiny|21/100
+|-damage|p2a: Snorlax|9/100|[from] Stealth Rock
+|
+|-heal|p2a: Snorlax|46/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|28
+|
+|move|p1a: Corviknight|Hone Claws|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|accuracy|1
+|move|p2a: Snorlax|Recycle|p2a: Snorlax
+|-item|p2a: Snorlax|Sitrus Berry|[from] move: Recycle
+|-enditem|p2a: Snorlax|Sitrus Berry|[eat]
+|-heal|p2a: Snorlax|71/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Corviknight|Hone Claws|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|accuracy|1
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Corviknight|Steel Wing|p2a: Snorlax
+|-damage|p2a: Snorlax|46/100
+|move|p2a: Snorlax|Substitute|p2a: Snorlax
+|-start|p2a: Snorlax|Substitute
+|-damage|p2a: Snorlax|21/100
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Corviknight|Steel Wing|p2a: Snorlax
+|-end|p2a: Snorlax|Substitute
+|move|p2a: Snorlax|Recycle|p2a: Snorlax
+|-item|p2a: Snorlax|Sitrus Berry|[from] move: Recycle
+|-enditem|p2a: Snorlax|Sitrus Berry|[eat]
+|-heal|p2a: Snorlax|46/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Corviknight|Steel Wing|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|upkeep
+|c|☆shadowvz96|ohhhhhhhhhhhhh
+|c|☆shadowvz96|forgot that 2X! Hazahh
+|
+|switch|p2a: Pelipper|Pelipper, M, shiny|100/100
+|-damage|p2a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|33
+|
+|move|p1a: Corviknight|Drill Peck|p2a: Pelipper
+|-damage|p2a: Pelipper|20/100
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: shadowvz96|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|34
+|
+|move|p2a: Pelipper|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|98/100
+|
+|switch|p2a: Kingler|Kingler, M, shiny|100/100|[from]move: U-turn
+|-damage|p2a: Kingler|88/100|[from] Stealth Rock
+|move|p1a: Corviknight|Drill Peck|p2a: Kingler
+|-damage|p2a: Kingler|32/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Kingler|Crabhammer|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|5/100
+|move|p1a: Corviknight|Drill Peck|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Corviknight|11/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Bronzong|Bronzong, shiny|100/100
+|-damage|p2a: Bronzong|94/100|[from] Stealth Rock
+|turn|36
+|
+|move|p2a: Bronzong|Block|p1a: Corviknight
+|-activate|p1a: Corviknight|trapped
+|move|p1a: Corviknight|Drill Peck|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-crit|p2a: Bronzong
+|-damage|p2a: Bronzong|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Corviknight|18/100|[from] item: Leftovers
+|-sideend|p2: shadowvz96|move: Tailwind
+|upkeep
+|turn|37
+|
+|move|p1a: Corviknight|Drill Peck|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|52/100
+|move|p2a: Bronzong|Iron Defense|p2a: Bronzong
+|-boost|p2a: Bronzong|def|2
+|
+|-weather|none
+|-heal|p1a: Corviknight|24/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p1a: Corviknight|Steel Wing|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|45/100
+|move|p2a: Bronzong|Calm Mind|p2a: Bronzong
+|-boost|p2a: Bronzong|spa|1
+|-boost|p2a: Bronzong|spd|1
+|
+|-heal|p1a: Corviknight|30/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p1a: Corviknight|Hone Claws|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|accuracy|1
+|move|p2a: Bronzong|Zen Headbutt|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|19/100
+|
+|-heal|p1a: Corviknight|26/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: Corviknight|Drill Peck|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|35/100
+|move|p2a: Bronzong|Zen Headbutt|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|15/100
+|
+|-heal|p1a: Corviknight|22/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p1a: Corviknight|Hone Claws|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|accuracy|1
+|move|p2a: Bronzong|Calm Mind|p2a: Bronzong
+|-boost|p2a: Bronzong|spa|1
+|-boost|p2a: Bronzong|spd|1
+|
+|-heal|p1a: Corviknight|28/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p1a: Corviknight|Drill Peck|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|23/100
+|move|p2a: Bronzong|Zen Headbutt|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|19/100
+|
+|-heal|p1a: Corviknight|25/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p1a: Corviknight|Drill Peck|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-crit|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|-heal|p1a: Corviknight|31/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Umbreon|Umbreon, M, shiny|79/100 brn
+|-damage|p2a: Umbreon|66/100 brn|[from] Stealth Rock
+|turn|44
+|c|☆shadowvz96|gg
+|
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|move|p1a: Corviknight|Drill Peck|p2a: Umbreon
+|-damage|p2a: Umbreon|11/100 brn
+|
+|-heal|p2a: Umbreon|18/100 brn|[from] item: Leftovers
+|-heal|p1a: Corviknight|37/100|[from] item: Leftovers
+|-damage|p2a: Umbreon|11/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Corviknight|Steel Wing|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|61/100 brn|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Umbreon|68/100 brn|[from] item: Leftovers
+|-heal|p1a: Corviknight|43/100|[from] item: Leftovers
+|-damage|p2a: Umbreon|61/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|move|p2a: Umbreon|Foul Play|p1a: Corviknight
+|-damage|p1a: Corviknight|8/100
+|move|p1a: Corviknight|Steel Wing|p2a: Umbreon
+|-damage|p2a: Umbreon|8/100 brn
+|
+|-heal|p2a: Umbreon|14/100 brn|[from] item: Leftovers
+|-heal|p1a: Corviknight|14/100|[from] item: Leftovers
+|-damage|p2a: Umbreon|8/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|move|p2a: Umbreon|Foul Play|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-heal|p2a: Umbreon|14/100 brn|[from] item: Leftovers
+|-damage|p2a: Umbreon|8/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Eldegoss|Eldegoss, M|79/100
+|turn|48
+|
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|move|p1a: Eldegoss|Giga Drain|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|-heal|p1a: Eldegoss|84/100|[from] drain|[of] p2a: Umbreon
+|faint|p2a: Umbreon
+|
+|-heal|p1a: Eldegoss|91/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Pelipper|Pelipper, M, shiny|20/100
+|-damage|p2a: Pelipper|0 fnt|[from] Stealth Rock
+|faint|p2a: Pelipper
+|
+|win|Bigdogg93
+|c|☆shadowvz96|hahaha
+|c|☆shadowvz96|stupid rocks! GG my dude

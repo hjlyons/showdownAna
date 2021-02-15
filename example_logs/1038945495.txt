@@ -1,0 +1,192 @@
+|ScrapeTime|2020-01-01-01:45:23
+|j|☆i miss dynamax
+|j|☆PringlesMans
+|player|p1|i miss dynamax|roxie|1195
+|player|p2|PringlesMans|clown|1173
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Rotom-Heat|
+|poke|p1|Tyranitar, F|
+|poke|p1|Dracovish|
+|poke|p1|Excadrill, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Ferrothorn, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Rotom-Mow|
+|poke|p2|Dracovish|
+|poke|p2|Corviknight, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Clefable, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by i miss dynamax)
+|inactive|PringlesMans has 120 seconds left.
+|
+|start
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|switch|p2a: Backpack|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Backpack
+|turn|1
+|
+|move|p1a: Rotom|Shadow Ball|p2a: Backpack
+|-resisted|p2a: Backpack
+|-damage|p2a: Backpack|96/100
+|-unboost|p2a: Backpack|spd|1
+|move|p2a: Backpack|Stealth Rock|p1a: Rotom
+|-sidestart|p1: i miss dynamax|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|94/100|[from] Sandstorm
+|-heal|p2a: Backpack|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|-damage|p1a: Dracovish|88/100|[from] Stealth Rock
+|move|p2a: Backpack|Stone Edge|p1a: Dracovish
+|-damage|p1a: Dracovish|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dracovish|45/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|switch|p2a: Bubba Gump|Dracovish|100/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Bubba Gump
+|-resisted|p2a: Bubba Gump
+|-damage|p2a: Bubba Gump|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bubba Gump|47/100|[from] Sandstorm
+|-damage|p1a: Dracovish|39/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|move|p2a: Bubba Gump|Fishious Rend|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|16/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Bubba Gump
+|-resisted|p2a: Bubba Gump
+|-damage|p2a: Bubba Gump|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Bubba Gump|17/100|[from] Sandstorm
+|-damage|p1a: Dracovish|10/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|move|p2a: Bubba Gump|Fishious Rend|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat|94/100
+|-damage|p1a: Rotom|69/100|[from] Stealth Rock
+|turn|6
+|
+|switch|p2a: Backpack|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Backpack
+|move|p1a: Rotom|Volt Switch|p2a: Backpack
+|-crit|p2a: Backpack
+|-damage|p2a: Backpack|80/100
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Backpack|86/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Napkin|Corviknight, F|100/100
+|-ability|p2a: Napkin|Pressure
+|move|p1a: Excadrill|Rapid Spin|p2a: Napkin
+|-resisted|p2a: Napkin
+|-damage|p2a: Napkin|92/100
+|-sideend|p1: i miss dynamax|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Napkin|98/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Excadrill|Stealth Rock|p2a: Napkin
+|-sidestart|p2: PringlesMans|move: Stealth Rock
+|move|p2a: Napkin|Bulk Up|p2a: Napkin
+|-boost|p2a: Napkin|atk|1
+|-boost|p2a: Napkin|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Napkin|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Rotom|Rotom-Heat|69/100
+|move|p2a: Napkin|Bulk Up|p2a: Napkin
+|-boost|p2a: Napkin|atk|1
+|-boost|p2a: Napkin|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|63/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|switch|p2a: Backpack|Tyranitar, M|86/100
+|-damage|p2a: Backpack|74/100|[from] Stealth Rock
+|move|p1a: Rotom|Trick|p2a: Backpack
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Backpack
+|-item|p2a: Backpack|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|
+|-weather|none
+|-heal|p1a: Rotom|69/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Emmit|Cinderace, F|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Emmit
+|-damage|p2a: Emmit|52/100
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Emmit|High Jump Kick|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-crit|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|turn|13
+|
+|move|p2a: Emmit|Pyro Ball|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|-message|i miss dynamax forfeited.
+|
+|win|PringlesMans
+|l|☆i miss dynamax
+|raw|i miss dynamax's rating: 1195 → 1168(-27 for losing)
+|raw|PringlesMans's rating: 1173 → 1200(+27 for winning)

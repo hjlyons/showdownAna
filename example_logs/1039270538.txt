@@ -1,0 +1,274 @@
+|ScrapeTime|2020-01-01-19:44:24
+|j|☆spirs
+|j|☆Kitsmia
+|player|p1|spirs|169|1098
+|player|p2|Kitsmia|winona-gen3|1116
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mimikyu, M|
+|poke|p1|Quagsire, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Lucario, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Rotom-Heat|
+|poke|p2|Mr. Rime, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Sirfetch'd, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Rotom-Wash|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|switch|p2a: Hello mate!|Cinderace, M|100/100
+|turn|1
+|
+|move|p1a: Rotom|Volt Switch|p2a: Hello mate!
+|-damage|p2a: Hello mate!|53/100
+|
+|switch|p1a: Quagsire|Quagsire, M|100/100|[from]move: Volt Switch
+|move|p2a: Hello mate!|U-turn|p1a: Quagsire
+|-damage|p1a: Quagsire|79/100
+|
+|switch|p2a: I don't care SIR|Sirfetch'd, F|100/100|[from]move: U-turn
+|
+|-heal|p1a: Quagsire|85/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: I don't care SIR|Close Combat|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-unboost|p2a: I don't care SIR|def|1
+|-unboost|p2a: I don't care SIR|spd|1
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by spirs)
+|
+|switch|p2a: :)|Rotom-Wash|100/100
+|move|p1a: Lucario|Psychic|p2a: :)
+|-damage|p2a: :)|60/100
+|-damage|p1a: Lucario|91/100|[from] item: Life Orb
+|
+|-heal|p2a: :)|66/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Lucario|Aura Sphere|p2a: :)
+|-damage|p2a: :)|14/100
+|-damage|p1a: Lucario|81/100|[from] item: Life Orb
+|move|p2a: :)|Reflect|p2a: :)
+|-sidestart|p2: Kitsmia|Reflect
+|
+|-heal|p2a: :)|20/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Kitsmia has 120 seconds left.
+|
+|move|p1a: Lucario|Psychic|p2a: :)
+|-damage|p2a: :)|0 fnt
+|-damage|p1a: Lucario|71/100|[from] item: Life Orb
+|faint|p2a: :)
+|
+|upkeep
+|inactive|Kitsmia has 120 seconds left.
+|
+|switch|p2a: Edgy|Hydreigon, M|100/100
+|turn|6
+|
+|move|p2a: Edgy|Flamethrower|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|7
+|inactive|Kitsmia has 120 seconds left.
+|
+|switch|p2a: I don't care SIR|Sirfetch'd, F|100/100
+|move|p1a: Tyranitar|Stealth Rock|p2a: I don't care SIR
+|-sidestart|p2: Kitsmia|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I don't care SIR|94/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|switch|p1a: Mimikyu|Mimikyu, M, shiny|100/100
+|move|p2a: I don't care SIR|Close Combat|p1a: Mimikyu
+|-resisted|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|-unboost|p2a: I don't care SIR|def|1
+|-unboost|p2a: I don't care SIR|spd|1
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M, shiny
+|-damage|p1a: Mimikyu|88/100|[from] ability: Disguise|[of] p1a: Mimikyu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mimikyu|82/100|[from] Sandstorm
+|-damage|p2a: I don't care SIR|88/100|[from] Sandstorm
+|-sideend|p2: Kitsmia|Reflect
+|upkeep
+|turn|9
+|
+|switch|p2a: Sit on me|Ferrothorn, M, shiny|100/100
+|-damage|p2a: Sit on me|94/100|[from] Stealth Rock
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mimikyu|76/100|[from] Sandstorm
+|-heal|p2a: Sit on me|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Mimikyu|Drain Punch|p2a: Sit on me
+|-supereffective|p2a: Sit on me
+|-damage|p2a: Sit on me|30/100
+|-heal|p1a: Mimikyu|100/100|[from] drain|[of] p2a: Sit on me
+|-damage|p1a: Mimikyu|88/100|[from] ability: Iron Barbs|[of] p2a: Sit on me
+|-damage|p1a: Mimikyu|78/100|[from] item: Life Orb
+|move|p2a: Sit on me|Gyro Ball|p1a: Mimikyu
+|-supereffective|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Sit on me|37/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|turn|11
+|
+|move|p1a: Excadrill|Earthquake|p2a: Sit on me
+|-crit|p2a: Sit on me
+|-damage|p2a: Sit on me|0 fnt
+|faint|p2a: Sit on me
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|Kitsmia has 120 seconds left.
+|
+|switch|p2a: Edgy|Hydreigon, M|100/100
+|-damage|p2a: Edgy|88/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: Quagsire|Quagsire, M|85/100
+|move|p2a: Edgy|Flamethrower|p1a: Quagsire
+|-resisted|p1a: Quagsire
+|-damage|p1a: Quagsire|65/100
+|-status|p1a: Quagsire|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Edgy|82/100|[from] Sandstorm
+|-heal|p1a: Quagsire|71/100 brn|[from] item: Leftovers
+|-damage|p1a: Quagsire|65/100 brn|[from] brn
+|upkeep
+|turn|13
+|inactive|Kitsmia has 120 seconds left.
+|
+|switch|p2a: I don't care SIR|Sirfetch'd, F|88/100
+|-damage|p2a: I don't care SIR|82/100|[from] Stealth Rock
+|move|p1a: Quagsire|Toxic|p2a: I don't care SIR
+|-status|p2a: I don't care SIR|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I don't care SIR|76/100 tox|[from] Sandstorm
+|-heal|p1a: Quagsire|71/100 brn|[from] item: Leftovers
+|-damage|p2a: I don't care SIR|70/100 tox|[from] psn
+|-damage|p1a: Quagsire|65/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: I don't care SIR|Close Combat|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|-unboost|p2a: I don't care SIR|def|1
+|-unboost|p2a: I don't care SIR|spd|1
+|faint|p1a: Quagsire
+|
+|-weather|none
+|-damage|p2a: I don't care SIR|58/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|15
+|
+|move|p2a: I don't care SIR|Close Combat|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: I don't care SIR|def|1
+|-unboost|p2a: I don't care SIR|spd|1
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: I don't care SIR|52/100 tox|[from] Sandstorm
+|-damage|p2a: I don't care SIR|34/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|turn|16
+|
+|move|p1a: Excadrill|Iron Head|p2a: I don't care SIR
+|-damage|p2a: I don't care SIR|0 fnt
+|faint|p2a: I don't care SIR
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Edgy|Hydreigon, M|82/100
+|-damage|p2a: Edgy|70/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Edgy|Flamethrower|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|54/100
+|move|p1a: Excadrill|Iron Head|p2a: Edgy
+|-damage|p2a: Edgy|11/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Edgy|4/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|move|p2a: Edgy|Flamethrower|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|10/100
+|move|p1a: Excadrill|Iron Head|p2a: Edgy
+|-damage|p2a: Edgy|0 fnt
+|faint|p2a: Edgy
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Hello mate!|Cinderace, M|53/100
+|-damage|p2a: Hello mate!|28/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Hello mate!|Sucker Punch|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|win|Kitsmia
+|c|☆Kitsmia|:)
+|l|☆spirs

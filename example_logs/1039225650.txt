@@ -1,0 +1,251 @@
+|ScrapeTime|2020-01-01-18:08:53
+|j|☆Spyros007
+|j|☆piterce
+|player|p1|Spyros007|2|1288
+|player|p2|piterce|170|1277
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Sirfetch'd, F|
+|poke|p1|Dracovish|
+|poke|p1|Rotom-Heat|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Obstagoon, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Araquanid, F|
+|poke|p2|Obstagoon, F|
+|poke|p2|Gengar, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Corsola-Galar, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by piterce)
+|
+|start
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|turn|1
+|
+|move|p1a: Rotom|Volt Switch|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|46/100
+|-enditem|p2a: Araquanid|Sitrus Berry|[eat]
+|-heal|p2a: Araquanid|70/100|[from] item: Sitrus Berry
+|
+|switch|p1a: Weezing|Weezing-Galar, M|100/100|[from]move: Volt Switch
+|move|p2a: Araquanid|Sticky Web|p1a: Weezing
+|-sidestart|p1: Spyros007|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Weezing|Defog|p2a: Gengar
+|-unboost|p2a: Gengar|evasion|1
+|-sideend|p1: Spyros007|Sticky Web|[from] move: Defog|[of] p1a: Weezing
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Obstagoon|Obstagoon, F|100/100
+|move|p2a: Gengar|Nasty Plot|p2a: Gengar
+|-boost|p2a: Gengar|spa|2
+|
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|move|p2a: Gengar|Sludge Wave|p1a: Obstagoon
+|-damage|p1a: Obstagoon|0 fnt
+|-damage|p2a: Gengar|91/100|[from] item: Life Orb
+|faint|p1a: Obstagoon
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|5
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Corsola
+|-damage|p2a: Corsola|47/100
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|
+|upkeep
+|
+|switch|p2a: Araquanid|Araquanid, F|70/100
+|turn|7
+|
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|move|p2a: Araquanid|Sticky Web|p1a: Weezing
+|-sidestart|p1: Spyros007|move: Sticky Web
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Gengar|Gengar, F|91/100
+|move|p1a: Weezing|Defog|p2a: Gengar
+|-unboost|p2a: Gengar|evasion|1
+|-sideend|p1: Spyros007|Sticky Web|[from] move: Defog|[of] p1a: Weezing
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Gengar|Shadow Ball|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|67/100
+|-unboost|p1a: Ferrothorn|spd|1
+|-damage|p2a: Gengar|81/100|[from] item: Life Orb
+|
+|-heal|p1a: Ferrothorn|74/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Gengar|Focus Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Gengar|71/100|[from] item: Life Orb
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|11
+|
+|move|p1a: Dracovish|Dragon Rush|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+|inactive|piterce has 120 seconds left.
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|12
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Excadrill|Rock Tomb|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|44/100
+|-unboost|p1a: Rotom|spe|1
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Excadrill|Rock Tomb|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|14
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-enditem|p2a: Excadrill|Focus Sash
+|-damage|p2a: Excadrill|1/100
+|move|p2a: Excadrill|Rock Tomb|p1a: Dracovish
+|-damage|p1a: Dracovish|77/100
+|-unboost|p1a: Dracovish|spe|1
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Sirfetch'd|Sirfetch'd, F|100/100
+|move|p2a: Excadrill|Earthquake|p1a: Sirfetch'd
+|-damage|p1a: Sirfetch'd|45/100
+|
+|upkeep
+|turn|16
+|inactive|piterce has 120 seconds left.
+|
+|move|p2a: Excadrill|Earthquake|p1a: Sirfetch'd
+|-damage|p1a: Sirfetch'd|0 fnt
+|faint|p1a: Sirfetch'd
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|77/100
+|turn|17
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|18
+|
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|77/100
+|turn|20
+|
+|switch|p2a: Araquanid|Araquanid, F|70/100
+|move|p1a: Dracovish|Dragon Rush|p2a: Araquanid
+|-damage|p2a: Araquanid|25/100
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Dracovish|Dragon Rush|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|upkeep
+|
+|switch|p2a: Obstagoon|Obstagoon, F|100/100
+|turn|22
+|
+|move|p1a: Dracovish|Dragon Rush|p2a: Obstagoon|[miss]
+|-miss|p1a: Dracovish|p2a: Obstagoon
+|move|p2a: Obstagoon|Knock Off|p1a: Dracovish
+|-crit|p1a: Dracovish
+|-damage|p1a: Dracovish|26/100
+|-enditem|p1a: Dracovish|Choice Scarf|[from] move: Knock Off|[of] p2a: Obstagoon
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Obstagoon
+|-damage|p2a: Obstagoon|33/100
+|move|p2a: Obstagoon|Body Press|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|win|piterce
+|raw|Spyros007's rating: 1312 → 1290(-22 for losing)
+|raw|piterce's rating: 1277 → 1304(+27 for winning)
+|c|☆piterce|great game, that miss didnt matter in any case

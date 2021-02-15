@@ -1,0 +1,184 @@
+|ScrapeTime|2020-01-01-13:06:08
+|j|☆APlusBug
+|j|☆WCH1226
+|player|p1|APlusBug|265|1089
+|player|p2|WCH1226|blue|1067
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dracovish|
+|poke|p1|Pelipper, F|
+|poke|p1|Seismitoad, M|
+|poke|p1|Gyarados, F|
+|poke|p1|Barraskewda, F|
+|poke|p1|Excadrill, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Obstagoon, M|
+|poke|p2|Sandaconda, M|
+|poke|p2|Inteleon, F|
+|poke|p2|Orbeetle, M|
+|poke|p2|Ferrothorn, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F, shiny|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by APlusBug)
+|
+|move|p1a: Pelipper|Hurricane|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|70/100
+|move|p2a: Ferrothorn|Toxic|p1a: Pelipper
+|-status|p1a: Pelipper|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p1a: Pelipper|Hurricane|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|38/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Pelipper
+|-sidestart|p1: APlusBug|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p1a: Pelipper|Hurricane|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|6/100
+|-start|p2a: Ferrothorn|confusion
+|-activate|p2a: Ferrothorn|confusion
+|move|p2a: Ferrothorn|Explosion|p1a: Pelipper
+|-damage|p1a: Pelipper|38/100 tox
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|20/100 tox|[from] psn
+|upkeep
+|inactive|WCH1226 has 120 seconds left.
+|
+|switch|p2a: Obstagoon|Obstagoon, M|100/100
+|turn|4
+|
+|switch|p1a: Excadrill|Excadrill, M, shiny|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Obstagoon|Obstruct||[still]
+|-fail|p2a: Obstagoon
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|move|p2a: Obstagoon|Fling|p1a: Excadrill
+|-enditem|p2a: Obstagoon|Flame Orb|[from] move: Fling
+|-damage|p1a: Excadrill|76/100
+|-status|p1a: Excadrill|brn
+|move|p1a: Excadrill|Rapid Spin|p2a: Obstagoon
+|-damage|p2a: Obstagoon|91/100 brn
+|-sideend|p1: APlusBug|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Excadrill|69/100 brn|[from] brn
+|-damage|p2a: Obstagoon|85/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Obstagoon|Facade|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|5/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Excadrill|0 fnt|[from] brn
+|faint|p1a: Excadrill
+|-damage|p2a: Obstagoon|78/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Barraskewda|Barraskewda, F, shiny|100/100
+|turn|7
+|
+|move|p1a: Barraskewda|Close Combat|p2a: Obstagoon
+|-supereffective|p2a: Obstagoon
+|-damage|p2a: Obstagoon|0 fnt
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|faint|p2a: Obstagoon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|8
+|
+|switch|p1a: Seismitoad|Seismitoad, M, shiny|100/100
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Seismitoad
+|move|p1a: Seismitoad|Earth Power|p2a: Dragapult|[miss]
+|-miss|p1a: Seismitoad|p2a: Dragapult
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Seismitoad|[from]lockedmove
+|-crit|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|-damage|p2a: Dragapult|91/100|[from] item: Life Orb
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Pelipper|Pelipper, F, shiny|20/100 tox
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|11
+|
+|move|p2a: Dragapult|Psychic Fangs|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|-damage|p2a: Dragapult|81/100|[from] item: Life Orb
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, F, shiny|100/100
+|turn|12
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Gyarados
+|-damage|p1a: Gyarados|37/100
+|-damage|p1a: Gyarados|0 fnt
+|-hitcount|p1a: Gyarados|2
+|-damage|p2a: Dragapult|71/100|[from] item: Life Orb
+|faint|p1a: Gyarados
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|APlusBug forfeited.
+|
+|win|WCH1226
+|l|☆APlusBug
+|raw|APlusBug's rating: 1089 → 1064(-25 for losing)
+|raw|WCH1226's rating: 1068 → 1100(+32 for winning)

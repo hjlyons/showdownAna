@@ -1,0 +1,280 @@
+|ScrapeTime|2020-01-01-03:24:40
+|j|☆blackrabbit0303
+|j|☆SandGetsEverywhere
+|player|p1|blackrabbit0303|janine|1290
+|player|p2|SandGetsEverywhere|riley|1247
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, M|
+|poke|p1|Seismitoad, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Aegislash, F|
+|poke|p1|Dracovish|
+|poke|p2|Pelipper, M|
+|poke|p2|Dracovish|
+|poke|p2|Barraskewda, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Mantine, F|
+|poke|p2|Ferrothorn, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| miilkie__
+|
+|start
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Rotom|Volt Switch|p2a: Excadrill
+|-immune|p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Excadrill|Stealth Rock|p1a: Seismitoad
+|-sidestart|p1: blackrabbit0303|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Seismitoad|Toxic|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|switch|p2a: Mantine|Mantine, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|-damage|p1a: Seismitoad|94/100|[from] Stealth Rock
+|move|p2a: Mantine|Hurricane|p1a: Seismitoad
+|-damage|p1a: Seismitoad|18/100
+|-start|p1a: Seismitoad|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|24/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|l| miilkie__
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|-damage|p1a: Aegislash|94/100|[from] Stealth Rock
+|move|p2a: Mantine|Hurricane|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Aegislash|75/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Mantine|Hurricane|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Aegislash|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Mantine|Hurricane|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|56/100
+|move|p1a: Aegislash|Substitute|p1a: Aegislash
+|-start|p1a: Aegislash|Substitute
+|-damage|p1a: Aegislash|31/100
+|
+|-weather|none
+|-heal|p1a: Aegislash|38/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Dracovish
+|-damage|p2a: Dracovish|39/100
+|-unboost|p2a: Dracovish|spd|1
+|
+|-heal|p1a: Aegislash|44/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Aegislash
+|-end|p1a: Aegislash|Substitute
+|move|p1a: Aegislash|Shadow Ball|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|-heal|p1a: Aegislash|50/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, F|100/100
+|turn|11
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Barraskewda|Liquidation|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|-unboost|p2a: Barraskewda|atk|1
+|
+|-heal|p1a: Aegislash|56/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|switch|p1a: Seismitoad|Seismitoad, M|24/100
+|-damage|p1a: Seismitoad|18/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Seismitoad|24/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Pelipper|Hurricane|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|-damage|p1a: Dracovish|88/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|43/100
+|-damage|p1a: Dracovish|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|49/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Dracovish|63/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Mantine|Mantine, F|100/100
+|turn|16
+|
+|switch|p1a: Aegislash|Aegislash, F|56/100
+|-damage|p1a: Aegislash|50/100|[from] Stealth Rock
+|move|p2a: Mantine|Hurricane|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|22/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Aegislash|29/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Mantine|Hurricane|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Aegislash|35/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Mantine|Hurricane|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|9/100
+|-start|p1a: Aegislash|confusion
+|-activate|p1a: Aegislash|confusion
+|-damage|p1a: Aegislash|4/100|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Aegislash|10/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|-activate|p1a: Aegislash|confusion
+|-damage|p1a: Aegislash|6/100|[from] confusion
+|move|p2a: Mantine|Hurricane|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|-damage|p1a: Rotom|75/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Rotom|Overheat|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|84/100
+|-unboost|p1a: Rotom|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|switch|p1a: Dracovish|Dracovish|63/100
+|-damage|p1a: Dracovish|51/100|[from] Stealth Rock
+|move|p2a: Pelipper|Hurricane|p1a: Dracovish
+|-crit|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat|75/100
+|-damage|p1a: Rotom|50/100|[from] Stealth Rock
+|turn|22
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Rotom|Volt Switch|p2a: Excadrill
+|-immune|p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|-message|blackrabbit0303 forfeited.
+|
+|win|SandGetsEverywhere
+|l|☆blackrabbit0303
+|raw|blackrabbit0303's rating: 1290 → 1262(-28 for losing)
+|raw|SandGetsEverywhere's rating: 1247 → 1275(+28 for winning)

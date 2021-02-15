@@ -1,0 +1,255 @@
+|ScrapeTime|2020-01-02-12:55:49
+|j|☆OU Team (8G)
+|j|☆UltimateBerryJuice
+|player|p1|OU Team (8G)|pokemaniac|1079
+|player|p2|UltimateBerryJuice|266|1076
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Seismitoad, M|
+|poke|p1|Rotom-Wash|
+|poke|p2|Dracovish|
+|poke|p2|Toxtricity, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Butterfree, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Zlatanée|Cinderace, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M, shiny|100/100
+|turn|1
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Zlatanée|High Jump Kick|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|-damage|p1a: Zlatanée|50/100|[from] highjumpkick
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|move|p1a: Zlatanée|Pyro Ball|p2a: Dracovish
+|-resisted|p2a: Dracovish
+|-damage|p2a: Dracovish|87/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Sapik|Ferrothorn, M|100/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Sapik
+|-resisted|p1a: Sapik
+|-damage|p1a: Sapik|68/100
+|-damage|p2a: Dracovish|74/100|[from] ability: Iron Barbs|[of] p1a: Sapik
+|
+|-heal|p1a: Sapik|74/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Toxapex|Toxapex, M, shiny|100/100
+|move|p1a: Sapik|Leech Seed|p2a: Toxapex
+|-start|p2a: Toxapex|move: Leech Seed
+|
+|-heal|p1a: Sapik|80/100|[from] item: Leftovers
+|-damage|p2a: Toxapex|88/100|[from] Leech Seed|[of] p1a: Sapik
+|-heal|p1a: Sapik|89/100|[silent]
+|upkeep
+|turn|5
+|
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|move|p1a: Sapik|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|71/100
+|-enditem|p2a: Toxapex|Leftovers|[from] move: Knock Off|[of] p1a: Sapik
+|
+|-heal|p1a: Sapik|95/100|[from] item: Leftovers
+|-damage|p2a: Toxapex|59/100|[from] Leech Seed|[of] p1a: Sapik
+|-heal|p1a: Sapik|100/100|[silent]
+|upkeep
+|turn|6
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Sapik|Gyro Ball|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-damage|p2a: Toxapex|46/100|[from] Leech Seed|[of] p1a: Sapik
+|upkeep
+|turn|7
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Sapik|Gyro Ball|p2a: Dragapult
+|-damage|p2a: Dragapult|23/100
+|-enditem|p2a: Dragapult|Aguav Berry|[eat]
+|-heal|p2a: Dragapult|56/100|[from] item: Aguav Berry
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: IT'S PIKACHU|Grimmsnarl, M|100/100
+|move|p2a: Dragapult|Dragon Darts|p1a: IT'S PIKACHU
+|-immune|p1a: IT'S PIKACHU
+|
+|upkeep
+|turn|9
+|
+|move|p1a: IT'S PIKACHU|Substitute|p1a: IT'S PIKACHU
+|-start|p1a: IT'S PIKACHU|Substitute
+|-damage|p1a: IT'S PIKACHU|76/100
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: IT'S PIKACHU
+|
+|upkeep
+|turn|10
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by OU Team (8G))
+|
+|move|p1a: IT'S PIKACHU|Bulk Up|p1a: IT'S PIKACHU
+|-boost|p1a: IT'S PIKACHU|atk|1
+|-boost|p1a: IT'S PIKACHU|def|1
+|move|p2a: Dragapult|Phantom Force|p1a: IT'S PIKACHU|[from]lockedmove
+|-resisted|p1a: IT'S PIKACHU
+|-activate|p1a: IT'S PIKACHU|move: Substitute|[damage]
+|
+|upkeep
+|turn|11
+|
+|move|p1a: IT'S PIKACHU|Bulk Up|p1a: IT'S PIKACHU
+|-boost|p1a: IT'S PIKACHU|atk|1
+|-boost|p1a: IT'S PIKACHU|def|1
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: IT'S PIKACHU|Spirit Break|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p1a: IT'S PIKACHU|66/100|[from] item: Life Orb
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|74/100
+|turn|13
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: IT'S PIKACHU
+|-end|p1a: IT'S PIKACHU|Substitute
+|move|p1a: IT'S PIKACHU|Spirit Break|p2a: Dracovish
+|-supereffective|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|-damage|p1a: IT'S PIKACHU|56/100|[from] item: Life Orb
+|faint|p2a: Dracovish
+|
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M, shiny|100/100
+|turn|14
+|
+|switch|p1a: Sapik|Ferrothorn, M|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Sapik
+|-sidestart|p1: OU Team (8G)|move: Stealth Rock
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Butterfree|Butterfree, F, shiny|100/100
+|move|p1a: Sapik|Knock Off|p2a: Butterfree
+|-damage|p2a: Butterfree|54/100
+|-enditem|p2a: Butterfree|Focus Sash|[from] move: Knock Off|[of] p1a: Sapik
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Butterfree|Sleep Powder|p1a: Sapik
+|-immune|p1a: Sapik
+|move|p1a: Sapik|Gyro Ball|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+|
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, M, shiny|100/100
+|turn|17
+|
+|move|p2a: Toxtricity|Fire Punch|p1a: Sapik
+|-supereffective|p1a: Sapik
+|-damage|p1a: Sapik|58/100
+|-damage|p2a: Toxtricity|88/100|[from] ability: Iron Barbs|[of] p1a: Sapik
+|move|p1a: Sapik|Knock Off|p2a: Toxtricity
+|-damage|p2a: Toxtricity|55/100
+|-enditem|p2a: Toxtricity|Wiki Berry|[from] move: Knock Off|[of] p1a: Sapik
+|
+|-heal|p1a: Sapik|65/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Toxtricity|Fire Punch|p1a: Sapik
+|-supereffective|p1a: Sapik
+|-damage|p1a: Sapik|23/100
+|-damage|p2a: Toxtricity|42/100|[from] ability: Iron Barbs|[of] p1a: Sapik
+|move|p1a: Sapik|Leech Seed|p2a: Toxtricity
+|-start|p2a: Toxtricity|move: Leech Seed
+|
+|-heal|p1a: Sapik|29/100|[from] item: Leftovers
+|-damage|p2a: Toxtricity|30/100|[from] Leech Seed|[of] p1a: Sapik
+|-heal|p1a: Sapik|39/100|[silent]
+|upkeep
+|turn|19
+|
+|switch|p1a: G2LAKNER|Seismitoad, M, shiny|100/100
+|-damage|p1a: G2LAKNER|94/100|[from] Stealth Rock
+|move|p2a: Toxtricity|Sludge Bomb|p1a: G2LAKNER
+|-resisted|p1a: G2LAKNER
+|-damage|p1a: G2LAKNER|78/100
+|-status|p1a: G2LAKNER|psn
+|
+|-damage|p2a: Toxtricity|18/100|[from] Leech Seed|[of] p1a: G2LAKNER
+|-heal|p1a: G2LAKNER|88/100 psn|[silent]
+|-damage|p1a: G2LAKNER|76/100 psn|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p2a: Toxapex|Toxapex, M, shiny|79/100
+|move|p1a: G2LAKNER|Earth Power|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|17/100
+|
+|-damage|p1a: G2LAKNER|63/100 psn|[from] psn
+|upkeep
+|turn|21
+|
+|move|p1a: G2LAKNER|Earth Power|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-damage|p1a: G2LAKNER|51/100 psn|[from] psn
+|upkeep
+|-message|UltimateBerryJuice forfeited.
+|
+|win|OU Team (8G)
+|l|☆UltimateBerryJuice
+|raw|OU Team (8G)'s rating: 1079 → 1107(+28 for winning)
+|raw|UltimateBerryJuice's rating: 1076 → 1055(-21 for losing)

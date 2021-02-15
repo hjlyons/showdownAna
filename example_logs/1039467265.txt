@@ -1,0 +1,140 @@
+|ScrapeTime|2020-01-02-02:54:36
+|j|☆Toastfish
+|j|☆jaflars
+|player|p1|Toastfish|266|
+|player|p2|jaflars|261|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Pyukumuku, M|
+|poke|p1|Claydol|
+|poke|p1|Clefable, M|
+|poke|p1|Dragapult, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Drednaw, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Dracovish|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Dragapult, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| pinkshirtguy
+|
+|start
+|switch|p1a: Clefable|Clefable, M|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|move|p2a: Pelipper|Scald|p1a: Clefable
+|-damage|p1a: Clefable|69/100
+|move|p1a: Clefable|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: jaflars|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Clefable|75/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Pelipper|U-turn|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|71/100
+|
+|switch|p2a: Dracovish|Dracovish|100/100|[from]move: U-turn
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Clefable|77/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Pyukumuku|Pyukumuku, M|100/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Pyukumuku
+|-resisted|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|53/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Pyukumuku|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|4
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Pyukumuku
+|-resisted|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|48/100
+|move|p1a: Pyukumuku|Toxic|p2a: Dracovish
+|-status|p2a: Dracovish|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Pyukumuku|54/100|[from] item: Leftovers
+|-damage|p2a: Dracovish|82/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Pyukumuku
+|-resisted|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|4/100
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|54/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Pyukumuku|60/100|[from] item: Leftovers
+|-damage|p2a: Dracovish|69/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Ferrothorn|Spikes|p1a: Dragapult
+|-sidestart|p1: Toastfish|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Dragapult
+|-damage|p1a: Dragapult|67/100
+|
+|-weather|none
+|-heal|p1a: Dragapult|74/100|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|49/100
+|move|p2a: Ferrothorn|Leech Seed||[still]
+|-fail|p2a: Ferrothorn
+|
+|-heal|p1a: Dragapult|55/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|-message|jaflars forfeited.
+|
+|win|Toastfish
+|l|☆jaflars

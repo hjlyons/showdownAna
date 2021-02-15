@@ -1,0 +1,166 @@
+|ScrapeTime|2020-01-02-03:26:58
+|j|☆ohsjuice
+|j|☆Marowalker
+|player|p1|ohsjuice|169|1371
+|player|p2|Marowalker|acetrainer-gen4dp|1341
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Excadrill, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Barraskewda, F|
+|poke|p1|Bisharp, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Milotic, F|
+|poke|p2|Sylveon, F|
+|poke|p2|Rotom-Mow|
+|poke|p2|Seismitoad, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Dragapult, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Marowalker)
+|inactive|ohsjuice has 120 seconds left.
+|
+|start
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Seismitoad|Earthquake|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|63/100
+|
+|-heal|p1a: Ferrothorn|69/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|72/100
+|-enditem|p2a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|75/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Cinderace|U-turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|92/100
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Rotom|Substitute|p2a: Rotom
+|-start|p2a: Rotom|Substitute
+|-damage|p2a: Rotom|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Excadrill|Rock Tomb|p2a: Rotom
+|-end|p2a: Rotom|Substitute
+|move|p2a: Rotom|Leaf Storm|p1a: Excadrill
+|-damage|p1a: Excadrill|20/100
+|-unboost|p2a: Rotom|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Excadrill|Earthquake|p2a: Seismitoad
+|-damage|p2a: Seismitoad|65/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|71/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|ohsjuice has 120 seconds left.
+|
+|move|p1a: Excadrill|Earthquake|p2a: Seismitoad
+|-damage|p2a: Seismitoad|32/100
+|move|p2a: Seismitoad|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|38/100|[from] item: Leftovers
+|upkeep
+|inactive|ohsjuice has 120 seconds left.
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|turn|8
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Seismitoad
+|-damage|p2a: Seismitoad|3/100
+|-start|p2a: Seismitoad|Throat Chop|[silent]
+|-damage|p1a: Bisharp|91/100|[from] item: Life Orb
+|move|p2a: Seismitoad|Earthquake|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|6/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|9/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Sylveon|Sylveon, F|100/100
+|move|p1a: Bisharp|Iron Head|p2a: Sylveon
+|-supereffective|p2a: Sylveon
+|-damage|p2a: Sylveon|11/100
+|-damage|p1a: Bisharp|0 fnt|[from] item: Life Orb
+|faint|p1a: Bisharp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sylveon|18/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|turn|10
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Barraskewda|Close Combat|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-weather|none
+|-heal|p2a: Sylveon|24/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Barraskewda|Close Combat|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|upkeep
+|turn|12
+|-message|ohsjuice forfeited.
+|
+|win|Marowalker
+|l|☆ohsjuice
+|raw|ohsjuice's rating: 1371 → 1349(-22 for losing)
+|raw|Marowalker's rating: 1341 → 1363(+22 for winning)

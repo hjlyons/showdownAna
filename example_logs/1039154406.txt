@@ -1,0 +1,284 @@
+|ScrapeTime|2020-01-01-14:56:52
+|j|☆changge
+|j|☆Hujikoko
+|player|p1|changge|dawn|1105
+|player|p2|Hujikoko|266|1066
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Dracovish|
+|poke|p1|Gardevoir, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Rotom-Wash|
+|poke|p2|Hitmontop, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Malamar, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Shiinotic, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by changge)
+|
+|start
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|
+|move|p2a: Seismitoad|Stealth Rock|p1a: Toxapex
+|-sidestart|p1: changge|move: Stealth Rock
+|move|p1a: Toxapex|Toxic|p2a: Seismitoad
+|-status|p2a: Seismitoad|tox
+|
+|-damage|p2a: Seismitoad|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Earthquake|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|
+|-heal|p2a: Seismitoad|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|88/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Toxic|p1a: Corviknight
+|-immune|p1a: Corviknight
+|
+|-heal|p2a: Seismitoad|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|76/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p2a: Seismitoad|Liquidation|p1a: Corviknight
+|-damage|p1a: Corviknight|71/100
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|-heal|p2a: Seismitoad|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|58/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p2a: Seismitoad|Liquidation|p1a: Corviknight
+|-damage|p1a: Corviknight|63/100
+|move|p1a: Corviknight|Body Press|p2a: Seismitoad
+|-damage|p2a: Seismitoad|9/100 tox
+|
+|-heal|p2a: Seismitoad|15/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|0 fnt|[from] psn
+|faint|p2a: Seismitoad
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|6
+|
+|switch|p1a: Rotom|Rotom-Wash|88/100
+|-damage|p1a: Rotom|75/100|[from] Stealth Rock
+|move|p2a: Rotom|Overheat|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|49/100
+|-unboost|p2a: Rotom|spa|2
+|-enditem|p1a: Rotom|Sitrus Berry|[eat]
+|-heal|p1a: Rotom|74/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Shiinotic|Shiinotic, M|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Shiinotic
+|-resisted|p2a: Shiinotic
+|-damage|p2a: Shiinotic|78/100
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Shiinotic
+|-status|p2a: Shiinotic|brn
+|move|p2a: Shiinotic|Spore|p1a: Rotom
+|-status|p1a: Rotom|slp|[from] move: Spore
+|
+|-damage|p2a: Shiinotic|72/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|cant|p1a: Rotom|slp
+|move|p2a: Shiinotic|Spore|p1a: Rotom
+|-fail|p1a: Rotom|slp
+|
+|-damage|p2a: Shiinotic|65/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|cant|p1a: Rotom|slp
+|move|p2a: Shiinotic|Giga Drain|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|32/100 slp
+|-heal|p2a: Shiinotic|87/100 brn|[from] drain|[of] p1a: Rotom
+|
+|-damage|p2a: Shiinotic|81/100 brn|[from] brn
+|upkeep
+|turn|11
+|inactive|changge has 120 seconds left.
+|
+|switch|p1a: Dragapult|Dragapult, M, shiny|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|move|p2a: Shiinotic|Giga Drain|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|70/100
+|-heal|p2a: Shiinotic|92/100 brn|[from] drain|[of] p1a: Dragapult
+|
+|-damage|p2a: Shiinotic|85/100 brn|[from] brn
+|upkeep
+|turn|12
+|inactive|changge has 120 seconds left.
+|
+|move|p1a: Dragapult|Fire Blast|p2a: Shiinotic|[miss]
+|-miss|p1a: Dragapult|p2a: Shiinotic
+|move|p2a: Shiinotic|Spore|p1a: Dragapult
+|-message|Sleep Clause Mod activated.
+|
+|-damage|p2a: Shiinotic|79/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Dragapult|Fire Blast|p2a: Shiinotic
+|-supereffective|p2a: Shiinotic
+|-damage|p2a: Shiinotic|15/100 brn
+|move|p2a: Shiinotic|Moonlight|p2a: Shiinotic
+|-heal|p2a: Shiinotic|65/100 brn
+|
+|-damage|p2a: Shiinotic|59/100 brn|[from] brn
+|upkeep
+|turn|14
+|inactive|changge has 120 seconds left.
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Dragapult|Fire Blast|p2a: Hatterene
+|-damage|p2a: Hatterene|58/100
+|
+|upkeep
+|turn|15
+|inactive|changge has 120 seconds left.
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Hatterene|Dark Pulse|p1a: Toxapex
+|-damage|p1a: Toxapex|65/100
+|
+|-heal|p1a: Toxapex|71/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|inactive|changge has 120 seconds left.
+|inactive|Hujikoko has 120 seconds left.
+|
+|switch|p2a: Malamar|Malamar, M|100/100
+|move|p1a: Toxapex|Toxic|p2a: Malamar
+|-status|p2a: Malamar|tox
+|
+|-heal|p1a: Toxapex|77/100|[from] item: Black Sludge
+|-damage|p2a: Malamar|94/100 tox|[from] psn
+|upkeep
+|turn|17
+|inactive|changge has 120 seconds left.
+|
+|move|p2a: Malamar|Psycho Cut|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|16/100
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Toxapex|22/100|[from] item: Black Sludge
+|-damage|p2a: Malamar|82/100 tox|[from] psn
+|upkeep
+|turn|18
+|inactive|changge has 120 seconds left.
+|
+|switch|p1a: Rotom|Rotom-Wash|32/100 slp
+|-damage|p1a: Rotom|19/100 slp|[from] Stealth Rock
+|move|p2a: Malamar|Psycho Cut|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-damage|p2a: Malamar|64/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|-damage|p1a: Dracovish|88/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Malamar
+|-damage|p2a: Malamar|0 fnt
+|faint|p2a: Malamar
+|
+|upkeep
+|
+|switch|p2a: Shiinotic|Shiinotic, M|59/100 brn
+|turn|20
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Shiinotic
+|-resisted|p2a: Shiinotic
+|-damage|p2a: Shiinotic|0 fnt
+|faint|p2a: Shiinotic
+|
+|upkeep
+|
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|turn|21
+|
+|move|p2a: Hitmontop|Fake Out|p1a: Dracovish
+|-damage|p1a: Dracovish|66/100
+|-damage|p2a: Hitmontop|91/100|[from] item: Life Orb
+|cant|p1a: Dracovish|flinch
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Hitmontop|Bullet Punch|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|55/100
+|-damage|p2a: Hitmontop|81/100|[from] item: Life Orb
+|move|p1a: Dracovish|Fishious Rend|p2a: Hitmontop
+|-crit|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|faint|p2a: Hitmontop
+|
+|upkeep
+|
+|switch|p2a: Hatterene|Hatterene, F|58/100
+|turn|23
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|24
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|win|changge
+|raw|changge's rating: 1105 → 1127(+22 for winning)
+|raw|Hujikoko's rating: 1066 → 1048(-18 for losing)

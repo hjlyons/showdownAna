@@ -1,0 +1,327 @@
+|ScrapeTime|2020-01-02-13:34:24
+|j|☆Seradykio
+|j|☆sdfae
+|player|p1|Seradykio|misty|1043
+|player|p2|sdfae|schoolkid|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Gyarados, F|
+|poke|p1|Silvally-*|
+|poke|p1|Rotom-Mow|
+|poke|p1|Gengar, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Mimikyu, F|
+|poke|p2|Toxtricity, F|
+|poke|p2|Dracovish|
+|poke|p2|Pelipper, M|
+|poke|p2|Mew|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sdfae)
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Grimmsnarl|Taunt|p1a: Cinderace
+|-start|p1a: Cinderace|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: sdfae|Reflect
+|move|p1a: Cinderace|Pyro Ball|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|50/100
+|-status|p2a: Grimmsnarl|brn
+|-damage|p1a: Cinderace|91/100|[from] item: Life Orb
+|
+|-damage|p2a: Grimmsnarl|44/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: sdfae|move: Light Screen
+|move|p1a: Cinderace|Pyro Ball|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-damage|p1a: Cinderace|81/100|[from] item: Life Orb
+|faint|p2a: Grimmsnarl
+|
+|-end|p1a: Cinderace|move: Taunt
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|4
+|
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p2: sdfae|Light Screen|[silent]
+|-sidestart|p1: Seradykio|Light Screen|[silent]
+|-sideend|p2: sdfae|Reflect|[silent]
+|-sidestart|p1: Seradykio|Reflect|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Dracovish|Fishious Rend|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|turn|5
+|
+|switch|p2a: Mew|Mew|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Mew
+|-damage|p2a: Mew|82/100
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100|[from]move: Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|76/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Tyranitar|Crunch|p2a: Pelipper
+|-damage|p2a: Pelipper|62/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Pelipper|68/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|move|p2a: Pelipper|Scald|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|91/100
+|-status|p1a: Gyarados|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Pelipper|74/100|[from] item: Leftovers
+|-damage|p1a: Gyarados|84/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Gyarados|78/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Gyarados|Hurricane|p2a: Dracovish
+|-damage|p2a: Dracovish|71/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|36/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Gyarados|30/100 brn|[from] brn
+|-sideend|p1: Seradykio|Reflect
+|upkeep
+|turn|10
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|none
+|-sideend|p1: Seradykio|move: Light Screen
+|upkeep
+|inactive|Seradykio has 120 seconds left.
+|
+|switch|p1a: Silvally|Silvally-Fairy, shiny|100/100
+|turn|11
+|
+|switch|p2a: Pelipper|Pelipper, M|74/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Silvally|Multi-Attack|p2a: Pelipper
+|-damage|p2a: Pelipper|36/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Pelipper|42/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|Seradykio has 120 seconds left.
+|
+|move|p1a: Silvally|Multi-Attack|p2a: Pelipper
+|-damage|p2a: Pelipper|2/100
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|52/100
+|-singleturn|p2a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Pelipper|59/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|Seradykio has 120 seconds left.
+|
+|move|p1a: Silvally|Shadow Claw|p2a: Pelipper
+|-damage|p2a: Pelipper|42/100
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|92/100
+|-singleturn|p2a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Pelipper|99/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|Seradykio has 120 seconds left.
+|
+|move|p1a: Silvally|Shadow Claw|p2a: Pelipper
+|-damage|p2a: Pelipper|84/100
+|move|p2a: Pelipper|Knock Off|p1a: Silvally
+|-resisted|p1a: Silvally
+|-damage|p1a: Silvally|96/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Pelipper|90/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Seradykio has 120 seconds left.
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Pelipper|Hurricane|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|94/100
+|-start|p1a: Tyranitar|confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pelipper|84/100|[from] Sandstorm
+|-heal|p2a: Pelipper|90/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Pelipper|Scald|p1a: Gengar
+|-damage|p1a: Gengar|60/100
+|-status|p1a: Gengar|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|54/100 brn|[from] Sandstorm
+|-damage|p2a: Pelipper|84/100|[from] Sandstorm
+|-heal|p2a: Pelipper|90/100|[from] item: Leftovers
+|-damage|p1a: Gengar|48/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|42/100 brn|[from] Sandstorm
+|-damage|p1a: Gengar|36/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Mimikyu|Mimikyu, F|100/100
+|turn|18
+|
+|switch|p1a: Gyarados|Gyarados, F|30/100 brn
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|-damage|p2a: Mimikyu|91/100|[from] item: Life Orb
+|faint|p1a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mimikyu|85/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, M|36/100 brn
+|turn|19
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-damage|p2a: Mimikyu|75/100|[from] item: Life Orb
+|faint|p1a: Gengar
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|94/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|20
+|
+|move|p2a: Mimikyu|Play Rough|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|14/100
+|-damage|p2a: Mimikyu|65/100|[from] item: Life Orb
+|move|p1a: Tyranitar|Rock Slide|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|65/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F
+|-damage|p2a: Mimikyu|52/100|[from] ability: Disguise|[of] p2a: Mimikyu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mimikyu|46/100|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|move|p2a: Mimikyu|Play Rough|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-damage|p2a: Mimikyu|36/100|[from] item: Life Orb
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mimikyu|30/100|[from] Sandstorm
+|upkeep
+|inactive|Seradykio has 90 seconds left.
+|
+|switch|p1a: Silvally|Silvally-Fairy, shiny|96/100
+|turn|22
+|inactive|Seradykio has 90 seconds left.
+|
+|move|p2a: Mimikyu|Shadow Claw|p1a: Silvally
+|-damage|p1a: Silvally|52/100
+|-damage|p2a: Mimikyu|20/100|[from] item: Life Orb
+|move|p1a: Silvally|Multi-Attack|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silvally|46/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Mew|Mew|76/100
+|turn|23
+|
+|move|p1a: Silvally|Shadow Claw|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|40/100
+|move|p2a: Mew|Psyshock|p1a: Silvally
+|-damage|p1a: Silvally|2/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Silvally|0 fnt|[from] Sandstorm
+|-damage|p2a: Mew|33/100|[from] Sandstorm
+|faint|p1a: Silvally
+|
+|win|sdfae
+|upkeep
+|raw|Seradykio's rating: 1043 → 1025(-18 for losing)
+|raw|sdfae's rating: 1000 → 1045(+45 for winning)
+|l|☆sdfae

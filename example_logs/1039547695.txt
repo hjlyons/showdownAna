@@ -1,0 +1,225 @@
+|ScrapeTime|2020-01-02-06:54:31
+|j|☆pod depot
+|j|☆Celtis Laddering
+|player|p1|pod depot|plasmagruntf|1494
+|player|p2|Celtis Laddering|151|1472
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Clefable, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Seismitoad, F|
+|poke|p1|Hawlucha, F|
+|poke|p1|Conkeldurr, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Clefable, F|
+|poke|p2|Rotom-Heat|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Clefable
+|-status|p1a: Clefable|brn
+|move|p1a: Clefable|Moonblast|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Dragapult|Disable|p1a: Clefable
+|-start|p1a: Clefable|Disable|Moonblast
+|cant|p1a: Clefable|Disable|Moonblast
+|
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F, shiny|100/100
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|69/100
+|
+|-heal|p2a: Dragapult|75/100|[from] item: Leftovers
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|move|p2a: Dragapult|Hex|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|40/100 brn
+|move|p1a: Conkeldurr|Ice Punch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|81/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|34/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Clefable|Clefable, F|100/100 brn
+|move|p2a: Dragapult|Hex|p1a: Clefable
+|-damage|p1a: Clefable|53/100 brn
+|
+|-heal|p2a: Dragapult|87/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|62/100
+|move|p1a: Clefable|Moonblast|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|68/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Dragapult|Disable||[still]
+|-fail|p2a: Dragapult
+|
+|-heal|p2a: Dragapult|75/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Cinderace|Sucker Punch||[still]
+|-fail|p1a: Cinderace
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|50/100
+|
+|-heal|p2a: Dragapult|56/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Dragapult|Hex|p1a: Cinderace
+|-damage|p1a: Cinderace|63/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|62/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Dragapult|Disable|p1a: Cinderace
+|-start|p1a: Cinderace|Disable|Pyro Ball
+|cant|p1a: Cinderace|Disable|Pyro Ball
+|
+|-heal|p2a: Dragapult|68/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|43/100
+|move|p1a: Cinderace|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-activate|p2a: Dragapult|move: Substitute|[damage]
+|
+|switch|p1a: Clefable|Clefable, F|53/100 brn|[from]move: U-turn
+|
+|-heal|p2a: Dragapult|49/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Dragapult|Hex|p1a: Clefable
+|-damage|p1a: Clefable|5/100 brn
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|55/100 brn
+|
+|-heal|p2a: Dragapult|55/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Dragapult|Hex|p1a: Clefable
+|-damage|p1a: Clefable|6/100 brn
+|move|p1a: Clefable|Moonblast|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|61/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Dragapult|Hex|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-heal|p2a: Dragapult|67/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|16
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Excadrill
+|-status|p1a: Excadrill|brn
+|move|p1a: Excadrill|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|34/100
+|
+|-heal|p2a: Dragapult|40/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|94/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Dragapult|Disable|p1a: Excadrill
+|-start|p1a: Excadrill|Disable|Earthquake
+|cant|p1a: Excadrill|Disable|Earthquake
+|
+|-heal|p2a: Dragapult|46/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|88/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p2a: Dragapult|Hex|p1a: Excadrill
+|-damage|p1a: Excadrill|22/100 brn
+|move|p1a: Excadrill|Iron Head|p2a: Dragapult
+|-damage|p2a: Dragapult|20/100
+|
+|-heal|p2a: Dragapult|26/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|15/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p2a: Dragapult|Hex|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-heal|p2a: Dragapult|32/100|[from] item: Leftovers
+|upkeep
+|-message|pod depot forfeited.
+|
+|win|Celtis Laddering
+|l|☆pod depot
+|raw|pod depot's rating: 1494 → 1473(-21 for losing)
+|raw|Celtis Laddering's rating: 1469 → 1490(+21 for winning)

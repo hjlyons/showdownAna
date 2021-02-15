@@ -1,0 +1,185 @@
+|ScrapeTime|2020-01-02-00:14:41
+|j|☆glacierider☆
+|j|☆Miliak
+|player|p1|glacierider☆|grimsley-gen7|1152
+|player|p2|Miliak|224|1190
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dracovish|
+|poke|p1|Xatu, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Hydreigon, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Milotic, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Galvantula, M|
+|poke|p2|Gengar, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|move|p2a: Tyranitar|Flamethrower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|37/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Tyranitar
+|-start|p2a: Tyranitar|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|51/100|[silent]
+|upkeep
+|turn|2
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Tyranitar|Flamethrower|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|65/100|[silent]
+|upkeep
+|turn|3
+|
+|move|p2a: Tyranitar|Flamethrower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|5/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: Miliak|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|63/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|19/100|[silent]
+|upkeep
+|turn|4
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Protect||[still]
+|-fail|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Excadrill|Earthquake|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p1a: Ferrothorn|Protect||[still]
+|-fail|p1a: Ferrothorn
+|move|p2a: Excadrill|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Excadrill|87/100|[from] item: Life Orb
+|faint|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Xatu|Xatu, M|100/100
+|turn|7
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|39/100
+|-damage|p2a: Excadrill|78/100|[from] item: Life Orb
+|move|p1a: Xatu|Calm Mind|p1a: Xatu
+|-boost|p1a: Xatu|spa|1
+|-boost|p1a: Xatu|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|33/100|[from] Sandstorm
+|-heal|p1a: Xatu|39/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Excadrill|Rock Slide|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|89/100
+|-damage|p2a: Excadrill|68/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|move|p1a: Excadrill|Iron Head|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|73/100
+|
+|-heal|p2a: Corviknight|80/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|86/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|j| des121
+|l| des121
+|
+|switch|p2a: Milotic|Milotic, M|100/100
+|-damage|p2a: Milotic|88/100|[from] Stealth Rock
+|move|p1a: Cinderace|Blaze Kick|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|66/100
+|
+|-heal|p2a: Milotic|72/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Dracovish|Dracovish, shiny|100/100
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Milotic|Dragon Breath|p1a: Dracovish
+|-supereffective|p1a: Dracovish
+|-damage|p1a: Dracovish|71/100
+|-status|p1a: Dracovish|par
+|move|p1a: Dracovish|Fishious Rend|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|71/100
+|
+|-heal|p2a: Milotic|77/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|-message|glacierider☆ forfeited.
+|
+|win|Miliak
+|l|☆glacierider☆
+|raw|glacierider☆'s rating: 1152 → 1130(-22 for losing)
+|raw|Miliak's rating: 1190 → 1212(+22 for winning)

@@ -1,0 +1,524 @@
+|ScrapeTime|2020-01-01-20:46:53
+|j|☆Grimlock238
+|j|☆CloverKlover
+|player|p1|Grimlock238|65|1168
+|player|p2|CloverKlover|clerkf|1195
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tyranitar, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Jellicent, M|
+|poke|p1|Lucario, M|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Quagsire, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Grimlock238)
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|move|p1a: Tyranitar|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|70/100|[from] Sandstorm
+|-heal|p2a: Dragapult|76/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Dragapult|Disable||[still]
+|-fail|p2a: Dragapult
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|70/100|[from] Sandstorm
+|-damage|p1a: Rotom|94/100|[from] Sandstorm
+|-heal|p2a: Dragapult|76/100|[from] item: Leftovers
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|100/100
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|51/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|45/100|[from] Sandstorm
+|-heal|p2a: Dragapult|51/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Dragapult|Infestation|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|96/100
+|-activate|p1a: Tyranitar|move: Infestation|[of] p2a: Dragapult
+|move|p1a: Tyranitar|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|45/100|[from] Sandstorm
+|-heal|p2a: Dragapult|51/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|84/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|move|p2a: Dragapult|Disable|p1a: Tyranitar
+|-start|p1a: Tyranitar|Disable|Crunch
+|cant|p1a: Tyranitar|Disable|Crunch
+|
+|-weather|none
+|-heal|p2a: Dragapult|57/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|71/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Toxapex
+|-damage|p2a: Toxapex|51/100
+|
+|-heal|p2a: Toxapex|57/100|[from] item: Black Sludge
+|-end|p1a: Tyranitar|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|turn|7
+|
+|move|p1a: Tyranitar|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|8
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Ferrothorn|Spikes|p1a: Rotom
+|-sidestart|p1: Grimlock238|Spikes
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Rotom|Will-O-Wisp|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|-damage|p1a: Jellicent|88/100|[from] Spikes
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|
+|-heal|p1a: Jellicent|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Cinderace|Taunt|p1a: Jellicent
+|-start|p1a: Jellicent|move: Taunt
+|move|p1a: Jellicent|Scald|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|26/100
+|
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Cinderace|U-turn|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|89/100
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100|[from]move: U-turn
+|move|p1a: Jellicent|Scald|p2a: Corsola
+|-damage|p2a: Corsola|84/100
+|-start|p1a: Jellicent|Disable|Scald|[from] ability: Cursed Body|[of] p2a: Corsola
+|
+|-heal|p1a: Jellicent|95/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Jellicent|Shadow Ball|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|47/100
+|move|p2a: Corsola|Stealth Rock|p1a: Jellicent
+|-sidestart|p1: Grimlock238|move: Stealth Rock
+|
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|-end|p1a: Jellicent|move: Taunt
+|upkeep
+|turn|14
+|
+|move|p1a: Jellicent|Shadow Ball|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|15/100
+|move|p2a: Corsola|Strength Sap|p1a: Jellicent
+|-unboost|p1a: Jellicent|atk|1
+|-heal|p2a: Corsola|50/100
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Jellicent|Shadow Ball|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-crit|p2a: Corsola
+|-damage|p2a: Corsola|3/100
+|-unboost|p2a: Corsola|spd|1
+|move|p2a: Corsola|Will-O-Wisp|p1a: Jellicent
+|-status|p1a: Jellicent|brn
+|
+|-damage|p1a: Jellicent|94/100 brn|[from] brn
+|-end|p1a: Jellicent|Disable
+|upkeep
+|turn|16
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Jellicent|Shadow Ball|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|81/100
+|
+|-heal|p1a: Jellicent|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|88/100|[from] item: Leftovers
+|-damage|p1a: Jellicent|94/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|-damage|p1a: Rotom|75/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Rotom
+|-start|p1a: Rotom|move: Leech Seed
+|
+|-heal|p1a: Rotom|82/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|-damage|p1a: Rotom|69/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|18
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Rotom|Overheat|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Rotom|75/100|[from] item: Leftovers
+|-damage|p1a: Rotom|63/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|19
+|
+|switch|p1a: Jellicent|Jellicent, M|94/100 brn
+|-damage|p1a: Jellicent|82/100 brn|[from] Stealth Rock
+|-damage|p1a: Jellicent|70/100 brn|[from] Spikes
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|
+|-heal|p1a: Jellicent|76/100 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|70/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p1a: Jellicent|Giga Drain|p2a: Quagsire
+|-supereffective|p2a: Quagsire
+|-damage|p2a: Quagsire|47/100
+|-heal|p1a: Jellicent|96/100 brn|[from] drain|[of] p2a: Quagsire
+|move|p2a: Quagsire|Earthquake|p1a: Jellicent
+|-damage|p1a: Jellicent|65/100 brn
+|
+|-heal|p1a: Jellicent|71/100 brn|[from] item: Leftovers
+|-heal|p2a: Quagsire|53/100|[from] item: Leftovers
+|-damage|p1a: Jellicent|65/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Jellicent|Giga Drain|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|98/100
+|-heal|p1a: Jellicent|66/100 brn|[from] drain|[of] p2a: Ferrothorn
+|
+|-heal|p1a: Jellicent|73/100 brn|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p1a: Jellicent|66/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|88/100|[from] Spikes
+|-damage|p1a: Excadrill|85/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|48/100
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Corsola|Corsola-Galar, F|3/100
+|move|p1a: Excadrill|Rapid Spin|p2a: Corsola
+|-immune|p2a: Corsola
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Excadrill|Earthquake|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-damage|p1a: Excadrill|38/100|[from] item: Life Orb
+|faint|p2a: Corsola
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|57/100
+|turn|25
+|
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|-damage|p1a: Weezing|88/100|[from] Stealth Rock
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|32/100
+|
+|-heal|p2a: Dragapult|38/100|[from] item: Leftovers
+|-heal|p1a: Weezing|94/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|move|p2a: Dragapult|Infestation|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|92/100
+|-activate|p1a: Weezing|move: Infestation|[of] p2a: Dragapult
+|move|p1a: Weezing|Aromatherapy|p1a: Weezing
+|-activate|p1a: Weezing|move: Aromatherapy
+|-curestatus|p1: Jellicent|brn|[msg]
+|
+|-heal|p2a: Dragapult|44/100|[from] item: Leftovers
+|-heal|p1a: Weezing|98/100|[from] item: Black Sludge
+|-damage|p1a: Weezing|86/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|27
+|
+|move|p2a: Dragapult|Hex|p1a: Weezing
+|-damage|p1a: Weezing|49/100
+|move|p1a: Weezing|Strange Steam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|50/100|[from] item: Leftovers
+|-heal|p1a: Weezing|55/100|[from] item: Black Sludge
+|-damage|p1a: Weezing|43/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|28
+|
+|move|p2a: Dragapult|Disable|p1a: Weezing
+|-start|p1a: Weezing|Disable|Strange Steam
+|cant|p1a: Weezing|Disable|Strange Steam
+|
+|-heal|p2a: Dragapult|56/100|[from] item: Leftovers
+|-heal|p1a: Weezing|49/100|[from] item: Black Sludge
+|-damage|p1a: Weezing|36/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|29
+|
+|move|p2a: Dragapult|Hex|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|-heal|p2a: Dragapult|62/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|71/100
+|-damage|p1a: Tyranitar|59/100|[from] Spikes
+|-damage|p1a: Tyranitar|47/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|30
+|
+|switch|p2a: Quagsire|Quagsire, M|53/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-damage|p2a: Quagsire|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Quagsire|31/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p1a: Jellicent|Jellicent, M|66/100
+|-damage|p1a: Jellicent|54/100|[from] Stealth Rock
+|-damage|p1a: Jellicent|42/100|[from] Spikes
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|35/100|[from] Sandstorm
+|-heal|p1a: Jellicent|42/100|[from] item: Leftovers
+|-heal|p2a: Quagsire|87/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Jellicent|Giga Drain|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|97/100
+|-heal|p1a: Jellicent|43/100|[from] drain|[of] p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|37/100|[from] Sandstorm
+|-heal|p1a: Jellicent|43/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Jellicent|Strength Sap|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|atk|1
+|-heal|p1a: Jellicent|99/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|82/100|[from] Sandstorm
+|-heal|p1a: Jellicent|88/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p1a: Excadrill|Excadrill, F|38/100
+|-damage|p1a: Excadrill|26/100|[from] Spikes
+|-damage|p1a: Excadrill|23/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Excadrill
+|-start|p1a: Excadrill|move: Leech Seed
+|
+|-weather|none
+|-damage|p1a: Excadrill|10/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|35
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Excadrill|Earthquake|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-damage|p1a: Excadrill|0 fnt|[from] Leech Seed|[of] p2a: Ferrothorn
+|faint|p1a: Excadrill
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat|63/100
+|-damage|p1a: Rotom|38/100|[from] Stealth Rock
+|turn|36
+|
+|switch|p2a: Quagsire|Quagsire, M|87/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Quagsire|[miss]
+|-miss|p1a: Rotom|p2a: Quagsire
+|
+|-heal|p1a: Rotom|44/100|[from] item: Leftovers
+|-heal|p2a: Quagsire|93/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Quagsire
+|-status|p2a: Quagsire|brn
+|move|p2a: Quagsire|Scald|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|15/100
+|
+|-heal|p1a: Rotom|21/100|[from] item: Leftovers
+|-heal|p2a: Quagsire|99/100 brn|[from] item: Leftovers
+|-damage|p2a: Quagsire|93/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|switch|p1a: Jellicent|Jellicent, M|88/100
+|-damage|p1a: Jellicent|76/100|[from] Spikes
+|-damage|p1a: Jellicent|64/100|[from] Stealth Rock
+|move|p2a: Quagsire|Scald|p1a: Jellicent
+|-heal|p1a: Jellicent|89/100|[from] ability: Water Absorb|[of] p2a: Quagsire
+|
+|-heal|p1a: Jellicent|95/100|[from] item: Leftovers
+|-heal|p2a: Quagsire|99/100 brn|[from] item: Leftovers
+|-damage|p2a: Quagsire|93/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Jellicent|Shadow Ball|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|80/100
+|-unboost|p2a: Ferrothorn|spd|1
+|
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|86/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|-damage|p1a: Lucario|88/100|[from] Spikes
+|-damage|p1a: Lucario|85/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Lucario
+|-start|p1a: Lucario|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|93/100|[from] item: Leftovers
+|-damage|p1a: Lucario|73/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|41
+|
+|switch|p2a: Quagsire|Quagsire, M|93/100 brn
+|move|p1a: Lucario|Dragon Pulse|p2a: Quagsire
+|-damage|p2a: Quagsire|63/100 brn
+|-damage|p1a: Lucario|63/100|[from] item: Life Orb
+|
+|-heal|p2a: Quagsire|69/100 brn|[from] item: Leftovers
+|-damage|p1a: Lucario|50/100|[from] Leech Seed|[of] p2a: Quagsire
+|-heal|p2a: Quagsire|78/100 brn|[silent]
+|-damage|p2a: Quagsire|72/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|47/100
+|-damage|p1a: Tyranitar|34/100|[from] Spikes
+|-damage|p1a: Tyranitar|22/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|100/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Quagsire|94/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|move|p1a: Tyranitar|Earthquake|p2a: Quagsire
+|-damage|p2a: Quagsire|60/100 brn
+|move|p2a: Quagsire|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|5/100
+|-status|p1a: Tyranitar|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Quagsire|66/100 brn|[from] item: Leftovers
+|-damage|p1a: Tyranitar|0 fnt|[from] brn
+|faint|p1a: Tyranitar
+|-damage|p2a: Quagsire|60/100 brn|[from] brn
+|upkeep
+|c|☆Grimlock238|your team is annoying
+|-message|Grimlock238 forfeited.
+|
+|win|CloverKlover
+|l|☆Grimlock238

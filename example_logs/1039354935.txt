@@ -1,0 +1,370 @@
+|ScrapeTime|2020-01-01-22:38:41
+|j|☆Le s3l
+|j|☆GigantimaxIsDumb
+|player|p1|Le s3l|acetrainerf|1116
+|player|p2|GigantimaxIsDumb|fisherman|1084
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Seismitoad, M|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Togekiss, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Toxapex, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Golisopod, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Pelipper, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GigantimaxIsDumb)
+|inactive|Le s3l also wants the timer to be on.
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|move|p1a: Seismitoad|Toxic|p2a: Pelipper
+|-status|p2a: Pelipper|tox
+|move|p2a: Pelipper|Knock Off|p1a: Seismitoad
+|-damage|p1a: Seismitoad|90/100
+|-enditem|p1a: Seismitoad|Leftovers|[from] move: Knock Off|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p1a: Seismitoad|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: GigantimaxIsDumb|move: Stealth Rock
+|move|p2a: Pelipper|U-turn|p1a: Seismitoad
+|-damage|p1a: Seismitoad|83/100
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100|[from]move: U-turn
+|-damage|p2a: Seismitoad|95/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p2a: Seismitoad|Stealth Rock|p1a: Seismitoad
+|-sidestart|p1: Le s3l|move: Stealth Rock
+|move|p1a: Seismitoad|Toxic|p2a: Seismitoad
+|-status|p2a: Seismitoad|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Seismitoad|89/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|33/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|39/100|[from] item: Black Sludge
+|-damage|p2a: Seismitoad|77/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Seismitoad|Earthquake|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|45/100|[from] item: Black Sludge
+|-damage|p2a: Seismitoad|59/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|-damage|p1a: Togekiss|76/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Earthquake|p1a: Togekiss
+|-immune|p1a: Togekiss
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Seismitoad|35/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|move|p2a: Seismitoad|Ice Punch|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|30/100
+|move|p1a: Togekiss|Magical Leaf|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|8
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Togekiss
+|-crit|p1a: Togekiss
+|-damage|p1a: Togekiss|11/100
+|move|p1a: Togekiss|Dazzling Gleam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|4/100
+|
+|-weather|none
+|-heal|p2a: Dragapult|10/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Togekiss
+|-crit|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|-heal|p2a: Dragapult|16/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|-damage|p1a: Mandibuzz|75/100|[from] Stealth Rock
+|turn|10
+|
+|move|p2a: Dragapult|Disable||[still]
+|-fail|p2a: Dragapult
+|move|p1a: Mandibuzz|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-enditem|p2a: Dragapult|Leftovers|[from] move: Knock Off|[of] p1a: Mandibuzz
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Mandibuzz|82/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Pelipper|Pelipper, M|94/100 tox
+|-damage|p2a: Pelipper|70/100 tox|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|11
+|
+|move|p1a: Mandibuzz|Knock Off|p2a: Pelipper
+|-damage|p2a: Pelipper|53/100 tox
+|-enditem|p2a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p1a: Mandibuzz
+|move|p2a: Pelipper|Knock Off|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|78/100
+|-enditem|p1a: Mandibuzz|Leftovers|[from] move: Knock Off|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|47/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|move|p1a: Mandibuzz|Taunt|p2a: Pelipper
+|-start|p2a: Pelipper|move: Taunt
+|move|p2a: Pelipper|Scald|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|45/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|34/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|95/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Pelipper|Scald|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|67/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|16/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Pelipper|Scald|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|69/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|0 fnt|[from] psn
+|faint|p2a: Pelipper
+|upkeep
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|-damage|p2a: Mandibuzz|76/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Mandibuzz|Knock Off|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|69/100
+|-enditem|p2a: Mandibuzz|Leftovers|[from] move: Knock Off|[of] p1a: Mandibuzz
+|move|p2a: Mandibuzz|Toxic|p1a: Mandibuzz
+|-status|p1a: Mandibuzz|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Mandibuzz|63/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 tox
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Mandibuzz|Substitute|p2a: Mandibuzz
+|-start|p2a: Mandibuzz|Substitute
+|-damage|p2a: Mandibuzz|44/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Mandibuzz|88/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|switch|p1a: Seismitoad|Seismitoad, M|83/100
+|-damage|p1a: Seismitoad|77/100|[from] Stealth Rock
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|95/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|move|p2a: Mandibuzz|Toxic|p1a: Seismitoad
+|-status|p1a: Seismitoad|tox
+|move|p1a: Seismitoad|Hydro Pump|p2a: Mandibuzz
+|-crit|p2a: Mandibuzz
+|-end|p2a: Mandibuzz|Substitute
+|
+|-weather|none
+|-damage|p1a: Seismitoad|71/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p2a: Mandibuzz|Substitute|p2a: Mandibuzz
+|-start|p2a: Mandibuzz|Substitute
+|-damage|p2a: Mandibuzz|70/100
+|move|p1a: Seismitoad|Hydro Pump|p2a: Mandibuzz
+|-end|p2a: Mandibuzz|Substitute
+|
+|-damage|p1a: Seismitoad|59/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Seismitoad|Hydro Pump|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|74/100
+|
+|-damage|p1a: Seismitoad|41/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Seismitoad|Hydro Pump|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|73/100
+|
+|-damage|p1a: Seismitoad|16/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Seismitoad|Toxic|p2a: Mandibuzz|[miss]
+|-miss|p1a: Seismitoad|p2a: Mandibuzz
+|
+|-damage|p1a: Seismitoad|0 fnt|[from] psn
+|faint|p1a: Seismitoad
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Dragapult|Thunderbolt|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|23/100
+|move|p2a: Mandibuzz|Toxic|p1a: Dragapult
+|-status|p1a: Dragapult|tox
+|
+|-damage|p1a: Dragapult|82/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|move|p1a: Dragapult|Thunderbolt|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|-damage|p1a: Dragapult|70/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Golisopod|Golisopod, F|100/100
+|-damage|p2a: Golisopod|76/100|[from] Stealth Rock
+|turn|25
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p1a: Conkeldurr|94/100|[from] Stealth Rock
+|move|p2a: Golisopod|Sucker Punch||[still]
+|-fail|p2a: Golisopod
+|
+|upkeep
+|turn|26
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|move|p1a: Conkeldurr|Poison Jab|p2a: Rotom
+|-damage|p2a: Rotom|5/100
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Rotom|Trick|p1a: Conkeldurr
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Conkeldurr
+|-item|p1a: Conkeldurr|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Choice Band|[from] move: Trick
+|move|p1a: Conkeldurr|Poison Jab|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Golisopod|Golisopod, F|76/100
+|-damage|p2a: Golisopod|51/100|[from] Stealth Rock
+|turn|28
+|
+|move|p2a: Golisopod|First Impression|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|65/100
+|-damage|p2a: Golisopod|41/100|[from] item: Life Orb
+|move|p1a: Conkeldurr|Poison Jab|p2a: Golisopod
+|-damage|p2a: Golisopod|17/100
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Conkeldurr|Poison Jab|p2a: Golisopod
+|-damage|p2a: Golisopod|0 fnt
+|faint|p2a: Golisopod
+|
+|win|Le s3l
+|l|☆GigantimaxIsDumb
+|raw|Le s3l's rating: 1116 → 1139(+23 for winning)
+|raw|GigantimaxIsDumb's rating: 1084 → 1064(-20 for losing)

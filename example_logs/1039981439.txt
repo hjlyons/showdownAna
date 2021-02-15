@@ -1,0 +1,469 @@
+|ScrapeTime|2020-01-03-01:24:55
+|j|☆jerms_91
+|j|☆R e q u i e m J
+|player|p1|jerms_91|1|1226
+|player|p2|R e q u i e m J|lucas|1226
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Excadrill, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Kommo-o, F|
+|poke|p1|Aegislash, F|
+|poke|p1|Bisharp, F|
+|poke|p1|Gyarados, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Cinderace, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Grimmsnarl|Taunt|p2a: Mandibuzz
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Mandibuzz
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: jerms_91|Reflect
+|move|p2a: Mandibuzz|Foul Play|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|93/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: jerms_91|move: Light Screen
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Toxapex
+|-start|p2a: Toxapex|move: Taunt
+|cant|p2a: Toxapex|move: Taunt|Toxic
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|90/100
+|-unboost|p2a: Toxapex|spa|1
+|move|p2a: Toxapex|Scald|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|87/100
+|-status|p1a: Grimmsnarl|brn
+|
+|-heal|p2a: Toxapex|96/100|[from] item: Black Sludge
+|-damage|p1a: Grimmsnarl|81/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Aegislash|Aegislash, F, shiny|100/100
+|move|p2a: Toxapex|Scald|p1a: Aegislash
+|-damage|p1a: Aegislash|96/100
+|-status|p1a: Aegislash|brn
+|
+|-heal|p1a: Aegislash|100/100 brn|[from] item: Leftovers
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p1a: Aegislash|94/100 brn|[from] brn
+|-end|p2a: Toxapex|move: Taunt
+|upkeep
+|turn|7
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p1a: Aegislash|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Aegislash|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Aegislash|Substitute|p1a: Aegislash
+|-start|p1a: Aegislash|Substitute
+|-damage|p1a: Aegislash|69/100 brn
+|
+|-heal|p1a: Aegislash|75/100 brn|[from] item: Leftovers
+|-damage|p1a: Aegislash|69/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Mandibuzz|Foul Play|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|-unboost|p2a: Mandibuzz|atk|1
+|
+|-heal|p1a: Aegislash|75/100 brn|[from] item: Leftovers
+|-damage|p1a: Aegislash|69/100 brn|[from] brn
+|-sideend|p1: jerms_91|Reflect
+|upkeep
+|turn|10
+|
+|move|p2a: Mandibuzz|Foul Play|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-end|p1a: Aegislash|Substitute
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|80/100
+|
+|-heal|p2a: Mandibuzz|86/100|[from] item: Leftovers
+|-heal|p1a: Aegislash|75/100 brn|[from] item: Leftovers
+|-damage|p1a: Aegislash|69/100 brn|[from] brn
+|-sideend|p1: jerms_91|move: Light Screen
+|upkeep
+|turn|11
+|
+|-formechange|p1a: Aegislash|Aegislash||[from] ability: Stance Change
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Mandibuzz|Foul Play|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|-unboost|p2a: Mandibuzz|atk|1
+|
+|-heal|p2a: Mandibuzz|92/100|[from] item: Leftovers
+|-heal|p1a: Aegislash|75/100 brn|[from] item: Leftovers
+|-damage|p1a: Aegislash|69/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|switch|p1a: Grimmsnarl|Grimmsnarl, M, shiny|81/100 brn
+|
+|-damage|p1a: Grimmsnarl|75/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Toxapex
+|-start|p2a: Toxapex|move: Taunt
+|move|p2a: Toxapex|Scald|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|55/100 brn
+|
+|-damage|p1a: Grimmsnarl|49/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: jerms_91|move: Light Screen
+|move|p2a: Toxapex|Scald|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|38/100 brn
+|
+|-damage|p1a: Grimmsnarl|32/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: jerms_91|Reflect
+|move|p2a: Toxapex|Scald|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|22/100 brn
+|
+|-damage|p1a: Grimmsnarl|15/100 brn|[from] brn
+|-end|p2a: Toxapex|move: Taunt
+|upkeep
+|turn|16
+|
+|switch|p1a: Aegislash|Aegislash, F, shiny|69/100 brn
+|move|p2a: Toxapex|Scald|p1a: Aegislash
+|-damage|p1a: Aegislash|62/100 brn
+|
+|-heal|p1a: Aegislash|68/100 brn|[from] item: Leftovers
+|-damage|p1a: Aegislash|62/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p1a: Kommo-o|Kommo-o, F, shiny|100/100
+|move|p2a: Toxapex|Baneful Bunker||[still]
+|-fail|p2a: Toxapex
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|67/100
+|-enditem|p1a: Kommo-o|Throat Spray
+|-boost|p1a: Kommo-o|spa|1
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Kommo-o|Clanging Scales|p2a: Toxapex
+|-damage|p2a: Toxapex|58/100
+|-unboost|p1a: Kommo-o|def|1
+|move|p2a: Toxapex|Scald|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|62/100
+|
+|-heal|p2a: Toxapex|64/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|move|p1a: Kommo-o|Clanging Scales|p2a: Toxapex
+|-damage|p2a: Toxapex|26/100
+|-unboost|p1a: Kommo-o|def|1
+|move|p2a: Toxapex|Toxic|p1a: Kommo-o
+|-status|p1a: Kommo-o|tox
+|
+|-heal|p2a: Toxapex|32/100|[from] item: Black Sludge
+|-damage|p1a: Kommo-o|56/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|92/100
+|move|p1a: Kommo-o|Clanging Scales|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|50/100
+|-unboost|p1a: Kommo-o|def|1
+|
+|-heal|p2a: Mandibuzz|56/100|[from] item: Leftovers
+|-damage|p1a: Kommo-o|44/100 tox|[from] psn
+|-sideend|p1: jerms_91|move: Light Screen
+|upkeep
+|turn|22
+|
+|move|p1a: Kommo-o|Clanging Scales|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|19/100
+|-unboost|p1a: Kommo-o|def|1
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|69/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-heal|p2a: Mandibuzz|75/100|[from] item: Leftovers
+|-damage|p1a: Kommo-o|25/100 tox|[from] psn
+|-sideend|p1: jerms_91|Reflect
+|upkeep
+|turn|23
+|
+|switch|p1a: Gyarados|Gyarados, F, shiny|100/100
+|switch|p2a: Toxapex|Toxapex, M|65/100
+|
+|-heal|p2a: Toxapex|72/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Toxapex|Scald|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|92/100
+|
+|-heal|p2a: Toxapex|78/100|[from] item: Black Sludge
+|upkeep
+|turn|25
+|
+|move|p1a: Gyarados|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|15/100
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|21/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|75/100
+|move|p1a: Gyarados|Power Whip|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|63/100
+|
+|-heal|p2a: Mandibuzz|69/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Mandibuzz|Foul Play|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-heal|p2a: Mandibuzz|75/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M, shiny|15/100 brn
+|turn|28
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: jerms_91|Reflect
+|move|p2a: Mandibuzz|Foul Play|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|8/100 brn
+|
+|-heal|p2a: Mandibuzz|81/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|2/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: jerms_91|move: Light Screen
+|move|p2a: Mandibuzz|Substitute|p2a: Mandibuzz
+|-start|p2a: Mandibuzz|Substitute
+|-damage|p2a: Mandibuzz|57/100
+|
+|-heal|p2a: Mandibuzz|63/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|0 fnt|[from] brn
+|faint|p1a: Grimmsnarl
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, F, shiny|25/100 tox
+|turn|30
+|
+|move|p1a: Kommo-o|Clanging Scales|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|23/100
+|-unboost|p1a: Kommo-o|def|1
+|move|p2a: Mandibuzz|Foul Play|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|14/100 tox
+|
+|-heal|p2a: Mandibuzz|30/100|[from] item: Leftovers
+|-damage|p1a: Kommo-o|8/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|switch|p2a: Toxapex|Toxapex, M|54/100
+|move|p1a: Kommo-o|Clanging Scales|p2a: Toxapex
+|-damage|p2a: Toxapex|12/100
+|-unboost|p1a: Kommo-o|def|1
+|
+|-heal|p2a: Toxapex|19/100|[from] item: Black Sludge
+|-damage|p1a: Kommo-o|0 fnt|[from] psn
+|faint|p1a: Kommo-o
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|32
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Excadrill|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: R e q u i e m J|move: Stealth Rock
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Excadrill|Earthquake|p2a: Seismitoad
+|-crit|p2a: Seismitoad
+|-damage|p2a: Seismitoad|16/100
+|move|p2a: Seismitoad|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|49/100
+|
+|-heal|p2a: Seismitoad|22/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Excadrill|Earthquake|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|35
+|
+|move|p2a: Dragapult|Flamethrower|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-sideend|p1: jerms_91|Reflect
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, F, shiny|100/100
+|turn|36
+|
+|move|p2a: Dragapult|Flamethrower|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|31/100
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|
+|-sideend|p1: jerms_91|move: Light Screen
+|upkeep
+|turn|37
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|52/100
+|-damage|p2a: Toxapex|39/100|[from] Stealth Rock
+|turn|38
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|turn|39
+|
+|move|p1a: Bisharp|Iron Head|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|-damage|p2a: Cinderace|76/100|[from] Stealth Rock
+|turn|40
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|30/100
+|-damage|p2a: Mandibuzz|5/100|[from] Stealth Rock
+|turn|41
+|
+|move|p1a: Bisharp|Iron Head|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|win|jerms_91
+|l|☆R e q u i e m J
+|c|☆jerms_91|gg
+|raw|jerms_91's rating: 1204 → 1231(+27 for winning)
+|raw|R e q u i e m J's rating: 1226 → 1200(-26 for losing)

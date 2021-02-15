@@ -1,0 +1,452 @@
+|ScrapeTime|2020-01-01-02:36:46
+|j|☆Globeband
+|j|☆Free Gdarman
+|player|p1|Globeband|giovanni|1142
+|player|p2|Free Gdarman|swimmer-gen4dp|1163
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Gastrodon, F|
+|poke|p1|Umbreon, M|
+|poke|p2|Arctozolt|
+|poke|p2|Dugtrio, M|
+|poke|p2|Galvantula, M|
+|poke|p2|Aegislash, F|
+|poke|p2|Appletun, M|
+|poke|p2|Turtonator, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|switch|p2a: Dugtrio|Dugtrio, M|100/100
+|turn|1
+|c|☆Free Gdarman|Have fun
+|
+|move|p2a: Dugtrio|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: Globeband|move: Stealth Rock
+|move|p1a: Mandibuzz|U-turn|p2a: Dugtrio
+|-crit|p2a: Dugtrio
+|-damage|p2a: Dugtrio|54/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100|[from]move: U-turn
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Galvantula
+|-start|p2a: Galvantula|move: Leech Seed
+|
+|-damage|p2a: Galvantula|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|3
+|
+|move|p2a: Galvantula|Sticky Web|p1a: Ferrothorn
+|-sidestart|p1: Globeband|move: Sticky Web
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Galvantula
+|-resisted|p2a: Galvantula
+|-damage|p2a: Galvantula|42/100
+|
+|-damage|p2a: Galvantula|30/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|4
+|
+|switch|p2a: Turtonator|Turtonator, M|100/100
+|move|p1a: Ferrothorn|Spikes|p2a: Turtonator
+|-sidestart|p2: Free Gdarman|Spikes
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Gastrodon|Gastrodon, F|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|-activate|p1a: Gastrodon|move: Sticky Web
+|-unboost|p1a: Gastrodon|spe|1
+|move|p2a: Turtonator|Shell Smash|p2a: Turtonator
+|-unboost|p2a: Turtonator|def|1
+|-unboost|p2a: Turtonator|spd|1
+|-boost|p2a: Turtonator|atk|2
+|-boost|p2a: Turtonator|spa|2
+|-boost|p2a: Turtonator|spe|2
+|-enditem|p2a: Turtonator|White Herb
+|-clearnegativeboost|p2a: Turtonator|[silent]
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Turtonator|Dragon Pulse|p1a: Gastrodon
+|-damage|p1a: Gastrodon|24/100
+|move|p1a: Gastrodon|Clear Smog|p2a: Turtonator
+|-damage|p2a: Turtonator|85/100
+|-clearboost|p2a: Turtonator
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Turtonator|Dragon Pulse|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-activate|p1a: Toxapex|move: Sticky Web
+|-unboost|p1a: Toxapex|spe|1
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|turn|8
+|
+|move|p2a: Turtonator|Shell Smash|p2a: Turtonator
+|-unboost|p2a: Turtonator|def|1
+|-unboost|p2a: Turtonator|spd|1
+|-boost|p2a: Turtonator|atk|2
+|-boost|p2a: Turtonator|spa|2
+|-boost|p2a: Turtonator|spe|2
+|move|p1a: Toxapex|Scald|p2a: Turtonator
+|-damage|p2a: Turtonator|47/100
+|
+|-heal|p1a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Turtonator|Dragon Pulse|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|move|p2a: Turtonator|Dragon Pulse|p1a: Toxapex
+|-damage|p1a: Toxapex|58/100
+|move|p1a: Toxapex|Scald|p2a: Turtonator
+|-damage|p2a: Turtonator|11/100
+|
+|-heal|p1a: Toxapex|64/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|move|p2a: Turtonator|Dragon Pulse|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|1/100
+|move|p1a: Toxapex|Scald|p2a: Turtonator
+|-damage|p2a: Turtonator|0 fnt
+|faint|p2a: Turtonator
+|
+|-heal|p1a: Toxapex|8/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Bloody Sword|Aegislash, F, shiny|100/100
+|-damage|p2a: Bloody Sword|88/100|[from] Spikes
+|turn|12
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|-activate|p1a: Corsola|move: Sticky Web
+|-unboost|p1a: Corsola|spe|1
+|-damage|p1a: Corsola|88/100|[from] Stealth Rock
+|-formechange|p2a: Bloody Sword|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Bloody Sword|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|23/100
+|-damage|p2a: Bloody Sword|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Bloody Sword|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|-damage|p2a: Bloody Sword|68/100|[from] item: Life Orb
+|faint|p1a: Corsola
+|
+|upkeep
+|
+|switch|p1a: Umbreon|Umbreon, M|100/100
+|-damage|p1a: Umbreon|88/100|[from] Stealth Rock
+|-activate|p1a: Umbreon|move: Sticky Web
+|-unboost|p1a: Umbreon|spe|1
+|turn|14
+|
+|switch|p2a: Appletun|Appletun, M|100/100
+|-damage|p2a: Appletun|88/100|[from] Spikes
+|move|p1a: Umbreon|Foul Play|p2a: Appletun
+|-damage|p2a: Appletun|72/100
+|
+|-heal|p1a: Umbreon|94/100|[from] item: Leftovers
+|-heal|p2a: Appletun|79/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Umbreon|Taunt|p2a: Appletun
+|-start|p2a: Appletun|move: Taunt
+|cant|p2a: Appletun|move: Taunt|Leech Seed
+|
+|-heal|p1a: Umbreon|99/100|[from] item: Leftovers
+|-heal|p2a: Appletun|85/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|-activate|p1a: Ferrothorn|move: Sticky Web
+|-unboost|p1a: Ferrothorn|spe|1
+|switch|p2a: Dugtrio|Dugtrio, M|54/100
+|-damage|p2a: Dugtrio|41/100|[from] Spikes
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|68/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Dugtrio
+|-start|p2a: Dugtrio|move: Leech Seed
+|
+|-damage|p2a: Dugtrio|29/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|76/100|[silent]
+|upkeep
+|turn|18
+|
+|move|p2a: Dugtrio|Memento|p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|atk|2
+|-unboost|p1a: Ferrothorn|spa|2
+|faint|p2a: Dugtrio
+|move|p1a: Ferrothorn|Spikes|p2: Dugtrio
+|-sidestart|p2: Free Gdarman|Spikes
+|
+|upkeep
+|
+|switch|p2a: Arctozolt|Arctozolt|100/100
+|-damage|p2a: Arctozolt|84/100|[from] Spikes
+|turn|19
+|
+|move|p2a: Arctozolt|Low Kick|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|28/100
+|-damage|p2a: Arctozolt|72/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Arctozolt|55/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|-damage|p2a: Arctozolt|45/100|[from] item: Life Orb
+|move|p1a: Ferrothorn|Leech Seed|p2a: Arctozolt
+|-start|p2a: Arctozolt|move: Leech Seed
+|
+|-damage|p2a: Arctozolt|33/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|39/100|[silent]
+|upkeep
+|turn|20
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Arctozolt|Low Kick|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-damage|p2a: Arctozolt|20/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|50/100|[silent]
+|upkeep
+|turn|21
+|
+|move|p2a: Arctozolt|Low Kick|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|6/100
+|-damage|p2a: Arctozolt|8/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Arctozolt|0 fnt|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|faint|p2a: Arctozolt
+|move|p1a: Ferrothorn|Gyro Ball|p2: Arctozolt|[notarget]
+|-fail|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Galvantula|Galvantula, M|30/100
+|-damage|p2a: Galvantula|13/100|[from] Spikes
+|turn|22
+|
+|move|p2a: Galvantula|Bug Buzz|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Galvantula|3/100|[from] item: Life Orb
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|turn|23
+|
+|move|p2a: Galvantula|Thunder|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|-damage|p2a: Galvantula|0 fnt|[from] item: Life Orb
+|faint|p1a: Mandibuzz
+|faint|p2a: Galvantula
+|
+|upkeep
+|
+|switch|p2a: Appletun|Appletun, M|85/100
+|switch|p1a: Umbreon|Umbreon, M|99/100
+|-activate|p1a: Umbreon|move: Sticky Web
+|-unboost|p1a: Umbreon|spe|1
+|-damage|p1a: Umbreon|88/100|[from] Stealth Rock
+|-damage|p2a: Appletun|68/100|[from] Spikes
+|turn|24
+|
+|move|p1a: Umbreon|Taunt|p2a: Appletun
+|-start|p2a: Appletun|move: Taunt
+|cant|p2a: Appletun|move: Taunt|Leech Seed
+|
+|-heal|p1a: Umbreon|94/100|[from] item: Leftovers
+|-heal|p2a: Appletun|74/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Umbreon|Foul Play|p2a: Appletun
+|-damage|p2a: Appletun|59/100
+|move|p2a: Appletun|Apple Acid|p1a: Umbreon
+|-damage|p1a: Umbreon|73/100
+|-unboost|p1a: Umbreon|spd|1
+|
+|-heal|p1a: Umbreon|79/100|[from] item: Leftovers
+|-heal|p2a: Appletun|66/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Umbreon|Foul Play|p2a: Appletun
+|-damage|p2a: Appletun|51/100
+|move|p2a: Appletun|Apple Acid|p1a: Umbreon
+|-damage|p1a: Umbreon|51/100
+|-unboost|p1a: Umbreon|spd|1
+|
+|-heal|p1a: Umbreon|58/100|[from] item: Leftovers
+|-heal|p2a: Appletun|57/100|[from] item: Leftovers
+|-end|p2a: Appletun|move: Taunt
+|upkeep
+|turn|27
+|
+|move|p2a: Appletun|Protect|p2a: Appletun
+|-singleturn|p2a: Appletun|Protect
+|move|p1a: Umbreon|Foul Play|p2a: Appletun
+|-activate|p2a: Appletun|move: Protect
+|
+|-heal|p1a: Umbreon|64/100|[from] item: Leftovers
+|-heal|p2a: Appletun|63/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Umbreon|Taunt|p2a: Appletun
+|-start|p2a: Appletun|move: Taunt
+|cant|p2a: Appletun|move: Taunt|Leech Seed
+|
+|-heal|p1a: Umbreon|70/100|[from] item: Leftovers
+|-heal|p2a: Appletun|69/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Umbreon|Foul Play|p2a: Appletun
+|-damage|p2a: Appletun|55/100
+|move|p2a: Appletun|Apple Acid|p1a: Umbreon
+|-damage|p1a: Umbreon|31/100
+|-unboost|p1a: Umbreon|spd|1
+|
+|-heal|p1a: Umbreon|37/100|[from] item: Leftovers
+|-heal|p2a: Appletun|61/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Umbreon|Moonlight|p1a: Umbreon
+|-heal|p1a: Umbreon|87/100
+|move|p2a: Appletun|Apple Acid|p1a: Umbreon
+|-damage|p1a: Umbreon|33/100
+|-unboost|p1a: Umbreon|spd|1
+|
+|-heal|p1a: Umbreon|39/100|[from] item: Leftovers
+|-heal|p2a: Appletun|67/100|[from] item: Leftovers
+|-end|p2a: Appletun|move: Taunt
+|upkeep
+|turn|31
+|
+|move|p1a: Umbreon|Moonlight|p1a: Umbreon
+|-heal|p1a: Umbreon|89/100
+|move|p2a: Appletun|Apple Acid|p1a: Umbreon
+|-damage|p1a: Umbreon|33/100
+|-unboost|p1a: Umbreon|spd|1
+|
+|-heal|p1a: Umbreon|39/100|[from] item: Leftovers
+|-heal|p2a: Appletun|73/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Umbreon|Moonlight|p1a: Umbreon
+|-heal|p1a: Umbreon|89/100
+|move|p2a: Appletun|Leech Seed|p1a: Umbreon
+|-start|p1a: Umbreon|move: Leech Seed
+|
+|-heal|p1a: Umbreon|95/100|[from] item: Leftovers
+|-heal|p2a: Appletun|79/100|[from] item: Leftovers
+|-damage|p1a: Umbreon|83/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|90/100|[silent]
+|upkeep
+|turn|33
+|
+|switch|p1a: Toxapex|Toxapex, F|41/100
+|-activate|p1a: Toxapex|move: Sticky Web
+|-unboost|p1a: Toxapex|spe|1
+|-damage|p1a: Toxapex|28/100|[from] Stealth Rock
+|move|p2a: Appletun|Apple Acid|p1a: Toxapex
+|-damage|p1a: Toxapex|11/100
+|-unboost|p1a: Toxapex|spd|1
+|
+|-heal|p2a: Appletun|96/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|18/100|[from] item: Black Sludge
+|upkeep
+|turn|34
+|
+|move|p2a: Appletun|Apple Acid|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-heal|p2a: Appletun|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Umbreon|Umbreon, M|83/100
+|-damage|p1a: Umbreon|71/100|[from] Stealth Rock
+|-activate|p1a: Umbreon|move: Sticky Web
+|-unboost|p1a: Umbreon|spe|1
+|turn|35
+|
+|move|p1a: Umbreon|Taunt|p2a: Appletun
+|-start|p2a: Appletun|move: Taunt
+|cant|p2a: Appletun|move: Taunt|Leech Seed
+|
+|-heal|p1a: Umbreon|77/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p1a: Umbreon|Throat Chop|p2a: Appletun
+|-damage|p2a: Appletun|82/100
+|-start|p2a: Appletun|Throat Chop|[silent]
+|move|p2a: Appletun|Apple Acid|p1a: Umbreon
+|-damage|p1a: Umbreon|58/100
+|-unboost|p1a: Umbreon|spd|1
+|
+|-heal|p1a: Umbreon|64/100|[from] item: Leftovers
+|-heal|p2a: Appletun|88/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|-message|Globeband forfeited.
+|
+|win|Free Gdarman
+|l|☆Globeband
+|raw|Globeband's rating: 1168 → 1142(-26 for losing)
+|raw|Free Gdarman's rating: 1163 → 1188(+25 for winning)

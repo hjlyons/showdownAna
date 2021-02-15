@@ -1,0 +1,480 @@
+|ScrapeTime|2020-01-02-00:45:28
+|j|☆Barbar3d
+|j|☆AKB17
+|player|p1|Barbar3d|pokefanf-gen4|1095
+|player|p2|AKB17|sabrina|1135
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Indeedee, M|
+|poke|p1|Obstagoon, F|
+|poke|p1|Hawlucha, F|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Seismitoad, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Aegislash, M|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Mimikyu, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AKB17)
+|
+|move|p1a: Indeedee|Mystical Fire|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|46/100
+|-unboost|p2a: Aegislash|spa|1
+|move|p2a: Aegislash|Substitute|p2a: Aegislash
+|-start|p2a: Aegislash|Substitute
+|-damage|p2a: Aegislash|21/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Indeedee|Mystical Fire|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-end|p2a: Aegislash|Substitute
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Sacred Sword|p1a: Indeedee
+|-damage|p1a: Indeedee|8/100
+|-damage|p2a: Aegislash|11/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Indeedee|Mystical Fire|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|91/100
+|-unboost|p2a: Tyranitar|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Indeedee|2/100|[from] Sandstorm
+|upkeep
+|turn|4
+|inactive|Barbar3d has 120 seconds left.
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|94/100|[from] Sandstorm
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|94/100|[from] Sandstorm
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|move|p1a: Corsola|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Knock Off|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|83/100
+|-enditem|p1a: Corsola|Eviolite|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|77/100|[from] Sandstorm
+|-damage|p2a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Corsola|Strength Sap|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|atk|1
+|-heal|p1a: Corsola|100/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|93/100
+|-start|p2a: Ferrothorn|Disable|Knock Off|[from] ability: Cursed Body|[of] p1a: Corsola
+|
+|-weather|none
+|-heal|p2a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Corsola|Stealth Rock|p2a: Dragapult
+|-sidestart|p2: AKB17|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Obstagoon|Obstagoon, F|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Obstagoon
+|-immune|p1a: Obstagoon
+|
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|10
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|94/100 brn
+|-damage|p2a: Conkeldurr|88/100 brn|[from] Stealth Rock
+|move|p1a: Obstagoon|Knock Off|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|65/100 brn
+|-enditem|p2a: Conkeldurr|Flame Orb|[from] move: Knock Off|[of] p1a: Obstagoon
+|
+|-damage|p1a: Obstagoon|94/100 brn|[from] brn
+|-damage|p2a: Conkeldurr|59/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p1a: Corsola|Corsola-Galar, F|93/100
+|move|p2a: Conkeldurr|Mach Punch|p1a: Corsola
+|-immune|p1a: Corsola
+|
+|-damage|p2a: Conkeldurr|53/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Conkeldurr|Defog|p1a: Corsola
+|-unboost|p1a: Corsola|evasion|1
+|-sideend|p2: AKB17|Stealth Rock|[from] move: Defog|[of] p2a: Conkeldurr
+|move|p1a: Corsola|Strength Sap|p2a: Conkeldurr
+|-unboost|p2a: Conkeldurr|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|-damage|p2a: Conkeldurr|47/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p2a: Aegislash|Aegislash, M|11/100
+|move|p1a: Corsola|Stealth Rock|p2a: Aegislash
+|-sidestart|p2: AKB17|move: Stealth Rock
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Obstagoon|Obstagoon, F|94/100 brn
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Obstagoon
+|-immune|p1a: Obstagoon
+|
+|-damage|p1a: Obstagoon|88/100 brn|[from] brn
+|upkeep
+|turn|15
+|inactive|Barbar3d has 120 seconds left.
+|
+|move|p1a: Obstagoon|Knock Off|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|-enditem|p2a: Aegislash|Life Orb|[from] move: Knock Off|[of] p1a: Obstagoon
+|faint|p2a: Aegislash
+|
+|-damage|p1a: Obstagoon|82/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Mimikyu|Mimikyu, F|100/100
+|-damage|p2a: Mimikyu|88/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Mimikyu|Play Rough|p1a: Obstagoon|[miss]
+|-miss|p2a: Mimikyu|p1a: Obstagoon
+|move|p1a: Obstagoon|Knock Off|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|88/100
+|-enditem|p2a: Mimikyu|Leftovers|[from] move: Knock Off|[of] p1a: Obstagoon
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F
+|-damage|p2a: Mimikyu|76/100|[from] ability: Disguise|[of] p2a: Mimikyu
+|
+|-damage|p1a: Obstagoon|76/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Mimikyu|Taunt|p1a: Obstagoon
+|-start|p1a: Obstagoon|move: Taunt
+|cant|p1a: Obstagoon|move: Taunt|Parting Shot
+|
+|-damage|p1a: Obstagoon|70/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p2a: Mimikyu|Play Rough|p1a: Obstagoon
+|-supereffective|p1a: Obstagoon
+|-damage|p1a: Obstagoon|0 fnt
+|faint|p1a: Obstagoon
+|
+|upkeep
+|inactive|Barbar3d has 120 seconds left.
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|19
+|inactive|Barbar3d has 120 seconds left.
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Barbar3d|move: Light Screen
+|move|p2a: Mimikyu|Play Rough|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|25/100
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Mimikyu|Drain Punch|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|3/100
+|-heal|p2a: Mimikyu|94/100|[from] drain|[of] p1a: Grimmsnarl
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Mimikyu
+|-damage|p2a: Mimikyu|44/100
+|-unboost|p2a: Mimikyu|spa|1
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Barbar3d|Reflect
+|move|p2a: Mimikyu|Drain Punch|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|-heal|p2a: Mimikyu|46/100|[from] drain|[of] p1a: Grimmsnarl
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Indeedee|Indeedee, M|2/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|22
+|
+|move|p2a: Mimikyu|Taunt|p1a: Indeedee
+|-start|p1a: Indeedee|move: Taunt
+|move|p1a: Indeedee|Dazzling Gleam|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|91/100
+|-damage|p2a: Tyranitar|79/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|23
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|switch|p2a: Conkeldurr|Conkeldurr, F|47/100 brn
+|-damage|p2a: Conkeldurr|41/100 brn|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|35/100 brn|[from] Sandstorm
+|-damage|p2a: Conkeldurr|29/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|95/100 brn
+|-damage|p2a: Ferrothorn|89/100 brn|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|94/100|[from] Sandstorm
+|-heal|p2a: Ferrothorn|95/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|89/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p1a: Hawlucha|Psychic Seed
+|-boost|p1a: Hawlucha|spd|1
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Hawlucha
+|-sidestart|p1: Barbar3d|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hawlucha|94/100|[from] Sandstorm
+|-heal|p2a: Ferrothorn|95/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|89/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p1a: Hawlucha|Close Combat|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|2/100 brn
+|-damage|p1a: Hawlucha|82/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|move|p2a: Ferrothorn|Leech Seed|p1a: Hawlucha
+|-start|p1a: Hawlucha|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hawlucha|76/100|[from] Sandstorm
+|-heal|p2a: Ferrothorn|8/100 brn|[from] item: Leftovers
+|-damage|p1a: Hawlucha|64/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|19/100 brn|[silent]
+|-damage|p2a: Ferrothorn|13/100 brn|[from] brn
+|-sideend|p1: Barbar3d|move: Light Screen
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|27
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|29/100 brn
+|-damage|p2a: Conkeldurr|23/100 brn|[from] Stealth Rock
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|
+|-weather|none
+|-damage|p1a: Hawlucha|51/100|[from] Leech Seed|[of] p2a: Conkeldurr
+|-heal|p2a: Conkeldurr|32/100 brn|[silent]
+|-damage|p2a: Conkeldurr|26/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|31/100
+|move|p1a: Hawlucha|Close Combat|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|faint|p2a: Conkeldurr
+|
+|-sideend|p1: Barbar3d|Reflect
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|13/100 brn
+|-damage|p2a: Ferrothorn|7/100 brn|[from] Stealth Rock
+|turn|29
+|
+|move|p1a: Hawlucha|Close Combat|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Hawlucha|18/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|79/100
+|-damage|p2a: Tyranitar|66/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|30
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|27/100
+|move|p2a: Tyranitar|Crunch|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, F|94/100
+|-damage|p1a: Corsola|82/100|[from] Stealth Rock
+|turn|31
+|
+|move|p2a: Tyranitar|Crunch|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|17/100
+|-unboost|p1a: Corsola|def|1
+|move|p1a: Corsola|Strength Sap|p2a: Tyranitar
+|-unboost|p2a: Tyranitar|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|94/100|[from] Sandstorm
+|upkeep
+|turn|32
+|
+|move|p2a: Tyranitar|Thunder Wave|p1a: Corsola
+|-status|p1a: Corsola|par
+|cant|p1a: Corsola|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|88/100 par|[from] Sandstorm
+|upkeep
+|turn|33
+|
+|move|p2a: Tyranitar|Crunch|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|23/100 par
+|-unboost|p1a: Corsola|def|1
+|move|p1a: Corsola|Strength Sap|p2a: Tyranitar
+|-unboost|p2a: Tyranitar|atk|1
+|-heal|p1a: Corsola|100/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|94/100 par|[from] Sandstorm
+|upkeep
+|turn|34
+|
+|move|p2a: Tyranitar|Crunch|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|31/100 par
+|cant|p1a: Corsola|par
+|
+|-weather|none
+|upkeep
+|turn|35
+|
+|move|p2a: Tyranitar|Crunch|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|-damage|p1a: Seismitoad|94/100|[from] Stealth Rock
+|turn|36
+|
+|move|p1a: Seismitoad|Scald|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|37
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Seismitoad
+|-damage|p1a: Seismitoad|44/100
+|move|p1a: Seismitoad|Toxic|p2a: Dragapult
+|-status|p2a: Dragapult|tox
+|
+|-heal|p1a: Seismitoad|50/100|[from] item: Leftovers
+|-damage|p2a: Dragapult|82/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-damage|p2a: Dragapult|70/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Indeedee|Indeedee, M|2/100
+|-damage|p1a: Indeedee|0 fnt|[from] Stealth Rock
+|faint|p1a: Indeedee
+|
+|win|AKB17
+|c|☆Barbar3d|gg
+|raw|Barbar3d's rating: 1095 → 1072(-23 for losing)
+|raw|AKB17's rating: 1108 → 1132(+24 for winning)
+|c|☆AKB17|Gg
+|l|☆AKB17

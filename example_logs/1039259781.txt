@@ -1,0 +1,293 @@
+|ScrapeTime|2020-01-01-19:25:17
+|j|☆beeoi
+|j|☆Cuppop
+|player|p1|beeoi|artist|1810
+|player|p2|Cuppop|101|1814
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Shuckle, F|
+|poke|p1|Obstagoon, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Mimikyu, M|
+|poke|p1|Cloyster, M|
+|poke|p1|Toxtricity, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Dracovish|
+|poke|p2|Barraskewda, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Mantine, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| gabros2002
+|j| Stall is coming
+|j| It's a bad kitty
+|
+|start
+|switch|p1a: FEBuilder Debugger|Shuckle, F|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|j| CherylBush
+|
+|move|p2a: Excadrill|Iron Head|p1a: FEBuilder Debugger
+|-supereffective|p1a: FEBuilder Debugger
+|-damage|p1a: FEBuilder Debugger|51/100
+|move|p1a: FEBuilder Debugger|Sticky Web|p2a: Excadrill
+|-sidestart|p2: Cuppop|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|move|p1a: FEBuilder Debugger|Encore|p2a: Excadrill
+|-start|p2a: Excadrill|Encore
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|move|p1a: FEBuilder Debugger|Final Gambit|p2a: Excadrill
+|-damage|p2a: Excadrill|66/100
+|faint|p1a: FEBuilder Debugger
+|
+|upkeep
+|
+|switch|p1a: Fix Body Press|Obstagoon, M|100/100
+|turn|4
+|j| amimec
+|j| Power-and-Finesse
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Fix Body Press|Close Combat|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|88/100
+|-unboost|p1a: Fix Body Press|def|1
+|-unboost|p1a: Fix Body Press|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Fix Body Press|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|switch|p1a: BBC Label Punk|Toxtricity, M|100/100
+|move|p2a: Pelipper|U-turn|p1a: BBC Label Punk
+|-resisted|p1a: BBC Label Punk
+|-crit|p1a: BBC Label Punk
+|-damage|p1a: BBC Label Punk|91/100
+|
+|switch|p2a: Excadrill|Excadrill, F|66/100|[from]move: U-turn
+|-activate|p2a: Excadrill|move: Sticky Web
+|-unboost|p2a: Excadrill|spe|1
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p1a: BBC Label Punk|Boomburst|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-crit|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, F|100/100
+|-activate|p2a: Barraskewda|move: Sticky Web
+|-unboost|p2a: Barraskewda|spe|1
+|turn|7
+|
+|switch|p1a: Old Gimmick|Cloyster, M|100/100
+|move|p2a: Barraskewda|Liquidation|p1a: Old Gimmick
+|-resisted|p1a: Old Gimmick
+|-damage|p1a: Old Gimmick|55/100
+|-unboost|p1a: Old Gimmick|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|j| The Datlatiass
+|
+|move|p2a: Barraskewda|Liquidation|p1a: Old Gimmick
+|-resisted|p1a: Old Gimmick
+|-crit|p1a: Old Gimmick
+|-damage|p1a: Old Gimmick|0 fnt
+|faint|p1a: Old Gimmick
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|j| pokemon shonen
+|
+|switch|p1a: Star of Violence|Mimikyu, M|100/100
+|turn|9
+|j| Zigurat420
+|
+|move|p2a: Barraskewda|Liquidation|p1a: Star of Violence
+|-activate|p1a: Star of Violence|ability: Disguise
+|-damage|p1a: Star of Violence|100/100
+|detailschange|p1a: Star of Violence|Mimikyu-Busted, M
+|-damage|p1a: Star of Violence|88/100|[from] ability: Disguise|[of] p1a: Star of Violence
+|move|p1a: Star of Violence|Shadow Claw|p2a: Barraskewda
+|-damage|p2a: Barraskewda|32/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|j| IndigoKoala
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-activate|p2a: Ferrothorn|move: Sticky Web
+|-unboost|p2a: Ferrothorn|spe|1
+|move|p1a: Star of Violence|Shadow Sneak|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|89/100
+|-damage|p1a: Star of Violence|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|j| SendWholesomeMemes
+|
+|switch|p1a: Fix Body Press|Obstagoon, M|100/100 brn
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Fix Body Press
+|-damage|p1a: Fix Body Press|53/100 brn
+|
+|-weather|none
+|-damage|p1a: Fix Body Press|47/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Pelipper|Pelipper, M|88/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Fix Body Press|Fire Punch|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|82/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Fix Body Press|41/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Fix Body Press|Facade|p2a: Pelipper
+|-damage|p2a: Pelipper|14/100
+|move|p2a: Pelipper|U-turn|p1a: Fix Body Press
+|-supereffective|p1a: Fix Body Press
+|-damage|p1a: Fix Body Press|25/100 brn
+|
+|switch|p2a: Mantine|Mantine, F|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Fix Body Press|19/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Mantine|Hurricane|p1a: Fix Body Press
+|-damage|p1a: Fix Body Press|0 fnt
+|-damage|p2a: Mantine|91/100|[from] item: Life Orb
+|faint|p1a: Fix Body Press
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: BBC Label Punk|Toxtricity, M|91/100
+|turn|15
+|
+|move|p2a: Mantine|Surf|p1a: BBC Label Punk
+|-damage|p1a: BBC Label Punk|0 fnt
+|-damage|p2a: Mantine|81/100|[from] item: Life Orb
+|faint|p1a: BBC Label Punk
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Christmas Future|Dragapult, F|100/100
+|turn|16
+|
+|move|p2a: Mantine|Hurricane|p1a: Christmas Future
+|-damage|p1a: Christmas Future|15/100
+|-start|p1a: Christmas Future|confusion
+|-damage|p2a: Mantine|71/100|[from] item: Life Orb
+|-activate|p1a: Christmas Future|confusion
+|move|p1a: Christmas Future|Dragon Dance|p1a: Christmas Future
+|-boost|p1a: Christmas Future|atk|1
+|-boost|p1a: Christmas Future|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|-activate|p2a: Dracovish|move: Sticky Web
+|-unboost|p2a: Dracovish|spe|1
+|-activate|p1a: Christmas Future|confusion
+|move|p1a: Christmas Future|Dragon Darts|p2a: Dracovish
+|-supereffective|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|-hitcount|p2a: Dracovish|1
+|-damage|p1a: Christmas Future|6/100|[from] item: Life Orb
+|faint|p2a: Dracovish
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|89/100
+|-activate|p2a: Ferrothorn|move: Sticky Web
+|-unboost|p2a: Ferrothorn|spe|1
+|turn|18
+|
+|-activate|p1a: Christmas Future|confusion
+|move|p1a: Christmas Future|Phantom Force||[still]
+|-prepare|p1a: Christmas Future|Phantom Force|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Christmas Future
+|-sidestart|p1: beeoi|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|-activate|p1a: Christmas Future|confusion
+|move|p1a: Christmas Future|Phantom Force|p2a: Ferrothorn|[from]lockedmove
+|-damage|p2a: Ferrothorn|37/100
+|-damage|p1a: Christmas Future|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Sitrus Berry|[eat]
+|-heal|p2a: Ferrothorn|62/100|[from] item: Sitrus Berry
+|faint|p1a: Christmas Future
+|move|p2a: Ferrothorn|Knock Off|p1: Christmas Future|[notarget]
+|-fail|p2a: Ferrothorn
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Star of Violence|Mimikyu-Busted, M|76/100
+|-damage|p1a: Star of Violence|63/100|[from] Stealth Rock
+|turn|20
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cuppop)
+|
+|move|p1a: Star of Violence|Swords Dance|p1a: Star of Violence
+|-boost|p1a: Star of Violence|atk|2
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Star of Violence
+|-supereffective|p1a: Star of Violence
+|-damage|p1a: Star of Violence|0 fnt
+|faint|p1a: Star of Violence
+|
+|win|Cuppop
+|l|☆beeoi
+|l| gabros2002
+|l| amimec
+|raw|beeoi's rating: 1788 → 1770(-18 for losing)
+|raw|Cuppop's rating: 1815 → 1833(+18 for winning)

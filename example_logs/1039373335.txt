@@ -1,0 +1,313 @@
+|ScrapeTime|2020-01-01-23:16:24
+|j|☆Ben10tails
+|j|☆Agedak
+|player|p1|Ben10tails|youngster|1103
+|player|p2|Agedak|lucas|1074
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Vanilluxe, M|
+|poke|p1|Hawlucha, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Toxicroak, M|
+|poke|p1|Coalossal, F|
+|poke|p2|Coalossal, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Gardevoir, M|
+|poke|p2|Gastrodon, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Toxtricity, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|switch|p2a: Coalossal|Coalossal, M, shiny|100/100
+|turn|1
+|
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Weezing
+|move|p2a: Coalossal|Stealth Rock|p1a: Weezing
+|-sidestart|p1: Ben10tails|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-ability|p2a: Gardevoir|Misty Surge|[from] ability: Trace|[of] p1a: Weezing
+|move|p1a: Weezing|Defog|p2a: Gardevoir
+|-unboost|p2a: Gardevoir|evasion|1
+|-sideend|p1: Ben10tails|Stealth Rock|[from] move: Defog|[of] p1a: Weezing
+|-fieldend|Misty Terrain
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|move|p2a: Gardevoir|Mystical Fire|p1a: Toxicroak
+|-damage|p1a: Toxicroak|58/100
+|-unboost|p1a: Toxicroak|spa|1
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Toxicroak|Fake Out|p2a: Gardevoir
+|-damage|p2a: Gardevoir|82/100
+|-damage|p1a: Toxicroak|48/100|[from] item: Life Orb
+|cant|p2a: Gardevoir|flinch
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Coalossal|Coalossal, F|100/100
+|move|p2a: Gardevoir|Psychic|p1a: Coalossal
+|-damage|p1a: Coalossal|61/100
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Gardevoir|Focus Blast|p1a: Coalossal
+|-supereffective|p1a: Coalossal
+|-damage|p1a: Coalossal|0 fnt
+|faint|p1a: Coalossal
+|
+|upkeep
+|
+|switch|p1a: Reeves|Excadrill, F|100/100
+|-ability|p1a: Reeves|Mold Breaker
+|-item|p1a: Reeves|Air Balloon
+|turn|7
+|
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|move|p1a: Reeves|Iron Head|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|85/100
+|
+|-heal|p2a: Corviknight|91/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Reeves|Swords Dance|p1a: Reeves
+|-boost|p1a: Reeves|atk|2
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|97/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Reeves|Swords Dance|p1a: Reeves
+|-boost|p1a: Reeves|atk|2
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Reeves|Iron Head|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|76/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|82/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Reeves|Swords Dance|p1a: Reeves
+|-boost|p1a: Reeves|atk|2
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Reeves|Iron Head|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|64/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|70/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Reeves|Iron Head|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|50/100
+|cant|p2a: Corviknight|flinch
+|
+|-heal|p2a: Corviknight|57/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Reeves|Iron Head|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|38/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|44/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Reeves|Iron Head|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|28/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|78/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|84/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Reeves|Iron Head|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|66/100
+|move|p2a: Corviknight|Brave Bird|p1a: Reeves
+|-resisted|p1a: Reeves
+|-damage|p1a: Reeves|0 fnt
+|-enditem|p1a: Reeves|Air Balloon
+|-damage|p2a: Corviknight|36/100|[from] Recoil
+|faint|p1a: Reeves
+|
+|-heal|p2a: Corviknight|42/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Weezing
+|turn|17
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|-damage|p2a: Corviknight|16/100|[from] Recoil
+|faint|p1a: Weezing
+|
+|-heal|p2a: Corviknight|22/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Simon|Vanilluxe, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Simon
+|turn|18
+|
+|move|p1a: Simon|Blizzard|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-weather|Hail|[upkeep]
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|19
+|
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p1a: Hawlucha|Misty Seed
+|-boost|p1a: Hawlucha|spd|1
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Hawlucha
+|-status|p1a: Hawlucha|par
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Hawlucha|94/100 par|[from] Hail
+|-damage|p2a: Grimmsnarl|94/100|[from] Hail
+|upkeep
+|turn|20
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|38/100
+|-enditem|p2a: Grimmsnarl|Sitrus Berry|[eat]
+|-heal|p2a: Grimmsnarl|63/100|[from] item: Sitrus Berry
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|14/100 par
+|-unboost|p1a: Hawlucha|spa|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Hawlucha|8/100 par|[from] Hail
+|-damage|p2a: Grimmsnarl|57/100|[from] Hail
+|upkeep
+|turn|21
+|
+|move|p1a: Hawlucha|Drain Punch|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|16/100
+|-heal|p1a: Hawlucha|35/100 par|[from] drain|[of] p2a: Grimmsnarl
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Grimmsnarl|10/100|[from] Hail
+|-fieldend|Misty Terrain
+|upkeep
+|
+|switch|p1a: Toxicroak|Toxicroak, M|48/100
+|turn|22
+|
+|move|p1a: Toxicroak|Fake Out|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-damage|p1a: Toxicroak|38/100|[from] item: Life Orb
+|faint|p2a: Grimmsnarl
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Gardevoir|Gardevoir, M|82/100
+|-ability|p2a: Gardevoir|Dry Skin|[from] ability: Trace|[of] p1a: Toxicroak
+|turn|23
+|
+|move|p2a: Gardevoir|Psychic|p1a: Toxicroak
+|-supereffective|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|faint|p1a: Toxicroak
+|
+|upkeep
+|
+|switch|p1a: Simon|Vanilluxe, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Simon
+|turn|24
+|
+|move|p1a: Simon|Freeze-Dry|p2a: Gardevoir
+|-damage|p2a: Gardevoir|46/100
+|move|p2a: Gardevoir|Mystical Fire|p1a: Simon
+|-supereffective|p1a: Simon
+|-damage|p1a: Simon|40/100
+|-unboost|p1a: Simon|spa|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Gardevoir|40/100|[from] Hail
+|upkeep
+|turn|25
+|
+|move|p1a: Simon|Freeze-Dry|p2a: Gardevoir
+|-damage|p2a: Gardevoir|14/100
+|-enditem|p2a: Gardevoir|Wiki Berry|[eat]
+|-heal|p2a: Gardevoir|47/100|[from] item: Wiki Berry
+|move|p2a: Gardevoir|Mystical Fire|p1a: Simon
+|-supereffective|p1a: Simon
+|-damage|p1a: Simon|0 fnt
+|faint|p1a: Simon
+|
+|win|Agedak
+|l|☆Ben10tails
+|raw|Ben10tails's rating: 1128 → 1099(-29 for losing)
+|raw|Agedak's rating: 1074 → 1107(+33 for winning)

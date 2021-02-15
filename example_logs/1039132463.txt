@@ -1,0 +1,294 @@
+|ScrapeTime|2020-01-01-13:56:34
+|j|☆che420pls
+|j|☆Blackhydra99
+|player|p1|che420pls|acetrainercouple|1122
+|player|p2|Blackhydra99|101|1153
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Diggersby, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Jellicent, M|
+|poke|p1|Rotom-Heat|
+|poke|p2|Toxtricity, M|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Lucario, M|
+|poke|p2|Alcremie, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Toxapex, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by che420pls)
+|
+|start
+|switch|p1a: Rabbit Soup|Diggersby, M|100/100
+|switch|p2a: Lucario|Lucario, M|100/100
+|turn|1
+|
+|switch|p1a: Scrotom|Rotom-Heat|100/100
+|move|p2a: Lucario|Earthquake|p1a: Scrotom
+|-immune|p1a: Scrotom|[from] ability: Levitate
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Scrotom|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|67/100
+|
+|switch|p1a: Rabbit Soup|Diggersby, M|100/100|[from]move: Volt Switch
+|
+|-heal|p2a: Toxapex|73/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Toxapex|Protect|p2a: Toxapex
+|-singleturn|p2a: Toxapex|Protect
+|move|p1a: Rabbit Soup|Earthquake|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|79/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|move|p1a: Rabbit Soup|Earthquake|p2a: Corsola
+|-damage|p2a: Corsola|32/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Rabbit Soup|Earthquake|p2a: Corsola
+|-crit|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|
+|upkeep
+|
+|switch|p2a: Lucario|Lucario, M|100/100
+|turn|6
+|
+|switch|p1a: Bigote|Jellicent, M|100/100
+|move|p2a: Lucario|Swords Dance|p2a: Lucario
+|-boost|p2a: Lucario|atk|2
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Lucario|Meteor Mash|p1a: Bigote
+|-resisted|p1a: Bigote
+|-damage|p1a: Bigote|51/100
+|-boost|p2a: Lucario|atk|1
+|-damage|p2a: Lucario|91/100|[from] item: Life Orb
+|move|p1a: Bigote|Will-O-Wisp|p2a: Lucario|[miss]
+|-miss|p1a: Bigote|p2a: Lucario
+|
+|-heal|p1a: Bigote|57/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Blackhydra99 has 120 seconds left.
+|
+|move|p2a: Lucario|Meteor Mash|p1a: Bigote
+|-resisted|p1a: Bigote
+|-damage|p1a: Bigote|0 fnt
+|-damage|p2a: Lucario|81/100|[from] item: Life Orb
+|faint|p1a: Bigote
+|
+|upkeep
+|
+|switch|p1a: Org|Dragapult, M|100/100
+|turn|9
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Org|Phantom Force||[still]
+|-prepare|p1a: Org|Phantom Force|p2a: Toxapex
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Toxapex|Protect|p2a: Toxapex
+|-singleturn|p2a: Toxapex|Protect
+|move|p1a: Org|Phantom Force|p2a: Toxapex|[from]lockedmove
+|-activate|p2a: Toxapex|move: Phantom Force|[broken]
+|-damage|p2a: Toxapex|64/100
+|
+|-heal|p2a: Toxapex|70/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: True Jackson VP|Hatterene, F|100/100
+|move|p2a: Toxapex|Toxic|p1a: True Jackson VP
+|move|p1a: True Jackson VP|Toxic|p2a: Toxapex|[from]Magic Bounce|[miss]
+|-miss|p1a: True Jackson VP|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|76/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Toxapex|Scald|p1a: True Jackson VP
+|-damage|p1a: True Jackson VP|84/100
+|move|p1a: True Jackson VP|Trick Room|p1a: True Jackson VP
+|-fieldstart|move: Trick Room|[of] p1a: True Jackson VP
+|
+|-heal|p1a: True Jackson VP|90/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|83/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: True Jackson VP|Psychic|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|13/100
+|move|p2a: Toxapex|Scald|p1a: True Jackson VP
+|-crit|p1a: True Jackson VP
+|-damage|p1a: True Jackson VP|64/100
+|
+|-heal|p1a: True Jackson VP|70/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|19/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|l|☆che420pls
+|inactive|che420pls disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆che420pls
+|inactive|che420pls reconnected and has 130 seconds left.
+|player|p1|che420pls|acetrainercouple
+|inactive|che420pls has 120 seconds left.
+|
+|move|p2a: Toxapex|Protect|p2a: Toxapex
+|-singleturn|p2a: Toxapex|Protect
+|move|p1a: True Jackson VP|Psychic|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p1a: True Jackson VP|76/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|25/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Lucario|Lucario, M|81/100
+|move|p1a: True Jackson VP|Psychic|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|-heal|p1a: True Jackson VP|82/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Alcremie|Alcremie, F, shiny|100/100
+|turn|16
+|
+|move|p1a: True Jackson VP|Psychic|p2a: Alcremie
+|-damage|p2a: Alcremie|54/100
+|move|p2a: Alcremie|Dazzling Gleam|p1a: True Jackson VP
+|-damage|p1a: True Jackson VP|43/100
+|
+|-heal|p1a: True Jackson VP|49/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|17
+|
+|switch|p1a: Rabbit Soup|Diggersby, M|100/100
+|move|p2a: Alcremie|Dazzling Gleam|p1a: Rabbit Soup
+|-damage|p1a: Rabbit Soup|42/100
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Rabbit Soup|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|turn|19
+|
+|switch|p1a: Tyra Banks|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyra Banks
+|move|p2a: Toxtricity|Boomburst|p1a: Tyra Banks
+|-resisted|p1a: Tyra Banks
+|-damage|p1a: Tyra Banks|87/100
+|-damage|p2a: Toxtricity|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxtricity|84/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|move|p2a: Toxtricity|Volt Switch|p1a: Tyra Banks
+|-damage|p1a: Tyra Banks|70/100
+|-damage|p2a: Toxtricity|74/100|[from] item: Life Orb
+|
+|switch|p2a: Alcremie|Alcremie, F, shiny|54/100|[from]move: Volt Switch
+|move|p1a: Tyra Banks|Earthquake|p2a: Alcremie
+|-crit|p2a: Alcremie
+|-damage|p2a: Alcremie|0 fnt
+|faint|p2a: Alcremie
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|59/100
+|turn|21
+|
+|switch|p1a: True Jackson VP|Hatterene, F|49/100
+|move|p2a: Toxapex|Scald|p1a: True Jackson VP
+|-damage|p1a: True Jackson VP|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|52/100|[from] Sandstorm
+|-damage|p1a: True Jackson VP|23/100|[from] Sandstorm
+|-heal|p2a: Toxapex|59/100|[from] item: Leftovers
+|-heal|p1a: True Jackson VP|29/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Toxapex|Scald|p1a: True Jackson VP
+|-damage|p1a: True Jackson VP|13/100
+|move|p1a: True Jackson VP|Psychic|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: True Jackson VP|7/100|[from] Sandstorm
+|-heal|p1a: True Jackson VP|13/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, M|74/100
+|turn|23
+|
+|switch|p1a: Tyra Banks|Tyranitar, F|70/100
+|move|p2a: Toxtricity|Overdrive|p1a: Tyra Banks
+|-damage|p1a: Tyra Banks|46/100
+|-damage|p2a: Toxtricity|64/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|24
+|
+|move|p2a: Toxtricity|Overdrive|p1a: Tyra Banks
+|-damage|p1a: Tyra Banks|12/100
+|-damage|p2a: Toxtricity|54/100|[from] item: Life Orb
+|move|p1a: Tyra Banks|Earthquake|p2a: Toxtricity
+|-supereffective|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|win|che420pls
+|c|☆che420pls|Gg
+|raw|che420pls's rating: 1122 → 1149(+27 for winning)
+|raw|Blackhydra99's rating: 1153 → 1126(-27 for losing)

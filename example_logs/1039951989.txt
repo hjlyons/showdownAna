@@ -1,0 +1,170 @@
+|ScrapeTime|2020-01-03-00:14:41
+|j|☆Shade is smart
+|j|☆rossbeesley
+|player|p1|Shade is smart|lucas-gen4pt|1406
+|player|p2|rossbeesley|265|1407
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dugtrio, M|
+|poke|p1|Bisharp, M|
+|poke|p1|Gardevoir, F|
+|poke|p1|Torkoal, M|
+|poke|p1|Togekiss, M|
+|poke|p1|Duraludon, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Togekiss, M|
+|poke|p2|Rotom-Wash|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by rossbeesley)
+|
+|start
+|switch|p1a: Duraludon|Duraludon, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-item|p1a: Duraludon|Air Balloon
+|turn|1
+|
+|move|p2a: Rotom|Volt Switch|p1a: Duraludon
+|-resisted|p1a: Duraludon
+|-damage|p1a: Duraludon|73/100
+|-enditem|p1a: Duraludon|Air Balloon
+|
+|switch|p2a: Tyranitar|Tyranitar, F, shiny|100/100|[from]move: Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Duraludon|Dragon Pulse|p2a: Tyranitar
+|-damage|p2a: Tyranitar|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|move|p1a: Duraludon|Flash Cannon|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|44/100|[from] Sandstorm
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Duraludon
+|-supereffective|p1a: Duraludon
+|-damage|p1a: Duraludon|0 fnt
+|faint|p1a: Duraludon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|38/100 brn|[from] Sandstorm
+|-damage|p2a: Conkeldurr|32/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Togekiss|Togekiss, M, shiny|100/100
+|turn|4
+|
+|move|p1a: Togekiss|Dazzling Gleam|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Togekiss|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|5
+|
+|switch|p1a: Dugtrio|Dugtrio, M, shiny|100/100
+|move|p2a: Rotom|Trick|p1a: Dugtrio
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Dugtrio
+|-item|p1a: Dugtrio|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Choice Band|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|95/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|move|p1a: Dugtrio|Rock Slide|p2a: Rotom|[miss]
+|-miss|p1a: Dugtrio|p2a: Rotom
+|move|p2a: Rotom|Hydro Pump|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|89/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Gardevoir|Gardevoir, F, shiny|100/100
+|turn|7
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Gardevoir|Mystical Fire|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|85/100
+|-unboost|p2a: Dragapult|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|79/100|[from] Sandstorm
+|-damage|p1a: Gardevoir|94/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|move|p2a: Dragapult|U-turn|p1a: Gardevoir
+|-damage|p1a: Gardevoir|67/100
+|
+|switch|p2a: Rotom|Rotom-Wash|89/100|[from]move: U-turn
+|move|p1a: Gardevoir|Moonblast|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|17/100
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|move|p2a: Rotom|Trick|p1a: Gardevoir
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Gardevoir
+|-item|p1a: Gardevoir|Choice Band|[from] move: Trick
+|-item|p2a: Rotom|Assault Vest|[from] move: Trick
+|move|p1a: Gardevoir|Mystical Fire|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|8/100
+|-unboost|p2a: Rotom|spa|1
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Rotom|Volt Switch|p1a: Gardevoir
+|-damage|p1a: Gardevoir|53/100
+|
+|switch|p2a: Tyranitar|Tyranitar, F, shiny|76/100|[from]move: Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Gardevoir|Mystical Fire|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|69/100
+|-unboost|p2a: Tyranitar|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gardevoir|47/100|[from] Sandstorm
+|upkeep
+|turn|11
+|-message|Shade is smart forfeited.
+|
+|win|rossbeesley
+|l|☆Shade is smart
+|raw|Shade is smart's rating: 1406 → 1386(-20 for losing)
+|raw|rossbeesley's rating: 1407 → 1426(+19 for winning)

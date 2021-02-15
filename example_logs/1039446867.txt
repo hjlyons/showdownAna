@@ -1,0 +1,246 @@
+|ScrapeTime|2020-01-02-02:04:24
+|j|☆lowfye
+|j|☆magic_yoshi
+|player|p1|lowfye|cowgirl|1157
+|player|p2|magic_yoshi|lyra|1188
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Dracozolt|
+|poke|p1|Dracovish|
+|poke|p1|Hatterene, F|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Shuckle, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Togekiss, F|
+|poke|p2|Excadrill, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|1
+|
+|move|p1a: Hatterene|Mystical Fire|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|26/100
+|-unboost|p2a: Ferrothorn|spa|1
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|50/100
+|
+|-heal|p1a: Hatterene|56/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|89/100
+|-unboost|p2a: Rotom|spa|1
+|
+|-heal|p2a: Rotom|95/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|62/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Rotom|Volt Switch|p1a: Hatterene
+|-damage|p1a: Hatterene|37/100
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100|[from]move: Volt Switch
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|43/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|6/100
+|-unboost|p1a: Hatterene|spd|1
+|move|p1a: Hatterene|Draining Kiss|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-heal|p1a: Hatterene|83/100|[from] drain|[of] p2a: Hydreigon
+|faint|p2a: Hydreigon
+|
+|-heal|p1a: Hatterene|89/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|5
+|
+|move|p2a: Excadrill|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|14/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-enditem|p2a: Excadrill|Focus Sash
+|-damage|p2a: Excadrill|1/100
+|-unboost|p2a: Excadrill|spa|1
+|
+|-heal|p1a: Hatterene|20/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Excadrill|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|switch|p1a: Shuckle|Shuckle, M|100/100
+|turn|7
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|26/100
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|8
+|
+|move|p1a: Conkeldurr|Drain Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Conkeldurr|88/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Conkeldurr|71/100 brn|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-damage|p1a: Conkeldurr|65/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|9
+|
+|move|p2a: Cinderace|Zen Headbutt|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|11/100 brn
+|-damage|p2a: Cinderace|91/100|[from] item: Life Orb
+|cant|p1a: Conkeldurr|flinch
+|
+|-damage|p1a: Conkeldurr|5/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Cinderace|Zen Headbutt|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|-damage|p2a: Cinderace|81/100|[from] item: Life Orb
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|
+|switch|p1a: Shuckle|Shuckle, M|100/100
+|turn|11
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Shuckle
+|-damage|p1a: Shuckle|63/100
+|-damage|p2a: Cinderace|71/100|[from] item: Life Orb
+|move|p1a: Shuckle|Stealth Rock|p2a: Cinderace
+|-sidestart|p2: magic_yoshi|move: Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Rotom|Rotom-Wash|95/100
+|-damage|p2a: Rotom|83/100|[from] Stealth Rock
+|move|p1a: Shuckle|Encore||[still]
+|-fail|p1a: Shuckle
+|
+|-heal|p2a: Rotom|89/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Shuckle
+|-status|p1a: Shuckle|brn
+|move|p1a: Shuckle|Final Gambit|p2a: Rotom
+|-damage|p2a: Rotom|39/100
+|faint|p1a: Shuckle
+|
+|-heal|p2a: Rotom|45/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|14
+|
+|switch|p2a: Excadrill|Excadrill, M|1/100
+|-damage|p2a: Excadrill|0 fnt|[from] Stealth Rock
+|faint|p2a: Excadrill
+|move|p1a: Dragapult|Shadow Ball|p2: Excadrill|[notarget]
+|-fail|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, F|100/100
+|-damage|p2a: Togekiss|76/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Togekiss
+|-damage|p2a: Togekiss|44/100
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p2a: Togekiss|34/100|[from] item: Life Orb
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|turn|16
+|
+|switch|p2a: Rotom|Rotom-Wash|45/100
+|-damage|p2a: Rotom|33/100|[from] Stealth Rock
+|move|p1a: Dracozolt|Bolt Beak|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-damage|p1a: Dracozolt|91/100|[from] item: Life Orb
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|71/100
+|-damage|p2a: Cinderace|46/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Dracozolt
+|-damage|p1a: Dracozolt|57/100
+|-damage|p2a: Cinderace|36/100|[from] item: Life Orb
+|move|p1a: Dracozolt|Bolt Beak|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-damage|p1a: Dracozolt|47/100|[from] item: Life Orb
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, F|34/100
+|-damage|p2a: Togekiss|10/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Dracozolt|Bolt Beak|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|-damage|p1a: Dracozolt|37/100|[from] item: Life Orb
+|faint|p2a: Togekiss
+|
+|win|lowfye
+|l|☆magic_yoshi
+|raw|lowfye's rating: 1157 → 1185(+28 for winning)
+|raw|magic_yoshi's rating: 1188 → 1161(-27 for losing)

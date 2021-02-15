@@ -1,0 +1,170 @@
+|ScrapeTime|2020-01-02-09:05:48
+|j|☆saira panda
+|j|☆Espermon
+|player|p1|saira panda|287|1195
+|player|p2|Espermon|roxie|1219
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Glaceon, M|
+|poke|p1|Flygon, F|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Dubwool, F|
+|poke|p1|Morpeko, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Clefable, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Cinderace, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Morpeko|Morpeko, M|100/100
+|switch|p2a: Cinderace|Cinderace, M, shiny|100/100
+|turn|1
+|
+|switch|p1a: Flygon|Flygon, F|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Flygon
+|-resisted|p1a: Flygon
+|-damage|p1a: Flygon|51/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F, shiny|100/100
+|move|p1a: Flygon|Earthquake|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Mandibuzz|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|76/100
+|-enditem|p1a: Hatterene|Leftovers|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Mandibuzz|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|63/100
+|
+|switch|p2a: Cinderace|Cinderace, M, shiny|100/100|[from]move: U-turn
+|move|p1a: Hatterene|Draining Kiss|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|85/100
+|-heal|p1a: Hatterene|77/100|[from] drain|[of] p2a: Cinderace
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Cinderace|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|switch|p1a: Flygon|Flygon, F|51/100
+|turn|6
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F, shiny|100/100
+|move|p1a: Flygon|U-turn|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|84/100
+|
+|switch|p1a: Glaceon|Glaceon, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Mandibuzz|U-turn|p1a: Glaceon
+|-crit|p1a: Glaceon
+|-damage|p1a: Glaceon|84/100
+|
+|switch|p2a: Rotom|Rotom-Heat, shiny|100/100|[from]move: U-turn
+|move|p1a: Glaceon|Ice Beam|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|50/100
+|
+|upkeep
+|turn|8
+|c|☆Espermon|ouchy
+|
+|switch|p1a: Flygon|Flygon, F|51/100
+|move|p2a: Rotom|Overheat|p1a: Flygon
+|-resisted|p1a: Flygon
+|-damage|p1a: Flygon|8/100
+|-unboost|p2a: Rotom|spa|2
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Rotom|Overheat|p1a: Flygon
+|-resisted|p1a: Flygon
+|-crit|p1a: Flygon
+|-damage|p1a: Flygon|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Flygon
+|
+|upkeep
+|
+|switch|p1a: Morpeko|Morpeko, M|100/100
+|turn|10
+|c|☆Espermon|choice spec glacian?
+|
+|switch|p2a: Seismitoad|Seismitoad, M, shiny|100/100
+|move|p1a: Morpeko|Aura Wheel|p2a: Seismitoad
+|-immune|p2a: Seismitoad
+|
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|11
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F, shiny|84/100
+|move|p1a: Morpeko|Aura Wheel|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|60/100
+|-boost|p1a: Morpeko|spe|1
+|
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|12
+|
+|move|p1a: Morpeko|Aura Wheel|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|-boost|p1a: Morpeko|spe|1
+|faint|p2a: Mandibuzz
+|
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M, shiny|85/100
+|turn|13
+|
+|move|p1a: Morpeko|Aura Wheel|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-boost|p1a: Morpeko|spe|1
+|faint|p2a: Cinderace
+|
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|-message|Espermon forfeited.
+|
+|win|saira panda
+|l|☆Espermon
+|raw|saira panda's rating: 1196 → 1223(+27 for winning)
+|raw|Espermon's rating: 1219 → 1193(-26 for losing)

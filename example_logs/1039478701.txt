@@ -1,0 +1,202 @@
+|ScrapeTime|2020-01-02-03:25:00
+|j|☆Theo216
+|j|☆YakuUnderscore
+|player|p1|Theo216|170|1075
+|player|p2|YakuUnderscore|170|1056
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Dracovish|
+|poke|p1|Clefable, F|
+|poke|p2|Copperajah, F|
+|poke|p2|Golisopod, M|
+|poke|p2|Toxtricity, F|
+|poke|p2|Ditto|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Dragapult, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Ferrothorn|[from] ability: Imposter
+|turn|1
+|
+|switch|p2a: Copperajah|Copperajah, F|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Copperajah
+|-sidestart|p2: YakuUnderscore|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Copperajah|Heat Crash|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Copperajah|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|3
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|-damage|p2a: Mandibuzz|75/100|[from] Stealth Rock
+|move|p1a: Dragapult|Fire Blast|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|46/100
+|
+|-heal|p2a: Mandibuzz|52/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Mandibuzz|Defog|p1a: Clefable
+|-unboost|p1a: Clefable|evasion|1
+|-sideend|p2: YakuUnderscore|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|
+|-heal|p2a: Mandibuzz|58/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|move|p1a: Clefable|Moonblast|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|55/100
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Toxtricity|Overdrive|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|48/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Golisopod|Golisopod, M|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Golisopod
+|-damage|p2a: Golisopod|32/100
+|-activate|p2a: Golisopod|ability: Emergency Exit
+|
+|switch|p2a: Copperajah|Copperajah, F|88/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|switch|p2a: Mandibuzz|Mandibuzz, F|58/100
+|
+|-heal|p2a: Mandibuzz|64/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, F|55/100
+|turn|10
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Dracovish|[from] ability: Imposter
+|turn|11
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|67/100
+|move|p2a: Ditto|Psychic Fangs|p1a: Dracovish
+|-damage|p1a: Dracovish|59/100
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Ditto
+|-resisted|p2a: Ditto
+|-crit|p2a: Ditto
+|-damage|p2a: Ditto|21/100
+|move|p2a: Ditto|Psychic Fangs|p1a: Dracovish
+|-damage|p1a: Dracovish|20/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Ditto|Psychic Fangs|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|turn|14
+|
+|switch|p2a: Copperajah|Copperajah, F|88/100
+|move|p1a: Clefable|Moonlight||[still]
+|-fail|p1a: Clefable
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Copperajah|Power Whip|p1a: Toxapex
+|-damage|p1a: Toxapex|63/100
+|
+|-heal|p1a: Toxapex|69/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p1a: Toxapex|Scald|p2a: Copperajah
+|-damage|p2a: Copperajah|69/100
+|move|p2a: Copperajah|Power Whip|p1a: Toxapex
+|-damage|p1a: Toxapex|36/100
+|
+|-heal|p1a: Toxapex|43/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|93/100
+|
+|-heal|p1a: Toxapex|99/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|65/100
+|move|p1a: Toxapex|Toxic|p2a: Dragapult
+|-status|p2a: Dragapult|tox
+|
+|-heal|p1a: Toxapex|71/100|[from] item: Black Sludge
+|-damage|p2a: Dragapult|94/100 tox|[from] psn
+|upkeep
+|turn|19
+|-message|YakuUnderscore forfeited.
+|
+|win|Theo216
+|l|☆YakuUnderscore
+|raw|Theo216's rating: 1075 → 1102(+27 for winning)
+|raw|YakuUnderscore's rating: 1056 → 1039(-17 for losing)

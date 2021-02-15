@@ -1,0 +1,319 @@
+|ScrapeTime|2020-01-01-14:56:31
+|j|☆lalorazor
+|j|☆IndeedPy
+|player|p1|lalorazor|266|1135
+|player|p2|IndeedPy|102|1154
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Malamar, M|
+|poke|p1|Shuckle, F|
+|poke|p1|Kommo-o, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Corviknight, F|
+|poke|p2|Indeedee, M|
+|poke|p2|Trevenant, F|
+|poke|p2|Gyarados, F|
+|poke|p2|Ribombee, F|
+|poke|p2|Manectric, M|
+|poke|p2|Bisharp, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Trevenant|Trevenant, F|100/100
+|turn|1
+|
+|move|p2a: Trevenant|Will-O-Wisp|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Ingrain|p1a: Ferrothorn
+|-start|p1a: Ferrothorn|move: Ingrain
+|
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lalorazor)
+|
+|move|p2a: Trevenant|Protect|p2a: Trevenant
+|-singleturn|p2a: Trevenant|Protect
+|move|p1a: Ferrothorn|Leech Seed|p2a: Trevenant
+|-activate|p2a: Trevenant|move: Protect
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] Ingrain
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Trevenant|Horn Leech|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|90/100 brn
+|-damage|p2a: Trevenant|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Trevenant|72/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Trevenant
+|-immune|p2a: Trevenant
+|
+|-heal|p1a: Ferrothorn|96/100 brn|[from] Ingrain
+|-damage|p1a: Ferrothorn|90/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Manectric|Manectric, M|100/100
+|move|p1a: Ferrothorn|Protect||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|96/100 brn|[from] Ingrain
+|-damage|p1a: Ferrothorn|90/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p2a: Manectric|Flamethrower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|18/100 brn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Manectric
+|-start|p2a: Manectric|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|24/100 brn|[from] Ingrain
+|-damage|p2a: Manectric|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|34/100 brn|[silent]
+|-damage|p1a: Ferrothorn|28/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Manectric|Flamethrower|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Ferrothorn|34/100 brn|[from] Ingrain
+|-damage|p2a: Manectric|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|44/100 brn|[silent]
+|-damage|p1a: Ferrothorn|38/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p2a: Manectric|Flamethrower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Shuckle|Shuckle, F|100/100
+|turn|8
+|inactive|IndeedPy has 120 seconds left.
+|
+|move|p2a: Manectric|Volt Switch|p1a: Shuckle
+|-damage|p1a: Shuckle|78/100
+|
+|switch|p2a: Trevenant|Trevenant, F|72/100|[from]move: Volt Switch
+|move|p1a: Shuckle|Infestation|p2a: Trevenant
+|-damage|p2a: Trevenant|70/100
+|-activate|p2a: Trevenant|move: Infestation|[of] p1a: Shuckle
+|
+|-heal|p1a: Shuckle|85/100|[from] item: Leftovers
+|-damage|p2a: Trevenant|58/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|9
+|inactive|IndeedPy has 120 seconds left.
+|
+|move|p2a: Trevenant|Leech Seed|p1a: Shuckle
+|-start|p1a: Shuckle|move: Leech Seed
+|move|p1a: Shuckle|Shell Smash|p1a: Shuckle
+|-boost|p1a: Shuckle|def|1
+|-boost|p1a: Shuckle|spd|1
+|-unboost|p1a: Shuckle|atk|2
+|-unboost|p1a: Shuckle|spa|2
+|-unboost|p1a: Shuckle|spe|2
+|
+|-heal|p1a: Shuckle|91/100|[from] item: Leftovers
+|-damage|p1a: Shuckle|78/100|[from] Leech Seed|[of] p2a: Trevenant
+|-heal|p2a: Trevenant|67/100|[silent]
+|-damage|p2a: Trevenant|55/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|10
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|move|p2a: Trevenant|Will-O-Wisp|p1a: Corviknight|[miss]
+|-miss|p2a: Trevenant|p1a: Corviknight
+|
+|-end|p2a: Trevenant|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|turn|11
+|
+|switch|p2a: Manectric|Manectric, M|76/100
+|move|p1a: Corviknight|Sand Attack|p2a: Manectric
+|-unboost|p2a: Manectric|accuracy|1
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Manectric|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|29/100
+|move|p1a: Corviknight|Sand Attack|p2a: Manectric
+|-unboost|p2a: Manectric|accuracy|1
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Manectric|Volt Switch|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|switch|p2a: Trevenant|Trevenant, F|55/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|turn|14
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|67/100
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Kommo-o|Drain Punch|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|72/100
+|-heal|p1a: Kommo-o|83/100|[from] drain|[of] p2a: Gyarados
+|move|p2a: Gyarados|Ice Fang|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|56/100
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Kommo-o|Drain Punch|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-crit|p2a: Gyarados
+|-damage|p2a: Gyarados|33/100
+|-heal|p1a: Kommo-o|78/100|[from] drain|[of] p2a: Gyarados
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Kommo-o|Drain Punch|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|6/100
+|-heal|p1a: Kommo-o|92/100|[from] drain|[of] p2a: Gyarados
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Gyarados|Waterfall|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|70/100
+|move|p1a: Kommo-o|Fire Punch|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|upkeep
+|
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|turn|19
+|
+|move|p2a: Ribombee|Sticky Web|p1a: Kommo-o
+|-sidestart|p1: lalorazor|move: Sticky Web
+|move|p1a: Kommo-o|Fire Punch|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-crit|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|switch|p2a: Manectric|Manectric, M|76/100
+|turn|20
+|
+|move|p2a: Manectric|Thunderbolt|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|60/100
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|27/100
+|
+|upkeep
+|turn|21
+|inactive|IndeedPy has 120 seconds left.
+|
+|move|p1a: Kommo-o|Rest|p1a: Kommo-o
+|-status|p1a: Kommo-o|slp|[from] move: Rest
+|-heal|p1a: Kommo-o|100/100 slp|[silent]
+|-enditem|p1a: Kommo-o|Chesto Berry|[eat]
+|-curestatus|p1a: Kommo-o|slp|[msg]
+|move|p2a: Manectric|Psychic Fangs|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|87/100
+|
+|upkeep
+|turn|22
+|inactive|IndeedPy has 120 seconds left.
+|
+|move|p1a: Kommo-o|Drain Punch|p2a: Manectric
+|-damage|p2a: Manectric|0 fnt
+|-heal|p1a: Kommo-o|100/100|[from] drain|[of] p2a: Manectric
+|faint|p2a: Manectric
+|
+|upkeep
+|inactive|IndeedPy has 120 seconds left.
+|
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|23
+|
+|move|p1a: Kommo-o|Fire Punch|p2a: Indeedee
+|-damage|p2a: Indeedee|25/100
+|move|p2a: Indeedee|Psychic|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|48/100
+|-damage|p2a: Indeedee|15/100|[from] item: Life Orb
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Kommo-o|Drain Punch|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-heal|p1a: Kommo-o|54/100|[from] drain|[of] p2a: Indeedee
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|turn|25
+|-message|IndeedPy forfeited.
+|
+|win|lalorazor
+|l|☆IndeedPy
+|raw|lalorazor's rating: 1135 → 1161(+26 for winning)
+|raw|IndeedPy's rating: 1154 → 1128(-26 for losing)

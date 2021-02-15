@@ -1,0 +1,196 @@
+|ScrapeTime|2020-01-01-09:45:14
+|j|☆Littlefumpling
+|j|☆Hi there m9!
+|player|p1|Littlefumpling|ninjaboy|1071
+|player|p2|Hi there m9!|56|1156
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxtricity, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Hatterene, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Dragapult, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Clefable, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Excadrill, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hi there m9!)
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Hatterene
+|-damage|p1a: Hatterene|51/100
+|
+|-heal|p1a: Hatterene|57/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-heal|p1a: Hatterene|63/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Hatterene|Psychic|p2a: Cinderace
+|-damage|p2a: Cinderace|21/100
+|move|p2a: Cinderace|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|38/100
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100|[from]move: U-turn
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|-heal|p1a: Hatterene|44/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Excadrill|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|58/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Ferrothorn|Knock Off|p2a: Excadrill
+|-damage|p2a: Excadrill|57/100
+|-enditem|p2a: Excadrill|Focus Sash|[from] move: Knock Off|[of] p1a: Ferrothorn
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Ferrothorn|Power Whip|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|7
+|
+|move|p2a: Clefable|Flamethrower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, F|100/100
+|turn|8
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Toxtricity|Boomburst|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Hatterene|Hatterene, F|44/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|10
+|
+|switch|p2a: Cinderace|Cinderace, F|21/100
+|move|p1a: Dragapult|Outrage|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|11
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|12
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Rotom
+|-damage|p1a: Rotom|40/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Hydreigon
+|-status|p2a: Hydreigon|brn
+|
+|-heal|p1a: Rotom|46/100|[from] item: Leftovers
+|-damage|p2a: Hydreigon|94/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-damage|p2a: Hydreigon|88/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, F|100/100
+|turn|14
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Toxtricity
+|-damage|p1a: Toxtricity|47/100
+|move|p1a: Toxtricity|Overdrive|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|60/100 brn
+|-enditem|p1a: Toxtricity|Throat Spray
+|-boost|p1a: Toxtricity|spa|1
+|
+|-damage|p2a: Hydreigon|53/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|-damage|p2a: Hydreigon|47/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|16
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Cinderace
+|-damage|p1a: Cinderace|34/100
+|move|p1a: Cinderace|Gunk Shot|p2a: Hydreigon|[miss]
+|-miss|p1a: Cinderace|p2a: Hydreigon
+|
+|-damage|p2a: Hydreigon|41/100 brn|[from] brn
+|upkeep
+|turn|17
+|-message|Littlefumpling forfeited.
+|
+|win|Hi there m9!
+|l|☆Littlefumpling

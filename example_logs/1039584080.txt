@@ -1,0 +1,271 @@
+|ScrapeTime|2020-01-02-09:45:40
+|j|☆LitAFdonkeyPUNCH
+|j|☆TheSquaad
+|player|p1|LitAFdonkeyPUNCH|lance|1468
+|player|p2|TheSquaad|169|1502
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hippowdon, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Toxapex, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Sylveon, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Clefable, M|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Dracovish|
+|poke|p2|Hydreigon, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LitAFdonkeyPUNCH)
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|1
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Cinderace|Sucker Punch||[still]
+|-fail|p2a: Cinderace
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cinderace|95/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|move|p2a: Cinderace|U-turn|p1a: Hippowdon
+|-crit|p1a: Hippowdon
+|-damage|p1a: Hippowdon|79/100
+|
+|switch|p2a: Dracovish|Dracovish|100/100|[from]move: U-turn
+|move|p1a: Hippowdon|Stealth Rock|p2a: Dracovish
+|-sidestart|p2: TheSquaad|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dracovish|94/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|85/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dracovish|88/100|[from] Sandstorm
+|-damage|p1a: Toxapex|54/100|[from] Sandstorm
+|-heal|p1a: Toxapex|60/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|j| Arxz
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|94/100|[from] Sandstorm
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|83/100
+|-enditem|p1a: Rotom|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Clefable|[miss]
+|-miss|p1a: Rotom|p2a: Clefable
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Dracovish|Dracovish|88/100
+|-damage|p2a: Dracovish|76/100|[from] Stealth Rock
+|move|p1a: Rotom|Will-O-Wisp|p2a: Dracovish
+|-status|p2a: Dracovish|brn
+|
+|-heal|p2a: Dracovish|100/100 brn|[from] move: Wish|[wisher] Clefable
+|-damage|p2a: Dracovish|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Dracovish|Psychic Fangs|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|75/100
+|
+|-heal|p1a: Toxapex|81/100|[from] item: Black Sludge
+|-damage|p2a: Dracovish|88/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Dracovish|Psychic Fangs|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|45/100
+|move|p1a: Toxapex|Toxic Spikes|p2a: Dracovish
+|-sidestart|p2: TheSquaad|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|51/100|[from] item: Black Sludge
+|-damage|p2a: Dracovish|82/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Dracovish|Psychic Fangs|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|25/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|75/100
+|
+|-heal|p1a: Toxapex|81/100|[from] item: Black Sludge
+|-damage|p2a: Dracovish|76/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|switch|p1a: Hippowdon|Hippowdon, M|85/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|82/100|[from] Sandstorm
+|-heal|p2a: Hydreigon|88/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|91/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Dracovish|Dracovish|76/100 brn
+|-damage|p2a: Dracovish|63/100 brn|[from] Stealth Rock
+|move|p1a: Hippowdon|Whirlwind|p2a: Dracovish
+|drag|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|98/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Rotom|Rotom-Heat|83/100
+|move|p2a: Ferrothorn|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|76/100 tox|[from] Sandstorm
+|-damage|p1a: Rotom|70/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p2a: Dracovish|Dracovish|63/100 brn
+|-damage|p2a: Dracovish|51/100 brn|[from] Stealth Rock
+|move|p1a: Rotom|Volt Switch|p2a: Dracovish
+|-damage|p2a: Dracovish|22/100 brn
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100|[from]move: Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dracovish|15/100 brn|[from] Sandstorm
+|-damage|p2a: Dracovish|9/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|-boost|p1a: Excadrill|spe|1
+|faint|p2a: Dracovish
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Ferrothorn|Leech Seed|p1a: Excadrill
+|-start|p1a: Excadrill|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|18
+|
+|move|p1a: Excadrill|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|29/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Excadrill|[miss]
+|-miss|p2a: Ferrothorn|p1a: Excadrill
+|
+|-heal|p1a: Excadrill|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|35/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|82/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|48/100|[silent]
+|upkeep
+|turn|19
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|-status|p2a: Corsola|psn
+|-damage|p2a: Corsola|88/100 psn|[from] Stealth Rock
+|move|p1a: Excadrill|Earthquake|p2a: Corsola
+|-damage|p2a: Corsola|30/100 psn
+|
+|-heal|p1a: Excadrill|88/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|75/100|[from] Leech Seed|[of] p2a: Corsola
+|-heal|p2a: Corsola|44/100 psn|[silent]
+|-damage|p2a: Corsola|31/100 psn|[from] psn
+|upkeep
+|turn|20
+|
+|move|p1a: Excadrill|Earthquake|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|
+|-heal|p1a: Excadrill|81/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|88/100
+|-damage|p2a: Hydreigon|76/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Excadrill|Iron Head|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-heal|p1a: Excadrill|87/100|[from] item: Leftovers
+|upkeep
+|-message|TheSquaad forfeited.
+|
+|win|LitAFdonkeyPUNCH
+|l|☆TheSquaad
+|raw|LitAFdonkeyPUNCH's rating: 1468 → 1490(+22 for winning)
+|raw|TheSquaad's rating: 1502 → 1480(-22 for losing)

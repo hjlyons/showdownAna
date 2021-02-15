@@ -1,0 +1,289 @@
+|ScrapeTime|2020-01-01-21:34:58
+|j|☆AngelIncarnate
+|j|☆sacf30
+|player|p1|AngelIncarnate|collector|1040
+|player|p2|sacf30|68|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Mimikyu, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Seismitoad, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Flapple, M|
+|poke|p2|Dracozolt|
+|poke|p2|Dracovish|
+|poke|p2|Duraludon, M|
+|poke|p2|Turtonator, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|switch|p2a: Turtonator|Turtonator, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AngelIncarnate)
+|
+|move|p1a: Seismitoad|Stealth Rock|p2a: Turtonator
+|-sidestart|p2: sacf30|move: Stealth Rock
+|move|p2a: Turtonator|Will-O-Wisp|p1a: Seismitoad
+|-status|p1a: Seismitoad|brn
+|
+|-damage|p1a: Seismitoad|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p2a: Flapple|Flapple, M|100/100
+|-damage|p2a: Flapple|88/100|[from] Stealth Rock
+|move|p1a: Seismitoad|Scald|p2a: Flapple
+|-resisted|p2a: Flapple
+|-damage|p2a: Flapple|79/100
+|
+|-damage|p1a: Seismitoad|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Flapple|Grav Apple|p1a: Dragapult|[miss]
+|-miss|p2a: Flapple|p1a: Dragapult
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Flapple|Sucker Punch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|1/100
+|-damage|p2a: Flapple|70/100|[from] item: Life Orb
+|move|p1a: Dragapult|Flamethrower|p2a: Flapple
+|-damage|p2a: Flapple|25/100
+|-status|p2a: Flapple|brn
+|-damage|p1a: Dragapult|0 fnt|[from] item: Life Orb
+|faint|p1a: Dragapult
+|
+|-damage|p2a: Flapple|19/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|turn|5
+|
+|switch|p2a: Turtonator|Turtonator, F|100/100
+|-damage|p2a: Turtonator|76/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Turtonator
+|-sidestart|p2: sacf30|Spikes
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Seismitoad|Seismitoad, F|88/100 brn
+|move|p2a: Turtonator|Dragon Claw|p1a: Seismitoad
+|-damage|p1a: Seismitoad|69/100 brn
+|
+|-damage|p1a: Seismitoad|63/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|-damage|p2a: Dracovish|76/100|[from] Spikes
+|move|p1a: Seismitoad|Scald|p2a: Dracovish
+|-heal|p2a: Dracovish|100/100|[from] ability: Water Absorb|[of] p1a: Seismitoad
+|
+|-damage|p1a: Seismitoad|57/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Dracovish|Psychic Fangs|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|91/100
+|-damage|p2a: Dracovish|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|98/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Flapple|Flapple, M|19/100 brn
+|-damage|p2a: Flapple|6/100 brn|[from] Stealth Rock
+|-damage|p2a: Flapple|0 fnt|[from] Spikes
+|faint|p2a: Flapple
+|move|p1a: Ferrothorn|Spikes|p2: Flapple
+|-sidestart|p2: sacf30|Spikes
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|-damage|p2a: Dragapult|72/100|[from] Spikes
+|turn|10
+|
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|move|p2a: Dragapult|Fire Blast|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|-status|p1a: Mimikyu|brn
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|-damage|p1a: Mimikyu|88/100 brn|[from] ability: Disguise|[of] p1a: Mimikyu
+|
+|-damage|p1a: Mimikyu|82/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Mimikyu
+|-supereffective|p1a: Mimikyu
+|-damage|p1a: Mimikyu|1/100 brn
+|move|p1a: Mimikyu|Play Rough|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|35/100
+|-unboost|p2a: Dragapult|atk|1
+|
+|-damage|p1a: Mimikyu|0 fnt|[from] brn
+|faint|p1a: Mimikyu
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|turn|12
+|
+|move|p2a: Dragapult|Fire Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, F|57/100 brn
+|turn|13
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Seismitoad
+|-crit|p1a: Seismitoad
+|-damage|p1a: Seismitoad|33/100 brn
+|-damage|p1a: Seismitoad|23/100 brn
+|-enditem|p1a: Seismitoad|Aguav Berry|[eat]
+|-heal|p1a: Seismitoad|56/100 brn|[from] item: Aguav Berry
+|-hitcount|p1a: Seismitoad|2
+|move|p1a: Seismitoad|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|17/100
+|
+|-damage|p1a: Seismitoad|50/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Seismitoad
+|-damage|p1a: Seismitoad|20/100 brn
+|move|p1a: Seismitoad|Scald|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|5/100
+|
+|-damage|p1a: Seismitoad|14/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|16
+|
+|move|p2a: Dragapult|Fire Blast|p1a: Excadrill|[miss]
+|-miss|p2a: Dragapult|p1a: Excadrill
+|move|p1a: Excadrill|Shadow Claw|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Turtonator|Turtonator, F|76/100
+|-damage|p2a: Turtonator|59/100|[from] Spikes
+|-damage|p2a: Turtonator|35/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Excadrill|Earthquake|p2a: Turtonator
+|-supereffective|p2a: Turtonator
+|-damage|p2a: Turtonator|0 fnt
+|faint|p2a: Turtonator
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|88/100
+|-damage|p2a: Dracovish|72/100|[from] Spikes
+|-damage|p2a: Dracovish|59/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Corviknight
+|-damage|p1a: Corviknight|25/100
+|-damage|p2a: Dracovish|43/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Corviknight|Protect|p1a: Corviknight
+|-singleturn|p1a: Corviknight|Protect
+|move|p2a: Dracovish|Fishious Rend|p1a: Corviknight
+|-activate|p1a: Corviknight|move: Protect
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-damage|p2a: Dracovish|26/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|21
+|
+|move|p1a: Excadrill|Rock Slide|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|upkeep
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|-damage|p2a: Dracozolt|84/100|[from] Spikes
+|-damage|p2a: Dracozolt|72/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Excadrill|Earthquake|p2a: Dracozolt
+|-supereffective|p2a: Dracozolt
+|-damage|p2a: Dracozolt|0 fnt
+|faint|p2a: Dracozolt
+|
+|upkeep
+|
+|switch|p2a: Duraludon|Duraludon, M|100/100
+|-damage|p2a: Duraludon|94/100|[from] Stealth Rock
+|-damage|p2a: Duraludon|78/100|[from] Spikes
+|turn|23
+|
+|move|p1a: Excadrill|Earthquake|p2a: Duraludon
+|-supereffective|p2a: Duraludon
+|-damage|p2a: Duraludon|0 fnt
+|faint|p2a: Duraludon
+|
+|win|AngelIncarnate
+|l|☆sacf30
+|c|☆AngelIncarnate|gg
+|raw|AngelIncarnate's rating: 1040 → 1070(+30 for winning)
+|raw|sacf30's rating: 1000 → 1000(+0 for losing)

@@ -1,0 +1,551 @@
+|ScrapeTime|2020-01-02-14:04:54
+|j|☆Camp Chief Ivon
+|j|☆iHaveFallenOver
+|player|p1|Camp Chief Ivon|251|1159
+|player|p2|iHaveFallenOver|dawn|1099
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Torkoal, M|
+|poke|p1|Cherrim, M|
+|poke|p1|Bronzong|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Jellicent, M|
+|poke|p2|Sirfetch'd, M|
+|poke|p2|Gardevoir, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Clefable, F|
+|poke|p2|Bisharp, M|
+|poke|p2|Rotom-Heat|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|switch|p2a: Sir Fetched the 1s|Sirfetch'd, M|100/100
+|turn|1
+|
+|move|p1a: Rotom|Volt Switch|p2a: Sir Fetched the 1s
+|-damage|p2a: Sir Fetched the 1s|64/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by iHaveFallenOver)
+|
+|switch|p1a: Torkoal|Torkoal, M|100/100|[from]move: Volt Switch
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Sir Fetched the 1s|Simple Beam|p1a: Torkoal
+|-endability|p1a: Torkoal|Drought|[from] move: Simple Beam
+|-ability|p1a: Torkoal|Simple|[from] move: Simple Beam
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: Sir Fetched the 1s|Meteor Assault|p1a: Bronzong
+|-damage|p1a: Bronzong|37/100
+|-mustrecharge|p2a: Sir Fetched the 1s
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Bronzong|44/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|cant|p2a: Sir Fetched the 1s|recharge
+|move|p1a: Bronzong|Stealth Rock|p2a: Sir Fetched the 1s
+|-sidestart|p2: iHaveFallenOver|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Bronzong|50/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|move|p2a: Sir Fetched the 1s|Simple Beam|p1a: Jellicent
+|-endability|p1a: Jellicent|Water Absorb|[from] move: Simple Beam
+|-ability|p1a: Jellicent|Simple|[from] move: Simple Beam
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|move|p2a: Sir Fetched the 1s|Close Combat|p1a: Torkoal
+|-damage|p1a: Torkoal|58/100
+|-unboost|p2a: Sir Fetched the 1s|def|1
+|-unboost|p2a: Sir Fetched the 1s|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p2a: Sir Fetched the 1s|Simple Beam|p1a: Torkoal
+|-endability|p1a: Torkoal|Drought|[from] move: Simple Beam
+|-ability|p1a: Torkoal|Simple|[from] move: Simple Beam
+|move|p1a: Torkoal|Lava Plume|p2a: Sir Fetched the 1s
+|-damage|p2a: Sir Fetched the 1s|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|move|p2a: Sir Fetched the 1s|Simple Beam|p1a: Jellicent
+|-endability|p1a: Jellicent|Water Absorb|[from] move: Simple Beam
+|-ability|p1a: Jellicent|Simple|[from] move: Simple Beam
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Sir Fetched the 1s|Simple Beam|p1a: Grimmsnarl
+|-endability|p1a: Grimmsnarl|Prankster|[from] move: Simple Beam
+|-ability|p1a: Grimmsnarl|Simple|[from] move: Simple Beam
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|move|p1a: Grimmsnarl|Taunt|p2a: Sir Fetched the 1s
+|-start|p2a: Sir Fetched the 1s|move: Taunt
+|cant|p2a: Sir Fetched the 1s|move: Taunt|Simple Beam
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|move|p2a: Sir Fetched the 1s|Meteor Assault|p1a: Jellicent
+|-damage|p1a: Jellicent|1/100
+|-mustrecharge|p2a: Sir Fetched the 1s
+|
+|-heal|p1a: Jellicent|7/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|cant|p2a: Sir Fetched the 1s|recharge
+|move|p1a: Jellicent|Night Shade|p2a: Sir Fetched the 1s
+|-damage|p2a: Sir Fetched the 1s|0 fnt
+|faint|p2a: Sir Fetched the 1s
+|
+|-heal|p1a: Jellicent|13/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Koo|Rotom-Heat|100/100
+|-damage|p2a: Koo|76/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Koo|Trick|p1a: Rotom
+|-activate|p2a: Koo|move: Trick|[of] p1a: Rotom
+|-item|p1a: Rotom|Choice Scarf|[from] move: Trick
+|-item|p2a: Koo|Choice Scarf|[from] move: Trick
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Koo|Volt Switch|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|78/100
+|
+|switch|p2a: Good|Clefable, F, shiny|100/100|[from]move: Volt Switch
+|move|p1a: Rotom|Volt Switch|p2a: Good
+|-damage|p2a: Good|70/100
+|
+|switch|p1a: Bronzong|Bronzong|50/100|[from]move: Volt Switch
+|
+|-heal|p2a: Good|76/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|56/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Good|Mystical Fire|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|34/100
+|-unboost|p1a: Bronzong|spa|1
+|move|p1a: Bronzong|Gyro Ball|p2a: Good
+|-supereffective|p2a: Good
+|-damage|p2a: Good|33/100
+|
+|-heal|p2a: Good|39/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|40/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Camp Chief Ivon has 120 seconds left.
+|
+|move|p2a: Good|Moonlight|p2a: Good
+|-heal|p2a: Good|89/100
+|move|p1a: Bronzong|Gyro Ball|p2a: Good
+|-supereffective|p2a: Good
+|-damage|p2a: Good|45/100
+|
+|-heal|p2a: Good|51/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|46/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Camp Chief Ivon has 120 seconds left.
+|
+|move|p2a: Good|Grass Knot|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|31/100
+|move|p1a: Bronzong|Gyro Ball|p2a: Good
+|-supereffective|p2a: Good
+|-damage|p2a: Good|8/100
+|
+|-heal|p2a: Good|14/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|37/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Camp Chief Ivon has 120 seconds left.
+|
+|switch|p1a: Rotom|Rotom-Heat|78/100
+|move|p2a: Good|Moonlight|p2a: Good
+|-heal|p2a: Good|64/100
+|
+|-heal|p2a: Good|70/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Rotom|Volt Switch|p2a: Good
+|-damage|p2a: Good|38/100
+|
+|switch|p1a: Torkoal|Torkoal, M|58/100|[from]move: Volt Switch
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Good|Moonlight|p2a: Good
+|-heal|p2a: Good|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|move|p2a: Good|Moonblast|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|29/100
+|move|p1a: Torkoal|Yawn|p2a: Good
+|-start|p2a: Good|move: Yawn|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|inactive|Camp Chief Ivon has 120 seconds left.
+|
+|switch|p2a: Not OU|Toxapex, M, shiny|100/100
+|-damage|p2a: Not OU|88/100|[from] Stealth Rock
+|switch|p1a: Jellicent|Jellicent, M|13/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jellicent|19/100|[from] item: Leftovers
+|-heal|p2a: Not OU|94/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Jellicent|Strength Sap|p2a: Not OU
+|-unboost|p2a: Not OU|atk|1
+|-heal|p1a: Jellicent|60/100
+|move|p2a: Not OU|Toxic Spikes|p1a: Jellicent
+|-sidestart|p1: Camp Chief Ivon|move: Toxic Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jellicent|66/100|[from] item: Leftovers
+|-heal|p2a: Not OU|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|Camp Chief Ivon has 120 seconds left.
+|
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Not OU
+|-status|p2a: Not OU|brn
+|move|p2a: Not OU|Toxic Spikes|p1a: Jellicent
+|-sidestart|p1: Camp Chief Ivon|move: Toxic Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jellicent|72/100|[from] item: Leftovers
+|-damage|p2a: Not OU|94/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Jellicent|Night Shade|p2a: Not OU
+|-damage|p2a: Not OU|61/100 brn
+|move|p2a: Not OU|Gunk Shot|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|66/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jellicent|73/100|[from] item: Leftovers
+|-heal|p2a: Not OU|68/100 brn|[from] item: Leftovers
+|-damage|p2a: Not OU|61/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p2a: Not OU|Baneful Bunker|p2a: Not OU
+|-singleturn|p2a: Not OU|move: Protect
+|move|p1a: Jellicent|Night Shade|p2a: Not OU
+|-activate|p2a: Not OU|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Jellicent|79/100|[from] item: Leftovers
+|-heal|p2a: Not OU|68/100 brn|[from] item: Leftovers
+|-damage|p2a: Not OU|61/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Jellicent|Night Shade|p2a: Not OU
+|-damage|p2a: Not OU|28/100 brn
+|move|p2a: Not OU|Haze|p2a: Not OU
+|-clearallboost
+|
+|-weather|none
+|-heal|p1a: Jellicent|85/100|[from] item: Leftovers
+|-heal|p2a: Not OU|35/100 brn|[from] item: Leftovers
+|-damage|p2a: Not OU|28/100 brn|[from] brn
+|upkeep
+|turn|26
+|inactive|Camp Chief Ivon has 120 seconds left.
+|
+|switch|p2a: Shar|Bisharp, M, shiny|100/100
+|-damage|p2a: Shar|94/100|[from] Stealth Rock
+|move|p1a: Jellicent|Night Shade|p2a: Shar
+|-damage|p2a: Shar|64/100
+|
+|-heal|p1a: Jellicent|91/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|Camp Chief Ivon has 120 seconds left.
+|
+|switch|p1a: Torkoal|Torkoal, M|29/100
+|-status|p1a: Torkoal|tox
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Shar|Substitute|p2a: Shar
+|-start|p2a: Shar|Substitute
+|-damage|p2a: Shar|39/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Torkoal|23/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|move|p2a: Shar|Sucker Punch|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat|78/100
+|turn|29
+|
+|move|p1a: Rotom|Volt Switch|p2a: Shar
+|-end|p2a: Shar|Substitute
+|
+|switch|p1a: Cherrim|Cherrim, M|100/100|[from]move: Volt Switch
+|-formechange|p1a: Cherrim|Cherrim-Sunshine|[msg]|[from] ability: Flower Gift
+|-status|p1a: Cherrim|tox
+|move|p2a: Shar|Swords Dance|p2a: Shar
+|-boost|p2a: Shar|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Cherrim|94/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|move|p1a: Cherrim|Weather Ball|p2a: Shar
+|-supereffective|p2a: Shar
+|-damage|p2a: Shar|0 fnt
+|faint|p2a: Shar
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Cherrim|82/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Koo|Rotom-Heat|76/100
+|-damage|p2a: Koo|51/100|[from] Stealth Rock
+|turn|31
+|
+|switch|p1a: Jellicent|Jellicent, M|91/100
+|-status|p1a: Jellicent|tox
+|move|p2a: Koo|Trick|p1a: Jellicent
+|-activate|p2a: Koo|move: Trick|[of] p1a: Jellicent
+|-item|p1a: Jellicent|Choice Scarf|[from] move: Trick
+|-item|p2a: Koo|Leftovers|[from] move: Trick
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Koo|57/100|[from] item: Leftovers
+|-damage|p1a: Jellicent|85/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|move|p2a: Koo|Volt Switch|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|49/100 tox
+|
+|switch|p2a: Good|Clefable, F, shiny|100/100|[from]move: Volt Switch
+|move|p1a: Jellicent|Night Shade|p2a: Good
+|-damage|p2a: Good|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Good|81/100|[from] item: Leftovers
+|-damage|p1a: Jellicent|37/100 tox|[from] psn
+|upkeep
+|turn|33
+|inactive|Camp Chief Ivon has 120 seconds left.
+|
+|move|p1a: Jellicent|Night Shade|p2a: Good
+|-damage|p2a: Good|56/100
+|move|p2a: Good|Grass Knot|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|1/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Good|62/100|[from] item: Leftovers
+|-damage|p1a: Jellicent|0 fnt|[from] psn
+|faint|p1a: Jellicent
+|upkeep
+|
+|switch|p1a: Cherrim|Cherrim, M|82/100 tox
+|-formechange|p1a: Cherrim|Cherrim-Sunshine|[msg]|[from] ability: Flower Gift
+|turn|34
+|
+|move|p1a: Cherrim|Solar Blade||[still]
+|-prepare|p1a: Cherrim|Solar Blade|p2a: Good
+|-anim|p1a: Cherrim|Solar Blade|p2a: Good
+|-damage|p2a: Good|0 fnt
+|faint|p2a: Good
+|
+|-weather|none
+|-damage|p1a: Cherrim|76/100 tox|[from] psn
+|upkeep
+|-formechange|p1a: Cherrim|Cherrim|[msg]|[from] ability: Flower Gift
+|
+|switch|p2a: Koo|Rotom-Heat|57/100
+|-damage|p2a: Koo|32/100|[from] Stealth Rock
+|turn|35
+|
+|switch|p1a: Rotom|Rotom-Heat|78/100
+|move|p2a: Koo|Overheat|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|40/100
+|-unboost|p2a: Koo|spa|2
+|
+|-heal|p2a: Koo|39/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p1a: Rotom|Volt Switch|p2a: Koo
+|-resisted|p2a: Koo
+|-damage|p2a: Koo|19/100
+|
+|switch|p1a: Cherrim|Cherrim, M|76/100 tox|[from]move: Volt Switch
+|move|p2a: Koo|Volt Switch|p1a: Cherrim
+|-resisted|p1a: Cherrim
+|-damage|p1a: Cherrim|63/100 tox
+|
+|switch|p2a: Not OU|Toxapex, M, shiny|62/100 brn|[from]move: Volt Switch
+|-damage|p2a: Not OU|49/100 brn|[from] Stealth Rock
+|
+|-heal|p2a: Not OU|55/100 brn|[from] item: Leftovers
+|-damage|p1a: Cherrim|57/100 tox|[from] psn
+|-damage|p2a: Not OU|49/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p2a: Not OU|Baneful Bunker|p2a: Not OU
+|-singleturn|p2a: Not OU|move: Protect
+|move|p1a: Cherrim|Healing Wish|p1a: Cherrim
+|faint|p1a: Cherrim
+|
+|-heal|p2a: Not OU|55/100 brn|[from] item: Leftovers
+|-damage|p2a: Not OU|49/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Bronzong|Bronzong|37/100
+|-heal|p1a: Bronzong|100/100|[from] move: Healing Wish
+|turn|38
+|
+|move|p2a: Not OU|Gunk Shot|p1a: Bronzong
+|-immune|p1a: Bronzong
+|move|p1a: Bronzong|Earthquake|p2a: Not OU
+|-supereffective|p2a: Not OU
+|-damage|p2a: Not OU|25/100 brn
+|
+|-heal|p2a: Not OU|32/100 brn|[from] item: Leftovers
+|-damage|p2a: Not OU|25/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|move|p2a: Not OU|Baneful Bunker|p2a: Not OU
+|-singleturn|p2a: Not OU|move: Protect
+|move|p1a: Bronzong|Earthquake|p2a: Not OU
+|-activate|p2a: Not OU|move: Protect
+|
+|-heal|p2a: Not OU|32/100 brn|[from] item: Leftovers
+|-damage|p2a: Not OU|25/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|move|p2a: Not OU|Gunk Shot|p1a: Bronzong
+|-immune|p1a: Bronzong
+|move|p1a: Bronzong|Gyro Ball|p2a: Not OU
+|-resisted|p2a: Not OU
+|-damage|p2a: Not OU|21/100 brn
+|
+|-heal|p2a: Not OU|27/100 brn|[from] item: Leftovers
+|-damage|p2a: Not OU|21/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|switch|p2a: Koo|Rotom-Heat|19/100
+|-damage|p2a: Koo|0 fnt|[from] Stealth Rock
+|faint|p2a: Koo
+|move|p1a: Bronzong|Earthquake|p2: Koo|[notarget]
+|-fail|p1a: Bronzong
+|
+|upkeep
+|
+|switch|p2a: Gossip|Gardevoir, M, shiny|100/100
+|-damage|p2a: Gossip|88/100|[from] Stealth Rock
+|-ability|p2a: Gossip|Heatproof|[from] ability: Trace|[of] p1a: Bronzong
+|turn|42
+|
+|move|p2a: Gossip|Endure|p2a: Gossip
+|-singleturn|p2a: Gossip|move: Endure
+|move|p1a: Bronzong|Gyro Ball|p2a: Gossip
+|-supereffective|p2a: Gossip
+|-activate|p2a: Gossip|move: Endure
+|-damage|p2a: Gossip|1/100
+|-enditem|p2a: Gossip|Iapapa Berry|[eat]
+|-heal|p2a: Gossip|34/100|[from] item: Iapapa Berry
+|
+|upkeep
+|turn|43
+|
+|move|p2a: Gossip|Draining Kiss|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|90/100
+|-heal|p2a: Gossip|43/100|[from] drain|[of] p1a: Bronzong
+|move|p1a: Bronzong|Gyro Ball|p2a: Gossip
+|-supereffective|p2a: Gossip
+|-damage|p2a: Gossip|0 fnt
+|faint|p2a: Gossip
+|
+|-heal|p1a: Bronzong|96/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Not OU|Toxapex, M, shiny|54/100 brn
+|-damage|p2a: Not OU|42/100 brn|[from] Stealth Rock
+|turn|44
+|c|☆Camp Chief Ivon|i like your simple beam strategy with trace! it's pretty cool
+|-message|iHaveFallenOver forfeited.
+|
+|win|Camp Chief Ivon
+|l|☆iHaveFallenOver
+|raw|Camp Chief Ivon's rating: 1159 → 1180(+21 for winning)
+|raw|iHaveFallenOver's rating: 1099 → 1078(-21 for losing)
+|c|☆Camp Chief Ivon|lol

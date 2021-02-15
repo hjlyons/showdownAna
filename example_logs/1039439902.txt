@@ -1,0 +1,218 @@
+|ScrapeTime|2020-01-02-01:49:02
+|j|☆The drunk Spinda
+|j|☆beeoi
+|player|p1|The drunk Spinda|261|1504
+|player|p2|beeoi|artist|1579
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Obstagoon, M|
+|poke|p1|Seismitoad, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Gengar, F|
+|poke|p1|Dragapult, F|
+|poke|p2|Bronzong|
+|poke|p2|Obstagoon, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Mimikyu, M|
+|poke|p2|Morpeko, F|
+|poke|p2|Toxtricity, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by beeoi)
+|
+|start
+|switch|p1a: Gengar|Gengar, F, shiny|100/100
+|switch|p2a: Gen 4 Remake|Bronzong|100/100
+|turn|1
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Gen 4 Remake
+|-supereffective|p2a: Gen 4 Remake
+|-damage|p2a: Gen 4 Remake|0 fnt
+|faint|p2a: Gen 4 Remake
+|
+|upkeep
+|
+|switch|p2a: Fix Body Press|Obstagoon, F|100/100
+|turn|2
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Fix Body Press|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-enditem|p1a: Dragapult|Choice Scarf|[from] move: Knock Off|[of] p2a: Fix Body Press
+|faint|p1a: Dragapult
+|
+|-status|p2a: Fix Body Press|brn|[from] item: Flame Orb
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|3
+|
+|move|p1a: Cinderace|U-turn|p2a: Fix Body Press
+|-supereffective|p2a: Fix Body Press
+|-damage|p2a: Fix Body Press|56/100 brn
+|
+|switch|p1a: Gengar|Gengar, F, shiny|100/100|[from]move: U-turn
+|move|p2a: Fix Body Press|Facade|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-damage|p2a: Fix Body Press|50/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: More?|Morpeko, F|100/100
+|move|p1a: Gengar|Dazzling Gleam|p2a: More?
+|-supereffective|p2a: More?
+|-damage|p2a: More?|0 fnt
+|faint|p2a: More?
+|
+|upkeep
+|
+|switch|p2a: Star of Violence|Mimikyu, M|100/100
+|turn|5
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|move|p2a: Star of Violence|Shadow Claw|p1a: Corviknight
+|-damage|p1a: Corviknight|71/100
+|
+|-heal|p1a: Corviknight|77/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: BBC Label Punk|Toxtricity, M|100/100
+|move|p1a: Corviknight|U-turn|p2a: BBC Label Punk
+|-resisted|p2a: BBC Label Punk
+|-damage|p2a: BBC Label Punk|89/100
+|
+|switch|p1a: Obstagoon|Obstagoon, M, shiny|100/100|[from]move: U-turn
+|
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|
+|move|p1a: Obstagoon|Facade|p2a: BBC Label Punk
+|-damage|p2a: BBC Label Punk|0 fnt
+|faint|p2a: BBC Label Punk
+|
+|-damage|p1a: Obstagoon|94/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Star of Violence|Mimikyu, M|100/100
+|turn|8
+|
+|move|p2a: Star of Violence|Swords Dance|p2a: Star of Violence
+|-boost|p2a: Star of Violence|atk|2
+|move|p1a: Obstagoon|Knock Off|p2a: Star of Violence
+|-activate|p2a: Star of Violence|ability: Disguise
+|-damage|p2a: Star of Violence|100/100
+|-enditem|p2a: Star of Violence|Spell Tag|[from] move: Knock Off|[of] p1a: Obstagoon
+|detailschange|p2a: Star of Violence|Mimikyu-Busted, M
+|-damage|p2a: Star of Violence|88/100|[from] ability: Disguise|[of] p2a: Star of Violence
+|
+|-damage|p1a: Obstagoon|88/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Star of Violence|Play Rough|p1a: Seismitoad
+|-damage|p1a: Seismitoad|50/100
+|
+|-heal|p1a: Seismitoad|56/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Star of Violence|Play Rough|p1a: Seismitoad
+|-damage|p1a: Seismitoad|7/100
+|move|p1a: Seismitoad|Toxic|p2a: Star of Violence
+|-status|p2a: Star of Violence|tox
+|
+|-heal|p1a: Seismitoad|13/100|[from] item: Leftovers
+|-damage|p2a: Star of Violence|82/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|move|p2a: Star of Violence|Swords Dance|p2a: Star of Violence
+|-boost|p2a: Star of Violence|atk|2
+|move|p1a: Seismitoad|Scald|p2a: Star of Violence
+|-damage|p2a: Star of Violence|51/100 tox
+|
+|-heal|p1a: Seismitoad|19/100|[from] item: Leftovers
+|-damage|p2a: Star of Violence|39/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|move|p1a: Seismitoad|Protect|p1a: Seismitoad
+|-singleturn|p1a: Seismitoad|Protect
+|move|p2a: Star of Violence|Shadow Sneak|p1a: Seismitoad
+|-activate|p1a: Seismitoad|move: Protect
+|
+|-heal|p1a: Seismitoad|25/100|[from] item: Leftovers
+|-damage|p2a: Star of Violence|21/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p1a: Seismitoad|Protect||[still]
+|-fail|p1a: Seismitoad
+|move|p2a: Star of Violence|Play Rough|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-damage|p2a: Star of Violence|0 fnt|[from] psn
+|faint|p2a: Star of Violence
+|upkeep
+|
+|switch|p2a: Christmas Future|Dragapult, F|100/100
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|14
+|
+|move|p2a: Christmas Future|Dragon Dance|p2a: Christmas Future
+|-boost|p2a: Christmas Future|atk|1
+|-boost|p2a: Christmas Future|spe|1
+|move|p1a: Cinderace|Pyro Ball|p2a: Christmas Future
+|-resisted|p2a: Christmas Future
+|-damage|p2a: Christmas Future|59/100
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Cinderace|Sucker Punch|p2a: Christmas Future
+|-supereffective|p2a: Christmas Future
+|-damage|p2a: Christmas Future|0 fnt
+|faint|p2a: Christmas Future
+|
+|upkeep
+|
+|switch|p2a: Fix Body Press|Obstagoon, F|50/100 brn
+|turn|16
+|
+|move|p1a: Cinderace|U-turn|p2a: Fix Body Press
+|-supereffective|p2a: Fix Body Press
+|-damage|p2a: Fix Body Press|5/100 brn
+|
+|switch|p1a: Corviknight|Corviknight, F|77/100|[from]move: U-turn
+|move|p2a: Fix Body Press|Facade|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|24/100
+|
+|-heal|p1a: Corviknight|30/100|[from] item: Leftovers
+|-damage|p2a: Fix Body Press|0 fnt|[from] brn
+|faint|p2a: Fix Body Press
+|
+|win|The drunk Spinda
+|upkeep
+|l|☆beeoi
+|raw|The drunk Spinda's rating: 1504 → 1528(+24 for winning)
+|raw|beeoi's rating: 1579 → 1555(-24 for losing)

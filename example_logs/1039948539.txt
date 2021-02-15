@@ -1,0 +1,234 @@
+|ScrapeTime|2020-01-03-00:10:57
+|j|☆goldendayss
+|j|☆Saikoreo
+|player|p1|goldendayss|170|1105
+|player|p2|Saikoreo|olivia|1088
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cloyster, F|
+|poke|p1|Dugtrio, F|
+|poke|p1|Gyarados, F|
+|poke|p1|Gengar, F|
+|poke|p1|Clefable, M|
+|poke|p1|Snorlax, F|
+|poke|p2|Dracovish|
+|poke|p2|Pelipper, F|
+|poke|p2|Barraskewda, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Ditto|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cloyster|Cloyster, F|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|move|p2a: Pelipper|U-turn|p1a: Cloyster
+|-damage|p1a: Cloyster|90/100
+|
+|switch|p2a: Barraskewda|Barraskewda, F|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Barraskewda|Close Combat|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|-unboost|p2a: Barraskewda|def|1
+|-unboost|p2a: Barraskewda|spd|1
+|faint|p1a: Cloyster
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|turn|3
+|
+|move|p2a: Barraskewda|Close Combat|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|-unboost|p2a: Barraskewda|def|1
+|-unboost|p2a: Barraskewda|spd|1
+|faint|p1a: Snorlax
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆goldendayss|ouch
+|c|☆goldendayss|this is a sweep
+|
+|switch|p1a: Gengar|Gengar, F|100/100
+|turn|4
+|c|☆Saikoreo|Why send snorlax on a close combat choice banded O_O
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Gengar|Sludge Wave|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|c|☆goldendayss|didn't realize you were choiced
+|c|☆goldendayss|thought just swift swim was it
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Gyarados
+|-start|p1a: Gyarados|move: Leech Seed
+|
+|-weather|none
+|-damage|p1a: Gyarados|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|6
+|
+|switch|p1a: Gengar|Gengar, F|100/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|16/100
+|-enditem|p1a: Gengar|Choice Scarf|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Gengar|Focus Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|33/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Gengar
+|-start|p1a: Gengar|move: Leech Seed
+|
+|-damage|p1a: Gengar|4/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|42/100|[silent]
+|upkeep
+|turn|8
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Gengar|Focus Blast|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-damage|p1a: Gengar|0 fnt|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|44/100|[silent]
+|faint|p1a: Gengar
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, F|88/100
+|turn|9
+|
+|move|p1a: Gyarados|Substitute|p1a: Gyarados
+|-start|p1a: Gyarados|Substitute
+|-damage|p1a: Gyarados|63/100
+|move|p2a: Ferrothorn|Leech Seed||[still]
+|-fail|p2a: Ferrothorn
+|
+|-heal|p1a: Gyarados|69/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-heal|p1a: Gyarados|75/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Gyarados|Waterfall|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|62/100
+|move|p2a: Dragapult|Thunderbolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|turn|12
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Clefable|Thunder Wave|p2a: Pelipper
+|-status|p2a: Pelipper|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|c|☆goldendayss|how did that work out?
+|c|☆Saikoreo|Infiltrator
+|
+|move|p1a: Clefable|Wish|p1a: Clefable
+|cant|p2a: Pelipper|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|move|p1a: Clefable|Moonblast|p2a: Pelipper
+|-damage|p2a: Pelipper|58/100 par
+|move|p2a: Pelipper|U-turn|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|97/100
+|
+|switch|p2a: Dracovish|Dracovish|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Clefable|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|15
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|turn|16
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-enditem|p1a: Dugtrio|Focus Sash
+|-damage|p1a: Dugtrio|1/100
+|move|p1a: Dugtrio|Earthquake|p2a: Dracovish
+|-damage|p2a: Dracovish|55/100
+|
+|-weather|none
+|upkeep
+|turn|17
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|win|Saikoreo
+|c|☆goldendayss|gg
+|c|☆goldendayss|How did tbolt go through sub?
+|raw|goldendayss's rating: 1083 → 1061(-22 for losing)
+|raw|Saikoreo's rating: 1088 → 1114(+26 for winning)
+|c|☆Saikoreo|Dragapult had infiltrator
+|c|☆goldendayss|ya I see now
+|c|☆goldendayss|is that typical?
+|c|☆Saikoreo|Yep
+|c|☆goldendayss|kk ty gg

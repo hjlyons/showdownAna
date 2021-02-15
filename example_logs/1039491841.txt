@@ -1,0 +1,286 @@
+|ScrapeTime|2020-01-02-03:58:41
+|j|☆fridge400
+|j|☆through the desert
+|player|p1|fridge400|102|1514
+|player|p2|through the desert|hilbert|1491
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pelipper, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Mantine, M|
+|poke|p1|Dracovish|
+|poke|p1|Seismitoad, F|
+|poke|p1|Bisharp, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Aegislash, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Weavile, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Head Smash|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|-damage|p2a: Aegislash|42/100|[from] Recoil
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Mantine|Mantine, M|100/100
+|turn|2
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Mantine|Hurricane|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|61/100
+|-damage|p1a: Mantine|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Mantine|Hydro Pump|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|7/100
+|-damage|p1a: Mantine|81/100|[from] item: Life Orb
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|57/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Mantine|Hydro Pump|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|3/100
+|-damage|p1a: Mantine|71/100|[from] item: Life Orb
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|53/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p1a: Mantine|Hurricane|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|19/100
+|-start|p2a: Mandibuzz|confusion
+|-damage|p1a: Mantine|61/100|[from] item: Life Orb
+|-activate|p2a: Mandibuzz|confusion
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|69/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p1a: Mantine|Hydro Pump|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|19/100
+|-damage|p1a: Mantine|51/100|[from] item: Life Orb
+|-activate|p2a: Mandibuzz|confusion
+|-damage|p2a: Mandibuzz|13/100|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: Mantine|Hurricane|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|-damage|p1a: Mantine|41/100|[from] item: Life Orb
+|faint|p2a: Mandibuzz
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, F|42/100
+|turn|8
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Mantine
+|-damage|p1a: Mantine|0 fnt
+|faint|p1a: Mantine
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|9
+|
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Dracovish|Crunch|p2a: Weavile
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|62/100
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Weavile|Low Kick|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|30/100
+|-damage|p2a: Weavile|50/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|36/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Weavile|Low Kick|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Ferrothorn|43/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Weavile|Low Kick|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Weavile|37/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|13
+|
+|switch|p2a: Aegislash|Aegislash, F|42/100
+|move|p1a: Dracovish|Crunch|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|14
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Seismitoad
+|-status|p1a: Seismitoad|brn
+|
+|-damage|p1a: Seismitoad|94/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Hatterene
+|move|p2a: Hatterene|Stealth Rock|p1a: Seismitoad|[from]Magic Bounce
+|-sidestart|p1: fridge400|move: Stealth Rock
+|
+|-damage|p1a: Seismitoad|88/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Seismitoad|Poison Jab|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|73/100
+|-damage|p1a: Seismitoad|79/100 brn|[from] item: Life Orb
+|move|p2a: Hatterene|Draining Kiss|p1a: Seismitoad
+|-damage|p1a: Seismitoad|52/100 brn
+|-heal|p2a: Hatterene|97/100|[from] drain|[of] p1a: Seismitoad
+|
+|-heal|p2a: Hatterene|100/100|[from] item: Leftovers
+|-damage|p1a: Seismitoad|45/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p1a: Seismitoad|Poison Jab|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|71/100
+|-damage|p1a: Seismitoad|36/100 brn|[from] item: Life Orb
+|move|p2a: Hatterene|Draining Kiss|p1a: Seismitoad
+|-damage|p1a: Seismitoad|8/100 brn
+|-heal|p2a: Hatterene|95/100|[from] drain|[of] p1a: Seismitoad
+|
+|-heal|p2a: Hatterene|100/100|[from] item: Leftovers
+|-damage|p1a: Seismitoad|2/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p1a: Seismitoad|Poison Jab|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|72/100
+|-damage|p1a: Seismitoad|0 fnt|[from] item: Life Orb
+|faint|p1a: Seismitoad
+|move|p2a: Hatterene|Draining Kiss|p1: Seismitoad|[notarget]
+|-fail|p2a: Hatterene
+|
+|-heal|p2a: Hatterene|78/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|-damage|p1a: Dracovish|88/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Seismitoad
+|-immune|p2a: Seismitoad|[from] ability: Water Absorb
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|-damage|p1a: Bisharp|95/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Earth Power|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|88/100
+|-damage|p1a: Dracovish|76/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Dracovish|Crunch|p2a: Seismitoad
+|-damage|p2a: Seismitoad|63/100
+|-unboost|p2a: Seismitoad|def|1
+|move|p2a: Seismitoad|Toxic|p1a: Dracovish
+|-status|p1a: Dracovish|tox
+|
+|-heal|p2a: Seismitoad|69/100|[from] item: Leftovers
+|-damage|p1a: Dracovish|69/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Dracovish|Crunch|p2a: Rotom
+|-damage|p2a: Rotom|51/100
+|
+|-heal|p2a: Rotom|57/100|[from] item: Leftovers
+|-damage|p1a: Dracovish|57/100 tox|[from] psn
+|upkeep
+|turn|23
+|l|☆fridge400
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by through the desert)
+|inactive|fridge400 has 30 seconds to reconnect!
+|inactive|fridge400 has 20 seconds to reconnect!
+|inactive|fridge400 has 15 seconds to reconnect!
+|inactive|fridge400 has 10 seconds to reconnect!
+|inactive|fridge400 has 5 seconds to reconnect!
+|-message|fridge400 lost due to inactivity.
+|
+|win|through the desert

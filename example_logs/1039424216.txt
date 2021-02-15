@@ -1,0 +1,407 @@
+|ScrapeTime|2020-01-02-01:19:02
+|j|☆RCM94
+|j|☆Explosion Badger
+|player|p1|RCM94|2|1442
+|player|p2|Explosion Badger|roxie|1405
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Seismitoad, M|
+|poke|p1|Clefable, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Clefable, M|
+|poke|p2|Jellicent, F|
+|poke|p2|Cinderace, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Mandibuzz|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|70/100
+|-enditem|p1a: Rotom|Choice Scarf|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Rotom|Thunder Wave|p2a: Mandibuzz|[miss]
+|-miss|p1a: Rotom|p2a: Mandibuzz
+|move|p2a: Mandibuzz|U-turn|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|63/100
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100|[from]move: U-turn
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Excadrill|Earthquake|p1a: Seismitoad
+|-damage|p1a: Seismitoad|49/100
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Excadrill|Stealth Rock|p1a: Seismitoad
+|-sidestart|p1: RCM94|move: Stealth Rock
+|move|p1a: Seismitoad|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Jellicent|Jellicent, F|100/100
+|turn|5
+|
+|move|p1a: Seismitoad|Power Whip|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|42/100
+|move|p2a: Jellicent|Taunt|p1a: Seismitoad
+|-start|p1a: Seismitoad|move: Taunt
+|
+|-heal|p2a: Jellicent|48/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Seismitoad|Liquidation|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|74/100
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|turn|8
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Clefable|Moonblast|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|62/100
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Clefable
+|-damage|p1a: Clefable|10/100
+|move|p1a: Clefable|Thunderbolt|p2a: Cinderace
+|-damage|p2a: Cinderace|13/100
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Clefable|[miss]
+|-miss|p2a: Cinderace|p1a: Clefable
+|move|p1a: Clefable|Thunderbolt|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|74/100
+|turn|11
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|86/100
+|-damage|p2a: Mandibuzz|71/100
+|-hitcount|p2a: Mandibuzz|2
+|
+|-heal|p1a: Dragapult|94/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Mandibuzz|U-turn|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|92/100
+|
+|switch|p2a: Jellicent|Jellicent, F|48/100|[from]move: U-turn
+|
+|-heal|p2a: Jellicent|54/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p1: RCM94|Stealth Rock|[silent]
+|-sidestart|p2: Explosion Badger|Stealth Rock|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Jellicent|Strength Sap|p1a: Cinderace
+|-unboost|p1a: Cinderace|atk|1
+|-heal|p2a: Jellicent|100/100
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Cinderace|U-turn|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|94/100
+|
+|switch|p1a: Rotom|Rotom-Heat|63/100|[from]move: U-turn
+|move|p2a: Jellicent|Taunt|p1a: Rotom
+|-start|p1a: Rotom|move: Taunt
+|
+|-heal|p2a: Jellicent|99/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Rotom|Volt Switch|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|51/100
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100|[from]move: Volt Switch
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Jellicent|Night Shade|p1a: Excadrill
+|-damage|p1a: Excadrill|73/100
+|
+|-heal|p2a: Jellicent|57/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Excadrill|Earthquake|p2a: Jellicent
+|-damage|p2a: Jellicent|14/100
+|move|p2a: Jellicent|Strength Sap|p1a: Excadrill
+|-unboost|p1a: Excadrill|atk|1
+|-heal|p2a: Jellicent|100/100
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Rotom|Rotom-Heat|63/100
+|move|p2a: Jellicent|Taunt|p1a: Rotom
+|-start|p1a: Rotom|move: Taunt
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Rotom|Volt Switch|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|46/100
+|
+|switch|p1a: Dragapult|Dragapult, M|94/100|[from]move: Volt Switch
+|move|p2a: Jellicent|Strength Sap|p1a: Dragapult
+|-unboost|p1a: Dragapult|atk|1
+|-heal|p2a: Jellicent|100/100
+|
+|-heal|p1a: Dragapult|99/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|75/100
+|move|p2a: Jellicent|Taunt|p1a: Dragapult
+|-start|p1a: Dragapult|move: Taunt
+|
+|-heal|p1a: Dragapult|81/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Jellicent
+|move|p2a: Jellicent|Night Shade|p1a: Dragapult|[miss]
+|-miss|p2a: Jellicent|p1a: Dragapult
+|
+|-heal|p1a: Dragapult|87/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Jellicent|[from]lockedmove
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|50/100
+|move|p2a: Jellicent|Night Shade|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|93/100|[from] item: Leftovers
+|-heal|p2a: Jellicent|56/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p1a: Rotom|Rotom-Heat|63/100
+|switch|p2a: Mandibuzz|Mandibuzz, F|71/100
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Rotom|Volt Switch|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|22/100
+|
+|switch|p1a: Cinderace|Cinderace, M|92/100|[from]move: Volt Switch
+|move|p2a: Mandibuzz|Toxic|p1a: Cinderace|[miss]
+|-miss|p2a: Mandibuzz|p1a: Cinderace
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Cinderace|U-turn|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|7/100
+|
+|switch|p1a: Rotom|Rotom-Heat|63/100|[from]move: U-turn
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|57/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Rotom|Trick|p2a: Mandibuzz
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Mandibuzz
+|-enditem|p2a: Mandibuzz|Heavy-Duty Boots|[silent]|[from] move: Trick
+|-item|p1a: Rotom|Heavy-Duty Boots|[from] move: Trick
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Rotom|Volt Switch|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|44/100
+|
+|switch|p1a: Cinderace|Cinderace, M|92/100|[from]move: Volt Switch
+|move|p2a: Mandibuzz|Toxic|p1a: Cinderace
+|-status|p1a: Cinderace|tox
+|
+|-damage|p1a: Cinderace|86/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|8/100
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|58/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Cinderace|74/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|move|p1a: Cinderace|U-turn|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|45/100
+|
+|switch|p1a: Rotom|Rotom-Heat|63/100|[from]move: U-turn
+|move|p2a: Mandibuzz|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|32/100
+|-enditem|p1a: Rotom|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|30
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Clefable
+|-damage|p2a: Clefable|78/100
+|
+|switch|p1a: Excadrill|Excadrill, F|73/100|[from]move: Volt Switch
+|-ability|p1a: Excadrill|Mold Breaker
+|
+|-heal|p2a: Clefable|84/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|45/100
+|-damage|p2a: Mandibuzz|20/100|[from] Stealth Rock
+|move|p1a: Excadrill|Iron Head|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|74/100
+|-damage|p2a: Dragapult|62/100|[from] Stealth Rock
+|turn|32
+|
+|move|p2a: Dragapult|Fire Blast|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Explosion Badger)
+|
+|switch|p1a: Dragapult|Dragapult, M|93/100
+|turn|33
+|
+|switch|p2a: Clefable|Clefable, M|84/100
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|
+|-heal|p1a: Dragapult|99/100|[from] item: Leftovers
+|-heal|p2a: Clefable|90/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Clefable
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p1a: Dragapult|100/100|[from] item: Leftovers
+|-heal|p2a: Clefable|96/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Clefable|[from]lockedmove
+|-damage|p2a: Clefable|35/100
+|move|p2a: Clefable|Thunder Wave|p1a: Dragapult
+|-status|p1a: Dragapult|par
+|
+|-heal|p2a: Clefable|85/100|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Clefable|91/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|c|☆RCM94|bg
+|l|☆RCM94
+|inactive|RCM94 disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|RCM94 has 30 seconds to reconnect!
+|inactive|RCM94 has 20 seconds to reconnect!
+|inactive|RCM94 has 15 seconds to reconnect!
+|inactive|RCM94 has 10 seconds to reconnect!
+|c|☆Explosion Badger|noice
+|inactive|RCM94 has 5 seconds to reconnect!
+|-message|RCM94 lost due to inactivity.
+|
+|win|Explosion Badger
+|raw|RCM94's rating: 1422 → 1401(-21 for losing)
+|raw|Explosion Badger's rating: 1405 → 1426(+21 for winning)

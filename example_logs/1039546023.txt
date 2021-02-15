@@ -1,0 +1,409 @@
+|ScrapeTime|2020-01-02-06:54:55
+|j|☆seanisghey
+|j|☆DarkGenex
+|player|p1|seanisghey|gardenia|1408
+|player|p2|DarkGenex|unknownf|1448
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ribombee, F|
+|poke|p1|Dracozolt|
+|poke|p1|Bisharp, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Vaporeon, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Rotom-Mow|
+|poke|p2|Ditto|
+|poke|p2|Toxapex, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Hippowdon, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by seanisghey)
+|
+|start
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|turn|1
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Dracozolt|[miss]
+|-miss|p2a: Rotom|p1a: Dracozolt
+|move|p1a: Dracozolt|Fire Fang|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|16/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Dracozolt
+|-status|p1a: Dracozolt|brn
+|move|p1a: Dracozolt|Fire Fang|p2a: Rotom|[miss]
+|-miss|p1a: Dracozolt|p2a: Rotom
+|
+|-damage|p1a: Dracozolt|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Dracozolt|Substitute|p1a: Dracozolt
+|-start|p1a: Dracozolt|Substitute
+|-damage|p1a: Dracozolt|69/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dracozolt|63/100 brn|[from] Sandstorm
+|-heal|p1a: Dracozolt|69/100 brn|[from] item: Leftovers
+|-damage|p1a: Dracozolt|63/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Hippowdon|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: seanisghey|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|77/100
+|-enditem|p2a: Hatterene|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hatterene|71/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|switch|p1a: Vaporeon|Vaporeon, M|100/100
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|move|p2a: Hatterene|Mystical Fire|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|76/100
+|-unboost|p1a: Vaporeon|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vaporeon|70/100|[from] Sandstorm
+|-damage|p2a: Hatterene|65/100|[from] Sandstorm
+|-heal|p1a: Vaporeon|76/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Vaporeon|Scald|p2a: Hatterene
+|-damage|p2a: Hatterene|45/100
+|move|p2a: Hatterene|Giga Drain|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|33/100
+|-heal|p2a: Hatterene|77/100|[from] drain|[of] p1a: Vaporeon
+|
+|-weather|none
+|-heal|p1a: Vaporeon|39/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Vaporeon|Scald|p2a: Hatterene
+|-damage|p2a: Hatterene|57/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|27/100
+|-unboost|p1a: Vaporeon|spa|1
+|
+|-heal|p1a: Vaporeon|33/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Dracozolt|Dracozolt|63/100 brn
+|-damage|p1a: Dracozolt|51/100 brn|[from] Stealth Rock
+|move|p2a: Hatterene|Mystical Fire|p1a: Dracozolt
+|-resisted|p1a: Dracozolt
+|-damage|p1a: Dracozolt|30/100 brn
+|-unboost|p1a: Dracozolt|spa|1
+|
+|-heal|p1a: Dracozolt|36/100 brn|[from] item: Leftovers
+|-damage|p1a: Dracozolt|30/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|-damage|p1a: Ribombee|76/100|[from] Stealth Rock
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Ribombee|[from] ability: Imposter
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Ditto|U-turn|p1a: Ribombee
+|-resisted|p1a: Ribombee
+|-damage|p1a: Ribombee|62/100
+|
+|switch|p2a: Hatterene|Hatterene, F|57/100|[from]move: U-turn
+|move|p1a: Ribombee|Sticky Web|p2a: Hatterene
+|move|p2a: Hatterene|Sticky Web|p1a: Ribombee|[from]Magic Bounce
+|-sidestart|p1: seanisghey|move: Sticky Web
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Ribombee|Moonblast|p2a: Hatterene
+|-damage|p2a: Hatterene|17/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|-item|p1a: Excadrill|Air Balloon
+|turn|13
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-sideend|p1: seanisghey|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-sideend|p1: seanisghey|Sticky Web|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|14
+|
+|move|p1a: Excadrill|Earthquake|p2a: Hippowdon
+|-damage|p2a: Hippowdon|70/100
+|move|p2a: Hippowdon|Stealth Rock|p1a: Excadrill
+|-sidestart|p1: seanisghey|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|76/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Excadrill|Rapid Spin|p2a: Hydreigon
+|-damage|p2a: Hydreigon|75/100
+|-sideend|p1: seanisghey|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|69/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|move|p1a: Excadrill|Earthquake|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Excadrill|[from] ability: Imposter
+|-ability|p2a: Ditto|Mold Breaker
+|turn|17
+|
+|move|p2a: Ditto|Iron Head|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|62/100
+|-enditem|p1a: Excadrill|Air Balloon
+|move|p1a: Excadrill|Earthquake|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Hippowdon|Hippowdon, M|76/100
+|turn|18
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Hippowdon|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|77/100
+|
+|-weather|none
+|-heal|p2a: Hippowdon|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Rotom|Rotom-Mow|16/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-enditem|p2a: Rotom|Choice Scarf|[from] move: Knock Off|[of] p1a: Ferrothorn
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Hippowdon|Hippowdon, M|82/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|20
+|
+|move|p2a: Hippowdon|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: seanisghey|move: Stealth Rock
+|move|p1a: Ferrothorn|Knock Off|p2a: Hippowdon
+|-damage|p2a: Hippowdon|72/100
+|-enditem|p2a: Hippowdon|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|21
+|
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Hippowdon
+|-sidestart|p2: DarkGenex|move: Stealth Rock
+|move|p2a: Hippowdon|Whirlwind|p1a: Ferrothorn
+|drag|p1a: Bisharp|Bisharp, M|100/100
+|-damage|p1a: Bisharp|95/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|22
+|
+|move|p1a: Bisharp|Iron Head|p2a: Hippowdon
+|-damage|p2a: Hippowdon|48/100
+|move|p2a: Hippowdon|Earthquake|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|23
+|
+|move|p1a: Bisharp|Iron Head|p2a: Hippowdon
+|-damage|p2a: Hippowdon|23/100
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|24
+|
+|move|p1a: Bisharp|Iron Head|p2a: Hippowdon
+|-damage|p2a: Hippowdon|48/100
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|98/100
+|
+|-weather|none
+|upkeep
+|turn|25
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|77/100
+|-damage|p1a: Ferrothorn|71/100|[from] Stealth Rock
+|move|p2a: Hippowdon|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|48/100
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Hippowdon|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|25/100
+|move|p1a: Ferrothorn|Spikes|p2a: Hippowdon
+|-sidestart|p2: DarkGenex|Spikes
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Hippowdon|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|5/100
+|move|p1a: Ferrothorn|Spikes|p2a: Hippowdon
+|-sidestart|p2: DarkGenex|Spikes
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Hippowdon|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|62/100
+|-damage|p1a: Excadrill|59/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|29
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Hippowdon
+|-damage|p2a: Hippowdon|88/100
+|-sideend|p1: seanisghey|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|move|p2a: Hippowdon|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Vaporeon|Vaporeon, M|33/100
+|turn|30
+|
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|move|p2a: Hippowdon|Earthquake|p1a: Vaporeon
+|-damage|p1a: Vaporeon|4/100
+|
+|-heal|p1a: Vaporeon|10/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Hippowdon|Stealth Rock|p1a: Vaporeon
+|-sidestart|p1: seanisghey|move: Stealth Rock
+|
+|-heal|p1a: Vaporeon|60/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Vaporeon|66/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|move|p2a: Hippowdon|Whirlwind|p1a: Vaporeon
+|drag|p1a: Bisharp|Bisharp, M|5/100
+|-damage|p1a: Bisharp|0 fnt|[from] Stealth Rock
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|switch|p1a: Vaporeon|Vaporeon, M|66/100
+|-damage|p1a: Vaporeon|54/100|[from] Stealth Rock
+|turn|33
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|-damage|p2a: Toxapex|72/100|[from] Spikes
+|move|p1a: Vaporeon|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|62/100
+|
+|-heal|p1a: Vaporeon|100/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Toxapex|68/100|[from] item: Black Sludge
+|upkeep
+|turn|34
+|
+|move|p1a: Vaporeon|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|58/100
+|move|p2a: Toxapex|Toxic|p1a: Vaporeon
+|-status|p1a: Vaporeon|tox
+|
+|-heal|p2a: Toxapex|65/100|[from] item: Black Sludge
+|-damage|p1a: Vaporeon|94/100 tox|[from] psn
+|upkeep
+|turn|35
+|-message|seanisghey forfeited.
+|
+|win|DarkGenex
+|l|☆seanisghey
+|raw|seanisghey's rating: 1408 → 1390(-18 for losing)
+|raw|DarkGenex's rating: 1448 → 1466(+18 for winning)

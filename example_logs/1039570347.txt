@@ -1,0 +1,464 @@
+|ScrapeTime|2020-01-02-08:45:52
+|j|☆Monroyjmcm
+|j|☆seanisghey
+|player|p1|Monroyjmcm|lucian|1282
+|player|p2|seanisghey|gardenia|1328
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Tyranitar, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Togekiss, F|
+|poke|p2|Ribombee, F|
+|poke|p2|Dracozolt|
+|poke|p2|Bisharp, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Vaporeon, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by seanisghey)
+|
+|start
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|turn|1
+|
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|move|p1a: Toxapex|Toxic Spikes|p2a: Bisharp
+|-sidestart|p2: seanisghey|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Toxapex
+|-damage|p1a: Toxapex|35/100
+|-start|p1a: Toxapex|Throat Chop|[silent]
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Toxapex|41/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|move|p1a: Toxapex|Toxic Spikes|p2a: Bisharp
+|-sidestart|p2: seanisghey|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|48/100|[from] item: Black Sludge
+|-end|p1a: Toxapex|Throat Chop|[silent]
+|upkeep
+|turn|4
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Bisharp|Throat Chop|p1a: Corviknight
+|-damage|p1a: Corviknight|39/100
+|-damage|p2a: Bisharp|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|-start|p1a: Corviknight|Throat Chop|[silent]
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-damage|p2a: Bisharp|67/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|6
+|
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|-item|p2a: Excadrill|Air Balloon
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Excadrill
+|-status|p2a: Excadrill|brn
+|
+|-heal|p1a: Dragapult|88/100|[from] item: Leftovers
+|-damage|p2a: Excadrill|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p1a: Dragapult|Hex|p2a: Excadrill
+|-damage|p2a: Excadrill|29/100 brn
+|-enditem|p2a: Excadrill|Air Balloon
+|move|p2a: Excadrill|Earthquake|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|94/100|[from] item: Leftovers
+|-damage|p2a: Excadrill|23/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Dragapult|Disable|p2a: Excadrill
+|-start|p2a: Excadrill|Disable|Earthquake
+|cant|p2a: Excadrill|Disable|Earthquake
+|
+|-heal|p1a: Dragapult|100/100|[from] item: Leftovers
+|-damage|p2a: Excadrill|17/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|move|p2a: Excadrill|Iron Head|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|-damage|p2a: Excadrill|10/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|57/100
+|move|p2a: Excadrill|Iron Head|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|63/100|[from] item: Leftovers
+|-damage|p2a: Excadrill|4/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Dragapult|Hex|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|78/100
+|
+|-heal|p1a: Dragapult|70/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|45/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|51/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Dragapult|Disable|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|Disable|Knock Off
+|cant|p2a: Ferrothorn|Disable|Knock Off
+|
+|-heal|p1a: Dragapult|57/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|-status|p2a: Ribombee|tox
+|move|p1a: Dragapult|Will-O-Wisp||[still]
+|-fail|p1a: Dragapult
+|
+|-heal|p1a: Dragapult|63/100|[from] item: Leftovers
+|-damage|p2a: Ribombee|94/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|39/100
+|move|p2a: Ribombee|Moonblast|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|45/100|[from] item: Leftovers
+|-damage|p2a: Ribombee|82/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p1a: Dragapult|Disable|p2a: Ribombee
+|-start|p2a: Ribombee|Disable|Moonblast
+|cant|p2a: Ribombee|Disable|Moonblast
+|
+|-heal|p1a: Dragapult|51/100|[from] item: Leftovers
+|-damage|p2a: Ribombee|64/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|move|p1a: Dragapult|Hex|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|-heal|p1a: Dragapult|57/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|78/100
+|turn|19
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|32/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|39/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Dragapult|Disable|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|Disable|Knock Off
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: Monroyjmcm|move: Stealth Rock
+|
+|-heal|p1a: Dragapult|45/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|20/100
+|move|p2a: Ferrothorn|Spikes|p1a: Dragapult
+|-sidestart|p1: Monroyjmcm|Spikes
+|
+|-heal|p1a: Dragapult|26/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Spikes|p1a: Dragapult
+|-sidestart|p1: Monroyjmcm|Spikes
+|
+|-heal|p1a: Dragapult|32/100|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|72/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Dragapult|Hex|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|30/100 brn
+|move|p2a: Ferrothorn|Spikes|p1a: Dragapult
+|-sidestart|p1: Monroyjmcm|Spikes
+|
+|-heal|p1a: Dragapult|39/100|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|24/100 brn|[from] brn
+|-end|p2a: Ferrothorn|Disable
+|upkeep
+|turn|24
+|
+|move|p1a: Dragapult|Hex|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Dragapult|45/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|67/100
+|turn|25
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Bisharp
+|-status|p2a: Bisharp|brn
+|move|p2a: Bisharp|Iron Head|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|51/100|[from] item: Leftovers
+|-damage|p2a: Bisharp|61/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|26/100
+|move|p2a: Bisharp|Throat Chop|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|32/100|[from] item: Leftovers
+|-damage|p2a: Bisharp|55/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p1a: Dragapult|Disable|p2a: Bisharp
+|-start|p2a: Bisharp|Disable|Throat Chop
+|move|p2a: Bisharp|Iron Head|p1a: Dragapult
+|-damage|p1a: Dragapult|3/100
+|
+|-heal|p1a: Dragapult|10/100|[from] item: Leftovers
+|-damage|p2a: Bisharp|50/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p1a: Dragapult|Hex|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|7/100 brn
+|move|p2a: Bisharp|Iron Head|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-damage|p2a: Bisharp|1/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|-damage|p1a: Togekiss|76/100|[from] Stealth Rock
+|turn|29
+|
+|move|p1a: Togekiss|Substitute|p1a: Togekiss
+|-start|p1a: Togekiss|Substitute
+|-damage|p1a: Togekiss|51/100
+|move|p2a: Bisharp|Iron Head|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-end|p1a: Togekiss|Substitute
+|
+|-heal|p1a: Togekiss|57/100|[from] item: Leftovers
+|-damage|p2a: Bisharp|0 fnt|[from] brn
+|faint|p2a: Bisharp
+|upkeep
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|-status|p2a: Dracozolt|tox
+|turn|30
+|
+|move|p1a: Togekiss|Aura Sphere|p2a: Dracozolt
+|-damage|p2a: Dracozolt|63/100 tox
+|move|p2a: Dracozolt|Bolt Beak|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|-heal|p2a: Dracozolt|70/100 tox|[from] item: Leftovers
+|-damage|p2a: Dracozolt|63/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|-damage|p1a: Cinderace|76/100|[from] Stealth Rock
+|-damage|p1a: Cinderace|51/100|[from] Spikes
+|turn|31
+|inactive|Monroyjmcm has 120 seconds left.
+|
+|switch|p2a: Excadrill|Excadrill, M|4/100 brn
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Cinderace|Gunk Shot|p2a: Excadrill
+|-immune|p2a: Excadrill
+|
+|-damage|p2a: Excadrill|0 fnt|[from] brn
+|faint|p2a: Excadrill
+|upkeep
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|-status|p2a: Vaporeon|tox
+|turn|32
+|
+|move|p1a: Cinderace|U-turn|p2a: Vaporeon
+|-damage|p2a: Vaporeon|83/100 tox
+|
+|switch|p1a: Toxapex|Toxapex, F|81/100|[from]move: U-turn
+|-damage|p1a: Toxapex|56/100|[from] Spikes
+|-damage|p1a: Toxapex|43/100|[from] Stealth Rock
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|89/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|50/100|[from] item: Black Sludge
+|-damage|p2a: Vaporeon|83/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|switch|p2a: Dracozolt|Dracozolt|63/100 tox
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|99/100
+|
+|-heal|p2a: Dracozolt|100/100 tox|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p2a: Dracozolt|94/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|move|p2a: Dracozolt|Bolt Beak|p1a: Toxapex|[miss]
+|-miss|p2a: Dracozolt|p1a: Toxapex
+|move|p1a: Toxapex|Recover||[still]
+|-fail|p1a: Toxapex|heal
+|
+|-heal|p2a: Dracozolt|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Dracozolt|88/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|move|p2a: Dracozolt|Bolt Beak|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-heal|p2a: Dracozolt|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Dracozolt|76/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|51/100
+|-damage|p1a: Cinderace|26/100|[from] Spikes
+|-damage|p1a: Cinderace|1/100|[from] Stealth Rock
+|turn|36
+|
+|switch|p2a: Vaporeon|Vaporeon, F|83/100 tox
+|move|p1a: Cinderace|Pyro Ball|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|48/100 tox
+|
+|-heal|p2a: Vaporeon|54/100 tox|[from] item: Leftovers
+|-damage|p2a: Vaporeon|48/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|move|p1a: Cinderace|Gunk Shot|p2a: Vaporeon
+|-damage|p2a: Vaporeon|20/100 tox
+|move|p2a: Vaporeon|Scald|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-heal|p2a: Vaporeon|26/100 tox|[from] item: Leftovers
+|-damage|p2a: Vaporeon|13/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|75/100|[from] Spikes
+|-damage|p1a: Tyranitar|63/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|38
+|
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|move|p1a: Tyranitar|Crunch|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Dracozolt|Dracozolt|76/100 tox
+|turn|39
+|
+|move|p2a: Dracozolt|Bolt Beak|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|win|seanisghey
+|l|☆Monroyjmcm
+|raw|Monroyjmcm's rating: 1282 → 1260(-22 for losing)
+|raw|seanisghey's rating: 1328 → 1345(+17 for winning)

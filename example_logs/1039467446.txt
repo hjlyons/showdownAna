@@ -1,0 +1,367 @@
+|ScrapeTime|2020-01-02-02:56:34
+|j|☆rabbit1069
+|j|☆darkaufeu77
+|player|p1|rabbit1069|101|1327
+|player|p2|darkaufeu77|163|1344
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Dracovish|
+|poke|p1|Seismitoad, M|
+|poke|p1|Bisharp, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Ferrothorn, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Dracozolt|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Dracovish|
+|poke|p2|Corviknight, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by darkaufeu77)
+|
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|move|p2a: Dragapult|Thunderbolt|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|2
+|
+|switch|p2a: Dracozolt|Dracozolt, shiny|100/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Dracozolt
+|-resisted|p2a: Dracozolt
+|-damage|p2a: Dracozolt|0 fnt
+|faint|p2a: Dracozolt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|3
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Dracovish|Outrage|p1a: Seismitoad
+|-damage|p1a: Seismitoad|22/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p2a: Dracovish|Outrage|p1a: Seismitoad|[from]lockedmove
+|-damage|p1a: Seismitoad|0 fnt
+|-start|p2a: Dracovish|confusion|[fatigue]
+|faint|p1a: Seismitoad
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|turn|5
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Cinderace
+|-sidestart|p2: darkaufeu77|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Dracovish|[miss]
+|-miss|p2a: Cinderace|p1a: Dracovish
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|19/100
+|-damage|p2a: Dracovish|76/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Dracovish|63/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|-item|p1a: Bisharp|Air Balloon
+|turn|10
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Bisharp|Low Sweep|p2a: Corviknight
+|-damage|p2a: Corviknight|61/100
+|-unboost|p2a: Corviknight|spe|1
+|move|p2a: Corviknight|Taunt|p1a: Bisharp
+|-start|p1a: Bisharp|move: Taunt
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Corviknight
+|-damage|p2a: Corviknight|15/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|64/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Corviknight
+|-damage|p2a: Corviknight|22/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|72/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Corviknight
+|-damage|p2a: Corviknight|29/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|78/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Corviknight
+|-damage|p2a: Corviknight|36/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|86/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Corviknight
+|-damage|p2a: Corviknight|40/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|90/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Corviknight
+|-damage|p2a: Corviknight|42/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|92/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Corviknight|Brave Bird|p1a: Dragapult
+|-damage|p1a: Dragapult|27/100
+|-damage|p2a: Corviknight|81/100|[from] Recoil
+|
+|-heal|p1a: Dragapult|33/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Corviknight
+|move|p2a: Corviknight|Brave Bird|p1a: Dragapult|[miss]
+|-miss|p2a: Corviknight|p1a: Dragapult
+|
+|-heal|p1a: Dragapult|39/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Corviknight|[from]lockedmove
+|-damage|p2a: Corviknight|54/100
+|move|p2a: Corviknight|Brave Bird|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p2a: Corviknight|44/100|[from] Recoil
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|-item|p1a: Bisharp|Air Balloon
+|turn|23
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Corviknight|Taunt|p1a: Bisharp
+|-start|p1a: Bisharp|move: Taunt
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Bisharp|Iron Head|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|28/100
+|cant|p2a: Corviknight|flinch
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Bisharp|Iron Head|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|10/100
+|cant|p2a: Corviknight|flinch
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Bisharp|Iron Head|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-end|p1a: Bisharp|move: Taunt
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F, shiny|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Bisharp|Sucker Punch||[still]
+|-fail|p1a: Bisharp
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Bisharp
+|-status|p1a: Bisharp|par
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Ferrothorn|Leech Seed|p1a: Bisharp
+|-start|p1a: Bisharp|move: Leech Seed
+|
+|-damage|p1a: Bisharp|88/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|29
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|71/100 par
+|-enditem|p1a: Bisharp|Air Balloon
+|
+|-damage|p1a: Bisharp|58/100 par|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|30
+|
+|move|p1a: Bisharp|Low Sweep|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Bisharp|46/100 par|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|31
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|63/100
+|-damage|p2a: Dracovish|51/100|[from] Stealth Rock
+|turn|32
+|
+|cant|p1a: Bisharp|par
+|move|p2a: Dracovish|Outrage|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|3/100 par
+|
+|-damage|p1a: Bisharp|0 fnt|[from] Leech Seed|[of] p2a: Dracovish
+|-heal|p2a: Dracovish|53/100|[silent]
+|faint|p1a: Bisharp
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|33
+|
+|move|p1a: Dracovish|Earthquake|p2a: Dracovish
+|-damage|p2a: Dracovish|20/100
+|move|p2a: Dracovish|Outrage|p1a: Dracovish|[from]lockedmove
+|-supereffective|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|win|darkaufeu77
+|l|☆rabbit1069
+|c|☆darkaufeu77|gg
+|raw|rabbit1069's rating: 1327 → 1308(-19 for losing)
+|raw|darkaufeu77's rating: 1344 → 1363(+19 for winning)

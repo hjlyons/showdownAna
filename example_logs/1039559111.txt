@@ -1,0 +1,945 @@
+|ScrapeTime|2020-01-02-07:54:48
+|j|☆DarkGenex
+|j|☆Piplz
+|player|p1|DarkGenex|unknownf|1466
+|player|p2|Piplz|79|1485
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Rotom-Mow|
+|poke|p1|Ditto|
+|poke|p1|Toxapex, F|
+|poke|p1|Hydreigon, F|
+|poke|p1|Hippowdon, M|
+|poke|p2|Salazzle, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Vaporeon, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Rotom-Heat|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ditto|Ditto|100/100
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|-transform|p1a: Ditto|p2a: Vaporeon|[from] ability: Imposter
+|turn|1
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Rotom
+|-immune|p2a: Rotom
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Rotom|[from] ability: Imposter
+|move|p2a: Rotom|Overheat|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|69/100
+|-unboost|p2a: Rotom|spa|2
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Ditto|Overheat|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|63/100
+|-unboost|p1a: Ditto|spa|2
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|
+|-heal|p2a: Rotom|69/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|60/100
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100|[from]move: Volt Switch
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|-heal|p1a: Toxapex|67/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Excadrill|Earthquake|p1a: Hippowdon
+|-damage|p1a: Hippowdon|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|79/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Hippowdon|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Piplz|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|85/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|94/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|switch|p2a: Rotom|Rotom-Heat|69/100
+|-damage|p2a: Rotom|44/100|[from] Stealth Rock
+|move|p1a: Rotom|Trick|p2a: Rotom
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Rotom
+|-item|p2a: Rotom|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|38/100|[from] Sandstorm
+|-damage|p1a: Rotom|88/100|[from] Sandstorm
+|-heal|p1a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Hippowdon|Hippowdon, M|85/100
+|move|p2a: Rotom|Volt Switch|p1a: Hippowdon
+|-immune|p1a: Hippowdon
+|
+|-weather|none
+|-heal|p1a: Hippowdon|92/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|-damage|p2a: Vaporeon|88/100|[from] Stealth Rock
+|move|p1a: Hippowdon|Whirlwind|p2a: Vaporeon
+|drag|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Hippowdon|98/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Vaporeon|Vaporeon, F|88/100
+|-damage|p2a: Vaporeon|76/100|[from] Stealth Rock
+|move|p1a: Hippowdon|Earthquake|p2a: Vaporeon
+|-damage|p2a: Vaporeon|48/100
+|
+|-heal|p2a: Vaporeon|55/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Toxapex|Toxapex, F|99/100
+|move|p2a: Vaporeon|Protect||[still]
+|-fail|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|61/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|move|p1a: Toxapex|Toxic|p2a: Vaporeon
+|-status|p2a: Vaporeon|tox
+|
+|-heal|p2a: Vaporeon|67/100 tox|[from] item: Leftovers
+|-damage|p2a: Vaporeon|61/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|-damage|p2a: Salazzle|75/100|[from] Stealth Rock
+|move|p1a: Toxapex|Scald|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|40/100
+|
+|-heal|p2a: Salazzle|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|16
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Salazzle|Toxic|p1a: Hatterene
+|move|p1a: Hatterene|Toxic|p2a: Salazzle|[from]Magic Bounce
+|-immune|p2a: Salazzle
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Salazzle|Substitute|p2a: Salazzle
+|-start|p2a: Salazzle|Substitute
+|-damage|p2a: Salazzle|75/100
+|move|p1a: Hatterene|Psychic|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-end|p2a: Salazzle|Substitute
+|
+|-heal|p2a: Salazzle|82/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p2a: Salazzle|Protect|p2a: Salazzle
+|-singleturn|p2a: Salazzle|Protect
+|move|p1a: Hatterene|Psychic|p2a: Salazzle
+|-activate|p2a: Salazzle|move: Protect
+|
+|-heal|p2a: Salazzle|88/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|switch|p2a: Vaporeon|Vaporeon, F|61/100 tox
+|-damage|p2a: Vaporeon|48/100 tox|[from] Stealth Rock
+|move|p1a: Hatterene|Psychic|p2a: Vaporeon
+|-damage|p2a: Vaporeon|4/100 tox
+|
+|-heal|p2a: Vaporeon|10/100 tox|[from] item: Leftovers
+|-damage|p2a: Vaporeon|4/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|move|p1a: Hatterene|Mystical Fire|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|21
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Excadrill|Iron Head|p1a: Hippowdon
+|-damage|p1a: Hippowdon|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Excadrill|100/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Hippowdon|84/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Excadrill|Iron Head|p1a: Hippowdon
+|-damage|p1a: Hippowdon|60/100
+|move|p1a: Hippowdon|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|67/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Salazzle|Salazzle, F|88/100
+|-damage|p2a: Salazzle|63/100|[from] Stealth Rock
+|turn|23
+|
+|switch|p2a: Rotom|Rotom-Heat|38/100
+|-damage|p2a: Rotom|13/100|[from] Stealth Rock
+|move|p1a: Hippowdon|Earthquake|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|7/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|73/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Rotom|Overheat|p1a: Hippowdon|[miss]
+|-miss|p2a: Rotom|p1a: Hippowdon
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|1/100|[from] Sandstorm
+|upkeep
+|turn|25
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|move|p2a: Rotom|Overheat|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|66/100
+|-unboost|p2a: Rotom|spa|2
+|
+|-weather|none
+|upkeep
+|turn|26
+|
+|move|p1a: Hydreigon|U-turn|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Salazzle|Salazzle, F|63/100
+|-damage|p2a: Salazzle|38/100|[from] Stealth Rock
+|turn|27
+|
+|move|p2a: Salazzle|Toxic|p1a: Hippowdon
+|-status|p1a: Hippowdon|tox
+|move|p1a: Hippowdon|Earthquake|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hippowdon|94/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|88/100
+|-damage|p2a: Dragapult|76/100|[from] Stealth Rock
+|turn|28
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Hippowdon
+|-damage|p1a: Hippowdon|43/100 tox
+|move|p1a: Hippowdon|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|22/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|50/100 tox|[from] item: Leftovers
+|-damage|p1a: Hippowdon|37/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|16/100|[from] Sandstorm
+|-damage|p1a: Toxapex|59/100|[from] Sandstorm
+|-heal|p1a: Toxapex|65/100|[from] item: Black Sludge
+|upkeep
+|turn|30
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|33/100
+|move|p1a: Toxapex|Scald|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|6/100
+|-status|p2a: Dragapult|brn
+|
+|-weather|none
+|-heal|p1a: Toxapex|39/100|[from] item: Black Sludge
+|-damage|p2a: Dragapult|0 fnt|[from] brn
+|faint|p2a: Dragapult
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|turn|31
+|
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|63/100
+|move|p1a: Toxapex|Scald|p2a: Corviknight
+|-activate|p2a: Corviknight|move: Substitute|[damage]
+|
+|-heal|p2a: Corviknight|69/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|46/100|[from] item: Black Sludge
+|upkeep
+|turn|32
+|
+|switch|p1a: Rotom|Rotom-Mow|94/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|-heal|p2a: Corviknight|75/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Rotom|Volt Switch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|
+|switch|p1a: Hydreigon|Hydreigon, F|66/100|[from]move: Volt Switch
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|51/100
+|
+|-heal|p2a: Corviknight|57/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Hydreigon|Fire Blast|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Hydreigon|Fire Blast|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|47/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|97/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p1a: Hydreigon|Fire Blast|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|51/100
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|26/100
+|
+|-heal|p2a: Corviknight|32/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p1a: Hydreigon|Fire Blast|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|7/100
+|
+|-heal|p2a: Corviknight|13/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|-activate|p1a: Hydreigon|move: Struggle
+|move|p1a: Hydreigon|Struggle|p2a: Corviknight
+|-activate|p2a: Corviknight|move: Substitute|[damage]
+|-damage|p1a: Hydreigon|41/100|[from] recoil
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|63/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|69/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|75/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: Rotom|Volt Switch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|
+|switch|p1a: Ditto|Ditto|69/100|[from]move: Volt Switch
+|-transform|p1a: Ditto|p2a: Corviknight|[from] ability: Imposter
+|-ability|p1a: Ditto|Pressure
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|51/100
+|
+|-heal|p2a: Corviknight|57/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p1a: Ditto|Roost|p1a: Ditto
+|-heal|p1a: Ditto|100/100
+|-singleturn|p1a: Ditto|move: Roost
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|63/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|switch|p1a: Hydreigon|Hydreigon, F|41/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|43
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|move|p2a: Corviknight|Brave Bird|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|-damage|p2a: Corviknight|89/100|[from] Recoil
+|faint|p1a: Hydreigon
+|
+|-heal|p2a: Corviknight|95/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|turn|44
+|
+|move|p1a: Rotom|Volt Switch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|53/100
+|
+|switch|p1a: Ditto|Ditto|100/100|[from]move: Volt Switch
+|-transform|p1a: Ditto|p2a: Corviknight|[from] ability: Imposter
+|-ability|p1a: Ditto|Pressure
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|29/100
+|
+|-heal|p2a: Corviknight|35/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p1a: Ditto|Brave Bird|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|-damage|p1a: Ditto|89/100|[from] Recoil|[of] p2a: Corviknight
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|85/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|91/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|switch|p1a: Hippowdon|Hippowdon, M|37/100 tox
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|72/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|43/100 tox|[from] item: Leftovers
+|-damage|p1a: Hippowdon|37/100 tox|[from] psn
+|upkeep
+|turn|47
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|87/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|78/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|93/100 tox|[from] item: Leftovers
+|-damage|p1a: Hippowdon|81/100 tox|[from] psn
+|upkeep
+|turn|48
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|94/100|[from] Sandstorm
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|-heal|p2a: Corviknight|84/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|move|p1a: Rotom|Volt Switch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|
+|switch|p1a: Ditto|Ditto|89/100|[from]move: Volt Switch
+|-transform|p1a: Ditto|p2a: Corviknight|[from] ability: Imposter
+|-ability|p1a: Ditto|Pressure
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|65/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|move|p1a: Ditto|Roost|p1a: Ditto
+|-heal|p1a: Ditto|100/100
+|-singleturn|p1a: Ditto|move: Roost
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-weather|none
+|-heal|p2a: Corviknight|71/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|move|p1a: Ditto|Roost||[still]
+|-fail|p1a: Ditto|heal
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|52
+|
+|move|p1a: Ditto|Roost||[still]
+|-fail|p1a: Ditto|heal
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|
+|upkeep
+|turn|53
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|
+|upkeep
+|turn|54
+|
+|move|p1a: Rotom|Volt Switch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|
+|switch|p1a: Ditto|Ditto|100/100|[from]move: Volt Switch
+|-transform|p1a: Ditto|p2a: Corviknight|[from] ability: Imposter
+|-ability|p1a: Ditto|Pressure
+|move|p2a: Corviknight|Brave Bird|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|79/100
+|-damage|p2a: Corviknight|95/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|move|p1a: Ditto|Roost|p1a: Ditto
+|-heal|p1a: Ditto|100/100
+|-singleturn|p1a: Ditto|move: Roost
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|76/100
+|
+|-heal|p2a: Corviknight|82/100|[from] item: Leftovers
+|upkeep
+|turn|56
+|
+|move|p1a: Ditto|Roost||[still]
+|-fail|p1a: Ditto|heal
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|
+|-heal|p2a: Corviknight|88/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|move|p1a: Ditto|Roost||[still]
+|-fail|p1a: Ditto|heal
+|move|p2a: Corviknight|Brave Bird|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|81/100
+|-damage|p2a: Corviknight|83/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|89/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|move|p1a: Ditto|Roost|p1a: Ditto
+|-heal|p1a: Ditto|100/100
+|-singleturn|p1a: Ditto|move: Roost
+|move|p2a: Corviknight|Brave Bird|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|79/100
+|-damage|p2a: Corviknight|84/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|90/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|switch|p1a: Hippowdon|Hippowdon, M|81/100 tox
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Corviknight|Brave Bird|p1a: Hippowdon
+|-damage|p1a: Hippowdon|1/100 tox
+|-damage|p2a: Corviknight|62/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|68/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|7/100 tox|[from] item: Leftovers
+|-damage|p1a: Hippowdon|1/100 tox|[from] psn
+|upkeep
+|turn|60
+|
+|switch|p1a: Ditto|Ditto|79/100
+|move|p2a: Corviknight|Brave Bird|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|-damage|p2a: Corviknight|48/100|[from] Recoil
+|faint|p1a: Ditto
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|54/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|turn|61
+|
+|move|p1a: Rotom|Volt Switch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|
+|switch|p1a: Hippowdon|Hippowdon, M|1/100 tox|[from]move: Volt Switch
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|36/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|7/100 tox|[from] item: Leftovers
+|-damage|p1a: Hippowdon|1/100 tox|[from] psn
+|upkeep
+|turn|62
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|86/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|51/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|92/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|57/100 tox|[from] item: Leftovers
+|-damage|p1a: Hippowdon|45/100 tox|[from] psn
+|upkeep
+|turn|63
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|95/100 tox
+|
+|-weather|none
+|-heal|p2a: Corviknight|98/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Hippowdon|82/100 tox|[from] psn
+|upkeep
+|turn|64
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|move|p1a: Hippowdon|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Hippowdon|63/100 tox|[from] psn
+|upkeep
+|turn|65
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|0
+|-boost|p2a: Corviknight|def|0
+|
+|upkeep
+|turn|66
+|
+|move|p1a: Rotom|Volt Switch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|
+|switch|p1a: Toxapex|Toxapex, F|79/100|[from]move: Volt Switch
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|76/100
+|
+|-heal|p2a: Corviknight|82/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|85/100|[from] item: Black Sludge
+|upkeep
+|turn|67
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Corviknight|Brave Bird|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-heal|p2a: Corviknight|88/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|91/100|[from] item: Black Sludge
+|upkeep
+|turn|68
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Corviknight|Brave Bird|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|-damage|p2a: Corviknight|61/100|[from] Recoil
+|faint|p1a: Hatterene
+|
+|-heal|p2a: Corviknight|67/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|turn|69
+|
+|move|p1a: Rotom|Volt Switch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|
+|switch|p1a: Hippowdon|Hippowdon, M|63/100 tox|[from]move: Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|70/100 tox|[from] item: Leftovers
+|-damage|p1a: Hippowdon|63/100 tox|[from] psn
+|upkeep
+|turn|70
+|
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|76/100
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|82/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|88/100 tox|[from] psn
+|upkeep
+|turn|71
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Corviknight|Brave Bird|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|-damage|p2a: Corviknight|57/100|[from] Recoil
+|faint|p1a: Toxapex
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|63/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|turn|72
+|
+|move|p1a: Rotom|Volt Switch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|
+|switch|p1a: Hippowdon|Hippowdon, M|88/100 tox|[from]move: Volt Switch
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Hippowdon|88/100 tox|[from] psn
+|upkeep
+|turn|73
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|76/100
+|
+|-weather|none
+|-heal|p2a: Corviknight|82/100|[from] item: Leftovers
+|upkeep
+|turn|74
+|
+|move|p1a: Rotom|Volt Switch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|
+|switch|p1a: Hippowdon|Hippowdon, M|88/100 tox|[from]move: Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|57/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|63/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Hippowdon|88/100 tox|[from] psn
+|upkeep
+|turn|75
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|move|p2a: Corviknight|Brave Bird|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-damage|p2a: Corviknight|43/100|[from] Recoil
+|faint|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|49/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Hippowdon|Hippowdon, M|88/100 tox
+|turn|76
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|99/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|94/100 tox|[from] psn
+|upkeep
+|turn|77
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Hippowdon
+|-damage|p1a: Hippowdon|18/100 tox
+|-damage|p2a: Corviknight|74/100|[from] Recoil
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|68/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|80/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|75/100 tox|[from] item: Leftovers
+|-damage|p1a: Hippowdon|62/100 tox|[from] psn
+|upkeep
+|turn|78
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|-damage|p2a: Corviknight|59/100|[from] Recoil
+|faint|p1a: Hippowdon
+|
+|win|Piplz
+|raw|DarkGenex's rating: 1466 → 1447(-19 for losing)
+|raw|Piplz's rating: 1485 → 1504(+19 for winning)
+|l|☆Piplz
+|c|☆DarkGenex|i am gutter dog shit at this game

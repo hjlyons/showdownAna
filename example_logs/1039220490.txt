@@ -1,0 +1,287 @@
+|ScrapeTime|2020-01-01-17:56:44
+|j|☆Mr.LioC
+|j|☆ALTHAZAR
+|player|p1|Mr.LioC|101|1028
+|player|p2|ALTHAZAR|1|1052
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Sirfetch'd, F|
+|poke|p1|Ribombee, F|
+|poke|p1|Gastrodon-East, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Braviary, M|
+|poke|p1|Arcanine, M|
+|poke|p2|Mew|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Dracozolt|
+|poke|p2|Appletun, M|
+|poke|p2|Gengar, F|
+|poke|p2|Jellicent, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ALTHAZAR)
+|
+|start
+|switch|p1a: Gastrodon|Gastrodon-East, M|100/100
+|switch|p2a: green jam|Jellicent, M, shiny|100/100
+|turn|1
+|
+|move|p2a: green jam|Waterfall|p1a: Gastrodon
+|-ability|p1a: Gastrodon|Storm Drain|boost
+|-boost|p1a: Gastrodon|spa|1
+|move|p1a: Gastrodon|Yawn|p2a: green jam
+|-start|p2a: green jam|move: Yawn|[of] p1a: Gastrodon
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Appletun|Appletun, M|100/100
+|switch|p1a: Braviary|Braviary, M|100/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|move|p1a: Braviary|Brave Bird|p2a: Dracozolt
+|-resisted|p2a: Dracozolt
+|-damage|p2a: Dracozolt|73/100
+|-damage|p1a: Braviary|92/100|[from] Recoil
+|
+|upkeep
+|turn|4
+|l|☆Mr.LioC
+|inactive|Mr.LioC disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|Mr.LioC has 30 seconds to reconnect!
+|j|☆Mr.LioC
+|inactive|Mr.LioC reconnected and has 120 seconds left.
+|player|p1|Mr.LioC|101
+|
+|move|p1a: Braviary|Protect|p1a: Braviary
+|-singleturn|p1a: Braviary|Protect
+|move|p2a: Dracozolt|Flamethrower|p1a: Braviary
+|-activate|p1a: Braviary|move: Protect
+|
+|upkeep
+|turn|5
+|inactive|Mr.LioC has 120 seconds left.
+|
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Dracozolt|atk|1
+|move|p2a: Dracozolt|Bolt Beak|p1a: Arcanine
+|-damage|p1a: Arcanine|61/100
+|-damage|p2a: Dracozolt|56/100|[from] item: Rocky Helmet|[of] p1a: Arcanine
+|
+|upkeep
+|turn|6
+|inactive|Mr.LioC has 120 seconds left.
+|
+|switch|p2a: green jam|Jellicent, M, shiny|100/100
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|100/100
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Gastrodon|Gastrodon-East, M|100/100
+|move|p2a: green jam|Waterfall|p1a: Gastrodon
+|-ability|p1a: Gastrodon|Storm Drain|boost
+|-boost|p1a: Gastrodon|spa|1
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Dracozolt|Dracozolt|56/100
+|move|p1a: Gastrodon|Yawn|p2a: Dracozolt
+|-start|p2a: Dracozolt|move: Yawn|[of] p1a: Gastrodon
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Dracozolt|Flamethrower|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|94/100
+|move|p1a: Gastrodon|Whirlpool|p2a: Dracozolt
+|-resisted|p2a: Dracozolt
+|-crit|p2a: Dracozolt
+|-damage|p2a: Dracozolt|45/100
+|-activate|p2a: Dracozolt|move: Whirlpool|[of] p1a: Gastrodon
+|
+|-heal|p1a: Gastrodon|99/100|[from] item: Leftovers
+|-damage|p2a: Dracozolt|33/100|[from] move: Whirlpool|[partiallytrapped]
+|-end|p2a: Dracozolt|move: Yawn|[silent]
+|-status|p2a: Dracozolt|slp
+|upkeep
+|turn|10
+|
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|cant|p2a: Dracozolt|slp
+|
+|-end|p2a: Dracozolt|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|turn|11
+|inactive|ALTHAZAR has 120 seconds left.
+|
+|switch|p2a: hash monster|Grimmsnarl, M|100/100
+|move|p1a: Ribombee|Sticky Web|p2a: hash monster
+|-sidestart|p2: ALTHAZAR|move: Sticky Web
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Ribombee|Moonblast|p2a: hash monster
+|-supereffective|p2a: hash monster
+|-damage|p2a: hash monster|33/100
+|-unboost|p2a: hash monster|spa|1
+|move|p2a: hash monster|Spirit Break|p1a: Ribombee
+|-damage|p1a: Ribombee|44/100
+|-unboost|p1a: Ribombee|spa|1
+|
+|-heal|p2a: hash monster|39/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: hash monster|Sucker Punch|p1a: Ribombee
+|-resisted|p1a: Ribombee
+|-damage|p1a: Ribombee|20/100
+|move|p1a: Ribombee|Moonblast|p2a: hash monster
+|-supereffective|p2a: hash monster
+|-damage|p2a: hash monster|0 fnt
+|faint|p2a: hash monster
+|
+|upkeep
+|
+|switch|p2a: ZEW|Mew|100/100
+|-activate|p2a: ZEW|move: Sticky Web
+|-unboost|p2a: ZEW|spe|1
+|turn|14
+|
+|move|p1a: Ribombee|U-turn|p2a: ZEW
+|-supereffective|p2a: ZEW
+|-damage|p2a: ZEW|74/100
+|
+|switch|p1a: Gastrodon|Gastrodon-East, M|99/100|[from]move: U-turn
+|move|p2a: ZEW|Drain Punch|p1a: Gastrodon
+|-damage|p1a: Gastrodon|76/100
+|-heal|p2a: ZEW|89/100|[from] drain|[of] p1a: Gastrodon
+|
+|-heal|p2a: ZEW|95/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|ALTHAZAR has 120 seconds left.
+|
+|move|p2a: ZEW|Energy Ball|p1a: Gastrodon
+|-supereffective|p1a: Gastrodon
+|-damage|p1a: Gastrodon|20/100
+|move|p1a: Gastrodon|Whirlpool|p2a: ZEW
+|-damage|p2a: ZEW|84/100
+|-activate|p2a: ZEW|move: Whirlpool|[of] p1a: Gastrodon
+|
+|-heal|p2a: ZEW|90/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|26/100|[from] item: Leftovers
+|-damage|p2a: ZEW|78/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|16
+|inactive|ALTHAZAR has 120 seconds left.
+|
+|switch|p1a: Ribombee|Ribombee, F|20/100
+|move|p2a: ZEW|Psychic|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|-heal|p2a: ZEW|84/100|[from] item: Leftovers
+|-end|p2a: ZEW|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|
+|switch|p1a: Sirfetch'd|Sirfetch'd, F|100/100
+|turn|17
+|inactive|ALTHAZAR has 120 seconds left.
+|
+|move|p1a: Sirfetch'd|First Impression|p2a: ZEW
+|-supereffective|p2a: ZEW
+|-damage|p2a: ZEW|0 fnt
+|faint|p2a: ZEW
+|
+|upkeep
+|inactive|ALTHAZAR has 120 seconds left.
+|
+|switch|p2a: Gengar|Gengar, F|100/100
+|-activate|p2a: Gengar|move: Sticky Web
+|-unboost|p2a: Gengar|spe|1
+|turn|18
+|
+|switch|p1a: Braviary|Braviary, M|92/100
+|move|p2a: Gengar|Psychic|p1a: Braviary
+|-damage|p1a: Braviary|60/100
+|-unboost|p1a: Braviary|spd|1
+|-ability|p1a: Braviary|Defiant
+|-boost|p1a: Braviary|atk|2
+|
+|upkeep
+|turn|19
+|inactive|ALTHAZAR has 120 seconds left.
+|
+|move|p1a: Braviary|Brave Bird|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-damage|p1a: Braviary|33/100|[from] Recoil
+|-enditem|p1a: Braviary|Sitrus Berry|[eat]
+|-heal|p1a: Braviary|58/100|[from] item: Sitrus Berry
+|faint|p2a: Gengar
+|
+|upkeep
+|inactive|ALTHAZAR has 120 seconds left.
+|
+|switch|p2a: Dracozolt|Dracozolt|33/100 slp
+|-activate|p2a: Dracozolt|move: Sticky Web
+|-unboost|p2a: Dracozolt|spe|1
+|turn|20
+|
+|move|p1a: Braviary|Brave Bird|p2a: Dracozolt
+|-resisted|p2a: Dracozolt
+|-damage|p2a: Dracozolt|0 fnt
+|-damage|p1a: Braviary|48/100|[from] Recoil
+|faint|p2a: Dracozolt
+|
+|upkeep
+|
+|switch|p2a: Appletun|Appletun, M|100/100
+|-activate|p2a: Appletun|move: Sticky Web
+|-unboost|p2a: Appletun|spe|1
+|turn|21
+|
+|move|p1a: Braviary|Brave Bird|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|0 fnt
+|-damage|p1a: Braviary|11/100|[from] Recoil
+|faint|p2a: Appletun
+|
+|upkeep
+|
+|switch|p2a: green jam|Jellicent, M, shiny|100/100
+|-activate|p2a: green jam|move: Sticky Web
+|-unboost|p2a: green jam|spe|1
+|turn|22
+|
+|move|p1a: Braviary|Brave Bird|p2a: green jam
+|-damage|p2a: green jam|0 fnt
+|-damage|p1a: Braviary|0 fnt|[from] Recoil
+|faint|p2a: green jam
+|faint|p1a: Braviary
+|
+|win|Mr.LioC
+|l|☆ALTHAZAR
+|raw|Mr.LioC's rating: 1028 → 1066(+38 for winning)
+|raw|ALTHAZAR's rating: 1052 → 1033(-19 for losing)

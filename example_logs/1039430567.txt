@@ -1,0 +1,244 @@
+|ScrapeTime|2020-01-02-01:24:38
+|j|☆Gen8=Big Trash
+|j|☆ghrati
+|player|p1|Gen8=Big Trash|168|1527
+|player|p2|ghrati|ghetsis-gen5bw|1456
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Mamoswine, M|
+|poke|p1|Ditto|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Ferrothorn, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Froslass, F|
+|poke|p2|Cloyster, M|
+|poke|p2|Runerigus, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Inteleon, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gen8=Big Trash)
+|
+|start
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|switch|p2a: Inteleon|Inteleon, M|100/100
+|turn|1
+|
+|move|p2a: Inteleon|Ice Beam|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|45/100
+|move|p1a: Mandibuzz|Knock Off|p2a: Inteleon
+|-damage|p2a: Inteleon|57/100
+|-enditem|p2a: Inteleon|Choice Specs|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Inteleon|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|73/100
+|
+|-heal|p1a: Ferrothorn|79/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Inteleon|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|62/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Inteleon
+|-start|p2a: Inteleon|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|68/100|[from] item: Leftovers
+|-damage|p2a: Inteleon|44/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|78/100|[silent]
+|upkeep
+|turn|4
+|
+|move|p2a: Inteleon|Ice Beam|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|52/100
+|move|p1a: Ferrothorn|Spikes|p2a: Inteleon
+|-sidestart|p2: ghrati|Spikes
+|
+|-heal|p1a: Ferrothorn|58/100|[from] item: Leftovers
+|-damage|p2a: Inteleon|32/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|68/100|[silent]
+|upkeep
+|turn|5
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Inteleon|Scald|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Ferrothorn|74/100|[from] item: Leftovers
+|-damage|p2a: Inteleon|19/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|84/100|[silent]
+|upkeep
+|turn|6
+|
+|move|p2a: Inteleon|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|56/100
+|move|p1a: Ferrothorn|Spikes|p2a: Inteleon
+|-sidestart|p2: ghrati|Spikes
+|
+|-heal|p1a: Ferrothorn|62/100|[from] item: Leftovers
+|-damage|p2a: Inteleon|7/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|72/100|[silent]
+|upkeep
+|turn|7
+|
+|switch|p2a: Runerigus|Runerigus, M|100/100
+|-damage|p2a: Runerigus|84/100|[from] Spikes
+|move|p1a: Ferrothorn|Spikes|p2a: Runerigus
+|-sidestart|p2: ghrati|Spikes
+|
+|-heal|p2a: Runerigus|90/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|79/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Runerigus|Will-O-Wisp|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Runerigus
+|-start|p2a: Runerigus|move: Leech Seed
+|
+|-heal|p2a: Runerigus|96/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|85/100 brn|[from] item: Leftovers
+|-damage|p2a: Runerigus|84/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|96/100 brn|[silent]
+|-damage|p1a: Ferrothorn|90/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|45/100
+|move|p2a: Runerigus|Toxic Spikes|p1a: Mandibuzz
+|-sidestart|p1: Gen8=Big Trash|move: Toxic Spikes
+|
+|-heal|p2a: Runerigus|90/100|[from] item: Leftovers
+|-damage|p2a: Runerigus|77/100|[from] Leech Seed|[of] p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|54/100|[silent]
+|upkeep
+|turn|10
+|
+|move|p1a: Mandibuzz|Taunt|p2a: Runerigus
+|-start|p2a: Runerigus|move: Taunt
+|cant|p2a: Runerigus|move: Taunt|Curse
+|
+|-heal|p2a: Runerigus|83/100|[from] item: Leftovers
+|-damage|p2a: Runerigus|71/100|[from] Leech Seed|[of] p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|63/100|[silent]
+|upkeep
+|turn|11
+|
+|switch|p2a: Froslass|Froslass, F|100/100
+|-damage|p2a: Froslass|76/100|[from] Spikes
+|move|p1a: Mandibuzz|Knock Off|p2a: Froslass
+|-supereffective|p2a: Froslass
+|-damage|p2a: Froslass|3/100
+|-enditem|p2a: Froslass|Focus Sash|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Froslass|Thunder Wave|p1a: Mandibuzz
+|-status|p1a: Mandibuzz|par
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 par
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Froslass|Spikes|p1a: Mandibuzz
+|-sidestart|p1: Gen8=Big Trash|Spikes
+|move|p1a: Mandibuzz|Taunt|p2a: Froslass
+|-start|p2a: Froslass|move: Taunt
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Froslass|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|84/100 par
+|move|p1a: Mandibuzz|Knock Off|p2a: Froslass
+|-supereffective|p2a: Froslass
+|-damage|p2a: Froslass|0 fnt
+|faint|p2a: Froslass
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|76/100|[from] Spikes
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|15
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-status|p1a: Dragapult|psn
+|-damage|p1a: Dragapult|88/100 psn|[from] Spikes
+|move|p2a: Excadrill|Iron Head|p1a: Dragapult
+|-damage|p1a: Dragapult|30/100 psn
+|
+|-damage|p1a: Dragapult|17/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p2a: Runerigus|Runerigus, M|71/100
+|-damage|p2a: Runerigus|46/100|[from] Spikes
+|move|p1a: Dragapult|Shadow Ball|p2a: Runerigus
+|-supereffective|p2a: Runerigus
+|-damage|p2a: Runerigus|0 fnt
+|faint|p2a: Runerigus
+|
+|-damage|p1a: Dragapult|5/100 psn|[from] psn
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|76/100|[from] Spikes
+|turn|17
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-damage|p1a: Dragapult|0 fnt|[from] psn
+|faint|p1a: Dragapult
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|switch|p2a: Excadrill|Excadrill, M|76/100
+|-damage|p2a: Excadrill|51/100|[from] Spikes
+|-ability|p2a: Excadrill|Mold Breaker
+|-damage|p1a: Ditto|88/100|[from] Spikes
+|-status|p1a: Ditto|psn
+|-transform|p1a: Ditto|p2a: Excadrill|[from] ability: Imposter
+|-ability|p1a: Ditto|Mold Breaker
+|turn|18
+|
+|move|p1a: Ditto|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-damage|p1a: Ditto|76/100 psn|[from] psn
+|upkeep
+|-message|ghrati forfeited.
+|
+|win|Gen8=Big Trash
+|l|☆ghrati
+|raw|Gen8=Big Trash's rating: 1504 → 1521(+17 for winning)
+|raw|ghrati's rating: 1457 → 1440(-17 for losing)

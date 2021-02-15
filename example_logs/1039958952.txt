@@ -1,0 +1,181 @@
+|ScrapeTime|2020-01-03-00:28:38
+|j|☆Azul 4.0
+|j|☆Tetser12345
+|player|p1|Azul 4.0|170|1040
+|player|p2|Tetser12345|psychic-gen4|1000
+|teamsize|p1|6
+|teamsize|p2|2
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Kommo-o, F|
+|poke|p1|Arcanine, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Jolteon, F|
+|poke|p1|Snorlax, F|
+|poke|p1|Cloyster, F|
+|poke|p2|Accelgor, F|
+|poke|p2|Gyarados, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Jolteon|Jolteon, F|100/100
+|switch|p2a: Accelgor|Accelgor, F|100/100
+|turn|1
+|
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Accelgor|atk|1
+|move|p2a: Accelgor|Spikes|p1a: Arcanine
+|-sidestart|p1: Azul 4.0|Spikes
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Accelgor|Toxic Spikes|p1a: Arcanine
+|-sidestart|p1: Azul 4.0|move: Toxic Spikes
+|move|p1a: Arcanine|Flare Blitz|p2a: Accelgor
+|-supereffective|p2a: Accelgor
+|-enditem|p2a: Accelgor|Focus Sash
+|-damage|p2a: Accelgor|1/100
+|-damage|p1a: Arcanine|64/100|[from] Recoil
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Accelgor|Encore|p1a: Arcanine
+|-start|p1a: Arcanine|Encore
+|move|p1a: Arcanine|Flare Blitz|p2a: Accelgor
+|-supereffective|p2a: Accelgor
+|-crit|p2a: Accelgor
+|-damage|p2a: Accelgor|0 fnt
+|-damage|p1a: Arcanine|63/100|[from] Recoil
+|faint|p2a: Accelgor
+|
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|turn|4
+|
+|switch|p1a: Jolteon|Jolteon, F|100/100
+|-status|p1a: Jolteon|psn
+|-damage|p1a: Jolteon|88/100 psn|[from] Spikes
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-damage|p1a: Jolteon|76/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|move|p2a: Gyarados|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|upkeep
+|
+|switch|p1a: Arcanine|Arcanine, M|63/100
+|-status|p1a: Arcanine|psn
+|-damage|p1a: Arcanine|51/100 psn|[from] Spikes
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Gyarados|atk|1
+|turn|6
+|
+|move|p2a: Gyarados|Waterfall|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|upkeep
+|
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|-damage|p1a: Snorlax|88/100|[from] Spikes
+|turn|7
+|
+|move|p2a: Gyarados|Waterfall|p1a: Snorlax
+|-damage|p1a: Snorlax|15/100
+|cant|p1a: Snorlax|flinch
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Gyarados|Waterfall|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|upkeep
+|
+|switch|p1a: Cloyster|Cloyster, F|100/100
+|-damage|p1a: Cloyster|88/100|[from] Spikes
+|-status|p1a: Cloyster|psn
+|turn|9
+|
+|move|p2a: Gyarados|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|31/100 psn
+|move|p1a: Cloyster|Icicle Spear|p2a: Gyarados
+|-crit|p2a: Gyarados
+|-damage|p2a: Gyarados|87/100
+|-damage|p2a: Gyarados|77/100
+|-damage|p2a: Gyarados|67/100
+|-hitcount|p2a: Gyarados|3
+|
+|-heal|p2a: Gyarados|73/100|[from] item: Leftovers
+|-damage|p1a: Cloyster|18/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|move|p2a: Gyarados|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-heal|p2a: Gyarados|79/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|-status|p1a: Kommo-o|psn
+|-damage|p1a: Kommo-o|88/100 psn|[from] Spikes
+|turn|11
+|
+|move|p2a: Gyarados|Ice Fang|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-heal|p2a: Gyarados|86/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-status|p1a: Hatterene|psn
+|-damage|p1a: Hatterene|88/100 psn|[from] Spikes
+|turn|12
+|c|☆Tetser12345|Well dang
+|
+|move|p2a: Gyarados|Waterfall|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|win|Tetser12345
+|l|☆Azul 4.0
+|raw|Azul 4.0's rating: 1024 → 1009(-15 for losing)
+|raw|Tetser12345's rating: 1000 → 1043(+43 for winning)
+|c|☆Tetser12345|It worked

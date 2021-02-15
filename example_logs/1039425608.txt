@@ -1,0 +1,298 @@
+|ScrapeTime|2020-01-02-01:16:50
+|j|☆jam's disciples
+|j|☆antipokepokeclub
+|player|p1|jam's disciples|workerice|1388
+|player|p2|antipokepokeclub|galacticgruntf|1384
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Reuniclus, F|
+|poke|p1|Dugtrio, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Toxicroak, M|
+|poke|p1|Shiftry, M|
+|poke|p1|Haxorus, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Clefable, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Seismitoad, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by antipokepokeclub)
+|
+|start
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|1
+|
+|move|p1a: Toxicroak|Thunder Punch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|54/100
+|-damage|p1a: Toxicroak|91/100|[from] item: Life Orb
+|move|p2a: Corviknight|U-turn|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-damage|p1a: Toxicroak|85/100
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Toxicroak
+|-status|p1a: Toxicroak|brn
+|move|p1a: Toxicroak|Sludge Wave|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|68/100
+|-status|p2a: Dragapult|psn
+|-damage|p1a: Toxicroak|75/100 brn|[from] item: Life Orb
+|
+|-heal|p2a: Dragapult|74/100 psn|[from] item: Leftovers
+|-damage|p2a: Dragapult|62/100 psn|[from] psn
+|-damage|p1a: Toxicroak|69/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Dragapult|Hex|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|faint|p1a: Toxicroak
+|
+|-heal|p2a: Dragapult|68/100 psn|[from] item: Leftovers
+|-damage|p2a: Dragapult|56/100 psn|[from] psn
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|4
+|
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|13/100
+|-enditem|p2a: Tyranitar|Weakness Policy
+|-boost|p2a: Tyranitar|atk|2
+|-boost|p2a: Tyranitar|spa|2
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p2a: Tyranitar|Rock Blast|p1a: Dugtrio
+|-resisted|p1a: Dugtrio
+|-damage|p1a: Dugtrio|52/100
+|-resisted|p1a: Dugtrio
+|-damage|p1a: Dugtrio|3/100
+|-resisted|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|-hitcount|p1a: Dugtrio|3
+|faint|p1a: Dugtrio
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|7
+|
+|move|p1a: Dragapult|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|95/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|turn|8
+|
+|switch|p1a: Shiftry|Shiftry, M|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Shiftry
+|-sidestart|p1: jam's disciples|move: Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|switch|p2a: Corviknight|Corviknight, M|54/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Shiftry|Heat Wave|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|19/100
+|
+|-heal|p2a: Corviknight|25/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Shiftry|Heat Wave|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|11
+|
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-damage|p1a: Haxorus|88/100|[from] Stealth Rock
+|-ability|p1a: Haxorus|Mold Breaker
+|move|p2a: Clefable|Moonblast|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|faint|p1a: Haxorus
+|
+|upkeep
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|-damage|p1a: Reuniclus|88/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|-heal|p1a: Reuniclus|94/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Shiftry|Shiftry, M|100/100
+|-damage|p1a: Shiftry|88/100|[from] Stealth Rock
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Shiftry
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Shiftry
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: antipokepokeclub|Reflect
+|move|p1a: Shiftry|Explosion|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|25/100
+|faint|p1a: Shiftry
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|95/100
+|-damage|p1a: Dragapult|82/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Seismitoad
+|-damage|p2a: Seismitoad|61/100
+|
+|-heal|p2a: Seismitoad|67/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Reuniclus|Reuniclus, F|94/100
+|-damage|p1a: Reuniclus|82/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Earthquake|p1a: Reuniclus
+|-damage|p1a: Reuniclus|59/100
+|
+|-heal|p2a: Seismitoad|73/100|[from] item: Leftovers
+|-heal|p1a: Reuniclus|65/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|25/100
+|switch|p1a: Dragapult|Dragapult, F|82/100
+|-damage|p1a: Dragapult|70/100|[from] Stealth Rock
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Dragapult
+|-status|p1a: Dragapult|par
+|cant|p1a: Dragapult|par
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: antipokepokeclub|move: Light Screen
+|move|p1a: Dragapult|Shadow Ball|p2a: Grimmsnarl
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|2/100
+|-unboost|p2a: Grimmsnarl|spd|1
+|
+|upkeep
+|turn|20
+|
+|cant|p1a: Dragapult|par
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Reuniclus|Reuniclus, F|65/100
+|-damage|p1a: Reuniclus|52/100|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Reuniclus
+|-status|p1a: Reuniclus|par
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|-heal|p1a: Reuniclus|59/100 par|[from] item: Leftovers
+|-sideend|p2: antipokepokeclub|Reflect
+|upkeep
+|turn|22
+|
+|switch|p2a: Dragapult|Dragapult, M|56/100 psn
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|-heal|p2a: Dragapult|62/100 psn|[from] item: Leftovers
+|-heal|p1a: Reuniclus|65/100 par|[from] item: Leftovers
+|-damage|p2a: Dragapult|50/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|move|p2a: Dragapult|Hex|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|19/100 par
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|-heal|p2a: Dragapult|56/100 psn|[from] item: Leftovers
+|-heal|p1a: Reuniclus|25/100 par|[from] item: Leftovers
+|-damage|p2a: Dragapult|44/100 psn|[from] psn
+|upkeep
+|turn|24
+|
+|move|p2a: Dragapult|Hex|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|win|antipokepokeclub
+|l|☆antipokepokeclub
+|raw|jam's disciples's rating: 1388 → 1369(-19 for losing)
+|raw|antipokepokeclub's rating: 1400 → 1419(+19 for winning)

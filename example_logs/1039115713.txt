@@ -1,0 +1,175 @@
+|ScrapeTime|2020-01-01-12:46:07
+|j|☆Aeiry
+|j|☆Thehombre
+|player|p1|Aeiry|janine|1037
+|player|p2|Thehombre|30|1063
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Rotom-Heat|
+|poke|p1|Cinderace, M|
+|poke|p1|Gastrodon, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Aegislash, M|
+|poke|p1|Dragapult, M|
+|poke|p2|Obstagoon, F|
+|poke|p2|Morpeko, F|
+|poke|p2|Mr. Rime, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Ditto|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Obstagoon|Obstagoon, F|100/100
+|turn|1
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Aeiry|Reflect
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|move|p2a: Excadrill|Stealth Rock|p1a: Gastrodon
+|-sidestart|p1: Aeiry|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Gastrodon|[from] ability: Imposter
+|move|p1a: Gastrodon|Earth Power|p2a: Ditto
+|-damage|p2a: Ditto|47/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Gastrodon|Earth Power|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|upkeep
+|
+|switch|p2a: Mr. Rime|Mr. Rime, F|100/100
+|-sideend|p1: Aeiry|Reflect
+|-activate|p2a: Mr. Rime|ability: Screen Cleaner
+|-sideend|p1: Aeiry|Reflect
+|turn|5
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|-damage|p1a: Cinderace|76/100|[from] Stealth Rock
+|move|p2a: Mr. Rime|Freeze-Dry|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|49/100
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p1: Aeiry|Stealth Rock|[silent]
+|-sidestart|p2: Thehombre|Stealth Rock|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Mr. Rime|Psychic|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|7
+|
+|move|p1a: Dragapult|U-turn|p2a: Mr. Rime
+|-supereffective|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|51/100
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100|[from]move: U-turn
+|move|p2a: Mr. Rime|Freeze-Dry|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|86/100
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|-damage|p2a: Cinderace|76/100|[from] Stealth Rock
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Sneak|p2a: Cinderace
+|-damage|p2a: Cinderace|48/100
+|
+|upkeep
+|turn|9
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Thehombre)
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: Thehombre|Stealth Rock|[silent]
+|-sidestart|p1: Aeiry|Stealth Rock|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Morpeko|Morpeko, F|100/100
+|turn|10
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|move|p2a: Morpeko|Aura Wheel|p1a: Gastrodon
+|-immune|p1a: Gastrodon
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|11
+|
+|move|p2a: Morpeko|Snarl|p1a: Gastrodon
+|-damage|p1a: Gastrodon|85/100
+|-unboost|p1a: Gastrodon|spa|1
+|move|p1a: Gastrodon|Earth Power|p2a: Morpeko
+|-supereffective|p2a: Morpeko
+|-damage|p2a: Morpeko|32/100
+|
+|-formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|12
+|
+|move|p2a: Morpeko|Snarl|p1a: Gastrodon
+|-damage|p1a: Gastrodon|77/100
+|-unboost|p1a: Gastrodon|spa|1
+|move|p1a: Gastrodon|Earth Power|p2a: Morpeko
+|-supereffective|p2a: Morpeko
+|-damage|p2a: Morpeko|0 fnt
+|faint|p2a: Morpeko
+|
+|upkeep
+|
+|switch|p2a: Obstagoon|Obstagoon, F|100/100
+|turn|13
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|move|p2a: Obstagoon|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-enditem|p1a: Dragapult|Choice Scarf|[from] move: Knock Off|[of] p2a: Obstagoon
+|faint|p1a: Dragapult
+|
+|upkeep
+|-message|Aeiry forfeited.
+|
+|win|Thehombre
+|l|☆Aeiry

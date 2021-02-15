@@ -1,0 +1,284 @@
+|ScrapeTime|2020-01-02-12:34:44
+|j|☆HarshPra
+|j|☆Yatoo23
+|player|p1|HarshPra|102|1079
+|player|p2|Yatoo23|pokekid|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Gyarados, M|
+|poke|p1|Ditto|
+|poke|p1|Clefable, F|
+|poke|p1|Bronzong|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Dracovish|
+|poke|p2|Dragapult, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Ditto|
+|poke|p2|Clefable, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Clefable|Clefable, F|100/100
+|switch|p2a: Spike|Ferrothorn, M, shiny|100/100
+|-ability|p2a: Spike|Anticipation
+|turn|1
+|
+|move|p1a: Clefable|Flamethrower|p2a: Spike
+|-supereffective|p2a: Spike
+|-damage|p2a: Spike|0 fnt
+|faint|p2a: Spike
+|
+|upkeep
+|
+|switch|p2a: SWEEP|Dracovish|100/100
+|turn|2
+|
+|move|p2a: SWEEP|Fishious Rend|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HarshPra)
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|3
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: SWEEP
+|-supereffective|p2a: SWEEP
+|-damage|p2a: SWEEP|59/100
+|-supereffective|p2a: SWEEP
+|-damage|p2a: SWEEP|16/100
+|-hitcount|p2a: SWEEP|2
+|move|p2a: SWEEP|Crunch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|1/100
+|
+|-heal|p1a: Dragapult|7/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: SWEEP
+|-supereffective|p2a: SWEEP
+|-damage|p2a: SWEEP|0 fnt
+|-hitcount|p2a: SWEEP|1
+|faint|p2a: SWEEP
+|
+|-heal|p1a: Dragapult|13/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Babysitter|Dragapult, F|100/100
+|turn|5
+|
+|move|p2a: Babysitter|Shadow Ball|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Babysitter|[from] ability: Imposter
+|turn|6
+|
+|move|p1a: Ditto|Shadow Ball|p2a: Babysitter
+|-supereffective|p2a: Babysitter
+|-damage|p2a: Babysitter|4/100
+|move|p2a: Babysitter|Shadow Ball|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|7
+|
+|move|p2a: Babysitter|Sucker Punch|p1a: Cinderace
+|-damage|p1a: Cinderace|76/100
+|move|p1a: Cinderace|Acrobatics|p2a: Babysitter
+|-damage|p2a: Babysitter|0 fnt
+|faint|p2a: Babysitter
+|
+|upkeep
+|
+|switch|p2a: Adolf|Rotom-Heat, shiny|100/100
+|turn|8
+|
+|move|p1a: Cinderace|Bulk Up|p1a: Cinderace
+|-boost|p1a: Cinderace|atk|1
+|-boost|p1a: Cinderace|def|1
+|move|p2a: Adolf|Volt Switch|p1a: Cinderace
+|-damage|p1a: Cinderace|27/100
+|
+|switch|p2a: Math Podcast|Ditto, shiny|100/100|[from]move: Volt Switch
+|-transform|p2a: Math Podcast|p1a: Cinderace|[from] ability: Imposter
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Math Podcast|High Jump Kick|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|turn|10
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: Clefable|Thunder Punch|p1a: Bronzong
+|-crit|p1a: Bronzong
+|-damage|p1a: Bronzong|84/100
+|
+|-heal|p1a: Bronzong|90/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Clefable|Ice Beam|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|77/100
+|move|p1a: Bronzong|Stealth Rock|p2a: Clefable
+|-sidestart|p2: Yatoo23|move: Stealth Rock
+|
+|-heal|p1a: Bronzong|83/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Clefable|Reflect|p2a: Clefable
+|-sidestart|p2: Yatoo23|Reflect
+|move|p1a: Bronzong|Heavy Slam|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|51/100
+|
+|-heal|p2a: Clefable|57/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|90/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Clefable|Fire Blast|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|27/100
+|move|p1a: Bronzong|Heavy Slam|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|4/100
+|
+|-heal|p2a: Clefable|10/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|34/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|move|p2a: Clefable|Fire Blast|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|82/100
+|
+|-heal|p1a: Gyarados|88/100|[from] item: Leftovers
+|-heal|p2a: Clefable|16/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Gyarados|Waterfall|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-heal|p1a: Gyarados|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Math Podcast|Ditto, shiny|100/100
+|-damage|p2a: Math Podcast|88/100|[from] Stealth Rock
+|-transform|p2a: Math Podcast|p1a: Gyarados|[from] ability: Imposter
+|turn|17
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Math Podcast|Power Whip|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|-ability|p2a: Math Podcast|Moxie|boost
+|-boost|p2a: Math Podcast|atk|1
+|
+|-sideend|p2: Yatoo23|Reflect
+|upkeep
+|
+|switch|p1a: Bronzong|Bronzong|34/100
+|turn|18
+|
+|move|p2a: Math Podcast|Earthquake|p1a: Bronzong
+|-immune|p1a: Bronzong|[from] ability: Levitate
+|move|p1a: Bronzong|Grass Knot|p2a: Math Podcast
+|-damage|p2a: Math Podcast|61/100
+|
+|-heal|p1a: Bronzong|40/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Adolf|Rotom-Heat, shiny|100/100
+|-damage|p2a: Adolf|76/100|[from] Stealth Rock
+|move|p1a: Bronzong|Rock Slide|p2a: Adolf
+|-supereffective|p2a: Adolf
+|-damage|p2a: Adolf|18/100
+|
+|-heal|p2a: Adolf|25/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|46/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Adolf|Protect|p2a: Adolf
+|-singleturn|p2a: Adolf|Protect
+|move|p1a: Bronzong|Rock Slide|p2a: Adolf
+|-activate|p2a: Adolf|move: Protect
+|
+|-heal|p2a: Adolf|31/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|52/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Adolf|Substitute|p2a: Adolf
+|-start|p2a: Adolf|Substitute
+|-damage|p2a: Adolf|6/100
+|move|p1a: Bronzong|Rock Slide|p2a: Adolf|[miss]
+|-miss|p1a: Bronzong|p2a: Adolf
+|
+|-heal|p2a: Adolf|12/100|[from] item: Leftovers
+|-heal|p1a: Bronzong|58/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Adolf|Overheat|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|-unboost|p2a: Adolf|spa|2
+|faint|p1a: Bronzong
+|
+|win|Yatoo23
+|raw|HarshPra's rating: 1079 → 1052(-27 for losing)
+|raw|Yatoo23's rating: 1000 → 1049(+49 for winning)
+|l|☆HarshPra
+|c|☆Yatoo23|gg
+|n|☆Yatoo23|yatoo23

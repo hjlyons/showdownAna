@@ -1,0 +1,404 @@
+|ScrapeTime|2020-01-01-01:15:53
+|j|☆Cuddlebunch
+|j|☆Chinpokomon8
+|player|p1|Cuddlebunch|swimmer-gen4dp|1392
+|player|p2|Chinpokomon8|121|1436
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Centiskorch, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Rotom-Wash|
+|poke|p2|Clefable, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Hydreigon, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Togekiss, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cuddlebunch)
+|
+|start
+|switch|p1a: Centiskorch|Centiskorch, F|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|1
+|
+|move|p2a: Cinderace|U-turn|p1a: Centiskorch
+|-resisted|p1a: Centiskorch
+|-damage|p1a: Centiskorch|86/100
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100|[from]move: U-turn
+|move|p1a: Centiskorch|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|80/100
+|-enditem|p2a: Toxapex|Black Sludge|[from] move: Knock Off|[of] p1a: Centiskorch
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Centiskorch|Knock Off|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|83/100
+|-enditem|p2a: Clefable|Life Orb|[from] move: Knock Off|[of] p1a: Centiskorch
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Centiskorch|Fire Lash|p2a: Clefable
+|-damage|p2a: Clefable|34/100
+|-unboost|p2a: Clefable|def|1
+|move|p2a: Clefable|Stealth Rock|p1a: Centiskorch
+|-sidestart|p1: Cuddlebunch|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Centiskorch|Fire Lash|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|89/100
+|-unboost|p2a: Toxapex|def|1
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|move|p2a: Toxapex|Scald|p1a: Hatterene
+|-damage|p1a: Hatterene|76/100
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|69/100
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Cinderace|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|51/100
+|
+|switch|p2a: Togekiss|Togekiss, F|100/100|[from]move: U-turn
+|move|p1a: Hatterene|Psychic|p2a: Togekiss
+|-damage|p2a: Togekiss|47/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Togekiss|Air Slash|p1a: Hatterene
+|-damage|p1a: Hatterene|25/100
+|move|p1a: Hatterene|Psychic|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|9
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p2a: Clefable|Clefable, F|34/100
+|move|p1a: Dragapult|Draco Meteor|p2a: Clefable
+|-immune|p2a: Clefable
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Centiskorch|Centiskorch, F|86/100
+|move|p2a: Clefable|Flamethrower|p1a: Centiskorch
+|-start|p1a: Centiskorch|ability: Flash Fire
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Centiskorch|Fire Lash|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|85/100
+|-unboost|p2a: Toxapex|def|1
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Centiskorch|Fire Lash|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|58/100
+|-unboost|p2a: Toxapex|def|1
+|move|p2a: Toxapex|Scald|p1a: Centiskorch
+|-supereffective|p1a: Centiskorch
+|-damage|p1a: Centiskorch|48/100
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Centiskorch|Fire Lash|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|67/100
+|-unboost|p2a: Hydreigon|def|1
+|
+|-heal|p2a: Hydreigon|73/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Toxapex|Toxapex, M|91/100
+|-end|p1a: Centiskorch|ability: Flash Fire|[silent]
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|
+|-heal|p1a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-start|p1a: Corviknight|Substitute
+|-damage|p1a: Corviknight|69/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Corviknight
+|-sidestart|p1: Cuddlebunch|move: Toxic Spikes
+|
+|-heal|p1a: Corviknight|75/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2a: Toxapex|Scald|p1a: Corviknight
+|-activate|p1a: Corviknight|move: Substitute|[damage]
+|
+|-heal|p1a: Corviknight|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Toxapex
+|-damage|p2a: Toxapex|56/100
+|-damage|p1a: Corviknight|73/100|[from] Recoil
+|move|p2a: Toxapex|Scald|p1a: Corviknight
+|-end|p1a: Corviknight|Substitute
+|
+|-heal|p1a: Corviknight|79/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-start|p1a: Corviknight|Substitute
+|-damage|p1a: Corviknight|54/100
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Corviknight|60/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2a: Toxapex|Scald|p1a: Corviknight
+|-activate|p1a: Corviknight|move: Substitute|[damage]
+|
+|-heal|p1a: Corviknight|67/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Toxapex
+|-damage|p2a: Toxapex|24/100
+|-damage|p1a: Corviknight|58/100|[from] Recoil
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|74/100
+|
+|-heal|p1a: Corviknight|65/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Toxapex
+|-damage|p2a: Toxapex|43/100
+|-damage|p1a: Corviknight|57/100|[from] Recoil
+|move|p2a: Toxapex|Scald|p1a: Corviknight
+|-end|p1a: Corviknight|Substitute
+|
+|-heal|p1a: Corviknight|63/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|-damage|p1a: Corviknight|53/100|[from] Recoil
+|faint|p2a: Toxapex
+|
+|-heal|p1a: Corviknight|59/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|69/100
+|turn|24
+|
+|switch|p1a: Centiskorch|Centiskorch, F|48/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Centiskorch
+|-start|p1a: Centiskorch|ability: Flash Fire
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Cinderace|U-turn|p1a: Centiskorch
+|-resisted|p1a: Centiskorch
+|-damage|p1a: Centiskorch|32/100
+|
+|switch|p2a: Clefable|Clefable, F|34/100|[from]move: U-turn
+|move|p1a: Centiskorch|Fire Lash|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|73/100
+|turn|26
+|
+|-end|p1a: Centiskorch|ability: Flash Fire|[silent]
+|switch|p1a: Corviknight|Corviknight, F|59/100
+|-damage|p1a: Corviknight|46/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Hydreigon|Dark Pulse|p1a: Corviknight
+|-damage|p1a: Corviknight|15/100
+|
+|-heal|p2a: Hydreigon|79/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|22/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-heal|p2a: Hydreigon|85/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|88/100
+|-damage|p1a: Dragapult|76/100|[from] Stealth Rock
+|-status|p1a: Dragapult|psn
+|turn|28
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|move|p1a: Dragapult|Draco Meteor|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|39/100
+|-unboost|p1a: Dragapult|spa|2
+|
+|-damage|p1a: Dragapult|64/100 psn|[from] psn
+|upkeep
+|turn|29
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|9/100
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: Conkeldurr|Drain Punch|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|-damage|p1a: Dragapult|51/100 psn|[from] psn
+|upkeep
+|turn|30
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|switch|p2a: Cinderace|Cinderace, M|69/100
+|
+|upkeep
+|turn|31
+|c|☆Chinpokomon8|either ur making god reads or u don't know what ur doing
+|c|☆Chinpokomon8|cant decide which
+|
+|switch|p2a: Hydreigon|Hydreigon, F|85/100
+|move|p1a: Rotom|Volt Switch|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-crit|p2a: Hydreigon
+|-damage|p2a: Hydreigon|64/100
+|
+|switch|p1a: Dragapult|Dragapult, F|51/100 psn|[from]move: Volt Switch
+|-damage|p1a: Dragapult|39/100 psn|[from] Stealth Rock
+|
+|-heal|p2a: Hydreigon|70/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|27/100 psn|[from] psn
+|upkeep
+|turn|32
+|
+|switch|p1a: Rotom|Rotom-Wash|88/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|switch|p2a: Conkeldurr|Conkeldurr, M|9/100
+|
+|upkeep
+|turn|33
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Rotom
+|-damage|p1a: Rotom|44/100
+|move|p1a: Rotom|Volt Switch|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|switch|p1a: Centiskorch|Centiskorch, F|32/100|[from]move: Volt Switch
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|70/100
+|turn|34
+|
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|45/100
+|move|p1a: Centiskorch|Rest|p1a: Centiskorch
+|-status|p1a: Centiskorch|slp|[from] move: Rest
+|-heal|p1a: Centiskorch|100/100 slp|[silent]
+|
+|-heal|p2a: Hydreigon|51/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|switch|p1a: Dragapult|Dragapult, F|27/100 psn
+|-damage|p1a: Dragapult|14/100 psn|[from] Stealth Rock
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|-heal|p2a: Hydreigon|57/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|2/100 psn|[from] psn
+|upkeep
+|turn|36
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Hydreigon
+|
+|-damage|p1a: Dragapult|0 fnt|[from] psn
+|faint|p1a: Dragapult
+|upkeep
+|-message|Chinpokomon8 forfeited.
+|
+|win|Cuddlebunch
+|l|☆Chinpokomon8
+|raw|Cuddlebunch's rating: 1370 → 1394(+24 for winning)
+|raw|Chinpokomon8's rating: 1436 → 1412(-24 for losing)

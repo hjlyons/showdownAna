@@ -1,0 +1,310 @@
+|ScrapeTime|2020-01-01-01:54:29
+|j|☆YYeajk
+|j|☆Manskan
+|player|p1|YYeajk|101|1204
+|player|p2|Manskan|269|1249
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Xatu, F|
+|poke|p1|Toxtricity, F|
+|poke|p1|Seismitoad, F|
+|poke|p1|Dracovish|
+|poke|p1|Clefable, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Clefable, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Dracovish|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Manskan)
+|inactive|YYeajk has 120 seconds left.
+|inactive|YYeajk has 90 seconds left.
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|move|p2a: Tyranitar|Substitute|p2a: Tyranitar
+|-start|p2a: Tyranitar|Substitute
+|-damage|p2a: Tyranitar|76/100
+|move|p1a: Seismitoad|Scald|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-end|p2a: Tyranitar|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Seismitoad|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Xatu|Xatu, F|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Xatu
+|move|p1a: Xatu|Leech Seed|p2a: Ferrothorn|[from]Magic Bounce
+|-immune|p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|95/100|[from] Sandstorm
+|-status|p1a: Xatu|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Xatu|Psycho Shift|p2a: Clefable
+|-status|p2a: Clefable|brn
+|-curestatus|p1a: Xatu|brn|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|89/100|[from] Sandstorm
+|-status|p1a: Xatu|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|switch|p1a: Toxtricity|Toxtricity, F|100/100
+|move|p2a: Clefable|Moonblast|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|56/100
+|-unboost|p1a: Toxtricity|spa|1
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|switch|p2a: Tyranitar|Tyranitar, F|76/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Toxtricity|Overdrive|p2a: Tyranitar
+|-damage|p2a: Tyranitar|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxtricity|50/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Tyranitar
+|-damage|p2a: Tyranitar|1/100
+|move|p2a: Tyranitar|Earthquake|p1a: Toxtricity
+|-supereffective|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Xatu|Xatu, F|89/100 brn
+|turn|8
+|
+|move|p1a: Xatu|Air Slash|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|83/100 brn|[from] Sandstorm
+|-damage|p1a: Xatu|77/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|89/100
+|turn|9
+|
+|move|p1a: Xatu|Psycho Shift|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|-curestatus|p1a: Xatu|brn|[msg]
+|move|p2a: Ferrothorn|Knock Off|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|39/100
+|-enditem|p1a: Xatu|Flame Orb|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Xatu|33/100|[from] Sandstorm
+|-damage|p2a: Ferrothorn|83/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Xatu|Air Slash|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|56/100 brn
+|move|p2a: Ferrothorn|Knock Off|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|9/100
+|
+|-weather|none
+|-damage|p2a: Ferrothorn|50/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Xatu|Tailwind|p1a: Xatu
+|-sidestart|p1: YYeajk|move: Tailwind
+|move|p2a: Ferrothorn|Knock Off|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|
+|-damage|p2a: Ferrothorn|44/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|12
+|
+|move|p1a: Grimmsnarl|Brick Break|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|5/100 brn
+|-damage|p1a: Grimmsnarl|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Grimmsnarl|71/100|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|-damage|p1a: Grimmsnarl|62/100|[from] item: Life Orb
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Grimmsnarl
+|-sidestart|p1: YYeajk|move: Stealth Rock
+|
+|-damage|p2a: Ferrothorn|0 fnt|[from] brn
+|faint|p2a: Ferrothorn
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|13
+|
+|move|p1a: Grimmsnarl|Play Rough|p2a: Dracovish
+|-supereffective|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|-damage|p1a: Grimmsnarl|52/100|[from] item: Life Orb
+|faint|p2a: Dracovish
+|
+|upkeep
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|turn|14
+|
+|move|p1a: Grimmsnarl|Play Rough|p2a: Mandibuzz|[miss]
+|-miss|p1a: Grimmsnarl|p2a: Mandibuzz
+|move|p2a: Mandibuzz|Toxic|p1a: Grimmsnarl
+|-status|p1a: Grimmsnarl|tox
+|
+|-damage|p1a: Grimmsnarl|46/100 tox|[from] psn
+|-sideend|p1: YYeajk|move: Tailwind
+|upkeep
+|turn|15
+|
+|move|p1a: Grimmsnarl|Play Rough|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|13/100
+|-damage|p1a: Grimmsnarl|36/100 tox|[from] item: Life Orb
+|move|p2a: Mandibuzz|Knock Off|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|28/100 tox
+|-enditem|p1a: Grimmsnarl|Life Orb|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|-damage|p1a: Grimmsnarl|16/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p2a: Clefable|Clefable, M|100/100 brn
+|move|p1a: Grimmsnarl|Play Rough|p2a: Clefable
+|-damage|p2a: Clefable|41/100 brn
+|
+|-damage|p1a: Grimmsnarl|0 fnt|[from] psn
+|faint|p1a: Grimmsnarl
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|-damage|p1a: Dracovish|88/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|13/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|18
+|
+|switch|p2a: Clefable|Clefable, M|41/100 brn
+|switch|p1a: Clefable|Clefable, F|100/100
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Clefable|Wish|p2a: Clefable
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|20
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|move|p1a: Clefable|Moonblast|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|21
+|
+|switch|p1a: Dracovish|Dracovish|88/100
+|-damage|p1a: Dracovish|76/100|[from] Stealth Rock
+|move|p2a: Dragapult|Disable||[still]
+|-fail|p2a: Dragapult
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Dracovish
+|-supereffective|p1a: Dracovish
+|-damage|p1a: Dracovish|27/100
+|-supereffective|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|-hitcount|p1a: Dracovish|2
+|faint|p1a: Dracovish
+|
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|turn|23
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|move|p1a: Clefable|Psychic|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Dragapult|Fire Blast|p1a: Clefable
+|-damage|p1a: Clefable|75/100
+|-status|p1a: Clefable|brn
+|move|p1a: Clefable|Moonblast|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|win|YYeajk
+|l|☆Manskan
+|raw|YYeajk's rating: 1184 → 1214(+30 for winning)
+|raw|Manskan's rating: 1249 → 1220(-29 for losing)

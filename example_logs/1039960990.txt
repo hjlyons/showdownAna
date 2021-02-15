@@ -1,0 +1,1146 @@
+|ScrapeTime|2020-01-03-00:44:36
+|j|☆a boi has no name
+|j|☆masrur22
+|player|p1|a boi has no name|70|1300
+|player|p2|masrur22|101|1294
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, M|
+|poke|p1|Lucario, F|
+|poke|p1|Sylveon, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Ferrothorn, M|
+|poke|p2|Dracovish|
+|poke|p2|Gyarados, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Rotom-Heat|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by a boi has no name)
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|1
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Ferrothorn|[miss]
+|-miss|p1a: Rotom|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Rotom
+|-sidestart|p1: a boi has no name|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Hatterene
+|-damage|p2a: Hatterene|84/100
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Sylveon|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Sylveon|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Sylveon|Mystical Fire|p2a: Hatterene
+|-damage|p2a: Hatterene|71/100
+|-unboost|p2a: Hatterene|spa|1
+|move|p2a: Hatterene|Psychic|p1a: Sylveon
+|-damage|p1a: Sylveon|69/100
+|
+|-heal|p1a: Sylveon|75/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Lucario|Lucario, F|100/100
+|-damage|p1a: Lucario|98/100|[from] Stealth Rock
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Lucario|Swords Dance|p1a: Lucario
+|-boost|p1a: Lucario|atk|2
+|move|p2a: Toxapex|Scald|p1a: Lucario
+|-crit|p1a: Lucario
+|-damage|p1a: Lucario|56/100
+|-status|p1a: Lucario|brn
+|
+|-damage|p1a: Lucario|50/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Lucario|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|43/100
+|-damage|p1a: Lucario|40/100 brn|[from] item: Life Orb
+|move|p2a: Toxapex|Scald|p1a: Lucario
+|-damage|p1a: Lucario|12/100 brn
+|
+|-heal|p2a: Toxapex|50/100|[from] item: Black Sludge
+|-damage|p1a: Lucario|6/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Lucario|Close Combat|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|-damage|p1a: Lucario|0 fnt|[from] item: Life Orb
+|faint|p2a: Rotom
+|faint|p1a: Lucario
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|8
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Dracovish
+|-supereffective|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|faint|p2a: Dracovish
+|
+|upkeep
+|
+|switch|p2a: Hatterene|Hatterene, F|71/100
+|turn|9
+|
+|switch|p1a: Sylveon|Sylveon, F|75/100
+|-damage|p1a: Sylveon|63/100|[from] Stealth Rock
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Sylveon|atk|1
+|
+|-heal|p1a: Sylveon|69/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Sylveon|Hyper Voice|p2a: Gyarados
+|-damage|p2a: Gyarados|62/100
+|
+|-heal|p2a: Gyarados|68/100|[from] item: Leftovers
+|-heal|p1a: Sylveon|75/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-heal|p2a: Gyarados|74/100|[from] item: Leftovers
+|-heal|p1a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p2a: Gyarados|Power Whip|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|83/100
+|-damage|p2a: Gyarados|62/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p2a: Gyarados|68/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|89/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Gyarados|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|48/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Gyarados
+|-damage|p2a: Gyarados|19/100
+|
+|-heal|p2a: Gyarados|25/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|54/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Gyarados|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|9/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Gyarados|[miss]
+|-miss|p1a: Ferrothorn|p2a: Gyarados
+|
+|-heal|p2a: Gyarados|31/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|15/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Gyarados|Earthquake|p1a: Mandibuzz
+|-immune|p1a: Mandibuzz
+|
+|-heal|p2a: Gyarados|37/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Gyarados|Waterfall|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|52/100
+|move|p1a: Mandibuzz|Knock Off|p2a: Gyarados
+|-damage|p2a: Gyarados|6/100
+|-enditem|p2a: Gyarados|Leftovers|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Gyarados|Waterfall|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|2/100
+|move|p1a: Mandibuzz|Knock Off|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|83/100
+|turn|18
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|52/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Toxapex|Toxic|p1a: Mandibuzz
+|-status|p1a: Mandibuzz|tox
+|
+|-heal|p2a: Toxapex|89/100|[from] item: Black Sludge
+|-damage|p1a: Mandibuzz|46/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p1a: Mandibuzz|Defog|p2a: Toxapex
+|-unboost|p2a: Toxapex|evasion|1
+|-sideend|p1: a boi has no name|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Toxapex|Scald|p1a: Mandibuzz
+|-crit|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|24/100 tox
+|
+|-heal|p2a: Toxapex|95/100|[from] item: Black Sludge
+|-damage|p1a: Mandibuzz|11/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p1a: Mandibuzz|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|82/100
+|-enditem|p2a: Toxapex|Black Sludge|[from] move: Knock Off|[of] p1a: Mandibuzz
+|move|p2a: Toxapex|Scald|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|94/100
+|turn|21
+|
+|move|p1a: Rotom|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|40/100
+|
+|switch|p1a: Hydreigon|Hydreigon, M|88/100|[from]move: Volt Switch
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|90/100
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Toxapex
+|-damage|p2a: Toxapex|35/100
+|-unboost|p1a: Hydreigon|spa|2
+|move|p2a: Toxapex|Toxic|p1a: Hydreigon
+|-status|p1a: Hydreigon|tox
+|
+|-damage|p1a: Hydreigon|82/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|switch|p1a: Rotom|Rotom-Wash|94/100
+|switch|p2a: Hatterene|Hatterene, F|71/100
+|
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Rotom|Volt Switch|p2a: Hatterene
+|-damage|p2a: Hatterene|54/100
+|
+|switch|p1a: Sylveon|Sylveon, F|75/100|[from]move: Volt Switch
+|move|p2a: Hatterene|Giga Drain|p1a: Sylveon
+|-damage|p1a: Sylveon|55/100
+|-heal|p2a: Hatterene|66/100|[from] drain|[of] p1a: Sylveon
+|
+|-heal|p1a: Sylveon|61/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Hatterene|Psychic|p1a: Rotom
+|-damage|p1a: Rotom|46/100
+|
+|-heal|p1a: Rotom|52/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Hatterene|[miss]
+|-miss|p1a: Rotom|p2a: Hatterene
+|move|p2a: Hatterene|Psychic|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Sylveon|Sylveon, F|61/100
+|turn|27
+|
+|move|p1a: Sylveon|Mystical Fire|p2a: Hatterene
+|-damage|p2a: Hatterene|52/100
+|-unboost|p2a: Hatterene|spa|1
+|move|p2a: Hatterene|Psychic|p1a: Sylveon
+|-damage|p1a: Sylveon|38/100
+|-unboost|p1a: Sylveon|spd|1
+|
+|-heal|p1a: Sylveon|44/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|move|p2a: Hatterene|Psychic|p1a: Sylveon
+|-damage|p1a: Sylveon|6/100
+|
+|-heal|p1a: Sylveon|12/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: Toxapex|Toxapex, M|68/100
+|move|p1a: Sylveon|Protect||[still]
+|-fail|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|62/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Sylveon|69/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p1a: Hydreigon|Hydreigon, M|82/100 tox
+|move|p2a: Toxapex|Toxic|p1a: Hydreigon
+|-fail|p1a: Hydreigon|tox
+|
+|-damage|p1a: Hydreigon|76/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Toxapex
+|-damage|p2a: Toxapex|35/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|85/100
+|
+|-damage|p1a: Hydreigon|64/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|15/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-heal|p1a: Ferrothorn|21/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p2a: Toxapex|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|15/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Toxapex
+|-start|p2a: Toxapex|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|21/100|[from] item: Leftovers
+|-damage|p2a: Toxapex|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|32/100|[silent]
+|upkeep
+|turn|34
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|93/100
+|-damage|p1a: Ferrothorn|20/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|26/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: masrur22|move: Stealth Rock
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: a boi has no name|move: Stealth Rock
+|
+|-heal|p1a: Ferrothorn|32/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: masrur22|Spikes
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|27/100
+|-damage|p2a: Ferrothorn|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|33/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|switch|p2a: Hatterene|Hatterene, F|52/100
+|-damage|p2a: Hatterene|40/100|[from] Spikes
+|-damage|p2a: Hatterene|28/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Power Whip|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-heal|p1a: Ferrothorn|39/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Spikes
+|-damage|p2a: Toxapex|75/100|[from] Stealth Rock
+|turn|38
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|94/100
+|-damage|p2a: Ferrothorn|88/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|75/100|[from] Spikes
+|move|p1a: Ferrothorn|Leech Seed|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|45/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|82/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: masrur22|Spikes
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|51/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|88/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: masrur22|Spikes
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|57/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|switch|p1a: Hydreigon|Hydreigon, M|64/100 tox
+|-damage|p1a: Hydreigon|51/100 tox|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Hydreigon
+|-start|p1a: Hydreigon|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p1a: Hydreigon|39/100 tox|[from] Leech Seed|[of] p2a: Ferrothorn
+|-damage|p1a: Hydreigon|33/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|75/100|[from] Spikes
+|-damage|p2a: Toxapex|63/100|[from] Stealth Rock
+|move|p1a: Hydreigon|Fire Blast|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|48/100
+|
+|-damage|p1a: Hydreigon|20/100 tox|[from] Leech Seed|[of] p2a: Toxapex
+|-heal|p2a: Toxapex|61/100|[silent]
+|-damage|p1a: Hydreigon|8/100 tox|[from] psn
+|upkeep
+|turn|43
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|57/100
+|-damage|p1a: Ferrothorn|51/100|[from] Stealth Rock
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-heal|p1a: Ferrothorn|57/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|69/100|[from] Spikes
+|move|p1a: Ferrothorn|Leech Seed|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|63/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|75/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p1a: Ferrothorn|Power Whip|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|68/100
+|-damage|p1a: Ferrothorn|51/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|57/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|74/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|switch|p1a: Sylveon|Sylveon, F|69/100
+|-damage|p1a: Sylveon|56/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|
+|-heal|p1a: Sylveon|62/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|80/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|move|p1a: Sylveon|Mystical Fire|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|35/100
+|-unboost|p2a: Ferrothorn|spa|1
+|move|p2a: Ferrothorn|Leech Seed|p1a: Sylveon
+|-start|p1a: Sylveon|move: Leech Seed
+|
+|-heal|p1a: Sylveon|68/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|41/100|[from] item: Leftovers
+|-damage|p1a: Sylveon|56/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|55/100|[silent]
+|upkeep
+|turn|48
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|-damage|p2a: Toxapex|63/100|[from] Spikes
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|62/100|[from] item: Leftovers
+|-damage|p1a: Sylveon|49/100|[from] Leech Seed|[of] p2a: Toxapex
+|-heal|p2a: Toxapex|79/100|[silent]
+|upkeep
+|turn|49
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|57/100
+|-damage|p1a: Ferrothorn|51/100|[from] Stealth Rock
+|move|p2a: Toxapex|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|45/100
+|-status|p1a: Ferrothorn|brn
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] move: Wish|[wisher] Sylveon
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|55/100
+|-damage|p2a: Ferrothorn|49/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|24/100|[from] Spikes
+|switch|p1a: Sylveon|Sylveon, F|49/100
+|-damage|p1a: Sylveon|37/100|[from] Stealth Rock
+|
+|-heal|p1a: Sylveon|43/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|30/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|move|p2a: Ferrothorn|Leech Seed|p1a: Sylveon|[miss]
+|-miss|p2a: Ferrothorn|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|49/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|36/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|move|p1a: Sylveon|Mystical Fire|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Sylveon|99/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Sylveon|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|-damage|p2a: Toxapex|63/100|[from] Spikes
+|turn|53
+|
+|move|p1a: Sylveon|Mystical Fire|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|56/100
+|-unboost|p2a: Toxapex|spa|1
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|upkeep
+|turn|54
+|
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Toxapex|Toxic|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|upkeep
+|turn|55
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|95/100 brn
+|-damage|p1a: Ferrothorn|89/100 brn|[from] Stealth Rock
+|move|p2a: Toxapex|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|84/100 brn
+|
+|-heal|p1a: Ferrothorn|90/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|84/100 brn|[from] brn
+|upkeep
+|turn|56
+|
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|move|p1a: Ferrothorn|Leech Seed|p2a: Toxapex
+|-start|p2a: Toxapex|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|90/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 brn|[silent]
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|move|p1a: Ferrothorn|Power Whip|p2a: Toxapex
+|-damage|p2a: Toxapex|77/100
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|65/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|58
+|c|☆a boi has no name|gg
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Toxapex
+|-damage|p2a: Toxapex|89/100
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|59
+|
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|move|p1a: Ferrothorn|Power Whip|p2a: Toxapex
+|-damage|p2a: Toxapex|64/100
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|52/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|60
+|c|☆a boi has no name|you cant even stall me out
+|
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|move|p1a: Ferrothorn|Power Whip|p2a: Toxapex
+|-damage|p2a: Toxapex|41/100
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|28/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|61
+|c|☆a boi has no name|i have too much pp
+|c|☆a boi has no name|so might as well save yourself some time and forgeit
+|c|☆a boi has no name|forfeit*
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|78/100
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|66/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|62
+|inactive|masrur22 has 120 seconds left.
+|c|☆a boi has no name|i have all night btw if you wanna timer stall
+|inactive|masrur22 has 90 seconds left.
+|
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|53/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|63
+|inactive|masrur22 has 90 seconds left.
+|
+|move|p2a: Toxapex|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|88/100 brn
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|41/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 brn|[silent]
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|64
+|inactive|masrur22 has 90 seconds left.
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|91/100
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|78/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|65
+|
+|move|p2a: Toxapex|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|88/100 brn
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|66/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 brn|[silent]
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|66
+|
+|move|p2a: Toxapex|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|89/100 brn
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|95/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|53/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 brn|[silent]
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|67
+|
+|move|p2a: Toxapex|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|88/100 brn
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|41/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 brn|[silent]
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|68
+|inactive|masrur22 has 120 seconds left.
+|
+|move|p2a: Toxapex|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|89/100 brn
+|move|p1a: Ferrothorn|Power Whip|p2a: Toxapex
+|-damage|p2a: Toxapex|29/100
+|
+|-heal|p1a: Ferrothorn|95/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|17/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 brn|[silent]
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|69
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|67/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Toxapex
+|-damage|p2a: Toxapex|55/100
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|43/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|70
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|93/100
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|80/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|71
+|
+|move|p2a: Toxapex|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|88/100 brn
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|68/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 brn|[silent]
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|72
+|
+|move|p2a: Toxapex|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|88/100 brn
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|55/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 brn|[silent]
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|73
+|
+|move|p2a: Toxapex|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|89/100 brn
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|95/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|43/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 brn|[silent]
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|74
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|93/100
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|80/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|75
+|
+|move|p2a: Toxapex|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|89/100 brn
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|95/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|68/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 brn|[silent]
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|76
+|
+|move|p2a: Toxapex|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|85/100 brn
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|91/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|55/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 brn|[silent]
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|77
+|
+|move|p2a: Toxapex|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|89/100 brn
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|95/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|43/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 brn|[silent]
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|78
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|93/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Toxapex
+|-damage|p2a: Toxapex|82/100
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|69/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|79
+|
+|move|p2a: Toxapex|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|89/100 brn
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|95/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|57/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 brn|[silent]
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|80
+|
+|move|p2a: Toxapex|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|88/100 brn
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|44/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 brn|[silent]
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|81
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|94/100
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|82/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|82
+|
+|move|p2a: Toxapex|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|88/100 brn
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|69/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 brn|[silent]
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|83
+|
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|57/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|84
+|
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|44/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|85
+|
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|move|p1a: Ferrothorn|Power Whip|p2a: Toxapex|[miss]
+|-miss|p1a: Ferrothorn|p2a: Toxapex
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|32/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|86
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|82/100
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|69/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|87
+|
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|57/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|88
+|
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|44/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|89
+|
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|32/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|90
+|
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|19/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|91
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|69/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Toxapex
+|-damage|p2a: Toxapex|57/100
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|44/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|92
+|
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|32/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|93
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|82/100
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|69/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|94
+|
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|move|p1a: Ferrothorn|Stealth Rock||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|57/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|95
+|
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|44/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|96
+|
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|32/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|97
+|
+|move|p2a: Toxapex|Toxic||[still]
+|-fail|p2a: Toxapex
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|19/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|98
+|
+|move|p2a: Toxapex|Toxic||[still]
+|-fail|p2a: Toxapex
+|move|p1a: Ferrothorn|Spikes||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|7/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|95/100 brn|[from] brn
+|upkeep
+|turn|99
+|c|☆a boi has no name|gg
+|
+|move|p2a: Toxapex|Toxic||[still]
+|-fail|p2a: Toxapex
+|move|p1a: Ferrothorn|Power Whip|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|win|a boi has no name
+|l|☆masrur22
+|raw|a boi has no name's rating: 1278 → 1305(+27 for winning)
+|raw|masrur22's rating: 1294 → 1268(-26 for losing)

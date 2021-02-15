@@ -1,0 +1,833 @@
+|ScrapeTime|2020-01-02-13:45:12
+|j|☆adrtorre1
+|j|☆sukes
+|player|p1|adrtorre1|bruno|1067
+|player|p2|sukes|juan|1083
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dracovish|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Kommo-o, F|
+|poke|p1|Cinderace, M|
+|poke|p2|Kommo-o, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Clefable, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Corviknight, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|move|p2a: Rotom|Trick|p1a: Ferrothorn
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Ferrothorn
+|-item|p1a: Ferrothorn|Choice Scarf|[from] move: Trick
+|-enditem|p2a: Rotom|Choice Scarf|[silent]|[from] move: Trick
+|move|p1a: Ferrothorn|Leech Seed|p2a: Rotom
+|-start|p2a: Rotom|move: Leech Seed
+|
+|-damage|p2a: Rotom|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|2
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|move|p2a: Rotom|Thunder Wave|p1a: Dracovish
+|-status|p1a: Dracovish|par
+|
+|-damage|p2a: Rotom|76/100|[from] Leech Seed|[of] p1a: Dracovish
+|upkeep
+|turn|3
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Corsola
+|-damage|p1a: Corsola|86/100
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Toxapex|Toxic|p1a: Corsola
+|-status|p1a: Corsola|tox
+|move|p1a: Corsola|Will-O-Wisp|p2a: Toxapex
+|-status|p2a: Toxapex|brn
+|
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|-damage|p1a: Corsola|80/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p2a: Toxapex|Scald|p1a: Corsola
+|-damage|p1a: Corsola|72/100 tox
+|move|p1a: Corsola|Night Shade|p2a: Toxapex
+|-damage|p2a: Toxapex|61/100 brn
+|
+|-heal|p2a: Toxapex|68/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|61/100 brn|[from] brn
+|-damage|p1a: Corsola|59/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100 brn
+|
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Kommo-o|Clanging Scales|p2a: Toxapex
+|-damage|p2a: Toxapex|34/100 brn
+|-unboost|p1a: Kommo-o|def|1
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|40/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|34/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Kommo-o|Clanging Scales|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|71/100
+|-unboost|p1a: Kommo-o|def|1
+|
+|-heal|p2a: Corviknight|77/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|52/100
+|
+|-heal|p2a: Corviknight|58/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Ferrothorn|Leech Seed||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p2a: Corviknight|65/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|71/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|-damage|p1a: Cinderace|91/100|[from] item: Life Orb
+|move|p2a: Corviknight|Brave Bird|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-damage|p2a: Corviknight|49/100|[from] Recoil
+|faint|p1a: Cinderace
+|
+|-heal|p2a: Corviknight|55/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|turn|13
+|
+|move|p1a: Kommo-o|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|14
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Clefable|Moonblast|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|88/100
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Kommo-o
+|-immune|p2a: Kommo-o|[from] ability: Bulletproof
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Dracovish|Dracovish|100/100 par
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|67/100
+|-enditem|p2a: Kommo-o|Throat Spray
+|-boost|p2a: Kommo-o|spa|1
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|88/100
+|move|p2a: Kommo-o|Clanging Scales|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|49/100
+|-unboost|p2a: Kommo-o|def|1
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Kommo-o|Flamethrower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, F|59/100 tox
+|turn|19
+|
+|move|p2a: Kommo-o|Clanging Scales|p1a: Corsola
+|-damage|p1a: Corsola|13/100 tox
+|-start|p2a: Kommo-o|Disable|Clanging Scales|[from] ability: Cursed Body|[of] p1a: Corsola
+|-unboost|p2a: Kommo-o|def|1
+|move|p1a: Corsola|Strength Sap|p2a: Kommo-o
+|-unboost|p2a: Kommo-o|atk|1
+|-heal|p1a: Corsola|100/100 tox
+|
+|-damage|p1a: Corsola|94/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p2a: Toxapex|Toxapex, F|67/100 brn
+|move|p1a: Corsola|Night Shade|p2a: Toxapex
+|-damage|p2a: Toxapex|34/100 brn
+|
+|-heal|p2a: Toxapex|40/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|34/100 brn|[from] brn
+|-damage|p1a: Corsola|82/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|84/100 brn
+|
+|-heal|p2a: Toxapex|90/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|84/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Kommo-o|Clanging Scales|p2a: Clefable
+|-immune|p2a: Clefable
+|
+|upkeep
+|turn|23
+|
+|switch|p1a: Corsola|Corsola-Galar, F|82/100 tox
+|move|p2a: Clefable|Moonblast|p1a: Corsola
+|-damage|p1a: Corsola|66/100 tox
+|-start|p2a: Clefable|Disable|Moonblast|[from] ability: Cursed Body|[of] p1a: Corsola
+|
+|-damage|p1a: Corsola|60/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|move|p1a: Corsola|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: sukes|move: Stealth Rock
+|
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|-damage|p1a: Corsola|48/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|move|p2a: Toxapex|Scald|p1a: Corsola
+|-damage|p1a: Corsola|40/100 tox
+|move|p1a: Corsola|Strength Sap|p2a: Toxapex
+|-unboost|p2a: Toxapex|atk|1
+|-heal|p1a: Corsola|85/100 tox
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|-damage|p1a: Corsola|66/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Toxapex|Scald|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|83/100
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: adrtorre1|move: Light Screen
+|move|p2a: Toxapex|Scald|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|74/100
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: adrtorre1|Reflect
+|move|p2a: Toxapex|Scald|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|66/100
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|switch|p1a: Dracovish|Dracovish|100/100 par
+|move|p2a: Toxapex|Toxic||[still]
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p1a: Dracovish|Psychic Fangs|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|51/100 brn
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100 brn
+|
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Dracovish|Psychic Fangs|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|73/100
+|
+|-heal|p2a: Excadrill|79/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p1a: Corsola|Corsola-Galar, F|66/100 tox
+|move|p2a: Excadrill|Rapid Spin|p1a: Corsola
+|-immune|p1a: Corsola
+|
+|-heal|p2a: Excadrill|85/100|[from] item: Leftovers
+|-damage|p1a: Corsola|60/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|88/100 brn|[from] Stealth Rock
+|move|p1a: Corsola|Will-O-Wisp|p2a: Toxapex
+|-fail|p2a: Toxapex|brn
+|
+|-heal|p2a: Toxapex|94/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|88/100 brn|[from] brn
+|-damage|p1a: Corsola|48/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|move|p2a: Toxapex|Scald|p1a: Corsola
+|-damage|p1a: Corsola|43/100 tox
+|move|p1a: Corsola|Strength Sap|p2a: Toxapex
+|-unboost|p2a: Toxapex|atk|1
+|-heal|p1a: Corsola|88/100 tox
+|
+|-heal|p2a: Toxapex|94/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|88/100 brn|[from] brn
+|-damage|p1a: Corsola|70/100 tox|[from] psn
+|-sideend|p1: adrtorre1|move: Light Screen
+|upkeep
+|turn|35
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|move|p2a: Toxapex|Scald|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|92/100
+|
+|-heal|p2a: Toxapex|94/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|88/100 brn|[from] brn
+|-sideend|p1: adrtorre1|Reflect
+|upkeep
+|turn|36
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Kommo-o|Clanging Scales|p2a: Clefable
+|-immune|p2a: Clefable
+|
+|upkeep
+|turn|37
+|
+|switch|p1a: Corsola|Corsola-Galar, F|70/100 tox
+|move|p2a: Clefable|Moonblast|p1a: Corsola
+|-damage|p1a: Corsola|53/100 tox
+|
+|-damage|p1a: Corsola|47/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|move|p2a: Clefable|Wish|p2a: Clefable
+|move|p1a: Corsola|Strength Sap|p2a: Clefable
+|-unboost|p2a: Clefable|atk|1
+|-heal|p1a: Corsola|96/100 tox
+|
+|-damage|p1a: Corsola|83/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|switch|p1a: Kommo-o|Kommo-o, F|92/100
+|move|p2a: Clefable|Moonblast|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100 par
+|turn|40
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Clefable
+|-damage|p2a: Clefable|3/100
+|move|p2a: Clefable|Moonblast|p1a: Dracovish
+|-supereffective|p1a: Dracovish
+|-damage|p1a: Dracovish|16/100 par
+|
+|-heal|p2a: Clefable|9/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|76/100
+|-damage|p2a: Rotom|64/100|[from] Stealth Rock
+|turn|42
+|
+|switch|p1a: Corsola|Corsola-Galar, F|83/100 tox
+|move|p2a: Rotom|Volt Switch|p1a: Corsola
+|-damage|p1a: Corsola|70/100 tox
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn|[from]move: Volt Switch
+|-damage|p2a: Toxapex|88/100 brn|[from] Stealth Rock
+|
+|-heal|p2a: Toxapex|94/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|88/100 brn|[from] brn
+|-damage|p1a: Corsola|64/100 tox|[from] psn
+|upkeep
+|turn|43
+|
+|move|p2a: Toxapex|Scald|p1a: Corsola
+|-damage|p1a: Corsola|55/100 tox
+|-start|p2a: Toxapex|Disable|Scald|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Strength Sap|p2a: Toxapex
+|-unboost|p2a: Toxapex|atk|1
+|-heal|p1a: Corsola|99/100 tox
+|
+|-heal|p2a: Toxapex|94/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|88/100 brn|[from] brn
+|-damage|p1a: Corsola|87/100 tox|[from] psn
+|upkeep
+|turn|44
+|
+|switch|p1a: Dracovish|Dracovish|16/100 par
+|move|p2a: Toxapex|Toxic||[still]
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|94/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|88/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|switch|p2a: Excadrill|Excadrill, M|85/100
+|-damage|p2a: Excadrill|82/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Dracovish|Fishious Rend|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Kommo-o|Kommo-o, M|67/100
+|-damage|p2a: Kommo-o|61/100|[from] Stealth Rock
+|turn|46
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|66/100
+|move|p2a: Kommo-o|Clanging Scales|p1a: Grimmsnarl
+|-immune|p1a: Grimmsnarl
+|
+|upkeep
+|turn|47
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|88/100 brn|[from] Stealth Rock
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: adrtorre1|move: Light Screen
+|
+|-heal|p2a: Toxapex|94/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|88/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: adrtorre1|Reflect
+|move|p2a: Toxapex|Scald|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|57/100
+|
+|-heal|p2a: Toxapex|94/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|88/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|switch|p1a: Corsola|Corsola-Galar, F|87/100 tox
+|move|p2a: Toxapex|Toxic|p1a: Corsola
+|-fail|p1a: Corsola|tox
+|
+|-heal|p2a: Toxapex|94/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|88/100 brn|[from] brn
+|-damage|p1a: Corsola|81/100 tox|[from] psn
+|upkeep
+|turn|50
+|
+|move|p2a: Toxapex|Scald|p1a: Corsola
+|-damage|p1a: Corsola|76/100 tox
+|move|p1a: Corsola|Night Shade|p2a: Toxapex
+|-damage|p2a: Toxapex|55/100 brn
+|
+|-heal|p2a: Toxapex|61/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|55/100 brn|[from] brn
+|-damage|p1a: Corsola|64/100 tox|[from] psn
+|upkeep
+|turn|51
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100 brn
+|move|p1a: Corsola|Night Shade|p2a: Toxapex
+|-damage|p2a: Toxapex|68/100 brn
+|
+|-heal|p2a: Toxapex|74/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|68/100 brn|[from] brn
+|-damage|p1a: Corsola|45/100 tox|[from] psn
+|upkeep
+|turn|52
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100 brn
+|move|p1a: Corsola|Strength Sap|p2a: Toxapex
+|-unboost|p2a: Toxapex|atk|1
+|-heal|p1a: Corsola|90/100 tox
+|
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|-damage|p1a: Corsola|65/100 tox|[from] psn
+|upkeep
+|turn|53
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|57/100
+|move|p2a: Toxapex|Scald|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|48/100
+|-status|p1a: Grimmsnarl|brn
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Grimmsnarl|42/100 brn|[from] brn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|85/100 brn
+|-unboost|p2a: Toxapex|spa|1
+|move|p2a: Toxapex|Scald|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|37/100 brn
+|
+|-heal|p2a: Toxapex|91/100 brn|[from] item: Black Sludge
+|-damage|p1a: Grimmsnarl|31/100 brn|[from] brn
+|-damage|p2a: Toxapex|85/100 brn|[from] brn
+|-sideend|p1: adrtorre1|move: Light Screen
+|upkeep
+|turn|55
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: adrtorre1|move: Light Screen
+|move|p2a: Toxapex|Scald|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|25/100 brn
+|
+|-heal|p2a: Toxapex|91/100 brn|[from] item: Black Sludge
+|-damage|p1a: Grimmsnarl|19/100 brn|[from] brn
+|-damage|p2a: Toxapex|85/100 brn|[from] brn
+|-sideend|p1: adrtorre1|Reflect
+|upkeep
+|turn|56
+|
+|switch|p1a: Dracovish|Dracovish|16/100 par
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|91/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|85/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|switch|p2a: Rotom|Rotom-Wash|64/100
+|-damage|p2a: Rotom|52/100|[from] Stealth Rock
+|move|p1a: Dracovish|Fishious Rend|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Kommo-o|Kommo-o, M|61/100
+|-damage|p2a: Kommo-o|55/100|[from] Stealth Rock
+|turn|58
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|19/100 brn
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|21/100
+|
+|-damage|p1a: Grimmsnarl|12/100 brn|[from] brn
+|upkeep
+|turn|59
+|
+|move|p1a: Grimmsnarl|Sucker Punch|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|15/100
+|move|p2a: Kommo-o|Flash Cannon|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, F|65/100 tox
+|turn|60
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|88/100 brn|[from] Stealth Rock
+|move|p1a: Corsola|Night Shade|p2a: Toxapex
+|-damage|p2a: Toxapex|55/100 brn
+|
+|-heal|p2a: Toxapex|61/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|55/100 brn|[from] brn
+|-damage|p1a: Corsola|59/100 tox|[from] psn
+|upkeep
+|turn|61
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100 brn
+|move|p1a: Corsola|Strength Sap|p2a: Toxapex
+|-unboost|p2a: Toxapex|atk|1
+|-heal|p1a: Corsola|100/100 tox
+|
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|-damage|p1a: Corsola|88/100 tox|[from] psn
+|upkeep
+|turn|62
+|
+|switch|p1a: Dracovish|Dracovish|16/100 par
+|move|p2a: Toxapex|Scald|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|14/100 par
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|-sideend|p1: adrtorre1|move: Light Screen
+|upkeep
+|turn|63
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|62/100 brn
+|move|p2a: Toxapex|Scald|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|9/100 par
+|
+|-heal|p2a: Toxapex|68/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|62/100 brn|[from] brn
+|upkeep
+|turn|64
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|29/100 brn
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|79/100 brn
+|
+|-heal|p2a: Toxapex|85/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|79/100 brn|[from] brn
+|upkeep
+|turn|65
+|
+|switch|p1a: Corsola|Corsola-Galar, F|88/100 tox
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100 brn
+|
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|-damage|p1a: Corsola|82/100 tox|[from] psn
+|upkeep
+|turn|66
+|
+|move|p2a: Toxapex|Scald|p1a: Corsola
+|-damage|p1a: Corsola|73/100 tox
+|-start|p2a: Toxapex|Disable|Scald|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Strength Sap|p2a: Toxapex
+|-unboost|p2a: Toxapex|atk|1
+|-heal|p1a: Corsola|100/100 tox
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|-damage|p1a: Corsola|88/100 tox|[from] psn
+|upkeep
+|turn|67
+|
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|move|p1a: Corsola|Night Shade|p2a: Toxapex
+|-damage|p2a: Toxapex|61/100 brn
+|
+|-heal|p2a: Toxapex|68/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|61/100 brn|[from] brn
+|-damage|p1a: Corsola|70/100 tox|[from] psn
+|upkeep
+|turn|68
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100 brn
+|move|p1a: Corsola|Night Shade|p2a: Toxapex
+|-damage|p2a: Toxapex|68/100 brn
+|
+|-heal|p2a: Toxapex|74/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|68/100 brn|[from] brn
+|-damage|p1a: Corsola|45/100 tox|[from] psn
+|upkeep
+|turn|69
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100 brn
+|move|p1a: Corsola|Strength Sap|p2a: Toxapex
+|-unboost|p2a: Toxapex|atk|1
+|-heal|p1a: Corsola|90/100 tox
+|
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|-damage|p1a: Corsola|59/100 tox|[from] psn
+|-end|p2a: Toxapex|Disable
+|upkeep
+|turn|70
+|
+|switch|p1a: Dracovish|Dracovish|9/100 par
+|move|p2a: Toxapex|Scald|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|3/100 par
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|71
+|
+|cant|p1a: Dracovish|par
+|move|p2a: Toxapex|Scald|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, F|59/100 tox
+|turn|72
+|
+|move|p2a: Toxapex|Scald|p1a: Corsola
+|-damage|p1a: Corsola|50/100 tox
+|move|p1a: Corsola|Night Shade|p2a: Toxapex
+|-damage|p2a: Toxapex|61/100 brn
+|
+|-heal|p2a: Toxapex|68/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|61/100 brn|[from] brn
+|-damage|p1a: Corsola|44/100 tox|[from] psn
+|upkeep
+|turn|73
+|
+|move|p2a: Toxapex|Scald|p1a: Corsola
+|-damage|p1a: Corsola|35/100 tox
+|move|p1a: Corsola|Night Shade|p2a: Toxapex
+|-damage|p2a: Toxapex|28/100 brn
+|
+|-heal|p2a: Toxapex|35/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|28/100 brn|[from] brn
+|-damage|p1a: Corsola|23/100 tox|[from] psn
+|upkeep
+|turn|74
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|78/100 brn
+|move|p1a: Corsola|Night Shade|p2a: Toxapex
+|-damage|p2a: Toxapex|46/100 brn
+|
+|-heal|p2a: Toxapex|52/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|46/100 brn|[from] brn
+|-damage|p1a: Corsola|5/100 tox|[from] psn
+|upkeep
+|turn|75
+|
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|96/100 brn
+|move|p1a: Corsola|Night Shade|p2a: Toxapex
+|-damage|p2a: Toxapex|63/100 brn
+|
+|-heal|p2a: Toxapex|69/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|63/100 brn|[from] brn
+|-damage|p1a: Corsola|0 fnt|[from] psn
+|faint|p1a: Corsola
+|
+|win|sukes
+|upkeep
+|raw|adrtorre1's rating: 1067 → 1048(-19 for losing)
+|raw|sukes's rating: 1083 → 1110(+27 for winning)
+|l|☆adrtorre1
+|c|☆sukes|gg

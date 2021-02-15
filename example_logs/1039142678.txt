@@ -1,0 +1,334 @@
+|ScrapeTime|2020-01-01-14:24:46
+|j|☆mrm430
+|j|☆Z-Tricky
+|player|p1|mrm430|126|1110
+|player|p2|Z-Tricky|ninjaboy|1126
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Gastrodon, F|
+|poke|p1|Toxtricity, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Ferrothorn, M|
+|poke|p2|Bisharp, M|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Arcanine, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Togekiss, F|
+|poke|p2|Excadrill, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Togekiss|Togekiss, F, shiny|100/100
+|turn|1
+|
+|switch|p2a: Arcanine|Arcanine, M|100/100
+|move|p1a: Cinderace|U-turn|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|87/100
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|79/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Rotom
+|-status|p1a: Rotom|brn
+|move|p1a: Rotom|Volt Switch|p2a: Rotom
+|-damage|p2a: Rotom|54/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Corsola
+|-sidestart|p2: Z-Tricky|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Corsola|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: mrm430|move: Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Corsola
+|-start|p2a: Corsola|move: Leech Seed
+|
+|-damage|p2a: Corsola|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|6
+|
+|switch|p2a: Arcanine|Arcanine, M|87/100
+|-damage|p2a: Arcanine|62/100|[from] Stealth Rock
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|-damage|p1a: Toxtricity|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Arcanine|Flare Blitz|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|-damage|p2a: Arcanine|36/100|[from] Recoil
+|-damage|p2a: Arcanine|26/100|[from] item: Life Orb
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100 brn
+|-damage|p1a: Rotom|88/100 brn|[from] Stealth Rock
+|turn|8
+|
+|switch|p2a: Rotom|Rotom-Wash|54/100
+|-damage|p2a: Rotom|41/100|[from] Stealth Rock
+|move|p1a: Rotom|Volt Switch|p2a: Rotom
+|-damage|p2a: Rotom|17/100
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p2a: Togekiss|Togekiss, F, shiny|100/100
+|-damage|p2a: Togekiss|76/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Togekiss
+|-start|p2a: Togekiss|move: Leech Seed
+|
+|-heal|p2a: Togekiss|82/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p2a: Togekiss|70/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|11
+|
+|switch|p1a: Gastrodon|Gastrodon, F|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|move|p2a: Togekiss|Nasty Plot|p2a: Togekiss
+|-boost|p2a: Togekiss|spa|2
+|
+|-heal|p2a: Togekiss|76/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|100/100|[from] item: Leftovers
+|-damage|p2a: Togekiss|64/100|[from] Leech Seed|[of] p1a: Gastrodon
+|upkeep
+|turn|12
+|
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Gastrodon
+|-damage|p1a: Gastrodon|40/100
+|move|p1a: Gastrodon|Clear Smog|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|42/100
+|-clearboost|p2a: Togekiss
+|
+|-heal|p2a: Togekiss|48/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|46/100|[from] item: Leftovers
+|-damage|p2a: Togekiss|36/100|[from] Leech Seed|[of] p1a: Gastrodon
+|-heal|p1a: Gastrodon|55/100|[silent]
+|upkeep
+|turn|13
+|
+|switch|p2a: Corsola|Corsola-Galar, M|88/100
+|-damage|p2a: Corsola|76/100|[from] Stealth Rock
+|move|p1a: Gastrodon|Scald|p2a: Corsola
+|-damage|p2a: Corsola|59/100
+|-start|p1a: Gastrodon|Disable|Scald|[from] ability: Cursed Body|[of] p2a: Corsola
+|-status|p2a: Corsola|brn
+|
+|-heal|p1a: Gastrodon|61/100|[from] item: Leftovers
+|-damage|p2a: Corsola|53/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Gastrodon|Earth Power|p2a: Corsola
+|-damage|p2a: Corsola|31/100 brn
+|move|p2a: Corsola|Night Shade|p1a: Gastrodon
+|-damage|p1a: Gastrodon|37/100
+|
+|-heal|p1a: Gastrodon|43/100|[from] item: Leftovers
+|-damage|p2a: Corsola|25/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|93/100
+|move|p2a: Corsola|Will-O-Wisp|p1a: Gastrodon
+|-status|p1a: Gastrodon|brn
+|
+|-heal|p1a: Gastrodon|99/100 brn|[from] item: Leftovers
+|-damage|p1a: Gastrodon|93/100 brn|[from] brn
+|-damage|p2a: Corsola|19/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Gastrodon|Earth Power|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|
+|-heal|p1a: Gastrodon|99/100 brn|[from] item: Leftovers
+|-damage|p1a: Gastrodon|93/100 brn|[from] brn
+|-end|p1a: Gastrodon|Disable
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|17
+|
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|move|p1a: Gastrodon|Scald|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|27/100
+|-status|p2a: Excadrill|brn
+|
+|-heal|p2a: Excadrill|33/100 brn|[from] item: Leftovers
+|-heal|p1a: Gastrodon|99/100 brn|[from] item: Leftovers
+|-damage|p2a: Excadrill|27/100 brn|[from] brn
+|-damage|p1a: Gastrodon|93/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p2a: Excadrill|Rapid Spin|p1a: Gastrodon
+|-damage|p1a: Gastrodon|79/100 brn
+|-sideend|p2: Z-Tricky|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-boost|p2a: Excadrill|spe|1
+|move|p1a: Gastrodon|Scald|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-heal|p1a: Gastrodon|85/100 brn|[from] item: Leftovers
+|-damage|p1a: Gastrodon|79/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, F, shiny|36/100
+|turn|19
+|
+|move|p2a: Togekiss|Nasty Plot|p2a: Togekiss
+|-boost|p2a: Togekiss|spa|2
+|move|p1a: Gastrodon|Clear Smog|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|13/100
+|-clearboost|p2a: Togekiss
+|
+|-heal|p2a: Togekiss|19/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|85/100 brn|[from] item: Leftovers
+|-damage|p1a: Gastrodon|79/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|move|p1a: Gastrodon|Scald|p2a: Bisharp
+|-damage|p2a: Bisharp|58/100
+|
+|-heal|p1a: Gastrodon|85/100 brn|[from] item: Leftovers
+|-damage|p1a: Gastrodon|79/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Gastrodon
+|-damage|p1a: Gastrodon|32/100 brn
+|-damage|p2a: Bisharp|48/100|[from] item: Life Orb
+|move|p1a: Gastrodon|Earth Power|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|-heal|p1a: Gastrodon|39/100 brn|[from] item: Leftovers
+|-damage|p1a: Gastrodon|32/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, F, shiny|19/100
+|turn|22
+|
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Gastrodon
+|-damage|p1a: Gastrodon|4/100 brn
+|move|p1a: Gastrodon|Scald|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|-heal|p1a: Gastrodon|10/100 brn|[from] item: Leftovers
+|-damage|p1a: Gastrodon|4/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Arcanine|Arcanine, M|26/100
+|turn|23
+|
+|move|p2a: Arcanine|Extreme Speed|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|-damage|p2a: Arcanine|16/100|[from] item: Life Orb
+|faint|p1a: Gastrodon
+|
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Arcanine|Flare Blitz|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-damage|p2a: Arcanine|0 fnt|[from] Recoil
+|faint|p1a: Corviknight
+|faint|p2a: Arcanine
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|17/100
+|switch|p1a: Rotom|Rotom-Wash|88/100 brn
+|-damage|p1a: Rotom|76/100 brn|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Rotom|Volt Switch|p1a: Rotom
+|-damage|p1a: Rotom|50/100 brn
+|move|p1a: Rotom|Will-O-Wisp|p2a: Rotom
+|-status|p2a: Rotom|brn
+|
+|-heal|p1a: Rotom|56/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|11/100 brn|[from] brn
+|-damage|p1a: Rotom|50/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p2a: Rotom|Volt Switch|p1a: Rotom
+|-damage|p1a: Rotom|21/100 brn
+|move|p1a: Rotom|Volt Switch|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|win|mrm430
+|raw|mrm430's rating: 1110 → 1137(+27 for winning)
+|raw|Z-Tricky's rating: 1126 → 1100(-26 for losing)
+|l|☆Z-Tricky
+|c|☆mrm430|that was close
+|c|☆mrm430|i still miss dinamax

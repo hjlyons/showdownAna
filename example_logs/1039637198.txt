@@ -1,0 +1,180 @@
+|ScrapeTime|2020-01-02-13:05:33
+|j|☆raargha
+|j|☆xueyuluoyu
+|player|p1|raargha|148|1530
+|player|p2|xueyuluoyu|lillie|1565
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Seismitoad, M|
+|poke|p1|Toxtricity, M|
+|poke|p1|Dugtrio, F|
+|poke|p1|Kommo-o, F|
+|poke|p2|Sirfetch'd, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Snorlax, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Corviknight, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: La Bonne Pustule|Seismitoad, M|100/100
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by raargha)
+|
+|move|p1a: La Bonne Pustule|Toxic|p2a: Snorlax
+|-status|p2a: Snorlax|tox
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-damage|p2a: Snorlax|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p1a: La Bonne Pustule|Stealth Rock|p2a: Snorlax
+|-sidestart|p2: xueyuluoyu|move: Stealth Rock
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p2a: Snorlax|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Snorlax|88/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p1a: La Bonne Pustule|Earth Power|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|68/100 tox
+|move|p2a: Snorlax|Body Slam|p1a: La Bonne Pustule
+|-damage|p1a: La Bonne Pustule|30/100
+|
+|-heal|p1a: La Bonne Pustule|36/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|74/100 tox|[from] item: Leftovers
+|-damage|p2a: Snorlax|55/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p1a: A GrouGrou|Corviknight, F|100/100
+|-ability|p1a: A GrouGrou|Pressure
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|100/100 slp|[silent]
+|
+|upkeep
+|turn|5
+|
+|move|p1a: A GrouGrou|U-turn|p2a: Snorlax
+|-damage|p2a: Snorlax|95/100 slp
+|
+|switch|p1a: Xx-DarkSasuké-xX|Kommo-o, F|100/100|[from]move: U-turn
+|cant|p2a: Snorlax|slp
+|
+|-heal|p2a: Snorlax|100/100 slp|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Xx-DarkSasuké-xX|Clangorous Soul|p1a: Xx-DarkSasuké-xX
+|-boost|p1a: Xx-DarkSasuké-xX|atk|1
+|-boost|p1a: Xx-DarkSasuké-xX|def|1
+|-boost|p1a: Xx-DarkSasuké-xX|spa|1
+|-boost|p1a: Xx-DarkSasuké-xX|spd|1
+|-boost|p1a: Xx-DarkSasuké-xX|spe|1
+|-damage|p1a: Xx-DarkSasuké-xX|67/100
+|-enditem|p1a: Xx-DarkSasuké-xX|Throat Spray
+|-boost|p1a: Xx-DarkSasuké-xX|spa|1
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Xx-DarkSasuké-xX|Aura Sphere|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|32/100 slp
+|-curestatus|p2a: Snorlax|slp|[msg]
+|move|p2a: Snorlax|Body Slam|p1a: Xx-DarkSasuké-xX
+|-damage|p1a: Xx-DarkSasuké-xX|29/100
+|
+|-heal|p2a: Snorlax|38/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Xx-DarkSasuké-xX|Aura Sphere|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|turn|9
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Xx-DarkSasuké-xX|Clanging Scales|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-heal|p2a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Xx-DarkSasuké-xX|Clanging Scales|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-unboost|p1a: Xx-DarkSasuké-xX|def|1
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|turn|11
+|
+|move|p1a: Xx-DarkSasuké-xX|Aura Sphere|p2a: Corviknight
+|-damage|p2a: Corviknight|41/100
+|move|p2a: Corviknight|Iron Head|p1a: Xx-DarkSasuké-xX
+|-damage|p1a: Xx-DarkSasuké-xX|5/100
+|
+|-heal|p2a: Corviknight|47/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Xx-DarkSasuké-xX|Aura Sphere|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|100/100
+|-damage|p2a: Sirfetch'd|94/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Sirfetch'd|First Impression|p1a: Xx-DarkSasuké-xX
+|-resisted|p1a: Xx-DarkSasuké-xX
+|-damage|p1a: Xx-DarkSasuké-xX|0 fnt
+|faint|p1a: Xx-DarkSasuké-xX
+|
+|upkeep
+|-message|xueyuluoyu forfeited.
+|
+|win|raargha
+|raw|raargha's rating: 1531 → 1553(+22 for winning)
+|raw|xueyuluoyu's rating: 1565 → 1543(-22 for losing)

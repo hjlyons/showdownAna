@@ -1,0 +1,386 @@
+|ScrapeTime|2020-01-01-01:54:26
+|j|☆ned-diggurs
+|j|☆Sealx♬
+|player|p1|ned-diggurs|hoopster|1427
+|player|p2|Sealx♬|hilbert-dueldisk|1402
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Conkeldurr, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Toxtricity, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Hydreigon, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Hydreigon, F|
+|poke|p2|Mew|
+|poke|p2|Polteageist|
+|poke|p2|Bisharp, F|
+|poke|p2|Toxtricity, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Sealx♬)
+|
+|move|p1a: Hydreigon|U-turn|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|75/100
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100|[from]move: U-turn
+|move|p2a: Mew|Taunt|p1a: Hatterene
+|move|p1a: Hatterene|Taunt|p2a: Mew|[from]Magic Bounce
+|-start|p2a: Mew|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Sealx♬|move: Light Screen
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|68/100
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Mew|Mew|75/100
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Mew
+|-damage|p2a: Mew|53/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Hatterene|Psychic|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|43/100
+|-unboost|p2a: Mew|spd|1
+|move|p2a: Mew|Skill Swap|p1a: Hatterene
+|-activate|p2a: Mew|move: Skill Swap|Magic Bounce|Synchronize|[of] p1a: Hatterene
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Mew
+|-damage|p2a: Mew|16/100
+|move|p2a: Mew|Stealth Rock|p1a: Hatterene
+|-sidestart|p1: ned-diggurs|move: Stealth Rock
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|move|p2a: Mew|Taunt|p1a: Hatterene
+|-start|p1a: Hatterene|move: Taunt
+|cant|p1a: Hatterene|move: Taunt|Trick Room
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Mew|Spikes|p1a: Hatterene
+|-sidestart|p1: ned-diggurs|Spikes
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|turn|9
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Spikes
+|-damage|p1a: Toxapex|75/100|[from] Stealth Rock
+|move|p2a: Bisharp|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|61/100
+|-damage|p2a: Bisharp|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Toxapex|68/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|-sideend|p2: Sealx♬|move: Light Screen
+|upkeep
+|turn|11
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Toxapex
+|-damage|p1a: Toxapex|40/100
+|-start|p1a: Toxapex|Throat Chop|[silent]
+|-damage|p2a: Bisharp|81/100|[from] item: Life Orb
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Toxapex|46/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|96/100
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Leftovers
+|-end|p1a: Toxapex|Throat Chop|[silent]
+|upkeep
+|turn|13
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Toxapex
+|-damage|p1a: Toxapex|32/100
+|-start|p1a: Toxapex|Throat Chop|[silent]
+|-damage|p2a: Bisharp|71/100|[from] item: Life Orb
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Toxapex|38/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|88/100
+|
+|-heal|p1a: Toxapex|95/100|[from] item: Leftovers
+|-end|p1a: Toxapex|Throat Chop|[silent]
+|upkeep
+|turn|15
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Spikes
+|-damage|p1a: Tyranitar|76/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|69/100|[from] Sandstorm
+|-heal|p2a: Hydreigon|76/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|61/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|69/100|[from] Sandstorm
+|-heal|p2a: Hydreigon|76/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|68/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|7/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Grimmsnarl|1/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Spikes
+|-damage|p1a: Toxapex|75/100|[from] Stealth Rock
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Sealx♬|Reflect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Grimmsnarl|0 fnt|[from] Sandstorm
+|-damage|p1a: Toxapex|69/100|[from] Sandstorm
+|faint|p2a: Grimmsnarl
+|-heal|p1a: Toxapex|75/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|76/100
+|turn|19
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|-damage|p1a: Toxtricity|88/100|[from] Spikes
+|-damage|p1a: Toxtricity|76/100|[from] Stealth Rock
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|-weather|none
+|-heal|p2a: Hydreigon|82/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|-heal|p2a: Hydreigon|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|-damage|p1a: Conkeldurr|94/100|[from] Stealth Rock
+|-damage|p1a: Conkeldurr|82/100|[from] Spikes
+|turn|21
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|16/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|33/100
+|-heal|p1a: Conkeldurr|38/100|[from] drain|[of] p2a: Hydreigon
+|
+|-heal|p2a: Hydreigon|40/100|[from] item: Leftovers
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|22
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-damage|p1a: Conkeldurr|32/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|turn|23
+|
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|move|p1a: Conkeldurr|Earthquake|p2a: Polteageist
+|-damage|p2a: Polteageist|10/100
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|
+|-damage|p1a: Conkeldurr|25/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|61/100
+|-damage|p1a: Tyranitar|48/100|[from] Spikes
+|-damage|p1a: Tyranitar|36/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|25
+|
+|move|p2a: Polteageist|Giga Drain|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-heal|p2a: Polteageist|37/100|[from] drain|[of] p1a: Tyranitar
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Polteageist|30/100|[from] Sandstorm
+|-sideend|p2: Sealx♬|Reflect
+|upkeep
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Spikes
+|-damage|p1a: Hatterene|76/100|[from] Stealth Rock
+|turn|26
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Polteageist|24/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|27
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|35/100
+|move|p1a: Hydreigon|Draco Meteor|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|faint|p2a: Polteageist
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|29/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, F|71/100
+|turn|28
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Spikes
+|-damage|p1a: Toxapex|75/100|[from] Stealth Rock
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|69/100|[from] Sandstorm
+|-heal|p1a: Toxapex|75/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Toxapex
+|-damage|p1a: Toxapex|7/100
+|-start|p1a: Toxapex|Throat Chop|[silent]
+|-damage|p2a: Bisharp|61/100|[from] item: Life Orb
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|57/100
+|
+|-weather|none
+|-heal|p1a: Toxapex|63/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|-damage|p2a: Bisharp|51/100|[from] item: Life Orb
+|faint|p1a: Toxapex
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|29/100
+|-damage|p1a: Hydreigon|17/100|[from] Stealth Rock
+|turn|31
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|-damage|p2a: Bisharp|41/100|[from] item: Life Orb
+|faint|p1a: Hydreigon
+|
+|win|Sealx♬
+|l|☆ned-diggurs

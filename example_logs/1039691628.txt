@@ -1,0 +1,722 @@
+|ScrapeTime|2020-01-02-15:45:29
+|j|☆le faux fifou
+|j|☆running bois
+|player|p1|le faux fifou|tuber|1122
+|player|p2|running bois|101|1140
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, F|
+|poke|p1|Rhydon, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Bronzong|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Corsola-Galar, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Toxtricity, M|
+|poke|p2|Appletun, F|
+|poke|p2|Alcremie, F|
+|poke|p2|Corviknight, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hatterene|Hatterene, F, shiny|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|1
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Hatterene
+|-damage|p1a: Hatterene|9/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Alcremie|Alcremie, F|100/100
+|move|p1a: Hatterene|Psychic|p2a: Alcremie
+|-damage|p2a: Alcremie|55/100
+|-damage|p1a: Hatterene|0 fnt|[from] item: Life Orb
+|faint|p1a: Hatterene
+|
+|-heal|p2a: Alcremie|61/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F, shiny|100/100
+|turn|3
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|27/100
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|80/100
+|
+|-heal|p2a: Corviknight|86/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: Corviknight|U-turn|p1a: Bronzong
+|-damage|p1a: Bronzong|92/100
+|
+|switch|p2a: Cinderace|Cinderace, F|27/100|[from]move: U-turn
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|move|p1a: Bronzong|Protect|p1a: Bronzong
+|-singleturn|p1a: Bronzong|Protect
+|move|p2a: Cinderace|U-turn|p1a: Bronzong
+|-activate|p1a: Bronzong|move: Protect
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Cinderace|U-turn|p1a: Bronzong
+|-damage|p1a: Bronzong|70/100
+|
+|switch|p2a: Corviknight|Corviknight, F|86/100|[from]move: U-turn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Bronzong|Trick Room|p1a: Bronzong
+|-fieldstart|move: Trick Room|[of] p1a: Bronzong
+|
+|-heal|p2a: Corviknight|93/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Rhydon|Rhydon, M, shiny|100/100
+|move|p2a: Corviknight|U-turn|p1a: Rhydon
+|-damage|p1a: Rhydon|93/100
+|
+|switch|p2a: Appletun|Appletun, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F, shiny|100/100
+|move|p2a: Appletun|Apple Acid|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|91/100
+|-unboost|p1a: Ferrothorn|spd|1
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Appletun
+|-damage|p2a: Appletun|73/100
+|move|p2a: Appletun|Dragon Pulse|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|73/100
+|
+|-heal|p2a: Appletun|79/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|move|p2a: Appletun|Apple Acid|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|65/100
+|-unboost|p1a: Grimmsnarl|spd|1
+|
+|-heal|p2a: Appletun|85/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|12
+|
+|switch|p2a: Cinderace|Cinderace, F|27/100
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Grimmsnarl|Sucker Punch|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-damage|p1a: Grimmsnarl|55/100|[from] item: Life Orb
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Alcremie|Alcremie, F|61/100
+|turn|14
+|
+|switch|p2a: Corviknight|Corviknight, F|93/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Grimmsnarl|Play Rough|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|67/100
+|-damage|p1a: Grimmsnarl|45/100|[from] item: Life Orb
+|
+|-heal|p2a: Corviknight|74/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Bronzong|Bronzong|70/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|16
+|l|☆le faux fifou
+|player|p1|
+|j|☆le faux fifou
+|player|p1|le faux fifou|tuber
+|
+|move|p2a: Corviknight|U-turn|p1a: Bronzong
+|-damage|p1a: Bronzong|60/100
+|
+|switch|p2a: Appletun|Appletun, F|85/100|[from]move: U-turn
+|move|p1a: Bronzong|Trick Room|p1a: Bronzong
+|-fieldstart|move: Trick Room|[of] p1a: Bronzong
+|
+|-heal|p2a: Appletun|91/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|l|☆le faux fifou
+|player|p1|
+|j|☆le faux fifou
+|player|p1|le faux fifou|tuber
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by running bois)
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M, shiny|45/100
+|move|p2a: Appletun|Apple Acid|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|10/100
+|-unboost|p1a: Grimmsnarl|spd|1
+|
+|-heal|p2a: Appletun|97/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Grimmsnarl|Play Rough|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|84/100
+|-damage|p1a: Grimmsnarl|0 fnt|[from] item: Life Orb
+|faint|p1a: Grimmsnarl
+|
+|-heal|p2a: Corviknight|90/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rhydon|Rhydon, M, shiny|93/100
+|turn|19
+|
+|switch|p2a: Appletun|Appletun, F|97/100
+|move|p1a: Rhydon|Stone Edge|p2a: Appletun
+|-damage|p2a: Appletun|57/100
+|
+|-heal|p2a: Appletun|63/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Corsola|Corsola-Galar, F, shiny|100/100
+|move|p2a: Appletun|Apple Acid|p1a: Corsola
+|-damage|p1a: Corsola|80/100
+|-unboost|p1a: Corsola|spd|1
+|
+|-heal|p2a: Appletun|69/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|21
+|
+|move|p2a: Appletun|Leech Seed|p1a: Corsola
+|-start|p1a: Corsola|move: Leech Seed
+|move|p1a: Corsola|Will-O-Wisp|p2a: Appletun
+|-status|p2a: Appletun|brn
+|
+|-heal|p2a: Appletun|75/100 brn|[from] item: Leftovers
+|-damage|p1a: Corsola|67/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|85/100 brn|[silent]
+|-damage|p2a: Appletun|79/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p2a: Appletun|Apple Acid|p1a: Corsola
+|-damage|p1a: Corsola|39/100
+|-unboost|p1a: Corsola|spd|1
+|move|p1a: Corsola|Stealth Rock|p2a: Appletun
+|-sidestart|p2: running bois|move: Stealth Rock
+|
+|-heal|p2a: Appletun|85/100 brn|[from] item: Leftovers
+|-damage|p1a: Corsola|26/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|94/100 brn|[silent]
+|-damage|p2a: Appletun|88/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|switch|p1a: Bronzong|Bronzong|60/100
+|move|p2a: Appletun|Apple Acid|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|48/100
+|-unboost|p1a: Bronzong|spd|1
+|
+|-heal|p2a: Appletun|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Appletun|88/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p1a: Bronzong|Protect|p1a: Bronzong
+|-singleturn|p1a: Bronzong|Protect
+|move|p2a: Appletun|Leech Seed|p1a: Bronzong
+|-activate|p1a: Bronzong|move: Protect
+|
+|-heal|p2a: Appletun|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Appletun|88/100 brn|[from] brn
+|upkeep
+|turn|25
+|c|☆running bois|t h i c c
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F, shiny|73/100
+|move|p2a: Appletun|Apple Acid|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|67/100
+|-unboost|p1a: Ferrothorn|spd|1
+|
+|-heal|p2a: Appletun|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Appletun|88/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|switch|p2a: Corviknight|Corviknight, F|90/100
+|-damage|p2a: Corviknight|78/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Ferrothorn|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|50/100
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Corsola|Corsola-Galar, F, shiny|26/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|99/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Corviknight|Defog|p1a: Corsola
+|-unboost|p1a: Corsola|evasion|1
+|-sideend|p2: running bois|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Corsola|Strength Sap|p2a: Corviknight
+|-unboost|p2a: Corviknight|atk|1
+|-heal|p1a: Corsola|91/100
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Corviknight|Defog|p1a: Corsola
+|-unboost|p1a: Corsola|evasion|1
+|move|p1a: Corsola|Will-O-Wisp|p2a: Corviknight
+|-status|p2a: Corviknight|brn
+|
+|-damage|p2a: Corviknight|94/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p2a: Corviknight|U-turn|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|90/100
+|-start|p2a: Corviknight|Disable|U-turn|[from] ability: Cursed Body|[of] p1a: Corsola
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100|[from]move: U-turn
+|move|p1a: Corsola|Shadow Ball|p2a: Toxtricity
+|-damage|p2a: Toxtricity|68/100
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Corsola
+|-immune|p1a: Corsola
+|move|p1a: Corsola|Stealth Rock|p2a: Toxtricity
+|-sidestart|p2: running bois|move: Stealth Rock
+|
+|upkeep
+|turn|32
+|
+|switch|p2a: Corviknight|Corviknight, F|94/100 brn
+|-damage|p2a: Corviknight|81/100 brn|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Corsola|Will-O-Wisp|p2a: Corviknight
+|-fail|p2a: Corviknight|brn
+|
+|-damage|p2a: Corviknight|75/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p2a: Corviknight|Defog|p1a: Corsola
+|-unboost|p1a: Corsola|evasion|1
+|-sideend|p2: running bois|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Corsola|Strength Sap|p2a: Corviknight
+|-unboost|p2a: Corviknight|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|-damage|p2a: Corviknight|69/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Corsola|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|79/100 brn
+|
+|-damage|p2a: Corviknight|73/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|move|p2a: Corviknight|U-turn|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|99/100
+|
+|switch|p2a: Toxtricity|Toxtricity, M|68/100|[from]move: U-turn
+|move|p1a: Corsola|Stealth Rock|p2a: Toxtricity
+|-sidestart|p2: running bois|move: Stealth Rock
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Toxtricity|Overdrive|p1a: Corsola
+|-damage|p1a: Corsola|40/100
+|move|p1a: Corsola|Shadow Ball|p2a: Toxtricity
+|-damage|p2a: Toxtricity|40/100
+|-unboost|p2a: Toxtricity|spd|1
+|
+|upkeep
+|turn|37
+|
+|switch|p2a: Corviknight|Corviknight, F|73/100 brn
+|-damage|p2a: Corviknight|61/100 brn|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Corsola|Strength Sap|p2a: Corviknight
+|-unboost|p2a: Corviknight|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|-damage|p2a: Corviknight|54/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Corsola|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|82/100 brn
+|
+|-damage|p2a: Corviknight|76/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|move|p2a: Corviknight|Defog|p1a: Corsola
+|-unboost|p1a: Corsola|evasion|1
+|-sideend|p2: running bois|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Corsola|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: running bois|move: Stealth Rock
+|
+|-damage|p2a: Corviknight|70/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|move|p2a: Corviknight|Defog|p1a: Corsola
+|-unboost|p1a: Corsola|evasion|1
+|-sideend|p2: running bois|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Corsola|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|51/100 brn
+|
+|-damage|p2a: Corviknight|45/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|95/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Corsola|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|76/100 brn
+|
+|-damage|p2a: Corviknight|70/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|move|p2a: Corviknight|U-turn|p1a: Corsola
+|-resisted|p1a: Corsola
+|-crit|p1a: Corsola
+|-damage|p1a: Corsola|97/100
+|
+|switch|p2a: Toxtricity|Toxtricity, M|40/100|[from]move: U-turn
+|move|p1a: Corsola|Stealth Rock|p2a: Toxtricity
+|-sidestart|p2: running bois|move: Stealth Rock
+|
+|upkeep
+|turn|43
+|
+|move|p2a: Toxtricity|Overdrive|p1a: Corsola
+|-damage|p1a: Corsola|42/100
+|move|p1a: Corsola|Shadow Ball|p2a: Toxtricity
+|-damage|p2a: Toxtricity|9/100
+|
+|upkeep
+|turn|44
+|
+|switch|p1a: Rhydon|Rhydon, M, shiny|93/100
+|move|p2a: Toxtricity|Overdrive|p1a: Rhydon
+|-immune|p1a: Rhydon
+|
+|upkeep
+|turn|45
+|
+|switch|p2a: Appletun|Appletun, F|88/100 brn
+|-damage|p2a: Appletun|76/100 brn|[from] Stealth Rock
+|move|p1a: Rhydon|Stone Edge|p2a: Appletun|[miss]
+|-miss|p1a: Rhydon|p2a: Appletun
+|
+|-heal|p2a: Appletun|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Appletun|76/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|switch|p1a: Bronzong|Bronzong|48/100
+|move|p2a: Appletun|Recover|p2a: Appletun
+|-heal|p2a: Appletun|100/100 brn
+|
+|-damage|p2a: Appletun|94/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|move|p1a: Bronzong|Protect|p1a: Bronzong
+|-singleturn|p1a: Bronzong|Protect
+|move|p2a: Appletun|Apple Acid|p1a: Bronzong
+|-activate|p1a: Bronzong|move: Protect
+|
+|-heal|p2a: Appletun|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Appletun|94/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|move|p2a: Appletun|Leech Seed|p1a: Bronzong|[miss]
+|-miss|p2a: Appletun|p1a: Bronzong
+|move|p1a: Bronzong|Trick Room|p1a: Bronzong
+|-fieldstart|move: Trick Room|[of] p1a: Bronzong
+|
+|-heal|p2a: Appletun|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Appletun|94/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|move|p1a: Bronzong|Gyro Ball|p2a: Appletun
+|-damage|p2a: Appletun|86/100 brn
+|move|p2a: Appletun|Apple Acid|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|36/100
+|-unboost|p1a: Bronzong|spd|1
+|
+|-heal|p2a: Appletun|92/100 brn|[from] item: Leftovers
+|-damage|p2a: Appletun|86/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|move|p1a: Bronzong|Body Press|p2a: Appletun
+|-damage|p2a: Appletun|67/100 brn
+|move|p2a: Appletun|Leech Seed|p1a: Bronzong
+|-start|p1a: Bronzong|move: Leech Seed
+|
+|-heal|p2a: Appletun|73/100 brn|[from] item: Leftovers
+|-damage|p1a: Bronzong|24/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|83/100 brn|[silent]
+|-damage|p2a: Appletun|77/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F, shiny|67/100
+|move|p2a: Appletun|Dragon Pulse|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|54/100
+|
+|-heal|p2a: Appletun|83/100 brn|[from] item: Leftovers
+|-damage|p2a: Appletun|77/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|move|p1a: Ferrothorn|Knock Off|p2a: Appletun
+|-damage|p2a: Appletun|48/100 brn
+|-enditem|p2a: Appletun|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|move|p2a: Appletun|Dragon Pulse|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|36/100
+|
+|-damage|p2a: Appletun|42/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|53
+|
+|switch|p1a: Bronzong|Bronzong|24/100
+|move|p2a: Appletun|Recover|p2a: Appletun
+|-heal|p2a: Appletun|92/100 brn
+|
+|-damage|p2a: Appletun|86/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|move|p2a: Appletun|Leech Seed|p1a: Bronzong
+|-start|p1a: Bronzong|move: Leech Seed
+|move|p1a: Bronzong|Trick Room|p1a: Bronzong
+|-fieldstart|move: Trick Room|[of] p1a: Bronzong
+|
+|-damage|p1a: Bronzong|11/100|[from] Leech Seed|[of] p2a: Appletun
+|-heal|p2a: Appletun|96/100 brn|[silent]
+|-damage|p2a: Appletun|90/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|move|p1a: Bronzong|Body Press|p2a: Appletun
+|-damage|p2a: Appletun|72/100 brn
+|move|p2a: Appletun|Dragon Pulse|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|-damage|p2a: Appletun|66/100 brn|[from] brn
+|upkeep
+|c|☆running bois|sit kid
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F, shiny|36/100
+|turn|56
+|c|☆running bois|you cant even beat your thanksgiving dinner look at u
+|
+|move|p1a: Ferrothorn|Explosion|p2a: Appletun
+|-damage|p2a: Appletun|0 fnt
+|faint|p1a: Ferrothorn
+|faint|p2a: Appletun
+|
+|upkeep
+|c|☆le faux fifou|bouù
+|c|☆le faux fifou|boum
+|
+|switch|p1a: Rhydon|Rhydon, M, shiny|93/100
+|switch|p2a: Corviknight|Corviknight, F|70/100 brn
+|-damage|p2a: Corviknight|58/100 brn|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|turn|57
+|c|☆running bois|you had to blwo up your only chance to win
+|
+|move|p1a: Rhydon|Swords Dance|p1a: Rhydon
+|-boost|p1a: Rhydon|atk|2
+|move|p2a: Corviknight|Defog|p1a: Rhydon
+|-unboost|p1a: Rhydon|evasion|1
+|-sideend|p2: running bois|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-damage|p2a: Corviknight|51/100 brn|[from] brn
+|upkeep
+|turn|58
+|
+|move|p1a: Rhydon|Stone Edge|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, M|9/100
+|turn|59
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|38/100
+|move|p1a: Rhydon|Earthquake|p2a: Toxtricity
+|-supereffective|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|switch|p2a: Alcremie|Alcremie, F|61/100
+|turn|60
+|
+|move|p2a: Alcremie|Dazzling Gleam|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|-heal|p2a: Alcremie|67/100|[from] item: Leftovers
+|upkeep
+|c|☆running bois|gg noob
+|
+|switch|p1a: Corsola|Corsola-Galar, F, shiny|42/100
+|turn|61
+|c|☆le faux fifou|gg
+|c|☆le faux fifou|it's a funny team i'm not a noob
+|
+|move|p2a: Alcremie|Dazzling Gleam|p1a: Corsola
+|-damage|p1a: Corsola|19/100
+|move|p1a: Corsola|Strength Sap|p2a: Alcremie
+|-unboost|p2a: Alcremie|atk|1
+|-heal|p1a: Corsola|54/100
+|
+|-heal|p2a: Alcremie|73/100|[from] item: Leftovers
+|upkeep
+|turn|62
+|
+|move|p2a: Alcremie|Dazzling Gleam|p1a: Corsola
+|-crit|p1a: Corsola
+|-damage|p1a: Corsola|22/100
+|move|p1a: Corsola|Strength Sap|p2a: Alcremie
+|-unboost|p2a: Alcremie|atk|1
+|-heal|p1a: Corsola|45/100
+|
+|-heal|p2a: Alcremie|79/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|c|☆running bois|forfeit
+|c|☆running bois|mg
+|
+|move|p2a: Alcremie|Dazzling Gleam|p1a: Corsola
+|-damage|p1a: Corsola|23/100
+|move|p1a: Corsola|Strength Sap|p2a: Alcremie
+|-unboost|p2a: Alcremie|atk|1
+|-heal|p1a: Corsola|41/100
+|
+|-heal|p2a: Alcremie|85/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|c|☆le faux fifou|no
+|c|☆running bois|my pult has sub
+|c|☆running bois|leave kid
+|
+|move|p2a: Alcremie|Dazzling Gleam|p1a: Corsola
+|-damage|p1a: Corsola|19/100
+|move|p1a: Corsola|Shadow Ball|p2a: Alcremie
+|-damage|p2a: Alcremie|72/100
+|-unboost|p2a: Alcremie|spd|1
+|
+|-heal|p2a: Alcremie|78/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|move|p2a: Alcremie|Dazzling Gleam|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|win|running bois
+|c|☆running bois|L
+|c|☆le faux fifou|gg
+|l|☆running bois

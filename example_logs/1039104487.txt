@@ -1,0 +1,339 @@
+|ScrapeTime|2020-01-01-11:59:43
+|j|☆YuZL
+|j|☆river crocodile
+|player|p1|YuZL|164|1000
+|player|p2|river crocodile|169|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, F|
+|poke|p1|Seismitoad, M|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Toxapex, M|
+|poke|p2|Inteleon, M|
+|poke|p2|Haxorus, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Toxtricity, M|
+|poke|p2|Charizard, M|
+|poke|p2|Sirfetch'd, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|switch|p2a: Haxorus|Haxorus, M|100/100
+|turn|1
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|move|p1a: Hydreigon|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|97/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by YuZL)
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Rotom|Discharge|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|58/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Corviknight
+|-status|p2a: Corviknight|brn
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-damage|p2a: Corviknight|52/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Rotom|Overheat|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Inteleon|Inteleon, M|100/100
+|turn|5
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Inteleon|Snipe Shot|p1a: Seismitoad
+|-immune|p1a: Seismitoad|[from] ability: Water Absorb
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Haxorus|Haxorus, M|100/100
+|move|p1a: Seismitoad|Power Whip|p2a: Haxorus
+|-resisted|p2a: Haxorus
+|-damage|p2a: Haxorus|86/100
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Seismitoad|Protect|p1a: Seismitoad
+|-singleturn|p1a: Seismitoad|Protect
+|move|p2a: Haxorus|Dragon Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|1
+|-boost|p2a: Haxorus|spe|1
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Haxorus|Dragon Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|1
+|-boost|p2a: Haxorus|spe|1
+|move|p1a: Seismitoad|Scald|p2a: Haxorus
+|-resisted|p2a: Haxorus
+|-damage|p2a: Haxorus|67/100
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Haxorus|Dragon Claw|p1a: Seismitoad
+|-damage|p1a: Seismitoad|6/100
+|move|p1a: Seismitoad|Scald|p2a: Haxorus
+|-resisted|p2a: Haxorus
+|-crit|p2a: Haxorus
+|-damage|p2a: Haxorus|41/100
+|
+|-heal|p1a: Seismitoad|12/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Haxorus|Dragon Claw|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|turn|11
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Haxorus
+|-damage|p2a: Haxorus|9/100
+|move|p2a: Haxorus|Outrage|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|inactive|YuZL has 120 seconds left.
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|turn|12
+|
+|move|p2a: Haxorus|Outrage|p1a: Corviknight|[from]lockedmove
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|35/100
+|move|p1a: Corviknight|Body Press|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|-heal|p1a: Corviknight|41/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, M|100/100
+|turn|13
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Sirfetch'd|Brick Break|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|87/100
+|
+|-heal|p1a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p2a: Sirfetch'd|Swords Dance|p2a: Sirfetch'd
+|-boost|p2a: Sirfetch'd|atk|2
+|move|p1a: Toxapex|Scald|p2a: Sirfetch'd
+|-damage|p2a: Sirfetch'd|78/100
+|-status|p2a: Sirfetch'd|brn
+|
+|-heal|p1a: Toxapex|99/100|[from] item: Black Sludge
+|-damage|p2a: Sirfetch'd|72/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Sirfetch'd|Swords Dance|p2a: Sirfetch'd
+|-boost|p2a: Sirfetch'd|atk|2
+|move|p1a: Toxapex|Scald|p2a: Sirfetch'd
+|-damage|p2a: Sirfetch'd|53/100 brn
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p2a: Sirfetch'd|47/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p2a: Sirfetch'd|Night Slash|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|65/100
+|move|p1a: Toxapex|Scald|p2a: Sirfetch'd
+|-damage|p2a: Sirfetch'd|27/100 brn
+|
+|-heal|p1a: Toxapex|71/100|[from] item: Black Sludge
+|-damage|p2a: Sirfetch'd|21/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|move|p1a: Toxapex|Scald|p2a: Toxtricity
+|-damage|p2a: Toxtricity|77/100
+|
+|-heal|p1a: Toxapex|77/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Toxtricity|Boomburst|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-heal|p1a: Toxapex|83/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|inactive|YuZL has 120 seconds left.
+|inactive|YuZL has 90 seconds left.
+|
+|move|p2a: Toxtricity|Boomburst|p1a: Toxapex
+|-damage|p1a: Toxapex|29/100
+|move|p1a: Toxapex|Scald|p2a: Toxtricity
+|-damage|p2a: Toxtricity|56/100
+|
+|-heal|p1a: Toxapex|36/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|c|☆river crocodile|Yo, u their?
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Toxtricity|Overdrive|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-heal|p1a: Toxapex|42/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Toxtricity|Overdrive|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|74/100
+|
+|upkeep
+|turn|22
+|inactive|YuZL has 90 seconds left.
+|
+|move|p1a: Rotom|Overheat|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|switch|p2a: Inteleon|Inteleon, M|100/100
+|turn|23
+|
+|switch|p1a: Toxapex|Toxapex, M|75/100
+|move|p2a: Inteleon|Snipe Shot|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|58/100
+|
+|-heal|p1a: Toxapex|64/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|move|p2a: Inteleon|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|41/100
+|move|p1a: Toxapex|Toxic|p2a: Inteleon
+|-status|p2a: Inteleon|tox
+|
+|-heal|p1a: Toxapex|47/100|[from] item: Black Sludge
+|-damage|p2a: Inteleon|94/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|move|p2a: Inteleon|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|24/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|74/100
+|
+|-heal|p1a: Toxapex|80/100|[from] item: Black Sludge
+|-damage|p2a: Inteleon|82/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|move|p2a: Inteleon|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|58/100
+|move|p1a: Toxapex|Scald|p2a: Inteleon
+|-resisted|p2a: Inteleon
+|-damage|p2a: Inteleon|73/100 tox
+|
+|-heal|p1a: Toxapex|64/100|[from] item: Black Sludge
+|-damage|p2a: Inteleon|55/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|move|p2a: Inteleon|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|43/100
+|-unboost|p1a: Toxapex|spd|1
+|move|p1a: Toxapex|Scald|p2a: Inteleon
+|-resisted|p2a: Inteleon
+|-damage|p2a: Inteleon|46/100 tox
+|
+|-heal|p1a: Toxapex|49/100|[from] item: Black Sludge
+|-damage|p2a: Inteleon|21/100 tox|[from] psn
+|upkeep
+|turn|28
+|inactive|YuZL has 120 seconds left.
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Inteleon|Shadow Ball|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-heal|p1a: Toxapex|55/100|[from] item: Black Sludge
+|-damage|p2a: Inteleon|0 fnt|[from] psn
+|faint|p2a: Inteleon
+|upkeep
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, M|21/100 brn
+|turn|29
+|
+|move|p2a: Sirfetch'd|Night Slash|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|43/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|93/100
+|
+|-heal|p1a: Toxapex|99/100|[from] item: Black Sludge
+|-damage|p2a: Sirfetch'd|15/100 brn|[from] brn
+|upkeep
+|turn|30
+|-message|river crocodile forfeited.
+|
+|win|YuZL
+|l|☆river crocodile
+|raw|YuZL's rating: 1000 → 1040(+40 for winning)
+|raw|river crocodile's rating: 1000 → 1000(+0 for losing)

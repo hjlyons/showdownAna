@@ -1,0 +1,528 @@
+|ScrapeTime|2020-01-01-15:25:00
+|j|☆Jeztar
+|j|☆overloadice
+|player|p1|Jeztar|alder|1521
+|player|p2|overloadice|266|1404
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Seismitoad, M|
+|poke|p1|Sylveon, F|
+|poke|p1|Toxtricity, M|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Sirfetch'd, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Snorlax, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Corviknight, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|1
+|j| master of miss
+|
+|move|p2a: Rotom|Overheat|p1a: Toxtricity
+|-damage|p1a: Toxtricity|38/100
+|-unboost|p2a: Rotom|spa|2
+|move|p1a: Toxtricity|Sludge Wave|p2a: Rotom
+|-damage|p2a: Rotom|22/100
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by overloadice)
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Seismitoad|Toxic|p2a: Seismitoad
+|-status|p2a: Seismitoad|tox
+|move|p2a: Seismitoad|Stealth Rock|p1a: Seismitoad
+|-sidestart|p1: Jeztar|move: Stealth Rock
+|
+|-damage|p2a: Seismitoad|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Seismitoad|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: overloadice|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Seismitoad|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|84/100
+|-status|p2a: Corviknight|brn
+|move|p2a: Corviknight|U-turn|p1a: Seismitoad
+|-damage|p1a: Seismitoad|95/100
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100|[from]move: U-turn
+|-damage|p2a: Snorlax|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Seismitoad|Scald|p2a: Snorlax
+|-damage|p2a: Snorlax|81/100
+|-status|p2a: Snorlax|brn
+|move|p2a: Snorlax|Body Slam|p1a: Seismitoad
+|-damage|p1a: Seismitoad|90/100
+|
+|-heal|p1a: Seismitoad|96/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|87/100 brn|[from] item: Leftovers
+|-damage|p2a: Snorlax|81/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Seismitoad|Earth Power|p2a: Snorlax
+|-damage|p2a: Snorlax|67/100 brn
+|move|p2a: Snorlax|Body Slam|p1a: Seismitoad
+|-damage|p1a: Seismitoad|85/100
+|
+|-heal|p1a: Seismitoad|91/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Snorlax|67/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p1a: Seismitoad|Scald|p2a: Snorlax
+|-damage|p2a: Snorlax|54/100 brn
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p1a: Seismitoad|97/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|61/100 brn|[from] item: Leftovers
+|-damage|p2a: Snorlax|54/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|-damage|p1a: Sylveon|88/100|[from] Stealth Rock
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p1a: Sylveon|94/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|61/100 brn|[from] item: Leftovers
+|-damage|p2a: Snorlax|54/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Sylveon|Hyper Voice|p2a: Snorlax
+|-damage|p2a: Snorlax|31/100 brn
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|100/100 slp|[silent]
+|
+|-heal|p1a: Sylveon|99/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|cant|p2a: Snorlax|slp
+|
+|-heal|p1a: Sylveon|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Toxtricity|Toxtricity, M|38/100
+|-damage|p1a: Toxtricity|26/100|[from] Stealth Rock
+|cant|p2a: Snorlax|slp
+|
+|-heal|p1a: Toxtricity|82/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|13
+|
+|move|p1a: Toxtricity|Volt Switch|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|56/100 slp
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Mandibuzz|75/100|[from] Stealth Rock
+|-curestatus|p2a: Snorlax|slp|[msg]
+|move|p2a: Snorlax|Darkest Lariat|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|64/100
+|
+|-heal|p1a: Mandibuzz|70/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|62/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Mandibuzz|Taunt|p2a: Snorlax
+|-start|p2a: Snorlax|move: Taunt
+|cant|p2a: Snorlax|move: Taunt|Curse
+|
+|-heal|p1a: Mandibuzz|76/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|69/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Snorlax
+|-damage|p2a: Snorlax|44/100
+|move|p2a: Snorlax|Body Slam|p1a: Mandibuzz
+|-crit|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|25/100
+|
+|-heal|p1a: Mandibuzz|31/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|50/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|81/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Snorlax|Body Slam|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|46/100
+|
+|-heal|p1a: Mandibuzz|52/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|57/100|[from] item: Leftovers
+|-end|p2a: Snorlax|move: Taunt
+|upkeep
+|turn|17
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Snorlax|Body Slam|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|65/100
+|-status|p1a: Mandibuzz|par
+|
+|-heal|p1a: Mandibuzz|71/100 par|[from] item: Leftovers
+|-heal|p2a: Snorlax|63/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|cant|p1a: Mandibuzz|par
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p1a: Mandibuzz|77/100 par|[from] item: Leftovers
+|-heal|p2a: Snorlax|69/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Mandibuzz|Taunt|p2a: Snorlax
+|-start|p2a: Snorlax|move: Taunt
+|move|p2a: Snorlax|Body Slam|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|31/100 par
+|
+|-heal|p1a: Mandibuzz|38/100 par|[from] item: Leftovers
+|-heal|p2a: Snorlax|75/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|-heal|p1a: Mandibuzz|44/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M|84/100 brn
+|-damage|p2a: Corviknight|71/100 brn|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|turn|21
+|
+|move|p2a: Corviknight|Defog|p1a: Mandibuzz
+|-unboost|p1a: Mandibuzz|evasion|1
+|-sideend|p1: Jeztar|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: overloadice|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|94/100 par
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-heal|p2a: Corviknight|77/100 brn|[from] item: Leftovers
+|-heal|p1a: Mandibuzz|99/100 par|[from] item: Leftovers
+|-damage|p2a: Corviknight|71/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p2a: Corviknight|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|95/100 par
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from]move: U-turn
+|move|p1a: Mandibuzz|Taunt|p2a: Dragapult
+|-start|p2a: Dragapult|move: Taunt
+|
+|-heal|p1a: Mandibuzz|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Dragapult|Thunderbolt|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|35/100 par
+|move|p1a: Mandibuzz|Foul Play|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|21/100
+|
+|-heal|p1a: Mandibuzz|42/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Seismitoad|Seismitoad, M|97/100
+|move|p2a: Dragapult|Thunderbolt|p1a: Seismitoad
+|-immune|p1a: Seismitoad
+|
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|-end|p2a: Dragapult|move: Taunt
+|upkeep
+|turn|25
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|100/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Sirfetch'd
+|-sidestart|p2: overloadice|move: Stealth Rock
+|
+|upkeep
+|turn|26
+|inactive|Jeztar has 120 seconds left.
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|move|p2a: Sirfetch'd|Knock Off|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|64/100
+|-enditem|p1a: Sylveon|Leftovers|[from] move: Knock Off|[of] p2a: Sirfetch'd
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: Corviknight|Corviknight, M|71/100 brn
+|-damage|p2a: Corviknight|59/100 brn|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-heal|p2a: Corviknight|65/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|59/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p2a: Corviknight|Defog|p1a: Sylveon
+|-unboost|p1a: Sylveon|evasion|1
+|-sideend|p2: overloadice|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Sylveon|Mystical Fire|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|32/100 brn
+|-unboost|p2a: Corviknight|spa|1
+|
+|-heal|p1a: Sylveon|100/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p2a: Corviknight|38/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|32/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|82/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-heal|p2a: Corviknight|88/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|82/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|switch|p2a: Rotom|Rotom-Heat|22/100
+|switch|p1a: Mandibuzz|Mandibuzz, F|42/100 par
+|
+|-heal|p1a: Mandibuzz|88/100 par|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Mandibuzz|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|83/100
+|
+|switch|p2a: Dragapult|Dragapult, M|21/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Dragapult|Sucker Punch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|100/100
+|turn|33
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|move|p2a: Sirfetch'd|Knock Off|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|79/100
+|
+|upkeep
+|turn|34
+|
+|switch|p2a: Rotom|Rotom-Heat|22/100
+|move|p1a: Sylveon|Hyper Voice|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|100/100
+|turn|35
+|
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Sirfetch'd|Poison Jab|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|upkeep
+|turn|36
+|
+|switch|p1a: Toxtricity|Toxtricity, M|82/100
+|move|p2a: Sirfetch'd|Poison Jab|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|49/100
+|
+|upkeep
+|turn|37
+|
+|switch|p2a: Seismitoad|Seismitoad, F|94/100 tox
+|move|p1a: Toxtricity|Boomburst|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|100/100
+|turn|38
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|94/100 par
+|move|p2a: Sirfetch'd|Close Combat|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|34/100 par
+|-unboost|p2a: Sirfetch'd|def|1
+|-unboost|p2a: Sirfetch'd|spd|1
+|
+|-heal|p1a: Mandibuzz|41/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|switch|p1a: Sylveon|Sylveon, F|79/100
+|move|p2a: Sirfetch'd|Close Combat|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|16/100
+|-unboost|p2a: Sirfetch'd|def|1
+|-unboost|p2a: Sirfetch'd|spd|1
+|
+|upkeep
+|turn|40
+|
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Sirfetch'd|Close Combat|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|upkeep
+|turn|41
+|
+|move|p2a: Sirfetch'd|Close Combat|p1a: Sylveon
+|-resisted|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|-unboost|p2a: Sirfetch'd|def|1
+|-unboost|p2a: Sirfetch'd|spd|1
+|faint|p1a: Sylveon
+|
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|turn|42
+|
+|switch|p2a: Corviknight|Corviknight, M|82/100 brn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Seismitoad|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|65/100 brn
+|
+|-heal|p2a: Corviknight|72/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|65/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|move|p1a: Seismitoad|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|50/100 brn
+|move|p2a: Corviknight|U-turn|p1a: Seismitoad
+|-damage|p1a: Seismitoad|95/100
+|
+|switch|p2a: Sirfetch'd|Sirfetch'd, F|100/100|[from]move: U-turn
+|
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p2a: Sirfetch'd|Close Combat|p1a: Seismitoad
+|-damage|p1a: Seismitoad|24/100
+|-unboost|p2a: Sirfetch'd|def|1
+|-unboost|p2a: Sirfetch'd|spd|1
+|move|p1a: Seismitoad|Toxic|p2a: Sirfetch'd
+|-status|p2a: Sirfetch'd|tox
+|
+|-heal|p1a: Seismitoad|30/100|[from] item: Leftovers
+|-damage|p2a: Sirfetch'd|94/100 tox|[from] psn
+|upkeep
+|turn|45
+|c|☆Jeztar|I cant tell if its banded or scarfed
+|
+|move|p2a: Sirfetch'd|Close Combat|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|-unboost|p2a: Sirfetch'd|def|1
+|-unboost|p2a: Sirfetch'd|spd|1
+|faint|p1a: Seismitoad
+|
+|-damage|p2a: Sirfetch'd|82/100 tox|[from] psn
+|upkeep
+|inactive|Jeztar has 120 seconds left.
+|
+|switch|p1a: Dragapult|Dragapult, F|83/100
+|turn|46
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Sirfetch'd
+|-damage|p2a: Sirfetch'd|0 fnt
+|faint|p2a: Sirfetch'd
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M|50/100 brn
+|-ability|p2a: Corviknight|Pressure
+|turn|47
+|c|☆Jeztar|Oh
+|-message|overloadice forfeited.
+|
+|win|Jeztar
+|l|☆overloadice
+|raw|Jeztar's rating: 1521 → 1535(+14 for winning)
+|raw|overloadice's rating: 1404 → 1390(-14 for losing)
+|c|☆Jeztar|Gg
+|l| master of miss

@@ -1,0 +1,276 @@
+|ScrapeTime|2020-01-01-18:47:02
+|j|☆Kayuta!!
+|j|☆Polteaghostie
+|player|p1|Kayuta!!|lyra|1127
+|player|p2|Polteaghostie|maid|1107
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Polteageist|
+|poke|p1|Hawlucha, F|
+|poke|p1|Togekiss, F|
+|poke|p1|Rotom-Wash|
+|poke|p2|Toxtricity-Low-Key, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Polteageist|
+|poke|p2|Clefable, F|
+|poke|p2|Cloyster, F|
+|poke|p2|Toxapex, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆Kayuta!!|ah, a polteageist!
+|c|☆Kayuta!!|a person of good taste
+|c|☆Kayuta!!|good luck and have fun
+|
+|start
+|switch|p1a: Chernabog|Grimmsnarl, M|100/100
+|switch|p2a: Toxtricity|Toxtricity-Low-Key, M|100/100
+|turn|1
+|c|☆Polteaghostie|^.^ you too
+|
+|move|p1a: Chernabog|Fake Out|p2a: Toxtricity
+|-damage|p2a: Toxtricity|77/100
+|cant|p2a: Toxtricity|flinch
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Toxtricity|Sludge Bomb|p1a: Chernabog
+|-supereffective|p1a: Chernabog
+|-damage|p1a: Chernabog|0 fnt
+|faint|p1a: Chernabog
+|
+|upkeep
+|
+|switch|p1a: Dozer|Excadrill, M|100/100
+|-ability|p1a: Dozer|Mold Breaker
+|-item|p1a: Dozer|Air Balloon
+|turn|3
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|move|p1a: Dozer|Iron Head|p2a: Hydreigon
+|-damage|p2a: Hydreigon|55/100
+|
+|-heal|p2a: Hydreigon|61/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Boolong|Polteageist|100/100
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|-heal|p2a: Hydreigon|67/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Boolong
+|-enditem|p1a: Boolong|Focus Sash
+|-damage|p1a: Boolong|1/100
+|-unboost|p2a: Hydreigon|spa|2
+|move|p1a: Boolong|Shell Smash|p1a: Boolong
+|-unboost|p1a: Boolong|def|1
+|-unboost|p1a: Boolong|spd|1
+|-boost|p1a: Boolong|atk|2
+|-boost|p1a: Boolong|spa|2
+|-boost|p1a: Boolong|spe|2
+|
+|-heal|p2a: Hydreigon|73/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Boolong|Giga Drain|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|41/100
+|-heal|p1a: Boolong|21/100|[from] drain|[of] p2a: Hydreigon
+|move|p2a: Hydreigon|Earth Power|p1a: Boolong
+|-damage|p1a: Boolong|0 fnt
+|faint|p1a: Boolong
+|
+|-heal|p2a: Hydreigon|47/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Colgate|Togekiss, F|100/100
+|turn|7
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Colgate
+|-supereffective|p1a: Colgate
+|-damage|p1a: Colgate|49/100
+|move|p1a: Colgate|Dazzling Gleam|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-heal|p1a: Colgate|55/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F, shiny|100/100
+|turn|8
+|
+|switch|p1a: Dozer|Excadrill, M|100/100
+|-ability|p1a: Dozer|Mold Breaker
+|-item|p1a: Dozer|Air Balloon
+|move|p2a: Clefable|Thunderbolt|p1a: Dozer
+|-immune|p1a: Dozer
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Dozer|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|31/100
+|
+|-heal|p2a: Toxapex|37/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|move|p1a: Dozer|Swords Dance|p1a: Dozer
+|-boost|p1a: Dozer|atk|2
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|87/100
+|
+|-heal|p2a: Toxapex|93/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|move|p1a: Dozer|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|turn|12
+|
+|move|p1a: Dozer|Earthquake|p2a: Polteageist
+|-enditem|p2a: Polteageist|Focus Sash
+|-damage|p2a: Polteageist|1/100
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|upkeep
+|turn|13
+|c|☆Kayuta!!|700 speed polteageist
+|c|☆Kayuta!!|mm yes tasty
+|c|☆Kayuta!!|i love setting him up
+|
+|switch|p1a: Colgate|Togekiss, F|55/100
+|move|p2a: Polteageist|Stored Power|p1a: Colgate
+|-damage|p1a: Colgate|0 fnt
+|faint|p1a: Colgate
+|
+|upkeep
+|c|☆Polteaghostie|mhm
+|
+|switch|p1a: Mitt Rotomney|Rotom-Wash|100/100
+|turn|14
+|
+|move|p2a: Polteageist|Stored Power|p1a: Mitt Rotomney
+|-damage|p1a: Mitt Rotomney|0 fnt
+|faint|p1a: Mitt Rotomney
+|
+|upkeep
+|
+|switch|p1a: Mucha Lucha|Hawlucha, F|100/100
+|turn|15
+|c|☆Kayuta!!|wellp
+|c|☆Kayuta!!|gg
+|
+|move|p2a: Polteageist|Stored Power|p1a: Mucha Lucha
+|-supereffective|p1a: Mucha Lucha
+|-crit|p1a: Mucha Lucha
+|-damage|p1a: Mucha Lucha|0 fnt
+|faint|p1a: Mucha Lucha
+|
+|upkeep
+|
+|switch|p1a: Dozer|Excadrill, M|100/100
+|-ability|p1a: Dozer|Mold Breaker
+|-item|p1a: Dozer|Air Balloon
+|turn|16
+|
+|move|p2a: Polteageist|Stored Power|p1a: Dozer
+|-resisted|p1a: Dozer
+|-damage|p1a: Dozer|7/100
+|-enditem|p1a: Dozer|Air Balloon
+|move|p1a: Dozer|Earthquake|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|
+|upkeep
+|c|☆Kayuta!!|y-
+|c|☆Kayuta!!|you're kidding
+|c|☆Polteaghostie|hehe
+|
+|switch|p2a: Cloyster|Cloyster, F, shiny|100/100
+|turn|17
+|c|☆Kayuta!!|i could've stayed on excadrill
+|c|☆Kayuta!!|ohhhh my god
+|
+|move|p1a: Dozer|Iron Head|p2a: Cloyster
+|-damage|p2a: Cloyster|65/100
+|cant|p2a: Cloyster|flinch
+|
+|upkeep
+|turn|18
+|c|☆Kayuta!!|this happens very often to me
+|
+|move|p1a: Dozer|Iron Head|p2a: Cloyster
+|-damage|p2a: Cloyster|27/100
+|cant|p2a: Cloyster|flinch
+|
+|upkeep
+|turn|19
+|c|☆Polteaghostie|me 2 it's ok
+|
+|move|p1a: Dozer|Iron Head|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F, shiny|100/100
+|turn|20
+|
+|move|p1a: Dozer|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity-Low-Key, M|77/100
+|turn|21
+|
+|move|p1a: Dozer|Earthquake|p2a: Toxtricity
+|-supereffective|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|win|Kayuta!!
+|c|☆Kayuta!!|woah
+|c|☆Polteaghostie|gj ^.^
+|c|☆Kayuta!!|gg
+|l|☆Polteaghostie
+|raw|Kayuta!!'s rating: 1128 → 1151(+23 for winning)
+|raw|Polteaghostie's rating: 1107 → 1083(-24 for losing)

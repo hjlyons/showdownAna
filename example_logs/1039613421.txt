@@ -1,0 +1,328 @@
+|ScrapeTime|2020-01-02-11:45:18
+|j|☆Camp Chief Ivon
+|j|☆wolfiler
+|player|p1|Camp Chief Ivon|251|1162
+|player|p2|wolfiler|scientist-gen4|1160
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Torkoal, M|
+|poke|p1|Cherrim, M|
+|poke|p1|Bronzong|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Rotom-Heat|
+|poke|p2|Tyranitar, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Rotom-Wash|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by wolfiler)
+|
+|start
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|move|p1a: Rotom|Volt Switch|p2a: Rotom
+|-damage|p2a: Rotom|67/100
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100|[from]move: Volt Switch
+|move|p2a: Rotom|Hydro Pump|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|65/100
+|
+|-heal|p2a: Rotom|73/100|[from] item: Leftovers
+|-heal|p1a: Grimmsnarl|71/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Rotom|Volt Switch|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|48/100
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100|[from]move: Volt Switch
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|76/100
+|-unboost|p2a: Excadrill|spa|1
+|
+|-heal|p1a: Grimmsnarl|55/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: Excadrill|Iron Head|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|80/100
+|-damage|p2a: Excadrill|66/100|[from] item: Life Orb
+|
+|-heal|p1a: Bronzong|87/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Bronzong|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bronzong|93/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Tyranitar|Crunch|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|40/100
+|move|p1a: Bronzong|Gyro Ball|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bronzong|46/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Tyranitar|Crunch|p1a: Torkoal
+|-damage|p1a: Torkoal|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Rotom|Rotom-Wash|73/100
+|move|p1a: Torkoal|Yawn|p2a: Rotom
+|-start|p2a: Rotom|move: Yawn|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rotom|79/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Cherrim|Cherrim, M|100/100
+|-formechange|p1a: Cherrim|Cherrim-Sunshine|[msg]|[from] ability: Flower Gift
+|move|p2a: Rotom|Volt Switch|p1a: Cherrim
+|-resisted|p1a: Cherrim
+|-damage|p1a: Cherrim|87/100
+|
+|switch|p2a: Tyranitar|Tyranitar, F|40/100|[from]move: Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|-formechange|p1a: Cherrim|Cherrim|[msg]|[from] ability: Flower Gift
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cherrim|81/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|move|p1a: Cherrim|Play Rough|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|12/100
+|move|p2a: Tyranitar|Flamethrower|p1a: Cherrim
+|-supereffective|p1a: Cherrim
+|-damage|p1a: Cherrim|17/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cherrim|10/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Cherrim|Play Rough|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|95/100
+|-damage|p1a: Cherrim|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p1a: Cherrim
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Torkoal|Torkoal, M|76/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|11
+|
+|move|p1a: Torkoal|Lava Plume|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|79/100
+|turn|12
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|21/100
+|move|p1a: Torkoal|Stealth Rock|p2a: Rotom
+|-sidestart|p2: wolfiler|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rotom|85/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rotom|92/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|turn|14
+|
+|move|p1a: Rotom|Volt Switch|p2a: Rotom
+|-damage|p2a: Rotom|60/100
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from]move: Volt Switch
+|move|p2a: Rotom|Hydro Pump|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|86/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rotom|66/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Rotom|[miss]
+|-miss|p1a: Dragapult|p2a: Rotom
+|move|p2a: Rotom|Will-O-Wisp|p1a: Dragapult
+|-status|p1a: Dragapult|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rotom|73/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|80/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Rotom
+|-damage|p2a: Rotom|9/100
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: Rotom|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|65/100 brn
+|
+|switch|p2a: Tyranitar|Tyranitar, F|12/100|[from]move: Volt Switch
+|-damage|p2a: Tyranitar|0 fnt|[from] Stealth Rock
+|faint|p2a: Tyranitar
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Dragapult|59/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|55/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|29/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Grimmsnarl|35/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|-damage|p2a: Conkeldurr|94/100|[from] Stealth Rock
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|30/100
+|-unboost|p2a: Conkeldurr|spa|1
+|
+|-weather|none
+|-heal|p1a: Grimmsnarl|41/100|[from] item: Leftovers
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|19
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|-damage|p2a: Conkeldurr|23/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|turn|20
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Rotom
+|-damage|p1a: Rotom|51/100
+|move|p1a: Rotom|Overheat|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|88/100
+|-damage|p2a: Dragapult|76/100|[from] Stealth Rock
+|turn|21
+|inactive|wolfiler has 120 seconds left.
+|
+|switch|p1a: Bronzong|Bronzong|46/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|59/100 brn
+|turn|22
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Dragapult
+|
+|-damage|p1a: Dragapult|53/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|66/100
+|-damage|p2a: Excadrill|63/100|[from] Stealth Rock
+|turn|23
+|
+|switch|p1a: Rotom|Rotom-Heat|51/100
+|move|p2a: Excadrill|Iron Head|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|32/100
+|-damage|p2a: Excadrill|53/100|[from] item: Life Orb
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Rotom|Overheat|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Excadrill
+|
+|upkeep
+|-message|wolfiler forfeited.
+|
+|win|Camp Chief Ivon
+|l|☆wolfiler
+|raw|Camp Chief Ivon's rating: 1163 → 1187(+24 for winning)
+|raw|wolfiler's rating: 1160 → 1136(-24 for losing)

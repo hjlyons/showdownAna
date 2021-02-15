@@ -1,0 +1,457 @@
+|ScrapeTime|2020-01-01-09:35:47
+|j|☆Sir twiggy
+|j|☆Vinny Bo Binny
+|player|p1|Sir twiggy|infielder|1000
+|player|p2|Vinny Bo Binny|cynthia|1074
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Milotic, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Claydol|
+|poke|p2|Mamoswine, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Tsareena, F|
+|poke|p2|Conkeldurr, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Tsareena|Tsareena, F|100/100
+|turn|1
+|
+|move|p1a: Rotom|Volt Switch|p2a: Tsareena
+|-resisted|p2a: Tsareena
+|-damage|p2a: Tsareena|80/100
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100|[from]move: Volt Switch
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Tsareena|Trop Kick|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|95/100
+|-unboost|p1a: Corviknight|atk|1
+|
+|-heal|p2a: Tsareena|86/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|move|p1a: Corviknight|U-turn|p2a: Corsola
+|-resisted|p2a: Corsola
+|-damage|p2a: Corsola|97/100
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Corsola
+|move|p2a: Corsola|Will-O-Wisp|p1a: Dragapult|[miss]
+|-miss|p2a: Corsola|p1a: Dragapult
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Corsola|[from]lockedmove
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|15/100
+|move|p2a: Corsola|Will-O-Wisp|p1a: Dragapult
+|-status|p1a: Dragapult|brn
+|
+|-damage|p1a: Dragapult|95/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Corsola
+|move|p2a: Corsola|Strength Sap|p1a: Dragapult|[miss]
+|-miss|p2a: Corsola|p1a: Dragapult
+|
+|-damage|p1a: Dragapult|89/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Dragapult|Phantom Force|p2a: Corsola|[from]lockedmove
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|
+|-damage|p1a: Dragapult|83/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Mamooshka|Mamoswine, M|100/100
+|turn|7
+|
+|switch|p1a: Milotic|Milotic, M|100/100
+|move|p2a: Mamooshka|Ice Shard|p1a: Milotic
+|-resisted|p1a: Milotic
+|-crit|p1a: Milotic
+|-damage|p1a: Milotic|75/100
+|-damage|p2a: Mamooshka|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Milotic|81/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F, shiny|100/100
+|move|p1a: Milotic|Scald|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|82/100
+|
+|-heal|p1a: Milotic|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Dragapult|Dragapult, M|83/100 brn
+|move|p2a: Conkeldurr|Thunder Punch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|58/100 brn
+|
+|-damage|p1a: Dragapult|52/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|65/100
+|-damage|p2a: Conkeldurr|48/100
+|-hitcount|p2a: Conkeldurr|2
+|move|p2a: Conkeldurr|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Claydol|Claydol|100/100
+|turn|11
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Claydol|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: Vinny Bo Binny|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Pelipper|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|90/100
+|
+|switch|p2a: Tsareena|Tsareena, F|86/100|[from]move: U-turn
+|-damage|p2a: Tsareena|74/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tsareena|80/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Rotom|Volt Switch|p2a: Tsareena
+|-resisted|p2a: Tsareena
+|-damage|p2a: Tsareena|62/100
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100|[from]move: Volt Switch
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Tsareena|Rapid Spin|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|95/100
+|-sideend|p2: Vinny Bo Binny|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tsareena
+|-boost|p2a: Tsareena|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tsareena|68/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Corviknight|Brave Bird|p2a: Hatterene
+|-damage|p2a: Hatterene|56/100
+|-damage|p1a: Corviknight|89/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Corviknight|95/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|62/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Hatterene
+|-damage|p2a: Hatterene|17/100
+|-damage|p1a: Corviknight|83/100|[from] Recoil
+|move|p2a: Hatterene|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|50/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Corviknight|56/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|23/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Hatterene|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|70/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Corviknight|77/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|29/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-damage|p1a: Corviknight|69/100|[from] Recoil
+|faint|p2a: Hatterene
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Corviknight|75/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Mamooshka|Mamoswine, M|91/100
+|turn|18
+|
+|move|p2a: Mamooshka|Icicle Crash|p1a: Corviknight
+|-damage|p1a: Corviknight|40/100
+|-damage|p2a: Mamooshka|81/100|[from] item: Life Orb
+|cant|p1a: Corviknight|flinch
+|
+|-weather|none
+|-heal|p1a: Corviknight|46/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Mamooshka|Icicle Crash|p1a: Corviknight
+|-damage|p1a: Corviknight|10/100
+|-damage|p2a: Mamooshka|71/100|[from] item: Life Orb
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|60/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p1a: Corviknight|66/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Mamooshka|Icicle Crash|p1a: Corviknight
+|-damage|p1a: Corviknight|32/100
+|-damage|p2a: Mamooshka|61/100|[from] item: Life Orb
+|cant|p1a: Corviknight|flinch
+|
+|-heal|p1a: Corviknight|38/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Milotic|Milotic, M|88/100
+|move|p2a: Mamooshka|Icicle Crash|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|57/100
+|-damage|p2a: Mamooshka|51/100|[from] item: Life Orb
+|
+|-heal|p1a: Milotic|63/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Mamooshka|Earthquake|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|-damage|p2a: Mamooshka|41/100|[from] item: Life Orb
+|faint|p1a: Milotic
+|
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|turn|23
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Conkeldurr|Drain Punch|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|78/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|
+|move|p2a: Pelipper|U-turn|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|97/100
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F, shiny|48/100|[from]move: U-turn
+|move|p1a: Conkeldurr|Rock Blast|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|43/100
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|39/100
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|35/100
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|30/100
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|26/100
+|-hitcount|p2a: Conkeldurr|5
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|move|p2a: Conkeldurr|Drain Punch|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|54/100
+|-heal|p2a: Conkeldurr|48/100|[from] drain|[of] p1a: Conkeldurr
+|move|p1a: Conkeldurr|Poison Jab|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|22/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|26
+|
+|switch|p1a: Claydol|Claydol|100/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Claydol
+|-resisted|p1a: Claydol
+|-damage|p1a: Claydol|66/100
+|-heal|p2a: Conkeldurr|33/100|[from] drain|[of] p1a: Claydol
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|move|p1a: Claydol|Psychic|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|-damage|p1a: Claydol|56/100|[from] item: Life Orb
+|faint|p2a: Conkeldurr
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Tsareena|Tsareena, F|68/100
+|turn|28
+|
+|move|p1a: Claydol|Psychic|p2a: Tsareena
+|-damage|p2a: Tsareena|16/100
+|-damage|p1a: Claydol|46/100|[from] item: Life Orb
+|move|p2a: Tsareena|Trop Kick|p1a: Claydol
+|-supereffective|p1a: Claydol
+|-damage|p1a: Claydol|0 fnt
+|faint|p1a: Claydol
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tsareena|22/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|54/100
+|turn|29
+|
+|switch|p2a: Pelipper|Pelipper, M|78/100
+|move|p1a: Conkeldurr|Mach Punch|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|65/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|30
+|
+|move|p2a: Pelipper|Hurricane|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, F|38/100
+|-ability|p1a: Corviknight|Pressure
+|turn|31
+|
+|move|p2a: Pelipper|Hydro Pump|p1a: Corviknight
+|-damage|p1a: Corviknight|3/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|53/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p1a: Corviknight|59/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|100/100
+|-singleturn|p2a: Pelipper|move: Roost
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|33
+|
+|move|p2a: Pelipper|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|99/100
+|
+|switch|p2a: Tsareena|Tsareena, F|22/100|[from]move: U-turn
+|move|p1a: Corviknight|U-turn|p2a: Tsareena
+|-supereffective|p2a: Tsareena
+|-damage|p2a: Tsareena|0 fnt
+|faint|p2a: Tsareena
+|
+|switch|p1a: Rotom|Rotom-Wash|90/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p2a: Mamooshka|Mamoswine, M|41/100
+|turn|34
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Mamooshka
+|-supereffective|p2a: Mamooshka
+|-damage|p2a: Mamooshka|0 fnt
+|faint|p2a: Mamooshka
+|
+|upkeep
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|35
+|
+|switch|p1a: Corviknight|Corviknight, F|99/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Pelipper|Hydro Pump|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|26/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Corviknight|32/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p2a: Pelipper|Hydro Pump|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|90/100
+|turn|37
+|
+|move|p1a: Rotom|Volt Switch|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|win|Sir twiggy
+|raw|Sir twiggy's rating: 1000 → 1048(+48 for winning)
+|raw|Vinny Bo Binny's rating: 1074 → 1049(-25 for losing)
+|l|☆Vinny Bo Binny

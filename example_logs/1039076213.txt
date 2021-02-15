@@ -1,0 +1,313 @@
+|ScrapeTime|2020-01-01-09:24:55
+|j|☆nahro
+|j|☆rakion_sagas
+|player|p1|nahro|29|1304
+|player|p2|rakion_sagas|n|1263
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Togekiss, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Hydreigon, F|
+|poke|p2|Falinks|
+|poke|p2|Centiskorch, M|
+|poke|p2|Steelix, F|
+|poke|p2|Dracovish|
+|poke|p2|Hatterene, F|
+|poke|p2|Corviknight, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Steelix|Steelix, F|100/100
+|turn|1
+|
+|move|p1a: Rotom|Trick|p2a: Steelix
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Steelix
+|-item|p2a: Steelix|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|move|p2a: Steelix|Stealth Rock|p1a: Rotom
+|-sidestart|p1: nahro|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Amalgama|Dracovish|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Amalgama|[miss]
+|-miss|p1a: Rotom|p2a: Amalgama
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Lava Explosiva|Centiskorch, M|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Lava Explosiva
+|-start|p2a: Lava Explosiva|ability: Flash Fire
+|
+|upkeep
+|turn|4
+|
+|-end|p2a: Lava Explosiva|ability: Flash Fire|[silent]
+|switch|p2a: Amalgama|Dracovish|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Amalgama
+|-immune|p2a: Amalgama|[from] ability: Water Absorb
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Amalgama
+|-status|p2a: Amalgama|brn
+|move|p2a: Amalgama|Crunch|p1a: Rotom
+|-damage|p1a: Rotom|85/100
+|
+|-heal|p1a: Rotom|91/100|[from] item: Leftovers
+|-damage|p2a: Amalgama|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Rotom|Volt Switch|p2a: Amalgama
+|-damage|p2a: Amalgama|75/100 brn
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Amalgama|Fishious Rend|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|79/100
+|-damage|p2a: Amalgama|63/100 brn|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Amalgama|46/100 brn|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|
+|-damage|p2a: Amalgama|40/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p2a: Ralsei|Hatterene, F|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Ralsei
+|move|p2a: Ralsei|Leech Seed|p1a: Ferrothorn|[from]Magic Bounce
+|-immune|p1a: Ferrothorn
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Ralsei|Trick Room|p2a: Ralsei
+|-fieldstart|move: Trick Room|[of] p2a: Ralsei
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Ralsei|Psychic|p1a: Cinderace
+|-damage|p1a: Cinderace|18/100
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p1: nahro|Stealth Rock|[silent]
+|-sidestart|p2: rakion_sagas|Stealth Rock|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|move|p2a: Ralsei|Draining Kiss|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|79/100
+|turn|11
+|
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Ralsei
+|-supereffective|p2a: Ralsei
+|-damage|p2a: Ralsei|65/100
+|move|p2a: Ralsei|Mystical Fire|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-heal|p2a: Ralsei|71/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|turn|12
+|
+|move|p2a: Ralsei|Psychic|p1a: Togekiss
+|-damage|p1a: Togekiss|55/100
+|move|p1a: Togekiss|Air Slash|p2a: Ralsei
+|-damage|p2a: Ralsei|32/100
+|
+|-heal|p2a: Ralsei|38/100|[from] item: Leftovers
+|-heal|p1a: Togekiss|62/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|13
+|
+|move|p1a: Togekiss|Air Slash|p2a: Ralsei
+|-damage|p2a: Ralsei|3/100
+|cant|p2a: Ralsei|flinch
+|
+|-heal|p1a: Togekiss|68/100|[from] item: Leftovers
+|-heal|p2a: Ralsei|9/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Togekiss|Air Slash|p2a: Ralsei
+|-damage|p2a: Ralsei|0 fnt
+|faint|p2a: Ralsei
+|
+|-heal|p1a: Togekiss|74/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Nunca Más|Corviknight, M|100/100
+|-damage|p2a: Nunca Más|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Nunca Más|Bulk Up|p2a: Nunca Más
+|-boost|p2a: Nunca Más|atk|1
+|-boost|p2a: Nunca Más|def|1
+|move|p1a: Togekiss|Thunder Wave|p2a: Nunca Más
+|-status|p2a: Nunca Más|par
+|
+|-heal|p1a: Togekiss|80/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Togekiss|Air Slash|p2a: Nunca Más
+|-resisted|p2a: Nunca Más
+|-damage|p2a: Nunca Más|69/100 par
+|move|p2a: Nunca Más|Iron Head|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|7/100
+|
+|-heal|p1a: Togekiss|14/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Togekiss|Air Slash|p2a: Nunca Más
+|-resisted|p2a: Nunca Más
+|-damage|p2a: Nunca Más|52/100 par
+|cant|p2a: Nunca Más|flinch
+|
+|-heal|p1a: Togekiss|20/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Togekiss|Air Slash|p2a: Nunca Más
+|-resisted|p2a: Nunca Más
+|-damage|p2a: Nunca Más|32/100 par
+|cant|p2a: Nunca Más|flinch
+|
+|-heal|p1a: Togekiss|26/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Togekiss|Air Slash|p2a: Nunca Más
+|-resisted|p2a: Nunca Más
+|-damage|p2a: Nunca Más|14/100 par
+|cant|p2a: Nunca Más|flinch
+|
+|-heal|p1a: Togekiss|32/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Togekiss|Air Slash|p2a: Nunca Más
+|-resisted|p2a: Nunca Más
+|-damage|p2a: Nunca Más|0 fnt
+|faint|p2a: Nunca Más
+|
+|-heal|p1a: Togekiss|38/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Steelix|Steelix, F|100/100
+|-damage|p2a: Steelix|97/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Togekiss|Wish|p1a: Togekiss
+|move|p2a: Steelix|Stealth Rock|p1a: Togekiss
+|-sidestart|p1: nahro|move: Stealth Rock
+|
+|-heal|p1a: Togekiss|44/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Cinderace|Cinderace, M|18/100
+|switch|p2a: Spartan|Falinks|100/100
+|-damage|p2a: Spartan|95/100|[from] Stealth Rock
+|
+|-heal|p1a: Cinderace|77/100|[from] move: Wish|[wisher] Togekiss
+|-heal|p2a: Spartan|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Cinderace|U-turn|p2a: Spartan
+|-resisted|p2a: Spartan
+|-damage|p2a: Spartan|89/100
+|
+|switch|p1a: Togekiss|Togekiss, F|44/100|[from]move: U-turn
+|-damage|p1a: Togekiss|19/100|[from] Stealth Rock
+|move|p2a: Spartan|No Retreat|p2a: Spartan
+|-boost|p2a: Spartan|atk|1
+|-boost|p2a: Spartan|def|1
+|-boost|p2a: Spartan|spa|1
+|-boost|p2a: Spartan|spd|1
+|-boost|p2a: Spartan|spe|1
+|-start|p2a: Spartan|move: No Retreat
+|
+|-heal|p2a: Spartan|95/100|[from] item: Leftovers
+|-heal|p1a: Togekiss|26/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Spartan|Facade|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|-heal|p2a: Spartan|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|25
+|
+|move|p1a: Dragapult|Fire Blast|p2a: Spartan
+|-damage|p2a: Spartan|58/100
+|move|p2a: Spartan|Throat Chop|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Spartan|64/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Wash|91/100
+|-damage|p1a: Rotom|79/100|[from] Stealth Rock
+|turn|26
+|
+|move|p2a: Spartan|Close Combat|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-unboost|p2a: Spartan|def|1
+|-unboost|p2a: Spartan|spd|1
+|faint|p1a: Rotom
+|
+|-heal|p2a: Spartan|70/100|[from] item: Leftovers
+|upkeep
+|c|☆nahro|gg
+|c|☆rakion_sagas|gg
+|-message|nahro forfeited.
+|
+|win|rakion_sagas
+|l|☆nahro
+|raw|nahro's rating: 1304 → 1282(-22 for losing)
+|raw|rakion_sagas's rating: 1264 → 1292(+28 for winning)

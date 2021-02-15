@@ -1,0 +1,229 @@
+|ScrapeTime|2020-01-01-11:59:38
+|j|☆Tete_loto
+|j|☆Ulifer
+|player|p1|Tete_loto|waiter-gen4|1083
+|player|p2|Ulifer|2|1040
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Runerigus, M|
+|poke|p1|Glaceon, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Gyarados, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Appletun, F|
+|poke|p2|Dracovish|
+|poke|p2|Centiskorch, F|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Gengar, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Hatterene, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Tete_loto)
+|
+|start
+|switch|p1a: Fantomaton|Runerigus, M, shiny|100/100
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|1
+|
+|switch|p1a: Pomdhappy|Appletun, F|100/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Pomdhappy
+|-resisted|p1a: Pomdhappy
+|-damage|p1a: Pomdhappy|77/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Centiskorch|Centiskorch, F|100/100
+|move|p1a: Pomdhappy|Draco Meteor|p2a: Centiskorch
+|-damage|p2a: Centiskorch|73/100
+|-unboost|p1a: Pomdhappy|spa|2
+|-enditem|p1a: Pomdhappy|White Herb
+|-clearnegativeboost|p1a: Pomdhappy|[silent]
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Fantomaton|Runerigus, M, shiny|100/100
+|move|p2a: Centiskorch|Knock Off|p1a: Fantomaton
+|-supereffective|p1a: Fantomaton
+|-damage|p1a: Fantomaton|60/100
+|-activate|p2a: Centiskorch|ability: Wandering Spirit|Wandering Spirit|Flash Fire|[of] p1a: Fantomaton
+|-enditem|p1a: Fantomaton|Figy Berry|[from] move: Knock Off|[of] p2a: Centiskorch
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Centiskorch|Overheat|p1a: Fantomaton
+|-start|p1a: Fantomaton|ability: Flash Fire
+|move|p1a: Fantomaton|Toxic Spikes|p2a: Centiskorch
+|-sidestart|p2: Ulifer|move: Toxic Spikes
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Centiskorch|Bug Buzz|p1a: Fantomaton
+|-resisted|p1a: Fantomaton
+|-damage|p1a: Fantomaton|49/100
+|-unboost|p1a: Fantomaton|spd|1
+|move|p1a: Fantomaton|Stone Edge|p2a: Centiskorch
+|-supereffective|p2a: Centiskorch
+|-damage|p2a: Centiskorch|0 fnt
+|faint|p2a: Centiskorch
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|-status|p2a: Dracovish|psn
+|turn|6
+|
+|-end|p1a: Fantomaton|ability: Flash Fire|[silent]
+|switch|p1a: Pomdhappy|Appletun, F|77/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Pomdhappy
+|-resisted|p1a: Pomdhappy
+|-damage|p1a: Pomdhappy|55/100
+|
+|-damage|p2a: Dracovish|88/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-status|p2a: Dragapult|psn
+|move|p1a: Pomdhappy|Recover|p1a: Pomdhappy
+|-heal|p1a: Pomdhappy|100/100
+|
+|-damage|p2a: Dragapult|88/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Magicapgirl|Gyarados, F, shiny|100/100
+|-ability|p1a: Magicapgirl|Intimidate|boost
+|-fail|p2a: Dragapult|unboost|[from] ability: Clear Body|[of] p2a: Dragapult
+|move|p2a: Dragapult|Flamethrower|p1a: Magicapgirl
+|-resisted|p1a: Magicapgirl
+|-damage|p1a: Magicapgirl|81/100
+|
+|-damage|p2a: Dragapult|76/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|-status|p2a: Corsola|psn
+|move|p1a: Magicapgirl|Crunch|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|67/100 psn
+|-start|p1a: Magicapgirl|Disable|Crunch|[from] ability: Cursed Body|[of] p2a: Corsola
+|
+|-damage|p2a: Corsola|55/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|move|p1a: Magicapgirl|Dragon Dance|p1a: Magicapgirl
+|-boost|p1a: Magicapgirl|atk|1
+|-boost|p1a: Magicapgirl|spe|1
+|move|p2a: Corsola|Strength Sap|p1a: Magicapgirl
+|-unboost|p1a: Magicapgirl|atk|1
+|-heal|p2a: Corsola|100/100 psn
+|
+|-damage|p2a: Corsola|88/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|move|p1a: Magicapgirl|Dragon Dance|p1a: Magicapgirl
+|-boost|p1a: Magicapgirl|atk|1
+|-boost|p1a: Magicapgirl|spe|1
+|move|p2a: Corsola|Haze|p2a: Corsola
+|-clearallboost
+|
+|-damage|p2a: Corsola|76/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|move|p1a: Magicapgirl|Dragon Dance|p1a: Magicapgirl
+|-boost|p1a: Magicapgirl|atk|1
+|-boost|p1a: Magicapgirl|spe|1
+|move|p2a: Corsola|Night Shade|p1a: Magicapgirl
+|-damage|p1a: Magicapgirl|50/100
+|
+|-damage|p2a: Corsola|63/100 psn|[from] psn
+|-end|p1a: Magicapgirl|Disable
+|upkeep
+|turn|13
+|
+|move|p1a: Magicapgirl|Crunch|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|13/100 psn
+|-start|p1a: Magicapgirl|Disable|Crunch|[from] ability: Cursed Body|[of] p2a: Corsola
+|move|p2a: Corsola|Haze|p2a: Corsola
+|-clearallboost
+|
+|-damage|p2a: Corsola|0 fnt|[from] psn
+|faint|p2a: Corsola
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|-sideend|p2: Ulifer|move: Toxic Spikes|[of] p2a: Gengar
+|turn|14
+|
+|move|p2a: Gengar|Sludge Bomb|p1a: Magicapgirl
+|-damage|p1a: Magicapgirl|17/100
+|-enditem|p1a: Magicapgirl|Aguav Berry|[eat]
+|-heal|p1a: Magicapgirl|50/100|[from] item: Aguav Berry
+|move|p1a: Magicapgirl|Dragon Dance|p1a: Magicapgirl
+|-boost|p1a: Magicapgirl|atk|1
+|-boost|p1a: Magicapgirl|spe|1
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Magicapgirl|Iron Head|p2a: Gengar
+|-damage|p2a: Gengar|44/100
+|cant|p2a: Gengar|flinch
+|
+|upkeep
+|turn|16
+|inactive|Ulifer has 120 seconds left.
+|
+|move|p1a: Magicapgirl|Iron Head|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|-end|p1a: Magicapgirl|Disable
+|upkeep
+|inactive|Ulifer has 120 seconds left.
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|17
+|
+|move|p1a: Magicapgirl|Iron Head|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|5/100
+|cant|p2a: Hatterene|flinch
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Magicapgirl|Iron Head|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|inactive|Ulifer has 120 seconds left.
+|-message|Ulifer forfeited.
+|
+|win|Tete_loto
+|l|☆Ulifer
+|raw|Tete_loto's rating: 1084 → 1108(+24 for winning)
+|raw|Ulifer's rating: 1040 → 1026(-14 for losing)

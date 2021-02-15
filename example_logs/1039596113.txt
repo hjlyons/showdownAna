@@ -1,0 +1,421 @@
+|ScrapeTime|2020-01-02-10:56:01
+|j|☆usualranger5
+|j|☆iFeyzi
+|player|p1|usualranger5|169|1333
+|player|p2|iFeyzi|153|1306
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mawile, F|
+|poke|p1|Hydreigon, M|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Pyukumuku, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Mimikyu, M|
+|poke|p2|Hydreigon, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Rotom-Wash|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by usualranger5)
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|move|p2a: Rotom|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|79/100
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100|[from]move: Volt Switch
+|move|p1a: Dragapult|Shadow Ball|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|61/100
+|-damage|p1a: Dragapult|69/100|[from] item: Life Orb
+|
+|-heal|p2a: Ferrothorn|67/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Dragapult|Flamethrower|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|73/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Rotom|[miss]
+|-miss|p1a: Dragapult|p2a: Rotom
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|41/100
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Rotom
+|-status|p2a: Rotom|brn
+|
+|-damage|p2a: Rotom|95/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Madara|Hydreigon, M|100/100
+|move|p2a: Rotom|Hydro Pump|p1a: Madara
+|-resisted|p1a: Madara
+|-damage|p1a: Madara|80/100
+|
+|-damage|p2a: Rotom|89/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|73/100
+|move|p1a: Madara|Dark Pulse|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|42/100
+|
+|-heal|p2a: Ferrothorn|49/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Madara|Nasty Plot|p1a: Madara
+|-boost|p1a: Madara|spa|2
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Madara
+|-damage|p1a: Madara|33/100
+|
+|-heal|p2a: Ferrothorn|55/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Madara|Dark Pulse|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|61/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Rotom|Rotom-Wash|89/100 brn
+|move|p1a: Madara|Dark Pulse|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|turn|10
+|
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Mimikyu|Play Rough|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|84/100
+|-damage|p2a: Mimikyu|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Weezing|90/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|61/100
+|move|p1a: Weezing|Strange Steam|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|50/100
+|-start|p2a: Ferrothorn|confusion
+|
+|-heal|p1a: Weezing|96/100|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|56/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Mawile|Mawile, F|100/100
+|-activate|p2a: Ferrothorn|confusion
+|move|p2a: Ferrothorn|Leech Seed|p1a: Mawile
+|-start|p1a: Mawile|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|63/100|[from] item: Leftovers
+|-damage|p1a: Mawile|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|71/100|[silent]
+|upkeep
+|turn|13
+|
+|switch|p1a: Madara|Hydreigon, M|33/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Pyukumuku|Pyukumuku, M|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Pyukumuku
+|-resisted|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|77/100
+|
+|-heal|p1a: Pyukumuku|84/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Pyukumuku|Soak|p2a: Hydreigon
+|-start|p2a: Hydreigon|typechange|Water
+|
+|-heal|p1a: Pyukumuku|90/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|76/100
+|move|p1a: Pyukumuku|Toxic||[still]
+|-fail|p1a: Pyukumuku
+|
+|-heal|p2a: Hydreigon|82/100|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|96/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Madara|Hydreigon, M|33/100
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|-heal|p2a: Hydreigon|88/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Madara
+|-resisted|p1a: Madara
+|-damage|p1a: Madara|3/100
+|move|p1a: Madara|Dark Pulse|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|
+|-heal|p2a: Hydreigon|94/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Madara
+|-resisted|p1a: Madara
+|-damage|p1a: Madara|0 fnt
+|faint|p1a: Madara
+|
+|-heal|p2a: Hydreigon|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Mawile|Mawile, F|88/100
+|turn|20
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|71/100
+|move|p1a: Mawile|Thunder Punch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|60/100
+|-damage|p1a: Mawile|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|66/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Mawile|Fire Fang|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|72/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Mawile|Fire Fang|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|79/100
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Mawile|Sucker Punch|p2a: Cinderace
+|-damage|p2a: Cinderace|41/100
+|-damage|p1a: Mawile|66/100|[from] item: Life Orb
+|move|p2a: Cinderace|High Jump Kick|p1a: Mawile|[miss]
+|-miss|p2a: Cinderace|p1a: Mawile
+|-damage|p2a: Cinderace|0 fnt|[from] highjumpkick
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Mimikyu|Mimikyu, M|91/100
+|turn|24
+|
+|switch|p1a: Pyukumuku|Pyukumuku, M|96/100
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|
+|-heal|p1a: Pyukumuku|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|move|p1a: Pyukumuku|Toxic|p2a: Mimikyu
+|-status|p2a: Mimikyu|tox
+|
+|-damage|p2a: Mimikyu|85/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|move|p1a: Pyukumuku|Gastro Acid||[still]
+|-fail|p1a: Pyukumuku
+|
+|-damage|p2a: Mimikyu|73/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|move|p2a: Mimikyu|Shadow Claw|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|72/100
+|-damage|p2a: Mimikyu|63/100 tox|[from] item: Life Orb
+|move|p1a: Pyukumuku|Soak|p2a: Mimikyu
+|-start|p2a: Mimikyu|typechange|Water
+|
+|-heal|p1a: Pyukumuku|78/100|[from] item: Leftovers
+|-damage|p2a: Mimikyu|45/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|switch|p2a: Hydreigon|Hydreigon, F|99/100
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|100/100
+|
+|-heal|p2a: Hydreigon|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|76/100
+|move|p1a: Pyukumuku|Toxic||[still]
+|-fail|p1a: Pyukumuku
+|
+|-heal|p2a: Hydreigon|82/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p1a: Dragapult|Dragapult, M|41/100
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|-heal|p2a: Hydreigon|88/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|72/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|64/100
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|55/100
+|-hitcount|p2a: Ferrothorn|2
+|-damage|p1a: Dragapult|31/100|[from] item: Life Orb
+|
+|-heal|p2a: Ferrothorn|61/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|67/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Dragapult|Flamethrower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Dragapult|21/100|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Mimikyu|Mimikyu, M|45/100 tox
+|turn|34
+|
+|switch|p1a: Pyukumuku|Pyukumuku, M|100/100
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|82/100
+|-damage|p2a: Mimikyu|35/100 tox|[from] item: Life Orb
+|
+|-heal|p1a: Pyukumuku|88/100|[from] item: Leftovers
+|-damage|p2a: Mimikyu|29/100 tox|[from] psn
+|upkeep
+|turn|35
+|inactive|usualranger5 has 120 seconds left.
+|
+|switch|p2a: Hydreigon|Hydreigon, F|88/100
+|move|p1a: Pyukumuku|Toxic|p2a: Hydreigon
+|-status|p2a: Hydreigon|tox
+|
+|-heal|p2a: Hydreigon|94/100 tox|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|94/100|[from] item: Leftovers
+|-damage|p2a: Hydreigon|88/100 tox|[from] psn
+|upkeep
+|turn|36
+|inactive|usualranger5 has 120 seconds left.
+|
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|move|p1a: Pyukumuku|Soak|p2a: Hydreigon
+|-start|p2a: Hydreigon|typechange|Water
+|
+|-heal|p2a: Hydreigon|94/100 tox|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|99/100|[from] item: Leftovers
+|-damage|p2a: Hydreigon|82/100 tox|[from] psn
+|upkeep
+|turn|37
+|inactive|usualranger5 has 120 seconds left.
+|
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|move|p1a: Pyukumuku|Toxic|p2a: Hydreigon|[miss]
+|-miss|p1a: Pyukumuku|p2a: Hydreigon
+|
+|-heal|p2a: Hydreigon|88/100 tox|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|100/100|[from] item: Leftovers
+|-damage|p2a: Hydreigon|69/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|82/100
+|move|p1a: Pyukumuku|Gastro Acid|p2a: Hydreigon
+|-endability|p2a: Hydreigon
+|
+|-heal|p2a: Hydreigon|76/100 tox|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|88/100|[from] item: Leftovers
+|-damage|p2a: Hydreigon|51/100 tox|[from] psn
+|upkeep
+|turn|39
+|inactive|usualranger5 has 120 seconds left.
+|-message|iFeyzi forfeited.
+|
+|win|usualranger5
+|l|☆iFeyzi
+|j|☆iFeyzi
+|player|p2|iFeyzi|153
+|l|☆iFeyzi
+|player|p2|
+|raw|usualranger5's rating: 1333 → 1352(+19 for winning)
+|raw|iFeyzi's rating: 1306 → 1288(-18 for losing)

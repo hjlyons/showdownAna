@@ -1,0 +1,354 @@
+|ScrapeTime|2020-01-01-21:29:16
+|j|☆dukeofass
+|j|☆Zendrical
+|player|p1|dukeofass|petrel|1000
+|player|p2|Zendrical|163|1030
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corviknight, F|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Quagsire, F|
+|poke|p1|Accelgor, M|
+|poke|p1|Clefable, M|
+|poke|p1|Hippowdon, F|
+|poke|p2|Aegislash, F|
+|poke|p2|Crawdaunt, M|
+|poke|p2|Mew|
+|poke|p2|Lucario, F|
+|poke|p2|Bisharp, F|
+|poke|p2|Dragapult, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Accelgor|Accelgor, M|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|
+|move|p1a: Accelgor|Toxic Spikes|p2a: Mew
+|-sidestart|p2: Zendrical|move: Toxic Spikes
+|move|p2a: Mew|Stealth Rock|p1a: Accelgor
+|-sidestart|p1: dukeofass|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Accelgor|Toxic Spikes|p2a: Mew
+|-sidestart|p2: Zendrical|move: Toxic Spikes
+|move|p2a: Mew|Spikes|p1a: Accelgor
+|-sidestart|p1: dukeofass|Spikes
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Accelgor|Leech Life|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|52/100
+|-enditem|p2a: Mew|Red Card|[of] p1a: Accelgor
+|drag|p1a: Corsola|Corsola-Galar, F|100/100
+|-damage|p1a: Corsola|88/100|[from] Spikes
+|-damage|p1a: Corsola|76/100|[from] Stealth Rock
+|move|p2a: Mew|Taunt|p1a: Corsola
+|-start|p1a: Corsola|move: Taunt
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Mew|Spikes|p1a: Corsola
+|-sidestart|p1: dukeofass|Spikes
+|move|p1a: Corsola|Hex|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|14/100
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Mew|Spikes|p1a: Corsola
+|-sidestart|p1: dukeofass|Spikes
+|move|p1a: Corsola|Scald|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|-end|p1a: Corsola|move: Taunt
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|turn|6
+|
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|move|p1a: Corsola|Scald|p2a: Bisharp
+|-damage|p2a: Bisharp|66/100
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|-start|p2a: Bisharp|Disable|Throat Chop|[from] ability: Cursed Body|[of] p1a: Corsola
+|-damage|p2a: Bisharp|56/100|[from] item: Life Orb
+|faint|p1a: Corsola
+|
+|upkeep
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-damage|p1a: Hippowdon|94/100|[from] Stealth Rock
+|-damage|p1a: Hippowdon|69/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|8
+|
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|move|p1a: Hippowdon|Stealth Rock|p2a: Bisharp
+|-sidestart|p2: Zendrical|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|10
+|
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|move|p1a: Hippowdon|Whirlwind|p2a: Bisharp
+|drag|p2a: Aegislash|Aegislash, F|100/100
+|-damage|p2a: Aegislash|94/100|[from] Stealth Rock
+|-item|p2a: Aegislash|Air Balloon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|move|p1a: Hippowdon|Earthquake|p2a: Aegislash
+|-immune|p2a: Aegislash
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|move|p1a: Hippowdon|Whirlwind|p2a: Aegislash
+|drag|p2a: Bisharp|Bisharp, F|56/100
+|-damage|p2a: Bisharp|50/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|switch|p2a: Aegislash|Aegislash, F|94/100
+|-damage|p2a: Aegislash|88/100|[from] Stealth Rock
+|-item|p2a: Aegislash|Air Balloon
+|move|p1a: Hippowdon|Earthquake|p2a: Aegislash
+|-immune|p2a: Aegislash
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Close Combat|p1a: Hippowdon
+|-damage|p1a: Hippowdon|74/100
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|move|p1a: Hippowdon|Whirlwind|p2a: Aegislash
+|drag|p2a: Lucario|Lucario, F|100/100
+|-damage|p2a: Lucario|98/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|15
+|
+|switch|p2a: Aegislash|Aegislash, F|88/100
+|-damage|p2a: Aegislash|82/100|[from] Stealth Rock
+|-item|p2a: Aegislash|Air Balloon
+|move|p1a: Hippowdon|Whirlwind|p2a: Aegislash
+|drag|p2a: Lucario|Lucario, F|98/100
+|-damage|p2a: Lucario|95/100|[from] Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|switch|p2a: Aegislash|Aegislash, F|82/100
+|-damage|p2a: Aegislash|76/100|[from] Stealth Rock
+|-item|p2a: Aegislash|Air Balloon
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100
+|
+|upkeep
+|turn|17
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Close Combat|p1a: Hippowdon
+|-damage|p1a: Hippowdon|74/100
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|move|p1a: Hippowdon|Whirlwind|p2a: Aegislash
+|drag|p2a: Bisharp|Bisharp, F|50/100
+|-damage|p2a: Bisharp|44/100|[from] Stealth Rock
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Hippowdon
+|-damage|p1a: Hippowdon|48/100
+|-start|p1a: Hippowdon|Throat Chop|[silent]
+|-damage|p2a: Bisharp|34/100|[from] item: Life Orb
+|move|p1a: Hippowdon|Whirlwind|p2a: Bisharp
+|drag|p2a: Aegislash|Aegislash, F|76/100
+|-damage|p2a: Aegislash|70/100|[from] Stealth Rock
+|-item|p2a: Aegislash|Air Balloon
+|
+|upkeep
+|turn|19
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Close Combat|p1a: Hippowdon
+|-damage|p1a: Hippowdon|23/100
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|73/100
+|
+|-end|p1a: Hippowdon|Throat Chop|[silent]
+|upkeep
+|turn|20
+|
+|move|p2a: Aegislash|Close Combat|p1a: Hippowdon
+|-damage|p1a: Hippowdon|48/100
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|move|p1a: Hippowdon|Whirlwind|p2a: Aegislash
+|drag|p2a: Lucario|Lucario, F|95/100
+|-damage|p2a: Lucario|92/100|[from] Stealth Rock
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Aegislash|Aegislash, F|70/100
+|-damage|p2a: Aegislash|64/100|[from] Stealth Rock
+|-item|p2a: Aegislash|Air Balloon
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|98/100
+|
+|upkeep
+|turn|22
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Close Combat|p1a: Hippowdon
+|-damage|p1a: Hippowdon|72/100
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|move|p1a: Hippowdon|Whirlwind|p2a: Aegislash
+|drag|p2a: Lucario|Lucario, F|92/100
+|-damage|p2a: Lucario|89/100|[from] Stealth Rock
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|-status|p2a: Crawdaunt|tox
+|-damage|p2a: Crawdaunt|88/100 tox|[from] Stealth Rock
+|move|p1a: Hippowdon|Whirlwind|p2a: Crawdaunt
+|drag|p2a: Aegislash|Aegislash, F|64/100
+|-damage|p2a: Aegislash|58/100|[from] Stealth Rock
+|-item|p2a: Aegislash|Air Balloon
+|
+|upkeep
+|turn|24
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Close Combat|p1a: Hippowdon
+|-damage|p1a: Hippowdon|49/100
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|move|p1a: Hippowdon|Whirlwind|p2a: Aegislash
+|drag|p2a: Bisharp|Bisharp, F|34/100
+|-damage|p2a: Bisharp|28/100|[from] Stealth Rock
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Hippowdon
+|-damage|p1a: Hippowdon|22/100
+|-start|p1a: Hippowdon|Throat Chop|[silent]
+|-damage|p2a: Bisharp|18/100|[from] item: Life Orb
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|72/100
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Hippowdon
+|-damage|p1a: Hippowdon|42/100
+|-damage|p2a: Bisharp|8/100|[from] item: Life Orb
+|move|p1a: Hippowdon|Whirlwind|p2a: Bisharp
+|drag|p2a: Aegislash|Aegislash, F|58/100
+|-damage|p2a: Aegislash|51/100|[from] Stealth Rock
+|-item|p2a: Aegislash|Air Balloon
+|
+|-end|p1a: Hippowdon|Throat Chop|[silent]
+|upkeep
+|turn|27
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Close Combat|p1a: Hippowdon
+|-damage|p1a: Hippowdon|18/100
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|68/100
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Aegislash|Close Combat|p1a: Hippowdon
+|-damage|p1a: Hippowdon|43/100
+|-unboost|p2a: Aegislash|def|1
+|-unboost|p2a: Aegislash|spd|1
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|93/100
+|
+|upkeep
+|turn|29
+|
+|switch|p2a: Crawdaunt|Crawdaunt, M|88/100 tox
+|-damage|p2a: Crawdaunt|76/100 tox|[from] Stealth Rock
+|move|p1a: Hippowdon|Whirlwind|p2a: Crawdaunt
+|drag|p2a: Dragapult|Dragapult, M|100/100
+|-status|p2a: Dragapult|tox
+|-damage|p2a: Dragapult|88/100 tox|[from] Stealth Rock
+|
+|-heal|p2a: Dragapult|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Dragapult|88/100 tox|[from] psn
+|upkeep
+|turn|30
+|-message|Zendrical forfeited.
+|
+|win|dukeofass
+|l|☆Zendrical
+|c|☆dukeofass|awww
+|raw|dukeofass's rating: 1000 → 1043(+43 for winning)
+|raw|Zendrical's rating: 1030 → 1014(-16 for losing)

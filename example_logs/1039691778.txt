@@ -1,0 +1,363 @@
+|ScrapeTime|2020-01-02-15:35:28
+|j|☆Raph369
+|j|☆Misha
+|player|p1|Raph369|161|1563
+|player|p2|Misha|acetrainer-gen4dp|1559
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Seismitoad, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Bisharp, F|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Gengar, M|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Clefable, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Cinderace, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Misha)
+|
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|1
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Corsola
+|-damage|p2a: Corsola|73/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Cinderace|U-turn|p2a: Corsola
+|-resisted|p2a: Corsola
+|-damage|p2a: Corsola|67/100
+|
+|switch|p1a: Gengar|Gengar, M|100/100|[from]move: U-turn
+|-item|p1a: Gengar|Air Balloon
+|move|p2a: Corsola|Strength Sap|p1a: Gengar
+|-unboost|p1a: Gengar|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Gengar|Nasty Plot|p1a: Gengar
+|-boost|p1a: Gengar|spa|2
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Gengar|Focus Blast|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|51/100
+|move|p2a: Mandibuzz|Knock Off|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|15/100
+|-start|p2a: Mandibuzz|Disable|Knock Off|[from] ability: Cursed Body|[of] p1a: Gengar
+|-enditem|p1a: Gengar|Air Balloon
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-crit|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|11/100
+|move|p2a: Mandibuzz|U-turn|p1a: Gengar
+|-resisted|p1a: Gengar
+|-damage|p1a: Gengar|9/100
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|72/100
+|-damage|p2a: Cinderace|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Seismitoad|78/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Cinderace|U-turn|p1a: Seismitoad
+|-damage|p1a: Seismitoad|56/100
+|-damage|p2a: Cinderace|81/100|[from] item: Life Orb
+|
+|switch|p2a: Clefable|Clefable, F|100/100|[from]move: U-turn
+|move|p1a: Seismitoad|Stealth Rock|p2a: Clefable
+|-sidestart|p2: Misha|move: Stealth Rock
+|
+|-heal|p1a: Seismitoad|62/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|move|p2a: Clefable|Moonblast|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, M|9/100
+|turn|9
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|11/100
+|move|p1a: Gengar|Shadow Ball|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Dragapult|Thunderbolt|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|57/100
+|-status|p1a: Grimmsnarl|par
+|
+|-heal|p1a: Grimmsnarl|63/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|cant|p1a: Grimmsnarl|par
+|
+|-heal|p1a: Grimmsnarl|69/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Clefable
+|-status|p2a: Clefable|par
+|move|p2a: Clefable|Moonblast|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|13
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|move|p1a: Cinderace|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|77/100
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Seismitoad|83/100|[from] item: Leftovers
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|14
+|
+|switch|p1a: Gengar|Gengar, M|9/100
+|move|p2a: Seismitoad|Protect||[still]
+|-fail|p2a: Seismitoad
+|
+|-heal|p2a: Seismitoad|89/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Gengar|Encore|p2a: Seismitoad
+|-start|p2a: Seismitoad|Encore
+|move|p2a: Seismitoad|Protect||[still]
+|-fail|p2a: Seismitoad
+|
+|-heal|p2a: Seismitoad|95/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Cinderace|Cinderace, M|81/100
+|-damage|p2a: Cinderace|56/100|[from] Stealth Rock
+|move|p1a: Gengar|Shadow Ball|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|88/100
+|-damage|p2a: Dragapult|76/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p1a: Seismitoad|Seismitoad, F|62/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Seismitoad
+|-damage|p1a: Seismitoad|6/100
+|-unboost|p1a: Seismitoad|spd|1
+|
+|-heal|p1a: Seismitoad|12/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|19
+|
+|switch|p2a: Seismitoad|Seismitoad, F|95/100
+|-damage|p2a: Seismitoad|89/100|[from] Stealth Rock
+|move|p1a: Cinderace|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|72/100
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100 brn|[from]move: U-turn
+|
+|-heal|p2a: Seismitoad|78/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p2a: Seismitoad|Earthquake|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|61/100 brn
+|move|p1a: Conkeldurr|Drain Punch|p2a: Seismitoad
+|-damage|p2a: Seismitoad|30/100
+|-heal|p1a: Conkeldurr|87/100 brn|[from] drain|[of] p2a: Seismitoad
+|
+|-heal|p2a: Seismitoad|36/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|81/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|switch|p1a: Gengar|Gengar, M|9/100
+|move|p2a: Seismitoad|Protect||[still]
+|-fail|p2a: Seismitoad
+|
+|-heal|p2a: Seismitoad|42/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|76/100
+|-damage|p2a: Dragapult|64/100|[from] Stealth Rock
+|turn|23
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|81/100 brn
+|move|p2a: Dragapult|Shadow Ball|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|19/100 brn
+|-unboost|p1a: Conkeldurr|spd|1
+|
+|-damage|p1a: Conkeldurr|12/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|25
+|
+|switch|p2a: Clefable|Clefable, F|100/100 par
+|move|p1a: Cinderace|Pyro Ball|p2a: Clefable
+|-damage|p2a: Clefable|29/100 par
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|-damage|p2a: Corsola|88/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Corsola
+|-damage|p2a: Corsola|60/100
+|move|p2a: Corsola|Night Shade|p1a: Cinderace
+|-damage|p1a: Cinderace|67/100
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Cinderace|U-turn|p2a: Corsola
+|-resisted|p2a: Corsola
+|-damage|p2a: Corsola|55/100
+|
+|switch|p1a: Gengar|Gengar, M|9/100|[from]move: U-turn
+|move|p2a: Corsola|Strength Sap|p1a: Gengar
+|-unboost|p1a: Gengar|atk|1
+|-heal|p2a: Corsola|92/100
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Gengar|Encore|p2a: Corsola
+|-start|p2a: Corsola|Encore
+|move|p2a: Corsola|Strength Sap|p1a: Gengar
+|-unboost|p1a: Gengar|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-crit|p2a: Corsola
+|-damage|p2a: Corsola|13/100
+|move|p2a: Corsola|Strength Sap|p1a: Gengar
+|-unboost|p1a: Gengar|atk|1
+|-heal|p2a: Corsola|31/100
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Gengar|Shadow Ball|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-crit|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|64/100
+|-damage|p2a: Dragapult|51/100|[from] Stealth Rock
+|turn|32
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-start|p2a: Dragapult|Disable|Shadow Ball|[from] ability: Cursed Body|[of] p1a: Gengar
+|faint|p1a: Gengar
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|67/100
+|turn|33
+|-message|Misha forfeited.
+|
+|win|Raph369
+|l|☆Misha

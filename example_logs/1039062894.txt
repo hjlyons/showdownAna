@@ -1,0 +1,326 @@
+|ScrapeTime|2020-01-01-08:25:38
+|j|☆Tyranitardragapult
+|j|☆TrainerSai
+|player|p1|Tyranitardragapult|170|1033
+|player|p2|TrainerSai|ethan|1082
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tyranitar, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Dracozolt|
+|poke|p1|Togekiss, M|
+|poke|p1|Excadrill, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Ditto|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Cramorant, F|
+|poke|p2|Polteageist|
+|poke|p2|Falinks|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TrainerSai)
+|
+|start
+|switch|p1a: Togekiss|Togekiss, M, shiny|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|1
+|
+|move|p2a: Cinderace|U-turn|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|94/100
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100|[from]move: U-turn
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Togekiss|Air Slash|p2a: Corsola
+|-damage|p2a: Corsola|60/100
+|cant|p2a: Corsola|flinch
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Togekiss|Air Slash|p2a: Corsola
+|-crit|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Togekiss|[from] ability: Imposter
+|turn|4
+|
+|move|p2a: Ditto|Air Slash|p1a: Togekiss
+|-damage|p1a: Togekiss|28/100
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Ditto|Air Slash|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|6
+|
+|switch|p2a: Falinks|Falinks|100/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Falinks|[miss]
+|-miss|p1a: Tyranitar|p2a: Falinks
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Falinks|94/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Falinks|Throat Chop|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|41/100
+|-start|p1a: Dragapult|Throat Chop|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|35/100|[from] Sandstorm
+|-damage|p2a: Falinks|88/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|switch|p2a: Cramorant|Cramorant, F|100/100
+|move|p1a: Dragapult|U-turn|p2a: Cramorant
+|-resisted|p2a: Cramorant
+|-damage|p2a: Cramorant|78/100
+|-damage|p1a: Dragapult|18/100|[from] item: Rocky Helmet|[of] p2a: Cramorant
+|-damage|p1a: Dragapult|8/100|[from] item: Life Orb
+|
+|switch|p1a: Dracozolt|Dracozolt, shiny|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cramorant|72/100|[from] Sandstorm
+|-damage|p1a: Dracozolt|94/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Dracozolt|[from] ability: Imposter
+|move|p1a: Dracozolt|Bolt Beak|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ditto|54/100|[from] Sandstorm
+|-damage|p1a: Dracozolt|88/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|move|p2a: Ditto|Dragon Claw|p1a: Dracozolt
+|-supereffective|p1a: Dracozolt
+|-damage|p1a: Dracozolt|0 fnt
+|faint|p1a: Dracozolt
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|turn|11
+|
+|switch|p2a: Cramorant|Cramorant, F|72/100
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Excadrill|Iron Head|p2a: Cramorant
+|-resisted|p2a: Cramorant
+|-damage|p2a: Cramorant|0 fnt
+|-damage|p1a: Excadrill|84/100|[from] item: Rocky Helmet|[of] p2a: Cramorant
+|faint|p2a: Cramorant
+|
+|-heal|p1a: Excadrill|90/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|54/100
+|-transform|p2a: Ditto|p1a: Excadrill|[from] ability: Imposter
+|turn|13
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Ditto|Earthquake|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Ditto|Earthquake|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|move|p1a: Rotom|Thunder Wave|p2a: Ditto
+|-immune|p2a: Ditto
+|
+|upkeep
+|turn|15
+|inactive|TrainerSai has 120 seconds left.
+|
+|switch|p2a: Falinks|Falinks|88/100
+|move|p1a: Rotom|Thunder Wave|p2a: Falinks
+|-status|p2a: Falinks|par
+|-enditem|p2a: Falinks|Lum Berry|[eat]
+|-curestatus|p2a: Falinks|par|[msg]
+|
+|upkeep
+|turn|16
+|inactive|TrainerSai has 120 seconds left.
+|
+|switch|p2a: Ditto|Ditto|54/100
+|-transform|p2a: Ditto|p1a: Rotom|[from] ability: Imposter
+|move|p1a: Rotom|Thunder Wave|p2a: Ditto
+|-immune|p2a: Ditto
+|
+|upkeep
+|turn|17
+|inactive|TrainerSai has 120 seconds left.
+|
+|move|p2a: Ditto|Hydro Pump|p1a: Rotom|[miss]
+|-miss|p2a: Ditto|p1a: Rotom
+|move|p1a: Rotom|Thunder Wave|p2a: Ditto
+|-immune|p2a: Ditto
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Rotom|Thunder Wave|p2a: Ditto|[miss]
+|-miss|p1a: Rotom|p2a: Ditto
+|move|p2a: Ditto|Hydro Pump|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|80/100
+|
+|upkeep
+|turn|19
+|inactive|TrainerSai has 120 seconds left.
+|
+|switch|p1a: Dragapult|Dragapult, M|8/100
+|move|p2a: Ditto|Hydro Pump|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|20
+|
+|move|p2a: Ditto|Hydro Pump|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|46/100
+|move|p1a: Tyranitar|Crunch|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Falinks|Falinks|88/100
+|turn|21
+|
+|move|p2a: Falinks|No Retreat|p2a: Falinks
+|-boost|p2a: Falinks|atk|1
+|-boost|p2a: Falinks|def|1
+|-boost|p2a: Falinks|spa|1
+|-boost|p2a: Falinks|spd|1
+|-boost|p2a: Falinks|spe|1
+|-start|p2a: Falinks|move: No Retreat
+|move|p1a: Tyranitar|Crunch|p2a: Falinks
+|-resisted|p2a: Falinks
+|-damage|p2a: Falinks|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Falinks|56/100|[from] Sandstorm
+|upkeep
+|turn|22
+|
+|move|p2a: Falinks|Throat Chop|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|31/100
+|-start|p1a: Tyranitar|Throat Chop|[silent]
+|move|p1a: Tyranitar|Crunch|p2a: Falinks
+|-resisted|p2a: Falinks
+|-damage|p2a: Falinks|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Falinks|23/100|[from] Sandstorm
+|upkeep
+|turn|23
+|
+|move|p2a: Falinks|Close Combat|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: Falinks|def|1
+|-unboost|p2a: Falinks|spd|1
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Falinks|17/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|90/100
+|turn|24
+|
+|move|p1a: Excadrill|Iron Head|p2a: Falinks
+|-damage|p2a: Falinks|0 fnt
+|faint|p2a: Falinks
+|
+|-weather|none
+|-heal|p1a: Excadrill|96/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|turn|25
+|
+|switch|p1a: Rotom|Rotom-Wash|80/100
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|-enditem|p2a: Polteageist|White Herb
+|-clearnegativeboost|p2a: Polteageist|[silent]
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|96/100
+|turn|27
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|win|TrainerSai
+|raw|Tyranitardragapult's rating: 1033 → 1020(-13 for losing)
+|raw|TrainerSai's rating: 1082 → 1106(+24 for winning)

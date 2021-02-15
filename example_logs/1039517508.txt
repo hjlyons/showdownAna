@@ -1,0 +1,207 @@
+|ScrapeTime|2020-01-02-05:14:38
+|j|☆sbtc petwater
+|j|☆Swarhili
+|player|p1|sbtc petwater|scientist-gen4dp|1180
+|player|p2|Swarhili|170|1219
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Araquanid, M|
+|poke|p1|Dracovish|
+|poke|p1|Dugtrio, M|
+|poke|p1|Clefable, M|
+|poke|p1|Eldegoss, F|
+|poke|p1|Dragapult, M|
+|poke|p2|Gastrodon-East, F|
+|poke|p2|Bisharp, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Crustle, F|
+|poke|p2|Hawlucha, M|
+|poke|p2|Polteageist|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Clefable|Clefable, M|100/100
+|switch|p2a: Crustle|Crustle, F|100/100
+|turn|1
+|
+|move|p2a: Crustle|Shell Smash|p2a: Crustle
+|-unboost|p2a: Crustle|def|1
+|-unboost|p2a: Crustle|spd|1
+|-boost|p2a: Crustle|atk|2
+|-boost|p2a: Crustle|spa|2
+|-boost|p2a: Crustle|spe|2
+|-enditem|p2a: Crustle|White Herb
+|-clearnegativeboost|p2a: Crustle|[silent]
+|move|p1a: Clefable|Thunder Wave|p2a: Crustle
+|-status|p2a: Crustle|par
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Crustle|Stealth Rock|p1a: Clefable
+|-sidestart|p1: sbtc petwater|move: Stealth Rock
+|move|p1a: Clefable|Stealth Rock|p2a: Crustle
+|-sidestart|p2: Swarhili|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Crustle|Stone Edge|p1a: Clefable
+|-damage|p1a: Clefable|14/100
+|move|p1a: Clefable|Moonblast|p2a: Crustle
+|-damage|p2a: Crustle|56/100 par
+|
+|-heal|p1a: Clefable|20/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Crustle|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|5
+|
+|move|p1a: Dragapult|Draco Meteor|p2a: Crustle
+|-damage|p2a: Crustle|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Crustle
+|
+|upkeep
+|
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|-ability|p2a: Hawlucha|Mold Breaker
+|turn|6
+|
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|-damage|p1a: Araquanid|75/100|[from] Stealth Rock
+|move|p2a: Hawlucha|Defog|p1a: Araquanid
+|-unboost|p1a: Araquanid|evasion|1
+|-sideend|p1: sbtc petwater|Stealth Rock|[from] move: Defog|[of] p2a: Hawlucha
+|-sideend|p2: Swarhili|Stealth Rock|[from] move: Defog|[of] p2a: Hawlucha
+|
+|-heal|p1a: Araquanid|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Hawlucha|Brave Bird|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-crit|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|-damage|p2a: Hawlucha|70/100|[from] Recoil
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|88/100
+|turn|8
+|
+|move|p1a: Dragapult|Thunderbolt|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|turn|9
+|
+|switch|p1a: Eldegoss|Eldegoss, F|100/100
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|move|p1a: Eldegoss|Sleep Powder|p2a: Bisharp
+|-status|p2a: Bisharp|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|11
+|
+|cant|p2a: Bisharp|slp
+|move|p1a: Eldegoss|Leech Seed|p2a: Bisharp
+|-start|p2a: Bisharp|move: Leech Seed
+|
+|-damage|p2a: Bisharp|88/100 slp|[from] Leech Seed|[of] p1a: Eldegoss
+|upkeep
+|turn|12
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Dugtrio|Sucker Punch|p2a: Rotom
+|-damage|p2a: Rotom|75/100
+|move|p2a: Rotom|Overheat|p1a: Dugtrio
+|-enditem|p1a: Dugtrio|Focus Sash
+|-damage|p1a: Dugtrio|1/100
+|-unboost|p2a: Rotom|spa|2
+|-enditem|p2a: Rotom|White Herb
+|-clearnegativeboost|p2a: Rotom|[silent]
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Dugtrio|Reversal|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|turn|15
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Polteageist
+|-crit|p2a: Polteageist
+|-damage|p2a: Polteageist|11/100
+|move|p2a: Polteageist|Nasty Plot|p2a: Polteageist
+|-boost|p2a: Polteageist|spa|2
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Dugtrio|Sucker Punch|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|-start|p1a: Dugtrio|Disable|Sucker Punch|[from] ability: Cursed Body|[of] p2a: Polteageist
+|faint|p2a: Polteageist
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, F|88/100 slp
+|turn|17
+|
+|cant|p2a: Bisharp|slp
+|move|p1a: Dugtrio|Reversal|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+|-message|Swarhili forfeited.
+|
+|win|sbtc petwater
+|l|☆Swarhili
+|c|☆sbtc petwater|gg
+|raw|sbtc petwater's rating: 1180 → 1208(+28 for winning)
+|raw|Swarhili's rating: 1219 → 1192(-27 for losing)

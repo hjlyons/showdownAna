@@ -1,0 +1,273 @@
+|ScrapeTime|2020-01-02-11:35:21
+|j|☆R3d Pilgrim
+|j|☆Run Away Bud
+|player|p1|R3d Pilgrim|266|1249
+|player|p2|Run Away Bud|riley|1239
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aegislash, M|
+|poke|p1|Duraludon, M|
+|poke|p1|Hydreigon, M|
+|poke|p1|Cloyster, M|
+|poke|p1|Toxicroak, M|
+|poke|p1|Hatterene, F|
+|poke|p2|Aegislash, M|
+|poke|p2|Crawdaunt, F|
+|poke|p2|Mew|
+|poke|p2|Lucario, F|
+|poke|p2|Bisharp, F|
+|poke|p2|Dragapult, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Run Away Bud)
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Mew|Taunt|p1a: Hatterene
+|move|p1a: Hatterene|Taunt|p2a: Mew|[from]Magic Bounce
+|-start|p2a: Mew|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|-item|p2a: Aegislash|Air Balloon
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Aegislash|King's Shield|p1a: Aegislash
+|-singleturn|p1a: Aegislash|Protect
+|move|p2a: Crawdaunt|Knock Off|p1a: Aegislash
+|-activate|p1a: Aegislash|move: Protect
+|-unboost|p2a: Crawdaunt|atk|1
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Mew|Mew|100/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Close Combat|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|61/100
+|-unboost|p1a: Aegislash|def|1
+|-unboost|p1a: Aegislash|spd|1
+|-enditem|p2a: Mew|Red Card|[of] p1a: Aegislash
+|drag|p1a: Hatterene|Hatterene, F|100/100
+|
+|upkeep
+|turn|6
+|inactive|R3d Pilgrim has 120 seconds left.
+|
+|move|p2a: Mew|Skill Swap|p1a: Hatterene
+|-activate|p2a: Mew|move: Skill Swap|Magic Bounce|Synchronize|[of] p1a: Hatterene
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|7
+|inactive|R3d Pilgrim has 120 seconds left.
+|
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|move|p2a: Mew|Stealth Rock|p1a: Hatterene
+|-sidestart|p1: R3d Pilgrim|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|inactive|R3d Pilgrim has 120 seconds left.
+|
+|move|p1a: Hatterene|Draining Kiss|p2a: Mew
+|-damage|p2a: Mew|24/100
+|move|p2a: Mew|Spikes|p1a: Hatterene
+|-sidestart|p1: R3d Pilgrim|Spikes
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Hatterene|Draining Kiss|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|-item|p2a: Aegislash|Air Balloon
+|turn|10
+|
+|move|p1a: Hatterene|Psychic|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|65/100
+|-enditem|p2a: Aegislash|Air Balloon
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|inactive|R3d Pilgrim has 120 seconds left.
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|12
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Lucario|Lucario, F|100/100
+|turn|13
+|
+|move|p1a: Hydreigon|Flamethrower|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|14
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|move|p1a: Hydreigon|Draco Meteor|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|-unboost|p1a: Hydreigon|spa|2
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Duraludon|Duraludon, M|100/100
+|-damage|p1a: Duraludon|88/100|[from] Spikes
+|-damage|p1a: Duraludon|82/100|[from] Stealth Rock
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|63/100
+|move|p1a: Duraludon|Steel Beam|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|-damage|p1a: Duraludon|32/100|[from] mindblown
+|
+|-heal|p2a: Dragapult|69/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|44/100
+|move|p1a: Duraludon|Steel Beam|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|-damage|p1a: Duraludon|0 fnt|[from] mindblown
+|faint|p1a: Duraludon
+|
+|-heal|p2a: Dragapult|50/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|-damage|p1a: Aegislash|88/100|[from] Spikes
+|-damage|p1a: Aegislash|82/100|[from] Stealth Rock
+|turn|18
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Sneak|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|turn|19
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-crit|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|-damage|p2a: Bisharp|91/100|[from] item: Life Orb
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|-damage|p1a: Toxicroak|88/100|[from] Spikes
+|-damage|p1a: Toxicroak|82/100|[from] Stealth Rock
+|turn|20
+|
+|move|p1a: Toxicroak|Drain Punch|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-crit|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|-heal|p1a: Toxicroak|100/100|[from] drain|[of] p2a: Bisharp
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100
+|turn|21
+|
+|move|p1a: Toxicroak|Drain Punch|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|1/100
+|move|p2a: Crawdaunt|Swords Dance|p2a: Crawdaunt
+|-boost|p2a: Crawdaunt|atk|2
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Toxicroak
+|-immune|p1a: Toxicroak|[from] ability: Dry Skin
+|move|p1a: Toxicroak|Drain Punch|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|win|R3d Pilgrim
+|raw|R3d Pilgrim's rating: 1249 → 1273(+24 for winning)
+|raw|Run Away Bud's rating: 1239 → 1215(-24 for losing)
+|l|☆Run Away Bud
+|c|☆R3d Pilgrim|Gg

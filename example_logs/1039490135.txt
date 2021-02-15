@@ -1,0 +1,358 @@
+|ScrapeTime|2020-01-02-03:58:44
+|j|☆Seradykio
+|j|☆Kotora rights
+|player|p1|Seradykio|misty|1000
+|player|p2|Kotora rights|pokemaniac|1054
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Gyarados, F|
+|poke|p1|Silvally-*|
+|poke|p1|Rotom-Mow|
+|poke|p1|Gengar, M|
+|poke|p2|Reuniclus, M|
+|poke|p2|Arctozolt|
+|poke|p2|Eiscue, F|
+|poke|p2|Braviary, M|
+|poke|p2|Gastrodon-East, F|
+|poke|p2|Grapploct, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|switch|p2a: Gastrodon|Gastrodon-East, F, shiny|100/100
+|turn|1
+|
+|switch|p2a: Puffy|Reuniclus, M, shiny|100/100
+|move|p1a: Rotom|Leaf Storm|p2a: Puffy
+|-damage|p2a: Puffy|61/100
+|-unboost|p1a: Rotom|spa|2
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Puffy|Trick Room|p2a: Puffy
+|-fieldstart|move: Trick Room|[of] p2a: Puffy
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Megamind|Grapploct, M|100/100
+|move|p1a: Tyranitar|Crunch|p2a: Megamind
+|-resisted|p2a: Megamind
+|-damage|p2a: Megamind|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Megamind|68/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Megamind|Power-Up Punch|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Megamind|62/100|[from] Sandstorm
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|move|p2a: Megamind|Sucker Punch||[still]
+|-fail|p2a: Megamind
+|move|p1a: Gengar|Rain Dance|p1a: Gengar
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|move|p2a: Megamind|Sucker Punch||[still]
+|-fail|p2a: Megamind
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|move|p1a: Gyarados|Hurricane|p2a: Megamind
+|-supereffective|p2a: Megamind
+|-damage|p2a: Megamind|5/100
+|-start|p2a: Megamind|confusion
+|-activate|p2a: Megamind|confusion
+|-damage|p2a: Megamind|0 fnt|[from] confusion
+|faint|p2a: Megamind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Arctozolt|Arctozolt|100/100
+|turn|8
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|move|p2a: Arctozolt|Bolt Beak|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|83/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kotora rights)
+|
+|switch|p2a: Puffy|Reuniclus, M, shiny|61/100
+|move|p1a: Rotom|Trick|p2a: Puffy
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Puffy
+|-item|p2a: Puffy|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Focus Sash|[from] move: Trick
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|move|p1a: Rotom|Sunny Day|p1a: Rotom
+|-weather|SunnyDay
+|move|p2a: Puffy|Psychic|p1a: Rotom
+|-damage|p1a: Rotom|37/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p1a: Silvally|Silvally-Fairy, shiny|100/100
+|move|p2a: Puffy|Psychic|p1a: Silvally
+|-damage|p1a: Silvally|61/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|switch|p1a: Gengar|Gengar, M|94/100
+|move|p2a: Puffy|Psychic|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|13
+|
+|switch|p2a: Gastrodon|Gastrodon-East, F, shiny|100/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Gastrodon|[miss]
+|-miss|p1a: Tyranitar|p2a: Gastrodon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|inactive|Seradykio has 120 seconds left.
+|
+|switch|p1a: Rotom|Rotom-Mow|37/100
+|move|p2a: Gastrodon|Earth Power|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|30/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|move|p2a: Gastrodon|Sludge Bomb|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|96/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|16
+|
+|switch|p1a: Rotom|Rotom-Mow|30/100
+|move|p2a: Gastrodon|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|8/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|1/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|move|p1a: Rotom|Leaf Storm|p2a: Gastrodon
+|-supereffective|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Gastrodon
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Puffy|Reuniclus, M, shiny|61/100
+|turn|18
+|
+|move|p1a: Rotom|Sunny Day|p1a: Rotom
+|-weather|SunnyDay
+|move|p2a: Puffy|Psychic|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Silvally|Silvally-Fairy, shiny|61/100
+|turn|19
+|inactive|Seradykio has 120 seconds left.
+|
+|move|p1a: Silvally|Shadow Claw|p2a: Puffy
+|-supereffective|p2a: Puffy
+|-damage|p2a: Puffy|20/100
+|move|p2a: Puffy|Psychic|p1a: Silvally
+|-damage|p1a: Silvally|21/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|inactive|Seradykio has 120 seconds left.
+|
+|move|p1a: Silvally|Shadow Claw|p2a: Puffy
+|-supereffective|p2a: Puffy
+|-crit|p2a: Puffy
+|-damage|p2a: Puffy|0 fnt
+|faint|p2a: Puffy
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Arctozolt|Arctozolt|100/100
+|turn|21
+|
+|move|p1a: Silvally|Fire Fang|p2a: Arctozolt
+|-supereffective|p2a: Arctozolt
+|-damage|p2a: Arctozolt|60/100
+|move|p2a: Arctozolt|Bolt Beak|p1a: Silvally
+|-damage|p1a: Silvally|0 fnt
+|faint|p1a: Silvally
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|22
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Arctozolt|[miss]
+|-miss|p1a: Cinderace|p2a: Arctozolt
+|move|p2a: Arctozolt|Bolt Beak|p1a: Cinderace
+|-damage|p1a: Cinderace|62/100
+|
+|-weather|none
+|upkeep
+|turn|23
+|
+|move|p1a: Cinderace|Blaze Kick|p2a: Arctozolt
+|-supereffective|p2a: Arctozolt
+|-damage|p2a: Arctozolt|0 fnt
+|-damage|p1a: Cinderace|52/100|[from] item: Life Orb
+|faint|p2a: Arctozolt
+|
+|upkeep
+|
+|switch|p2a: Mocha|Braviary, M, shiny|100/100
+|turn|24
+|
+|switch|p1a: Tyranitar|Tyranitar, M|96/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Mocha|Brave Bird|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|69/100
+|-damage|p2a: Mocha|92/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mocha|85/100|[from] Sandstorm
+|-heal|p2a: Mocha|92/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Mocha|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|28/100
+|
+|switch|p2a: Club Penguin|Eiscue, F|100/100|[from]move: U-turn
+|move|p1a: Tyranitar|Rock Slide|p2a: Club Penguin
+|-activate|p2a: Club Penguin|ability: Ice Face
+|-damage|p2a: Club Penguin|100/100
+|detailschange|p2a: Club Penguin|Eiscue-Noice, F
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Club Penguin|94/100|[from] Sandstorm
+|upkeep
+|turn|26
+|
+|move|p2a: Club Penguin|Icicle Spear|p1a: Tyranitar
+|-damage|p1a: Tyranitar|20/100
+|-damage|p1a: Tyranitar|11/100
+|-damage|p1a: Tyranitar|2/100
+|-hitcount|p1a: Tyranitar|3
+|move|p1a: Tyranitar|Rock Slide|p2a: Club Penguin
+|-supereffective|p2a: Club Penguin
+|-damage|p2a: Club Penguin|0 fnt
+|faint|p2a: Club Penguin
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Mocha|Braviary, M, shiny|92/100
+|turn|27
+|
+|move|p2a: Mocha|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mocha|85/100|[from] Sandstorm
+|-heal|p2a: Mocha|92/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|52/100
+|turn|28
+|
+|move|p1a: Cinderace|Blaze Kick|p2a: Mocha
+|-damage|p2a: Mocha|39/100
+|-status|p2a: Mocha|brn
+|-damage|p1a: Cinderace|42/100|[from] item: Life Orb
+|move|p2a: Mocha|Brave Bird|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-damage|p2a: Mocha|28/100 brn|[from] Recoil
+|faint|p1a: Cinderace
+|
+|-weather|none
+|-heal|p2a: Mocha|35/100 brn|[from] item: Leftovers
+|-damage|p2a: Mocha|28/100 brn|[from] brn
+|upkeep
+|inactive|Seradykio has 120 seconds left.
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|turn|29
+|
+|move|p1a: Gyarados|Waterfall|p2a: Mocha
+|-damage|p2a: Mocha|0 fnt
+|faint|p2a: Mocha
+|
+|win|Seradykio
+|raw|Seradykio's rating: 1000 → 1044(+44 for winning)
+|raw|Kotora rights's rating: 1037 → 1020(-17 for losing)
+|l|☆Kotora rights

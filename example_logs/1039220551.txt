@@ -1,0 +1,411 @@
+|ScrapeTime|2020-01-01-17:54:39
+|j|☆durezmut
+|j|☆Ctrl G-Max
+|player|p1|durezmut|169|1352
+|player|p2|Ctrl G-Max|188|1346
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mew|
+|poke|p1|Excadrill, F|
+|poke|p1|Hawlucha, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Salazzle, F|
+|poke|p1|Tsareena, F|
+|poke|p2|Vanilluxe, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Lucario, F|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Seismitoad, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ctrl G-Max)
+|
+|start
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|switch|p2a: Vanilluxe|Vanilluxe, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Excadrill|Iron Head|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|83/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Excadrill|94/100|[from] Hail
+|-damage|p2a: Seismitoad|77/100|[from] Hail
+|-heal|p2a: Seismitoad|83/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Excadrill|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: Ctrl G-Max|move: Stealth Rock
+|move|p2a: Seismitoad|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|33/100
+|-status|p1a: Excadrill|brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Excadrill|27/100 brn|[from] Hail
+|-damage|p2a: Seismitoad|77/100|[from] Hail
+|-heal|p2a: Seismitoad|83/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|21/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Grimmsnarl
+|-sidestart|p1: durezmut|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Seismitoad|77/100|[from] Hail
+|-damage|p1a: Grimmsnarl|94/100|[from] Hail
+|-heal|p2a: Seismitoad|83/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: durezmut|Reflect
+|move|p2a: Seismitoad|Toxic|p1a: Grimmsnarl
+|-status|p1a: Grimmsnarl|tox
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Seismitoad|77/100|[from] Hail
+|-damage|p1a: Grimmsnarl|88/100 tox|[from] Hail
+|-heal|p2a: Seismitoad|83/100|[from] item: Leftovers
+|-damage|p1a: Grimmsnarl|82/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: durezmut|move: Light Screen
+|
+|-weather|none
+|-heal|p2a: Weezing|94/100|[from] item: Black Sludge
+|-damage|p1a: Grimmsnarl|70/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p1a: Mew|Mew|100/100
+|-damage|p1a: Mew|88/100|[from] Stealth Rock
+|move|p2a: Weezing|Defog|p1a: Mew
+|-unboost|p1a: Mew|evasion|1
+|-sideend|p1: durezmut|Reflect
+|-sideend|p1: durezmut|move: Light Screen
+|-sideend|p1: durezmut|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|-sideend|p2: Ctrl G-Max|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|
+|-heal|p1a: Mew|94/100|[from] item: Leftovers
+|-heal|p2a: Weezing|99/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p1a: Mew|Dragon Dance|p1a: Mew
+|-boost|p1a: Mew|atk|1
+|-boost|p1a: Mew|spe|1
+|move|p2a: Weezing|Sludge Bomb|p1a: Mew
+|-damage|p1a: Mew|69/100
+|-status|p1a: Mew|psn
+|-activate|p1a: Mew|ability: Synchronize
+|-immune|p2a: Weezing
+|
+|-heal|p1a: Mew|75/100 psn|[from] item: Leftovers
+|-heal|p2a: Weezing|100/100|[from] item: Black Sludge
+|-damage|p1a: Mew|62/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|move|p1a: Mew|Zen Headbutt|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|-heal|p1a: Mew|69/100 psn|[from] item: Leftovers
+|-damage|p1a: Mew|56/100 psn|[from] psn
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, F|83/100
+|turn|9
+|
+|move|p1a: Mew|Zen Headbutt|p2a: Seismitoad
+|-damage|p2a: Seismitoad|42/100
+|cant|p2a: Seismitoad|flinch
+|
+|-heal|p1a: Mew|62/100 psn|[from] item: Leftovers
+|-heal|p2a: Seismitoad|48/100|[from] item: Leftovers
+|-damage|p1a: Mew|50/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|move|p1a: Mew|Zen Headbutt|p2a: Seismitoad
+|-crit|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-heal|p1a: Mew|56/100 psn|[from] item: Leftovers
+|-damage|p1a: Mew|44/100 psn|[from] psn
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|11
+|
+|move|p1a: Mew|Zen Headbutt|p2a: Rotom
+|-damage|p2a: Rotom|41/100
+|move|p2a: Rotom|Shadow Ball|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|5/100 psn
+|
+|-heal|p1a: Mew|11/100 psn|[from] item: Leftovers
+|-damage|p1a: Mew|0 fnt|[from] psn
+|faint|p1a: Mew
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|70/100 tox
+|turn|12
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: durezmut|move: Light Screen
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|
+|-damage|p1a: Grimmsnarl|64/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: durezmut|Reflect
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|
+|-damage|p1a: Grimmsnarl|52/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p2a: Rotom|Overheat|p1a: Grimmsnarl|[miss]
+|-miss|p2a: Rotom|p1a: Grimmsnarl
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|23/100
+|-unboost|p2a: Rotom|spa|1
+|
+|-damage|p1a: Grimmsnarl|33/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|move|p2a: Rotom|Overheat|p1a: Grimmsnarl
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|21/100 brn
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|16
+|
+|move|p1a: Excadrill|Earthquake|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-damage|p1a: Excadrill|15/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Vanilluxe|Vanilluxe, M|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|turn|17
+|
+|move|p2a: Vanilluxe|Aurora Veil|p2a: Vanilluxe
+|-sidestart|p2: Ctrl G-Max|move: Aurora Veil
+|move|p1a: Excadrill|Iron Head|p2a: Vanilluxe
+|-supereffective|p2a: Vanilluxe
+|-crit|p2a: Vanilluxe
+|-damage|p2a: Vanilluxe|15/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Excadrill|9/100 brn|[from] Hail
+|-damage|p1a: Excadrill|2/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p2a: Lucario|Lucario, F|100/100
+|move|p1a: Excadrill|Iron Head|p2a: Lucario
+|-resisted|p2a: Lucario
+|-damage|p2a: Lucario|91/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Lucario|85/100|[from] Hail
+|-damage|p1a: Excadrill|0 fnt|[from] Hail
+|faint|p1a: Excadrill
+|upkeep
+|
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|turn|19
+|
+|move|p1a: Salazzle|Flamethrower|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-damage|p2a: Lucario|20/100
+|move|p2a: Lucario|Psychic|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-damage|p1a: Salazzle|23/100
+|-unboost|p1a: Salazzle|spd|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Salazzle|17/100|[from] Hail
+|-damage|p2a: Lucario|14/100|[from] Hail
+|-heal|p1a: Salazzle|23/100|[from] item: Leftovers
+|-sideend|p1: durezmut|move: Light Screen
+|upkeep
+|turn|20
+|
+|move|p1a: Salazzle|Flamethrower|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Salazzle|17/100|[from] Hail
+|-heal|p1a: Salazzle|23/100|[from] item: Leftovers
+|-sideend|p1: durezmut|Reflect
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|21
+|
+|move|p1a: Salazzle|Flamethrower|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|87/100
+|-status|p2a: Dragapult|brn
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|62/100 brn
+|
+|-weather|none
+|-heal|p1a: Salazzle|29/100|[from] item: Leftovers
+|-heal|p2a: Dragapult|68/100 brn|[from] item: Leftovers
+|-damage|p2a: Dragapult|62/100 brn|[from] brn
+|-sideend|p2: Ctrl G-Max|move: Aurora Veil
+|upkeep
+|turn|22
+|c|☆Ctrl G-Max|UNFORT
+|c|☆Ctrl G-Max|lmbooo
+|c|☆Ctrl G-Max|i think thats gg
+|
+|switch|p1a: Tsareena|Tsareena, F|100/100
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|
+|-heal|p2a: Dragapult|68/100 brn|[from] item: Leftovers
+|-damage|p2a: Dragapult|62/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: Tsareena|Trop Kick|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-activate|p2a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p2a: Dragapult|68/100 brn|[from] item: Leftovers
+|-damage|p2a: Dragapult|62/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: Tsareena|Trop Kick|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|68/100 brn|[from] item: Leftovers
+|-damage|p2a: Dragapult|62/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|37/100 brn
+|move|p1a: Tsareena|Trop Kick|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-activate|p2a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p2a: Dragapult|43/100 brn|[from] item: Leftovers
+|-damage|p2a: Dragapult|37/100 brn|[from] brn
+|upkeep
+|turn|26
+|c|☆Ctrl G-Max|oh wait maybe not
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Tsareena
+|-damage|p1a: Tsareena|72/100
+|-damage|p1a: Tsareena|44/100
+|-hitcount|p1a: Tsareena|2
+|move|p1a: Tsareena|Trop Kick|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|43/100 brn|[from] item: Leftovers
+|-heal|p1a: Tsareena|50/100|[from] item: Leftovers
+|-damage|p2a: Dragapult|37/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Tsareena
+|-crit|p1a: Tsareena
+|-damage|p1a: Tsareena|10/100
+|-damage|p1a: Tsareena|0 fnt
+|-hitcount|p1a: Tsareena|2
+|faint|p1a: Tsareena
+|
+|-heal|p2a: Dragapult|43/100 brn|[from] item: Leftovers
+|-damage|p2a: Dragapult|37/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|turn|28
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Hawlucha
+|-damage|p1a: Hawlucha|59/100
+|-damage|p1a: Hawlucha|20/100
+|-hitcount|p1a: Hawlucha|2
+|move|p1a: Hawlucha|Acrobatics|p2a: Dragapult
+|-damage|p2a: Dragapult|4/100 brn
+|
+|-heal|p2a: Dragapult|10/100 brn|[from] item: Leftovers
+|-damage|p2a: Dragapult|4/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|switch|p1a: Salazzle|Salazzle, F|29/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|-hitcount|p1a: Salazzle|1
+|faint|p1a: Salazzle
+|
+|-heal|p2a: Dragapult|10/100 brn|[from] item: Leftovers
+|-damage|p2a: Dragapult|4/100 brn|[from] brn
+|upkeep
+|-message|durezmut forfeited.
+|
+|win|Ctrl G-Max
+|l|☆durezmut
+|raw|durezmut's rating: 1352 → 1333(-19 for losing)
+|raw|Ctrl G-Max's rating: 1368 → 1387(+19 for winning)

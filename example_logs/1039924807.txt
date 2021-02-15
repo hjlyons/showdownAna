@@ -1,0 +1,180 @@
+|ScrapeTime|2020-01-02-23:21:31
+|j|☆jambajuicedrink
+|j|☆Dynamax'd Tyrion
+|player|p1|jambajuicedrink|253|1416
+|player|p2|Dynamax'd Tyrion|unknownf|1445
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Sylveon, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Seismitoad, M|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Hydreigon, M|
+|poke|p2|Aegislash, F|
+|poke|p2|Dracovish|
+|poke|p2|Corviknight, M|
+|poke|p2|Clefable, M|
+|poke|p2|Crawdaunt, M|
+|poke|p2|Dugtrio, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dynamax'd Tyrion)
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|turn|1
+|
+|move|p2a: Crawdaunt|Knock Off|p1a: Seismitoad
+|-damage|p1a: Seismitoad|10/100
+|-enditem|p1a: Seismitoad|Leftovers|[from] move: Knock Off|[of] p2a: Crawdaunt
+|move|p1a: Seismitoad|Earth Power|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|41/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Crawdaunt|Knock Off|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|turn|3
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|move|p1a: Conkeldurr|Mach Punch|p2a: Aegislash
+|-immune|p2a: Aegislash
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Iron Head|p1a: Hydreigon
+|-damage|p1a: Hydreigon|17/100
+|
+|-heal|p1a: Hydreigon|24/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Corviknight|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|98/100
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100|[from]move: U-turn
+|move|p1a: Corviknight|U-turn|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|97/100
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Rotom|Thunder Wave|p2a: Clefable
+|-status|p2a: Clefable|par
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Rotom|Volt Switch|p2a: Clefable
+|-damage|p2a: Clefable|79/100 par
+|
+|switch|p1a: Sylveon|Sylveon, M|100/100|[from]move: Volt Switch
+|cant|p2a: Clefable|par
+|
+|-heal|p2a: Clefable|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|move|p2a: Clefable|Stealth Rock|p1a: Sylveon
+|-sidestart|p1: jambajuicedrink|move: Stealth Rock
+|
+|-heal|p2a: Clefable|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Hydreigon|Hydreigon, M|24/100
+|-damage|p1a: Hydreigon|11/100|[from] Stealth Rock
+|move|p2a: Clefable|Moonblast|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-heal|p2a: Clefable|97/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Sylveon|Sylveon, M|100/100
+|-damage|p1a: Sylveon|88/100|[from] Stealth Rock
+|turn|11
+|
+|switch|p2a: Aegislash|Aegislash, F|97/100
+|move|p1a: Sylveon|Hyper Voice|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|77/100
+|
+|-heal|p1a: Sylveon|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Corviknight|Corviknight, F|98/100
+|-damage|p1a: Corviknight|86/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Claw|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|21/100
+|
+|-heal|p1a: Corviknight|27/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Aegislash|Shadow Claw|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100 brn
+|-damage|p1a: Conkeldurr|94/100 brn|[from] Stealth Rock
+|turn|14
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Conkeldurr|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-damage|p1a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|15
+|-message|jambajuicedrink forfeited.
+|
+|win|Dynamax'd Tyrion
+|l|☆jambajuicedrink
+|raw|jambajuicedrink's rating: 1417 → 1397(-20 for losing)
+|raw|Dynamax'd Tyrion's rating: 1429 → 1448(+19 for winning)

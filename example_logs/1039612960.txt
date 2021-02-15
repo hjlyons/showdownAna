@@ -1,0 +1,260 @@
+|ScrapeTime|2020-01-02-11:45:37
+|j|☆UberPyro5
+|j|☆frtos
+|player|p1|UberPyro5|firebreather|1078
+|player|p2|frtos|170|1082
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Seismitoad, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Dragapult, M|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Toxtricity, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Corsola-Galar, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|1
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|85/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Mandibuzz|Taunt|p2a: Toxapex
+|-start|p2a: Toxapex|move: Taunt
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Mandibuzz|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|81/100
+|-enditem|p2a: Toxapex|Black Sludge|[from] move: Knock Off|[of] p1a: Mandibuzz
+|move|p2a: Toxapex|Ice Beam|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|71/100
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Toxapex|Ice Beam|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|94/100
+|
+|-heal|p1a: Rotom|99/100|[from] item: Leftovers
+|-end|p2a: Toxapex|move: Taunt
+|upkeep
+|turn|5
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|move|p2a: Ferrothorn|Leech Seed|p1a: Rotom|[miss]
+|-miss|p2a: Ferrothorn|p1a: Rotom
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|move|p1a: Rotom|Overheat|p2a: Corsola
+|-damage|p2a: Corsola|8/100
+|-start|p1a: Rotom|Disable|Overheat|[from] ability: Cursed Body|[of] p2a: Corsola
+|-unboost|p1a: Rotom|spa|2
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|39/100
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100|[from]move: Volt Switch
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Conkeldurr|Earthquake|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-damage|p1a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p2a: Corsola|Corsola-Galar, M|8/100
+|move|p1a: Conkeldurr|Earthquake|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-start|p1a: Conkeldurr|Disable|Earthquake|[from] ability: Cursed Body|[of] p2a: Corsola
+|faint|p2a: Corsola
+|
+|-damage|p1a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-item|p1a: Conkeldurr|Flame Orb|[from] ability: Frisk|[of] p2a: Grimmsnarl|[identify]
+|turn|11
+|
+|move|p2a: Grimmsnarl|Darkest Lariat|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|63/100 brn
+|-damage|p2a: Grimmsnarl|91/100|[from] item: Life Orb
+|move|p1a: Conkeldurr|Drain Punch|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-heal|p1a: Conkeldurr|99/100 brn|[from] drain|[of] p2a: Grimmsnarl
+|faint|p2a: Grimmsnarl
+|
+|-damage|p1a: Conkeldurr|93/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|turn|12
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Toxtricity|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|66/100
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Dragapult|Fire Blast|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|14
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|78/100
+|
+|-heal|p1a: Seismitoad|84/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Cinderace|U-turn|p1a: Seismitoad
+|-damage|p1a: Seismitoad|67/100
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100|[from]move: U-turn
+|move|p1a: Seismitoad|Earthquake|p2a: Toxtricity
+|-supereffective|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|-heal|p1a: Seismitoad|73/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, F|73/100
+|turn|16
+|
+|move|p1a: Seismitoad|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|23/100
+|move|p2a: Toxapex|Scald|p1a: Seismitoad
+|-heal|p1a: Seismitoad|98/100|[from] ability: Water Absorb|[of] p2a: Toxapex
+|
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|c|☆UberPyro5|gg
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Seismitoad|Earthquake|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Seismitoad|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|19
+|
+|move|p2a: Cinderace|Gunk Shot|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|86/100
+|move|p1a: Seismitoad|Earthquake|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|1/100
+|
+|-heal|p1a: Seismitoad|92/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Cinderace|Iron Head|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|81/100
+|cant|p1a: Seismitoad|flinch
+|
+|-heal|p1a: Seismitoad|87/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Cinderace|Iron Head|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|77/100
+|cant|p1a: Seismitoad|flinch
+|
+|-heal|p1a: Seismitoad|83/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Cinderace|Iron Head|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|73/100
+|move|p1a: Seismitoad|Earthquake|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|win|UberPyro5
+|raw|UberPyro5's rating: 1078 → 1107(+29 for winning)
+|raw|frtos's rating: 1082 → 1060(-22 for losing)
+|l|☆frtos

@@ -1,0 +1,229 @@
+|ScrapeTime|2020-01-02-02:25:01
+|j|☆Platypuzzled
+|j|☆lunerfang
+|player|p1|Platypuzzled|policeman-gen4|1161
+|player|p2|lunerfang|120|1103
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dracozolt|
+|poke|p1|Seismitoad, M|
+|poke|p1|Bisharp, M|
+|poke|p1|Mimikyu, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Corsola-Galar, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Dracovish|
+|poke|p2|Toxtricity, M|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Drapion, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Drum Bum|Seismitoad, M, shiny|100/100
+|switch|p2a: Drapion|Drapion, M, shiny|100/100
+|turn|1
+|
+|move|p2a: Drapion|Taunt|p1a: Drum Bum
+|-start|p1a: Drum Bum|move: Taunt
+|move|p1a: Drum Bum|Earth Power|p2a: Drapion
+|-supereffective|p2a: Drapion
+|-damage|p2a: Drapion|0 fnt
+|-damage|p1a: Drum Bum|91/100|[from] item: Life Orb
+|faint|p2a: Drapion
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M, shiny|100/100
+|turn|2
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Drum Bum
+|-crit|p1a: Drum Bum
+|-damage|p1a: Drum Bum|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|faint|p1a: Drum Bum
+|
+|upkeep
+|
+|switch|p1a: Pikachu?|Mimikyu, F|100/100
+|turn|3
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Pikachu?
+|-immune|p1a: Pikachu?
+|move|p1a: Pikachu?|Play Rough|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-damage|p1a: Pikachu?|91/100|[from] item: Life Orb
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|turn|4
+|
+|move|p1a: Pikachu?|Swords Dance|p1a: Pikachu?
+|-boost|p1a: Pikachu?|atk|2
+|move|p2a: Toxtricity|Sludge Wave|p1a: Pikachu?
+|-activate|p1a: Pikachu?|ability: Disguise
+|-damage|p1a: Pikachu?|91/100
+|detailschange|p1a: Pikachu?|Mimikyu-Busted, F
+|-damage|p1a: Pikachu?|78/100|[from] ability: Disguise|[of] p1a: Pikachu?
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Pikachu?|Shadow Claw|p2a: Toxtricity
+|-crit|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|-damage|p1a: Pikachu?|68/100|[from] item: Life Orb
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|6
+|
+|move|p1a: Pikachu?|Shadow Sneak|p2a: Dracovish
+|-damage|p2a: Dracovish|49/100
+|-damage|p1a: Pikachu?|58/100|[from] item: Life Orb
+|move|p2a: Dracovish|Fishious Rend|p1a: Pikachu?
+|-damage|p1a: Pikachu?|0 fnt
+|faint|p1a: Pikachu?
+|
+|upkeep
+|
+|switch|p1a: Lancelot|Bisharp, M, shiny|100/100
+|turn|7
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|move|p1a: Lancelot|Sucker Punch||[still]
+|-fail|p1a: Lancelot
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|move|p2a: Conkeldurr|Mach Punch|p1a: Corsola
+|-immune|p1a: Corsola
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Hatterene|Hatterene, F, shiny|100/100
+|move|p1a: Corsola|Stealth Rock|p2a: Hatterene
+|move|p2a: Hatterene|Stealth Rock|p1a: Corsola|[from]Magic Bounce
+|-sidestart|p1: Platypuzzled|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Corsola|Night Shade|p2a: Hatterene
+|-damage|p2a: Hatterene|69/100
+|move|p2a: Hatterene|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|60/100
+|
+|-heal|p2a: Hatterene|75/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Corsola|Strength Sap|p2a: Hatterene
+|move|p2a: Hatterene|Strength Sap|p1a: Corsola|[from]Magic Bounce
+|-unboost|p1a: Corsola|atk|1
+|-heal|p2a: Hatterene|100/100
+|move|p2a: Hatterene|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|12/100
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Corsola|Night Shade|p2a: Hatterene
+|-damage|p2a: Hatterene|69/100
+|move|p2a: Hatterene|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|-heal|p2a: Hatterene|75/100|[from] item: Leftovers
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lunerfang)
+|
+|switch|p1a: Lancelot|Bisharp, M, shiny|100/100
+|-damage|p1a: Lancelot|95/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|move|p1a: Lancelot|Swords Dance|p1a: Lancelot
+|-boost|p1a: Lancelot|atk|2
+|
+|upkeep
+|turn|14
+|inactive|Platypuzzled has 120 seconds left.
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Lancelot
+|-supereffective|p1a: Lancelot
+|-damage|p1a: Lancelot|0 fnt
+|-damage|p2a: Conkeldurr|91/100|[from] item: Life Orb
+|faint|p1a: Lancelot
+|
+|upkeep
+|
+|switch|p1a: MiserableExistence|Dracozolt|100/100
+|-damage|p1a: MiserableExistence|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: MiserableExistence
+|-damage|p1a: MiserableExistence|50/100
+|-damage|p2a: Conkeldurr|81/100|[from] item: Life Orb
+|move|p1a: MiserableExistence|Dragon Claw|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|29/100
+|
+|-heal|p1a: MiserableExistence|56/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Hatterene|Hatterene, F, shiny|75/100
+|move|p1a: MiserableExistence|Bolt Beak|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-heal|p1a: MiserableExistence|62/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|49/100
+|turn|17
+|
+|move|p2a: Dracovish|Outrage|p1a: MiserableExistence
+|-supereffective|p1a: MiserableExistence
+|-damage|p1a: MiserableExistence|0 fnt
+|faint|p1a: MiserableExistence
+|
+|upkeep
+|
+|switch|p1a: Groin Kicker|Cinderace, M, shiny|100/100
+|turn|18
+|
+|move|p1a: Groin Kicker|Sucker Punch|p2a: Dracovish
+|-damage|p2a: Dracovish|23/100
+|move|p2a: Dracovish|Outrage|p1a: Groin Kicker|[from]lockedmove
+|-damage|p1a: Groin Kicker|0 fnt
+|-start|p2a: Dracovish|confusion|[fatigue]
+|faint|p1a: Groin Kicker
+|
+|win|lunerfang
+|raw|Platypuzzled's rating: 1162 → 1132(-30 for losing)
+|raw|lunerfang's rating: 1103 → 1132(+29 for winning)
+|l|☆Platypuzzled

@@ -1,0 +1,386 @@
+|ScrapeTime|2020-01-02-12:26:26
+|j|☆Lokdjkd
+|j|☆wef3eq3
+|player|p1|Lokdjkd|koga|1000
+|player|p2|wef3eq3|170|1046
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Clefable, M|
+|poke|p1|Seismitoad, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Aegislash, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Tyranitar, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Dracovish|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Weezing-Galar, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|1
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Dragapult
+|-sidestart|p2: wef3eq3|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|move|p1a: Seismitoad|Toxic||[still]
+|-fail|p1a: Seismitoad
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Mandibuzz
+|-status|p1a: Mandibuzz|brn
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Dragapult|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|78/100 brn
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p2a: Dragapult|Disable|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|Disable|Roost
+|move|p1a: Mandibuzz|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-activate|p2a: Dragapult|move: Substitute|[damage]
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100|[from]move: U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|88/100|[from] Sandstorm
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|94/100 brn
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Mandibuzz
+|-fail|p1a: Mandibuzz|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|88/100|[from] Sandstorm
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p2a: Dragapult|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|73/100 brn
+|move|p1a: Mandibuzz|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|88/100|[from] Sandstorm
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|67/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|move|p2a: Dragapult|Disable||[still]
+|-fail|p2a: Dragapult
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|88/100|[from] Sandstorm
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|95/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|move|p1a: Clefable|Flamethrower|p2a: Dracovish
+|-resisted|p2a: Dracovish
+|-damage|p2a: Dracovish|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dracovish|71/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weezing|82/100|[from] Sandstorm
+|-heal|p2a: Weezing|88/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|move|p2a: Weezing|Will-O-Wisp|p1a: Aegislash
+|-status|p1a: Aegislash|brn
+|
+|-weather|none
+|-heal|p2a: Weezing|94/100|[from] item: Black Sludge
+|-damage|p1a: Aegislash|94/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|43/100
+|
+|-heal|p2a: Toxapex|49/100|[from] item: Black Sludge
+|-damage|p1a: Aegislash|88/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Aegislash|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|2/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|52/100
+|
+|-heal|p2a: Toxapex|59/100|[from] item: Black Sludge
+|-damage|p1a: Aegislash|82/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Aegislash|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|14/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Aegislash
+|-sidestart|p1: Lokdjkd|move: Toxic Spikes
+|
+|-heal|p2a: Toxapex|21/100|[from] item: Black Sludge
+|-damage|p1a: Aegislash|76/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|-status|p1a: Clefable|psn
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Hydreigon|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|69/100
+|move|p1a: Clefable|Moonblast|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|
+|-heal|p2a: Hydreigon|76/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Toxapex|Toxapex, M|54/100
+|-damage|p2a: Toxapex|41/100|[from] Stealth Rock
+|move|p1a: Clefable|Moonblast|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|23/100
+|-unboost|p2a: Toxapex|spa|1
+|
+|-heal|p2a: Toxapex|29/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|switch|p2a: Weezing|Weezing-Galar, M|94/100
+|-damage|p2a: Weezing|82/100|[from] Stealth Rock
+|move|p1a: Clefable|Moonblast|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|56/100
+|
+|-heal|p2a: Weezing|62/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|67/100 brn
+|move|p2a: Weezing|Pain Split|p1a: Mandibuzz
+|-sethp|p1a: Mandibuzz|58/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p2a: Weezing|73/100|[from] move: Pain Split
+|
+|-heal|p2a: Weezing|79/100|[from] item: Black Sludge
+|-damage|p1a: Mandibuzz|52/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|91/100
+|-damage|p1a: Mandibuzz|39/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|switch|p1a: Clefable|Clefable, M|100/100 psn|[from]move: U-turn
+|
+|-heal|p2a: Ferrothorn|97/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Weezing|Weezing-Galar, M|79/100
+|-damage|p2a: Weezing|67/100|[from] Stealth Rock
+|move|p1a: Clefable|Flamethrower|p2a: Weezing
+|-damage|p2a: Weezing|36/100
+|
+|-heal|p2a: Weezing|42/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|move|p1a: Clefable|Flamethrower|p2a: Weezing
+|-damage|p2a: Weezing|6/100
+|move|p2a: Weezing|Pain Split|p1a: Clefable
+|-sethp|p1a: Clefable|53/100 psn|[from] move: Pain Split|[silent]
+|-sethp|p2a: Weezing|60/100|[from] move: Pain Split
+|
+|-heal|p2a: Weezing|66/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|switch|p2a: Dracovish|Dracovish|71/100
+|-damage|p2a: Dracovish|58/100|[from] Stealth Rock
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|100/100 psn
+|
+|upkeep
+|turn|25
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|-status|p1a: Seismitoad|psn
+|move|p2a: Dracovish|Fishious Rend|p1a: Seismitoad
+|-immune|p1a: Seismitoad|[from] ability: Water Absorb
+|
+|-damage|p1a: Seismitoad|88/100 psn|[from] psn
+|upkeep
+|turn|26
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|97/100
+|-damage|p2a: Ferrothorn|91/100|[from] Stealth Rock
+|switch|p1a: Clefable|Clefable, M|100/100 psn
+|
+|-heal|p2a: Ferrothorn|97/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p2a: Toxapex|Toxapex, M|63/100
+|-damage|p2a: Toxapex|50/100|[from] Stealth Rock
+|move|p1a: Clefable|Flamethrower|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|38/100
+|
+|-heal|p2a: Toxapex|45/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|
+|move|p1a: Clefable|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|94/100
+|-damage|p2a: Dragapult|82/100|[from] Stealth Rock
+|turn|29
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|57/100
+|move|p1a: Clefable|Moonblast|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|63/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|39/100 brn
+|move|p2a: Dragapult|Disable||[still]
+|-fail|p2a: Dragapult
+|
+|-heal|p2a: Dragapult|69/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|33/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p2a: Dragapult|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|17/100 brn
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|67/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-heal|p2a: Dragapult|75/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|61/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p2a: Dragapult|Disable|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|Disable|Roost
+|move|p1a: Mandibuzz|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|48/100
+|-enditem|p2a: Dragapult|Leftovers|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|-damage|p1a: Mandibuzz|55/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-status|p1a: Tyranitar|psn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Dragapult|Hex|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|83/100 psn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|42/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|71/100 psn|[from] psn
+|upkeep
+|turn|34
+|-message|wef3eq3 forfeited.
+|
+|win|Lokdjkd
+|l|☆wef3eq3
+|raw|Lokdjkd's rating: 1000 → 1045(+45 for winning)
+|raw|wef3eq3's rating: 1046 → 1027(-19 for losing)

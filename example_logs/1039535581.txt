@@ -1,0 +1,170 @@
+|ScrapeTime|2020-01-02-06:15:04
+|j|☆EmperorPalpatine66
+|j|☆Whitehen
+|player|p1|EmperorPalpatine66|dawn|1336
+|player|p2|Whitehen|170|1323
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Weavile, M|
+|poke|p1|Reuniclus, M|
+|poke|p1|Gyarados, M|
+|poke|p1|Cursola, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Cinderace, M|
+|poke|p2|Mamoswine, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Gyarados, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Aegislash, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Whitehen)
+|
+|start
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|turn|1
+|
+|move|p2a: Mamoswine|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|31/100
+|move|p1a: Toxapex|Toxic|p2a: Mamoswine
+|-status|p2a: Mamoswine|tox
+|
+|-heal|p1a: Toxapex|37/100|[from] item: Leftovers
+|-damage|p2a: Mamoswine|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Mamoswine|atk|1
+|move|p2a: Mamoswine|Earthquake|p1a: Gyarados
+|-immune|p1a: Gyarados
+|
+|-damage|p2a: Mamoswine|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Mamoswine|Stealth Rock|p1a: Gyarados
+|-sidestart|p1: EmperorPalpatine66|move: Stealth Rock
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-damage|p2a: Mamoswine|64/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Mamoswine|Icicle Crash|p1a: Gyarados
+|-damage|p1a: Gyarados|66/100
+|
+|-heal|p1a: Gyarados|72/100|[from] item: Leftovers
+|-damage|p2a: Mamoswine|40/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Gyarados
+|-damage|p1a: Gyarados|53/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-heal|p1a: Gyarados|59/100|[from] item: Leftovers
+|-damage|p2a: Mamoswine|9/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Gyarados
+|-damage|p1a: Gyarados|42/100
+|move|p1a: Gyarados|Waterfall|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|-heal|p1a: Gyarados|48/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|7
+|
+|move|p1a: Gyarados|Waterfall|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-heal|p1a: Gyarados|54/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|turn|8
+|
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Gyarados|Earthquake|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|
+|-heal|p1a: Gyarados|60/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Gyarados
+|-damage|p1a: Gyarados|26/100
+|move|p1a: Gyarados|Earthquake|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|-heal|p1a: Gyarados|32/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|turn|10
+|
+|move|p1a: Gyarados|Power Whip|p2a: Gyarados
+|-crit|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|-heal|p1a: Gyarados|38/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|11
+|
+|move|p1a: Gyarados|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Gyarados|44/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|12
+|
+|move|p1a: Gyarados|Waterfall|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|win|EmperorPalpatine66
+|l|☆Whitehen
+|raw|EmperorPalpatine66's rating: 1336 → 1355(+19 for winning)
+|raw|Whitehen's rating: 1323 → 1304(-19 for losing)

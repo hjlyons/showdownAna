@@ -1,0 +1,527 @@
+|ScrapeTime|2020-01-01-04:34:59
+|j|☆Dawnmoon昼月.
+|j|☆Testingolem
+|player|p1|Dawnmoon昼月.|gambler|1829
+|player|p2|Testingolem|firebreather|1612
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxapex, F|
+|poke|p1|Chandelure, F|
+|poke|p1|Dugtrio, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Ditto|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Dracovish|
+|poke|p2|Dugtrio, F|
+|poke|p2|Snorlax, M|
+|poke|p2|Dragapult, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Spirit of fire.|Chandelure, F, shiny|100/100
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|turn|1
+|
+|switch|p1a: Condemnation Wings|Corviknight, M|100/100
+|move|p2a: Dugtrio|Earthquake|p1a: Condemnation Wings
+|-immune|p1a: Condemnation Wings
+|
+|upkeep
+|turn|2
+|j| parabola22
+|
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|move|p1a: Condemnation Wings|U-turn|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|97/100
+|
+|switch|p1a: Spirit of fire.|Chandelure, F, shiny|100/100|[from]move: U-turn
+|
+|-heal|p2a: Weezing|100/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|move|p1a: Spirit of fire.|Psychic|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|4
+|
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|switch|p1a: Thin red line.|Toxapex, F, shiny|100/100
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Thin red line.
+|-supereffective|p1a: Thin red line.
+|-damage|p1a: Thin red line.|47/100
+|move|p1a: Thin red line.|Scald|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|34/100
+|-status|p2a: Dugtrio|brn
+|
+|-heal|p1a: Thin red line.|53/100|[from] item: Black Sludge
+|-damage|p2a: Dugtrio|28/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p2a: Dugtrio|Stealth Rock|p1a: Thin red line.
+|-sidestart|p1: Dawnmoon昼月.|move: Stealth Rock
+|move|p1a: Thin red line.|Recover|p1a: Thin red line.
+|-heal|p1a: Thin red line.|100/100
+|
+|-damage|p2a: Dugtrio|22/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Thin red line.|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|92/100
+|-status|p2a: Rotom|brn
+|
+|-heal|p2a: Rotom|98/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|92/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Thin red line.
+|-status|p1a: Thin red line.|brn
+|move|p1a: Thin red line.|Recover||[still]
+|-fail|p1a: Thin red line.|heal
+|
+|-heal|p2a: Rotom|98/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|92/100 brn|[from] brn
+|-damage|p1a: Thin red line.|95/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p1a: Blazblue.|Ditto, shiny|100/100
+|-damage|p1a: Blazblue.|88/100|[from] Stealth Rock
+|-transform|p1a: Blazblue.|p2a: Rotom|[from] ability: Imposter
+|move|p2a: Rotom|Volt Switch|p1a: Blazblue.
+|-damage|p1a: Blazblue.|61/100
+|
+|switch|p2a: Dugtrio|Dugtrio, F|22/100 brn|[from]move: Volt Switch
+|
+|-damage|p2a: Dugtrio|16/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Dugtrio|Memento|p1a: Blazblue.
+|-unboost|p1a: Blazblue.|atk|2
+|-unboost|p1a: Blazblue.|spa|2
+|faint|p2a: Dugtrio
+|move|p1a: Blazblue.|Shadow Ball|p2: Dugtrio|[notarget]
+|-fail|p1a: Blazblue.
+|
+|upkeep
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|turn|11
+|
+|switch|p1a: Condemnation Wings|Corviknight, M|100/100
+|-damage|p1a: Condemnation Wings|88/100|[from] Stealth Rock
+|switch|p2a: Rotom|Rotom-Wash|92/100 brn
+|
+|-heal|p2a: Rotom|98/100 brn|[from] item: Leftovers
+|-heal|p1a: Condemnation Wings|94/100|[from] item: Leftovers
+|-damage|p2a: Rotom|92/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Condemnation Wings
+|-status|p1a: Condemnation Wings|brn
+|move|p1a: Condemnation Wings|Defog|p2a: Rotom
+|-unboost|p2a: Rotom|evasion|1
+|-sideend|p1: Dawnmoon昼月.|Stealth Rock|[from] move: Defog|[of] p1a: Condemnation Wings
+|
+|-heal|p2a: Rotom|98/100 brn|[from] item: Leftovers
+|-heal|p1a: Condemnation Wings|99/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|92/100 brn|[from] brn
+|-damage|p1a: Condemnation Wings|94/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Rotom|Volt Switch|p1a: Condemnation Wings
+|-supereffective|p1a: Condemnation Wings
+|-damage|p1a: Condemnation Wings|58/100 brn
+|
+|switch|p2a: Dracovish|Dracovish|100/100|[from]move: Volt Switch
+|move|p1a: Condemnation Wings|U-turn|p2a: Dracovish
+|-damage|p2a: Dracovish|93/100
+|
+|switch|p1a: Blazblue.|Ditto, shiny|61/100|[from]move: U-turn
+|-transform|p1a: Blazblue.|p2a: Dracovish|[from] ability: Imposter
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Blazblue.|Outrage|p2a: Dracovish
+|-supereffective|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|upkeep
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|turn|15
+|
+|move|p1a: Blazblue.|Outrage|p2a: Snorlax|[from]lockedmove
+|-damage|p2a: Snorlax|53/100
+|-start|p1a: Blazblue.|confusion|[fatigue]
+|move|p2a: Snorlax|Body Slam|p1a: Blazblue.
+|-damage|p1a: Blazblue.|21/100
+|
+|upkeep
+|turn|16
+|j| Devon
+|
+|switch|p1a: Spirit of fire.|Chandelure, F, shiny|100/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|upkeep
+|turn|17
+|j| prem1932
+|
+|move|p1a: Spirit of fire.|Energy Ball|p2a: Snorlax
+|-damage|p2a: Snorlax|27/100
+|-unboost|p2a: Snorlax|spd|1
+|-enditem|p2a: Snorlax|Iapapa Berry|[eat]
+|-heal|p2a: Snorlax|60/100|[from] item: Iapapa Berry
+|move|p2a: Snorlax|Earthquake|p1a: Spirit of fire.
+|-supereffective|p1a: Spirit of fire.
+|-damage|p1a: Spirit of fire.|0 fnt
+|faint|p1a: Spirit of fire.
+|
+|upkeep
+|
+|switch|p1a: Jaeger.|Dugtrio, F|100/100
+|turn|18
+|
+|move|p1a: Jaeger.|Sucker Punch|p2a: Snorlax
+|-damage|p2a: Snorlax|48/100
+|move|p2a: Snorlax|Body Slam|p1a: Jaeger.
+|-enditem|p1a: Jaeger.|Focus Sash
+|-damage|p1a: Jaeger.|1/100
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Jaeger.|Reversal|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|92/100 brn
+|turn|20
+|
+|move|p1a: Jaeger.|Reversal|p2a: Rotom
+|-damage|p2a: Rotom|45/100 brn
+|move|p2a: Rotom|Hydro Pump|p1a: Jaeger.
+|-supereffective|p1a: Jaeger.
+|-damage|p1a: Jaeger.|0 fnt
+|faint|p1a: Jaeger.
+|
+|-heal|p2a: Rotom|51/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|45/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Walpurgisnacht.|Hatterene, F|100/100
+|turn|21
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Walpurgisnacht.
+|move|p1a: Walpurgisnacht.|Will-O-Wisp|p2a: Rotom|[from]Magic Bounce|[miss]
+|-miss|p1a: Walpurgisnacht.|p2a: Rotom
+|move|p1a: Walpurgisnacht.|Calm Mind|p1a: Walpurgisnacht.
+|-boost|p1a: Walpurgisnacht.|spa|1
+|-boost|p1a: Walpurgisnacht.|spd|1
+|
+|-heal|p2a: Rotom|51/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|45/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p2a: Rotom|Shadow Ball|p1a: Walpurgisnacht.
+|-supereffective|p1a: Walpurgisnacht.
+|-damage|p1a: Walpurgisnacht.|75/100
+|move|p1a: Walpurgisnacht.|Draining Kiss|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-heal|p1a: Walpurgisnacht.|100/100|[from] drain|[of] p2a: Rotom
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|23
+|j| myjava
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Walpurgisnacht.
+|move|p1a: Walpurgisnacht.|Draining Kiss|p2a: Dragapult|[miss]
+|-miss|p1a: Walpurgisnacht.|p2a: Dragapult
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Walpurgisnacht.|[from]lockedmove
+|-supereffective|p1a: Walpurgisnacht.
+|-damage|p1a: Walpurgisnacht.|0 fnt
+|faint|p1a: Walpurgisnacht.
+|
+|upkeep
+|
+|switch|p1a: Blazblue.|Ditto, shiny|21/100
+|-transform|p1a: Blazblue.|p2a: Dragapult|[from] ability: Imposter
+|turn|25
+|
+|move|p1a: Blazblue.|Dragon Dance|p1a: Blazblue.
+|-boost|p1a: Blazblue.|atk|1
+|-boost|p1a: Blazblue.|spe|1
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Blazblue.
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Thin red line.|Toxapex, F, shiny|100/100 brn
+|move|p2a: Dragapult|Phantom Force|p1a: Thin red line.|[from]lockedmove
+|-damage|p1a: Thin red line.|68/100 brn
+|
+|-heal|p1a: Thin red line.|74/100 brn|[from] item: Black Sludge
+|-damage|p1a: Thin red line.|68/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|switch|p1a: Blazblue.|Ditto, shiny|21/100
+|-transform|p1a: Blazblue.|p2a: Dragapult|[from] ability: Imposter
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Blazblue.|Phantom Force||[still]
+|-prepare|p1a: Blazblue.|Phantom Force|p2a: Dragapult
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Blazblue.
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Blazblue.|Phantom Force|p2a: Dragapult|[from]lockedmove|[miss]
+|-miss|p1a: Blazblue.|p2a: Dragapult
+|move|p2a: Dragapult|Phantom Force|p1a: Blazblue.|[from]lockedmove
+|-supereffective|p1a: Blazblue.
+|-damage|p1a: Blazblue.|0 fnt
+|faint|p1a: Blazblue.
+|
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Condemnation Wings|Corviknight, M|58/100 brn
+|turn|30
+|
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: Condemnation Wings|Roost|p1a: Condemnation Wings
+|-heal|p1a: Condemnation Wings|100/100 brn
+|-singleturn|p1a: Condemnation Wings|move: Roost
+|
+|-heal|p2a: Dragapult|99/100|[from] item: Leftovers
+|-damage|p1a: Condemnation Wings|94/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: Condemnation Wings|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-activate|p2a: Dragapult|move: Substitute|[damage]
+|j| szystest
+|
+|switch|p1a: Thin red line.|Toxapex, F, shiny|100/100 brn|[from]move: U-turn
+|
+|-heal|p2a: Dragapult|100/100|[from] item: Leftovers
+|-damage|p1a: Thin red line.|95/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Thin red line.
+|move|p1a: Thin red line.|Haze|p1a: Thin red line.
+|-clearallboost
+|
+|-heal|p1a: Thin red line.|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Thin red line.|95/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Thin red line.|[from]lockedmove
+|-damage|p1a: Thin red line.|63/100 brn
+|move|p1a: Thin red line.|Scald|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-activate|p2a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p1a: Thin red line.|69/100 brn|[from] item: Black Sludge
+|-damage|p1a: Thin red line.|63/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: Thin red line.|Scald|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p1a: Thin red line.|69/100 brn|[from] item: Black Sludge
+|-damage|p1a: Thin red line.|63/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|switch|p1a: Condemnation Wings|Corviknight, M|94/100 brn
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|-heal|p1a: Condemnation Wings|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Condemnation Wings|94/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|switch|p1a: Thin red line.|Toxapex, F, shiny|96/100 brn
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Thin red line.
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|-heal|p1a: Thin red line.|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Thin red line.|95/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Thin red line.|[from]lockedmove
+|-damage|p1a: Thin red line.|52/100 brn
+|move|p1a: Thin red line.|Haze|p1a: Thin red line.
+|-clearallboost
+|
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|-heal|p1a: Thin red line.|58/100 brn|[from] item: Black Sludge
+|-damage|p1a: Thin red line.|52/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p2a: Dragapult|Disable|p1a: Thin red line.
+|-start|p1a: Thin red line.|Disable|Haze
+|move|p1a: Thin red line.|Recover|p1a: Thin red line.
+|-heal|p1a: Thin red line.|100/100 brn
+|
+|-heal|p2a: Dragapult|99/100|[from] item: Leftovers
+|-damage|p1a: Thin red line.|95/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|switch|p1a: Condemnation Wings|Corviknight, M|94/100 brn
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|
+|-heal|p2a: Dragapult|100/100|[from] item: Leftovers
+|-heal|p1a: Condemnation Wings|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Condemnation Wings|94/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|switch|p1a: Thin red line.|Toxapex, F, shiny|100/100 brn
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Thin red line.
+|
+|-damage|p1a: Thin red line.|95/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Thin red line.|[from]lockedmove
+|-damage|p1a: Thin red line.|47/100 brn
+|move|p1a: Thin red line.|Haze|p1a: Thin red line.
+|-clearallboost
+|
+|-heal|p1a: Thin red line.|53/100 brn|[from] item: Black Sludge
+|-damage|p1a: Thin red line.|47/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|switch|p1a: Condemnation Wings|Corviknight, M|94/100 brn
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|
+|-heal|p1a: Condemnation Wings|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Condemnation Wings|94/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|switch|p1a: Thin red line.|Toxapex, F, shiny|80/100 brn
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|
+|-heal|p1a: Thin red line.|86/100 brn|[from] item: Black Sludge
+|-damage|p1a: Thin red line.|80/100 brn|[from] brn
+|upkeep
+|turn|44
+|j| TheLindomar
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-fail|p2a: Dragapult|move: Substitute
+|move|p1a: Thin red line.|Haze|p1a: Thin red line.
+|-clearallboost
+|
+|-heal|p1a: Thin red line.|86/100 brn|[from] item: Black Sludge
+|-damage|p1a: Thin red line.|80/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|switch|p1a: Condemnation Wings|Corviknight, M|94/100 brn
+|move|p2a: Dragapult|Disable||[still]
+|-fail|p2a: Dragapult
+|
+|-heal|p1a: Condemnation Wings|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Condemnation Wings|94/100 brn|[from] brn
+|upkeep
+|turn|46
+|-message|Testingolem forfeited.
+|
+|win|Dawnmoon昼月.
+|l|☆Testingolem
+|raw|Dawnmoon昼月.'s rating: 1829 → 1838(+9 for winning)
+|raw|Testingolem's rating: 1612 → 1603(-9 for losing)

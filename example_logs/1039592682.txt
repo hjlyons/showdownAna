@@ -1,0 +1,202 @@
+|ScrapeTime|2020-01-02-10:26:03
+|j|☆Malanaki
+|j|☆AlphaS5
+|player|p1|Malanaki|2|1188
+|player|p2|AlphaS5|169|1214
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pincurchin, M|
+|poke|p1|Hawlucha, F|
+|poke|p1|Aegislash, M|
+|poke|p1|Mamoswine, F|
+|poke|p1|Torkoal, F|
+|poke|p1|Orbeetle, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Ditto|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Mamoswine, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Malanaki)
+|
+|start
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|turn|1
+|
+|move|p2a: Mamoswine|Earthquake|p1a: Mamoswine
+|-damage|p1a: Mamoswine|41/100
+|move|p1a: Mamoswine|Earthquake|p2a: Mamoswine
+|-crit|p2a: Mamoswine
+|-damage|p2a: Mamoswine|3/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|3
+|
+|move|p2a: Excadrill|Iron Head|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|upkeep
+|
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|4
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Torkoal|Will-O-Wisp|p2a: Toxapex
+|-status|p2a: Toxapex|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|-enditem|p1a: Pincurchin|Electric Seed
+|-boost|p1a: Pincurchin|def|1
+|move|p2a: Toxapex|Toxic Spikes|p1a: Pincurchin
+|-sidestart|p1: Malanaki|move: Toxic Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Pincurchin|Memento|p2a: Excadrill
+|-unboost|p2a: Excadrill|atk|2
+|-unboost|p2a: Excadrill|spa|2
+|faint|p1a: Pincurchin
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p1a: Hawlucha|Electric Seed
+|-boost|p1a: Hawlucha|def|1
+|turn|7
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|move|p1a: Hawlucha|Substitute|p1a: Hawlucha
+|-start|p1a: Hawlucha|Substitute
+|-damage|p1a: Hawlucha|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-weather|none
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Toxapex|Scald|p1a: Hawlucha
+|-end|p1a: Hawlucha|Substitute
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|10
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Toxapex
+|-damage|p2a: Toxapex|37/100 brn
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|43/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|37/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Toxapex|Scald|p1a: Hawlucha
+|-damage|p1a: Hawlucha|48/100
+|
+|-heal|p2a: Toxapex|43/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|37/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Hawlucha|[from] ability: Imposter
+|turn|13
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|14
+|
+|move|p1a: Hawlucha|Close Combat|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|15
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|-message|AlphaS5 forfeited.
+|
+|win|Malanaki
+|l|☆AlphaS5
+|raw|Malanaki's rating: 1188 → 1215(+27 for winning)
+|raw|AlphaS5's rating: 1214 → 1187(-27 for losing)

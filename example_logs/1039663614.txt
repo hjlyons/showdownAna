@@ -1,0 +1,313 @@
+|ScrapeTime|2020-01-02-14:24:34
+|j|☆Lilpuk
+|j|☆RasecM
+|player|p1|Lilpuk|101|1115
+|player|p2|RasecM|gentleman|1118
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxapex, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Ditto|
+|poke|p1|Shedinja|
+|poke|p1|Obstagoon, F|
+|poke|p1|Passimian, M|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Barraskewda, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Grimmsnarl, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ditto|Ditto|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-transform|p1a: Ditto|p2a: Dragapult|[from] ability: Imposter
+|turn|1
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Ditto|Shadow Ball|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|34/100
+|-unboost|p2a: Hatterene|spd|1
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p1a: Ditto|Shadow Ball|p2a: Grimmsnarl
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|82/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Passimian|Passimian, M|100/100
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: RasecM|move: Light Screen
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: RasecM|Reflect
+|move|p1a: Passimian|Iron Head|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-crit|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, F|100/100
+|turn|5
+|
+|switch|p1a: Shedinja|Shedinja|100/100
+|move|p2a: Barraskewda|Psychic Fangs|p1a: Shedinja
+|-immune|p1a: Shedinja|[from] ability: Wonder Guard
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Hatterene|Hatterene, F|34/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Hatterene|Draining Kiss|p1a: Hatterene
+|-damage|p1a: Hatterene|54/100
+|-heal|p2a: Hatterene|68/100|[from] drain|[of] p1a: Hatterene
+|move|p1a: Hatterene|Mystical Fire|p2a: Hatterene
+|-damage|p2a: Hatterene|56/100
+|-unboost|p2a: Hatterene|spa|1
+|
+|-heal|p1a: Hatterene|60/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Shedinja|Shedinja|100/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Shedinja
+|-immune|p1a: Shedinja|[from] ability: Wonder Guard
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|
+|-sideend|p2: RasecM|move: Light Screen
+|upkeep
+|turn|11
+|
+|switch|p1a: Hatterene|Hatterene, F|60/100
+|switch|p2a: Hatterene|Hatterene, F|56/100
+|
+|-heal|p1a: Hatterene|66/100|[from] item: Leftovers
+|-sideend|p2: RasecM|Reflect
+|upkeep
+|turn|12
+|
+|move|p2a: Hatterene|Psyshock|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|37/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|43/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Hatterene|Psyshock|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|11/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Hatterene
+|-damage|p2a: Hatterene|17/100
+|-heal|p1a: Hatterene|40/100|[from] drain|[of] p2a: Hatterene
+|
+|-heal|p1a: Hatterene|47/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Obstagoon|Obstagoon, F|100/100
+|move|p2a: Hatterene|Psyshock|p1a: Obstagoon
+|-immune|p1a: Obstagoon
+|
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|15
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Obstagoon|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-enditem|p2a: Dragapult|Choice Specs|[from] move: Knock Off|[of] p1a: Obstagoon
+|faint|p2a: Dragapult
+|
+|-damage|p1a: Obstagoon|94/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|16
+|l|☆RasecM
+|player|p2|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lilpuk)
+|inactive|RasecM has 30 seconds to reconnect!
+|inactive|RasecM has 20 seconds to reconnect!
+|j|☆RasecM
+|inactive|RasecM reconnected and has 110 seconds left.
+|player|p2|RasecM|gentleman
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Cinderace|High Jump Kick|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|85/100
+|-damage|p2a: Cinderace|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Hatterene|Hatterene, F|17/100
+|move|p1a: Toxapex|Infestation|p2a: Hatterene
+|-damage|p2a: Hatterene|14/100
+|-activate|p2a: Hatterene|move: Infestation|[of] p1a: Toxapex
+|
+|-damage|p2a: Hatterene|2/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|18
+|
+|move|p1a: Toxapex|Scald|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, F|100/100
+|turn|19
+|
+|move|p2a: Barraskewda|Psychic Fangs|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|32/100
+|move|p1a: Toxapex|Infestation|p2a: Barraskewda
+|-damage|p2a: Barraskewda|94/100
+|-activate|p2a: Barraskewda|move: Infestation|[of] p1a: Toxapex
+|
+|-damage|p2a: Barraskewda|82/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|20
+|
+|switch|p1a: Shedinja|Shedinja|100/100
+|move|p2a: Barraskewda|Psychic Fangs|p1a: Shedinja
+|-immune|p1a: Shedinja|[from] ability: Wonder Guard
+|
+|-end|p2a: Barraskewda|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|turn|21
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|move|p1a: Shedinja|Shadow Claw|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|56/100
+|
+|upkeep
+|turn|22
+|c|☆RasecM|very solid team
+|
+|switch|p1a: Hatterene|Hatterene, F|47/100
+|move|p2a: Corsola|Will-O-Wisp|p1a: Hatterene
+|move|p1a: Hatterene|Will-O-Wisp|p2a: Corsola|[from]Magic Bounce|[miss]
+|-miss|p1a: Hatterene|p2a: Corsola
+|
+|-heal|p1a: Hatterene|53/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|c|☆Lilpuk|ty
+|
+|move|p2a: Corsola|Strength Sap|p1a: Hatterene
+|move|p1a: Hatterene|Strength Sap|p2a: Corsola|[from]Magic Bounce
+|-unboost|p2a: Corsola|atk|1
+|-heal|p1a: Hatterene|85/100
+|move|p1a: Hatterene|Future Sight|p2a: Corsola
+|-start|p1a: Hatterene|move: Future Sight
+|
+|-heal|p1a: Hatterene|91/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p1a: Obstagoon|Obstagoon, F|94/100 brn
+|move|p2a: Corsola|Night Shade|p1a: Obstagoon
+|-immune|p1a: Obstagoon
+|
+|-damage|p1a: Obstagoon|88/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Obstagoon|Knock Off|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-enditem|p2a: Corsola|Eviolite|[from] move: Knock Off|[of] p1a: Obstagoon
+|faint|p2a: Corsola
+|
+|-hint|Future Sight did not hit because the target is the user.
+|-damage|p1a: Obstagoon|82/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|91/100
+|turn|26
+|
+|switch|p1a: Toxapex|Toxapex, M|65/100
+|move|p2a: Cinderace|High Jump Kick|p1a: Toxapex|[miss]
+|-miss|p2a: Cinderace|p1a: Toxapex
+|-damage|p2a: Cinderace|41/100|[from] highjumpkick
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: Barraskewda|Barraskewda, F|82/100
+|move|p1a: Toxapex|Scald|p2a: Barraskewda
+|-resisted|p2a: Barraskewda
+|-damage|p2a: Barraskewda|63/100
+|-status|p2a: Barraskewda|brn
+|
+|-damage|p2a: Barraskewda|57/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p2a: Barraskewda|Close Combat|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|56/100
+|-unboost|p2a: Barraskewda|def|1
+|-unboost|p2a: Barraskewda|spd|1
+|move|p1a: Toxapex|Infestation|p2a: Barraskewda
+|-damage|p2a: Barraskewda|47/100 brn
+|-activate|p2a: Barraskewda|move: Infestation|[of] p1a: Toxapex
+|
+|-damage|p2a: Barraskewda|41/100 brn|[from] brn
+|-damage|p2a: Barraskewda|29/100 brn|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|29
+|-message|RasecM forfeited.
+|
+|win|Lilpuk
+|l|☆RasecM
+|raw|Lilpuk's rating: 1115 → 1140(+25 for winning)
+|raw|RasecM's rating: 1118 → 1093(-25 for losing)

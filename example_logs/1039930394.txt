@@ -1,0 +1,231 @@
+|ScrapeTime|2020-01-02-23:30:52
+|j|☆Anemoo
+|j|☆dingusdingus
+|player|p1|Anemoo|147|1224
+|player|p2|dingusdingus|tuber|1169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Crawdaunt, M|
+|poke|p1|Bisharp, F|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Gastrodon-East, M|
+|poke|p1|Clefable, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Gengar, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Quagsire, M|
+|poke|p2|Dugtrio, M|
+|poke|p2|Rotom-Heat|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dingusdingus)
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|par
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|2
+|
+|switch|p1a: Gastrodon|Gastrodon-East, M|100/100
+|move|p2a: Rotom|Overheat|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|59/100
+|-unboost|p2a: Rotom|spa|2
+|
+|-heal|p1a: Gastrodon|65/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p1a: Clefable|Clefable, F|100/100
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Clefable|Fire Blast|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|85/100
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Rotom|Overheat|p1a: Clefable|[miss]
+|-miss|p2a: Rotom|p1a: Clefable
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100 par
+|move|p2a: Quagsire|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|84/100 par
+|
+|-heal|p1a: Ferrothorn|90/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Rotom|Rotom-Heat|85/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Rotom
+|-sidestart|p2: dingusdingus|move: Stealth Rock
+|
+|-heal|p1a: Ferrothorn|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Gastrodon|Gastrodon-East, M|65/100
+|move|p2a: Rotom|Overheat|p1a: Gastrodon
+|-resisted|p1a: Gastrodon
+|-damage|p1a: Gastrodon|24/100
+|-unboost|p2a: Rotom|spa|2
+|
+|-heal|p1a: Gastrodon|30/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|switch|p1a: Clefable|Clefable, F|100/100
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|-damage|p2a: Quagsire|94/100|[from] Stealth Rock
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|-heal|p2a: Quagsire|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Clefable|Moonblast|p2a: Quagsire
+|-damage|p2a: Quagsire|53/100
+|-unboost|p2a: Quagsire|spa|1
+|move|p2a: Quagsire|Encore|p1a: Clefable
+|-start|p1a: Clefable|Encore
+|
+|-heal|p2a: Quagsire|59/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Rotom|Rotom-Heat|85/100
+|-damage|p2a: Rotom|60/100|[from] Stealth Rock
+|move|p1a: Clefable|Moonblast|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|29/100
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Rotom|Overheat|p1a: Clefable
+|-damage|p1a: Clefable|38/100
+|-unboost|p2a: Rotom|spa|2
+|move|p1a: Clefable|Moonblast|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-heal|p1a: Clefable|44/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, F|100/100
+|-damage|p2a: Gengar|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Clefable
+|-damage|p1a: Clefable|18/100
+|move|p1a: Clefable|Moonblast|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|36/100
+|
+|-heal|p1a: Clefable|24/100|[from] item: Leftovers
+|-end|p1a: Clefable|Encore
+|upkeep
+|turn|16
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|turn|17
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Bisharp|Thunder Wave|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|par
+|cant|p2a: Ferrothorn|par
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Bisharp|Iron Head|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|64/100 par
+|-damage|p1a: Bisharp|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Bisharp|[miss]
+|-miss|p2a: Ferrothorn|p1a: Bisharp
+|
+|-heal|p2a: Ferrothorn|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Bisharp|Iron Head|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|35/100 par
+|-damage|p1a: Bisharp|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|cant|p2a: Ferrothorn|par
+|
+|-heal|p2a: Ferrothorn|41/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|c|☆dingusdingus|im rage quitting gg
+|-message|dingusdingus forfeited.
+|
+|win|Anemoo
+|l|☆dingusdingus

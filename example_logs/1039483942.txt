@@ -1,0 +1,944 @@
+|ScrapeTime|2020-01-02-03:55:33
+|j|☆mesi45
+|j|☆rryu107
+|player|p1|mesi45|169|1152
+|player|p2|rryu107|aaron|1157
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Araquanid, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Salazzle, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Lucario, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Mimikyu, M|
+|poke|p2|Ferrothorn, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|switch|p2a: Neet|Toxapex, M|100/100
+|turn|1
+|
+|move|p1a: Mandibuzz|Taunt|p2a: Neet
+|-start|p2a: Neet|move: Taunt
+|cant|p2a: Neet|move: Taunt|Toxic
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Mandibuzz|Knock Off|p2a: Neet
+|-damage|p2a: Neet|87/100
+|-enditem|p2a: Neet|Black Sludge|[from] move: Knock Off|[of] p1a: Mandibuzz
+|move|p2a: Neet|Scald|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|86/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|move|p2a: Neet|Scald|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|93/100
+|
+|-heal|p1a: Araquanid|99/100|[from] item: Leftovers
+|-end|p2a: Neet|move: Taunt
+|upkeep
+|turn|4
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Neet|Toxic|p1a: Hatterene
+|move|p1a: Hatterene|Toxic|p2a: Neet|[from]Magic Bounce
+|-immune|p2a: Neet
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Monty mole|Excadrill, M|100/100
+|-ability|p2a: Monty mole|Mold Breaker
+|move|p1a: Hatterene|Psyshock|p2a: Monty mole
+|-resisted|p2a: Monty mole
+|-damage|p2a: Monty mole|67/100
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Araquanid|Araquanid, M|99/100
+|move|p2a: Monty mole|Iron Head|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|83/100
+|
+|-heal|p1a: Araquanid|89/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Neet|Toxapex, M|100/100
+|move|p1a: Araquanid|Sticky Web|p2a: Neet
+|-sidestart|p2: rryu107|move: Sticky Web
+|
+|-heal|p1a: Araquanid|95/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Neet|Scald|p1a: Hatterene
+|-damage|p1a: Hatterene|88/100
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|move|p2a: Neet|Scald|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-damage|p1a: Salazzle|39/100
+|
+|-heal|p1a: Salazzle|45/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|switch|p1a: Hatterene|Hatterene, F|88/100
+|move|p2a: Neet|Scald|p1a: Hatterene
+|-damage|p1a: Hatterene|78/100
+|-status|p1a: Hatterene|brn
+|
+|-damage|p1a: Hatterene|72/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Neet|Baneful Bunker|p2a: Neet
+|-singleturn|p2a: Neet|move: Protect
+|move|p1a: Hatterene|Psyshock|p2a: Neet
+|-activate|p2a: Neet|move: Protect
+|
+|-damage|p1a: Hatterene|66/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Neet|Recover||[still]
+|-fail|p2a: Neet|heal
+|move|p1a: Hatterene|Mystical Fire|p2a: Neet
+|-resisted|p2a: Neet
+|-damage|p2a: Neet|89/100
+|-unboost|p2a: Neet|spa|1
+|
+|-damage|p1a: Hatterene|60/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Neet|Baneful Bunker|p2a: Neet
+|-singleturn|p2a: Neet|move: Protect
+|move|p1a: Hatterene|Psyshock|p2a: Neet
+|-activate|p2a: Neet|move: Protect
+|
+|-damage|p1a: Hatterene|54/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Neet|Scald|p1a: Hatterene
+|-damage|p1a: Hatterene|45/100 brn
+|move|p1a: Hatterene|Psyshock|p2a: Neet
+|-supereffective|p2a: Neet
+|-damage|p2a: Neet|33/100
+|
+|-damage|p1a: Hatterene|39/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Neet|Recover|p2a: Neet
+|-heal|p2a: Neet|83/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Neet
+|-resisted|p2a: Neet
+|-damage|p2a: Neet|72/100
+|-unboost|p2a: Neet|spa|1
+|
+|-damage|p1a: Hatterene|34/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p2a: Neet|Scald|p1a: Hatterene
+|-damage|p1a: Hatterene|28/100 brn
+|move|p1a: Hatterene|Psyshock|p2a: Neet
+|-supereffective|p2a: Neet
+|-damage|p2a: Neet|20/100
+|
+|-damage|p1a: Hatterene|22/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Neet|Recover|p2a: Neet
+|-heal|p2a: Neet|70/100
+|move|p1a: Hatterene|Psyshock|p2a: Neet
+|-supereffective|p2a: Neet
+|-damage|p2a: Neet|17/100
+|
+|-damage|p1a: Hatterene|16/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p2a: Neet|Baneful Bunker|p2a: Neet
+|-singleturn|p2a: Neet|move: Protect
+|move|p1a: Hatterene|Psyshock|p2a: Neet
+|-activate|p2a: Neet|move: Protect
+|
+|-damage|p1a: Hatterene|10/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p2a: Neet|Recover|p2a: Neet
+|-heal|p2a: Neet|67/100
+|move|p1a: Hatterene|Psyshock|p2a: Neet
+|-supereffective|p2a: Neet
+|-damage|p2a: Neet|13/100
+|
+|-damage|p1a: Hatterene|4/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p2a: Neet|Baneful Bunker|p2a: Neet
+|-singleturn|p2a: Neet|move: Protect
+|move|p1a: Hatterene|Psyshock|p2a: Neet
+|-activate|p2a: Neet|move: Protect
+|
+|-damage|p1a: Hatterene|0 fnt|[from] brn
+|faint|p1a: Hatterene
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|-item|p1a: Excadrill|Air Balloon
+|turn|21
+|
+|switch|p2a: Stash|Ferrothorn, M|100/100
+|-activate|p2a: Stash|move: Sticky Web
+|-unboost|p2a: Stash|spe|1
+|move|p1a: Excadrill|Stealth Rock|p2a: Stash
+|-sidestart|p2: rryu107|move: Stealth Rock
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Salazzle|Salazzle, F|45/100
+|move|p2a: Stash|Leech Seed|p1a: Salazzle
+|-start|p1a: Salazzle|move: Leech Seed
+|
+|-heal|p1a: Salazzle|51/100|[from] item: Black Sludge
+|-damage|p1a: Salazzle|39/100|[from] Leech Seed|[of] p2a: Stash
+|upkeep
+|turn|23
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|86/100
+|move|p2a: Stash|Protect||[still]
+|-fail|p2a: Stash
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Neet|Toxapex, M|46/100
+|-activate|p2a: Neet|move: Sticky Web
+|-unboost|p2a: Neet|spe|1
+|-damage|p2a: Neet|33/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Taunt|p2a: Neet
+|-start|p2a: Neet|move: Taunt
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: Cookies|Rotom-Heat|100/100
+|-damage|p2a: Cookies|76/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Foul Play|p2a: Cookies
+|-damage|p2a: Cookies|53/100
+|
+|-heal|p2a: Cookies|59/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: Araquanid|Araquanid, M|95/100
+|move|p2a: Cookies|Substitute|p2a: Cookies
+|-start|p2a: Cookies|Substitute
+|-damage|p2a: Cookies|35/100
+|
+|-heal|p2a: Cookies|41/100|[from] item: Leftovers
+|-heal|p1a: Araquanid|100/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Cookies|Thunder Wave|p1a: Dragapult
+|-status|p1a: Dragapult|par
+|
+|-heal|p2a: Cookies|47/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Cookies
+|-damage|p2a: Cookies|13/100
+|-damage|p2a: Cookies|0 fnt
+|-hitcount|p2a: Cookies|2
+|faint|p2a: Cookies
+|
+|upkeep
+|
+|switch|p2a: Monty mole|Excadrill, M|67/100
+|-activate|p2a: Monty mole|move: Sticky Web
+|-unboost|p2a: Monty mole|spe|1
+|-damage|p2a: Monty mole|64/100|[from] Stealth Rock
+|-ability|p2a: Monty mole|Mold Breaker
+|turn|29
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Monty mole
+|-resisted|p2a: Monty mole
+|-damage|p2a: Monty mole|48/100
+|-resisted|p2a: Monty mole
+|-damage|p2a: Monty mole|31/100
+|-hitcount|p2a: Monty mole|2
+|move|p2a: Monty mole|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: mesi45|move: Stealth Rock
+|
+|upkeep
+|turn|30
+|
+|cant|p1a: Dragapult|par
+|move|p2a: Monty mole|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|25/100 par
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Monty mole
+|-resisted|p2a: Monty mole
+|-damage|p2a: Monty mole|12/100
+|-resisted|p2a: Monty mole
+|-damage|p2a: Monty mole|0 fnt
+|-hitcount|p2a: Monty mole|2
+|faint|p2a: Monty mole
+|
+|upkeep
+|
+|switch|p2a: Mimikasu|Mimikyu, M|100/100
+|-activate|p2a: Mimikasu|move: Sticky Web
+|-unboost|p2a: Mimikasu|spe|1
+|-damage|p2a: Mimikasu|88/100|[from] Stealth Rock
+|turn|32
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|86/100
+|-damage|p1a: Mandibuzz|61/100|[from] Stealth Rock
+|move|p2a: Mimikasu|Swords Dance|p2a: Mimikasu
+|-boost|p2a: Mimikasu|atk|2
+|
+|upkeep
+|turn|33
+|
+|switch|p1a: Dragapult|Dragapult, M|25/100 par
+|-damage|p1a: Dragapult|12/100 par|[from] Stealth Rock
+|move|p2a: Mimikasu|Play Rough|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p2a: Mimikasu|78/100|[from] item: Life Orb
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|-item|p1a: Excadrill|Air Balloon
+|turn|34
+|
+|move|p1a: Excadrill|Iron Head|p2a: Mimikasu
+|-supereffective|p2a: Mimikasu
+|-damage|p2a: Mimikasu|0 fnt
+|faint|p2a: Mimikasu
+|
+|upkeep
+|
+|switch|p2a: Stash|Ferrothorn, M|100/100
+|-damage|p2a: Stash|95/100|[from] Stealth Rock
+|-activate|p2a: Stash|move: Sticky Web
+|-unboost|p2a: Stash|spe|1
+|turn|35
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Stash
+|-resisted|p2a: Stash
+|-damage|p2a: Stash|89/100
+|-damage|p1a: Excadrill|85/100|[from] ability: Iron Barbs|[of] p2a: Stash
+|-damage|p1a: Excadrill|68/100|[from] item: Rocky Helmet|[of] p2a: Stash
+|-sideend|p1: mesi45|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|move|p2a: Stash|Leech Seed|p1a: Excadrill
+|-start|p1a: Excadrill|move: Leech Seed
+|
+|-damage|p1a: Excadrill|56/100|[from] Leech Seed|[of] p2a: Stash
+|-heal|p2a: Stash|100/100|[silent]
+|upkeep
+|turn|36
+|
+|switch|p1a: Salazzle|Salazzle, F|39/100
+|move|p2a: Stash|Protect||[still]
+|-fail|p2a: Stash
+|
+|-heal|p1a: Salazzle|45/100|[from] item: Black Sludge
+|upkeep
+|turn|37
+|
+|switch|p2a: Neet|Toxapex, M|67/100
+|-activate|p2a: Neet|move: Sticky Web
+|-unboost|p2a: Neet|spe|1
+|-damage|p2a: Neet|54/100|[from] Stealth Rock
+|move|p1a: Salazzle|Toxic|p2a: Neet
+|-status|p2a: Neet|tox
+|
+|-heal|p1a: Salazzle|51/100|[from] item: Black Sludge
+|-damage|p2a: Neet|48/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|move|p2a: Neet|Recover|p2a: Neet
+|-heal|p2a: Neet|98/100 tox
+|
+|-damage|p2a: Neet|85/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|switch|p1a: Excadrill|Excadrill, M|56/100
+|-ability|p1a: Excadrill|Mold Breaker
+|-item|p1a: Excadrill|Air Balloon
+|move|p2a: Neet|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-crit|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-enditem|p1a: Excadrill|Air Balloon
+|faint|p1a: Excadrill
+|
+|-damage|p2a: Neet|67/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|61/100
+|turn|40
+|
+|switch|p2a: Stash|Ferrothorn, M|100/100
+|-activate|p2a: Stash|move: Sticky Web
+|-unboost|p2a: Stash|spe|1
+|-damage|p2a: Stash|95/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Taunt|p2a: Stash
+|-start|p2a: Stash|move: Taunt
+|
+|upkeep
+|turn|41
+|
+|switch|p2a: Neji|Lucario, F|100/100
+|-activate|p2a: Neji|move: Sticky Web
+|-unboost|p2a: Neji|spe|1
+|-damage|p2a: Neji|98/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|42
+|
+|move|p2a: Neji|Bullet Punch|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|84/100
+|-damage|p2a: Neji|81/100|[from] item: Rocky Helmet|[of] p1a: Mandibuzz
+|move|p1a: Mandibuzz|Foul Play|p2a: Neji
+|-resisted|p2a: Neji
+|-damage|p2a: Neji|44/100
+|-ability|p2a: Neji|Justified|boost
+|-boost|p2a: Neji|atk|1
+|
+|upkeep
+|turn|43
+|
+|move|p2a: Neji|Bullet Punch|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|61/100
+|-damage|p2a: Neji|28/100|[from] item: Rocky Helmet|[of] p1a: Mandibuzz
+|move|p1a: Mandibuzz|Taunt|p2a: Neji
+|-start|p2a: Neji|move: Taunt
+|
+|upkeep
+|turn|44
+|
+|move|p2a: Neji|Bullet Punch|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|39/100
+|-damage|p2a: Neji|11/100|[from] item: Rocky Helmet|[of] p1a: Mandibuzz
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|89/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|45
+|
+|move|p2a: Neji|Bullet Punch|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|65/100
+|-damage|p2a: Neji|0 fnt|[from] item: Rocky Helmet|[of] p1a: Mandibuzz
+|faint|p2a: Neji
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|
+|switch|p2a: Neet|Toxapex, M|99/100 tox
+|-activate|p2a: Neet|move: Sticky Web
+|-unboost|p2a: Neet|spe|1
+|-damage|p2a: Neet|87/100 tox|[from] Stealth Rock
+|turn|46
+|
+|move|p1a: Mandibuzz|Taunt|p2a: Neet
+|-start|p2a: Neet|move: Taunt
+|move|p2a: Neet|Scald|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|86/100
+|
+|-damage|p2a: Neet|81/100 tox|[from] psn
+|upkeep
+|turn|47
+|
+|move|p1a: Mandibuzz|Foul Play|p2a: Neet
+|-damage|p2a: Neet|72/100 tox
+|move|p2a: Neet|Scald|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|71/100
+|
+|-damage|p2a: Neet|59/100 tox|[from] psn
+|upkeep
+|turn|48
+|
+|switch|p2a: Stash|Ferrothorn, M|95/100
+|-damage|p2a: Stash|89/100|[from] Stealth Rock
+|-activate|p2a: Stash|move: Sticky Web
+|-unboost|p2a: Stash|spe|1
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|49
+|
+|switch|p2a: Neet|Toxapex, M|93/100 tox
+|-damage|p2a: Neet|80/100 tox|[from] Stealth Rock
+|-activate|p2a: Neet|move: Sticky Web
+|-unboost|p2a: Neet|spe|1
+|move|p1a: Mandibuzz|Taunt|p2a: Neet
+|-start|p2a: Neet|move: Taunt
+|
+|-damage|p2a: Neet|74/100 tox|[from] psn
+|upkeep
+|turn|50
+|
+|switch|p1a: Salazzle|Salazzle, F|51/100
+|move|p2a: Neet|Scald|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|faint|p1a: Salazzle
+|
+|-damage|p2a: Neet|61/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|turn|51
+|
+|switch|p2a: Stash|Ferrothorn, M|89/100
+|-activate|p2a: Stash|move: Sticky Web
+|-unboost|p2a: Stash|spe|1
+|-damage|p2a: Stash|83/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Knock Off|p2a: Stash
+|-damage|p2a: Stash|70/100
+|-damage|p1a: Mandibuzz|88/100|[from] ability: Iron Barbs|[of] p2a: Stash
+|-damage|p1a: Mandibuzz|72/100|[from] item: Rocky Helmet|[of] p2a: Stash
+|-enditem|p2a: Stash|Rocky Helmet|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|52
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Stash|Leech Seed|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|move: Leech Seed
+|
+|-damage|p1a: Mandibuzz|88/100|[from] Leech Seed|[of] p2a: Stash
+|-heal|p2a: Stash|85/100|[silent]
+|upkeep
+|turn|53
+|
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|move|p2a: Stash|Protect||[still]
+|-fail|p2a: Stash
+|
+|upkeep
+|turn|54
+|
+|move|p1a: Araquanid|Reflect|p1a: Araquanid
+|-sidestart|p1: mesi45|Reflect
+|move|p2a: Stash|Toxic|p1a: Araquanid
+|-status|p1a: Araquanid|tox
+|
+|-damage|p1a: Araquanid|94/100 tox|[from] psn
+|upkeep
+|turn|55
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|88/100
+|move|p2a: Stash|Leech Seed|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|move: Leech Seed
+|
+|-damage|p1a: Mandibuzz|76/100|[from] Leech Seed|[of] p2a: Stash
+|-heal|p2a: Stash|99/100|[silent]
+|upkeep
+|turn|56
+|
+|move|p2a: Stash|Protect|p2a: Stash
+|-singleturn|p2a: Stash|Protect
+|move|p1a: Mandibuzz|Taunt|p2a: Stash
+|-activate|p2a: Stash|move: Protect
+|
+|-damage|p1a: Mandibuzz|64/100|[from] Leech Seed|[of] p2a: Stash
+|-heal|p2a: Stash|100/100|[silent]
+|upkeep
+|turn|57
+|
+|switch|p2a: Neet|Toxapex, M|95/100 tox
+|-damage|p2a: Neet|82/100 tox|[from] Stealth Rock
+|-activate|p2a: Neet|move: Sticky Web
+|-unboost|p2a: Neet|spe|1
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Mandibuzz|88/100|[from] Leech Seed|[of] p2a: Neet
+|-heal|p2a: Neet|99/100 tox|[silent]
+|-damage|p2a: Neet|93/100 tox|[from] psn
+|upkeep
+|turn|58
+|
+|move|p1a: Mandibuzz|Taunt|p2a: Neet
+|-start|p2a: Neet|move: Taunt
+|move|p2a: Neet|Scald|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|74/100
+|
+|-damage|p1a: Mandibuzz|62/100|[from] Leech Seed|[of] p2a: Neet
+|-heal|p2a: Neet|100/100 tox|[silent]
+|-damage|p2a: Neet|88/100 tox|[from] psn
+|-sideend|p1: mesi45|Reflect
+|upkeep
+|turn|59
+|
+|switch|p1a: Araquanid|Araquanid, M|94/100 tox
+|move|p2a: Neet|Scald|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|88/100 tox
+|
+|-heal|p1a: Araquanid|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Araquanid|88/100 tox|[from] psn
+|-damage|p2a: Neet|69/100 tox|[from] psn
+|upkeep
+|turn|60
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|62/100
+|switch|p2a: Stash|Ferrothorn, M|100/100
+|-damage|p2a: Stash|95/100|[from] Stealth Rock
+|-activate|p2a: Stash|move: Sticky Web
+|-unboost|p2a: Stash|spe|1
+|
+|upkeep
+|turn|61
+|
+|switch|p2a: Neet|Toxapex, M|100/100 tox
+|-damage|p2a: Neet|88/100 tox|[from] Stealth Rock
+|-activate|p2a: Neet|move: Sticky Web
+|-unboost|p2a: Neet|spe|1
+|move|p1a: Mandibuzz|Taunt|p2a: Neet
+|-start|p2a: Neet|move: Taunt
+|
+|-damage|p2a: Neet|82/100 tox|[from] psn
+|upkeep
+|turn|62
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Neet|Scald|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|87/100
+|-status|p1a: Mandibuzz|brn
+|
+|-damage|p1a: Mandibuzz|81/100 brn|[from] brn
+|-damage|p2a: Neet|69/100 tox|[from] psn
+|upkeep
+|turn|63
+|
+|switch|p2a: Stash|Ferrothorn, M|95/100
+|-damage|p2a: Stash|89/100|[from] Stealth Rock
+|-activate|p2a: Stash|move: Sticky Web
+|-unboost|p2a: Stash|spe|1
+|move|p1a: Mandibuzz|Foul Play|p2a: Stash
+|-damage|p2a: Stash|80/100
+|-damage|p1a: Mandibuzz|68/100 brn|[from] ability: Iron Barbs|[of] p2a: Stash
+|
+|-damage|p1a: Mandibuzz|62/100 brn|[from] brn
+|upkeep
+|turn|64
+|
+|move|p1a: Mandibuzz|Taunt|p2a: Stash
+|-start|p2a: Stash|move: Taunt
+|cant|p2a: Stash|move: Taunt|Leech Seed
+|
+|-damage|p1a: Mandibuzz|56/100 brn|[from] brn
+|upkeep
+|turn|65
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Stash|Power Whip|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|76/100 brn
+|-damage|p2a: Stash|63/100|[from] item: Rocky Helmet|[of] p1a: Mandibuzz
+|
+|-damage|p1a: Mandibuzz|70/100 brn|[from] brn
+|upkeep
+|turn|66
+|
+|switch|p2a: Neet|Toxapex, M|100/100 tox
+|-activate|p2a: Neet|move: Sticky Web
+|-unboost|p2a: Neet|spe|1
+|-damage|p2a: Neet|88/100 tox|[from] Stealth Rock
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Mandibuzz|94/100 brn|[from] brn
+|-damage|p2a: Neet|82/100 tox|[from] psn
+|upkeep
+|turn|67
+|
+|move|p2a: Neet|Baneful Bunker|p2a: Neet
+|-singleturn|p2a: Neet|move: Protect
+|move|p1a: Mandibuzz|Taunt|p2a: Neet
+|-activate|p2a: Neet|move: Protect
+|
+|-damage|p1a: Mandibuzz|88/100 brn|[from] brn
+|-damage|p2a: Neet|69/100 tox|[from] psn
+|upkeep
+|turn|68
+|
+|move|p1a: Mandibuzz|Taunt|p2a: Neet
+|-start|p2a: Neet|move: Taunt
+|cant|p2a: Neet|move: Taunt|Recover
+|
+|-damage|p1a: Mandibuzz|82/100 brn|[from] brn
+|-damage|p2a: Neet|50/100 tox|[from] psn
+|upkeep
+|turn|69
+|
+|switch|p1a: Araquanid|Araquanid, M|88/100 tox
+|switch|p2a: Stash|Ferrothorn, M|63/100
+|-damage|p2a: Stash|57/100|[from] Stealth Rock
+|-activate|p2a: Stash|move: Sticky Web
+|-unboost|p2a: Stash|spe|1
+|
+|-heal|p1a: Araquanid|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Araquanid|88/100 tox|[from] psn
+|upkeep
+|turn|70
+|
+|move|p1a: Araquanid|Reflect|p1a: Araquanid
+|-sidestart|p1: mesi45|Reflect
+|move|p2a: Stash|Leech Seed|p1a: Araquanid
+|-start|p1a: Araquanid|move: Leech Seed
+|
+|-heal|p1a: Araquanid|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Araquanid|82/100 tox|[from] Leech Seed|[of] p2a: Stash
+|-heal|p2a: Stash|69/100|[silent]
+|-damage|p1a: Araquanid|70/100 tox|[from] psn
+|upkeep
+|turn|71
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|82/100 brn
+|move|p2a: Stash|Leech Seed|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|move: Leech Seed
+|
+|-damage|p1a: Mandibuzz|70/100 brn|[from] Leech Seed|[of] p2a: Stash
+|-heal|p2a: Stash|84/100|[silent]
+|-damage|p1a: Mandibuzz|64/100 brn|[from] brn
+|upkeep
+|turn|72
+|
+|move|p2a: Stash|Protect|p2a: Stash
+|-singleturn|p2a: Stash|Protect
+|move|p1a: Mandibuzz|Taunt|p2a: Stash
+|-activate|p2a: Stash|move: Protect
+|
+|-damage|p1a: Mandibuzz|51/100 brn|[from] Leech Seed|[of] p2a: Stash
+|-heal|p2a: Stash|99/100|[silent]
+|-damage|p1a: Mandibuzz|45/100 brn|[from] brn
+|upkeep
+|turn|73
+|
+|switch|p2a: Neet|Toxapex, M|84/100 tox
+|-damage|p2a: Neet|71/100 tox|[from] Stealth Rock
+|-activate|p2a: Neet|move: Sticky Web
+|-unboost|p2a: Neet|spe|1
+|move|p1a: Mandibuzz|Taunt|p2a: Neet
+|-start|p2a: Neet|move: Taunt
+|
+|-damage|p1a: Mandibuzz|33/100 brn|[from] Leech Seed|[of] p2a: Neet
+|-heal|p2a: Neet|88/100 tox|[silent]
+|-damage|p1a: Mandibuzz|27/100 brn|[from] brn
+|-damage|p2a: Neet|82/100 tox|[from] psn
+|upkeep
+|turn|74
+|
+|switch|p1a: Araquanid|Araquanid, M|70/100 tox
+|switch|p2a: Stash|Ferrothorn, M|99/100
+|-damage|p2a: Stash|93/100|[from] Stealth Rock
+|-activate|p2a: Stash|move: Sticky Web
+|-unboost|p2a: Stash|spe|1
+|
+|-heal|p1a: Araquanid|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Araquanid|70/100 tox|[from] psn
+|-sideend|p1: mesi45|Reflect
+|upkeep
+|turn|75
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|27/100 brn
+|move|p2a: Stash|Leech Seed|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|move: Leech Seed
+|
+|-damage|p1a: Mandibuzz|14/100 brn|[from] Leech Seed|[of] p2a: Stash
+|-heal|p2a: Stash|100/100|[silent]
+|-damage|p1a: Mandibuzz|8/100 brn|[from] brn
+|upkeep
+|turn|76
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|58/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Stash|Leech Seed||[still]
+|-fail|p2a: Stash
+|
+|-damage|p1a: Mandibuzz|46/100 brn|[from] Leech Seed|[of] p2a: Stash
+|-damage|p1a: Mandibuzz|40/100 brn|[from] brn
+|upkeep
+|turn|77
+|
+|move|p2a: Stash|Protect|p2a: Stash
+|-singleturn|p2a: Stash|Protect
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|90/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Mandibuzz|78/100 brn|[from] Leech Seed|[of] p2a: Stash
+|-damage|p1a: Mandibuzz|72/100 brn|[from] brn
+|upkeep
+|turn|78
+|c|☆mesi45|nice stall
+|
+|switch|p1a: Araquanid|Araquanid, M|70/100 tox
+|move|p2a: Stash|Power Whip|p1a: Araquanid
+|-damage|p1a: Araquanid|36/100 tox
+|
+|-heal|p1a: Araquanid|42/100 tox|[from] item: Leftovers
+|-damage|p1a: Araquanid|36/100 tox|[from] psn
+|upkeep
+|turn|79
+|
+|move|p1a: Araquanid|Liquidation|p2a: Stash
+|-resisted|p2a: Stash
+|-damage|p2a: Stash|88/100
+|-damage|p1a: Araquanid|23/100 tox|[from] ability: Iron Barbs|[of] p2a: Stash
+|move|p2a: Stash|Leech Seed|p1a: Araquanid
+|-start|p1a: Araquanid|move: Leech Seed
+|
+|-heal|p1a: Araquanid|30/100 tox|[from] item: Leftovers
+|-damage|p1a: Araquanid|17/100 tox|[from] Leech Seed|[of] p2a: Stash
+|-heal|p2a: Stash|99/100|[silent]
+|-damage|p1a: Araquanid|5/100 tox|[from] psn
+|upkeep
+|turn|80
+|
+|move|p1a: Araquanid|Liquidation|p2a: Stash
+|-resisted|p2a: Stash
+|-damage|p2a: Stash|87/100
+|-damage|p1a: Araquanid|0 fnt|[from] ability: Iron Barbs|[of] p2a: Stash
+|faint|p1a: Araquanid
+|move|p2a: Stash|Leech Seed|p1: Araquanid|[notarget]
+|-fail|p2a: Stash
+|
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|72/100 brn
+|turn|81
+|
+|move|p2a: Stash|Protect|p2a: Stash
+|-singleturn|p2a: Stash|Protect
+|move|p1a: Mandibuzz|Taunt|p2a: Stash
+|-activate|p2a: Stash|move: Protect
+|
+|-damage|p1a: Mandibuzz|66/100 brn|[from] brn
+|upkeep
+|turn|82
+|
+|switch|p2a: Neet|Toxapex, M|100/100 tox
+|-damage|p2a: Neet|88/100 tox|[from] Stealth Rock
+|-activate|p2a: Neet|move: Sticky Web
+|-unboost|p2a: Neet|spe|1
+|move|p1a: Mandibuzz|Taunt|p2a: Neet
+|-start|p2a: Neet|move: Taunt
+|
+|-damage|p1a: Mandibuzz|59/100 brn|[from] brn
+|-damage|p2a: Neet|82/100 tox|[from] psn
+|upkeep
+|turn|83
+|
+|move|p1a: Mandibuzz|Knock Off|p2a: Neet
+|-damage|p2a: Neet|77/100 tox
+|move|p2a: Neet|Scald|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|44/100 brn
+|
+|-damage|p1a: Mandibuzz|38/100 brn|[from] brn
+|-damage|p2a: Neet|65/100 tox|[from] psn
+|upkeep
+|turn|84
+|
+|switch|p2a: Stash|Ferrothorn, M|87/100
+|-activate|p2a: Stash|move: Sticky Web
+|-unboost|p2a: Stash|spe|1
+|-damage|p2a: Stash|81/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Knock Off|p2a: Stash
+|-damage|p2a: Stash|75/100
+|-damage|p1a: Mandibuzz|26/100 brn|[from] ability: Iron Barbs|[of] p2a: Stash
+|
+|-damage|p1a: Mandibuzz|20/100 brn|[from] brn
+|upkeep
+|turn|85
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|70/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Stash|Leech Seed|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|move: Leech Seed
+|
+|-damage|p1a: Mandibuzz|57/100 brn|[from] Leech Seed|[of] p2a: Stash
+|-heal|p2a: Stash|90/100|[silent]
+|-damage|p1a: Mandibuzz|51/100 brn|[from] brn
+|upkeep
+|turn|86
+|-message|mesi45 forfeited.
+|
+|win|rryu107
+|l|☆mesi45
+|raw|mesi45's rating: 1152 → 1127(-25 for losing)
+|raw|rryu107's rating: 1157 → 1182(+25 for winning)

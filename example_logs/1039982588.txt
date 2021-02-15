@@ -1,0 +1,494 @@
+|ScrapeTime|2020-01-03-01:34:41
+|j|☆HopBangedMyGf
+|j|☆JereGod
+|player|p1|HopBangedMyGf|1|1120
+|player|p2|JereGod|84|1170
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mew|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Cinderace, M|
+|poke|p1|Excadrill, F|
+|poke|p2|Gardevoir, M|
+|poke|p2|Jolteon, M|
+|poke|p2|Ninetales, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Milotic, F|
+|poke|p2|Vaporeon, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JereGod)
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|1
+|
+|move|p1a: Rotom|Trick|p2a: Hatterene
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Hatterene
+|-item|p2a: Hatterene|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Assault Vest|[from] move: Trick
+|move|p2a: Hatterene|Psychic|p1a: Rotom
+|-damage|p1a: Rotom|68/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Mew|Mew|100/100
+|move|p2a: Hatterene|Psychic|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|80/100
+|
+|-heal|p1a: Mew|87/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|move|p1a: Mew|Substitute|p1a: Mew
+|-start|p1a: Mew|Substitute
+|-damage|p1a: Mew|62/100
+|
+|-heal|p1a: Mew|68/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Mew|Dragon Dance|p1a: Mew
+|-boost|p1a: Mew|atk|1
+|-boost|p1a: Mew|spe|1
+|move|p2a: Vaporeon|Scald|p1a: Mew
+|-end|p1a: Mew|Substitute
+|
+|-heal|p1a: Mew|74/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Mew|Dragon Dance|p1a: Mew
+|-boost|p1a: Mew|atk|1
+|-boost|p1a: Mew|spe|1
+|move|p2a: Vaporeon|Scald|p1a: Mew
+|-damage|p1a: Mew|49/100
+|
+|-heal|p1a: Mew|55/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Mew|Psychic Fangs|p2a: Vaporeon
+|-damage|p2a: Vaporeon|60/100
+|move|p2a: Vaporeon|Yawn|p1a: Mew
+|-start|p1a: Mew|move: Yawn|[of] p2a: Vaporeon
+|
+|-heal|p1a: Mew|61/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|66/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Vaporeon|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|87/100
+|-status|p1a: Ferrothorn|brn
+|
+|-heal|p2a: Vaporeon|72/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|93/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|87/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Ferrothorn|Leech Seed|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p2a: Vaporeon|78/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|93/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|87/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|switch|p1a: Mew|Mew|61/100
+|
+|-heal|p1a: Mew|67/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|HopBangedMyGf has 120 seconds left.
+|
+|move|p1a: Mew|Substitute|p1a: Mew
+|-start|p1a: Mew|Substitute
+|-damage|p1a: Mew|42/100
+|move|p2a: Hatterene|Nuzzle|p1a: Mew
+|-activate|p1a: Mew|move: Substitute|[damage]
+|
+|-heal|p1a: Mew|49/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Vaporeon|Vaporeon, M|78/100
+|move|p1a: Mew|Dragon Dance|p1a: Mew
+|-boost|p1a: Mew|atk|1
+|-boost|p1a: Mew|spe|1
+|
+|-heal|p1a: Mew|55/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|84/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Mew|Dragon Dance|p1a: Mew
+|-boost|p1a: Mew|atk|1
+|-boost|p1a: Mew|spe|1
+|move|p2a: Vaporeon|Scald|p1a: Mew
+|-end|p1a: Mew|Substitute
+|
+|-heal|p1a: Mew|61/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|90/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Mew|Substitute|p1a: Mew
+|-start|p1a: Mew|Substitute
+|-damage|p1a: Mew|36/100
+|move|p2a: Vaporeon|Scald|p1a: Mew
+|-end|p1a: Mew|Substitute
+|
+|-heal|p1a: Mew|42/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|96/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|HopBangedMyGf has 120 seconds left.
+|
+|switch|p1a: Rotom|Rotom-Wash|68/100
+|move|p2a: Vaporeon|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|57/100
+|
+|-heal|p2a: Vaporeon|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|HopBangedMyGf has 120 seconds left.
+|
+|move|p1a: Rotom|Volt Switch|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|64/100
+|inactive|HopBangedMyGf has 120 seconds left.
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100|[from]move: Volt Switch
+|move|p2a: Vaporeon|Yawn|p1a: Conkeldurr
+|-start|p1a: Conkeldurr|move: Yawn|[of] p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|70/100|[from] item: Leftovers
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|16
+|
+|move|p2a: Vaporeon|Scald|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|62/100 brn
+|move|p1a: Conkeldurr|Thunder Punch|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|9/100
+|
+|-heal|p2a: Vaporeon|15/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|56/100 brn|[from] brn
+|-end|p1a: Conkeldurr|move: Yawn|[silent]
+|upkeep
+|turn|17
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Conkeldurr|Mach Punch|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p2a: Vaporeon|21/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|50/100 brn|[from] brn
+|upkeep
+|turn|18
+|inactive|JereGod has 120 seconds left.
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Conkeldurr|Mach Punch|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p2a: Vaporeon|27/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|44/100 brn|[from] brn
+|upkeep
+|turn|19
+|c|☆HopBangedMyGf|...........
+|inactive|JereGod has 120 seconds left.
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Vaporeon
+|-damage|p2a: Vaporeon|2/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|8/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|38/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p1a: Rotom|Rotom-Wash|57/100
+|move|p2a: Vaporeon|Protect||[still]
+|-fail|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|58/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Vaporeon|64/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|JereGod has 120 seconds left.
+|
+|move|p1a: Rotom|Volt Switch|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|24/100
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100|[from]move: Volt Switch
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|30/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Cinderace|U-turn|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p2a: Vaporeon|80/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Vaporeon|86/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Cinderace|U-turn|p2a: Vaporeon
+|-damage|p2a: Vaporeon|70/100
+|
+|switch|p1a: Rotom|Rotom-Wash|57/100|[from]move: U-turn
+|move|p2a: Vaporeon|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|46/100
+|-status|p1a: Rotom|brn
+|
+|-heal|p2a: Vaporeon|76/100|[from] item: Leftovers
+|-damage|p1a: Rotom|40/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p1a: Rotom|Volt Switch|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-damage|p2a: Vaporeon|17/100
+|
+|switch|p1a: Mew|Mew|42/100|[from]move: Volt Switch
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p1a: Mew|48/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|23/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|HopBangedMyGf has 90 seconds left.
+|
+|move|p1a: Mew|Psychic Fangs|p2a: Vaporeon
+|-damage|p2a: Vaporeon|3/100
+|move|p2a: Vaporeon|Scald|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|12/100
+|
+|-heal|p2a: Vaporeon|53/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p1a: Mew|18/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|59/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|HopBangedMyGf has 90 seconds left.
+|inactive|HopBangedMyGf has 60 seconds left.
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|87/100 brn
+|move|p2a: Vaporeon|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|73/100 brn
+|
+|-heal|p2a: Vaporeon|65/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|79/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|73/100 brn|[from] brn
+|upkeep
+|turn|27
+|inactive|HopBangedMyGf has 60 seconds left.
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|
+|upkeep
+|turn|28
+|inactive|HopBangedMyGf has 60 seconds left.
+|inactive|JereGod has 120 seconds left.
+|
+|switch|p2a: Vaporeon|Vaporeon, M|65/100
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|
+|-heal|p2a: Vaporeon|71/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|HopBangedMyGf has 60 seconds left.
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Vaporeon
+|-damage|p2a: Vaporeon|43/100
+|-boost|p1a: Excadrill|spe|1
+|move|p2a: Vaporeon|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|17/100
+|
+|-heal|p1a: Excadrill|23/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|49/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|HopBangedMyGf has 30 seconds left.
+|
+|move|p1a: Excadrill|Iron Head|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|17/100
+|cant|p2a: Vaporeon|flinch
+|
+|-heal|p1a: Excadrill|29/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|23/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Excadrill|Iron Head|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|-heal|p1a: Excadrill|35/100|[from] item: Leftovers
+|upkeep
+|inactive|JereGod has 120 seconds left.
+|
+|switch|p2a: Milotic|Milotic, F|100/100
+|turn|32
+|inactive|HopBangedMyGf has 30 seconds left.
+|inactive|HopBangedMyGf has 20 seconds left.
+|inactive|HopBangedMyGf has 15 seconds left.
+|
+|move|p1a: Excadrill|Earthquake|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|-heal|p1a: Excadrill|41/100|[from] item: Leftovers
+|upkeep
+|inactive|HopBangedMyGf has 20 seconds left this turn.
+|
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|turn|33
+|inactive|HopBangedMyGf has 30 seconds left this turn.
+|
+|move|p2a: Jolteon|Protect|p2a: Jolteon
+|-singleturn|p2a: Jolteon|Protect
+|move|p1a: Excadrill|Earthquake|p2a: Jolteon
+|-activate|p2a: Jolteon|move: Protect
+|
+|-heal|p1a: Excadrill|47/100|[from] item: Leftovers
+|-status|p2a: Jolteon|brn|[from] item: Flame Orb
+|upkeep
+|turn|34
+|
+|move|p1a: Excadrill|Earthquake|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|-heal|p1a: Excadrill|53/100|[from] item: Leftovers
+|upkeep
+|c|☆HopBangedMyGf|lol
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|35
+|
+|move|p1a: Excadrill|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|4/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|38/100 brn
+|turn|36
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-damage|p1a: Conkeldurr|32/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|37
+|inactive|HopBangedMyGf has 60 seconds left.
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Ninetales
+|-damage|p2a: Ninetales|43/100
+|move|p2a: Ninetales|Flamethrower|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|38
+|
+|move|p1a: Cinderace|High Jump Kick|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-ability|p2a: Gardevoir|Blaze|[from] ability: Trace|[of] p1a: Cinderace
+|turn|39
+|inactive|HopBangedMyGf has 60 seconds left.
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Gardevoir
+|-damage|p2a: Gardevoir|6/100
+|move|p2a: Gardevoir|Hypnosis|p1a: Cinderace
+|-status|p1a: Cinderace|slp|[from] move: Hypnosis
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|40
+|inactive|HopBangedMyGf has 60 seconds left.
+|
+|switch|p1a: Rotom|Rotom-Wash|40/100 brn
+|move|p2a: Gardevoir|Calm Mind|p2a: Gardevoir
+|-boost|p2a: Gardevoir|spa|1
+|-boost|p2a: Gardevoir|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Rotom|34/100 brn|[from] brn
+|upkeep
+|turn|41
+|inactive|HopBangedMyGf has 60 seconds left.
+|
+|move|p1a: Rotom|Volt Switch|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|win|HopBangedMyGf
+|c|☆JereGod|gg
+|c|☆HopBangedMyGf|gg
+|raw|HopBangedMyGf's rating: 1120 → 1148(+28 for winning)
+|raw|JereGod's rating: 1170 → 1141(-29 for losing)
+|l|☆JereGod

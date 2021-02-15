@@ -1,0 +1,296 @@
+|ScrapeTime|2020-01-01-08:05:31
+|j|☆test the new year
+|j|☆abcxavi
+|player|p1|test the new year|mallow|1222
+|player|p2|abcxavi|lucas|1199
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Kommo-o, F|
+|poke|p1|Toxtricity, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Obstagoon, F|
+|poke|p1|Rillaboom, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Obstagoon, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Clefable, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Obstagoon|Obstagoon, F|100/100
+|turn|1
+|
+|move|p2a: Obstagoon|Obstruct|p2a: Obstagoon
+|-singleturn|p2a: Obstagoon|Protect
+|move|p1a: Cinderace|High Jump Kick|p2a: Obstagoon
+|-activate|p2a: Obstagoon|move: Protect
+|-unboost|p1a: Cinderace|def|2
+|-damage|p1a: Cinderace|50/100|[from] highjumpkick
+|
+|-status|p2a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|move|p1a: Cinderace|U-turn|p2a: Corsola
+|-resisted|p2a: Corsola
+|-damage|p2a: Corsola|95/100
+|-start|p1a: Cinderace|Disable|U-turn|[from] ability: Cursed Body|[of] p2a: Corsola
+|
+|switch|p1a: Obstagoon|Obstagoon, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Obstagoon|Obstagoon, F|100/100 brn
+|move|p1a: Obstagoon|Knock Off|p2a: Obstagoon
+|-resisted|p2a: Obstagoon
+|-damage|p2a: Obstagoon|81/100 brn
+|-enditem|p2a: Obstagoon|Flame Orb|[from] move: Knock Off|[of] p1a: Obstagoon
+|
+|-damage|p2a: Obstagoon|75/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: Cinderace|Cinderace, M|50/100
+|move|p2a: Obstagoon|Obstruct||[still]
+|-fail|p2a: Obstagoon
+|
+|-damage|p2a: Obstagoon|69/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Corsola|Corsola-Galar, F|95/100
+|move|p1a: Cinderace|U-turn|p2a: Corsola
+|-resisted|p2a: Corsola
+|-damage|p2a: Corsola|89/100
+|
+|switch|p1a: Obstagoon|Obstagoon, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Obstagoon|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|68/100
+|-damage|p1a: Obstagoon|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Obstagoon
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Kommo-o
+|-start|p1a: Kommo-o|move: Leech Seed
+|
+|-damage|p1a: Kommo-o|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|80/100|[silent]
+|upkeep
+|turn|8
+|
+|switch|p2a: Corsola|Corsola-Galar, F|89/100
+|move|p1a: Kommo-o|Stealth Rock|p2a: Corsola
+|-sidestart|p2: abcxavi|move: Stealth Rock
+|
+|-heal|p1a: Kommo-o|94/100|[from] item: Leftovers
+|-damage|p1a: Kommo-o|82/100|[from] Leech Seed|[of] p2a: Corsola
+|-heal|p2a: Corsola|100/100|[silent]
+|upkeep
+|turn|9
+|
+|move|p1a: Kommo-o|Taunt|p2a: Corsola
+|-start|p2a: Corsola|move: Taunt
+|cant|p2a: Corsola|move: Taunt|Will-O-Wisp
+|
+|-heal|p1a: Kommo-o|88/100|[from] item: Leftovers
+|-damage|p1a: Kommo-o|76/100|[from] Leech Seed|[of] p2a: Corsola
+|upkeep
+|turn|10
+|
+|switch|p1a: Obstagoon|Obstagoon, F|88/100
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Obstagoon|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|67/100
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Obstagoon
+|move|p2a: Corviknight|Defog|p1a: Obstagoon
+|-unboost|p1a: Obstagoon|evasion|1
+|-ability|p1a: Obstagoon|Defiant
+|-boost|p1a: Obstagoon|atk|2
+|-sideend|p2: abcxavi|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Obstagoon|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|22/100
+|-unboost|p1a: Obstagoon|def|1
+|-unboost|p1a: Obstagoon|spd|1
+|move|p2a: Corviknight|Brave Bird|p1a: Obstagoon
+|-damage|p1a: Obstagoon|30/100
+|-damage|p2a: Corviknight|7/100|[from] Recoil
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|move|p1a: Obstagoon|Knock Off|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-crit|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-start|p1a: Obstagoon|Disable|Knock Off|[from] ability: Cursed Body|[of] p2a: Corsola
+|-enditem|p2a: Corsola|Eviolite|[from] move: Knock Off|[of] p1a: Obstagoon
+|faint|p2a: Corsola
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|14
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Obstagoon
+|-damage|p1a: Obstagoon|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|91/100|[from] item: Life Orb
+|faint|p1a: Obstagoon
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|50/100
+|turn|15
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Cinderace|High Jump Kick|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|76/100
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Hydreigon|Hydreigon, M|91/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|59/100
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Corviknight|Corviknight, M|7/100
+|move|p1a: Cinderace|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|3/100
+|l|☆abcxavi
+|player|p2|
+|
+|switch|p1a: Rillaboom|Rillaboom, F|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|18
+|j|☆abcxavi
+|player|p2|abcxavi|lucas
+|
+|move|p1a: Rillaboom|Drain Punch|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|59/100
+|turn|19
+|
+|move|p1a: Rillaboom|Drain Punch|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|5/100
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Rillaboom|Drain Punch|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|switch|p2a: Obstagoon|Obstagoon, F|69/100 brn
+|turn|21
+|
+|switch|p2a: Clefable|Clefable, M|76/100
+|move|p1a: Rillaboom|Drain Punch|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|62/100
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Cinderace|Cinderace, M|50/100
+|move|p2a: Clefable|Moonblast|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|6/100
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Clefable|[miss]
+|-miss|p1a: Cinderace|p2a: Clefable
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|100/100
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Obstagoon|Obstagoon, F|69/100 brn
+|turn|25
+|
+|move|p2a: Obstagoon|Obstruct|p2a: Obstagoon
+|-singleturn|p2a: Obstagoon|Protect
+|move|p1a: Cinderace|U-turn|p2a: Obstagoon
+|-activate|p2a: Obstagoon|move: Protect
+|-unboost|p1a: Cinderace|def|2
+|
+|-damage|p2a: Obstagoon|63/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|80/100
+|move|p1a: Cinderace|High Jump Kick|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|21/100
+|-damage|p1a: Cinderace|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p1a: Cinderace
+|
+|upkeep
+|-message|abcxavi forfeited.
+|
+|win|test the new year
+|l|☆abcxavi
+|raw|test the new year's rating: 1222 → 1245(+23 for winning)
+|raw|abcxavi's rating: 1199 → 1175(-24 for losing)

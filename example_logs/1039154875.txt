@@ -1,0 +1,463 @@
+|ScrapeTime|2020-01-01-15:05:48
+|j|☆stavo cor libanese
+|j|☆Curebball fan2
+|player|p1|stavo cor libanese|fisherman|1779
+|player|p2|Curebball fan2|lady-gen4|1577
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Obstagoon, M|
+|poke|p1|Reuniclus, M|
+|poke|p1|Sylveon, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Seismitoad, M|
+|poke|p1|Hydreigon, F|
+|poke|p2|Kommo-o, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Snorlax, F|
+|poke|p2|Ferrothorn, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| amara medicina
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Curebball fan2)
+|
+|start
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|
+|switch|p1a: Obstagoon|Obstagoon, M|100/100
+|move|p2a: Seismitoad|Protect||[still]
+|-fail|p2a: Seismitoad
+|
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Obstagoon|Knock Off|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-damage|p1a: Obstagoon|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|j| 7h7htcl
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Obstagoon|Knock Off|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|83/100
+|-enditem|p2a: Mandibuzz|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Obstagoon
+|
+|-damage|p1a: Obstagoon|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Obstagoon|Facade|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|25/100
+|move|p2a: Mandibuzz|Knock Off|p1a: Obstagoon
+|-resisted|p1a: Obstagoon
+|-damage|p1a: Obstagoon|77/100 brn
+|-enditem|p1a: Obstagoon|Flame Orb|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|-damage|p1a: Obstagoon|71/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M, shiny|100/100
+|move|p1a: Obstagoon|Close Combat|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|44/100
+|-damage|p1a: Obstagoon|58/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-unboost|p1a: Obstagoon|def|1
+|-unboost|p1a: Obstagoon|spd|1
+|
+|-heal|p2a: Ferrothorn|50/100|[from] item: Leftovers
+|-damage|p1a: Obstagoon|52/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Obstagoon|Close Combat|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|56/100|[from] item: Leftovers
+|-damage|p1a: Obstagoon|46/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Obstagoon|Close Combat|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Obstagoon|34/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-unboost|p1a: Obstagoon|def|1
+|-unboost|p1a: Obstagoon|spd|1
+|faint|p2a: Ferrothorn
+|
+|-damage|p1a: Obstagoon|28/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|8
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|89/100
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Seismitoad|Scald|p1a: Seismitoad
+|-immune|p1a: Seismitoad|[from] ability: Water Absorb
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Seismitoad|Grass Knot|p2a: Hatterene
+|-damage|p2a: Hatterene|96/100
+|
+|-heal|p2a: Hatterene|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|upkeep
+|turn|13
+|l| 7h7htcl
+|
+|move|p1a: Sylveon|Mystical Fire|p2a: Hatterene
+|-damage|p2a: Hatterene|86/100
+|-unboost|p2a: Hatterene|spa|1
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p2a: Hatterene|92/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Sylveon|Mystical Fire|p2a: Hatterene
+|-damage|p2a: Hatterene|82/100
+|-unboost|p2a: Hatterene|spa|1
+|move|p2a: Hatterene|Mystical Fire|p1a: Sylveon
+|-damage|p1a: Sylveon|88/100
+|-unboost|p1a: Sylveon|spa|1
+|
+|-heal|p1a: Sylveon|94/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|88/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Rotom|Rotom-Heat|89/100
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p2a: Hatterene|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|move|p2a: Hatterene|Psyshock|p1a: Rotom
+|-damage|p1a: Rotom|33/100
+|
+|-heal|p2a: Hatterene|99/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Rotom|Discharge|p2a: Hatterene
+|-damage|p2a: Hatterene|77/100
+|-status|p2a: Hatterene|par
+|move|p2a: Hatterene|Psyshock|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-heal|p2a: Hatterene|83/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Obstagoon|Obstagoon, M|28/100 brn
+|turn|18
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|25/100
+|move|p1a: Obstagoon|Knock Off|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|11/100
+|
+|-damage|p1a: Obstagoon|22/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p1a: Obstagoon|Knock Off|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|-damage|p1a: Obstagoon|15/100 brn|[from] brn
+|upkeep
+|j| gyhfght
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|20
+|
+|move|p1a: Obstagoon|Knock Off|p2a: Seismitoad
+|-damage|p2a: Seismitoad|58/100
+|-enditem|p2a: Seismitoad|Leftovers|[from] move: Knock Off|[of] p1a: Obstagoon
+|move|p2a: Seismitoad|Stealth Rock|p1a: Obstagoon
+|-sidestart|p1: stavo cor libanese|move: Stealth Rock
+|
+|-damage|p1a: Obstagoon|9/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Obstagoon|Facade|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-damage|p1a: Obstagoon|3/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p2a: Seismitoad|Protect||[still]
+|-fail|p2a: Seismitoad
+|move|p1a: Obstagoon|Facade|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-damage|p1a: Obstagoon|0 fnt|[from] brn
+|faint|p1a: Obstagoon
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|-damage|p1a: Seismitoad|94/100|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Seismitoad|Scald|p2a: Snorlax
+|-damage|p2a: Snorlax|86/100
+|-status|p2a: Snorlax|brn
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|92/100 brn|[from] item: Leftovers
+|-damage|p2a: Snorlax|86/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p2a: Snorlax|92/100 brn|[from] item: Leftovers
+|-damage|p2a: Snorlax|86/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|100/100 slp|[silent]
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|-curestatus|p2a: Snorlax|slp|[msg]
+|move|p2a: Snorlax|Darkest Lariat|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|37/100
+|-damage|p2a: Snorlax|84/100|[from] item: Rocky Helmet|[of] p1a: Reuniclus
+|
+|-heal|p2a: Snorlax|90/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|l| gyhfght
+|
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|87/100
+|move|p2a: Snorlax|Darkest Lariat|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|31/100
+|-damage|p2a: Snorlax|73/100|[from] item: Rocky Helmet|[of] p1a: Reuniclus
+|
+|-heal|p2a: Snorlax|79/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|c|☆stavo cor libanese|non so r.
+|
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|81/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p2a: Snorlax|86/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Reuniclus|Thunder|p2a: Snorlax
+|-damage|p2a: Snorlax|32/100
+|move|p2a: Snorlax|Darkest Lariat|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|11/100
+|-damage|p2a: Snorlax|16/100|[from] item: Rocky Helmet|[of] p1a: Reuniclus
+|
+|-heal|p2a: Snorlax|22/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Reuniclus|Psyshock|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|upkeep
+|
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|turn|33
+|
+|move|p2a: Kommo-o|Body Press|p1a: Reuniclus
+|-resisted|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|-damage|p2a: Kommo-o|84/100|[from] item: Rocky Helmet|[of] p1a: Reuniclus
+|faint|p1a: Reuniclus
+|
+|-heal|p2a: Kommo-o|90/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|34
+|
+|switch|p2a: Hatterene|Hatterene, F|83/100 par
+|move|p1a: Hydreigon|Draco Meteor|p2a: Hatterene
+|-immune|p2a: Hatterene
+|
+|-heal|p2a: Hatterene|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|-damage|p1a: Seismitoad|94/100|[from] Stealth Rock
+|switch|p2a: Kommo-o|Kommo-o, M|90/100
+|
+|-heal|p2a: Kommo-o|96/100|[from] item: Leftovers
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|switch|p1a: Sylveon|Sylveon, F|94/100
+|-damage|p1a: Sylveon|82/100|[from] Stealth Rock
+|move|p2a: Kommo-o|Substitute|p2a: Kommo-o
+|-start|p2a: Kommo-o|Substitute
+|-damage|p2a: Kommo-o|71/100
+|
+|-heal|p2a: Kommo-o|78/100|[from] item: Leftovers
+|-heal|p1a: Sylveon|88/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Kommo-o|Iron Defense|p2a: Kommo-o
+|-boost|p2a: Kommo-o|def|2
+|
+|-heal|p2a: Kommo-o|84/100|[from] item: Leftovers
+|-heal|p1a: Sylveon|94/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p2a: Kommo-o|Iron Defense|p2a: Kommo-o
+|-boost|p2a: Kommo-o|def|2
+|move|p1a: Sylveon|Hyper Voice|p2a: Kommo-o
+|-immune|p2a: Kommo-o|[from] ability: Soundproof
+|
+|-heal|p2a: Kommo-o|90/100|[from] item: Leftovers
+|-heal|p1a: Sylveon|99/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|c|☆stavo cor libanese|lui
+|c|☆stavo cor libanese|eh
+|c|☆stavo cor libanese|lol
+|c|☆stavo cor libanese|ma perchè
+|c|☆stavo cor libanese|devo trovarmi sti set.
+|c|☆stavo cor libanese|fatti apposta
+|inactive|stavo cor libanese has 120 seconds left.
+|
+|move|p2a: Kommo-o|Iron Defense|p2a: Kommo-o
+|-boost|p2a: Kommo-o|def|2
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-heal|p2a: Kommo-o|96/100|[from] item: Leftovers
+|-heal|p1a: Sylveon|100/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|c|☆stavo cor libanese|serio
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|-damage|p1a: Seismitoad|94/100|[from] Stealth Rock
+|move|p2a: Kommo-o|Body Press|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-heal|p2a: Kommo-o|100/100|[from] item: Leftovers
+|upkeep
+|-message|stavo cor libanese forfeited.
+|
+|win|Curebball fan2
+|raw|stavo cor libanese's rating: 1751 → 1722(-29 for losing)
+|raw|Curebball fan2's rating: 1577 → 1606(+29 for winning)

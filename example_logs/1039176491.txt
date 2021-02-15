@@ -1,0 +1,244 @@
+|ScrapeTime|2020-01-01-16:04:41
+|j|☆on9x
+|j|☆Brave24
+|player|p1|on9x|steven|1068
+|player|p2|Brave24|170|1105
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Qwilfish, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Drapion, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Excadrill, M|
+|poke|p2|Thievul, M|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Mr. Mime-Galar, M|
+|poke|p2|Runerigus, M|
+|poke|p2|Perrserker, M|
+|poke|p2|Coalossal, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by on9x)
+|
+|start
+|switch|p1a: Holodomor|Rotom-Heat|100/100
+|switch|p2a: Perrserker|Perrserker, M|100/100
+|turn|1
+|
+|switch|p2a: Runerigus|Runerigus, M|100/100
+|move|p1a: Holodomor|Trick|p2a: Runerigus
+|-activate|p1a: Holodomor|move: Trick|[of] p2a: Runerigus
+|-item|p2a: Runerigus|Flame Orb|[from] move: Trick
+|-item|p1a: Holodomor|Leftovers|[from] move: Trick
+|
+|-status|p2a: Runerigus|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|switch|p1a: anschaulich|Qwilfish, F|100/100
+|move|p2a: Runerigus|Stealth Rock|p1a: anschaulich
+|-sidestart|p1: on9x|move: Stealth Rock
+|
+|-damage|p2a: Runerigus|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: anschaulich|Aqua Jet|p2a: Runerigus
+|-supereffective|p2a: Runerigus
+|-damage|p2a: Runerigus|64/100 brn
+|-activate|p1a: anschaulich|ability: Wandering Spirit|Wandering Spirit|Poison Point|[of] p2a: Runerigus
+|move|p2a: Runerigus|Earthquake|p1a: anschaulich
+|-supereffective|p1a: anschaulich
+|-damage|p1a: anschaulich|58/100
+|
+|-damage|p2a: Runerigus|57/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Coalossal|Coalossal, M|100/100
+|move|p1a: anschaulich|Poison Jab|p2a: Coalossal
+|-resisted|p2a: Coalossal
+|-damage|p2a: Coalossal|87/100
+|-status|p2a: Coalossal|psn
+|
+|-damage|p2a: Coalossal|74/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|move|p1a: anschaulich|Poison Jab|p2a: Coalossal
+|-resisted|p2a: Coalossal
+|-damage|p2a: Coalossal|59/100 psn
+|move|p2a: Coalossal|Earthquake|p1a: anschaulich
+|-supereffective|p1a: anschaulich
+|-damage|p1a: anschaulich|0 fnt
+|faint|p1a: anschaulich
+|
+|-damage|p2a: Coalossal|46/100 psn|[from] psn
+|upkeep
+|
+|switch|p1a: Vomersonsal|Corsola-Galar, F|100/100
+|-damage|p1a: Vomersonsal|88/100|[from] Stealth Rock
+|turn|6
+|
+|switch|p2a: Thievul|Thievul, M|100/100
+|move|p1a: Vomersonsal|Hex|p2a: Thievul
+|-resisted|p2a: Thievul
+|-damage|p2a: Thievul|86/100
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Thievul|Snarl|p1a: Vomersonsal
+|-supereffective|p1a: Vomersonsal
+|-damage|p1a: Vomersonsal|56/100
+|-unboost|p1a: Vomersonsal|spa|1
+|-enditem|p2a: Thievul|Throat Spray
+|-boost|p2a: Thievul|spa|1
+|move|p1a: Vomersonsal|Will-O-Wisp|p2a: Thievul|[miss]
+|-miss|p1a: Vomersonsal|p2a: Thievul
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Thievul|Dark Pulse|p1a: Vomersonsal
+|-supereffective|p1a: Vomersonsal
+|-damage|p1a: Vomersonsal|0 fnt
+|-start|p2a: Thievul|Disable|Dark Pulse|[from] ability: Cursed Body|[of] p1a: Vomersonsal
+|faint|p1a: Vomersonsal
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|9
+|
+|move|p2a: Thievul|Psychic|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|74/100
+|move|p1a: Excadrill|Iron Head|p2a: Thievul
+|-damage|p2a: Thievul|0 fnt
+|faint|p2a: Thievul
+|
+|upkeep
+|
+|switch|p2a: Runerigus|Runerigus, M|57/100 brn
+|turn|10
+|
+|move|p1a: Excadrill|Stealth Rock|p2a: Runerigus
+|-sidestart|p2: Brave24|move: Stealth Rock
+|move|p2a: Runerigus|Trick Room|p2a: Runerigus
+|-fieldstart|move: Trick Room|[of] p2a: Runerigus
+|
+|-damage|p2a: Runerigus|51/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Runerigus|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|26/100
+|move|p1a: Excadrill|Iron Head|p2a: Runerigus
+|-damage|p2a: Runerigus|17/100 brn
+|-activate|p1a: Excadrill|ability: Wandering Spirit|Wandering Spirit|Mold Breaker|[of] p2a: Runerigus
+|-ability|p2a: Runerigus|Mold Breaker
+|
+|-damage|p2a: Runerigus|11/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p1a: Holodomor|Rotom-Heat|100/100
+|-damage|p1a: Holodomor|76/100|[from] Stealth Rock
+|move|p2a: Runerigus|Earthquake|p1a: Holodomor
+|-supereffective|p1a: Holodomor
+|-damage|p1a: Holodomor|0 fnt
+|faint|p1a: Holodomor
+|
+|-damage|p2a: Runerigus|5/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|26/100
+|-damage|p1a: Excadrill|23/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|13
+|
+|move|p2a: Runerigus|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-damage|p2a: Runerigus|0 fnt|[from] brn
+|faint|p2a: Runerigus
+|upkeep
+|
+|switch|p2a: Perrserker|Perrserker, M|100/100
+|switch|p1a: Bošković|Drapion, F|100/100
+|-damage|p2a: Perrserker|94/100|[from] Stealth Rock
+|-damage|p1a: Bošković|88/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Perrserker|Curse|p2a: Perrserker
+|-unboost|p2a: Perrserker|spe|1
+|-boost|p2a: Perrserker|atk|1
+|-boost|p2a: Perrserker|def|1
+|move|p1a: Bošković|Whirlwind|p2a: Perrserker
+|drag|p2a: Coalossal|Coalossal, M|46/100 psn
+|-damage|p2a: Coalossal|22/100 psn|[from] Stealth Rock
+|
+|-damage|p2a: Coalossal|9/100 psn|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|15
+|
+|move|p2a: Coalossal|Earthquake|p1a: Bošković
+|-supereffective|p1a: Bošković
+|-damage|p1a: Bošković|24/100
+|move|p1a: Bošković|Whirlwind|p2a: Coalossal
+|drag|p2a: Weezing|Weezing-Galar, M|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Bošković|Night Slash|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|77/100
+|move|p2a: Weezing|Strange Steam|p1a: Bošković
+|-damage|p1a: Bošković|0 fnt
+|faint|p1a: Bošković
+|
+|upkeep
+|
+|switch|p1a: She's a Big Boy|Hatterene, F|100/100
+|-damage|p1a: She's a Big Boy|88/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Weezing|Sludge Bomb|p1a: She's a Big Boy
+|-supereffective|p1a: She's a Big Boy
+|-damage|p1a: She's a Big Boy|22/100
+|move|p1a: She's a Big Boy|Future Sight|p2a: Weezing
+|-start|p1a: She's a Big Boy|move: Future Sight
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Weezing|Sludge Bomb|p1a: She's a Big Boy
+|-supereffective|p1a: She's a Big Boy
+|-damage|p1a: She's a Big Boy|0 fnt
+|faint|p1a: She's a Big Boy
+|
+|win|Brave24
+|raw|on9x's rating: 1069 → 1051(-18 for losing)
+|raw|Brave24's rating: 1105 → 1127(+22 for winning)

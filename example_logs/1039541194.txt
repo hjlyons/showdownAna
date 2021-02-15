@@ -1,0 +1,129 @@
+|ScrapeTime|2020-01-02-06:34:57
+|j|☆Foonanagim
+|j|☆Ctrl G-Max
+|player|p1|Foonanagim|2|1381
+|player|p2|Ctrl G-Max|188|1356
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mew|
+|poke|p1|Xatu, M|
+|poke|p1|Gardevoir, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Dragapult, M|
+|poke|p1|Cloyster, M|
+|poke|p2|Vanilluxe, M|
+|poke|p2|Barraskewda, M|
+|poke|p2|Rotom-Mow|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Lucario, F|
+|poke|p2|Mimikyu, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ctrl G-Max)
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|turn|1
+|
+|move|p1a: Mew|Stealth Rock|p2a: Rotom
+|-sidestart|p2: Ctrl G-Max|move: Stealth Rock
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Mew|Transform|p2a: Rotom
+|-transform|p1a: Mew|p2a: Rotom
+|-endability|p1a: Mew|Synchronize|[from] move: Transform
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|move|p1a: Mew|Shadow Ball|p2a: Rotom
+|-damage|p2a: Rotom|62/100
+|
+|-heal|p2a: Rotom|67/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Rotom|Shadow Ball|p1a: Mew
+|-damage|p1a: Mew|35/100
+|move|p1a: Mew|Nasty Plot|p1a: Mew
+|-boost|p1a: Mew|spa|2
+|
+|-heal|p2a: Rotom|73/100|[from] item: Leftovers
+|-heal|p1a: Mew|41/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Rotom|Shadow Ball|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|-heal|p2a: Rotom|79/100|[from] item: Leftovers
+|upkeep
+|inactive|Foonanagim has 120 seconds left.
+|
+|switch|p1a: Xatu|Xatu, M|100/100
+|turn|6
+|
+|move|p1a: Xatu|Light Screen|p1a: Xatu
+|-sidestart|p1: Foonanagim|move: Light Screen
+|move|p2a: Rotom|Shadow Ball|p1a: Xatu
+|-supereffective|p1a: Xatu
+|-crit|p1a: Xatu
+|-damage|p1a: Xatu|0 fnt
+|faint|p1a: Xatu
+|
+|-heal|p2a: Rotom|85/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|7
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Rotom
+|-damage|p2a: Rotom|45/100
+|-damage|p2a: Rotom|6/100
+|-hitcount|p2a: Rotom|2
+|move|p2a: Rotom|Shadow Ball|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Rotom|12/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|turn|8
+|
+|move|p2a: Rotom|Leaf Storm|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Cloyster
+|
+|-heal|p2a: Rotom|18/100|[from] item: Leftovers
+|upkeep
+|-message|Foonanagim forfeited.
+|
+|win|Ctrl G-Max
+|l|☆Foonanagim
+|raw|Foonanagim's rating: 1381 → 1360(-21 for losing)
+|raw|Ctrl G-Max's rating: 1356 → 1378(+22 for winning)

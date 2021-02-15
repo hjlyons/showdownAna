@@ -1,0 +1,424 @@
+|ScrapeTime|2020-01-02-06:15:07
+|j|☆Moero
+|j|☆Curebball fan2
+|player|p1|Moero|190|1652
+|player|p2|Curebball fan2|lady-gen4|1635
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Lucario, M|
+|poke|p1|Chandelure, M|
+|poke|p1|Seismitoad, M|
+|poke|p1|Morpeko, M|
+|poke|p1|Mimikyu, F|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Kommo-o, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Snorlax, F|
+|poke|p2|Ferrothorn, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Curebball fan2)
+|
+|start
+|switch|p1a: Morpeko|Morpeko, M|100/100
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|turn|1
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Kommo-o|Body Press|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|74/100
+|
+|-heal|p1a: Mandibuzz|80/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Kommo-o|Substitute|p2a: Kommo-o
+|-start|p2a: Kommo-o|Substitute
+|-damage|p2a: Kommo-o|76/100
+|move|p1a: Mandibuzz|U-turn|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-activate|p2a: Kommo-o|move: Substitute|[damage]
+|
+|switch|p1a: Mimikyu|Mimikyu, F|100/100|[from]move: U-turn
+|
+|-heal|p2a: Kommo-o|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M, shiny|100/100
+|move|p1a: Mimikyu|Play Rough|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|85/100
+|-damage|p1a: Mimikyu|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Mimikyu|78/100|[from] item: Life Orb
+|
+|-heal|p2a: Ferrothorn|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Chandelure
+|-start|p1a: Chandelure|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|97/100|[from] item: Leftovers
+|-damage|p1a: Chandelure|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|5
+|
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|move|p1a: Chandelure|Energy Ball|p2a: Snorlax
+|-damage|p2a: Snorlax|83/100
+|
+|-heal|p1a: Chandelure|94/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|89/100|[from] item: Leftovers
+|-damage|p1a: Chandelure|82/100|[from] Leech Seed|[of] p2a: Snorlax
+|-heal|p2a: Snorlax|96/100|[silent]
+|upkeep
+|turn|6
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Snorlax|Body Slam|p1a: Seismitoad
+|-damage|p1a: Seismitoad|77/100
+|
+|-heal|p1a: Seismitoad|83/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Seismitoad|Scald|p2a: Hatterene
+|-damage|p2a: Hatterene|74/100
+|
+|-heal|p1a: Seismitoad|89/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|80/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Seismitoad|Scald|p2a: Hatterene
+|-damage|p2a: Hatterene|56/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Seismitoad
+|-damage|p1a: Seismitoad|64/100
+|-heal|p2a: Hatterene|80/100|[from] drain|[of] p1a: Seismitoad
+|
+|-heal|p1a: Seismitoad|70/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|86/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Seismitoad|Earth Power|p2a: Hatterene
+|-damage|p2a: Hatterene|59/100
+|-unboost|p2a: Hatterene|spd|1
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p1a: Seismitoad|76/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|65/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Seismitoad|Earth Power|p2a: Hatterene
+|-damage|p2a: Hatterene|37/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Seismitoad
+|-damage|p1a: Seismitoad|41/100
+|-heal|p2a: Hatterene|71/100|[from] drain|[of] p1a: Seismitoad
+|
+|-heal|p1a: Seismitoad|47/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|77/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Chandelure|Chandelure, M|82/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|57/100
+|-heal|p2a: Hatterene|93/100|[from] drain|[of] p1a: Chandelure
+|
+|-heal|p1a: Chandelure|63/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|99/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Chandelure|Shadow Ball|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|83/100
+|
+|-heal|p1a: Chandelure|69/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|80/100
+|move|p2a: Mandibuzz|Knock Off|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|71/100
+|-enditem|p1a: Mandibuzz|Leftovers|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Mandibuzz|Toxic|p1a: Mandibuzz
+|-status|p1a: Mandibuzz|tox
+|move|p1a: Mandibuzz|Knock Off|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|75/100
+|-enditem|p2a: Mandibuzz|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|-damage|p1a: Mandibuzz|64/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p2a: Kommo-o|Kommo-o, M|82/100
+|move|p1a: Mandibuzz|U-turn|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|78/100
+|
+|switch|p1a: Lucario|Lucario, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Kommo-o|84/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Lucario|Nasty Plot|p1a: Lucario
+|-boost|p1a: Lucario|spa|2
+|move|p2a: Kommo-o|Body Press|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-enditem|p1a: Lucario|Focus Sash
+|-damage|p1a: Lucario|1/100
+|
+|-heal|p2a: Kommo-o|91/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Lucario|Psychic|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-crit|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|upkeep
+|inactive|Curebball fan2 has 120 seconds left.
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|75/100
+|turn|18
+|
+|move|p1a: Lucario|Flash Cannon|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|24/100
+|move|p2a: Mandibuzz|Knock Off|p1a: Lucario
+|-resisted|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|upkeep
+|
+|switch|p1a: Morpeko|Morpeko, M|100/100
+|turn|19
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Morpeko|Aura Wheel|p2a: Seismitoad
+|-immune|p2a: Seismitoad
+|
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|20
+|
+|move|p1a: Morpeko|Seed Bomb|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|23/100
+|-damage|p1a: Morpeko|91/100|[from] item: Life Orb
+|move|p2a: Seismitoad|Stealth Rock|p1a: Morpeko
+|-sidestart|p1: Moero|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|29/100|[from] item: Leftovers
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|21
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Morpeko|Fire Fang|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-heal|p2a: Seismitoad|35/100|[from] item: Leftovers
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|22
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Morpeko|Aura Wheel|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-heal|p2a: Seismitoad|41/100|[from] item: Leftovers
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|23
+|
+|move|p1a: Morpeko|Seed Bomb|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-damage|p1a: Morpeko|81/100|[from] item: Life Orb
+|faint|p2a: Seismitoad
+|
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M, shiny|100/100
+|turn|24
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|64/100 tox
+|-damage|p1a: Mandibuzz|39/100 tox|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|move: Leech Seed
+|
+|-damage|p1a: Mandibuzz|27/100 tox|[from] Leech Seed|[of] p2a: Ferrothorn
+|-damage|p1a: Mandibuzz|21/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|move|p1a: Mandibuzz|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p1: Moero|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Ferrothorn|Spikes|p1a: Mandibuzz
+|-sidestart|p1: Moero|Spikes
+|
+|-damage|p1a: Mandibuzz|8/100 tox|[from] Leech Seed|[of] p2a: Ferrothorn
+|-damage|p1a: Mandibuzz|0 fnt|[from] psn
+|faint|p1a: Mandibuzz
+|upkeep
+|
+|switch|p1a: Mimikyu|Mimikyu, F|78/100
+|-damage|p1a: Mimikyu|66/100|[from] Spikes
+|turn|26
+|
+|switch|p1a: Chandelure|Chandelure, M|69/100
+|-damage|p1a: Chandelure|57/100|[from] Spikes
+|move|p2a: Ferrothorn|Leech Seed|p1a: Chandelure
+|-start|p1a: Chandelure|move: Leech Seed
+|
+|-heal|p1a: Chandelure|63/100|[from] item: Leftovers
+|-damage|p1a: Chandelure|51/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|27
+|
+|switch|p1a: Morpeko|Morpeko, M|81/100
+|-damage|p1a: Morpeko|69/100|[from] Spikes
+|move|p2a: Ferrothorn|Protect||[still]
+|-fail|p2a: Ferrothorn
+|
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|28
+|
+|move|p1a: Morpeko|Fire Fang|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|43/100
+|-damage|p1a: Morpeko|56/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|-damage|p1a: Morpeko|46/100|[from] item: Life Orb
+|move|p2a: Ferrothorn|Leech Seed|p1a: Morpeko
+|-start|p1a: Morpeko|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|49/100 brn|[from] item: Leftovers
+|-damage|p1a: Morpeko|34/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|58/100 brn|[silent]
+|-damage|p2a: Ferrothorn|52/100 brn|[from] brn
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|29
+|
+|switch|p1a: Chandelure|Chandelure, M|51/100
+|-damage|p1a: Chandelure|39/100|[from] Spikes
+|switch|p2a: Mandibuzz|Mandibuzz, F|24/100
+|
+|-heal|p1a: Chandelure|45/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Chandelure|Flamethrower|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|-heal|p1a: Chandelure|51/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|turn|31
+|
+|switch|p1a: Seismitoad|Seismitoad, M|47/100
+|-damage|p1a: Seismitoad|35/100|[from] Spikes
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p1a: Seismitoad|41/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Seismitoad|Scald|p2a: Snorlax
+|-damage|p2a: Snorlax|87/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p1a: Seismitoad|47/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|93/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Seismitoad|Scald|p2a: Snorlax
+|-damage|p2a: Snorlax|80/100
+|move|p2a: Snorlax|Body Slam|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-heal|p2a: Snorlax|86/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Mimikyu|Mimikyu, F|66/100
+|-damage|p1a: Mimikyu|53/100|[from] Spikes
+|turn|34
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Snorlax|Darkest Lariat|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|53/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|-damage|p1a: Mimikyu|41/100|[from] ability: Disguise|[of] p1a: Mimikyu
+|
+|-heal|p2a: Snorlax|92/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Mimikyu|Play Rough|p2a: Snorlax
+|-damage|p2a: Snorlax|61/100
+|-damage|p1a: Mimikyu|31/100|[from] item: Life Orb
+|move|p2a: Snorlax|Darkest Lariat|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|-heal|p2a: Snorlax|68/100|[from] item: Leftovers
+|upkeep
+|-message|Moero forfeited.
+|
+|win|Curebball fan2
+|l|☆Moero
+|raw|Moero's rating: 1652 → 1631(-21 for losing)
+|raw|Curebball fan2's rating: 1635 → 1656(+21 for winning)

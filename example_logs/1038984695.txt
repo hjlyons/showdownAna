@@ -1,0 +1,465 @@
+|ScrapeTime|2020-01-01-03:36:53
+|j|☆KingSwordYT
+|j|☆minggongzero
+|player|p1|KingSwordYT|drayden|1473
+|player|p2|minggongzero|169|1416
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Excadrill, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Kommo-o, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Toxapex, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Bisharp, M|
+|poke|p2|Ludicolo, F|
+|poke|p2|Dracovish|
+|poke|p2|Seismitoad, F|
+|poke|p2|Frosmoth, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|turn|1
+|
+|move|p2a: Seismitoad|Stealth Rock|p1a: Toxapex
+|-sidestart|p1: KingSwordYT|move: Stealth Rock
+|move|p1a: Toxapex|Toxic Spikes|p2a: Seismitoad
+|-sidestart|p2: minggongzero|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Seismitoad|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|46/100
+|move|p1a: Toxapex|Scald|p2a: Seismitoad
+|-immune|p2a: Seismitoad|[from] ability: Water Absorb
+|
+|-heal|p1a: Toxapex|52/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|85/100
+|
+|-heal|p1a: Ferrothorn|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Ferrothorn|Spikes|p2a: Pelipper
+|-sidestart|p2: minggongzero|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|97/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Pelipper|Hurricane|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|70/100
+|move|p1a: Ferrothorn|Power Whip|p2a: Pelipper
+|-damage|p2a: Pelipper|73/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|76/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Ludicolo|Ludicolo, F|100/100
+|-damage|p2a: Ludicolo|88/100|[from] Spikes
+|-status|p2a: Ludicolo|psn
+|move|p1a: Ferrothorn|Spikes|p2a: Ludicolo
+|-sidestart|p2: minggongzero|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|82/100|[from] item: Leftovers
+|-damage|p2a: Ludicolo|76/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p1a: Toxapex|Toxapex, M|86/100
+|-damage|p1a: Toxapex|73/100|[from] Stealth Rock
+|move|p2a: Ludicolo|Ice Beam|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|62/100
+|-damage|p2a: Ludicolo|66/100 psn|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|68/100|[from] item: Black Sludge
+|-damage|p2a: Ludicolo|54/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|move|p2a: Ludicolo|Giga Drain|p1a: Toxapex
+|-damage|p1a: Toxapex|42/100
+|-heal|p2a: Ludicolo|67/100 psn|[from] drain|[of] p1a: Toxapex
+|-damage|p2a: Ludicolo|57/100 psn|[from] item: Life Orb
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|93/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|99/100|[from] item: Black Sludge
+|-damage|p2a: Ludicolo|44/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|move|p2a: Ludicolo|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|82/100
+|-enditem|p1a: Toxapex|Black Sludge|[from] move: Knock Off|[of] p2a: Ludicolo
+|-damage|p2a: Ludicolo|34/100 psn|[from] item: Life Orb
+|move|p1a: Toxapex|Toxic Spikes|p2a: Ludicolo
+|-sidestart|p2: minggongzero|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ludicolo|22/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|move|p2a: Ludicolo|Giga Drain|p1a: Toxapex
+|-damage|p1a: Toxapex|56/100
+|-heal|p2a: Ludicolo|35/100 psn|[from] drain|[of] p1a: Toxapex
+|-damage|p2a: Ludicolo|25/100 psn|[from] item: Life Orb
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ludicolo|13/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|move|p2a: Ludicolo|Hydro Pump|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|68/100
+|-damage|p2a: Ludicolo|3/100 psn|[from] item: Life Orb
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|-weather|none
+|-damage|p2a: Ludicolo|0 fnt|[from] psn
+|faint|p2a: Ludicolo
+|upkeep
+|
+|switch|p2a: Frosmoth|Frosmoth, F|100/100
+|turn|12
+|
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|move|p1a: Toxapex|Scald|p2a: Frosmoth
+|-damage|p2a: Frosmoth|94/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Frosmoth|Bug Buzz|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|86/100
+|move|p1a: Toxapex|Scald|p2a: Frosmoth
+|-damage|p2a: Frosmoth|82/100
+|-status|p2a: Frosmoth|brn
+|
+|-damage|p2a: Frosmoth|76/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|-damage|p2a: Dracovish|84/100|[from] Spikes
+|-status|p2a: Dracovish|tox
+|move|p1a: Toxapex|Scald|p2a: Dracovish
+|-resisted|p2a: Dracovish
+|-damage|p2a: Dracovish|79/100 tox
+|
+|-damage|p2a: Dracovish|73/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-damage|p2a: Bisharp|84/100|[from] Spikes
+|switch|p1a: Ferrothorn|Ferrothorn, M|82/100
+|-damage|p1a: Ferrothorn|76/100|[from] Stealth Rock
+|
+|-heal|p1a: Ferrothorn|82/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|move|p1a: Ferrothorn|Leech Seed|p2a: Bisharp
+|-start|p2a: Bisharp|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|89/100|[from] item: Leftovers
+|-damage|p2a: Bisharp|72/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|98/100|[silent]
+|upkeep
+|turn|18
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|-damage|p1a: Kommo-o|94/100|[from] Stealth Rock
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|-damage|p2a: Bisharp|60/100|[from] Leech Seed|[of] p1a: Kommo-o
+|-heal|p1a: Kommo-o|100/100|[silent]
+|upkeep
+|turn|19
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|49/100
+|move|p1a: Kommo-o|Drain Punch|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|-heal|p1a: Kommo-o|72/100|[from] drain|[of] p2a: Bisharp
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|switch|p2a: Frosmoth|Frosmoth, F|76/100 brn
+|turn|20
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Frosmoth|Ice Beam|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|73/100
+|
+|-damage|p2a: Frosmoth|70/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|-status|p2a: Seismitoad|tox
+|-damage|p2a: Seismitoad|84/100 tox|[from] Spikes
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|-heal|p2a: Seismitoad|90/100 tox|[from] item: Leftovers
+|-damage|p2a: Seismitoad|84/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|98/100
+|-damage|p1a: Ferrothorn|92/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|73/100
+|
+|-heal|p2a: Seismitoad|90/100 tox|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|79/100|[from] item: Leftovers
+|-damage|p2a: Seismitoad|78/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|move|p2a: Seismitoad|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|58/100
+|move|p1a: Ferrothorn|Spikes|p2a: Seismitoad
+|-sidestart|p2: minggongzero|Spikes
+|
+|-heal|p2a: Seismitoad|84/100 tox|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|64/100|[from] item: Leftovers
+|-damage|p2a: Seismitoad|66/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|move|p2a: Seismitoad|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|45/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Seismitoad
+|-start|p2a: Seismitoad|move: Leech Seed
+|
+|-heal|p2a: Seismitoad|72/100 tox|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|51/100|[from] item: Leftovers
+|-damage|p2a: Seismitoad|59/100 tox|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|66/100|[silent]
+|-damage|p2a: Seismitoad|35/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|move|p2a: Seismitoad|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|47/100
+|move|p1a: Ferrothorn|Leech Seed||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p2a: Seismitoad|41/100 tox|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|53/100|[from] item: Leftovers
+|-damage|p2a: Seismitoad|29/100 tox|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|67/100|[silent]
+|-damage|p2a: Seismitoad|0 fnt|[from] psn
+|faint|p2a: Seismitoad
+|upkeep
+|
+|switch|p2a: Frosmoth|Frosmoth, F|70/100 brn
+|turn|26
+|
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|move|p1a: Ferrothorn|Leech Seed|p2a: Frosmoth
+|-start|p2a: Frosmoth|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|74/100|[from] item: Leftovers
+|-damage|p2a: Frosmoth|57/100 brn|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|83/100|[silent]
+|-damage|p2a: Frosmoth|51/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|
+|-damage|p2a: Frosmoth|39/100 brn|[from] Leech Seed|[of] p1a: Toxapex
+|-heal|p1a: Toxapex|99/100|[silent]
+|-damage|p2a: Frosmoth|33/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p2a: Frosmoth|Bug Buzz|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|70/100
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-damage|p2a: Frosmoth|20/100 brn|[from] Leech Seed|[of] p1a: Toxapex
+|-heal|p1a: Toxapex|82/100|[silent]
+|-damage|p2a: Frosmoth|14/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|move|p2a: Frosmoth|Hurricane|p1a: Toxapex
+|-damage|p1a: Toxapex|57/100
+|move|p1a: Toxapex|Scald|p2a: Frosmoth
+|-damage|p2a: Frosmoth|3/100 brn
+|
+|-damage|p2a: Frosmoth|0 fnt|[from] Leech Seed|[of] p1a: Toxapex
+|-heal|p1a: Toxapex|60/100|[silent]
+|faint|p2a: Frosmoth
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|73/100 tox
+|-damage|p2a: Dracovish|48/100 tox|[from] Spikes
+|turn|30
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|83/100
+|-damage|p1a: Ferrothorn|77/100|[from] Stealth Rock
+|move|p2a: Dracovish|Fishious Rend|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|45/100
+|-damage|p2a: Dracovish|35/100 tox|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|51/100|[from] item: Leftovers
+|-damage|p2a: Dracovish|29/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|16/100
+|-damage|p2a: Dracovish|17/100 tox|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Dracovish
+|-start|p2a: Dracovish|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|22/100|[from] item: Leftovers
+|-damage|p2a: Dracovish|4/100 tox|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|34/100|[silent]
+|-damage|p2a: Dracovish|0 fnt|[from] psn
+|faint|p2a: Dracovish
+|upkeep
+|
+|switch|p2a: Pelipper|Pelipper, M|73/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|32
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Pelipper|Hurricane|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|40/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p1a: Toxapex|Toxapex, M|93/100
+|-damage|p1a: Toxapex|81/100|[from] Stealth Rock
+|move|p2a: Pelipper|Hurricane|p1a: Toxapex
+|-damage|p1a: Toxapex|57/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|34
+|
+|move|p2a: Pelipper|Hurricane|p1a: Toxapex
+|-damage|p1a: Toxapex|34/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|84/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|35
+|
+|move|p2a: Pelipper|Hurricane|p1a: Toxapex
+|-damage|p1a: Toxapex|63/100
+|-start|p1a: Toxapex|confusion
+|-activate|p1a: Toxapex|confusion
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|36
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Pelipper|Hurricane|p1a: Rotom
+|-resisted|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|62/100
+|-start|p1a: Rotom|confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|37
+|
+|-activate|p1a: Rotom|confusion
+|move|p1a: Rotom|Volt Switch|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|win|KingSwordYT
+|raw|KingSwordYT's rating: 1473 → 1490(+17 for winning)
+|raw|minggongzero's rating: 1416 → 1399(-17 for losing)
+|l|☆KingSwordYT

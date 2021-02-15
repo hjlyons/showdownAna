@@ -1,0 +1,490 @@
+|ScrapeTime|2020-01-01-21:41:00
+|j|☆Basura inc.
+|j|☆WarGenius
+|player|p1|Basura inc.|n|1341
+|player|p2|WarGenius|ethan|1298
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxtricity, M|
+|poke|p1|Ribombee, F|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Aegislash, F|
+|poke|p1|Seismitoad, F|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Rotom-Heat|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by WarGenius)
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|1
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M, shiny|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Conkeldurr
+|-sidestart|p1: Basura inc.|move: Stealth Rock
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|move|p1a: Conkeldurr|Ice Punch|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|66/100
+|-damage|p1a: Conkeldurr|88/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Conkeldurr
+|-start|p1a: Conkeldurr|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|73/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|76/100 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|85/100|[silent]
+|-damage|p1a: Conkeldurr|69/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F, shiny|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|91/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|4
+|
+|move|p1a: Mandibuzz|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p1: Basura inc.|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Ferrothorn|Knock Off|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|80/100
+|-enditem|p1a: Mandibuzz|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-damage|p1a: Mandibuzz|68/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|5
+|
+|move|p1a: Mandibuzz|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|83/100
+|-damage|p1a: Mandibuzz|55/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Mandibuzz
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: Basura inc.|move: Stealth Rock
+|
+|-damage|p1a: Mandibuzz|43/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|98/100|[silent]
+|upkeep
+|turn|6
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|93/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|
+|-damage|p1a: Mandibuzz|80/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|7
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M, shiny|69/100 brn
+|-damage|p1a: Conkeldurr|63/100 brn|[from] Stealth Rock
+|move|p2a: Ferrothorn|Stealth Rock||[still]
+|-fail|p2a: Ferrothorn
+|
+|-damage|p1a: Conkeldurr|57/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p1a: Conkeldurr|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|54/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Conkeldurr
+|-start|p1a: Conkeldurr|move: Leech Seed
+|
+|-damage|p1a: Conkeldurr|45/100 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|66/100|[silent]
+|-damage|p1a: Conkeldurr|38/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F, shiny|80/100
+|-damage|p1a: Mandibuzz|55/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Knock Off|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|50/100
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Mandibuzz|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p1: Basura inc.|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Ferrothorn|Leech Seed|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|move: Leech Seed
+|
+|-damage|p1a: Mandibuzz|38/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|81/100|[silent]
+|upkeep
+|turn|11
+|inactive|WarGenius has 120 seconds left.
+|
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|88/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: Basura inc.|move: Stealth Rock
+|
+|-damage|p1a: Mandibuzz|75/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|96/100|[silent]
+|upkeep
+|turn|12
+|
+|move|p1a: Mandibuzz|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p1: Basura inc.|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Ferrothorn|Power Whip|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|61/100
+|
+|-damage|p1a: Mandibuzz|49/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|13
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M, shiny|38/100 brn
+|move|p2a: Ferrothorn|Knock Off|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|29/100 brn
+|-enditem|p1a: Conkeldurr|Flame Orb|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-damage|p1a: Conkeldurr|23/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Conkeldurr|Drain Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|2/100
+|-heal|p1a: Conkeldurr|72/100 brn|[from] drain|[of] p2a: Ferrothorn
+|-damage|p1a: Conkeldurr|59/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Conkeldurr|[miss]
+|-miss|p2a: Ferrothorn|p1a: Conkeldurr
+|
+|-damage|p1a: Conkeldurr|53/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Conkeldurr|Ice Punch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-damage|p1a: Conkeldurr|47/100 brn|[from] brn
+|upkeep
+|c|☆Basura inc.|clown
+|inactive|WarGenius has 120 seconds left.
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|turn|16
+|
+|move|p1a: Conkeldurr|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|23/100
+|move|p2a: Toxapex|Scald|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|24/100 brn
+|
+|-heal|p2a: Toxapex|29/100|[from] item: Black Sludge
+|-damage|p1a: Conkeldurr|18/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|2/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-heal|p1a: Conkeldurr|18/100 brn|[from] drain|[of] p2a: Ferrothorn
+|-damage|p1a: Conkeldurr|6/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-damage|p1a: Conkeldurr|0 fnt|[from] brn
+|faint|p1a: Conkeldurr
+|upkeep
+|inactive|WarGenius has 120 seconds left.
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|switch|p2a: Toxapex|Toxapex, M|62/100
+|turn|18
+|
+|move|p1a: Seismitoad|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: WarGenius|move: Stealth Rock
+|move|p2a: Toxapex|Toxic|p1a: Seismitoad
+|-status|p1a: Seismitoad|tox
+|
+|-heal|p2a: Toxapex|69/100|[from] item: Black Sludge
+|-damage|p1a: Seismitoad|94/100 tox|[from] psn
+|upkeep
+|turn|19
+|inactive|WarGenius has 120 seconds left.
+|
+|move|p1a: Seismitoad|Earth Power|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|19/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|69/100
+|
+|-heal|p1a: Seismitoad|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|75/100|[from] item: Black Sludge
+|-damage|p1a: Seismitoad|88/100 tox|[from] psn
+|upkeep
+|turn|20
+|inactive|WarGenius has 120 seconds left.
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|upkeep
+|turn|21
+|inactive|Basura inc. has 120 seconds left.
+|inactive|Basura inc. has 90 seconds left.
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Toxtricity|Shift Gear|p1a: Toxtricity
+|-boost|p1a: Toxtricity|spe|2
+|-boost|p1a: Toxtricity|atk|1
+|
+|upkeep
+|turn|22
+|inactive|Basura inc. has 90 seconds left.
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F, shiny|49/100
+|move|p2a: Excadrill|Rapid Spin|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|35/100
+|-sideend|p2: WarGenius|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-boost|p2a: Excadrill|spe|1
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, F|88/100 tox
+|turn|24
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: WarGenius|move: Stealth Rock
+|
+|-heal|p1a: Seismitoad|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|88/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|move|p1a: Seismitoad|Earth Power|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|55/100
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Seismitoad|94/100 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|61/100|[from] item: Black Sludge
+|-damage|p1a: Seismitoad|82/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|upkeep
+|turn|27
+|inactive|Basura inc. has 120 seconds left.
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Toxtricity|Fire Punch|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|50/100
+|
+|upkeep
+|turn|28
+|inactive|Basura inc. has 120 seconds left.
+|
+|switch|p1a: Aegislash|Aegislash, F, shiny|100/100
+|move|p2a: Excadrill|Earthquake|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|8/100
+|
+|-heal|p1a: Aegislash|14/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Excadrill|Earthquake|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Ribombee|Ribombee, F, shiny|100/100
+|turn|30
+|inactive|Basura inc. has 120 seconds left.
+|
+|move|p1a: Ribombee|Moonblast|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-crit|p2a: Excadrill
+|-damage|p2a: Excadrill|12/100
+|move|p2a: Excadrill|Iron Head|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-enditem|p1a: Ribombee|Focus Sash
+|-damage|p1a: Ribombee|1/100
+|
+|upkeep
+|turn|31
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|-damage|p2a: Rotom|75/100|[from] Stealth Rock
+|move|p1a: Ribombee|Moonblast|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|53/100
+|
+|-heal|p2a: Rotom|59/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Ribombee|Sticky Web|p2a: Rotom
+|-sidestart|p2: WarGenius|move: Sticky Web
+|move|p2a: Rotom|Overheat|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Ribombee
+|
+|-heal|p2a: Rotom|65/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|turn|33
+|
+|move|p1a: Toxtricity|Shift Gear|p1a: Toxtricity
+|-boost|p1a: Toxtricity|spe|2
+|-boost|p1a: Toxtricity|atk|1
+|move|p2a: Rotom|Will-O-Wisp|p1a: Toxtricity
+|-status|p1a: Toxtricity|brn
+|
+|-heal|p2a: Rotom|72/100|[from] item: Leftovers
+|-damage|p1a: Toxtricity|94/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|42/100
+|-enditem|p1a: Toxtricity|Throat Spray
+|-boost|p1a: Toxtricity|spa|1
+|move|p2a: Rotom|Overheat|p1a: Toxtricity
+|-damage|p1a: Toxtricity|55/100 brn
+|-unboost|p2a: Rotom|spa|2
+|
+|-heal|p2a: Rotom|48/100|[from] item: Leftovers
+|-damage|p1a: Toxtricity|49/100 brn|[from] brn
+|upkeep
+|turn|35
+|c|☆Basura inc.|gg
+|
+|move|p2a: Rotom|Protect|p2a: Rotom
+|-singleturn|p2a: Rotom|Protect
+|move|p1a: Toxtricity|Boomburst|p2a: Rotom
+|-activate|p2a: Rotom|move: Protect
+|
+|-heal|p2a: Rotom|54/100|[from] item: Leftovers
+|-damage|p1a: Toxtricity|43/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-damage|p1a: Toxtricity|37/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|turn|37
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|11/100
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|61/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Toxtricity|30/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|switch|p2a: Excadrill|Excadrill, F|12/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Toxtricity|Overdrive|p2a: Excadrill
+|-immune|p2a: Excadrill
+|
+|-damage|p1a: Toxtricity|24/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-damage|p1a: Toxtricity|18/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|61/100
+|turn|40
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|-damage|p1a: Toxtricity|12/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-activate|p2a: Toxapex|move: Sticky Web
+|-unboost|p2a: Toxapex|spe|1
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|turn|41
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|win|Basura inc.
+|l|☆WarGenius
+|raw|Basura inc.'s rating: 1362 → 1378(+16 for winning)
+|raw|WarGenius's rating: 1298 → 1278(-20 for losing)

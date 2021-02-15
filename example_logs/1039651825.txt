@@ -1,0 +1,192 @@
+|ScrapeTime|2020-01-02-13:46:48
+|j|☆Specter_punk
+|j|☆Taiyougetsu
+|player|p1|Specter_punk|ghetsis|1069
+|player|p2|Taiyougetsu|101|1120
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corviknight, M|
+|poke|p1|Hippowdon, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Centiskorch, M|
+|poke|p1|Rotom-Wash|
+|poke|p2|Cinderace, M|
+|poke|p2|Dusclops, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Drapion, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Abomasnow, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, F, shiny|100/100
+|switch|p2a: Drapion|Drapion, F|100/100
+|turn|1
+|
+|move|p1a: Dragapult|Fire Blast|p2a: Drapion
+|-damage|p2a: Drapion|52/100
+|move|p2a: Drapion|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-enditem|p1a: Dragapult|Choice Scarf|[from] move: Knock Off|[of] p2a: Drapion
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M, shiny|100/100
+|turn|2
+|
+|move|p2a: Drapion|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|77/100
+|-damage|p2a: Drapion|39/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p2a: Drapion
+|move|p1a: Ferrothorn|Spikes|p2a: Drapion
+|-sidestart|p2: Taiyougetsu|Spikes
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Drapion|Leech Life|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|64/100
+|-heal|p2a: Drapion|47/100|[from] drain|[of] p1a: Ferrothorn
+|-damage|p2a: Drapion|35/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Drapion
+|-start|p2a: Drapion|move: Leech Seed
+|
+|-damage|p2a: Drapion|23/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|74/100|[silent]
+|upkeep
+|turn|4
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Ferrothorn|Spikes|p2a: Cinderace
+|-sidestart|p2: Taiyougetsu|Spikes
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Corviknight|Corviknight, M, shiny|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|19/100
+|-status|p1a: Corviknight|brn
+|
+|-heal|p1a: Corviknight|25/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|19/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Centiskorch|Centiskorch, M, shiny|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Centiskorch
+|-start|p1a: Centiskorch|ability: Flash Fire
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: Taiyougetsu|Spikes|[silent]
+|-sidestart|p1: Specter_punk|Spikes|[silent]
+|-sidestart|p1: Specter_punk|Spikes|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Centiskorch|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|69/100
+|-enditem|p2a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Centiskorch
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Centiskorch
+|-damage|p1a: Centiskorch|73/100
+|move|p1a: Centiskorch|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|47/100
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Centiskorch
+|-damage|p1a: Centiskorch|48/100
+|move|p1a: Centiskorch|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|22/100
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Cinderace|U-turn|p1a: Centiskorch
+|-resisted|p1a: Centiskorch
+|-damage|p1a: Centiskorch|36/100
+|
+|switch|p2a: Drapion|Drapion, F|23/100|[from]move: U-turn
+|move|p1a: Centiskorch|Rest|p1a: Centiskorch
+|-status|p1a: Centiskorch|slp|[from] move: Rest
+|-heal|p1a: Centiskorch|100/100 slp|[silent]
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Drapion|Toxic Spikes|p1a: Centiskorch
+|-sidestart|p1: Specter_punk|move: Toxic Spikes
+|cant|p1a: Centiskorch|slp
+|move|p1a: Centiskorch|Sleep Talk|p1a: Centiskorch
+|move|p1a: Centiskorch|Knock Off|p2a: Drapion|[from]Sleep Talk
+|-resisted|p2a: Drapion
+|-damage|p2a: Drapion|10/100
+|-enditem|p2a: Drapion|Focus Sash|[from] move: Knock Off|[of] p1a: Centiskorch
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Drapion|Toxic Spikes|p1a: Centiskorch
+|-sidestart|p1: Specter_punk|move: Toxic Spikes
+|cant|p1a: Centiskorch|slp
+|move|p1a: Centiskorch|Sleep Talk|p1a: Centiskorch
+|move|p1a: Centiskorch|Knock Off|p2a: Drapion|[from]Sleep Talk
+|-resisted|p2a: Drapion
+|-damage|p2a: Drapion|0 fnt
+|faint|p2a: Drapion
+|
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|13
+|
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|-curestatus|p1a: Centiskorch|slp|[msg]
+|move|p1a: Centiskorch|Knock Off|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|89/100
+|-enditem|p2a: Tyranitar|Red Card|[from] move: Knock Off|[of] p1a: Centiskorch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Centiskorch|94/100|[from] Sandstorm
+|upkeep
+|turn|14
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Taiyougetsu)
+|l|☆Specter_punk
+|inactive|Specter_punk disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|Specter_punk has 30 seconds to reconnect!
+|inactive|Specter_punk has 20 seconds to reconnect!
+|inactive|Specter_punk has 15 seconds to reconnect!
+|inactive|Specter_punk has 10 seconds to reconnect!
+|inactive|Specter_punk has 5 seconds to reconnect!
+|-message|Specter_punk lost due to inactivity.
+|
+|win|Taiyougetsu
+|raw|Specter_punk's rating: 1069 → 1052(-17 for losing)
+|raw|Taiyougetsu's rating: 1120 → 1141(+21 for winning)

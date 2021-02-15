@@ -1,0 +1,334 @@
+|ScrapeTime|2020-01-02-05:35:10
+|j|☆Fkuro
+|j|☆Flippersjosh
+|player|p1|Fkuro|293|1197
+|player|p2|Flippersjosh|lucas-gen4pt|1259
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Duraludon, M|
+|poke|p1|Hydreigon, M|
+|poke|p1|Gyarados, M|
+|poke|p1|Ditto|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Excadrill, M|
+|poke|p2|Ninetales, M|
+|poke|p2|Shiftry, M|
+|poke|p2|Dugtrio, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Dragapult, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Flippersjosh)
+|
+|start
+|switch|p1a: Duraludon|Duraludon, M|100/100
+|switch|p2a: Ninetales|Ninetales, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|1
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Ninetales|Mystical Fire|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|77/100
+|-unboost|p1a: Hydreigon|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p1a: Hydreigon|Heat Wave|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|71/100
+|-damage|p1a: Hydreigon|67/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Flippersjosh|move: Light Screen
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Ninetales|Ninetales, M, shiny|100/100
+|move|p1a: Weezing|Will-O-Wisp|p2a: Ninetales
+|-immune|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Ninetales|Mystical Fire|p1a: Weezing
+|-damage|p1a: Weezing|45/100
+|-unboost|p1a: Weezing|spa|1
+|move|p1a: Weezing|Sludge Wave|p2a: Ninetales
+|-damage|p2a: Ninetales|88/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Weezing|51/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Ninetales|[from] ability: Imposter
+|move|p2a: Ninetales|Will-O-Wisp|p1a: Ditto
+|-immune|p1a: Ditto
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Ditto|Mystical Fire|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|88/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p1a: Weezing|Weezing-Galar, M|51/100
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|63/100
+|
+|-weather|none
+|-heal|p1a: Weezing|57/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: Weezing|Sludge Wave|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-activate|p2a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p1a: Weezing|63/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Weezing
+|move|p1a: Weezing|Sludge Wave|p2a: Dragapult|[miss]
+|-miss|p1a: Weezing|p2a: Dragapult
+|
+|-heal|p1a: Weezing|69/100|[from] item: Leftovers
+|-sideend|p2: Flippersjosh|move: Light Screen
+|upkeep
+|turn|11
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Weezing|[from]lockedmove
+|-damage|p1a: Weezing|20/100
+|move|p1a: Weezing|Sludge Wave|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p1a: Weezing|26/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Weezing
+|move|p1a: Weezing|Sludge Wave|p2a: Dragapult|[miss]
+|-miss|p1a: Weezing|p2a: Dragapult
+|
+|-heal|p1a: Weezing|32/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Weezing|[from]lockedmove
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Dragapult|[from] ability: Imposter
+|turn|14
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|71/100
+|move|p1a: Ditto|Phantom Force||[still]
+|-prepare|p1a: Ditto|Phantom Force|p2a: Grimmsnarl
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Flippersjosh|Reflect
+|move|p1a: Ditto|Phantom Force|p2a: Grimmsnarl|[from]lockedmove
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|47/100
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Duraludon|Duraludon, M|100/100
+|switch|p2a: Dugtrio|Dugtrio, M, shiny|100/100
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Duraludon
+|-supereffective|p1a: Duraludon
+|-enditem|p1a: Duraludon|Shuca Berry|[eat]
+|-enditem|p1a: Duraludon|Shuca Berry|[weaken]
+|-damage|p1a: Duraludon|62/100
+|move|p1a: Duraludon|Steel Beam|p2a: Dugtrio
+|-enditem|p2a: Dugtrio|Focus Sash
+|-damage|p2a: Dugtrio|1/100
+|-damage|p1a: Duraludon|12/100|[from] mindblown
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Dugtrio|Memento|p1a: Duraludon
+|-unboost|p1a: Duraludon|atk|2
+|-unboost|p1a: Duraludon|spa|2
+|faint|p2a: Dugtrio
+|move|p1a: Duraludon|Dragon Pulse|p2: Dugtrio|[notarget]
+|-fail|p1a: Duraludon
+|
+|upkeep
+|inactive|Flippersjosh has 120 seconds left.
+|
+|switch|p2a: Dragapult|Dragapult, M|63/100
+|turn|19
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Duraludon
+|-damage|p1a: Duraludon|0 fnt
+|-hitcount|p1a: Duraludon|1
+|faint|p1a: Duraludon
+|
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|turn|20
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|38/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Gyarados|Waterfall|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-activate|p2a: Dragapult|move: Substitute|[damage]
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Gyarados
+|move|p1a: Gyarados|Waterfall|p2a: Dragapult|[miss]
+|-miss|p1a: Gyarados|p2a: Dragapult
+|
+|-sideend|p2: Flippersjosh|Reflect
+|upkeep
+|turn|23
+|
+|switch|p1a: Hydreigon|Hydreigon, M|67/100
+|move|p2a: Dragapult|Phantom Force|p1a: Hydreigon|[from]lockedmove
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|25/100
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|-hitcount|p1a: Hydreigon|1
+|faint|p1a: Hydreigon
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-item|p1a: Excadrill|Air Balloon
+|turn|25
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Excadrill
+|move|p1a: Excadrill|Earthquake|p2a: Dragapult|[miss]
+|-miss|p1a: Excadrill|p2a: Dragapult
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Excadrill|[from]lockedmove
+|-damage|p1a: Excadrill|0 fnt
+|-enditem|p1a: Excadrill|Air Balloon
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|turn|27
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Gyarados
+|move|p1a: Gyarados|Waterfall|p2a: Dragapult|[miss]
+|-miss|p1a: Gyarados|p2a: Dragapult
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Gyarados|[from]lockedmove
+|-damage|p1a: Gyarados|8/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-heal|p1a: Gyarados|14/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|-hitcount|p1a: Gyarados|1
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|100/100
+|turn|30
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Ditto
+|-damage|p1a: Ditto|51/100
+|-damage|p1a: Ditto|4/100
+|-hitcount|p1a: Ditto|2
+|move|p1a: Ditto|Transform||[still]
+|-fail|p1a: Ditto
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|-hitcount|p1a: Ditto|1
+|faint|p1a: Ditto
+|
+|win|Flippersjosh
+|l|☆Fkuro

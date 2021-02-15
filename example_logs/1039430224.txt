@@ -1,0 +1,185 @@
+|ScrapeTime|2020-01-02-01:24:55
+|j|☆luqs22
+|j|☆Nandof
+|player|p1|luqs22|2|1097
+|player|p2|Nandof|1|1068
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Aegislash, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Ribombee, M|
+|poke|p2|Gastrodon, M|
+|poke|p2|Jolteon, F|
+|poke|p2|Haxorus, M|
+|poke|p2|Mimikyu, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Gallade, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by luqs22)
+|
+|move|p1a: Ribombee|Sticky Web|p2a: Jolteon
+|-sidestart|p2: Nandof|move: Sticky Web
+|move|p2a: Jolteon|Thunderbolt|p1a: Ribombee
+|-damage|p1a: Ribombee|39/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Ribombee|Light Screen|p1a: Ribombee
+|-sidestart|p1: luqs22|move: Light Screen
+|move|p2a: Jolteon|Thunderbolt|p1a: Ribombee
+|-damage|p1a: Ribombee|8/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Ribombee|Reflect|p1a: Ribombee
+|-sidestart|p1: luqs22|Reflect
+|move|p2a: Jolteon|Thunderbolt|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|4
+|
+|switch|p2a: Gastrodon|Gastrodon, M|100/100
+|-activate|p2a: Gastrodon|move: Sticky Web
+|-unboost|p2a: Gastrodon|spe|1
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Excadrill|Iron Head|p2a: Gastrodon
+|-resisted|p2a: Gastrodon
+|-damage|p2a: Gastrodon|48/100
+|move|p2a: Gastrodon|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|64/100
+|
+|-heal|p2a: Gastrodon|54/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Excadrill|Earthquake|p2a: Gastrodon
+|-crit|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|turn|7
+|
+|move|p1a: Excadrill|Iron Head|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|71/100
+|cant|p2a: Corviknight|flinch
+|
+|-heal|p2a: Corviknight|78/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Corviknight|Brave Bird|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|48/100
+|-damage|p2a: Corviknight|72/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|78/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Excadrill|Iron Head|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|31/100
+|move|p2a: Corviknight|Hone Claws|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|accuracy|1
+|
+|-heal|p2a: Corviknight|37/100|[from] item: Leftovers
+|-sideend|p1: luqs22|move: Light Screen
+|upkeep
+|turn|10
+|
+|move|p1a: Excadrill|Iron Head|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-sideend|p1: luqs22|Reflect
+|upkeep
+|
+|switch|p2a: Gallade|Gallade, M|100/100
+|-activate|p2a: Gallade|move: Sticky Web
+|-unboost|p2a: Gallade|spe|1
+|turn|11
+|
+|move|p1a: Excadrill|Earthquake|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|upkeep
+|
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|-activate|p2a: Jolteon|move: Sticky Web
+|-unboost|p2a: Jolteon|spe|1
+|turn|12
+|
+|move|p1a: Excadrill|Earthquake|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|upkeep
+|
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|-activate|p2a: Mimikyu|move: Sticky Web
+|-unboost|p2a: Mimikyu|spe|1
+|turn|13
+|
+|move|p1a: Excadrill|Iron Head|p2a: Mimikyu
+|-supereffective|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|upkeep
+|
+|switch|p2a: Haxorus|Haxorus, M, shiny|100/100
+|-activate|p2a: Haxorus|move: Sticky Web
+|-unboost|p2a: Haxorus|spe|1
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|14
+|
+|move|p1a: Excadrill|Earthquake|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|win|luqs22
+|raw|luqs22's rating: 1097 → 1120(+23 for winning)
+|raw|Nandof's rating: 1068 → 1050(-18 for losing)

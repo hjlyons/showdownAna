@@ -1,0 +1,244 @@
+|ScrapeTime|2020-01-01-23:26:52
+|j|☆Barbar3d
+|j|☆MrPenguin14Ag
+|player|p1|Barbar3d|pokefanf-gen4|1117
+|player|p2|MrPenguin14Ag|290|1156
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Indeedee, M|
+|poke|p1|Obstagoon, M|
+|poke|p1|Hawlucha, F|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Seismitoad, F|
+|poke|p2|Runerigus, M|
+|poke|p2|Gengar, M|
+|poke|p2|Mimikyu, F|
+|poke|p2|Froslass, F|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Dragapult, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|switch|p2a: Froslass|Froslass, F|100/100
+|turn|1
+|
+|switch|p1a: Obstagoon|Obstagoon, M|100/100
+|move|p2a: Froslass|Taunt|p1a: Obstagoon
+|-start|p1a: Obstagoon|move: Taunt
+|
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|move|p2a: Froslass|Spikes|p1a: Obstagoon
+|-sidestart|p1: Barbar3d|Spikes
+|move|p1a: Obstagoon|Knock Off|p2a: Froslass
+|-supereffective|p2a: Froslass
+|-enditem|p2a: Froslass|Focus Sash
+|-damage|p2a: Froslass|1/100
+|-start|p1a: Obstagoon|Disable|Knock Off|[from] ability: Cursed Body|[of] p2a: Froslass
+|
+|-damage|p1a: Obstagoon|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Runerigus|Runerigus, M|100/100
+|move|p1a: Obstagoon|Facade|p2a: Runerigus
+|-immune|p2a: Runerigus
+|
+|-damage|p1a: Obstagoon|88/100 brn|[from] brn
+|-end|p1a: Obstagoon|move: Taunt
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MrPenguin14Ag)
+|inactive|Barbar3d has 120 seconds left.
+|
+|move|p1a: Obstagoon|Parting Shot|p2a: Runerigus
+|-unboost|p2a: Runerigus|atk|1
+|-unboost|p2a: Runerigus|spa|1
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100|[from]move: Parting Shot
+|-damage|p1a: Grimmsnarl|88/100|[from] Spikes
+|move|p2a: Runerigus|Body Press|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|58/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Barbar3d|move: Light Screen
+|move|p2a: Runerigus|Will-O-Wisp|p1a: Grimmsnarl
+|-status|p1a: Grimmsnarl|brn
+|
+|-damage|p1a: Grimmsnarl|52/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-damage|p1a: Indeedee|88/100|[from] Spikes
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Runerigus|Stealth Rock|p1a: Indeedee
+|-sidestart|p1: Barbar3d|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|-damage|p1a: Hawlucha|88/100|[from] Stealth Rock
+|-enditem|p1a: Hawlucha|Psychic Seed
+|-boost|p1a: Hawlucha|spd|1
+|switch|p2a: Corsola|Corsola-Galar, F, shiny|100/100
+|
+|upkeep
+|turn|8
+|inactive|Barbar3d has 120 seconds left.
+|inactive|MrPenguin14Ag has 120 seconds left.
+|
+|move|p1a: Hawlucha|Acrobatics|p2a: Corsola
+|-damage|p2a: Corsola|64/100
+|-start|p1a: Hawlucha|Disable|Acrobatics|[from] ability: Cursed Body|[of] p2a: Corsola
+|move|p2a: Corsola|Will-O-Wisp|p1a: Hawlucha
+|-status|p1a: Hawlucha|brn
+|
+|-damage|p1a: Hawlucha|82/100 brn|[from] brn
+|upkeep
+|turn|9
+|inactive|Barbar3d has 120 seconds left.
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|-damage|p1a: Seismitoad|94/100|[from] Stealth Rock
+|-damage|p1a: Seismitoad|82/100|[from] Spikes
+|move|p2a: Corsola|Whirlpool|p1a: Seismitoad
+|-heal|p1a: Seismitoad|100/100|[from] ability: Water Absorb|[of] p2a: Corsola
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Froslass|Froslass, F|1/100
+|move|p1a: Seismitoad|Toxic|p2a: Froslass|[miss]
+|-miss|p1a: Seismitoad|p2a: Froslass
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|11
+|
+|move|p2a: Froslass|Taunt|p1a: Seismitoad
+|-start|p1a: Seismitoad|move: Taunt
+|cant|p1a: Seismitoad|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Froslass|Spikes|p1a: Seismitoad
+|-sidestart|p1: Barbar3d|Spikes
+|move|p1a: Seismitoad|Scald|p2a: Froslass
+|-damage|p2a: Froslass|0 fnt
+|-start|p1a: Seismitoad|Disable|Scald|[from] ability: Cursed Body|[of] p2a: Froslass
+|faint|p2a: Froslass
+|
+|-sideend|p1: Barbar3d|move: Light Screen
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, M, shiny|100/100
+|turn|13
+|
+|switch|p1a: Obstagoon|Obstagoon, M|88/100 brn
+|-damage|p1a: Obstagoon|76/100 brn|[from] Stealth Rock
+|-damage|p1a: Obstagoon|60/100 brn|[from] Spikes
+|move|p2a: Gengar|Nasty Plot|p2a: Gengar
+|-boost|p2a: Gengar|spa|2
+|
+|-damage|p1a: Obstagoon|53/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Gengar|Sludge Wave|p1a: Obstagoon
+|-damage|p1a: Obstagoon|0 fnt
+|faint|p1a: Obstagoon
+|
+|upkeep
+|
+|switch|p1a: Indeedee|Indeedee, M|88/100
+|-damage|p1a: Indeedee|72/100|[from] Spikes
+|-damage|p1a: Indeedee|60/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|15
+|
+|move|p2a: Gengar|Sludge Wave|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|-damage|p1a: Seismitoad|84/100|[from] Spikes
+|-damage|p1a: Seismitoad|78/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Gengar|Energy Ball|p1a: Seismitoad
+|-supereffective|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|52/100 brn
+|-damage|p1a: Grimmsnarl|35/100 brn|[from] Spikes
+|-damage|p1a: Grimmsnarl|23/100 brn|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Barbar3d|move: Light Screen
+|move|p2a: Gengar|Sludge Wave|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Hawlucha|Hawlucha, F|82/100 brn
+|-damage|p1a: Hawlucha|70/100 brn|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Gengar|Sludge Wave|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|-damage|p1a: Corsola|84/100|[from] Spikes
+|-damage|p1a: Corsola|71/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Gengar|Nasty Plot|p2a: Gengar
+|-boost|p2a: Gengar|spa|2
+|move|p1a: Corsola|Will-O-Wisp|p2a: Gengar
+|-status|p2a: Gengar|brn
+|
+|-damage|p2a: Gengar|94/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|20
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|win|MrPenguin14Ag
+|l|☆MrPenguin14Ag

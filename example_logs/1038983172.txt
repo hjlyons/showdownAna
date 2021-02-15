@@ -1,0 +1,296 @@
+|ScrapeTime|2020-01-01-03:35:24
+|j|☆s2 Matheus
+|j|☆grayblood
+|player|p1|s2 Matheus|pokefanf-gen4|1141
+|player|p2|grayblood|12|1195
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, M|
+|poke|p1|Gastrodon, M|
+|poke|p1|Dugtrio, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Togekiss, F|
+|poke|p1|Conkeldurr, M|
+|poke|p2|Jolteon, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Barraskewda, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Dracovish|
+|poke|p2|Crawdaunt, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|j| ksonx
+|
+|move|p2a: Pelipper|Knock Off|p1a: Gastrodon
+|-damage|p1a: Gastrodon|88/100
+|-enditem|p1a: Gastrodon|Leftovers|[from] move: Knock Off|[of] p2a: Pelipper
+|move|p1a: Gastrodon|Scald|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|72/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Pelipper|U-turn|p1a: Gastrodon
+|-damage|p1a: Gastrodon|79/100
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100|[from]move: U-turn
+|move|p1a: Gastrodon|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|87/100
+|-status|p2a: Ferrothorn|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ferrothorn|81/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Togekiss
+|-sidestart|p1: s2 Matheus|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ferrothorn|75/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|move|p1a: Togekiss|Substitute|p1a: Togekiss
+|-start|p1a: Togekiss|Substitute
+|-damage|p1a: Togekiss|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Togekiss|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Jolteon|Thunder|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-end|p1a: Togekiss|Substitute
+|move|p1a: Togekiss|Nasty Plot|p1a: Togekiss
+|-boost|p1a: Togekiss|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Togekiss|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Jolteon|Thunder|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|turn|7
+|
+|switch|p2a: Obamakewda|Barraskewda, F|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Obamakewda
+|-sidestart|p2: grayblood|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Obamakewda|Close Combat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|29/100
+|-damage|p2a: Obamakewda|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-unboost|p2a: Obamakewda|def|1
+|-unboost|p2a: Obamakewda|spd|1
+|-damage|p2a: Obamakewda|78/100|[from] item: Life Orb
+|move|p1a: Ferrothorn|Power Whip|p2a: Obamakewda
+|-supereffective|p2a: Obamakewda
+|-damage|p2a: Obamakewda|0 fnt
+|faint|p2a: Obamakewda
+|
+|-weather|none
+|-heal|p1a: Ferrothorn|36/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Pelipper|Pelipper, M|72/100
+|-damage|p2a: Pelipper|48/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|9
+|
+|move|p2a: Pelipper|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|30/100
+|-damage|p2a: Pelipper|35/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Dracovish|Dracovish|100/100|[from]move: U-turn
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Dracovish
+|-start|p2a: Dracovish|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|36/100|[from] item: Leftovers
+|-damage|p2a: Dracovish|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|48/100|[silent]
+|upkeep
+|turn|10
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Dracovish|63/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Gastrodon|Gastrodon, M|79/100
+|-damage|p1a: Gastrodon|73/100|[from] Stealth Rock
+|turn|11
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|75/100 brn
+|-damage|p2a: Ferrothorn|69/100 brn|[from] Stealth Rock
+|move|p1a: Gastrodon|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|49/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ferrothorn|43/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Rotom
+|-start|p1a: Rotom|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Rotom|64/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|53/100 brn|[silent]
+|-damage|p2a: Ferrothorn|48/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|-damage|p2a: Jolteon|88/100|[from] Stealth Rock
+|move|p1a: Rotom|Overheat|p2a: Jolteon
+|-damage|p2a: Jolteon|57/100
+|-unboost|p1a: Rotom|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Rotom|51/100|[from] Leech Seed|[of] p2a: Jolteon
+|-heal|p2a: Jolteon|71/100|[silent]
+|upkeep
+|turn|14
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by s2 Matheus)
+|
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|-damage|p1a: Dugtrio|94/100|[from] Stealth Rock
+|move|p2a: Jolteon|Weather Ball|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆s2 Matheus|dt! weather ball
+|c|☆s2 Matheus|!dt weather ball
+|raw|Weather Ball  Power50 Accuracy100% PP16 Power doubles and type varies in each weather. 
+|raw|Priority: 0 |&ThickSpaceGen: 3 |&ThickSpace✓ Bullet |&ThickSpaceZ-Power: 160 |&ThickSpaceDynamax Power: 130 |&ThickSpaceTarget: One Adjacent Pokémon
+
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p1a: Conkeldurr|94/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p2a: Dracovish|Dracovish|63/100
+|-damage|p2a: Dracovish|51/100|[from] Stealth Rock
+|move|p1a: Conkeldurr|Earthquake|p2a: Dracovish
+|-damage|p2a: Dracovish|5/100
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|16
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|-weather|none
+|-damage|p1a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Pelipper|Pelipper, M|35/100
+|-damage|p2a: Pelipper|10/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|17
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Conkeldurr|82/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|-damage|p2a: Crawdaunt|88/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Conkeldurr|76/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Jolteon|Jolteon, F|71/100
+|-damage|p2a: Jolteon|59/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Conkeldurr|Mach Punch|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Conkeldurr|70/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|48/100 brn
+|-damage|p2a: Ferrothorn|42/100 brn|[from] Stealth Rock
+|turn|20
+|c|☆s2 Matheus|MACH PUNCH
+|
+|move|p1a: Conkeldurr|Drain Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Chople Berry|[eat]
+|-enditem|p2a: Ferrothorn|Chople Berry|[weaken]
+|-damage|p2a: Ferrothorn|0 fnt
+|-heal|p1a: Conkeldurr|88/100 brn|[from] drain|[of] p2a: Ferrothorn
+|-damage|p1a: Conkeldurr|75/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|win|s2 Matheus
+|c|☆s2 Matheus|gg
+|l|☆grayblood
+|raw|s2 Matheus's rating: 1141 → 1170(+29 for winning)
+|raw|grayblood's rating: 1195 → 1166(-29 for losing)

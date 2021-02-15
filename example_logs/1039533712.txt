@@ -1,0 +1,117 @@
+|ScrapeTime|2020-01-02-06:04:46
+|j|☆OhSnapYo
+|j|☆Jayne09
+|player|p1|OhSnapYo|226|1080
+|player|p2|Jayne09|102|1075
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxapex, M|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Reuniclus, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Rotom-Heat|
+|poke|p2|Sandaconda, F|
+|poke|p2|Sylveon, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Galvantula, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|turn|1
+|
+|move|p2a: Galvantula|Thunder|p1a: Ferrothorn|[miss]
+|-miss|p2a: Galvantula|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Galvantula
+|-start|p2a: Galvantula|move: Leech Seed
+|
+|-damage|p2a: Galvantula|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|2
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|85/100
+|-enditem|p2a: Rotom|Choice Scarf|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Rotom|Trick|p1a: Ferrothorn
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Leftovers|[silent]|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|move|p1a: Ferrothorn|Leech Seed|p2a: Rotom
+|-start|p2a: Rotom|move: Leech Seed
+|
+|-heal|p2a: Rotom|91/100|[from] item: Leftovers
+|-damage|p2a: Rotom|79/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|4
+|
+|move|p2a: Rotom|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|90/100
+|
+|switch|p2a: Sandaconda|Sandaconda, F|100/100|[from]move: Volt Switch
+|move|p1a: Ferrothorn|Spikes|p2a: Sandaconda
+|-sidestart|p2: Jayne09|Spikes
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Sandaconda|Coil|p2a: Sandaconda
+|-boost|p2a: Sandaconda|atk|1
+|-boost|p2a: Sandaconda|def|1
+|-boost|p2a: Sandaconda|accuracy|1
+|move|p1a: Ferrothorn|Leech Seed|p2a: Sandaconda
+|-start|p2a: Sandaconda|move: Leech Seed
+|
+|-damage|p2a: Sandaconda|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|6
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|move|p2a: Sandaconda|Coil|p2a: Sandaconda
+|-boost|p2a: Sandaconda|atk|1
+|-boost|p2a: Sandaconda|def|1
+|-boost|p2a: Sandaconda|accuracy|1
+|
+|-damage|p2a: Sandaconda|76/100|[from] Leech Seed|[of] p1a: Corsola
+|upkeep
+|turn|7
+|
+|move|p2a: Sandaconda|Earthquake|p1a: Corsola
+|-damage|p1a: Corsola|65/100
+|-start|p2a: Sandaconda|Disable|Earthquake|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Will-O-Wisp|p2a: Sandaconda
+|-status|p2a: Sandaconda|brn
+|
+|-damage|p2a: Sandaconda|63/100 brn|[from] Leech Seed|[of] p1a: Corsola
+|-heal|p1a: Corsola|79/100|[silent]
+|-damage|p2a: Sandaconda|57/100 brn|[from] brn
+|upkeep
+|turn|8
+|-message|Jayne09 forfeited.
+|
+|win|OhSnapYo
+|l|☆Jayne09
+|raw|OhSnapYo's rating: 1080 → 1107(+27 for winning)
+|raw|Jayne09's rating: 1075 → 1054(-21 for losing)

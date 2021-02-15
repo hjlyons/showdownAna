@@ -1,0 +1,350 @@
+|ScrapeTime|2020-01-01-19:56:35
+|j|☆beeoi
+|j|☆dragaputo
+|player|p1|beeoi|artist|1761
+|player|p2|dragaputo|266|1719
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Shuckle, M|
+|poke|p1|Obstagoon, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Mimikyu, M|
+|poke|p1|Cloyster, M|
+|poke|p1|Toxtricity, M|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Hydreigon, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Clefable, M|
+|poke|p2|Seismitoad, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|j| habajiga
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dragaputo)
+|
+|start
+|switch|p1a: FEBuilder Debugger|Shuckle, M|100/100
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|1
+|j| amimec
+|
+|move|p2a: Corviknight|Iron Head|p1a: FEBuilder Debugger
+|-supereffective|p1a: FEBuilder Debugger
+|-damage|p1a: FEBuilder Debugger|75/100
+|cant|p1a: FEBuilder Debugger|flinch
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Corviknight|Iron Head|p1a: FEBuilder Debugger
+|-supereffective|p1a: FEBuilder Debugger
+|-crit|p1a: FEBuilder Debugger
+|-damage|p1a: FEBuilder Debugger|37/100
+|move|p1a: FEBuilder Debugger|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: dragaputo|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Corviknight|Iron Head|p1a: FEBuilder Debugger
+|-supereffective|p1a: FEBuilder Debugger
+|-damage|p1a: FEBuilder Debugger|12/100
+|move|p1a: FEBuilder Debugger|Encore|p2a: Corviknight
+|-start|p2a: Corviknight|Encore
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|move|p1a: FEBuilder Debugger|Final Gambit|p2a: Seismitoad
+|-damage|p2a: Seismitoad|88/100
+|faint|p1a: FEBuilder Debugger
+|
+|-heal|p2a: Seismitoad|94/100|[from] item: Leftovers
+|upkeep
+|j|+Always
+|
+|switch|p1a: Fix Body Press|Obstagoon, M|100/100
+|turn|5
+|j| ahhhaaaaa
+|j| neutralzone!!
+|
+|move|p1a: Fix Body Press|Knock Off|p2a: Seismitoad
+|-damage|p2a: Seismitoad|65/100
+|-enditem|p2a: Seismitoad|Leftovers|[from] move: Knock Off|[of] p1a: Fix Body Press
+|move|p2a: Seismitoad|Toxic|p1a: Fix Body Press
+|-status|p1a: Fix Body Press|tox
+|
+|-damage|p1a: Fix Body Press|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|j| adonis107
+|inactive|beeoi has 120 seconds left.
+|
+|move|p1a: Fix Body Press|Facade|p2a: Seismitoad
+|-damage|p2a: Seismitoad|7/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Fix Body Press
+|-sidestart|p1: beeoi|move: Stealth Rock
+|
+|-damage|p1a: Fix Body Press|82/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Fix Body Press|Knock Off|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-damage|p1a: Fix Body Press|64/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|move|p2a: Seismitoad|Protect||[still]
+|-fail|p2a: Seismitoad
+|move|p1a: Fix Body Press|Knock Off|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-damage|p1a: Fix Body Press|39/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p2a: Conkeldurr|95/100|[from] Stealth Rock
+|turn|9
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Fix Body Press
+|-supereffective|p1a: Fix Body Press
+|-damage|p1a: Fix Body Press|0 fnt
+|faint|p1a: Fix Body Press
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|j| Shunshun
+|
+|switch|p1a: Star of Violence|Mimikyu, M|100/100
+|-damage|p1a: Star of Violence|88/100|[from] Stealth Rock
+|turn|10
+|
+|move|p1a: Star of Violence|Swords Dance|p1a: Star of Violence
+|-boost|p1a: Star of Violence|atk|2
+|move|p2a: Conkeldurr|Earthquake|p1a: Star of Violence
+|-activate|p1a: Star of Violence|ability: Disguise
+|-damage|p1a: Star of Violence|88/100
+|detailschange|p1a: Star of Violence|Mimikyu-Busted, M
+|-damage|p1a: Star of Violence|76/100|[from] ability: Disguise|[of] p1a: Star of Violence
+|
+|-damage|p2a: Conkeldurr|89/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Star of Violence|Play Rough|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|turn|12
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Star of Violence
+|-supereffective|p1a: Star of Violence
+|-damage|p1a: Star of Violence|4/100
+|move|p1a: Star of Violence|Play Rough|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|turn|13
+|
+|move|p1a: Star of Violence|Shadow Claw|p2a: Corviknight
+|-damage|p2a: Corviknight|34/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|84/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|90/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|j| Shes Magic
+|
+|move|p1a: Star of Violence|Shadow Claw|p2a: Corviknight
+|-damage|p2a: Corviknight|37/100
+|move|p2a: Corviknight|U-turn|p1a: Star of Violence
+|-resisted|p1a: Star of Violence
+|-damage|p1a: Star of Violence|0 fnt
+|faint|p1a: Star of Violence
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p1a: Christmas Future|Dragapult, M|100/100
+|-damage|p1a: Christmas Future|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Christmas Future|Dragon Dance|p1a: Christmas Future
+|-boost|p1a: Christmas Future|atk|1
+|-boost|p1a: Christmas Future|spe|1
+|move|p2a: Rotom|Will-O-Wisp|p1a: Christmas Future
+|-status|p1a: Christmas Future|brn
+|
+|-damage|p1a: Christmas Future|82/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Christmas Future|Dragon Dance|p1a: Christmas Future
+|-boost|p1a: Christmas Future|atk|1
+|-boost|p1a: Christmas Future|spe|1
+|
+|-damage|p1a: Christmas Future|76/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p1a: BBC Label Punk|Toxtricity, M|100/100
+|-damage|p1a: BBC Label Punk|88/100|[from] Stealth Rock
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: BBC Label Punk|Overdrive|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|61/100
+|
+|-heal|p2a: Rotom|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|19
+|
+|switch|p1a: Christmas Future|Dragapult, M|76/100 brn
+|-damage|p1a: Christmas Future|64/100 brn|[from] Stealth Rock
+|move|p2a: Rotom|Overheat|p1a: Christmas Future|[miss]
+|-miss|p2a: Rotom|p1a: Christmas Future
+|
+|-damage|p1a: Christmas Future|58/100 brn|[from] brn
+|upkeep
+|turn|20
+|j| qsdamlzke
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Christmas Future|Dragon Dance|p1a: Christmas Future
+|-boost|p1a: Christmas Future|atk|1
+|-boost|p1a: Christmas Future|spe|1
+|
+|-damage|p1a: Christmas Future|52/100 brn|[from] brn
+|upkeep
+|turn|21
+|j| tapu moxo
+|
+|move|p1a: Christmas Future|Phantom Force||[still]
+|-prepare|p1a: Christmas Future|Phantom Force|p2a: Clefable
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-damage|p1a: Christmas Future|46/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p1a: Christmas Future|Phantom Force|p2a: Clefable|[from]lockedmove
+|-damage|p2a: Clefable|57/100
+|-damage|p1a: Christmas Future|36/100 brn|[from] item: Life Orb
+|move|p2a: Clefable|Moonblast|p1a: Christmas Future
+|-supereffective|p1a: Christmas Future
+|-damage|p1a: Christmas Future|0 fnt
+|faint|p1a: Christmas Future
+|
+|-heal|p2a: Clefable|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|
+|switch|p1a: BBC Label Punk|Toxtricity, M|88/100
+|-damage|p1a: BBC Label Punk|76/100|[from] Stealth Rock
+|turn|23
+|l| tapu moxo
+|
+|move|p1a: BBC Label Punk|Volt Switch|p2a: Clefable
+|-damage|p2a: Clefable|58/100
+|
+|switch|p1a: Old Gimmick|Cloyster, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Old Gimmick|76/100|[from] Stealth Rock
+|move|p2a: Clefable|Moonblast|p1a: Old Gimmick
+|-damage|p1a: Old Gimmick|0 fnt
+|faint|p1a: Old Gimmick
+|
+|-heal|p2a: Clefable|64/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: BBC Label Punk|Toxtricity, M|76/100
+|-damage|p1a: BBC Label Punk|64/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: BBC Label Punk|Boomburst|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|71/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: BBC Label Punk|Boomburst|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, F|37/100
+|-damage|p2a: Corviknight|24/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|turn|26
+|
+|move|p1a: BBC Label Punk|Boomburst|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|27
+|
+|move|p2a: Rotom|Overheat|p1a: BBC Label Punk|[miss]
+|-miss|p2a: Rotom|p1a: BBC Label Punk
+|move|p1a: BBC Label Punk|Boomburst|p2a: Rotom
+|-damage|p2a: Rotom|5/100
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Rotom|Overheat|p1a: BBC Label Punk
+|-damage|p1a: BBC Label Punk|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: BBC Label Punk
+|
+|win|dragaputo
+|l|☆beeoi
+|l|+Always
+|l| Shunshun
+|l| ahhhaaaaa
+|l| qsdamlzke
+|raw|beeoi's rating: 1739 → 1716(-23 for losing)
+|raw|dragaputo's rating: 1693 → 1716(+23 for winning)

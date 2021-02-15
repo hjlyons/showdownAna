@@ -1,0 +1,100 @@
+|ScrapeTime|2020-01-01-17:15:20
+|j|☆LogicaVietii
+|j|☆Zerbee
+|player|p1|LogicaVietii|257|1190
+|player|p2|Zerbee|medium|1136
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Shiinotic, M|
+|poke|p1|Hydreigon, M|
+|poke|p1|Seismitoad, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Barbaracle, F|
+|poke|p1|Dragapult, M|
+|poke|p2|Aegislash, M|
+|poke|p2|Crawdaunt, F|
+|poke|p2|Mew|
+|poke|p2|Lucario, F|
+|poke|p2|Bisharp, F|
+|poke|p2|Dragapult, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LogicaVietii)
+|
+|move|p1a: Dragapult|U-turn|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|74/100
+|-enditem|p2a: Mew|Red Card|[of] p1a: Dragapult
+|drag|p1a: Guess Who's Back|Shiinotic, M, shiny|100/100
+|move|p2a: Mew|Stealth Rock|p1a: Guess Who's Back
+|-sidestart|p1: LogicaVietii|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Mew|Spikes|p1a: Guess Who's Back
+|-sidestart|p1: LogicaVietii|Spikes
+|move|p1a: Guess Who's Back|Spore|p2a: Mew
+|-status|p2a: Mew|slp|[from] move: Spore
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Barbaracle|Barbaracle, F|100/100
+|-damage|p1a: Barbaracle|88/100|[from] Stealth Rock
+|-item|p1a: Barbaracle|Air Balloon
+|cant|p2a: Mew|slp
+|
+|upkeep
+|turn|4
+|
+|cant|p2a: Mew|slp
+|move|p1a: Barbaracle|Shell Smash|p1a: Barbaracle
+|-unboost|p1a: Barbaracle|def|1
+|-unboost|p1a: Barbaracle|spd|1
+|-boost|p1a: Barbaracle|atk|2
+|-boost|p1a: Barbaracle|spa|2
+|-boost|p1a: Barbaracle|spe|2
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Barbaracle|Liquidation|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+|
+|switch|p2a: Lucario|Lucario, F|100/100
+|turn|6
+|
+|move|p2a: Lucario|Bullet Punch|p1a: Barbaracle
+|-damage|p1a: Barbaracle|49/100
+|-enditem|p1a: Barbaracle|Air Balloon
+|-damage|p2a: Lucario|91/100|[from] item: Life Orb
+|move|p1a: Barbaracle|Earthquake|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|upkeep
+|-message|Zerbee forfeited.
+|
+|win|LogicaVietii
+|l|☆Zerbee

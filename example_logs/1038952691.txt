@@ -1,0 +1,124 @@
+|ScrapeTime|2020-01-01-01:56:34
+|j|☆Pokeslayer2010
+|j|☆Ahhidan
+|player|p1|Pokeslayer2010|veteran|1244
+|player|p2|Ahhidan|preschooler|1259
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tyranitar, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Seismitoad, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Hydreigon, M|
+|poke|p1|Hatterene, F|
+|poke|p2|Clefable, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Aegislash, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Conkeldurr, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pokeslayer2010)
+|
+|start
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|1
+|
+|move|p1a: Hydreigon|U-turn|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|91/100
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100|[from]move: U-turn
+|move|p2a: Rotom|Thunderbolt|p1a: Seismitoad
+|-immune|p1a: Seismitoad
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Seismitoad|Toxic|p2a: Seismitoad
+|-status|p2a: Seismitoad|tox
+|
+|-damage|p2a: Seismitoad|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Hatterene
+|move|p1a: Hatterene|Stealth Rock|p2a: Seismitoad|[from]Magic Bounce
+|-sidestart|p2: Ahhidan|move: Stealth Rock
+|
+|-damage|p2a: Seismitoad|82/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p2a: Seismitoad|Hydro Pump|p1a: Hatterene|[miss]
+|-miss|p2a: Seismitoad|p1a: Hatterene
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-damage|p2a: Seismitoad|63/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|move|p2a: Seismitoad|Hydro Pump|p1a: Hatterene
+|-damage|p1a: Hatterene|51/100
+|-damage|p2a: Seismitoad|53/100 tox|[from] item: Life Orb
+|
+|-damage|p2a: Seismitoad|28/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-damage|p1a: Hatterene|41/100|[from] item: Life Orb
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|-damage|p2a: Aegislash|95/100|[from] Stealth Rock
+|turn|7
+|
+|move|p1a: Hatterene|Mystical Fire|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|-damage|p1a: Hatterene|31/100|[from] item: Life Orb
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p2a: Conkeldurr|94/100|[from] Stealth Rock
+|turn|8
+|
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|-damage|p1a: Hatterene|21/100|[from] item: Life Orb
+|faint|p2a: Conkeldurr
+|
+|-fieldend|move: Trick Room
+|upkeep
+|-message|Ahhidan forfeited.
+|
+|win|Pokeslayer2010
+|l|☆Ahhidan
+|raw|Pokeslayer2010's rating: 1245 → 1271(+26 for winning)
+|raw|Ahhidan's rating: 1259 → 1233(-26 for losing)

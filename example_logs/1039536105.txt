@@ -1,0 +1,698 @@
+|ScrapeTime|2020-01-02-06:35:36
+|j|☆wookieman
+|j|☆Crocster47
+|player|p1|wookieman|101|1367
+|player|p2|Crocster47|chili|1342
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dracozolt|
+|poke|p1|Bisharp, M|
+|poke|p1|Rotom-Mow|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Dracovish|
+|poke|p1|Whimsicott, F|
+|poke|p2|Clefable, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Weavile, F|
+|poke|p2|Roserade, F|
+|poke|p2|Chandelure, M|
+|poke|p2|Corviknight, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dracovish|Dracovish|100/100
+|switch|p2a: Chandelure|Chandelure, M, shiny|100/100
+|turn|1
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Dracovish|Crunch|p2a: Seismitoad
+|-damage|p2a: Seismitoad|79/100
+|
+|-heal|p2a: Seismitoad|85/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Seismitoad|Toxic|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|
+|-heal|p2a: Seismitoad|91/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Crocster47|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Corviknight|Taunt|p1a: Ferrothorn
+|-start|p1a: Ferrothorn|move: Taunt
+|cant|p1a: Ferrothorn|move: Taunt|Leech Seed
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|move|p2a: Corviknight|Defog|p1a: Rotom
+|-unboost|p1a: Rotom|evasion|1
+|-sideend|p2: Crocster47|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Corviknight
+|-status|p2a: Corviknight|brn
+|move|p2a: Corviknight|U-turn|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|84/100
+|
+|switch|p2a: Roserade|Roserade, F, shiny|100/100|[from]move: U-turn
+|
+|-heal|p1a: Rotom|90/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Chandelure|Chandelure, M, shiny|100/100
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Chandelure|Will-O-Wisp|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Roserade|Roserade, F, shiny|100/100
+|switch|p1a: Whimsicott|Whimsicott, F|100/100
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|move|p2a: Roserade|Sludge Bomb|p1a: Bisharp
+|-immune|p1a: Bisharp
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Roserade|Sleep Powder|p1a: Bisharp
+|-status|p1a: Bisharp|slp|[from] move: Sleep Powder
+|-enditem|p1a: Bisharp|Lum Berry|[eat]
+|-curestatus|p1a: Bisharp|slp|[msg]
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Roserade|Sleep Powder|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Seismitoad|Seismitoad, M|91/100
+|move|p1a: Dracozolt|Substitute|p1a: Dracozolt
+|-start|p1a: Dracozolt|Substitute
+|-damage|p1a: Dracozolt|76/100
+|
+|-heal|p1a: Dracozolt|82/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|97/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Dracozolt|Dragon Claw|p2a: Seismitoad
+|-damage|p2a: Seismitoad|65/100
+|move|p2a: Seismitoad|Earthquake|p1a: Dracozolt
+|-supereffective|p1a: Dracozolt
+|-end|p1a: Dracozolt|Substitute
+|
+|-heal|p1a: Dracozolt|88/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|71/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Rotom|Rotom-Mow|90/100
+|switch|p2a: Clefable|Clefable, F|100/100
+|
+|-heal|p1a: Rotom|96/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Rotom|Thunder Wave|p2a: Clefable
+|-status|p2a: Clefable|par
+|move|p2a: Clefable|Fire Blast|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|51/100
+|
+|-heal|p1a: Rotom|57/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Rotom|Volt Switch|p2a: Clefable
+|-damage|p2a: Clefable|82/100 par
+|
+|switch|p1a: Dracovish|Dracovish|100/100|[from]move: Volt Switch
+|move|p2a: Clefable|Fire Blast|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|93/100
+|
+|-heal|p2a: Clefable|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Rotom|Rotom-Mow|57/100
+|switch|p2a: Seismitoad|Seismitoad, M|71/100
+|
+|-heal|p1a: Rotom|63/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|77/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Roserade|Roserade, F, shiny|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Roserade
+|-status|p2a: Roserade|brn
+|
+|-heal|p1a: Rotom|69/100|[from] item: Leftovers
+|-damage|p2a: Roserade|94/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Roserade|Sludge Bomb|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|
+|-damage|p2a: Roserade|88/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p2a: Clefable|Clefable, F|88/100 par
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Clefable
+|-sidestart|p2: Crocster47|move: Stealth Rock
+|
+|-heal|p2a: Clefable|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|cant|p2a: Clefable|par
+|
+|-heal|p2a: Clefable|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Clefable|Moonblast|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|87/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|73/100 par
+|
+|-heal|p2a: Clefable|79/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Clefable|Fire Blast|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Clefable|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Clefable|Moonblast|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|75/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|53/100 par
+|
+|-heal|p2a: Clefable|59/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|100/100 par
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|70/100 par
+|
+|-heal|p2a: Clefable|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p1a: Dracovish|Dracovish|93/100
+|move|p2a: Clefable|Moonblast|p1a: Dracovish
+|-supereffective|p1a: Dracovish
+|-damage|p1a: Dracovish|20/100
+|
+|-heal|p2a: Clefable|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100 brn
+|-damage|p2a: Corviknight|88/100 brn|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dracovish|Psychic Fangs|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|76/100 brn
+|
+|-heal|p2a: Corviknight|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|76/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|switch|p1a: Dracozolt|Dracozolt|88/100
+|move|p2a: Corviknight|Defog|p1a: Dracozolt
+|-unboost|p1a: Dracozolt|evasion|1
+|-sideend|p2: Crocster47|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-heal|p1a: Dracozolt|94/100|[from] item: Leftovers
+|-heal|p2a: Corviknight|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|76/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p1a: Dracozolt|Substitute|p1a: Dracozolt
+|-start|p1a: Dracozolt|Substitute
+|-damage|p1a: Dracozolt|69/100
+|move|p2a: Corviknight|U-turn|p1a: Dracozolt
+|-activate|p1a: Dracozolt|move: Substitute|[damage]
+|
+|switch|p2a: Seismitoad|Seismitoad, M|77/100|[from]move: U-turn
+|
+|-heal|p1a: Dracozolt|75/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|83/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Dracozolt|Dragon Claw|p2a: Seismitoad
+|-damage|p2a: Seismitoad|50/100
+|move|p2a: Seismitoad|Earthquake|p1a: Dracozolt
+|-supereffective|p1a: Dracozolt
+|-end|p1a: Dracozolt|Substitute
+|
+|-heal|p1a: Dracozolt|81/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|56/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Dracozolt|Substitute|p1a: Dracozolt
+|-start|p1a: Dracozolt|Substitute
+|-damage|p1a: Dracozolt|56/100
+|move|p2a: Seismitoad|Earthquake|p1a: Dracozolt
+|-supereffective|p1a: Dracozolt
+|-end|p1a: Dracozolt|Substitute
+|
+|-heal|p1a: Dracozolt|62/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|62/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p1a: Rotom|Rotom-Mow|69/100
+|move|p2a: Seismitoad|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-heal|p1a: Rotom|75/100 tox|[from] item: Leftovers
+|-heal|p2a: Seismitoad|68/100|[from] item: Leftovers
+|-damage|p1a: Rotom|69/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|switch|p2a: Corviknight|Corviknight, M|76/100 brn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Rotom|Volt Switch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|38/100 brn
+|
+|switch|p1a: Dracozolt|Dracozolt|62/100|[from]move: Volt Switch
+|
+|-heal|p1a: Dracozolt|68/100|[from] item: Leftovers
+|-heal|p2a: Corviknight|44/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|38/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|switch|p2a: Seismitoad|Seismitoad, M|68/100
+|move|p1a: Dracozolt|Bolt Beak|p2a: Seismitoad
+|-immune|p2a: Seismitoad
+|
+|-heal|p1a: Dracozolt|74/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|74/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|75/100
+|move|p2a: Seismitoad|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|54/100
+|
+|-heal|p2a: Seismitoad|80/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p2a: Seismitoad|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|34/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Seismitoad
+|-start|p2a: Seismitoad|move: Leech Seed
+|
+|-heal|p2a: Seismitoad|86/100|[from] item: Leftovers
+|-damage|p2a: Seismitoad|74/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|49/100|[silent]
+|upkeep
+|turn|39
+|
+|switch|p2a: Corviknight|Corviknight, M|38/100 brn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|25/100 brn
+|
+|-heal|p2a: Corviknight|31/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|25/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|75/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Ferrothorn|Leech Seed|p2a: Corviknight
+|-start|p2a: Corviknight|move: Leech Seed
+|
+|-heal|p2a: Corviknight|81/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|69/100 brn|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|63/100|[silent]
+|-damage|p2a: Corviknight|62/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|switch|p2a: Clefable|Clefable, F|82/100 par
+|switch|p1a: Dracozolt|Dracozolt|74/100
+|
+|-heal|p1a: Dracozolt|80/100|[from] item: Leftovers
+|-heal|p2a: Clefable|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p1a: Dracozolt|Bolt Beak|p2a: Clefable
+|-damage|p2a: Clefable|3/100 par
+|move|p2a: Clefable|Moonblast|p1a: Dracozolt
+|-supereffective|p1a: Dracozolt
+|-damage|p1a: Dracozolt|13/100
+|
+|-heal|p1a: Dracozolt|19/100|[from] item: Leftovers
+|-heal|p2a: Clefable|9/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|switch|p2a: Seismitoad|Seismitoad, M|74/100
+|move|p1a: Dracozolt|Fire Fang|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|65/100
+|
+|-heal|p1a: Dracozolt|25/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|71/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|switch|p1a: Rotom|Rotom-Mow|69/100 tox
+|move|p2a: Seismitoad|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|60/100 tox
+|
+|-heal|p1a: Rotom|66/100 tox|[from] item: Leftovers
+|-heal|p2a: Seismitoad|77/100|[from] item: Leftovers
+|-damage|p1a: Rotom|60/100 tox|[from] psn
+|upkeep
+|turn|45
+|
+|switch|p2a: Roserade|Roserade, F, shiny|88/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Roserade
+|-status|p2a: Roserade|brn
+|
+|-heal|p1a: Rotom|66/100 tox|[from] item: Leftovers
+|-damage|p2a: Roserade|82/100 brn|[from] brn
+|-damage|p1a: Rotom|54/100 tox|[from] psn
+|upkeep
+|turn|46
+|
+|-curestatus|p2a: Roserade|brn|[from] ability: Natural Cure
+|switch|p2a: Seismitoad|Seismitoad, M|77/100
+|move|p1a: Rotom|Volt Switch|p2a: Seismitoad
+|-immune|p2a: Seismitoad
+|
+|-heal|p1a: Rotom|60/100 tox|[from] item: Leftovers
+|-heal|p2a: Seismitoad|83/100|[from] item: Leftovers
+|-damage|p1a: Rotom|42/100 tox|[from] psn
+|upkeep
+|turn|47
+|
+|move|p1a: Rotom|Leaf Storm|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Seismitoad
+|
+|-heal|p1a: Rotom|48/100 tox|[from] item: Leftovers
+|-damage|p1a: Rotom|24/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|48
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by wookieman)
+|
+|move|p2a: Weavile|Icicle Crash|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|63/100
+|turn|49
+|
+|switch|p2a: Clefable|Clefable, F|9/100 par
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Chandelure|Chandelure, M, shiny|100/100
+|turn|50
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Chandelure|Fire Blast|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|upkeep
+|turn|51
+|
+|switch|p1a: Whimsicott|Whimsicott, F|100/100
+|move|p2a: Chandelure|Fire Blast|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-enditem|p1a: Whimsicott|Focus Sash
+|-damage|p1a: Whimsicott|1/100
+|
+|upkeep
+|turn|52
+|
+|switch|p2a: Corviknight|Corviknight, M|62/100 brn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: wookieman|move: Tailwind
+|
+|-heal|p2a: Corviknight|69/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|62/100 brn|[from] brn
+|upkeep
+|turn|53
+|
+|move|p1a: Whimsicott|Taunt|p2a: Corviknight
+|-start|p2a: Corviknight|move: Taunt
+|cant|p2a: Corviknight|move: Taunt|Roost
+|
+|-heal|p2a: Corviknight|69/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|62/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|move|p1a: Whimsicott|Leech Seed|p2a: Corviknight
+|-start|p2a: Corviknight|move: Leech Seed
+|move|p2a: Corviknight|U-turn|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|switch|p2a: Roserade|Roserade, F, shiny|82/100|[from]move: U-turn
+|
+|upkeep
+|inactive|wookieman has 120 seconds left.
+|
+|switch|p1a: Dracozolt|Dracozolt|25/100
+|turn|55
+|inactive|wookieman has 120 seconds left.
+|
+|switch|p2a: Chandelure|Chandelure, M, shiny|100/100
+|move|p1a: Dracozolt|Fire Fang|p2a: Chandelure
+|-start|p2a: Chandelure|ability: Flash Fire
+|
+|-heal|p1a: Dracozolt|31/100|[from] item: Leftovers
+|-sideend|p1: wookieman|move: Tailwind
+|upkeep
+|turn|56
+|
+|move|p2a: Chandelure|Fire Blast|p1a: Dracozolt
+|-resisted|p1a: Dracozolt
+|-damage|p1a: Dracozolt|0 fnt
+|faint|p1a: Dracozolt
+|
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|turn|57
+|
+|-end|p2a: Chandelure|ability: Flash Fire|[silent]
+|switch|p2a: Roserade|Roserade, F, shiny|82/100
+|move|p1a: Bisharp|Sucker Punch||[still]
+|-fail|p1a: Bisharp
+|
+|upkeep
+|turn|58
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|63/100
+|move|p2a: Roserade|Sleep Powder|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|
+|upkeep
+|turn|59
+|
+|move|p2a: Roserade|Extrasensory|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|47/100
+|-damage|p2a: Roserade|72/100|[from] item: Life Orb
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Roserade
+|-sidestart|p2: Crocster47|move: Stealth Rock
+|
+|upkeep
+|turn|60
+|inactive|wookieman has 120 seconds left.
+|
+|switch|p2a: Corviknight|Corviknight, M|62/100 brn
+|-damage|p2a: Corviknight|50/100 brn|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|37/100 brn
+|
+|-heal|p2a: Corviknight|43/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|37/100 brn|[from] brn
+|upkeep
+|turn|61
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|87/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|93/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|87/100 brn|[from] brn
+|upkeep
+|turn|62
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Corviknight|U-turn|p1a: Bisharp
+|-damage|p1a: Bisharp|93/100
+|
+|switch|p2a: Roserade|Roserade, F, shiny|72/100|[from]move: U-turn
+|-damage|p2a: Roserade|60/100|[from] Stealth Rock
+|
+|upkeep
+|turn|63
+|
+|switch|p1a: Dracovish|Dracovish|20/100
+|move|p2a: Roserade|Sleep Powder|p1a: Dracovish
+|-status|p1a: Dracovish|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|64
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|47/100
+|switch|p2a: Chandelure|Chandelure, M, shiny|100/100
+|-damage|p2a: Chandelure|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|65
+|inactive|wookieman has 120 seconds left.
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Chandelure|Fire Blast|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|upkeep
+|turn|66
+|
+|move|p2a: Chandelure|Fire Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, M|93/100
+|turn|67
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|
+|upkeep
+|
+|switch|p2a: Weavile|Weavile, F|100/100
+|-damage|p2a: Weavile|76/100|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|turn|68
+|
+|move|p2a: Weavile|Low Kick|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|-message|wookieman forfeited.
+|
+|win|Crocster47
+|l|☆wookieman
+|raw|wookieman's rating: 1367 → 1345(-22 for losing)
+|raw|Crocster47's rating: 1342 → 1363(+21 for winning)

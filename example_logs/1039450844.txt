@@ -1,0 +1,369 @@
+|ScrapeTime|2020-01-02-02:18:50
+|j|☆armadillovzlno
+|j|☆JukaSinJakudo
+|player|p1|armadillovzlno|140|1304
+|player|p2|JukaSinJakudo|gentleman|1256
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Aegislash, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Sirfetch'd, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Clefable, F|
+|poke|p2|Cloyster, F|
+|poke|p2|Umbreon, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Toxtricity, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|1
+|
+|move|p1a: Dragapult|Fire Blast|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|22/100
+|-status|p2a: Corviknight|brn
+|move|p2a: Corviknight|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|95/100
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|move|p2a: Cinderace|U-turn|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|96/100
+|
+|switch|p2a: Corviknight|Corviknight, M|22/100 brn|[from]move: U-turn
+|-ability|p2a: Corviknight|Pressure
+|
+|-damage|p2a: Corviknight|16/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Sneak|p2a: Corviknight
+|-damage|p2a: Corviknight|5/100 brn
+|-damage|p1a: Aegislash|79/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|55/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-damage|p2a: Corviknight|48/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: Dragapult|Dragapult, F|95/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|98/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-damage|p2a: Corviknight|92/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|move|p1a: Dragapult|U-turn|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|68/100
+|
+|switch|p1a: Sirfetch'd|Sirfetch'd, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Umbreon|74/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|move|p1a: Sirfetch'd|Close Combat|p2a: Corsola
+|-crit|p2a: Corsola
+|-damage|p2a: Corsola|47/100
+|-unboost|p1a: Sirfetch'd|def|1
+|-unboost|p1a: Sirfetch'd|spd|1
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Corsola|Strength Sap|p1a: Hatterene
+|move|p1a: Hatterene|Strength Sap|p2a: Corsola|[from]Magic Bounce
+|-unboost|p2a: Corsola|atk|1
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|80/100
+|-unboost|p2a: Cinderace|spa|1
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Aegislash|Aegislash, M|79/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|10
+|
+|switch|p2a: Corviknight|Corviknight, M|92/100 brn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Tyranitar|Crunch|p2a: Corviknight
+|-damage|p2a: Corviknight|64/100 brn
+|-damage|p1a: Tyranitar|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Corviknight|58/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Corviknight|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|72/100
+|
+|switch|p2a: Corsola|Corsola-Galar, F|47/100|[from]move: U-turn
+|move|p1a: Tyranitar|Fire Punch|p2a: Corsola
+|-damage|p2a: Corsola|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Corsola|24/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|move|p1a: Tyranitar|Crunch|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M|58/100 brn
+|-ability|p2a: Corviknight|Pressure
+|turn|13
+|
+|move|p2a: Corviknight|Body Press|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|30/100
+|move|p1a: Tyranitar|Fire Punch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|20/100 brn
+|-damage|p1a: Tyranitar|13/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Corviknight|14/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p1a: Dragapult|Dragapult, F|95/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|64/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-weather|none
+|-damage|p2a: Corviknight|58/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p2a: Umbreon|Umbreon, M|74/100
+|move|p1a: Dragapult|Fire Blast|p2a: Umbreon
+|-damage|p2a: Umbreon|58/100
+|
+|-heal|p2a: Umbreon|64/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Dragapult|U-turn|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|30/100
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100|[from]move: U-turn
+|move|p2a: Umbreon|Yawn|p1a: Hatterene
+|move|p1a: Hatterene|Yawn|p2a: Umbreon|[from]Magic Bounce
+|-start|p2a: Umbreon|move: Yawn|[of] p1a: Hatterene
+|
+|-heal|p2a: Umbreon|37/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Cinderace|Cinderace, M|80/100
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|49/100
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Tyranitar|Tyranitar, M|13/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Cinderace|Pyro Ball|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cinderace|43/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|95/100
+|turn|19
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Toxtricity
+|-damage|p2a: Toxtricity|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|89/100|[from] Sandstorm
+|-damage|p2a: Toxtricity|44/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|83/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Umbreon|Umbreon, M|37/100
+|turn|21
+|
+|move|p1a: Dragapult|U-turn|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|5/100
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100|[from]move: U-turn
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Umbreon|0 fnt|[from] Sandstorm
+|-damage|p1a: Hatterene|95/100|[from] Sandstorm
+|faint|p2a: Umbreon
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|43/100
+|turn|22
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|none
+|-heal|p2a: Cinderace|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|83/100
+|turn|23
+|
+|switch|p2a: Corviknight|Corviknight, M|58/100 brn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dragapult|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|24/100 brn
+|
+|-damage|p2a: Corviknight|18/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Cloyster|Cloyster, F|100/100
+|turn|25
+|
+|move|p1a: Dragapult|Thunderbolt|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-enditem|p2a: Cloyster|Focus Sash
+|-damage|p2a: Cloyster|1/100
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Cloyster|Icicle Spear|p1a: Clefable
+|-damage|p1a: Clefable|75/100
+|-damage|p1a: Clefable|50/100
+|-damage|p1a: Clefable|24/100
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|-hitcount|p1a: Clefable|4
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Sirfetch'd|Sirfetch'd, M|100/100
+|turn|27
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Sirfetch'd|Quick Attack|p2a: Cinderace
+|-crit|p2a: Cinderace
+|-damage|p2a: Cinderace|63/100
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Sirfetch'd
+|-damage|p1a: Sirfetch'd|0 fnt
+|faint|p1a: Sirfetch'd
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|83/100
+|turn|29
+|
+|switch|p2a: Cloyster|Cloyster, F|1/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|63/100
+|turn|30
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|win|JukaSinJakudo
+|raw|armadillovzlno's rating: 1304 → 1281(-23 for losing)
+|raw|JukaSinJakudo's rating: 1256 → 1284(+28 for winning)
+|c|☆armadillovzlno|GTG
+|l|☆armadillovzlno

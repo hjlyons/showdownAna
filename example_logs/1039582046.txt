@@ -1,0 +1,261 @@
+|ScrapeTime|2020-01-02-09:35:05
+|j|☆Lil_Lazyeon
+|j|☆oinkmeowarf
+|player|p1|Lil_Lazyeon|lady|1063
+|player|p2|oinkmeowarf|101|1059
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Sylveon, F|
+|poke|p1|Arcanine, F|
+|poke|p1|Dracovish|
+|poke|p1|Alcremie, F|
+|poke|p1|Mimikyu, F|
+|poke|p1|Dubwool, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Togekiss, M|
+|poke|p2|Barraskewda, M|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Mandibuzz, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|turn|1
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Corsola|Night Shade|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|-damage|p1a: Mimikyu|88/100|[from] ability: Disguise|[of] p1a: Mimikyu
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|56/100
+|-ability|p2a: Corsola|Weak Armor|boost
+|-unboost|p2a: Corsola|def|1
+|-boost|p2a: Corsola|spe|2
+|-damage|p1a: Mimikyu|78/100|[from] item: Life Orb
+|move|p2a: Corsola|Stealth Rock|p1a: Mimikyu
+|-sidestart|p1: Lil_Lazyeon|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-crit|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-damage|p1a: Mimikyu|68/100|[from] item: Life Orb
+|faint|p2a: Corsola
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lil_Lazyeon)
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|4
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p1a: Mimikyu|58/100|[from] item: Life Orb
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, M|100/100
+|turn|5
+|
+|move|p2a: Barraskewda|Liquidation|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|upkeep
+|
+|switch|p1a: Dubwool|Dubwool, F|100/100
+|-damage|p1a: Dubwool|88/100|[from] Stealth Rock
+|turn|6
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Dubwool|Cotton Guard|p1a: Dubwool
+|-boost|p1a: Dubwool|def|3
+|
+|-heal|p1a: Dubwool|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Dubwool|Thunder Wave|p2a: Mandibuzz
+|-status|p2a: Mandibuzz|par
+|move|p2a: Mandibuzz|Toxic|p1a: Dubwool
+|-status|p1a: Dubwool|tox
+|
+|-heal|p1a: Dubwool|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Dubwool|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|move|p1a: Dubwool|Body Press|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|55/100 par
+|move|p2a: Mandibuzz|Taunt|p1a: Dubwool
+|-start|p1a: Dubwool|move: Taunt
+|
+|-heal|p1a: Dubwool|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Mandibuzz|61/100 par|[from] item: Leftovers
+|-damage|p1a: Dubwool|88/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|move|p1a: Dubwool|Zen Headbutt|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100 par
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Dubwool|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Dubwool|76/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|-damage|p1a: Sylveon|88/100|[from] Stealth Rock
+|switch|p2a: Barraskewda|Barraskewda, M|100/100
+|
+|-heal|p1a: Sylveon|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Barraskewda|Poison Jab|p1a: Sylveon
+|-supereffective|p1a: Sylveon
+|-damage|p1a: Sylveon|31/100
+|move|p1a: Sylveon|Hyper Voice|p2a: Barraskewda
+|-damage|p2a: Barraskewda|4/100
+|
+|-heal|p1a: Sylveon|37/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|-damage|p1a: Dracovish|88/100|[from] Stealth Rock
+|move|p2a: Barraskewda|Poison Jab|p1a: Dracovish
+|-damage|p1a: Dracovish|45/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Barraskewda|Poison Jab|p1a: Dracovish
+|-damage|p1a: Dracovish|1/100
+|move|p1a: Dracovish|Ice Fang|p2a: Barraskewda
+|-resisted|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|faint|p2a: Barraskewda
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|14
+|
+|switch|p1a: Alcremie|Alcremie, F|100/100
+|-damage|p1a: Alcremie|88/100|[from] Stealth Rock
+|move|p2a: Cinderace|U-turn|p1a: Alcremie
+|-resisted|p1a: Alcremie
+|-damage|p1a: Alcremie|74/100
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100 par|[from]move: U-turn
+|
+|-heal|p1a: Alcremie|80/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Alcremie|Aromatherapy|p1a: Alcremie
+|-activate|p1a: Alcremie|move: Aromatherapy
+|-curestatus|p1: Dubwool|tox|[msg]
+|move|p2a: Mandibuzz|Toxic|p1a: Alcremie
+|-status|p1a: Alcremie|tox
+|
+|-heal|p1a: Alcremie|86/100 tox|[from] item: Leftovers
+|-damage|p1a: Alcremie|80/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|move|p1a: Alcremie|Giga Drain|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|92/100 par
+|-heal|p1a: Alcremie|86/100 tox|[from] drain|[of] p2a: Mandibuzz
+|move|p2a: Mandibuzz|Foul Play|p1a: Alcremie
+|-resisted|p1a: Alcremie
+|-damage|p1a: Alcremie|75/100 tox
+|
+|-heal|p1a: Alcremie|81/100 tox|[from] item: Leftovers
+|-heal|p2a: Mandibuzz|98/100 par|[from] item: Leftovers
+|-damage|p1a: Alcremie|69/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|switch|p1a: Dubwool|Dubwool, F|76/100
+|-damage|p1a: Dubwool|64/100|[from] Stealth Rock
+|move|p2a: Mandibuzz|Taunt|p1a: Dubwool
+|-start|p1a: Dubwool|move: Taunt
+|
+|-heal|p1a: Dubwool|70/100|[from] item: Leftovers
+|-heal|p2a: Mandibuzz|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Dubwool|Body Press|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|84/100 par
+|move|p2a: Mandibuzz|Toxic|p1a: Dubwool
+|-status|p1a: Dubwool|tox
+|
+|-heal|p1a: Dubwool|76/100 tox|[from] item: Leftovers
+|-heal|p2a: Mandibuzz|90/100 par|[from] item: Leftovers
+|-damage|p1a: Dubwool|70/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|switch|p1a: Arcanine|Arcanine, F|100/100
+|-damage|p1a: Arcanine|76/100|[from] Stealth Rock
+|move|p2a: Mandibuzz|Foul Play|p1a: Arcanine
+|-damage|p1a: Arcanine|18/100
+|
+|-heal|p2a: Mandibuzz|96/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Arcanine|Wild Charge|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|46/100 par
+|-damage|p1a: Arcanine|2/100|[from] Recoil
+|-damage|p1a: Arcanine|0 fnt|[from] item: Life Orb
+|faint|p1a: Arcanine
+|cant|p2a: Mandibuzz|par
+|
+|-heal|p2a: Mandibuzz|52/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|1/100
+|-damage|p1a: Dracovish|0 fnt|[from] Stealth Rock
+|faint|p1a: Dracovish
+|-message|Lil_Lazyeon forfeited.
+|
+|win|oinkmeowarf
+|l|☆Lil_Lazyeon
+|raw|Lil_Lazyeon's rating: 1063 → 1044(-19 for losing)
+|raw|oinkmeowarf's rating: 1059 → 1091(+32 for winning)

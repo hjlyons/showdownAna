@@ -1,0 +1,214 @@
+|ScrapeTime|2020-01-01-07:05:40
+|j|☆test314150
+|j|☆Bloody Regina
+|player|p1|test314150|265|1304
+|player|p2|Bloody Regina|mira|1295
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cottonee, L1, F|
+|poke|p1|Dugtrio, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Gallade, M|
+|poke|p1|Rapidash-Galar, M|
+|poke|p1|Vanilluxe, M|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Sylveon, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Corviknight, M|
+|poke|p2|Cinderace, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Vanilluxe|Vanilluxe, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by test314150)
+|
+|move|p1a: Vanilluxe|Freeze-Dry|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|35/100
+|move|p2a: Rotom|Hydro Pump|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|26/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Rotom|29/100|[from] Hail
+|upkeep
+|turn|2
+|
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|move|p1a: Vanilluxe|Freeze-Dry|p2a: Weezing
+|-damage|p2a: Weezing|70/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Weezing|64/100|[from] Hail
+|-heal|p2a: Weezing|70/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Weezing|Will-O-Wisp|p1a: Cinderace
+|-immune|p1a: Cinderace
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Cinderace|95/100|[from] Hail
+|-damage|p2a: Weezing|64/100|[from] Hail
+|-heal|p2a: Weezing|70/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Cinderace|89/100|[from] Hail
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|5
+|
+|move|p2a: Dragapult|U-turn|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|72/100
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100|[from]move: U-turn
+|move|p1a: Cinderace|Pyro Ball|p2a: Cinderace|[miss]
+|-miss|p1a: Cinderace|p2a: Cinderace
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|42/100
+|move|p2a: Cinderace|U-turn|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|55/100
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Rapidash|Rapidash-Galar, M|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Rapidash
+|-supereffective|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|
+|upkeep
+|
+|switch|p1a: Vanilluxe|Vanilluxe, M|26/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Vanilluxe
+|turn|8
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Vanilluxe
+|-damage|p1a: Vanilluxe|0 fnt
+|faint|p1a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dragapult|95/100|[from] Hail
+|upkeep
+|
+|switch|p1a: Gallade|Gallade, M|100/100
+|turn|9
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Gallade
+|-supereffective|p1a: Gallade
+|-damage|p1a: Gallade|18/100
+|move|p1a: Gallade|Swords Dance|p1a: Gallade
+|-boost|p1a: Gallade|atk|2
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Dragapult|89/100|[from] Hail
+|-damage|p1a: Gallade|12/100|[from] Hail
+|upkeep
+|turn|10
+|
+|move|p1a: Gallade|Shadow Sneak|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p1a: Gallade|2/100|[from] item: Life Orb
+|faint|p2a: Dragapult
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Gallade|0 fnt|[from] Hail
+|faint|p1a: Gallade
+|upkeep
+|inactive|Bloody Regina has 120 seconds left.
+|
+|switch|p2a: Rotom|Rotom-Wash|29/100
+|switch|p1a: Cinderace|Cinderace, F|55/100
+|turn|11
+|
+|move|p1a: Cinderace|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|switch|p1a: Dugtrio|Dugtrio, F|100/100|[from]move: U-turn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Dugtrio|94/100|[from] Hail
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|12
+|
+|switch|p1a: Cinderace|Cinderace, F|55/100
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Corviknight|[miss]
+|-miss|p1a: Cinderace|p2a: Corviknight
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Cottonee|Cottonee, L1, F|100/100
+|move|p2a: Corviknight|Body Press|p1a: Cottonee
+|-resisted|p1a: Cottonee
+|-damage|p1a: Cottonee|0 fnt
+|faint|p1a: Cottonee
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|55/100
+|turn|15
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|67/100
+|move|p2a: Corviknight|Body Press|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-heal|p2a: Corviknight|73/100|[from] item: Leftovers
+|upkeep
+|-message|test314150 forfeited.
+|
+|win|Bloody Regina
+|l|☆test314150
+|raw|test314150's rating: 1304 → 1284(-20 for losing)
+|raw|Bloody Regina's rating: 1295 → 1321(+26 for winning)

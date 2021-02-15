@@ -1,0 +1,346 @@
+|ScrapeTime|2020-01-02-05:25:06
+|j|☆Kavin31
+|j|☆seanisghey
+|player|p1|Kavin31|266|1339
+|player|p2|seanisghey|gardenia|1343
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dracozolt|
+|poke|p1|Togekiss, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Conkeldurr, M|
+|poke|p2|Ribombee, M|
+|poke|p2|Dracozolt|
+|poke|p2|Bisharp, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Vaporeon, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by seanisghey)
+|
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|turn|1
+|
+|move|p1a: Cinderace|U-turn|p2a: Vaporeon
+|-damage|p2a: Vaporeon|83/100
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100|[from]move: U-turn
+|move|p2a: Vaporeon|Scald|p1a: Dracozolt
+|-resisted|p1a: Dracozolt
+|-damage|p1a: Dracozolt|84/100
+|
+|-heal|p2a: Vaporeon|90/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Dracozolt|Bolt Beak|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p2a: Vaporeon|96/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Dracozolt|Fire Fang|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|32/100
+|-damage|p1a: Dracozolt|72/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Dracozolt|55/100|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Dracozolt|Fire Fang|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Ribombee|Ribombee, M|100/100
+|move|p1a: Dracozolt|Fire Fang|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-enditem|p2a: Ribombee|Focus Sash
+|-damage|p2a: Ribombee|1/100
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Ribombee|Moonblast|p1a: Dracozolt
+|-supereffective|p1a: Dracozolt
+|-damage|p1a: Dracozolt|0 fnt
+|faint|p1a: Dracozolt
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|7
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|32/100
+|move|p1a: Cinderace|U-turn|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|18/100
+|-damage|p1a: Cinderace|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Cinderace|72/100|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|-item|p2a: Excadrill|Air Balloon
+|move|p1a: Togekiss|Flamethrower|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|28/100
+|-enditem|p2a: Excadrill|Air Balloon
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Cinderace|Cinderace, M|72/100
+|move|p2a: Excadrill|Iron Head|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|35/100
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Vaporeon|Vaporeon, M|96/100
+|turn|11
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|100/100|[from] item: Leftovers
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|12
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|18/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Conkeldurr|88/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Conkeldurr|72/100 brn|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-damage|p1a: Conkeldurr|65/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|turn|13
+|
+|move|p2a: Dracozolt|Substitute|p2a: Dracozolt
+|-start|p2a: Dracozolt|Substitute
+|-damage|p2a: Dracozolt|76/100
+|move|p1a: Conkeldurr|Earthquake|p2a: Dracozolt
+|-supereffective|p2a: Dracozolt
+|-end|p2a: Dracozolt|Substitute
+|
+|-heal|p2a: Dracozolt|82/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|59/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Dracozolt|Bolt Beak|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|-heal|p2a: Dracozolt|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|15
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Dracozolt
+|-supereffective|p2a: Dracozolt
+|-damage|p2a: Dracozolt|7/100
+|-supereffective|p2a: Dracozolt
+|-damage|p2a: Dracozolt|0 fnt
+|-hitcount|p2a: Dracozolt|2
+|faint|p2a: Dracozolt
+|
+|upkeep
+|
+|switch|p2a: Ribombee|Ribombee, M|1/100
+|turn|16
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Ribombee
+|-immune|p2a: Ribombee
+|move|p2a: Ribombee|Sticky Web|p1a: Dragapult
+|-sidestart|p1: Kavin31|move: Sticky Web
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force|p2a: Ribombee
+|move|p2a: Ribombee|Moonblast|p1a: Dragapult|[miss]
+|-miss|p2a: Ribombee|p1a: Dragapult
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|move|p1a: Dragapult|Phantom Force|p2a: Vaporeon|[from]lockedmove
+|-damage|p2a: Vaporeon|64/100
+|
+|-heal|p2a: Vaporeon|70/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|c|☆Kavin31|whoops
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Vaporeon|Ice Beam|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|36/100
+|
+|-heal|p2a: Vaporeon|77/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Vaporeon
+|-damage|p2a: Vaporeon|42/100
+|-damage|p2a: Vaporeon|6/100
+|-hitcount|p2a: Vaporeon|2
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|12/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Vaporeon|[miss]
+|-miss|p1a: Dragapult|p2a: Vaporeon
+|move|p2a: Vaporeon|Ice Beam|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Vaporeon|62/100|[from] move: Wish|[wisher] Vaporeon
+|-heal|p2a: Vaporeon|68/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|-item|p1a: Excadrill|Air Balloon
+|turn|22
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Vaporeon
+|-damage|p2a: Vaporeon|54/100
+|-sideend|p1: Kavin31|Sticky Web|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|move|p2a: Vaporeon|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|14/100
+|-enditem|p1a: Excadrill|Air Balloon
+|
+|-heal|p2a: Vaporeon|60/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Excadrill|Earthquake|p2a: Vaporeon
+|-damage|p2a: Vaporeon|21/100
+|move|p2a: Vaporeon|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-heal|p2a: Vaporeon|28/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|turn|24
+|
+|switch|p2a: Ribombee|Ribombee, M|1/100
+|move|p1a: Togekiss|Dazzling Gleam|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|turn|25
+|
+|move|p1a: Togekiss|Flamethrower|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|2/100
+|move|p2a: Bisharp|Iron Head|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|4/100
+|-enditem|p1a: Togekiss|Weakness Policy
+|-boost|p1a: Togekiss|atk|2
+|-boost|p1a: Togekiss|spa|2
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Togekiss
+|-resisted|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|35/100
+|turn|27
+|
+|move|p1a: Cinderace|Sucker Punch|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|switch|p2a: Vaporeon|Vaporeon, M|28/100
+|turn|28
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Cinderace|Sucker Punch||[still]
+|-fail|p1a: Cinderace
+|
+|-heal|p2a: Vaporeon|34/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Cinderace|Sucker Punch|p2a: Vaporeon
+|-damage|p2a: Vaporeon|19/100
+|move|p2a: Vaporeon|Scald|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|win|seanisghey
+|raw|Kavin31's rating: 1339 → 1319(-20 for losing)
+|raw|seanisghey's rating: 1343 → 1363(+20 for winning)
+|c|☆Kavin31|gg
+|l|☆Kavin31

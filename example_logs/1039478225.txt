@@ -1,0 +1,199 @@
+|ScrapeTime|2020-01-02-03:25:21
+|j|☆Librani
+|j|☆B00tL3g
+|player|p1|Librani|galacticgruntf|1233
+|player|p2|B00tL3g|unknown|1177
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Appletun, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Dragapult, M|
+|poke|p1|Aegislash, M|
+|poke|p2|Bisharp, M|
+|poke|p2|Cofagrigus, M|
+|poke|p2|Manectric, F|
+|poke|p2|Dugtrio, M|
+|poke|p2|Tsareena, F|
+|poke|p2|Araquanid, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Imortiil|Corsola-Galar, F|100/100
+|switch|p2a: Manectric|Manectric, F|100/100
+|turn|1
+|
+|move|p2a: Manectric|Switcheroo|p1a: Imortiil
+|-activate|p2a: Manectric|move: Trick|[of] p1a: Imortiil
+|-item|p1a: Imortiil|Choice Specs|[from] move: Switcheroo
+|-item|p2a: Manectric|Eviolite|[from] move: Switcheroo
+|move|p1a: Imortiil|Stealth Rock|p2a: Manectric
+|-sidestart|p2: B00tL3g|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Good Boi|Appletun, M|100/100
+|move|p2a: Manectric|Volt Switch|p1a: Good Boi
+|-resisted|p1a: Good Boi
+|-damage|p1a: Good Boi|94/100
+|
+|switch|p2a: Tsareena|Tsareena, F|100/100|[from]move: Volt Switch
+|-damage|p2a: Tsareena|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Easy Bake|Rotom-Heat, shiny|100/100
+|move|p2a: Tsareena|Rapid Spin|p1a: Easy Bake
+|-damage|p1a: Easy Bake|81/100
+|-sideend|p2: B00tL3g|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tsareena
+|-boost|p2a: Tsareena|spe|1
+|
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by B00tL3g)
+|
+|switch|p2a: Manectric|Manectric, F|100/100
+|move|p1a: Easy Bake|Trick|p2a: Manectric
+|-activate|p1a: Easy Bake|move: Trick|[of] p2a: Manectric
+|-item|p2a: Manectric|Choice Specs|[from] move: Trick
+|-item|p1a: Easy Bake|Eviolite|[from] move: Trick
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Manectric|Volt Switch|p1a: Easy Bake
+|-resisted|p1a: Easy Bake
+|-damage|p1a: Easy Bake|54/100
+|
+|switch|p2a: Dugtrio|Dugtrio, M|100/100|[from]move: Volt Switch
+|move|p1a: Easy Bake|Volt Switch|p2a: Dugtrio
+|-immune|p2a: Dugtrio
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Good Boi|Appletun, M|94/100
+|move|p2a: Dugtrio|Stealth Rock|p1a: Good Boi
+|-sidestart|p1: Librani|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Tsareena|Tsareena, F|88/100
+|move|p1a: Good Boi|Leech Seed|p2a: Tsareena
+|-immune|p2a: Tsareena
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Tsareena|U-turn|p1a: Good Boi
+|-supereffective|p1a: Good Boi
+|-damage|p1a: Good Boi|52/100
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100|[from]move: U-turn
+|move|p1a: Good Boi|Dragon Pulse|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|75/100
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|move|p1a: Good Boi|Recover|p1a: Good Boi
+|-heal|p1a: Good Boi|100/100
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Good Boi
+|-damage|p1a: Good Boi|15/100
+|-start|p1a: Good Boi|Throat Chop|[silent]
+|move|p1a: Good Boi|Leech Seed|p2a: Bisharp
+|-start|p2a: Bisharp|move: Leech Seed
+|
+|-damage|p2a: Bisharp|63/100|[from] Leech Seed|[of] p1a: Good Boi
+|-heal|p1a: Good Boi|25/100|[silent]
+|upkeep
+|turn|11
+|
+|move|p2a: Bisharp|Iron Head|p1a: Good Boi
+|-damage|p1a: Good Boi|0 fnt
+|faint|p1a: Good Boi
+|
+|upkeep
+|
+|switch|p1a: Easy Bake|Rotom-Heat, shiny|54/100
+|-damage|p1a: Easy Bake|29/100|[from] Stealth Rock
+|turn|12
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Easy Bake
+|-damage|p1a: Easy Bake|0 fnt
+|faint|p1a: Easy Bake
+|
+|upkeep
+|
+|switch|p1a: Imortiil|Corsola-Galar, F|100/100
+|-damage|p1a: Imortiil|88/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Imortiil
+|-supereffective|p1a: Imortiil
+|-damage|p1a: Imortiil|0 fnt
+|faint|p1a: Imortiil
+|
+|upkeep
+|
+|switch|p1a: Hilltree|Grimmsnarl, M|100/100
+|-damage|p1a: Hilltree|88/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Bisharp|Iron Head|p1a: Hilltree
+|-supereffective|p1a: Hilltree
+|-damage|p1a: Hilltree|0 fnt
+|faint|p1a: Hilltree
+|
+|upkeep
+|
+|switch|p1a: Dracolich|Dragapult, M|100/100
+|-damage|p1a: Dracolich|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Dracolich|U-turn|p2a: Bisharp
+|-damage|p2a: Bisharp|19/100
+|
+|switch|p1a: muramasa|Aegislash, M|100/100|[from]move: U-turn
+|-damage|p1a: muramasa|94/100|[from] Stealth Rock
+|move|p2a: Bisharp|Throat Chop|p1a: muramasa
+|-supereffective|p1a: muramasa
+|-damage|p1a: muramasa|0 fnt
+|faint|p1a: muramasa
+|
+|upkeep
+|
+|switch|p1a: Dracolich|Dragapult, M|88/100
+|-damage|p1a: Dracolich|76/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Dracolich
+|-supereffective|p1a: Dracolich
+|-damage|p1a: Dracolich|0 fnt
+|faint|p1a: Dracolich
+|
+|win|B00tL3g
+|l|☆Librani

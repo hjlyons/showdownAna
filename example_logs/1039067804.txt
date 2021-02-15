@@ -1,0 +1,372 @@
+|ScrapeTime|2020-01-01-08:56:08
+|j|☆Shade Limit
+|j|☆pastagirl
+|player|p1|Shade Limit|94|1351
+|player|p2|pastagirl|beauty-gen4dp|1388
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, M|
+|poke|p1|Dugtrio, F|
+|poke|p1|Ludicolo, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Aegislash, F|
+|poke|p1|Cinderace, M|
+|poke|p2|Togekiss, F|
+|poke|p2|Mamoswine, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Dracozolt|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Toxapex, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆Shade Limit|gl hf
+|
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Togekiss|Togekiss, F|100/100
+|turn|1
+|
+|move|p2a: Togekiss|Air Slash|p1a: Cinderace
+|-damage|p1a: Cinderace|43/100
+|cant|p1a: Cinderace|flinch
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|move|p2a: Dracozolt|Substitute|p2a: Dracozolt
+|-start|p2a: Dracozolt|Substitute
+|-damage|p2a: Dracozolt|76/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Dracozolt
+|-supereffective|p2a: Dracozolt
+|-end|p2a: Dracozolt|Substitute
+|move|p2a: Dracozolt|Dragon Claw|p1a: Dugtrio
+|-enditem|p1a: Dugtrio|Focus Sash
+|-damage|p1a: Dugtrio|1/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Dracozolt
+|-supereffective|p2a: Dracozolt
+|-damage|p2a: Dracozolt|0 fnt
+|faint|p2a: Dracozolt
+|
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, F|100/100
+|turn|6
+|
+|move|p2a: Togekiss|Fire Blast|p1a: Dugtrio|[miss]
+|-miss|p2a: Togekiss|p1a: Dugtrio
+|move|p1a: Dugtrio|Stealth Rock|p2a: Togekiss
+|-sidestart|p2: pastagirl|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Togekiss|Fire Blast|p1a: Rotom|[miss]
+|-miss|p2a: Togekiss|p1a: Rotom
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|-damage|p2a: Mamoswine|88/100|[from] Stealth Rock
+|move|p1a: Rotom|Thunder Wave|p2a: Mamoswine
+|-immune|p2a: Mamoswine
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Ludicolo|Ludicolo, M|100/100
+|move|p2a: Mamoswine|Stone Edge|p1a: Ludicolo
+|-damage|p1a: Ludicolo|56/100
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Ludicolo|Leaf Storm|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|44/100
+|-unboost|p1a: Ludicolo|spa|2
+|move|p2a: Mamoswine|Avalanche|p1a: Ludicolo
+|-damage|p1a: Ludicolo|0 fnt
+|faint|p1a: Ludicolo
+|
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|turn|11
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Iron Head|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|81/100
+|-damage|p1a: Aegislash|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p1a: Aegislash|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|88/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Rotom
+|-start|p1a: Rotom|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|-damage|p1a: Rotom|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|13
+|
+|move|p1a: Rotom|Trick|p2a: Ferrothorn
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Ferrothorn
+|-item|p2a: Ferrothorn|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Rotom
+|-sidestart|p1: Shade Limit|move: Stealth Rock
+|
+|-heal|p1a: Rotom|94/100|[from] item: Leftovers
+|-damage|p1a: Rotom|82/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|14
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Rotom|Overheat|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|65/100
+|-unboost|p1a: Rotom|spa|2
+|
+|-heal|p1a: Rotom|88/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|71/100|[from] item: Black Sludge
+|-damage|p1a: Rotom|76/100|[from] Leech Seed|[of] p2a: Toxapex
+|-heal|p2a: Toxapex|81/100|[silent]
+|upkeep
+|turn|15
+|
+|switch|p2a: Mamoswine|Mamoswine, M|44/100
+|-damage|p2a: Mamoswine|31/100|[from] Stealth Rock
+|move|p1a: Rotom|Volt Switch|p2a: Mamoswine
+|-immune|p2a: Mamoswine
+|
+|-heal|p1a: Rotom|82/100|[from] item: Leftovers
+|-damage|p1a: Rotom|69/100|[from] Leech Seed|[of] p2a: Mamoswine
+|-heal|p2a: Mamoswine|38/100|[silent]
+|upkeep
+|turn|16
+|
+|switch|p1a: Dugtrio|Dugtrio, F|1/100
+|-damage|p1a: Dugtrio|0 fnt|[from] Stealth Rock
+|faint|p1a: Dugtrio
+|move|p2a: Mamoswine|Earthquake|p1: Dugtrio|[notarget]
+|-fail|p2a: Mamoswine
+|
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, F|94/100
+|-damage|p1a: Aegislash|88/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Sacred Sword|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|53/100
+|-damage|p1a: Aegislash|76/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p1a: Aegislash|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Aegislash|Iron Head|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|40/100
+|-damage|p1a: Aegislash|70/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Aegislash
+|-start|p1a: Aegislash|move: Leech Seed
+|
+|-heal|p1a: Aegislash|76/100|[from] item: Leftovers
+|-damage|p1a: Aegislash|63/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|51/100|[silent]
+|upkeep
+|turn|19
+|
+|switch|p1a: Cinderace|Cinderace, M|43/100
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|move|p1a: Cinderace|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|82/100
+|
+|switch|p1a: Rotom|Rotom-Heat|69/100|[from]move: U-turn
+|-damage|p1a: Rotom|44/100|[from] Stealth Rock
+|move|p2a: Toxapex|Scald|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-heal|p2a: Toxapex|88/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Toxapex
+|-damage|p2a: Toxapex|40/100
+|-damage|p1a: Hydreigon|78/100|[from] item: Life Orb
+|cant|p2a: Toxapex|flinch
+|
+|-heal|p2a: Toxapex|47/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|switch|p2a: Togekiss|Togekiss, F|100/100
+|-damage|p2a: Togekiss|76/100|[from] Stealth Rock
+|move|p1a: Hydreigon|Flash Cannon|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|2/100
+|-damage|p1a: Hydreigon|68/100|[from] item: Life Orb
+|
+|upkeep
+|turn|23
+|
+|switch|p1a: Cinderace|Cinderace, M|43/100
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|13/100
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, F|63/100
+|-damage|p1a: Aegislash|57/100|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Aegislash
+|-resisted|p1a: Aegislash
+|-damage|p1a: Aegislash|42/100
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Sacred Sword|p2a: Togekiss
+|-resisted|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|-heal|p1a: Aegislash|49/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|51/100
+|-damage|p2a: Ferrothorn|45/100|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Aegislash|Sacred Sword|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|4/100
+|-damage|p1a: Aegislash|36/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Aegislash
+|-start|p1a: Aegislash|move: Leech Seed
+|
+|-heal|p1a: Aegislash|42/100|[from] item: Leftovers
+|-damage|p1a: Aegislash|30/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|16/100|[silent]
+|upkeep
+|turn|27
+|
+|switch|p1a: Hydreigon|Hydreigon, M|68/100
+|-damage|p1a: Hydreigon|56/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Hydreigon
+|-start|p1a: Hydreigon|move: Leech Seed
+|
+|-damage|p1a: Hydreigon|44/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|27/100|[silent]
+|upkeep
+|turn|28
+|
+|switch|p2a: Mamoswine|Mamoswine, M|38/100
+|-damage|p2a: Mamoswine|26/100|[from] Stealth Rock
+|move|p1a: Hydreigon|Dark Pulse|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|-damage|p1a: Hydreigon|34/100|[from] item: Life Orb
+|faint|p2a: Mamoswine
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p2a: Conkeldurr|94/100|[from] Stealth Rock
+|turn|29
+|
+|switch|p1a: Aegislash|Aegislash, F|30/100
+|-damage|p1a: Aegislash|24/100|[from] Stealth Rock
+|move|p2a: Conkeldurr|Mach Punch|p1a: Aegislash
+|-immune|p1a: Aegislash
+|
+|-heal|p1a: Aegislash|30/100|[from] item: Leftovers
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|30
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Sacred Sword|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|60/100 brn
+|move|p2a: Conkeldurr|Earthquake|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|-damage|p2a: Conkeldurr|54/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|34/100
+|-damage|p1a: Hydreigon|22/100|[from] Stealth Rock
+|turn|31
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|win|pastagirl
+|c|☆pastagirl|gg
+|raw|Shade Limit's rating: 1351 → 1333(-18 for losing)
+|raw|pastagirl's rating: 1388 → 1406(+18 for winning)
+|l|☆Shade Limit

@@ -1,0 +1,297 @@
+|ScrapeTime|2020-01-02-02:45:00
+|j|☆nuevameta
+|j|☆beergoggles
+|player|p1|nuevameta|266|1282
+|player|p2|beergoggles|130|1248
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dracovish|
+|poke|p1|Toxtricity, F|
+|poke|p1|Sirfetch'd, M|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Toxicroak, M|
+|poke|p2|Pincurchin, M|
+|poke|p2|Hawlucha, F|
+|poke|p2|Cloyster, F|
+|poke|p2|Indeedee, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Excadrill, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nuevameta)
+|
+|start
+|switch|p1a: Sirfetch'd|Sirfetch'd, M|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p2a: Excadrill|Stealth Rock|p1a: Sirfetch'd
+|-sidestart|p1: nuevameta|move: Stealth Rock
+|move|p1a: Sirfetch'd|Knock Off|p2a: Excadrill
+|-damage|p2a: Excadrill|48/100
+|-enditem|p2a: Excadrill|Focus Sash|[from] move: Knock Off|[of] p1a: Sirfetch'd
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Excadrill|Earthquake|p1a: Sirfetch'd
+|-damage|p1a: Sirfetch'd|34/100
+|move|p1a: Sirfetch'd|Defog|p2a: Excadrill
+|-unboost|p2a: Excadrill|evasion|1
+|-sideend|p1: nuevameta|Stealth Rock|[from] move: Defog|[of] p1a: Sirfetch'd
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Excadrill|Stealth Rock|p1a: Sirfetch'd
+|-sidestart|p1: nuevameta|move: Stealth Rock
+|move|p1a: Sirfetch'd|Close Combat|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-unboost|p1a: Sirfetch'd|def|1
+|-unboost|p1a: Sirfetch'd|spd|1
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|4
+|
+|move|p2a: Indeedee|Psychic|p1a: Sirfetch'd
+|-supereffective|p1a: Sirfetch'd
+|-damage|p1a: Sirfetch'd|0 fnt
+|faint|p1a: Sirfetch'd
+|
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|-damage|p1a: Corsola|88/100|[from] Stealth Rock
+|turn|5
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Corsola|Stealth Rock|p2a: Cinderace
+|-sidestart|p2: beergoggles|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Cinderace|Zen Headbutt|p1a: Corsola
+|-damage|p1a: Corsola|57/100
+|-damage|p2a: Cinderace|91/100|[from] item: Life Orb
+|move|p1a: Corsola|Strength Sap|p2a: Cinderace
+|-unboost|p2a: Cinderace|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-damage|p2a: Indeedee|88/100|[from] Stealth Rock
+|move|p1a: Corsola|Hex|p2a: Indeedee
+|-immune|p2a: Indeedee
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Indeedee|Trick|p1a: Corsola
+|-activate|p2a: Indeedee|move: Trick|[of] p1a: Corsola
+|-item|p1a: Corsola|Choice Scarf|[from] move: Trick
+|-item|p2a: Indeedee|Eviolite|[from] move: Trick
+|move|p1a: Corsola|Will-O-Wisp|p2a: Indeedee|[miss]
+|-miss|p1a: Corsola|p2a: Indeedee
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+|
+|switch|p2a: Cinderace|Cinderace, F|91/100
+|-damage|p2a: Cinderace|66/100|[from] Stealth Rock
+|move|p1a: Corsola|Will-O-Wisp|p2a: Cinderace
+|-immune|p2a: Cinderace
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|-damage|p1a: Dracovish|88/100|[from] Stealth Rock
+|move|p2a: Cinderace|Pyro Ball|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|70/100
+|-damage|p2a: Cinderace|56/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Cinderace|Zen Headbutt|p1a: Dracovish
+|-damage|p1a: Dracovish|33/100
+|-damage|p2a: Cinderace|46/100|[from] item: Life Orb
+|move|p1a: Dracovish|Fishious Rend|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Indeedee|Indeedee, M|88/100
+|-damage|p2a: Indeedee|76/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|12
+|
+|move|p2a: Indeedee|Mystical Fire|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|25/100
+|-unboost|p1a: Dracovish|spa|1
+|move|p1a: Dracovish|Fishious Rend|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|switch|p2a: Cloyster|Cloyster, F|100/100
+|-damage|p2a: Cloyster|76/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|6/100
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Cloyster|Icicle Spear|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|-hitcount|p1a: Dracovish|1
+|faint|p1a: Dracovish
+|
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|-damage|p1a: Corsola|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Cloyster|Icicle Spear|p1a: Corsola
+|-damage|p1a: Corsola|66/100
+|-damage|p1a: Corsola|43/100
+|-damage|p1a: Corsola|21/100
+|-start|p2a: Cloyster|Disable|Icicle Spear|[from] ability: Cursed Body|[of] p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|-hitcount|p1a: Corsola|4
+|faint|p1a: Corsola
+|
+|upkeep
+|
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|-damage|p1a: Toxicroak|94/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Cloyster|Rock Blast|p1a: Toxicroak|[miss]
+|-miss|p2a: Cloyster|p1a: Toxicroak
+|move|p1a: Toxicroak|Drain Punch|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|-heal|p1a: Toxicroak|97/100|[from] drain|[of] p2a: Cloyster
+|-damage|p1a: Toxicroak|87/100|[from] item: Life Orb
+|faint|p2a: Cloyster
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|switch|p2a: Dustpan|Pincurchin, M|100/100
+|-damage|p2a: Dustpan|88/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Dustpan
+|turn|17
+|inactive|nuevameta has 120 seconds left.
+|
+|move|p1a: Toxicroak|Swords Dance|p1a: Toxicroak
+|-boost|p1a: Toxicroak|atk|2
+|move|p2a: Dustpan|Memento|p1a: Toxicroak
+|-unboost|p1a: Toxicroak|atk|2
+|-unboost|p1a: Toxicroak|spa|2
+|faint|p2a: Dustpan
+|
+|upkeep
+|
+|switch|p2a: Broom|Hawlucha, F|100/100
+|-damage|p2a: Broom|88/100|[from] Stealth Rock
+|-enditem|p2a: Broom|Electric Seed
+|-boost|p2a: Broom|def|1
+|turn|18
+|
+|move|p1a: Toxicroak|Sucker Punch||[still]
+|-fail|p1a: Toxicroak
+|move|p2a: Broom|Encore|p1a: Toxicroak
+|-start|p1a: Toxicroak|Encore
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Toxicroak|Sucker Punch||[still]
+|-fail|p1a: Toxicroak
+|move|p2a: Broom|Swords Dance|p2a: Broom
+|-boost|p2a: Broom|atk|2
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Toxtricity|Toxtricity, F|100/100
+|-damage|p1a: Toxtricity|88/100|[from] Stealth Rock
+|move|p2a: Broom|Swords Dance|p2a: Broom
+|-boost|p2a: Broom|atk|2
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Broom|Brave Bird|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|-damage|p2a: Broom|60/100|[from] Recoil
+|faint|p1a: Toxtricity
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|switch|p1a: Toxicroak|Toxicroak, M|87/100
+|-damage|p1a: Toxicroak|81/100|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: Broom|Drain Punch|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-damage|p1a: Toxicroak|3/100
+|-heal|p2a: Broom|99/100|[from] drain|[of] p1a: Toxicroak
+|move|p1a: Toxicroak|Gunk Shot|p2a: Broom
+|-damage|p2a: Broom|50/100
+|-damage|p1a: Toxicroak|0 fnt|[from] item: Life Orb
+|faint|p1a: Toxicroak
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Dragapult|Thunderbolt|p2a: Broom
+|-supereffective|p2a: Broom
+|-damage|p2a: Broom|0 fnt
+|faint|p2a: Broom
+|
+|win|nuevameta

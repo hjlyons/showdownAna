@@ -1,0 +1,152 @@
+|ScrapeTime|2020-01-02-02:22:26
+|j|☆lunerfang
+|j|☆MedievalJedi66
+|player|p1|lunerfang|120|1108
+|player|p2|MedievalJedi66|veteran|1081
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Dracovish|
+|poke|p1|Toxtricity, M|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Drapion, M|
+|poke|p2|Obstagoon, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Morpeko, F|
+|poke|p2|Mimikyu, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Drapion|Drapion, M, shiny|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Drapion|Taunt|p2a: Mandibuzz
+|-start|p2a: Mandibuzz|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Drapion|Knock Off|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|89/100
+|-enditem|p2a: Mandibuzz|Leftovers|[from] move: Knock Off|[of] p1a: Drapion
+|move|p2a: Mandibuzz|Knock Off|p1a: Drapion
+|-resisted|p1a: Drapion
+|-crit|p1a: Drapion
+|-damage|p1a: Drapion|84/100
+|-enditem|p1a: Drapion|Scope Lens|[from] move: Knock Off|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Drapion|Cross Poison|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|71/100
+|move|p2a: Mandibuzz|Knock Off|p1a: Drapion
+|-resisted|p1a: Drapion
+|-damage|p1a: Drapion|77/100
+|
+|-end|p2a: Mandibuzz|move: Taunt
+|upkeep
+|turn|4
+|
+|move|p1a: Drapion|Taunt|p2a: Mandibuzz
+|-start|p2a: Mandibuzz|move: Taunt
+|cant|p2a: Mandibuzz|move: Taunt|Substitute
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Drapion|Toxic Spikes|p2a: Mandibuzz
+|-sidestart|p2: MedievalJedi66|move: Toxic Spikes
+|move|p2a: Mandibuzz|Knock Off|p1a: Drapion
+|-resisted|p1a: Drapion
+|-damage|p1a: Drapion|70/100
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Drapion|Toxic Spikes|p2a: Mandibuzz
+|-sidestart|p2: MedievalJedi66|move: Toxic Spikes
+|move|p2a: Mandibuzz|Knock Off|p1a: Drapion
+|-resisted|p1a: Drapion
+|-damage|p1a: Drapion|63/100
+|
+|-end|p2a: Mandibuzz|move: Taunt
+|upkeep
+|turn|7
+|
+|move|p1a: Drapion|Taunt|p2a: Mandibuzz
+|-start|p2a: Mandibuzz|move: Taunt
+|move|p2a: Mandibuzz|Knock Off|p1a: Drapion
+|-resisted|p1a: Drapion
+|-damage|p1a: Drapion|55/100
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Drapion|Cross Poison|p2a: Mandibuzz
+|-crit|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|37/100
+|move|p2a: Mandibuzz|Knock Off|p1a: Drapion
+|-resisted|p1a: Drapion
+|-damage|p1a: Drapion|48/100
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-status|p2a: Grimmsnarl|tox
+|move|p1a: Drapion|Cross Poison|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|35/100 tox
+|
+|-damage|p2a: Grimmsnarl|29/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|move|p1a: Drapion|Cross Poison|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lunerfang)
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|-status|p2a: Corsola|tox
+|turn|11
+|
+|move|p1a: Drapion|Knock Off|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|41/100 tox
+|-enditem|p2a: Corsola|Eviolite|[from] move: Knock Off|[of] p1a: Drapion
+|move|p2a: Corsola|Hex|p1a: Drapion
+|-resisted|p1a: Drapion
+|-damage|p1a: Drapion|37/100
+|
+|-damage|p2a: Corsola|34/100 tox|[from] psn
+|upkeep
+|turn|12
+|-message|MedievalJedi66 forfeited.
+|
+|win|lunerfang
+|l|☆MedievalJedi66
+|raw|lunerfang's rating: 1108 → 1130(+22 for winning)
+|raw|MedievalJedi66's rating: 1060 → 1043(-17 for losing)

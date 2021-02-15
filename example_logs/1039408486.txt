@@ -1,0 +1,225 @@
+|ScrapeTime|2020-01-02-00:34:29
+|j|☆Basura inc.
+|j|☆wolvenom
+|player|p1|Basura inc.|n|1457
+|player|p2|wolvenom|170|1374
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxtricity, M|
+|poke|p1|Ribombee, F|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Aegislash, F|
+|poke|p1|Seismitoad, F|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Toxicroak, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Dubwool, F|
+|poke|p2|Crawdaunt, F|
+|poke|p2|Polteageist|
+|poke|p2|Gyarados, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by wolvenom)
+|inactive|Basura inc. has 120 seconds left.
+|
+|start
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|switch|p2a: Polteageist|Polteageist|100/100
+|turn|1
+|
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|-enditem|p2a: Polteageist|White Herb
+|-clearnegativeboost|p2a: Polteageist|[silent]
+|move|p1a: Conkeldurr|Earthquake|p2a: Polteageist
+|-damage|p2a: Polteageist|34/100
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Polteageist|Stored Power|p1a: Mandibuzz
+|-immune|p1a: Mandibuzz
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|73/100
+|move|p1a: Mandibuzz|Knock Off|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|-start|p1a: Mandibuzz|Disable|Knock Off|[from] ability: Cursed Body|[of] p2a: Polteageist
+|faint|p2a: Polteageist
+|
+|upkeep
+|c|☆Basura inc.|clown
+|
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100
+|turn|4
+|c|☆Basura inc.|they call me arthur
+|
+|move|p2a: Crawdaunt|Swords Dance|p2a: Crawdaunt
+|-boost|p2a: Crawdaunt|atk|2
+|move|p1a: Mandibuzz|U-turn|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|69/100
+|
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100 brn|[from]move: U-turn
+|
+|-damage|p1a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|24/100 brn
+|-damage|p2a: Crawdaunt|59/100|[from] item: Life Orb
+|move|p1a: Conkeldurr|Mach Punch|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|-damage|p1a: Conkeldurr|17/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Toxicroak|Toxicroak, F|100/100
+|turn|6
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Toxicroak|Poison Jab|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|82/100
+|-damage|p2a: Toxicroak|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Seismitoad|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Toxicroak|Drain Punch|p1a: Seismitoad
+|-crit|p1a: Seismitoad
+|-damage|p1a: Seismitoad|36/100
+|-heal|p2a: Toxicroak|100/100|[from] drain|[of] p1a: Seismitoad
+|-damage|p2a: Toxicroak|91/100|[from] item: Life Orb
+|move|p1a: Seismitoad|Earth Power|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-damage|p2a: Toxicroak|7/100
+|
+|-heal|p1a: Seismitoad|42/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Aegislash|Aegislash, F, shiny|100/100
+|move|p2a: Toxicroak|Drain Punch|p1a: Aegislash
+|-immune|p1a: Aegislash
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Toxicroak|Sucker Punch||[still]
+|-fail|p2a: Toxicroak
+|move|p1a: Aegislash|Autotomize|p1a: Aegislash
+|-boost|p1a: Aegislash|spe|2
+|-start|p1a: Aegislash|Autotomize
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Toxicroak|Sucker Punch||[still]
+|-fail|p2a: Toxicroak
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Toxicroak|Sucker Punch||[still]
+|-fail|p2a: Toxicroak
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Toxicroak|Sucker Punch||[still]
+|-fail|p2a: Toxicroak
+|move|p1a: Aegislash|Autotomize|p1a: Aegislash
+|-boost|p1a: Aegislash|spe|2
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Toxicroak|Sucker Punch||[still]
+|-fail|p2a: Toxicroak
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Toxicroak|Sucker Punch||[still]
+|-fail|p2a: Toxicroak
+|move|p1a: Aegislash|Autotomize|p1a: Aegislash
+|-boost|p1a: Aegislash|spe|2
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Toxicroak|Sucker Punch||[still]
+|-fail|p2a: Toxicroak
+|move|p1a: Aegislash|Autotomize||[still]
+|-fail|p1a: Aegislash
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Toxicroak|Sucker Punch||[still]
+|-fail|p2a: Toxicroak
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|0
+|
+|upkeep
+|turn|17
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Iron Head|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|18
+|
+|move|p1a: Aegislash|Iron Head|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-enditem|p2a: Excadrill|Focus Sash
+|-damage|p2a: Excadrill|1/100
+|cant|p2a: Excadrill|flinch
+|
+|upkeep
+|turn|19
+|-message|wolvenom forfeited.
+|
+|win|Basura inc.
+|l|☆wolvenom
+|c|☆Basura inc.|agency agency
+|raw|Basura inc.'s rating: 1457 → 1472(+15 for winning)
+|raw|wolvenom's rating: 1374 → 1359(-15 for losing)

@@ -1,0 +1,198 @@
+|ScrapeTime|2020-01-01-02:05:49
+|j|☆diaperbabe29
+|j|☆Serp IV
+|player|p1|diaperbabe29|8|1773
+|player|p2|Serp IV|rosa|1673
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Clefable, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Kommo-o, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Gastrodon-East, F|
+|poke|p1|Ditto|
+|poke|p2|Cinderace, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Togekiss, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Cinccino, F|
+|poke|p2|Corsola-Galar, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|switch|p2a: Grise|Cinccino, F|100/100
+|turn|1
+|j| Leo.Kings
+|
+|move|p2a: Grise|U-turn|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|92/100
+|
+|switch|p2a: Kuro|Corviknight, M|100/100|[from]move: U-turn
+|-ability|p2a: Kuro|Pressure
+|move|p1a: Kommo-o|Body Press|p2a: Kuro
+|-crit|p2a: Kuro
+|-damage|p2a: Kuro|67/100
+|-damage|p1a: Kommo-o|76/100|[from] item: Rocky Helmet|[of] p2a: Kuro
+|
+|-heal|p1a: Kommo-o|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Kommo-o|Stealth Rock|p2a: Kuro
+|-sidestart|p2: Serp IV|move: Stealth Rock
+|move|p2a: Kuro|Brave Bird|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-crit|p1a: Kommo-o
+|-damage|p1a: Kommo-o|5/100
+|-damage|p2a: Kuro|45/100|[from] Recoil
+|
+|-heal|p1a: Kommo-o|11/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Kommo-o|Flamethrower|p2a: Kuro
+|-supereffective|p2a: Kuro
+|-damage|p2a: Kuro|0 fnt
+|faint|p2a: Kuro
+|
+|-heal|p1a: Kommo-o|17/100|[from] item: Leftovers
+|upkeep
+|j| myjava
+|
+|switch|p2a: Rouge|Cinderace, F|100/100
+|-damage|p2a: Rouge|76/100|[from] Stealth Rock
+|turn|4
+|
+|move|p2a: Rouge|Pyro Ball|p1a: Kommo-o
+|-immune|p1a: Kommo-o|[from] ability: Bulletproof
+|move|p1a: Kommo-o|Body Press|p2a: Rouge
+|-damage|p2a: Rouge|19/100
+|
+|-heal|p1a: Kommo-o|24/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Biege|Corsola-Galar, M|100/100
+|-damage|p2a: Biege|88/100|[from] Stealth Rock
+|move|p1a: Kommo-o|Stealth Rock||[still]
+|-fail|p1a: Kommo-o
+|
+|-heal|p1a: Kommo-o|30/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Biege|Night Shade|p1a: Clefable
+|-damage|p1a: Clefable|74/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Rouge|Cinderace, F|19/100
+|-damage|p2a: Rouge|0 fnt|[from] Stealth Rock
+|faint|p2a: Rouge
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|upkeep
+|
+|switch|p2a: Grise|Cinccino, F|100/100
+|-damage|p2a: Grise|88/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Grise|Tail Slap|p1a: Corviknight|[miss]
+|-miss|p2a: Grise|p1a: Corviknight
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Biege|Corsola-Galar, M|88/100
+|-damage|p2a: Biege|76/100|[from] Stealth Rock
+|move|p1a: Corviknight|U-turn|p2a: Biege
+|-resisted|p2a: Biege
+|-damage|p2a: Biege|72/100
+|
+|switch|p1a: Clefable|Clefable, F|74/100|[from]move: U-turn
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Clefable|Moonblast|p2a: Biege
+|-damage|p2a: Biege|36/100
+|-unboost|p2a: Biege|spa|1
+|move|p2a: Biege|Stealth Rock|p1a: Clefable
+|-sidestart|p1: diaperbabe29|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Clefable|Moonblast|p2a: Biege
+|-damage|p2a: Biege|0 fnt
+|faint|p2a: Biege
+|
+|upkeep
+|
+|switch|p2a: Shiroko|Togekiss, F|100/100
+|-damage|p2a: Shiroko|76/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Shiroko|Air Slash|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|80/100
+|
+|-heal|p2a: Shiroko|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Grise|Cinccino, F|88/100
+|-damage|p2a: Grise|76/100|[from] Stealth Rock
+|move|p1a: Rotom|Volt Switch|p2a: Grise
+|-damage|p2a: Grise|35/100
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|
+|-heal|p1a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Grise|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|90/100
+|
+|switch|p2a: Shiroko|Togekiss, F|82/100|[from]move: U-turn
+|-damage|p2a: Shiroko|57/100|[from] Stealth Rock
+|move|p1a: Corviknight|U-turn|p2a: Shiroko
+|-resisted|p2a: Shiroko
+|-damage|p2a: Shiroko|53/100
+|
+|switch|p1a: Rotom|Rotom-Heat|80/100|[from]move: U-turn
+|
+|-heal|p2a: Shiroko|59/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|-message|Serp IV forfeited.
+|
+|win|diaperbabe29
+|l|☆Serp IV
+|raw|diaperbabe29's rating: 1773 → 1788(+15 for winning)
+|raw|Serp IV's rating: 1673 → 1659(-14 for losing)

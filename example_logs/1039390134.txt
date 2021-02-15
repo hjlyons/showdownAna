@@ -1,0 +1,298 @@
+|ScrapeTime|2020-01-01-23:52:29
+|j|☆Ye_Soul
+|j|☆Imsobaked
+|player|p1|Ye_Soul|237|1510
+|player|p2|Imsobaked|hiker-gen4|1517
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, F|
+|poke|p1|Dracovish|
+|poke|p1|Corviknight, F|
+|poke|p1|Clefable, M|
+|poke|p1|Mamoswine, M|
+|poke|p1|Jellicent, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Sylveon, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Hydreigon, F|
+|poke|p2|Centiskorch, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|switch|p2a: Centiskorch|Centiskorch, M|100/100
+|turn|1
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|move|p2a: Centiskorch|Power Whip|p1a: Dracovish
+|-damage|p1a: Dracovish|59/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Seismitoad
+|-immune|p2a: Seismitoad|[from] ability: Water Absorb
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|move|p2a: Seismitoad|Scald|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|88/100
+|-status|p1a: Hydreigon|brn
+|
+|-damage|p1a: Hydreigon|81/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|move|p1a: Hydreigon|U-turn|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|95/100
+|
+|switch|p1a: Dracovish|Dracovish|59/100|[from]move: U-turn
+|
+|-heal|p2a: Sylveon|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Dracovish|Fishious Rend|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Centiskorch|Centiskorch, M|100/100
+|move|p1a: Mamoswine|Freeze-Dry|p2a: Centiskorch
+|-resisted|p2a: Centiskorch
+|-damage|p2a: Centiskorch|88/100
+|-damage|p1a: Mamoswine|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|move|p2a: Centiskorch|Power Whip|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-crit|p1a: Jellicent
+|-damage|p1a: Jellicent|0 fnt
+|faint|p1a: Jellicent
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|59/100
+|turn|9
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Seismitoad
+|-immune|p2a: Seismitoad|[from] ability: Water Absorb
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Clefable
+|-sidestart|p1: Ye_Soul|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Centiskorch|Centiskorch, M|88/100
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Dracovish|Dracovish|59/100
+|-damage|p1a: Dracovish|46/100|[from] Stealth Rock
+|move|p2a: Centiskorch|Fire Lash|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|34/100
+|-unboost|p1a: Dracovish|def|1
+|
+|-heal|p1a: Dracovish|96/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|13
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Dracovish|Super Fang|p2a: Seismitoad|[miss]
+|-miss|p1a: Dracovish|p2a: Seismitoad
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Toxic|p1a: Corviknight
+|-immune|p1a: Corviknight
+|
+|-heal|p1a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Seismitoad|Scald|p1a: Corviknight
+|-damage|p1a: Corviknight|75/100
+|move|p1a: Corviknight|Defog|p2a: Seismitoad
+|-unboost|p2a: Seismitoad|evasion|1
+|-sideend|p1: Ye_Soul|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|
+|-heal|p1a: Corviknight|81/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Dracovish|Dracovish|96/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Dracovish
+|-sidestart|p1: Ye_Soul|move: Stealth Rock
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Dracovish|Psychic Fangs|p2a: Seismitoad
+|-damage|p2a: Seismitoad|66/100
+|move|p2a: Seismitoad|Toxic|p1a: Dracovish
+|-status|p1a: Dracovish|tox
+|
+|-heal|p2a: Seismitoad|72/100|[from] item: Leftovers
+|-damage|p1a: Dracovish|90/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Seismitoad|Toxic|p1a: Clefable
+|-status|p1a: Clefable|tox
+|
+|-heal|p2a: Seismitoad|78/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: Centiskorch|Centiskorch, M|88/100
+|move|p1a: Clefable|Aromatherapy|p1a: Clefable
+|-activate|p1a: Clefable|move: Aromatherapy
+|-curestatus|p1a: Clefable|tox|[msg]
+|-curestatus|p1: Dracovish|tox|[msg]
+|-curestatus|p1: Hydreigon|brn|[msg]
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Centiskorch|Fire Lash|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|upkeep
+|turn|21
+|
+|switch|p1a: Dracovish|Dracovish|90/100
+|-damage|p1a: Dracovish|77/100|[from] Stealth Rock
+|move|p2a: Centiskorch|Fire Lash|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-crit|p1a: Dracovish
+|-damage|p1a: Dracovish|61/100
+|-unboost|p1a: Dracovish|def|1
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Seismitoad|Seismitoad, M|78/100
+|move|p1a: Dracovish|Super Fang|p2a: Seismitoad
+|-damage|p2a: Seismitoad|39/100
+|
+|-heal|p2a: Seismitoad|45/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: Seismitoad|Seismitoad, M|45/100
+|switch|p1a: Corviknight|Corviknight, F|81/100
+|-damage|p1a: Corviknight|69/100|[from] Stealth Rock
+|
+|-heal|p2a: Seismitoad|93/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Corviknight|100/100|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Seismitoad|99/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Seismitoad|Scald|p1a: Corviknight
+|-damage|p1a: Corviknight|83/100
+|-status|p1a: Corviknight|brn
+|move|p1a: Corviknight|Defog|p2a: Seismitoad
+|-unboost|p2a: Seismitoad|evasion|1
+|-sideend|p1: Ye_Soul|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|
+|-heal|p2a: Seismitoad|100/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|89/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|83/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|move|p2a: Seismitoad|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: Ye_Soul|move: Stealth Rock
+|move|p1a: Corviknight|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|96/100
+|
+|switch|p1a: Mamoswine|Mamoswine, M|91/100|[from]move: U-turn
+|-damage|p1a: Mamoswine|78/100|[from] Stealth Rock
+|
+|-heal|p2a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Mamoswine|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Imsobaked|move: Stealth Rock
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Corviknight
+|-damage|p2a: Corviknight|68/100
+|-damage|p1a: Mamoswine|68/100|[from] item: Life Orb
+|move|p2a: Corviknight|Body Press|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|-heal|p2a: Corviknight|74/100|[from] item: Leftovers
+|upkeep
+|-message|Ye_Soul forfeited.
+|
+|win|Imsobaked
+|l|☆Ye_Soul
+|raw|Ye_Soul's rating: 1510 → 1491(-19 for losing)
+|raw|Imsobaked's rating: 1517 → 1537(+20 for winning)

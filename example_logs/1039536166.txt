@@ -1,0 +1,252 @@
+|ScrapeTime|2020-01-02-06:25:51
+|j|☆beergoggles
+|j|☆Whitehen
+|player|p1|beergoggles|130|1276
+|player|p2|Whitehen|170|1304
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pincurchin, M|
+|poke|p1|Hawlucha, M|
+|poke|p1|Cloyster, M|
+|poke|p1|Indeedee, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Excadrill, F|
+|poke|p2|Mamoswine, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Gyarados, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Aegislash, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Whitehen)
+|
+|start
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|turn|1
+|
+|move|p2a: Mamoswine|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|53/100
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Cloyster|Rock Blast|p2a: Mamoswine
+|-damage|p2a: Mamoswine|83/100
+|-damage|p2a: Mamoswine|67/100
+|-damage|p2a: Mamoswine|49/100
+|-damage|p2a: Mamoswine|30/100
+|-damage|p2a: Mamoswine|11/100
+|-hitcount|p2a: Mamoswine|5
+|move|p2a: Mamoswine|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|upkeep
+|inactive|beergoggles has 120 seconds left.
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|3
+|inactive|beergoggles has 120 seconds left.
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|86/100
+|move|p1a: Cinderace|Low Sweep|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|-damage|p1a: Cinderace|76/100|[from] item: Life Orb
+|faint|p2a: Mamoswine
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|4
+|inactive|beergoggles has 120 seconds left.
+|
+|move|p2a: Excadrill|Earthquake|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|inactive|beergoggles has 120 seconds left.
+|
+|switch|p1a: Dustpan|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Dustpan
+|turn|5
+|inactive|beergoggles has 120 seconds left.
+|
+|move|p2a: Excadrill|Earthquake|p1a: Dustpan
+|-supereffective|p1a: Dustpan
+|-damage|p1a: Dustpan|0 fnt
+|faint|p1a: Dustpan
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|6
+|
+|move|p2a: Excadrill|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-enditem|p1a: Excadrill|Focus Sash
+|-damage|p1a: Excadrill|1/100
+|move|p1a: Excadrill|Stealth Rock|p2a: Excadrill
+|-sidestart|p2: Whitehen|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|-damage|p2a: Aegislash|94/100|[from] Stealth Rock
+|switch|p1a: Broom|Hawlucha, M|100/100
+|-enditem|p1a: Broom|Electric Seed
+|-boost|p1a: Broom|def|1
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Broom|Swords Dance|p1a: Broom
+|-boost|p1a: Broom|atk|2
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Broom|Encore|p2a: Aegislash
+|-start|p2a: Aegislash|Encore
+|move|p2a: Aegislash|King's Shield||[still]
+|-fail|p2a: Aegislash
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|10
+|
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Broom|Swords Dance|p1a: Broom
+|-boost|p1a: Broom|atk|2
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Broom|Brave Bird|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p1a: Broom|70/100|[from] Recoil
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|12
+|
+|move|p1a: Broom|Drain Punch|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-heal|p1a: Broom|100/100|[from] drain|[of] p2a: Excadrill
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|-damage|p2a: Cinderace|76/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Broom|Drain Punch|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, M|94/100
+|-damage|p2a: Aegislash|88/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Broom|Brave Bird|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|26/100
+|-damage|p1a: Broom|84/100|[from] item: Rocky Helmet|[of] p2a: Aegislash
+|-damage|p1a: Broom|62/100|[from] Recoil
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Sacred Sword|p1a: Broom
+|-resisted|p1a: Broom
+|-damage|p1a: Broom|42/100
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Broom|Encore|p2a: Aegislash
+|-start|p2a: Aegislash|Encore
+|move|p2a: Aegislash|Sacred Sword|p1a: Broom
+|-resisted|p1a: Broom
+|-damage|p1a: Broom|24/100
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Broom|Brave Bird|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|-damage|p1a: Broom|7/100|[from] item: Rocky Helmet|[of] p2a: Aegislash
+|-damage|p1a: Broom|0 fnt|[from] Recoil
+|faint|p2a: Aegislash
+|faint|p1a: Broom
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|1/100
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|-damage|p2a: Gyarados|76/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Excadrill|Rock Tomb|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|23/100
+|-unboost|p2a: Gyarados|spe|1
+|move|p2a: Gyarados|Waterfall|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|upkeep
+|
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|18
+|
+|move|p1a: Indeedee|Psychic|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|win|beergoggles
+|l|☆Whitehen
+|raw|beergoggles's rating: 1276 → 1303(+27 for winning)
+|raw|Whitehen's rating: 1304 → 1282(-22 for losing)

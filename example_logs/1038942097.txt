@@ -1,0 +1,289 @@
+|ScrapeTime|2020-01-01-01:32:26
+|j|☆w0909
+|j|☆Kabanero
+|player|p1|w0909|263|1144
+|player|p2|Kabanero|101|1104
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Excadrill, M|
+|poke|p1|Reuniclus, F|
+|poke|p1|Tyranitar, M|
+|poke|p1|Duraludon, M|
+|poke|p1|Gyarados, F|
+|poke|p1|Golisopod, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Dracovish|
+|poke|p2|Excadrill, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Toxtricity, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kabanero)
+|inactive|w0909 also wants the timer to be on.
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Excadrill|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Kabanero|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Duraludon|Duraludon, M|100/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Duraludon|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|73/100
+|-status|p2a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Duraludon|Flash Cannon|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|35/100 par
+|move|p2a: Tyranitar|Flamethrower|p1a: Duraludon
+|-damage|p1a: Duraludon|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|move|p1a: Duraludon|Flash Cannon|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|94/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|-damage|p2a: Excadrill|59/100|[from] item: Life Orb
+|faint|p1a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Golisopod|Golisopod, M|100/100
+|turn|8
+|
+|move|p1a: Golisopod|Aqua Jet|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Golisopod|94/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|-damage|p2a: Toxtricity|88/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Toxtricity|Volt Switch|p1a: Excadrill
+|-immune|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxtricity|82/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|switch|p1a: Duraludon|Duraludon, M|75/100
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|
+|-weather|none
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Tyranitar|Tyranitar, F|35/100 par
+|-damage|p2a: Tyranitar|23/100 par|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Duraludon|Thunderbolt|p2a: Tyranitar
+|-damage|p2a: Tyranitar|8/100 par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p1a: Duraludon|Flash Cannon|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|13
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Duraludon
+|-damage|p1a: Duraludon|14/100
+|move|p1a: Duraludon|Dragon Pulse|p2a: Cinderace
+|-damage|p2a: Cinderace|43/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cinderace|37/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|move|p2a: Cinderace|High Jump Kick|p1a: Reuniclus
+|-resisted|p1a: Reuniclus
+|-damage|p1a: Reuniclus|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cinderace|31/100|[from] Sandstorm
+|-heal|p1a: Reuniclus|93/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Cinderace|U-turn|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-crit|p1a: Reuniclus
+|-damage|p1a: Reuniclus|42/100
+|
+|switch|p2a: Dracovish|Dracovish|100/100|[from]move: U-turn
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dracovish|82/100|[from] Sandstorm
+|-heal|p1a: Reuniclus|49/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dracovish|76/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Golisopod|Golisopod, M|94/100
+|turn|17
+|
+|move|p1a: Golisopod|First Impression|p2a: Dracovish
+|-damage|p2a: Dracovish|23/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Golisopod
+|-resisted|p1a: Golisopod
+|-damage|p1a: Golisopod|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dracovish|16/100|[from] Sandstorm
+|-damage|p1a: Golisopod|61/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|move|p1a: Golisopod|Aqua Jet|p2a: Dracovish
+|-resisted|p2a: Dracovish
+|-damage|p2a: Dracovish|11/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Golisopod
+|-resisted|p1a: Golisopod
+|-damage|p1a: Golisopod|33/100
+|-enditem|p1a: Golisopod|Sitrus Berry|[eat]
+|-heal|p1a: Golisopod|58/100|[from] item: Sitrus Berry
+|
+|-weather|none
+|upkeep
+|turn|19
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Golisopod
+|-resisted|p1a: Golisopod
+|-damage|p1a: Golisopod|1/100
+|-activate|p1a: Golisopod|ability: Emergency Exit
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Dracovish
+|-crit|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|-boost|p1a: Excadrill|spe|1
+|faint|p2a: Dracovish
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M|94/100
+|-damage|p2a: Corviknight|82/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|turn|21
+|
+|switch|p2a: Toxtricity|Toxtricity, F|82/100
+|-damage|p2a: Toxtricity|69/100|[from] Stealth Rock
+|move|p1a: Excadrill|Iron Head|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|41/100
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Excadrill|Iron Head|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|14/100
+|move|p2a: Toxtricity|Overdrive|p1a: Excadrill
+|-immune|p1a: Excadrill
+|
+|upkeep
+|turn|23
+|l|☆Kabanero
+|inactive|Kabanero disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|Kabanero has 30 seconds to reconnect!
+|inactive|Kabanero has 20 seconds to reconnect!
+|inactive|Kabanero has 15 seconds to reconnect!
+|inactive|Kabanero has 10 seconds to reconnect!
+|inactive|Kabanero has 5 seconds to reconnect!
+|-message|Kabanero lost due to inactivity.
+|
+|win|w0909

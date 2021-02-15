@@ -1,0 +1,445 @@
+|ScrapeTime|2020-01-01-03:48:57
+|j|☆ttsjshhwjshhw
+|j|☆Tones And I
+|player|p1|ttsjshhwjshhw|unknown|1481
+|player|p2|Tones And I|273|1465
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mew|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Toxtricity, M|
+|poke|p1|Kommo-o, M|
+|poke|p1|Cloyster, F|
+|poke|p1|Bisharp, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Toxtricity, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Clefable, M|
+|poke|p2|Conkeldurr, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ttsjshhwjshhw)
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|turn|1
+|
+|move|p1a: Mew|Spikes|p2a: Toxtricity
+|-sidestart|p2: Tones And I|Spikes
+|move|p2a: Toxtricity|Snarl|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|44/100
+|-unboost|p1a: Mew|spa|1
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Mew|Spikes|p2a: Toxtricity
+|-sidestart|p2: Tones And I|Spikes
+|move|p2a: Toxtricity|Snarl|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|turn|3
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Kommo-o|Substitute|p1a: Kommo-o
+|-start|p1a: Kommo-o|Substitute
+|-damage|p1a: Kommo-o|75/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Kommo-o|Belly Drum|p1a: Kommo-o
+|-damage|p1a: Kommo-o|25/100
+|-setboost|p1a: Kommo-o|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Kommo-o|Salac Berry|[eat]
+|-boost|p1a: Kommo-o|spe|1
+|move|p2a: Clefable|Moonblast|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-end|p1a: Kommo-o|Substitute
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Kommo-o|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p2a: Conkeldurr|84/100|[from] Spikes
+|turn|6
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Kommo-o
+|-damage|p1a: Kommo-o|4/100
+|move|p1a: Kommo-o|Drain Punch|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|-heal|p1a: Kommo-o|54/100|[from] drain|[of] p2a: Conkeldurr
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|7
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|switch|p1a: Cloyster|Cloyster, F|100/100
+|turn|8
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|84/100|[from] Spikes
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|
+|-heal|p2a: Toxapex|90/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|move|p1a: Cloyster|Rock Blast|p2a: Toxapex
+|-damage|p2a: Toxapex|81/100
+|-damage|p2a: Toxapex|73/100
+|-damage|p2a: Toxapex|65/100
+|-damage|p2a: Toxapex|56/100
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|43/100
+|-hitcount|p2a: Toxapex|5
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|49/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|99/100
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|move|p1a: Cloyster|Rock Blast|p2a: Toxapex
+|-damage|p2a: Toxapex|92/100
+|-damage|p2a: Toxapex|83/100
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|70/100
+|-damage|p2a: Toxapex|62/100
+|-damage|p2a: Toxapex|53/100
+|-hitcount|p2a: Toxapex|5
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|60/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|66/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|72/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p1a: Cloyster|Rock Blast|p2a: Toxapex
+|-damage|p2a: Toxapex|68/100
+|-damage|p2a: Toxapex|64/100
+|-damage|p2a: Toxapex|59/100
+|-damage|p2a: Toxapex|55/100
+|-damage|p2a: Toxapex|50/100
+|-hitcount|p2a: Toxapex|5
+|move|p2a: Toxapex|Scald|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|79/100
+|-status|p1a: Cloyster|brn
+|
+|-heal|p2a: Toxapex|56/100|[from] item: Black Sludge
+|-damage|p1a: Cloyster|73/100 brn|[from] brn
+|upkeep
+|turn|15
+|c|☆Tones And I|lol
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|
+|upkeep
+|turn|17
+|inactive|ttsjshhwjshhw has 120 seconds left.
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|move|p2a: Corviknight|U-turn|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|88/100
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100|[from]move: U-turn
+|-damage|p2a: Toxtricity|84/100|[from] Spikes
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Toxtricity|Volt Switch|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|46/100
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100|[from]move: Volt Switch
+|move|p1a: Toxtricity|Boomburst|p2a: Hydreigon
+|-damage|p2a: Hydreigon|4/100
+|-damage|p1a: Toxtricity|36/100|[from] item: Life Orb
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Cloyster|Cloyster, F|73/100 brn
+|move|p2a: Hydreigon|Dark Pulse|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|turn|20
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Corviknight
+|-damage|p2a: Corviknight|17/100
+|-start|p2a: Corviknight|Throat Chop|[silent]
+|-damage|p1a: Bisharp|91/100|[from] item: Life Orb
+|move|p2a: Corviknight|U-turn|p1a: Bisharp
+|-damage|p1a: Bisharp|71/100
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100|[from]move: U-turn
+|-damage|p2a: Toxapex|84/100|[from] Spikes
+|
+|-heal|p2a: Toxapex|90/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Bisharp|Throat Chop|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|97/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Toxapex
+|-damage|p2a: Toxapex|36/100
+|-start|p2a: Toxapex|Throat Chop|[silent]
+|-damage|p1a: Bisharp|61/100|[from] item: Life Orb
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|42/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|92/100
+|
+|-heal|p2a: Toxapex|98/100|[from] item: Black Sludge
+|-end|p2a: Toxapex|Throat Chop|[silent]
+|upkeep
+|turn|25
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Toxapex
+|-damage|p2a: Toxapex|33/100
+|-start|p2a: Toxapex|Throat Chop|[silent]
+|-damage|p1a: Bisharp|51/100|[from] item: Life Orb
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|39/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Toxapex
+|-damage|p2a: Toxapex|6/100
+|-damage|p1a: Bisharp|41/100|[from] item: Life Orb
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|56/100
+|
+|-heal|p2a: Toxapex|62/100|[from] item: Black Sludge
+|-end|p2a: Toxapex|Throat Chop|[silent]
+|upkeep
+|turn|27
+|
+|switch|p1a: Toxtricity|Toxtricity, M|36/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|upkeep
+|turn|28
+|
+|switch|p2a: Corviknight|Corviknight, M|17/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Toxtricity|Overdrive|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Toxtricity|26/100|[from] item: Life Orb
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|4/100
+|turn|29
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|92/100
+|
+|upkeep
+|turn|30
+|
+|switch|p2a: Toxtricity|Toxtricity, M|84/100
+|-damage|p2a: Toxtricity|68/100|[from] Spikes
+|move|p1a: Grimmsnarl|Taunt|p2a: Toxtricity
+|-start|p2a: Toxtricity|move: Taunt
+|
+|upkeep
+|turn|31
+|inactive|ttsjshhwjshhw has 120 seconds left.
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: ttsjshhwjshhw|move: Light Screen
+|move|p2a: Toxtricity|Boomburst|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|58/100
+|
+|upkeep
+|turn|32
+|
+|switch|p1a: Bisharp|Bisharp, F|41/100
+|move|p2a: Toxtricity|Boomburst|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|5/100
+|
+|-end|p2a: Toxtricity|move: Taunt
+|upkeep
+|turn|33
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|-damage|p1a: Bisharp|0 fnt|[from] item: Life Orb
+|faint|p2a: Toxtricity
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|4/100
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|58/100
+|turn|34
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|84/100|[from] Spikes
+|switch|p1a: Toxtricity|Toxtricity, M|26/100
+|
+|-heal|p2a: Toxapex|90/100|[from] item: Black Sludge
+|upkeep
+|turn|35
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Toxtricity|Overdrive|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|97/100|[from] item: Black Sludge
+|upkeep
+|turn|36
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|-damage|p1a: Toxtricity|16/100|[from] item: Life Orb
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|4/100
+|turn|37
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|6/100
+|move|p1a: Toxtricity|Overdrive|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-damage|p1a: Toxtricity|0 fnt|[from] item: Life Orb
+|faint|p2a: Hydreigon
+|faint|p1a: Toxtricity
+|
+|win|ttsjshhwjshhw
+|raw|ttsjshhwjshhw's rating: 1481 → 1500(+19 for winning)
+|raw|Tones And I's rating: 1465 → 1446(-19 for losing)
+|l|☆Tones And I

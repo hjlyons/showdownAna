@@ -1,0 +1,436 @@
+|ScrapeTime|2020-01-03-01:50:45
+|j|☆wise wombatski
+|j|☆Liek Thieves
+|player|p1|wise wombatski|1|1114
+|player|p2|Liek Thieves|pokemaniac|1072
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Crawdaunt, F|
+|poke|p1|Appletun, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Boltund, M|
+|poke|p1|Eiscue, M|
+|poke|p1|Ferrothorn, M|
+|poke|p2|Gyarados, F|
+|poke|p2|Drednaw, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Dracozolt|
+|poke|p2|Pelipper, F|
+|poke|p2|Tyranitar, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Flash|Boltund, M, shiny|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Flash|Thunder Fang|p2a: Tyranitar
+|-damage|p2a: Tyranitar|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Flash|94/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|75/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Owl|Hydreigon, F|100/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Owl
+|-sidestart|p1: wise wombatski|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Owl|94/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|81/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Owl|Flash Cannon|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Owl|88/100|[from] Sandstorm
+|-damage|p2a: Toxapex|80/100|[from] Sandstorm
+|-heal|p2a: Toxapex|87/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|switch|p1a: thorn born|Ferrothorn, M, shiny|100/100
+|-damage|p1a: thorn born|94/100|[from] Stealth Rock
+|move|p2a: Toxapex|Toxic Spikes|p1a: thorn born
+|-sidestart|p1: wise wombatski|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|80/100|[from] Sandstorm
+|-heal|p2a: Toxapex|87/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: thorn born|Leech Seed|p2a: Pelipper
+|-start|p2a: Pelipper|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|88/100|[from] Leech Seed|[of] p1a: thorn born
+|-heal|p1a: thorn born|100/100|[silent]
+|upkeep
+|turn|6
+|
+|move|p2a: Pelipper|Hurricane|p1a: thorn born
+|-damage|p1a: thorn born|76/100
+|move|p1a: thorn born|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: Liek Thieves|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|76/100|[from] Leech Seed|[of] p1a: thorn born
+|-heal|p1a: thorn born|87/100|[silent]
+|upkeep
+|turn|7
+|
+|move|p2a: Pelipper|Hydro Pump|p1a: thorn born|[miss]
+|-miss|p2a: Pelipper|p1a: thorn born
+|move|p1a: thorn born|Gyro Ball|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|65/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|52/100|[from] Leech Seed|[of] p1a: thorn born
+|-heal|p1a: thorn born|99/100|[silent]
+|upkeep
+|turn|8
+|
+|move|p2a: Pelipper|Hydro Pump|p1a: thorn born
+|-resisted|p1a: thorn born
+|-crit|p1a: thorn born
+|-damage|p1a: thorn born|70/100
+|move|p1a: thorn born|Power Whip|p2a: Pelipper
+|-damage|p2a: Pelipper|22/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|10/100|[from] Leech Seed|[of] p1a: thorn born
+|-heal|p1a: thorn born|81/100|[silent]
+|upkeep
+|turn|9
+|
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|60/100
+|-singleturn|p2a: Pelipper|move: Roost
+|move|p1a: thorn born|Power Whip|p2a: Pelipper|[miss]
+|-miss|p1a: thorn born|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|48/100|[from] Leech Seed|[of] p1a: thorn born
+|-heal|p1a: thorn born|93/100|[silent]
+|upkeep
+|turn|10
+|
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|98/100
+|-singleturn|p2a: Pelipper|move: Roost
+|move|p1a: thorn born|Power Whip|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|42/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|29/100|[from] Leech Seed|[of] p1a: thorn born
+|-heal|p1a: thorn born|100/100|[silent]
+|upkeep
+|turn|11
+|
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|79/100
+|-singleturn|p2a: Pelipper|move: Roost
+|move|p1a: thorn born|Power Whip|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|18/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|5/100|[from] Leech Seed|[of] p1a: thorn born
+|upkeep
+|turn|12
+|
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|55/100
+|-singleturn|p2a: Pelipper|move: Roost
+|move|p1a: thorn born|Power Whip|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Toxapex|Toxic Spikes|p1a: thorn born
+|-sidestart|p1: wise wombatski|move: Toxic Spikes
+|move|p1a: thorn born|Leech Seed|p2a: Toxapex
+|-start|p2a: Toxapex|move: Leech Seed
+|
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|-damage|p2a: Toxapex|82/100|[from] Leech Seed|[of] p1a: thorn born
+|upkeep
+|turn|14
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by wise wombatski)
+|
+|switch|p2a: Tyranitar|Tyranitar, F|81/100
+|-damage|p2a: Tyranitar|68/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: thorn born|Gyro Ball|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|20/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|26/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Tyranitar|Fire Blast|p1a: thorn born
+|-supereffective|p1a: thorn born
+|-damage|p1a: thorn born|11/100
+|move|p1a: thorn born|Gyro Ball|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, F, shiny|100/100
+|-damage|p2a: Gyarados|76/100|[from] Stealth Rock
+|turn|16
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: thorn born|Leech Seed|p2a: Gyarados
+|-start|p2a: Gyarados|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|70/100|[from] Sandstorm
+|-damage|p2a: Gyarados|57/100|[from] Leech Seed|[of] p1a: thorn born
+|-heal|p1a: thorn born|22/100|[silent]
+|upkeep
+|turn|17
+|
+|move|p2a: Gyarados|Ice Fang|p1a: thorn born
+|-damage|p1a: thorn born|0 fnt
+|-damage|p2a: Gyarados|45/100|[from] ability: Iron Barbs|[of] p1a: thorn born
+|-damage|p2a: Gyarados|28/100|[from] item: Rocky Helmet|[of] p1a: thorn born
+|faint|p1a: thorn born
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gyarados|22/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Flash|Boltund, M, shiny|94/100
+|-damage|p1a: Flash|82/100|[from] Stealth Rock
+|-status|p1a: Flash|tox
+|-enditem|p1a: Flash|Lum Berry|[eat]
+|-curestatus|p1a: Flash|tox|[msg]
+|turn|18
+|
+|move|p2a: Gyarados|Waterfall|p1a: Flash
+|-crit|p1a: Flash
+|-damage|p1a: Flash|0 fnt
+|faint|p1a: Flash
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Well hello there|Crawdaunt, F|100/100
+|-status|p1a: Well hello there|tox
+|-damage|p1a: Well hello there|88/100 tox|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Well hello there|Aqua Jet|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|-damage|p1a: Well hello there|78/100 tox|[from] item: Life Orb
+|faint|p2a: Gyarados
+|
+|-damage|p1a: Well hello there|72/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Drednaw|Drednaw, M, shiny|100/100
+|-damage|p2a: Drednaw|88/100|[from] Stealth Rock
+|turn|20
+|c|☆wise wombatski|genral kenobi
+|
+|move|p2a: Drednaw|Superpower|p1a: Well hello there
+|-supereffective|p1a: Well hello there
+|-damage|p1a: Well hello there|0 fnt
+|-unboost|p2a: Drednaw|atk|1
+|-unboost|p2a: Drednaw|def|1
+|faint|p1a: Well hello there
+|
+|upkeep
+|
+|switch|p1a: le tart|Appletun, M, shiny|100/100
+|-status|p1a: le tart|tox
+|-damage|p1a: le tart|88/100 tox|[from] Stealth Rock
+|turn|21
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: le tart|Apple Acid|p2a: Toxapex
+|-damage|p2a: Toxapex|69/100
+|-unboost|p2a: Toxapex|spd|1
+|
+|-heal|p2a: Toxapex|75/100|[from] item: Black Sludge
+|-damage|p1a: le tart|82/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|move|p2a: Toxapex|Sludge Bomb|p1a: le tart
+|-supereffective|p1a: le tart
+|-damage|p1a: le tart|54/100 tox
+|move|p1a: le tart|Leech Seed|p2a: Toxapex
+|-start|p2a: Toxapex|move: Leech Seed
+|
+|-heal|p2a: Toxapex|82/100|[from] item: Black Sludge
+|-damage|p2a: Toxapex|69/100|[from] Leech Seed|[of] p1a: le tart
+|-heal|p1a: le tart|63/100 tox|[silent]
+|-damage|p1a: le tart|50/100 tox|[from] psn
+|upkeep
+|-enditem|p1a: le tart|Sitrus Berry|[eat]
+|-heal|p1a: le tart|99/100 tox|[from] item: Sitrus Berry
+|turn|23
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|-damage|p2a: Dracozolt|88/100|[from] Stealth Rock
+|move|p1a: le tart|Recycle|p1a: le tart
+|-item|p1a: le tart|Sitrus Berry|[from] move: Recycle
+|
+|-damage|p1a: le tart|82/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|move|p2a: Dracozolt|Dragon Claw|p1a: le tart
+|-supereffective|p1a: le tart
+|-damage|p1a: le tart|21/100 tox
+|-enditem|p1a: le tart|Sitrus Berry|[eat]
+|-heal|p1a: le tart|71/100 tox|[from] item: Sitrus Berry
+|move|p1a: le tart|Apple Acid|p2a: Dracozolt
+|-resisted|p2a: Dracozolt
+|-damage|p2a: Dracozolt|68/100
+|-unboost|p2a: Dracozolt|spd|1
+|
+|-damage|p1a: le tart|46/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|move|p2a: Dracozolt|Dragon Claw|p1a: le tart
+|-supereffective|p1a: le tart
+|-damage|p1a: le tart|0 fnt
+|faint|p1a: le tart
+|
+|upkeep
+|
+|switch|p1a: Owl|Hydreigon, F|88/100
+|-damage|p1a: Owl|76/100|[from] Stealth Rock
+|turn|26
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Owl|Dark Pulse|p2a: Toxapex
+|-damage|p2a: Toxapex|52/100
+|
+|-heal|p2a: Toxapex|58/100|[from] item: Black Sludge
+|upkeep
+|turn|27
+|
+|move|p1a: Owl|Dark Pulse|p2a: Toxapex
+|-damage|p2a: Toxapex|23/100
+|move|p2a: Toxapex|Sludge Bomb|p1a: Owl
+|-damage|p1a: Owl|52/100
+|
+|-heal|p2a: Toxapex|29/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Owl|Dark Pulse|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|35/100|[from] item: Black Sludge
+|upkeep
+|turn|29
+|
+|move|p1a: Owl|Dark Pulse|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|switch|p2a: Dracozolt|Dracozolt|68/100
+|-damage|p2a: Dracozolt|56/100|[from] Stealth Rock
+|turn|30
+|inactive|Liek Thieves has 120 seconds left.
+|
+|move|p2a: Dracozolt|Dragon Claw|p1a: Owl
+|-supereffective|p1a: Owl
+|-damage|p1a: Owl|0 fnt
+|faint|p1a: Owl
+|
+|upkeep
+|
+|switch|p1a: SUPRISE BITCH|Eiscue, M|100/100
+|-damage|p1a: SUPRISE BITCH|76/100|[from] Stealth Rock
+|-status|p1a: SUPRISE BITCH|tox
+|turn|31
+|
+|move|p2a: Dracozolt|Dragon Claw|p1a: SUPRISE BITCH
+|-activate|p1a: SUPRISE BITCH|ability: Ice Face
+|-damage|p1a: SUPRISE BITCH|76/100 tox
+|detailschange|p1a: SUPRISE BITCH|Eiscue-Noice, M
+|move|p1a: SUPRISE BITCH|Icicle Crash|p2a: Dracozolt
+|-supereffective|p2a: Dracozolt
+|-damage|p2a: Dracozolt|0 fnt
+|faint|p2a: Dracozolt
+|
+|-damage|p1a: SUPRISE BITCH|69/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Drednaw|Drednaw, M, shiny|88/100
+|-damage|p2a: Drednaw|76/100|[from] Stealth Rock
+|turn|32
+|
+|move|p1a: SUPRISE BITCH|Icicle Crash|p2a: Drednaw
+|-resisted|p2a: Drednaw
+|-damage|p2a: Drednaw|56/100
+|move|p2a: Drednaw|Superpower|p1a: SUPRISE BITCH
+|-supereffective|p1a: SUPRISE BITCH
+|-damage|p1a: SUPRISE BITCH|0 fnt
+|-unboost|p2a: Drednaw|atk|1
+|-unboost|p2a: Drednaw|def|1
+|faint|p1a: SUPRISE BITCH
+|
+|win|Liek Thieves
+|raw|wise wombatski's rating: 1114 → 1086(-28 for losing)
+|raw|Liek Thieves's rating: 1072 → 1105(+33 for winning)
+|c|☆Liek Thieves|gg
+|l|☆wise wombatski

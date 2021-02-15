@@ -1,0 +1,357 @@
+|ScrapeTime|2020-01-02-23:32:46
+|j|☆Grantdoc
+|j|☆afcantillof
+|player|p1|Grantdoc|palmer|1325
+|player|p2|afcantillof|291|1374
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dracovish|
+|poke|p1|Aegislash, M|
+|poke|p1|Togekiss, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Excadrill, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Togekiss, M|
+|poke|p2|Haxorus, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Orbeetle, F|
+|poke|p2|Mamoswine, F|
+|poke|p2|Seismitoad, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Terra|Excadrill, F|100/100
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|-ability|p1a: Terra|Mold Breaker
+|turn|1
+|
+|move|p1a: Terra|Iron Head|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-crit|p2a: Mamoswine
+|-enditem|p2a: Mamoswine|Focus Sash
+|-damage|p2a: Mamoswine|1/100
+|cant|p2a: Mamoswine|flinch
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Terra|Rapid Spin|p2a: Seismitoad
+|-damage|p2a: Seismitoad|86/100
+|-boost|p1a: Terra|spe|1
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Terra|Earthquake|p2a: Seismitoad
+|-damage|p2a: Seismitoad|46/100
+|move|p2a: Seismitoad|Scald|p1a: Terra
+|-supereffective|p1a: Terra
+|-damage|p1a: Terra|40/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Terra|Iron Head|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|29/100
+|move|p2a: Seismitoad|Scald|p1a: Terra
+|-supereffective|p1a: Terra
+|-damage|p1a: Terra|0 fnt
+|faint|p1a: Terra
+|
+|upkeep
+|
+|switch|p1a: Aphrodite|Togekiss, F|100/100
+|turn|5
+|
+|move|p1a: Aphrodite|Air Slash|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|6
+|
+|move|p1a: Aphrodite|Air Slash|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|77/100
+|cant|p2a: Rotom|flinch
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Pele|Rotom-Heat|100/100
+|move|p2a: Rotom|Thunderbolt|p1a: Pele
+|-resisted|p1a: Pele
+|-damage|p1a: Pele|84/100
+|
+|-heal|p1a: Pele|90/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Mamoswine|Mamoswine, F|1/100
+|move|p1a: Pele|Substitute|p1a: Pele
+|-start|p1a: Pele|Substitute
+|-damage|p1a: Pele|65/100
+|
+|-heal|p1a: Pele|71/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|j|@Flare ✇
+|
+|move|p1a: Pele|Overheat|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|-unboost|p1a: Pele|spa|2
+|faint|p2a: Mamoswine
+|
+|-heal|p1a: Pele|77/100|[from] item: Leftovers
+|upkeep
+|l|@Flare ✇
+|
+|switch|p2a: Rotom|Rotom-Wash|77/100
+|turn|10
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Pele
+|-resisted|p1a: Pele
+|-activate|p1a: Pele|move: Substitute|[damage]
+|move|p1a: Pele|Nasty Plot|p1a: Pele
+|-boost|p1a: Pele|spa|2
+|
+|-heal|p1a: Pele|84/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Haxorus|Haxorus, M|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|move|p1a: Pele|Thunderbolt|p2a: Haxorus
+|-resisted|p2a: Haxorus
+|-damage|p2a: Haxorus|77/100
+|
+|-heal|p1a: Pele|90/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Haxorus|Dual Chop|p1a: Pele
+|-end|p1a: Pele|Substitute
+|-crit|p1a: Pele
+|-damage|p1a: Pele|47/100
+|-hitcount|p1a: Pele|2
+|move|p1a: Pele|Nasty Plot|p1a: Pele
+|-boost|p1a: Pele|spa|2
+|
+|-heal|p1a: Pele|53/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Haxorus|Dual Chop|p1a: Pele
+|-damage|p1a: Pele|28/100
+|-damage|p1a: Pele|2/100
+|-hitcount|p1a: Pele|2
+|move|p1a: Pele|Overheat|p2a: Haxorus
+|-resisted|p2a: Haxorus
+|-damage|p2a: Haxorus|9/100
+|-unboost|p1a: Pele|spa|2
+|
+|-heal|p1a: Pele|8/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Haxorus|Dual Chop|p1a: Pele
+|-damage|p1a: Pele|0 fnt
+|-hitcount|p1a: Pele|1
+|faint|p1a: Pele
+|
+|upkeep
+|
+|switch|p1a: Ah Puch|Dracovish|100/100
+|turn|15
+|
+|move|p2a: Haxorus|Dual Chop|p1a: Ah Puch
+|-supereffective|p1a: Ah Puch
+|-damage|p1a: Ah Puch|48/100
+|-supereffective|p1a: Ah Puch
+|-damage|p1a: Ah Puch|0 fnt
+|-hitcount|p1a: Ah Puch|2
+|faint|p1a: Ah Puch
+|
+|upkeep
+|
+|switch|p1a: Aphrodite|Togekiss, F|100/100
+|turn|16
+|
+|switch|p2a: Rotom|Rotom-Wash|77/100
+|move|p1a: Aphrodite|Air Slash|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|53/100
+|
+|upkeep
+|turn|17
+|j| iparkersleator
+|c| iparkersleator|stick to fortnite kiddo
+|
+|move|p1a: Aphrodite|Air Slash|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|29/100
+|cant|p2a: Rotom|flinch
+|
+|upkeep
+|turn|18
+|c| iparkersleator|ur actually so bad lmao
+|c| iparkersleator|losing another match
+|
+|move|p1a: Aphrodite|Air Slash|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|4/100
+|cant|p2a: Rotom|flinch
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Aphrodite|Air Slash|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Haxorus|Haxorus, M|9/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|20
+|
+|move|p2a: Haxorus|Endeavor|p1a: Aphrodite
+|-damage|p1a: Aphrodite|9/100
+|move|p1a: Aphrodite|Air Slash|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|upkeep
+|
+|switch|p2a: Orbeetle|Orbeetle, F|100/100
+|-item|p1a: Aphrodite|Choice Scarf|[from] ability: Frisk|[of] p2a: Orbeetle|[identify]
+|turn|21
+|
+|move|p1a: Aphrodite|Air Slash|p2a: Orbeetle
+|-supereffective|p2a: Orbeetle
+|-damage|p2a: Orbeetle|49/100
+|cant|p2a: Orbeetle|flinch
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Aphrodite|Air Slash|p2a: Orbeetle
+|-supereffective|p2a: Orbeetle
+|-damage|p2a: Orbeetle|2/100
+|move|p2a: Orbeetle|Light Screen|p2a: Orbeetle
+|-sidestart|p2: afcantillof|move: Light Screen
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Aphrodite|Air Slash|p2a: Orbeetle
+|-supereffective|p2a: Orbeetle
+|-damage|p2a: Orbeetle|0 fnt
+|faint|p2a: Orbeetle
+|
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|turn|24
+|
+|move|p1a: Aphrodite|Air Slash|p2a: Togekiss
+|-damage|p2a: Togekiss|81/100
+|cant|p2a: Togekiss|flinch
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Aphrodite|Air Slash|p2a: Togekiss
+|-damage|p2a: Togekiss|63/100
+|cant|p2a: Togekiss|flinch
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Aphrodite|Air Slash|p2a: Togekiss|[miss]
+|-miss|p1a: Aphrodite|p2a: Togekiss
+|move|p2a: Togekiss|Nasty Plot|p2a: Togekiss
+|-boost|p2a: Togekiss|spa|2
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Aphrodite|Air Slash|p2a: Togekiss
+|-damage|p2a: Togekiss|44/100
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Aphrodite
+|-damage|p1a: Aphrodite|0 fnt
+|faint|p1a: Aphrodite
+|
+|upkeep
+|
+|switch|p1a: Hades|Grimmsnarl, M|100/100
+|turn|28
+|
+|move|p1a: Hades|Light Screen|p1a: Hades
+|-sidestart|p1: Grantdoc|move: Light Screen
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Hades
+|-supereffective|p1a: Hades
+|-damage|p1a: Hades|4/100
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Hades|Sucker Punch|p2a: Togekiss
+|-resisted|p2a: Togekiss
+|-damage|p2a: Togekiss|21/100
+|-enditem|p2a: Togekiss|Salac Berry|[eat]
+|-boost|p2a: Togekiss|spe|1
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Hades
+|-supereffective|p1a: Hades
+|-damage|p1a: Hades|0 fnt
+|faint|p1a: Hades
+|
+|-sideend|p2: afcantillof|move: Light Screen
+|upkeep
+|
+|switch|p1a: Thanatos|Aegislash, M, shiny|100/100
+|turn|30
+|j|@Flare ✇
+|
+|move|p2a: Togekiss|Air Slash|p1a: Thanatos
+|-resisted|p1a: Thanatos
+|-damage|p1a: Thanatos|86/100
+|cant|p1a: Thanatos|flinch
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Togekiss|Air Slash|p1a: Thanatos
+|-resisted|p1a: Thanatos
+|-crit|p1a: Thanatos
+|-damage|p1a: Thanatos|39/100
+|-formechange|p1a: Thanatos|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Thanatos|Flash Cannon|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|win|Grantdoc
+|l|☆afcantillof
+|c|☆Grantdoc|GG kid
+|raw|Grantdoc's rating: 1325 → 1348(+23 for winning)
+|raw|afcantillof's rating: 1371 → 1349(-22 for losing)
+|n|‽iparkersleator|iparkersleator

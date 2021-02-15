@@ -1,0 +1,257 @@
+|ScrapeTime|2020-01-01-05:45:02
+|j|☆OUTX boomshakalaka
+|j|☆Sealx♬
+|player|p1|OUTX boomshakalaka|169|1434
+|player|p2|Sealx♬|hilbert-dueldisk|1412
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Dracozolt|
+|poke|p1|Tyranitar, F|
+|poke|p1|Vaporeon, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Corviknight, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Hydreigon, F|
+|poke|p2|Mew|
+|poke|p2|Polteageist|
+|poke|p2|Bisharp, F|
+|poke|p2|Toxtricity, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Mew|Taunt|p1a: Hatterene
+|move|p1a: Hatterene|Taunt|p2a: Mew|[from]Magic Bounce
+|-start|p2a: Mew|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|25/100
+|-unboost|p2a: Bisharp|spa|1
+|-ability|p2a: Bisharp|Defiant
+|-boost|p2a: Bisharp|atk|2
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Bisharp|Throat Chop|p1a: Toxapex
+|-damage|p1a: Toxapex|32/100
+|-start|p1a: Toxapex|Throat Chop|[silent]
+|-damage|p2a: Bisharp|15/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Bisharp|Iron Head|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|56/100
+|-damage|p2a: Bisharp|5/100|[from] item: Life Orb
+|
+|-heal|p1a: Corviknight|62/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-damage|p2a: Bisharp|0 fnt|[from] item: Life Orb
+|faint|p1a: Corviknight
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|switch|p2a: Mew|Mew|100/100
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|turn|6
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Mew|Skill Swap|p1a: Hatterene
+|-activate|p2a: Mew|move: Skill Swap|Magic Bounce|Synchronize|[of] p1a: Hatterene
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Mew|Stealth Rock|p1a: Tyranitar
+|-sidestart|p1: OUTX boomshakalaka|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|94/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|move|p2a: Mew|Taunt|p1a: Tyranitar
+|-start|p1a: Tyranitar|move: Taunt
+|move|p1a: Tyranitar|Crunch|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|16/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|9/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|move|p2a: Mew|Skill Swap|p1a: Tyranitar
+|-activate|p2a: Mew|move: Skill Swap|Sand Stream|Magic Bounce|[of] p1a: Tyranitar
+|move|p1a: Tyranitar|Crunch|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|10
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Sealx♬|Reflect
+|move|p1a: Tyranitar|Heavy Slam|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Grimmsnarl|57/100|[from] Sandstorm
+|-end|p1a: Tyranitar|move: Taunt
+|upkeep
+|turn|11
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Sealx♬|move: Light Screen
+|move|p1a: Tyranitar|Heavy Slam|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|20/100
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Tyranitar|Rock Blast|p2a: Hydreigon
+|-damage|p2a: Hydreigon|92/100
+|-damage|p2a: Hydreigon|83/100
+|-hitcount|p2a: Hydreigon|2
+|
+|-heal|p2a: Hydreigon|89/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|move|p1a: Tyranitar|Avalanche|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-crit|p2a: Hydreigon
+|-damage|p2a: Hydreigon|8/100
+|
+|-heal|p2a: Hydreigon|15/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|40/100
+|move|p1a: Tyranitar|Avalanche|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|turn|15
+|
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|move|p1a: Tyranitar|Crunch|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-enditem|p2a: Polteageist|Focus Sash
+|-damage|p2a: Polteageist|1/100
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|-unboost|p2a: Polteageist|def|1
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Polteageist|Giga Drain|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-heal|p2a: Polteageist|31/100|[from] drain|[of] p1a: Tyranitar
+|faint|p1a: Tyranitar
+|
+|upkeep
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|-damage|p1a: Vaporeon|88/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Polteageist|Giga Drain|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|-heal|p2a: Polteageist|100/100|[from] drain|[of] p1a: Vaporeon
+|faint|p1a: Vaporeon
+|
+|-sideend|p2: Sealx♬|Reflect
+|upkeep
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|-damage|p1a: Dracozolt|88/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Dracozolt
+|-damage|p1a: Dracozolt|0 fnt
+|faint|p1a: Dracozolt
+|
+|-sideend|p2: Sealx♬|move: Light Screen
+|upkeep
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|turn|19
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, M|65/100
+|-damage|p1a: Toxapex|53/100|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Polteageist|Stored Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|win|Sealx♬

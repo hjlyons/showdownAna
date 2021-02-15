@@ -1,0 +1,426 @@
+|ScrapeTime|2020-01-01-07:54:39
+|j|☆thiccstagoon
+|j|☆Lucy_D
+|player|p1|thiccstagoon|193|1268
+|player|p2|Lucy_D|266|1232
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pyukumuku, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Avalugg, F|
+|poke|p1|Gastrodon, M|
+|poke|p1|Corviknight, F|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Dugtrio, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Crawdaunt, M|
+|poke|p2|Ditto|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|turn|1
+|
+|move|p2a: Crawdaunt|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|45/100
+|-enditem|p1a: Toxapex|Shed Shell|[from] move: Knock Off|[of] p2a: Crawdaunt
+|move|p1a: Toxapex|Toxic|p2a: Crawdaunt
+|-status|p2a: Crawdaunt|tox
+|
+|-damage|p2a: Crawdaunt|95/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|switch|p1a: Avalugg|Avalugg, F|100/100
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Avalugg|Body Press|p2a: Seismitoad
+|-crit|p2a: Seismitoad
+|-damage|p2a: Seismitoad|41/100
+|
+|-heal|p2a: Seismitoad|47/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Seismitoad|Toxic|p1a: Avalugg
+|-status|p1a: Avalugg|tox
+|move|p1a: Avalugg|Body Press|p2a: Seismitoad
+|-damage|p2a: Seismitoad|2/100
+|
+|-heal|p2a: Seismitoad|8/100|[from] item: Leftovers
+|-damage|p1a: Avalugg|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p2a: Seismitoad|Stealth Rock|p1a: Avalugg
+|-sidestart|p1: thiccstagoon|move: Stealth Rock
+|move|p1a: Avalugg|Body Press|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|-damage|p1a: Avalugg|82/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|turn|6
+|
+|move|p2a: Conkeldurr|Drain Punch|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|41/100 tox
+|-damage|p2a: Conkeldurr|84/100|[from] item: Rocky Helmet|[of] p1a: Avalugg
+|move|p1a: Avalugg|Rapid Spin|p2a: Conkeldurr
+|-crit|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|66/100
+|-sideend|p1: thiccstagoon|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Avalugg
+|-boost|p1a: Avalugg|spe|1
+|
+|-damage|p1a: Avalugg|23/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Conkeldurr|Drain Punch|p1a: Corviknight
+|-damage|p1a: Corviknight|58/100
+|-heal|p2a: Conkeldurr|87/100|[from] drain|[of] p1a: Corviknight
+|
+|-heal|p1a: Corviknight|65/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Crawdaunt|Crawdaunt, M|95/100 tox
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-heal|p1a: Corviknight|71/100|[from] item: Leftovers
+|-damage|p2a: Crawdaunt|89/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|move|p2a: Crawdaunt|Knock Off|p1a: Corviknight
+|-damage|p1a: Corviknight|17/100
+|-enditem|p1a: Corviknight|Leftovers|[from] move: Knock Off|[of] p2a: Crawdaunt
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-damage|p2a: Crawdaunt|77/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|move|p2a: Crawdaunt|Knock Off|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-damage|p2a: Crawdaunt|59/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|turn|11
+|
+|move|p2a: Crawdaunt|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|40/100
+|-damage|p2a: Crawdaunt|46/100 tox|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p2a: Crawdaunt
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Crawdaunt
+|-sidestart|p2: Lucy_D|move: Stealth Rock
+|
+|-damage|p2a: Crawdaunt|23/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|87/100
+|-damage|p2a: Conkeldurr|81/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Conkeldurr
+|-sidestart|p2: Lucy_D|Spikes
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Pyukumuku|Pyukumuku, M|100/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Pyukumuku
+|-crit|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|50/100
+|-heal|p2a: Conkeldurr|99/100|[from] drain|[of] p1a: Pyukumuku
+|
+|-heal|p1a: Pyukumuku|56/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Crawdaunt|Crawdaunt, M|23/100 tox
+|-damage|p2a: Crawdaunt|10/100 tox|[from] Stealth Rock
+|-damage|p2a: Crawdaunt|0 fnt|[from] Spikes
+|faint|p2a: Crawdaunt
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|100/100
+|
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|88/100|[from] Spikes
+|-damage|p2a: Ferrothorn|82/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|40/100
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|par
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Ferrothorn|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|33/100 par
+|-damage|p2a: Ferrothorn|69/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|cant|p1a: Ferrothorn|par
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: thiccstagoon|Spikes
+|cant|p1a: Ferrothorn|par
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: thiccstagoon|Spikes
+|cant|p1a: Ferrothorn|par
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Ferrothorn|Spikes|p1a: Ferrothorn
+|-sidestart|p1: thiccstagoon|Spikes
+|cant|p1a: Ferrothorn|par
+|
+|upkeep
+|turn|20
+|c|☆thiccstagoon|are you kidding me
+|
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|-damage|p2a: Dugtrio|88/100|[from] Spikes
+|-damage|p2a: Dugtrio|82/100|[from] Stealth Rock
+|cant|p1a: Ferrothorn|par
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Dugtrio|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: thiccstagoon|move: Stealth Rock
+|move|p1a: Ferrothorn|Rest|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|slp|[from] move: Rest
+|-heal|p1a: Ferrothorn|100/100 slp|[silent]
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|72/100 slp
+|cant|p1a: Ferrothorn|slp
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|43/100 slp
+|cant|p1a: Ferrothorn|slp
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|15/100 slp
+|-curestatus|p1a: Ferrothorn|slp|[msg]
+|move|p1a: Ferrothorn|Rest|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|slp|[from] move: Rest
+|-heal|p1a: Ferrothorn|100/100 slp|[silent]
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|99/100
+|-damage|p2a: Conkeldurr|88/100|[from] Spikes
+|-damage|p2a: Conkeldurr|82/100|[from] Stealth Rock
+|cant|p1a: Ferrothorn|slp
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Pyukumuku|Pyukumuku, M|100/100
+|-damage|p1a: Pyukumuku|88/100|[from] Stealth Rock
+|-damage|p1a: Pyukumuku|63/100|[from] Spikes
+|move|p2a: Conkeldurr|Drain Punch|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|27/100
+|-heal|p2a: Conkeldurr|96/100|[from] drain|[of] p1a: Pyukumuku
+|
+|-heal|p1a: Pyukumuku|33/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p1a: Toxapex|Toxapex, F|78/100
+|-damage|p1a: Toxapex|54/100|[from] Spikes
+|-damage|p1a: Toxapex|41/100|[from] Stealth Rock
+|move|p2a: Conkeldurr|Drain Punch|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|25/100
+|-heal|p2a: Conkeldurr|100/100|[from] drain|[of] p1a: Toxapex
+|
+|upkeep
+|turn|28
+|
+|switch|p2a: Dugtrio|Dugtrio, F|82/100
+|-damage|p2a: Dugtrio|70/100|[from] Spikes
+|-damage|p2a: Dugtrio|64/100|[from] Stealth Rock
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|75/100
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|22/100
+|move|p1a: Toxapex|Scald|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|-damage|p2a: Conkeldurr|94/100|[from] Stealth Rock
+|-damage|p2a: Conkeldurr|82/100|[from] Spikes
+|turn|30
+|
+|switch|p1a: Avalugg|Avalugg, F|23/100 tox
+|-damage|p1a: Avalugg|0 fnt|[from] Stealth Rock
+|faint|p1a: Avalugg
+|move|p2a: Conkeldurr|Payback|p1: Avalugg|[notarget]
+|-fail|p2a: Conkeldurr
+|
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100 slp
+|-damage|p1a: Ferrothorn|94/100 slp|[from] Stealth Rock
+|-damage|p1a: Ferrothorn|69/100 slp|[from] Spikes
+|turn|31
+|
+|move|p2a: Conkeldurr|Drain Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|8/100 slp
+|-heal|p2a: Conkeldurr|100/100|[from] drain|[of] p1a: Ferrothorn
+|-damage|p2a: Conkeldurr|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|cant|p1a: Ferrothorn|slp
+|
+|upkeep
+|turn|32
+|
+|move|p2a: Conkeldurr|Drain Punch|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-heal|p2a: Conkeldurr|91/100|[from] drain|[of] p1a: Ferrothorn
+|-damage|p2a: Conkeldurr|79/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|-damage|p1a: Gastrodon|76/100|[from] Spikes
+|-damage|p1a: Gastrodon|70/100|[from] Stealth Rock
+|turn|33
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|69/100
+|-damage|p2a: Ferrothorn|57/100|[from] Spikes
+|-damage|p2a: Ferrothorn|50/100|[from] Stealth Rock
+|move|p1a: Gastrodon|Stockpile|p1a: Gastrodon
+|-start|p1a: Gastrodon|stockpile1
+|-boost|p1a: Gastrodon|def|1
+|-boost|p1a: Gastrodon|spd|1
+|
+|-heal|p1a: Gastrodon|76/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Gastrodon|Stockpile|p1a: Gastrodon
+|-start|p1a: Gastrodon|stockpile2
+|-boost|p1a: Gastrodon|def|1
+|-boost|p1a: Gastrodon|spd|1
+|move|p2a: Ferrothorn|Leech Seed|p1a: Gastrodon
+|-start|p1a: Gastrodon|move: Leech Seed
+|
+|-heal|p1a: Gastrodon|82/100|[from] item: Leftovers
+|-damage|p1a: Gastrodon|69/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|66/100|[silent]
+|upkeep
+|turn|35
+|
+|move|p1a: Gastrodon|Stockpile|p1a: Gastrodon
+|-start|p1a: Gastrodon|stockpile3
+|-boost|p1a: Gastrodon|def|1
+|-boost|p1a: Gastrodon|spd|1
+|move|p2a: Ferrothorn|Knock Off|p1a: Gastrodon
+|-damage|p1a: Gastrodon|60/100
+|-enditem|p1a: Gastrodon|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-damage|p1a: Gastrodon|48/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|81/100|[silent]
+|upkeep
+|turn|36
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-damage|p2a: Ditto|88/100|[from] Stealth Rock
+|-damage|p2a: Ditto|76/100|[from] Spikes
+|-transform|p2a: Ditto|p1a: Gastrodon|[from] ability: Imposter
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|98/100
+|
+|-damage|p1a: Gastrodon|85/100|[from] Leech Seed|[of] p2a: Ditto
+|-heal|p2a: Ditto|93/100|[silent]
+|upkeep
+|turn|37
+|
+|switch|p1a: Toxapex|Toxapex, F|55/100
+|-damage|p1a: Toxapex|43/100|[from] Stealth Rock
+|-damage|p1a: Toxapex|18/100|[from] Spikes
+|move|p2a: Ditto|Sludge|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|12/100
+|
+|upkeep
+|turn|38
+|
+|move|p2a: Ditto|Sludge|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|6/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|56/100
+|
+|upkeep
+|turn|39
+|-message|Lucy_D forfeited.
+|
+|win|thiccstagoon
+|l|☆Lucy_D
+|raw|thiccstagoon's rating: 1268 → 1290(+22 for winning)
+|raw|Lucy_D's rating: 1232 → 1210(-22 for losing)

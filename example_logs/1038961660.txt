@@ -1,0 +1,411 @@
+|ScrapeTime|2020-01-01-02:28:51
+|j|☆Zeke666
+|j|☆Dayhab
+|player|p1|Zeke666|ethan|
+|player|p2|Dayhab|ghetsis|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gyarados, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Dragapult, F|
+|poke|p2|Aegislash, F|
+|poke|p2|Mimikyu, M|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Gengar, M|
+|poke|p2|Runerigus, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, F, shiny|100/100
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|turn|1
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Corsola|Strength Sap|p1a: Dragapult
+|-unboost|p1a: Dragapult|atk|1
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Corsola|Will-O-Wisp|p1a: Dragapult
+|-status|p1a: Dragapult|brn
+|
+|-damage|p1a: Dragapult|95/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Corsola|Hex|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|7/100 brn
+|
+|-heal|p1a: Dragapult|13/100 brn|[from] item: Leftovers
+|-damage|p1a: Dragapult|7/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|75/100
+|-unboost|p2a: Corsola|spd|1
+|move|p2a: Corsola|Strength Sap|p1a: Dragapult
+|-unboost|p1a: Dragapult|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-heal|p1a: Dragapult|13/100 brn|[from] item: Leftovers
+|-damage|p1a: Dragapult|7/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: Dragapult|Dragon Pulse|p2a: Corsola
+|-damage|p2a: Corsola|79/100
+|move|p2a: Corsola|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: Zeke666|move: Stealth Rock
+|
+|-heal|p1a: Dragapult|13/100 brn|[from] item: Leftovers
+|-damage|p1a: Dragapult|7/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Dragapult|Dragon Darts|p2a: Corsola
+|-damage|p2a: Corsola|66/100
+|-damage|p2a: Corsola|51/100
+|-hitcount|p2a: Corsola|2
+|move|p2a: Corsola|Hex|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, F, shiny|100/100
+|-damage|p1a: Corsola|88/100|[from] Stealth Rock
+|turn|7
+|
+|move|p2a: Corsola|Will-O-Wisp|p1a: Corsola
+|-status|p1a: Corsola|brn
+|move|p1a: Corsola|Strength Sap|p2a: Corsola
+|-unboost|p2a: Corsola|atk|1
+|-heal|p1a: Corsola|100/100 brn
+|
+|-damage|p1a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p1a: Corsola|Will-O-Wisp|p2a: Corsola
+|-status|p2a: Corsola|brn
+|move|p2a: Corsola|Strength Sap|p1a: Corsola
+|-unboost|p1a: Corsola|atk|1
+|-heal|p2a: Corsola|83/100 brn
+|
+|-heal|p1a: Corsola|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Corsola|77/100 brn|[from] brn
+|-damage|p1a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Corsola|Hex|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|26/100 brn
+|move|p2a: Corsola|Hex|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|49/100 brn
+|-start|p2a: Corsola|Disable|Hex|[from] ability: Cursed Body|[of] p1a: Corsola
+|
+|-heal|p1a: Corsola|55/100 brn|[from] item: Leftovers
+|-damage|p2a: Corsola|20/100 brn|[from] brn
+|-damage|p1a: Corsola|49/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|move|p1a: Corsola|Strength Sap|p2a: Aegislash
+|-unboost|p2a: Aegislash|atk|1
+|-heal|p1a: Corsola|100/100 brn
+|
+|-damage|p1a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Corsola|Will-O-Wisp|p2a: Aegislash
+|-status|p2a: Aegislash|brn
+|
+|-heal|p1a: Corsola|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Aegislash|94/100 brn|[from] brn
+|-damage|p1a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|78/100 brn
+|move|p1a: Corsola|Hex|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|-heal|p1a: Corsola|84/100 brn|[from] item: Leftovers
+|-damage|p1a: Corsola|78/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|13
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, F, shiny|100/100
+|-damage|p1a: Gyarados|76/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p2a: Corsola|Corsola-Galar, M|20/100 brn
+|move|p1a: Gyarados|Waterfall|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-damage|p1a: Gyarados|66/100|[from] item: Life Orb
+|faint|p2a: Corsola
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|15
+|
+|move|p2a: Dragapult|Thunderbolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F, shiny|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p2a: Runerigus|Runerigus, M|100/100
+|move|p1a: Hydreigon|Draco Meteor|p2a: Runerigus|[miss]
+|-miss|p1a: Hydreigon|p2a: Runerigus
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Hydreigon|Dragon Rush|p2a: Runerigus
+|-damage|p2a: Runerigus|57/100
+|-activate|p1a: Hydreigon|ability: Wandering Spirit|Wandering Spirit|Levitate|[of] p2a: Runerigus
+|move|p2a: Runerigus|Body Press|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|28/100
+|-activate|p2a: Runerigus|ability: Wandering Spirit|Wandering Spirit|Levitate|[of] p1a: Hydreigon
+|
+|-heal|p2a: Runerigus|64/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Hydreigon|Earthquake|p2a: Runerigus
+|-damage|p2a: Runerigus|38/100
+|move|p2a: Runerigus|Body Press|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-heal|p2a: Runerigus|44/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, F, shiny|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2a: Runerigus|Body Press|p1a: Corviknight
+|-damage|p1a: Corviknight|74/100
+|
+|-heal|p1a: Corviknight|80/100|[from] item: Leftovers
+|-heal|p2a: Runerigus|50/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2a: Runerigus|Body Press|p1a: Corviknight
+|-damage|p1a: Corviknight|70/100
+|
+|-heal|p1a: Corviknight|76/100|[from] item: Leftovers
+|-heal|p2a: Runerigus|57/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2a: Runerigus|Body Press|p1a: Corviknight
+|-damage|p1a: Corviknight|69/100
+|
+|-heal|p1a: Corviknight|75/100|[from] item: Leftovers
+|-heal|p2a: Runerigus|63/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2a: Runerigus|Body Press|p1a: Corviknight
+|-damage|p1a: Corviknight|68/100
+|
+|-heal|p1a: Corviknight|74/100|[from] item: Leftovers
+|-heal|p2a: Runerigus|69/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2a: Runerigus|Body Press|p1a: Corviknight
+|-damage|p1a: Corviknight|68/100
+|
+|-heal|p1a: Corviknight|74/100|[from] item: Leftovers
+|-heal|p2a: Runerigus|75/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2a: Runerigus|Body Press|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|45/100
+|
+|-heal|p1a: Corviknight|51/100|[from] item: Leftovers
+|-heal|p2a: Runerigus|82/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Corviknight|Power Trip|p2a: Runerigus
+|-supereffective|p2a: Runerigus
+|-damage|p2a: Runerigus|0 fnt
+|-activate|p1a: Corviknight|ability: Wandering Spirit|Wandering Spirit|Mirror Armor|[of] p2a: Runerigus
+|faint|p2a: Runerigus
+|
+|-heal|p1a: Corviknight|58/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|26
+|
+|move|p2a: Dragapult|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|1/100
+|move|p1a: Corviknight|Power Trip|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Corviknight|8/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|turn|27
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Corviknight
+|-damage|p1a: Corviknight|4/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|54/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p1a: Corviknight|60/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|0
+|-boost|p1a: Corviknight|def|0
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|move|p1a: Corviknight|Iron Head|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M
+|-damage|p2a: Mimikyu|88/100|[from] ability: Disguise|[of] p2a: Mimikyu
+|
+|-heal|p2a: Mimikyu|94/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Corviknight
+|-damage|p1a: Corviknight|87/100
+|move|p1a: Corviknight|Power Trip|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|-heal|p1a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, M|100/100
+|turn|32
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|66/100
+|move|p1a: Corviknight|Power Trip|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-enditem|p2a: Gengar|Focus Sash
+|-damage|p2a: Gengar|1/100
+|
+|-heal|p1a: Corviknight|72/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p2a: Gengar|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|43/100
+|move|p1a: Corviknight|Power Trip|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|win|Zeke666

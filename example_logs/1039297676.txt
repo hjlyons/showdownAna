@@ -1,0 +1,197 @@
+|ScrapeTime|2020-01-01-20:36:47
+|j|☆iorelejiju
+|j|☆Rohse
+|player|p1|iorelejiju|39|1276
+|player|p2|Rohse|shelly-gen3|1236
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mamoswine, F|
+|poke|p1|Gigalith, F|
+|poke|p1|Slurpuff, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Toxtricity, F|
+|poke|p1|Cinderace, F|
+|poke|p2|Mr. Rime, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Dracozolt|
+|poke|p2|Dragapult, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Excadrill, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Slurpuff|Slurpuff, M|100/100
+|switch|p2a: SMALL DRILL|Excadrill, F|100/100
+|-ability|p2a: SMALL DRILL|Mold Breaker
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by iorelejiju)
+|
+|move|p2a: SMALL DRILL|Stealth Rock|p1a: Slurpuff
+|-sidestart|p1: iorelejiju|move: Stealth Rock
+|move|p1a: Slurpuff|Flamethrower|p2a: SMALL DRILL
+|-supereffective|p2a: SMALL DRILL
+|-damage|p2a: SMALL DRILL|37/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: SMALL DRILL|Earthquake|p1a: Slurpuff
+|-damage|p1a: Slurpuff|39/100
+|move|p1a: Slurpuff|Flamethrower|p2a: SMALL DRILL
+|-supereffective|p2a: SMALL DRILL
+|-damage|p2a: SMALL DRILL|0 fnt
+|faint|p2a: SMALL DRILL
+|
+|upkeep
+|
+|switch|p2a: Grim Tale|Grimmsnarl, M|100/100
+|turn|3
+|
+|move|p2a: Grim Tale|Light Screen|p2a: Grim Tale
+|-sidestart|p2: Rohse|move: Light Screen
+|move|p1a: Slurpuff|Dazzling Gleam|p2a: Grim Tale
+|-supereffective|p2a: Grim Tale
+|-crit|p2a: Grim Tale
+|-damage|p2a: Grim Tale|32/100
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Grim Tale|Thunder Wave|p1a: Slurpuff
+|-status|p1a: Slurpuff|par
+|move|p1a: Slurpuff|Sticky Web|p2a: Grim Tale
+|-sidestart|p2: Rohse|move: Sticky Web
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Grim Tale|Spirit Break|p1a: Slurpuff
+|-damage|p1a: Slurpuff|5/100 par
+|-unboost|p1a: Slurpuff|spa|1
+|cant|p1a: Slurpuff|par
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Grim Tale|Reflect|p2a: Grim Tale
+|-sidestart|p2: Rohse|Reflect
+|move|p1a: Slurpuff|Dazzling Gleam|p2a: Grim Tale
+|-supereffective|p2a: Grim Tale
+|-damage|p2a: Grim Tale|16/100
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Grim Tale|Reflect||[still]
+|-fail|p2a: Grim Tale
+|cant|p1a: Slurpuff|par
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Grim Tale|Reflect||[still]
+|-fail|p2a: Grim Tale
+|move|p1a: Slurpuff|Dazzling Gleam|p2a: Grim Tale
+|-supereffective|p2a: Grim Tale
+|-damage|p2a: Grim Tale|0 fnt
+|faint|p2a: Grim Tale
+|
+|upkeep
+|
+|switch|p2a: Al Capone|Mr. Rime, F|100/100
+|-activate|p2a: Al Capone|move: Sticky Web
+|-unboost|p2a: Al Capone|spe|1
+|turn|9
+|
+|move|p2a: Al Capone|Rapid Spin|p1a: Slurpuff
+|-damage|p1a: Slurpuff|0 fnt
+|-sideend|p2: Rohse|Sticky Web|[from] move: Rapid Spin|[of] p2a: Al Capone
+|-boost|p2a: Al Capone|spe|1
+|-damage|p2a: Al Capone|91/100|[from] item: Life Orb
+|faint|p1a: Slurpuff
+|
+|upkeep
+|
+|switch|p1a: Mandy|Mandibuzz, F|100/100
+|-damage|p1a: Mandy|75/100|[from] Stealth Rock
+|turn|10
+|
+|move|p2a: Al Capone|Ice Beam|p1a: Mandy
+|-supereffective|p1a: Mandy
+|-damage|p1a: Mandy|0 fnt
+|-damage|p2a: Al Capone|81/100|[from] item: Life Orb
+|faint|p1a: Mandy
+|
+|-sideend|p2: Rohse|move: Light Screen
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|-damage|p1a: Cinderace|76/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Cinderace|U-turn|p2a: Al Capone
+|-supereffective|p2a: Al Capone
+|-damage|p2a: Al Capone|46/100
+|
+|switch|p1a: Mamoswine|Mamoswine, F|100/100|[from]move: U-turn
+|-damage|p1a: Mamoswine|88/100|[from] Stealth Rock
+|move|p2a: Al Capone|Psychic|p1a: Mamoswine
+|-damage|p1a: Mamoswine|21/100
+|-enditem|p1a: Mamoswine|Sitrus Berry|[eat]
+|-heal|p1a: Mamoswine|46/100|[from] item: Sitrus Berry
+|-damage|p2a: Al Capone|36/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Al Capone|Psychic|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|-damage|p2a: Al Capone|26/100|[from] item: Life Orb
+|faint|p1a: Mamoswine
+|
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, F|76/100
+|-damage|p1a: Cinderace|51/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Cinderace|Flare Blitz|p2a: Al Capone
+|-supereffective|p2a: Al Capone
+|-damage|p2a: Al Capone|0 fnt
+|-damage|p1a: Cinderace|42/100|[from] Recoil
+|faint|p2a: Al Capone
+|
+|-sideend|p2: Rohse|Reflect
+|upkeep
+|
+|switch|p2a: Bolt|Dracozolt, shiny|100/100
+|turn|14
+|
+|move|p1a: Cinderace|Flare Blitz|p2a: Bolt
+|-resisted|p2a: Bolt
+|-damage|p2a: Bolt|66/100
+|-damage|p1a: Cinderace|29/100|[from] Recoil
+|move|p2a: Bolt|Earthquake|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|-message|iorelejiju forfeited.
+|
+|win|Rohse
+|l|☆iorelejiju
+|raw|iorelejiju's rating: 1254 → 1228(-26 for losing)
+|raw|Rohse's rating: 1236 → 1262(+26 for winning)

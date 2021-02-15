@@ -1,0 +1,251 @@
+|ScrapeTime|2020-01-01-17:05:06
+|j|☆Baba-rhum
+|j|☆TazL Tikong
+|player|p1|Baba-rhum|winona|1242
+|player|p2|TazL Tikong|1|1259
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, M|
+|poke|p1|Togekiss, F|
+|poke|p1|Toxtricity, M|
+|poke|p1|Obstagoon, F|
+|poke|p1|Jellicent, M|
+|poke|p1|Kommo-o, F|
+|poke|p2|Salazzle, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Crawdaunt, F|
+|poke|p2|Rotom-Wash|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|turn|1
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|move|p2a: Salazzle|Sludge Bomb|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|86/100
+|
+|-heal|p1a: Jellicent|92/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Baba-rhum)
+|
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100
+|move|p1a: Jellicent|Night Shade|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|70/100
+|
+|-heal|p1a: Jellicent|99/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Crawdaunt
+|-status|p2a: Crawdaunt|brn
+|move|p2a: Crawdaunt|Knock Off|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|20/100
+|-enditem|p1a: Jellicent|Leftovers|[from] move: Knock Off|[of] p2a: Crawdaunt
+|
+|-damage|p2a: Crawdaunt|64/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Jellicent|Strength Sap|p2a: Crawdaunt
+|-unboost|p2a: Crawdaunt|atk|1
+|-heal|p1a: Jellicent|100/100
+|move|p2a: Crawdaunt|Knock Off|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|65/100
+|
+|-damage|p2a: Crawdaunt|58/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Jellicent|Night Shade|p2a: Dragapult
+|-damage|p2a: Dragapult|69/100
+|
+|-heal|p2a: Dragapult|75/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Obstagoon|Obstagoon, F|100/100
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|50/100
+|
+|-heal|p2a: Dragapult|56/100|[from] item: Leftovers
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Obstagoon
+|-damage|p1a: Obstagoon|72/100 brn
+|-damage|p1a: Obstagoon|41/100 brn
+|-hitcount|p1a: Obstagoon|2
+|move|p1a: Obstagoon|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|62/100|[from] item: Leftovers
+|-damage|p1a: Obstagoon|35/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Togekiss
+|-immune|p1a: Togekiss
+|
+|-heal|p2a: Dragapult|68/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Togekiss|Air Slash|p2a: Hatterene
+|-damage|p2a: Hatterene|45/100
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Togekiss|Air Slash|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|77/100
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|85/100
+|
+|switch|p2a: Hatterene|Hatterene, F|45/100|[from]move: Volt Switch
+|
+|-heal|p1a: Ferrothorn|92/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-heal|p1a: Ferrothorn|98/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Ferrothorn|Power Whip|p2a: Hatterene
+|-damage|p2a: Hatterene|4/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Hatterene|0 fnt|[from] item: Life Orb
+|faint|p1a: Ferrothorn
+|faint|p2a: Hatterene
+|
+|upkeep
+|c|☆Baba-rhum|well
+|
+|switch|p1a: Obstagoon|Obstagoon, F|35/100 brn
+|switch|p2a: Crawdaunt|Crawdaunt, F|58/100 brn
+|turn|14
+|
+|move|p1a: Obstagoon|Obstruct|p1a: Obstagoon
+|-singleturn|p1a: Obstagoon|Protect
+|move|p2a: Crawdaunt|Knock Off|p1a: Obstagoon
+|-activate|p1a: Obstagoon|move: Protect
+|-unboost|p2a: Crawdaunt|def|2
+|
+|-damage|p2a: Crawdaunt|52/100 brn|[from] brn
+|-damage|p1a: Obstagoon|29/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p1a: Jellicent|Jellicent, M|65/100
+|move|p2a: Crawdaunt|Knock Off|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|12/100
+|
+|-damage|p2a: Crawdaunt|46/100 brn|[from] brn
+|upkeep
+|turn|16
+|inactive|Baba-rhum has 120 seconds left.
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|move|p2a: Crawdaunt|Knock Off|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|74/100
+|-enditem|p1a: Kommo-o|Throat Spray|[from] move: Knock Off|[of] p2a: Crawdaunt
+|
+|-damage|p2a: Crawdaunt|40/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|17
+|
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|41/100
+|move|p2a: Crawdaunt|Knock Off|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|30/100
+|
+|-damage|p2a: Crawdaunt|34/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p1a: Kommo-o|Clanging Scales|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|-unboost|p1a: Kommo-o|def|1
+|faint|p2a: Crawdaunt
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|77/100
+|turn|19
+|
+|move|p1a: Kommo-o|Clanging Scales|p2a: Rotom
+|-damage|p2a: Rotom|26/100
+|-unboost|p1a: Kommo-o|def|1
+|move|p2a: Rotom|Volt Switch|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|15/100
+|inactive|TazL Tikong has 120 seconds left.
+|inactive|TazL Tikong has 90 seconds left.
+|inactive|TazL Tikong has 60 seconds left.
+|l|☆Baba-rhum
+|inactive|Baba-rhum disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆Baba-rhum
+|inactive|Baba-rhum reconnected.
+|player|p1|Baba-rhum|winona
+|inactive|TazL Tikong has 30 seconds left.
+|inactive|TazL Tikong has 20 seconds left.
+|inactive|TazL Tikong has 15 seconds left.
+|inactive|TazL Tikong has 10 seconds left.
+|inactive|TazL Tikong has 5 seconds left.
+|c|☆Baba-rhum|gg
+|-message|TazL Tikong lost due to inactivity.
+|
+|win|Baba-rhum
+|raw|Baba-rhum's rating: 1242 → 1268(+26 for winning)
+|raw|TazL Tikong's rating: 1259 → 1233(-26 for losing)

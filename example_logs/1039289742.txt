@@ -1,0 +1,409 @@
+|ScrapeTime|2020-01-01-20:24:38
+|j|☆gainzbourge
+|j|☆Harzen
+|player|p1|gainzbourge|blue|1324
+|player|p2|Harzen|hiker-gen4|1307
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Runerigus, M|
+|poke|p1|Vikavolt, F|
+|poke|p1|Polteageist|
+|poke|p1|Rhyperior, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Aegislash, F|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Ditto|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Corviknight, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Runerigus|Runerigus, M|100/100
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Runerigus|[from] ability: Imposter
+|turn|1
+|c|☆Harzen|!data wandering spirit
+|raw|Wandering Spirit Exchanges abilities when hitting a Pokémon with a contact move. 
+
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Ditto|Shadow Claw|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|81/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|move|p1a: Grimmsnarl|Trick|p2a: Corsola
+|-activate|p1a: Grimmsnarl|move: Trick|[of] p2a: Corsola
+|-item|p2a: Corsola|Choice Band|[from] move: Trick
+|-item|p1a: Grimmsnarl|Eviolite|[from] move: Trick
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Corsola|Stealth Rock|p1a: Hatterene
+|move|p1a: Hatterene|Stealth Rock|p2a: Corsola|[from]Magic Bounce
+|-sidestart|p2: Harzen|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Hatterene|Mystical Fire|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|51/100
+|-ability|p2a: Corviknight|Mirror Armor
+|-unboost|p1a: Hatterene|spa|1
+|move|p2a: Corviknight|Defog|p1a: Hatterene
+|move|p1a: Hatterene|Defog|p2a: Corviknight|[from]Magic Bounce
+|-ability|p2a: Corviknight|Mirror Armor
+|-unboost|p1a: Hatterene|evasion|1
+|-sideend|p2: Harzen|Stealth Rock|[from] move: Defog|[of] p1a: Hatterene
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Hatterene|Mystical Fire|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|22/100
+|-ability|p2a: Corviknight|Mirror Armor
+|-unboost|p1a: Hatterene|spa|1
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|72/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Rhyperior|Rhyperior, F, shiny|100/100
+|move|p2a: Corviknight|Brave Bird|p1a: Rhyperior
+|-resisted|p1a: Rhyperior
+|-damage|p1a: Rhyperior|89/100
+|-damage|p2a: Corviknight|68/100|[from] Recoil
+|
+|-heal|p1a: Rhyperior|95/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|move|p1a: Rhyperior|Stealth Rock|p2a: Corsola
+|-sidestart|p2: Harzen|move: Stealth Rock
+|
+|-heal|p1a: Rhyperior|100/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Corsola|Night Shade|p1a: Hatterene
+|-damage|p1a: Hatterene|69/100
+|
+|-heal|p1a: Hatterene|75/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Corsola|Night Shade|p1a: Hatterene
+|-damage|p1a: Hatterene|44/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-heal|p1a: Hatterene|50/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|81/100
+|move|p2a: Corsola|Night Shade|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|56/100
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Corsola|Night Shade|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|30/100
+|move|p1a: Grimmsnarl|Darkest Lariat|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-crit|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-start|p1a: Grimmsnarl|Disable|Darkest Lariat|[from] ability: Cursed Body|[of] p2a: Corsola
+|faint|p2a: Corsola
+|
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p2a: Grimmsnarl|88/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Grimmsnarl|Substitute|p2a: Grimmsnarl
+|-start|p2a: Grimmsnarl|Substitute
+|-damage|p2a: Grimmsnarl|63/100
+|move|p1a: Grimmsnarl|Play Rough|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-end|p2a: Grimmsnarl|Substitute
+|
+|-heal|p2a: Grimmsnarl|69/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Grimmsnarl|Substitute|p2a: Grimmsnarl
+|-start|p2a: Grimmsnarl|Substitute
+|-damage|p2a: Grimmsnarl|44/100
+|move|p1a: Grimmsnarl|Play Rough|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-end|p2a: Grimmsnarl|Substitute
+|
+|-heal|p2a: Grimmsnarl|50/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|15
+|
+|move|p1a: Grimmsnarl|Play Rough|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|-end|p1a: Grimmsnarl|Disable
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M|68/100
+|-damage|p2a: Corviknight|56/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p1a: Rhyperior|Rhyperior, F, shiny|100/100
+|move|p2a: Corviknight|Defog|p1a: Rhyperior
+|-unboost|p1a: Rhyperior|evasion|1
+|-sideend|p2: Harzen|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Corviknight|Taunt|p1a: Rhyperior
+|-start|p1a: Rhyperior|move: Taunt
+|move|p1a: Rhyperior|Heat Crash|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|2/100
+|-damage|p1a: Rhyperior|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|-heal|p1a: Rhyperior|90/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Rhyperior|[from] ability: Imposter
+|move|p1a: Rhyperior|Heat Crash|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|92/100
+|
+|-heal|p1a: Rhyperior|96/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Vikavolt|Vikavolt, F, shiny|100/100
+|move|p2a: Ditto|Earthquake|p1a: Vikavolt
+|-immune|p1a: Vikavolt|[from] ability: Levitate
+|
+|upkeep
+|turn|20
+|
+|switch|p2a: Corviknight|Corviknight, M|2/100
+|move|p1a: Vikavolt|Energy Ball|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Vikavolt|91/100|[from] item: Life Orb
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|21
+|
+|switch|p1a: Rhyperior|Rhyperior, F, shiny|96/100
+|move|p2a: Cinderace|High Jump Kick|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|44/100
+|-damage|p2a: Cinderace|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Rhyperior|50/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Polteageist|Polteageist|100/100
+|move|p2a: Cinderace|High Jump Kick|p1a: Polteageist
+|-immune|p1a: Polteageist
+|-damage|p2a: Cinderace|41/100|[from] highjumpkick
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Polteageist
+|-enditem|p1a: Polteageist|Focus Sash
+|-damage|p1a: Polteageist|1/100
+|-ability|p1a: Polteageist|Weak Armor|boost
+|-unboost|p1a: Polteageist|def|1
+|-boost|p1a: Polteageist|spe|2
+|-damage|p2a: Cinderace|31/100|[from] item: Life Orb
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|-damage|p2a: Cinderace|21/100|[from] item: Life Orb
+|faint|p1a: Polteageist
+|
+|upkeep
+|
+|switch|p1a: Runerigus|Runerigus, M|100/100
+|turn|25
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Runerigus
+|-damage|p1a: Runerigus|10/100
+|-damage|p2a: Cinderace|11/100|[from] item: Life Orb
+|move|p1a: Runerigus|Trick Room|p1a: Runerigus
+|-fieldstart|move: Trick Room|[of] p1a: Runerigus
+|
+|-heal|p1a: Runerigus|16/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Runerigus
+|-supereffective|p1a: Runerigus
+|-damage|p1a: Runerigus|0 fnt
+|-activate|p2a: Cinderace|ability: Wandering Spirit|Wandering Spirit|Blaze|[of] p1a: Runerigus
+|-damage|p2a: Cinderace|1/100|[from] item: Life Orb
+|faint|p1a: Runerigus
+|
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|30/100
+|turn|27
+|
+|move|p2a: Cinderace|Sucker Punch|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|22/100
+|-damage|p2a: Cinderace|0 fnt|[from] item: Life Orb
+|faint|p2a: Cinderace
+|move|p1a: Grimmsnarl|Darkest Lariat|p2: Cinderace|[notarget]
+|-fail|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|92/100
+|-transform|p2a: Ditto|p1a: Grimmsnarl|[from] ability: Imposter
+|turn|28
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|move|p1a: Grimmsnarl|Play Rough|p2a: Aegislash
+|-resisted|p2a: Aegislash
+|-damage|p2a: Aegislash|83/100
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Grimmsnarl|Darkest Lariat|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|-unboost|p1a: Grimmsnarl|atk|1
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|30
+|
+|move|p1a: Grimmsnarl|Trick|p2a: Aegislash
+|-activate|p1a: Grimmsnarl|move: Trick|[of] p2a: Aegislash
+|-item|p2a: Aegislash|Eviolite|[from] move: Trick
+|-item|p1a: Grimmsnarl|Life Orb|[from] move: Trick
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|
+|upkeep
+|turn|31
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Rhyperior|Rhyperior, F, shiny|50/100
+|turn|32
+|
+|move|p2a: Aegislash|Sacred Sword|p1a: Rhyperior
+|-supereffective|p1a: Rhyperior
+|-damage|p1a: Rhyperior|0 fnt
+|faint|p1a: Rhyperior
+|
+|upkeep
+|
+|switch|p1a: Vikavolt|Vikavolt, F, shiny|91/100
+|turn|33
+|
+|move|p2a: Aegislash|Shadow Sneak|p1a: Vikavolt
+|-damage|p1a: Vikavolt|38/100
+|move|p1a: Vikavolt|Thunderbolt|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|-damage|p1a: Vikavolt|28/100|[from] item: Life Orb
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|92/100
+|-transform|p2a: Ditto|p1a: Vikavolt|[from] ability: Imposter
+|turn|34
+|
+|move|p2a: Ditto|Flash Cannon|p1a: Vikavolt
+|-resisted|p1a: Vikavolt
+|-damage|p1a: Vikavolt|9/100
+|move|p1a: Vikavolt|Thunderbolt|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|47/100
+|-damage|p1a: Vikavolt|0 fnt|[from] item: Life Orb
+|faint|p1a: Vikavolt
+|
+|upkeep
+|
+|switch|p1a: Hatterene|Hatterene, F|50/100
+|turn|35
+|
+|move|p2a: Ditto|Flash Cannon|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|win|Harzen
+|l|☆gainzbourge
+|raw|gainzbourge's rating: 1345 → 1323(-22 for losing)
+|raw|Harzen's rating: 1307 → 1330(+23 for winning)

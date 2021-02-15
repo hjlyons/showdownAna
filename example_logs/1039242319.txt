@@ -1,0 +1,593 @@
+|ScrapeTime|2020-01-01-18:52:27
+|j|☆BUMBACLAAT
+|j|☆ILoveKehlani
+|player|p1|BUMBACLAAT|200|1664
+|player|p2|ILoveKehlani|camper|1650
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, F|
+|poke|p1|Pangoro, F|
+|poke|p1|Snorlax, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Quagsire, M|
+|poke|p2|Hippowdon, F|
+|poke|p2|Kommo-o, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Mantine, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Chandelure, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|1
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: ILoveKehlani|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Corviknight|Taunt|p1a: Ferrothorn
+|-start|p1a: Ferrothorn|move: Taunt
+|cant|p1a: Ferrothorn|move: Taunt|Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ILoveKehlani)
+|
+|switch|p1a: Quagsire|Quagsire, M, shiny|100/100
+|move|p2a: Corviknight|Defog|p1a: Quagsire
+|-unboost|p1a: Quagsire|evasion|1
+|-sideend|p2: ILoveKehlani|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p1a: Quagsire|Toxic|p2a: Grimmsnarl
+|-status|p2a: Grimmsnarl|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Grimmsnarl|94/100 tox|[from] Sandstorm
+|-heal|p2a: Grimmsnarl|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Grimmsnarl|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Grimmsnarl|Bulk Up|p2a: Grimmsnarl
+|-boost|p2a: Grimmsnarl|atk|1
+|-boost|p2a: Grimmsnarl|def|1
+|
+|-weather|none
+|-heal|p2a: Grimmsnarl|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Grimmsnarl|88/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p2a: Grimmsnarl|Bulk Up|p2a: Grimmsnarl
+|-boost|p2a: Grimmsnarl|atk|1
+|-boost|p2a: Grimmsnarl|def|1
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Grimmsnarl
+|-sidestart|p2: ILoveKehlani|move: Stealth Rock
+|
+|-heal|p2a: Grimmsnarl|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Grimmsnarl|76/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|move|p2a: Grimmsnarl|Bulk Up|p2a: Grimmsnarl
+|-boost|p2a: Grimmsnarl|atk|1
+|-boost|p2a: Grimmsnarl|def|1
+|move|p1a: Ferrothorn|Leech Seed|p2a: Grimmsnarl
+|-start|p2a: Grimmsnarl|move: Leech Seed
+|
+|-heal|p2a: Grimmsnarl|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Grimmsnarl|70/100 tox|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p2a: Grimmsnarl|45/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Quagsire|Quagsire, M, shiny|100/100
+|move|p2a: Grimmsnarl|Rest|p2a: Grimmsnarl
+|-status|p2a: Grimmsnarl|slp|[from] move: Rest
+|-heal|p2a: Grimmsnarl|100/100 slp|[silent]
+|
+|-damage|p2a: Grimmsnarl|88/100 slp|[from] Leech Seed|[of] p1a: Quagsire
+|upkeep
+|turn|9
+|
+|cant|p2a: Grimmsnarl|slp
+|move|p2a: Grimmsnarl|Sleep Talk|p2a: Grimmsnarl
+|move|p2a: Grimmsnarl|Bulk Up|p2a: Grimmsnarl|[from]Sleep Talk
+|-boost|p2a: Grimmsnarl|atk|1
+|-boost|p2a: Grimmsnarl|def|1
+|move|p1a: Quagsire|Scald|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|74/100 slp
+|
+|-heal|p2a: Grimmsnarl|80/100 slp|[from] item: Leftovers
+|-damage|p2a: Grimmsnarl|68/100 slp|[from] Leech Seed|[of] p1a: Quagsire
+|upkeep
+|turn|10
+|
+|cant|p2a: Grimmsnarl|slp
+|move|p2a: Grimmsnarl|Sleep Talk|p2a: Grimmsnarl
+|move|p2a: Grimmsnarl|Rest|p2a: Grimmsnarl|[from]Sleep Talk
+|-fail|p2a: Grimmsnarl
+|move|p1a: Quagsire|Toxic||[still]
+|-fail|p1a: Quagsire
+|
+|-heal|p2a: Grimmsnarl|74/100 slp|[from] item: Leftovers
+|-damage|p2a: Grimmsnarl|62/100 slp|[from] Leech Seed|[of] p1a: Quagsire
+|upkeep
+|turn|11
+|
+|-curestatus|p2a: Grimmsnarl|slp|[msg]
+|move|p2a: Grimmsnarl|Bulk Up|p2a: Grimmsnarl
+|-boost|p2a: Grimmsnarl|atk|1
+|-boost|p2a: Grimmsnarl|def|1
+|move|p1a: Quagsire|Toxic|p2a: Grimmsnarl
+|-status|p2a: Grimmsnarl|tox
+|
+|-heal|p2a: Grimmsnarl|68/100 tox|[from] item: Leftovers
+|-damage|p2a: Grimmsnarl|55/100 tox|[from] Leech Seed|[of] p1a: Quagsire
+|-damage|p2a: Grimmsnarl|49/100 tox|[from] psn
+|upkeep
+|turn|12
+|inactive|BUMBACLAAT has 120 seconds left.
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Grimmsnarl|Rest|p2a: Grimmsnarl
+|-status|p2a: Grimmsnarl|slp|[from] move: Rest
+|-heal|p2a: Grimmsnarl|100/100 slp|[silent]
+|
+|-damage|p2a: Grimmsnarl|88/100 slp|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|13
+|
+|cant|p2a: Grimmsnarl|slp
+|move|p2a: Grimmsnarl|Sleep Talk|p2a: Grimmsnarl
+|move|p2a: Grimmsnarl|Darkest Lariat|p1a: Ferrothorn|[from]Sleep Talk
+|-damage|p1a: Ferrothorn|35/100
+|-damage|p2a: Grimmsnarl|76/100 slp|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Grimmsnarl
+|-sidestart|p2: ILoveKehlani|Spikes
+|
+|-heal|p2a: Grimmsnarl|82/100 slp|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|42/100|[from] item: Leftovers
+|-damage|p2a: Grimmsnarl|69/100 slp|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|56/100|[silent]
+|upkeep
+|turn|14
+|
+|switch|p1a: Quagsire|Quagsire, M, shiny|100/100
+|cant|p2a: Grimmsnarl|slp
+|move|p2a: Grimmsnarl|Sleep Talk|p2a: Grimmsnarl
+|move|p2a: Grimmsnarl|Rest|p2a: Grimmsnarl|[from]Sleep Talk
+|-fail|p2a: Grimmsnarl
+|
+|-heal|p2a: Grimmsnarl|75/100 slp|[from] item: Leftovers
+|-damage|p2a: Grimmsnarl|63/100 slp|[from] Leech Seed|[of] p1a: Quagsire
+|upkeep
+|turn|15
+|
+|-curestatus|p2a: Grimmsnarl|slp|[msg]
+|move|p2a: Grimmsnarl|Bulk Up|p2a: Grimmsnarl
+|-boost|p2a: Grimmsnarl|atk|1
+|-boost|p2a: Grimmsnarl|def|1
+|move|p1a: Quagsire|Scald|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|47/100
+|
+|-heal|p2a: Grimmsnarl|54/100|[from] item: Leftovers
+|-damage|p2a: Grimmsnarl|41/100|[from] Leech Seed|[of] p1a: Quagsire
+|upkeep
+|turn|16
+|
+|move|p2a: Grimmsnarl|Darkest Lariat|p1a: Quagsire
+|-damage|p1a: Quagsire|75/100
+|move|p1a: Quagsire|Scald|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|26/100
+|-status|p2a: Grimmsnarl|brn
+|
+|-heal|p2a: Grimmsnarl|32/100 brn|[from] item: Leftovers
+|-heal|p1a: Quagsire|81/100|[from] item: Leftovers
+|-damage|p2a: Grimmsnarl|20/100 brn|[from] Leech Seed|[of] p1a: Quagsire
+|-heal|p1a: Quagsire|93/100|[silent]
+|-damage|p2a: Grimmsnarl|14/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|56/100
+|move|p2a: Grimmsnarl|Rest|p2a: Grimmsnarl
+|-status|p2a: Grimmsnarl|slp|[from] move: Rest
+|-heal|p2a: Grimmsnarl|100/100 slp|[silent]
+|
+|-heal|p1a: Ferrothorn|62/100|[from] item: Leftovers
+|-damage|p2a: Grimmsnarl|88/100 slp|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|76/100|[silent]
+|upkeep
+|turn|18
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|switch|p1a: Quagsire|Quagsire, M, shiny|93/100
+|
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|-heal|p1a: Quagsire|99/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Corviknight|Defog|p1a: Quagsire
+|-unboost|p1a: Quagsire|evasion|1
+|-sideend|p2: ILoveKehlani|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: ILoveKehlani|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Quagsire|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|77/100
+|-status|p2a: Corviknight|brn
+|
+|-heal|p2a: Corviknight|83/100 brn|[from] item: Leftovers
+|-heal|p1a: Quagsire|100/100|[from] item: Leftovers
+|-damage|p2a: Corviknight|77/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p2a: Corviknight|Taunt|p1a: Quagsire
+|-start|p1a: Quagsire|move: Taunt
+|move|p1a: Quagsire|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|58/100 brn
+|
+|-heal|p2a: Corviknight|64/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|58/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|switch|p2a: Kommo-o|Kommo-o, F|100/100
+|switch|p1a: SONNY LISTON|Pangoro, F, shiny|100/100
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|76/100
+|move|p2a: Kommo-o|Substitute|p2a: Kommo-o
+|-start|p2a: Kommo-o|Substitute
+|-damage|p2a: Kommo-o|76/100
+|
+|-heal|p2a: Kommo-o|82/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|82/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Kommo-o|Iron Defense|p2a: Kommo-o
+|-boost|p2a: Kommo-o|def|2
+|
+|-heal|p2a: Kommo-o|88/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|88/100 slp
+|move|p1a: Dragapult|U-turn|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|68/100 slp
+|
+|switch|p1a: SONNY LISTON|Pangoro, F, shiny|100/100|[from]move: U-turn
+|
+|-heal|p2a: Grimmsnarl|74/100 slp|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: SONNY LISTON|Swords Dance|p1a: SONNY LISTON
+|-boost|p1a: SONNY LISTON|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: SONNY LISTON|94/100|[from] Sandstorm
+|upkeep
+|turn|26
+|
+|move|p1a: SONNY LISTON|Close Combat|p2a: Hippowdon
+|-damage|p2a: Hippowdon|9/100
+|-damage|p1a: SONNY LISTON|78/100|[from] item: Rocky Helmet|[of] p2a: Hippowdon
+|-unboost|p1a: SONNY LISTON|def|1
+|-unboost|p1a: SONNY LISTON|spd|1
+|-damage|p1a: SONNY LISTON|68/100|[from] item: Life Orb
+|move|p2a: Hippowdon|Slack Off|p2a: Hippowdon
+|-heal|p2a: Hippowdon|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: SONNY LISTON|62/100|[from] Sandstorm
+|upkeep
+|turn|27
+|c|☆BUMBACLAAT|wtf
+|c|☆BUMBACLAAT|why
+|
+|move|p1a: SONNY LISTON|Close Combat|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|-damage|p1a: SONNY LISTON|45/100|[from] item: Rocky Helmet|[of] p2a: Hippowdon
+|-unboost|p1a: SONNY LISTON|def|1
+|-unboost|p1a: SONNY LISTON|spd|1
+|-damage|p1a: SONNY LISTON|35/100|[from] item: Life Orb
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: SONNY LISTON|29/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Mantine|Mantine, M|100/100
+|turn|28
+|
+|switch|p1a: Snorlax|Snorlax, M, shiny|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|74/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Grimmsnarl|68/100 slp|[from] Sandstorm
+|-damage|p1a: Snorlax|94/100|[from] Sandstorm
+|-heal|p2a: Grimmsnarl|74/100 slp|[from] item: Leftovers
+|-heal|p1a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p2a: Kommo-o|Kommo-o, F|88/100
+|switch|p1a: SONNY LISTON|Pangoro, F, shiny|29/100
+|
+|-weather|none
+|-heal|p2a: Kommo-o|94/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Kommo-o|Dragon Tail|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|42/100
+|drag|p1a: Ferrothorn|Ferrothorn, F|82/100
+|
+|-heal|p2a: Kommo-o|100/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|88/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p1a: Dragapult|Dragapult, M|42/100
+|move|p2a: Kommo-o|Substitute|p2a: Kommo-o
+|-start|p2a: Kommo-o|Substitute
+|-damage|p2a: Kommo-o|76/100
+|
+|-heal|p2a: Kommo-o|82/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|74/100 slp
+|move|p1a: Dragapult|U-turn|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|52/100 slp
+|
+|switch|p1a: SONNY LISTON|Pangoro, F, shiny|29/100|[from]move: U-turn
+|
+|-heal|p2a: Grimmsnarl|58/100 slp|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p2a: Mantine|Mantine, M|100/100
+|move|p1a: SONNY LISTON|Close Combat|p2a: Mantine
+|-resisted|p2a: Mantine
+|-damage|p2a: Mantine|60/100
+|-unboost|p1a: SONNY LISTON|def|1
+|-unboost|p1a: SONNY LISTON|spd|1
+|-damage|p1a: SONNY LISTON|19/100|[from] item: Life Orb
+|
+|-heal|p2a: Mantine|66/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|88/100
+|move|p2a: Mantine|Protect||[still]
+|-fail|p2a: Mantine
+|
+|-heal|p2a: Mantine|72/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|95/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Mantine|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|86/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Mantine
+|-sidestart|p2: ILoveKehlani|move: Stealth Rock
+|
+|-heal|p2a: Mantine|78/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|92/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p2a: Mantine|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|84/100
+|move|p1a: Ferrothorn|Spikes|p2a: Mantine
+|-sidestart|p2: ILoveKehlani|Spikes
+|
+|-heal|p2a: Mantine|84/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|90/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|switch|p1a: Snorlax|Snorlax, M, shiny|100/100
+|move|p2a: Mantine|Scald|p1a: Snorlax
+|-damage|p1a: Snorlax|91/100
+|
+|-heal|p2a: Mantine|91/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|97/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p2a: Mantine|Scald|p1a: Snorlax
+|-damage|p1a: Snorlax|88/100
+|move|p1a: Snorlax|Body Slam|p2a: Mantine
+|-crit|p2a: Mantine
+|-damage|p2a: Mantine|46/100
+|
+|-heal|p2a: Mantine|53/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|94/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p2a: Mantine|Roost|p2a: Mantine
+|-heal|p2a: Mantine|100/100
+|-singleturn|p2a: Mantine|move: Roost
+|move|p1a: Snorlax|Body Slam|p2a: Mantine
+|-damage|p2a: Mantine|72/100
+|
+|-heal|p2a: Mantine|79/100|[from] item: Leftovers
+|-heal|p1a: Snorlax|99/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|switch|p2a: Corviknight|Corviknight, F|58/100 brn
+|-damage|p2a: Corviknight|46/100 brn|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Snorlax|Body Slam|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|37/100 brn
+|
+|-heal|p2a: Corviknight|43/100 brn|[from] item: Leftovers
+|-heal|p1a: Snorlax|100/100|[from] item: Leftovers
+|-damage|p2a: Corviknight|37/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|87/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|93/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|87/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Corviknight|Taunt|p1a: Excadrill
+|-start|p1a: Excadrill|move: Taunt
+|
+|-heal|p2a: Corviknight|93/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|87/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|76/100 brn
+|-boost|p1a: Excadrill|spe|1
+|move|p2a: Corviknight|Defog|p1a: Excadrill
+|-unboost|p1a: Excadrill|evasion|1
+|-sideend|p2: ILoveKehlani|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: ILoveKehlani|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-heal|p2a: Corviknight|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|76/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|switch|p2a: Mantine|Mantine, M|79/100
+|move|p1a: Excadrill|Rock Slide|p2a: Mantine
+|-supereffective|p2a: Mantine
+|-damage|p2a: Mantine|0 fnt
+|faint|p2a: Mantine
+|
+|upkeep
+|j| Seagate16TB
+|
+|switch|p2a: Kommo-o|Kommo-o, F|82/100
+|turn|45
+|
+|switch|p1a: Dragapult|Dragapult, M|42/100
+|move|p2a: Kommo-o|Dragon Tail|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Kommo-o|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: SONNY LISTON|Pangoro, F, shiny|19/100
+|turn|46
+|
+|switch|p2a: Corviknight|Corviknight, F|76/100 brn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: SONNY LISTON|Close Combat|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-unboost|p1a: SONNY LISTON|def|1
+|-unboost|p1a: SONNY LISTON|spd|1
+|-damage|p1a: SONNY LISTON|10/100|[from] item: Life Orb
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|58/100 slp
+|turn|47
+|
+|cant|p2a: Grimmsnarl|slp
+|move|p2a: Grimmsnarl|Sleep Talk|p2a: Grimmsnarl
+|move|p2a: Grimmsnarl|Rest|p2a: Grimmsnarl|[from]Sleep Talk
+|-fail|p2a: Grimmsnarl
+|move|p1a: SONNY LISTON|Poison Jab|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-damage|p1a: SONNY LISTON|0 fnt|[from] item: Life Orb
+|faint|p2a: Grimmsnarl
+|faint|p1a: SONNY LISTON
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|switch|p2a: Kommo-o|Kommo-o, F|88/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|48
+|
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Kommo-o|Iron Defense|p2a: Kommo-o
+|-boost|p2a: Kommo-o|def|2
+|
+|-heal|p2a: Kommo-o|94/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|move|p1a: Excadrill|Earthquake|p2a: Kommo-o
+|-damage|p2a: Kommo-o|53/100
+|move|p2a: Kommo-o|Body Press|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-crit|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-heal|p2a: Kommo-o|60/100|[from] item: Leftovers
+|upkeep
+|-message|BUMBACLAAT forfeited.
+|
+|win|ILoveKehlani
+|l|☆ILoveKehlani
+|raw|BUMBACLAAT's rating: 1664 → 1644(-20 for losing)
+|raw|ILoveKehlani's rating: 1650 → 1671(+21 for winning)

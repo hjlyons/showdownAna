@@ -1,0 +1,618 @@
+|ScrapeTime|2020-01-01-21:51:07
+|j|☆Skootles
+|j|☆istallueverytime
+|player|p1|Skootles|n|1399
+|player|p2|istallueverytime|2|1441
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Haxorus, F|
+|poke|p1|Chandelure, M|
+|poke|p1|Ribombee, M|
+|poke|p1|Mimikyu, M|
+|poke|p1|Mr. Rime, F|
+|poke|p1|Hawlucha, M|
+|poke|p2|Snorlax, M|
+|poke|p2|Sylveon, M|
+|poke|p2|Gastrodon, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Manectric, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|switch|p2a: Manectric|Manectric, M|100/100
+|turn|1
+|
+|move|p2a: Manectric|Volt Switch|p1a: Ribombee
+|-damage|p1a: Ribombee|42/100
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100|[from]move: Volt Switch
+|move|p1a: Ribombee|Sticky Web|p2a: Snorlax
+|-sidestart|p2: istallueverytime|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Ribombee|Stun Spore|p2a: Snorlax|[miss]
+|-miss|p1a: Ribombee|p2a: Snorlax
+|move|p2a: Snorlax|Facade|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|upkeep
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|turn|3
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Hawlucha|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|97/100
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|-activate|p2a: Sylveon|move: Sticky Web
+|-unboost|p2a: Sylveon|spe|1
+|move|p1a: Chandelure|Fire Blast|p2a: Sylveon
+|-damage|p2a: Sylveon|49/100
+|
+|-heal|p2a: Sylveon|55/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Chandelure|Fire Blast|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p2a: Sylveon|61/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Chandelure|Fire Blast|p2a: Sylveon
+|-damage|p2a: Sylveon|16/100
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|23/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Haxorus|Haxorus, F|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|move|p2a: Sylveon|Protect||[still]
+|-fail|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|73/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p2a: Sylveon|79/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Haxorus|Iron Tail|p2a: Corviknight|[miss]
+|-miss|p1a: Haxorus|p2a: Corviknight
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|move|p2a: Corviknight|Body Press|p1a: Chandelure
+|-immune|p1a: Chandelure
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|-activate|p2a: Snorlax|move: Sticky Web
+|-unboost|p2a: Snorlax|spe|1
+|move|p1a: Chandelure|Shadow Ball|p2a: Snorlax
+|-immune|p2a: Snorlax
+|
+|upkeep
+|turn|11
+|c|☆Skootles|ah dang
+|c|☆Skootles|nice
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|-activate|p2a: Corsola|move: Sticky Web
+|-unboost|p2a: Corsola|spe|1
+|move|p1a: Hawlucha|Close Combat|p2a: Corsola
+|-immune|p2a: Corsola
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Hawlucha|U-turn|p2a: Corsola
+|-resisted|p2a: Corsola
+|-damage|p2a: Corsola|93/100
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100|[from]move: U-turn
+|move|p2a: Corsola|Iron Defense|p2a: Corsola
+|-boost|p2a: Corsola|def|2
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|-activate|p2a: Snorlax|move: Sticky Web
+|-unboost|p2a: Snorlax|spe|1
+|move|p1a: Chandelure|Fire Blast|p2a: Snorlax
+|-damage|p2a: Snorlax|79/100
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Corsola|Corsola-Galar, F|93/100
+|-activate|p2a: Corsola|move: Sticky Web
+|-unboost|p2a: Corsola|spe|1
+|move|p1a: Hawlucha|U-turn|p2a: Corsola
+|-resisted|p2a: Corsola
+|-damage|p2a: Corsola|86/100
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|switch|p2a: Snorlax|Snorlax, M|79/100
+|-activate|p2a: Snorlax|move: Sticky Web
+|-unboost|p2a: Snorlax|spe|1
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Corsola|Corsola-Galar, F|86/100
+|-activate|p2a: Corsola|move: Sticky Web
+|-unboost|p2a: Corsola|spe|1
+|move|p1a: Hawlucha|U-turn|p2a: Corsola
+|-resisted|p2a: Corsola
+|-damage|p2a: Corsola|79/100
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Snorlax|Snorlax, M|79/100
+|-activate|p2a: Snorlax|move: Sticky Web
+|-unboost|p2a: Snorlax|spe|1
+|move|p1a: Chandelure|Shadow Ball|p2a: Snorlax
+|-immune|p2a: Snorlax
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|move|p2a: Snorlax|Facade|p1a: Hawlucha
+|-damage|p1a: Hawlucha|60/100
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Corsola|Corsola-Galar, F|79/100
+|-activate|p2a: Corsola|move: Sticky Web
+|-unboost|p2a: Corsola|spe|1
+|move|p1a: Hawlucha|U-turn|p2a: Corsola
+|-resisted|p2a: Corsola
+|-damage|p2a: Corsola|71/100
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Snorlax|Snorlax, M|79/100
+|-activate|p2a: Snorlax|move: Sticky Web
+|-unboost|p2a: Snorlax|spe|1
+|move|p1a: Chandelure|Trick|p2a: Snorlax
+|-activate|p1a: Chandelure|move: Trick|[of] p2a: Snorlax
+|-item|p2a: Snorlax|Choice Specs|[from] move: Trick
+|-item|p1a: Chandelure|Leppa Berry|[from] move: Trick
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Chandelure|Fire Blast|p2a: Snorlax
+|-damage|p2a: Snorlax|65/100
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|100/100 slp|[silent]
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Sylveon|Sylveon, M|79/100
+|-activate|p2a: Sylveon|move: Sticky Web
+|-unboost|p2a: Sylveon|spe|1
+|move|p1a: Chandelure|Shadow Ball|p2a: Sylveon
+|-damage|p2a: Sylveon|53/100
+|
+|-heal|p2a: Sylveon|59/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Chandelure|Trick|p2a: Sylveon
+|-activate|p1a: Chandelure|move: Trick|[of] p2a: Sylveon
+|-item|p2a: Sylveon|Leppa Berry|[from] move: Trick
+|-item|p1a: Chandelure|Leftovers|[from] move: Trick
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Chandelure|Fire Blast|p2a: Sylveon
+|-damage|p2a: Sylveon|28/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|73/100
+|
+|-heal|p2a: Sylveon|78/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Chandelure|79/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Chandelure|Fire Blast|p2a: Sylveon
+|-damage|p2a: Sylveon|47/100
+|-status|p2a: Sylveon|brn
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p1a: Chandelure|85/100|[from] item: Leftovers
+|-damage|p2a: Sylveon|41/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Sylveon
+|-damage|p2a: Sylveon|17/100 brn
+|move|p2a: Sylveon|Hyper Voice|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|54/100
+|
+|-heal|p2a: Sylveon|67/100 brn|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Chandelure|60/100|[from] item: Leftovers
+|-damage|p2a: Sylveon|61/100 brn|[from] brn
+|upkeep
+|turn|29
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Skootles)
+|
+|switch|p1a: Haxorus|Haxorus, F|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-damage|p2a: Sylveon|55/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Haxorus|Iron Tail|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|
+|-heal|p2a: Sylveon|100/100 brn|[from] move: Wish|[wisher] Sylveon
+|-damage|p2a: Sylveon|94/100 brn|[from] brn
+|upkeep
+|turn|31
+|inactive|Skootles has 120 seconds left.
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Haxorus|Iron Tail|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|89/100
+|-unboost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|95/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p1a: Hawlucha|Hawlucha, M|60/100
+|move|p2a: Corviknight|Body Press|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|48/100
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|switch|p2a: Corsola|Corsola-Galar, F|71/100
+|-activate|p2a: Corsola|move: Sticky Web
+|-unboost|p2a: Corsola|spe|1
+|move|p1a: Hawlucha|Acrobatics|p2a: Corsola
+|-damage|p2a: Corsola|52/100
+|
+|upkeep
+|turn|34
+|
+|move|p1a: Hawlucha|U-turn|p2a: Corsola
+|-resisted|p2a: Corsola
+|-damage|p2a: Corsola|44/100
+|
+|switch|p1a: Chandelure|Chandelure, M|60/100|[from]move: U-turn
+|move|p2a: Corsola|Strength Sap|p1a: Chandelure
+|-unboost|p1a: Chandelure|atk|1
+|-heal|p2a: Corsola|76/100
+|
+|-heal|p1a: Chandelure|66/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|switch|p1a: Mr. Rime|Mr. Rime, F|100/100
+|switch|p2a: Sylveon|Sylveon, M|94/100 brn
+|-activate|p2a: Sylveon|move: Sticky Web
+|-unboost|p2a: Sylveon|spe|1
+|
+|-damage|p2a: Sylveon|88/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|move|p1a: Mr. Rime|Nasty Plot|p1a: Mr. Rime
+|-boost|p1a: Mr. Rime|spa|2
+|move|p2a: Sylveon|Mystical Fire|p1a: Mr. Rime
+|-supereffective|p1a: Mr. Rime
+|-damage|p1a: Mr. Rime|61/100
+|-unboost|p1a: Mr. Rime|spa|1
+|
+|-damage|p2a: Sylveon|82/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p1a: Mr. Rime|Freeze-Dry|p2a: Sylveon
+|-damage|p2a: Sylveon|57/100 brn
+|move|p2a: Sylveon|Mystical Fire|p1a: Mr. Rime
+|-supereffective|p1a: Mr. Rime
+|-damage|p1a: Mr. Rime|18/100
+|-unboost|p1a: Mr. Rime|spa|1
+|
+|-damage|p2a: Sylveon|51/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|switch|p1a: Chandelure|Chandelure, M|66/100
+|move|p2a: Sylveon|Mystical Fire|p1a: Chandelure
+|-start|p1a: Chandelure|ability: Flash Fire
+|
+|-heal|p1a: Chandelure|73/100|[from] item: Leftovers
+|-damage|p2a: Sylveon|45/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|switch|p2a: Gastrodon|Gastrodon, F|100/100
+|-activate|p2a: Gastrodon|move: Sticky Web
+|-unboost|p2a: Gastrodon|spe|1
+|move|p1a: Chandelure|Fire Blast|p2a: Gastrodon
+|-resisted|p2a: Gastrodon
+|-damage|p2a: Gastrodon|53/100
+|
+|-heal|p1a: Chandelure|79/100|[from] item: Leftovers
+|-heal|p2a: Gastrodon|59/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: Chandelure|Energy Ball|p2a: Gastrodon
+|-supereffective|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|-heal|p1a: Chandelure|85/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Manectric|Manectric, M|100/100
+|-activate|p2a: Manectric|move: Sticky Web
+|-unboost|p2a: Manectric|spe|1
+|turn|41
+|
+|-end|p1a: Chandelure|ability: Flash Fire|[silent]
+|switch|p1a: Mr. Rime|Mr. Rime, F|18/100
+|move|p2a: Manectric|Volt Switch|p1a: Mr. Rime
+|-damage|p1a: Mr. Rime|0 fnt
+|faint|p1a: Mr. Rime
+|
+|switch|p2a: Corsola|Corsola-Galar, F|76/100|[from]move: Volt Switch
+|-activate|p2a: Corsola|move: Sticky Web
+|-unboost|p2a: Corsola|spe|1
+|
+|upkeep
+|
+|switch|p1a: Chandelure|Chandelure, M|85/100
+|turn|42
+|
+|switch|p2a: Sylveon|Sylveon, M|45/100 brn
+|-activate|p2a: Sylveon|move: Sticky Web
+|-unboost|p2a: Sylveon|spe|1
+|move|p1a: Chandelure|Shadow Ball|p2a: Sylveon
+|-damage|p2a: Sylveon|22/100 brn
+|
+|-heal|p1a: Chandelure|91/100|[from] item: Leftovers
+|-damage|p2a: Sylveon|15/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|faint|p2a: Sylveon
+|
+|-heal|p1a: Chandelure|97/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Manectric|Manectric, M|100/100
+|-activate|p2a: Manectric|move: Sticky Web
+|-unboost|p2a: Manectric|spe|1
+|turn|44
+|
+|move|p2a: Manectric|Thunderbolt|p1a: Chandelure
+|-damage|p1a: Chandelure|43/100
+|move|p1a: Chandelure|Trick|p2a: Manectric
+|-activate|p1a: Chandelure|move: Trick|[of] p2a: Manectric
+|-item|p2a: Manectric|Leftovers|[from] move: Trick
+|-item|p1a: Chandelure|Choice Scarf|[from] move: Trick
+|
+|upkeep
+|turn|45
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Manectric
+|-damage|p2a: Manectric|15/100
+|move|p2a: Manectric|Thunderbolt|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|-heal|p2a: Manectric|21/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Mimikyu|Mimikyu, M|100/100
+|turn|46
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Manectric|Volt Switch|p1a: Mimikyu
+|-crit|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M
+|-damage|p1a: Mimikyu|88/100|[from] ability: Disguise|[of] p1a: Mimikyu
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from]move: Volt Switch
+|-ability|p2a: Corviknight|Pressure
+|
+|upkeep
+|turn|47
+|
+|move|p1a: Mimikyu|Shadow Claw|p2a: Corviknight
+|-damage|p2a: Corviknight|57/100
+|-damage|p1a: Mimikyu|78/100|[from] item: Life Orb
+|move|p2a: Corviknight|U-turn|p1a: Mimikyu
+|-resisted|p1a: Mimikyu
+|-damage|p1a: Mimikyu|72/100
+|
+|switch|p2a: Corsola|Corsola-Galar, F|76/100|[from]move: U-turn
+|-activate|p2a: Corsola|move: Sticky Web
+|-unboost|p2a: Corsola|spe|1
+|
+|upkeep
+|turn|48
+|
+|move|p1a: Mimikyu|Shadow Claw|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-damage|p1a: Mimikyu|62/100|[from] item: Life Orb
+|faint|p2a: Corsola
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M|57/100
+|-ability|p2a: Corviknight|Pressure
+|turn|49
+|
+|move|p1a: Mimikyu|Shadow Claw|p2a: Corviknight
+|-damage|p2a: Corviknight|9/100
+|-damage|p1a: Mimikyu|52/100|[from] item: Life Orb
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|59/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|65/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|51
+|
+|move|p1a: Mimikyu|Shadow Claw|p2a: Corviknight
+|-damage|p2a: Corviknight|31/100
+|-damage|p1a: Mimikyu|42/100|[from] item: Life Orb
+|move|p2a: Corviknight|Defog|p1a: Mimikyu
+|-unboost|p1a: Mimikyu|evasion|1
+|-sideend|p2: istallueverytime|Sticky Web|[from] move: Defog|[of] p2a: Corviknight
+|
+|-heal|p2a: Corviknight|37/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100 slp
+|move|p1a: Mimikyu|Shadow Claw|p2a: Snorlax
+|-immune|p2a: Snorlax
+|
+|upkeep
+|turn|53
+|
+|switch|p2a: Corviknight|Corviknight, M|37/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Mimikyu|Play Rough|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Mimikyu|32/100|[from] item: Life Orb
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100 slp
+|turn|54
+|
+|move|p1a: Mimikyu|Play Rough|p2a: Snorlax|[miss]
+|-miss|p1a: Mimikyu|p2a: Snorlax
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|55
+|
+|move|p1a: Mimikyu|Play Rough|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|-damage|p1a: Mimikyu|22/100|[from] item: Life Orb
+|faint|p2a: Snorlax
+|
+|upkeep
+|
+|switch|p2a: Manectric|Manectric, M|21/100
+|turn|56
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Manectric
+|-damage|p2a: Manectric|0 fnt
+|-damage|p1a: Mimikyu|12/100|[from] item: Life Orb
+|faint|p2a: Manectric
+|
+|win|Skootles
+|c|☆Skootles|gg
+|raw|Skootles's rating: 1399 → 1423(+24 for winning)
+|raw|istallueverytime's rating: 1463 → 1439(-24 for losing)

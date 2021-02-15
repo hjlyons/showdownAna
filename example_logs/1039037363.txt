@@ -1,0 +1,331 @@
+|ScrapeTime|2020-01-01-06:55:15
+|j|☆legolas06
+|j|☆JK41
+|player|p1|legolas06|266|1334
+|player|p2|JK41|101|1327
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mandibuzz, F|
+|poke|p1|Seismitoad, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Clefable, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Cinderace, M|
+|poke|p2|Boltund, M|
+|poke|p2|Gyarados, F|
+|poke|p2|Chandelure, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Vileplume, F|
+|poke|p2|Morpeko, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|1
+|j| MeowTangGang
+|
+|move|p1a: Rotom|Trick|p2a: Seismitoad
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Seismitoad
+|-item|p2a: Seismitoad|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|move|p2a: Seismitoad|Stealth Rock|p1a: Rotom
+|-sidestart|p1: legolas06|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Vileplume|Vileplume, F|100/100
+|move|p1a: Rotom|Thunder Wave|p2a: Vileplume
+|-status|p2a: Vileplume|par
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Rotom|Volt Switch|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|86/100 par
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100|[from]move: Volt Switch
+|cant|p2a: Vileplume|par
+|
+|-heal|p2a: Vileplume|92/100 par|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|move|p1a: Cinderace|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|76/100
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100|[from]move: U-turn
+|-damage|p1a: Seismitoad|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Seismitoad|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Seismitoad|Power Whip|p1a: Seismitoad
+|-supereffective|p1a: Seismitoad
+|-damage|p1a: Seismitoad|22/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: JK41|move: Stealth Rock
+|
+|-heal|p1a: Seismitoad|29/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by legolas06)
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|-damage|p1a: Mandibuzz|75/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Power Whip|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|65/100
+|-damage|p2a: Seismitoad|59/100|[from] item: Rocky Helmet|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Boltund|Boltund, M|100/100
+|-damage|p2a: Boltund|88/100|[from] Stealth Rock
+|move|p1a: Mandibuzz|Defog|p2a: Boltund
+|-unboost|p2a: Boltund|evasion|1
+|-sideend|p2: JK41|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|-sideend|p1: legolas06|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Seismitoad|Seismitoad, M|29/100
+|move|p2a: Boltund|Play Rough|p1a: Seismitoad
+|-damage|p1a: Seismitoad|3/100
+|
+|-heal|p1a: Seismitoad|10/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Boltund|Play Rough|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|upkeep
+|l| MeowTangGang
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|turn|10
+|
+|switch|p2a: Vileplume|Vileplume, F|92/100 par
+|move|p1a: Clefable|Moonblast|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|65/100 par
+|-unboost|p2a: Vileplume|spa|1
+|
+|-heal|p2a: Vileplume|71/100 par|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|move|p1a: Clefable|Flamethrower|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|upkeep
+|
+|switch|p2a: Chandelure|Chandelure, F|100/100
+|turn|12
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Chandelure|Fire Blast|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|65/100
+|
+|-heal|p1a: Rotom|71/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Seismitoad|Seismitoad, M|59/100
+|move|p1a: Rotom|Thunder Wave|p2a: Seismitoad
+|-immune|p2a: Seismitoad
+|
+|-heal|p1a: Rotom|77/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|65/100
+|move|p2a: Seismitoad|Toxic|p1a: Mandibuzz
+|-status|p1a: Mandibuzz|tox
+|
+|-damage|p1a: Mandibuzz|59/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p2a: Morpeko|Morpeko, F|100/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100 tox
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Mandibuzz|88/100 tox|[from] psn
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|16
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Morpeko|Fake Out|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|-formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|17
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Morpeko
+|-resisted|p2a: Morpeko
+|-damage|p2a: Morpeko|50/100
+|move|p2a: Morpeko|Parting Shot|p1a: Dragapult
+|-unboost|p1a: Dragapult|atk|1
+|-unboost|p1a: Dragapult|spa|1
+|inactive|JK41 has 120 seconds left.
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100|[from]move: Parting Shot
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Rotom|Rotom-Wash|77/100
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-heal|p1a: Rotom|83/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Gyarados|Substitute|p2a: Gyarados
+|-start|p2a: Gyarados|Substitute
+|-damage|p2a: Gyarados|76/100
+|move|p1a: Rotom|Volt Switch|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-end|p2a: Gyarados|Substitute
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Dragapult|Thunderbolt|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|upkeep
+|
+|switch|p2a: Chandelure|Chandelure, F|100/100
+|turn|21
+|
+|switch|p1a: Rotom|Rotom-Wash|83/100
+|move|p2a: Chandelure|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|36/100
+|-unboost|p1a: Rotom|spd|1
+|
+|-heal|p1a: Rotom|42/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Chandelure|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|23
+|
+|switch|p2a: Seismitoad|Seismitoad, M|59/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Seismitoad
+|-damage|p2a: Seismitoad|22/100
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Morpeko|Morpeko, F|50/100
+|turn|25
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Morpeko
+|-resisted|p2a: Morpeko
+|-damage|p2a: Morpeko|0 fnt
+|faint|p2a: Morpeko
+|
+|upkeep
+|
+|switch|p2a: Boltund|Boltund, M|88/100
+|turn|26
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Boltund
+|-damage|p2a: Boltund|0 fnt
+|faint|p2a: Boltund
+|
+|upkeep
+|
+|switch|p2a: Chandelure|Chandelure, F|100/100
+|turn|27
+|
+|move|p2a: Chandelure|Shadow Ball|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|88/100 tox
+|turn|28
+|
+|move|p2a: Chandelure|Shadow Ball|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|73/100 tox
+|move|p1a: Mandibuzz|Foul Play|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|56/100
+|
+|-damage|p1a: Mandibuzz|67/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|move|p2a: Chandelure|Shadow Ball|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|54/100 tox
+|move|p1a: Mandibuzz|Foul Play|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|15/100
+|
+|-damage|p1a: Mandibuzz|42/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|move|p2a: Chandelure|Shadow Ball|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|28/100 tox
+|move|p1a: Mandibuzz|Foul Play|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|
+|win|legolas06
+|raw|legolas06's rating: 1334 → 1354(+20 for winning)
+|raw|JK41's rating: 1327 → 1307(-20 for losing)
+|l|☆JK41

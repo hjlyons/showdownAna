@@ -1,0 +1,301 @@
+|ScrapeTime|2020-01-02-03:32:24
+|j|☆seanisghey
+|j|☆tempo40
+|player|p1|seanisghey|gardenia|1372
+|player|p2|tempo40|cynthia|1416
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ribombee, F|
+|poke|p1|Dracozolt|
+|poke|p1|Bisharp, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Vaporeon, F|
+|poke|p2|Aegislash, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Togekiss, M|
+|poke|p2|Flareon, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by seanisghey)
+|
+|start
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|switch|p2a: Togekiss|Togekiss, M|100/100
+|turn|1
+|
+|move|p2a: Togekiss|Flamethrower|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|7/100
+|move|p1a: Bisharp|Iron Head|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|2
+|
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Vaporeon
+|-damage|p1a: Vaporeon|60/100
+|-damage|p2a: Hydreigon|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Vaporeon|66/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|-heal|p1a: Vaporeon|73/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Vaporeon|[miss]
+|-miss|p2a: Hydreigon|p1a: Vaporeon
+|move|p1a: Vaporeon|Ice Beam|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|42/100
+|
+|-heal|p1a: Vaporeon|79/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|32/100|[from] item: Life Orb
+|faint|p1a: Vaporeon
+|
+|upkeep
+|
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|turn|6
+|
+|move|p1a: Ribombee|U-turn|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|turn|7
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Dracozolt|Bolt Beak|p2a: Seismitoad
+|-immune|p2a: Seismitoad
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Dracozolt|Dragon Claw|p2a: Seismitoad
+|-damage|p2a: Seismitoad|61/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Dracozolt
+|-sidestart|p1: seanisghey|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|67/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Protect||[still]
+|-fail|p2a: Seismitoad
+|
+|-heal|p2a: Seismitoad|73/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Flareon|Flareon, F|100/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Flareon
+|-damage|p2a: Flareon|69/100
+|-enditem|p2a: Flareon|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Flareon|Will-O-Wisp|p1a: Ferrothorn|[miss]
+|-miss|p2a: Flareon|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Flareon
+|-sidestart|p2: tempo40|move: Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Flareon|Will-O-Wisp|p1a: Ferrothorn|[miss]
+|-miss|p2a: Flareon|p1a: Ferrothorn
+|move|p1a: Ferrothorn|Spikes|p2a: Flareon
+|-sidestart|p2: tempo40|Spikes
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Flareon|Will-O-Wisp|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Spikes|p2a: Flareon
+|-sidestart|p2: tempo40|Spikes
+|
+|-damage|p1a: Ferrothorn|88/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Flareon|Wish|p2a: Flareon
+|move|p1a: Ferrothorn|Spikes|p2a: Flareon
+|-sidestart|p2: tempo40|Spikes
+|
+|-damage|p1a: Ferrothorn|82/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Flareon|Flare Blitz|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Flareon|57/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Flareon|40/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|-damage|p2a: Flareon|12/100|[from] Recoil
+|faint|p1a: Ferrothorn
+|
+|-heal|p2a: Flareon|62/100|[from] move: Wish|[wisher] Flareon
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|-item|p1a: Excadrill|Air Balloon
+|turn|16
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|move|p1a: Excadrill|Rapid Spin|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|81/100
+|-sideend|p1: seanisghey|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|
+|-heal|p2a: Corviknight|87/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Bisharp|Bisharp, M|7/100
+|move|p2a: Corviknight|Defog|p1a: Bisharp
+|-unboost|p1a: Bisharp|evasion|1
+|-ability|p1a: Bisharp|Defiant
+|-boost|p1a: Bisharp|atk|2
+|-sideend|p2: tempo40|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: tempo40|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-heal|p2a: Corviknight|93/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Bisharp|Throat Chop|p2a: Corviknight
+|-damage|p2a: Corviknight|7/100
+|-start|p2a: Corviknight|Throat Chop|[silent]
+|move|p2a: Corviknight|Body Press|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|-heal|p2a: Corviknight|13/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|turn|19
+|
+|switch|p2a: Seismitoad|Seismitoad, F|73/100
+|move|p1a: Dracozolt|Substitute|p1a: Dracozolt
+|-start|p1a: Dracozolt|Substitute
+|-damage|p1a: Dracozolt|76/100
+|
+|-heal|p1a: Dracozolt|82/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|79/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Dracozolt|Dragon Claw|p2a: Seismitoad
+|-damage|p2a: Seismitoad|37/100
+|move|p2a: Seismitoad|Scald|p1a: Dracozolt
+|-resisted|p1a: Dracozolt
+|-activate|p1a: Dracozolt|move: Substitute|[damage]
+|
+|-heal|p1a: Dracozolt|88/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|43/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Dracozolt|Dragon Claw|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-heal|p1a: Dracozolt|94/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|50/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Dracozolt|Dragon Claw|p2a: Seismitoad
+|-damage|p2a: Seismitoad|8/100
+|move|p2a: Seismitoad|Scald|p1a: Dracozolt
+|-resisted|p1a: Dracozolt
+|-end|p1a: Dracozolt|Substitute
+|
+|-heal|p1a: Dracozolt|100/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|14/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|tempo40 has 120 seconds left.
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|move|p1a: Dracozolt|Substitute|p1a: Dracozolt
+|-start|p1a: Dracozolt|Substitute
+|-damage|p1a: Dracozolt|76/100
+|
+|-heal|p1a: Dracozolt|82/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Sneak|p1a: Dracozolt
+|-end|p1a: Dracozolt|Substitute
+|move|p1a: Dracozolt|Bolt Beak|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|faint|p2a: Aegislash
+|
+|-heal|p1a: Dracozolt|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Flareon|Flareon, F|62/100
+|turn|25
+|
+|move|p1a: Dracozolt|Bolt Beak|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|
+|-heal|p1a: Dracozolt|94/100|[from] item: Leftovers
+|upkeep
+|-message|tempo40 forfeited.
+|
+|win|seanisghey
+|l|☆tempo40
+|raw|seanisghey's rating: 1353 → 1377(+24 for winning)
+|raw|tempo40's rating: 1416 → 1393(-23 for losing)

@@ -1,0 +1,474 @@
+|ScrapeTime|2020-01-01-22:45:36
+|j|☆DukeandDoug
+|j|☆Leonheart45
+|player|p1|DukeandDoug|li|1304
+|player|p2|Leonheart45|167|1249
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mamoswine, M|
+|poke|p1|Obstagoon, F|
+|poke|p1|Aegislash, M|
+|poke|p1|Arcanine, M|
+|poke|p1|Whimsicott, M|
+|poke|p1|Dracovish|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Clefable, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Dracovish|
+|poke|p2|Toxtricity, F|
+|poke|p2|Copperajah, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|1
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-enditem|p1a: Mamoswine|Focus Sash
+|-damage|p1a: Mamoswine|1/100
+|move|p1a: Mamoswine|Stealth Rock|p2a: Dracovish
+|-sidestart|p2: Leonheart45|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Dracovish
+|-damage|p2a: Dracovish|74/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|turn|3
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|-damage|p2a: Corsola|88/100|[from] Stealth Rock
+|move|p1a: Dracovish|Outrage|p2a: Corsola
+|-damage|p2a: Corsola|47/100
+|-start|p1a: Dracovish|Disable|Outrage|[from] ability: Cursed Body|[of] p2a: Corsola
+|
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DukeandDoug)
+|
+|cant|p1a: Dracovish|Disable|Outrage
+|move|p2a: Corsola|Strength Sap|p1a: Dracovish
+|-unboost|p1a: Dracovish|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-start|p1a: Dracovish|confusion|[fatigue]
+|upkeep
+|turn|5
+|
+|switch|p1a: Whimsicott|Whimsicott, M|100/100
+|move|p2a: Corsola|Night Shade|p1a: Whimsicott
+|-damage|p1a: Whimsicott|70/100
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Whimsicott|Stun Spore|p2a: Corsola|[miss]
+|-miss|p1a: Whimsicott|p2a: Corsola
+|move|p2a: Corsola|Stealth Rock|p1a: Whimsicott
+|-sidestart|p1: DukeandDoug|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|-damage|p2a: Toxtricity|88/100|[from] Stealth Rock
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: DukeandDoug|move: Tailwind
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|-damage|p1a: Aegislash|94/100|[from] Stealth Rock
+|move|p2a: Toxtricity|Shift Gear|p2a: Toxtricity
+|-boost|p2a: Toxtricity|spe|2
+|-boost|p2a: Toxtricity|atk|1
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Toxtricity|Overdrive|p1a: Aegislash
+|-damage|p1a: Aegislash|30/100
+|-damage|p2a: Toxtricity|78/100|[from] item: Life Orb
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Ball|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|switch|p2a: Copperajah|Copperajah, M|100/100
+|-damage|p2a: Copperajah|94/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Copperajah|atk|1
+|move|p2a: Copperajah|Earthquake|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|66/100
+|
+|-sideend|p1: DukeandDoug|move: Tailwind
+|upkeep
+|turn|11
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|-damage|p2a: Corsola|88/100|[from] Stealth Rock
+|move|p1a: Arcanine|Will-O-Wisp|p2a: Corsola
+|-status|p2a: Corsola|brn
+|
+|-damage|p2a: Corsola|82/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|100/100
+|move|p2a: Corsola|Night Shade|p1a: Arcanine
+|-damage|p1a: Arcanine|74/100
+|
+|-damage|p2a: Corsola|76/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p1a: Obstagoon|Obstagoon, F|100/100
+|-damage|p1a: Obstagoon|88/100|[from] Stealth Rock
+|move|p2a: Corsola|Strength Sap|p1a: Obstagoon
+|-unboost|p1a: Obstagoon|atk|1
+|-heal|p2a: Corsola|100/100 brn
+|
+|-damage|p2a: Corsola|94/100 brn|[from] brn
+|-status|p1a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|14
+|inactive|Leonheart45 has 120 seconds left.
+|
+|switch|p2a: Clefable|Clefable, F, shiny|100/100
+|move|p1a: Obstagoon|Knock Off|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|86/100
+|-enditem|p2a: Clefable|Life Orb|[from] move: Knock Off|[of] p1a: Obstagoon
+|
+|-damage|p1a: Obstagoon|82/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Obstagoon|Facade|p2a: Clefable
+|-damage|p2a: Clefable|41/100
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-damage|p1a: Obstagoon|76/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p2a: Copperajah|Copperajah, M|94/100
+|-damage|p2a: Copperajah|88/100|[from] Stealth Rock
+|move|p1a: Obstagoon|Facade|p2a: Copperajah
+|-resisted|p2a: Copperajah
+|-damage|p2a: Copperajah|56/100
+|
+|-damage|p1a: Obstagoon|70/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p1a: Obstagoon|Switcheroo|p2a: Copperajah
+|-activate|p1a: Obstagoon|move: Trick|[of] p2a: Copperajah
+|-item|p2a: Copperajah|Flame Orb|[from] move: Switcheroo
+|-item|p1a: Obstagoon|Assault Vest|[from] move: Switcheroo
+|move|p2a: Copperajah|Heavy Slam|p1a: Obstagoon
+|-damage|p1a: Obstagoon|8/100 brn
+|
+|-damage|p1a: Obstagoon|2/100 brn|[from] brn
+|-status|p2a: Copperajah|brn|[from] item: Flame Orb
+|upkeep
+|turn|18
+|
+|move|p1a: Obstagoon|Close Combat|p2a: Copperajah
+|-supereffective|p2a: Copperajah
+|-damage|p2a: Copperajah|0 fnt
+|-unboost|p1a: Obstagoon|def|1
+|-unboost|p1a: Obstagoon|spd|1
+|faint|p2a: Copperajah
+|
+|-damage|p1a: Obstagoon|0 fnt|[from] brn
+|faint|p1a: Obstagoon
+|upkeep
+|inactive|Leonheart45 has 120 seconds left.
+|
+|switch|p1a: Whimsicott|Whimsicott, M|70/100
+|switch|p2a: Corsola|Corsola-Galar, F|94/100 brn
+|-damage|p1a: Whimsicott|57/100|[from] Stealth Rock
+|-damage|p2a: Corsola|82/100 brn|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Whimsicott|Leech Seed|p2a: Corsola
+|-start|p2a: Corsola|move: Leech Seed
+|move|p2a: Corsola|Night Shade|p1a: Whimsicott
+|-damage|p1a: Whimsicott|26/100
+|
+|-damage|p2a: Corsola|70/100 brn|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|39/100|[silent]
+|-damage|p2a: Corsola|63/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p1a: Aegislash|Aegislash, M|30/100
+|-damage|p1a: Aegislash|24/100|[from] Stealth Rock
+|switch|p2a: Clefable|Clefable, F, shiny|41/100
+|
+|upkeep
+|turn|21
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Flash Cannon|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|turn|22
+|inactive|DukeandDoug has 120 seconds left.
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|-damage|p1a: Dracovish|88/100|[from] Stealth Rock
+|move|p2a: Mandibuzz|Toxic|p1a: Dracovish
+|-status|p1a: Dracovish|tox
+|
+|-damage|p1a: Dracovish|82/100 tox|[from] psn
+|upkeep
+|turn|23
+|inactive|DukeandDoug has 120 seconds left.
+|
+|move|p1a: Dracovish|Outrage|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|39/100
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|89/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Dracovish|69/100 tox|[from] psn
+|upkeep
+|turn|24
+|inactive|DukeandDoug has 120 seconds left.
+|
+|move|p1a: Dracovish|Outrage|p2a: Mandibuzz|[from]lockedmove
+|-damage|p2a: Mandibuzz|23/100
+|-start|p1a: Dracovish|confusion|[fatigue]
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|73/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Dracovish|51/100 tox|[from] psn
+|upkeep
+|turn|25
+|inactive|DukeandDoug has 120 seconds left.
+|
+|switch|p1a: Aegislash|Aegislash, M|24/100
+|-damage|p1a: Aegislash|18/100|[from] Stealth Rock
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|26
+|inactive|DukeandDoug has 120 seconds left.
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Steel Beam|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|24/100
+|-damage|p1a: Aegislash|0 fnt|[from] mindblown
+|faint|p1a: Aegislash
+|move|p2a: Mandibuzz|Knock Off|p1: Aegislash|[notarget]
+|-fail|p2a: Mandibuzz
+|
+|upkeep
+|inactive|DukeandDoug has 120 seconds left.
+|
+|switch|p1a: Dracovish|Dracovish|51/100 tox
+|-damage|p1a: Dracovish|38/100 tox|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: Dracovish|Outrage|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|-damage|p1a: Dracovish|32/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, F|63/100 brn
+|-damage|p2a: Corsola|51/100 brn|[from] Stealth Rock
+|turn|28
+|
+|move|p1a: Dracovish|Outrage|p2a: Corsola|[from]lockedmove
+|-damage|p2a: Corsola|14/100 brn
+|-start|p1a: Dracovish|Disable|Outrage|[from] ability: Cursed Body|[of] p2a: Corsola
+|move|p2a: Corsola|Strength Sap|p1a: Dracovish
+|-unboost|p1a: Dracovish|atk|1
+|-heal|p2a: Corsola|100/100 brn
+|
+|-damage|p1a: Dracovish|20/100 tox|[from] psn
+|-damage|p2a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|cant|p1a: Dracovish|Disable|Outrage
+|move|p2a: Corsola|Night Shade|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|-damage|p2a: Corsola|88/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Whimsicott|Whimsicott, M|39/100
+|-damage|p1a: Whimsicott|26/100|[from] Stealth Rock
+|turn|30
+|
+|move|p1a: Whimsicott|Rest|p1a: Whimsicott
+|-status|p1a: Whimsicott|slp|[from] move: Rest
+|-heal|p1a: Whimsicott|100/100 slp|[silent]
+|-enditem|p1a: Whimsicott|Chesto Berry|[eat]
+|-curestatus|p1a: Whimsicott|slp|[msg]
+|move|p2a: Corsola|Night Shade|p1a: Whimsicott
+|-damage|p1a: Whimsicott|70/100
+|
+|-damage|p2a: Corsola|82/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p1a: Whimsicott|Leech Seed|p2a: Corsola
+|-start|p2a: Corsola|move: Leech Seed
+|move|p2a: Corsola|Will-O-Wisp|p1a: Whimsicott
+|-status|p1a: Whimsicott|brn
+|
+|-damage|p2a: Corsola|70/100 brn|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|82/100 brn|[silent]
+|-damage|p1a: Whimsicott|76/100 brn|[from] brn
+|-damage|p2a: Corsola|63/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|switch|p1a: Arcanine|Arcanine, M|74/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Corsola|atk|1
+|switch|p2a: Dracovish|Dracovish|74/100
+|-damage|p2a: Dracovish|62/100|[from] Stealth Rock
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Arcanine|Extreme Speed|p2a: Dracovish
+|-damage|p2a: Dracovish|39/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|upkeep
+|
+|switch|p1a: Whimsicott|Whimsicott, M|76/100 brn
+|-damage|p1a: Whimsicott|63/100 brn|[from] Stealth Rock
+|turn|34
+|
+|switch|p2a: Corsola|Corsola-Galar, F|63/100 brn
+|-damage|p2a: Corsola|51/100 brn|[from] Stealth Rock
+|move|p1a: Whimsicott|Stun Spore|p2a: Corsola|[miss]
+|-miss|p1a: Whimsicott|p2a: Corsola
+|
+|-damage|p1a: Whimsicott|57/100 brn|[from] brn
+|-damage|p2a: Corsola|45/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|move|p1a: Whimsicott|Leech Seed|p2a: Corsola
+|-start|p2a: Corsola|move: Leech Seed
+|move|p2a: Corsola|Strength Sap|p1a: Whimsicott
+|-unboost|p1a: Whimsicott|atk|1
+|-heal|p2a: Corsola|83/100 brn
+|
+|-damage|p2a: Corsola|71/100 brn|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|70/100 brn|[silent]
+|-damage|p1a: Whimsicott|63/100 brn|[from] brn
+|-damage|p2a: Corsola|65/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|switch|p2a: Dracovish|Dracovish|39/100
+|-damage|p2a: Dracovish|27/100|[from] Stealth Rock
+|move|p1a: Whimsicott|Leech Seed|p2a: Dracovish
+|-start|p2a: Dracovish|move: Leech Seed
+|
+|-damage|p2a: Dracovish|15/100|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|76/100 brn|[silent]
+|-damage|p1a: Whimsicott|70/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p1a: Whimsicott|Stun Spore|p2a: Dracovish
+|-status|p2a: Dracovish|par
+|cant|p2a: Dracovish|par
+|
+|-damage|p2a: Dracovish|2/100 par|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|82/100 brn|[silent]
+|-damage|p1a: Whimsicott|76/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p1a: Whimsicott|Rest|p1a: Whimsicott
+|-status|p1a: Whimsicott|slp|[from] move: Rest
+|-heal|p1a: Whimsicott|100/100 slp|[silent]
+|move|p2a: Dracovish|Psychic Fangs|p1a: Whimsicott
+|-damage|p1a: Whimsicott|40/100 slp
+|
+|-damage|p2a: Dracovish|0 fnt|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|42/100 slp|[silent]
+|faint|p2a: Dracovish
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, F|65/100 brn
+|-damage|p2a: Corsola|53/100 brn|[from] Stealth Rock
+|turn|39
+|
+|cant|p1a: Whimsicott|slp
+|move|p2a: Corsola|Night Shade|p1a: Whimsicott
+|-damage|p1a: Whimsicott|11/100 slp
+|
+|-damage|p2a: Corsola|46/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|cant|p1a: Whimsicott|slp
+|move|p2a: Corsola|Night Shade|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|win|Leonheart45
+|l|☆DukeandDoug
+|l|☆Leonheart45
+|raw|DukeandDoug's rating: 1304 → 1281(-23 for losing)
+|raw|Leonheart45's rating: 1249 → 1278(+29 for winning)
+|j|☆Leonheart45
+|player|p2|Leonheart45|167

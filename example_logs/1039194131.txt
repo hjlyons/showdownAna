@@ -1,0 +1,301 @@
+|ScrapeTime|2020-01-01-17:09:10
+|j|☆Pencilshaved
+|j|☆SoraOkinawa
+|player|p1|Pencilshaved|202|1175
+|player|p2|SoraOkinawa|tate|1148
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dracozolt|
+|poke|p1|Araquanid, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Sirfetch'd, F|
+|poke|p1|Claydol|
+|poke|p1|Skuntank, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Copperajah, M|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Runerigus, M|
+|poke|p2|Vikavolt, F|
+|poke|p2|Grimmsnarl, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Itsy Bitsy|Araquanid, M|100/100
+|switch|p2a: Runerigus|Runerigus, M|100/100
+|turn|1
+|
+|move|p1a: Itsy Bitsy|Liquidation|p2a: Runerigus
+|-supereffective|p2a: Runerigus
+|-damage|p2a: Runerigus|46/100
+|-activate|p1a: Itsy Bitsy|ability: Wandering Spirit|Wandering Spirit|Water Bubble|[of] p2a: Runerigus
+|move|p2a: Runerigus|Trick Room|p2a: Runerigus
+|-fieldstart|move: Trick Room|[of] p2a: Runerigus
+|
+|-heal|p2a: Runerigus|52/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Runerigus|Stealth Rock|p1a: Itsy Bitsy
+|-sidestart|p1: Pencilshaved|move: Stealth Rock
+|move|p1a: Itsy Bitsy|Liquidation|p2a: Runerigus
+|-supereffective|p2a: Runerigus
+|-damage|p2a: Runerigus|27/100
+|
+|-heal|p2a: Runerigus|34/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Valkyrie|Sirfetch'd, F|100/100
+|-damage|p1a: Valkyrie|94/100|[from] Stealth Rock
+|move|p2a: Runerigus|Toxic Spikes|p1a: Valkyrie
+|-sidestart|p1: Pencilshaved|move: Toxic Spikes
+|
+|-heal|p2a: Runerigus|40/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Valkyrie|Knock Off|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|36/100
+|-enditem|p2a: Hatterene|Leftovers|[from] move: Knock Off|[of] p1a: Valkyrie
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Snifaro|Claydol|100/100
+|-damage|p1a: Snifaro|94/100|[from] Stealth Rock
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Snifaro
+|-damage|p1a: Snifaro|51/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|move|p1a: Snifaro|Bulldoze|p2a: Hatterene
+|-damage|p2a: Hatterene|18/100
+|-unboost|p2a: Hatterene|spe|1
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Hatterene|Healing Wish|p2a: Hatterene
+|faint|p2a: Hatterene
+|move|p1a: Snifaro|Rapid Spin|p2: Hatterene|[notarget]
+|-fail|p1a: Snifaro
+|
+|upkeep
+|
+|switch|p2a: Runerigus|Runerigus, M|40/100
+|-heal|p2a: Runerigus|100/100|[from] move: Healing Wish
+|turn|8
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p1a: Pincushion|Skuntank, F|100/100
+|-sideend|p1: Pencilshaved|move: Toxic Spikes|[of] p1a: Pincushion
+|-damage|p1a: Pincushion|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: SoraOkinawa|Reflect
+|move|p1a: Pincushion|Nasty Plot|p1a: Pincushion
+|-boost|p1a: Pincushion|spa|2
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: SoraOkinawa|move: Light Screen
+|move|p1a: Pincushion|Nasty Plot|p1a: Pincushion
+|-boost|p1a: Pincushion|spa|2
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|move|p2a: Grimmsnarl|Taunt|p1a: Pincushion
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Pincushion
+|move|p1a: Pincushion|Sludge Bomb|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|22/100
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Copperajah|Copperajah, M|100/100
+|move|p1a: Pincushion|Hex|p2a: Copperajah
+|-damage|p2a: Copperajah|76/100
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Pincushion|Sucker Punch|p2a: Copperajah
+|-damage|p2a: Copperajah|64/100
+|move|p2a: Copperajah|Iron Head|p1a: Pincushion
+|-damage|p1a: Pincushion|20/100
+|-damage|p2a: Copperajah|47/100|[from] item: Rocky Helmet|[of] p1a: Pincushion
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Pincushion|Hex|p2a: Copperajah
+|-crit|p2a: Copperajah
+|-damage|p2a: Copperajah|0 fnt
+|faint|p2a: Copperajah
+|
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|turn|15
+|
+|move|p2a: Conkeldurr|Mach Punch|p1a: Pincushion
+|-damage|p1a: Pincushion|0 fnt
+|-damage|p2a: Conkeldurr|76/100|[from] ability: Aftermath|[of] p1a: Pincushion
+|-damage|p2a: Conkeldurr|59/100|[from] item: Rocky Helmet|[of] p1a: Pincushion
+|faint|p1a: Pincushion
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|
+|switch|p1a: Valkyrie|Sirfetch'd, F|94/100
+|-damage|p1a: Valkyrie|88/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p2a: Runerigus|Runerigus, M|100/100
+|move|p1a: Valkyrie|Counter||[still]
+|-fail|p1a: Valkyrie
+|
+|-sideend|p2: SoraOkinawa|Reflect
+|upkeep
+|turn|17
+|
+|move|p1a: Valkyrie|Knock Off|p2a: Runerigus
+|-supereffective|p2a: Runerigus
+|-crit|p2a: Runerigus
+|-damage|p2a: Runerigus|36/100
+|-activate|p1a: Valkyrie|ability: Wandering Spirit|Wandering Spirit|Scrappy|[of] p2a: Runerigus
+|-enditem|p2a: Runerigus|Leftovers|[from] move: Knock Off|[of] p1a: Valkyrie
+|move|p2a: Runerigus|Trick Room|p2a: Runerigus
+|-fieldstart|move: Trick Room|[of] p2a: Runerigus
+|
+|-sideend|p2: SoraOkinawa|move: Light Screen
+|upkeep
+|turn|18
+|
+|move|p2a: Runerigus|Toxic Spikes|p1a: Valkyrie
+|-sidestart|p1: Pencilshaved|move: Toxic Spikes
+|move|p1a: Valkyrie|Knock Off|p2a: Runerigus
+|-supereffective|p2a: Runerigus
+|-damage|p2a: Runerigus|7/100
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Runerigus|Memento|p1a: Valkyrie
+|-unboost|p1a: Valkyrie|atk|2
+|-unboost|p1a: Valkyrie|spa|2
+|faint|p2a: Runerigus
+|move|p1a: Valkyrie|Knock Off|p2: Runerigus|[notarget]
+|-fail|p1a: Valkyrie
+|
+|upkeep
+|
+|switch|p2a: Vikavolt|Vikavolt, F|100/100
+|turn|20
+|
+|switch|p1a: Snifaro|Claydol|51/100
+|-damage|p1a: Snifaro|45/100|[from] Stealth Rock
+|-enditem|p1a: Snifaro|Sitrus Berry|[eat]
+|-heal|p1a: Snifaro|70/100|[from] item: Sitrus Berry
+|move|p2a: Vikavolt|Thunderbolt|p1a: Snifaro
+|-immune|p1a: Snifaro
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|59/100 brn
+|move|p1a: Snifaro|Rapid Spin|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|51/100 brn
+|-sideend|p1: Pencilshaved|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Snifaro
+|-sideend|p1: Pencilshaved|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Snifaro
+|-boost|p1a: Snifaro|spe|1
+|
+|-damage|p2a: Conkeldurr|45/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|22
+|
+|switch|p2a: Vikavolt|Vikavolt, F|100/100
+|move|p1a: Snifaro|Body Press|p2a: Vikavolt
+|-resisted|p2a: Vikavolt
+|-damage|p2a: Vikavolt|87/100
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Snifaro|Bulldoze|p2a: Vikavolt
+|-immune|p2a: Vikavolt|[from] ability: Levitate
+|move|p2a: Vikavolt|Energy Ball|p1a: Snifaro
+|-supereffective|p1a: Snifaro
+|-damage|p1a: Snifaro|0 fnt
+|faint|p1a: Snifaro
+|
+|upkeep
+|
+|switch|p1a: Itsy Bitsy|Araquanid, M|100/100
+|turn|24
+|
+|move|p2a: Vikavolt|Energy Ball|p1a: Itsy Bitsy
+|-damage|p1a: Itsy Bitsy|59/100
+|move|p1a: Itsy Bitsy|Mirror Coat|p2a: Vikavolt
+|-damage|p2a: Vikavolt|9/100
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|45/100 brn
+|move|p1a: Itsy Bitsy|Sticky Web|p2a: Conkeldurr
+|-sidestart|p2: SoraOkinawa|move: Sticky Web
+|
+|-damage|p2a: Conkeldurr|39/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p1a: Itsy Bitsy|Liquidation|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|switch|p2a: Vikavolt|Vikavolt, F|9/100
+|turn|27
+|
+|switch|p1a: Feejee|Dracozolt|100/100
+|move|p2a: Vikavolt|Thunderbolt|p1a: Feejee
+|-immune|p1a: Feejee|[from] ability: Volt Absorb
+|
+|upkeep
+|turn|28
+|-message|SoraOkinawa forfeited.
+|
+|win|Pencilshaved
+|l|☆SoraOkinawa
+|raw|Pencilshaved's rating: 1175 → 1198(+23 for winning)
+|raw|SoraOkinawa's rating: 1148 → 1125(-23 for losing)

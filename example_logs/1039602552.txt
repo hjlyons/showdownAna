@@ -1,0 +1,257 @@
+|ScrapeTime|2020-01-02-11:06:02
+|j|☆wam44
+|j|☆rossopowa
+|player|p1|wam44|281|1389
+|player|p2|rossopowa|102|1349
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Crawdaunt, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Clefable, M|
+|poke|p1|Excadrill, F|
+|poke|p2|Gengar, F|
+|poke|p2|Tsareena, F|
+|poke|p2|Dracovish|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Barraskewda, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Charognards|Crawdaunt, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|1
+|
+|move|p1a: Charognards|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|62/100
+|-damage|p1a: Charognards|88/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p1a: Charognards
+|move|p2a: Ferrothorn|Power Whip|p1a: Charognards
+|-supereffective|p1a: Charognards
+|-damage|p1a: Charognards|0 fnt
+|faint|p1a: Charognards
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by rossopowa)
+|
+|switch|p1a: Hexagone|Rotom-Heat|100/100
+|turn|2
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Hexagone|Will-O-Wisp|p2a: Pelipper
+|-status|p2a: Pelipper|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Tsareena|Tsareena, F|100/100
+|move|p1a: Hexagone|Thunderbolt|p2a: Tsareena
+|-resisted|p2a: Tsareena
+|-damage|p2a: Tsareena|87/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Hexagone|Volt Switch|p2a: Tsareena
+|-resisted|p2a: Tsareena
+|-damage|p2a: Tsareena|77/100
+|
+|switch|p1a: Mistral Gagnant|Ferrothorn, M|100/100|[from]move: Volt Switch
+|move|p2a: Tsareena|U-turn|p1a: Mistral Gagnant
+|-damage|p1a: Mistral Gagnant|84/100
+|-damage|p2a: Tsareena|65/100|[from] ability: Iron Barbs|[of] p1a: Mistral Gagnant
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|62/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Mistral Gagnant|90/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Mistral Gagnant|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: rossopowa|move: Stealth Rock
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Mistral Gagnant
+|-sidestart|p1: wam44|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Mistral Gagnant|97/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Mistral Gagnant|Spikes|p2a: Ferrothorn
+|-sidestart|p2: rossopowa|Spikes
+|move|p2a: Ferrothorn|Knock Off|p1a: Mistral Gagnant
+|-damage|p1a: Mistral Gagnant|84/100
+|-damage|p2a: Ferrothorn|50/100|[from] ability: Iron Barbs|[of] p1a: Mistral Gagnant
+|-enditem|p1a: Mistral Gagnant|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p2a: Tsareena|Tsareena, F|65/100
+|-damage|p2a: Tsareena|52/100|[from] Stealth Rock
+|-damage|p2a: Tsareena|40/100|[from] Spikes
+|move|p1a: Mistral Gagnant|Spikes|p2a: Tsareena
+|-sidestart|p2: rossopowa|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p1a: 500Conn**d|Dragapult, F|100/100
+|-damage|p1a: 500Conn**d|88/100|[from] Stealth Rock
+|move|p2a: Tsareena|Rapid Spin|p1a: 500Conn**d
+|-immune|p1a: 500Conn**d
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|move|p1a: 500Conn**d|Shadow Ball|p2a: Tsareena
+|-damage|p2a: Tsareena|20/100
+|move|p2a: Tsareena|U-turn|p1a: 500Conn**d
+|-resisted|p1a: 500Conn**d
+|-damage|p1a: 500Conn**d|70/100
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|50/100|[from]move: U-turn
+|-damage|p2a: Ferrothorn|34/100|[from] Spikes
+|-damage|p2a: Ferrothorn|28/100|[from] Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|switch|p1a: Hexagone|Rotom-Heat|100/100
+|-damage|p1a: Hexagone|76/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Knock Off|p1a: Hexagone
+|-damage|p1a: Hexagone|46/100
+|-enditem|p1a: Hexagone|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Pelipper|Pelipper, F|94/100 brn
+|-damage|p2a: Pelipper|69/100 brn|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Hexagone|Thunderbolt|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|rossopowa has 120 seconds left.
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|-damage|p2a: Dracovish|72/100|[from] Spikes
+|turn|12
+|
+|switch|p1a: Mistral Gagnant|Ferrothorn, M|84/100
+|-damage|p1a: Mistral Gagnant|78/100|[from] Stealth Rock
+|move|p2a: Dracovish|Fishious Rend|p1a: Mistral Gagnant
+|-resisted|p1a: Mistral Gagnant
+|-damage|p1a: Mistral Gagnant|27/100
+|-damage|p2a: Dracovish|59/100|[from] ability: Iron Barbs|[of] p1a: Mistral Gagnant
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|inactive|rossopowa has 120 seconds left.
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Mistral Gagnant
+|-resisted|p1a: Mistral Gagnant
+|-damage|p1a: Mistral Gagnant|0 fnt
+|-damage|p2a: Dracovish|47/100|[from] ability: Iron Barbs|[of] p1a: Mistral Gagnant
+|faint|p1a: Mistral Gagnant
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: 500Conn**d|Dragapult, F|70/100
+|-damage|p1a: 500Conn**d|58/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|28/100
+|-damage|p2a: Ferrothorn|22/100|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|5/100|[from] Spikes
+|move|p1a: 500Conn**d|Dragon Darts|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-hitcount|p2a: Ferrothorn|1
+|faint|p2a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, M|100/100
+|-damage|p2a: Barraskewda|88/100|[from] Stealth Rock
+|-damage|p2a: Barraskewda|72/100|[from] Spikes
+|turn|15
+|
+|switch|p1a: En Cloque|Clefable, M|100/100
+|move|p2a: Barraskewda|Liquidation|p1a: En Cloque
+|-damage|p1a: En Cloque|0 fnt
+|faint|p1a: En Cloque
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|16
+|
+|move|p2a: Barraskewda|Liquidation|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Hexagone|Rotom-Heat|46/100
+|-damage|p1a: Hexagone|21/100|[from] Stealth Rock
+|turn|17
+|
+|move|p2a: Barraskewda|Liquidation|p1a: Hexagone
+|-supereffective|p1a: Hexagone
+|-damage|p1a: Hexagone|0 fnt
+|faint|p1a: Hexagone
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: 500Conn**d|Dragapult, F|58/100
+|-damage|p1a: 500Conn**d|45/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Barraskewda|Liquidation|p1a: 500Conn**d
+|-resisted|p1a: 500Conn**d
+|-damage|p1a: 500Conn**d|0 fnt
+|faint|p1a: 500Conn**d
+|
+|win|rossopowa
+|l|☆wam44
+|raw|wam44's rating: 1389 → 1367(-22 for losing)
+|raw|rossopowa's rating: 1349 → 1372(+23 for winning)
+|c|☆rossopowa|gg

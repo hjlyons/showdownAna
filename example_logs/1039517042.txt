@@ -1,0 +1,233 @@
+|ScrapeTime|2020-01-02-05:14:45
+|j|☆Supasahil
+|j|‽cellgenesis
+|player|p1|Supasahil|209|1437
+|player|p2|cellgenesis|266|1421
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Clefable, F|
+|poke|p1|Toxtricity, M|
+|poke|p1|Seismitoad, M|
+|poke|p1|Excadrill, F|
+|poke|p2|Salazzle, F|
+|poke|p2|Dracovish|
+|poke|p2|Kommo-o, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Tyranitar, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cellgenesis)
+|
+|start
+|switch|p1a: Spikey|Ferrothorn, M, shiny|100/100
+|switch|p2a: Kommo-o|Kommo-o, F, shiny|100/100
+|turn|1
+|
+|move|p2a: Kommo-o|Substitute|p2a: Kommo-o
+|-start|p2a: Kommo-o|Substitute
+|-damage|p2a: Kommo-o|76/100
+|move|p1a: Spikey|Gyro Ball|p2a: Kommo-o
+|-immune|p2a: Kommo-o|[from] ability: Bulletproof
+|
+|-heal|p2a: Kommo-o|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Kommo-o|Body Press|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|77/100
+|
+|-heal|p2a: Kommo-o|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Kommo-o|Stealth Rock|p1a: Clefable
+|-sidestart|p1: Supasahil|move: Stealth Rock
+|move|p1a: Clefable|Moonblast|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-end|p2a: Kommo-o|Substitute
+|
+|-heal|p2a: Kommo-o|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Clefable|Flamethrower|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|86/100
+|
+|-heal|p2a: Toxapex|92/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|move|p1a: Clefable|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|33/100
+|move|p2a: Toxapex|Scald|p1a: Clefable
+|-damage|p1a: Clefable|61/100
+|
+|-heal|p2a: Toxapex|40/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|move|p1a: Clefable|Thunderbolt|p2a: Salazzle
+|-damage|p2a: Salazzle|38/100
+|
+|-heal|p2a: Salazzle|44/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|-damage|p1a: Seismitoad|94/100|[from] Stealth Rock
+|move|p2a: Salazzle|Flamethrower|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|73/100
+|
+|-heal|p2a: Salazzle|50/100|[from] item: Black Sludge
+|-heal|p1a: Seismitoad|79/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Salazzle|Toxic|p1a: Seismitoad
+|-status|p1a: Seismitoad|tox
+|move|p1a: Seismitoad|Earth Power|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|-heal|p1a: Seismitoad|85/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|79/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|9
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Ferrothorn|Spikes|p1a: Excadrill
+|-sidestart|p1: Supasahil|Spikes
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|94/100
+|-damage|p1a: Excadrill|85/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-sideend|p1: Supasahil|Spikes|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-sideend|p1: Supasahil|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-boost|p1a: Excadrill|spe|1
+|move|p2a: Ferrothorn|Leech Seed|p1a: Excadrill
+|-start|p1a: Excadrill|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|99/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|73/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|11
+|
+|switch|p1a: Clefable|Clefable, F|61/100
+|move|p2a: Ferrothorn|Spikes|p1a: Clefable
+|-sidestart|p1: Supasahil|Spikes
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p2a: Tyranitar|Stone Edge|p1a: Clefable
+|-damage|p1a: Clefable|21/100
+|move|p1a: Clefable|Moonblast|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|
+|switch|p1a: Seismitoad|Seismitoad, M|79/100 tox
+|-damage|p1a: Seismitoad|67/100 tox|[from] Spikes
+|move|p2a: Tyranitar|Ice Punch|p1a: Seismitoad
+|-damage|p1a: Seismitoad|48/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Seismitoad|54/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|48/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|move|p1a: Seismitoad|Earth Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|37/100
+|move|p2a: Tyranitar|Crunch|p1a: Seismitoad
+|-damage|p1a: Seismitoad|15/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Seismitoad|22/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|9/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: cellgenesis|move: Stealth Rock
+|
+|-weather|none
+|-heal|p1a: Seismitoad|15/100 tox|[from] item: Leftovers
+|-damage|p1a: Seismitoad|0 fnt|[from] psn
+|faint|p1a: Seismitoad
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, F|21/100
+|turn|17
+|
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|71/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, F, shiny|100/100
+|turn|18
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|76/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Hydreigon
+|-damage|p1a: Hydreigon|47/100
+|
+|-heal|p2a: Ferrothorn|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|-message|Supasahil forfeited.
+|
+|win|cellgenesis
+|l|☆Supasahil
+|raw|Supasahil's rating: 1437 → 1416(-21 for losing)
+|raw|cellgenesis's rating: 1422 → 1443(+21 for winning)

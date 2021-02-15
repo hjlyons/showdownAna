@@ -1,0 +1,184 @@
+|ScrapeTime|2020-01-02-03:45:19
+|j|☆PANDAXXXXX
+|j|☆FireDerp6969
+|player|p1|PANDAXXXXX|265|1017
+|player|p2|FireDerp6969|harlequin|1043
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, M|
+|poke|p1|Togekiss, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Dracovish|
+|poke|p1|Mimikyu, M|
+|poke|p1|Gyarados, F|
+|poke|p2|Silvally-*|
+|poke|p2|Dragapult, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Barraskewda, F|
+|poke|p2|Roserade, F|
+|poke|p2|Ribombee, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash, shiny|100/100
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|turn|1
+|
+|move|p2a: Ribombee|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|82/100
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from]move: U-turn
+|move|p1a: Rotom|Thunderbolt|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|80/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|8/100
+|-enditem|p1a: Rotom|Sitrus Berry|[eat]
+|-heal|p1a: Rotom|33/100|[from] item: Sitrus Berry
+|move|p1a: Rotom|Shadow Ball|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|24/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FireDerp6969)
+|
+|switch|p1a: Mimikyu|Mimikyu, M, shiny|100/100
+|turn|4
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p1a: Mimikyu|91/100|[from] item: Life Orb
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Silvally|Silvally-Ice|100/100
+|turn|5
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Silvally|U-turn|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|91/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M, shiny
+|-damage|p1a: Mimikyu|78/100|[from] ability: Disguise|[of] p1a: Mimikyu
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|upkeep
+|
+|switch|p1a: Gyarados|Gyarados, F, shiny|100/100
+|turn|7
+|
+|switch|p2a: Silvally|Silvally-Ice|100/100
+|move|p1a: Gyarados|Waterfall|p2a: Silvally
+|-damage|p2a: Silvally|58/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Silvally|Multi-Attack|p1a: Gyarados
+|-damage|p1a: Gyarados|33/100
+|move|p1a: Gyarados|Earthquake|p2a: Silvally
+|-damage|p2a: Silvally|22/100
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Silvally|Multi-Attack|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|turn|10
+|
+|move|p2a: Silvally|Multi-Attack|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|turn|11
+|
+|move|p1a: Hydreigon|Flash Cannon|p2a: Silvally
+|-supereffective|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|faint|p2a: Silvally
+|
+|upkeep
+|
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|turn|12
+|
+|move|p2a: Ribombee|Sticky Web|p1a: Hydreigon
+|-sidestart|p1: PANDAXXXXX|move: Sticky Web
+|move|p1a: Hydreigon|Flash Cannon|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-enditem|p2a: Ribombee|Focus Sash
+|-damage|p2a: Ribombee|1/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Ribombee|Moonblast|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|upkeep
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|-activate|p1a: Dracovish|move: Sticky Web
+|-unboost|p1a: Dracovish|spe|1
+|turn|14
+|
+|move|p2a: Ribombee|Moonblast|p1a: Dracovish
+|-supereffective|p1a: Dracovish
+|-damage|p1a: Dracovish|5/100
+|move|p1a: Dracovish|Dragon Rush|p2a: Ribombee
+|-immune|p2a: Ribombee
+|
+|upkeep
+|turn|15
+|-message|PANDAXXXXX forfeited.
+|
+|win|FireDerp6969
+|l|☆PANDAXXXXX
+|raw|PANDAXXXXX's rating: 1017 → 1006(-11 for losing)
+|raw|FireDerp6969's rating: 1043 → 1074(+31 for winning)

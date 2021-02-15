@@ -1,0 +1,607 @@
+|ScrapeTime|2020-01-01-19:55:12
+|j|☆soft boys
+|j|☆geostygma
+|player|p1|soft boys|pokekid|1173
+|player|p2|geostygma|102|1166
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pincurchin, M|
+|poke|p1|Snom, F|
+|poke|p1|Pyukumuku, F|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Eldegoss, M|
+|poke|p1|Slurpuff, M|
+|poke|p2|Cloyster, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Dracovish|
+|poke|p2|Snorlax, M|
+|poke|p2|Cinderace, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Pyukumuku|Pyukumuku, F|100/100
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|turn|1
+|
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|move|p1a: Pyukumuku|Toxic|p2a: Cloyster
+|-status|p2a: Cloyster|tox
+|
+|-damage|p2a: Cloyster|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p1a: Pyukumuku|Protect|p1a: Pyukumuku
+|-singleturn|p1a: Pyukumuku|Protect
+|move|p2a: Cloyster|Icicle Spear|p1a: Pyukumuku
+|-activate|p1a: Pyukumuku|move: Protect
+|
+|-damage|p2a: Cloyster|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Cloyster|Icicle Spear|p1a: Pyukumuku
+|-resisted|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|96/100
+|-resisted|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|93/100
+|-resisted|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|89/100
+|-resisted|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|86/100
+|-resisted|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|82/100
+|-hitcount|p1a: Pyukumuku|5
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|100/100
+|
+|-damage|p2a: Cloyster|63/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|move|p1a: Pyukumuku|Toxic|p2a: Cloyster
+|-fail|p2a: Cloyster|tox
+|
+|-damage|p2a: Cloyster|38/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p1a: Pyukumuku|Protect|p1a: Pyukumuku
+|-singleturn|p1a: Pyukumuku|Protect
+|move|p2a: Cloyster|Poison Jab|p1a: Pyukumuku
+|-activate|p1a: Pyukumuku|move: Protect
+|
+|-damage|p2a: Cloyster|7/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p2a: Cloyster|Poison Jab|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|85/100
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|100/100
+|
+|-damage|p2a: Cloyster|0 fnt|[from] psn
+|faint|p2a: Cloyster
+|upkeep
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|turn|7
+|
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|move|p1a: Pyukumuku|Toxic|p2a: Snorlax
+|-immune|p2a: Snorlax|[from] ability: Immunity
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Snom|Snom, F|100/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Slurpuff|Slurpuff, M|100/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Slurpuff|Substitute|p1a: Slurpuff
+|-start|p1a: Slurpuff|Substitute
+|-damage|p1a: Slurpuff|75/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Slurpuff|Dazzling Gleam|p2a: Snorlax
+|-damage|p2a: Snorlax|87/100
+|move|p2a: Snorlax|Crunch|p1a: Slurpuff
+|-resisted|p1a: Slurpuff
+|-end|p1a: Slurpuff|Substitute
+|
+|-heal|p2a: Snorlax|93/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Pyukumuku|Pyukumuku, F|100/100
+|move|p2a: Snorlax|Crunch|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|87/100
+|
+|-heal|p1a: Pyukumuku|93/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|99/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Pyukumuku|Soak|p2a: Snorlax
+|-start|p2a: Snorlax|typechange|Water
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p1a: Pyukumuku|99/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Pyukumuku|Soak|p2a: Snorlax
+|-fail|p2a: Snorlax
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p1a: Pyukumuku|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Pyukumuku|Soak|p2a: Snorlax
+|-fail|p2a: Snorlax
+|move|p2a: Snorlax|Crunch|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|88/100
+|
+|-heal|p1a: Pyukumuku|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Pyukumuku|Soak|p2a: Snorlax
+|-fail|p2a: Snorlax
+|move|p2a: Snorlax|Crunch|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|82/100
+|
+|-heal|p1a: Pyukumuku|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Pyukumuku|Soak|p2a: Snorlax
+|-fail|p2a: Snorlax
+|move|p2a: Snorlax|Crunch|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|75/100
+|-unboost|p1a: Pyukumuku|def|1
+|
+|-heal|p1a: Pyukumuku|81/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Pyukumuku|Soak|p2a: Snorlax
+|-fail|p2a: Snorlax
+|move|p2a: Snorlax|Crunch|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|60/100
+|
+|-heal|p1a: Pyukumuku|66/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Pyukumuku|Protect|p1a: Pyukumuku
+|-singleturn|p1a: Pyukumuku|Protect
+|move|p2a: Snorlax|Crunch|p1a: Pyukumuku
+|-activate|p1a: Pyukumuku|move: Protect
+|
+|-heal|p1a: Pyukumuku|72/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Pyukumuku|Soak|p2a: Snorlax
+|-fail|p2a: Snorlax
+|move|p2a: Snorlax|Crunch|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|55/100
+|-unboost|p1a: Pyukumuku|def|1
+|
+|-heal|p1a: Pyukumuku|61/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Pyukumuku|Protect|p1a: Pyukumuku
+|-singleturn|p1a: Pyukumuku|Protect
+|move|p2a: Snorlax|Crunch|p1a: Pyukumuku
+|-activate|p1a: Pyukumuku|move: Protect
+|
+|-heal|p1a: Pyukumuku|67/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Snom|Snom, F|100/100
+|move|p2a: Snorlax|Crunch|p1a: Snom
+|-enditem|p1a: Snom|Focus Sash
+|-damage|p1a: Snom|1/100
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Snom|Attract|p2a: Snorlax
+|-start|p2a: Snorlax|Attract
+|-activate|p2a: Snorlax|move: Attract|[of] p1a: Snom
+|cant|p2a: Snorlax|Attract
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Snom|Icy Wind|p2a: Snorlax
+|-resisted|p2a: Snorlax
+|-damage|p2a: Snorlax|97/100
+|-activate|p2a: Snorlax|move: Attract|[of] p1a: Snom
+|move|p2a: Snorlax|Crunch|p1a: Snom
+|-damage|p1a: Snom|0 fnt
+|faint|p1a: Snom
+|-end|p2a: Snorlax|Attract|[silent]
+|
+|-heal|p2a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Eldegoss|Eldegoss, M|100/100
+|turn|25
+|
+|move|p1a: Eldegoss|Protect|p1a: Eldegoss
+|-singleturn|p1a: Eldegoss|Protect
+|move|p2a: Snorlax|Crunch|p1a: Eldegoss
+|-activate|p1a: Eldegoss|move: Protect
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Eldegoss|Leech Seed|p2a: Snorlax
+|-start|p2a: Snorlax|move: Leech Seed
+|move|p2a: Snorlax|Crunch|p1a: Eldegoss
+|-damage|p1a: Eldegoss|14/100
+|
+|-heal|p1a: Eldegoss|21/100|[from] item: Leftovers
+|-damage|p2a: Snorlax|88/100|[from] Leech Seed|[of] p1a: Eldegoss
+|-heal|p1a: Eldegoss|41/100|[silent]
+|upkeep
+|turn|27
+|
+|move|p1a: Eldegoss|Protect|p1a: Eldegoss
+|-singleturn|p1a: Eldegoss|Protect
+|move|p2a: Snorlax|Crunch|p1a: Eldegoss
+|-activate|p1a: Eldegoss|move: Protect
+|
+|-heal|p1a: Eldegoss|47/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|94/100|[from] item: Leftovers
+|-damage|p2a: Snorlax|82/100|[from] Leech Seed|[of] p1a: Eldegoss
+|-heal|p1a: Eldegoss|67/100|[silent]
+|upkeep
+|turn|28
+|
+|switch|p1a: Pyukumuku|Pyukumuku, F|67/100
+|move|p2a: Snorlax|Crunch|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|53/100
+|
+|-heal|p1a: Pyukumuku|59/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|88/100|[from] item: Leftovers
+|-damage|p2a: Snorlax|75/100|[from] Leech Seed|[of] p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|80/100|[silent]
+|upkeep
+|turn|29
+|
+|move|p1a: Pyukumuku|Protect|p1a: Pyukumuku
+|-singleturn|p1a: Pyukumuku|Protect
+|move|p2a: Snorlax|Crunch|p1a: Pyukumuku
+|-activate|p1a: Pyukumuku|move: Protect
+|
+|-heal|p1a: Pyukumuku|86/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|82/100|[from] item: Leftovers
+|-damage|p2a: Snorlax|69/100|[from] Leech Seed|[of] p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|100/100|[silent]
+|upkeep
+|turn|30
+|
+|move|p1a: Pyukumuku|Soak|p2a: Snorlax
+|-fail|p2a: Snorlax
+|move|p2a: Snorlax|Crunch|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|87/100
+|
+|-heal|p1a: Pyukumuku|93/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|75/100|[from] item: Leftovers
+|-damage|p2a: Snorlax|63/100|[from] Leech Seed|[of] p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|100/100|[silent]
+|upkeep
+|turn|31
+|
+|move|p1a: Pyukumuku|Protect|p1a: Pyukumuku
+|-singleturn|p1a: Pyukumuku|Protect
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|100/100 slp|[silent]
+|
+|-damage|p2a: Snorlax|88/100 slp|[from] Leech Seed|[of] p1a: Pyukumuku
+|upkeep
+|turn|32
+|
+|switch|p1a: Slurpuff|Slurpuff, M|75/100
+|cant|p2a: Snorlax|slp
+|move|p2a: Snorlax|Sleep Talk|p2a: Snorlax
+|move|p2a: Snorlax|Curse|p2a: Snorlax|[from]Sleep Talk
+|
+|-heal|p2a: Snorlax|94/100 slp|[from] item: Leftovers
+|-damage|p2a: Snorlax|82/100 slp|[from] Leech Seed|[of] p1a: Slurpuff
+|-heal|p1a: Slurpuff|97/100|[silent]
+|upkeep
+|turn|33
+|
+|move|p1a: Slurpuff|Substitute|p1a: Slurpuff
+|-start|p1a: Slurpuff|Substitute
+|-damage|p1a: Slurpuff|72/100
+|cant|p2a: Snorlax|slp
+|move|p2a: Snorlax|Sleep Talk|p2a: Snorlax
+|move|p2a: Snorlax|Curse|p2a: Snorlax|[from]Sleep Talk
+|
+|-heal|p2a: Snorlax|88/100 slp|[from] item: Leftovers
+|-damage|p2a: Snorlax|75/100 slp|[from] Leech Seed|[of] p1a: Slurpuff
+|-heal|p1a: Slurpuff|93/100|[silent]
+|upkeep
+|turn|34
+|
+|move|p1a: Slurpuff|Calm Mind|p1a: Slurpuff
+|-boost|p1a: Slurpuff|spa|1
+|-boost|p1a: Slurpuff|spd|1
+|-curestatus|p2a: Snorlax|slp|[msg]
+|move|p2a: Snorlax|Crunch|p1a: Slurpuff
+|-resisted|p1a: Slurpuff
+|-crit|p1a: Slurpuff
+|-end|p1a: Slurpuff|Substitute
+|
+|-heal|p2a: Snorlax|82/100|[from] item: Leftovers
+|-damage|p2a: Snorlax|69/100|[from] Leech Seed|[of] p1a: Slurpuff
+|-heal|p1a: Slurpuff|100/100|[silent]
+|upkeep
+|turn|35
+|
+|move|p1a: Slurpuff|Substitute|p1a: Slurpuff
+|-start|p1a: Slurpuff|Substitute
+|-damage|p1a: Slurpuff|75/100
+|move|p2a: Snorlax|Crunch|p1a: Slurpuff
+|-resisted|p1a: Slurpuff
+|-end|p1a: Slurpuff|Substitute
+|
+|-heal|p2a: Snorlax|75/100|[from] item: Leftovers
+|-damage|p2a: Snorlax|63/100|[from] Leech Seed|[of] p1a: Slurpuff
+|-heal|p1a: Slurpuff|97/100|[silent]
+|upkeep
+|turn|36
+|
+|move|p1a: Slurpuff|Substitute|p1a: Slurpuff
+|-start|p1a: Slurpuff|Substitute
+|-damage|p1a: Slurpuff|72/100
+|move|p2a: Snorlax|Crunch|p1a: Slurpuff
+|-resisted|p1a: Slurpuff
+|-end|p1a: Slurpuff|Substitute
+|
+|-heal|p2a: Snorlax|69/100|[from] item: Leftovers
+|-damage|p2a: Snorlax|57/100|[from] Leech Seed|[of] p1a: Slurpuff
+|-heal|p1a: Slurpuff|93/100|[silent]
+|upkeep
+|turn|37
+|
+|move|p1a: Slurpuff|Substitute|p1a: Slurpuff
+|-start|p1a: Slurpuff|Substitute
+|-damage|p1a: Slurpuff|68/100
+|move|p2a: Snorlax|Crunch|p1a: Slurpuff
+|-resisted|p1a: Slurpuff
+|-end|p1a: Slurpuff|Substitute
+|
+|-heal|p2a: Snorlax|63/100|[from] item: Leftovers
+|-damage|p2a: Snorlax|50/100|[from] Leech Seed|[of] p1a: Slurpuff
+|-heal|p1a: Slurpuff|89/100|[silent]
+|upkeep
+|turn|38
+|
+|move|p1a: Slurpuff|Substitute|p1a: Slurpuff
+|-start|p1a: Slurpuff|Substitute
+|-damage|p1a: Slurpuff|64/100
+|move|p2a: Snorlax|Crunch|p1a: Slurpuff
+|-resisted|p1a: Slurpuff
+|-end|p1a: Slurpuff|Substitute
+|
+|-heal|p2a: Snorlax|56/100|[from] item: Leftovers
+|-damage|p2a: Snorlax|44/100|[from] Leech Seed|[of] p1a: Slurpuff
+|-heal|p1a: Slurpuff|85/100|[silent]
+|upkeep
+|turn|39
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Slurpuff|Substitute|p1a: Slurpuff
+|-start|p1a: Slurpuff|Substitute
+|-damage|p1a: Slurpuff|60/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|40
+|
+|move|p1a: Slurpuff|Calm Mind|p1a: Slurpuff
+|-boost|p1a: Slurpuff|spa|1
+|-boost|p1a: Slurpuff|spd|1
+|move|p2a: Pelipper|Hurricane|p1a: Slurpuff
+|-end|p1a: Slurpuff|Substitute
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|41
+|
+|move|p1a: Slurpuff|Substitute|p1a: Slurpuff
+|-start|p1a: Slurpuff|Substitute
+|-damage|p1a: Slurpuff|35/100
+|-enditem|p1a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p1a: Slurpuff|60/100|[from] item: Sitrus Berry
+|move|p2a: Pelipper|Knock Off|p1a: Slurpuff
+|-resisted|p1a: Slurpuff
+|-activate|p1a: Slurpuff|move: Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|42
+|
+|move|p1a: Slurpuff|Calm Mind|p1a: Slurpuff
+|-boost|p1a: Slurpuff|spa|1
+|-boost|p1a: Slurpuff|spd|1
+|move|p2a: Pelipper|Hurricane|p1a: Slurpuff
+|-end|p1a: Slurpuff|Substitute
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|43
+|
+|move|p1a: Slurpuff|Dazzling Gleam|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|44
+|
+|move|p1a: Slurpuff|Dazzling Gleam|p2a: Dracovish
+|-supereffective|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|45
+|
+|move|p1a: Slurpuff|Dazzling Gleam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|46
+|
+|move|p1a: Slurpuff|Dazzling Gleam|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|37/100
+|move|p2a: Cinderace|Iron Head|p1a: Slurpuff
+|-supereffective|p1a: Slurpuff
+|-damage|p1a: Slurpuff|0 fnt
+|faint|p1a: Slurpuff
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|-enditem|p1a: Pincurchin|Electric Seed
+|-boost|p1a: Pincurchin|def|1
+|turn|47
+|
+|move|p2a: Cinderace|Iron Head|p1a: Pincurchin
+|-resisted|p1a: Pincurchin
+|-damage|p1a: Pincurchin|90/100
+|cant|p1a: Pincurchin|flinch
+|
+|upkeep
+|turn|48
+|
+|move|p2a: Cinderace|Iron Head|p1a: Pincurchin
+|-resisted|p1a: Pincurchin
+|-damage|p1a: Pincurchin|81/100
+|cant|p1a: Pincurchin|flinch
+|
+|upkeep
+|turn|49
+|
+|switch|p2a: Snorlax|Snorlax, M|44/100
+|move|p1a: Pincurchin|Sucker Punch||[still]
+|-fail|p1a: Pincurchin
+|
+|-heal|p2a: Snorlax|50/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|move|p1a: Pincurchin|Zing Zap|p2a: Snorlax
+|-damage|p2a: Snorlax|18/100
+|
+|-heal|p2a: Snorlax|24/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|move|p1a: Pincurchin|Zing Zap|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|37/100
+|turn|52
+|
+|move|p1a: Pincurchin|Sucker Punch|p2a: Cinderace
+|-damage|p2a: Cinderace|1/100
+|move|p2a: Cinderace|Gunk Shot|p1a: Pincurchin
+|-damage|p1a: Pincurchin|51/100
+|
+|upkeep
+|turn|53
+|-message|geostygma forfeited.
+|
+|win|soft boys
+|l|☆geostygma
+|raw|soft boys's rating: 1173 → 1199(+26 for winning)
+|raw|geostygma's rating: 1191 → 1165(-26 for losing)

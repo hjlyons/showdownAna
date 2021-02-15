@@ -1,0 +1,568 @@
+|ScrapeTime|2020-01-01-00:25:33
+|j|☆xSyzn
+|j|☆Darim99
+|player|p1|xSyzn|volkner|1105
+|player|p2|Darim99|101|1095
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Polteageist|
+|poke|p1|Obstagoon, F|
+|poke|p1|Shuckle, F|
+|poke|p1|Tsareena, F|
+|poke|p1|Passimian, M|
+|poke|p1|Milotic, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Arctovish|
+|poke|p2|Toxtricity, M|
+|poke|p2|Sandaconda, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Grimmsnarl, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: TortueBizzare|Shuckle, F, shiny|100/100
+|switch|p2a: Stratocaster|Toxtricity, M|100/100
+|turn|1
+|
+|move|p2a: Stratocaster|Overdrive|p1a: TortueBizzare
+|-damage|p1a: TortueBizzare|70/100
+|move|p1a: TortueBizzare|Sticky Web|p2a: Stratocaster
+|-sidestart|p2: Darim99|move: Sticky Web
+|
+|-heal|p1a: TortueBizzare|76/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Stratocaster|Overdrive|p1a: TortueBizzare
+|-damage|p1a: TortueBizzare|45/100
+|move|p1a: TortueBizzare|Stealth Rock|p2a: Stratocaster
+|-sidestart|p2: Darim99|move: Stealth Rock
+|
+|-heal|p1a: TortueBizzare|51/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Sugar Fruit|Tsareena, F, shiny|100/100
+|move|p2a: Stratocaster|Overdrive|p1a: Sugar Fruit
+|-resisted|p1a: Sugar Fruit
+|-damage|p1a: Sugar Fruit|70/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Sugar Fruit|U-turn|p2a: Stratocaster
+|-resisted|p2a: Stratocaster
+|-damage|p2a: Stratocaster|84/100
+|-damage|p1a: Sugar Fruit|60/100|[from] item: Life Orb
+|
+|switch|p1a: Colgate +|Obstagoon, F, shiny|100/100|[from]move: U-turn
+|move|p2a: Stratocaster|Sludge Wave|p1a: Colgate +
+|-damage|p1a: Colgate +|48/100
+|
+|-status|p1a: Colgate +|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|move|p1a: Colgate +|Knock Off|p2a: Stratocaster
+|-damage|p2a: Stratocaster|22/100
+|-enditem|p2a: Stratocaster|Assault Vest|[from] move: Knock Off|[of] p1a: Colgate +
+|move|p2a: Stratocaster|Overdrive|p1a: Colgate +
+|-damage|p1a: Colgate +|0 fnt
+|faint|p1a: Colgate +
+|
+|upkeep
+|
+|switch|p1a: Maitre Nageur|Passimian, M, shiny|100/100
+|turn|6
+|
+|move|p1a: Maitre Nageur|Knock Off|p2a: Stratocaster
+|-damage|p2a: Stratocaster|0 fnt
+|faint|p2a: Stratocaster
+|
+|upkeep
+|
+|switch|p2a: Kars|Grimmsnarl, M|100/100
+|-activate|p2a: Kars|move: Sticky Web
+|-unboost|p2a: Kars|spe|1
+|-damage|p2a: Kars|88/100|[from] Stealth Rock
+|turn|7
+|
+|switch|p1a: TortueBizzare|Shuckle, F, shiny|51/100
+|move|p2a: Kars|Bulk Up|p2a: Kars
+|-boost|p2a: Kars|atk|1
+|-boost|p2a: Kars|def|1
+|
+|-heal|p2a: Kars|94/100|[from] item: Leftovers
+|-heal|p1a: TortueBizzare|57/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Kars|Play Rough|p1a: TortueBizzare
+|-damage|p1a: TortueBizzare|10/100
+|move|p1a: TortueBizzare|Encore|p2a: Kars
+|-start|p2a: Kars|Encore
+|
+|-heal|p2a: Kars|99/100|[from] item: Leftovers
+|-heal|p1a: TortueBizzare|17/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Kars|Play Rough|p1a: TortueBizzare|[miss]
+|-miss|p2a: Kars|p1a: TortueBizzare
+|move|p1a: TortueBizzare|Infestation|p2a: Kars
+|-damage|p2a: Kars|97/100
+|-activate|p2a: Kars|move: Infestation|[of] p1a: TortueBizzare
+|
+|-heal|p2a: Kars|100/100|[from] item: Leftovers
+|-heal|p1a: TortueBizzare|23/100|[from] item: Leftovers
+|-damage|p2a: Kars|88/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|10
+|
+|move|p2a: Kars|Play Rough|p1a: TortueBizzare
+|-damage|p1a: TortueBizzare|0 fnt
+|faint|p1a: TortueBizzare
+|
+|-heal|p2a: Kars|94/100|[from] item: Leftovers
+|-end|p2a: Kars|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|
+|switch|p1a: Maitre Nageur|Passimian, M, shiny|100/100
+|turn|11
+|
+|move|p1a: Maitre Nageur|Gunk Shot|p2a: Kars
+|-supereffective|p2a: Kars
+|-damage|p2a: Kars|39/100
+|move|p2a: Kars|Play Rough|p1a: Maitre Nageur
+|-supereffective|p1a: Maitre Nageur
+|-damage|p1a: Maitre Nageur|0 fnt
+|faint|p1a: Maitre Nageur
+|
+|-heal|p2a: Kars|45/100|[from] item: Leftovers
+|-end|p2a: Kars|Encore
+|upkeep
+|
+|switch|p1a: Sugar Fruit|Tsareena, F, shiny|60/100
+|turn|12
+|
+|move|p2a: Kars|Sucker Punch||[still]
+|cant|p1a: Sugar Fruit|ability: Queenly Majesty|Sucker Punch|[of] p2a: Kars
+|move|p1a: Sugar Fruit|U-turn|p2a: Kars
+|-damage|p2a: Kars|20/100
+|-damage|p1a: Sugar Fruit|50/100|[from] item: Life Orb
+|
+|switch|p1a: Waht else ?|Polteageist, shiny|100/100|[from]move: U-turn
+|
+|-heal|p2a: Kars|26/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Sugar Fruit|Tsareena, F, shiny|50/100
+|move|p2a: Kars|Sucker Punch||[still]
+|cant|p1a: Sugar Fruit|ability: Queenly Majesty|Sucker Punch|[of] p2a: Kars
+|
+|-heal|p2a: Kars|32/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Sugar Fruit|Trop Kick|p2a: Kars
+|-damage|p2a: Kars|0 fnt
+|-damage|p1a: Sugar Fruit|40/100|[from] item: Life Orb
+|faint|p2a: Kars
+|
+|upkeep
+|
+|switch|p2a: Mach|Dragapult, M|100/100
+|-activate|p2a: Mach|move: Sticky Web
+|-fail|p2a: Mach|unboost|[from] ability: Clear Body|[of] p2a: Mach
+|-damage|p2a: Mach|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p2a: Mach|Dragon Dance|p2a: Mach
+|-boost|p2a: Mach|atk|1
+|-boost|p2a: Mach|spe|1
+|move|p1a: Sugar Fruit|Trop Kick|p2a: Mach
+|-resisted|p2a: Mach
+|-damage|p2a: Mach|66/100
+|-damage|p1a: Sugar Fruit|31/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Mach|Dragon Dance|p2a: Mach
+|-boost|p2a: Mach|atk|1
+|-boost|p2a: Mach|spe|1
+|move|p1a: Sugar Fruit|Trop Kick|p2a: Mach
+|-resisted|p2a: Mach
+|-damage|p2a: Mach|43/100
+|-damage|p1a: Sugar Fruit|21/100|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Mach|Dragon Dance|p2a: Mach
+|-boost|p2a: Mach|atk|1
+|-boost|p2a: Mach|spe|1
+|move|p1a: Sugar Fruit|Trop Kick|p2a: Mach
+|-resisted|p2a: Mach
+|-damage|p2a: Mach|20/100
+|-enditem|p2a: Mach|Aguav Berry|[eat]
+|-heal|p2a: Mach|53/100|[from] item: Aguav Berry
+|-damage|p1a: Sugar Fruit|11/100|[from] item: Life Orb
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Mach|Dragon Darts|p1a: Sugar Fruit
+|-crit|p1a: Sugar Fruit
+|-damage|p1a: Sugar Fruit|0 fnt
+|-hitcount|p1a: Sugar Fruit|1
+|faint|p1a: Sugar Fruit
+|
+|upkeep
+|
+|switch|p1a: PoissonChevelu|Milotic, F|100/100
+|turn|19
+|
+|move|p2a: Mach|Dragon Darts|p1a: PoissonChevelu
+|-damage|p1a: PoissonChevelu|55/100
+|-damage|p1a: PoissonChevelu|14/100
+|-hitcount|p1a: PoissonChevelu|2
+|move|p1a: PoissonChevelu|Dragon Tail|p2a: Mach
+|-supereffective|p2a: Mach
+|-damage|p2a: Mach|38/100
+|drag|p2a: bis|Sandaconda, M|100/100
+|-damage|p2a: bis|95/100|[from] Stealth Rock
+|-activate|p2a: bis|move: Sticky Web
+|-unboost|p2a: bis|spe|1
+|
+|-heal|p1a: PoissonChevelu|20/100|[from] item: Leftovers
+|-heal|p2a: bis|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: PoissonChevelu|Recover|p1a: PoissonChevelu
+|-heal|p1a: PoissonChevelu|70/100
+|move|p2a: bis|Earthquake|p1a: PoissonChevelu
+|-damage|p1a: PoissonChevelu|32/100
+|
+|-heal|p1a: PoissonChevelu|38/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: PoissonChevelu|Recover|p1a: PoissonChevelu
+|-heal|p1a: PoissonChevelu|88/100
+|move|p2a: bis|Coil|p2a: bis
+|-boost|p2a: bis|atk|1
+|-boost|p2a: bis|def|1
+|-boost|p2a: bis|accuracy|1
+|
+|-heal|p1a: PoissonChevelu|94/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: PoissonChevelu|Scald|p2a: bis
+|-supereffective|p2a: bis
+|-damage|p2a: bis|14/100
+|-weather|Sandstorm|[from] ability: Sand Spit|[of] p2a: bis
+|move|p2a: bis|Earthquake|p1a: PoissonChevelu
+|-damage|p1a: PoissonChevelu|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: PoissonChevelu|32/100|[from] Sandstorm
+|-heal|p1a: PoissonChevelu|39/100|[from] item: Leftovers
+|-heal|p2a: bis|20/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: PoissonChevelu|Recover|p1a: PoissonChevelu
+|-heal|p1a: PoissonChevelu|89/100
+|move|p2a: bis|Earthquake|p1a: PoissonChevelu
+|-damage|p1a: PoissonChevelu|35/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: PoissonChevelu|28/100|[from] Sandstorm
+|-heal|p1a: PoissonChevelu|35/100|[from] item: Leftovers
+|-heal|p2a: bis|26/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: PoissonChevelu|Recover|p1a: PoissonChevelu
+|-heal|p1a: PoissonChevelu|85/100
+|move|p2a: bis|Earthquake|p1a: PoissonChevelu
+|-damage|p1a: PoissonChevelu|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: PoissonChevelu|26/100|[from] Sandstorm
+|-heal|p1a: PoissonChevelu|32/100|[from] item: Leftovers
+|-heal|p2a: bis|32/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: PoissonChevelu|Recover|p1a: PoissonChevelu
+|-heal|p1a: PoissonChevelu|82/100
+|move|p2a: bis|Earthquake|p1a: PoissonChevelu
+|-damage|p1a: PoissonChevelu|24/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: PoissonChevelu|18/100|[from] Sandstorm
+|-heal|p1a: PoissonChevelu|24/100|[from] item: Leftovers
+|-heal|p2a: bis|38/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: PoissonChevelu|Scald|p2a: bis
+|-supereffective|p2a: bis
+|-damage|p2a: bis|0 fnt
+|faint|p2a: bis
+|
+|-weather|none
+|-heal|p1a: PoissonChevelu|30/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Nobilmantis|Arctovish|100/100
+|-activate|p2a: Nobilmantis|move: Sticky Web
+|-unboost|p2a: Nobilmantis|spe|1
+|-damage|p2a: Nobilmantis|76/100|[from] Stealth Rock
+|turn|27
+|
+|move|p1a: PoissonChevelu|Recover|p1a: PoissonChevelu
+|-heal|p1a: PoissonChevelu|80/100
+|move|p2a: Nobilmantis|Freeze-Dry|p1a: PoissonChevelu
+|-supereffective|p1a: PoissonChevelu
+|-damage|p1a: PoissonChevelu|54/100
+|
+|-heal|p1a: PoissonChevelu|60/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p1a: PoissonChevelu|Recover|p1a: PoissonChevelu
+|-heal|p1a: PoissonChevelu|100/100
+|move|p2a: Nobilmantis|Freeze-Dry|p1a: PoissonChevelu
+|-supereffective|p1a: PoissonChevelu
+|-damage|p1a: PoissonChevelu|71/100
+|
+|-heal|p1a: PoissonChevelu|77/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: PoissonChevelu|Scald|p2a: Nobilmantis
+|-heal|p2a: Nobilmantis|100/100|[from] ability: Water Absorb|[of] p1a: PoissonChevelu
+|move|p2a: Nobilmantis|Freeze-Dry|p1a: PoissonChevelu
+|-supereffective|p1a: PoissonChevelu
+|-damage|p1a: PoissonChevelu|48/100
+|
+|-heal|p1a: PoissonChevelu|54/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: PoissonChevelu|Recover|p1a: PoissonChevelu
+|-heal|p1a: PoissonChevelu|100/100
+|move|p2a: Nobilmantis|Freeze-Dry|p1a: PoissonChevelu
+|-supereffective|p1a: PoissonChevelu
+|-damage|p1a: PoissonChevelu|70/100
+|
+|-heal|p1a: PoissonChevelu|76/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: PoissonChevelu|Ice Beam|p2a: Nobilmantis
+|-resisted|p2a: Nobilmantis
+|-crit|p2a: Nobilmantis
+|-damage|p2a: Nobilmantis|94/100
+|move|p2a: Nobilmantis|Freeze-Dry|p1a: PoissonChevelu
+|-supereffective|p1a: PoissonChevelu
+|-damage|p1a: PoissonChevelu|49/100
+|
+|-heal|p1a: PoissonChevelu|55/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: PoissonChevelu|Ice Beam|p2a: Nobilmantis
+|-resisted|p2a: Nobilmantis
+|-damage|p2a: Nobilmantis|90/100
+|move|p2a: Nobilmantis|Freeze-Dry|p1a: PoissonChevelu
+|-supereffective|p1a: PoissonChevelu
+|-damage|p1a: PoissonChevelu|28/100
+|
+|-heal|p1a: PoissonChevelu|34/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: PoissonChevelu|Recover|p1a: PoissonChevelu
+|-heal|p1a: PoissonChevelu|84/100
+|move|p2a: Nobilmantis|Freeze-Dry|p1a: PoissonChevelu
+|-supereffective|p1a: PoissonChevelu
+|-damage|p1a: PoissonChevelu|55/100
+|
+|-heal|p1a: PoissonChevelu|61/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: PoissonChevelu|Ice Beam|p2a: Nobilmantis
+|-resisted|p2a: Nobilmantis
+|-damage|p2a: Nobilmantis|85/100
+|move|p2a: Nobilmantis|Freeze-Dry|p1a: PoissonChevelu
+|-supereffective|p1a: PoissonChevelu
+|-damage|p1a: PoissonChevelu|30/100
+|
+|-heal|p1a: PoissonChevelu|36/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: PoissonChevelu|Recover|p1a: PoissonChevelu
+|-heal|p1a: PoissonChevelu|86/100
+|move|p2a: Nobilmantis|Freeze-Dry|p1a: PoissonChevelu
+|-supereffective|p1a: PoissonChevelu
+|-damage|p1a: PoissonChevelu|59/100
+|
+|-heal|p1a: PoissonChevelu|65/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p1a: PoissonChevelu|Ice Beam|p2a: Nobilmantis
+|-resisted|p2a: Nobilmantis
+|-damage|p2a: Nobilmantis|81/100
+|move|p2a: Nobilmantis|Freeze-Dry|p1a: PoissonChevelu
+|-supereffective|p1a: PoissonChevelu
+|-damage|p1a: PoissonChevelu|36/100
+|
+|-heal|p1a: PoissonChevelu|42/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p1a: PoissonChevelu|Recover|p1a: PoissonChevelu
+|-heal|p1a: PoissonChevelu|92/100
+|move|p2a: Nobilmantis|Freeze-Dry|p1a: PoissonChevelu
+|-supereffective|p1a: PoissonChevelu
+|-damage|p1a: PoissonChevelu|61/100
+|
+|-heal|p1a: PoissonChevelu|67/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p1a: PoissonChevelu|Ice Beam|p2a: Nobilmantis
+|-resisted|p2a: Nobilmantis
+|-damage|p2a: Nobilmantis|77/100
+|move|p2a: Nobilmantis|Freeze-Dry|p1a: PoissonChevelu
+|-supereffective|p1a: PoissonChevelu
+|-damage|p1a: PoissonChevelu|36/100
+|
+|-heal|p1a: PoissonChevelu|42/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p1a: PoissonChevelu|Recover|p1a: PoissonChevelu
+|-heal|p1a: PoissonChevelu|92/100
+|move|p2a: Nobilmantis|Freeze-Dry|p1a: PoissonChevelu
+|-supereffective|p1a: PoissonChevelu
+|-crit|p1a: PoissonChevelu
+|-damage|p1a: PoissonChevelu|46/100
+|
+|-heal|p1a: PoissonChevelu|52/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: PoissonChevelu|Recover|p1a: PoissonChevelu
+|-heal|p1a: PoissonChevelu|100/100
+|move|p2a: Nobilmantis|Freeze-Dry|p1a: PoissonChevelu
+|-supereffective|p1a: PoissonChevelu
+|-damage|p1a: PoissonChevelu|71/100
+|
+|-heal|p1a: PoissonChevelu|77/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|c|☆Darim99|oh no only 3
+|c|☆Darim99|what a shame
+|
+|move|p2a: Nobilmantis|Freeze-Dry|p1a: PoissonChevelu
+|-supereffective|p1a: PoissonChevelu
+|-damage|p1a: PoissonChevelu|49/100
+|move|p1a: PoissonChevelu|Dragon Tail|p2a: Nobilmantis
+|-damage|p2a: Nobilmantis|69/100
+|drag|p2a: Bianconiglio|Cinderace, M|100/100
+|-damage|p2a: Bianconiglio|76/100|[from] Stealth Rock
+|-activate|p2a: Bianconiglio|move: Sticky Web
+|-unboost|p2a: Bianconiglio|spe|1
+|
+|-heal|p2a: Bianconiglio|82/100|[from] item: Leftovers
+|-heal|p1a: PoissonChevelu|55/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|switch|p1a: Waht else ?|Polteageist, shiny|100/100
+|move|p2a: Bianconiglio|High Jump Kick|p1a: Waht else ?
+|-immune|p1a: Waht else ?
+|-damage|p2a: Bianconiglio|32/100|[from] highjumpkick
+|
+|-heal|p2a: Bianconiglio|38/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|c|☆xSyzn|lol
+|
+|move|p1a: Waht else ?|Shell Smash|p1a: Waht else ?
+|-unboost|p1a: Waht else ?|def|1
+|-unboost|p1a: Waht else ?|spd|1
+|-boost|p1a: Waht else ?|atk|2
+|-boost|p1a: Waht else ?|spa|2
+|-boost|p1a: Waht else ?|spe|2
+|move|p2a: Bianconiglio|Pyro Ball|p1a: Waht else ?
+|-enditem|p1a: Waht else ?|Focus Sash
+|-damage|p1a: Waht else ?|1/100
+|
+|-heal|p2a: Bianconiglio|44/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p1a: Waht else ?|Shadow Ball|p2a: Bianconiglio
+|-damage|p2a: Bianconiglio|0 fnt
+|faint|p2a: Bianconiglio
+|
+|upkeep
+|c|☆xSyzn|i know the end i win
+|
+|switch|p2a: Nobilmantis|Arctovish|69/100
+|-damage|p2a: Nobilmantis|44/100|[from] Stealth Rock
+|-activate|p2a: Nobilmantis|move: Sticky Web
+|-unboost|p2a: Nobilmantis|spe|1
+|turn|45
+|c|☆xSyzn|gg
+|
+|move|p1a: Waht else ?|Giga Drain|p2a: Nobilmantis
+|-supereffective|p2a: Nobilmantis
+|-crit|p2a: Nobilmantis
+|-damage|p2a: Nobilmantis|0 fnt
+|-heal|p1a: Waht else ?|28/100|[from] drain|[of] p2a: Nobilmantis
+|faint|p2a: Nobilmantis
+|
+|upkeep
+|
+|switch|p2a: Mach|Dragapult, M|38/100
+|-damage|p2a: Mach|25/100|[from] Stealth Rock
+|-activate|p2a: Mach|move: Sticky Web
+|-fail|p2a: Mach|unboost|[from] ability: Clear Body|[of] p2a: Mach
+|turn|46
+|c|☆Darim99|this is horrible
+|
+|move|p1a: Waht else ?|Shadow Ball|p2a: Mach
+|-supereffective|p2a: Mach
+|-damage|p2a: Mach|0 fnt
+|faint|p2a: Mach
+|
+|win|xSyzn
+|raw|xSyzn's rating: 1105 → 1129(+24 for winning)
+|raw|Darim99's rating: 1095 → 1071(-24 for losing)
+|c|☆xSyzn|thanks bye
+|l|☆Darim99

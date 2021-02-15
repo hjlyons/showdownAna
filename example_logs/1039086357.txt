@@ -1,0 +1,330 @@
+|ScrapeTime|2020-01-01-10:26:00
+|j|☆Moero
+|j|☆cleanlemon
+|player|p1|Moero|190|1588
+|player|p2|cleanlemon|1|1442
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Lucario, F|
+|poke|p1|Chandelure, M|
+|poke|p1|Seismitoad, M|
+|poke|p1|Morpeko, M|
+|poke|p1|Mimikyu, M|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Dracovish|
+|poke|p2|Corviknight, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Seismitoad, M|
+|poke|p2|Hawlucha, M|
+|poke|p2|Dragapult, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cleanlemon)
+|
+|start
+|switch|p1a: Mimikyu|Mimikyu, M|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|move|p2a: Dragapult|U-turn|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|94/100
+|
+|switch|p2a: Dracovish|Dracovish|100/100|[from]move: U-turn
+|
+|-heal|p1a: Chandelure|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Dracovish|Crunch|p1a: Seismitoad
+|-damage|p1a: Seismitoad|63/100
+|
+|-heal|p1a: Seismitoad|69/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Dracovish|Crunch|p1a: Seismitoad
+|-crit|p1a: Seismitoad
+|-damage|p1a: Seismitoad|15/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Dracovish
+|-sidestart|p2: cleanlemon|move: Stealth Rock
+|
+|-heal|p1a: Seismitoad|21/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Mandibuzz|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|74/100
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Mandibuzz
+|move|p2a: Corviknight|Defog|p1a: Mandibuzz
+|-unboost|p1a: Mandibuzz|evasion|1
+|-sideend|p2: cleanlemon|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Mandibuzz|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|60/100
+|move|p2a: Corviknight|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|89/100
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100|[from]move: U-turn
+|
+|-heal|p1a: Mandibuzz|95/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Rotom|Discharge|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|60/100
+|-status|p1a: Mandibuzz|par
+|move|p1a: Mandibuzz|U-turn|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|96/100
+|
+|switch|p1a: Seismitoad|Seismitoad, M|21/100|[from]move: U-turn
+|
+|-heal|p1a: Seismitoad|27/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Seismitoad|[miss]
+|-miss|p2a: Rotom|p1a: Seismitoad
+|move|p1a: Seismitoad|Stealth Rock|p2a: Rotom
+|-sidestart|p2: cleanlemon|move: Stealth Rock
+|
+|-heal|p1a: Seismitoad|33/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Seismitoad|Protect|p1a: Seismitoad
+|-singleturn|p1a: Seismitoad|Protect
+|move|p2a: Rotom|Volt Switch|p1a: Seismitoad
+|-activate|p1a: Seismitoad|move: Protect
+|
+|-heal|p1a: Seismitoad|39/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Chandelure
+|-damage|p1a: Chandelure|64/100
+|
+|switch|p2a: Dracovish|Dracovish|100/100|[from]move: Volt Switch
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Chandelure|70/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Chandelure|Shadow Ball|p2a: Dracovish
+|-damage|p2a: Dracovish|34/100
+|move|p2a: Dracovish|Crunch|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|upkeep
+|
+|switch|p1a: Morpeko|Morpeko, M|100/100
+|turn|12
+|
+|move|p1a: Morpeko|Aura Wheel|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|-boost|p1a: Morpeko|spe|1
+|-damage|p1a: Morpeko|91/100|[from] item: Life Orb
+|faint|p2a: Dracovish
+|
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Morpeko|Seed Bomb|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-damage|p1a: Morpeko|81/100|[from] item: Life Orb
+|faint|p2a: Seismitoad
+|
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|inactive|cleanlemon has 120 seconds left.
+|
+|switch|p2a: Rotom|Rotom-Heat|96/100
+|turn|14
+|
+|move|p1a: Morpeko|Protect|p1a: Morpeko
+|-singleturn|p1a: Morpeko|Protect
+|move|p2a: Rotom|Discharge|p1a: Morpeko
+|-activate|p1a: Morpeko|move: Protect
+|
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|15
+|
+|move|p1a: Morpeko|Aura Wheel|p2a: Rotom
+|-damage|p2a: Rotom|52/100
+|-boost|p1a: Morpeko|spe|1
+|-damage|p1a: Morpeko|71/100|[from] item: Life Orb
+|move|p2a: Rotom|Will-O-Wisp|p1a: Morpeko
+|-status|p1a: Morpeko|brn
+|
+|-damage|p1a: Morpeko|65/100 brn|[from] brn
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|16
+|
+|switch|p1a: Seismitoad|Seismitoad, M|39/100
+|move|p2a: Rotom|Discharge|p1a: Seismitoad
+|-immune|p1a: Seismitoad
+|
+|-heal|p1a: Seismitoad|45/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Seismitoad|Protect|p1a: Seismitoad
+|-singleturn|p1a: Seismitoad|Protect
+|move|p2a: Rotom|Will-O-Wisp|p1a: Seismitoad
+|-activate|p1a: Seismitoad|move: Protect
+|
+|-heal|p1a: Seismitoad|51/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|-damage|p2a: Hawlucha|88/100|[from] Stealth Rock
+|move|p1a: Seismitoad|Scald|p2a: Hawlucha
+|-damage|p2a: Hawlucha|47/100
+|-enditem|p2a: Hawlucha|Sitrus Berry|[eat]
+|-heal|p2a: Hawlucha|72/100|[from] item: Sitrus Berry
+|
+|-heal|p1a: Seismitoad|57/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Seismitoad|Scald|p2a: Hawlucha
+|-damage|p2a: Hawlucha|30/100
+|
+|-heal|p1a: Seismitoad|63/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Morpeko|Morpeko, M|65/100 brn
+|move|p2a: Hawlucha|Brave Bird|p1a: Morpeko
+|-resisted|p1a: Morpeko
+|-damage|p1a: Morpeko|0 fnt
+|-damage|p2a: Hawlucha|11/100|[from] Recoil
+|faint|p1a: Morpeko
+|
+|upkeep
+|
+|switch|p1a: Mimikyu|Mimikyu, M|100/100
+|turn|21
+|
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|-damage|p1a: Mimikyu|91/100|[from] item: Life Orb
+|faint|p2a: Hawlucha
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat|52/100
+|turn|22
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|60/100 par
+|move|p2a: Rotom|Will-O-Wisp||[still]
+|-fail|p2a: Rotom
+|
+|-heal|p1a: Mandibuzz|67/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Rotom|Discharge|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|32/100 par
+|cant|p1a: Mandibuzz|par
+|
+|-heal|p1a: Mandibuzz|38/100 par|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Rotom|Discharge|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|6/100 par
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|56/100 par
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Mandibuzz|62/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Rotom|Discharge|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|25/100 par
+|move|p1a: Mandibuzz|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|36/100
+|-enditem|p2a: Rotom|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|-heal|p1a: Mandibuzz|31/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: Seismitoad|Seismitoad, M|63/100
+|move|p2a: Rotom|Discharge|p1a: Seismitoad
+|-immune|p1a: Seismitoad
+|
+|-heal|p1a: Seismitoad|69/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Seismitoad|Protect|p1a: Seismitoad
+|-singleturn|p1a: Seismitoad|Protect
+|move|p2a: Rotom|Will-O-Wisp|p1a: Seismitoad
+|-activate|p1a: Seismitoad|move: Protect
+|
+|-heal|p1a: Seismitoad|75/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Seismitoad
+|-status|p1a: Seismitoad|brn
+|move|p1a: Seismitoad|Scald|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-heal|p1a: Seismitoad|81/100 brn|[from] item: Leftovers
+|-damage|p1a: Seismitoad|75/100 brn|[from] brn
+|upkeep
+|-message|cleanlemon forfeited.
+|
+|win|Moero
+|l|☆cleanlemon
+|raw|Moero's rating: 1588 → 1600(+12 for winning)
+|raw|cleanlemon's rating: 1442 → 1430(-12 for losing)

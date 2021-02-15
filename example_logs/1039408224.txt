@@ -1,0 +1,380 @@
+|ScrapeTime|2020-01-02-00:45:14
+|j|☆mimi (bitches)
+|j|☆Jpaula
+|player|p1|mimi (bitches)|erika-gen1|1154
+|player|p2|Jpaula|palmer|1176
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Quagsire, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Toxtricity-Low-Key, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Mimikyu, M|
+|poke|p1|Lucario, M|
+|poke|p2|Gyarados, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Excadrill, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Flapple, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Flapple|Flapple, M|100/100
+|turn|1
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|move|p2a: Flapple|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M, shiny|100/100|[from]move: U-turn
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jpaula)
+|inactive|mimi (bitches) has 120 seconds left.
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|91/100
+|-unboost|p1a: Ferrothorn|spa|1
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|par
+|move|p1a: Ferrothorn|Leech Seed|p2a: Grimmsnarl
+|-start|p2a: Grimmsnarl|move: Leech Seed
+|
+|-damage|p2a: Grimmsnarl|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|100/100 par|[silent]
+|upkeep
+|turn|4
+|
+|switch|p2a: Rotom|Rotom-Heat, shiny|100/100
+|cant|p1a: Ferrothorn|par
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Quagsire|Quagsire, M|100/100
+|move|p2a: Rotom|Trick|p1a: Quagsire
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Quagsire
+|-item|p1a: Quagsire|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Sitrus Berry|[from] move: Trick
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Rotom|Shadow Ball|p1a: Quagsire
+|-damage|p1a: Quagsire|82/100
+|-unboost|p1a: Quagsire|spd|1
+|move|p1a: Quagsire|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-damage|p2a: Rotom|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p2a: Flapple|Flapple, M|100/100
+|switch|p1a: Lucario|Lucario, M|100/100
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Lucario|Close Combat|p2a: Flapple
+|-crit|p2a: Flapple
+|-damage|p2a: Flapple|0 fnt
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|-damage|p1a: Lucario|91/100|[from] item: Life Orb
+|faint|p2a: Flapple
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat, shiny|94/100 tox
+|turn|9
+|
+|move|p1a: Lucario|Close Combat|p2a: Rotom
+|-damage|p2a: Rotom|2/100 tox
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|-enditem|p2a: Rotom|Sitrus Berry|[eat]
+|-heal|p2a: Rotom|27/100 tox|[from] item: Sitrus Berry
+|-damage|p1a: Lucario|81/100|[from] item: Life Orb
+|move|p2a: Rotom|Overheat|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Lucario
+|
+|-damage|p2a: Rotom|21/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|82/100
+|turn|10
+|
+|switch|p1a: Quagsire|Quagsire, M|82/100
+|move|p2a: Rotom|Volt Switch|p1a: Quagsire
+|-immune|p1a: Quagsire
+|
+|-damage|p2a: Rotom|8/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p2a: Seismitoad|Seismitoad, F, shiny|100/100
+|move|p1a: Quagsire|Whirlpool|p2a: Seismitoad
+|-immune|p2a: Seismitoad|[from] ability: Water Absorb
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100 par
+|move|p2a: Seismitoad|Toxic||[still]
+|-fail|p2a: Seismitoad
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Seismitoad|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|92/100 par
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|82/100
+|-damage|p1a: Ferrothorn|75/100 par|[from] item: Rocky Helmet|[of] p2a: Seismitoad
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Rotom|Rotom-Heat, shiny|8/100 tox
+|move|p1a: Ferrothorn|Leech Seed|p2a: Rotom
+|-start|p2a: Rotom|move: Leech Seed
+|
+|-damage|p2a: Rotom|0 fnt|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|81/100 par|[silent]
+|faint|p2a: Rotom
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F, shiny|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|15
+|
+|move|p2a: Excadrill|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: mimi (bitches)|move: Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Excadrill
+|-start|p2a: Excadrill|move: Leech Seed
+|
+|-damage|p2a: Excadrill|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|94/100 par|[silent]
+|upkeep
+|turn|16
+|
+|move|p2a: Excadrill|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|62/100 par
+|cant|p1a: Ferrothorn|par
+|
+|-damage|p2a: Excadrill|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|75/100 par|[silent]
+|upkeep
+|turn|17
+|
+|move|p2a: Excadrill|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|42/100 par
+|move|p1a: Ferrothorn|Power Whip|p2a: Excadrill
+|-damage|p2a: Excadrill|16/100
+|
+|-damage|p2a: Excadrill|4/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|55/100 par|[silent]
+|upkeep
+|turn|18
+|
+|cant|p1a: Ferrothorn|par
+|move|p2a: Excadrill|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|22/100 par
+|
+|-damage|p2a: Excadrill|0 fnt|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|25/100 par|[silent]
+|faint|p2a: Excadrill
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, F, shiny|100/100
+|turn|19
+|
+|move|p2a: Gyarados|Substitute|p2a: Gyarados
+|-start|p2a: Gyarados|Substitute
+|-damage|p2a: Gyarados|76/100
+|move|p1a: Ferrothorn|Leech Seed||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p2a: Gyarados|82/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Quagsire|Quagsire, M|82/100
+|-damage|p1a: Quagsire|76/100|[from] Stealth Rock
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-heal|p2a: Gyarados|88/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Quagsire|Ice Punch|p2a: Gyarados
+|-activate|p2a: Gyarados|move: Substitute|[damage]
+|
+|-heal|p2a: Gyarados|94/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Gyarados|Bounce||[still]
+|-prepare|p2a: Gyarados|Bounce|p1a: Quagsire
+|move|p1a: Quagsire|Ice Punch|p2a: Gyarados|[miss]
+|-miss|p1a: Quagsire|p2a: Gyarados
+|
+|-heal|p2a: Gyarados|99/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|25/100 par
+|-damage|p1a: Ferrothorn|19/100 par|[from] Stealth Rock
+|move|p2a: Gyarados|Bounce|p1a: Ferrothorn|[from]lockedmove
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Gyarados|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-damage|p2a: Gyarados|71/100|[from] item: Rocky Helmet|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-heal|p2a: Gyarados|77/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Mimikyu|Mimikyu, M|100/100
+|-damage|p1a: Mimikyu|88/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Gyarados|Waterfall|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|88/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M
+|-damage|p1a: Mimikyu|76/100|[from] ability: Disguise|[of] p1a: Mimikyu
+|move|p1a: Mimikyu|Destiny Bond|p1a: Mimikyu
+|-singlemove|p1a: Mimikyu|Destiny Bond
+|
+|-heal|p2a: Gyarados|83/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p2a: Gyarados|Waterfall|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|-activate|p1a: Mimikyu|move: Destiny Bond
+|faint|p2a: Gyarados
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|82/100
+|switch|p2a: Seismitoad|Seismitoad, F, shiny|82/100
+|-damage|p1a: Dragapult|69/100|[from] Stealth Rock
+|turn|26
+|
+|switch|p1a: Quagsire|Quagsire, M|76/100
+|-damage|p1a: Quagsire|70/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Sludge Wave|p1a: Quagsire
+|-resisted|p1a: Quagsire
+|-damage|p1a: Quagsire|62/100
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Seismitoad|Toxic|p1a: Quagsire
+|-status|p1a: Quagsire|tox
+|move|p1a: Quagsire|Toxic|p2a: Seismitoad
+|-status|p2a: Seismitoad|tox
+|
+|-damage|p2a: Seismitoad|76/100 tox|[from] psn
+|-damage|p1a: Quagsire|56/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|move|p2a: Seismitoad|Power Whip|p1a: Quagsire
+|-supereffective|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|faint|p1a: Quagsire
+|
+|-damage|p2a: Seismitoad|64/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, M|100/100
+|-damage|p1a: Toxtricity|88/100|[from] Stealth Rock
+|turn|29
+|
+|switch|p1a: Dragapult|Dragapult, M|69/100
+|-damage|p1a: Dragapult|57/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Scald|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|41/100
+|
+|-heal|p1a: Dragapult|47/100|[from] item: Leftovers
+|-damage|p2a: Seismitoad|46/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|22/100
+|move|p2a: Seismitoad|Toxic||[still]
+|-fail|p2a: Seismitoad
+|
+|-heal|p1a: Dragapult|28/100|[from] item: Leftovers
+|-damage|p2a: Seismitoad|22/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, M|88/100
+|-damage|p1a: Toxtricity|76/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Scald|p1a: Toxtricity
+|-damage|p1a: Toxtricity|47/100
+|
+|-damage|p2a: Seismitoad|0 fnt|[from] psn
+|faint|p2a: Seismitoad
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M, shiny|88/100
+|turn|32
+|
+|move|p1a: Toxtricity|Sludge Wave|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-damage|p1a: Toxtricity|37/100|[from] item: Life Orb
+|faint|p2a: Grimmsnarl
+|
+|win|mimi (bitches)
+|l|☆Jpaula
+|raw|mimi (bitches)'s rating: 1154 → 1180(+26 for winning)
+|raw|Jpaula's rating: 1176 → 1149(-27 for losing)

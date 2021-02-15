@@ -1,0 +1,629 @@
+|ScrapeTime|2020-01-01-17:45:24
+|j|☆jatrix03
+|j|☆Test Izar22
+|player|p1|jatrix03|2|1326
+|player|p2|Test Izar22|reporter|1304
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Seismitoad, F|
+|poke|p1|Goodra, M|
+|poke|p1|Duraludon, F|
+|poke|p1|Ribombee, F|
+|poke|p2|Cloyster, M|
+|poke|p2|Vanilluxe, F|
+|poke|p2|Clefable, F|
+|poke|p2|Kommo-o, F|
+|poke|p2|Tsareena, F|
+|poke|p2|Coalossal, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Test Izar22)
+|
+|start
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|turn|1
+|
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|move|p1a: Seismitoad|Earthquake|p2a: Cloyster
+|-crit|p2a: Cloyster
+|-damage|p2a: Cloyster|38/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Cloyster|Icicle Spear|p1a: Seismitoad
+|-damage|p1a: Seismitoad|83/100
+|-damage|p1a: Seismitoad|66/100
+|-damage|p1a: Seismitoad|49/100
+|-damage|p1a: Seismitoad|34/100
+|-damage|p1a: Seismitoad|16/100
+|-hitcount|p1a: Seismitoad|5
+|move|p1a: Seismitoad|Earthquake|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|-heal|p1a: Seismitoad|22/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Tsareena|Tsareena, F|100/100
+|turn|3
+|
+|switch|p1a: Goodra|Goodra, M|100/100
+|move|p2a: Tsareena|U-turn|p1a: Goodra
+|-damage|p1a: Goodra|50/100
+|
+|switch|p2a: Vanilluxe|Vanilluxe, F|100/100|[from]move: U-turn
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Goodra|44/100|[from] Hail
+|upkeep
+|turn|4
+|
+|switch|p1a: Seismitoad|Seismitoad, F|22/100
+|move|p2a: Vanilluxe|Aurora Veil|p2a: Vanilluxe
+|-sidestart|p2: Test Izar22|move: Aurora Veil
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Seismitoad|16/100|[from] Hail
+|-heal|p1a: Seismitoad|22/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Tsareena|Tsareena, F|100/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Tsareena
+|-sidestart|p2: Test Izar22|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Tsareena|94/100|[from] Hail
+|-damage|p1a: Seismitoad|16/100|[from] Hail
+|-heal|p1a: Seismitoad|22/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Tsareena|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|90/100
+|
+|switch|p2a: Clefable|Clefable, F|100/100|[from]move: U-turn
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Toxapex|84/100|[from] Hail
+|-heal|p1a: Toxapex|90/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|switch|p1a: Seismitoad|Seismitoad, F|22/100
+|move|p2a: Clefable|Thunderbolt|p1a: Seismitoad
+|-immune|p1a: Seismitoad
+|
+|-weather|none
+|-heal|p1a: Seismitoad|28/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Seismitoad|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|81/100
+|move|p2a: Clefable|Moonblast|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-sideend|p2: Test Izar22|move: Aurora Veil
+|upkeep
+|
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|turn|9
+|
+|move|p1a: Ribombee|Sticky Web|p2a: Clefable
+|-sidestart|p2: Test Izar22|move: Sticky Web
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Coalossal|Coalossal, F|100/100
+|move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+|-boost|p1a: Ribombee|spa|1
+|-boost|p1a: Ribombee|spd|1
+|-boost|p1a: Ribombee|spe|1
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Ribombee|Sticky Web||[still]
+|-fail|p1a: Ribombee
+|move|p2a: Coalossal|Rapid Spin|p1a: Ribombee
+|-damage|p1a: Ribombee|86/100
+|-sideend|p2: Test Izar22|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Coalossal
+|-sideend|p2: Test Izar22|Sticky Web|[from] move: Rapid Spin|[of] p2a: Coalossal
+|-boost|p2a: Coalossal|spe|1
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Ribombee|Sticky Web|p2a: Coalossal
+|-sidestart|p2: Test Izar22|move: Sticky Web
+|move|p2a: Coalossal|Heavy Slam|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|19/100
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Ribombee|Moonblast|p2a: Coalossal
+|-resisted|p2a: Coalossal
+|-damage|p2a: Coalossal|86/100
+|move|p2a: Coalossal|Rapid Spin|p1a: Ribombee
+|-damage|p1a: Ribombee|3/100
+|-sideend|p2: Test Izar22|Sticky Web|[from] move: Rapid Spin|[of] p2a: Coalossal
+|-boost|p2a: Coalossal|spe|1
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Coalossal|Rapid Spin|p1a: Toxapex
+|-damage|p1a: Toxapex|94/100
+|-boost|p2a: Coalossal|spe|1
+|
+|-heal|p1a: Toxapex|99/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|switch|p2a: Clefable|Clefable, F|81/100
+|move|p1a: Toxapex|Toxic Spikes|p2a: Clefable
+|-sidestart|p2: Test Izar22|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|switch|p1a: Goodra|Goodra, M|44/100
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Goodra|Sludge Wave|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|16/100
+|move|p2a: Clefable|Moonblast|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|
+|-heal|p2a: Clefable|66/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|18
+|
+|switch|p2a: Coalossal|Coalossal, F|86/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Coalossal
+|-resisted|p2a: Coalossal
+|-crit|p2a: Coalossal
+|-damage|p2a: Coalossal|72/100
+|-ability|p2a: Coalossal|Steam Engine|boost
+|-boost|p2a: Coalossal|spe|6
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Coalossal|Stone Edge|p1a: Toxapex
+|-damage|p1a: Toxapex|83/100
+|
+|-heal|p1a: Toxapex|89/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|move|p2a: Coalossal|Rapid Spin|p1a: Toxapex
+|-damage|p1a: Toxapex|83/100
+|-sideend|p2: Test Izar22|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Coalossal
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Toxapex|90/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|switch|p2a: Vanilluxe|Vanilluxe, F|100/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|move|p1a: Toxapex|Scald|p2a: Vanilluxe
+|-damage|p2a: Vanilluxe|78/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Toxapex|83/100|[from] Hail
+|-heal|p1a: Toxapex|90/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Vanilluxe|Aurora Veil|p2a: Vanilluxe
+|-sidestart|p2: Test Izar22|move: Aurora Veil
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Cinderace|95/100|[from] Hail
+|upkeep
+|turn|23
+|
+|switch|p2a: Kommo-o|Kommo-o, F|100/100
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p2: Test Izar22|Aurora Veil|[silent]
+|-sidestart|p1: jatrix03|Aurora Veil|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Cinderace|89/100|[from] Hail
+|upkeep
+|turn|24
+|
+|move|p1a: Cinderace|U-turn|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|89/100
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100|[from]move: U-turn
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|56/100
+|-enditem|p2a: Kommo-o|Throat Spray
+|-boost|p2a: Kommo-o|spa|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Toxapex|94/100|[from] Hail
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|25
+|
+|move|p2a: Kommo-o|Clanging Scales|p1a: Toxapex
+|-damage|p1a: Toxapex|61/100
+|-unboost|p2a: Kommo-o|def|1
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-weather|none
+|-heal|p1a: Toxapex|67/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|switch|p2a: Clefable|Clefable, F|66/100
+|move|p1a: Toxapex|Toxic Spikes|p2a: Clefable
+|-sidestart|p2: Test Izar22|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|74/100|[from] item: Black Sludge
+|-sideend|p1: jatrix03|move: Aurora Veil
+|upkeep
+|turn|27
+|
+|move|p2a: Clefable|Wish|p2a: Clefable
+|move|p1a: Toxapex|Toxic Spikes|p2a: Clefable
+|-sidestart|p2: Test Izar22|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|80/100|[from] item: Black Sludge
+|upkeep
+|turn|28
+|
+|move|p2a: Clefable|Thunderbolt|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|21/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|71/100
+|
+|-heal|p2a: Clefable|100/100|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Toxapex|77/100|[from] item: Black Sludge
+|upkeep
+|turn|29
+|
+|switch|p1a: Duraludon|Duraludon, F|100/100
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|upkeep
+|turn|30
+|
+|switch|p1a: Ribombee|Ribombee, F|3/100
+|move|p2a: Clefable|Fire Blast|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|upkeep
+|
+|switch|p1a: Duraludon|Duraludon, F|100/100
+|turn|31
+|
+|move|p1a: Duraludon|Substitute|p1a: Duraludon
+|-start|p1a: Duraludon|Substitute
+|-damage|p1a: Duraludon|75/100
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Duraludon|Flash Cannon|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Kommo-o|Kommo-o, F|56/100
+|-status|p2a: Kommo-o|tox
+|turn|33
+|
+|move|p2a: Kommo-o|Clanging Scales|p1a: Duraludon
+|-damage|p1a: Duraludon|0 fnt
+|-unboost|p2a: Kommo-o|def|1
+|faint|p1a: Duraludon
+|
+|-damage|p2a: Kommo-o|50/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|turn|34
+|
+|switch|p2a: Coalossal|Coalossal, F|72/100
+|move|p1a: Toxapex|Scald|p2a: Coalossal
+|-supereffective|p2a: Coalossal
+|-damage|p2a: Coalossal|27/100
+|-ability|p2a: Coalossal|Steam Engine|boost
+|-boost|p2a: Coalossal|spe|6
+|
+|upkeep
+|turn|35
+|
+|move|p2a: Coalossal|Rapid Spin|p1a: Toxapex
+|-damage|p1a: Toxapex|95/100
+|-sideend|p2: Test Izar22|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Coalossal
+|move|p1a: Toxapex|Toxic Spikes|p2a: Coalossal
+|-sidestart|p2: Test Izar22|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|36
+|
+|move|p2a: Coalossal|Rapid Spin|p1a: Toxapex
+|-damage|p1a: Toxapex|95/100
+|-sideend|p2: Test Izar22|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Coalossal
+|move|p1a: Toxapex|Toxic Spikes|p2a: Coalossal
+|-sidestart|p2: Test Izar22|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|37
+|
+|move|p2a: Coalossal|Rapid Spin|p1a: Toxapex
+|-damage|p1a: Toxapex|94/100
+|-sideend|p2: Test Izar22|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Coalossal
+|move|p1a: Toxapex|Toxic Spikes|p2a: Coalossal
+|-sidestart|p2: Test Izar22|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|38
+|
+|move|p2a: Coalossal|Stone Edge|p1a: Toxapex|[miss]
+|-miss|p2a: Coalossal|p1a: Toxapex
+|move|p1a: Toxapex|Toxic Spikes|p2a: Coalossal
+|-sidestart|p2: Test Izar22|move: Toxic Spikes
+|
+|upkeep
+|turn|39
+|
+|move|p2a: Coalossal|Rapid Spin|p1a: Toxapex
+|-damage|p1a: Toxapex|94/100
+|-sideend|p2: Test Izar22|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Coalossal
+|move|p1a: Toxapex|Toxic Spikes|p2a: Coalossal
+|-sidestart|p2: Test Izar22|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|40
+|
+|move|p2a: Coalossal|Rapid Spin|p1a: Toxapex
+|-damage|p1a: Toxapex|95/100
+|-sideend|p2: Test Izar22|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Coalossal
+|move|p1a: Toxapex|Toxic Spikes|p2a: Coalossal
+|-sidestart|p2: Test Izar22|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|41
+|
+|move|p2a: Coalossal|Rapid Spin|p1a: Toxapex
+|-damage|p1a: Toxapex|95/100
+|-sideend|p2: Test Izar22|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Coalossal
+|move|p1a: Toxapex|Toxic Spikes|p2a: Coalossal
+|-sidestart|p2: Test Izar22|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|42
+|
+|move|p2a: Coalossal|Stone Edge|p1a: Toxapex|[miss]
+|-miss|p2a: Coalossal|p1a: Toxapex
+|move|p1a: Toxapex|Toxic Spikes|p2a: Coalossal
+|-sidestart|p2: Test Izar22|move: Toxic Spikes
+|
+|upkeep
+|turn|43
+|
+|move|p2a: Coalossal|Rapid Spin|p1a: Toxapex
+|-damage|p1a: Toxapex|95/100
+|-sideend|p2: Test Izar22|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Coalossal
+|move|p1a: Toxapex|Toxic Spikes|p2a: Coalossal
+|-sidestart|p2: Test Izar22|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|44
+|
+|move|p2a: Coalossal|Stone Edge|p1a: Toxapex|[miss]
+|-miss|p2a: Coalossal|p1a: Toxapex
+|move|p1a: Toxapex|Scald|p2a: Coalossal
+|-supereffective|p2a: Coalossal
+|-damage|p2a: Coalossal|0 fnt
+|faint|p2a: Coalossal
+|
+|upkeep
+|
+|switch|p2a: Vanilluxe|Vanilluxe, F|78/100
+|-status|p2a: Vanilluxe|psn
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|turn|45
+|inactive|jatrix03 has 120 seconds left.
+|
+|switch|p1a: Cinderace|Cinderace, M|89/100
+|move|p2a: Vanilluxe|Freeze-Dry|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|65/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Cinderace|59/100|[from] Hail
+|-damage|p2a: Vanilluxe|66/100 psn|[from] psn
+|upkeep
+|turn|46
+|
+|switch|p2a: Kommo-o|Kommo-o, F|50/100 tox
+|move|p1a: Cinderace|Pyro Ball|p2a: Kommo-o|[miss]
+|-miss|p1a: Cinderace|p2a: Kommo-o
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Cinderace|53/100|[from] Hail
+|-damage|p2a: Kommo-o|43/100 tox|[from] psn
+|upkeep
+|turn|47
+|inactive|jatrix03 has 120 seconds left.
+|
+|move|p1a: Cinderace|U-turn|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|32/100 tox
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100|[from]move: U-turn
+|move|p2a: Kommo-o|Clanging Scales|p1a: Toxapex
+|-damage|p1a: Toxapex|59/100
+|-unboost|p2a: Kommo-o|def|1
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Toxapex|53/100|[from] Hail
+|-heal|p1a: Toxapex|59/100|[from] item: Black Sludge
+|-damage|p2a: Kommo-o|19/100 tox|[from] psn
+|upkeep
+|turn|48
+|
+|move|p2a: Kommo-o|Clanging Scales|p1a: Toxapex
+|-damage|p1a: Toxapex|19/100
+|-unboost|p2a: Kommo-o|def|1
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|69/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Toxapex|62/100|[from] Hail
+|-heal|p1a: Toxapex|69/100|[from] item: Black Sludge
+|-damage|p2a: Kommo-o|1/100 tox|[from] psn
+|upkeep
+|turn|49
+|
+|move|p2a: Kommo-o|Clanging Scales|p1a: Toxapex
+|-damage|p1a: Toxapex|31/100
+|-unboost|p2a: Kommo-o|def|1
+|move|p1a: Toxapex|Toxic Spikes|p2a: Kommo-o
+|-sidestart|p2: Test Izar22|move: Toxic Spikes
+|
+|-weather|none
+|-heal|p1a: Toxapex|37/100|[from] item: Black Sludge
+|-damage|p2a: Kommo-o|0 fnt|[from] psn
+|faint|p2a: Kommo-o
+|upkeep
+|
+|switch|p2a: Tsareena|Tsareena, F|94/100
+|-status|p2a: Tsareena|tox
+|turn|50
+|
+|move|p2a: Tsareena|Power Whip|p1a: Toxapex|[miss]
+|-miss|p2a: Tsareena|p1a: Toxapex
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|87/100
+|
+|-heal|p1a: Toxapex|93/100|[from] item: Black Sludge
+|-damage|p2a: Tsareena|88/100 tox|[from] psn
+|upkeep
+|turn|51
+|
+|move|p2a: Tsareena|Power Whip|p1a: Toxapex
+|-damage|p1a: Toxapex|36/100
+|move|p1a: Toxapex|Scald|p2a: Tsareena
+|-resisted|p2a: Tsareena
+|-damage|p2a: Tsareena|80/100 tox
+|
+|-heal|p1a: Toxapex|42/100|[from] item: Black Sludge
+|-damage|p2a: Tsareena|68/100 tox|[from] psn
+|upkeep
+|turn|52
+|
+|move|p2a: Tsareena|Power Whip|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-damage|p2a: Tsareena|50/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Cinderace|Cinderace, M|53/100
+|turn|53
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Tsareena|[miss]
+|-miss|p1a: Cinderace|p2a: Tsareena
+|move|p2a: Tsareena|Power Whip|p1a: Cinderace|[miss]
+|-miss|p2a: Tsareena|p1a: Cinderace
+|
+|-damage|p2a: Tsareena|25/100 tox|[from] psn
+|upkeep
+|turn|54
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Tsareena
+|-supereffective|p2a: Tsareena
+|-damage|p2a: Tsareena|0 fnt
+|faint|p2a: Tsareena
+|
+|upkeep
+|
+|switch|p2a: Vanilluxe|Vanilluxe, F|66/100 psn
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Vanilluxe
+|turn|55
+|
+|move|p2a: Vanilluxe|Blizzard|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|17/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Vanilluxe
+|-supereffective|p2a: Vanilluxe
+|-damage|p2a: Vanilluxe|0 fnt
+|faint|p2a: Vanilluxe
+|
+|win|jatrix03
+|c|☆jatrix03|gg
+|raw|jatrix03's rating: 1327 → 1346(+19 for winning)
+|raw|Test Izar22's rating: 1304 → 1285(-19 for losing)

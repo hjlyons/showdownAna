@@ -1,0 +1,156 @@
+|ScrapeTime|2020-01-02-03:11:00
+|j|☆TaiKamiya>Ash
+|j|☆Sh33troc
+|player|p1|TaiKamiya>Ash|266|
+|player|p2|Sh33troc|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Chandelure, F|
+|poke|p1|Bronzong|
+|poke|p1|Quagsire, M|
+|poke|p1|Cinccino, F|
+|poke|p1|Rillaboom, M|
+|poke|p1|Alcremie, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Coalossal, M|
+|poke|p2|Lucario, F|
+|poke|p2|Dracozolt|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆TaiKamiya>Ash|gl hf
+|c|☆Sh33troc|Gl hf to you too
+|
+|start
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|1
+|
+|move|p1a: Rillaboom|Bulk Up|p1a: Rillaboom
+|-boost|p1a: Rillaboom|atk|1
+|-boost|p1a: Rillaboom|def|1
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Rillaboom
+|-sidestart|p1: TaiKamiya>Ash|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Rillaboom|Bulk Up|p1a: Rillaboom
+|-boost|p1a: Rillaboom|atk|1
+|-boost|p1a: Rillaboom|def|1
+|move|p2a: Ferrothorn|Knock Off|p1a: Rillaboom
+|-damage|p1a: Rillaboom|89/100
+|-enditem|p1a: Rillaboom|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Coalossal|Coalossal, M|100/100
+|move|p1a: Rillaboom|Bulk Up|p1a: Rillaboom
+|-boost|p1a: Rillaboom|atk|1
+|-boost|p1a: Rillaboom|def|1
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Rillaboom|Earthquake|p2a: Coalossal
+|-supereffective|p2a: Coalossal
+|-damage|p2a: Coalossal|0 fnt
+|faint|p2a: Coalossal
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|5
+|
+|move|p2a: Rotom|Thunder Wave|p1a: Rillaboom
+|-status|p1a: Rillaboom|par
+|move|p1a: Rillaboom|Drum Beating|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|turn|6
+|
+|move|p1a: Rillaboom|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|switch|p2a: Lucario|Lucario, F|100/100
+|turn|7
+|
+|move|p2a: Lucario|Ice Punch|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|59/100 par
+|move|p1a: Rillaboom|Drain Punch|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|-heal|p1a: Rillaboom|98/100 par|[from] drain|[of] p2a: Lucario
+|faint|p2a: Lucario
+|
+|upkeep
+|
+|switch|p2a: Dracozolt|Dracozolt|100/100
+|turn|8
+|
+|move|p2a: Dracozolt|Breaking Swipe|p1a: Rillaboom
+|-damage|p1a: Rillaboom|80/100 par
+|-unboost|p1a: Rillaboom|atk|1
+|move|p1a: Rillaboom|Earthquake|p2a: Dracozolt
+|-supereffective|p2a: Dracozolt
+|-damage|p2a: Dracozolt|0 fnt
+|faint|p2a: Dracozolt
+|
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|9
+|c|☆Sh33troc|Gg
+|c|☆TaiKamiya>Ash|gg
+|
+|cant|p1a: Rillaboom|par
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Rillaboom
+|-damage|p1a: Rillaboom|69/100 par
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Rillaboom|Drain Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|41/100
+|-heal|p1a: Rillaboom|98/100 par|[from] drain|[of] p2a: Ferrothorn
+|-damage|p1a: Rillaboom|86/100 par|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Rillaboom|69/100 par|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Rillaboom
+|-damage|p1a: Rillaboom|58/100 par
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Rillaboom|Drain Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-heal|p1a: Rillaboom|78/100 par|[from] drain|[of] p2a: Ferrothorn
+|-damage|p1a: Rillaboom|65/100 par|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-damage|p1a: Rillaboom|49/100 par|[from] item: Rocky Helmet|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|win|TaiKamiya>Ash
+|l|☆Sh33troc

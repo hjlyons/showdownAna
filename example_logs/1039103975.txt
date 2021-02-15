@@ -1,0 +1,342 @@
+|ScrapeTime|2020-01-01-11:59:52
+|j|☆Ny-Boss
+|j|☆Gya Gya
+|player|p1|Ny-Boss|gambler|1124
+|player|p2|Gya Gya|skyla|1145
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Duraludon, M|
+|poke|p1|Centiskorch, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Gallade, M|
+|poke|p1|Toxtricity-Low-Key, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Dracovish|
+|poke|p2|Hatterene, F|
+|poke|p2|Galvantula, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Gyarados, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Toxtricity|Toxtricity-Low-Key, M|100/100
+|switch|p2a: Galvantula|Galvantula, F|100/100
+|turn|1
+|
+|move|p2a: Galvantula|Sticky Web|p1a: Toxtricity
+|-sidestart|p1: Ny-Boss|move: Sticky Web
+|move|p1a: Toxtricity|Boomburst|p2a: Galvantula
+|-enditem|p2a: Galvantula|Focus Sash
+|-damage|p2a: Galvantula|1/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Galvantula|Thunder|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|61/100
+|move|p1a: Toxtricity|Boomburst|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|turn|3
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Seismitoad
+|-damage|p2a: Seismitoad|16/100
+|move|p2a: Seismitoad|Earthquake|p1a: Toxtricity
+|-supereffective|p1a: Toxtricity
+|-crit|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|switch|p1a: Gallade|Gallade, M|100/100
+|-activate|p1a: Gallade|move: Sticky Web
+|-unboost|p1a: Gallade|spe|1
+|turn|4
+|
+|move|p1a: Gallade|Ice Punch|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Gallade|atk|1
+|turn|5
+|
+|switch|p1a: Duraludon|Duraludon, M|100/100
+|-activate|p1a: Duraludon|move: Sticky Web
+|-unboost|p1a: Duraludon|spe|1
+|move|p2a: Gyarados|Thunder Wave|p1a: Duraludon
+|-status|p1a: Duraludon|par
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|cant|p1a: Duraludon|par
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-activate|p1a: Tyranitar|move: Sticky Web
+|-unboost|p1a: Tyranitar|spe|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Hatterene|Mystical Fire|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|94/100
+|-unboost|p1a: Tyranitar|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hatterene|95/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|99/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Tyranitar|Stone Edge|p2a: Hatterene
+|-damage|p2a: Hatterene|45/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|69/100
+|-heal|p2a: Hatterene|71/100|[from] drain|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hatterene|65/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|75/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Tyranitar|Dragon Dance|p1a: Tyranitar
+|-boost|p1a: Tyranitar|atk|1
+|-boost|p1a: Tyranitar|spe|1
+|move|p2a: Hatterene|Draining Kiss|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|45/100
+|-heal|p2a: Hatterene|89/100|[from] drain|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hatterene|83/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|51/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Tyranitar|Stone Edge|p2a: Hatterene
+|-damage|p2a: Hatterene|18/100
+|move|p2a: Hatterene|Nuzzle|p1a: Tyranitar
+|-damage|p1a: Tyranitar|48/100
+|-status|p1a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hatterene|12/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Hatterene|Draining Kiss|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|28/100 par
+|-heal|p2a: Hatterene|34/100|[from] drain|[of] p1a: Tyranitar
+|move|p1a: Tyranitar|Crunch|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-weather|none
+|-heal|p1a: Tyranitar|34/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|turn|12
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|cant|p1a: Tyranitar|par
+|
+|-heal|p1a: Tyranitar|40/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Gyarados|Waterfall|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|upkeep
+|
+|switch|p1a: Gallade|Gallade, M|100/100
+|-activate|p1a: Gallade|move: Sticky Web
+|-unboost|p1a: Gallade|spe|1
+|turn|14
+|
+|move|p2a: Gyarados|Waterfall|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|faint|p1a: Gallade
+|
+|upkeep
+|
+|switch|p1a: Centiskorch|Centiskorch, M|100/100
+|-activate|p1a: Centiskorch|move: Sticky Web
+|-unboost|p1a: Centiskorch|spe|1
+|turn|15
+|
+|move|p2a: Gyarados|Waterfall|p1a: Centiskorch
+|-supereffective|p1a: Centiskorch
+|-enditem|p1a: Centiskorch|Focus Sash
+|-damage|p1a: Centiskorch|1/100
+|move|p1a: Centiskorch|Will-O-Wisp|p2a: Gyarados
+|-status|p2a: Gyarados|brn
+|
+|-damage|p2a: Gyarados|94/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Centiskorch|Power Whip|p2a: Gyarados
+|-damage|p2a: Gyarados|41/100 brn
+|
+|-damage|p2a: Gyarados|35/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Gyarados|Waterfall|p1a: Centiskorch
+|-supereffective|p1a: Centiskorch
+|-damage|p1a: Centiskorch|0 fnt
+|faint|p1a: Centiskorch
+|
+|-damage|p2a: Gyarados|29/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Duraludon|Duraludon, M|100/100 par
+|-activate|p1a: Duraludon|move: Sticky Web
+|-unboost|p1a: Duraludon|spe|1
+|turn|18
+|
+|move|p2a: Gyarados|Waterfall|p1a: Duraludon
+|-resisted|p1a: Duraludon
+|-damage|p1a: Duraludon|83/100 par
+|cant|p1a: Duraludon|flinch
+|
+|-damage|p2a: Gyarados|23/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p2a: Gyarados|Waterfall|p1a: Duraludon
+|-resisted|p1a: Duraludon
+|-damage|p1a: Duraludon|65/100 par
+|cant|p1a: Duraludon|flinch
+|
+|-damage|p2a: Gyarados|17/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p2a: Gyarados|Waterfall|p1a: Duraludon
+|-resisted|p1a: Duraludon
+|-damage|p1a: Duraludon|48/100 par
+|cant|p1a: Duraludon|par
+|
+|-damage|p2a: Gyarados|11/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p2a: Gyarados|Waterfall|p1a: Duraludon
+|-resisted|p1a: Duraludon
+|-damage|p1a: Duraludon|31/100 par
+|cant|p1a: Duraludon|flinch
+|
+|-damage|p2a: Gyarados|5/100 brn|[from] brn
+|upkeep
+|turn|22
+|c|☆Gya Gya|Those hax though
+|c|☆Ny-Boss|😂😂
+|
+|move|p2a: Gyarados|Waterfall|p1a: Duraludon
+|-resisted|p1a: Duraludon
+|-damage|p1a: Duraludon|11/100 par
+|cant|p1a: Duraludon|par
+|
+|-damage|p2a: Gyarados|0 fnt|[from] brn
+|faint|p2a: Gyarados
+|upkeep
+|c|☆Gya Gya|Next ban is gonna be waterfall thunderwave gyara
+|c|☆Ny-Boss|😂😂
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|23
+|
+|move|p2a: Grimmsnarl|Substitute|p2a: Grimmsnarl
+|-start|p2a: Grimmsnarl|Substitute
+|-damage|p2a: Grimmsnarl|76/100
+|move|p1a: Duraludon|Reflect|p1a: Duraludon
+|-sidestart|p1: Ny-Boss|Reflect
+|
+|-heal|p2a: Grimmsnarl|82/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Grimmsnarl|Darkest Lariat|p1a: Duraludon
+|-damage|p1a: Duraludon|0 fnt
+|faint|p1a: Duraludon
+|
+|-heal|p2a: Grimmsnarl|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-activate|p1a: Dragapult|move: Sticky Web
+|-unboost|p1a: Dragapult|spe|1
+|turn|25
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Dragapult
+|-status|p1a: Dragapult|par
+|cant|p1a: Dragapult|par
+|
+|-heal|p2a: Grimmsnarl|94/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|c|☆Ny-Boss|Ultimate haxx
+|
+|move|p2a: Grimmsnarl|Darkest Lariat|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|35/100 par
+|move|p1a: Dragapult|Dragon Darts|p2a: Grimmsnarl
+|-immune|p2a: Grimmsnarl
+|
+|-heal|p2a: Grimmsnarl|99/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Grimmsnarl|Darkest Lariat|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|win|Gya Gya
+|raw|Ny-Boss's rating: 1124 → 1101(-23 for losing)
+|raw|Gya Gya's rating: 1145 → 1169(+24 for winning)
+|c|☆Ny-Boss|Missclick *
+|c|☆Gya Gya|Yeah
+|l|☆Ny-Boss
+|c|☆Gya Gya|Gg besides the infinite paraflinches

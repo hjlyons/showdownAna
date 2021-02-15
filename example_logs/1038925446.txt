@@ -1,0 +1,229 @@
+|ScrapeTime|2020-01-01-00:48:45
+|j|☆Orla_Shala
+|j|☆Brave24
+|player|p1|Orla_Shala|249|1076
+|player|p2|Brave24|169|1053
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Seismitoad, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Hydreigon, M|
+|poke|p1|Dracovish|
+|poke|p1|Rotom-Heat|
+|poke|p2|Thievul, M|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Mr. Mime-Galar, M|
+|poke|p2|Runerigus, M|
+|poke|p2|Perrserker, M|
+|poke|p2|Coalossal, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dracovish|Dracovish|100/100
+|switch|p2a: Runerigus|Runerigus, M|100/100
+|turn|1
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Runerigus
+|-supereffective|p2a: Runerigus
+|-damage|p2a: Runerigus|0 fnt
+|-activate|p1a: Dracovish|ability: Wandering Spirit|Wandering Spirit|Strong Jaw|[of] p2a: Runerigus
+|faint|p2a: Runerigus
+|
+|upkeep
+|
+|switch|p2a: Mr. Mime|Mr. Mime-Galar, M|100/100
+|turn|2
+|
+|move|p2a: Mr. Mime|Protect|p2a: Mr. Mime
+|-singleturn|p2a: Mr. Mime|Protect
+|move|p1a: Dracovish|Fishious Rend|p2a: Mr. Mime
+|-activate|p2a: Mr. Mime|move: Protect
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Mr. Mime
+|-enditem|p2a: Mr. Mime|Focus Sash
+|-damage|p2a: Mr. Mime|1/100
+|move|p2a: Mr. Mime|Freeze-Dry|p1a: Dracovish
+|-supereffective|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|turn|4
+|
+|move|p2a: Mr. Mime|Thunder Wave|p1a: Corsola
+|-status|p1a: Corsola|par
+|cant|p1a: Corsola|par
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Mr. Mime|Freeze-Dry|p1a: Corsola
+|-damage|p1a: Corsola|86/100 par
+|move|p1a: Corsola|Shadow Ball|p2a: Mr. Mime
+|-supereffective|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|
+|upkeep
+|
+|switch|p2a: Thievul|Thievul, M|100/100
+|turn|6
+|
+|move|p2a: Thievul|Snarl|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|60/100 par
+|-unboost|p1a: Corsola|spa|1
+|-enditem|p2a: Thievul|Throat Spray
+|-boost|p2a: Thievul|spa|1
+|cant|p1a: Corsola|par
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Thievul|Nasty Plot|p2a: Thievul
+|-boost|p2a: Thievul|spa|2
+|move|p1a: Corsola|Strength Sap|p2a: Thievul
+|-unboost|p2a: Thievul|atk|1
+|-heal|p1a: Corsola|93/100 par
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Thievul|Dark Pulse|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-crit|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|turn|9
+|
+|move|p2a: Thievul|Dark Pulse|p1a: Seismitoad
+|-damage|p1a: Seismitoad|8/100
+|move|p1a: Seismitoad|Toxic|p2a: Thievul
+|-status|p2a: Thievul|tox
+|
+|-heal|p1a: Seismitoad|14/100|[from] item: Leftovers
+|-damage|p2a: Thievul|94/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|move|p2a: Thievul|Dark Pulse|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-damage|p2a: Thievul|82/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|turn|11
+|
+|move|p2a: Thievul|Dark Pulse|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|47/100
+|cant|p1a: Hydreigon|flinch
+|
+|-damage|p2a: Thievul|64/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Thievul|Dark Pulse|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-damage|p2a: Thievul|40/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|47/100
+|turn|13
+|
+|move|p2a: Thievul|Dark Pulse|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-damage|p2a: Thievul|10/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|14
+|
+|move|p2a: Thievul|Psychic|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|72/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-damage|p2a: Thievul|0 fnt|[from] psn
+|faint|p2a: Thievul
+|upkeep
+|
+|switch|p2a: Coalossal|Coalossal, M|100/100
+|turn|15
+|
+|move|p1a: Corviknight|U-turn|p2a: Coalossal
+|-resisted|p2a: Coalossal
+|-damage|p2a: Coalossal|94/100
+|move|p2a: Coalossal|Heat Crash|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|37/100
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|87/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Coalossal|Heat Crash|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|24/100
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|74/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Coalossal|Heat Crash|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|1/100
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|51/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Coalossal|Heat Crash|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|win|Brave24
+|raw|Orla_Shala's rating: 1076 → 1053(-23 for losing)
+|raw|Brave24's rating: 1053 → 1087(+34 for winning)
+|l|☆Orla_Shala

@@ -1,0 +1,643 @@
+|ScrapeTime|2020-01-02-23:18:45
+|j|☆arenasCV
+|j|☆Vyhael
+|player|p1|arenasCV|101|
+|player|p2|Vyhael|101|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gardevoir, M|
+|poke|p1|Hydreigon, M|
+|poke|p1|Cramorant, F|
+|poke|p1|Boltund, M|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Sirfetch'd, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Dragapult, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|c|☆arenasCV|Vamos a esperar un poco
+|
+|start
+|switch|p1a: Sirfetch'd|Sirfetch'd, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Sirfetch'd
+|-status|p1a: Sirfetch'd|brn
+|move|p1a: Sirfetch'd|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|80/100
+|-enditem|p2a: Rotom|Choice Scarf|[from] move: Knock Off|[of] p1a: Sirfetch'd
+|
+|-damage|p1a: Sirfetch'd|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|move|p2a: Rotom|Volt Switch|p1a: Sirfetch'd
+|-damage|p1a: Sirfetch'd|66/100 brn
+|j| Sf15
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100|[from]move: Volt Switch
+|move|p1a: Sirfetch'd|Knock Off|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|83/100
+|-enditem|p2a: Corsola|Eviolite|[from] move: Knock Off|[of] p1a: Sirfetch'd
+|
+|-damage|p1a: Sirfetch'd|60/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: Sirfetch'd|Simple Beam|p2a: Corsola
+|-endability|p2a: Corsola|Cursed Body|[from] move: Simple Beam
+|-ability|p2a: Corsola|Simple|[from] move: Simple Beam
+|move|p2a: Corsola|Stealth Rock|p1a: Sirfetch'd
+|-sidestart|p1: arenasCV|move: Stealth Rock
+|
+|-damage|p1a: Sirfetch'd|54/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: Gardevoir|Gardevoir, M|100/100
+|-damage|p1a: Gardevoir|88/100|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Simple|[from] ability: Trace|[of] p2a: Corsola
+|move|p2a: Corsola|Hex|p1a: Gardevoir
+|-supereffective|p1a: Gardevoir
+|-damage|p1a: Gardevoir|57/100
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Gardevoir|Calm Mind|p1a: Gardevoir
+|-boost|p1a: Gardevoir|spa|2
+|-boost|p1a: Gardevoir|spd|2
+|
+|upkeep
+|turn|6
+|j| Clogud
+|c| Sf15|Lol
+|
+|switch|p1a: Boltund|Boltund, M|100/100
+|-damage|p1a: Boltund|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Boltund
+|-start|p1a: Boltund|move: Leech Seed
+|
+|-damage|p1a: Boltund|76/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|7
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Boltund|Fire Fang|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|86/100
+|-damage|p1a: Boltund|66/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Boltund|60/100|[from] Sandstorm
+|-damage|p1a: Boltund|48/100|[from] Leech Seed|[of] p2a: Tyranitar
+|-heal|p2a: Tyranitar|94/100|[silent]
+|upkeep
+|turn|8
+|
+|move|p1a: Boltund|Volt Switch|p2a: Tyranitar
+|-damage|p2a: Tyranitar|78/100
+|-damage|p1a: Boltund|38/100|[from] item: Life Orb
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100|[from]move: Volt Switch
+|-damage|p1a: Corsola|88/100|[from] Stealth Rock
+|move|p2a: Tyranitar|Stone Edge|p1a: Corsola|[miss]
+|-miss|p2a: Tyranitar|p1a: Corsola
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|82/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|move|p2a: Tyranitar|Crunch|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|35/100
+|move|p1a: Corsola|Will-O-Wisp|p2a: Tyranitar
+|-status|p2a: Tyranitar|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|29/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|72/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Tyranitar|Crunch|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|2/100
+|-start|p2a: Tyranitar|Disable|Crunch|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Strength Sap|p2a: Tyranitar
+|-unboost|p2a: Tyranitar|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Corsola|94/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|66/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p2a: Corsola|Corsola-Galar, F|83/100
+|move|p1a: Corsola|Stealth Rock|p2a: Corsola
+|-sidestart|p2: Vyhael|move: Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|switch|p1a: Cramorant|Cramorant, F|100/100
+|move|p2a: Corsola|Will-O-Wisp|p1a: Cramorant
+|-status|p1a: Cramorant|brn
+|
+|-damage|p1a: Cramorant|94/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p1a: Cramorant|Surf|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|87/100
+|-formechange|p1a: Cramorant|Cramorant-Gulping|
+|
+|-heal|p2a: Ferrothorn|93/100|[from] item: Leftovers
+|-damage|p1a: Cramorant|88/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Cramorant|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p2: Vyhael|Stealth Rock|[from] move: Defog|[of] p1a: Cramorant
+|-sideend|p1: arenasCV|Stealth Rock|[from] move: Defog|[of] p1a: Cramorant
+|move|p2a: Ferrothorn|Spikes|p1a: Cramorant
+|-sidestart|p1: arenasCV|Spikes
+|
+|-heal|p2a: Ferrothorn|99/100|[from] item: Leftovers
+|-damage|p1a: Cramorant|82/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Cramorant|Air Slash|p2a: Ferrothorn
+|-crit|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|78/100
+|cant|p2a: Ferrothorn|flinch
+|
+|-heal|p2a: Ferrothorn|84/100|[from] item: Leftovers
+|-damage|p1a: Cramorant|76/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Cramorant|Air Slash|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|70/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Cramorant
+|-start|p1a: Cramorant|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|76/100|[from] item: Leftovers
+|-damage|p1a: Cramorant|63/100 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|88/100|[silent]
+|-damage|p1a: Cramorant|57/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p1a: Sirfetch'd|Sirfetch'd, M|54/100 brn
+|-damage|p1a: Sirfetch'd|41/100 brn|[from] Spikes
+|-enditem|p1a: Sirfetch'd|Sitrus Berry|[eat]
+|-heal|p1a: Sirfetch'd|66/100 brn|[from] item: Sitrus Berry
+|move|p2a: Ferrothorn|Spikes|p1a: Sirfetch'd
+|-sidestart|p1: arenasCV|Spikes
+|
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|-damage|p1a: Sirfetch'd|60/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p2a: Corsola|Corsola-Galar, F|83/100
+|move|p1a: Sirfetch'd|Close Combat|p2a: Corsola
+|-damage|p2a: Corsola|59/100
+|-unboost|p1a: Sirfetch'd|def|1
+|-unboost|p1a: Sirfetch'd|spd|1
+|
+|-damage|p1a: Sirfetch'd|54/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Corsola|Stealth Rock|p1a: Hydreigon
+|-sidestart|p1: arenasCV|move: Stealth Rock
+|
+|upkeep
+|turn|20
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|94/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|69/100
+|
+|-heal|p2a: Ferrothorn|75/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Cramorant|Cramorant, F|57/100 brn
+|switch|p2a: Tyranitar|Tyranitar, M|66/100 brn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cramorant|51/100 brn|[from] Sandstorm
+|-damage|p1a: Cramorant|44/100 brn|[from] brn
+|-damage|p2a: Tyranitar|60/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|75/100
+|move|p1a: Cramorant|Roost|p1a: Cramorant
+|-heal|p1a: Cramorant|95/100 brn
+|-singleturn|p1a: Cramorant|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cramorant|88/100 brn|[from] Sandstorm
+|-heal|p2a: Ferrothorn|81/100|[from] item: Leftovers
+|-damage|p1a: Cramorant|82/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Cramorant|Defog|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|evasion|1
+|-sideend|p1: arenasCV|Spikes|[from] move: Defog|[of] p1a: Cramorant
+|-sideend|p1: arenasCV|Stealth Rock|[from] move: Defog|[of] p1a: Cramorant
+|move|p2a: Ferrothorn|Leech Seed|p1a: Cramorant
+|-start|p1a: Cramorant|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cramorant|76/100 brn|[from] Sandstorm
+|-heal|p2a: Ferrothorn|87/100|[from] item: Leftovers
+|-damage|p1a: Cramorant|63/100 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|99/100|[silent]
+|-damage|p1a: Cramorant|57/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p1a: Sirfetch'd|Sirfetch'd, M|54/100 brn
+|move|p2a: Ferrothorn|Power Whip|p1a: Sirfetch'd
+|-damage|p1a: Sirfetch'd|10/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sirfetch'd|4/100 brn|[from] Sandstorm
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p1a: Sirfetch'd|0 fnt|[from] brn
+|faint|p1a: Sirfetch'd
+|upkeep
+|
+|switch|p1a: Boltund|Boltund, M|38/100
+|turn|25
+|
+|switch|p2a: Tyranitar|Tyranitar, M|60/100 brn
+|move|p1a: Boltund|Thunder Fang|p2a: Tyranitar
+|-damage|p2a: Tyranitar|12/100 brn
+|-damage|p1a: Boltund|29/100|[from] item: Life Orb
+|
+|-weather|none
+|-damage|p2a: Tyranitar|6/100 brn|[from] brn
+|upkeep
+|turn|26
+|l| Sf15
+|
+|switch|p2a: Corsola|Corsola-Galar, F|59/100
+|move|p1a: Boltund|Volt Switch|p2a: Corsola
+|-damage|p2a: Corsola|32/100
+|-damage|p1a: Boltund|19/100|[from] item: Life Orb
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-start|p1a: Hydreigon|Disable|Dark Pulse|[from] ability: Cursed Body|[of] p2a: Corsola
+|faint|p2a: Corsola
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|28
+|
+|switch|p1a: Cramorant|Cramorant, F|57/100 brn
+|move|p2a: Dragapult|Draco Meteor|p1a: Cramorant
+|-damage|p1a: Cramorant|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Cramorant
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|turn|29
+|j| Sf15
+|
+|switch|p2a: Rotom|Rotom-Wash|80/100
+|move|p1a: Hydreigon|Flamethrower|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|64/100
+|
+|upkeep
+|turn|30
+|
+|switch|p1a: Corsola|Corsola-Galar, M|94/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Corsola
+|-status|p1a: Corsola|brn
+|
+|-damage|p1a: Corsola|88/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p2a: Rotom|Volt Switch|p1a: Corsola
+|-damage|p1a: Corsola|71/100 brn
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100|[from]move: Volt Switch
+|move|p1a: Corsola|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Vyhael|move: Stealth Rock
+|
+|-damage|p1a: Corsola|65/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p1a: Corsola|Will-O-Wisp|p2a: Ferrothorn|[miss]
+|-miss|p1a: Corsola|p2a: Ferrothorn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Corsola
+|-start|p1a: Corsola|move: Leech Seed
+|
+|-damage|p1a: Corsola|53/100 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-damage|p1a: Corsola|46/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Corsola|Strength Sap|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-damage|p1a: Corsola|34/100 brn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-damage|p1a: Corsola|28/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|switch|p2a: Tyranitar|Tyranitar, M|6/100 brn
+|-damage|p2a: Tyranitar|0 fnt|[from] Stealth Rock
+|faint|p2a: Tyranitar
+|move|p1a: Corsola|Strength Sap|p2: Tyranitar|[notarget]
+|-fail|p1a: Corsola
+|
+|-damage|p1a: Corsola|21/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|95/100|[from] Stealth Rock
+|turn|35
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Ferrothorn|Protect||[still]
+|-fail|p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|switch|p2a: Rotom|Rotom-Wash|64/100
+|-damage|p2a: Rotom|52/100|[from] Stealth Rock
+|move|p1a: Hydreigon|Flamethrower|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|35/100
+|
+|upkeep
+|turn|37
+|
+|switch|p1a: Gardevoir|Gardevoir, M|57/100
+|-ability|p1a: Gardevoir|Levitate|[from] ability: Trace|[of] p2a: Rotom
+|move|p2a: Rotom|Will-O-Wisp|p1a: Gardevoir
+|-status|p1a: Gardevoir|brn
+|
+|-damage|p1a: Gardevoir|50/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Gardevoir
+|-crit|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|turn|39
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|40
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|95/100|[from] Stealth Rock
+|turn|41
+|
+|switch|p1a: Boltund|Boltund, M|19/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Boltund
+|-start|p1a: Boltund|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p1a: Boltund|7/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|42
+|
+|switch|p1a: Corsola|Corsola-Galar, M|21/100 brn
+|move|p2a: Ferrothorn|Protect||[still]
+|-fail|p2a: Ferrothorn
+|
+|-damage|p1a: Corsola|15/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|move|p1a: Corsola|Strength Sap|p2a: Excadrill
+|-unboost|p2a: Excadrill|atk|1
+|-heal|p1a: Corsola|100/100 brn
+|
+|-heal|p2a: Excadrill|100/100|[from] item: Leftovers
+|-damage|p1a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|move|p1a: Corsola|Will-O-Wisp|p2a: Excadrill|[miss]
+|-miss|p1a: Corsola|p2a: Excadrill
+|
+|-damage|p1a: Corsola|88/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|move|p2a: Excadrill|Rapid Spin|p1a: Corsola
+|-immune|p1a: Corsola
+|move|p1a: Corsola|Will-O-Wisp|p2a: Excadrill
+|-status|p2a: Excadrill|brn
+|
+|-damage|p2a: Excadrill|94/100 brn|[from] brn
+|-damage|p1a: Corsola|82/100 brn|[from] brn
+|upkeep
+|turn|46
+|c|☆arenasCV|F
+|
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|move|p1a: Corsola|Strength Sap|p2a: Excadrill
+|-unboost|p2a: Excadrill|atk|1
+|-heal|p1a: Corsola|100/100 brn
+|
+|-heal|p2a: Excadrill|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Excadrill|94/100 brn|[from] brn
+|-damage|p1a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|move|p1a: Corsola|Night Shade|p2a: Excadrill
+|-damage|p2a: Excadrill|67/100 brn
+|
+|-heal|p2a: Excadrill|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Excadrill|67/100 brn|[from] brn
+|-damage|p1a: Corsola|88/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|move|p1a: Corsola|Strength Sap|p2a: Excadrill
+|-unboost|p2a: Excadrill|atk|1
+|-heal|p1a: Corsola|100/100 brn
+|
+|-heal|p2a: Excadrill|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Excadrill|67/100 brn|[from] brn
+|-damage|p1a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|move|p2a: Excadrill|Iron Head|p1a: Corsola
+|-damage|p1a: Corsola|53/100 brn
+|move|p1a: Corsola|Strength Sap|p2a: Excadrill
+|-unboost|p2a: Excadrill|atk|1
+|-heal|p1a: Corsola|100/100 brn
+|
+|-heal|p2a: Excadrill|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Excadrill|67/100 brn|[from] brn
+|-damage|p1a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|move|p2a: Excadrill|Iron Head|p1a: Corsola
+|-damage|p1a: Corsola|60/100 brn
+|cant|p1a: Corsola|flinch
+|
+|-heal|p2a: Excadrill|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Excadrill|67/100 brn|[from] brn
+|-damage|p1a: Corsola|53/100 brn|[from] brn
+|upkeep
+|turn|51
+|l| Sf15
+|
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|move|p1a: Corsola|Strength Sap|p2a: Excadrill
+|-unboost|p2a: Excadrill|atk|1
+|-heal|p1a: Corsola|100/100 brn
+|
+|-heal|p2a: Excadrill|73/100 brn|[from] item: Leftovers
+|-damage|p2a: Excadrill|67/100 brn|[from] brn
+|-damage|p1a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|move|p2a: Excadrill|Iron Head|p1a: Corsola
+|-damage|p1a: Corsola|49/100 brn
+|-start|p2a: Excadrill|Disable|Iron Head|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Night Shade|p2a: Excadrill
+|-damage|p2a: Excadrill|39/100 brn
+|
+|-heal|p2a: Excadrill|45/100 brn|[from] item: Leftovers
+|-damage|p2a: Excadrill|39/100 brn|[from] brn
+|-damage|p1a: Corsola|43/100 brn|[from] brn
+|upkeep
+|turn|53
+|j| Sf15
+|
+|move|p2a: Excadrill|Earthquake|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|-heal|p2a: Excadrill|45/100 brn|[from] item: Leftovers
+|-damage|p2a: Excadrill|39/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|turn|54
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|95/100|[from] Stealth Rock
+|move|p1a: Hydreigon|Flamethrower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|14/100
+|
+|-heal|p2a: Ferrothorn|20/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|c|☆Vyhael|Gg
+|
+|move|p1a: Hydreigon|Flamethrower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|c|☆arenasCV|GG
+|
+|switch|p2a: Excadrill|Excadrill, M|39/100 brn
+|-damage|p2a: Excadrill|36/100 brn|[from] Stealth Rock
+|turn|56
+|
+|move|p1a: Hydreigon|Flamethrower|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|win|arenasCV
+|l| Sf15
+|l|☆Vyhael
+|player|p1|arenasCV|101
+|l| Clogud

@@ -1,0 +1,850 @@
+|ScrapeTime|2020-01-02-09:45:17
+|j|☆jerry judewong
+|j|☆katas00
+|player|p1|jerry judewong|27|1139
+|player|p2|katas00|2|1149
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dubwool, F|
+|poke|p1|Umbreon, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Pyukumuku, F|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Barraskewda, M|
+|poke|p2|Dracovish|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|turn|1
+|
+|move|p2a: Conkeldurr|Close Combat|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|66/100
+|-unboost|p2a: Conkeldurr|def|1
+|-unboost|p2a: Conkeldurr|spd|1
+|move|p1a: Toxapex|Toxic Spikes|p2a: Conkeldurr
+|-sidestart|p2: katas00|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|72/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Toxapex|Toxic Spikes|p2a: Pelipper
+|-sidestart|p2: katas00|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|78/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|move|p2a: Pelipper|Hurricane|p1a: Toxapex
+|-damage|p1a: Toxapex|48/100
+|move|p1a: Toxapex|Toxic|p2a: Pelipper
+|-status|p2a: Pelipper|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|54/100|[from] item: Black Sludge
+|-damage|p2a: Pelipper|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Pelipper|Hurricane|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|71/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|77/100|[from] item: Leftovers
+|-damage|p2a: Pelipper|82/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|move|p2a: Pelipper|U-turn|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|72/100
+|-damage|p2a: Pelipper|70/100 tox|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|switch|p2a: Dracovish|Dracovish|100/100|[from]move: U-turn
+|-status|p2a: Dracovish|tox
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Dracovish
+|-sidestart|p2: katas00|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|78/100|[from] item: Leftovers
+|-damage|p2a: Dracovish|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|35/100
+|-damage|p2a: Dracovish|82/100 tox|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Dracovish
+|-start|p2a: Dracovish|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|41/100|[from] item: Leftovers
+|-damage|p2a: Dracovish|69/100 tox|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|52/100|[silent]
+|-damage|p2a: Dracovish|57/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p1a: Toxapex|Toxapex, M|87/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|16/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|22/100|[from] item: Black Sludge
+|-damage|p2a: Dracovish|44/100 tox|[from] Leech Seed|[of] p1a: Toxapex
+|-heal|p1a: Toxapex|35/100|[silent]
+|-damage|p2a: Dracovish|26/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|52/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|10/100
+|-damage|p2a: Dracovish|13/100 tox|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|17/100|[from] item: Leftovers
+|-damage|p2a: Dracovish|1/100 tox|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|28/100|[silent]
+|-damage|p2a: Dracovish|0 fnt|[from] psn
+|faint|p2a: Dracovish
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, M|100/100
+|-damage|p2a: Barraskewda|88/100|[from] Stealth Rock
+|-status|p2a: Barraskewda|tox
+|turn|9
+|
+|move|p2a: Barraskewda|Close Combat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Barraskewda|76/100 tox|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-unboost|p2a: Barraskewda|def|1
+|-unboost|p2a: Barraskewda|spd|1
+|-damage|p2a: Barraskewda|66/100 tox|[from] item: Life Orb
+|faint|p1a: Ferrothorn
+|
+|-weather|none
+|-damage|p2a: Barraskewda|60/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Pyukumuku|Pyukumuku, F|100/100
+|turn|10
+|
+|move|p2a: Barraskewda|Close Combat|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|49/100
+|-unboost|p2a: Barraskewda|def|1
+|-unboost|p2a: Barraskewda|spd|1
+|-damage|p2a: Barraskewda|50/100 tox|[from] item: Life Orb
+|move|p1a: Pyukumuku|Reflect|p1a: Pyukumuku
+|-sidestart|p1: jerry judewong|Reflect
+|
+|-damage|p2a: Barraskewda|38/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p2a: Pelipper|Pelipper, M|70/100 tox
+|-damage|p2a: Pelipper|45/100 tox|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|99/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|39/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|89/100 tox
+|-singleturn|p2a: Pelipper|move: Roost
+|move|p1a: Pyukumuku|Light Screen|p1a: Pyukumuku
+|-sidestart|p1: jerry judewong|move: Light Screen
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|76/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|100/100 tox
+|-singleturn|p2a: Pelipper|move: Roost
+|move|p1a: Pyukumuku|Spite|p2a: Pelipper
+|-activate|p2a: Pelipper|move: Spite|Roost|4
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|82/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|move|p2a: Pelipper|Hurricane|p1a: Corsola
+|-damage|p1a: Corsola|91/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|57/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|move|p2a: Pelipper|U-turn|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|90/100
+|-start|p2a: Pelipper|Disable|U-turn|[from] ability: Cursed Body|[of] p1a: Corsola
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100|[from]move: U-turn
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Corsola|Curse|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|Curse|[of] p1a: Corsola
+|-damage|p1a: Corsola|40/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|75/100|[from] Curse
+|upkeep
+|turn|16
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Corsola|Strength Sap|p2a: Rotom
+|-unboost|p2a: Rotom|atk|1
+|-heal|p1a: Corsola|77/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|switch|p1a: Toxapex|Toxapex, M|69/100
+|move|p2a: Rotom|Volt Switch|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|45/100
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|75/100|[from]move: Volt Switch
+|-damage|p2a: Ferrothorn|69/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|51/100|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|75/100|[from] item: Leftovers
+|-sideend|p1: jerry judewong|Reflect
+|upkeep
+|turn|18
+|
+|move|p1a: Toxapex|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|66/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Toxapex
+|-sidestart|p1: jerry judewong|move: Stealth Rock
+|
+|-weather|none
+|-heal|p1a: Toxapex|57/100|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|72/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Toxapex|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|65/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Toxapex
+|-start|p1a: Toxapex|move: Leech Seed
+|
+|-heal|p1a: Toxapex|63/100|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|71/100|[from] item: Leftovers
+|-damage|p1a: Toxapex|51/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|82/100|[silent]
+|-sideend|p1: jerry judewong|move: Light Screen
+|upkeep
+|turn|20
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Toxapex|Scald|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Toxapex|57/100|[from] item: Black Sludge
+|-heal|p2a: Ferrothorn|88/100|[from] item: Leftovers
+|-damage|p1a: Toxapex|45/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|99/100|[silent]
+|upkeep
+|turn|21
+|
+|switch|p1a: Umbreon|Umbreon, F|100/100
+|-damage|p1a: Umbreon|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Power Whip|p1a: Umbreon
+|-damage|p1a: Umbreon|57/100
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Umbreon|Moonlight|p1a: Umbreon
+|-heal|p1a: Umbreon|100/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Umbreon|[miss]
+|-miss|p2a: Ferrothorn|p1a: Umbreon
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Umbreon|Charm|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|atk|2
+|move|p2a: Ferrothorn|Leech Seed|p1a: Umbreon|[miss]
+|-miss|p2a: Ferrothorn|p1a: Umbreon
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|move|p2a: Ferrothorn|Leech Seed|p1a: Umbreon|[miss]
+|-miss|p2a: Ferrothorn|p1a: Umbreon
+|
+|upkeep
+|turn|25
+|
+|switch|p1a: Dubwool|Dubwool, F|100/100
+|-damage|p1a: Dubwool|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Dubwool
+|-start|p1a: Dubwool|move: Leech Seed
+|
+|-heal|p1a: Dubwool|100/100|[from] move: Wish|[wisher] Umbreon
+|-damage|p1a: Dubwool|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|26
+|
+|move|p1a: Dubwool|Cotton Guard|p1a: Dubwool
+|-boost|p1a: Dubwool|def|3
+|move|p2a: Ferrothorn|Power Whip|p1a: Dubwool
+|-damage|p1a: Dubwool|84/100
+|-damage|p2a: Ferrothorn|84/100|[from] item: Rocky Helmet|[of] p1a: Dubwool
+|
+|-heal|p2a: Ferrothorn|90/100|[from] item: Leftovers
+|-damage|p1a: Dubwool|72/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|27
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Dubwool|Cotton Guard|p1a: Dubwool
+|-boost|p1a: Dubwool|def|3
+|
+|-damage|p1a: Dubwool|59/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|28
+|
+|switch|p2a: Pelipper|Pelipper, M|57/100 tox
+|-damage|p2a: Pelipper|32/100 tox|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Dubwool|Body Press|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|4/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Dubwool|47/100|[from] Leech Seed|[of] p2a: Pelipper
+|-heal|p2a: Pelipper|17/100 tox|[silent]
+|-damage|p2a: Pelipper|11/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|move|p1a: Dubwool|Body Press|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, M|38/100 tox
+|-damage|p2a: Barraskewda|26/100 tox|[from] Stealth Rock
+|turn|30
+|
+|move|p2a: Barraskewda|Close Combat|p1a: Dubwool
+|-supereffective|p1a: Dubwool
+|-damage|p1a: Dubwool|32/100
+|-damage|p2a: Barraskewda|10/100 tox|[from] item: Rocky Helmet|[of] p1a: Dubwool
+|-unboost|p2a: Barraskewda|def|1
+|-unboost|p2a: Barraskewda|spd|1
+|-damage|p2a: Barraskewda|0 fnt|[from] item: Life Orb
+|faint|p2a: Barraskewda
+|move|p1a: Dubwool|Rest|p1a: Dubwool
+|-status|p1a: Dubwool|slp|[from] move: Rest
+|-heal|p1a: Dubwool|100/100 slp|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|88/100
+|-damage|p2a: Rotom|76/100|[from] Stealth Rock
+|turn|31
+|
+|move|p2a: Rotom|Thunder|p1a: Dubwool
+|-damage|p1a: Dubwool|66/100 slp
+|cant|p1a: Dubwool|slp
+|move|p1a: Dubwool|Sleep Talk|p1a: Dubwool
+|move|p1a: Dubwool|Cotton Guard|p1a: Dubwool|[from]Sleep Talk
+|-boost|p1a: Dubwool|def|0
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Dubwool|54/100 slp|[from] Leech Seed|[of] p2a: Rotom
+|-heal|p2a: Rotom|93/100|[silent]
+|upkeep
+|turn|32
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|switch|p1a: Corsola|Corsola-Galar, F|77/100
+|-damage|p1a: Corsola|65/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p2a: Ferrothorn|Leech Seed|p1a: Corsola
+|-start|p1a: Corsola|move: Leech Seed
+|move|p1a: Corsola|Whirlpool|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|97/100
+|-activate|p2a: Ferrothorn|move: Whirlpool|[of] p1a: Corsola
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p1a: Corsola|52/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|88/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|34
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Corsola|Will-O-Wisp|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|-damage|p1a: Corsola|40/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|-damage|p2a: Ferrothorn|88/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|35
+|
+|move|p2a: Ferrothorn|Power Whip|p1a: Corsola|[miss]
+|-miss|p2a: Ferrothorn|p1a: Corsola
+|move|p1a: Corsola|Strength Sap|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|-weather|none
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|-damage|p1a: Corsola|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|-damage|p2a: Ferrothorn|88/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|36
+|
+|move|p2a: Ferrothorn|Power Whip|p1a: Corsola
+|-damage|p1a: Corsola|71/100
+|move|p1a: Corsola|Will-O-Wisp|p2a: Ferrothorn|[miss]
+|-miss|p1a: Corsola|p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|-damage|p1a: Corsola|59/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|-damage|p2a: Ferrothorn|88/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|37
+|
+|move|p2a: Ferrothorn|Power Whip|p1a: Corsola
+|-damage|p1a: Corsola|42/100
+|move|p1a: Corsola|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|
+|-heal|p2a: Ferrothorn|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Corsola|30/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100 brn|[silent]
+|-damage|p2a: Ferrothorn|94/100 brn|[from] brn
+|-end|p2a: Ferrothorn|Whirlpool|[partiallytrapped]
+|upkeep
+|turn|38
+|
+|move|p2a: Ferrothorn|Power Whip|p1a: Corsola
+|-damage|p1a: Corsola|22/100
+|move|p1a: Corsola|Strength Sap|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|atk|1
+|-heal|p1a: Corsola|68/100
+|
+|-heal|p2a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Corsola|56/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|switch|p1a: Umbreon|Umbreon, F|100/100
+|-damage|p1a: Umbreon|88/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Power Whip|p1a: Umbreon
+|-damage|p1a: Umbreon|80/100
+|
+|-heal|p2a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|move|p2a: Ferrothorn|Leech Seed|p1a: Umbreon
+|-start|p1a: Umbreon|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Umbreon|67/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|switch|p1a: Pyukumuku|Pyukumuku, F|99/100
+|-damage|p1a: Pyukumuku|87/100|[from] Stealth Rock
+|switch|p2a: Rotom|Rotom-Wash|93/100
+|-damage|p2a: Rotom|81/100|[from] Stealth Rock
+|
+|-heal|p1a: Pyukumuku|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|42
+|
+|move|p2a: Rotom|Thunder|p1a: Pyukumuku
+|-supereffective|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|35/100
+|move|p1a: Pyukumuku|Light Screen|p1a: Pyukumuku
+|-sidestart|p1: jerry judewong|move: Light Screen
+|
+|upkeep
+|turn|43
+|
+|move|p2a: Rotom|Thunder|p1a: Pyukumuku
+|-supereffective|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|2/100
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|52/100
+|
+|upkeep
+|turn|44
+|
+|move|p2a: Rotom|Thunder|p1a: Pyukumuku
+|-supereffective|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|23/100
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|73/100
+|
+|upkeep
+|turn|45
+|
+|move|p2a: Rotom|Thunder|p1a: Pyukumuku
+|-supereffective|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|43/100
+|move|p1a: Pyukumuku|Spite|p2a: Rotom
+|-activate|p2a: Rotom|move: Spite|Thunder|4
+|
+|upkeep
+|turn|46
+|
+|move|p2a: Rotom|Thunder|p1a: Pyukumuku|[miss]
+|-miss|p2a: Rotom|p1a: Pyukumuku
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|93/100
+|
+|upkeep
+|turn|47
+|
+|move|p2a: Rotom|Thunder|p1a: Pyukumuku|[miss]
+|-miss|p2a: Rotom|p1a: Pyukumuku
+|move|p1a: Pyukumuku|Spite|p2a: Rotom
+|-activate|p2a: Rotom|move: Spite|Thunder|4
+|
+|upkeep
+|turn|48
+|
+|move|p2a: Rotom|Thunder|p1a: Pyukumuku|[miss]
+|-miss|p2a: Rotom|p1a: Pyukumuku
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|100/100
+|
+|upkeep
+|turn|49
+|
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p2a: Conkeldurr|94/100|[from] Stealth Rock
+|-status|p2a: Conkeldurr|tox
+|move|p1a: Pyukumuku|Spite||[still]
+|-fail|p1a: Pyukumuku
+|
+|-damage|p2a: Conkeldurr|88/100 tox|[from] psn
+|-sideend|p1: jerry judewong|move: Light Screen
+|upkeep
+|turn|50
+|
+|move|p2a: Conkeldurr|Close Combat|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|14/100
+|-unboost|p2a: Conkeldurr|def|1
+|-unboost|p2a: Conkeldurr|spd|1
+|move|p1a: Pyukumuku|Reflect|p1a: Pyukumuku
+|-sidestart|p1: jerry judewong|Reflect
+|
+|-damage|p2a: Conkeldurr|76/100 tox|[from] psn
+|upkeep
+|turn|51
+|
+|move|p2a: Conkeldurr|Close Combat|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|0 fnt
+|-unboost|p2a: Conkeldurr|def|1
+|-unboost|p2a: Conkeldurr|spd|1
+|faint|p1a: Pyukumuku
+|
+|-damage|p2a: Conkeldurr|58/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Dubwool|Dubwool, F|54/100 slp
+|-damage|p1a: Dubwool|41/100 slp|[from] Stealth Rock
+|turn|52
+|
+|cant|p1a: Dubwool|slp
+|move|p1a: Dubwool|Sleep Talk|p1a: Dubwool
+|move|p1a: Dubwool|Cotton Guard|p1a: Dubwool|[from]Sleep Talk
+|-boost|p1a: Dubwool|def|3
+|move|p2a: Conkeldurr|Close Combat|p1a: Dubwool
+|-supereffective|p1a: Dubwool
+|-damage|p1a: Dubwool|22/100 slp
+|-damage|p2a: Conkeldurr|42/100 tox|[from] item: Rocky Helmet|[of] p1a: Dubwool
+|-unboost|p2a: Conkeldurr|def|1
+|-unboost|p2a: Conkeldurr|spd|1
+|
+|-damage|p2a: Conkeldurr|17/100 tox|[from] psn
+|upkeep
+|turn|53
+|
+|-curestatus|p1a: Dubwool|slp|[msg]
+|move|p1a: Dubwool|Rest|p1a: Dubwool
+|-status|p1a: Dubwool|slp|[from] move: Rest
+|-heal|p1a: Dubwool|100/100 slp|[silent]
+|move|p2a: Conkeldurr|Close Combat|p1a: Dubwool
+|-supereffective|p1a: Dubwool
+|-damage|p1a: Dubwool|77/100 slp
+|-damage|p2a: Conkeldurr|1/100 tox|[from] item: Rocky Helmet|[of] p1a: Dubwool
+|-unboost|p2a: Conkeldurr|def|1
+|-unboost|p2a: Conkeldurr|spd|1
+|
+|-damage|p2a: Conkeldurr|0 fnt|[from] psn
+|faint|p2a: Conkeldurr
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|81/100
+|-damage|p2a: Rotom|69/100|[from] Stealth Rock
+|turn|54
+|
+|move|p2a: Rotom|Trick|p1a: Dubwool
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Dubwool
+|-item|p1a: Dubwool|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Rocky Helmet|[from] move: Trick
+|cant|p1a: Dubwool|slp
+|move|p1a: Dubwool|Sleep Talk|p1a: Dubwool
+|move|p1a: Dubwool|Rest|p1a: Dubwool|[from]Sleep Talk
+|-fail|p1a: Dubwool
+|
+|upkeep
+|turn|55
+|
+|cant|p1a: Dubwool|slp
+|move|p1a: Dubwool|Sleep Talk|p1a: Dubwool
+|move|p1a: Dubwool|Cotton Guard|p1a: Dubwool|[from]Sleep Talk
+|-boost|p1a: Dubwool|def|3
+|move|p2a: Rotom|Hydro Pump|p1a: Dubwool
+|-damage|p1a: Dubwool|38/100 slp
+|
+|upkeep
+|turn|56
+|
+|switch|p1a: Toxapex|Toxapex, M|78/100
+|-damage|p1a: Toxapex|65/100|[from] Stealth Rock
+|move|p2a: Rotom|Hydro Pump|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|47/100
+|
+|-heal|p1a: Toxapex|53/100|[from] item: Black Sludge
+|upkeep
+|turn|57
+|
+|move|p2a: Rotom|Volt Switch|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|94/100 brn|[from]move: Volt Switch
+|-damage|p2a: Ferrothorn|88/100 brn|[from] Stealth Rock
+|
+|-heal|p2a: Ferrothorn|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|88/100 brn|[from] brn
+|-sideend|p1: jerry judewong|Reflect
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, F|56/100
+|-damage|p1a: Corsola|43/100|[from] Stealth Rock
+|turn|58
+|
+|move|p2a: Ferrothorn|Leech Seed|p1a: Corsola
+|-start|p1a: Corsola|move: Leech Seed
+|move|p1a: Corsola|Whirlpool|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|85/100 brn
+|-activate|p2a: Ferrothorn|move: Whirlpool|[of] p1a: Corsola
+|
+|-heal|p2a: Ferrothorn|92/100 brn|[from] item: Leftovers
+|-damage|p1a: Corsola|31/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100 brn|[silent]
+|-damage|p2a: Ferrothorn|94/100 brn|[from] brn
+|-damage|p2a: Ferrothorn|82/100 brn|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|59
+|
+|move|p2a: Ferrothorn|Power Whip|p1a: Corsola
+|-crit|p1a: Corsola
+|-damage|p1a: Corsola|13/100
+|-start|p2a: Ferrothorn|Disable|Power Whip|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Strength Sap|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|atk|1
+|-heal|p1a: Corsola|83/100
+|
+|-heal|p2a: Ferrothorn|88/100 brn|[from] item: Leftovers
+|-damage|p1a: Corsola|71/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|99/100 brn|[silent]
+|-damage|p2a: Ferrothorn|93/100 brn|[from] brn
+|-damage|p2a: Ferrothorn|81/100 brn|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|60
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Corsola|Curse|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|Curse|[of] p1a: Corsola
+|-damage|p1a: Corsola|21/100
+|
+|-heal|p2a: Ferrothorn|87/100 brn|[from] item: Leftovers
+|-damage|p1a: Corsola|8/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|98/100 brn|[silent]
+|-damage|p2a: Ferrothorn|92/100 brn|[from] brn
+|-damage|p2a: Ferrothorn|67/100 brn|[from] Curse
+|-damage|p2a: Ferrothorn|54/100 brn|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|61
+|
+|move|p2a: Ferrothorn|Protect||[still]
+|-fail|p2a: Ferrothorn
+|move|p1a: Corsola|Strength Sap|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|atk|1
+|-heal|p1a: Corsola|55/100
+|
+|-heal|p2a: Ferrothorn|61/100 brn|[from] item: Leftovers
+|-damage|p1a: Corsola|42/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|72/100 brn|[silent]
+|-damage|p2a: Ferrothorn|66/100 brn|[from] brn
+|-damage|p2a: Ferrothorn|41/100 brn|[from] Curse
+|-damage|p2a: Ferrothorn|28/100 brn|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|62
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Corsola|Strength Sap|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|35/100 brn|[from] item: Leftovers
+|-damage|p1a: Corsola|30/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|46/100 brn|[silent]
+|-damage|p2a: Ferrothorn|40/100 brn|[from] brn
+|-damage|p2a: Ferrothorn|15/100 brn|[from] Curse
+|-damage|p2a: Ferrothorn|2/100 brn|[from] move: Whirlpool|[partiallytrapped]
+|-end|p2a: Ferrothorn|Disable
+|upkeep
+|turn|63
+|
+|move|p2a: Ferrothorn|Power Whip|p1a: Corsola
+|-damage|p1a: Corsola|23/100
+|move|p1a: Corsola|Strength Sap|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|atk|1
+|-heal|p1a: Corsola|58/100
+|
+|-heal|p2a: Ferrothorn|8/100 brn|[from] item: Leftovers
+|-damage|p1a: Corsola|46/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|20/100 brn|[silent]
+|-damage|p2a: Ferrothorn|14/100 brn|[from] brn
+|-damage|p2a: Ferrothorn|0 fnt|[from] Curse
+|faint|p2a: Ferrothorn
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|69/100
+|-damage|p2a: Rotom|56/100|[from] Stealth Rock
+|turn|64
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Corsola
+|-damage|p1a: Corsola|19/100
+|move|p1a: Corsola|Strength Sap|p2a: Rotom
+|-unboost|p2a: Rotom|atk|1
+|-heal|p1a: Corsola|57/100
+|
+|-damage|p1a: Corsola|44/100|[from] Leech Seed|[of] p2a: Rotom
+|-heal|p2a: Rotom|73/100|[silent]
+|upkeep
+|turn|65
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Corsola|[miss]
+|-miss|p2a: Rotom|p1a: Corsola
+|move|p1a: Corsola|Curse|p2a: Rotom
+|-start|p2a: Rotom|Curse|[of] p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|-damage|p2a: Rotom|48/100|[from] Curse
+|upkeep
+|
+|switch|p1a: Umbreon|Umbreon, F|67/100
+|-damage|p1a: Umbreon|55/100|[from] Stealth Rock
+|turn|66
+|c|☆katas00|so boring
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Umbreon
+|-damage|p1a: Umbreon|30/100
+|move|p1a: Umbreon|Moonlight|p1a: Umbreon
+|-heal|p1a: Umbreon|80/100
+|
+|-damage|p2a: Rotom|23/100|[from] Curse
+|upkeep
+|turn|67
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Umbreon
+|-damage|p1a: Umbreon|54/100
+|move|p1a: Umbreon|Wish|p1a: Umbreon
+|
+|-damage|p2a: Rotom|0 fnt|[from] Curse
+|faint|p2a: Rotom
+|
+|win|jerry judewong
+|upkeep
+|raw|jerry judewong's rating: 1139 → 1164(+25 for winning)
+|raw|katas00's rating: 1149 → 1123(-26 for losing)

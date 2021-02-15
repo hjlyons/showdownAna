@@ -1,0 +1,194 @@
+|ScrapeTime|2020-01-01-05:14:32
+|j|☆Assortedletters
+|j|☆A Surfing-Raichu
+|player|p1|Assortedletters|170|1240
+|player|p2|A Surfing-Raichu|drayden|1227
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Lucario, M|
+|poke|p1|Mew|
+|poke|p1|Bisharp, F|
+|poke|p1|Aegislash, F|
+|poke|p1|Crawdaunt, F|
+|poke|p1|Dragapult, F|
+|poke|p2|Weavile, F|
+|poke|p2|Clefable, F|
+|poke|p2|Galvantula, M|
+|poke|p2|Dracovish|
+|poke|p2|Hatterene, F|
+|poke|p2|Bisharp, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by A Surfing-Raichu)
+|
+|move|p2a: Galvantula|Thunder Wave|p1a: Mew
+|-status|p1a: Mew|par
+|-activate|p1a: Mew|ability: Synchronize
+|-immune|p2a: Galvantula
+|move|p1a: Mew|Stealth Rock|p2a: Galvantula
+|-sidestart|p2: A Surfing-Raichu|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Galvantula|Sticky Web|p1a: Mew
+|-sidestart|p1: Assortedletters|move: Sticky Web
+|cant|p1a: Mew|par
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Galvantula|Bug Buzz|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|37/100 par
+|-enditem|p1a: Mew|Red Card|[of] p2a: Galvantula
+|drag|p2a: Weavile|Weavile, F|100/100
+|-damage|p2a: Weavile|76/100|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Mew|Spikes|p2a: Weavile
+|-sidestart|p2: A Surfing-Raichu|Spikes
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|cant|p1a: Mew|par
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Weavile|Beat Up|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|8/100 par
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|-hitcount|p1a: Mew|2
+|faint|p1a: Mew
+|
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|-activate|p1a: Bisharp|move: Sticky Web
+|-unboost|p1a: Bisharp|spe|1
+|-ability|p1a: Bisharp|Defiant
+|-boost|p1a: Bisharp|atk|2
+|turn|6
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Weavile
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|-damage|p1a: Bisharp|91/100|[from] item: Life Orb
+|faint|p2a: Weavile
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|7
+|
+|move|p2a: Clefable|Fire Blast|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|-item|p1a: Aegislash|Air Balloon
+|turn|8
+|
+|move|p2a: Clefable|Fire Blast|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|28/100
+|-enditem|p1a: Aegislash|Air Balloon
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|-damage|p2a: Dracovish|88/100|[from] Spikes
+|-damage|p2a: Dracovish|76/100|[from] Stealth Rock
+|turn|9
+|
+|move|p1a: Aegislash|Shadow Sneak|p2a: Dracovish
+|-damage|p2a: Dracovish|52/100
+|move|p2a: Dracovish|Substitute|p2a: Dracovish
+|-start|p2a: Dracovish|Substitute
+|-damage|p2a: Dracovish|27/100
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|-activate|p1a: Crawdaunt|move: Sticky Web
+|-unboost|p1a: Crawdaunt|spe|1
+|turn|11
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Crawdaunt
+|-resisted|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|19/100
+|move|p1a: Crawdaunt|Knock Off|p2a: Dracovish
+|-end|p2a: Dracovish|Substitute
+|-damage|p1a: Crawdaunt|9/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Dracovish
+|-resisted|p2a: Dracovish
+|-damage|p2a: Dracovish|17/100
+|-enditem|p2a: Dracovish|Salac Berry|[eat]
+|-boost|p2a: Dracovish|spe|1
+|-damage|p1a: Crawdaunt|0 fnt|[from] item: Life Orb
+|faint|p1a: Crawdaunt
+|move|p2a: Dracovish|Fishious Rend|p1: Crawdaunt|[notarget]
+|-fail|p2a: Dracovish
+|
+|upkeep
+|
+|switch|p1a: Lucario|Lucario, M|100/100
+|-activate|p1a: Lucario|move: Sticky Web
+|-unboost|p1a: Lucario|spe|1
+|turn|13
+|
+|move|p1a: Lucario|Bullet Punch|p2a: Dracovish
+|-resisted|p2a: Dracovish
+|-damage|p2a: Dracovish|4/100
+|-damage|p1a: Lucario|91/100|[from] item: Life Orb
+|move|p2a: Dracovish|Fishious Rend|p1a: Lucario
+|-damage|p1a: Lucario|10/100
+|
+|upkeep
+|turn|14
+|-message|Assortedletters forfeited.
+|
+|win|A Surfing-Raichu
+|l|☆Assortedletters
+|raw|Assortedletters's rating: 1240 → 1214(-26 for losing)
+|raw|A Surfing-Raichu's rating: 1227 → 1253(+26 for winning)

@@ -1,0 +1,432 @@
+|ScrapeTime|2020-01-01-22:16:33
+|j|☆Netheriux v4
+|j|☆gainzbourge
+|player|p1|Netheriux v4|101|1185
+|player|p2|gainzbourge|blue|1232
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Gyarados, M|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Ditto|
+|poke|p2|Toxicroak, M|
+|poke|p2|Crawdaunt, M|
+|poke|p2|Shedinja|
+|poke|p2|Mr. Rime, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Rotom-Heat|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ta Daronne|Dragapult, F|100/100
+|switch|p2a: Rotom|Rotom-Heat, shiny|100/100
+|turn|1
+|
+|move|p1a: Ta Daronne|U-turn|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|90/100
+|
+|switch|p1a: Ton frère Emo|Corsola-Galar, M|100/100|[from]move: U-turn
+|move|p2a: Rotom|Dark Pulse|p1a: Ton frère Emo
+|-supereffective|p1a: Ton frère Emo
+|-damage|p1a: Ton frère Emo|57/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Rotom|Dark Pulse|p1a: Ton frère Emo
+|-supereffective|p1a: Ton frère Emo
+|-damage|p1a: Ton frère Emo|20/100
+|-start|p2a: Rotom|Disable|Dark Pulse|[from] ability: Cursed Body|[of] p1a: Ton frère Emo
+|move|p1a: Ton frère Emo|Stealth Rock|p2a: Rotom
+|-sidestart|p2: gainzbourge|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Mr. Rime|Mr. Rime, F|100/100
+|switch|p1a: Plug Annal|Ferrothorn, M|100/100
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Mr. Rime|Rapid Spin|p1a: Plug Annal
+|-resisted|p1a: Plug Annal
+|-damage|p1a: Plug Annal|98/100
+|-damage|p2a: Mr. Rime|88/100|[from] ability: Iron Barbs|[of] p1a: Plug Annal
+|-sideend|p2: gainzbourge|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Mr. Rime
+|-boost|p2a: Mr. Rime|spe|1
+|move|p1a: Plug Annal|Gyro Ball|p2a: Mr. Rime
+|-supereffective|p2a: Mr. Rime
+|-damage|p2a: Mr. Rime|0 fnt
+|faint|p2a: Mr. Rime
+|
+|-heal|p1a: Plug Annal|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat, shiny|90/100
+|turn|5
+|
+|switch|p1a: Saix Toit|Gyarados, M, shiny|100/100
+|move|p2a: Rotom|Trick|p1a: Saix Toit
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Saix Toit
+|-item|p1a: Saix Toit|Choice Specs|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|
+|-heal|p2a: Rotom|96/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Saix Toit|Waterfall|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|10/100
+|cant|p2a: Rotom|flinch
+|
+|-heal|p2a: Rotom|16/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Pelipper|Pelipper, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Saix Toit|Waterfall|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|78/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p1a: Plug Annal|Ferrothorn, M|100/100
+|move|p2a: Pelipper|Hurricane|p1a: Plug Annal
+|-damage|p1a: Plug Annal|68/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Plug Annal|74/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Pelipper|Hurricane|p1a: Plug Annal
+|-damage|p1a: Plug Annal|43/100
+|move|p1a: Plug Annal|Leech Seed|p2a: Pelipper|[miss]
+|-miss|p1a: Plug Annal|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Plug Annal|49/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Pelipper|Hurricane|p1a: Plug Annal
+|-damage|p1a: Plug Annal|16/100
+|move|p1a: Plug Annal|Leech Seed|p2a: Pelipper
+|-start|p2a: Pelipper|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Plug Annal|22/100|[from] item: Leftovers
+|-damage|p2a: Pelipper|65/100|[from] Leech Seed|[of] p1a: Plug Annal
+|-heal|p1a: Plug Annal|33/100|[silent]
+|upkeep
+|turn|11
+|
+|move|p1a: Plug Annal|Protect|p1a: Plug Annal
+|-singleturn|p1a: Plug Annal|Protect
+|move|p2a: Pelipper|Hurricane|p1a: Plug Annal
+|-activate|p1a: Plug Annal|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Plug Annal|40/100|[from] item: Leftovers
+|-damage|p2a: Pelipper|53/100|[from] Leech Seed|[of] p1a: Plug Annal
+|-heal|p1a: Plug Annal|51/100|[silent]
+|upkeep
+|turn|12
+|
+|move|p2a: Pelipper|Hurricane|p1a: Plug Annal
+|-damage|p1a: Plug Annal|22/100
+|move|p1a: Plug Annal|Thunder Wave|p2a: Pelipper
+|-status|p2a: Pelipper|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Plug Annal|28/100|[from] item: Leftovers
+|-damage|p2a: Pelipper|40/100 par|[from] Leech Seed|[of] p1a: Plug Annal
+|-heal|p1a: Plug Annal|39/100|[silent]
+|upkeep
+|turn|13
+|
+|switch|p2a: Rotom|Rotom-Heat, shiny|16/100
+|move|p1a: Plug Annal|Protect||[still]
+|-fail|p1a: Plug Annal
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|22/100|[from] item: Leftovers
+|-heal|p1a: Plug Annal|46/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Plug Annal|Protect|p1a: Plug Annal
+|-singleturn|p1a: Plug Annal|Protect
+|move|p2a: Rotom|Overheat|p1a: Plug Annal
+|-activate|p1a: Plug Annal|move: Protect
+|
+|-weather|none
+|-heal|p2a: Rotom|28/100|[from] item: Leftovers
+|-heal|p1a: Plug Annal|52/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Ta Daronne|Dragapult, F|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Ta Daronne
+|-resisted|p1a: Ta Daronne
+|-damage|p1a: Ta Daronne|83/100
+|
+|switch|p2a: Crawdaunt|Crawdaunt, M, shiny|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Ta Daronne|U-turn|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|64/100
+|
+|switch|p1a: Plug Annal|Ferrothorn, M|52/100|[from]move: U-turn
+|move|p2a: Crawdaunt|Knock Off|p1a: Plug Annal
+|-damage|p1a: Plug Annal|0 fnt
+|-damage|p2a: Crawdaunt|51/100|[from] ability: Iron Barbs|[of] p1a: Plug Annal
+|-enditem|p1a: Plug Annal|Leftovers|[from] move: Knock Off|[of] p2a: Crawdaunt
+|faint|p1a: Plug Annal
+|
+|upkeep
+|
+|switch|p1a: Saix Toit|Gyarados, M, shiny|100/100
+|turn|17
+|
+|switch|p2a: Rotom|Rotom-Heat, shiny|28/100
+|move|p1a: Saix Toit|Earthquake|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|-heal|p2a: Rotom|34/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p1a: Ta Daronne|Dragapult, F|83/100
+|move|p2a: Rotom|Volt Switch|p1a: Ta Daronne
+|-resisted|p1a: Ta Daronne
+|-damage|p1a: Ta Daronne|65/100
+|
+|switch|p2a: Toxicroak|Toxicroak, M, shiny|100/100|[from]move: Volt Switch
+|-item|p2a: Toxicroak|Air Balloon
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Toxicroak|Sucker Punch|p1a: Ta Daronne
+|-supereffective|p1a: Ta Daronne
+|-damage|p1a: Ta Daronne|9/100
+|move|p1a: Ta Daronne|Fire Blast|p2a: Toxicroak|[miss]
+|-miss|p1a: Ta Daronne|p2a: Toxicroak
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Toxicroak|Sucker Punch|p1a: Ta Daronne
+|-supereffective|p1a: Ta Daronne
+|-damage|p1a: Ta Daronne|0 fnt
+|faint|p1a: Ta Daronne
+|
+|upkeep
+|
+|switch|p1a: Billy Le Bully|Cinderace, M|100/100
+|turn|21
+|
+|move|p1a: Billy Le Bully|Pyro Ball|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|-enditem|p2a: Toxicroak|Air Balloon
+|faint|p2a: Toxicroak
+|
+|upkeep
+|
+|switch|p2a: Crawdaunt|Crawdaunt, M, shiny|51/100
+|turn|22
+|
+|switch|p1a: Ton frère Emo|Corsola-Galar, M|20/100
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Ton frère Emo
+|-damage|p1a: Ton frère Emo|0 fnt
+|faint|p1a: Ton frère Emo
+|
+|upkeep
+|
+|switch|p1a: Saix Toit|Gyarados, M, shiny|100/100
+|turn|23
+|
+|switch|p2a: Shedinja|Shedinja, shiny|100/100
+|move|p1a: Saix Toit|Waterfall|p2a: Shedinja
+|-immune|p2a: Shedinja|[from] ability: Wonder Guard
+|
+|upkeep
+|turn|24
+|
+|switch|p1a: Billy Le Bully|Cinderace, M|100/100
+|move|p2a: Shedinja|Night Slash|p1a: Billy Le Bully
+|-damage|p1a: Billy Le Bully|72/100
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: Pelipper|Pelipper, M, shiny|40/100 par
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Billy Le Bully|Pyro Ball|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-crit|p2a: Pelipper
+|-damage|p2a: Pelipper|24/100 par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|26
+|
+|move|p1a: Billy Le Bully|U-turn|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|16/100 par
+|
+|switch|p1a: Saix Toit|Gyarados, M, shiny|100/100|[from]move: U-turn
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|66/100 par
+|-singleturn|p2a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|switch|p2a: Shedinja|Shedinja, shiny|100/100
+|move|p1a: Saix Toit|Waterfall|p2a: Shedinja
+|-immune|p2a: Shedinja|[from] ability: Wonder Guard
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|28
+|
+|switch|p1a: Billy Le Bully|Cinderace, M|72/100
+|move|p2a: Shedinja|Night Slash|p1a: Billy Le Bully
+|-damage|p1a: Billy Le Bully|45/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|29
+|
+|switch|p2a: Rotom|Rotom-Heat, shiny|34/100
+|move|p1a: Billy Le Bully|Pyro Ball|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|20/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|26/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Billy Le Bully|High Jump Kick|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Crawdaunt|Crawdaunt, M, shiny|51/100
+|turn|31
+|
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Billy Le Bully
+|-supereffective|p1a: Billy Le Bully
+|-damage|p1a: Billy Le Bully|0 fnt
+|faint|p1a: Billy Le Bully
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Math Podcast|Ditto, shiny|100/100
+|-transform|p1a: Math Podcast|p2a: Crawdaunt|[from] ability: Imposter
+|turn|32
+|
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Math Podcast
+|-resisted|p1a: Math Podcast
+|-damage|p1a: Math Podcast|55/100
+|move|p1a: Math Podcast|Knock Off|p2a: Crawdaunt
+|-resisted|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|12/100
+|-enditem|p2a: Crawdaunt|Choice Band|[from] move: Knock Off|[of] p1a: Math Podcast
+|
+|-weather|none
+|upkeep
+|turn|33
+|
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Math Podcast
+|-resisted|p1a: Math Podcast
+|-damage|p1a: Math Podcast|36/100
+|move|p1a: Math Podcast|Knock Off|p2a: Crawdaunt
+|-resisted|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|upkeep
+|
+|switch|p2a: Pelipper|Pelipper, M, shiny|66/100 par
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|34
+|
+|move|p1a: Math Podcast|Knock Off|p2a: Pelipper
+|-damage|p2a: Pelipper|9/100 par
+|-enditem|p2a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p1a: Math Podcast
+|move|p2a: Pelipper|Hurricane|p1a: Math Podcast
+|-damage|p1a: Math Podcast|0 fnt
+|faint|p1a: Math Podcast
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Saix Toit|Gyarados, M, shiny|100/100
+|turn|35
+|
+|switch|p2a: Shedinja|Shedinja, shiny|100/100
+|move|p1a: Saix Toit|Crunch|p2a: Shedinja
+|-supereffective|p2a: Shedinja
+|-enditem|p2a: Shedinja|Focus Sash
+|-damage|p2a: Shedinja|100/100
+|-unboost|p2a: Shedinja|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|36
+|c|☆gainzbourge|gj
+|
+|switch|p2a: Pelipper|Pelipper, M, shiny|9/100 par
+|move|p1a: Saix Toit|Crunch|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|-ability|p1a: Saix Toit|Moxie|boost
+|-boost|p1a: Saix Toit|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Shedinja|Shedinja, shiny|100/100
+|turn|37
+|
+|move|p1a: Saix Toit|Crunch|p2a: Shedinja
+|-supereffective|p2a: Shedinja
+|-crit|p2a: Shedinja
+|-damage|p2a: Shedinja|0 fnt
+|faint|p2a: Shedinja
+|
+|win|Netheriux v4
+|l|☆gainzbourge
+|raw|Netheriux v4's rating: 1164 → 1196(+32 for winning)
+|raw|gainzbourge's rating: 1255 → 1224(-31 for losing)

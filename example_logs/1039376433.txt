@@ -1,0 +1,219 @@
+|ScrapeTime|2020-01-01-23:24:49
+|j|☆Miliak
+|j|☆chaosdealer
+|player|p1|Miliak|224|1087
+|player|p2|chaosdealer|151|1040
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Corviknight, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Gyarados, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Galvantula, F|
+|poke|p1|Gengar, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Toxtricity-Low-Key, M|
+|poke|p2|Coalossal, F|
+|poke|p2|Orbeetle, M|
+|poke|p2|Grapploct, F|
+|poke|p2|Arctovish|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Galvantula|Galvantula, F, shiny|100/100
+|switch|p2a: Roswell|Orbeetle, M|100/100
+|-item|p1a: Galvantula|Wise Glasses|[from] ability: Frisk|[of] p2a: Roswell|[identify]
+|turn|1
+|
+|move|p1a: Galvantula|Volt Switch|p2a: Roswell
+|-damage|p2a: Roswell|73/100
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100|[from]move: Volt Switch
+|move|p2a: Roswell|Reflect|p2a: Roswell
+|-sidestart|p2: chaosdealer|Reflect
+|
+|-heal|p2a: Roswell|79/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Corviknight|Brave Bird|p2a: Roswell
+|-supereffective|p2a: Roswell
+|-damage|p2a: Roswell|36/100
+|-damage|p1a: Corviknight|91/100|[from] Recoil
+|move|p2a: Roswell|Trick Room|p2a: Roswell
+|-fieldstart|move: Trick Room|[of] p2a: Roswell
+|
+|-heal|p1a: Corviknight|97/100|[from] item: Leftovers
+|-heal|p2a: Roswell|42/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: NOFX|Toxtricity-Low-Key, M|100/100
+|move|p1a: Corviknight|Brave Bird|p2a: NOFX
+|-resisted|p2a: NOFX
+|-damage|p2a: NOFX|89/100
+|-damage|p1a: Corviknight|95/100|[from] Recoil
+|
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: NOFX|Snarl|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|95/100
+|-unboost|p1a: Tyranitar|spa|1
+|-enditem|p2a: NOFX|Throat Spray
+|-boost|p2a: NOFX|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: NOFX|83/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|move|p1a: Tyranitar|Earthquake|p2a: NOFX
+|-supereffective|p2a: NOFX
+|-damage|p2a: NOFX|11/100
+|move|p2a: NOFX|Boomburst|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: NOFX|5/100|[from] Sandstorm
+|-sideend|p2: chaosdealer|Reflect
+|upkeep
+|turn|6
+|
+|switch|p2a: Arctovish|Arctovish|100/100
+|move|p1a: Tyranitar|Stealth Rock|p2a: Arctovish
+|-sidestart|p2: chaosdealer|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Arctovish|94/100|[from] Sandstorm
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|move|p1a: Tyranitar|Stone Edge|p2a: Arctovish
+|-supereffective|p2a: Arctovish
+|-damage|p2a: Arctovish|13/100
+|move|p2a: Arctovish|Freeze-Dry|p1a: Tyranitar
+|-damage|p1a: Tyranitar|63/100
+|-damage|p2a: Arctovish|3/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Arctovish|0 fnt|[from] Sandstorm
+|faint|p2a: Arctovish
+|upkeep
+|
+|switch|p2a: Asuka|Grapploct, F|100/100
+|-damage|p2a: Asuka|94/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p1a: Gyarados|Gyarados, F, shiny|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Asuka|atk|1
+|move|p2a: Asuka|Drain Punch|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|84/100
+|-heal|p2a: Asuka|100/100|[from] drain|[of] p1a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|78/100|[from] Sandstorm
+|-damage|p2a: Asuka|94/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Asuka|Liquidation|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|60/100|[from] Sandstorm
+|-damage|p2a: Asuka|88/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|switch|p2a: NOFX|Toxtricity-Low-Key, M|5/100
+|-damage|p2a: NOFX|0 fnt|[from] Stealth Rock
+|faint|p2a: NOFX
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gyarados|54/100|[from] Sandstorm
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Miliak)
+|
+|switch|p2a: Coalette|Coalossal, F|100/100
+|-damage|p2a: Coalette|76/100|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Gyarados|Waterfall|p2a: Coalette
+|-supereffective|p2a: Coalette
+|-damage|p2a: Coalette|0 fnt
+|faint|p2a: Coalette
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Roswell|Orbeetle, M|42/100
+|-damage|p2a: Roswell|18/100|[from] Stealth Rock
+|-item|p1a: Gyarados|Heavy-Duty Boots|[from] ability: Frisk|[of] p2a: Roswell|[identify]
+|turn|12
+|
+|move|p1a: Gyarados|Crunch|p2a: Roswell
+|-supereffective|p2a: Roswell
+|-damage|p2a: Roswell|0 fnt
+|faint|p2a: Roswell
+|
+|upkeep
+|
+|switch|p2a: Scud|Dragapult, M|100/100
+|-damage|p2a: Scud|88/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Gyarados|Crunch|p2a: Scud
+|-supereffective|p2a: Scud
+|-damage|p2a: Scud|0 fnt
+|faint|p2a: Scud
+|
+|upkeep
+|inactive|chaosdealer has 120 seconds left.
+|
+|switch|p2a: Asuka|Grapploct, F|88/100
+|-damage|p2a: Asuka|82/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Gyarados|Waterfall|p2a: Asuka
+|-damage|p2a: Asuka|4/100
+|cant|p2a: Asuka|flinch
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Gyarados|Waterfall|p2a: Asuka
+|-damage|p2a: Asuka|0 fnt
+|faint|p2a: Asuka
+|
+|win|Miliak
+|l|☆chaosdealer
+|raw|Miliak's rating: 1087 → 1111(+24 for winning)
+|raw|chaosdealer's rating: 1040 → 1026(-14 for losing)

@@ -1,0 +1,226 @@
+|ScrapeTime|2020-01-02-14:02:29
+|j|☆my diggasby
+|j|☆Keoji
+|player|p1|my diggasby|marshal|1395
+|player|p2|Keoji|102|1403
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Bewear, M|
+|poke|p1|Centiskorch, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Dragapult, M|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Hippowdon, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Bisharp, M|
+|poke|p2|Sylveon, F|
+|poke|p2|Cinderace, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by my diggasby)
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|
+|move|p2a: Seismitoad|Stealth Rock|p1a: Hippowdon
+|-sidestart|p1: my diggasby|move: Stealth Rock
+|move|p1a: Hippowdon|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: Keoji|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Toxic|p1a: Ferrothorn|[miss]
+|-miss|p2a: Seismitoad|p1a: Ferrothorn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|-damage|p2a: Mandibuzz|75/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Spikes|p2a: Mandibuzz
+|-sidestart|p2: Keoji|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Mandibuzz|Taunt|p1a: Rotom
+|-start|p1a: Rotom|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|82/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|move|p1a: Rotom|Discharge|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-crit|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|-damage|p2a: Seismitoad|94/100|[from] Stealth Rock
+|-damage|p2a: Seismitoad|82/100|[from] Spikes
+|turn|6
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Seismitoad|Toxic|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|
+|-heal|p2a: Seismitoad|88/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|-damage|p2a: Dragapult|76/100|[from] Spikes
+|move|p1a: Ferrothorn|Power Whip|p2a: Dragapult|[miss]
+|-miss|p1a: Ferrothorn|p2a: Dragapult
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Dragapult|Draco Meteor|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|-damage|p2a: Cinderace|88/100|[from] Spikes
+|-damage|p2a: Cinderace|63/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: Cinderace
+|-start|p2a: Cinderace|move: Leech Seed
+|
+|-damage|p2a: Cinderace|51/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|10
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Cinderace|High Jump Kick|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|-damage|p2a: Cinderace|1/100|[from] highjumpkick
+|
+|-damage|p2a: Cinderace|0 fnt|[from] Leech Seed|[of] p1a: Ferrothorn
+|faint|p2a: Cinderace
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|-damage|p2a: Bisharp|88/100|[from] Spikes
+|-damage|p2a: Bisharp|82/100|[from] Stealth Rock
+|turn|11
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-damage|p1a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Bisharp|Iron Head|p1a: Hippowdon
+|-damage|p1a: Hippowdon|41/100
+|-damage|p2a: Bisharp|72/100|[from] item: Life Orb
+|move|p1a: Hippowdon|Whirlwind|p2a: Bisharp
+|drag|p2a: Sylveon|Sylveon, F|100/100
+|-damage|p2a: Sylveon|88/100|[from] Spikes
+|-damage|p2a: Sylveon|76/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sylveon|70/100|[from] Sandstorm
+|-heal|p2a: Sylveon|76/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|47/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Sylveon|Hyper Voice|p1a: Hippowdon
+|-damage|p1a: Hippowdon|3/100
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sylveon|70/100|[from] Sandstorm
+|-heal|p2a: Sylveon|76/100|[from] item: Leftovers
+|-heal|p1a: Hippowdon|59/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sylveon|70/100|[from] Sandstorm
+|-heal|p2a: Sylveon|76/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Centiskorch|Centiskorch, F|100/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Centiskorch
+|-resisted|p1a: Centiskorch
+|-damage|p1a: Centiskorch|88/100
+|
+|-weather|none
+|-heal|p2a: Sylveon|100/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|16
+|
+|move|p1a: Centiskorch|Knock Off|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|89/100
+|-enditem|p2a: Sylveon|Leftovers|[from] move: Knock Off|[of] p1a: Centiskorch
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Bisharp|Bisharp, M|72/100
+|-damage|p2a: Bisharp|67/100|[from] Stealth Rock
+|-damage|p2a: Bisharp|54/100|[from] Spikes
+|move|p1a: Centiskorch|Fire Lash|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+|-message|Keoji forfeited.
+|
+|win|my diggasby
+|l|☆Keoji
+|raw|my diggasby's rating: 1395 → 1415(+20 for winning)
+|raw|Keoji's rating: 1403 → 1382(-21 for losing)

@@ -1,0 +1,402 @@
+|ScrapeTime|2020-01-02-23:24:38
+|j|☆SandGetsEverywhere
+|j|☆Chapo 2 Pay
+|player|p1|SandGetsEverywhere|riley|1299
+|player|p2|Chapo 2 Pay|hiker|1306
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pelipper, M|
+|poke|p1|Dracovish|
+|poke|p1|Barraskewda, M|
+|poke|p1|Mantine, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Tsareena, F|
+|poke|p2|Seismitoad, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Dugtrio, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Sylveon, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Momonosuke|Dragapult, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Momonosuke|Thunderbolt|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|87/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|93/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Chapo 2 Pay)
+|
+|switch|p2a: Kaido|Hydreigon, M|100/100
+|switch|p1a: Dracovish|Dracovish|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Jinbei|Seismitoad, M|100/100
+|switch|p1a: Ferrothorn|Ferrothorn, M|93/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Mantine|Mantine, F|100/100
+|move|p2a: Jinbei|Scald|p1a: Mantine
+|-resisted|p1a: Mantine
+|-damage|p1a: Mantine|85/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p1a: Mantine|Hurricane|p2a: Jinbei
+|-damage|p2a: Jinbei|35/100
+|-start|p2a: Jinbei|confusion
+|-damage|p1a: Mantine|75/100|[from] item: Life Orb
+|-activate|p2a: Jinbei|confusion
+|move|p2a: Jinbei|Toxic|p1a: Mantine
+|-status|p1a: Mantine|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jinbei|41/100|[from] item: Leftovers
+|-damage|p1a: Mantine|69/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|-activate|p2a: Jinbei|confusion
+|move|p2a: Jinbei|Protect|p2a: Jinbei
+|-singleturn|p2a: Jinbei|Protect
+|move|p1a: Mantine|Hurricane|p2a: Jinbei
+|-activate|p2a: Jinbei|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jinbei|47/100|[from] item: Leftovers
+|-damage|p1a: Mantine|57/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p2a: Garp|Corviknight, M|100/100
+|-ability|p2a: Garp|Pressure
+|move|p1a: Mantine|Hurricane|p2a: Garp
+|-resisted|p2a: Garp
+|-damage|p2a: Garp|77/100
+|-start|p2a: Garp|confusion
+|-damage|p1a: Mantine|47/100 tox|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Garp|83/100|[from] item: Leftovers
+|-damage|p1a: Mantine|29/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Tsareena|Tsareena, F|100/100
+|switch|p2a: Jinbei|Seismitoad, M|47/100
+|
+|-weather|none
+|-heal|p2a: Jinbei|53/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Jinbei|Protect|p2a: Jinbei
+|-singleturn|p2a: Jinbei|Protect
+|move|p1a: Tsareena|Aromatherapy|p1a: Tsareena
+|-activate|p1a: Tsareena|move: Aromatherapy
+|-curestatus|p1: Mantine|tox|[msg]
+|
+|-heal|p2a: Jinbei|59/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Garp|Corviknight, M|83/100
+|-ability|p2a: Garp|Pressure
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Garp|89/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Garp|U-turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|95/100
+|
+|switch|p2a: Jinbei|Seismitoad, M|59/100|[from]move: U-turn
+|move|p1a: Pelipper|U-turn|p2a: Jinbei
+|-damage|p2a: Jinbei|54/100
+|
+|switch|p1a: Tsareena|Tsareena, F|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jinbei|60/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Jinbei|Protect|p2a: Jinbei
+|-singleturn|p2a: Jinbei|Protect
+|move|p1a: Tsareena|U-turn|p2a: Jinbei
+|-activate|p2a: Jinbei|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jinbei|66/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Garp|Corviknight, M|89/100
+|-ability|p2a: Garp|Pressure
+|move|p1a: Tsareena|Trop Kick|p2a: Garp
+|-resisted|p2a: Garp
+|-damage|p2a: Garp|84/100
+|-unboost|p2a: Garp|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Garp|91/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Pelipper|Pelipper, M|95/100
+|move|p2a: Garp|U-turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|92/100
+|
+|switch|p2a: Momonosuke|Dragapult, M|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|99/100
+|move|p2a: Momonosuke|Shadow Ball|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|65/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|71/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Momonosuke|Shadow Ball|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|40/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Momonosuke
+|-damage|p2a: Momonosuke|31/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|46/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Mr. 3|Dugtrio, M|100/100
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Mr. 3
+|-enditem|p2a: Mr. 3|Focus Sash
+|-damage|p2a: Mr. 3|1/100
+|
+|-weather|none
+|-heal|p1a: Ferrothorn|51/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Mr. 3|Reversal|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Mr. 3|0 fnt|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|faint|p1a: Ferrothorn
+|faint|p2a: Mr. 3
+|
+|upkeep
+|
+|switch|p2a: Momonosuke|Dragapult, M|31/100
+|switch|p1a: Pelipper|Pelipper, M|92/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|19
+|
+|switch|p1a: Tsareena|Tsareena, F|100/100
+|move|p2a: Momonosuke|Draco Meteor|p1a: Tsareena
+|-damage|p1a: Tsareena|28/100
+|-unboost|p2a: Momonosuke|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tsareena|35/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|SandGetsEverywhere has 120 seconds left.
+|
+|move|p2a: Momonosuke|Draco Meteor|p1a: Tsareena
+|-damage|p1a: Tsareena|0 fnt
+|-unboost|p2a: Momonosuke|spa|2
+|faint|p1a: Tsareena
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|turn|21
+|c|☆SandGetsEverywhere|that's 2 high rolls
+|c|☆SandGetsEverywhere|dangit
+|
+|switch|p2a: Jinbei|Seismitoad, M|66/100
+|move|p1a: Barraskewda|Close Combat|p2a: Jinbei
+|-damage|p2a: Jinbei|15/100
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jinbei|21/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|Chapo 2 Pay has 120 seconds left.
+|c|☆Chapo 2 Pay|-2 252 SpA Choice Specs Dragapult Draco Meteor vs. 252 HP / 252 SpD Tsareena: 106-126 (30.4 - 36.2%) -- 46.9% chance to 3HKO
+|c|☆Chapo 2 Pay|not high
+|
+|switch|p1a: Mantine|Mantine, F|29/100
+|move|p2a: Jinbei|Protect||[still]
+|-fail|p2a: Jinbei
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jinbei|27/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|c|☆SandGetsEverywhere|252 SpA Choice Specs Dragapult Draco Meteor over 2 turns vs. 248 HP / 252 SpD Tsareena: 317-376 (91.3 - 108.3%) -- 50% chance to 2HKO after Leftovers recovery
+|inactive|Chapo 2 Pay has 90 seconds left.
+|c|☆Chapo 2 Pay|Yeah
+|c|☆Chapo 2 Pay|so it's mid roll
+|
+|move|p1a: Mantine|Hurricane|p2a: Jinbei
+|-damage|p2a: Jinbei|0 fnt
+|-damage|p1a: Mantine|19/100|[from] item: Life Orb
+|faint|p2a: Jinbei
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Vivi|Sylveon, F, shiny|100/100
+|turn|24
+|
+|move|p1a: Mantine|Roost|p1a: Mantine
+|-heal|p1a: Mantine|69/100
+|-singleturn|p1a: Mantine|move: Roost
+|move|p2a: Vivi|Calm Mind|p2a: Vivi
+|-boost|p2a: Vivi|spa|1
+|-boost|p2a: Vivi|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|move|p1a: Mantine|Surf|p2a: Vivi
+|-damage|p2a: Vivi|68/100
+|-damage|p1a: Mantine|59/100|[from] item: Life Orb
+|move|p2a: Vivi|Calm Mind|p2a: Vivi
+|-boost|p2a: Vivi|spa|1
+|-boost|p2a: Vivi|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Vivi|74/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|SandGetsEverywhere has 120 seconds left.
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|move|p2a: Vivi|Wish|p2a: Vivi
+|
+|-weather|none
+|-heal|p2a: Vivi|80/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Vivi
+|-damage|p2a: Vivi|0 fnt
+|faint|p2a: Vivi
+|
+|upkeep
+|
+|switch|p2a: Kaido|Hydreigon, M|100/100
+|turn|28
+|
+|move|p2a: Kaido|Substitute|p2a: Kaido
+|-start|p2a: Kaido|Substitute
+|-damage|p2a: Kaido|76/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Kaido
+|-resisted|p2a: Kaido
+|-end|p2a: Kaido|Substitute
+|
+|-heal|p2a: Kaido|82/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|Chapo 2 Pay has 120 seconds left.
+|
+|switch|p2a: Garp|Corviknight, M|91/100
+|-ability|p2a: Garp|Pressure
+|move|p1a: Dracovish|Fishious Rend|p2a: Garp
+|-damage|p2a: Garp|0 fnt
+|faint|p2a: Garp
+|
+|upkeep
+|
+|switch|p2a: Momonosuke|Dragapult, M|31/100
+|turn|30
+|
+|switch|p1a: Pelipper|Pelipper, M|92/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Momonosuke|Thunderbolt|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Mantine|Mantine, F|59/100
+|turn|31
+|
+|move|p1a: Mantine|Ice Beam|p2a: Momonosuke
+|-supereffective|p2a: Momonosuke
+|-damage|p2a: Momonosuke|0 fnt
+|-damage|p1a: Mantine|49/100|[from] item: Life Orb
+|faint|p2a: Momonosuke
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Kaido|Hydreigon, M|82/100
+|turn|32
+|
+|move|p1a: Mantine|Ice Beam|p2a: Kaido
+|-supereffective|p2a: Kaido
+|-damage|p2a: Kaido|10/100
+|-status|p2a: Kaido|frz
+|-damage|p1a: Mantine|39/100|[from] item: Life Orb
+|cant|p2a: Kaido|frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kaido|16/100 frz|[from] item: Leftovers
+|upkeep
+|turn|33
+|c|☆SandGetsEverywhere|welp
+|-message|Chapo 2 Pay forfeited.
+|
+|win|SandGetsEverywhere
+|l|☆Chapo 2 Pay
+|raw|SandGetsEverywhere's rating: 1273 → 1300(+27 for winning)
+|raw|Chapo 2 Pay's rating: 1306 → 1284(-22 for losing)

@@ -1,0 +1,470 @@
+|ScrapeTime|2020-01-01-11:44:29
+|j|☆Rudy (Academy HTD)
+|j|☆EdaltNeru
+|player|p1|Rudy (Academy HTD)|clown|1462
+|player|p2|EdaltNeru|267|1522
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, F|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Clefable, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Seismitoad, F|
+|poke|p1|Ferrothorn, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Sylveon, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Seismitoad, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by EdaltNeru)
+|inactive|Rudy (Academy HTD) has 120 seconds left.
+|
+|start
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|1
+|
+|move|p2a: Cinderace|U-turn|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|92/100
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100/100|[from]move: U-turn
+|move|p1a: Conkeldurr|Earthquake|p2a: Seismitoad
+|-damage|p2a: Seismitoad|70/100
+|
+|-heal|p2a: Seismitoad|76/100|[from] item: Leftovers
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|move|p2a: Seismitoad|Protect|p2a: Seismitoad
+|-singleturn|p2a: Seismitoad|Protect
+|move|p1a: Conkeldurr|Drain Punch|p2a: Seismitoad
+|-activate|p2a: Seismitoad|move: Protect
+|
+|-heal|p2a: Seismitoad|82/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|86/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Conkeldurr|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|27/100
+|
+|-heal|p2a: Dragapult|33/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|80/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p2a: Dragapult|Disable|p1a: Conkeldurr
+|-start|p1a: Conkeldurr|Disable|Earthquake
+|cant|p1a: Conkeldurr|Disable|Earthquake
+|
+|-heal|p2a: Dragapult|39/100|[from] item: Leftovers
+|-damage|p1a: Conkeldurr|74/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|move|p2a: Dragapult|Hex|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|85/100
+|
+|-heal|p2a: Dragapult|45/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-crit|p2a: Sylveon
+|-damage|p2a: Sylveon|83/100
+|
+|-heal|p2a: Sylveon|90/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Sylveon|Yawn|p1a: Rotom
+|-start|p1a: Rotom|move: Yawn|[of] p2a: Sylveon
+|
+|-heal|p2a: Sylveon|96/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Sylveon|Protect||[still]
+|-fail|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Clefable|Moonblast|p2a: Sylveon
+|-damage|p2a: Sylveon|69/100
+|move|p2a: Sylveon|Yawn|p1a: Clefable
+|-start|p1a: Clefable|move: Yawn|[of] p2a: Sylveon
+|
+|-heal|p2a: Sylveon|75/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Rotom|Trick|p1a: Seismitoad
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Seismitoad
+|-item|p1a: Seismitoad|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: EdaltNeru|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|74/100 brn
+|move|p2a: Ferrothorn|Knock Off|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|55/100 brn
+|-enditem|p1a: Conkeldurr|Flame Orb|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-damage|p1a: Conkeldurr|49/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Conkeldurr|Drain Punch|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-heal|p1a: Conkeldurr|74/100 brn|[from] drain|[of] p2a: Rotom
+|faint|p2a: Rotom
+|
+|-damage|p1a: Conkeldurr|68/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|45/100
+|-damage|p2a: Dragapult|33/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p1a: Hydreigon|Hydreigon, F|85/100
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Hydreigon
+|-status|p1a: Hydreigon|brn
+|
+|-heal|p2a: Dragapult|39/100|[from] item: Leftovers
+|-damage|p1a: Hydreigon|79/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-damage|p1a: Hydreigon|73/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Sylveon|Sylveon, M|75/100
+|-damage|p2a: Sylveon|62/100|[from] Stealth Rock
+|turn|17
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|68/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Ferrothorn|Spikes|p2a: Cinderace
+|-sidestart|p2: EdaltNeru|Spikes
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: EdaltNeru|Spikes|[silent]
+|-sidestart|p1: Rudy (Academy HTD)|Spikes|[silent]
+|-sideend|p2: EdaltNeru|Stealth Rock|[silent]
+|-sidestart|p1: Rudy (Academy HTD)|Stealth Rock|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Ferrothorn|Spikes|p2a: Cinderace
+|-sidestart|p2: EdaltNeru|Spikes
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|-damage|p1a: Seismitoad|88/100|[from] Spikes
+|-damage|p1a: Seismitoad|82/100|[from] Stealth Rock
+|move|p2a: Cinderace|Pyro Ball|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|65/100
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Cinderace|Taunt|p1a: Seismitoad
+|-start|p1a: Seismitoad|move: Taunt
+|cant|p1a: Seismitoad|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|47/100
+|move|p1a: Seismitoad|Scald|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|41/100
+|
+|upkeep
+|turn|23
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Cinderace|U-turn|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|87/100
+|
+|switch|p2a: Sylveon|Sylveon, M|68/100|[from]move: U-turn
+|-damage|p2a: Sylveon|56/100|[from] Spikes
+|
+|-heal|p2a: Sylveon|62/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Clefable|Fire Blast|p2a: Sylveon
+|-damage|p2a: Sylveon|40/100
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|46/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|move|p1a: Clefable|Moonblast|p2a: Sylveon
+|-damage|p2a: Sylveon|13/100
+|move|p2a: Sylveon|Yawn|p1a: Clefable
+|-start|p1a: Clefable|move: Yawn|[of] p2a: Sylveon
+|
+|-heal|p2a: Sylveon|63/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p2a: Sylveon|69/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|switch|p1a: Seismitoad|Seismitoad, F|47/100
+|-damage|p1a: Seismitoad|41/100|[from] Stealth Rock
+|-damage|p1a: Seismitoad|29/100|[from] Spikes
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|75/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Seismitoad|Toxic|p2a: Sylveon
+|-status|p2a: Sylveon|tox
+|move|p2a: Sylveon|Hyper Voice|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-heal|p2a: Sylveon|100/100 tox|[from] move: Wish|[wisher] Sylveon
+|-damage|p2a: Sylveon|94/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|88/100|[from] Spikes
+|-damage|p1a: Ferrothorn|82/100|[from] Stealth Rock
+|turn|28
+|
+|switch|p2a: Cinderace|Cinderace, M|41/100
+|move|p1a: Ferrothorn|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|18/100
+|-enditem|p2a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|88/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|move|p2a: Cinderace|Pyro Ball|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|38/100
+|
+|-heal|p1a: Rotom|44/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p2a: Seismitoad|Seismitoad, M|82/100
+|-damage|p2a: Seismitoad|70/100|[from] Spikes
+|move|p1a: Rotom|Thunderbolt|p2a: Seismitoad
+|-immune|p2a: Seismitoad
+|
+|-heal|p1a: Rotom|50/100|[from] item: Leftovers
+|-heal|p2a: Seismitoad|76/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p1a: Hydreigon|Hydreigon, F|73/100 brn
+|-damage|p1a: Hydreigon|60/100 brn|[from] Stealth Rock
+|switch|p2a: Sylveon|Sylveon, M|94/100 tox
+|-damage|p2a: Sylveon|82/100 tox|[from] Spikes
+|
+|-heal|p2a: Sylveon|88/100 tox|[from] item: Leftovers
+|-damage|p1a: Hydreigon|54/100 brn|[from] brn
+|-damage|p2a: Sylveon|82/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|move|p1a: Hydreigon|U-turn|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|77/100 tox
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|88/100|[from]move: U-turn
+|-damage|p1a: Ferrothorn|75/100|[from] Spikes
+|-damage|p1a: Ferrothorn|69/100|[from] Stealth Rock
+|move|p2a: Sylveon|Hyper Voice|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|55/100
+|
+|-heal|p2a: Sylveon|83/100 tox|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|62/100|[from] item: Leftovers
+|-damage|p2a: Sylveon|71/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|switch|p2a: Cinderace|Cinderace, M|18/100
+|-damage|p2a: Cinderace|5/100|[from] Spikes
+|move|p1a: Ferrothorn|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-heal|p1a: Ferrothorn|68/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|-damage|p2a: Ferrothorn|88/100|[from] Spikes
+|turn|34
+|
+|move|p1a: Ferrothorn|Knock Off|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|73/100
+|-damage|p1a: Ferrothorn|55/100|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|-enditem|p2a: Ferrothorn|Choice Band|[from] move: Knock Off|[of] p1a: Ferrothorn
+|move|p2a: Ferrothorn|Power Whip|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|46/100
+|-damage|p2a: Ferrothorn|61/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|52/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|switch|p1a: Rotom|Rotom-Heat|50/100
+|-damage|p1a: Rotom|25/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-enditem|p1a: Rotom|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Conkeldurr|Conkeldurr, F|68/100 brn
+|-damage|p1a: Conkeldurr|62/100 brn|[from] Stealth Rock
+|-damage|p1a: Conkeldurr|50/100 brn|[from] Spikes
+|turn|36
+|
+|move|p1a: Conkeldurr|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|13/100
+|move|p2a: Ferrothorn|Explosion|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p2a: Ferrothorn
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|52/100
+|switch|p2a: Sylveon|Sylveon, M|71/100 tox
+|-damage|p2a: Sylveon|59/100 tox|[from] Spikes
+|-damage|p1a: Ferrothorn|40/100|[from] Spikes
+|-damage|p1a: Ferrothorn|33/100|[from] Stealth Rock
+|turn|37
+|
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|move|p1a: Ferrothorn|Leech Seed|p2a: Sylveon
+|-start|p2a: Sylveon|move: Leech Seed
+|
+|-heal|p2a: Sylveon|65/100 tox|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|40/100|[from] item: Leftovers
+|-damage|p2a: Sylveon|52/100 tox|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|54/100|[silent]
+|-damage|p2a: Sylveon|46/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|move|p2a: Sylveon|Yawn|p1a: Ferrothorn
+|-start|p1a: Ferrothorn|move: Yawn|[of] p2a: Sylveon
+|move|p1a: Ferrothorn|Leech Seed||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p2a: Sylveon|96/100 tox|[from] move: Wish|[wisher] Sylveon
+|-heal|p2a: Sylveon|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|60/100|[from] item: Leftovers
+|-damage|p2a: Sylveon|88/100 tox|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|74/100|[silent]
+|-damage|p2a: Sylveon|76/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|switch|p2a: Seismitoad|Seismitoad, M|76/100
+|-damage|p2a: Seismitoad|63/100|[from] Spikes
+|switch|p1a: Clefable|Clefable, F|87/100
+|
+|-heal|p2a: Seismitoad|69/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: Clefable|Moonblast|p2a: Seismitoad
+|-damage|p2a: Seismitoad|10/100
+|move|p2a: Seismitoad|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|44/100
+|
+|-heal|p2a: Seismitoad|16/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p1a: Clefable|Moonblast|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Sylveon|Sylveon, M|76/100 tox
+|-damage|p2a: Sylveon|63/100 tox|[from] Spikes
+|turn|42
+|-message|EdaltNeru forfeited.
+|
+|win|Rudy (Academy HTD)
+|l|☆EdaltNeru
+|raw|Rudy (Academy HTD)'s rating: 1462 → 1485(+23 for winning)
+|raw|EdaltNeru's rating: 1522 → 1498(-24 for losing)

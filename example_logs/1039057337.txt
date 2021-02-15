@@ -1,0 +1,450 @@
+|ScrapeTime|2020-01-01-07:52:27
+|j|☆GREENFF
+|j|☆Tigerlillie16
+|player|p1|GREENFF|cyclist-gen4|1128
+|player|p2|Tigerlillie16|169|1146
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Seismitoad, F|
+|poke|p1|Clefable, M|
+|poke|p1|Togekiss, M|
+|poke|p1|Excadrill, F|
+|poke|p2|Clefable, M|
+|poke|p2|Seismitoad, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Machamp, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Clefable|Clefable, M|100/100
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|turn|1
+|
+|move|p2a: Seismitoad|Poison Jab|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|46/100
+|move|p1a: Clefable|Dazzling Gleam|p2a: Seismitoad
+|-damage|p2a: Seismitoad|52/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: GREENFF|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GREENFF)
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Ferrothorn|Knock Off|p1a: Ferrothorn
+|-crit|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|74/100
+|-damage|p2a: Ferrothorn|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Cinderace
+|-damage|p1a: Cinderace|56/100
+|-enditem|p1a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Seismitoad|Seismitoad, F|52/100
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-sideend|p1: GREENFF|Stealth Rock|[silent]
+|-sidestart|p2: Tigerlillie16|Stealth Rock|[silent]
+|-activate|p1a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Seismitoad|Earthquake|p1a: Seismitoad
+|-damage|p1a: Seismitoad|70/100
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Seismitoad|Toxic|p2a: Ferrothorn
+|-immune|p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Cinderace|Cinderace, M|56/100
+|move|p2a: Ferrothorn|Leech Seed|p1a: Cinderace
+|-start|p1a: Cinderace|move: Leech Seed
+|
+|-damage|p1a: Cinderace|44/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|10
+|
+|switch|p2a: Seismitoad|Seismitoad, F|52/100
+|-damage|p2a: Seismitoad|46/100|[from] Stealth Rock
+|move|p1a: Cinderace|Pyro Ball|p2a: Seismitoad
+|-resisted|p2a: Seismitoad
+|-damage|p2a: Seismitoad|17/100
+|
+|-damage|p1a: Cinderace|31/100|[from] Leech Seed|[of] p2a: Seismitoad
+|-heal|p2a: Seismitoad|26/100|[silent]
+|upkeep
+|turn|11
+|
+|move|p1a: Cinderace|U-turn|p2a: Seismitoad
+|-damage|p2a: Seismitoad|2/100
+|-damage|p1a: Cinderace|15/100|[from] item: Rocky Helmet|[of] p2a: Seismitoad
+|
+|switch|p1a: Seismitoad|Seismitoad, F|70/100|[from]move: U-turn
+|move|p2a: Seismitoad|Earthquake|p1a: Seismitoad
+|-damage|p1a: Seismitoad|36/100
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Seismitoad|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|84/100
+|
+|-heal|p2a: Ferrothorn|90/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Seismitoad|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|80/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Seismitoad
+|-damage|p1a: Seismitoad|16/100
+|-enditem|p1a: Seismitoad|Aguav Berry|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|86/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Togekiss|Togekiss, M|100/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Togekiss|[miss]
+|-miss|p2a: Ferrothorn|p1a: Togekiss
+|
+|-heal|p2a: Ferrothorn|92/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Togekiss|Thunder Wave|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|par
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|-heal|p2a: Ferrothorn|99/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|16
+|
+|move|p1a: Excadrill|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|56/100 par
+|move|p2a: Ferrothorn|Knock Off|p1a: Excadrill
+|-damage|p1a: Excadrill|56/100
+|-enditem|p1a: Excadrill|Focus Sash|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|62/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Excadrill|Earthquake|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|20/100 par
+|move|p2a: Ferrothorn|Leech Seed|p1a: Excadrill|[miss]
+|-miss|p2a: Ferrothorn|p1a: Excadrill
+|
+|-heal|p2a: Ferrothorn|26/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Excadrill|Earthquake|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|74/100
+|move|p2a: Mandibuzz|Defog|p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|evasion|1
+|-sideend|p2: Tigerlillie16|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Cinderace|Cinderace, M|15/100
+|move|p2a: Mandibuzz|U-turn|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|7/100
+|
+|switch|p2a: Machamp|Machamp, M|100/100|[from]move: U-turn
+|
+|-status|p2a: Machamp|brn|[from] item: Flame Orb
+|upkeep
+|turn|21
+|
+|move|p2a: Machamp|Bullet Punch|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-damage|p2a: Machamp|94/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|56/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|22
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Excadrill|Earthquake|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Excadrill|Earthquake|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|move|p2a: Mandibuzz|Knock Off|p1a: Excadrill
+|-damage|p1a: Excadrill|32/100
+|
+|upkeep
+|turn|24
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|74/100
+|move|p2a: Mandibuzz|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|64/100
+|-damage|p2a: Mandibuzz|88/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|upkeep
+|turn|25
+|l|☆Tigerlillie16
+|inactive|Tigerlillie16 disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|Tigerlillie16 has 30 seconds to reconnect!
+|j|☆Tigerlillie16
+|inactive|Tigerlillie16 reconnected and has 115 seconds left.
+|player|p2|Tigerlillie16|169
+|
+|switch|p1a: Clefable|Clefable, M|46/100
+|move|p2a: Mandibuzz|U-turn|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|40/100
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|26/100 par|[from]move: U-turn
+|
+|-heal|p2a: Ferrothorn|33/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Clefable|Flamethrower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|inactive|Tigerlillie16 has 120 seconds left.
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|27
+|
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|1/100
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|51/100
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|100/100
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|62/100
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Clefable|Flamethrower|p2a: Clefable
+|-damage|p2a: Clefable|66/100
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|19/100
+|
+|-heal|p2a: Clefable|72/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|88/100
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|69/100
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Mandibuzz|Toxic|p1a: Clefable
+|-status|p1a: Clefable|tox
+|move|p1a: Clefable|Thunderbolt|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|23/100
+|
+|upkeep
+|turn|32
+|
+|move|p2a: Mandibuzz|Knock Off|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|54/100 tox
+|-enditem|p1a: Clefable|Life Orb|[from] move: Knock Off|[of] p2a: Mandibuzz
+|move|p1a: Clefable|Thunderbolt|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|33
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Clefable
+|-damage|p1a: Clefable|4/100 tox
+|move|p1a: Clefable|Dazzling Gleam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Machamp|Machamp, M|94/100 brn
+|turn|34
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|64/100
+|move|p2a: Machamp|Bullet Punch|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|57/100
+|-damage|p2a: Machamp|82/100 brn|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|
+|-damage|p2a: Machamp|76/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|move|p2a: Machamp|Close Combat|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|-damage|p2a: Machamp|64/100 brn|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-unboost|p2a: Machamp|def|1
+|-unboost|p2a: Machamp|spd|1
+|faint|p1a: Ferrothorn
+|
+|-damage|p2a: Machamp|58/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Seismitoad|Seismitoad, F|16/100
+|turn|36
+|
+|move|p1a: Seismitoad|Protect|p1a: Seismitoad
+|-singleturn|p1a: Seismitoad|Protect
+|move|p2a: Machamp|Bullet Punch|p1a: Seismitoad
+|-activate|p1a: Seismitoad|move: Protect
+|
+|-damage|p2a: Machamp|52/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p2a: Machamp|Bullet Punch|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|7/100
+|move|p1a: Seismitoad|Stealth Rock|p2a: Machamp
+|-sidestart|p2: Tigerlillie16|move: Stealth Rock
+|
+|-damage|p2a: Machamp|46/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p1a: Seismitoad|Protect|p1a: Seismitoad
+|-singleturn|p1a: Seismitoad|Protect
+|move|p2a: Machamp|Bullet Punch|p1a: Seismitoad
+|-activate|p1a: Seismitoad|move: Protect
+|
+|-damage|p2a: Machamp|40/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|move|p1a: Seismitoad|Protect||[still]
+|-fail|p1a: Seismitoad
+|move|p2a: Machamp|Bullet Punch|p1a: Seismitoad
+|-resisted|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-damage|p2a: Machamp|34/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|32/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|40
+|
+|move|p2a: Machamp|Bullet Punch|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|15/100
+|move|p1a: Excadrill|Earthquake|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|72/100
+|turn|41
+|
+|move|p1a: Excadrill|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Seismitoad|Seismitoad, F|2/100
+|-damage|p2a: Seismitoad|0 fnt|[from] Stealth Rock
+|faint|p2a: Seismitoad
+|
+|win|GREENFF
+|raw|GREENFF's rating: 1128 → 1154(+26 for winning)
+|raw|Tigerlillie16's rating: 1146 → 1119(-27 for losing)
+|l|☆Tigerlillie16

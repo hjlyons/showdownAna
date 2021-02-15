@@ -1,0 +1,279 @@
+|ScrapeTime|2020-01-01-13:35:22
+|j|☆Jamesiscool
+|j|☆DEKULPGC
+|player|p1|Jamesiscool|284|1169
+|player|p2|DEKULPGC|102|1128
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mandibuzz, F|
+|poke|p1|Aegislash, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Jellicent, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Clefable, F|
+|poke|p2|Butterfree, F|
+|poke|p2|Dracovish|
+|poke|p2|Salazzle, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Frosmoth, F|
+|poke|p2|Appletun, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|turn|1
+|
+|move|p2a: Salazzle|Toxic|p1a: Mandibuzz
+|-status|p1a: Mandibuzz|tox
+|move|p1a: Mandibuzz|Foul Play|p2a: Salazzle
+|-crit|p2a: Salazzle
+|-damage|p2a: Salazzle|65/100
+|
+|-heal|p2a: Salazzle|71/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Salazzle|Protect||[still]
+|-fail|p2a: Salazzle
+|
+|-heal|p2a: Salazzle|78/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Rotom|Volt Switch|p2a: Salazzle
+|-damage|p2a: Salazzle|27/100
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|94/100 tox|[from]move: Volt Switch
+|move|p2a: Salazzle|Toxic|p1a: Mandibuzz
+|-fail|p1a: Mandibuzz|tox
+|
+|-heal|p2a: Salazzle|33/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|88/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Salazzle|Protect||[still]
+|-fail|p2a: Salazzle
+|
+|-heal|p2a: Salazzle|40/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Rotom|Volt Switch|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100|[from]move: Volt Switch
+|-ability|p1a: Excadrill|Mold Breaker
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|6
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Jellicent
+|-immune|p1a: Jellicent|[from] ability: Water Absorb
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Butterfree|Butterfree, F|100/100
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Butterfree
+|-status|p2a: Butterfree|brn
+|
+|-damage|p2a: Butterfree|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|move|p2a: Butterfree|Quiver Dance|p2a: Butterfree
+|-boost|p2a: Butterfree|spa|1
+|-boost|p2a: Butterfree|spd|1
+|-boost|p2a: Butterfree|spe|1
+|
+|-damage|p2a: Butterfree|88/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p2a: Butterfree|Sleep Powder|p1a: Aegislash
+|-status|p1a: Aegislash|slp|[from] move: Sleep Powder
+|cant|p1a: Aegislash|slp
+|
+|-damage|p2a: Butterfree|82/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Butterfree|Quiver Dance|p2a: Butterfree
+|-boost|p2a: Butterfree|spa|1
+|-boost|p2a: Butterfree|spd|1
+|-boost|p2a: Butterfree|spe|1
+|
+|-damage|p2a: Butterfree|76/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Butterfree|Sleep Powder|p1a: Excadrill
+|-message|Sleep Clause Mod activated.
+|move|p1a: Excadrill|Rock Slide|p2a: Butterfree
+|-supereffective|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|-damage|p1a: Excadrill|91/100|[from] item: Life Orb
+|faint|p2a: Butterfree
+|
+|upkeep
+|
+|switch|p2a: Frosmoth|Frosmoth, F|100/100
+|turn|12
+|
+|move|p1a: Excadrill|Rock Slide|p2a: Frosmoth
+|-supereffective|p2a: Frosmoth
+|-enditem|p2a: Frosmoth|Focus Sash
+|-damage|p2a: Frosmoth|1/100
+|-damage|p1a: Excadrill|81/100|[from] item: Life Orb
+|move|p2a: Frosmoth|Ice Beam|p1a: Excadrill
+|-damage|p1a: Excadrill|14/100
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|move|p1a: Excadrill|Rapid Spin|p2a: Dracovish
+|-damage|p2a: Dracovish|77/100
+|-boost|p1a: Excadrill|spe|1
+|-damage|p1a: Excadrill|4/100|[from] item: Life Orb
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Excadrill|Iron Head|p2a: Dracovish
+|-resisted|p2a: Dracovish
+|-damage|p2a: Dracovish|48/100
+|-damage|p1a: Excadrill|0 fnt|[from] item: Life Orb
+|faint|p1a: Excadrill
+|move|p2a: Dracovish|Fishious Rend|p1: Excadrill|[notarget]
+|-fail|p2a: Dracovish
+|
+|upkeep
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|turn|15
+|
+|switch|p2a: Appletun|Appletun, F|100/100
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Appletun
+|-status|p2a: Appletun|brn
+|
+|-damage|p2a: Appletun|94/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Appletun|Leech Seed|p1a: Rotom
+|-start|p1a: Rotom|move: Leech Seed
+|
+|-heal|p2a: Appletun|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|88/100|[from] Leech Seed|[of] p2a: Appletun
+|-damage|p2a: Appletun|94/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Appletun|Apple Acid|p1a: Clefable
+|-damage|p1a: Clefable|61/100
+|-unboost|p1a: Clefable|spd|1
+|
+|-heal|p2a: Appletun|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Appletun|94/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p1a: Clefable|Moonblast|p2a: Appletun
+|-supereffective|p2a: Appletun
+|-damage|p2a: Appletun|0 fnt
+|faint|p2a: Appletun
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|19
+|
+|move|p2a: Dragapult|Steel Wing|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|88/100 tox
+|turn|20
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|74/100 tox
+|-damage|p1a: Mandibuzz|61/100 tox
+|-hitcount|p1a: Mandibuzz|2
+|move|p1a: Mandibuzz|Foul Play|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-damage|p1a: Mandibuzz|55/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|48/100
+|turn|21
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Jellicent
+|-immune|p1a: Jellicent|[from] ability: Water Absorb
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Frosmoth|Frosmoth, F|1/100
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Frosmoth
+|-status|p2a: Frosmoth|brn
+|
+|-damage|p2a: Frosmoth|0 fnt|[from] brn
+|faint|p2a: Frosmoth
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|48/100
+|turn|23
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|55/100 tox
+|move|p2a: Dracovish|Earthquake|p1a: Mandibuzz
+|-immune|p1a: Mandibuzz
+|
+|-damage|p1a: Mandibuzz|48/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|move|p2a: Dracovish|Earthquake|p1a: Mandibuzz
+|-immune|p1a: Mandibuzz
+|move|p1a: Mandibuzz|Foul Play|p2a: Dracovish
+|-crit|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|win|Jamesiscool
+|l|☆DEKULPGC
+|raw|Jamesiscool's rating: 1169 → 1189(+20 for winning)
+|raw|DEKULPGC's rating: 1100 → 1080(-20 for losing)

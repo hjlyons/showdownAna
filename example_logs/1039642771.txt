@@ -1,0 +1,377 @@
+|ScrapeTime|2020-01-02-13:24:38
+|j|☆I liek pink mons
+|j|☆Lagme
+|player|p1|I liek pink mons|skierf|1314
+|player|p2|Lagme|psychic-gen4|1303
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ditto|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Dugtrio, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Gastrodon, F|
+|poke|p1|Sylveon, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Dracovish|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|1
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Ferrothorn|Leech Seed|p1a: Corviknight
+|-start|p1a: Corviknight|move: Leech Seed
+|
+|-damage|p1a: Corviknight|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|upkeep
+|turn|2
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Ferrothorn|[from] ability: Imposter
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|96/100
+|-damage|p2a: Ferrothorn|88/100|[from] ability: Iron Barbs|[of] p1a: Ditto
+|
+|-heal|p2a: Ferrothorn|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|move|p2a: Hatterene|Psychic|p1a: Sylveon
+|-damage|p1a: Sylveon|69/100
+|
+|-heal|p1a: Sylveon|75/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Sylveon|Mystical Fire|p2a: Hatterene
+|-damage|p2a: Hatterene|80/100
+|-unboost|p2a: Hatterene|spa|1
+|move|p2a: Hatterene|Psychic|p1a: Sylveon
+|-damage|p1a: Sylveon|54/100
+|
+|-heal|p1a: Sylveon|60/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|86/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|move|p2a: Hatterene|Psychic|p1a: Sylveon
+|-damage|p1a: Sylveon|39/100
+|
+|-heal|p1a: Sylveon|45/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|92/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|move|p1a: Sylveon|Hyper Voice|p2a: Dracovish
+|-supereffective|p2a: Dracovish
+|-damage|p2a: Dracovish|6/100
+|
+|-heal|p1a: Sylveon|95/100|[from] move: Wish|[wisher] Sylveon
+|-heal|p1a: Sylveon|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Dracovish|Fishious Rend|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Gastrodon|Gastrodon, F|100/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Gastrodon
+|-ability|p1a: Gastrodon|Storm Drain|boost
+|-boost|p1a: Gastrodon|spa|1
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|94/100
+|move|p1a: Gastrodon|Earth Power|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|57/100
+|
+|-heal|p2a: Ferrothorn|64/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Corviknight|Corviknight, M|88/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Ferrothorn|Leech Seed|p1a: Corviknight
+|-start|p1a: Corviknight|move: Leech Seed
+|
+|-heal|p1a: Corviknight|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|70/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|82/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|84/100|[silent]
+|upkeep
+|turn|12
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|switch|p2a: Dracovish|Dracovish|6/100
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Gastrodon|Gastrodon, F|100/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Gastrodon
+|-ability|p1a: Gastrodon|Storm Drain|boost
+|-boost|p1a: Gastrodon|spa|1
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|84/100
+|move|p1a: Gastrodon|Earth Power|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|47/100
+|
+|-heal|p2a: Ferrothorn|53/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Corviknight|Corviknight, M|82/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Ferrothorn|Leech Seed|p1a: Corviknight
+|-start|p1a: Corviknight|move: Leech Seed
+|
+|-heal|p1a: Corviknight|88/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|60/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|75/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|74/100|[silent]
+|upkeep
+|turn|16
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Corsola
+|-damage|p1a: Corsola|90/100
+|
+|-heal|p2a: Ferrothorn|80/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p1a: Corviknight|Corviknight, M|75/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Ferrothorn|Leech Seed|p1a: Corviknight
+|-start|p1a: Corviknight|move: Leech Seed
+|
+|-heal|p1a: Corviknight|82/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|86/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|69/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100|[silent]
+|upkeep
+|turn|18
+|
+|switch|p1a: Corsola|Corsola-Galar, F|90/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Corsola
+|-crit|p1a: Corsola
+|-damage|p1a: Corsola|76/100
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Corsola|Strength Sap|p2a: Dragapult
+|-unboost|p2a: Dragapult|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Sylveon
+|-damage|p1a: Sylveon|67/100
+|-unboost|p1a: Sylveon|spd|1
+|
+|-heal|p1a: Sylveon|73/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Sylveon|Protect||[still]
+|-fail|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|79/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Corviknight|Corviknight, M|69/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Excadrill|Iron Head|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|53/100
+|
+|-heal|p1a: Corviknight|59/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Dracovish|Dracovish|6/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|24
+|
+|switch|p1a: Gastrodon|Gastrodon, F|100/100
+|move|p2a: Dracovish|Psychic Fangs|p1a: Gastrodon
+|-damage|p1a: Gastrodon|70/100
+|
+|-heal|p1a: Gastrodon|76/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|move|p1a: Gastrodon|Scald|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|90/100
+|-status|p2a: Ferrothorn|brn
+|
+|-heal|p1a: Gastrodon|82/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|96/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|90/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Ferrothorn|Leech Seed|p1a: Corviknight
+|-start|p1a: Corviknight|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|96/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|88/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|100/100 brn|[silent]
+|-damage|p2a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|switch|p1a: Ditto|Ditto|96/100
+|-transform|p1a: Ditto|p2a: Ferrothorn|[from] ability: Imposter
+|switch|p2a: Dracovish|Dracovish|6/100
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Ditto|Protect|p1a: Ditto
+|-singleturn|p1a: Ditto|Protect
+|move|p2a: Dracovish|Fishious Rend|p1a: Ditto
+|-activate|p1a: Ditto|move: Protect
+|
+|upkeep
+|turn|29
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|94/100 brn
+|switch|p1a: Gastrodon|Gastrodon, F|82/100
+|
+|-heal|p1a: Gastrodon|88/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|switch|p1a: Ditto|Ditto|96/100
+|-transform|p1a: Ditto|p2a: Ferrothorn|[from] ability: Imposter
+|move|p2a: Ferrothorn|Leech Seed|p1a: Ditto
+|-immune|p1a: Ditto
+|
+|-heal|p2a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|switch|p2a: Dracovish|Dracovish|6/100
+|move|p1a: Ditto|Protect||[still]
+|-fail|p1a: Ditto
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Ditto|Protect|p1a: Ditto
+|-singleturn|p1a: Ditto|Protect
+|move|p2a: Dracovish|Outrage|p1a: Ditto
+|-activate|p1a: Ditto|move: Protect
+|
+|upkeep
+|turn|33
+|
+|switch|p1a: Sylveon|Sylveon, F|79/100
+|move|p2a: Dracovish|Outrage|p1a: Sylveon
+|-immune|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|85/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|94/100 brn
+|move|p1a: Sylveon|Mystical Fire|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|25/100 brn
+|-unboost|p2a: Ferrothorn|spa|1
+|
+|-heal|p1a: Sylveon|91/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|31/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|25/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|move|p1a: Sylveon|Mystical Fire|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|faint|p2a: Ferrothorn
+|
+|-heal|p1a: Sylveon|97/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|36
+|
+|switch|p1a: Corviknight|Corviknight, M|88/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Excadrill|Iron Head|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|73/100
+|
+|-heal|p1a: Corviknight|79/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|switch|p2a: Hatterene|Hatterene, F|92/100
+|move|p1a: Corviknight|U-turn|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|67/100
+|-message|Lagme forfeited.
+|
+|win|I liek pink mons
+|l|☆Lagme
+|raw|I liek pink mons's rating: 1314 → 1333(+19 for winning)
+|raw|Lagme's rating: 1303 → 1283(-20 for losing)

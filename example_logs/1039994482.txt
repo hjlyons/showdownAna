@@ -1,0 +1,567 @@
+|ScrapeTime|2020-01-03-02:05:30
+|j|☆KandyMan
+|j|☆whisusdc
+|player|p1|KandyMan|266|1051
+|player|p2|whisusdc|266|1075
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Drapion, F|
+|poke|p1|Coalossal, M|
+|poke|p1|Reuniclus, F|
+|poke|p1|Mawile, M|
+|poke|p1|Jellicent, F|
+|poke|p1|Flygon, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Charizard, M|
+|poke|p2|Hitmontop, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Ferrothorn, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Drapion|Drapion, F|100/100
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|turn|1
+|
+|move|p1a: Drapion|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|cant|p2a: Ferrothorn|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Drapion|atk|1
+|move|p1a: Drapion|Knock Off|p2a: Hitmontop
+|-resisted|p2a: Hitmontop
+|-damage|p2a: Hitmontop|90/100
+|-enditem|p2a: Hitmontop|Leftovers|[from] move: Knock Off|[of] p1a: Drapion
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Hitmontop|Fake Out|p1a: Drapion
+|-damage|p1a: Drapion|89/100
+|cant|p1a: Drapion|flinch
+|
+|-heal|p1a: Drapion|95/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|switch|p2a: Tyranitar|Tyranitar, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Drapion|Toxic Spikes|p2a: Tyranitar
+|-sidestart|p2: whisusdc|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drapion|89/100|[from] Sandstorm
+|-heal|p1a: Drapion|95/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|move|p1a: Drapion|Toxic|p2a: Tyranitar
+|-status|p2a: Tyranitar|tox
+|move|p2a: Tyranitar|Stone Edge|p1a: Drapion
+|-damage|p1a: Drapion|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Drapion|40/100|[from] Sandstorm
+|-heal|p1a: Drapion|46/100|[from] item: Black Sludge
+|-damage|p2a: Tyranitar|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p1a: Mawile|Mawile, M|100/100
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|move|p2a: Tyranitar|Earthquake|p1a: Mawile
+|-supereffective|p1a: Mawile
+|-damage|p1a: Mawile|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Mawile|60/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|82/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p2a: Toxapex|Toxapex, M, shiny|100/100
+|-sideend|p2: whisusdc|move: Toxic Spikes|[of] p2a: Toxapex
+|move|p1a: Mawile|Protect||[still]
+|-fail|p1a: Mawile
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|95/100|[from] Sandstorm
+|-heal|p1a: Mawile|66/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Drapion|Drapion, F|46/100
+|move|p2a: Toxapex|Scald|p1a: Drapion
+|-damage|p1a: Drapion|31/100
+|
+|-weather|none
+|-heal|p1a: Drapion|37/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Drapion|Knock Off|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p1a: Drapion|43/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|switch|p1a: Flygon|Flygon, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, M, shiny|82/100 tox
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|76/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|switch|p2a: Charizard|Charizard, M, shiny|100/100
+|move|p1a: Flygon|U-turn|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|94/100
+|
+|switch|p1a: Coalossal|Coalossal, M|100/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|88/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|switch|p2a: Hitmontop|Hitmontop, M|90/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Coalossal|atk|1
+|move|p1a: Coalossal|Spikes|p2a: Hitmontop
+|-sidestart|p2: whisusdc|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hitmontop|83/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|switch|p1a: Mawile|Mawile, M|66/100
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Hitmontop|atk|1
+|move|p2a: Hitmontop|Rapid Spin|p1a: Mawile
+|-resisted|p1a: Mawile
+|-damage|p1a: Mawile|62/100
+|-sideend|p2: whisusdc|Spikes|[from] move: Rapid Spin|[of] p2a: Hitmontop
+|-boost|p2a: Hitmontop|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hitmontop|77/100|[from] Sandstorm
+|-heal|p1a: Mawile|68/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Mawile|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: whisusdc|move: Stealth Rock
+|
+|-weather|none
+|-heal|p1a: Mawile|74/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Coalossal|Coalossal, M|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Coalossal
+|-sidestart|p1: KandyMan|move: Stealth Rock
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Hitmontop|Hitmontop, M|77/100
+|-damage|p2a: Hitmontop|71/100|[from] Stealth Rock
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Coalossal|atk|1
+|move|p1a: Coalossal|Rapid Spin|p2a: Hitmontop
+|-damage|p2a: Hitmontop|64/100
+|-sideend|p1: KandyMan|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Coalossal
+|-boost|p1a: Coalossal|spe|1
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Jellicent|Jellicent, F|100/100
+|move|p2a: Hitmontop|Close Combat|p1a: Jellicent
+|-immune|p1a: Jellicent
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Tyranitar|Tyranitar, M, shiny|76/100 tox
+|-damage|p2a: Tyranitar|64/100 tox|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Jellicent|Will-O-Wisp||[still]
+|-fail|p1a: Jellicent
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|94/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|58/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|switch|p1a: Flygon|Flygon, F|100/100
+|move|p2a: Tyranitar|Earthquake|p1a: Flygon
+|-immune|p1a: Flygon|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|45/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p2a: Toxapex|Toxapex, M, shiny|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Flygon|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|79/100
+|
+|switch|p1a: Jellicent|Jellicent, F|94/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|88/100|[from] Sandstorm
+|-damage|p2a: Toxapex|73/100|[from] Sandstorm
+|-heal|p2a: Toxapex|79/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Jellicent|Taunt|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|82/100|[from] Sandstorm
+|-damage|p2a: Toxapex|73/100|[from] Sandstorm
+|-heal|p2a: Toxapex|79/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: Flygon|Flygon, F|100/100
+|switch|p2a: Hitmontop|Hitmontop, M|64/100
+|-damage|p2a: Hitmontop|57/100|[from] Stealth Rock
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Flygon|atk|1
+|
+|-weather|none
+|upkeep
+|turn|23
+|
+|switch|p1a: Jellicent|Jellicent, F|82/100
+|move|p2a: Hitmontop|Rapid Spin|p1a: Jellicent
+|-immune|p1a: Jellicent
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Jellicent|Taunt|p2a: Dragapult
+|-start|p2a: Dragapult|move: Taunt
+|
+|upkeep
+|turn|25
+|
+|switch|p1a: Drapion|Drapion, F|43/100
+|move|p2a: Dragapult|Sucker Punch||[still]
+|-fail|p2a: Dragapult
+|
+|-heal|p1a: Drapion|49/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Drapion
+|-damage|p1a: Drapion|21/100
+|-damage|p1a: Drapion|0 fnt
+|-hitcount|p1a: Drapion|2
+|-damage|p2a: Dragapult|78/100|[from] item: Life Orb
+|faint|p1a: Drapion
+|
+|-end|p2a: Dragapult|move: Taunt
+|upkeep
+|
+|switch|p1a: Mawile|Mawile, M|74/100
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Dragapult|atk|1
+|turn|27
+|
+|switch|p1a: Coalossal|Coalossal, M|100/100
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Coalossal
+|-immune|p1a: Coalossal
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Dragapult|U-turn|p1a: Coalossal
+|-resisted|p1a: Coalossal
+|-damage|p1a: Coalossal|94/100
+|-damage|p2a: Dragapult|69/100|[from] item: Life Orb
+|
+|switch|p2a: Hitmontop|Hitmontop, M|57/100|[from]move: U-turn
+|-damage|p2a: Hitmontop|51/100|[from] Stealth Rock
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Coalossal|atk|1
+|move|p1a: Coalossal|Stone Edge|p2a: Hitmontop
+|-resisted|p2a: Hitmontop
+|-damage|p2a: Hitmontop|40/100
+|
+|upkeep
+|turn|29
+|
+|switch|p1a: Jellicent|Jellicent, F|82/100
+|move|p2a: Hitmontop|Bullet Punch|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|77/100
+|
+|upkeep
+|turn|30
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p2a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p1a: Jellicent|Taunt|p2a: Ferrothorn
+|-start|p2a: Ferrothorn|move: Taunt
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|switch|p1a: Coalossal|Coalossal, M|94/100
+|move|p2a: Ferrothorn|Gyro Ball|p1a: Coalossal
+|-damage|p1a: Coalossal|80/100
+|-status|p2a: Ferrothorn|brn|[from] ability: Flame Body|[of] p1a: Coalossal
+|
+|-damage|p2a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|switch|p2a: Tyranitar|Tyranitar, M, shiny|45/100 tox
+|-damage|p2a: Tyranitar|33/100 tox|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Coalossal|Spikes|p2a: Tyranitar
+|-sidestart|p2: whisusdc|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|27/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|switch|p1a: Flygon|Flygon, F|100/100
+|move|p2a: Tyranitar|Crunch|p1a: Flygon
+|-damage|p1a: Flygon|41/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|15/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|switch|p2a: Hitmontop|Hitmontop, M|40/100
+|-damage|p2a: Hitmontop|28/100|[from] Spikes
+|-damage|p2a: Hitmontop|22/100|[from] Stealth Rock
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Flygon|atk|1
+|move|p1a: Flygon|U-turn|p2a: Hitmontop
+|-resisted|p2a: Hitmontop
+|-damage|p2a: Hitmontop|14/100
+|
+|switch|p1a: Jellicent|Jellicent, F|77/100|[from]move: U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hitmontop|8/100|[from] Sandstorm
+|-damage|p1a: Jellicent|71/100|[from] Sandstorm
+|upkeep
+|turn|35
+|
+|switch|p2a: Toxapex|Toxapex, M, shiny|100/100
+|-damage|p2a: Toxapex|88/100|[from] Spikes
+|-damage|p2a: Toxapex|76/100|[from] Stealth Rock
+|move|p1a: Jellicent|Taunt|p2a: Toxapex
+|-start|p2a: Toxapex|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jellicent|65/100|[from] Sandstorm
+|-damage|p2a: Toxapex|70/100|[from] Sandstorm
+|-heal|p2a: Toxapex|76/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Toxapex
+|-status|p2a: Toxapex|brn
+|move|p2a: Toxapex|Scald|p1a: Jellicent
+|-heal|p1a: Jellicent|90/100|[from] ability: Water Absorb|[of] p2a: Toxapex
+|
+|-weather|none
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|switch|p2a: Tyranitar|Tyranitar, M, shiny|15/100 tox
+|-damage|p2a: Tyranitar|2/100 tox|[from] Stealth Rock
+|-damage|p2a: Tyranitar|0 fnt|[from] Spikes
+|faint|p2a: Tyranitar
+|move|p1a: Jellicent|Hex|p2: Tyranitar|[notarget]
+|-fail|p1a: Jellicent
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|69/100
+|-damage|p2a: Dragapult|56/100|[from] Spikes
+|-damage|p2a: Dragapult|44/100|[from] Stealth Rock
+|turn|38
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Jellicent
+|-damage|p1a: Jellicent|66/100
+|-damage|p1a: Jellicent|42/100
+|-hitcount|p1a: Jellicent|2
+|-damage|p2a: Dragapult|34/100|[from] item: Life Orb
+|move|p1a: Jellicent|Hex|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Charizard|Charizard, M, shiny|88/100
+|-damage|p2a: Charizard|38/100|[from] Stealth Rock
+|turn|39
+|
+|switch|p1a: Coalossal|Coalossal, M|80/100
+|move|p2a: Charizard|Thunder Punch|p1a: Coalossal
+|-damage|p1a: Coalossal|62/100
+|-damage|p2a: Charizard|28/100|[from] item: Life Orb
+|
+|upkeep
+|turn|40
+|
+|move|p2a: Charizard|Dragon Claw|p1a: Coalossal
+|-damage|p1a: Coalossal|43/100
+|-damage|p2a: Charizard|19/100|[from] item: Life Orb
+|move|p1a: Coalossal|Spikes|p2a: Charizard
+|-sidestart|p2: whisusdc|Spikes
+|
+|upkeep
+|turn|41
+|
+|move|p2a: Charizard|Dragon Claw|p1a: Coalossal
+|-damage|p1a: Coalossal|22/100
+|-damage|p2a: Charizard|9/100|[from] item: Life Orb
+|move|p1a: Coalossal|Rapid Spin|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|-boost|p1a: Coalossal|spe|1
+|faint|p2a: Charizard
+|
+|upkeep
+|
+|switch|p2a: Hitmontop|Hitmontop, M|8/100
+|-damage|p2a: Hitmontop|0 fnt|[from] Spikes
+|faint|p2a: Hitmontop
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|94/100 brn
+|-damage|p2a: Ferrothorn|88/100 brn|[from] Stealth Rock
+|-damage|p2a: Ferrothorn|72/100 brn|[from] Spikes
+|turn|42
+|
+|switch|p2a: Toxapex|Toxapex, M, shiny|100/100 brn
+|-damage|p2a: Toxapex|88/100 brn|[from] Stealth Rock
+|-damage|p2a: Toxapex|72/100 brn|[from] Spikes
+|move|p1a: Coalossal|Fire Punch|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|66/100 brn
+|
+|-heal|p2a: Toxapex|72/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|66/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|switch|p1a: Jellicent|Jellicent, F|42/100
+|move|p2a: Toxapex|Toxic|p1a: Jellicent
+|-status|p1a: Jellicent|tox
+|
+|-heal|p2a: Toxapex|72/100 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|36/100 tox|[from] psn
+|-damage|p2a: Toxapex|66/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Jellicent|Hex|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|72/100 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|24/100 tox|[from] psn
+|-damage|p2a: Toxapex|66/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|72/100 brn
+|-damage|p2a: Ferrothorn|55/100 brn|[from] Spikes
+|-damage|p2a: Ferrothorn|49/100 brn|[from] Stealth Rock
+|move|p1a: Jellicent|Hex|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|18/100 brn
+|
+|-heal|p2a: Ferrothorn|24/100 brn|[from] item: Leftovers
+|-damage|p1a: Jellicent|5/100 tox|[from] psn
+|-damage|p2a: Ferrothorn|18/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Reuniclus
+|-sidestart|p1: KandyMan|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|24/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|18/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|move|p2a: Ferrothorn|Leech Seed|p1a: Reuniclus
+|-start|p1a: Reuniclus|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|24/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|18/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|move|p2a: Ferrothorn|Power Whip|p1a: Reuniclus
+|-damage|p1a: Reuniclus|88/100
+|
+|-heal|p1a: Reuniclus|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|24/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|18/100 brn|[from] brn
+|upkeep
+|turn|49
+|-message|whisusdc forfeited.
+|
+|win|KandyMan
+|l|☆whisusdc
+|raw|KandyMan's rating: 1051 → 1086(+35 for winning)
+|raw|whisusdc's rating: 1075 → 1052(-23 for losing)

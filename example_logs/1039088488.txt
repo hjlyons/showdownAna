@@ -1,0 +1,133 @@
+|ScrapeTime|2020-01-01-10:24:44
+|j|☆Bon a Nez
+|j|☆Brunette Blonde
+|player|p1|Bon a Nez|drake-gen3|1079
+|player|p2|Brunette Blonde|doctor|1156
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Seismitoad, M|
+|poke|p1|Gengar, F|
+|poke|p1|Hydreigon, F|
+|poke|p1|Hatterene, F|
+|poke|p2|Hippowdon, F|
+|poke|p2|Lucario, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Durant, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Gengar|Gengar, F|100/100
+|switch|p2a: Durant|Durant, M|100/100
+|turn|1
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|move|p2a: Durant|First Impression|p1a: Ferrothorn|[miss]
+|-miss|p2a: Durant|p1a: Ferrothorn
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Durant|First Impression||[still]
+|-fail|p2a: Durant
+|-hint|First Impression only works on your first turn out.
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Durant
+|-status|p2a: Durant|par
+|
+|upkeep
+|turn|3
+|
+|cant|p2a: Durant|par
+|move|p1a: Ferrothorn|Leech Seed|p2a: Durant
+|-start|p2a: Durant|move: Leech Seed
+|
+|-damage|p2a: Durant|88/100 par|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|4
+|
+|switch|p2a: Lucario|Lucario, M|100/100
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Lucario
+|-status|p2a: Lucario|par
+|
+|upkeep
+|turn|5
+|
+|cant|p2a: Lucario|par
+|move|p1a: Ferrothorn|Leech Seed|p2a: Lucario
+|-start|p2a: Lucario|move: Leech Seed
+|
+|-damage|p2a: Lucario|88/100 par|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|6
+|
+|cant|p2a: Lucario|par
+|move|p1a: Ferrothorn|Thunder Wave|p2a: Lucario
+|-fail|p2a: Lucario|par
+|
+|-damage|p2a: Lucario|76/100 par|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|7
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Lucario|Aura Sphere|p1a: Seismitoad
+|-damage|p1a: Seismitoad|47/100
+|-damage|p2a: Lucario|66/100 par|[from] item: Life Orb
+|
+|-heal|p1a: Seismitoad|53/100|[from] item: Leftovers
+|-damage|p2a: Lucario|53/100 par|[from] Leech Seed|[of] p1a: Seismitoad
+|-heal|p1a: Seismitoad|61/100|[silent]
+|upkeep
+|turn|8
+|
+|move|p1a: Seismitoad|Earth Power|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|-heal|p1a: Seismitoad|67/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|9
+|
+|move|p1a: Seismitoad|Scald|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|55/100
+|move|p2a: Hippowdon|Whirlwind|p1a: Seismitoad
+|drag|p1a: Gengar|Gengar, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|94/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|switch|p2a: Durant|Durant, M|88/100 par
+|move|p1a: Gengar|Shadow Ball|p2a: Durant
+|-damage|p2a: Durant|0 fnt
+|faint|p2a: Durant
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gengar|88/100|[from] Sandstorm
+|upkeep
+|-message|Brunette Blonde forfeited.
+|
+|win|Bon a Nez
+|l|☆Brunette Blonde
+|raw|Bon a Nez's rating: 1079 → 1113(+34 for winning)
+|raw|Brunette Blonde's rating: 1156 → 1126(-30 for losing)

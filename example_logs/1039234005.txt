@@ -1,0 +1,347 @@
+|ScrapeTime|2020-01-01-18:28:52
+|j|☆IMrJefferFC
+|j|☆GOOSE03
+|player|p1|IMrJefferFC|pokemaniac|1043
+|player|p2|GOOSE03|musician|1079
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxtricity, F|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Coalossal, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Mamoswine, M|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Rotom-Wash|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GOOSE03)
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: IMrJefferFC|move: Light Screen
+|move|p2a: Rotom|Trick|p1a: Grimmsnarl
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Grimmsnarl
+|-item|p1a: Grimmsnarl|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Light Clay|[from] move: Trick
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Corsola
+|-damage|p1a: Corsola|93/100
+|inactive|GOOSE03 has 120 seconds left.
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100|[from]move: Volt Switch
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Corsola|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Spikes|p1a: Corsola
+|-sidestart|p1: IMrJefferFC|Spikes
+|
+|-damage|p2a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Corsola|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: GOOSE03|move: Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Corsola
+|-start|p1a: Corsola|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Corsola|81/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|-damage|p1a: Cinderace|88/100|[from] Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Cinderace
+|-sidestart|p1: IMrJefferFC|Spikes
+|
+|-heal|p1a: Cinderace|94/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Cinderace|Pyro Ball|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|59/100
+|
+|-heal|p1a: Cinderace|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Cinderace|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|34/100
+|
+|switch|p1a: Toxtricity|Toxtricity, F|100/100|[from]move: U-turn
+|-damage|p1a: Toxtricity|84/100|[from] Spikes
+|move|p2a: Rotom|Thunder Wave|p1a: Toxtricity
+|-immune|p1a: Toxtricity
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Toxtricity|Sludge Wave|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-sideend|p1: IMrJefferFC|move: Light Screen
+|upkeep
+|
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|-damage|p2a: Mamoswine|88/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p1a: Grimmsnarl|84/100|[from] Spikes
+|move|p2a: Mamoswine|Stealth Rock|p1a: Grimmsnarl
+|-sidestart|p1: IMrJefferFC|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: IMrJefferFC|Reflect
+|move|p2a: Mamoswine|Earthquake|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|38/100
+|-damage|p2a: Mamoswine|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Coalossal|Coalossal, F|100/100
+|-damage|p1a: Coalossal|76/100|[from] Stealth Rock
+|-item|p1a: Coalossal|Air Balloon
+|move|p2a: Mamoswine|Earthquake|p1a: Coalossal
+|-immune|p1a: Coalossal
+|
+|upkeep
+|turn|12
+|inactive|GOOSE03 has 120 seconds left.
+|
+|move|p2a: Mamoswine|Icicle Crash|p1a: Coalossal
+|-resisted|p1a: Coalossal
+|-damage|p1a: Coalossal|66/100
+|-enditem|p1a: Coalossal|Air Balloon
+|-damage|p2a: Mamoswine|68/100|[from] item: Life Orb
+|move|p1a: Coalossal|Flare Blitz|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|7/100
+|-damage|p1a: Coalossal|48/100|[from] Recoil
+|
+|upkeep
+|turn|13
+|inactive|GOOSE03 has 120 seconds left.
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|38/100
+|-damage|p1a: Grimmsnarl|22/100|[from] Spikes
+|-damage|p1a: Grimmsnarl|9/100|[from] Stealth Rock
+|move|p2a: Mamoswine|Earthquake|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|-damage|p2a: Mamoswine|0 fnt|[from] item: Life Orb
+|faint|p1a: Grimmsnarl
+|faint|p2a: Mamoswine
+|
+|upkeep
+|inactive|GOOSE03 has 120 seconds left.
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|switch|p1a: Cinderace|Cinderace, M|99/100
+|-damage|p1a: Cinderace|75/100|[from] Stealth Rock
+|-damage|p1a: Cinderace|59/100|[from] Spikes
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Hatterene
+|-damage|p2a: Hatterene|19/100
+|move|p2a: Hatterene|Psychic|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-sideend|p1: IMrJefferFC|Reflect
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, F|84/100
+|-damage|p1a: Toxtricity|72/100|[from] Stealth Rock
+|-damage|p1a: Toxtricity|55/100|[from] Spikes
+|turn|15
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|move|p1a: Toxtricity|Overdrive|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|17/100
+|
+|-heal|p2a: Corviknight|23/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Toxtricity|Overdrive|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|94/100 brn
+|-damage|p2a: Ferrothorn|88/100 brn|[from] Stealth Rock
+|turn|17
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|84/100|[from] Spikes
+|-damage|p1a: Ferrothorn|78/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed|p1a: Ferrothorn
+|-immune|p1a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|88/100 brn|[from] brn
+|upkeep
+|turn|18
+|inactive|GOOSE03 has 120 seconds left.
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Ferrothorn|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|31/100
+|-enditem|p2a: Dragapult|Choice Specs|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Dragapult|Flamethrower|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, F|55/100
+|-damage|p1a: Toxtricity|43/100|[from] Stealth Rock
+|-damage|p1a: Toxtricity|26/100|[from] Spikes
+|turn|20
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, M|81/100
+|-damage|p1a: Corsola|64/100|[from] Spikes
+|-damage|p1a: Corsola|52/100|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|19/100
+|-start|p2a: Dragapult|Disable|Shadow Ball|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Strength Sap|p2a: Dragapult
+|-unboost|p2a: Dragapult|atk|1
+|-heal|p1a: Corsola|87/100
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Hatterene|Hatterene, F|19/100
+|-damage|p2a: Hatterene|6/100|[from] Stealth Rock
+|move|p1a: Corsola|Hex|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|88/100 brn
+|-damage|p2a: Ferrothorn|82/100 brn|[from] Stealth Rock
+|turn|23
+|
+|move|p1a: Corsola|Hex|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|56/100 brn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Corsola
+|-start|p1a: Corsola|move: Leech Seed
+|
+|-heal|p2a: Ferrothorn|62/100 brn|[from] item: Leftovers
+|-damage|p1a: Corsola|74/100|[from] Leech Seed|[of] p2a: Ferrothorn
+|-heal|p2a: Ferrothorn|74/100 brn|[silent]
+|-damage|p2a: Ferrothorn|68/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p1a: Coalossal|Coalossal, F|48/100
+|-damage|p1a: Coalossal|23/100|[from] Stealth Rock
+|-damage|p1a: Coalossal|7/100|[from] Spikes
+|move|p2a: Ferrothorn|Spikes|p1a: Coalossal
+|-sidestart|p1: IMrJefferFC|Spikes
+|
+|-heal|p2a: Ferrothorn|74/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|68/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Coalossal|Flare Blitz|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Coalossal|0 fnt|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|faint|p1a: Coalossal
+|
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, M|74/100
+|switch|p2a: Dragapult|Dragapult, M|31/100
+|-damage|p2a: Dragapult|18/100|[from] Stealth Rock
+|-damage|p1a: Corsola|62/100|[from] Stealth Rock
+|-damage|p1a: Corsola|37/100|[from] Spikes
+|turn|26
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|2/100
+|move|p1a: Corsola|Strength Sap|p2a: Dragapult
+|-unboost|p2a: Dragapult|atk|1
+|-heal|p1a: Corsola|70/100
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|32/100
+|move|p1a: Corsola|Hex|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|win|IMrJefferFC
+|c|☆GOOSE03|gg
+|raw|IMrJefferFC's rating: 1043 → 1080(+37 for winning)
+|raw|GOOSE03's rating: 1079 → 1055(-24 for losing)

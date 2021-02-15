@@ -1,0 +1,332 @@
+|ScrapeTime|2020-01-02-10:24:50
+|j|☆luckni
+|j|☆E knuckles
+|player|p1|luckni|1|1163
+|player|p2|E knuckles|volkner|1116
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Bisharp, F|
+|poke|p1|Togekiss, F|
+|poke|p1|Kommo-o, M|
+|poke|p1|Jellicent, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Dracovish|
+|poke|p2|Barraskewda, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Drednaw, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by E knuckles)
+|
+|start
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|1
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Jellicent
+|-immune|p1a: Jellicent|[from] ability: Water Absorb
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Spikeman|Ferrothorn, F|100/100
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Spikeman
+|-status|p2a: Spikeman|brn
+|
+|-damage|p2a: Spikeman|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|move|p2a: Spikeman|Leech Seed|p1a: Kommo-o
+|-start|p1a: Kommo-o|move: Leech Seed
+|
+|-heal|p2a: Spikeman|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Kommo-o|88/100|[from] Leech Seed|[of] p2a: Spikeman
+|-damage|p2a: Spikeman|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|-item|p1a: Excadrill|Air Balloon
+|move|p2a: Spikeman|Gyro Ball|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|83/100
+|-enditem|p1a: Excadrill|Air Balloon
+|
+|-heal|p2a: Spikeman|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Spikeman|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: Excadrill|Earthquake|p2a: Spikeman
+|-crit|p2a: Spikeman
+|-damage|p2a: Spikeman|45/100 brn
+|move|p2a: Spikeman|Leech Seed|p1a: Excadrill
+|-start|p1a: Excadrill|move: Leech Seed
+|
+|-heal|p2a: Spikeman|51/100 brn|[from] item: Leftovers
+|-damage|p1a: Excadrill|71/100|[from] Leech Seed|[of] p2a: Spikeman
+|-heal|p2a: Spikeman|64/100 brn|[silent]
+|-damage|p2a: Spikeman|58/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Kommo-o|Kommo-o, M|88/100
+|move|p2a: Spikeman|Power Whip|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-crit|p1a: Kommo-o
+|-damage|p1a: Kommo-o|74/100
+|
+|-heal|p2a: Spikeman|64/100 brn|[from] item: Leftovers
+|-damage|p2a: Spikeman|58/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Kommo-o|Substitute|p1a: Kommo-o
+|-start|p1a: Kommo-o|Substitute
+|-damage|p1a: Kommo-o|49/100
+|move|p2a: Spikeman|Spikes|p1a: Kommo-o
+|-sidestart|p1: luckni|Spikes
+|
+|-heal|p2a: Spikeman|64/100 brn|[from] item: Leftovers
+|-damage|p2a: Spikeman|58/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p1a: Kommo-o|Drain Punch|p2a: Spikeman
+|-supereffective|p2a: Spikeman
+|-damage|p2a: Spikeman|18/100 brn
+|-heal|p1a: Kommo-o|72/100|[from] drain|[of] p2a: Spikeman
+|-damage|p1a: Kommo-o|60/100|[from] ability: Iron Barbs|[of] p2a: Spikeman
+|move|p2a: Spikeman|Spikes|p1a: Kommo-o
+|-sidestart|p1: luckni|Spikes
+|
+|-heal|p2a: Spikeman|25/100 brn|[from] item: Leftovers
+|-damage|p2a: Spikeman|18/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Kommo-o|Belly Drum|p1a: Kommo-o
+|-damage|p1a: Kommo-o|10/100
+|-setboost|p1a: Kommo-o|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Kommo-o|Aguav Berry|[eat]
+|-heal|p1a: Kommo-o|43/100|[from] item: Aguav Berry
+|move|p2a: Spikeman|Gyro Ball|p1a: Kommo-o
+|-immune|p1a: Kommo-o|[from] ability: Bulletproof
+|
+|-heal|p2a: Spikeman|25/100 brn|[from] item: Leftovers
+|-damage|p2a: Spikeman|18/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Kommo-o|Drain Punch|p2a: Spikeman
+|-supereffective|p2a: Spikeman
+|-damage|p2a: Spikeman|0 fnt
+|-heal|p1a: Kommo-o|54/100|[from] drain|[of] p2a: Spikeman
+|-damage|p1a: Kommo-o|42/100|[from] ability: Iron Barbs|[of] p2a: Spikeman
+|faint|p2a: Spikeman
+|
+|upkeep
+|
+|switch|p2a: Nagle|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Nagle
+|turn|11
+|
+|move|p1a: Kommo-o|Drain Punch|p2a: Nagle
+|-resisted|p2a: Nagle
+|-damage|p2a: Nagle|52/100
+|-heal|p1a: Kommo-o|68/100|[from] drain|[of] p2a: Nagle
+|move|p2a: Nagle|U-turn|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-activate|p1a: Kommo-o|move: Substitute|[damage]
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100|[from]move: U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p2a: Seismitoad|Hydro Pump|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-end|p1a: Kommo-o|Substitute
+|-damage|p2a: Seismitoad|91/100|[from] item: Life Orb
+|move|p1a: Kommo-o|Drain Punch|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|-heal|p1a: Kommo-o|100/100|[from] drain|[of] p2a: Seismitoad
+|faint|p2a: Seismitoad
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|13
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|-damage|p1a: Jellicent|84/100|[from] Spikes
+|move|p2a: Dracovish|Fishious Rend|p1a: Jellicent
+|-heal|p1a: Jellicent|100/100|[from] ability: Water Absorb|[of] p2a: Dracovish
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|switch|p2a: Drednaw|Drednaw, F|100/100
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|-damage|p1a: Kommo-o|84/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|move|p2a: Drednaw|Swords Dance|p2a: Drednaw
+|-boost|p2a: Drednaw|atk|2
+|move|p1a: Kommo-o|Substitute|p1a: Kommo-o
+|-start|p1a: Kommo-o|Substitute
+|-damage|p1a: Kommo-o|59/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|move|p2a: Drednaw|Liquidation|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-end|p1a: Kommo-o|Substitute
+|-damage|p2a: Drednaw|91/100|[from] item: Life Orb
+|move|p1a: Kommo-o|Belly Drum|p1a: Kommo-o
+|-damage|p1a: Kommo-o|9/100
+|-setboost|p1a: Kommo-o|atk|6|[from] move: Belly Drum
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p2a: Drednaw|Crunch|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|-damage|p2a: Drednaw|81/100|[from] item: Life Orb
+|faint|p1a: Kommo-o
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|-damage|p1a: Bisharp|84/100|[from] Spikes
+|turn|18
+|
+|move|p2a: Drednaw|Superpower|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|-unboost|p2a: Drednaw|atk|1
+|-unboost|p2a: Drednaw|def|1
+|-damage|p2a: Drednaw|71/100|[from] item: Life Orb
+|faint|p1a: Bisharp
+|
+|-weather|none
+|upkeep
+|inactive|luckni has 120 seconds left.
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p1a: Grimmsnarl|84/100|[from] Spikes
+|turn|19
+|
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|move|p2a: Drednaw|Liquidation|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|12/100
+|-damage|p2a: Drednaw|61/100|[from] item: Life Orb
+|
+|-heal|p1a: Grimmsnarl|18/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: luckni|Reflect
+|move|p2a: Drednaw|Liquidation|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|-damage|p2a: Drednaw|51/100|[from] item: Life Orb
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|inactive|luckni has 120 seconds left.
+|
+|switch|p1a: Excadrill|Excadrill, F|71/100
+|-damage|p1a: Excadrill|54/100|[from] Spikes
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|21
+|
+|move|p1a: Excadrill|Iron Head|p2a: Drednaw
+|-damage|p2a: Drednaw|0 fnt
+|faint|p2a: Drednaw
+|
+|upkeep
+|
+|switch|p2a: Nagle|Pelipper, F|52/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Nagle
+|turn|22
+|
+|move|p1a: Excadrill|Iron Head|p2a: Nagle
+|-resisted|p2a: Nagle
+|-damage|p2a: Nagle|36/100
+|cant|p2a: Nagle|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|switch|p1a: Jellicent|Jellicent, M|100/100
+|-damage|p1a: Jellicent|84/100|[from] Spikes
+|move|p2a: Nagle|Scald|p1a: Jellicent
+|-heal|p1a: Jellicent|100/100|[from] ability: Water Absorb|[of] p2a: Nagle
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|
+|move|p2a: Nagle|U-turn|p1a: Jellicent
+|-resisted|p1a: Jellicent
+|-damage|p1a: Jellicent|98/100
+|
+|switch|p2a: Barracuda|Barraskewda, F|100/100|[from]move: U-turn
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Barracuda|[miss]
+|-miss|p1a: Jellicent|p2a: Barracuda
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|100/100|[from] item: Leftovers
+|-sideend|p1: luckni|Reflect
+|upkeep
+|turn|25
+|
+|move|p2a: Barracuda|Crunch|p1a: Jellicent
+|-supereffective|p1a: Jellicent
+|-damage|p1a: Jellicent|29/100
+|move|p1a: Jellicent|Will-O-Wisp|p2a: Barracuda|[miss]
+|-miss|p1a: Jellicent|p2a: Barracuda
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Jellicent|35/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|-message|luckni forfeited.
+|
+|win|E knuckles
+|l|☆luckni
+|raw|luckni's rating: 1163 → 1135(-28 for losing)
+|raw|E knuckles's rating: 1116 → 1144(+28 for winning)

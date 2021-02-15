@@ -1,0 +1,314 @@
+|ScrapeTime|2020-01-03-01:34:43
+|j|☆Treysummit
+|j|☆basfdbasdb
+|player|p1|Treysummit|hoopster|1050
+|player|p2|basfdbasdb|#gmars|1070
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Rapidash-Galar, F|
+|poke|p1|Orbeetle, M|
+|poke|p1|Appletun, F|
+|poke|p1|Thievul, F|
+|poke|p1|Pincurchin, F|
+|poke|p1|Boltund, M|
+|poke|p2|Obstagoon, M|
+|poke|p2|Rotom-Mow|
+|poke|p2|Corviknight, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Sylveon, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Orbeetle|Orbeetle, M|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-item|p2a: Dragapult|Leftovers|[from] ability: Frisk|[of] p1a: Orbeetle|[identify]
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Treysummit)
+|
+|move|p2a: Dragapult|Thunder Wave|p1a: Orbeetle
+|-status|p1a: Orbeetle|par
+|cant|p1a: Orbeetle|par
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|move|p1a: Orbeetle|Reflect|p1a: Orbeetle
+|-sidestart|p1: Treysummit|Reflect
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Dragapult|Hex|p1a: Orbeetle
+|-supereffective|p1a: Orbeetle
+|-damage|p1a: Orbeetle|10/100 par
+|move|p1a: Orbeetle|Light Screen|p1a: Orbeetle
+|-sidestart|p1: Treysummit|move: Light Screen
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Dragapult|Hex|p1a: Orbeetle
+|-supereffective|p1a: Orbeetle
+|-damage|p1a: Orbeetle|0 fnt
+|faint|p1a: Orbeetle
+|
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Pincurchin|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|5
+|
+|move|p2a: Dragapult|Hex|p1a: Pincurchin
+|-damage|p1a: Pincurchin|65/100
+|move|p1a: Pincurchin|Spikes|p2a: Dragapult
+|-sidestart|p2: basfdbasdb|Spikes
+|
+|-heal|p2a: Dragapult|99/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Dragapult|Disable|p1a: Pincurchin
+|-start|p1a: Pincurchin|Disable|Spikes
+|cant|p1a: Pincurchin|Disable|Spikes
+|
+|-heal|p2a: Dragapult|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Dragapult|Hex|p1a: Pincurchin
+|-damage|p1a: Pincurchin|29/100
+|move|p1a: Pincurchin|Recover|p1a: Pincurchin
+|-heal|p1a: Pincurchin|79/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Dragapult|Hex|p1a: Pincurchin
+|-crit|p1a: Pincurchin
+|-damage|p1a: Pincurchin|32/100
+|move|p1a: Pincurchin|Toxic Spikes|p2a: Dragapult
+|-sidestart|p2: basfdbasdb|move: Toxic Spikes
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Dragapult|Hex|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|faint|p1a: Pincurchin
+|
+|-sideend|p1: Treysummit|Reflect
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|switch|p1a: Appletun|Appletun, F|100/100
+|turn|10
+|
+|move|p2a: Dragapult|Thunder Wave|p1a: Appletun
+|-status|p1a: Appletun|par
+|move|p1a: Appletun|Dragon Pulse|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-sideend|p1: Treysummit|move: Light Screen
+|upkeep
+|turn|11
+|
+|move|p2a: Dragapult|Disable|p1a: Appletun
+|-start|p1a: Appletun|Disable|Dragon Pulse
+|cant|p1a: Appletun|Disable|Dragon Pulse
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|cant|p1a: Appletun|par
+|
+|-heal|p2a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p1a: Rapidash|Rapidash-Galar, F|100/100
+|move|p2a: Dragapult|Hex|p1a: Rapidash
+|-supereffective|p1a: Rapidash
+|-crit|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Appletun|Appletun, F|100/100 par
+|turn|14
+|
+|move|p2a: Dragapult|Hex|p1a: Appletun
+|-damage|p1a: Appletun|63/100 par
+|move|p1a: Appletun|Dragon Pulse|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|-heal|p1a: Appletun|69/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Dragapult|Disable|p1a: Appletun
+|-start|p1a: Appletun|Disable|Dragon Pulse
+|cant|p1a: Appletun|Disable|Dragon Pulse
+|
+|-heal|p2a: Dragapult|99/100|[from] item: Leftovers
+|-heal|p1a: Appletun|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|75/100
+|move|p1a: Appletun|Leech Seed||[still]
+|-fail|p1a: Appletun
+|
+|-heal|p2a: Dragapult|81/100|[from] item: Leftovers
+|-heal|p1a: Appletun|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Dragapult|Hex|p1a: Appletun
+|-damage|p1a: Appletun|39/100 par
+|move|p1a: Appletun|Apple Acid|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-activate|p2a: Dragapult|move: Substitute|[damage]
+|
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|-heal|p1a: Appletun|45/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Dragapult|Hex|p1a: Appletun
+|-damage|p1a: Appletun|8/100 par
+|move|p1a: Appletun|Apple Acid|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|94/100|[from] item: Leftovers
+|-heal|p1a: Appletun|14/100 par|[from] item: Leftovers
+|-end|p1a: Appletun|Disable
+|upkeep
+|turn|19
+|
+|move|p2a: Dragapult|Hex|p1a: Appletun
+|-damage|p1a: Appletun|0 fnt
+|faint|p1a: Appletun
+|
+|-heal|p2a: Dragapult|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Thievul|Thievul, F|100/100
+|turn|20
+|
+|move|p2a: Dragapult|Thunder Wave|p1a: Thievul
+|-status|p1a: Thievul|par
+|move|p1a: Thievul|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|turn|21
+|
+|move|p2a: Corviknight|Defog|p1a: Thievul
+|-unboost|p1a: Thievul|evasion|1
+|-sideend|p2: basfdbasdb|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: basfdbasdb|Toxic Spikes|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Thievul|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|98/100
+|
+|switch|p1a: Boltund|Boltund, M|100/100|[from]move: U-turn
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100
+|move|p1a: Boltund|Thunder Fang|p2a: Seismitoad
+|-immune|p2a: Seismitoad
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Boltund|Crunch|p2a: Seismitoad
+|-damage|p2a: Seismitoad|69/100
+|-damage|p1a: Boltund|91/100|[from] item: Life Orb
+|move|p2a: Seismitoad|Stealth Rock|p1a: Boltund
+|-sidestart|p1: Treysummit|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|75/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Boltund|Crunch|p2a: Seismitoad
+|-damage|p2a: Seismitoad|40/100
+|-damage|p1a: Boltund|81/100|[from] item: Life Orb
+|move|p2a: Seismitoad|Earth Power|p1a: Boltund
+|-supereffective|p1a: Boltund
+|-damage|p1a: Boltund|0 fnt
+|faint|p1a: Boltund
+|
+|-heal|p2a: Seismitoad|46/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Thievul|Thievul, F|100/100 par
+|-damage|p1a: Thievul|88/100 par|[from] Stealth Rock
+|turn|25
+|
+|move|p2a: Seismitoad|Earth Power|p1a: Thievul
+|-damage|p1a: Thievul|55/100 par
+|move|p1a: Thievul|Acrobatics|p2a: Seismitoad
+|-damage|p2a: Seismitoad|37/100
+|
+|-heal|p2a: Seismitoad|43/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Seismitoad|Earth Power|p1a: Thievul
+|-damage|p1a: Thievul|23/100 par
+|move|p1a: Thievul|Crunch|p2a: Seismitoad
+|-crit|p2a: Seismitoad
+|-damage|p2a: Seismitoad|15/100
+|
+|-heal|p2a: Seismitoad|21/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Seismitoad|Earth Power|p1a: Thievul
+|-damage|p1a: Thievul|0 fnt
+|faint|p1a: Thievul
+|
+|win|basfdbasdb
+|l|☆Treysummit
+|raw|Treysummit's rating: 1050 → 1034(-16 for losing)
+|raw|basfdbasdb's rating: 1070 → 1098(+28 for winning)

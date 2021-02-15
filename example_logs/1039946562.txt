@@ -1,0 +1,555 @@
+|ScrapeTime|2020-01-03-00:15:15
+|j|☆uhx 〄
+|j|☆fanyfan
+|player|p1|uhx 〄|acetrainerf-gen1rb|1430
+|player|p2|fanyfan|koga|1430
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Clefable, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Ditto|
+|poke|p1|Excadrill, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Rotom-Heat|
+|poke|p2|Obstagoon, F|
+|poke|p2|Araquanid, M|
+|poke|p2|Excadrill, M|
+|poke|p2|Bisharp, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Togekiss, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fanyfan)
+|
+|start
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p2a: Excadrill|Earthquake|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|c|☆uhx 〄|d'oh
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|turn|2
+|
+|switch|p2a: Togekiss|Togekiss, F|100/100
+|move|p1a: Mandibuzz|Knock Off|p2a: Togekiss
+|-resisted|p2a: Togekiss
+|-damage|p2a: Togekiss|86/100
+|-enditem|p2a: Togekiss|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|76/100
+|
+|-heal|p1a: Excadrill|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|move|p1a: Excadrill|Stealth Rock|p2a: Araquanid
+|-sidestart|p2: fanyfan|move: Stealth Rock
+|
+|-heal|p1a: Excadrill|88/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Araquanid|Liquidation|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|78/100
+|
+|-heal|p1a: Toxapex|84/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|move|p2a: Araquanid|Sticky Web|p1a: Toxapex
+|-sidestart|p1: uhx 〄|move: Sticky Web
+|move|p1a: Toxapex|Toxic Spikes|p2a: Araquanid
+|-sidestart|p2: fanyfan|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|90/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Toxapex|Scald|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|50/100
+|
+|-heal|p1a: Toxapex|97/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Excadrill|Rapid Spin|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|90/100
+|-sideend|p2: fanyfan|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-sideend|p2: fanyfan|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-boost|p2a: Excadrill|spe|1
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Excadrill|Iron Head|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|67/100
+|move|p1a: Mandibuzz|Toxic|p2a: Excadrill
+|-immune|p2a: Excadrill
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|move|p1a: Mandibuzz|Knock Off|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|86/100
+|-enditem|p2a: Bisharp|Lum Berry|[from] move: Knock Off|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Excadrill|Excadrill, F|88/100
+|-activate|p1a: Excadrill|move: Sticky Web
+|-unboost|p1a: Excadrill|spe|1
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|-heal|p1a: Excadrill|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Bisharp|Throat Chop|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|j| psydukk++!
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-activate|p1a: Ditto|move: Sticky Web
+|-unboost|p1a: Ditto|spe|1
+|-transform|p1a: Ditto|p2a: Bisharp|[from] ability: Imposter
+|turn|13
+|c| psydukk++!|omg its uhx
+|inactive|fanyfan has 120 seconds left.
+|c|☆uhx 〄|howdy dukk
+|
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|move|p1a: Ditto|Iron Head|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|45/100
+|
+|upkeep
+|turn|14
+|c|☆uhx 〄|i may of killed my elo
+|
+|move|p2a: Araquanid|Protect|p2a: Araquanid
+|-singleturn|p2a: Araquanid|Protect
+|move|p1a: Ditto|Iron Head|p2a: Araquanid
+|-activate|p2a: Araquanid|move: Protect
+|
+|upkeep
+|turn|15
+|inactive|fanyfan has 120 seconds left.
+|
+|move|p1a: Ditto|Iron Head|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|50/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|16
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|67/100
+|move|p2a: Excadrill|Earthquake|p1a: Mandibuzz
+|-immune|p1a: Mandibuzz
+|
+|upkeep
+|turn|17
+|inactive|fanyfan has 120 seconds left.
+|
+|switch|p2a: Bisharp|Bisharp, M|86/100
+|switch|p1a: Ditto|Ditto|100/100
+|-activate|p1a: Ditto|move: Sticky Web
+|-unboost|p1a: Ditto|spe|1
+|-transform|p1a: Ditto|p2a: Bisharp|[from] ability: Imposter
+|
+|upkeep
+|turn|18
+|inactive|fanyfan has 90 seconds left.
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-activate|p1a: Toxapex|move: Sticky Web
+|-unboost|p1a: Toxapex|spe|1
+|move|p2a: Bisharp|Throat Chop|p1a: Toxapex
+|-damage|p1a: Toxapex|67/100
+|-start|p1a: Toxapex|Throat Chop|[silent]
+|
+|-heal|p1a: Toxapex|73/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|inactive|fanyfan has 90 seconds left.
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Toxapex|Scald|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|90/100
+|
+|-heal|p2a: Dragapult|96/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|79/100|[from] item: Black Sludge
+|-end|p1a: Toxapex|Throat Chop|[silent]
+|upkeep
+|turn|20
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|71/100
+|
+|-heal|p2a: Dragapult|78/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|86/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|67/100
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Mandibuzz
+|-status|p1a: Mandibuzz|brn
+|
+|-heal|p2a: Dragapult|84/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|61/100 brn|[from] brn
+|upkeep
+|turn|22
+|inactive|fanyfan has 90 seconds left.
+|
+|move|p2a: Dragapult|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|39/100 brn
+|move|p1a: Mandibuzz|Defog|p2a: Dragapult
+|-sideend|p1: uhx 〄|Sticky Web|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|-heal|p2a: Dragapult|90/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|33/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p2a: Dragapult|Hex|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|10/100 brn
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|60/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-heal|p2a: Dragapult|96/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|54/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p2a: Dragapult|Disable|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|Disable|Roost
+|cant|p1a: Mandibuzz|Disable|Roost
+|
+|-heal|p2a: Dragapult|100/100|[from] item: Leftovers
+|-damage|p1a: Mandibuzz|48/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Dragapult|Hex|p1a: Clefable
+|-damage|p1a: Clefable|71/100
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Clefable
+|-status|p1a: Clefable|brn
+|move|p1a: Clefable|Moonblast|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|upkeep
+|turn|27
+|inactive|fanyfan has 120 seconds left.
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|48/100 brn
+|move|p2a: Dragapult|Disable||[still]
+|-fail|p2a: Dragapult
+|
+|-damage|p1a: Mandibuzz|42/100 brn|[from] brn
+|upkeep
+|turn|28
+|inactive|fanyfan has 120 seconds left.
+|
+|switch|p2a: Togekiss|Togekiss, F|86/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|92/100 brn
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-damage|p1a: Mandibuzz|85/100 brn|[from] brn
+|upkeep
+|turn|29
+|inactive|fanyfan has 120 seconds left.
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Togekiss|[from] ability: Imposter
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Ditto
+|-damage|p1a: Ditto|62/100
+|
+|upkeep
+|turn|30
+|inactive|fanyfan has 120 seconds left.
+|
+|move|p1a: Ditto|Air Slash|p2a: Togekiss
+|-damage|p2a: Togekiss|53/100
+|cant|p2a: Togekiss|flinch
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Ditto|Air Slash|p2a: Togekiss
+|-damage|p2a: Togekiss|14/100
+|cant|p2a: Togekiss|flinch
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Ditto|Air Slash|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, M|86/100
+|turn|33
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Bisharp|Iron Head|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|84/100
+|
+|-heal|p1a: Toxapex|90/100|[from] item: Black Sludge
+|upkeep
+|turn|34
+|
+|switch|p2a: Obstagoon|Obstagoon, F|100/100
+|move|p1a: Toxapex|Toxic Spikes|p2a: Obstagoon
+|-sidestart|p2: fanyfan|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|97/100|[from] item: Black Sludge
+|-status|p2a: Obstagoon|brn|[from] item: Flame Orb
+|upkeep
+|turn|35
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Obstagoon|Facade|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p2a: Obstagoon|94/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|move|p2a: Obstagoon|Facade|p1a: Toxapex
+|-damage|p1a: Toxapex|40/100
+|move|p1a: Toxapex|Scald|p2a: Obstagoon
+|-damage|p2a: Obstagoon|74/100 brn
+|
+|-heal|p1a: Toxapex|47/100|[from] item: Black Sludge
+|-damage|p2a: Obstagoon|68/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Obstagoon|Bulk Up|p2a: Obstagoon
+|-boost|p2a: Obstagoon|atk|1
+|-boost|p2a: Obstagoon|def|1
+|
+|-heal|p1a: Toxapex|53/100|[from] item: Black Sludge
+|-damage|p2a: Obstagoon|62/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|85/100 brn
+|move|p2a: Obstagoon|Facade|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|11/100 brn
+|
+|-damage|p2a: Obstagoon|56/100 brn|[from] brn
+|-damage|p1a: Mandibuzz|5/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|move|p2a: Obstagoon|Facade|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|-damage|p2a: Obstagoon|49/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|62/100
+|-transform|p1a: Ditto|p2a: Obstagoon|[from] ability: Imposter
+|turn|40
+|j| Fynx OCE ☭
+|inactive|fanyfan has 120 seconds left.
+|
+|switch|p2a: Excadrill|Excadrill, M|50/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Ditto|Facade|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|20/100
+|
+|upkeep
+|turn|41
+|
+|switch|p1a: Toxapex|Toxapex, M|86/100
+|move|p2a: Excadrill|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|8/100
+|
+|-heal|p1a: Toxapex|15/100|[from] item: Black Sludge
+|upkeep
+|turn|42
+|inactive|fanyfan has 90 seconds left.
+|l|☆fanyfan
+|inactive|fanyfan disconnected and has a minute to reconnect!
+|player|p2|
+|c|☆uhx 〄|uwu
+|j|☆fanyfan
+|inactive|fanyfan reconnected and has 60 seconds left.
+|player|p2|fanyfan|koga
+|
+|move|p2a: Excadrill|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|62/100
+|-transform|p1a: Ditto|p2a: Excadrill|[from] ability: Imposter
+|-ability|p1a: Ditto|Mold Breaker
+|turn|43
+|
+|move|p1a: Ditto|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-status|p2a: Dragapult|psn
+|turn|44
+|
+|switch|p1a: Clefable|Clefable, F|71/100 brn
+|move|p2a: Dragapult|Disable||[still]
+|-fail|p2a: Dragapult
+|
+|-damage|p2a: Dragapult|88/100 psn|[from] psn
+|upkeep
+|turn|45
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|63/100 psn
+|move|p1a: Clefable|Psychic|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|69/100 psn|[from] item: Leftovers
+|-damage|p2a: Dragapult|57/100 psn|[from] psn
+|upkeep
+|turn|46
+|inactive|fanyfan has 30 seconds left.
+|inactive|fanyfan has 20 seconds left.
+|
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|32/100 psn
+|move|p1a: Clefable|Fire Blast|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|38/100 psn|[from] item: Leftovers
+|-damage|p2a: Dragapult|26/100 psn|[from] psn
+|upkeep
+|turn|47
+|inactive|fanyfan has 30 seconds left this turn.
+|inactive|fanyfan has 20 seconds left.
+|
+|move|p2a: Dragapult|Hex|p1a: Clefable
+|-damage|p1a: Clefable|11/100 brn
+|move|p1a: Clefable|Fire Blast|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|inactive|fanyfan has 25 seconds left this turn.
+|inactive|fanyfan has 20 seconds left.
+|
+|switch|p2a: Obstagoon|Obstagoon, F|49/100 brn
+|turn|48
+|inactive|fanyfan has 30 seconds left this turn.
+|
+|move|p2a: Obstagoon|Facade|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-damage|p2a: Obstagoon|43/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|62/100
+|-transform|p1a: Ditto|p2a: Obstagoon|[from] ability: Imposter
+|turn|49
+|
+|move|p2a: Obstagoon|Obstruct|p2a: Obstagoon
+|-singleturn|p2a: Obstagoon|Protect
+|move|p1a: Ditto|Facade|p2a: Obstagoon
+|-activate|p2a: Obstagoon|move: Protect
+|-unboost|p1a: Ditto|def|2
+|
+|-damage|p2a: Obstagoon|37/100 brn|[from] brn
+|upkeep
+|turn|50
+|c|☆uhx 〄|gg wp
+|
+|move|p1a: Ditto|Facade|p2a: Obstagoon
+|-damage|p2a: Obstagoon|10/100 brn
+|move|p2a: Obstagoon|Facade|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|win|fanyfan
+|l|☆uhx 〄
+|c|☆fanyfan|gg
+|raw|uhx 〄's rating: 1430 → 1410(-20 for losing)
+|raw|fanyfan's rating: 1430 → 1450(+20 for winning)

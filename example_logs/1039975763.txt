@@ -1,0 +1,326 @@
+|ScrapeTime|2020-01-03-01:15:38
+|j|☆NasPena2
+|j|☆AttentionNearZero
+|player|p1|NasPena2|blaine|1584
+|player|p2|AttentionNearZero|102|1460
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Obstagoon, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Rotom-Heat|
+|poke|p1|Hippowdon, F|
+|poke|p1|Hatterene, F|
+|poke|p2|Dracovish|
+|poke|p2|Hatterene, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Reuniclus, F|
+|poke|p2|Dugtrio, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AttentionNearZero)
+|
+|start
+|switch|p1a: Toothless|Dragapult, F|100/100
+|switch|p2a: Dugtrio|Dugtrio, F|100/100
+|turn|1
+|
+|move|p1a: Toothless|Shadow Ball|p2a: Dugtrio
+|-enditem|p2a: Dugtrio|Focus Sash
+|-damage|p2a: Dugtrio|1/100
+|move|p2a: Dugtrio|Stealth Rock|p1a: Toothless
+|-sidestart|p1: NasPena2|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Toxapex|Toxapex, M, shiny|100/100
+|move|p1a: Toothless|Shadow Ball|p2a: Toxapex
+|-damage|p2a: Toxapex|60/100
+|
+|-heal|p2a: Toxapex|66/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p1a: The Hat|Hatterene, F|100/100
+|-damage|p1a: The Hat|88/100|[from] Stealth Rock
+|move|p2a: Toxapex|Toxic Spikes|p1a: The Hat
+|move|p1a: The Hat|Toxic Spikes|p2a: Toxapex|[from]Magic Bounce
+|-sidestart|p2: AttentionNearZero|move: Toxic Spikes
+|
+|-heal|p2a: Toxapex|73/100|[from] item: Black Sludge
+|-heal|p1a: The Hat|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: The Hat|Calm Mind|p1a: The Hat
+|-boost|p1a: The Hat|spa|1
+|-boost|p1a: The Hat|spd|1
+|
+|-heal|p1a: The Hat|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Dugtrio|Dugtrio, F|1/100
+|-status|p2a: Dugtrio|psn
+|move|p1a: The Hat|Calm Mind|p1a: The Hat
+|-boost|p1a: The Hat|spa|1
+|-boost|p1a: The Hat|spd|1
+|
+|-heal|p1a: The Hat|100/100|[from] item: Leftovers
+|-damage|p2a: Dugtrio|0 fnt|[from] psn
+|faint|p2a: Dugtrio
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|-status|p2a: Dracovish|psn
+|turn|6
+|
+|switch|p1a: Nettles|Ferrothorn, M|100/100
+|-damage|p1a: Nettles|94/100|[from] Stealth Rock
+|move|p2a: Dracovish|Fishious Rend|p1a: Nettles
+|-resisted|p1a: Nettles
+|-damage|p1a: Nettles|62/100
+|-damage|p2a: Dracovish|88/100 psn|[from] ability: Iron Barbs|[of] p1a: Nettles
+|
+|-heal|p1a: Nettles|69/100|[from] item: Leftovers
+|-damage|p2a: Dracovish|76/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|switch|p2a: Toxapex|Toxapex, M, shiny|100/100
+|-sideend|p2: AttentionNearZero|move: Toxic Spikes|[of] p2a: Toxapex
+|move|p1a: Nettles|Leech Seed|p2a: Toxapex
+|-start|p2a: Toxapex|move: Leech Seed
+|
+|-heal|p1a: Nettles|75/100|[from] item: Leftovers
+|-damage|p2a: Toxapex|88/100|[from] Leech Seed|[of] p1a: Nettles
+|-heal|p1a: Nettles|86/100|[silent]
+|upkeep
+|turn|8
+|
+|switch|p1a: The Hat|Hatterene, F|100/100
+|-damage|p1a: The Hat|88/100|[from] Stealth Rock
+|move|p2a: Toxapex|Scald|p1a: The Hat
+|-damage|p1a: The Hat|72/100
+|
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|-heal|p1a: The Hat|78/100|[from] item: Leftovers
+|-damage|p2a: Toxapex|82/100|[from] Leech Seed|[of] p1a: The Hat
+|-heal|p1a: The Hat|90/100|[silent]
+|upkeep
+|turn|9
+|
+|switch|p2a: Dracovish|Dracovish|76/100 psn
+|move|p1a: The Hat|Psyshock|p2a: Dracovish
+|-damage|p2a: Dracovish|37/100 psn
+|
+|-heal|p1a: The Hat|96/100|[from] item: Leftovers
+|-damage|p2a: Dracovish|24/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|switch|p1a: Nettles|Ferrothorn, M|86/100
+|-damage|p1a: Nettles|79/100|[from] Stealth Rock
+|
+|-heal|p1a: Nettles|86/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|75/100
+|move|p1a: Nettles|Spikes|p2a: Corviknight
+|-sidestart|p2: AttentionNearZero|Spikes
+|
+|-heal|p2a: Corviknight|82/100|[from] item: Leftovers
+|-heal|p1a: Nettles|92/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Bertha|Hippowdon, F, shiny|100/100
+|-damage|p1a: Bertha|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Bertha
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Corviknight|88/100|[from] item: Leftovers
+|-heal|p1a: Bertha|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Bertha
+|-damage|p1a: Bertha|64/100
+|-damage|p2a: Corviknight|75/100|[from] Recoil
+|move|p1a: Bertha|Whirlwind|p2a: Corviknight
+|drag|p2a: Reuniclus|Reuniclus, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bertha|70/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Bertha|Stealth Rock|p2a: Reuniclus
+|-sidestart|p2: AttentionNearZero|move: Stealth Rock
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Bertha|76/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Reuniclus|Acid Armor|p2a: Reuniclus
+|-boost|p2a: Reuniclus|def|2
+|move|p1a: Bertha|Whirlwind|p2a: Reuniclus
+|drag|p2a: Toxapex|Toxapex, M, shiny|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|-damage|p2a: Toxapex|75/100|[from] Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Toxapex|69/100|[from] Sandstorm
+|-heal|p1a: Bertha|83/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|75/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p1a: Bertha|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|26/100
+|move|p2a: Toxapex|Scald|p1a: Bertha
+|-supereffective|p1a: Bertha
+|-damage|p1a: Bertha|59/100
+|-status|p1a: Bertha|brn
+|
+|-weather|none
+|-heal|p1a: Bertha|65/100 brn|[from] item: Leftovers
+|-heal|p2a: Toxapex|32/100|[from] item: Black Sludge
+|-damage|p1a: Bertha|59/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p1a: The Hat|Hatterene, F|96/100
+|-damage|p1a: The Hat|84/100|[from] Stealth Rock
+|switch|p2a: Corviknight|Corviknight, M|75/100
+|-damage|p2a: Corviknight|63/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|
+|-heal|p2a: Corviknight|69/100|[from] item: Leftovers
+|-heal|p1a: The Hat|90/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Corviknight|Brave Bird|p1a: The Hat
+|-damage|p1a: The Hat|59/100
+|-damage|p2a: Corviknight|61/100|[from] Recoil
+|move|p1a: The Hat|Calm Mind|p1a: The Hat
+|-boost|p1a: The Hat|spa|1
+|-boost|p1a: The Hat|spd|1
+|
+|-heal|p2a: Corviknight|67/100|[from] item: Leftovers
+|-heal|p1a: The Hat|65/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Corviknight|Brave Bird|p1a: The Hat
+|-damage|p1a: The Hat|38/100
+|-damage|p2a: Corviknight|60/100|[from] Recoil
+|move|p1a: The Hat|Mystical Fire|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|10/100
+|-unboost|p2a: Corviknight|spa|1
+|
+|-heal|p2a: Corviknight|16/100|[from] item: Leftovers
+|-heal|p1a: The Hat|44/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p2a: Toxapex|Toxapex, M, shiny|66/100
+|-damage|p2a: Toxapex|53/100|[from] Stealth Rock
+|-damage|p2a: Toxapex|41/100|[from] Spikes
+|move|p1a: The Hat|Calm Mind|p1a: The Hat
+|-boost|p1a: The Hat|spa|1
+|-boost|p1a: The Hat|spd|1
+|
+|-heal|p2a: Toxapex|47/100|[from] item: Black Sludge
+|-heal|p1a: The Hat|50/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Spikes
+|-damage|p2a: Hatterene|76/100|[from] Stealth Rock
+|move|p1a: The Hat|Psyshock|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|45/100
+|
+|-heal|p2a: Hatterene|51/100|[from] item: Leftovers
+|-heal|p1a: The Hat|56/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|move|p1a: The Hat|Draining Kiss|p2a: Hatterene
+|-damage|p2a: Hatterene|22/100
+|-heal|p1a: The Hat|78/100|[from] drain|[of] p2a: Hatterene
+|
+|-heal|p2a: Hatterene|28/100|[from] item: Leftovers
+|-heal|p1a: The Hat|84/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Hatterene|Draining Kiss|p1a: The Hat
+|-damage|p1a: The Hat|66/100
+|-heal|p2a: Hatterene|41/100|[from] drain|[of] p1a: The Hat
+|move|p1a: The Hat|Draining Kiss|p2a: Hatterene
+|-damage|p2a: Hatterene|8/100
+|-heal|p1a: The Hat|91/100|[from] drain|[of] p2a: Hatterene
+|
+|-heal|p2a: Hatterene|14/100|[from] item: Leftovers
+|-heal|p1a: The Hat|97/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Hatterene|Draining Kiss|p1a: The Hat
+|-damage|p1a: The Hat|80/100
+|-heal|p2a: Hatterene|26/100|[from] drain|[of] p1a: The Hat
+|move|p1a: The Hat|Draining Kiss|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-heal|p1a: The Hat|99/100|[from] drain|[of] p2a: Hatterene
+|faint|p2a: Hatterene
+|
+|-heal|p1a: The Hat|100/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|24/100 psn
+|-damage|p2a: Dracovish|12/100 psn|[from] Spikes
+|-damage|p2a: Dracovish|0 fnt|[from] Stealth Rock
+|faint|p2a: Dracovish
+|j| igigs
+|-message|AttentionNearZero forfeited.
+|
+|win|NasPena2
+|l|☆AttentionNearZero
+|raw|NasPena2's rating: 1584 → 1596(+12 for winning)
+|raw|AttentionNearZero's rating: 1437 → 1425(-12 for losing)

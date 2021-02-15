@@ -1,0 +1,579 @@
+|ScrapeTime|2020-01-01-20:04:43
+|j|☆sunnybaby
+|j|☆Ta mere du 03100
+|player|p1|sunnybaby|101|1339
+|player|p2|Ta mere du 03100|2|1291
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Clefable, M|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Dracovish|
+|poke|p1|Cinderace, F|
+|poke|p1|Ferrothorn, F|
+|poke|p2|Aegislash, F|
+|poke|p2|Gyarados, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Weezing-Galar, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ta mere du 03100)
+|
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|1
+|
+|move|p2a: Hydreigon|Draco Meteor|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|turn|2
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Corsola|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: Ta mere du 03100|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Toxapex|Toxic|p1a: Clefable
+|-status|p1a: Clefable|tox
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Clefable|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|51/100
+|move|p2a: Toxapex|Scald|p1a: Clefable
+|-damage|p1a: Clefable|84/100 tox
+|
+|-heal|p2a: Toxapex|57/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|move|p1a: Clefable|Thunderbolt|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|67/100
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|move|p2a: Hydreigon|Flash Cannon|p1a: Corsola
+|-damage|p1a: Corsola|84/100
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Corsola
+|-damage|p1a: Corsola|67/100
+|-start|p2a: Hydreigon|Disable|Flash Cannon|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Will-O-Wisp|p2a: Hydreigon
+|-status|p2a: Hydreigon|brn
+|
+|-damage|p2a: Hydreigon|60/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|move|p1a: Corsola|Will-O-Wisp|p2a: Weezing
+|-status|p2a: Weezing|brn
+|
+|-heal|p2a: Weezing|94/100 brn|[from] item: Black Sludge
+|-damage|p2a: Weezing|88/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p2a: Weezing|Defog|p1a: Corsola
+|-unboost|p1a: Corsola|evasion|1
+|-sideend|p2: Ta mere du 03100|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|move|p1a: Corsola|Strength Sap|p2a: Weezing
+|-unboost|p2a: Weezing|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|-heal|p2a: Weezing|94/100 brn|[from] item: Black Sludge
+|-damage|p2a: Weezing|88/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p2a: Toxapex|Toxapex, F|90/100
+|move|p1a: Corsola|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: Ta mere du 03100|move: Stealth Rock
+|
+|-heal|p2a: Toxapex|97/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|switch|p2a: Weezing|Weezing-Galar, M|88/100 brn
+|-damage|p2a: Weezing|76/100 brn|[from] Stealth Rock
+|switch|p1a: Clefable|Clefable, M|84/100 tox
+|
+|-heal|p2a: Weezing|82/100 brn|[from] item: Black Sludge
+|-damage|p2a: Weezing|76/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|move|p2a: Weezing|Defog|p1a: Corsola
+|-unboost|p1a: Corsola|evasion|1
+|-sideend|p2: Ta mere du 03100|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|
+|-heal|p2a: Weezing|82/100 brn|[from] item: Black Sludge
+|-damage|p2a: Weezing|76/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Weezing|Sludge Bomb|p1a: Corsola
+|-resisted|p1a: Corsola
+|-damage|p1a: Corsola|91/100
+|-start|p2a: Weezing|Disable|Sludge Bomb|[from] ability: Cursed Body|[of] p1a: Corsola
+|-status|p1a: Corsola|psn
+|move|p1a: Corsola|Stealth Rock|p2a: Weezing
+|-sidestart|p2: Ta mere du 03100|move: Stealth Rock
+|
+|-heal|p2a: Weezing|82/100 brn|[from] item: Black Sludge
+|-damage|p2a: Weezing|76/100 brn|[from] brn
+|-damage|p1a: Corsola|79/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|move|p2a: Weezing|Defog|p1a: Corsola
+|-unboost|p1a: Corsola|evasion|1
+|-sideend|p2: Ta mere du 03100|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|move|p1a: Corsola|Will-O-Wisp|p2a: Weezing
+|-fail|p2a: Weezing|brn
+|
+|-heal|p2a: Weezing|82/100 brn|[from] item: Black Sludge
+|-damage|p2a: Weezing|76/100 brn|[from] brn
+|-damage|p1a: Corsola|67/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|move|p2a: Weezing|Defog|p1a: Corsola
+|-unboost|p1a: Corsola|evasion|1
+|move|p1a: Corsola|Strength Sap|p2a: Weezing
+|-unboost|p2a: Weezing|atk|1
+|-heal|p1a: Corsola|100/100 psn
+|
+|-heal|p2a: Weezing|82/100 brn|[from] item: Black Sludge
+|-damage|p2a: Weezing|76/100 brn|[from] brn
+|-damage|p1a: Corsola|88/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p1a: Dracovish|Dracovish|100/100
+|move|p2a: Weezing|Will-O-Wisp|p1a: Dracovish
+|-status|p1a: Dracovish|brn
+|
+|-heal|p2a: Weezing|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Dracovish|94/100 brn|[from] brn
+|-damage|p2a: Weezing|76/100 brn|[from] brn
+|-end|p2a: Weezing|Disable
+|upkeep
+|turn|17
+|
+|switch|p1a: Clefable|Clefable, M|84/100 tox
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Clefable|Fire Blast|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Corsola|Corsola-Galar, M|88/100 psn
+|move|p2a: Ferrothorn|Knock Off|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|64/100 psn
+|-enditem|p1a: Corsola|Eviolite|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-damage|p1a: Corsola|52/100 psn|[from] psn
+|upkeep
+|turn|20
+|c|☆sunnybaby|brooo
+|
+|switch|p2a: Weezing|Weezing-Galar, M|76/100 brn
+|move|p1a: Corsola|Stealth Rock|p2a: Weezing
+|-sidestart|p2: Ta mere du 03100|move: Stealth Rock
+|
+|-heal|p2a: Weezing|82/100 brn|[from] item: Black Sludge
+|-damage|p2a: Weezing|76/100 brn|[from] brn
+|-damage|p1a: Corsola|39/100 psn|[from] psn
+|upkeep
+|turn|21
+|
+|move|p2a: Weezing|Defog|p1a: Corsola
+|-unboost|p1a: Corsola|evasion|1
+|-sideend|p2: Ta mere du 03100|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|move|p1a: Corsola|Night Shade|p2a: Weezing
+|-damage|p2a: Weezing|46/100 brn
+|
+|-heal|p2a: Weezing|52/100 brn|[from] item: Black Sludge
+|-damage|p2a: Weezing|46/100 brn|[from] brn
+|-damage|p1a: Corsola|27/100 psn|[from] psn
+|upkeep
+|turn|22
+|
+|move|p2a: Weezing|Fire Blast|p1a: Corsola
+|-damage|p1a: Corsola|6/100 psn
+|move|p1a: Corsola|Strength Sap|p2a: Weezing
+|-unboost|p2a: Weezing|atk|1
+|-heal|p1a: Corsola|57/100 psn
+|
+|-heal|p2a: Weezing|52/100 brn|[from] item: Black Sludge
+|-damage|p2a: Weezing|46/100 brn|[from] brn
+|-damage|p1a: Corsola|45/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|switch|p1a: Dracovish|Dracovish|94/100 brn
+|move|p2a: Weezing|Fire Blast|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|87/100 brn
+|
+|-heal|p2a: Weezing|52/100 brn|[from] item: Black Sludge
+|-damage|p1a: Dracovish|81/100 brn|[from] brn
+|-damage|p2a: Weezing|46/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100/100
+|move|p1a: Dracovish|Fishious Rend|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|91/100
+|-damage|p1a: Dracovish|69/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|97/100|[from] item: Leftovers
+|-damage|p1a: Dracovish|62/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|move|p2a: Ferrothorn|Knock Off|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|87/100
+|-damage|p2a: Ferrothorn|85/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|-enditem|p1a: Ferrothorn|Leftovers|[from] move: Knock Off|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|91/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Ferrothorn|Spikes|p2a: Ferrothorn
+|-sidestart|p2: Ta mere du 03100|Spikes
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: sunnybaby|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|97/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|switch|p2a: Weezing|Weezing-Galar, M|46/100 brn
+|move|p1a: Ferrothorn|Spikes|p2a: Weezing
+|-sidestart|p2: Ta mere du 03100|Spikes
+|
+|-heal|p2a: Weezing|52/100 brn|[from] item: Black Sludge
+|-damage|p2a: Weezing|46/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p2a: Weezing|Defog|p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|evasion|1
+|-sideend|p1: sunnybaby|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|-sideend|p2: Ta mere du 03100|Spikes|[from] move: Defog|[of] p2a: Weezing
+|move|p1a: Ferrothorn|Leech Seed|p2a: Weezing
+|-start|p2a: Weezing|move: Leech Seed
+|
+|-heal|p2a: Weezing|52/100 brn|[from] item: Black Sludge
+|-damage|p2a: Weezing|40/100 brn|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|99/100|[silent]
+|-damage|p2a: Weezing|34/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|switch|p2a: Hydreigon|Hydreigon, F|60/100 brn
+|switch|p1a: Dracovish|Dracovish|62/100 brn
+|
+|-damage|p2a: Hydreigon|54/100 brn|[from] brn
+|-damage|p1a: Dracovish|56/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p2a: Hydreigon|Flash Cannon|p1a: Dracovish
+|-resisted|p1a: Dracovish
+|-damage|p1a: Dracovish|38/100 brn
+|move|p1a: Dracovish|Leech Life|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|27/100 brn
+|-heal|p1a: Dracovish|52/100 brn|[from] drain|[of] p2a: Hydreigon
+|
+|-damage|p2a: Hydreigon|21/100 brn|[from] brn
+|-damage|p1a: Dracovish|46/100 brn|[from] brn
+|upkeep
+|turn|31
+|j| basedreptile
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|97/100
+|move|p1a: Dracovish|Leech Life|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|91/100
+|-heal|p1a: Dracovish|49/100 brn|[from] drain|[of] p2a: Ferrothorn
+|-damage|p1a: Dracovish|37/100 brn|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|97/100|[from] item: Leftovers
+|-damage|p1a: Dracovish|30/100 brn|[from] brn
+|upkeep
+|turn|32
+|c| basedreptile|hey nice burned dracovish dude
+|c|☆sunnybaby|ty
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|99/100
+|switch|p2a: Weezing|Weezing-Galar, M|34/100 brn
+|
+|-heal|p2a: Weezing|40/100 brn|[from] item: Black Sludge
+|-damage|p2a: Weezing|34/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|switch|p1a: Dracovish|Dracovish|30/100 brn
+|move|p2a: Weezing|Fire Blast|p1a: Dracovish|[miss]
+|-miss|p2a: Weezing|p1a: Dracovish
+|
+|-heal|p2a: Weezing|40/100 brn|[from] item: Black Sludge
+|-damage|p1a: Dracovish|24/100 brn|[from] brn
+|-damage|p2a: Weezing|34/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|move|p1a: Dracovish|Fishious Rend|p2a: Weezing
+|-damage|p2a: Weezing|10/100 brn
+|move|p2a: Weezing|Sludge Bomb|p1a: Dracovish
+|-damage|p1a: Dracovish|0 fnt
+|faint|p1a: Dracovish
+|
+|-heal|p2a: Weezing|16/100 brn|[from] item: Black Sludge
+|-damage|p2a: Weezing|10/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, M|45/100 psn
+|turn|35
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|97/100
+|move|p1a: Corsola|Strength Sap|p2a: Ferrothorn
+|-unboost|p2a: Ferrothorn|atk|1
+|-heal|p1a: Corsola|100/100 psn
+|
+|-heal|p2a: Ferrothorn|100/100|[from] item: Leftovers
+|-damage|p1a: Corsola|88/100 psn|[from] psn
+|upkeep
+|turn|36
+|
+|move|p1a: Corsola|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Leech Seed|p1a: Corsola
+|-start|p1a: Corsola|move: Leech Seed
+|
+|-damage|p1a: Corsola|76/100 psn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-damage|p1a: Corsola|63/100 psn|[from] psn
+|-damage|p2a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p1a: Corsola|Stealth Rock|p2a: Ferrothorn
+|-sidestart|p2: Ta mere du 03100|move: Stealth Rock
+|move|p2a: Ferrothorn|Leech Seed||[still]
+|-fail|p2a: Ferrothorn
+|
+|-heal|p2a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Corsola|51/100 psn|[from] Leech Seed|[of] p2a: Ferrothorn
+|-damage|p1a: Corsola|39/100 psn|[from] psn
+|-damage|p2a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Hydreigon
+|-sidestart|p1: sunnybaby|move: Stealth Rock
+|
+|-heal|p2a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Hydreigon|Flamethrower|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|75/100
+|-damage|p1a: Hydreigon|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Toxapex|81/100|[from] item: Black Sludge
+|upkeep
+|turn|40
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|99/100
+|-damage|p1a: Ferrothorn|93/100|[from] Stealth Rock
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|upkeep
+|turn|41
+|
+|move|p2a: Toxapex|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|86/100
+|-status|p1a: Ferrothorn|brn
+|move|p1a: Ferrothorn|Spikes|p2a: Toxapex
+|-sidestart|p2: Ta mere du 03100|Spikes
+|
+|-damage|p1a: Ferrothorn|79/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|move|p2a: Toxapex|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|72/100 brn
+|move|p1a: Ferrothorn|Spikes|p2a: Toxapex
+|-sidestart|p2: Ta mere du 03100|Spikes
+|
+|-damage|p1a: Ferrothorn|66/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|switch|p2a: Weezing|Weezing-Galar, M|10/100 brn
+|-damage|p2a: Weezing|0 fnt|[from] Stealth Rock
+|faint|p2a: Weezing
+|move|p1a: Ferrothorn|Spikes|p2: Weezing
+|-sidestart|p2: Ta mere du 03100|Spikes
+|
+|-damage|p1a: Ferrothorn|59/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|21/100 brn
+|-damage|p2a: Hydreigon|9/100 brn|[from] Stealth Rock
+|turn|44
+|
+|move|p2a: Hydreigon|Fire Blast|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-damage|p2a: Hydreigon|3/100 brn|[from] brn
+|upkeep
+|c| basedreptile|Ta mere du 03100
+|
+|switch|p1a: Clefable|Clefable, M|84/100 tox
+|turn|45
+|
+|move|p2a: Hydreigon|Fire Blast|p1a: Clefable|[miss]
+|-miss|p2a: Hydreigon|p1a: Clefable
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|100/100 tox
+|
+|-damage|p2a: Hydreigon|0 fnt|[from] brn
+|faint|p2a: Hydreigon
+|upkeep
+|c|☆sunnybaby|9/11'
+|
+|switch|p2a: Aegislash|Aegislash, F|100/100
+|-damage|p2a: Aegislash|94/100|[from] Stealth Rock
+|-damage|p2a: Aegislash|69/100|[from] Spikes
+|turn|46
+|
+|switch|p1a: Hydreigon|Hydreigon, F|91/100
+|-damage|p1a: Hydreigon|78/100|[from] Stealth Rock
+|move|p2a: Aegislash|Swords Dance|p2a: Aegislash
+|-boost|p2a: Aegislash|atk|2
+|
+|upkeep
+|turn|47
+|
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Hydreigon|Dark Pulse|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|
+|upkeep
+|turn|48
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|-damage|p1a: Hydreigon|68/100|[from] item: Life Orb
+|faint|p2a: Aegislash
+|
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Hydreigon|atk|1
+|turn|49
+|
+|switch|p1a: Clefable|Clefable, M|100/100 tox
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|upkeep
+|turn|50
+|
+|move|p2a: Gyarados|Waterfall|p1a: Clefable
+|-damage|p1a: Clefable|31/100 tox
+|move|p1a: Clefable|Thunderbolt|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|upkeep
+|c| basedreptile|lol
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|-damage|p2a: Toxapex|63/100|[from] Spikes
+|turn|51
+|c| basedreptile|clef time
+|c| basedreptile|u got that pjab bro?
+|
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|81/100 tox
+|move|p2a: Toxapex|Scald|p1a: Clefable
+|-damage|p1a: Clefable|64/100 tox
+|
+|-heal|p2a: Toxapex|69/100|[from] item: Black Sludge
+|upkeep
+|turn|52
+|c| basedreptile|on pex
+|-message|Ta mere du 03100 forfeited.
+|
+|win|sunnybaby
+|l|☆Ta mere du 03100
+|c|☆sunnybaby|nice stall team homo
+|c| basedreptile|WOW
+|raw|sunnybaby's rating: 1339 → 1356(+17 for winning)
+|raw|Ta mere du 03100's rating: 1291 → 1270(-21 for losing)

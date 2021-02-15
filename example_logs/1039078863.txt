@@ -1,0 +1,296 @@
+|ScrapeTime|2020-01-01-09:45:36
+|j|☆test the new year
+|j|☆Joker201
+|player|p1|test the new year|mallow|1272
+|player|p2|Joker201|2|1228
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Kommo-o, M|
+|poke|p1|Toxtricity, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Obstagoon, M|
+|poke|p1|Rillaboom, F|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Togekiss, F|
+|poke|p2|Ditto|
+|poke|p2|Dragapult, F|
+|poke|p2|Excadrill, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Joker201)
+|
+|start
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|turn|1
+|
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Rillaboom|U-turn|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|84/100
+|
+|switch|p1a: Kommo-o|Kommo-o, M, shiny|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|move|p1a: Kommo-o|Stealth Rock|p2a: Corsola
+|-sidestart|p2: Joker201|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Kommo-o|Taunt|p2a: Corsola
+|-start|p2a: Corsola|move: Taunt
+|cant|p2a: Corsola|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Toxtricity|Toxtricity, F|100/100
+|move|p2a: Corsola|Night Shade|p1a: Toxtricity
+|-damage|p1a: Toxtricity|66/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Toxtricity|Boomburst|p2a: Corsola
+|-immune|p2a: Corsola
+|move|p2a: Corsola|Night Shade|p1a: Toxtricity
+|-damage|p1a: Toxtricity|32/100
+|
+|-end|p2a: Corsola|move: Taunt
+|upkeep
+|turn|6
+|
+|switch|p1a: Obstagoon|Obstagoon, M|100/100
+|move|p2a: Corsola|Stealth Rock|p1a: Obstagoon
+|-sidestart|p1: test the new year|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Obstagoon|Knock Off|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|58/100
+|-start|p1a: Obstagoon|Disable|Knock Off|[from] ability: Cursed Body|[of] p2a: Corsola
+|-enditem|p2a: Corsola|Eviolite|[from] move: Knock Off|[of] p1a: Obstagoon
+|move|p2a: Corsola|Strength Sap|p1a: Obstagoon
+|-unboost|p1a: Obstagoon|atk|1
+|-ability|p1a: Obstagoon|Defiant
+|-boost|p1a: Obstagoon|atk|2
+|-heal|p2a: Corsola|100/100
+|
+|upkeep
+|turn|8
+|inactive|test the new year has 120 seconds left.
+|
+|switch|p1a: Kommo-o|Kommo-o, M, shiny|100/100
+|-damage|p1a: Kommo-o|94/100|[from] Stealth Rock
+|switch|p2a: Togekiss|Togekiss, F|100/100
+|-damage|p2a: Togekiss|76/100|[from] Stealth Rock
+|
+|-heal|p1a: Kommo-o|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|test the new year has 120 seconds left.
+|
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|74/100
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Togekiss
+|-damage|p2a: Togekiss|9/100
+|move|p2a: Togekiss|Air Slash|p1a: Cinderace
+|-damage|p1a: Cinderace|22/100
+|
+|upkeep
+|turn|11
+|inactive|test the new year has 120 seconds left.
+|
+|move|p1a: Cinderace|Pyro Ball|p2a: Togekiss
+|-damage|p2a: Togekiss|0 fnt
+|faint|p2a: Togekiss
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|12
+|
+|switch|p1a: Obstagoon|Obstagoon, M|100/100
+|-damage|p1a: Obstagoon|88/100|[from] Stealth Rock
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|63/100
+|
+|-heal|p2a: Dragapult|69/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: Obstagoon|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|75/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Dragapult|Dragon Darts|p1a: Obstagoon
+|-damage|p1a: Obstagoon|51/100
+|-damage|p1a: Obstagoon|9/100
+|-hitcount|p1a: Obstagoon|2
+|move|p1a: Obstagoon|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-enditem|p2a: Dragapult|Leftovers|[from] move: Knock Off|[of] p1a: Obstagoon
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Obstagoon|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|53/100
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Obstagoon
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Kommo-o|Kommo-o, M, shiny|100/100
+|-damage|p1a: Kommo-o|94/100|[from] Stealth Rock
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p1a: Kommo-o|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Kommo-o|Taunt|p2a: Corviknight
+|-start|p2a: Corviknight|move: Taunt
+|cant|p2a: Corviknight|move: Taunt|Bulk Up
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Corviknight|Brave Bird|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|39/100
+|-damage|p2a: Corviknight|82/100|[from] Recoil
+|move|p1a: Kommo-o|Dragon Tail|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|76/100
+|drag|p2a: Excadrill|Excadrill, M|84/100
+|-damage|p2a: Excadrill|81/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|-heal|p1a: Kommo-o|45/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Excadrill|Earthquake|p1a: Kommo-o
+|-damage|p1a: Kommo-o|1/100
+|-damage|p2a: Excadrill|71/100|[from] item: Life Orb
+|move|p1a: Kommo-o|Body Press|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-heal|p1a: Kommo-o|7/100|[from] item: Leftovers
+|upkeep
+|inactive|Joker201 has 120 seconds left.
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-damage|p2a: Ditto|88/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Kommo-o|[from] ability: Imposter
+|turn|20
+|inactive|Joker201 has 120 seconds left.
+|
+|move|p1a: Kommo-o|Body Press|p2a: Ditto
+|-damage|p2a: Ditto|58/100
+|move|p2a: Ditto|Dragon Tail|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|21
+|
+|switch|p2a: Corviknight|Corviknight, F|76/100
+|-damage|p2a: Corviknight|64/100|[from] Stealth Rock
+|move|p1a: Dragapult|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|41/100
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Dragapult|Fire Blast|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|58/100
+|-damage|p2a: Ditto|46/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Dragapult|[from] ability: Imposter
+|turn|23
+|
+|switch|p1a: Obstagoon|Obstagoon, M|9/100
+|-damage|p1a: Obstagoon|0 fnt|[from] Stealth Rock
+|faint|p1a: Obstagoon
+|move|p2a: Ditto|Shadow Ball|p1: Obstagoon|[notarget]
+|-fail|p2a: Ditto
+|
+|upkeep
+|
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Ditto|Shadow Ball|p1a: Rillaboom
+|-damage|p1a: Rillaboom|43/100
+|move|p1a: Rillaboom|Knock Off|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|-enditem|p2a: Ditto|Choice Scarf|[from] move: Knock Off|[of] p1a: Rillaboom
+|faint|p2a: Ditto
+|
+|upkeep
+|-message|Joker201 forfeited.
+|
+|win|test the new year
+|l|☆Joker201
+|raw|test the new year's rating: 1272 → 1293(+21 for winning)
+|raw|Joker201's rating: 1228 → 1207(-21 for losing)

@@ -1,0 +1,183 @@
+|ScrapeTime|2020-01-01-17:24:48
+|j|☆InYoAssassin
+|j|☆lodbrok92
+|player|p1|InYoAssassin|170|1040
+|player|p2|lodbrok92|274|1043
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Barraskewda, M|
+|poke|p1|Ferrothorn, M|
+|poke|p1|Centiskorch, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Duraludon, M|
+|poke|p1|Rotom-Wash|
+|poke|p2|Rillaboom, M|
+|poke|p2|Coalossal, M|
+|poke|p2|Golisopod, F|
+|poke|p2|Weavile, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Dragapult, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Duraludon|Duraludon, M|100/100
+|switch|p2a: Coalossal|Coalossal, M|100/100
+|turn|1
+|
+|move|p1a: Duraludon|Stealth Rock|p2a: Coalossal
+|-sidestart|p2: lodbrok92|move: Stealth Rock
+|move|p2a: Coalossal|Earthquake|p1a: Duraludon
+|-supereffective|p1a: Duraludon
+|-damage|p1a: Duraludon|37/100
+|
+|-heal|p1a: Duraludon|43/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Coalossal|Earthquake|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Coalossal|[miss]
+|-miss|p1a: Rotom|p2a: Coalossal
+|move|p2a: Coalossal|Stealth Rock|p1a: Rotom
+|-sidestart|p1: InYoAssassin|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-damage|p2a: Rillaboom|88/100|[from] Stealth Rock
+|move|p1a: Rotom|Will-O-Wisp|p2a: Rillaboom
+|-status|p2a: Rillaboom|brn
+|
+|-damage|p2a: Rillaboom|82/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Duraludon|Duraludon, M|43/100
+|-damage|p1a: Duraludon|37/100|[from] Stealth Rock
+|move|p2a: Rillaboom|Knock Off|p1a: Duraludon
+|-crit|p1a: Duraludon
+|-damage|p1a: Duraludon|8/100
+|-enditem|p1a: Duraludon|Leftovers|[from] move: Knock Off|[of] p2a: Rillaboom
+|
+|-damage|p2a: Rillaboom|76/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Duraludon|Steel Beam|p2a: Rillaboom
+|-damage|p2a: Rillaboom|27/100 brn
+|-damage|p1a: Duraludon|0 fnt|[from] mindblown
+|faint|p1a: Duraludon
+|move|p2a: Rillaboom|Earthquake|p1: Duraludon|[notarget]
+|-fail|p2a: Rillaboom
+|
+|-damage|p2a: Rillaboom|21/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|-damage|p1a: Barraskewda|88/100|[from] Stealth Rock
+|turn|7
+|
+|move|p1a: Barraskewda|Liquidation|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|3/100 brn
+|move|p2a: Rillaboom|Drum Beating|p1a: Barraskewda
+|-supereffective|p1a: Barraskewda
+|-crit|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|-damage|p2a: Rillaboom|0 fnt|[from] brn
+|faint|p2a: Rillaboom
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Corviknight|Reflect|p2a: Corviknight
+|-sidestart|p2: lodbrok92|Reflect
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Corviknight|Light Screen|p2a: Corviknight
+|-sidestart|p2: lodbrok92|move: Light Screen
+|move|p1a: Ferrothorn|Leech Seed|p2a: Corviknight
+|-start|p2a: Corviknight|move: Leech Seed
+|
+|-damage|p2a: Corviknight|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|10
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Corviknight|Defog|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-damage|p2a: Corviknight|64/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|11
+|
+|move|p2a: Corviknight|Defog|p1a: Ferrothorn
+|-unboost|p1a: Ferrothorn|evasion|1
+|-sideend|p1: InYoAssassin|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: lodbrok92|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Ferrothorn|Leech Seed||[still]
+|-fail|p1a: Ferrothorn
+|
+|-damage|p2a: Corviknight|51/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|12
+|
+|switch|p2a: Coalossal|Coalossal, M|100/100
+|move|p1a: Ferrothorn|Protect||[still]
+|-fail|p1a: Ferrothorn
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Excadrill|Excadrill, M|97/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Coalossal|Fire Blast|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|14/100
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Corviknight|Corviknight, F|51/100
+|move|p1a: Excadrill|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|upkeep
+|turn|15
+|-message|InYoAssassin forfeited.
+|
+|win|lodbrok92
+|l|☆InYoAssassin
+|raw|InYoAssassin's rating: 1040 → 1026(-14 for losing)
+|raw|lodbrok92's rating: 1073 → 1099(+26 for winning)

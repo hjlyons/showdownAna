@@ -1,0 +1,321 @@
+|ScrapeTime|2020-01-02-07:55:14
+|j|☆Jusko
+|j|☆cummman
+|player|p1|Jusko|170|1161
+|player|p2|cummman|102|1212
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Excadrill, M|
+|poke|p1|Dracovish|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Hatterene, F|
+|poke|p2|Steelix, F|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Rotom-Mow|
+|poke|p2|Dragapult, M|
+|poke|p2|Seismitoad, M|
+|poke|p2|Weezing-Galar, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Steelix|Steelix, F|100/100
+|turn|1
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cummman)
+|
+|switch|p2a: Steelix|Steelix, F|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Steelix
+|-start|p2a: Steelix|move: Leech Seed
+|
+|-damage|p2a: Steelix|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|3
+|
+|move|p2a: Steelix|Iron Defense|p2a: Steelix
+|-boost|p2a: Steelix|def|2
+|move|p1a: Ferrothorn|Power Whip|p2a: Steelix
+|-damage|p2a: Steelix|80/100
+|
+|-heal|p2a: Steelix|86/100|[from] item: Leftovers
+|-damage|p2a: Steelix|73/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|upkeep
+|turn|4
+|
+|move|p2a: Steelix|Body Press|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|3/100
+|-damage|p2a: Steelix|61/100|[from] ability: Iron Barbs|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Power Whip|p2a: Steelix
+|-damage|p2a: Steelix|53/100
+|
+|-heal|p2a: Steelix|59/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|9/100|[from] item: Leftovers
+|-damage|p2a: Steelix|47/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|22/100|[silent]
+|upkeep
+|turn|5
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Steelix|Body Press|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Steelix|53/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|28/100|[from] item: Leftovers
+|-damage|p2a: Steelix|41/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|40/100|[silent]
+|upkeep
+|turn|6
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Rotom|Trick|p1a: Excadrill
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Excadrill
+|-item|p1a: Excadrill|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Life Orb|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|40/100
+|switch|p2a: Seismitoad|Seismitoad, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|47/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Seismitoad|Scald|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|32/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Seismitoad
+|-start|p2a: Seismitoad|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ferrothorn|39/100|[from] item: Leftovers
+|-damage|p2a: Seismitoad|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|53/100|[silent]
+|upkeep
+|turn|10
+|
+|switch|p2a: Steelix|Steelix, F|41/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Steelix
+|-start|p2a: Steelix|move: Leech Seed
+|
+|-weather|none
+|-heal|p2a: Steelix|47/100|[from] item: Leftovers
+|-heal|p1a: Ferrothorn|59/100|[from] item: Leftovers
+|-damage|p2a: Steelix|34/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|72/100|[silent]
+|upkeep
+|turn|11
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|move|p1a: Ferrothorn|Protect||[still]
+|-fail|p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|78/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Rotom|Trick|p1a: Ferrothorn
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Ferrothorn
+|-item|p1a: Ferrothorn|Life Orb|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|63/100
+|-damage|p1a: Ferrothorn|68/100|[from] item: Life Orb
+|
+|-heal|p2a: Rotom|69/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|Jusko has 120 seconds left.
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Hatterene
+|move|p1a: Hatterene|Will-O-Wisp|p2a: Rotom|[from]Magic Bounce
+|-status|p2a: Rotom|brn
+|
+|-heal|p2a: Rotom|75/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|69/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Rotom|Volt Switch|p1a: Hatterene
+|-damage|p1a: Hatterene|69/100
+|
+|switch|p2a: Weezing|Weezing-Galar, F|100/100|[from]move: Volt Switch
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|75/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Weezing|Strange Steam|p1a: Hatterene
+|-damage|p1a: Hatterene|49/100
+|move|p1a: Hatterene|Psyshock|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|-heal|p1a: Hatterene|55/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|turn|16
+|inactive|Jusko has 120 seconds left.
+|c|☆cummman|youre 1100 i promise you dont have to take this long
+|
+|move|p2a: Conkeldurr|Poison Jab|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|17
+|
+|switch|p2a: Steelix|Steelix, F|34/100
+|move|p1a: Pelipper|Hurricane|p2a: Steelix
+|-resisted|p2a: Steelix
+|-damage|p2a: Steelix|11/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Steelix|17/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|Jusko has 120 seconds left.
+|
+|move|p1a: Pelipper|Scald|p2a: Steelix
+|-supereffective|p2a: Steelix
+|-damage|p2a: Steelix|0 fnt
+|faint|p2a: Steelix
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Mow|69/100 brn
+|turn|19
+|
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Rotom|Will-O-Wisp|p1a: Excadrill
+|-status|p1a: Excadrill|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|75/100 brn|[from] item: Leftovers
+|-damage|p1a: Excadrill|94/100 brn|[from] brn
+|-damage|p2a: Rotom|69/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|switch|p2a: Seismitoad|Seismitoad, M|88/100
+|move|p1a: Excadrill|Earthquake|p2a: Seismitoad
+|-damage|p2a: Seismitoad|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Seismitoad|75/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|88/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|68/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Jusko|move: Stealth Rock
+|
+|-weather|none
+|-heal|p2a: Seismitoad|81/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|Jusko has 120 seconds left.
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Dragapult
+|-start|p2a: Dragapult|move: Leech Seed
+|
+|-damage|p2a: Dragapult|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|79/100|[silent]
+|upkeep
+|turn|23
+|c|☆cummman|youre brain isnt big enough to be thinking this long i promise
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Dragapult|Draco Meteor|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-damage|p2a: Dragapult|76/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|90/100|[silent]
+|upkeep
+|turn|24
+|inactive|Jusko has 120 seconds left.
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|64/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p1a: Ferrothorn|54/100|[from] item: Life Orb
+|faint|p2a: Dragapult
+|
+|upkeep
+|c|☆cummman|stalling andy
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|turn|25
+|c|☆Jusko|hardly stall tho
+|c|☆Jusko|they just work well together I’ve found
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Conkeldurr|Drain Punch|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|upkeep
+|turn|26
+|c|☆cummman|naw actually im not playing a stalling andy
+|c|☆cummman|fucking cuck
+|-message|cummman forfeited.
+|
+|win|Jusko
+|l|☆cummman
+|raw|Jusko's rating: 1161 → 1190(+29 for winning)
+|raw|cummman's rating: 1212 → 1184(-28 for losing)
+|c|☆Jusko|Pelipper, rotom, exca, vish, hatterene.
+|c|☆Jusko|ferro is stall for sure, but the rest?
+|c|☆Jusko|lmao

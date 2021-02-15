@@ -1,0 +1,379 @@
+|ScrapeTime|2020-01-01-17:24:55
+|j|☆chieppe
+|j|☆TheNulos
+|player|p1|chieppe|veteran|1031
+|player|p2|TheNulos|wattson|1040
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Kommo-o, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Dracozolt|
+|poke|p1|Haxorus, M|
+|poke|p1|Bisharp, M|
+|poke|p1|Corsola-Galar, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Dracovish|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Toxtricity, F|
+|poke|p2|Indeedee-F, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by chieppe)
+|
+|start
+|switch|p1a: Dracozolt|Dracozolt|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p1a: Dracozolt|Earthquake|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-enditem|p2a: Excadrill|Focus Sash
+|-damage|p2a: Excadrill|1/100
+|move|p2a: Excadrill|Earthquake|p1a: Dracozolt
+|-supereffective|p1a: Dracozolt
+|-damage|p1a: Dracozolt|0 fnt
+|faint|p1a: Dracozolt
+|
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|turn|2
+|
+|move|p1a: Bisharp|Sucker Punch||[still]
+|-fail|p1a: Bisharp
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Bisharp|Sucker Punch||[still]
+|-fail|p1a: Bisharp
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Excadrill
+|-crit|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|turn|5
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Corsola|Will-O-Wisp|p1a: Hatterene
+|move|p1a: Hatterene|Will-O-Wisp|p2a: Corsola|[from]Magic Bounce
+|-status|p2a: Corsola|brn
+|
+|-damage|p2a: Corsola|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p1a: Hatterene|Dark Pulse|p2a: Grimmsnarl
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|90/100
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: TheNulos|move: Light Screen
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|34/100
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-crit|p2a: Toxtricity
+|-damage|p2a: Toxtricity|48/100
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|move|p2a: Toxtricity|Overdrive|p1a: Bisharp
+|-enditem|p1a: Bisharp|Focus Sash
+|-damage|p1a: Bisharp|1/100
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, M|94/100 brn
+|turn|11
+|
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Corsola|Stealth Rock|p1a: Hatterene
+|move|p1a: Hatterene|Stealth Rock|p2a: Corsola|[from]Magic Bounce
+|-sidestart|p2: TheNulos|move: Stealth Rock
+|
+|-damage|p2a: Corsola|88/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Corsola|Night Shade|p1a: Hatterene
+|-damage|p1a: Hatterene|69/100
+|move|p1a: Hatterene|Dark Pulse|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|67/100 brn
+|
+|-damage|p2a: Corsola|60/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Corsola|Night Shade|p1a: Hatterene
+|-damage|p1a: Hatterene|38/100
+|move|p1a: Hatterene|Dark Pulse|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|39/100 brn
+|
+|-damage|p2a: Corsola|33/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p1a: Bisharp|Bisharp, M|1/100
+|move|p2a: Corsola|Night Shade|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|-damage|p2a: Corsola|26/100 brn|[from] brn
+|-sideend|p2: TheNulos|move: Light Screen
+|upkeep
+|
+|switch|p1a: Hatterene|Hatterene, F|38/100
+|turn|15
+|
+|move|p2a: Corsola|Strength Sap|p1a: Hatterene
+|move|p1a: Hatterene|Strength Sap|p2a: Corsola|[from]Magic Bounce
+|-unboost|p2a: Corsola|atk|1
+|-heal|p1a: Hatterene|79/100
+|move|p1a: Hatterene|Dark Pulse|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|faint|p2a: Corsola
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|-damage|p2a: Dracovish|88/100|[from] Stealth Rock
+|turn|16
+|c|☆chieppe|You played yourself
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, F|100/100
+|turn|17
+|
+|move|p2a: Dracovish|Fishious Rend|p1a: Corsola
+|-damage|p1a: Corsola|29/100
+|-start|p2a: Dracovish|Disable|Fishious Rend|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Will-O-Wisp|p2a: Dracovish
+|-status|p2a: Dracovish|brn
+|
+|-damage|p2a: Dracovish|82/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p2a: Indeedee|Indeedee-F, F|100/100
+|-damage|p2a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Corsola|Strength Sap|p2a: Indeedee
+|-unboost|p2a: Indeedee|atk|1
+|-heal|p1a: Corsola|61/100
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Indeedee|Psychic|p1a: Corsola
+|-damage|p1a: Corsola|36/100
+|move|p1a: Corsola|Strength Sap|p2a: Indeedee
+|-unboost|p2a: Indeedee|atk|1
+|-heal|p1a: Corsola|57/100
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Indeedee|Psychic|p1a: Corsola
+|-damage|p1a: Corsola|30/100
+|-start|p2a: Indeedee|Disable|Psychic|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Night Shade|p2a: Indeedee
+|-immune|p2a: Indeedee
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|34/100
+|-damage|p2a: Grimmsnarl|22/100|[from] Stealth Rock
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Kommo-o
+|-activate|p1a: Kommo-o|move: Psychic Terrain
+|move|p1a: Kommo-o|Dragon Dance|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|spe|1
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|23
+|
+|move|p1a: Kommo-o|Poison Jab|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-crit|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Indeedee|Indeedee-F, F|88/100
+|-damage|p2a: Indeedee|76/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|24
+|
+|move|p2a: Indeedee|Psychic|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|25
+|
+|switch|p2a: Dracovish|Dracovish|82/100 brn
+|-damage|p2a: Dracovish|69/100 brn|[from] Stealth Rock
+|move|p1a: Haxorus|Dragon Dance|p1a: Haxorus
+|-boost|p1a: Haxorus|atk|1
+|-boost|p1a: Haxorus|spe|1
+|
+|-damage|p2a: Dracovish|63/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p1a: Haxorus|Dragon Claw|p2a: Dracovish
+|-supereffective|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|-damage|p1a: Haxorus|91/100|[from] item: Life Orb
+|faint|p2a: Dracovish
+|
+|upkeep
+|
+|switch|p2a: Indeedee|Indeedee-F, F|76/100
+|-damage|p2a: Indeedee|63/100|[from] Stealth Rock
+|turn|27
+|
+|move|p2a: Indeedee|Dazzling Gleam|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|19/100
+|move|p1a: Haxorus|Shadow Claw|p2a: Indeedee
+|-immune|p2a: Indeedee
+|
+|upkeep
+|turn|28
+|c|☆TheNulos|gj
+|
+|move|p2a: Indeedee|Dazzling Gleam|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|faint|p1a: Haxorus
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|switch|p1a: Corsola|Corsola-Galar, F|30/100
+|turn|29
+|
+|move|p2a: Indeedee|Dazzling Gleam|p1a: Corsola
+|-damage|p1a: Corsola|19/100
+|move|p1a: Corsola|Strength Sap|p2a: Indeedee
+|-unboost|p2a: Indeedee|atk|1
+|-heal|p1a: Corsola|50/100
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Indeedee|Dazzling Gleam|p1a: Corsola
+|-damage|p1a: Corsola|39/100
+|move|p1a: Corsola|Strength Sap|p2a: Indeedee
+|-unboost|p2a: Indeedee|atk|1
+|-heal|p1a: Corsola|60/100
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Indeedee|Dazzling Gleam|p1a: Corsola
+|-damage|p1a: Corsola|48/100
+|-start|p2a: Indeedee|Disable|Dazzling Gleam|[from] ability: Cursed Body|[of] p1a: Corsola
+|move|p1a: Corsola|Will-O-Wisp|p2a: Indeedee|[miss]
+|-miss|p1a: Corsola|p2a: Indeedee
+|
+|upkeep
+|turn|32
+|
+|-activate|p2a: Indeedee|move: Struggle
+|move|p2a: Indeedee|Struggle|p1a: Corsola
+|-damage|p1a: Corsola|46/100
+|-damage|p2a: Indeedee|38/100|[from] recoil
+|move|p1a: Corsola|Haze|p1a: Corsola
+|-clearallboost
+|
+|upkeep
+|turn|33
+|c|☆TheNulos|x)
+|
+|-activate|p2a: Indeedee|move: Struggle
+|move|p2a: Indeedee|Struggle|p1a: Corsola
+|-damage|p1a: Corsola|42/100
+|-damage|p2a: Indeedee|13/100|[from] recoil
+|move|p1a: Corsola|Strength Sap|p2a: Indeedee
+|-unboost|p2a: Indeedee|atk|1
+|-heal|p1a: Corsola|74/100
+|
+|upkeep
+|turn|34
+|c|☆chieppe|Wtf
+|
+|-activate|p2a: Indeedee|move: Struggle
+|move|p2a: Indeedee|Struggle|p1a: Corsola
+|-damage|p1a: Corsola|71/100
+|-damage|p2a: Indeedee|0 fnt|[from] recoil
+|faint|p2a: Indeedee
+|
+|win|chieppe
+|c|☆chieppe|How??
+|l|☆TheNulos

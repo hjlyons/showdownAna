@@ -1,0 +1,219 @@
+|ScrapeTime|2020-01-01-23:14:43
+|j|☆NXDYN waffle
+|j|☆GAUB
+|player|p1|NXDYN waffle|170|1291
+|player|p2|GAUB|170|1309
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Toxapex, F|
+|poke|p1|Dugtrio, M|
+|poke|p1|Seismitoad, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Reuniclus, F|
+|poke|p1|Clefable, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Mew|
+|poke|p2|Clefable, F|
+|poke|p2|Hawlucha, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NXDYN waffle)
+|
+|start
+|switch|p1a: Clefable|Clefable, M|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+|
+|move|p2a: Mew|Taunt|p1a: Clefable
+|-start|p1a: Clefable|move: Taunt
+|move|p1a: Clefable|Moonblast|p2a: Mew
+|-damage|p2a: Mew|70/100
+|-unboost|p2a: Mew|spa|1
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Mew|Stealth Rock|p1a: Clefable
+|-sidestart|p1: NXDYN waffle|move: Stealth Rock
+|move|p1a: Clefable|Moonblast|p2a: Mew
+|-damage|p2a: Mew|39/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Mew|Self-Destruct|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|22/100
+|faint|p2a: Mew
+|move|p1a: Clefable|Moonblast|p2: Mew|[notarget]
+|-fail|p1a: Clefable
+|
+|-heal|p1a: Clefable|28/100|[from] item: Leftovers
+|-end|p1a: Clefable|move: Taunt
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|4
+|
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Dragapult|Shadow Ball|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|-heal|p1a: Clefable|34/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: pex|Toxapex, F|100/100
+|-damage|p1a: pex|88/100|[from] Stealth Rock
+|move|p2a: Dragapult|Shadow Ball|p1a: pex
+|-damage|p1a: pex|52/100
+|
+|-heal|p1a: pex|59/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: pex|Recover|p1a: pex
+|-heal|p1a: pex|100/100
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Clefable|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|29/100
+|
+|-heal|p1a: Corviknight|35/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Clefable|Flamethrower|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, M|34/100
+|turn|9
+|
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|-heal|p1a: Clefable|40/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: pex|Toxapex, F|100/100
+|-damage|p1a: pex|88/100|[from] Stealth Rock
+|move|p2a: Clefable|Moonblast|p1a: pex
+|-resisted|p1a: pex
+|-damage|p1a: pex|71/100
+|-unboost|p1a: pex|spa|1
+|
+|-heal|p1a: pex|77/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|move|p2a: Clefable|Thunderbolt|p1a: pex
+|-supereffective|p1a: pex
+|-damage|p1a: pex|33/100
+|move|p1a: pex|Haze|p1a: pex
+|-clearallboost
+|
+|-heal|p1a: pex|40/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|switch|p1a: Reuniclus|Reuniclus, F|100/100
+|move|p2a: Clefable|Thunderbolt|p1a: Reuniclus
+|-damage|p1a: Reuniclus|66/100
+|
+|-heal|p1a: Reuniclus|72/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|-heal|p1a: Reuniclus|78/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: pex|Toxapex, F|73/100
+|-damage|p1a: pex|60/100|[from] Stealth Rock
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|76/100
+|
+|-heal|p2a: Hydreigon|82/100|[from] item: Leftovers
+|-heal|p1a: pex|67/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: pex
+|-damage|p1a: pex|40/100
+|move|p1a: pex|Haze|p1a: pex
+|-clearallboost
+|
+|-heal|p2a: Hydreigon|88/100|[from] item: Leftovers
+|-heal|p1a: pex|46/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: pex
+|-damage|p1a: pex|21/100
+|move|p1a: pex|Recover|p1a: pex
+|-heal|p1a: pex|71/100
+|
+|-heal|p2a: Hydreigon|94/100|[from] item: Leftovers
+|-heal|p1a: pex|77/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|move|p1a: pex|Scald|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-activate|p2a: Hydreigon|move: Substitute|[damage]
+|
+|-heal|p2a: Hydreigon|99/100|[from] item: Leftovers
+|-heal|p1a: pex|84/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: pex
+|-damage|p1a: pex|29/100
+|cant|p1a: pex|flinch
+|
+|-heal|p2a: Hydreigon|100/100|[from] item: Leftovers
+|-heal|p1a: pex|36/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|-message|NXDYN waffle forfeited.
+|
+|win|GAUB
+|l|☆NXDYN waffle
+|raw|NXDYN waffle's rating: 1319 → 1300(-19 for losing)
+|raw|GAUB's rating: 1329 → 1348(+19 for winning)

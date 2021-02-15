@@ -1,0 +1,545 @@
+|ScrapeTime|2020-01-01-22:28:24
+|j|☆Truebeliever
+|j|☆Raritypinkpie
+|player|p1|Truebeliever|64|1155
+|player|p2|Raritypinkpie|12|1159
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Espeon, F|
+|poke|p1|Bewear, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Sableye, M|
+|poke|p1|Alcremie, F|
+|poke|p1|Dracozolt|
+|poke|p2|Dragapult, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Clefable, M|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Ditto|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Bauble|Sableye, M|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|1
+|
+|move|p1a: Bauble|Will-O-Wisp|p2a: Excadrill
+|-status|p2a: Excadrill|brn
+|move|p2a: Excadrill|Substitute|p2a: Excadrill
+|-start|p2a: Excadrill|Substitute
+|-damage|p2a: Excadrill|76/100 brn
+|
+|-heal|p2a: Excadrill|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Excadrill|76/100 brn|[from] brn
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Raritypinkpie)
+|
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|move|p1a: Bauble|Knock Off|p2a: Excadrill
+|-end|p2a: Excadrill|Substitute
+|
+|-heal|p2a: Excadrill|82/100 brn|[from] item: Leftovers
+|-damage|p2a: Excadrill|76/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Excadrill|Earthquake|p1a: Bauble
+|-damage|p1a: Bauble|33/100
+|move|p1a: Bauble|Knock Off|p2a: Excadrill
+|-damage|p2a: Excadrill|38/100 brn
+|-enditem|p2a: Excadrill|Leftovers|[from] move: Knock Off|[of] p1a: Bauble
+|
+|-heal|p1a: Bauble|39/100|[from] item: Leftovers
+|-damage|p2a: Excadrill|32/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Bauble|Recover|p1a: Bauble
+|-heal|p1a: Bauble|89/100
+|move|p2a: Excadrill|Earthquake|p1a: Bauble
+|-damage|p1a: Bauble|23/100
+|
+|-heal|p1a: Bauble|29/100|[from] item: Leftovers
+|-damage|p2a: Excadrill|26/100 brn|[from] brn
+|upkeep
+|turn|5
+|inactive|Truebeliever has 120 seconds left.
+|
+|move|p1a: Bauble|Recover|p1a: Bauble
+|-heal|p1a: Bauble|79/100
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|
+|-heal|p1a: Bauble|85/100|[from] item: Leftovers
+|-damage|p2a: Excadrill|20/100 brn|[from] brn
+|upkeep
+|turn|6
+|inactive|Truebeliever has 120 seconds left.
+|
+|move|p2a: Excadrill|Earthquake|p1a: Bauble
+|-damage|p1a: Bauble|0 fnt
+|faint|p1a: Bauble
+|
+|-damage|p2a: Excadrill|14/100 brn|[from] brn
+|upkeep
+|inactive|Truebeliever has 120 seconds left.
+|
+|switch|p1a: Ace|Cinderace, M|100/100
+|turn|7
+|
+|move|p1a: Ace|Pyro Ball|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|8
+|
+|switch|p1a: Olio|Dracozolt|100/100
+|move|p2a: Rotom|Substitute|p2a: Rotom
+|-start|p2a: Rotom|Substitute
+|-damage|p2a: Rotom|76/100
+|
+|-heal|p2a: Rotom|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Olio|[miss]
+|-miss|p2a: Rotom|p1a: Olio
+|move|p1a: Olio|Bolt Beak|p2a: Rotom
+|-end|p2a: Rotom|Substitute
+|
+|-heal|p2a: Rotom|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Rotom|Volt Switch|p1a: Olio
+|-immune|p1a: Olio|[from] ability: Volt Absorb
+|move|p1a: Olio|Bolt Beak|p2a: Rotom
+|-damage|p2a: Rotom|51/100
+|
+|-heal|p2a: Rotom|57/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Olio|Breaking Swipe|p2a: Clefable
+|-immune|p2a: Clefable
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Bon|Alcremie, F|100/100
+|move|p2a: Clefable|Moonblast|p1a: Bon
+|-damage|p1a: Bon|75/100
+|-unboost|p1a: Bon|spa|1
+|
+|-heal|p1a: Bon|81/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Clefable|Ice Beam|p1a: Bon
+|-damage|p1a: Bon|66/100
+|move|p1a: Bon|Mystical Fire|p2a: Clefable
+|-damage|p2a: Clefable|86/100
+|-unboost|p2a: Clefable|spa|1
+|
+|-heal|p1a: Bon|72/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Rotom|Rotom-Wash|57/100
+|move|p1a: Bon|Mystical Fire|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|48/100
+|-unboost|p2a: Rotom|spa|1
+|
+|-heal|p2a: Rotom|54/100|[from] item: Leftovers
+|-heal|p1a: Bon|78/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Olio|Dracozolt|100/100
+|move|p2a: Rotom|Thunder Wave|p1a: Olio
+|-immune|p1a: Olio|[from] ability: Volt Absorb
+|
+|-heal|p2a: Rotom|60/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Raritypinkpie has 120 seconds left.
+|
+|switch|p2a: Clefable|Clefable, M|86/100
+|move|p1a: Olio|Breaking Swipe|p2a: Clefable
+|-immune|p2a: Clefable
+|
+|upkeep
+|turn|17
+|inactive|Raritypinkpie has 120 seconds left.
+|
+|switch|p1a: Bon|Alcremie, F|78/100
+|move|p2a: Clefable|Protect||[still]
+|-fail|p2a: Clefable
+|
+|-heal|p1a: Bon|85/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|Raritypinkpie has 120 seconds left.
+|
+|move|p2a: Clefable|Ice Beam|p1a: Bon
+|-damage|p1a: Bon|69/100
+|move|p1a: Bon|Mystical Fire|p2a: Clefable
+|-damage|p2a: Clefable|64/100
+|-unboost|p2a: Clefable|spa|1
+|
+|-heal|p1a: Bon|75/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Raritypinkpie has 120 seconds left.
+|
+|switch|p1a: Ace|Cinderace, M|100/100
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Ace|Pyro Ball|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|21
+|
+|switch|p2a: Rotom|Rotom-Wash|60/100
+|move|p1a: Ace|Pyro Ball|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|31/100
+|
+|-heal|p2a: Rotom|36/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Ace|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|13/100
+|
+|switch|p1a: Olio|Dracozolt|100/100|[from]move: U-turn
+|move|p2a: Rotom|Hydro Pump|p1a: Olio
+|-resisted|p1a: Olio
+|-damage|p1a: Olio|77/100
+|
+|-heal|p2a: Rotom|19/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Olio|Bolt Beak|p2a: Clefable
+|-damage|p2a: Clefable|20/100
+|-damage|p1a: Olio|61/100|[from] item: Rocky Helmet|[of] p2a: Clefable
+|
+|upkeep
+|turn|24
+|
+|switch|p1a: Ace|Cinderace, M|100/100
+|move|p2a: Clefable|Protect||[still]
+|-fail|p2a: Clefable
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Ace|Pyro Ball|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|19/100
+|turn|26
+|
+|move|p1a: Ace|Pyro Ball|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|27
+|
+|switch|p1a: Bon|Alcremie, F|75/100
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|
+|-heal|p1a: Bon|81/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Bon
+|move|p1a: Bon|Dazzling Gleam|p2a: Dragapult|[miss]
+|-miss|p1a: Bon|p2a: Dragapult
+|
+|-heal|p1a: Bon|87/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|switch|p1a: Roosevelt|Bewear, M|100/100
+|move|p2a: Dragapult|Phantom Force|p1a: Roosevelt|[from]lockedmove
+|-immune|p1a: Roosevelt
+|
+|upkeep
+|turn|30
+|
+|switch|p1a: Bon|Alcremie, F|87/100
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|
+|-heal|p1a: Bon|93/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Bon
+|move|p1a: Bon|Dazzling Gleam|p2a: Dragapult|[miss]
+|-miss|p1a: Bon|p2a: Dragapult
+|
+|-heal|p1a: Bon|99/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|switch|p1a: Roosevelt|Bewear, M|100/100
+|move|p2a: Dragapult|Phantom Force|p1a: Roosevelt|[from]lockedmove
+|-immune|p1a: Roosevelt
+|
+|upkeep
+|turn|33
+|
+|switch|p1a: Bon|Alcremie, F|99/100
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|
+|-heal|p1a: Bon|100/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p1a: Roosevelt|Bewear, M|100/100
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force|p1a: Roosevelt
+|
+|upkeep
+|turn|35
+|
+|move|p2a: Dragapult|Phantom Force|p1a: Roosevelt|[from]lockedmove
+|-immune|p1a: Roosevelt
+|move|p1a: Roosevelt|Shadow Claw|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|53/100
+|
+|upkeep
+|turn|36
+|
+|switch|p1a: Bon|Alcremie, F|100/100
+|move|p2a: Dragapult|Dragon Claw|p1a: Bon
+|-immune|p1a: Bon
+|
+|upkeep
+|turn|37
+|
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: Bon|Dazzling Gleam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Bon|[from] ability: Imposter
+|turn|38
+|c|☆Truebeliever|Nice try
+|
+|move|p2a: Ditto|Mystical Fire|p1a: Bon
+|-damage|p1a: Bon|86/100
+|-unboost|p1a: Bon|spa|1
+|move|p1a: Bon|Mystical Fire|p2a: Ditto
+|-damage|p2a: Ditto|89/100
+|-unboost|p2a: Ditto|spa|1
+|
+|-heal|p1a: Bon|92/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|switch|p1a: Ace|Cinderace, M|100/100
+|move|p2a: Ditto|Mystical Fire|p1a: Ace
+|-resisted|p1a: Ace
+|-damage|p1a: Ace|91/100
+|-unboost|p1a: Ace|spa|1
+|
+|upkeep
+|turn|40
+|
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|move|p1a: Ace|Pyro Ball|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|54/100
+|
+|upkeep
+|turn|41
+|
+|move|p1a: Ace|U-turn|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|44/100
+|
+|switch|p1a: Olio|Dracozolt|61/100|[from]move: U-turn
+|move|p2a: Conkeldurr|Power-Up Punch|p1a: Olio
+|-damage|p1a: Olio|43/100
+|-boost|p2a: Conkeldurr|atk|1
+|
+|upkeep
+|turn|42
+|
+|move|p2a: Conkeldurr|Drain Punch|p1a: Olio
+|-damage|p1a: Olio|0 fnt
+|-heal|p2a: Conkeldurr|60/100|[from] drain|[of] p1a: Olio
+|faint|p1a: Olio
+|
+|upkeep
+|
+|switch|p1a: Bon|Alcremie, F|92/100
+|turn|43
+|
+|move|p2a: Conkeldurr|Ice Punch|p1a: Bon
+|-damage|p1a: Bon|26/100
+|move|p1a: Bon|Dazzling Gleam|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-crit|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|-heal|p1a: Bon|32/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|89/100
+|-transform|p2a: Ditto|p1a: Bon|[from] ability: Imposter
+|turn|44
+|
+|move|p1a: Bon|Mystical Fire|p2a: Ditto
+|-damage|p2a: Ditto|73/100
+|-unboost|p2a: Ditto|spa|1
+|move|p2a: Ditto|Mystical Fire|p1a: Bon
+|-damage|p1a: Bon|20/100
+|-unboost|p1a: Bon|spa|1
+|
+|-heal|p1a: Bon|27/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p2a: Ditto|Mystical Fire|p1a: Bon
+|-damage|p1a: Bon|16/100
+|-unboost|p1a: Bon|spa|1
+|move|p1a: Bon|Recover|p1a: Bon
+|-heal|p1a: Bon|66/100
+|
+|-heal|p1a: Bon|72/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|move|p1a: Bon|Mystical Fire|p2a: Ditto
+|-damage|p2a: Ditto|65/100
+|-unboost|p2a: Ditto|spa|1
+|move|p2a: Ditto|Mystical Fire|p1a: Bon
+|-damage|p1a: Bon|64/100
+|-unboost|p1a: Bon|spa|1
+|
+|-heal|p1a: Bon|70/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|
+|move|p1a: Bon|Mystical Fire|p2a: Ditto
+|-damage|p2a: Ditto|59/100
+|-unboost|p2a: Ditto|spa|1
+|move|p2a: Ditto|Mystical Fire|p1a: Bon
+|-damage|p1a: Bon|64/100
+|-unboost|p1a: Bon|spa|1
+|
+|-heal|p1a: Bon|70/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|move|p1a: Bon|Mystical Fire|p2a: Ditto
+|-damage|p2a: Ditto|54/100
+|-unboost|p2a: Ditto|spa|1
+|move|p2a: Ditto|Recover|p2a: Ditto
+|-heal|p2a: Ditto|100/100
+|
+|-heal|p1a: Bon|76/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|move|p1a: Bon|Mystical Fire|p2a: Ditto
+|-damage|p2a: Ditto|95/100
+|-unboost|p2a: Ditto|spa|1
+|move|p2a: Ditto|Mystical Fire|p1a: Bon
+|-damage|p1a: Bon|71/100
+|-unboost|p1a: Bon|spa|1
+|
+|-heal|p1a: Bon|77/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|move|p1a: Bon|Mystical Fire|p2a: Ditto
+|-damage|p2a: Ditto|90/100
+|-unboost|p2a: Ditto|spa|1
+|move|p2a: Ditto|Aromatherapy||[still]
+|-activate|p2a: Ditto|move: Aromatherapy
+|-fail|p2a: Ditto
+|
+|-heal|p1a: Bon|83/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|
+|move|p1a: Bon|Mystical Fire|p2a: Ditto
+|-damage|p2a: Ditto|85/100
+|move|p2a: Ditto|Dazzling Gleam|p1a: Bon
+|-damage|p1a: Bon|77/100
+|
+|-heal|p1a: Bon|83/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|switch|p1a: Ace|Cinderace, M|91/100
+|move|p2a: Ditto|Dazzling Gleam|p1a: Ace
+|-resisted|p1a: Ace
+|-damage|p1a: Ace|84/100
+|
+|upkeep
+|turn|53
+|
+|move|p1a: Ace|Pyro Ball|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|win|Truebeliever
+|l|☆Raritypinkpie

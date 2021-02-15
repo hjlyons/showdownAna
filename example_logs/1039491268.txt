@@ -1,0 +1,451 @@
+|ScrapeTime|2020-01-02-04:04:33
+|j|☆NotAVan
+|j|☆HisokaG4
+|player|p1|NotAVan|pokemaniac|1108
+|player|p2|HisokaG4|266|1143
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Seismitoad, F|
+|poke|p1|Ferrothorn, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Corviknight, M|
+|poke|p2|Lapras, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Sawk, M|
+|poke|p2|Ditto|
+|poke|p2|Ferrothorn, M|
+|poke|p2|Gardevoir, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|switch|p2a: CeifadorG4|Sawk, M|100/100
+|turn|1
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: CeifadorG4|Ice Punch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|32/100
+|
+|-heal|p1a: Dragapult|38/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Dragapult|Disable|p2a: CeifadorG4
+|-start|p2a: CeifadorG4|Disable|Ice Punch
+|cant|p2a: CeifadorG4|Disable|Ice Punch
+|
+|-heal|p1a: Dragapult|45/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: VidaLokaG4|Ferrothorn, M|100/100
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|20/100
+|
+|-heal|p1a: Dragapult|26/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: VidaLokaG4|Protect|p2a: VidaLokaG4
+|-singleturn|p2a: VidaLokaG4|Protect
+|move|p1a: Dragapult|Will-O-Wisp|p2a: VidaLokaG4
+|-activate|p2a: VidaLokaG4|move: Protect
+|
+|-heal|p1a: Dragapult|32/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: ReiGeladoG4|Lapras, M|100/100
+|move|p1a: Dragapult|Will-O-Wisp|p2a: ReiGeladoG4
+|-status|p2a: ReiGeladoG4|brn
+|
+|-heal|p1a: Dragapult|38/100|[from] item: Leftovers
+|-damage|p2a: ReiGeladoG4|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Dragapult|Hex|p2a: ReiGeladoG4
+|-damage|p2a: ReiGeladoG4|64/100 brn
+|move|p2a: ReiGeladoG4|Ice Beam|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|45/100|[from] item: Leftovers
+|-damage|p2a: ReiGeladoG4|58/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Dragapult|Disable|p2a: ReiGeladoG4
+|-start|p2a: ReiGeladoG4|Disable|Ice Beam
+|cant|p2a: ReiGeladoG4|Disable|Ice Beam
+|
+|-heal|p1a: Dragapult|51/100|[from] item: Leftovers
+|-damage|p2a: ReiGeladoG4|51/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|26/100
+|move|p2a: ReiGeladoG4|Freeze-Dry|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|32/100|[from] item: Leftovers
+|-damage|p2a: ReiGeladoG4|45/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Dragapult|Hex|p2a: ReiGeladoG4
+|-damage|p2a: ReiGeladoG4|17/100 brn
+|move|p2a: ReiGeladoG4|Freeze-Dry|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-damage|p2a: ReiGeladoG4|10/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100
+|turn|10
+|
+|switch|p2a: InvejaG4|Ditto|100/100
+|-transform|p2a: InvejaG4|p1a: Ferrothorn|[from] ability: Imposter
+|move|p1a: Ferrothorn|Spikes|p2a: InvejaG4
+|-sidestart|p2: HisokaG4|Spikes
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: InvejaG4|Spikes|p1a: Rotom
+|-sidestart|p1: NotAVan|Spikes
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: CerberosG4|Hydreigon, M, shiny|100/100
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Rotom|Volt Switch|p2a: CerberosG4
+|-resisted|p2a: CerberosG4
+|-damage|p2a: CerberosG4|65/100
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Seismitoad|88/100|[from] Spikes
+|move|p2a: CerberosG4|Draco Meteor|p1a: Seismitoad
+|-damage|p1a: Seismitoad|6/100
+|-unboost|p2a: CerberosG4|spa|2
+|
+|-heal|p1a: Seismitoad|12/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: CerberosG4|Draco Meteor|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|-unboost|p2a: CerberosG4|spa|2
+|faint|p1a: Seismitoad
+|
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p1a: Grimmsnarl|88/100|[from] Spikes
+|turn|15
+|
+|switch|p2a: CeifadorG4|Sawk, M|100/100
+|-damage|p2a: CeifadorG4|88/100|[from] Spikes
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|
+|-heal|p1a: Grimmsnarl|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Grimmsnarl|Bulk Up|p1a: Grimmsnarl
+|-boost|p1a: Grimmsnarl|atk|1
+|-boost|p1a: Grimmsnarl|def|1
+|move|p2a: CeifadorG4|Close Combat|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|56/100
+|-unboost|p2a: CeifadorG4|def|1
+|-unboost|p2a: CeifadorG4|spd|1
+|
+|-heal|p1a: Grimmsnarl|62/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NotAVan)
+|
+|move|p2a: CeifadorG4|Close Combat|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|20/100
+|-unboost|p2a: CeifadorG4|def|1
+|-unboost|p2a: CeifadorG4|spd|1
+|move|p1a: Grimmsnarl|Spirit Break|p2a: CeifadorG4
+|-supereffective|p2a: CeifadorG4
+|-damage|p2a: CeifadorG4|0 fnt
+|faint|p2a: CeifadorG4
+|
+|-heal|p1a: Grimmsnarl|26/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: CerberosG4|Hydreigon, M, shiny|65/100
+|turn|18
+|
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: CerberosG4|Flash Cannon|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|84/100
+|
+|-heal|p1a: Corviknight|90/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p2a: VidaLokaG4|Ferrothorn, M|100/100
+|-damage|p2a: VidaLokaG4|88/100|[from] Spikes
+|move|p1a: Corviknight|Brave Bird|p2a: VidaLokaG4
+|-damage|p2a: VidaLokaG4|62/100
+|-damage|p1a: Corviknight|78/100|[from] ability: Iron Barbs|[of] p2a: VidaLokaG4
+|-damage|p1a: Corviknight|71/100|[from] Recoil
+|
+|-heal|p1a: Corviknight|78/100|[from] item: Leftovers
+|-heal|p2a: VidaLokaG4|68/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2a: VidaLokaG4|Toxic|p1a: Corviknight
+|-immune|p1a: Corviknight
+|
+|-heal|p1a: Corviknight|84/100|[from] item: Leftovers
+|-heal|p2a: VidaLokaG4|75/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2a: VidaLokaG4|Leech Seed|p1a: Corviknight|[miss]
+|-miss|p2a: VidaLokaG4|p1a: Corviknight
+|
+|-heal|p1a: Corviknight|90/100|[from] item: Leftovers
+|-heal|p2a: VidaLokaG4|81/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p1a: Corviknight|Brave Bird|p2a: VidaLokaG4
+|-damage|p2a: VidaLokaG4|31/100
+|-damage|p1a: Corviknight|78/100|[from] ability: Iron Barbs|[of] p2a: VidaLokaG4
+|-damage|p1a: Corviknight|66/100|[from] Recoil
+|move|p2a: VidaLokaG4|Leech Seed|p1a: Corviknight
+|-start|p1a: Corviknight|move: Leech Seed
+|
+|-heal|p1a: Corviknight|72/100|[from] item: Leftovers
+|-heal|p2a: VidaLokaG4|37/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|59/100|[from] Leech Seed|[of] p2a: VidaLokaG4
+|-heal|p2a: VidaLokaG4|54/100|[silent]
+|upkeep
+|turn|23
+|
+|move|p2a: VidaLokaG4|Protect|p2a: VidaLokaG4
+|-singleturn|p2a: VidaLokaG4|Protect
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p2a: VidaLokaG4|60/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|88/100|[from] Leech Seed|[of] p2a: VidaLokaG4
+|-heal|p2a: VidaLokaG4|78/100|[silent]
+|upkeep
+|turn|24
+|
+|move|p1a: Corviknight|Brave Bird|p2a: VidaLokaG4
+|-damage|p2a: VidaLokaG4|26/100
+|-damage|p1a: Corviknight|75/100|[from] ability: Iron Barbs|[of] p2a: VidaLokaG4
+|-damage|p1a: Corviknight|63/100|[from] Recoil
+|move|p2a: VidaLokaG4|Power Whip|p1a: Corviknight|[miss]
+|-miss|p2a: VidaLokaG4|p1a: Corviknight
+|
+|-heal|p1a: Corviknight|69/100|[from] item: Leftovers
+|-heal|p2a: VidaLokaG4|32/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|57/100|[from] Leech Seed|[of] p2a: VidaLokaG4
+|-heal|p2a: VidaLokaG4|49/100|[silent]
+|upkeep
+|turn|25
+|inactive|NotAVan has 120 seconds left.
+|
+|switch|p2a: CerberosG4|Hydreigon, M, shiny|65/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-damage|p1a: Corviknight|88/100|[from] Leech Seed|[of] p2a: CerberosG4
+|-heal|p2a: CerberosG4|81/100|[silent]
+|upkeep
+|turn|26
+|inactive|NotAVan has 120 seconds left.
+|
+|move|p2a: CerberosG4|Flamethrower|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|18/100
+|-status|p1a: Corviknight|brn
+|move|p1a: Corviknight|U-turn|p2a: CerberosG4
+|-supereffective|p2a: CerberosG4
+|-damage|p2a: CerberosG4|45/100
+|inactive|NotAVan has 120 seconds left.
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100|[from]move: U-turn
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: InvejaG4|Ditto|100/100
+|-damage|p2a: InvejaG4|88/100|[from] Spikes
+|-transform|p2a: InvejaG4|p1a: Rotom|[from] ability: Imposter
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|
+|upkeep
+|turn|28
+|inactive|NotAVan has 120 seconds left.
+|
+|move|p1a: Rotom|Volt Switch|p2a: InvejaG4
+|-resisted|p2a: InvejaG4
+|-crit|p2a: InvejaG4
+|-damage|p2a: InvejaG4|42/100
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|26/100|[from]move: Volt Switch
+|-damage|p1a: Grimmsnarl|13/100|[from] Spikes
+|move|p2a: InvejaG4|Overheat|p1a: Grimmsnarl
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|-unboost|p2a: InvejaG4|spa|2
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|inactive|NotAVan has 90 seconds left.
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|turn|29
+|
+|switch|p2a: CerberosG4|Hydreigon, M, shiny|45/100
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|
+|upkeep
+|turn|30
+|inactive|NotAVan has 90 seconds left.
+|
+|move|p1a: Rotom|Volt Switch|p2a: CerberosG4
+|-resisted|p2a: CerberosG4
+|-damage|p2a: CerberosG4|9/100
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100/100|[from]move: Volt Switch
+|-damage|p1a: Ferrothorn|88/100|[from] Spikes
+|move|p2a: CerberosG4|Draco Meteor|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|46/100
+|-unboost|p2a: CerberosG4|spa|2
+|
+|-heal|p1a: Ferrothorn|52/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|NotAVan has 90 seconds left.
+|
+|switch|p2a: DivaNegraG4|Gardevoir, F, shiny|100/100
+|-damage|p2a: DivaNegraG4|88/100|[from] Spikes
+|-ability|p2a: DivaNegraG4|Iron Barbs|[from] ability: Trace|[of] p1a: Ferrothorn
+|move|p1a: Ferrothorn|Knock Off|p2a: DivaNegraG4
+|-damage|p2a: DivaNegraG4|36/100
+|-damage|p1a: Ferrothorn|39/100|[from] ability: Iron Barbs|[of] p2a: DivaNegraG4
+|-enditem|p2a: DivaNegraG4|Life Orb|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-heal|p1a: Ferrothorn|46/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|NotAVan has 90 seconds left.
+|
+|move|p2a: DivaNegraG4|Mystical Fire|p1a: Ferrothorn
+|-supereffective|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|turn|33
+|
+|switch|p2a: VidaLokaG4|Ferrothorn, M|49/100
+|-damage|p2a: VidaLokaG4|37/100|[from] Spikes
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|
+|-heal|p2a: VidaLokaG4|43/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Rotom|Dark Pulse|p2a: VidaLokaG4
+|-damage|p2a: VidaLokaG4|0 fnt
+|faint|p2a: VidaLokaG4
+|
+|upkeep
+|
+|switch|p2a: InvejaG4|Ditto|42/100
+|-damage|p2a: InvejaG4|29/100|[from] Spikes
+|-transform|p2a: InvejaG4|p1a: Rotom|[from] ability: Imposter
+|turn|35
+|
+|move|p1a: Rotom|Dark Pulse|p2a: InvejaG4
+|-damage|p2a: InvejaG4|0 fnt
+|faint|p2a: InvejaG4
+|
+|upkeep
+|
+|switch|p2a: CerberosG4|Hydreigon, M, shiny|9/100
+|turn|36
+|inactive|NotAVan has 90 seconds left.
+|
+|move|p1a: Rotom|Dark Pulse|p2a: CerberosG4
+|-resisted|p2a: CerberosG4
+|-damage|p2a: CerberosG4|0 fnt
+|faint|p2a: CerberosG4
+|
+|upkeep
+|
+|switch|p2a: ReiGeladoG4|Lapras, M|10/100 brn
+|-damage|p2a: ReiGeladoG4|0 fnt|[from] Spikes
+|faint|p2a: ReiGeladoG4
+|
+|switch|p2a: DivaNegraG4|Gardevoir, F, shiny|36/100
+|-damage|p2a: DivaNegraG4|24/100|[from] Spikes
+|-ability|p2a: DivaNegraG4|Levitate|[from] ability: Trace|[of] p1a: Rotom
+|turn|37
+|
+|move|p1a: Rotom|Dark Pulse|p2a: DivaNegraG4
+|-damage|p2a: DivaNegraG4|0 fnt
+|faint|p2a: DivaNegraG4
+|
+|win|NotAVan
+|raw|NotAVan's rating: 1108 → 1134(+26 for winning)
+|raw|HisokaG4's rating: 1119 → 1093(-26 for losing)
+|l|☆HisokaG4

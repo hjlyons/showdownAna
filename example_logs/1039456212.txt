@@ -1,0 +1,539 @@
+|ScrapeTime|2020-01-02-02:32:34
+|j|☆i are doo doo
+|j|☆alex_pepsicola
+|player|p1|i are doo doo|102|1198
+|player|p2|alex_pepsicola|256|1218
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gastrodon, M|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Aromatisse, F|
+|poke|p1|Reuniclus, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Obstagoon, M|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Araquanid, M|
+|poke|p2|Ferrothorn, F|
+|poke|p2|Quagsire, M|
+|poke|p2|Goodra, F|
+|poke|p2|Weavile, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by alex_pepsicola)
+|
+|start
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|switch|p2a: Re mojada|Araquanid, M|100/100
+|turn|1
+|
+|move|p2a: Re mojada|Sticky Web|p1a: Corsola
+|-sidestart|p1: i are doo doo|move: Sticky Web
+|move|p1a: Corsola|Stealth Rock|p2a: Re mojada
+|-sidestart|p2: alex_pepsicola|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: La depresiva|Corsola-Galar, F|100/100
+|-damage|p2a: La depresiva|88/100|[from] Stealth Rock
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|-activate|p1a: Gastrodon|move: Sticky Web
+|-unboost|p1a: Gastrodon|spe|1
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|-activate|p1a: Reuniclus|move: Sticky Web
+|-unboost|p1a: Reuniclus|spe|1
+|move|p2a: La depresiva|Stealth Rock|p1a: Reuniclus
+|-sidestart|p1: i are doo doo|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Ensaladitas|Quagsire, M|100/100
+|-damage|p2a: Ensaladitas|94/100|[from] Stealth Rock
+|move|p1a: Reuniclus|Shadow Ball|p2a: Ensaladitas
+|-damage|p2a: Ensaladitas|66/100
+|
+|-heal|p2a: Ensaladitas|72/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Obstagoon|Obstagoon, M|100/100
+|-activate|p1a: Obstagoon|move: Sticky Web
+|-unboost|p1a: Obstagoon|spe|1
+|-damage|p1a: Obstagoon|88/100|[from] Stealth Rock
+|move|p2a: Ensaladitas|Toxic|p1a: Obstagoon
+|-status|p1a: Obstagoon|tox
+|
+|-heal|p1a: Obstagoon|94/100 tox|[from] item: Leftovers
+|-heal|p2a: Ensaladitas|78/100|[from] item: Leftovers
+|-damage|p1a: Obstagoon|88/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p1a: Obstagoon|Knock Off|p2a: Ensaladitas
+|-damage|p2a: Ensaladitas|44/100
+|-enditem|p2a: Ensaladitas|Leftovers|[from] move: Knock Off|[of] p1a: Obstagoon
+|move|p2a: Ensaladitas|Recover|p2a: Ensaladitas
+|-heal|p2a: Ensaladitas|94/100
+|
+|-heal|p1a: Obstagoon|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Obstagoon|82/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|move|p1a: Obstagoon|Facade|p2a: Ensaladitas
+|-damage|p2a: Ensaladitas|44/100
+|move|p2a: Ensaladitas|Scald|p1a: Obstagoon
+|-damage|p1a: Obstagoon|61/100 tox
+|
+|-heal|p1a: Obstagoon|67/100 tox|[from] item: Leftovers
+|-damage|p1a: Obstagoon|49/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p2a: Calientame|Ferrothorn, F, shiny|100/100
+|-damage|p2a: Calientame|95/100|[from] Stealth Rock
+|move|p1a: Obstagoon|Rest|p1a: Obstagoon
+|-status|p1a: Obstagoon|slp|[from] move: Rest
+|-heal|p1a: Obstagoon|100/100 slp|[silent]
+|
+|upkeep
+|turn|9
+|
+|cant|p1a: Obstagoon|slp
+|move|p1a: Obstagoon|Sleep Talk|p1a: Obstagoon
+|move|p1a: Obstagoon|Facade|p2a: Calientame|[from]Sleep Talk
+|-resisted|p2a: Calientame
+|-crit|p2a: Calientame
+|-damage|p2a: Calientame|80/100
+|-damage|p1a: Obstagoon|88/100 slp|[from] ability: Iron Barbs|[of] p2a: Calientame
+|-damage|p1a: Obstagoon|72/100 slp|[from] item: Rocky Helmet|[of] p2a: Calientame
+|move|p2a: Calientame|Leech Seed|p1a: Obstagoon
+|-start|p1a: Obstagoon|move: Leech Seed
+|
+|-heal|p1a: Obstagoon|78/100 slp|[from] item: Leftovers
+|-damage|p1a: Obstagoon|66/100 slp|[from] Leech Seed|[of] p2a: Calientame
+|-heal|p2a: Calientame|94/100|[silent]
+|upkeep
+|turn|10
+|
+|switch|p1a: Reuniclus|Reuniclus, M|100/100
+|-activate|p1a: Reuniclus|move: Sticky Web
+|-unboost|p1a: Reuniclus|spe|1
+|move|p2a: Calientame|Knock Off|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|73/100
+|-enditem|p1a: Reuniclus|Leftovers|[from] move: Knock Off|[of] p2a: Calientame
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Calientame|Toxic|p1a: Reuniclus
+|-status|p1a: Reuniclus|tox
+|move|p1a: Reuniclus|Shadow Ball|p2a: Calientame
+|-damage|p2a: Calientame|75/100
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Calientame|Leech Seed|p1a: Reuniclus
+|-start|p1a: Reuniclus|move: Leech Seed
+|move|p1a: Reuniclus|Calm Mind|p1a: Reuniclus
+|-boost|p1a: Reuniclus|spa|1
+|-boost|p1a: Reuniclus|spd|1
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Weavile|Weavile, M|100/100
+|-damage|p2a: Weavile|76/100|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Reuniclus|Psychic|p2a: Weavile
+|-immune|p2a: Weavile
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Weavile|Throat Chop|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|26/100
+|-start|p1a: Corviknight|Throat Chop|[silent]
+|
+|-heal|p1a: Corviknight|32/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Aromatisse|Aromatisse, F|100/100
+|-activate|p1a: Aromatisse|move: Sticky Web
+|-unboost|p1a: Aromatisse|spe|1
+|-damage|p1a: Aromatisse|88/100|[from] Stealth Rock
+|move|p2a: Weavile|Throat Chop|p1a: Aromatisse
+|-resisted|p1a: Aromatisse
+|-damage|p1a: Aromatisse|58/100
+|-start|p1a: Aromatisse|Throat Chop|[silent]
+|
+|-heal|p1a: Aromatisse|64/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p2a: Re mojada|Araquanid, M|100/100
+|-damage|p2a: Re mojada|75/100|[from] Stealth Rock
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|-heal|p2a: Re mojada|82/100|[from] item: Leftovers
+|-heal|p1a: Aromatisse|70/100|[from] item: Leftovers
+|-end|p1a: Aromatisse|Throat Chop|[silent]
+|upkeep
+|turn|17
+|
+|switch|p1a: Obstagoon|Obstagoon, M|66/100 slp
+|-activate|p1a: Obstagoon|move: Sticky Web
+|-unboost|p1a: Obstagoon|spe|1
+|-damage|p1a: Obstagoon|53/100 slp|[from] Stealth Rock
+|move|p2a: Re mojada|Liquidation|p1a: Obstagoon
+|-damage|p1a: Obstagoon|8/100 slp
+|-unboost|p1a: Obstagoon|def|1
+|
+|-heal|p1a: Obstagoon|60/100 slp|[from] move: Wish|[wisher] Aromatisse
+|-heal|p1a: Obstagoon|67/100 slp|[from] item: Leftovers
+|-heal|p2a: Re mojada|88/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|cant|p1a: Obstagoon|slp
+|move|p1a: Obstagoon|Sleep Talk|p1a: Obstagoon
+|move|p1a: Obstagoon|Rest|p1a: Obstagoon|[from]Sleep Talk
+|-fail|p1a: Obstagoon
+|move|p2a: Re mojada|Liquidation|p1a: Obstagoon
+|-damage|p1a: Obstagoon|0 fnt
+|faint|p1a: Obstagoon
+|
+|-heal|p2a: Re mojada|94/100|[from] item: Leftovers
+|upkeep
+|inactive|i are doo doo has 120 seconds left.
+|
+|switch|p1a: Corviknight|Corviknight, F|32/100
+|-damage|p1a: Corviknight|20/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|turn|19
+|
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|70/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Re mojada|Liquidation|p1a: Corviknight
+|-damage|p1a: Corviknight|27/100
+|
+|-heal|p1a: Corviknight|33/100|[from] item: Leftovers
+|-heal|p2a: Re mojada|99/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|-activate|p1a: Gastrodon|move: Sticky Web
+|-unboost|p1a: Gastrodon|spe|1
+|move|p2a: Re mojada|Liquidation|p1a: Gastrodon
+|-ability|p1a: Gastrodon|Storm Drain|boost
+|-boost|p1a: Gastrodon|spa|1
+|
+|-heal|p2a: Re mojada|100/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p2a: Calientame|Ferrothorn, F, shiny|75/100
+|-damage|p2a: Calientame|69/100|[from] Stealth Rock
+|move|p1a: Gastrodon|Scald|p2a: Calientame
+|-resisted|p2a: Calientame
+|-damage|p2a: Calientame|52/100
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Reuniclus|Reuniclus, M|73/100 tox
+|-activate|p1a: Reuniclus|move: Sticky Web
+|-unboost|p1a: Reuniclus|spe|1
+|move|p2a: Calientame|Leech Seed|p1a: Reuniclus
+|-start|p1a: Reuniclus|move: Leech Seed
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Ensaladitas|Quagsire, M|44/100
+|-damage|p2a: Ensaladitas|38/100|[from] Stealth Rock
+|switch|p1a: Aromatisse|Aromatisse, F|70/100
+|-activate|p1a: Aromatisse|move: Sticky Web
+|-unboost|p1a: Aromatisse|spe|1
+|-damage|p1a: Aromatisse|58/100|[from] Stealth Rock
+|
+|-heal|p1a: Aromatisse|64/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Ensaladitas|Recover|p2a: Ensaladitas
+|-heal|p2a: Ensaladitas|88/100
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|-heal|p1a: Aromatisse|70/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|switch|p1a: Corviknight|Corviknight, F|33/100
+|-damage|p1a: Corviknight|21/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Ensaladitas|Scald|p1a: Corviknight
+|-damage|p1a: Corviknight|4/100
+|-status|p1a: Corviknight|brn
+|
+|-heal|p1a: Corviknight|55/100 brn|[from] move: Wish|[wisher] Aromatisse
+|-heal|p1a: Corviknight|61/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|55/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|switch|p2a: Goodra|Goodra, F|100/100
+|-damage|p2a: Goodra|88/100|[from] Stealth Rock
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-damage|p1a: Corviknight|94/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|-damage|p1a: Corsola|88/100|[from] Stealth Rock
+|-activate|p1a: Corsola|move: Sticky Web
+|-unboost|p1a: Corsola|spe|1
+|move|p2a: Goodra|Thunderbolt|p1a: Corsola
+|-damage|p1a: Corsola|66/100
+|
+|upkeep
+|turn|28
+|
+|switch|p2a: Calientame|Ferrothorn, F, shiny|52/100
+|-damage|p2a: Calientame|46/100|[from] Stealth Rock
+|move|p1a: Corsola|Strength Sap|p2a: Calientame
+|-unboost|p2a: Calientame|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|upkeep
+|turn|29
+|
+|switch|p2a: Weavile|Weavile, M|76/100
+|-damage|p2a: Weavile|51/100|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|switch|p1a: Reuniclus|Reuniclus, M|73/100 tox
+|-activate|p1a: Reuniclus|move: Sticky Web
+|-unboost|p1a: Reuniclus|spe|1
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Weavile|Icicle Crash|p1a: Reuniclus
+|-damage|p1a: Reuniclus|32/100 tox
+|move|p1a: Reuniclus|Recover|p1a: Reuniclus
+|-heal|p1a: Reuniclus|82/100 tox
+|
+|upkeep
+|turn|31
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|-damage|p1a: Corsola|88/100|[from] Stealth Rock
+|-activate|p1a: Corsola|move: Sticky Web
+|-unboost|p1a: Corsola|spe|1
+|move|p2a: Weavile|Icicle Crash|p1a: Corsola
+|-damage|p1a: Corsola|42/100
+|-start|p2a: Weavile|Disable|Icicle Crash|[from] ability: Cursed Body|[of] p1a: Corsola
+|
+|upkeep
+|turn|32
+|
+|switch|p2a: Re mojada|Araquanid, M|100/100
+|-damage|p2a: Re mojada|75/100|[from] Stealth Rock
+|move|p1a: Corsola|Strength Sap|p2a: Re mojada
+|-unboost|p2a: Re mojada|atk|1
+|-heal|p1a: Corsola|100/100
+|
+|-heal|p2a: Re mojada|82/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p2a: Re mojada|Substitute|p2a: Re mojada
+|-start|p2a: Re mojada|Substitute
+|-damage|p2a: Re mojada|57/100
+|move|p1a: Corsola|Will-O-Wisp||[still]
+|-fail|p1a: Corsola
+|
+|-heal|p2a: Re mojada|63/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|-activate|p1a: Gastrodon|move: Sticky Web
+|-unboost|p1a: Gastrodon|spe|1
+|move|p2a: Re mojada|Liquidation|p1a: Gastrodon
+|-ability|p1a: Gastrodon|Storm Drain|boost
+|-boost|p1a: Gastrodon|spa|1
+|
+|-heal|p2a: Re mojada|69/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Re mojada|Leech Life|p1a: Gastrodon
+|-damage|p1a: Gastrodon|85/100
+|-heal|p2a: Re mojada|80/100|[from] drain|[of] p1a: Gastrodon
+|move|p1a: Gastrodon|Sludge Bomb|p2a: Re mojada
+|-activate|p2a: Re mojada|move: Substitute|[damage]
+|
+|-heal|p2a: Re mojada|86/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|91/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p2a: Re mojada|Leech Life|p1a: Gastrodon
+|-damage|p1a: Gastrodon|75/100
+|-heal|p2a: Re mojada|96/100|[from] drain|[of] p1a: Gastrodon
+|move|p1a: Gastrodon|Earth Power|p2a: Re mojada
+|-resisted|p2a: Re mojada
+|-end|p2a: Re mojada|Substitute
+|
+|-heal|p2a: Re mojada|100/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|81/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|switch|p2a: Ensaladitas|Quagsire, M|88/100
+|-damage|p2a: Ensaladitas|82/100|[from] Stealth Rock
+|move|p1a: Gastrodon|Earth Power|p2a: Ensaladitas
+|-damage|p2a: Ensaladitas|45/100
+|
+|-heal|p1a: Gastrodon|87/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p2a: Ensaladitas|Recover|p2a: Ensaladitas
+|-heal|p2a: Ensaladitas|95/100
+|move|p1a: Gastrodon|Scald|p2a: Ensaladitas
+|-damage|p2a: Ensaladitas|65/100
+|
+|-heal|p1a: Gastrodon|93/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p2a: Ensaladitas|Toxic|p1a: Gastrodon
+|-status|p1a: Gastrodon|tox
+|move|p1a: Gastrodon|Scald|p2a: Ensaladitas
+|-damage|p2a: Ensaladitas|31/100
+|
+|-heal|p1a: Gastrodon|99/100 tox|[from] item: Leftovers
+|-damage|p1a: Gastrodon|93/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|move|p2a: Ensaladitas|Recover|p2a: Ensaladitas
+|-heal|p2a: Ensaladitas|81/100
+|move|p1a: Gastrodon|Scald|p2a: Ensaladitas
+|-damage|p2a: Ensaladitas|47/100
+|-status|p2a: Ensaladitas|brn
+|
+|-heal|p1a: Gastrodon|99/100 tox|[from] item: Leftovers
+|-damage|p2a: Ensaladitas|41/100 brn|[from] brn
+|-damage|p1a: Gastrodon|87/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|switch|p1a: Aromatisse|Aromatisse, F|70/100
+|-activate|p1a: Aromatisse|move: Sticky Web
+|-unboost|p1a: Aromatisse|spe|1
+|-damage|p1a: Aromatisse|58/100|[from] Stealth Rock
+|move|p2a: Ensaladitas|Recover|p2a: Ensaladitas
+|-heal|p2a: Ensaladitas|91/100 brn
+|
+|-heal|p1a: Aromatisse|64/100|[from] item: Leftovers
+|-damage|p2a: Ensaladitas|85/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|move|p2a: Ensaladitas|Toxic|p1a: Aromatisse
+|-status|p1a: Aromatisse|tox
+|move|p1a: Aromatisse|Aromatherapy|p1a: Aromatisse
+|-activate|p1a: Aromatisse|move: Aromatherapy
+|-curestatus|p1a: Aromatisse|tox|[msg]
+|-curestatus|p1: Corviknight|brn|[msg]
+|-curestatus|p1: Gastrodon|tox|[msg]
+|-curestatus|p1: Reuniclus|tox|[msg]
+|
+|-heal|p1a: Aromatisse|70/100|[from] item: Leftovers
+|-damage|p2a: Ensaladitas|78/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|switch|p2a: Re mojada|Araquanid, M|100/100
+|-damage|p2a: Re mojada|75/100|[from] Stealth Rock
+|move|p1a: Aromatisse|Wish|p1a: Aromatisse
+|
+|-heal|p2a: Re mojada|82/100|[from] item: Leftovers
+|-heal|p1a: Aromatisse|76/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p2a: Re mojada|Substitute|p2a: Re mojada
+|-start|p2a: Re mojada|Substitute
+|-damage|p2a: Re mojada|57/100
+|move|p1a: Aromatisse|Moonblast|p2a: Re mojada
+|-end|p2a: Re mojada|Substitute
+|
+|-heal|p1a: Aromatisse|100/100|[from] move: Wish|[wisher] Aromatisse
+|-heal|p2a: Re mojada|63/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|switch|p1a: Gastrodon|Gastrodon, M|87/100
+|-activate|p1a: Gastrodon|move: Sticky Web
+|-unboost|p1a: Gastrodon|spe|1
+|-damage|p1a: Gastrodon|81/100|[from] Stealth Rock
+|move|p2a: Re mojada|Liquidation|p1a: Gastrodon
+|-ability|p1a: Gastrodon|Storm Drain|boost
+|-boost|p1a: Gastrodon|spa|1
+|
+|-heal|p2a: Re mojada|69/100|[from] item: Leftovers
+|-heal|p1a: Gastrodon|87/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|switch|p2a: Weavile|Weavile, M|51/100
+|-damage|p2a: Weavile|26/100|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Gastrodon|Earth Power|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|-heal|p1a: Gastrodon|93/100|[from] item: Leftovers
+|upkeep
+|-message|alex_pepsicola forfeited.
+|
+|win|i are doo doo
+|l|☆alex_pepsicola
+|raw|i are doo doo's rating: 1198 → 1223(+25 for winning)
+|raw|alex_pepsicola's rating: 1193 → 1168(-25 for losing)

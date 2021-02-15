@@ -1,0 +1,292 @@
+|ScrapeTime|2020-01-01-04:32:39
+|j|☆Arcanine Gang
+|j|☆Suicidosaurus
+|player|p1|Arcanine Gang|teamrocket|1406
+|player|p2|Suicidosaurus|brock-gen2|1433
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Arcanine, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Seismitoad, M|
+|poke|p1|Toxtricity, M|
+|poke|p1|Clefable, F|
+|poke|p2|Rotom-Mow|
+|poke|p2|Kommo-o, M|
+|poke|p2|Dracovish|
+|poke|p2|Copperajah, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Tyranitar, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Arcanine|Arcanine, F|100/100
+|switch|p2a: Copperajah|Copperajah, F|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Copperajah|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Suicidosaurus)
+|
+|move|p1a: Arcanine|Flare Blitz|p2a: Copperajah
+|-supereffective|p2a: Copperajah
+|-damage|p2a: Copperajah|13/100
+|-damage|p1a: Arcanine|67/100|[from] Recoil
+|move|p2a: Copperajah|Earthquake|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|13/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|63/100
+|move|p2a: Copperajah|Earthquake|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|8/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Arcanine|Flare Blitz|p2a: Copperajah
+|-supereffective|p2a: Copperajah
+|-damage|p2a: Copperajah|0 fnt
+|-damage|p1a: Arcanine|3/100|[from] Recoil
+|faint|p2a: Copperajah
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|4
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Dracovish|Psychic Fangs|p1a: Seismitoad
+|-damage|p1a: Seismitoad|76/100
+|
+|-heal|p1a: Seismitoad|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Rotom|Rotom-Mow|100/100
+|move|p1a: Seismitoad|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-heal|p1a: Seismitoad|88/100|[from] item: Leftovers
+|-damage|p2a: Rotom|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|move|p1a: Seismitoad|Protect|p1a: Seismitoad
+|-singleturn|p1a: Seismitoad|Protect
+|move|p2a: Rotom|Volt Switch|p1a: Seismitoad
+|-activate|p1a: Seismitoad|move: Protect
+|
+|-heal|p1a: Seismitoad|94/100|[from] item: Leftovers
+|-damage|p2a: Rotom|82/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|move|p2a: Rotom|Volt Switch|p1a: Seismitoad
+|-immune|p1a: Seismitoad
+|move|p1a: Seismitoad|Stealth Rock|p2a: Rotom
+|-sidestart|p2: Suicidosaurus|move: Stealth Rock
+|
+|-heal|p1a: Seismitoad|99/100|[from] item: Leftovers
+|-damage|p2a: Rotom|63/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|move|p2a: Rotom|Leaf Storm|p1a: Seismitoad
+|-supereffective|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Seismitoad
+|
+|-damage|p2a: Rotom|38/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|turn|9
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Toxapex|Toxic Spikes|p2a: Tyranitar
+|-sidestart|p2: Suicidosaurus|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|94/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|94/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|100/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Tyranitar|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Tyranitar|Stone Edge|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|turn|12
+|
+|move|p2a: Tyranitar|Earthquake|p1a: Toxtricity
+|-supereffective|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|turn|13
+|
+|move|p2a: Tyranitar|Stone Edge|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|41/100
+|move|p1a: Mandibuzz|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|71/100
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100|[from]move: U-turn
+|
+|-weather|none
+|-heal|p2a: Tyranitar|77/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Rotom|Rotom-Mow|38/100 tox
+|move|p1a: Toxapex|Scald|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|29/100 tox
+|
+|-damage|p2a: Rotom|23/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|move|p2a: Rotom|Thunderbolt|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|45/100
+|move|p1a: Toxapex|Toxic Spikes|p2a: Rotom
+|-sidestart|p2: Suicidosaurus|move: Toxic Spikes
+|
+|-heal|p1a: Toxapex|51/100|[from] item: Black Sludge
+|-damage|p2a: Rotom|11/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p1a: Arcanine|Arcanine, F|3/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Rotom|atk|1
+|move|p2a: Rotom|Volt Switch|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from]move: Volt Switch
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|-status|p2a: Dragapult|tox
+|
+|-damage|p2a: Dragapult|82/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|41/100
+|turn|17
+|
+|switch|p1a: Toxapex|Toxapex, M|84/100
+|move|p2a: Dragapult|Thunderbolt|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|42/100
+|-damage|p2a: Dragapult|72/100 tox|[from] item: Life Orb
+|
+|-heal|p1a: Toxapex|49/100|[from] item: Black Sludge
+|-damage|p2a: Dragapult|60/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|move|p2a: Dragapult|Thunderbolt|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|4/100
+|-damage|p2a: Dragapult|51/100 tox|[from] item: Life Orb
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|54/100
+|
+|-heal|p1a: Toxapex|60/100|[from] item: Black Sludge
+|-damage|p2a: Dragapult|33/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p2a: Dragapult|Draco Meteor|p1a: Toxapex
+|-damage|p1a: Toxapex|11/100
+|-unboost|p2a: Dragapult|spa|2
+|-damage|p2a: Dragapult|23/100 tox|[from] item: Life Orb
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|61/100
+|
+|-heal|p1a: Toxapex|68/100|[from] item: Black Sludge
+|-damage|p2a: Dragapult|0 fnt|[from] psn
+|faint|p2a: Dragapult
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Mow|11/100 tox
+|turn|20
+|
+|move|p2a: Rotom|Volt Switch|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|28/100
+|
+|switch|p2a: Tyranitar|Tyranitar, F|77/100|[from]move: Volt Switch
+|-damage|p2a: Tyranitar|64/100|[from] Stealth Rock
+|-status|p2a: Tyranitar|tox
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxapex|72/100|[from] Sandstorm
+|-heal|p2a: Tyranitar|71/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|78/100|[from] item: Black Sludge
+|-damage|p2a: Tyranitar|64/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|move|p2a: Tyranitar|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Tyranitar|71/100 tox|[from] item: Leftovers
+|-damage|p2a: Tyranitar|58/100 tox|[from] psn
+|upkeep
+|c|☆Arcanine Gang|ur lucky
+|-message|Arcanine Gang forfeited.
+|
+|win|Suicidosaurus
+|l|☆Arcanine Gang
+|raw|Arcanine Gang's rating: 1406 → 1387(-19 for losing)
+|raw|Suicidosaurus's rating: 1433 → 1451(+18 for winning)
+|c|☆Suicidosaurus|sac ur mons faster
+|c|☆Suicidosaurus|loser

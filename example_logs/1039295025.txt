@@ -1,0 +1,172 @@
+|ScrapeTime|2020-01-01-20:35:25
+|j|☆Mrprofressor
+|j|☆Howl K
+|player|p1|Mrprofressor|101|1333
+|player|p2|Howl K|265|1300
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aegislash, F|
+|poke|p1|Crawdaunt, M|
+|poke|p1|Mew|
+|poke|p1|Lucario, M|
+|poke|p1|Bisharp, M|
+|poke|p1|Dragapult, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Seismitoad, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Togekiss, F|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Howl K)
+|
+|start
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|switch|p2a: Rotom|Rotom-Heat, shiny|100/100
+|-item|p1a: Aegislash|Air Balloon
+|turn|1
+|
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Rotom|Overheat|p1a: Dragapult|[miss]
+|-miss|p2a: Rotom|p1a: Dragapult
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Bisharp
+|-damage|p1a: Bisharp|66/100
+|-unboost|p1a: Bisharp|spa|1
+|-ability|p1a: Bisharp|Defiant
+|-boost|p1a: Bisharp|atk|2
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Howl K|Reflect
+|move|p1a: Bisharp|Iron Head|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-damage|p1a: Bisharp|56/100|[from] item: Life Orb
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Heat, shiny|100/100
+|turn|5
+|
+|switch|p1a: Dragapult|Dragapult, M|82/100
+|move|p2a: Rotom|Volt Switch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|58/100
+|
+|switch|p2a: Togekiss|Togekiss, F|100/100|[from]move: Volt Switch
+|
+|-heal|p1a: Dragapult|64/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Bisharp|Bisharp, M|56/100
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|-item|p1a: Aegislash|Air Balloon
+|turn|7
+|
+|switch|p2a: Rotom|Rotom-Heat, shiny|100/100
+|move|p1a: Aegislash|Swords Dance|p1a: Aegislash
+|-boost|p1a: Aegislash|atk|2
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Rotom|Overheat|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|-enditem|p1a: Aegislash|Air Balloon
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Aegislash
+|
+|upkeep
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|turn|9
+|
+|move|p2a: Rotom|Volt Switch|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|32/100
+|
+|switch|p2a: Seismitoad|Seismitoad, F|100/100|[from]move: Volt Switch
+|move|p1a: Crawdaunt|Knock Off|p2a: Seismitoad
+|-damage|p2a: Seismitoad|67/100
+|-enditem|p2a: Seismitoad|Leftovers|[from] move: Knock Off|[of] p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|23/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Mew|Mew|100/100
+|move|p2a: Seismitoad|Earthquake|p1a: Mew
+|-damage|p1a: Mew|74/100
+|-enditem|p1a: Mew|Red Card|[of] p2a: Seismitoad
+|drag|p2a: Rotom|Rotom-Heat, shiny|100/100
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Mew|Self-Destruct|p2a: Rotom
+|-damage|p2a: Rotom|71/100
+|faint|p1a: Mew
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|
+|-sideend|p2: Howl K|Reflect
+|upkeep
+|
+|switch|p1a: Crawdaunt|Crawdaunt, M|23/100
+|turn|12
+|
+|switch|p2a: Seismitoad|Seismitoad, F|67/100
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Seismitoad
+|-heal|p2a: Seismitoad|92/100|[from] ability: Water Absorb|[of] p1a: Crawdaunt
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Crawdaunt|Swords Dance|p1a: Crawdaunt
+|-boost|p1a: Crawdaunt|atk|2
+|move|p2a: Seismitoad|Earthquake|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|
+|upkeep
+|-message|Mrprofressor forfeited.
+|
+|win|Howl K
+|l|☆Mrprofressor

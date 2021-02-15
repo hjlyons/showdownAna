@@ -1,0 +1,356 @@
+|ScrapeTime|2020-01-01-00:05:07
+|j|☆Bububle
+|j|☆LABS323
+|player|p1|Bububle|1|1029
+|player|p2|LABS323|ghetsis|1040
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, F|
+|poke|p1|Ditto|
+|poke|p1|Excadrill, M|
+|poke|p1|Abomasnow, M|
+|poke|p1|Gengar, M|
+|poke|p1|Gyarados, F|
+|poke|p2|Ludicolo, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Barraskewda, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Dracovish|
+|poke|p2|Coalossal, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ferrothorn|Ferrothorn, F, shiny|100/100
+|switch|p2a: Coalossal|Coalossal, M|100/100
+|turn|1
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Coalossal|atk|1
+|move|p2a: Coalossal|Stealth Rock|p1a: Gyarados
+|-sidestart|p1: Bububle|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Rotom|Rotom-Wash, shiny|100/100
+|move|p1a: Gyarados|Surf|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|89/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F, shiny|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|move|p2a: Rotom|Will-O-Wisp|p1a: Ferrothorn
+|-status|p1a: Ferrothorn|brn
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Coalossal|Coalossal, M|100/100
+|move|p1a: Ferrothorn|Leech Seed|p2a: Coalossal
+|-start|p2a: Coalossal|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Coalossal|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-damage|p1a: Gyarados|76/100|[from] Stealth Rock
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Coalossal|atk|1
+|move|p2a: Coalossal|Flare Blitz|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|63/100
+|-damage|p2a: Coalossal|71/100|[from] item: Rocky Helmet|[of] p1a: Gyarados
+|-damage|p2a: Coalossal|67/100|[from] Recoil
+|
+|-damage|p2a: Coalossal|55/100|[from] Leech Seed|[of] p1a: Gyarados
+|-heal|p1a: Gyarados|75/100|[silent]
+|upkeep
+|turn|6
+|
+|switch|p2a: Rotom|Rotom-Wash, shiny|89/100
+|move|p1a: Gyarados|Surf|p2a: Rotom
+|-resisted|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|73/100
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Gyarados|Bounce||[still]
+|-prepare|p1a: Gyarados|Bounce|p2a: Rotom
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Gyarados|Bounce|p2a: Rotom|[from]lockedmove|[miss]
+|-miss|p1a: Gyarados|p2a: Rotom
+|move|p2a: Rotom|Will-O-Wisp|p1a: Gyarados
+|-status|p1a: Gyarados|brn
+|
+|-damage|p1a: Gyarados|69/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p1a: Gyarados|Iron Tail|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|69/100
+|move|p2a: Rotom|Hex|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F, shiny|94/100 brn
+|-damage|p1a: Ferrothorn|88/100 brn|[from] Stealth Rock
+|turn|10
+|
+|move|p2a: Rotom|Hex|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|21/100 brn
+|move|p1a: Ferrothorn|Leech Seed|p2a: Rotom
+|-start|p2a: Rotom|move: Leech Seed
+|
+|-heal|p1a: Ferrothorn|27/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|56/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|36/100 brn|[silent]
+|-damage|p1a: Ferrothorn|30/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Ferrothorn|Protect|p1a: Ferrothorn
+|-singleturn|p1a: Ferrothorn|Protect
+|move|p2a: Rotom|Hex|p1a: Ferrothorn
+|-activate|p1a: Ferrothorn|move: Protect
+|
+|-heal|p1a: Ferrothorn|36/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|44/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|45/100 brn|[silent]
+|-damage|p1a: Ferrothorn|38/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Ferrothorn|Protect||[still]
+|-fail|p1a: Ferrothorn
+|move|p2a: Rotom|Hex|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, M, shiny|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Gengar|Giga Drain|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-heal|p1a: Gengar|100/100|[from] drain|[of] p2a: Rotom
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Coalossal|Coalossal, M|55/100
+|turn|14
+|
+|switch|p1a: Excadrill|Excadrill, M, shiny|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|move|p2a: Coalossal|Heavy Slam|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|81/100
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Excadrill|Earthquake|p2a: Coalossal
+|-supereffective|p2a: Coalossal
+|-damage|p2a: Coalossal|0 fnt
+|faint|p2a: Coalossal
+|
+|upkeep
+|
+|switch|p2a: Dracovish|Dracovish|100/100
+|turn|16
+|
+|move|p1a: Excadrill|Earthquake|p2a: Dracovish
+|-damage|p2a: Dracovish|57/100
+|move|p2a: Dracovish|Fishious Rend|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Ditto|Ditto, shiny|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Dracovish|[from] ability: Imposter
+|turn|17
+|
+|move|p1a: Ditto|Outrage|p2a: Dracovish
+|-supereffective|p2a: Dracovish
+|-damage|p2a: Dracovish|0 fnt
+|faint|p2a: Dracovish
+|
+|upkeep
+|
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|18
+|
+|move|p1a: Ditto|Outrage|p2a: Pelipper|[from]lockedmove
+|-damage|p2a: Pelipper|52/100
+|move|p2a: Pelipper|Stockpile|p2a: Pelipper
+|-start|p2a: Pelipper|stockpile1
+|-boost|p2a: Pelipper|def|1
+|-boost|p2a: Pelipper|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Pelipper|58/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p1a: Ditto|Outrage|p2a: Pelipper|[from]lockedmove
+|-damage|p2a: Pelipper|27/100
+|-start|p1a: Ditto|confusion|[fatigue]
+|move|p2a: Pelipper|Stockpile|p2a: Pelipper
+|-start|p2a: Pelipper|stockpile2
+|-boost|p2a: Pelipper|def|1
+|-boost|p2a: Pelipper|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Pelipper|33/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|-activate|p1a: Ditto|confusion
+|-damage|p1a: Ditto|79/100|[from] confusion
+|move|p2a: Pelipper|Hurricane|p1a: Ditto
+|-damage|p1a: Ditto|11/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Pelipper|39/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|switch|p1a: Abomasnow|Abomasnow, M, shiny|100/100
+|-damage|p1a: Abomasnow|75/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Pelipper|Hurricane|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|17/100
+|-start|p1a: Abomasnow|confusion
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Pelipper|33/100|[from] Hail
+|-heal|p2a: Pelipper|39/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Pelipper|U-turn|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|2/100
+|
+|switch|p2a: Ludicolo|Ludicolo, M, shiny|100/100|[from]move: U-turn
+|-activate|p1a: Abomasnow|confusion
+|move|p1a: Abomasnow|Blizzard|p2a: Ludicolo
+|-damage|p2a: Ludicolo|68/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ludicolo|62/100|[from] Hail
+|upkeep
+|turn|23
+|
+|move|p2a: Ludicolo|Leech Seed|p1a: Abomasnow
+|-immune|p1a: Abomasnow
+|-activate|p1a: Abomasnow|confusion
+|move|p1a: Abomasnow|Giga Drain|p2a: Ludicolo
+|-damage|p2a: Ludicolo|40/100
+|-heal|p1a: Abomasnow|10/100|[from] drain|[of] p2a: Ludicolo
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ludicolo|34/100|[from] Hail
+|upkeep
+|turn|24
+|
+|move|p2a: Ludicolo|Focus Blast|p1a: Abomasnow|[miss]
+|-miss|p2a: Ludicolo|p1a: Abomasnow
+|-activate|p1a: Abomasnow|confusion
+|-damage|p1a: Abomasnow|3/100|[from] confusion
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Ludicolo|28/100|[from] Hail
+|upkeep
+|turn|25
+|
+|move|p2a: Ludicolo|Focus Blast|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|-damage|p2a: Ludicolo|18/100|[from] item: Life Orb
+|faint|p1a: Abomasnow
+|
+|-weather|none
+|upkeep
+|
+|switch|p1a: Gengar|Gengar, M, shiny|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Gengar|Giga Drain|p2a: Ludicolo
+|-damage|p2a: Ludicolo|0 fnt
+|-heal|p1a: Gengar|99/100|[from] drain|[of] p2a: Ludicolo
+|faint|p2a: Ludicolo
+|
+|upkeep
+|
+|switch|p2a: Pelipper|Pelipper, F|39/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|27
+|
+|move|p1a: Gengar|Giga Drain|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|-heal|p1a: Gengar|100/100|[from] drain|[of] p2a: Pelipper
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Barraskewda|Barraskewda, M|100/100
+|turn|28
+|
+|move|p2a: Barraskewda|Psychic Fangs|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-start|p2a: Barraskewda|Disable|Psychic Fangs|[from] ability: Cursed Body|[of] p1a: Gengar
+|faint|p1a: Gengar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Ditto|Ditto, shiny|11/100
+|-damage|p1a: Ditto|0 fnt|[from] Stealth Rock
+|faint|p1a: Ditto
+|
+|win|LABS323
+|raw|Bububle's rating: 1029 → 1015(-14 for losing)
+|raw|LABS323's rating: 1040 → 1073(+33 for winning)

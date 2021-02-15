@@ -1,0 +1,283 @@
+|ScrapeTime|2020-01-01-18:38:38
+|j|☆453 turn & rq
+|j|☆Huy khoi
+|player|p1|453 turn & rq|teacher-gen2|1173
+|player|p2|Huy khoi|101|1141
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Weezing-Galar, F|
+|poke|p1|Kommo-o, F|
+|poke|p1|Ninetales, F|
+|poke|p1|Reuniclus, F|
+|poke|p1|Aegislash, F|
+|poke|p1|Shiftry, M|
+|poke|p2|Toxtricity, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Aegislash, M|
+|poke|p2|Corsola-Galar, F|
+|poke|p2|Gyarados, M|
+|poke|p2|Cinderace, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|
+|move|p1a: Ninetales|Overheat|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|39/100
+|-unboost|p1a: Ninetales|spa|2
+|move|p2a: Hydreigon|Draco Meteor|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Shiftry|Shiftry, M|100/100
+|turn|2
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|move|p1a: Shiftry|Nasty Plot|p1a: Shiftry
+|-boost|p1a: Shiftry|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Shiftry|Dark Pulse|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p2a: Hydreigon|Hydreigon, M|39/100
+|move|p1a: Shiftry|Dark Pulse|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-damage|p1a: Shiftry|91/100|[from] item: Life Orb
+|faint|p2a: Hydreigon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|turn|5
+|
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Shiftry|Dark Pulse|p2a: Aegislash
+|-activate|p2a: Aegislash|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|move|p1a: Shiftry|Dark Pulse|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|-damage|p1a: Shiftry|81/100|[from] item: Life Orb
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|7
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Kommo-o
+|-immune|p1a: Kommo-o|[from] ability: Bulletproof
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|move|p1a: Kommo-o|Stealth Rock|p2a: Corsola
+|-sidestart|p2: Huy khoi|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Shiftry|Shiftry, M|81/100
+|move|p2a: Corsola|Will-O-Wisp|p1a: Shiftry
+|-status|p1a: Shiftry|brn
+|
+|-damage|p1a: Shiftry|74/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|-damage|p2a: Cinderace|76/100|[from] Stealth Rock
+|move|p1a: Shiftry|Dark Pulse|p2a: Cinderace
+|-damage|p2a: Cinderace|12/100
+|-damage|p1a: Shiftry|64/100 brn|[from] item: Life Orb
+|
+|-heal|p2a: Cinderace|18/100|[from] item: Leftovers
+|-damage|p1a: Shiftry|58/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|move|p2a: Cinderace|High Jump Kick|p1a: Kommo-o
+|-damage|p1a: Kommo-o|57/100
+|
+|-heal|p2a: Cinderace|24/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Cinderace|High Jump Kick|p1a: Kommo-o|[miss]
+|-miss|p2a: Cinderace|p1a: Kommo-o
+|-damage|p2a: Cinderace|0 fnt|[from] highjumpkick
+|faint|p2a: Cinderace
+|move|p1a: Kommo-o|Dragon Claw|p2: Cinderace|[notarget]
+|-fail|p1a: Kommo-o
+|
+|upkeep
+|
+|switch|p2a: Gyarados|Gyarados, M, shiny|100/100
+|-damage|p2a: Gyarados|76/100|[from] Stealth Rock
+|turn|13
+|
+|move|p1a: Kommo-o|Dragon Claw|p2a: Gyarados
+|-damage|p2a: Gyarados|29/100
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-heal|p2a: Gyarados|35/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|move|p2a: Gyarados|Ice Fang|p1a: Weezing
+|-damage|p1a: Weezing|69/100
+|
+|-heal|p2a: Gyarados|41/100|[from] item: Leftovers
+|-heal|p1a: Weezing|75/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|move|p2a: Gyarados|Waterfall|p1a: Weezing
+|-damage|p1a: Weezing|16/100
+|move|p1a: Weezing|Toxic|p2a: Gyarados
+|-status|p2a: Gyarados|tox
+|
+|-heal|p2a: Gyarados|47/100 tox|[from] item: Leftovers
+|-heal|p1a: Weezing|22/100|[from] item: Black Sludge
+|-damage|p2a: Gyarados|41/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p1a: Kommo-o|Kommo-o, F|57/100
+|move|p2a: Gyarados|Ice Fang|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-heal|p2a: Gyarados|47/100 tox|[from] item: Leftovers
+|-damage|p2a: Gyarados|35/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Aegislash|Aegislash, F|100/100
+|turn|17
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Sneak|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|-damage|p1a: Aegislash|91/100|[from] item: Life Orb
+|faint|p2a: Gyarados
+|
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|-damage|p2a: Corsola|88/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p1a: Weezing|Weezing-Galar, F|22/100
+|move|p2a: Corsola|Strength Sap|p1a: Weezing
+|-unboost|p1a: Weezing|atk|1
+|-heal|p2a: Corsola|100/100
+|
+|-heal|p1a: Weezing|28/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|switch|p2a: Aegislash|Aegislash, M|100/100
+|-damage|p2a: Aegislash|94/100|[from] Stealth Rock
+|move|p1a: Weezing|Toxic|p2a: Aegislash
+|-immune|p2a: Aegislash
+|
+|-heal|p1a: Weezing|34/100|[from] item: Black Sludge
+|-heal|p2a: Aegislash|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Weezing|Flamethrower|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|80/100
+|-formechange|p2a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p2a: Aegislash|Shadow Ball|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|-heal|p2a: Aegislash|86/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Shiftry|Shiftry, M|58/100 brn
+|turn|21
+|
+|move|p1a: Shiftry|Dark Pulse|p2a: Aegislash
+|-supereffective|p2a: Aegislash
+|-damage|p2a: Aegislash|0 fnt
+|-damage|p1a: Shiftry|48/100 brn|[from] item: Life Orb
+|faint|p2a: Aegislash
+|
+|-damage|p1a: Shiftry|42/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Corsola|Corsola-Galar, F|100/100
+|-damage|p2a: Corsola|88/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Shiftry|Nasty Plot|p1a: Shiftry
+|-boost|p1a: Shiftry|spa|2
+|move|p2a: Corsola|Night Shade|p1a: Shiftry
+|-damage|p1a: Shiftry|11/100 brn
+|
+|-damage|p1a: Shiftry|5/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Shiftry|Dark Pulse|p2a: Corsola
+|-supereffective|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-damage|p1a: Shiftry|0 fnt|[from] item: Life Orb
+|faint|p2a: Corsola
+|faint|p1a: Shiftry
+|
+|win|453 turn & rq
+|c|☆453 turn & rq|shiftry mvp
+|l|☆Huy khoi
+|raw|453 turn & rq's rating: 1214 → 1234(+20 for winning)
+|raw|Huy khoi's rating: 1141 → 1121(-20 for losing)

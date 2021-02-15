@@ -1,0 +1,473 @@
+|ScrapeTime|2020-01-02-05:05:19
+|j|☆OTLance
+|j|☆DirtyDeedsDoneDC
+|player|p1|OTLance|veteran|1324
+|player|p2|DirtyDeedsDoneDC|palmer|1320
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Barraskewda, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Corsola-Galar, M|
+|poke|p1|Polteageist|
+|poke|p1|Ditto|
+|poke|p2|Rotom-Heat|
+|poke|p2|Corviknight, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Dracovish|
+|poke|p2|Sylveon, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DirtyDeedsDoneDC)
+|
+|start
+|switch|p1a: Ditto|Ditto|100/100
+|switch|p2a: Chaos|Dragapult, M|100/100
+|-transform|p1a: Ditto|p2a: Chaos|[from] ability: Imposter
+|turn|1
+|
+|switch|p2a: Unicorn|Sylveon, M|100/100
+|move|p1a: Ditto|Draco Meteor|p2a: Unicorn
+|-immune|p2a: Unicorn
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Unicorn|Hyper Voice|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|78/100
+|
+|-heal|p1a: Corviknight|84/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Corviknight|Substitute|p1a: Corviknight
+|-start|p1a: Corviknight|Substitute
+|-damage|p1a: Corviknight|59/100
+|move|p2a: Unicorn|Mystical Fire|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-end|p1a: Corviknight|Substitute
+|
+|-heal|p1a: Corviknight|66/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2a: Unicorn|Mystical Fire|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|29/100
+|-unboost|p1a: Corviknight|spa|1
+|
+|-heal|p1a: Corviknight|35/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Bread Oven|Rotom-Heat|100/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|85/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p1a: Corviknight|92/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Bread Oven|Overheat|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-unboost|p2a: Bread Oven|spa|2
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|turn|7
+|
+|switch|p2a: Tumor|Toxapex, M|100/100
+|move|p1a: Barraskewda|Waterfall|p2a: Tumor
+|-resisted|p2a: Tumor
+|-damage|p2a: Tumor|80/100
+|
+|-heal|p2a: Tumor|86/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Corsola|Corsola-Galar, M|100/100
+|move|p2a: Tumor|Toxic Spikes|p1a: Corsola
+|-sidestart|p1: OTLance|move: Toxic Spikes
+|
+|-heal|p2a: Tumor|92/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Tumor|Toxic Spikes|p1a: Corsola
+|-sidestart|p1: OTLance|move: Toxic Spikes
+|move|p1a: Corsola|Will-O-Wisp|p2a: Tumor
+|-status|p2a: Tumor|brn
+|
+|-heal|p2a: Tumor|98/100 brn|[from] item: Leftovers
+|-damage|p2a: Tumor|92/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Tumor|Scald|p1a: Corsola
+|-damage|p1a: Corsola|89/100
+|move|p1a: Corsola|Night Shade|p2a: Tumor
+|-damage|p2a: Tumor|59/100 brn
+|
+|-heal|p2a: Tumor|65/100 brn|[from] item: Leftovers
+|-damage|p2a: Tumor|59/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p2a: Bread Oven|Rotom-Heat|100/100
+|move|p1a: Corsola|Stealth Rock|p2a: Bread Oven
+|-sidestart|p2: DirtyDeedsDoneDC|move: Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Bread Oven|Trick|p1a: Corsola
+|-activate|p2a: Bread Oven|move: Trick|[of] p1a: Corsola
+|-item|p1a: Corsola|Choice Scarf|[from] move: Trick
+|-item|p2a: Bread Oven|Eviolite|[from] move: Trick
+|move|p1a: Corsola|Night Shade|p2a: Bread Oven
+|-damage|p2a: Bread Oven|59/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Bread Oven|Dark Pulse|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|41/100
+|move|p1a: Corsola|Night Shade|p2a: Bread Oven
+|-damage|p2a: Bread Oven|18/100
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Bread Oven|Dark Pulse|p1a: Corsola
+|-supereffective|p1a: Corsola
+|-damage|p1a: Corsola|0 fnt
+|faint|p1a: Corsola
+|
+|upkeep
+|
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|-status|p1a: Barraskewda|tox
+|turn|15
+|
+|move|p1a: Barraskewda|Waterfall|p2a: Bread Oven
+|-supereffective|p2a: Bread Oven
+|-damage|p2a: Bread Oven|0 fnt
+|faint|p2a: Bread Oven
+|
+|-damage|p1a: Barraskewda|94/100 tox|[from] psn
+|upkeep
+|inactive|DirtyDeedsDoneDC has 120 seconds left.
+|
+|switch|p2a: Roma|Corviknight, M|100/100
+|-damage|p2a: Roma|88/100|[from] Stealth Rock
+|turn|16
+|inactive|DirtyDeedsDoneDC has 120 seconds left.
+|
+|move|p1a: Barraskewda|Waterfall|p2a: Roma
+|-damage|p2a: Roma|31/100
+|move|p2a: Roma|Body Press|p1a: Barraskewda
+|-damage|p1a: Barraskewda|54/100 tox
+|
+|-heal|p2a: Roma|37/100|[from] item: Leftovers
+|-damage|p1a: Barraskewda|42/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|switch|p2a: Tumor|Toxapex, M|93/100 brn
+|-damage|p2a: Tumor|80/100 brn|[from] Stealth Rock
+|move|p1a: Barraskewda|Waterfall|p2a: Tumor
+|-resisted|p2a: Tumor
+|-damage|p2a: Tumor|62/100 brn
+|
+|-heal|p2a: Tumor|68/100 brn|[from] item: Leftovers
+|-damage|p1a: Barraskewda|23/100 tox|[from] psn
+|-damage|p2a: Tumor|62/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|switch|p1a: Ditto|Ditto|100/100
+|-status|p1a: Ditto|tox
+|-transform|p1a: Ditto|p2a: Tumor|[from] ability: Imposter
+|switch|p2a: Roma|Corviknight, M|37/100
+|-damage|p2a: Roma|24/100|[from] Stealth Rock
+|
+|-heal|p2a: Roma|31/100|[from] item: Leftovers
+|-damage|p1a: Ditto|94/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p2a: Roma|Roost|p2a: Roma
+|-heal|p2a: Roma|81/100
+|-singleturn|p2a: Roma|move: Roost
+|move|p1a: Ditto|Toxic Spikes|p2a: Roma
+|-sidestart|p2: DirtyDeedsDoneDC|move: Toxic Spikes
+|
+|-heal|p2a: Roma|87/100|[from] item: Leftovers
+|-damage|p1a: Ditto|82/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|switch|p1a: Polteageist|Polteageist|100/100
+|-status|p1a: Polteageist|tox
+|move|p2a: Roma|Bulk Up|p2a: Roma
+|-boost|p2a: Roma|atk|1
+|-boost|p2a: Roma|def|1
+|
+|-heal|p2a: Roma|93/100|[from] item: Leftovers
+|-damage|p1a: Polteageist|94/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|move|p2a: Roma|Defog|p1a: Polteageist
+|-unboost|p1a: Polteageist|evasion|1
+|-sideend|p1: OTLance|Toxic Spikes|[from] move: Defog|[of] p2a: Roma
+|-sideend|p2: DirtyDeedsDoneDC|Toxic Spikes|[from] move: Defog|[of] p2a: Roma
+|-sideend|p2: DirtyDeedsDoneDC|Stealth Rock|[from] move: Defog|[of] p2a: Roma
+|
+|-heal|p2a: Roma|99/100|[from] item: Leftovers
+|-damage|p1a: Polteageist|82/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|switch|p2a: Tumor|Toxapex, M|96/100 brn
+|move|p1a: Polteageist|Giga Drain|p2a: Tumor
+|-damage|p2a: Tumor|50/100 brn
+|-heal|p1a: Polteageist|100/100 tox|[from] drain|[of] p2a: Tumor
+|
+|-heal|p2a: Tumor|56/100 brn|[from] item: Leftovers
+|-damage|p1a: Polteageist|82/100 tox|[from] psn
+|-damage|p2a: Tumor|50/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p2a: Tumor|Baneful Bunker|p2a: Tumor
+|-singleturn|p2a: Tumor|move: Protect
+|move|p1a: Polteageist|Stored Power|p2a: Tumor
+|-activate|p2a: Tumor|move: Protect
+|
+|-heal|p2a: Tumor|56/100 brn|[from] item: Leftovers
+|-damage|p1a: Polteageist|58/100 tox|[from] psn
+|-damage|p2a: Tumor|50/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|switch|p2a: Unicorn|Sylveon, M|100/100
+|move|p1a: Polteageist|Stored Power|p2a: Unicorn
+|-damage|p2a: Unicorn|54/100
+|
+|-damage|p1a: Polteageist|27/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|switch|p2a: Roma|Corviknight, M|99/100
+|move|p1a: Polteageist|Giga Drain|p2a: Roma
+|-resisted|p2a: Roma
+|-damage|p2a: Roma|89/100
+|-heal|p1a: Polteageist|35/100 tox|[from] drain|[of] p2a: Roma
+|
+|-heal|p2a: Roma|95/100|[from] item: Leftovers
+|-damage|p1a: Polteageist|0 fnt|[from] psn
+|faint|p1a: Polteageist
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|26
+|
+|switch|p2a: Unicorn|Sylveon, M|54/100
+|move|p1a: Dragapult|Thunderbolt|p2a: Unicorn
+|-damage|p2a: Unicorn|35/100
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Ditto|Ditto|100/100 tox
+|-transform|p1a: Ditto|p2a: Unicorn|[from] ability: Imposter
+|move|p2a: Unicorn|Hyper Voice|p1a: Ditto
+|-damage|p1a: Ditto|57/100 tox
+|
+|-damage|p1a: Ditto|51/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|switch|p2a: Roma|Corviknight, M|95/100
+|move|p1a: Ditto|Hyper Voice|p2a: Roma
+|-resisted|p2a: Roma
+|-damage|p2a: Roma|75/100
+|
+|-heal|p2a: Roma|81/100|[from] item: Leftovers
+|-damage|p1a: Ditto|39/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Roma|Body Press|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|-heal|p2a: Roma|88/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p2a: Unicorn|Sylveon, M|35/100
+|move|p1a: Dragapult|Thunderbolt|p2a: Unicorn
+|-damage|p2a: Unicorn|19/100
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Dragapult|Thunderbolt|p2a: Unicorn
+|-damage|p2a: Unicorn|0 fnt
+|faint|p2a: Unicorn
+|
+|upkeep
+|
+|switch|p2a: Chaos|Dragapult, M|100/100
+|turn|32
+|
+|switch|p1a: Barraskewda|Barraskewda, M|23/100 tox
+|move|p2a: Chaos|Shadow Ball|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|upkeep
+|
+|switch|p1a: Ditto|Ditto|39/100 tox
+|-transform|p1a: Ditto|p2a: Chaos|[from] ability: Imposter
+|turn|33
+|
+|switch|p2a: Tumor|Toxapex, M|83/100 brn
+|move|p1a: Ditto|Draco Meteor|p2a: Tumor
+|-damage|p2a: Tumor|27/100 brn
+|-unboost|p1a: Ditto|spa|2
+|
+|-heal|p2a: Tumor|33/100 brn|[from] item: Leftovers
+|-damage|p1a: Ditto|33/100 tox|[from] psn
+|-damage|p2a: Tumor|27/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Roma|Corviknight, M|88/100
+|
+|-heal|p2a: Roma|94/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|inactive|DirtyDeedsDoneDC has 120 seconds left.
+|
+|switch|p2a: Tumor|Toxapex, M|61/100 brn
+|move|p1a: Dragapult|Thunderbolt|p2a: Tumor
+|-supereffective|p2a: Tumor
+|-damage|p2a: Tumor|0 fnt
+|faint|p2a: Tumor
+|
+|upkeep
+|inactive|DirtyDeedsDoneDC has 120 seconds left.
+|
+|switch|p2a: Chaos|Dragapult, M|100/100
+|turn|36
+|
+|switch|p1a: Ditto|Ditto|33/100 tox
+|-transform|p1a: Ditto|p2a: Chaos|[from] ability: Imposter
+|move|p2a: Chaos|Shadow Ball|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|upkeep
+|
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|37
+|
+|switch|p2a: Roma|Corviknight, M|94/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Roma
+|-damage|p2a: Roma|59/100
+|
+|-heal|p2a: Roma|65/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Roma
+|-damage|p2a: Roma|31/100
+|move|p2a: Roma|Bulk Up|p2a: Roma
+|-boost|p2a: Roma|atk|1
+|-boost|p2a: Roma|def|1
+|
+|-heal|p2a: Roma|37/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Roma
+|-damage|p2a: Roma|4/100
+|move|p2a: Roma|Bulk Up|p2a: Roma
+|-boost|p2a: Roma|atk|1
+|-boost|p2a: Roma|def|1
+|
+|-heal|p2a: Roma|10/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Roma
+|-damage|p2a: Roma|0 fnt
+|faint|p2a: Roma
+|
+|upkeep
+|
+|switch|p2a: Poseidon|Dracovish|100/100
+|turn|41
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Poseidon
+|-damage|p2a: Poseidon|30/100
+|-unboost|p2a: Poseidon|spd|1
+|move|p2a: Poseidon|Crunch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|18/100
+|-unboost|p1a: Dragapult|def|1
+|
+|upkeep
+|turn|42
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Poseidon
+|-damage|p2a: Poseidon|0 fnt
+|faint|p2a: Poseidon
+|
+|upkeep
+|
+|switch|p2a: Chaos|Dragapult, M|100/100
+|turn|43
+|
+|move|p1a: Dragapult|Shadow Ball|p2a: Chaos
+|-supereffective|p2a: Chaos
+|-damage|p2a: Chaos|0 fnt
+|faint|p2a: Chaos
+|
+|win|OTLance
+|raw|OTLance's rating: 1324 → 1343(+19 for winning)
+|raw|DirtyDeedsDoneDC's rating: 1320 → 1300(-20 for losing)

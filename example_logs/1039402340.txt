@@ -1,0 +1,224 @@
+|ScrapeTime|2020-01-02-00:25:23
+|j|☆Kepepe
+|j|☆2beautiful2die
+|player|p1|Kepepe|170|1181
+|player|p2|2beautiful2die|265|1149
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Turtonator, M|
+|poke|p1|Shuckle, M|
+|poke|p1|Bisharp, M|
+|poke|p1|Lapras, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Excadrill, M|
+|poke|p2|Gastrodon, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Hydreigon, M|
+|poke|p2|Gengar, M|
+|poke|p2|Grimmsnarl, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kepepe)
+|
+|start
+|switch|p1a: Shuckle|Shuckle, M|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|1
+|
+|move|p2a: Cinderace|U-turn|p1a: Shuckle
+|-damage|p1a: Shuckle|89/100
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100|[from]move: U-turn
+|move|p1a: Shuckle|Infestation|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|98/100
+|-activate|p2a: Hydreigon|move: Infestation|[of] p1a: Shuckle
+|
+|-heal|p2a: Hydreigon|100/100|[from] item: Leftovers
+|-damage|p2a: Hydreigon|88/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|63/100
+|move|p1a: Shuckle|Power Split||[still]
+|-fail|p1a: Shuckle
+|
+|-heal|p2a: Hydreigon|69/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|move|p1a: Shuckle|Encore|p2a: Hydreigon
+|-start|p2a: Hydreigon|Encore
+|
+|-heal|p2a: Hydreigon|76/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|move|p1a: Shuckle|Sticky Web|p2a: Hydreigon
+|-sidestart|p2: 2beautiful2die|move: Sticky Web
+|
+|-heal|p2a: Hydreigon|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|move|p1a: Shuckle|Infestation|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-activate|p2a: Hydreigon|move: Substitute|[damage]
+|
+|-heal|p2a: Hydreigon|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|0
+|move|p1a: Shuckle|Infestation|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-activate|p2a: Hydreigon|move: Substitute|[damage]
+|
+|-heal|p2a: Hydreigon|94/100|[from] item: Leftovers
+|-end|p2a: Hydreigon|Encore
+|upkeep
+|turn|7
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Shuckle
+|-damage|p1a: Shuckle|0 fnt
+|faint|p1a: Shuckle
+|
+|-heal|p2a: Hydreigon|99/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|8
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Kepepe|move: Light Screen
+|move|p2a: Hydreigon|Dark Pulse|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|84/100
+|
+|-heal|p2a: Hydreigon|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|70/100
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|78/100
+|-unboost|p2a: Cinderace|spa|1
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Cinderace
+|-status|p2a: Cinderace|par
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p2: 2beautiful2die|Sticky Web|[silent]
+|-sidestart|p1: Kepepe|Sticky Web|[silent]
+|-sideend|p1: Kepepe|Light Screen|[silent]
+|-sidestart|p2: 2beautiful2die|Light Screen|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Kepepe|Reflect
+|move|p2a: Cinderace|Pyro Ball|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|32/100
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Kepepe|move: Light Screen
+|cant|p2a: Cinderace|par
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Cinderace|Pyro Ball|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|-activate|p1a: Bisharp|move: Sticky Web
+|-unboost|p1a: Bisharp|spe|1
+|-ability|p1a: Bisharp|Defiant
+|-boost|p1a: Bisharp|atk|2
+|turn|15
+|
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-sideend|p1: Kepepe|Sticky Web|[silent]
+|-sidestart|p2: 2beautiful2die|Sticky Web|[silent]
+|-sideend|p2: 2beautiful2die|Light Screen|[silent]
+|-sideend|p1: Kepepe|Light Screen|[silent]
+|-sidestart|p2: 2beautiful2die|Light Screen|[silent]
+|-sidestart|p1: Kepepe|Light Screen|[silent]
+|-sideend|p1: Kepepe|Reflect|[silent]
+|-sidestart|p2: 2beautiful2die|Reflect|[silent]
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|
+|-sideend|p1: Kepepe|move: Light Screen
+|upkeep
+|turn|16
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-activate|p2a: Grimmsnarl|move: Sticky Web
+|-unboost|p2a: Grimmsnarl|spe|1
+|turn|17
+|
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Bisharp
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Bisharp
+|move|p1a: Bisharp|Iron Head|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|-message|2beautiful2die forfeited.
+|
+|win|Kepepe
+|l|☆2beautiful2die
+|raw|Kepepe's rating: 1182 → 1204(+22 for winning)
+|raw|2beautiful2die's rating: 1149 → 1126(-23 for losing)

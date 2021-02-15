@@ -1,0 +1,377 @@
+|ScrapeTime|2020-01-01-08:55:23
+|j|☆Anami00u
+|j|☆TrainerSai
+|player|p1|Anami00u|246|1047
+|player|p2|TrainerSai|ethan|1049
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Polteageist|
+|poke|p1|Flapple, M|
+|poke|p1|Morpeko, F|
+|poke|p1|Orbeetle, M|
+|poke|p1|Cherrim, M|
+|poke|p1|Perrserker, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Ditto|
+|poke|p2|Corsola-Galar, M|
+|poke|p2|Cramorant, F|
+|poke|p2|Polteageist|
+|poke|p2|Falinks|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TrainerSai)
+|
+|start
+|switch|p1a: Morpeko|Morpeko, F|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|1
+|
+|move|p1a: Morpeko|Aura Wheel|p2a: Cinderace
+|-damage|p2a: Cinderace|31/100
+|-boost|p1a: Morpeko|spe|1
+|move|p2a: Cinderace|High Jump Kick|p1a: Morpeko
+|-supereffective|p1a: Morpeko
+|-damage|p1a: Morpeko|0 fnt
+|faint|p1a: Morpeko
+|
+|upkeep
+|
+|switch|p1a: Flapple|Flapple, M|100/100
+|turn|2
+|
+|move|p1a: Flapple|Outrage|p2a: Cinderace|[miss]
+|-miss|p1a: Flapple|p2a: Cinderace
+|move|p2a: Cinderace|U-turn|p1a: Flapple
+|-supereffective|p1a: Flapple
+|-crit|p1a: Flapple
+|-damage|p1a: Flapple|0 fnt
+|faint|p1a: Flapple
+|
+|switch|p2a: Cramorant|Cramorant, F|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p1a: Cherrim|Cherrim, M|100/100
+|turn|3
+|
+|switch|p2a: Cinderace|Cinderace, M|31/100
+|move|p1a: Cherrim|Leech Seed|p2a: Cinderace
+|-start|p2a: Cinderace|move: Leech Seed
+|
+|-damage|p2a: Cinderace|19/100|[from] Leech Seed|[of] p1a: Cherrim
+|upkeep
+|turn|4
+|
+|switch|p2a: Cramorant|Cramorant, F|100/100
+|move|p1a: Cherrim|Swords Dance|p1a: Cherrim
+|-boost|p1a: Cherrim|atk|2
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Cramorant|Surf|p1a: Cherrim
+|-resisted|p1a: Cherrim
+|-damage|p1a: Cherrim|85/100
+|-formechange|p2a: Cramorant|Cramorant-Gulping|
+|move|p1a: Cherrim|Morning Sun|p1a: Cherrim
+|-heal|p1a: Cherrim|100/100
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Cramorant|Surf|p1a: Cherrim
+|-resisted|p1a: Cherrim
+|-damage|p1a: Cherrim|87/100
+|move|p1a: Cherrim|Swords Dance|p1a: Cherrim
+|-boost|p1a: Cherrim|atk|2
+|
+|-heal|p1a: Cherrim|93/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Cramorant|Surf|p1a: Cherrim
+|-resisted|p1a: Cherrim
+|-crit|p1a: Cherrim
+|-damage|p1a: Cherrim|72/100
+|move|p1a: Cherrim|Swords Dance|p1a: Cherrim
+|-boost|p1a: Cherrim|atk|2
+|
+|-heal|p1a: Cherrim|78/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: Cramorant|Surf|p1a: Cherrim
+|-resisted|p1a: Cherrim
+|-damage|p1a: Cherrim|63/100
+|move|p1a: Cherrim|Bullet Seed|p2a: Cramorant
+|-formechange|p2a: Cramorant|Cramorant|
+|-damage|p1a: Cherrim|38/100|[from] ability: Gulp Missile|[of] p2a: Cramorant
+|-unboost|p1a: Cherrim|def|1
+|-damage|p2a: Cramorant|52/100
+|-damage|p2a: Cramorant|10/100
+|-damage|p2a: Cramorant|0 fnt
+|-hitcount|p2a: Cramorant|3
+|faint|p2a: Cramorant
+|
+|-heal|p1a: Cherrim|44/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Cherrim|[from] ability: Imposter
+|turn|9
+|
+|move|p2a: Ditto|Bullet Seed|p1a: Cherrim
+|-resisted|p1a: Cherrim
+|-damage|p1a: Cherrim|21/100
+|-resisted|p1a: Cherrim
+|-damage|p1a: Cherrim|0 fnt
+|-hitcount|p1a: Cherrim|2
+|faint|p1a: Cherrim
+|
+|upkeep
+|
+|switch|p1a: Orbeetle|Orbeetle, M|100/100
+|-item|p2a: Ditto|Choice Scarf|[from] ability: Frisk|[of] p1a: Orbeetle|[identify]
+|turn|10
+|
+|move|p2a: Ditto|Bullet Seed|p1a: Orbeetle
+|-resisted|p1a: Orbeetle
+|-damage|p1a: Orbeetle|90/100
+|-resisted|p1a: Orbeetle
+|-damage|p1a: Orbeetle|79/100
+|-hitcount|p1a: Orbeetle|2
+|move|p1a: Orbeetle|Iron Defense|p1a: Orbeetle
+|-boost|p1a: Orbeetle|def|2
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Corsola|Corsola-Galar, M|100/100
+|move|p1a: Orbeetle|Calm Mind|p1a: Orbeetle
+|-boost|p1a: Orbeetle|spa|1
+|-boost|p1a: Orbeetle|spd|1
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Orbeetle|Iron Defense|p1a: Orbeetle
+|-boost|p1a: Orbeetle|def|2
+|move|p2a: Corsola|Will-O-Wisp|p1a: Orbeetle
+|-status|p1a: Orbeetle|brn
+|
+|-damage|p1a: Orbeetle|73/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p1a: Orbeetle|Stored Power|p2a: Corsola
+|-damage|p2a: Corsola|70/100
+|-start|p1a: Orbeetle|Disable|Stored Power|[from] ability: Cursed Body|[of] p2a: Corsola
+|-enditem|p1a: Orbeetle|Mental Herb
+|-end|p1a: Orbeetle|Disable
+|move|p2a: Corsola|Stealth Rock|p1a: Orbeetle
+|-sidestart|p1: Anami00u|move: Stealth Rock
+|
+|-damage|p1a: Orbeetle|67/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Orbeetle|Iron Defense|p1a: Orbeetle
+|-boost|p1a: Orbeetle|def|2
+|move|p2a: Corsola|Strength Sap|p1a: Orbeetle
+|-unboost|p1a: Orbeetle|atk|1
+|-heal|p2a: Corsola|96/100
+|
+|-damage|p1a: Orbeetle|61/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Orbeetle|Calm Mind|p1a: Orbeetle
+|-boost|p1a: Orbeetle|spa|1
+|-boost|p1a: Orbeetle|spd|1
+|move|p2a: Corsola|Night Shade|p1a: Orbeetle
+|-damage|p1a: Orbeetle|30/100 brn
+|
+|-damage|p1a: Orbeetle|23/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Orbeetle|Recover|p1a: Orbeetle
+|-heal|p1a: Orbeetle|74/100 brn
+|move|p2a: Corsola|Night Shade|p1a: Orbeetle
+|-damage|p1a: Orbeetle|43/100 brn
+|
+|-damage|p1a: Orbeetle|36/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|switch|p2a: Cinderace|Cinderace, M|19/100
+|move|p1a: Orbeetle|Stored Power|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-damage|p1a: Orbeetle|30/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Orbeetle|[from] ability: Imposter
+|turn|18
+|
+|move|p2a: Ditto|Stored Power|p1a: Orbeetle
+|-resisted|p1a: Orbeetle
+|-damage|p1a: Orbeetle|8/100 brn
+|move|p1a: Orbeetle|Recover|p1a: Orbeetle
+|-heal|p1a: Orbeetle|58/100 brn
+|
+|-damage|p1a: Orbeetle|52/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|switch|p2a: Corsola|Corsola-Galar, M|96/100
+|move|p1a: Orbeetle|Recover|p1a: Orbeetle
+|-heal|p1a: Orbeetle|100/100 brn
+|
+|-damage|p1a: Orbeetle|94/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p1a: Orbeetle|Stored Power|p2a: Corsola
+|-damage|p2a: Corsola|31/100
+|move|p2a: Corsola|Night Shade|p1a: Orbeetle
+|-damage|p1a: Orbeetle|63/100 brn
+|
+|-damage|p1a: Orbeetle|57/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p1a: Orbeetle|Stored Power|p2a: Corsola
+|-damage|p2a: Corsola|0 fnt
+|-start|p1a: Orbeetle|Disable|Stored Power|[from] ability: Cursed Body|[of] p2a: Corsola
+|faint|p2a: Corsola
+|
+|-damage|p1a: Orbeetle|51/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Falinks|Falinks|100/100
+|turn|22
+|
+|move|p2a: Falinks|No Retreat|p2a: Falinks
+|-boost|p2a: Falinks|atk|1
+|-boost|p2a: Falinks|def|1
+|-boost|p2a: Falinks|spa|1
+|-boost|p2a: Falinks|spd|1
+|-boost|p2a: Falinks|spe|1
+|-start|p2a: Falinks|move: No Retreat
+|move|p1a: Orbeetle|Recover|p1a: Orbeetle
+|-heal|p1a: Orbeetle|100/100 brn
+|
+|-damage|p1a: Orbeetle|94/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p2a: Falinks|Throat Chop|p1a: Orbeetle
+|-supereffective|p1a: Orbeetle
+|-damage|p1a: Orbeetle|77/100 brn
+|-start|p1a: Orbeetle|Throat Chop|[silent]
+|move|p1a: Orbeetle|Calm Mind|p1a: Orbeetle
+|-boost|p1a: Orbeetle|spa|1
+|-boost|p1a: Orbeetle|spd|1
+|
+|-damage|p1a: Orbeetle|71/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p2a: Falinks|Throat Chop|p1a: Orbeetle
+|-supereffective|p1a: Orbeetle
+|-damage|p1a: Orbeetle|52/100 brn
+|move|p1a: Orbeetle|Calm Mind|p1a: Orbeetle
+|-boost|p1a: Orbeetle|spa|1
+|-boost|p1a: Orbeetle|spd|1
+|
+|-damage|p1a: Orbeetle|45/100 brn|[from] brn
+|-end|p1a: Orbeetle|Disable
+|-end|p1a: Orbeetle|Throat Chop|[silent]
+|upkeep
+|turn|25
+|
+|move|p2a: Falinks|Throat Chop|p1a: Orbeetle
+|-supereffective|p1a: Orbeetle
+|-damage|p1a: Orbeetle|29/100 brn
+|-start|p1a: Orbeetle|Throat Chop|[silent]
+|move|p1a: Orbeetle|Recover|p1a: Orbeetle
+|-heal|p1a: Orbeetle|79/100 brn
+|
+|-damage|p1a: Orbeetle|73/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|move|p2a: Falinks|Throat Chop|p1a: Orbeetle
+|-supereffective|p1a: Orbeetle
+|-damage|p1a: Orbeetle|57/100 brn
+|move|p1a: Orbeetle|Stored Power|p2a: Falinks
+|-supereffective|p2a: Falinks
+|-damage|p2a: Falinks|0 fnt
+|faint|p2a: Falinks
+|
+|-damage|p1a: Orbeetle|50/100 brn|[from] brn
+|-end|p1a: Orbeetle|Throat Chop|[silent]
+|upkeep
+|
+|switch|p2a: Polteageist|Polteageist|100/100
+|turn|27
+|
+|move|p2a: Polteageist|Shadow Ball|p1a: Orbeetle
+|-supereffective|p1a: Orbeetle
+|-damage|p1a: Orbeetle|29/100 brn
+|-unboost|p1a: Orbeetle|spd|1
+|move|p1a: Orbeetle|Stored Power|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|
+|-damage|p1a: Orbeetle|23/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Orbeetle|[from] ability: Imposter
+|turn|28
+|
+|move|p2a: Ditto|Stored Power|p1a: Orbeetle
+|-resisted|p1a: Orbeetle
+|-damage|p1a: Orbeetle|0 fnt
+|faint|p1a: Orbeetle
+|
+|upkeep
+|
+|switch|p1a: Polteageist|Polteageist|100/100
+|-damage|p1a: Polteageist|88/100|[from] Stealth Rock
+|turn|29
+|
+|move|p2a: Ditto|Stored Power|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|upkeep
+|
+|switch|p1a: Perrserker|Perrserker, M|100/100
+|-damage|p1a: Perrserker|94/100|[from] Stealth Rock
+|turn|30
+|
+|move|p2a: Ditto|Stored Power|p1a: Perrserker
+|-resisted|p1a: Perrserker
+|-damage|p1a: Perrserker|0 fnt
+|faint|p1a: Perrserker
+|
+|win|TrainerSai
+|raw|Anami00u's rating: 1047 → 1030(-17 for losing)
+|raw|TrainerSai's rating: 1049 → 1082(+33 for winning)
+|l|☆Anami00u

@@ -1,0 +1,270 @@
+|ScrapeTime|2020-01-02-05:54:53
+|j|☆RidleySloth
+|j|☆MAN0WAR
+|player|p1|RidleySloth|palmer|
+|player|p2|MAN0WAR|253|
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|8
+|tier|[Gen 8] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Morpeko, F|
+|poke|p1|Noivern, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Barraskewda, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Meowstic-F, F|
+|poke|p2|Dubwool, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Excadrill, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Clefable, M|
+|rule|Dynamax Clause: You cannot dynamax
+|teampreview
+|
+|start
+|switch|p1a: Judge killer|Morpeko, F|100/100
+|switch|p2a: Washed|Rotom-Wash|100/100
+|turn|1
+|
+|move|p1a: Judge killer|Aura Wheel|p2a: Washed
+|-crit|p2a: Washed
+|-damage|p2a: Washed|33/100
+|-boost|p1a: Judge killer|spe|1
+|move|p2a: Washed|Trick|p1a: Judge killer
+|-activate|p2a: Washed|move: Trick|[of] p1a: Judge killer
+|-item|p1a: Judge killer|Choice Specs|[from] move: Trick
+|-item|p2a: Washed|Choice Scarf|[from] move: Trick
+|
+|-formechange|p1a: Judge killer|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|2
+|
+|switch|p2a: SPINN|Excadrill, M|100/100
+|-ability|p2a: SPINN|Mold Breaker
+|move|p1a: Judge killer|Aura Wheel|p2a: SPINN
+|-damage|p2a: SPINN|33/100
+|-boost|p1a: Judge killer|spe|1
+|
+|-formechange|p1a: Judge killer|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|3
+|
+|switch|p1a: Judge Slayer|Noivern, M|100/100
+|move|p2a: SPINN|Stealth Rock|p1a: Judge Slayer
+|-sidestart|p1: RidleySloth|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Judge Slayer|Air Slash|p2a: SPINN
+|-resisted|p2a: SPINN
+|-damage|p2a: SPINN|8/100
+|move|p2a: SPINN|Iron Head|p1a: Judge Slayer
+|-damage|p1a: Judge Slayer|26/100
+|-damage|p2a: SPINN|0 fnt|[from] item: Life Orb
+|faint|p2a: SPINN
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|5
+|
+|switch|p1a: Judge Butcher|Hatterene, F, shiny|100/100
+|-damage|p1a: Judge Butcher|88/100|[from] Stealth Rock
+|move|p2a: Dragapult|Draco Meteor|p1a: Judge Butcher
+|-immune|p1a: Judge Butcher
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: NO|Clefable, M|100/100
+|move|p1a: Judge Butcher|Dazzling Gleam|p2a: NO
+|-damage|p2a: NO|64/100
+|
+|-heal|p2a: NO|70/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|-activate|p1a: Judge Butcher|item: Quick Claw
+|
+|move|p1a: Judge Butcher|Psychic|p2a: NO
+|-damage|p2a: NO|27/100
+|move|p2a: NO|Wish|p2a: NO
+|
+|-heal|p2a: NO|33/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p2a: NO|Protect|p2a: NO
+|-singleturn|p2a: NO|Protect
+|move|p1a: Judge Butcher|Psychic|p2a: NO
+|-activate|p2a: NO|move: Protect
+|
+|-heal|p2a: NO|83/100|[from] move: Wish|[wisher] NO
+|-heal|p2a: NO|89/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|-activate|p1a: Judge Butcher|item: Quick Claw
+|
+|move|p1a: Judge Butcher|Psychic|p2a: NO
+|-damage|p2a: NO|47/100
+|-unboost|p2a: NO|spd|1
+|move|p2a: NO|Thunder Wave|p1a: Judge Butcher
+|move|p1a: Judge Butcher|Thunder Wave|p2a: NO|[from]Magic Bounce
+|-status|p2a: NO|par
+|
+|-heal|p2a: NO|53/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Judge Butcher|Psychic|p2a: NO
+|-crit|p2a: NO
+|-damage|p2a: NO|0 fnt
+|faint|p2a: NO
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|11
+|
+|move|p2a: Dragapult|U-turn|p1a: Judge Butcher
+|-damage|p1a: Judge Butcher|70/100
+|
+|switch|p2a: Rio|Cinderace, F|100/100|[from]move: U-turn
+|move|p1a: Judge Butcher|Dazzling Gleam|p2a: Rio
+|-resisted|p2a: Rio
+|-damage|p2a: Rio|72/100
+|
+|upkeep
+|turn|12
+|-activate|p1a: Judge Butcher|item: Quick Claw
+|
+|move|p1a: Judge Butcher|Psychic|p2a: Rio
+|-damage|p2a: Rio|3/100
+|move|p2a: Rio|Fire Blast|p1a: Judge Butcher
+|-damage|p1a: Judge Butcher|25/100
+|-status|p1a: Judge Butcher|brn
+|-damage|p2a: Rio|0 fnt|[from] item: Life Orb
+|faint|p2a: Rio
+|
+|-damage|p1a: Judge Butcher|19/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Washed|Rotom-Wash|33/100
+|turn|13
+|-activate|p1a: Judge Butcher|item: Quick Claw
+|
+|move|p1a: Judge Butcher|Psychic|p2a: Washed
+|-damage|p2a: Washed|0 fnt
+|faint|p2a: Washed
+|
+|-damage|p1a: Judge Butcher|13/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|14
+|
+|move|p2a: Dragapult|U-turn|p1a: Judge Butcher
+|-damage|p1a: Judge Butcher|0 fnt
+|faint|p1a: Judge Butcher
+|
+|switch|p2a: Sheelp|Dubwool, F, shiny|100/100|[from]move: U-turn
+|
+|upkeep
+|
+|switch|p1a: Judge Slayer|Noivern, M|26/100
+|-damage|p1a: Judge Slayer|1/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: Judge Slayer|Draco Meteor|p2a: Sheelp
+|-damage|p2a: Sheelp|32/100
+|-unboost|p1a: Judge Slayer|spa|2
+|move|p2a: Sheelp|Body Press|p1a: Judge Slayer
+|-resisted|p1a: Judge Slayer
+|-damage|p1a: Judge Slayer|0 fnt
+|faint|p1a: Judge Slayer
+|
+|-heal|p2a: Sheelp|38/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Judge Burner|Cinderace, F|100/100
+|-damage|p1a: Judge Burner|76/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Judge Burner|Pyro Ball|p2a: Sheelp
+|-damage|p2a: Sheelp|0 fnt
+|faint|p2a: Sheelp
+|
+|upkeep
+|
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|17
+|
+|switch|p1a: Judge killer|Morpeko, F|100/100
+|-damage|p1a: Judge killer|88/100|[from] Stealth Rock
+|move|p2a: Dragapult|Shadow Ball|p1a: Judge killer
+|-resisted|p1a: Judge killer
+|-damage|p1a: Judge killer|38/100
+|
+|-formechange|p1a: Judge killer|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|18
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Judge killer
+|-resisted|p1a: Judge killer
+|-damage|p1a: Judge killer|0 fnt
+|faint|p1a: Judge killer
+|
+|upkeep
+|
+|switch|p1a: Judge Roadkill|Meowstic-F, F|100/100
+|-damage|p1a: Judge Roadkill|88/100|[from] Stealth Rock
+|turn|19
+|
+|move|p1a: Judge Roadkill|Protect|p1a: Judge Roadkill
+|-singleturn|p1a: Judge Roadkill|Protect
+|move|p2a: Dragapult|Shadow Ball|p1a: Judge Roadkill
+|-activate|p1a: Judge Roadkill|move: Protect
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Judge Roadkill
+|-supereffective|p1a: Judge Roadkill
+|-damage|p1a: Judge Roadkill|0 fnt
+|faint|p1a: Judge Roadkill
+|
+|upkeep
+|
+|switch|p1a: Judge Hit and Run|Barraskewda, M|100/100
+|-damage|p1a: Judge Hit and Run|88/100|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Dragapult|Shadow Ball|p1a: Judge Hit and Run
+|-damage|p1a: Judge Hit and Run|0 fnt
+|faint|p1a: Judge Hit and Run
+|
+|upkeep
+|
+|switch|p1a: Judge Burner|Cinderace, F|76/100
+|-damage|p1a: Judge Burner|51/100|[from] Stealth Rock
+|turn|22
+|
+|move|p1a: Judge Burner|Pyro Ball|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|56/100
+|-status|p2a: Dragapult|brn
+|move|p2a: Dragapult|Shadow Ball|p1a: Judge Burner
+|-damage|p1a: Judge Burner|0 fnt
+|faint|p1a: Judge Burner
+|
+|win|MAN0WAR
+|l|☆RidleySloth
