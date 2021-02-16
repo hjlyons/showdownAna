@@ -15,10 +15,18 @@ class Battle:
         """
         for action in actions:
             if action[0] == "Player1":
-                key = [poke for poke in self.trainer1.team if action[1] in poke][0]
+                try: 
+                    key = [poke for poke in self.trainer1.team if action[1] in poke][0]
+                except IndexError: 
+                    print("NEED TO SORT THE NICKNAMES OUT M8")
+                    continue
                 self.trainer1.team[key].change_health(action[2])
             elif action[0] == "Player2":
-                key = [poke for poke in self.trainer2.team if action[1] in poke][0]
+                try:
+                    key = [poke for poke in self.trainer2.team if action[1] in poke][0]
+                except IndexError: 
+                    print("NEED TO SORT THE NICKNAMES OUT M8")
+                    continue
                 self.trainer2.team[key].change_health(action[2])
 
 

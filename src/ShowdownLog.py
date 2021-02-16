@@ -3,7 +3,7 @@
 TODO: If Increased performance needed, may convert string checks into regex
 """
 def parse_turnline(in_line):
-    print(in_line)
+    #print(in_line)
     if "fail" in in_line:
         return None
     if "Substitute" in in_line:
