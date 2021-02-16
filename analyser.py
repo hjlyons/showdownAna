@@ -16,10 +16,9 @@ def main():
     # initialise the battle
     battle = Battle(player1, player2)
 
-    turnlines = []
-    turnlines.append([[player2, "Dragapult", 50], [player2, "Dragapult", 100]])
-    for line in turnlines: 
-        battle.process_turn(line[0], line[1])
+    for i in range(1, dummy_log.nturns+1):
+        actions_this_turn = dummy_log.get_turn_actions(i)
+        battle.process_turn(actions_this_turn)
 
     print("", repr(player1), "\n", repr(player2))
    

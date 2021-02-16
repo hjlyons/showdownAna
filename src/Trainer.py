@@ -9,9 +9,11 @@ class Trainer:
         for x in range(0, len(pokes)):
             self.team[pokes[x]] = Pokemon(pokes[x])
 
+
     def __repr__(self):
         team = ",".join([x for x in self.team])
         return "Player: %s Team: %s (%i)" % (self.name, team, len(self.team))
+
 
     def check_faints(self): 
         """

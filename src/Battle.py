@@ -6,15 +6,21 @@ class Battle:
         self.trainer2 = trainer2
 
 
-    def process_turn(self, action1, action2):
+    def process_turn(self, actions):
         """
         Process the actions taken this turn. The actions are 
         passed as 2 lists, the faster pokemon is first and 
         the slower second. So far the only options are damage 
         heal. Need to add status and switch.
         """
-        action1[0].team[action1[1]].change_health(action1[2])
-        action2[0].team[action2[1]].change_health(action2[2])
+        for action in actions:
+            if action[0] == "Player1":
+                key = [poke for poke in self.trainer1.team if action[1] in poke][0]
+                self.trainer1.team[key].change_health(action[2])
+            elif action[0] == "Player2":
+                key = [poke for poke in self.trainer2.team if action[1] in poke][0]
+                self.trainer2.team[key].change_health(action[2])
+
 
         # check if anyone fainted
         self.trainer1.check_faints()
