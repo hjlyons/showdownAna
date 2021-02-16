@@ -6,6 +6,10 @@ class Trainer:
     def __init__(self, name, pokes):
         self.team = {}
         self.name = name
+        
+        if len(pokes) != 6: 
+            raise AttributeError("There were", len(pokes), "on the team, not 6!!")
+
         for x in range(0, len(pokes)):
             self.team[pokes[x]] = Pokemon(pokes[x])
 
