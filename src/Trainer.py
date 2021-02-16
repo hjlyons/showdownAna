@@ -21,10 +21,6 @@ class Trainer:
         have zero health. If they do remove them from 
         the (self.) team.
         """
-        dead = []
-        for pokemon in self.team:
-            if self.team[pokemon].health == 0: 
-                dead.append(pokemon)
-                
+        dead = [poke for poke in self.team if self.team[poke].health == 0]       
         for pokemon in dead:
             self.team.pop(pokemon)
