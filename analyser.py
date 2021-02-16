@@ -17,6 +17,11 @@ def main():
         player1 = Trainer("Player1", team1)
         player2 = Trainer("Player2", team2)
 
+        # change which pokemon each player starts with
+        p1_first, p2_first = dummy_log.get_initialpokemon()
+        player1.set_current(player1.team[p1_first])
+        player2.set_current(player2.team[p2_first])
+
         # initialise the battle
         battle = Battle(player1, player2)
 

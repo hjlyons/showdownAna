@@ -13,10 +13,13 @@ class Trainer:
         for x in range(0, len(pokes)):
             self.team[pokes[x]] = Pokemon(pokes[x])
 
+        # initialise the current pokemon as the first in the list
+        # overwrite this before turn 1
+        self.current = self.team[pokes[0]]    
 
     def __repr__(self):
         team = ",".join([x for x in self.team])
-        return "Player: %s Team: %s (%i)" % (self.name, team, len(self.team))
+        return "Player: %s Team: %s (%i) Switched in: %s" % (self.name, team, len(self.team), self.current.name)
 
 
     def check_faints(self): 
@@ -28,3 +31,9 @@ class Trainer:
         dead = [poke for poke in self.team if self.team[poke].health == 0]       
         for pokemon in dead:
             self.team.pop(pokemon)
+
+    def set_current(self, pokemon):
+        """
+        Change the currently active pokemon.
+        """
+        self.current = pokemon
