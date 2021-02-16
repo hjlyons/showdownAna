@@ -6,11 +6,11 @@ from src.Battle import Battle
 import glob
 
 def main():
-    # read in the intial team lists for players 1 and 2
     test_files = glob.glob("example_logs/*.txt")[:15]
     for logfile in test_files:
         dummy_log = ShowdownLog(logfile)
 
+        # read in the intial team lists for players 1 and 2
         team1, team2 = dummy_log.get_initialteams()
 
         # initialise each player with their respective teams
@@ -20,6 +20,7 @@ def main():
         # initialise the battle
         battle = Battle(player1, player2)
 
+        #loop over all turns and process them
         for i in range(1, dummy_log.nturns+1):
             actions_this_turn = dummy_log.get_turn_actions(i)
             battle.process_turn(actions_this_turn)
