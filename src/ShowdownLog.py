@@ -17,7 +17,7 @@ def parse_turnline(in_line):
         return None
 
     if "switch" in in_line:
-        switch_moves = ['U-turn', 'Volt Switch']
+        switch_moves = ['U-turn', 'Volt Switch', 'Teleport', 'Baton Pass', 'Parting Shot', 'Flip Turn']
         if any(move in in_line for move in switch_moves):
             pokemon = in_line.split(": ")[-2].split("|")
         else:
