@@ -18,8 +18,8 @@ class Trainer:
         self.current = self.team[pokes[0]]    
 
     def __repr__(self):
-        team = ",".join([x for x in self.team])
-        return "Player: %s Team: %s (%i) Switched in: %s" % (self.name, team, len(self.team), self.current.name)
+        team = ",".join([x + "-" + str(self.team[x].health) for x in self.team])
+        return "%s: %s (%i) Switched in: %s" % (self.name, team, len(self.team), self.current.name)
 
 
     def check_faints(self): 

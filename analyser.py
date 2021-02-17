@@ -29,10 +29,10 @@ def main():
         for i in range(1, dummy_log.nturns+1):
             actions_this_turn = dummy_log.get_turn_actions(i)
             battle.process_turn(actions_this_turn)
+            
+            print("########### Turn", i, "###########")
+            print("", repr(player1), "\n", repr(player2))
 
-        print(logfile)
-        print("", repr(player1), "\n", repr(player2))
-   
 
 if __name__ == "__main__":
     main()
