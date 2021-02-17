@@ -8,6 +8,18 @@ def parse_turnline(in_line):
         return None
     if "Substitute" in in_line:
         return None
+    
+    if "switch" in in_line:
+        switch_moves = ['U-turn', 'Volt Switch']
+        if any(move in in_line for move in switch_moves):
+            pokemon = in_line.split(": ")[-2].split("|")
+        else:
+            pokemon = in_line.split(": ")[-1].split("|")
+        
+        nickname = pokemon[0]
+        original = pokemon[1].split(",")[0]
+        if nickname != original:
+            print(nickname, original)
 
     if (("damage" not in in_line) and ("heal" not in in_line)):
         return None
