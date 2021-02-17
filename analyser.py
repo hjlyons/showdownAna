@@ -6,9 +6,9 @@ from src.Battle import Battle
 import glob
 
 def main():
-    test_files = glob.glob("example_logs/*.txt")[:1]
+    test_files = glob.glob("example_logs/*.txt")[:10]
     for logfile in test_files:
-        print(logfile)
+        #print(logfile)
         dummy_log = ShowdownLog(logfile)
 
         # read in the intial team lists for players 1 and 2
@@ -17,11 +17,6 @@ def main():
         # initialise each player with their respective teams
         player1 = Trainer("Player1", team1)
         player2 = Trainer("Player2", team2)
-
-        # change which pokemon each player starts with
-        #p1_first, p2_first = dummy_log.get_initialpokemon()
-        #player1.set_current(player1.team[p1_first])
-        #player2.set_current(player2.team[p2_first])
 
         # initialise the battle
         battle = Battle(player1, player2)
@@ -32,9 +27,15 @@ def main():
             actions_this_turn = dummy_log.get_turn_actions(i)
             battle.process_turn(actions_this_turn)
 
-            print("########### Turn", i, "###########")
-            print("", repr(player1), "\n", repr(player2))
+            #print("########### Turn", i, "###########")
+            #print("", repr(player1), "\n", repr(player2))
 
+        if len(player1.team) == 0: 
+            print("Player 2 won!")
+        elif len(player2.team) == 0: 
+            print("Player 1 won!")
+        else: 
+            print(len(player1.team), len(player2.team))
 
 if __name__ == "__main__":
     main()
