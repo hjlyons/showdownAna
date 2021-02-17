@@ -17,16 +17,16 @@ class Field:
 
     def __repr__(self):
 
-        conditions_summary = "--- FieldSummary ---\n"
+        conditions_summary = "    FieldSummary    \n"
+        conditions_summary += "--------------------\n"
+        for c in PLAYER_CONDITIONS:
+            conditions_summary+= "{}: Player1 {}, Player2 {}\n".format(c,self.field_conditions["Player1_{}".format(c)], self.field_conditions["Player2_{}".format(c)] )
+        conditions_summary += "--------------------\n"
         conditions_summary += "Weather: {}\n".format(self.field_conditions["Weather"])
         conditions_summary += "Terrain: {}\n".format(self.field_conditions["Terrain"])
         conditions_summary += "TrickRoom: {}\n".format(self.field_conditions["TrickRoom"])
         conditions_summary += "Gravity: {}\n".format(self.field_conditions["Gravity"])
-        for c in PLAYER_CONDITIONS:
-            conditions_summary+= "{}: Player1 {}, Player2 {}\n".format(c,self.field_conditions["Player1_{}".format(c)], self.field_conditions["Player2_{}".format(c)] )
-
-        # Remove trailing newline
-        conditions_summary = conditions_summary[:-1]
+        conditions_summary += "===================="
 
         return conditions_summary
 
