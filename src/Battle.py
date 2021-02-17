@@ -21,6 +21,7 @@ class Battle:
 
             if action[0] == "switch_rename": 
                 trainer.change_name(action[2], action[3])
+                trainer.set_current(trainer.team[action[3]])
             elif action[0] == "switch": 
                 trainer.set_current(trainer.team[action[2]])
             elif action[0] == "change_hp":
