@@ -8,6 +8,7 @@ import glob
 def main():
     test_files = glob.glob("example_logs/*.txt")[:1]
     for logfile in test_files:
+        print(logfile)
         dummy_log = ShowdownLog(logfile)
 
         # read in the intial team lists for players 1 and 2
@@ -18,18 +19,19 @@ def main():
         player2 = Trainer("Player2", team2)
 
         # change which pokemon each player starts with
-        p1_first, p2_first = dummy_log.get_initialpokemon()
-        player1.set_current(player1.team[p1_first])
-        player2.set_current(player2.team[p2_first])
+        #p1_first, p2_first = dummy_log.get_initialpokemon()
+        #player1.set_current(player1.team[p1_first])
+        #player2.set_current(player2.team[p2_first])
 
         # initialise the battle
         battle = Battle(player1, player2)
 
         #loop over all turns and process them
-        for i in range(1, dummy_log.nturns+1):
+        for i in range(0, dummy_log.nturns+1):
+            
             actions_this_turn = dummy_log.get_turn_actions(i)
             battle.process_turn(actions_this_turn)
-            
+
             print("########### Turn", i, "###########")
             print("", repr(player1), "\n", repr(player2))
 

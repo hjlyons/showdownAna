@@ -138,12 +138,15 @@ class ShowdownLog:
         Returns all logfile lines for a given turn, in their original formatting
         """
 
-        if turn_number < 1:
+        if turn_number < 0:
             return []
         if turn_number >= len(self.turn_indexlist):
             return []
 
-        turn_lines = [self.log_lines[i] for i in range(self.turn_indexlist[turn_number-1], self.turn_indexlist[turn_number])]
+        if turn_number == 0:
+            turn_lines = [self.log_lines[i] for i in range(self.start_index, self.turn_indexlist[0])]
+        else:
+            turn_lines = [self.log_lines[i] for i in range(self.turn_indexlist[turn_number-1], self.turn_indexlist[turn_number])]
         
         return turn_lines
 
@@ -152,12 +155,14 @@ class ShowdownLog:
         Returns all logfile lines for a given turn, in their original formatting
         """
 
-        if turn_number < 1:
+        if turn_number < 0:
             return []
         if turn_number > self.nturns:
             return []
         
-        if turn_number < self.nturns:
+        if turn_number == 0:
+            turn_lines = [self.log_lines[i] for i in range(self.start_index, self.turn_indexlist[0])]
+        elif ((turn_number > 0) and (turn_number < self.nturns)):
             turn_lines = [self.log_lines[i] for i in range(self.turn_indexlist[turn_number-1], self.turn_indexlist[turn_number])]
         else:
             turn_lines = [self.log_lines[i] for i in range(self.turn_indexlist[turn_number-1], self.win_index)]
