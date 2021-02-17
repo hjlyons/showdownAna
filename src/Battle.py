@@ -14,20 +14,20 @@ class Battle:
         heal. Need to add status and switch.
         """
         for action in actions:
-            if action[0] == "Player1":
-                try: 
-                    key = [poke for poke in self.trainer1.team if action[1] in poke][0]
-                except IndexError: 
-                    print("NEED TO SORT THE NICKNAMES OUT M8", action[1], "not in team!")
-                    continue
-                self.trainer1.team[key].change_health(action[2])
-            elif action[0] == "Player2":
+            if action[1] == "Player1":
+                trainer = self.trainer1
+            elif action[1] == "Player2":
+                trainer = self.trainer2
+
+            if action[0] == "switch_rename": 
+                trainer.change_name(action[2], action[3])
+            elif action[0] == "switch": 
+                trainer.set_current(trainer.team[action[2]])
+            elif action[0] == "change_hp":
                 try:
-                    key = [poke for poke in self.trainer2.team if action[1] in poke][0]
-                except IndexError: 
-                    print("NEED TO SORT THE NICKNAMES OUT M8")
-                    continue
-                self.trainer2.team[key].change_health(action[2])
+                    trainer.team[action[2]].change_health(action[3])
+                except KeyError:
+                    print(action[2], "not in team!", action, trainer.team)
 
 
         # check if anyone fainted

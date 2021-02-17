@@ -6,7 +6,7 @@ from src.Battle import Battle
 import glob
 
 def main():
-    test_files = glob.glob("example_logs/*.txt")[:15]
+    test_files = glob.glob("example_logs/*.txt")[:1]
     for logfile in test_files:
         dummy_log = ShowdownLog(logfile)
 

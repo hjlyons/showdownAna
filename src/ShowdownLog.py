@@ -9,6 +9,11 @@ def parse_turnline(in_line):
     if "Substitute" in in_line:
         return None
     
+    if "p1a" in in_line:
+        player="Player1"
+    else:
+        player="Player2"
+    
     if "switch" in in_line:
         switch_moves = ['U-turn', 'Volt Switch']
         if any(move in in_line for move in switch_moves):
@@ -19,7 +24,9 @@ def parse_turnline(in_line):
         nickname = pokemon[0]
         original = pokemon[1].split(",")[0]
         if nickname != original:
-            print(nickname, original)
+            return ['switch_rename', player, original, nickname]
+        else:
+            return ['switch', player, original]
 
     if (("damage" not in in_line) and ("heal" not in in_line)):
         return None
@@ -31,10 +38,6 @@ def parse_turnline(in_line):
     if "|[silent]" in in_line:
         in_line = in_line.split("|[silent]")[0]
 
-    if "p1a" in in_line:
-        player="Player1"
-    else:
-        player="Player2"
 
     pokemon = in_line.split(": ")[-1].split("|")[0]
 
@@ -46,7 +49,7 @@ def parse_turnline(in_line):
     else:
         hp = int(hp_string)
 
-    return[player, pokemon, hp]
+    return ["change_hp", player, pokemon, hp]
 
 
 class ShowdownLog:

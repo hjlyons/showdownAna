@@ -37,3 +37,19 @@ class Trainer:
         Change the currently active pokemon.
         """
         self.current = pokemon
+
+
+    def change_name(self, old_name, new_name): 
+        """
+        Some people are weird and rename their pokemon.
+        The name is only updated when they are switched in
+        so we need to change the name in our team.
+        """
+        # the nickname|original name comparison is done 
+        # every time this poke is switched. if already
+        # done, don't do again.
+        if new_name in self.team.keys(): 
+            return
+
+        self.team[new_name] = self.team[old_name]
+        self.team.pop(old_name)
