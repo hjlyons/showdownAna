@@ -9,11 +9,13 @@ def parse_turnline(in_line):
     if "Substitute" in in_line:
         return None
     
-    if "p1a" in in_line:
+    if "|p1a:" in in_line:
         player="Player1"
-    else:
+    elif "|p2a":
         player="Player2"
-    
+    else:
+        return None
+
     if "switch" in in_line:
         switch_moves = ['U-turn', 'Volt Switch']
         if any(move in in_line for move in switch_moves):
