@@ -4,9 +4,22 @@ TODO: If Increased performance needed, may convert string checks into regex
 """
 def parse_turnline(in_line):
     #print(in_line)
+
+    if "|-weather|" in in_line:
+        weather = in_line.split("|")[2]
+        action = ["weather_update", weather]
+        return ["weather_update", weather]
+    if "|-fieldstart|" in in_line:
+        field_string = in_line.split("|")[2]
+        field_string = field_string.replace("move: ","").replace(" ","")
+        return ["field_start", field_string]
+    if "|-fieldend|" in in_line:
+        field_string = in_line.split("|")[2]
+        field_string = field_string.replace("move: ","").replace(" ","")
+        return ["field_end", field_string]
+
     if "fail" in in_line or "Substitute" in in_line:
         return None
-
     if "message" in in_line and "forfeit" in in_line:
         print("Someone quit...")
         return None

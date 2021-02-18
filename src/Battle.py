@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 
 class Battle: 
-    def __init__(self, trainer1, trainer2): 
+    def __init__(self, trainer1, trainer2, field): 
         self.trainer1 = trainer1
         self.trainer2 = trainer2
+        self.field = field
 
 
     def process_turn(self, actions):
@@ -14,6 +15,17 @@ class Battle:
         heal. Need to add status and switch.
         """
         for action in actions:
+
+            if action[0] == "weather_update":
+                self.field.update_weather(action[1])
+                continue
+            if action[0] == "field_start":
+                self.field.update_global(action[1], starting=True)
+                continue
+            if action[0] == "field_end":
+                self.field.update_global(action[1], starting=False)
+                continue
+
             if action[1] == "Player1":
                 trainer = self.trainer1
             elif action[1] == "Player2":
