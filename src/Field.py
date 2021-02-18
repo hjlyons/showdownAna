@@ -1,7 +1,14 @@
 #!/usr/bin/env python3
 
+"""
+Tracks the status of the battle fields
+Hazards for both players, Weather, Terrain
+
+TODO: Track Player Substitutes
+"""
+
 PLAYER_HAZARDS_INT =  ["Spikes", "ToxicSpikes"]
-PLAYER_HAZARDS_BOOL =  ["StealthRocks", "StickyWeb"]
+PLAYER_HAZARDS_BOOL =  ["StealthRock", "StickyWeb"]
 PLAYER_DEFENCES =  ["LightScreen", "Reflect", "Substitute"]
 
 ALLOWED_WEATHER = ["none", "RainDance", "Sandstorm", "Hail", "SunnyDay"]
@@ -46,6 +53,19 @@ class Field:
                 self.field_conditions["Terrain"] = "none"
             else:
                self.field_conditions[condition] = False
+
+    def update_side(self, player, condition, starting=True):
+        side_condition = "{}_{}".format(player, condition)
+        if starting:
+            if condition in PLAYER_HAZARDS_INT:
+                self.field_conditions[side_condition] += 1
+            else:
+                self.field_conditions[side_condition] = True
+        else:
+            if condition in PLAYER_HAZARDS_INT:
+                self.field_conditions[side_condition] = 0
+            else:
+                self.field_conditions[side_condition] = False
 
     def __repr__(self):
 

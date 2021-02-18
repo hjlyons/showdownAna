@@ -25,6 +25,13 @@ class Battle:
             if action[0] == "field_end":
                 self.field.update_global(action[1], starting=False)
                 continue
+            if action[0] == "side_start":
+                self.field.update_side(action[1], action[2], starting=True)
+                continue
+            if action[0] == "side_end":
+                self.field.update_side(action[1], action[2], starting=False)
+                continue
+
 
             if action[1] == "Player1":
                 trainer = self.trainer1

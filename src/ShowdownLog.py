@@ -5,18 +5,29 @@ TODO: If Increased performance needed, may convert string checks into regex
 def parse_turnline(in_line):
     #print(in_line)
 
+    # Field updates
     if "|-weather|" in in_line:
         weather = in_line.split("|")[2]
-        action = ["weather_update", weather]
         return ["weather_update", weather]
     if "|-fieldstart|" in in_line:
-        field_string = in_line.split("|")[2]
-        field_string = field_string.replace("move: ","").replace(" ","")
+        field_string = in_line.split("|")[2].replace("move: ","").replace(" ","")
         return ["field_start", field_string]
     if "|-fieldend|" in in_line:
-        field_string = in_line.split("|")[2]
-        field_string = field_string.replace("move: ","").replace(" ","")
+        field_string = in_line.split("|")[2].replace("move: ","").replace(" ","")
         return ["field_end", field_string]
+    if "|-sidestart|p1" in in_line:
+        side_string = in_line.split("|")[3].replace("move: ","").replace(" ","")
+        return ["side_start", "Player1", side_string]
+    if "|-sidestart|p2" in in_line:
+        side_string = in_line.split("|")[3].replace("move: ","").replace(" ","")
+        return ["side_start", "Player2", side_string]
+    if "|-sideend|p1" in in_line:
+        side_string = in_line.split("|")[3].replace("move: ","").replace(" ","")
+        return ["side_end", "Player1", side_string]
+    if "|-sideend|p2" in in_line:
+        side_string = in_line.split("|")[3].replace("move: ","").replace(" ","")
+        return ["side_end", "Player2", side_string]
+
 
     if "fail" in in_line or "Substitute" in in_line:
         return None
